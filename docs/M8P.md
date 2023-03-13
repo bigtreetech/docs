@@ -1,4 +1,4 @@
-# M8P
+# Manta M8P
 
 [<img src=img/M8P/M8P_Title.png width="600" />](https://bigtreetech.github.io/docs/M8P.html)
 
