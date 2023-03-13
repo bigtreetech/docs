@@ -1,4 +1,4 @@
-# M5P
+# Manta M5P
 
 [<img src=img/M5P/M5P_Title.png width="600" />](https://bigtreetech.github.io/docs/M5P.html)
 
