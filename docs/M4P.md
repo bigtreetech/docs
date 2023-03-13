@@ -1,4 +1,4 @@
-# M4P
+# Manta M4P
 
 [<img src=img/M4P/M4P_Title.png width="600"/>](https://z1996xm.github.io/BIGTREETECH/M4P.html)
 
