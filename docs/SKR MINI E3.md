@@ -115,26 +115,25 @@ The same USB interface can be used to communicate with a Raspberry pi or any oth
 
 ### **Firmware of motherboard**
 
-The package contains the fifirmware for testing (Ender3), which can be used directly or changed according to your needs.
+The package contains the firmware for testing (Ender3), which can be used directly or changed according to your needs.
 
-**How to get the fifirmware**
+**How to get the firmware**
 
 - Contact our customer service or technical support; 
 
 - Login to our website to download: https://github.com/bigtreetech
 
+**Motherboard firmware update**
 
-**Motherboard fifirmware update**
+- Copy firmware.bin fifile to the root directory of SD card
 
-- Copy fifirmware.bin fifile to the root directory of SD card
-
-- **<font  color="red">*NOTE: Do not change fifile name!* </font>**
+- **<font  color="red">*NOTE: Do not change file name!* </font>**
 - Insert the SD card into the slot, re-power on or reset, the update will complete after 10S, And you should see the status LED blinking red during the update..
 
 
 **Please refer to the BTT SKR MINI E3 V3.0-PIN.pdf**
 
-- for motherboard fifirmware DIY.
+- for motherboard firmware DIY.
 
 
 ## **PRECAUTIONS**
