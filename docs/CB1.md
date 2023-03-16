@@ -15,7 +15,6 @@
 * Compatible with USB2.0 Interface
 * Support 100M Ethernet + 100M WiFi
 * Having the same BTB header as the Raspberry Pi CM4.
-* test2023-03-07
 
 ## **Basic Parameters**
 
