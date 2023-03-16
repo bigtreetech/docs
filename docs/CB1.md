@@ -31,7 +31,7 @@
 
 ## **Schematic**
 
-[BIGTREETECH_CB1_V22_220812_SCH](https://raw.githack.com/bigtreetech/docs/main/docs/download/BIGTREETECH_CB1_V22_220812_SCH.pdf)
+[BIGTREETECH_CB1_V22_220812_SCH](https://raw.githack.com/bigtreetech/docs/master/docs/download/BIGTREETECH_CB1_V22_220812_SCH.pdf)
 
 ## **Pinout**
 
