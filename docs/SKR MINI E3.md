@@ -125,7 +125,7 @@ The package contains the firmware for testing (Ender3), which can be used direct
 
 **Motherboard firmware update**
 
-- Copy firmware.bin fifile to the root directory of SD card
+- Copy firmware.bin file to the root directory of SD card
 
 - **<font  color="red">*NOTE: Do not change file name!* </font>**
 - Insert the SD card into the slot, re-power on or reset, the update will complete after 10S, And you should see the status LED blinking red during the update..
