@@ -94,7 +94,7 @@ CB1:
 
 <img src=img/M4P/M4P_Make.png width="600" />
 
-3. Run **make** to compile firmware，”klipper.bin” file will be generated in **home/pi/kliiper/out** folder when make is finished, download it onto your computer using the ssh application.
+3. Run **make** to compile firmware，”klipper.bin” file will be generated in **home/pi/kliper/out** folder when make is finished, download it onto your computer using the ssh application.
 
 ### **· Firmware update**
 
