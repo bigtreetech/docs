@@ -901,9 +901,29 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#drive-current-formula" class="md-nav__link">
-    Drive Current Formula
+  <a href="#standalone-mode-vref-setting" class="md-nav__link">
+    Standalone Mode VREF Setting:
   </a>
+  
+    <nav class="md-nav" aria-label="Standalone Mode VREF Setting:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trinamic-driver-current-formula" class="md-nav__link">
+    Trinamic Driver Current Formula
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#potentiometer-regulation-instructions" class="md-nav__link">
+    Potentiometer regulation instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1322,9 +1342,29 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#drive-current-formula" class="md-nav__link">
-    Drive Current Formula
+  <a href="#standalone-mode-vref-setting" class="md-nav__link">
+    Standalone Mode VREF Setting:
   </a>
+  
+    <nav class="md-nav" aria-label="Standalone Mode VREF Setting:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trinamic-driver-current-formula" class="md-nav__link">
+    Trinamic Driver Current Formula
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#potentiometer-regulation-instructions" class="md-nav__link">
+    Potentiometer regulation instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1469,24 +1509,52 @@ current for use of internal sense resistors (optional mode).</td></tr>
     <td>INDEX</td><td>Configurable index output. Provides index pulse.</td</tr>
     <tr>
 </table>
+
 <h2 id="hardware-installation"><strong>Hardware Installation</strong><a class="headerlink" href="#hardware-installation" title="Permanent link">&para;</a></h2>
 <h3 id="microstep-setting"><strong>Microstep Setting</strong><a class="headerlink" href="#microstep-setting" title="Permanent link">&para;</a></h3>
 <p><img src=img/TMC2209/TMC2209_Microstep.png width="600"/></p>
-<h3 id="drive-current-formula"><strong>Drive Current Formula</strong><a class="headerlink" href="#drive-current-formula" title="Permanent link">&para;</a></h3>
-<p><img src=img/TMC2209/TMC2209_Cur.png width="600"/></p>
+<h3 id="standalone-mode-vref-setting"><strong>Standalone Mode V<sub>REF</sub> Setting:</strong><a class="headerlink" href="#standalone-mode-vref-setting" title="Permanent link">&para;</a></h3>
+<h4 id="trinamic-driver-current-formula"><strong>Trinamic Driver Current Formula</strong><a class="headerlink" href="#trinamic-driver-current-formula" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>\begin{flalign}
+&amp; I_{RMS} = {325mV \over R_{SENSE} + 20mΩ} * {1 \over \sqrt{2}} * {V_{REF} \over 2.5V} &amp;
+\end{flalign}
+</code></pre></div>
+
+<p>&nbsp;  </p>
+<p>Our 2209 drivers utilise 110 mΩ R<sub>SENSE</sub> resistors:</p>
+<div class="highlight"><pre><span></span><code>\begin{flalign}
+&amp; I_{RMS} = {325mV \over 110 + 20mΩ} * {1 \over \sqrt{2}} * {V_{REF} \over 2.5V} &amp;
+\end{flalign}
+</code></pre></div>
+
+<p>&nbsp;          </p>
+<p>This simplifies to:</p>
+<div class="highlight"><pre><span></span><code>\begin{flalign}
+&amp; I_{RMS} = {V_{REF} \over \sqrt{2}} &amp;
+\end{flalign}
+</code></pre></div>
+
+<p>&nbsp;          </p>
+<p>To Calculate Peak Current:</p>
+<div class="highlight"><pre><span></span><code>\begin{flalign}
+&amp; {I_{RMS} \over \sqrt{2}} = I_{PEAK} = V_{REF} &amp;
+\end{flalign}
+</code></pre></div>
+
+<p>&nbsp;  </p>
 <ol>
 <li>
-<p>Vref：0.2V – 2.2V</p>
+<p>Vref range：0.2V – 2.2V</p>
 </li>
 <li>
-<p>Factory default Vref: 1.2V ±0.1V</p>
+<p>Factory default Vref(same as Peak Current): 1.2V ±0.1V</p>
 </li>
 <li>
-<p>Factory default current：0.9A</p>
+<p>Factory default RMS current：~0.9A </p>
 </li>
-<li>
-<p>Potentiometer regulation instructions</p>
-</li>
+</ol>
+<h4 id="potentiometer-regulation-instructions"><strong>Potentiometer regulation instructions</strong><a class="headerlink" href="#potentiometer-regulation-instructions" title="Permanent link">&para;</a></h4>
+<ol>
 <li>
 <p>Rotate the potentiometer clockwise to reduce the Vref voltage and the drive current can be reduced.</p>
 </li>
