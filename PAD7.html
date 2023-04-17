@@ -537,12 +537,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -582,6 +584,205 @@
       <a href="PI4B.html" class="md-nav__link">
         PI4B
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          PAD7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="PAD7.html" class="md-nav__link md-nav__link--active">
+        PAD7
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-features" class="md-nav__link">
+    Main Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-parameters" class="md-nav__link">
+    Basic Parameters
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dimensions" class="md-nav__link">
+    Dimensions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connectivity" class="md-nav__link">
+    Connectivity
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-assembly" class="md-nav__link">
+    Hardware assembly
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware assembly">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connection-between-pad7-ebb36-and-adxl345" class="md-nav__link">
+    Connection between Pad7, EBB36, and ADXL345
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-replace-cb1-with-cm4" class="md-nav__link">
+    To Replace CB1 with CM4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-remove-the-bracke" class="md-nav__link">
+    To Remove the Bracke
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-configuration" class="md-nav__link">
+    Software Configuration
+  </a>
+  
+    <nav class="md-nav" aria-label="Software Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to-work-with-a-cb1" class="md-nav__link">
+    To Work with a CB1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-download-and-install-the-writing-software" class="md-nav__link">
+    To Download and Install the Writing Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-to-write-os" class="md-nav__link">
+    Start to Write OS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-settings" class="md-nav__link">
+    System Settings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-work-with-a-cm4" class="md-nav__link">
+    To Work with a CM4
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#can-bus-not-working" class="md-nav__link">
+    CAN bus Not Working
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adxl345-not-working" class="md-nav__link">
+    ADXL345 Not Working
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cautions" class="md-nav__link">
+    Cautions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1562,6 +1763,41 @@ iface can0 can static
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="PI4B.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: PI4B" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              PI4B
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="TFT43-DIP.html" class="md-footer__link md-footer__link--next" aria-label="Next: TFT43-DIP" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              TFT43-DIP
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
