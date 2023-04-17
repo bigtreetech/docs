@@ -99,6 +99,7 @@ nav:
   - IOT:
     - CB1.md
     - PI4B.md
+    - PAD7.md
   - Displays:
     - TFT43-DIP.md
     - TFT35 E3.md
