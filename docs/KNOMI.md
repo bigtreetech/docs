@@ -148,7 +148,7 @@ KNOMI user interface employs visual elements during various stages of printer op
 
 <img src=img/KNOMI/KNOMI_Tip.png width="600" />
 
-3、Click https://github.com/bigtreetech/KNOMI to download knomi project . Using VSCODE https://marlinfw.org/docs/...mio_vscode.html to open the project and enter lvgl_ Gif.cpp file.
+3、Click https://github.com/bigtreetech/KNOMI to download knomi project . Using VSCODE https://marlinfw.org/docs/basics/install_platformio_vscode.html to open the project and enter lvgl_ Gif.cpp file.
 
 <img src=img/KNOMI/KNOMI_Tip1.png width="600" />
 
