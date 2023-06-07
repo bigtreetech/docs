@@ -217,3 +217,29 @@ For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.ht
 <img src=img/KNOMI/KNOMI_gif13.png width="600" />
 
 <img src=img/KNOMI/KNOMI_gif14.png width="600" />
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/bigtreetech-knomi-v1-0
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

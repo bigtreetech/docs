@@ -120,3 +120,29 @@ hdmi_drive=1
 2.After entering the system desktop, right-click the audio source icon in the upper right corner, and select HDMI.
 
 <img src=img/HDMI5/HDMI5_Desktop.png width="600"/>
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

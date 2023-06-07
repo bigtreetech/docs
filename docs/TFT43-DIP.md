@@ -85,3 +85,28 @@ dtoverlay=gt911_btt_tft43_dip
 dtparam=rotate_90
 ```
 
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/bigtreetech-pi-tft43-dip-screen
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

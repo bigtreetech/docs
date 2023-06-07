@@ -311,3 +311,29 @@ The precautions listed in this section should not be overlooked. They have been 
 - You cannot power external devices using the USB-C interface. It is designed for data only.
 - Always consult the PIN.pdf diagram when making jumper connections or wiring changes. Assuming a connection order may result in damage to the motherboard.
 - It is recommended to update the firmware using SD card. Using DFU (direct programming via the USB port) will overwrite the bootloader meaning that you will no longer have the option to update via SD card unless you reflash the bootloader.
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/bigtreetech-octopus-pro-v1-0-chip-f446
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

@@ -50,3 +50,29 @@ Uncomment overlays=tft35_spi to enable TFT35 SPI screen (Delete '#' at the begin
 <font  color="red">***NOTE: If the OS image of v2.2.1 version is used. Set to overlays=tft35_spi25 instead of overlays=tft35_spi Use the SPI speed of 25Mhz instead of the default 50Mhz to avoid display confusion. If the OS image after V2.2.1 is used, The OS will use a lower and more stable speed by default.***</font>
 
 <img src=img/TFT35_SPI/TFT35_SPI_Soft3.png width="600" />
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/bigtreetech-tft35-spi-v2-1-touchscreen-io2can-module
+
+​			
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

@@ -69,3 +69,29 @@ TFT35 V3.0 is a medium size, dual-mode, ultra-clear 3D printer display. It is an
 
 - The firmware file name in the SD card cannot be changed, including capitalization.
 - Ensure that all wires and connectors are correctly plugged in beforepower-on.
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/bigtreetech-tft35-v3-0-display-two-working-modes
+
+​			
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

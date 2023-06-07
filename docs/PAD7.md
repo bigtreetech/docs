@@ -403,3 +403,29 @@ iface can0 can static
 If you require additional resources for this product, please visit https://github.com/bigtreetech/ to find them. If you cannot find the resources you need, please reach out to our after-sales support team for assistance.
 
 If you encounter any other issues while using this product, please don't hesitate to contact us. We will provide careful answers to your inquiries. We also welcome any feedback or suggestions you may have about our products, and we will consider them carefully. Thank you for choosing BIGTREETECH. Your support means a lot to us!
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/bigtreetech-pad-7
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

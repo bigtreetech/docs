@@ -119,3 +119,29 @@ Found canbus_uuid=0e0d81e4210c
 
 - 12/24V and GND should be connected correctly.
 - When using CAN communication, you need to see which CAN node is used as a terminal. If using a terminal, you must plug the jumper cap at the 120R position.
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-connecting-klipper-expansion-device?variant=39762747949154	
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

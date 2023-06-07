@@ -228,4 +228,28 @@ https://bigtreetech.github.io/docs/Software%20Installation.html
 - All unplugging and plugging operations should be performed under the condition of power off, including enabling the eMMC writing.
 - Pay attention to the heat dissipation of CM4 and CB1. The CM4/CB1 may become quite hot if the running application consumes too many system resources.
 
-## **Product Purchase Link**
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/manta-m4p-m8p?variant=39859521716322
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

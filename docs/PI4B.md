@@ -92,3 +92,29 @@ https://github.com/raspberrypi/usbboot#building
 - All unplugging and plugging operations should be performed under the condition of power off, including enabling the eMMC writing function.
 - Pay attention to the heat dissipation of CM4. If the running application consumes too many system resources, the CM4 will get hot quite seriously.
 - Handle the board gently to prevent damage.
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/pi4b-adapter-v1-0?variant=39919128969314
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

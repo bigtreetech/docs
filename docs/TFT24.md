@@ -64,3 +64,29 @@ card detection indicator. D1 often shines on when SD card is inserted, and the l
 
 - The name of the firmware file in the SD card cannot be changed. (including capital and small letters)
 - Wiring process must be under the precondition of power outages.Users must check the correct connection of the circuit and the correct insertion of the drive before turning on electricity.Pay attention to the wiring sequence and do not insert the wire inversely. Please refer to PIN file for detailed line order.
+
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/tft24v1-1-gd-version
+
+
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com

@@ -76,3 +76,28 @@ power supply;**</font>
 - The wiring process must be carried out under the premise of power failure. The power can be put on after checking the correct connection of the circuit and the correct insertion of the drive. This prevents boards and screens from burning up due to faulty wiring, causing unnecessary damage.
 - Pay attention to the wiring sequence and do not insert the wire inversely. Please refer to PIN file for detailed line order.
 
+
+
+## Product Purchase Link
+
+**Purchase Link:**
+
+https://biqu.equipment/products/btt-tft35-e3-v3-0-display-touch-screen-two-working-modes
+
+​			
+
+**If you have any issues with the product, please submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Navigation:**
+
+BIQU Official Website:                         				http://biqu3d.com
+
+BIGTREETECH Official Website:           			   http://bigtree-tech.com
+
+Online Store:                                      				    https://biqu.equipment
+
+Community:                                      				     https://community.biqu3d.com
