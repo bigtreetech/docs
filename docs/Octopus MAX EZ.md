@@ -187,13 +187,18 @@ Open **platformio.ini** file and change **default_envs** to **STM32H723Zx_btt**.
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software1.png width="600"/>
 
 **Configure Motherboard and Serial Port**
+
 **Set MOTHERBOARD to BOARD_BTT_OCTOPUS_MAX_EZ**
 
-#define MOTHERBOARD BOARD_BTT_OCTOPUS_MAX_EZ
-#define SERIAL_PORT 3    (enable TFT serial port)
-#define BAUDRATE 115200  (set baudrate to the same as the communication device)
-#define SERIAL_PORT_2 -1  (enable USB serial port)
-#define SERIAL_PORT_3 7  (enable WIFI serial port) 
+\#define MOTHERBOARD BOARD_BTT_OCTOPUS_MAX_EZ
+
+\#define SERIAL_PORT 3      (enable TFT serial port)
+
+\#define BAUDRATE 115200   (set baudrate to the same as the communication device)
+
+\#define SERIAL_PORT_2 -1  (enable USB serial port)
+
+\#define SERIAL_PORT_3 7   (enable WIFI serial port) 
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software2.png width="600"/>
 
@@ -211,17 +216,21 @@ When using SPI mode, you need to enable TMC_USE_SW_SPI in Configuration_adv.h
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software5.png width="600"/>
 
-\#define SENSORLESS_HOMING // enable sensorless homing
+\#define SENSORLESS_HOMING  // enable sensorless homing
+
 \#define xx_STALL_SENSITIVITY 8 // sensitivity setting, TMC2209 range from 0 to 255, higher number results in more sensitive trigger threshold, sensitivity too high will cause endpoint to trigger before gantry actually moves to the end, lower number results in less sensitive trigger threshold, too low of sensitivity will cause endpoint to not trigger and gantrying continue. Other drivers range from 63 to -64, lower numbers result in a more sensitive trigger threshold. 
+
 \#define IMPROVE_HOMING_RELIABILITY  // can be used to set independent motor current for homing moves(xx_CURRENT_HOME) to improve homing reliability.
 
 #### 100K NTC or PT1000
 
-When using 100K NTC, pull-up resistance is 4.7K, when using PT1000, pull-up resistance is 2.2K, set sensor type to 1 for 100K NTC +4.7K pull-up resistance, 1022 for PT1000 + 2.2K pull-up resistance. (Note: this method has a much lower accuracy than the MAX31865 in reading temperature.)
+When using 100K NTC, pull-up resistance is 4.7K, when using PT1000, pull-up resistance is 2.2K, set sensor type to 1 for 100K NTC +4.7K pull-up resistance, 1022 for PT1000 + 2.2K pull-up resistance.**<font  color="red"> (Note: this method has a much lower accuracy than the MAX31865 in reading temperature.)</font>**
 
-#define TEMP_SENSOR_0 1
-#define TEMP_SENSOR_1 1
-#define TEMP_SENSOR_BED 1
+\#define TEMP_SENSOR_0 1
+
+\#define TEMP_SENSOR_1 1
+
+\#define TEMP_SENSOR_BED 1
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software6.png width="600"/>
 
@@ -233,22 +242,25 @@ When using 100K NTC, pull-up resistance is 4.7K, when using PT1000, pull-up resi
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software8.png width="600"/>
 
-#define BLTOUCH  // Enable bltouch
+\#define BLTOUCH  // Enable bltouch
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software9.png width="600"/>
 
-#define NOZZLE_TO_PROBE_OFFSET { -40, -10, -2.85 } // set BLtouch probe offset
-#define PROBING_MARGIN 10 // set distance between probe area and print area perimeter
+\#define NOZZLE_TO_PROBE_OFFSET { -40, -10, -2.85 } // set BLtouch probe offset
+
+\#define PROBING_MARGIN 10 // set distance between probe area and print area perimeter
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software10.png width="600"/>
 
-#define AUTO_BED_LEVELING_BILINEAR // set probe pattern
-#define RESTORE_LEVELING_AFTER_G28 // apply leveling after G28 homing command
+\#define AUTO_BED_LEVELING_BILINEAR // set probe pattern
+
+\#define RESTORE_LEVELING_AFTER_G28 // apply leveling after G28 homing command
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software11.png width="600"/>
 
-#define GRID_MAX_POINTS_X 5 // set number of probe points for x axis, usually 5 point is sufficient
-#define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X // set the number of probe points for Y axis to the same as X axis.
+\#define GRID_MAX_POINTS_X 5 // set number of probe points for x axis, usually 5 point is sufficient
+
+\#define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X // set the number of probe points for Y axis to the same as X axis.
 
 If bltouch also functions as your Z homing sensor, no wiring change is needed, just set it in the firmware. 
 
@@ -277,6 +289,7 @@ There are two methods for power loss recovery
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software15.png width="600"/>
 
 \#define POWER_LOSS_RECOVERY // enable power loss recovery
+
 \#define PLR_ENABLED_DEFAULT  true // true default to power loss recovery enabled
 
 2、External UPS 24V V1.0 module, when power is cut, the module will provide power to the board and signal the board to save current print status to SD card. This method has virtually no effect on the life of the SD card. 
@@ -284,19 +297,25 @@ There are two methods for power loss recovery
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software16.png width="600"/>
 
 \#define POWER_LOSS_RECOVERY // enable power loss recovery
+
 \#define PLR_ENABLED_DEFAULT true // true default to power loss recovery enabled
+
 \#define POWER_LOSS_ZRAISE  10 // raise the print head by 10mm after power loss to prevent the nozzle from touching the printed part
 
- \#define POWER_LOSS_STATE HIGH // set signal level, UPS 24V V1.0 returns low level when not triggered and HIGH level when power is cut, thus this setting needs to be HIGH
+\#define POWER_LOSS_STATE HIGH // set signal level, UPS 24V V1.0 returns low level when not triggered and HIGH level when power is cut, thus this setting needs to be HIGH
 
 #### **RGB**
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software17.png width="600"/>
 
-\#define NEOPIXEL_LED // enable Neopixel
+\#define NEOPIXEL_LED  // enable Neopixel
+
 \#define NEOPIXEL_TYPE  NEO_GRB // set Neopixel type
+
 //#define NEOPIXEL_PIN  4 // disable PIN setting, use the correct signal pin in the pin file of the motherboard
+
 \#define NEOPIXEL_PIXELS 30 // number of LEDs
+
 \#define NEOPIXEL_STARTUP_TEST // the light will show red green and blue sequentially to self-test
 
 If you are using displays like LCD2004, 12864, mini12864, etc., you can also control RGB from your display directly. 
@@ -312,9 +331,11 @@ Standard filament run out sensors are usually comprised of a microswitch which s
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software19.png width="600"/>
 
 \#define FILAMENT_RUNOUT_SENSOR // enable filament run out sensor
+
 \#define FIL_RUNOUT_ENABLED_DEFAULT true // true default to filament run out sensor enabled 
 
 \#define NUM_RUNOUT_SENSORS  1 // number of filament run out sensor
+
 \#define FIL_RUNOUT_STATE   LOW // voltage level of the filament runout sensor trigger signal. Set according to the actual situation of the module. If the module sends a low level when the filament is abnormal, set it to LOW.
 
 #### Smart Filament Sensor (SFS V1.0)
@@ -324,6 +345,7 @@ The smart filament sensor works by continuously sending signal to the mainboard 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software20.png width="600"/>
 
 \#define FILAMENT_MOTION_SENSOR // set encoder type
+
 \#define FILAMENT_RUNOUT_DISTANCE_MM 7 // set sensitivity, SFS V1.0 nominal setting should be 7mm, which means if no signal of filament movement is detected after 7mm of filament travel command, filament error will be triggered.
 
 The settings below also need to be set to instruct the printer to park the nozzle after filament error is detected.
@@ -331,6 +353,7 @@ The settings below also need to be set to instruct the printer to park the nozzl
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software21.png width="600"/>
 
 \#define NOZZLE_PARK_FEATURE // park nozzle
+
 \#define NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 } // set the X, Y and Z offset coordinate of the nozzle
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software22.png width="600"/>
