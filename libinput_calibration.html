@@ -1290,11 +1290,11 @@
 
 <h1 id="libinput_calibration">libinput_calibration<a class="headerlink" href="#libinput_calibration" title="Permanent link">&para;</a></h1>
 <h2 id="note"><strong>Note</strong><a class="headerlink" href="#note" title="Permanent link">&para;</a></h2>
-<p>The current purpose of this step is only for <code>TFT35_SPI</code> resistive touch screen. If your capacitive touch screen (such as HDMI5, HDMI7, Pad7, etc.) has inaccurate touch, you can also experiment with this calibration step, but it may not solve the problem because the capacitive screen has been calibrated before leaving the factory and is directly read from the coordinates, rather than calculated through adc sampling values like a resistive screen.
+<p>The current purpose of this step is only for <code>TFT35_SPI</code> resistive touch screen. If your capacitive touch screen (such as HDMI5, HDMI7, Pad7, etc.) has inaccurate touch, you can also experiment with this calibration step, but it may not solve the problem because the capacitive screen has been calibrated before leaving the factory and is directly read from the coordinates, rather than calculated through adc sampling values like a resistive screen.</br>
 Anyway, the experiment will not cause any losses</p>
 <h2 id="xinput_calibrator"><strong>xinput_calibrator</strong><a class="headerlink" href="#xinput_calibrator" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Install <code>xinput_calibrator</code> </br>
+<li>Install <code>xinput_calibrator</code></br>
   <code>sudo apt update
   sudo apt install xinput-calibrator</code></li>
 <li>Query the ID of the touchscreen, The name of TFT35_SPI is <code>ns2009</code> or <code>TSC2007</code>, as shown in the figure the id is <code>6</code></br>
