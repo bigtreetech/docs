@@ -1294,9 +1294,13 @@
 Anyway, the experiment will not cause any losses</p>
 <h2 id="xinput_calibrator"><strong>xinput_calibrator</strong><a class="headerlink" href="#xinput_calibrator" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Install <code>xinput_calibrator</code></br>
-  <code>sudo apt update
-  sudo apt install xinput-calibrator</code></li>
+<li>Install <code>xinput_calibrator</code></br></li>
+</ul>
+<div class="highlight"><pre><span></span><code>sudo apt update
+sudo apt install xinput-calibrator
+</code></pre></div>
+
+<ul>
 <li>Query the ID of the touchscreen, The name of TFT35_SPI is <code>ns2009</code> or <code>TSC2007</code>, as shown in the figure the id is <code>6</code></br>
   <code>DISPLAY=:0 xinput_calibrator --list</code>
   <img src=img/tft35_spi_id.png width="500"/></br></li>
@@ -1307,77 +1311,83 @@ Anyway, the experiment will not cause any losses</p>
 <h2 id="convert-to-libinput"><strong>Convert to libinput</strong><a class="headerlink" href="#convert-to-libinput" title="Permanent link">&para;</a></h2>
 <p><strong>The parameter of <code>xinput_calibrator</code> cannot be directly used for <code>libinput</code> and needs to be converted. Please refer to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">here</a> for details</strong></br></p>
 <ul>
-<li>
-<p><code>sudo nano libinput_calibrator.sh</code> create conversion script, Copy and paste the following content</br>
-  ```
-  #!/bin/bash</p>
-<h1 id="according-to-httpswikiarchlinuxorgtitletalkcalibrating_touchscreenlibinput5fbreaks5fxinput5fcalibrator">according to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator</a><a class="headerlink" href="#according-to-httpswikiarchlinuxorgtitletalkcalibrating_touchscreenlibinput5fbreaks5fxinput5fcalibrator" title="Permanent link">&para;</a></h1>
-<p>screen_width=$1
+<li><code>sudo nano libinput_calibrator.sh</code> create conversion script, Copy and paste the following content</br></li>
+</ul>
+<div class="highlight"><pre><span></span><code>#!/bin/bash
+
+#according to https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator
+
+screen_width=$1
 screen_height=$2
 click_0_X=$3
 click_0_Y=$4
 click_3_X=$5
-click_3_Y=$6</p>
-<p>re='^[0-9]+$'
+click_3_Y=$6
+
+re=&#39;^[0-9]+$&#39;
 if ! [[ $screen_width =~ $re ]] ; then
-  echo "error: screen_width=\"$screen_width\" Not a number" &gt;&2; exit 1
+  echo &quot;error: screen_width=\&quot;$screen_width\&quot; Not a number&quot; &gt;&amp;2; exit 1
 fi
 if ! [[ $screen_height =~ $re ]] ; then
-  echo "error: screen_height=\"$screen_height\" Not a number" &gt;&2; exit 1
+  echo &quot;error: screen_height=\&quot;$screen_height\&quot; Not a number&quot; &gt;&amp;2; exit 1
 fi
 if ! [[ $click_0_X =~ $re ]] ; then
-  echo "error: click_0_X=\"$click_0_X\" Not a number" &gt;&2; exit 1
+  echo &quot;error: click_0_X=\&quot;$click_0_X\&quot; Not a number&quot; &gt;&amp;2; exit 1
 fi
 if ! [[ $click_0_Y =~ $re ]] ; then
-  echo "error: click_0_Y=\"$click_0_Y\" Not a number" &gt;&2; exit 1
+  echo &quot;error: click_0_Y=\&quot;$click_0_Y\&quot; Not a number&quot; &gt;&amp;2; exit 1
 fi
 if ! [[ $click_3_X =~ $re ]] ; then
-  echo "error: click_3_X=\"$click_3_X\" Not a number" &gt;&2; exit 1
+  echo &quot;error: click_3_X=\&quot;$click_3_X\&quot; Not a number&quot; &gt;&amp;2; exit 1
 fi
 if ! [[ $click_3_Y =~ $re ]] ; then
-  echo "error: click_3_Y=\"$click_3_Y\" Not a number" &gt;&2; exit 1
-fi</p>
-<h1 id="a-screen_width-6-8-click_3_x-click_0_x">a = (screen_width * 6 / 8) / (click_3_X - click_0_X)<a class="headerlink" href="#a-screen_width-6-8-click_3_x-click_0_x" title="Permanent link">&para;</a></h1>
-<h1 id="c-screen_width-8-a-click_0_x-screen_width">c = ((screen_width / 8) - (a * click_0_X)) / screen_width<a class="headerlink" href="#c-screen_width-8-a-click_0_x-screen_width" title="Permanent link">&para;</a></h1>
-<h1 id="e-screen_height-6-8-click_3_y-click_0_y">e = (screen_height * 6 / 8) / (click_3_Y - click_0_Y)<a class="headerlink" href="#e-screen_height-6-8-click_3_y-click_0_y" title="Permanent link">&para;</a></h1>
-<h1 id="f-screen_height-8-e-click_0_y-screen_height">f = ((screen_height / 8) - (e * click_0_Y)) / screen_height<a class="headerlink" href="#f-screen_height-8-e-click_0_y-screen_height" title="Permanent link">&para;</a></h1>
-<p>a=$(awk "BEGIN { printf(\"%.6f\", ($screen_width * 6 / 8) / ($click_3_X - $click_0_X))}")
-c=$(awk "BEGIN { printf(\"%.6f\", (($screen_width / 8) - ($a * $click_0_X)) / $screen_width)}")
-e=$(awk "BEGIN { printf(\"%.6f\", ($screen_height * 6 / 8) / ($click_3_Y - $click_0_Y))}")
-f=$(awk "BEGIN { printf(\"%.6f\", (($screen_height / 8) - ($e * $click_0_Y)) / $screen_height)}")</p>
-<p>CONFIG_OPTION="Option \"CalibrationMatrix\" "
-CONFIG_LINE="\"$a 0.000000 $c 0.000000 $e $f 0.000000 0.000000 1.000000\""</p>
-<p>echo "${CONFIG_OPTION}${CONFIG_LINE}"
-echo ""</p>
-<p>CONFIG_OPTION="Option \"CalibrationMatrix\" "
-CONFIG="/usr/share/X11/xorg.conf.d/40-libinput.conf"
-INPUT_CLASS="Identifier \"libinput touchscreen catchall\""
-if [ -e "${CONFIG}" ]; then
-    ks_restart=0
-    grep -e "^\        ${CONFIG_OPTION}${CONFIG_LINE}" ${CONFIG} &gt; /dev/null
-    STATUS=$?
-    if [ $STATUS -eq 1 ]; then
-        sudo sed -i "/${CONFIG_OPTION}/d" ${CONFIG}
-        sudo sed -i "/${INPUT_CLASS}/a\        ${CONFIG_OPTION}${CONFIG_LINE}" ${CONFIG}
-        echo "Written to file:"
-        echo "    ${CONFIG}"
-        echo ""
-        ks_restart=1
-    fi</p>
-<pre><code># restart KlipperScreen
-if [ ${ks_restart} -eq 1 ];then
-    sudo service KlipperScreen restart
+  echo &quot;error: click_3_Y=\&quot;$click_3_Y\&quot; Not a number&quot; &gt;&amp;2; exit 1
 fi
 
-echo "run:"
-echo "    DISPLAY=:0 xinput list-props &lt;device&gt;"
-echo "to check if the calibration parameters are effective"
-echo ""
-</code></pre>
-<p>fi</p>
-<p>```</p>
-</li>
-</ul>
+#a = (screen_width * 6 / 8) / (click_3_X - click_0_X)
+#c = ((screen_width / 8) - (a * click_0_X)) / screen_width
+#e = (screen_height * 6 / 8) / (click_3_Y - click_0_Y)
+#f = ((screen_height / 8) - (e * click_0_Y)) / screen_height
+
+a=$(awk &quot;BEGIN { printf(\&quot;%.6f\&quot;, ($screen_width * 6 / 8) / ($click_3_X - $click_0_X))}&quot;)
+c=$(awk &quot;BEGIN { printf(\&quot;%.6f\&quot;, (($screen_width / 8) - ($a * $click_0_X)) / $screen_width)}&quot;)
+e=$(awk &quot;BEGIN { printf(\&quot;%.6f\&quot;, ($screen_height * 6 / 8) / ($click_3_Y - $click_0_Y))}&quot;)
+f=$(awk &quot;BEGIN { printf(\&quot;%.6f\&quot;, (($screen_height / 8) - ($e * $click_0_Y)) / $screen_height)}&quot;)
+
+CONFIG_OPTION=&quot;Option \&quot;CalibrationMatrix\&quot; &quot;
+CONFIG_LINE=&quot;\&quot;$a 0.000000 $c 0.000000 $e $f 0.000000 0.000000 1.000000\&quot;&quot;
+
+echo &quot;${CONFIG_OPTION}${CONFIG_LINE}&quot;
+echo &quot;&quot;
+
+CONFIG_OPTION=&quot;Option \&quot;CalibrationMatrix\&quot; &quot;
+CONFIG=&quot;/usr/share/X11/xorg.conf.d/40-libinput.conf&quot;
+INPUT_CLASS=&quot;Identifier \&quot;libinput touchscreen catchall\&quot;&quot;
+if [ -e &quot;${CONFIG}&quot; ]; then
+    ks_restart=0
+    grep -e &quot;^\        ${CONFIG_OPTION}${CONFIG_LINE}&quot; ${CONFIG} &gt; /dev/null
+    STATUS=$?
+    if [ $STATUS -eq 1 ]; then
+        sudo sed -i &quot;/${CONFIG_OPTION}/d&quot; ${CONFIG}
+        sudo sed -i &quot;/${INPUT_CLASS}/a\        ${CONFIG_OPTION}${CONFIG_LINE}&quot; ${CONFIG}
+        echo &quot;Written to file:&quot;
+        echo &quot;    ${CONFIG}&quot;
+        echo &quot;&quot;
+        ks_restart=1
+    fi
+
+    # restart KlipperScreen
+    if [ ${ks_restart} -eq 1 ];then
+        sudo service KlipperScreen restart
+    fi
+
+    echo &quot;run:&quot;
+    echo &quot;    DISPLAY=:0 xinput list-props &lt;device&gt;&quot;
+    echo &quot;to check if the calibration parameters are effective&quot;
+    echo &quot;&quot;
+fi
+</code></pre></div>
+
 <ul>
 <li><code>sudo chmod +x libinput_calibrator.sh</code> add executable permissions</li>
 <li>run <code>libinput_calibrator.sh</code> to convert calibration parameters</br>
