@@ -1310,69 +1310,69 @@ Anyway, the experiment will not cause any losses</p>
 <li>
 <p><code>sudo nano libinput_calibrator.sh</code> create conversion script, Copy and paste the following content</br>
   ```
-    #!/bin/bash</p>
-<p># according to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator</a></p>
+  #!/bin/bash</p>
+<h1 id="according-to-httpswikiarchlinuxorgtitletalkcalibrating_touchscreenlibinput5fbreaks5fxinput5fcalibrator">according to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator</a><a class="headerlink" href="#according-to-httpswikiarchlinuxorgtitletalkcalibrating_touchscreenlibinput5fbreaks5fxinput5fcalibrator" title="Permanent link">&para;</a></h1>
 <p>screen_width=$1
-  screen_height=$2
-  click_0_X=$3
-  click_0_Y=$4
-  click_3_X=$5
-  click_3_Y=$6</p>
+screen_height=$2
+click_0_X=$3
+click_0_Y=$4
+click_3_X=$5
+click_3_Y=$6</p>
 <p>re='^[0-9]+$'
-  if ! [[ $screen_width =~ $re ]] ; then
-    echo "error: screen_width=\"$screen_width\" Not a number" &gt;&2; exit 1
-  fi
-  if ! [[ $screen_height =~ $re ]] ; then
-    echo "error: screen_height=\"$screen_height\" Not a number" &gt;&2; exit 1
-  fi
-  if ! [[ $click_0_X =~ $re ]] ; then
-    echo "error: click_0_X=\"$click_0_X\" Not a number" &gt;&2; exit 1
-  fi
-  if ! [[ $click_0_Y =~ $re ]] ; then
-    echo "error: click_0_Y=\"$click_0_Y\" Not a number" &gt;&2; exit 1
-  fi
-  if ! [[ $click_3_X =~ $re ]] ; then
-    echo "error: click_3_X=\"$click_3_X\" Not a number" &gt;&2; exit 1
-  fi
-  if ! [[ $click_3_Y =~ $re ]] ; then
-    echo "error: click_3_Y=\"$click_3_Y\" Not a number" &gt;&2; exit 1
-  fi</p>
-<p>#a = (screen_width * 6 / 8) / (click_3_X - click_0_X)
-  #c = ((screen_width / 8) - (a * click_0_X)) / screen_width
-  #e = (screen_height * 6 / 8) / (click_3_Y - click_0_Y)
-  #f = ((screen_height / 8) - (e * click_0_Y)) / screen_height</p>
+if ! [[ $screen_width =~ $re ]] ; then
+  echo "error: screen_width=\"$screen_width\" Not a number" &gt;&2; exit 1
+fi
+if ! [[ $screen_height =~ $re ]] ; then
+  echo "error: screen_height=\"$screen_height\" Not a number" &gt;&2; exit 1
+fi
+if ! [[ $click_0_X =~ $re ]] ; then
+  echo "error: click_0_X=\"$click_0_X\" Not a number" &gt;&2; exit 1
+fi
+if ! [[ $click_0_Y =~ $re ]] ; then
+  echo "error: click_0_Y=\"$click_0_Y\" Not a number" &gt;&2; exit 1
+fi
+if ! [[ $click_3_X =~ $re ]] ; then
+  echo "error: click_3_X=\"$click_3_X\" Not a number" &gt;&2; exit 1
+fi
+if ! [[ $click_3_Y =~ $re ]] ; then
+  echo "error: click_3_Y=\"$click_3_Y\" Not a number" &gt;&2; exit 1
+fi</p>
+<h1 id="a-screen_width-6-8-click_3_x-click_0_x">a = (screen_width * 6 / 8) / (click_3_X - click_0_X)<a class="headerlink" href="#a-screen_width-6-8-click_3_x-click_0_x" title="Permanent link">&para;</a></h1>
+<h1 id="c-screen_width-8-a-click_0_x-screen_width">c = ((screen_width / 8) - (a * click_0_X)) / screen_width<a class="headerlink" href="#c-screen_width-8-a-click_0_x-screen_width" title="Permanent link">&para;</a></h1>
+<h1 id="e-screen_height-6-8-click_3_y-click_0_y">e = (screen_height * 6 / 8) / (click_3_Y - click_0_Y)<a class="headerlink" href="#e-screen_height-6-8-click_3_y-click_0_y" title="Permanent link">&para;</a></h1>
+<h1 id="f-screen_height-8-e-click_0_y-screen_height">f = ((screen_height / 8) - (e * click_0_Y)) / screen_height<a class="headerlink" href="#f-screen_height-8-e-click_0_y-screen_height" title="Permanent link">&para;</a></h1>
 <p>a=$(awk "BEGIN { printf(\"%.6f\", ($screen_width * 6 / 8) / ($click_3_X - $click_0_X))}")
-  c=$(awk "BEGIN { printf(\"%.6f\", (($screen_width / 8) - ($a * $click_0_X)) / $screen_width)}")
-  e=$(awk "BEGIN { printf(\"%.6f\", ($screen_height * 6 / 8) / ($click_3_Y - $click_0_Y))}")
-  f=$(awk "BEGIN { printf(\"%.6f\", (($screen_height / 8) - ($e * $click_0_Y)) / $screen_height)}")</p>
+c=$(awk "BEGIN { printf(\"%.6f\", (($screen_width / 8) - ($a * $click_0_X)) / $screen_width)}")
+e=$(awk "BEGIN { printf(\"%.6f\", ($screen_height * 6 / 8) / ($click_3_Y - $click_0_Y))}")
+f=$(awk "BEGIN { printf(\"%.6f\", (($screen_height / 8) - ($e * $click_0_Y)) / $screen_height)}")</p>
 <p>CONFIG_OPTION="Option \"CalibrationMatrix\" "
-  CONFIG_LINE="\"$a 0.000000 $c 0.000000 $e $f 0.000000 0.000000 1.000000\""</p>
+CONFIG_LINE="\"$a 0.000000 $c 0.000000 $e $f 0.000000 0.000000 1.000000\""</p>
 <p>echo "${CONFIG_OPTION}${CONFIG_LINE}"
-  echo ""</p>
+echo ""</p>
 <p>CONFIG_OPTION="Option \"CalibrationMatrix\" "
-  CONFIG="/usr/share/X11/xorg.conf.d/40-libinput.conf"
-  INPUT_CLASS="Identifier \"libinput touchscreen catchall\""
-  if [ -e "${CONFIG}" ]; then
-      ks_restart=0
-      grep -e "^\        ${CONFIG_OPTION}${CONFIG_LINE}" ${CONFIG} &gt; /dev/null
-      STATUS=$?
-      if [ $STATUS -eq 1 ]; then
-          sudo sed -i "/${CONFIG_OPTION}/d" ${CONFIG}
-          sudo sed -i "/${INPUT_CLASS}/a\        ${CONFIG_OPTION}${CONFIG_LINE}" ${CONFIG}
-          echo "Written to file:"
-          echo "    ${CONFIG}"
-          echo ""
-          ks_restart=1
-      fi</p>
-<pre><code>  # restart KlipperScreen
-  if [ ${ks_restart} -eq 1 ];then
-      sudo service KlipperScreen restart
-  fi
+CONFIG="/usr/share/X11/xorg.conf.d/40-libinput.conf"
+INPUT_CLASS="Identifier \"libinput touchscreen catchall\""
+if [ -e "${CONFIG}" ]; then
+    ks_restart=0
+    grep -e "^\        ${CONFIG_OPTION}${CONFIG_LINE}" ${CONFIG} &gt; /dev/null
+    STATUS=$?
+    if [ $STATUS -eq 1 ]; then
+        sudo sed -i "/${CONFIG_OPTION}/d" ${CONFIG}
+        sudo sed -i "/${INPUT_CLASS}/a\        ${CONFIG_OPTION}${CONFIG_LINE}" ${CONFIG}
+        echo "Written to file:"
+        echo "    ${CONFIG}"
+        echo ""
+        ks_restart=1
+    fi</p>
+<pre><code># restart KlipperScreen
+if [ ${ks_restart} -eq 1 ];then
+    sudo service KlipperScreen restart
+fi
 
-  echo "run:"
-  echo "    DISPLAY=:0 xinput list-props &lt;device&gt;"
-  echo "to check if the calibration parameters are effective"
-  echo ""
+echo "run:"
+echo "    DISPLAY=:0 xinput list-props &lt;device&gt;"
+echo "to check if the calibration parameters are effective"
+echo ""
 </code></pre>
 <p>fi</p>
 <p>```</p>
