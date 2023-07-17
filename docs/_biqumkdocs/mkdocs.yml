@@ -132,5 +132,4 @@ nav:
     - Software Configuration.md
     - Software Installation.md
     - EBB Series.md
-
-
+    - libinput_calibration.md
