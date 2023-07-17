@@ -1294,21 +1294,21 @@
 Anyway, the experiment will not cause any losses</p>
 <h2 id="xinput_calibrator"><strong>xinput_calibrator</strong><a class="headerlink" href="#xinput_calibrator" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Install <code>xinput_calibrator</code>
+<li>Install <code>xinput_calibrator</code> </br>
   <code>sudo apt update
   sudo apt install xinput-calibrator</code></li>
-<li>Query the ID of the touchscreen, The name of TFT35_SPI is <code>ns2009</code> or <code>TSC2007</code>, as shown in the figure the id is <code>6</code>
+<li>Query the ID of the touchscreen, The name of TFT35_SPI is <code>ns2009</code> or <code>TSC2007</code>, as shown in the figure the id is <code>6</code></br>
   <code>DISPLAY=:0 xinput_calibrator --list</code>
-  <img src=img/tft35_spi_id.png width="500"/></li>
-<li>Start calibration, Click on the center of the cross that appears one by one on the screen. Replace the id with the actual id found in the previous step. Record the parameters of <code>click 0 X</code>, <code>click 0 Y</code>, <code>click 3 X</code>, and <code>click 3 Y</code>, which are required for conversion.
+  <img src=img/tft35_spi_id.png width="500"/></br></li>
+<li>Start calibration, Click on the center of the cross that appears one by one on the screen. Replace the id with the actual id found in the previous step. Record the parameters of <code>click 0 X</code>, <code>click 0 Y</code>, <code>click 3 X</code>, and <code>click 3 Y</code>, which are required for conversion.</br>
   <code>DISPLAY=:0 xinput_calibrator -v --device &lt;id&gt;</code>
   <img src=img/tft35_spi_calibration.png width="1200"/></li>
 </ul>
 <h2 id="convert-to-libinput"><strong>Convert to libinput</strong><a class="headerlink" href="#convert-to-libinput" title="Permanent link">&para;</a></h2>
-<p><strong>The parameter of <code>xinput_calibrator</code> cannot be directly used for <code>libinput</code> and needs to be converted. Please refer to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">here</a> for details</strong></p>
+<p><strong>The parameter of <code>xinput_calibrator</code> cannot be directly used for <code>libinput</code> and needs to be converted. Please refer to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">here</a> for details</strong></br></p>
 <ul>
 <li>
-<p><code>sudo nano libinput_calibrator.sh</code> create conversion script, Copy and paste the following content
+<p><code>sudo nano libinput_calibrator.sh</code> create conversion script, Copy and paste the following content</br>
   ```
   #!/bin/bash</p>
 <h1 id="according-to-httpswikiarchlinuxorgtitletalkcalibrating_touchscreenlibinput5fbreaks5fxinput5fcalibrator">according to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator</a><a class="headerlink" href="#according-to-httpswikiarchlinuxorgtitletalkcalibrating_touchscreenlibinput5fbreaks5fxinput5fcalibrator" title="Permanent link">&para;</a></h1>
@@ -1387,8 +1387,8 @@ echo ""
   <code>&lt;click_0 X&gt;</code>: The <code>X</code> position of <code>click 0</code> during the previous step calibration
   <code>&lt;click_0 Y&gt;</code>: The <code>Y</code> position of <code>click 0</code> during the previous step calibration
   <code>&lt;click_3 X&gt;</code>: The <code>X</code> position of <code>click 3</code> during the previous step calibration
-  <code>&lt;click_3 Y&gt;</code>: The <code>Y</code> position of <code>click 3</code> during the previous step calibration
-  for example:
+  <code>&lt;click_3 Y&gt;</code>: The <code>Y</code> position of <code>click 3</code> during the previous step calibration</br>
+  for example:</br>
   <code>sudo ./libinput_calibrator.sh 480 320 61 35 417 281</code>
   The script will automatically convert and write parameters to the configuration file, and then reset KlipperScreen if installed. You can check whether the configuration is effective through the command <code>DISPLAY=:0 xinput list-props &lt;id&gt;</code>
   <img src=img/tft32_spi_convert.png width="1200"/></li>
