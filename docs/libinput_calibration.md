@@ -122,3 +122,12 @@ sudo ./libinput_calibrator.sh 480 320 61 35 417 281
 </br>
 The script will automatically convert and write parameters to the configuration file, and then reset KlipperScreen if installed. You can check whether the configuration is effective through the command `DISPLAY=:0 xinput list-props <id>`
 <img src=img/tft32_spi_convert.png width="1200"/>
+
+## **FAQ**
+
+**Q: How to rotate TFT35_SPI direction**
+
+A: The direction of `TFT35_SPI` cannot be modified through the configuration in `system.cfg` currently, it can only be rotated by modifying the `.dts` file.
+For detailed steps, please refer to here:</br>
+https://github.com/bigtreetech/TFT35-SPI/issues/7</br>
+https://www.youtube.com/watch?v=tA7uRC17F6U
