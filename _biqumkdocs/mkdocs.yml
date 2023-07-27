@@ -96,6 +96,7 @@ nav:
       - EBB 36 CAN.md
       - EBB 42 CAN.md
       - EBB 2240 2209 CAN.md
+      - EBB SB2240 2209 CAN (RP2040).md
       - U2C.md
   - IOT:
     - CB1.md
