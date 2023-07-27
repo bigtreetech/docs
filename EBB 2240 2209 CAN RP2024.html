@@ -13,7 +13,7 @@
     
     
       
-        <title>EBB 2240/2209 CAN （RP2040） - BIGTREETECH documentation</title>
+        <title>EBB 2240/2209 CAN RP2040 - BIGTREETECH documentation</title>
       
     
     
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              EBB 2240/2209 CAN （RP2040）
+              EBB 2240/2209 CAN RP2040
             
           </span>
         </div>
@@ -524,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="EBB SB2240 2209 CAN (RP2040).md" class="md-nav__link">
+      <a href="EBB 2240 2209 CAN RP2040.md" class="md-nav__link">
         None
       </a>
     </li>
@@ -1276,27 +1276,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#precautions" class="md-nav__link">
-    PRECAUTIONS
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#faq" class="md-nav__link">
-    FAQ
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#product-purchase-link" class="md-nav__link">
-    Product Purchase Link
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1309,27 +1288,23 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/bigtreetech/docs/blob/master/docs/EBB 2240 2209 CAN (RP2024).md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/bigtreetech/docs/blob/master/docs/EBB 2240 2209 CAN RP2024.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="ebb-22402209-can-rp2040">EBB 2240/2209 CAN （RP2040）<a class="headerlink" href="#ebb-22402209-can-rp2040" title="Permanent link">&para;</a></h1>
+<h1 id="ebb-22402209-can-rp2040">EBB 2240/2209 CAN RP2040<a class="headerlink" href="#ebb-22402209-can-rp2040" title="Permanent link">&para;</a></h1>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_title.png width="600"/></p>
 <p><font  color="red"><strong>For information about EBB SB2240/2209 CAN V1.0 (RP2040) structure, please click</strong></font> :</p>
 <p><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/EBB SB2209 CAN V1.0（RP2040）BUILD GUIDE.pdf">EBB SB2240 2209 CAN V1.0 (RP2040).PDF</a></p>
 <h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
-<p>BIGTREETECH EBB SB2240/2209 CAN V1.0 (RP2040) is a tool board for the 3D printing team of Shenzhen Biqu Technology Co., Ltd. to adapt</p>
-<p>VoronStealthBurner. It can communicate via USB or CAN, greatly simplifying wiring。</p>
+<p>Highlighted in red are other accessories of the Voron StealthBurner, which are not included in this EBB SB2209 CAN V1.0(RP2040) and will need to be purchased by yourself.</p>
 <h2 id="main-features"><strong>Main Features</strong><a class="headerlink" href="#main-features" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Highlighted in blue are included in this EBB SB2209 CAN V1.0 (RP2040).</li>
 </ul>
 <ul>
-<li>
-<p>Highlighted in red are other accessories of the Voron StealthBurner, which are not included </p>
-<p>in this EBB SB2209 CAN V1.0(RP2040) and will need to be purchased by yourself.</p>
-</li>
+<li>Highlighted in red are other accessories of the Voron StealthBurner, which are not included in this EBB SB2209 CAN V1.0(RP2040) and will need to be purchased by yourself.</li>
 </ul>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="flashing-canboot"><strong>FLASHING CANBOOT</strong><a class="headerlink" href="#flashing-canboot" title="Permanent link">&para;</a></h3>
@@ -1389,18 +1364,14 @@ make menuconfig
 <p>Compile the firmware with the following configuration (if the options below are not available, please update your Klipper source code to the newest version).</p>
 <p>[*] Enable extra low-level configuration  optionsMicro-controller Architecture</p>
 <p>(Raspberry Pi RP2040) ---&gt;</p>
-<!--If you do not use CanBoot-->
-
+<p><font  color="red"><strong>If you do not use CanBoot</strong></font> </p>
 <p>Bootloader offset (No bootloader) ---&gt;</p>
 <p>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</p>
-<!--If CanBoot is used-->
-
+<p><font  color="red"><strong>If CanBoot is used</strong></font> </p>
 <p>Bootloader offset (16KiB bootloader) ---&gt;</p>
-<!--If USB communication on Type-C is used-->
-
+<p><font  color="red"><strong>If USB communication on Type-C is used</strong></font> </p>
 <p>Communication interface (USB) ---&gt;</p>
-<!--If CAN-Bus communication is used-->
-
+<p><font  color="red"><strong>If CAN-Bus communication is used</strong></font> </p>
 <p>Communication interface (CAN bus) ---&gt;</p>
 <p>(4) CAN RX gpio number </p>
 <p>(5) CAN TX gpio number</p>
@@ -1512,32 +1483,6 @@ up ifconfig $IFACE txqueuelen 1024
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software17.png width="600"/></p>
 <p>5.Configure the module's specific functions according to</p>
 <p><a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
-<h2 id="precautions"><strong>PRECAUTIONS</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
-<ul>
-<li>When the TH0 interface does not use PT1000, the jumper cap cannot be inserted above, otherwise the 100K NTC cannot be used normally</li>
-<li>When using CAN communication, you need to see whether it is used as a terminal. If it is a terminal, you must plug the jumper cap on the 120R position;</li>
-<li>When pressing the DIY wire, pay attention to the wire sequence, and carry out the DIY according to the Pin diagram to avoid the power line being connected reversely or missing from the CAN signal, resulting in the module burning;</li>
-<li>When burning the program through the USB port, if there is no external power supply, it is necessary to use the jumper cap to short connect the VUSB to provide the working voltage for the module;</li>
-<li>The load current of the heating rod and fan interface shall not be greater than the maximum withstand current to prevent the MOS tube from burning.</li>
-</ul>
-<h2 id="faq"><strong>FAQ</strong><a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
-<p><strong>Q: Maximum current of heating rod and fan port.</strong></p>
-<p>Answer: Maximum output current of heating rod port: 5 A.</p>
-<p>Maximum output current of fan interface: 1A, peak 1.5A.</p>
-<p>The total current of heating rod+drive+fan should be less than 9A.</p>
-<p><strong>Q: USB interface failed to update firmware.</strong></p>
-<p>Answer: Make sure that the VUSB jumper cap is inserted and the power indicator on the motherboard is on normally.</p>
-<h2 id="product-purchase-link">Product Purchase Link<a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>
-<p><strong>Purchase Link:</strong></p>
-<p>EBB SB2209 CAN： <a href="https://biqu.equipment/products/bigtreetech-ebb-sb2209-can-v1-0?_pos=1&amp;_sid=7000fe7f6&amp;_ss=r&amp;variant=40214282731618">https://biqu.equipment/products/bigtreetech-ebb-sb2209-can-v1-0?_pos=1&amp;_sid=7000fe7f6&amp;_ss=r&amp;variant=40214282731618</a>  </p>
-<p>EBB SB2240 CAN：    <a href="https://biqu.equipment/products/bigtreetech-ebb-sb2209-can-v1-0?variant=40214283485282">https://biqu.equipment/products/bigtreetech-ebb-sb2209-can-v1-0?variant=40214283485282</a></p>
-<p><strong>If you have any issues with the product, please submit a support ticket.</strong></p>
-<p><a href="https://biqu3d.com/pages/submit-a-ticket">https://biqu3d.com/pages/submit-a-ticket</a></p>
-<p><strong>Navigation:</strong></p>
-<p>BIQU Official Website：                                          <a href="http://biqu3d.com">http://biqu3d.com</a></p>
-<p>BIGTREETECH Official Website：                            <a href="http://bigtree-tech.com">http://bigtree-tech.com</a></p>
-<p>Online Store：                                                            <a href="https://biqu.equipment">https://biqu.equipment</a></p>
-<p>Community：                                                            <a href="https://community.biqu3d.com">https://community.biqu3d.com</a></p>
 
               
             </article>
