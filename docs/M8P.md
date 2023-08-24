@@ -227,6 +227,7 @@ https://bigtreetech.github.io/docs/Software%20Installation.html
 
 - All unplugging and plugging operations should be performed under the condition of power off, including enabling the eMMC writing.
 - Pay attention to the heat dissipation of CM4 and CB1. The CM4/CB1 may become quite hot if the running application consumes too many system resources.
+- M8P V1.1 Notice: If you have an M8P V1.1 and are only able to move stepper motor number 6 in one direction then please contact "bttuniversity" on discord and he will assist you to get the issue resolved. Note that only a limited number of V1.1 boards were affected by this issue and none of the V1.0 boards were affected.
 
 
 
