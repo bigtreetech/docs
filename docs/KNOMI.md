@@ -4,17 +4,17 @@
 
 ## **Introduction**
 
-KNOMI is a mini round screen designed specififically for Klipper running 3D printers, offffering users a unique and personalized way to monitor their printer's operation. The screen displays important information through KNOMI UI, such as heated bed temperature, nozzle temperature, leveling status, printing progress, etc. KNOMI is an open-source product, allowing users to customize the user interface and design mounting brackets to fifit their specifific 3D printer.
+KNOMI is a mini round screen designed specifically for Klipper running 3D printers, offering users a unique and personalized way to monitor their printer's operation. The screen displays important information through the KNOMI UI, such as heated bed temperature, nozzle temperature, leveling status, printing progress, etc. KNOMI is an open-source product, allowing users to customize the user interface and design mounting brackets to fit their specific 3D printer.
 
 ## **Main Features**
 
-- KNOMI UI-based display for quick and easy monitoring of printer status.
-- User-friendly, wireless communication through WiFi.
-- Open-source enables effortless customization and adaptation of KNOMI to various 3D printers with provided 3D model files, while also allowing personalized user interfaces to suit preferences.
-- Compatibility with Voron StealthBurner using our custom printed part files.
-- Wide input voltage range (DC 5V-24V) for convenient power supply.
-- Reserved Type-C port for DIY burning, increasing versatility.
-- Full-view screen for accurate color representation from any angle.
+- KNOMI UI-based display for quick and easy monitoring of printer status
+- User-friendly, wireless communication through WiFi
+- Open-source enables effortless customization and adaptation of KNOMI to various 3D printers with provided 3D model files, while also allowing personalized user interfaces to suit preferences
+- Compatibility with Voron StealthBurner using our custom printed part files
+- Wide input voltage range (DC 5V-24V) for convenient power supply
+- Reserved Type-C port for DIY burning, increasing versatility
+- Full-view screen for accurate color representation from any angle
 
 <img src=img/KNOMI/KNOMI_IN.png width="600" />
 
@@ -24,7 +24,7 @@ KNOMI is a mini round screen designed specififically for Klipper running 3D prin
 
 <font  color="red">**DOES USING KNOMI IMPACT YOUR STEALTHBURNER'S PERFORMANCE?**</font> 
 
-We will offffer the customized mounting printed part fifiles for you to effffortlessly install KNOMI into your Voron Stealthburner, in which the StealthBurner main body retains the original fan position and incorporates additional vents on the top for enhanced compatibility and optimized heat dissipation.
+We will offer the customized mounting printed part files for you to effortlessly install KNOMI onto your Voron Stealthburner, in which the StealthBurner main body retains the original fan position and incorporates additional vents on the top for enhanced compatibility and optimized heat dissipation.
 
 <img src=img/KNOMI/KNOMI_IN1.png width="600" />
 
@@ -32,11 +32,11 @@ We will offffer the customized mounting printed part fifiles for you to effffort
 
 <font  color="red">**MOUNTING PLATE**</font> 
 
-Prior to initiating the installation procedure, it is advised to have these two printed parts readily available. Owing to size limitations and air duct considerations, the Mounting Plate has been engineered with a snap-fifit design. This may be prone to damage during repeated disassembly and assembly. It is recommended to print additional backup pieces for convenience.
+Prior to starting the installation procedure, it is advised to have these two printed parts readily available. Owing to size limitations and air duct considerations, the Mounting Plate has been engineered with a snap-fit design. This may be prone to damage during repeated disassembly and assembly. It is recommended to print additional backup pieces for convenience.
 
 
 
-We conducted a comparative analysis measuring wind speed and acoustic energy levels between the original StealthBurner and our customized version featuring vents and KNOMI add-on. The results showed that both versions performed similarly, indicatingthat adding KNOMI will not compromise the performance of the StealthBurner. 
+We conducted a comparative analysis measuring wind speed and acoustic energy levels between the original StealthBurner and our customized version featuring vents and KNOMI add-on. The results showed that both versions performed similarly, indicating that adding KNOMI will not compromise the performance of the StealthBurner. 
 
 <img src=img/KNOMI/KNOMI_IN3.png width="600" />
 
@@ -66,7 +66,7 @@ Alternatively, following the installation's completion, the BOOT button may be p
 
 <font  color="red">**COMPATIBILITY**</font> 
 
-Due to device compatibility issues, KNOMI cannot confifigure networks with WPA PSK encryption.If you encounter an error confifiguring your network with KNOMI, please check the encryption method of your router and switch it to WPA/WPA2 PSK mixed mode or another compatible mode.
+Due to device compatibility issues, KNOMI cannot configure networks with WPA PSK encryption.If you encounter an error configuring your network with KNOMI, please check the encryption method of your router and switch it to WPA/WPA2 PSK mixed mode or another compatible mode.
 
 <img src=img/KNOMI/KNOMI_IN8.png width="600" />
 
@@ -76,13 +76,13 @@ Due to device compatibility issues, KNOMI cannot confifigure networks with WPA P
 
 2.Allow your browser to automatically open the confifiguration page.
 
-3.Input your local area network Wi-Fi credentials and the printer IP address in the  designated fifields.
+3.Input your local area network Wi-Fi credentials and the printer IP address in the  designated fields.
 
 4.Select “Submit" to save your settings.
 
 5.Upon seeing the submission success page, close the browser.
 
-6.Allow an about 10 seconds for the display screen to transition to the standard  work interface following a successful network connection.
+6.Allow about 10 seconds for the display screen to transition to the standard working interface following a successful network connection.
 
 
 
@@ -144,13 +144,13 @@ KNOMI user interface employs visual elements during various stages of printer op
 
 <img src=img/KNOMI/KNOMI_GIF.png width="600" />
 
-2、Click to download [KNOMI GIF](https://raw.githack.com/z1996xm/BIGTREETECH/main/docs/download/KNOMI_GIF.zip) . Must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
+2、Click to download [KNOMI GIF](https://raw.githack.com/z1996xm/BIGTREETECH/main/docs/download/KNOMI_GIF.zip) . You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
 
 For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.html#picture-pixels
 
 <img src=img/KNOMI/KNOMI_Tip.png width="600" />
 
-3、Click https://github.com/bigtreetech/KNOMI to download knomi project . Using VSCODE https://marlinfw.org/docs/basics/install_platformio_vscode.html to open the project and enter lvgl_ Gif.cpp file.
+3、Click https://github.com/bigtreetech/KNOMI to download the KNOMI project. Using Visual Studio Code https://marlinfw.org/docs/basics/install_platformio_vscode.html to open the project and enter lvgl_ Gif.cpp file.
 
 <img src=img/KNOMI/KNOMI_Tip1.png width="600" />
 
@@ -184,7 +184,7 @@ For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.ht
 
 <img src=img/KNOMI/KNOMI_Tip8.png width="600" />
 
-11、After the compilation is completed, connect knomi to the computer through TYPE-C, click on download, and once the download is completed, power on knomi again.
+11、After the compilation is completed, connect KNOMI to the computer through using the USB Type C connector.  Click on download, and once the download is completed, power on KNOMI again.
 
 <img src=img/KNOMI/KNOMI_Tip9.png width="600" />
 
