@@ -122,6 +122,26 @@ To resolve this, try restarting your 3D printer.
 
 <img src=img/KNOMI/KNOMI_IN16.png width="600" />
 
+```
+[gcode_macro BED_MESH_CALIBRATE]
+rename_existing: BED_MESH_CALIBRATE_BASE
+variable_probing:False
+
+gcode:
+  SET_GCODE_VARIABLE MACRO=BED_MESH_CALIBRATE VARIABLE=probing VALUE=True
+  BED_MESH_CALIBRATE_BASE
+  SET_GCODE_VARIABLE MACRO=BED_MESH_CALIBRATE VARIABLE=probing VALUE=False
+ 
+[gcode_macro G28]
+rename_existing: G0028
+variable_homing:False
+
+gcode:
+  SET_GCODE_VARIABLE MACRO=G28 VARIABLE=homing VALUE=True
+  G0028
+  SET_GCODE_VARIABLE MACRO=G28 VARIABLE=homing VALUE=False
+```
+
 <font  color="red">**HOMING AND LEVELING**</font> 
 
 KNOMI requires the addition of relevant macros for homing and leveling within the printer.cfg file. Access the print control interface by 
