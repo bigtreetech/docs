@@ -1504,6 +1504,25 @@ To resolve this, try restarting your 3D printer.</p>
 <p><img src=img/KNOMI/KNOMI_IN15.png width="600" /></p>
 <h2 id="adding-relevant-macros"><strong>ADDING RELEVANT MACROS</strong><a class="headerlink" href="#adding-relevant-macros" title="Permanent link">&para;</a></h2>
 <p><img src=img/KNOMI/KNOMI_IN16.png width="600" /></p>
+<div class="highlight"><pre><span></span><code>[gcode_macro BED_MESH_CALIBRATE]
+rename_existing: BED_MESH_CALIBRATE_BASE
+variable_probing:False
+
+gcode:
+  SET_GCODE_VARIABLE MACRO=BED_MESH_CALIBRATE VARIABLE=probing VALUE=True
+  BED_MESH_CALIBRATE_BASE
+  SET_GCODE_VARIABLE MACRO=BED_MESH_CALIBRATE VARIABLE=probing VALUE=False
+
+[gcode_macro G28]
+rename_existing: G0028
+variable_homing:False
+
+gcode:
+  SET_GCODE_VARIABLE MACRO=G28 VARIABLE=homing VALUE=True
+  G0028
+  SET_GCODE_VARIABLE MACRO=G28 VARIABLE=homing VALUE=False
+</code></pre></div>
+
 <p><font  color="red"><strong>HOMING AND LEVELING</strong></font> </p>
 <p>KNOMI requires the addition of relevant macros for homing and leveling within the printer.cfg file. Access the print control interface by 
 entering the Klipper IP address into your browser, locate the config Files directory containing printer.cfg, and insert the following macro 
