@@ -1935,7 +1935,7 @@
 </code></pre></div>
 <p>​   After downloading this driver and restarting, the screen of DSI1 will work normally. If you want to use the HDMI interface, you need to delete the          downloaded <strong>/boot/dt-blob.bin</strong> driver and restart, then the HDMI can output normally.</p>
 <h3 id="csi1-camera"><strong>· CSI1 Camera</strong><a class="headerlink" href="#csi1-camera" title="Permanent link">&para;</a></h3>
-<p>​   The DSI1 driver downloaded in 4.4.2 DSI1 Display Interface also includes the CSI1 driver. If you just want to install the CSI1 driver, not DSI1, please find    the driver you want to use at https://datasheets.raspberrypi.com/licence.html and download it in the boot folder of CM4 and rename it to dt-blob.bin,   and then refer to the settings here. https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</p>
+<p>​   The DSI1 driver downloaded in 4.4.2 DSI1 Display Interface also includes the CSI1 driver. If you just want to install the CSI1 driver, not DSI1, please find    the driver you want to use at <a href="https://datasheets.raspberrypi.com/licence.html">https://datasheets.raspberrypi.com/licence.html</a> and download it in the boot folder of CM4 and rename it to dt-blob.bin,   and then refer to the settings here. <a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
 <h2 id="wifi-setting"><strong>· WIFI Setting</strong><a class="headerlink" href="#wifi-setting" title="Permanent link">&para;</a></h2>
 <p>​   Note: This step can be skipped if you are using a network cable connection.CB1 cannot directly use the Raspberry Pi Imager to set the WiFi name and     password like CM4. After the OS image writing is completed, the MicroSD card will have a FAT32 partition recognized by the computer, find"system.cfg"</p>
 <p><img src=img/M4P/M4P_WIFI1.png width="600"/></p>
@@ -1945,7 +1945,7 @@
 <h3 id="ssh-connect-to-device"><strong>· ssh connect to device</strong><a class="headerlink" href="#ssh-connect-to-device" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
-<p>Install the ssh application Mobaxterm: https://mobaxterm.mobatek.net/downloadhome-edition.html</p>
+<p>Install the ssh application Mobaxterm: <a href="https://mobaxterm.mobatek.net/downloadhome-edition.html">https://mobaxterm.mobatek.net/downloadhome-edition.html</a></p>
 </li>
 <li>
 <p>Insert Micro SD card to M4P, wait for system to load after power on, aprox. 1-2min</p>
@@ -1959,7 +1959,7 @@
 </ol>
 <p><img src=img/Router.png width="600" /></p>
 <ol>
-<li>Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, findthe IP named Fluidd, Mailsail (CM4) or Hurakan (CB1) like shown below</li>
+<li>Or use the <a href="https://angryip.org/">https://angryip.org/</a> tool，scan all IP address in the current network organize by names, findthe IP named Fluidd, Mailsail (CM4) or Hurakan (CB1) like shown below</li>
 </ol>
 <p><img src=img/AngryIP.png width="600" /></p>
 <ol>
@@ -1978,20 +1978,24 @@ CB1:
 <p><img src=img/SSH_Terminal.png width="600" /></p>
 <h3 id="compile-firmware"><strong>· Compile firmware</strong><a class="headerlink" href="#compile-firmware" title="Permanent link">&para;</a></h3>
 <ol>
-<li>After ssh successfully connected to the device, enter in terminal:</li>
-</ol>
+<li>
+<p>After ssh successfully connected to the device, enter in terminal:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cd ~/klipper/
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>make menuconfig
 </code></pre></div>
 <p>Compile with the configuration shown below(if the options below is not available, 
-  please update you Klipper source code to the newest version)
-* [*] Enable extra low-level configuration options 
-* Micro-controller Architecture (STMicroelectronics STM32) ---&gt; 
-* Processor model (STM32G0B1) ---&gt; 
-* Bootloader offset (8KiB bootloader) ---&gt; 
-* Clock Reference (8 MHz crystal) ---&gt; 
-* Communication interface (USB (on PA11/PA12)) ---&gt;</p>
+please update you Klipper source code to the newest version)</p>
+</li>
+</ol>
+<ul>
+<li>[*] Enable extra low-level configuration options </li>
+<li>Micro-controller Architecture (STMicroelectronics STM32) ---&gt; </li>
+<li>Processor model (STM32G0B1) ---&gt; </li>
+<li>Bootloader offset (8KiB bootloader) ---&gt; </li>
+<li>Clock Reference (8 MHz crystal) ---&gt; </li>
+<li>Communication interface (USB (on PA11/PA12)) ---&gt;</li>
+</ul>
 <p><img src=img/M4P/M4P_Make.png width="600" /></p>
 <ol>
 <li>Run <strong>make</strong> to compile firmware，”klipper.bin” file will be generated in <strong>home/pi/kliper/out</strong> folder when make is finished, download it onto your computer using the ssh application.</li>
@@ -2018,7 +2022,7 @@ CB1:
 <p>​   There will be an error message “dfu-util: Error during download get_status” after update. Just ignore it.</p>
 <h3 id="configure-klipper"><strong>· Configure Klipper</strong><a class="headerlink" href="#configure-klipper" title="Permanent link">&para;</a></h3>
 <ol>
-<li>Enter your device IP address into your browser to open the webUI，find the reference config for motherboard in the directory shown below，if there is no such config available, update your klipper source code to the newest version or download from github: https://github.com/bigtreetech/Manta-M4P</li>
+<li>Enter your device IP address into your browser to open the webUI，find the reference config for motherboard in the directory shown below，if there is no such config available, update your klipper source code to the newest version or download from github: <a href="https://github.com/bigtreetech/Manta-M4P">https://github.com/bigtreetech/Manta-M4P</a></li>
 </ol>
 <p><img src=img/M4P/M4P_Conf_Klipper1.png width="600" /></p>
 <ol>
@@ -2029,7 +2033,7 @@ CB1:
 <li>Insert the correct motherboad ID</li>
 </ol>
 <p><img src=img/M4P/M4P_Conf_Klipper3.png width="600" /></p>
-<p>​   Refer to https://www.klipper3d.org/Overview.html for detailed configuration guide according to your machine type.</p>
+<p>​   Refer to <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a> for detailed configuration guide according to your machine type.</p>
 
               
             </article>

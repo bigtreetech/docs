@@ -2114,113 +2114,121 @@
 
 <h2 id="main-features"><strong>Main Features</strong><a class="headerlink" href="#main-features" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p>DSI1, CSI1 interface (for CM4)</p>
-</li>
-<li>
-<p>Gigabit Ethernet interface (1000M for CM4, 100M for CB1)</p>
-</li>
-<li>
-<p>3 USB 2.0 ports</p>
-</li>
+<li>DSI1, CSI1 interface (for CM4)</li>
+</ul>
+<ul>
+<li>Gigabit Ethernet interface (1000M for CM4, 100M for CB1)</li>
+</ul>
+<ul>
+<li>3 USB 2.0 ports</li>
+</ul>
+<ul>
 <li>
 <p>Equipping the ESD protection chip on the USB and Ethernet ports to prevent being </p>
+<p>broken down by the static electricity</p>
 </li>
 </ul>
-<p>broken down by the static electricity</p>
-<ul>
-<li>When working with Raspberry Pi CM4, its 40pin pin header has the same function </li>
-</ul>
-<p>as that of Raspberry Pi(Custom IO for CB1)</p>
-<ul>
-<li>Using a BTB board-to-board connection, which can be further reinforced with </li>
-</ul>
-<p>screws, perfectly compatible with CB1 or Raspberry Pi CM4</p>
 <ul>
 <li>
-<p>The MCU adopts STM32G0B0RE 32-bit ARM Cortex-M0+ @64MHz chip</p>
+<p>When working with Raspberry Pi CM4, its 40pin pin header has the same function </p>
+<p>as that of Raspberry Pi(Custom IO for CB1)</p>
 </li>
+</ul>
+<ul>
+<li>
+<p>Using a BTB board-to-board connection, which can be further reinforced with </p>
+<p>screws, perfectly compatible with CB1 or Raspberry Pi CM4</p>
+</li>
+</ul>
+<ul>
+<li>The MCU adopts STM32G0B0RE 32-bit ARM Cortex-M0+ @64MHz chip</li>
+</ul>
+<ul>
 <li>
 <p>The power chip adopts TPS5450-5A, which supports DC12/24V power input, the </p>
-</li>
-</ul>
 <p>output current of the chip is up to 5A, and the peak value can reach 6A, which </p>
 <p>perfectly supports the power supply of the core board</p>
-<ul>
-<li>The protection circuit of the thermistor part prevents the main control chip from </li>
+</li>
 </ul>
+<ul>
+<li>
+<p>The protection circuit of the thermistor part prevents the main control chip from </p>
 <p>burning due to leakage of the heated bed or heater cartridge</p>
-<ul>
-<li>In CNC fan ports: FAN0, FAN1, and FAN2, a 24V (DCIN) or 5V power supply can </li>
+</li>
 </ul>
+<ul>
+<li>
+<p>In CNC fan ports: FAN0, FAN1, and FAN2, a 24V (DCIN) or 5V power supply can </p>
 <p>be selected with a jumper cap (Note: the voltage of the three CNC fans should be </p>
 <p>the same, and cannot be set to different voltages individually)</p>
-<ul>
-<li>MCU firmware can be upgraded through SD card, or through DFU with Klipper's </li>
+</li>
 </ul>
+<ul>
+<li>
+<p>MCU firmware can be upgraded through SD card, or through DFU with Klipper's </p>
 <p>make flash command</p>
-<ul>
-<li>On-board TMC-driven SPI and UART working modes, on-board DIAG function </li>
+</li>
 </ul>
-<p>pins, can be used by simply plugging and unplugging the jumper cap</p>
 <ul>
 <li>
-<p>Support filament runout detection, BLTouch, RGB lights...</p>
+<p>On-board TMC-driven SPI and UART working modes, on-board DIAG function </p>
+<p>pins, can be used by simply plugging and unplugging the jumper cap</p>
 </li>
-<li>
-<p>Adopt replaceable fuse for easy replacement</p>
-</li>
+</ul>
+<ul>
+<li>Support filament runout detection, BLTouch, RGB lights...</li>
+</ul>
+<ul>
+<li>Adopt replaceable fuse for easy replacement</li>
 </ul>
 <h2 id="basic-parameters"><strong>Basic Parameters</strong><a class="headerlink" href="#basic-parameters" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p>Product Size: 160 x 95mm</p>
-</li>
-<li>
-<p>Installation Size: 146 x 84.2mm; 97 x 84.2mm</p>
-</li>
-<li>
-<p>Core Board Installation Size: 33 x 48mm</p>
-</li>
-<li>
-<p>The maximum output current of the heated bed port: 10A</p>
-</li>
-<li>
-<p>The maximum output current of the heater cartridge port: 6A</p>
-</li>
+<li>Product Size: 160 x 95mm</li>
+</ul>
+<ul>
+<li>Installation Size: 146 x 84.2mm; 97 x 84.2mm</li>
+</ul>
+<ul>
+<li>Core Board Installation Size: 33 x 48mm</li>
+</ul>
+<ul>
+<li>The maximum output current of the heated bed port: 10A</li>
+</ul>
+<ul>
+<li>The maximum output current of the heater cartridge port: 6A</li>
+</ul>
+<ul>
 <li>
 <p>Fan Port: Three for CNC Fan(24V/5V Voltage Selectable), One SoC Fan(Voltage </p>
+<p>not Selectable)</p>
 </li>
 </ul>
-<p>not Selectable)</p>
 <ul>
-<li>
-<p>The maximum output current of the fan port:1A</p>
-</li>
-<li>
-<p>Total current for heater cartridge + driver + fan: ＜20A</p>
-</li>
-<li>
-<p>Extended Interface: BLTouch(Servos, Probe), Fil-DET, 2 * RGB</p>
-</li>
+<li>The maximum output current of the fan port:1A</li>
+</ul>
+<ul>
+<li>Total current for heater cartridge + driver + fan: ＜20A</li>
+</ul>
+<ul>
+<li>Extended Interface: BLTouch(Servos, Probe), Fil-DET, 2 * RGB</li>
+</ul>
+<ul>
 <li>
 <p>Motor Driver: Support TMC5160, TMC2209, TMC2225, TMC2226, TMC2208, </p>
+<p>TMC2130, ST820, LV8729, DRV8825, A4988...</p>
 </li>
 </ul>
-<p>TMC2130, ST820, LV8729, DRV8825, A4988...</p>
 <ul>
-<li>
-<p>Driver Working Mode Support: SPI, UART, STEP/DIR</p>
-</li>
-<li>
-<p>Motor Drive Interface: X, Y, Z(Dual Z-axis), E0, a total of four.</p>
-</li>
-<li>
-<p>Temperature Sensor Interface: 2-way 100K NTC</p>
-</li>
-<li>
-<p>Display Screen: RepRapDiscount EXP-1 + EXP-2</p>
-</li>
+<li>Driver Working Mode Support: SPI, UART, STEP/DIR</li>
+</ul>
+<ul>
+<li>Motor Drive Interface: X, Y, Z(Dual Z-axis), E0, a total of four.</li>
+</ul>
+<ul>
+<li>Temperature Sensor Interface: 2-way 100K NTC</li>
+</ul>
+<ul>
+<li>Display Screen: RepRapDiscount EXP-1 + EXP-2</li>
 </ul>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
 <p><img src=img/M4P/M4P_Size.png width="600"/></p>
@@ -2240,7 +2248,7 @@
 
 <p><img src=img/M4P/M4P_Stepper_Driver.png width="600" /></p>
 <p><strong><font  color="red">Note: If using A4988or DRV8825, RST and SLP must be shorted with jumper caps for normal operation. </font></strong></p>
-<p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
+<p>For details, please click: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
 <h4 id="uart-mode-of-tmc-driver"><strong>UART Mode of TMC Driver</strong><a class="headerlink" href="#uart-mode-of-tmc-driver" title="Permanent link">&para;</a></h4>
 <p>For example, TMC2208, TMC2209, TMC2225... Use a jumper cap for each to connect the position of the red box in the figure, and the subdivision and driver current is set by firmware.</p>
 
@@ -2298,10 +2306,10 @@ spi_bus: spi1
 </code></pre></div>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
 <p>For details, please click: </p>
-<p>https://bigtreetech.github.io/docs/Software%20Configuration.html</p>
+<p><a href="https://bigtreetech.github.io/docs/Software%20Configuration.html">https://bigtreetech.github.io/docs/Software%20Configuration.html</a></p>
 <h2 id="software-installation"><strong>Software Installation</strong><a class="headerlink" href="#software-installation" title="Permanent link">&para;</a></h2>
 <p>For details, please click:</p>
-<p>https://bigtreetech.github.io/docs/Software%20Installation.html</p>
+<p><a href="https://bigtreetech.github.io/docs/Software%20Installation.html">https://bigtreetech.github.io/docs/Software%20Installation.html</a></p>
 <h2 id="faqs"><strong>FAQs</strong><a class="headerlink" href="#faqs" title="Permanent link">&para;</a></h2>
 <ul>
 <li>All unplugging and plugging operations should be performed under the condition of power off, including enabling the eMMC writing.</li>
@@ -2309,14 +2317,14 @@ spi_bus: spi1
 </ul>
 <h2 id="product-purchase-link">Product Purchase Link<a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>
 <p><strong>Purchase Link:</strong></p>
-<p>https://biqu.equipment/products/manta-m4p-m8p</p>
+<p><a href="https://biqu.equipment/products/manta-m4p-m8p">https://biqu.equipment/products/manta-m4p-m8p</a></p>
 <p><strong>If you have any issues with the product, please submit a support ticket.</strong></p>
-<p>https://biqu3d.com/pages/submit-a-ticket</p>
+<p><a href="https://biqu3d.com/pages/submit-a-ticket">https://biqu3d.com/pages/submit-a-ticket</a></p>
 <p><strong>Navigation:</strong></p>
-<p>BIQU Official Website:                                      http://biqu3d.com</p>
-<p>BIGTREETECH Official Website:                          http://bigtree-tech.com</p>
-<p>Online Store:                                                       https://biqu.equipment</p>
-<p>Community:                                                           https://community.biqu3d.com</p>
+<p>BIQU Official Website:                                      <a href="http://biqu3d.com">http://biqu3d.com</a></p>
+<p>BIGTREETECH Official Website:                          <a href="http://bigtree-tech.com">http://bigtree-tech.com</a></p>
+<p>Online Store:                                                       <a href="https://biqu.equipment">https://biqu.equipment</a></p>
+<p>Community:                                                           <a href="https://community.biqu3d.com">https://community.biqu3d.com</a></p>
 
               
             </article>
