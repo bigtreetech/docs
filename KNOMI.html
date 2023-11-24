@@ -926,6 +926,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#update-firmware" class="md-nav__link">
+    Update Firmware
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#customize-ui" class="md-nav__link">
     Customize UI
   </a>
@@ -1847,6 +1854,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#update-firmware" class="md-nav__link">
+    Update Firmware
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#customize-ui" class="md-nav__link">
     Customize UI
   </a>
@@ -1987,11 +2001,23 @@ definitions. Once completed, save and exit.</p>
 <p>KNOMI user interface employs visual elements during various stages of printer operation to provide status information to the user:</p>
 <p><img src=img/KNOMI/KNOMI_IN17.png width="600" /></p>
 <p><img src=img/KNOMI/KNOMI_IN18.png width="600" /></p>
+<h2 id="update-firmware"><strong>Update Firmware</strong><a class="headerlink" href="#update-firmware" title="Permanent link">&para;</a></h2>
+<p>1、Please click on the link to download the burning tool https://www.espressif.com.cn/en/support/download/other-tools?keys=</p>
+<p><img src=img/KNOMI/KNOMI_UPDATE1.png width="600" /></p>
+<p>2、Please click to download <a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/Firmware.zip">Firmware</a></p>
+<p>3、Press and hold the button on knomi1 and connect it to the computer via USB.</p>
+<p>4、Click on .exe</p>
+<p><img src=img/KNOMI/KNOMI_UPDATE2.png width="600" /></p>
+<p>5、Select esp32</p>
+<p><img src=img/KNOMI/KNOMI_UPDATE3.png width="600" /></p>
+<p>5、Unzip downloaded Firmware. Click "..." to add 3 corresponding bin files, and manually enter the corresponding bin file offset address after "@" (note that the bin file name corresponds to the address). Select COM for knomi1.Click "START" to start downloading, wait for the progress bar to end and prompt completion;</p>
+<p><img src=img/KNOMI/KNOMI_UPDATE4.png width="600" /></p>
+<p>6、Unplug the USB and plug it back in (re power on), and you can see that the display screen displays the content normally, indicating successful burning;</p>
 <h2 id="customize-ui"><strong>Customize UI</strong><a class="headerlink" href="#customize-ui" title="Permanent link">&para;</a></h2>
 <h3 id="image-conversion"><strong>Image conversion</strong><a class="headerlink" href="#image-conversion" title="Permanent link">&para;</a></h3>
 <p>1、We have provided seventeen customizable gifs in knomi.</p>
 <p><img src=img/KNOMI/KNOMI_GIF.png width="600" /></p>
-<p>2、Click to download <a href="https://raw.githack.com/z1996xm/BIGTREETECH/main/docs/download/KNOMI_GIF.zip">KNOMI GIF</a> . You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on <a href="https://www.gifgit.com/gif/resize">here (English)</a>or  <a href="https://www.gif.cn/">here (Chinese)</a> to modify your GIF pixels and right-click to view the GIF's.</p>
+<p>2、Click to download <a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI_GIF.zip">KNOMI GIF</a> . You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on <a href="https://www.gifgit.com/gif/resize">here (English)</a>or  <a href="https://www.gif.cn/">here (Chinese)</a> to modify your GIF pixels and right-click to view the GIF's.</p>
 <p>For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.html#picture-pixels</p>
 <p><img src=img/KNOMI/KNOMI_Tip.png width="600" /></p>
 <p>3、Click https://github.com/bigtreetech/KNOMI to download the KNOMI project. Using Visual Studio Code https://marlinfw.org/docs/basics/install_platformio_vscode.html to open the project and enter lvgl_ Gif.cpp file.</p>
