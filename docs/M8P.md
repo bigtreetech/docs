@@ -107,7 +107,7 @@ For example, A4988, DRV8825, LV8729, ST820...use the jumper cap to short MS0-MS2
 
 <font  color="red">**Note: If using A4988or DRV8825, RST and SLP must be shorted with jumper caps for normal operation.**</font>
 
-For details, please click: https://z1996xm.github.io/BIGTREETECH/Tutorials.html
+For details, please click: https://bigtreetech.github.io/docs/Tutorials.html
 
 
 For example, TMC2208, TMC2209, TMC2225... Use a jumper cap for each to connect the position of the red box in the figure, and the subdivision and 	driver current is set by firmware.

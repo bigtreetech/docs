@@ -92,7 +92,7 @@ e.g.: A4988, DRV8825, LV8729, ST820, etc., connect jumpers(MS0-MS2) according to
 
 **<font  color="red">Note: RST and SLP must be shorted by jumpers for A4988 or DRV8825. </font>**
 
-For details, please click: https://z1996xm.github.io/BIGTREETECH/Tutorials.html
+For details, please click: https://bigtreetech.github.io/docs/Tutorials.html
 
 
 #### **UART Mode of TMC Driver**

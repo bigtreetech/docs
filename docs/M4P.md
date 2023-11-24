@@ -122,7 +122,7 @@
 
 **<font  color="red">Note: If using A4988or DRV8825, RST and SLP must be shorted with jumper caps for normal operation. </font>**
 
-For details, please click: https://z1996xm.github.io/BIGTREETECH/Tutorials.html
+For details, please click: https://bigtreetech.github.io/docs/Tutorials.html
 
 
 #### **UART Mode of TMC Driver**

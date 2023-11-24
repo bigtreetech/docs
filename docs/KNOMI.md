@@ -156,6 +156,30 @@ KNOMI user interface employs visual elements during various stages of printer op
 
 <img src=img/KNOMI/KNOMI_IN18.png width="600" />
 
+## **Update Firmware**
+
+1、Please click on the link to download the burning tool https://www.espressif.com.cn/en/support/download/other-tools?keys=
+
+<img src=img/KNOMI/KNOMI_UPDATE1.png width="600" />
+
+2、Please click to download [Firmware](https://raw.githack.com/bigtreetech/docs/master/docs/download/Firmware.zip)
+
+3、Press and hold the button on knomi1 and connect it to the computer via USB.
+
+4、Click on .exe
+
+<img src=img/KNOMI/KNOMI_UPDATE2.png width="600" />
+
+5、Select esp32
+
+<img src=img/KNOMI/KNOMI_UPDATE3.png width="600" />
+
+5、Unzip downloaded Firmware. Click "..." to add 3 corresponding bin files, and manually enter the corresponding bin file offset address after "@" (note that the bin file name corresponds to the address). Select COM for knomi1.Click "START" to start downloading, wait for the progress bar to end and prompt completion;
+
+<img src=img/KNOMI/KNOMI_UPDATE4.png width="600" />
+
+6、Unplug the USB and plug it back in (re power on), and you can see that the display screen displays the content normally, indicating successful burning;
+
 ## **Customize UI**
 
 ### **Image conversion**
@@ -164,7 +188,7 @@ KNOMI user interface employs visual elements during various stages of printer op
 
 <img src=img/KNOMI/KNOMI_GIF.png width="600" />
 
-2、Click to download [KNOMI GIF](https://raw.githack.com/z1996xm/BIGTREETECH/main/docs/download/KNOMI_GIF.zip) . You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
+2、Click to download [KNOMI GIF](https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI_GIF.zip) . You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
 
 For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.html#picture-pixels
 
