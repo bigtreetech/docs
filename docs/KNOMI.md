@@ -158,7 +158,7 @@ KNOMI user interface employs visual elements during various stages of printer op
 
 ## **Update Firmware**
 
-1、Please click on the link to download the burning tool https://www.espressif.com.cn/en/support/download/other-tools?keys=
+1、Please click on the link to download the burning tool  https://www.espressif.com.cn/en/support/download/other-tools
 
 <img src=img/KNOMI/KNOMI_UPDATE1.png width="600" />
 
