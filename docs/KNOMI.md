@@ -158,6 +158,19 @@ KNOMI user interface employs visual elements during various stages of printer op
 
 ## **Update Firmware**
 
+The highlights of upgrading KNOMI 1 to KNOMI 2 UI are as follows:
+1. OTA (Over-the-Air) functionality has been added, allowing users to complete firmware upgrades online simply by dragging the firmware file into the Web interface.
+
+2. The WiFi configuration Web interface has been optimized, enabling users to search for and select the desired WiFi connection directly on the Web page.
+
+3. The KNOMI 2 UI has been upgraded with a completely new design, added QGL leveling UI, making the display effect more vivid. 
+
+4. Fixed the Bug of the print progress percentage, and achieved display synchronization with Mainsail/Klipperscreen.
+
+5. Fixed other known bugs.
+
+   
+
 1、Please click on the link to download the burning tool  https://www.espressif.com.cn/en/support/download/other-tools
 
 <img src=img/KNOMI/KNOMI_UPDATE1.png width="600" />
