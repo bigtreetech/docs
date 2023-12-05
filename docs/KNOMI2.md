@@ -137,7 +137,7 @@ As shown, guide KNOMI 2's power cable through the hole in the printed part, and 
 
 <font  color="red">**Power Supply**</font> 
 
-KNOMI 2 supports 5-24V. If you are not using the EBB SB0000 CAN or a similar tool board, after routing the power cable as shown in the diagram, connect it to your motherboard or other power source.
+If you are not using the EBB SB0000 CAN or a similar tool board, after routing the power cable as shown in the diagram, connect it to your motherboard or other power source.
 
 ## **ADDING RELEVANT MACROS**
 
