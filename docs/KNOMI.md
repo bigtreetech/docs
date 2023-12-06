@@ -148,14 +148,6 @@ KNOMI requires the addition of relevant macros for homing and leveling within th
 entering the Klipper IP address into your browser, locate the config Files directory containing printer.cfg, and insert the following macro 
 definitions. Once completed, save and exit.
 
-<font  color="red">**KNOMI UI**</font> 
-
-KNOMI user interface employs visual elements during various stages of printer operation to provide status information to the user:
-
-<img src=img/KNOMI/KNOMI_IN17.png width="600" />
-
-<img src=img/KNOMI/KNOMI_IN18.png width="600" />
-
 ## **Update Firmware**
 
 The highlights of upgrading KNOMI 1 to KNOMI 2 UI are as follows:
@@ -207,7 +199,7 @@ For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.ht
 
 <img src=img/KNOMI/KNOMI_Tip.png width="600" />
 
-3、Click https://github.com/bigtreetech/KNOMI to download the KNOMI project. Using Visual Studio Code https://marlinfw.org/docs/basics/install_platformio_vscode.html to open the project and enter lvgl_ Gif.cpp file.
+3、Click https://github.com/bigtreetech/KNOMI/tree/firmware to download the KNOMI1project. Using Visual Studio Code https://marlinfw.org/docs/basics/install_platformio_vscode.html to open the project and enter lvgl_ Gif.cpp file.
 
 <img src=img/KNOMI/KNOMI_Tip1.png width="600" />
 
@@ -231,11 +223,11 @@ For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.ht
 
 8、The Output format select C array,and click on Convert.
 
+<img src=img/KNOMI/KNOMI_Tip6.png width="600" />
+
+9、Replace the generated gif_standby. c file with the source file with the same name in the knomi project.
+
 <img src=img/KNOMI/KNOMI_Tip7.png width="600" />
-
-9、Replace the generated Standby. c file with the source file with the same name in the knomi project.
-
-<img src=img/KNOMI/KNOMI_Tip10.png width="600" />
 
 10、Click Compile.
 
@@ -260,20 +252,6 @@ For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.ht
 <img src=img/KNOMI/KNOMI_gif6.png width="600" />
 
 <img src=img/KNOMI/KNOMI_gif7.png width="600" />
-
-<img src=img/KNOMI/KNOMI_gif8.png width="600" />
-
-<img src=img/KNOMI/KNOMI_gif9.png width="600" />
-
-<img src=img/KNOMI/KNOMI_gif10.png width="600" />
-
-<img src=img/KNOMI/KNOMI_gif11.png width="600" />
-
-<img src=img/KNOMI/KNOMI_gif12.png width="600" />
-
-<img src=img/KNOMI/KNOMI_gif13.png width="600" />
-
-<img src=img/KNOMI/KNOMI_gif14.png width="600" />
 
 
 
