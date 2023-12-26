@@ -56,7 +56,7 @@ The BIGTREETECH Knomi V2.0 screen is a screen developed by the 3D printing team 
 	<tr>  
 </table>
 
-<font  color="red">**For information about KNOMI2 structure, please click**</font> :[KNOMI 2 User Guide.pdf](https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI 2 User Guide.pdf)
+<font  color="red">**For information about KNOMI2 structure, please click**</font> :[KNOMI 2 User Manual.pdf](https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI 2 User Manual.pdf)
 
 ## **PERFORMANCE COMPARISON TEST**
 
