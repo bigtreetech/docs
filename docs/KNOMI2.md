@@ -66,9 +66,13 @@ We have customized installation print parts for KNOMI 2, facilitating its easy i
 our StealthBurner Main Body not only retains the original fan positions but also incorporates a circular ventilation opening at the top, 
 enhancing compatibility and optimizing heat dissipation.
 
-<img src=img/KNOMI/KNOMI_IN1.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN0.png width="600" />
 
-<img src=img/KNOMI/KNOMI_IN2.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN.png width="600" />
+
+<font  color="red">**DOWNLOAD THE PRINTED PARTS**</font> 
+
+https://github.com/bigtreetech/KNOMI
 
 <font  color="red">**MOUNTING PLATE**</font> 
 
