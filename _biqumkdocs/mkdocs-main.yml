@@ -245,10 +245,14 @@ nav:
       - EBB Series.md
       - libinput_calibration.md    
   - BIQU:
+    - Panda series: 
+      - Panda Hotend:
+        - Panda Flow.md 
+        - Panda Revo.md 
+        - Panda CHT.md 
     - Extruders: Extruders.md 
     - Hotends: Hotends.md 
     - Sensor modules: Sensor modules.md 
     - Printers: Printers.md 
-    - Panda series: Panda series.md 
   - ABOUT:
     - About.md
