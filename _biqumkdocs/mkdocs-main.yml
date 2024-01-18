@@ -247,9 +247,15 @@ nav:
   - BIQU:
     - Panda series: 
       - Panda Hotend:
-        - Panda Flow.md 
-        - Panda Revo.md 
-        - Panda CHT.md 
+        - Panda Flow:
+          - Panda Flow.md 
+        - Panda Revo:
+          - X1:
+            - Panda Revo X1 Hotend.md
+          - P1:
+            - Panda Revo P1 Hotend.md
+        - Panda CHT:
+          - Panda CHT.md 
     - Extruders: Extruders.md 
     - Hotends: Hotends.md 
     - Sensor modules: Sensor modules.md 
