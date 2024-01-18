@@ -144,11 +144,19 @@ If you observe signs of under-extrusion, lower this number until print quality i
 ## Product Purchase Link
 
 **Purchase Link:**
+
 https://biqu.equipment/products/biqu-panda-hotend
+
 If you have any issues with the product, please submit a support ticket.
+
 https://biqu3d.com/pages/submit-a-ticket
+
 **Navigation:**
+
 BIQU Official Website: http://biqu3d.com
+
 BIGTREETECH Official Website: http://bigtree-tech.com
+
 Online Store: https://biqu.equipment
+
 Community: https://community.biqu3d.com
