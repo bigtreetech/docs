@@ -31,12 +31,16 @@ The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle chan
 | Heater Power        | 60W                 |
 | Thermistor          | NTC100k             |
 
+<font  color="red">**Compatibility     Bambu Lab P1P/P1S**</font> 
+
 | Packing List                                     | Qty  |
 | ------------------------------------------------ | ---- |
 | Heatsink                                         | 1    |
 | HeaterCore Assembly for P1(With Spring and Sock) | 1    |
 | 0.4mm Revo™ High Flow Nozzle                     | 1    |
 | BIQU X E3D Sticker                               | 1    |
+
+ Installation Video Tutorial For P1： https://www.youtube.com/watch?v=wyYv6dBOpak
 
 ## Installation Guide
 
