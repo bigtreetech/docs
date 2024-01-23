@@ -256,6 +256,10 @@ nav:
             - Panda Revo P1 Hotend.md
         - Panda CHT:
           - Panda CHT.md 
+      - Panda Touch.md 
+      - Panda Jet.md 
+      - Panda Fur.md 
+      - Panda Lux.md 
     - Extruders: Extruders.md 
     - Hotends: Hotends.md 
     - Sensor modules: Sensor modules.md 
