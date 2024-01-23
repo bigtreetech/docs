@@ -19,26 +19,25 @@ The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle chan
 
 ## **Basic Parameters**
 
-| Length              | 47.3mm              |
-| ------------------- | ------------------- |
-| Package Dimension   | 95x66x28mm          |
-| Maximum Temperature | 300℃                |
-| Maximum Flow Rate   | 40mm³/s             |
-| Nozzle Material     | Brass               |
-| Nozzle Diameter     | 0.4mm               |
-| Nozzle Model        | E3D Revo™ High Flow |
-| Heater Voltage      | 24V                 |
-| Heater Power        | 60W                 |
-| Thermistor          | NTC100k             |
+| Length                  | 47.3mm                  |
+| ----------------------- | ----------------------- |
+| **Package Dimension**   | **95x66x28mm**          |
+| **Maximum Temperature** | **300℃**                |
+| **Maximum Flow Rate**   | **40mm³/s**             |
+| **Nozzle Material**     | **Brass**               |
+| **Nozzle Diameter**     | **0.4mm**               |
+| **Nozzle Model**        | **E3D Revo™ High Flow** |
+| **Heater Voltage****    | **24V**                 |
+| **Heater Power**        | **60W**                 |
+| **Thermistor**          | **NTC100k**             |
+| **Compatibility**       | **Bambu Lab P1P/P1S**   |
 
-<font  color="red">**Compatibility     Bambu Lab P1P/P1S**</font> 
-
-| Packing List                                     | Qty  |
-| ------------------------------------------------ | ---- |
-| Heatsink                                         | 1    |
-| HeaterCore Assembly for P1(With Spring and Sock) | 1    |
-| 0.4mm Revo™ High Flow Nozzle                     | 1    |
-| BIQU X E3D Sticker                               | 1    |
+| Packing List                                         | Qty   |
+| ---------------------------------------------------- | ----- |
+| **Heatsink**                                         | **1** |
+| **HeaterCore Assembly for P1(With Spring and Sock)** | **1** |
+| **0.4mm Revo™ High Flow Nozzle**                     | **1** |
+| **BIQU X E3D Sticker**                               | **1** |
 
  Installation Video Tutorial For P1： https://www.youtube.com/watch?v=wyYv6dBOpak
 

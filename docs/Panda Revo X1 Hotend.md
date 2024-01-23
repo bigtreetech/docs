@@ -30,8 +30,7 @@ The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle chan
 | **Heater Voltage**      | **24V**                 |
 | **Heater Power**        | **60W**                 |
 | **Thermistor**          | **NTC100k**             |
-
-<font  color="red">**Compatibility     Bambu Lab X1C**</font> 
+| **Compatibility**       | **Bambu Lab X1C**       |
 
 | Packing List                                         | Qty   |
 | ---------------------------------------------------- | ----- |
