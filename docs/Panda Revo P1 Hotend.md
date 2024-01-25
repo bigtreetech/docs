@@ -43,6 +43,10 @@ The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle chan
 
 ## Installation Guide
 
+###  Installation Video Tutorial For P1
+
+ https://www.youtube.com/watch?v=wyYv6dBOpak
+
 ### Complete Hotend Assembly
 
 (Cooling fan not included) for P1 Series Printer.

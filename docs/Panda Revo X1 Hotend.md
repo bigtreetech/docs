@@ -39,9 +39,11 @@ The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle chan
 | **0.4mm Revo™ High Flow Nozzle**                     | **1** |
 | **BIQU X E3D Sticker**                               | **1** |
 
- Installation Video Tutorial For X1：https://www.youtube.com/watch?v=ubwh3KBd5eE
-
 ## Installation Guide
+
+###  Installation Video Tutorial For X1
+
+https://www.youtube.com/watch?v=ubwh3KBd5eE
 
 ### Complete Hotend Assembly
 
