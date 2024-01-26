@@ -264,5 +264,7 @@ nav:
     - Hotends: Hotends.md 
     - Sensor modules: Sensor modules.md 
     - Printers: Printers.md 
+    - Cooling solution:
+      - Universal Turbo Kit.md 
   - ABOUT:
     - About.md
