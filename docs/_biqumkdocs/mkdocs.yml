@@ -262,7 +262,8 @@ nav:
       - Panda Lux.md 
     - Extruders: Extruders.md 
     - Hotends: Hotends.md 
-    - Sensor modules: Sensor modules.md 
+    - Sensor modules:
+      - Hermit Crab 2 Series.md
     - Printers: Printers.md 
     - Cooling solution:
       - Universal Turbo Kit.md 
