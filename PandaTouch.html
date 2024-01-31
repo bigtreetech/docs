@@ -3071,31 +3071,33 @@ After filling in the <code>required</code> information, you can click the <code>
 <h4 id="start-printing-from-usb-flash-drive">Start printing from USB flash drive<a class="headerlink" href="#start-printing-from-usb-flash-drive" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Ensure that the file system of the USB flash drive is formatted as FAT32.</li>
-<li>Export the <code>.3mf</code> file from either Bambu Studio or Orca Slicer using the <code>Export plate sliced file</code> option.
-<img src=img/PandaTouch/export_3mf.png width="600"/></li>
+<li>Export the <code>.3mf</code> file from either Bambu Studio or Orca Slicer using the <code>Export plate sliced file</code> option. <br> <img src=img/PandaTouch/export_3mf.png width="600"/></li>
 <li>Write the sliced <code>.3mf</code> file to the root directory of the USB flash drive<ul>
 <li>Panda Touch currently (<code>V1.0.1</code>) only supports <code>.3mf</code> files and does not support <code>.gcode</code> files.</li>
 <li>Panda Touch currently (<code>V1.0.1</code>) only supports reading files in the root directory and does not support reading files in folders.</li>
 </ul>
 </li>
-<li>Insert the USB flash drive into the Panda Touch, and then go to the <code>USB flash drive</code> menu.
-<img src=img/PandaTouch/usb_flash_drive.png width="600"/></li>
-<li>Find the file we want to print in the file list, click on the file name to select the printer(s) and start printing.
-<img src=img/PandaTouch/select_printer.png width="600"/></li>
+<li>Insert the USB flash drive into the Panda Touch, and then go to the <code>USB flash drive</code> menu. <br> <img src=img/PandaTouch/usb_flash_drive.png width="600"/></li>
+<li>Find the file we want to print in the file list, click on the file name to select the printer(s) and start printing. <br> <img src=img/PandaTouch/select_printer.png width="600"/><ul>
 <li>①: Select or deselect this printer to start the print job.</li>
-<li>②: Set printing parameters:</li>
+<li>②: Set printing parameters:<ul>
 <li><code>Bed Leveling</code></li>
 <li><code>Flow Calibration</code> (<code>P1P</code> and <code>P1S</code> do not have this feature, so these models of printers will not display this option.)</li>
 <li><code>Timelapse</code></li>
 <li><code>Use AMS</code> (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)</li>
+</ul>
+</li>
 <li>③：List of printers selected to start the task.</li>
-<li>④：Start printing.</li>
+<li>④：Start printing.<ul>
 <li>Please make sure that the sliced <code>.3mf</code> file is compatible with the selected printers.</li>
 <li>If using an AMS, please make sure that the filaments in the AMS tray are consistent with those in the sliced <code>.3mf</code> file as there is currently (<code>V1.0.1</code>) no ability to dynamically map filaments at the start of the print.</li>
 </ul>
+</li>
+</ul>
+</li>
+</ul>
 <ul>
-<li>Panda Touch will start to upload the files in the USB flash drive to the root directory of the printer's MicroSD card.
-<img src=img/PandaTouch/uploading.png width="600"/></li>
+<li>Panda Touch will start to upload the files in the USB flash drive to the root directory of the printer's MicroSD card. <br> <img src=img/PandaTouch/uploading.png width="600"/><ul>
 <li>
 <ol>
 <li>Please make sure there is an MicroSD card inserted into the printer.</li>
@@ -3106,8 +3108,9 @@ After filling in the <code>required</code> information, you can click the <code>
 <li>Please ensure that the remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.</li>
 </ol>
 </li>
-<li>Printing will begin once the upload is complete. For very large <code>.3mf</code> files the transfer time may take some minutes to each printer.
-<img src=img/PandaTouch/printing.png width="600"/></li>
+</ul>
+</li>
+<li>Printing will begin once the upload is complete. For very large <code>.3mf</code> files the transfer time may take some minutes to each printer. <br> <img src=img/PandaTouch/printing.png width="600"/></li>
 </ul>
 <h4 id="start-printing-from-the-printers-microsd-card">Start printing from the printer's MicroSD card<a class="headerlink" href="#start-printing-from-the-printers-microsd-card" title="Permanent link">&para;</a></h4>
 <ul>
