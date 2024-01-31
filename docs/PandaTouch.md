@@ -253,12 +253,12 @@ The following group controls exist from this menu:
 
 #### OTA
 
-* Download the firmware binary file (Download link in [Firmware History](#Firmware-History)) to the computer(iPhone or Android Phone).
+* Download the firmware binary file (Download link in [Firmware History](#Firmware-History)) to the device being used to perform the update. This can be a computer or a mobile device running an OS such as iOS or Android. Hereafter it will be referred to as the "computer".
 <br><img src=img/PandaTouch/firmware_download.png width="600"/>
-* Connect the Panda Touch to the WiFi on the same LAN as the computer/mobile.
+* Connect the Panda Touch to the WiFi on the same LAN as the computer.
 * Find the IP address of the Panda Touch from the `Network` menu.
 <br><img src=img/PandaTouch/ip.png width="600"/>
-* Enter the Panda Touch's IP address in the computer (iPhone or Android Phone)'s browser to access the web ui, and then click "Update FW" button.
+* Enter the Panda Touch's IP address in the computer's browser to access the web UI, and then click "Update FW" button.
 <br><img src=img/PandaTouch/ota_1.png width="600"/>
 * Click the "Choose File" button, then select the downloaded firmware binary file. The Panda Touch will automatically start updating.
 <br><img src=img/PandaTouch/ota_2.png width="600"/>
