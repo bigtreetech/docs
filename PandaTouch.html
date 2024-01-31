@@ -2988,25 +2988,33 @@
 </ul>
 <h5 id="manual-data-entry">Manual Data Entry<a class="headerlink" href="#manual-data-entry" title="Permanent link">&para;</a></h5>
 <ul>
-<li>You can click on the printer icon on the left to enter the menu for selecting the printer model. You must set it according to the actual model of the printer you are connecting to. The Panda Touch will also perform some checks in the background to confirm the model. The available models are as follows:
-    * P1P
-    * P1S
-    * X1C
-    * A1 mini
-    * A1<p>After selecting a model using the icon, the content in the <code>Model</code> field will be filled with the corresponding model name.</p>
+<li>
+<p>You can click on the printer icon on the left to enter the menu for selecting the printer model. You must set it according to the actual model of the printer you are connecting to. The Panda Touch will also perform some checks in the background to confirm the model. The available models are as follows:</p>
+<ul>
+<li>P1P</li>
+<li>P1S</li>
+<li>X1C</li>
+<li>A1 mini</li>
+<li>A1</li>
+</ul>
+<p>After selecting a model using the icon, the content in the <code>Model</code> field will be filled with the corresponding model name.</p>
 </li>
 </ul>
 <ul>
-<li>After selecting the printer model, there are 4 required fields. These fields contain information necessary to connect to and identify the printer. Tap the 'i' icon and swipe left and right for instructions on how to find this information on your printer.<p>* <code>Name</code>: a custom name for users to identify the printer. (length: 1~15 characters)
-  * <code>Printer IP</code>: for Panda Touch to connect to printer. (length: 7~15 characters)
-  * <code>Access Code</code>: for Panda Touch to connect to printer. (length: 8 characters)
-  * <code>SN</code>: for Panda Touch to connect to printer. (length: 15 characters)
-* There are 5 optional fields which may help you to identify certain parameters of the printer during later use.
-  * <code>Model</code>: The model name identifies the exact model of the printer and defines what picture is associated with it. <code>P1P</code>, <code>P1S</code>, <code>X1C</code>, <code>A1 mini</code>, <code>A1</code>, or customized. (length: 0~15 characters)
-  * <code>Filament Color</code>: The color of the filament used by the printer. (length: 0~6 characters)
-  * <code>Filament Material</code>: The material of the filament used by the printer. (length: 0~6 characters)
-  * <code>Nozzle Diameter</code>: The diameter of the nozzle used by the printer. (length: 0~6 characters)
-  * <code>Nozzle Material</code>: The type of nozzle used on the printer. (length: 0~6 characters)</p>
+<li>After selecting the printer model, there are 4 required fields. These fields contain information necessary to connect to and identify the printer. Tap the <code>i</code> icon and swipe left and right for instructions on how to find this information on your printer.<ul>
+<li><code>Name</code>: a custom name for users to identify the printer. (length: 1~15 characters)</li>
+<li><code>Printer IP</code>: for Panda Touch to connect to printer. (length: 7~15 characters)</li>
+<li><code>Access Code</code>: for Panda Touch to connect to printer. (length: 8 characters)</li>
+<li><code>SN</code>: for Panda Touch to connect to printer. (length: 15 characters)</li>
+</ul>
+</li>
+<li>There are 5 optional fields which may help you to identify certain parameters of the printer during later use.<ul>
+<li><code>Model</code>: The model name identifies the exact model of the printer and defines what picture is associated with it. <code>P1P</code>, <code>P1S</code>, <code>X1C</code>, <code>A1 mini</code>, <code>A1</code>, or customized. (length: 0~15 characters)</li>
+<li><code>Filament Color</code>: The color of the filament used by the printer. (length: 0~6 characters)</li>
+<li><code>Filament Material</code>: The material of the filament used by the printer. (length: 0~6 characters)</li>
+<li><code>Nozzle Diameter</code>: The diameter of the nozzle used by the printer. (length: 0~6 characters)</li>
+<li><code>Nozzle Material</code>: The type of nozzle used on the printer. (length: 0~6 characters)</li>
+</ul>
 </li>
 </ul>
 <ul>
@@ -3014,12 +3022,11 @@
 After filling in the <code>required</code> information, you can click the <code>Confirm</code> button to start connecting to the printer. The title bar of the Panda Touch will display the status of the connection.</li>
 </ul>
 <h3 id="keyboard-interface">Keyboard interface<a class="headerlink" href="#keyboard-interface" title="Permanent link">&para;</a></h3>
-<ul>
-<li>①: Use this key to hide or show the entered information.</li>
-<li>②: Switch between upper and lower case letters.</li>
-<li>③: Switch to <code>Symbol input</code>.</li>
-<li>④: Switch to <code>Number input</code>.</li>
-</ul>
+<div class="highlight"><pre><span></span><code>①: Use this key to hide or show the entered information.
+②: Switch between upper and lower case letters.
+③: Switch to `Symbol input`.
+④: Switch to `Number input`.
+</code></pre></div>
 <ul>
 <li><code>Letter input</code>:
      <br> <img src=img/PandaTouch/keyboard_letter.png width="600"/></li>
@@ -3036,22 +3043,28 @@ After filling in the <code>required</code> information, you can click the <code>
 <p>Currently (<code>V1.0.1</code>), the Panda Touch has 4 settable control modes:</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/control_mode.png width="600"/></p>
 <ul>
-<li><code>Master</code>: A single machine that acts as the source of instructions for itself and possibly other machines.
-    * The temperature, filament, and file list in the MicroSD Card displayed by Panda Touch are all derived from this printer.
-    * Panda Touch requires that a single printer is set at the <code>Master</code> as the source of this information.
-    * All controls on <code>Temperature/Axis</code> and <code>Filament</code> menus are in reference to the <code>Master</code>.
-    * The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Master</code> in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.
-    * You can start print jobs directly on the master using its internal SD memory.</li>
-<li><code>Slave</code>: Slave machines will follow the instructions that the user sends to the <code>Master</code>. For example, instructions such as <code>home</code>, <code>heating</code>, <code>setting filament information</code> and <code>load/unload filament</code> will be followed by all slave machines. This design is for batch control of printers in print farms, so it is recommended that the model and filament (AMS) of <code>Slave</code> machines are the same as those of <code>Master</code>. If they are different, please use <code>Slave</code> mode with caution.
-    * All controls on <code>Temperature/Axis</code> and <code>Filament</code> menus will take effect on <code>Slave</code> machines.
-    * There can be none or multiple <code>Slave</code> machines at the same time.
-    * The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Slave</code> machines in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.
-    * You can start a print job on a <code>Slave</code> printer using an external USB drive and selecting the slave printer.</li>
-<li><code>Sync</code>: An independent machine that does not follow the instructions sent to the master and slave machines.
-    * There can be none or multiple <code>Sync</code> machines at the same time.
-    * The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Sync</code> machines in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.
-    * You can start a print job on a <code>Sync</code> printer using an external USB drive and selecting the slave printer.
-    * Currently (<code>V1.0.1</code>) you cannot control sync printers using the <code>Temperature/Axis</code> and <code>Filament</code> menus. They must be temporarily set to <code>Master</code> in order to do this. In a future firmware version the grouping scheme will be adjusted such that this is possible.</li>
+<li><code>Master</code>: A single machine that acts as the source of instructions for itself and possibly other machines.<ul>
+<li>The temperature, filament, and file list in the MicroSD Card displayed by Panda Touch are all derived from this printer.</li>
+<li>Panda Touch requires that a single printer is set at the <code>Master</code> as the source of this information.</li>
+<li>All controls on <code>Temperature/Axis</code> and <code>Filament</code> menus are in reference to the <code>Master</code>.</li>
+<li>The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Master</code> in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.</li>
+<li>You can start print jobs directly on the master using its internal SD memory.</li>
+</ul>
+</li>
+<li><code>Slave</code>: Slave machines will follow the instructions that the user sends to the <code>Master</code>. For example, instructions such as <code>home</code>, <code>heating</code>, <code>setting filament information</code> and <code>load/unload filament</code> will be followed by all slave machines. This design is for batch control of printers in print farms, so it is recommended that the model and filament (AMS) of <code>Slave</code> machines are the same as those of <code>Master</code>. If they are different, please use <code>Slave</code> mode with caution.<ul>
+<li>All controls on <code>Temperature/Axis</code> and <code>Filament</code> menus will take effect on <code>Slave</code> machines.</li>
+<li>There can be none or multiple <code>Slave</code> machines at the same time.</li>
+<li>The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Slave</code> machines in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.</li>
+<li>You can start a print job on a <code>Slave</code> printer using an external USB drive and selecting the slave printer.</li>
+</ul>
+</li>
+<li><code>Sync</code>: An independent machine that does not follow the instructions sent to the master and slave machines.<ul>
+<li>There can be none or multiple <code>Sync</code> machines at the same time.</li>
+<li>The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Sync</code> machines in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.</li>
+<li>You can start a print job on a <code>Sync</code> printer using an external USB drive and selecting the slave printer.</li>
+<li>Currently (<code>V1.0.1</code>) you cannot control sync printers using the <code>Temperature/Axis</code> and <code>Filament</code> menus. They must be temporarily set to <code>Master</code> in order to do this. In a future firmware version the grouping scheme will be adjusted such that this is possible.</li>
+</ul>
+</li>
 <li><code>Disconnected</code>: The Panda Touch will close the connection to any printers in this state and no instructions will be sent to it.</li>
 </ul>
 <h3 id="start-printing">Start printing<a class="headerlink" href="#start-printing" title="Permanent link">&para;</a></h3>
@@ -3060,31 +3073,43 @@ After filling in the <code>required</code> information, you can click the <code>
 <li>Ensure that the file system of the USB flash drive is formatted as FAT32.</li>
 <li>Export the <code>.3mf</code> file from either Bambu Studio or Orca Slicer using the <code>Export plate sliced file</code> option.
 <img src=img/PandaTouch/export_3mf.png width="600"/></li>
-<li>Write the sliced <code>.3mf</code> file to the root directory of the USB flash drive
-    * Panda Touch currently (<code>V1.0.1</code>) only supports <code>.3mf</code> files and does not support <code>.gcode</code> files.
-    * Panda Touch currently (<code>V1.0.1</code>) only supports reading files in the root directory and does not support reading files in folders.</li>
+<li>Write the sliced <code>.3mf</code> file to the root directory of the USB flash drive<ul>
+<li>Panda Touch currently (<code>V1.0.1</code>) only supports <code>.3mf</code> files and does not support <code>.gcode</code> files.</li>
+<li>Panda Touch currently (<code>V1.0.1</code>) only supports reading files in the root directory and does not support reading files in folders.</li>
+</ul>
+</li>
 <li>Insert the USB flash drive into the Panda Touch, and then go to the <code>USB flash drive</code> menu.
-<br> <img src=img/PandaTouch/usb_flash_drive.png width="600"/></li>
+<img src=img/PandaTouch/usb_flash_drive.png width="600"/></li>
 <li>Find the file we want to print in the file list, click on the file name to select the printer(s) and start printing.
-    <img src=img/PandaTouch/select_printer.png width="600"/>
-    * ①: Select or deselect this printer to start the print job.
-    * ②: Set printing parameters:
-        * <code>Bed Leveling</code>
-        * <code>Flow Calibration</code> (<code>P1P</code> and <code>P1S</code> do not have this feature, so these models of printers will not display this option.)
-        * <code>Timelapse</code>
-        * <code>Use AMS</code> (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)
-    * ③：List of printers selected to start the task.
-    * ④：Start printing.
-        * Please make sure that the sliced <code>.3mf</code> file is compatible with the selected printers.
-        * If using an AMS, please make sure that the filaments in the AMS tray are consistent with those in the sliced <code>.3mf</code> file as there is currently (<code>V1.0.1</code>) no ability to dynamically map filaments at the start of the print.</li>
+<img src=img/PandaTouch/select_printer.png width="600"/></li>
+</ul>
+<ul>
+<li>①: Select or deselect this printer to start the print job.</li>
+<li>②: Set printing parameters:</li>
+<li><code>Bed Leveling</code></li>
+<li><code>Flow Calibration</code> (<code>P1P</code> and <code>P1S</code> do not have this feature, so these models of printers will not display this option.)</li>
+<li><code>Timelapse</code></li>
+<li><code>Use AMS</code> (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)</li>
+<li>③：List of printers selected to start the task.</li>
+<li>④：Start printing.</li>
+<li>Please make sure that the sliced <code>.3mf</code> file is compatible with the selected printers.</li>
+<li>If using an AMS, please make sure that the filaments in the AMS tray are consistent with those in the sliced <code>.3mf</code> file as there is currently (<code>V1.0.1</code>) no ability to dynamically map filaments at the start of the print.</li>
 </ul>
 <ul>
 <li>Panda Touch will start to upload the files in the USB flash drive to the root directory of the printer's MicroSD card.
-    <img src=img/PandaTouch/uploading.png width="600"/><p>* 1. Please make sure there is an MicroSD card inserted into the printer.
-  * 2. Please ensure that the remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.
-* Printing will begin once the upload is complete. For very large <code>.3mf</code> files the transfer time may take some minutes to each printer.
-<br> <img src=img/PandaTouch/printing.png width="600"/></p>
+<img src=img/PandaTouch/uploading.png width="600"/></li>
+<li>
+<ol>
+<li>Please make sure there is an MicroSD card inserted into the printer.</li>
+</ol>
 </li>
+<li>
+<ol>
+<li>Please ensure that the remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.</li>
+</ol>
+</li>
+<li>Printing will begin once the upload is complete. For very large <code>.3mf</code> files the transfer time may take some minutes to each printer.
+<img src=img/PandaTouch/printing.png width="600"/></li>
 </ul>
 <h4 id="start-printing-from-the-printers-microsd-card">Start printing from the printer's MicroSD card<a class="headerlink" href="#start-printing-from-the-printers-microsd-card" title="Permanent link">&para;</a></h4>
 <ul>
