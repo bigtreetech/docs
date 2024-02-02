@@ -249,6 +249,19 @@ The following group controls exist from this menu:
 
 * First released factory firmware.
 
+### Feature requests
+
+If there is something that you would like to see in a coming release of the Panda Touch firmware then please let us know by logging a feature request on the official Panda Touch github repo.
+
+[Request a feature](https://github.com/bigtreetech/PandaTouch/issues)
+
+### Coming soon
+
+The features below are being worked on for the next firmware release:
+
+* Automatic IP address healing when the router changes an IP of the printer.
+* Changes to grouping to allow more than one group and individual printer access without needing to set it to master.
+
 ### How to update firmware
 
 #### OTA
