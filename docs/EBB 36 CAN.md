@@ -28,10 +28,22 @@ BIGTREETECH EBB36 CAN V1.0/V1.1 is a nozzle adapter board specially designed for
 ## **Basic Parameters**
 
 - External Dimensions: 51.5mm x 37mm. For further details please read: **Dimensions**
-- Dimsionsen**sor:(Version:V1.0) ARM Cortex-M0 STM32F072C8T6 48MHz 
-- Microprocessor:(Version:V1.0) ARM Cortex-M0 STM32F072C8T6 48MHz 
-
-  [BIGTREETECH_CB1_V22_220812_SCH](https://raw.githack.com/z1996xm/BIGTREETECH/main/docs/download/.pdf)
+- Installation Dimensions: hole spacing 43.85mm, M3 screw hole x 2
+- Microprocessor: ARM Cortex-M0 STM32F072C8T6 48MHz (V1.0)
+- Microprocessor: ARM Cortex-M0+ STM32G0B1CBT6 64MHz (V1.1)
+- Input Voltage: DC12V-DC24V 6A
+- Logic Voltage: DC 3.3V
+-  Heating Interface: Heating rod (E0), maximum output current: 5A
+- Onboard Sensor: ADXL345
+- Fan Interfaces: two CNC fans (FAN0, FAN1)
+- Maximum Output Current of Fan Interface: 1A, Peak Value 1.5A
+- Expansion Interfaces: EndStop, I2C, Probe, RGB, PT100/PT1000, USB interface, CAN Interface
+- Motor Drive: Onboard TMC2209
+- Driver Working Mode: UART
+- Stepper Motor Interface: EM
+- Temperature Sensor Interface Optional: 1 Channel 100K NTC or PT1000(TH0), 1 Channel PT100/PT1000
+- USB Communication Interface: USB-Type-C
+- DC 5V Maximum Output Current: 1A
 
 <font  color="red">***Note: BTT EEB36 CAN V1.0/V1.1 only supports Klipper at the present.***</font>
 
