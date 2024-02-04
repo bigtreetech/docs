@@ -269,3 +269,8 @@ nav:
       - Universal Turbo Kit.md 
   - ABOUT:
     - About.md
+
+copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
+
+extra:
+  generator: false
