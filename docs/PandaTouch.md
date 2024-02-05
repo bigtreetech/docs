@@ -262,6 +262,7 @@ The features below are being worked on for the next firmware release:
 
 * Automatic IP address healing when the router changes an IP of the printer.
 * Changes to grouping to allow more than one group and individual printer access without needing to set it to master.
+* Patch to better handle mesh networks with multiple matching SSIDs.
 
 ### How to update firmware
 
