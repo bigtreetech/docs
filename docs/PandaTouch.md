@@ -48,8 +48,6 @@ It is possible that Bambu Lab may release a future firmware version which impact
 
 <img src=img/PandaTouch/pt_back.png width="600"/>
 
-* Slide the power switch to `Lithium Battery Power` for the Panda Touch to run on its lithium battery, enabling portability. Slide it to `DC 5V` for direct power from the magnetic charging dock, preserving the internal battery's lifespan. This mode is recommended if you turn your printer on and off often. Sliding the switch to `OFF` turns off Panda Touch.
-
 ### Charging dock
 
 <img src=img/PandaTouch/charging_dock.png width="600"/>
@@ -85,7 +83,10 @@ It is possible that Bambu Lab may release a future firmware version which impact
 <br> <img src=img/PandaTouch/pt_2_2.png width="300"/>
 * Insert the USB-A end of the charging cable into the USB port on the printer to connect the power supply. Then arrange the cable in the clip as shown.
 <br> <img src=img/PandaTouch/pt_2_3.png width="300"/>
-* Switch power to DC 5V to turn on.
+* You have three options on the rear power switch. 
+  * In the `OFF` position, no power is sent to the Panda Touch and the battery is disconnected.
+  * When switched to the battery position, the USB will charge the batter and power the Panda Touch at the same time. If the Panda Touch is removed from the dock then the battery will take over and power it for up to 30 minutes. Upon being returned to the dock, the USB will once again resume charging and powering the Panda Touch. This mode is recommended for users who do not turn their printer on and off often.
+  * When switched to the DC 5V position, the Panda Touch is powered directly from the USB input, bypassing the battery. Removing it from the dock will power it off. This mode is recommended for users who often turn their printer on and off as it will preserve battery charge cycles. If such users wish to use the Panda Touch in a portable mode then they can flip the switch to battery power after removing it from the dock.
 <br> <img src=img/PandaTouch/pt_2_4.png width="300"/>
 * Panda Touch has been successfully installed and powered on. Please follow the on-screen instructions for the next setup step.
 <br> <img src=img/PandaTouch/pt_2_5.png width="300"/>
@@ -261,6 +262,7 @@ The features below are being worked on for the next firmware release:
 
 * Automatic IP address healing when the router changes an IP of the printer.
 * Changes to grouping to allow more than one group and individual printer access without needing to set it to master.
+* Patch to better handle mesh networks with multiple matching SSIDs.
 
 ### How to update firmware
 
