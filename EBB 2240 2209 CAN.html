@@ -2586,7 +2586,7 @@
 <h1 id="ebb-22402209-can">EBB 2240/2209 CAN<a class="headerlink" href="#ebb-22402209-can" title="Permanent link">&para;</a></h1>
 <p><img src=img/EBB2240_2209/EBB2240_2209_Title.png width="600"/></p>
 <p><font  color="red"><strong>For information about EBB SB2240/2209 CAN V1.0 structure, please click</strong></font> :</p>
-<p><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/EBB SB2240 2209 CAN V1.0.pdf">EBB SB2240 2209 CAN V1.0.PDF</a></p>
+<p><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/EBB SB2240 2209 CAN V1.0 build guide_20240219.pdf">EBB SB2240 2209 CAN V1.0.PDF</a></p>
 <h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH EBB SB2240/2209 CAN V1.0 is a tool board for the 3D printing team of Shenzhen Biqu Technology Co., Ltd. to adapt VoronStealthBurner. It can communicate via USB or CAN, greatly simplifying wiring。</p>
 <h2 id="main-features"><strong>Main Features</strong><a class="headerlink" href="#main-features" title="Permanent link">&para;</a></h2>
@@ -2769,31 +2769,55 @@
 <p>Burn the firmware (note: replace <code>/dev/serial/by-id/xxx</code> with the actual ID found in the previous step)</p>
 <p><img src=img/EBB2240_2209/EBB2240_Software11.png width="600"/></p>
 <p>After burning, there will be dfu-util: Error during download get_ Status error message, just ignore it.</p>
-<p><strong>3.Raspberry pie or CB1 updated via CanBoot</strong></p>
-<p>Refer to the instructions here to download CanBoot project : <a href="https://github.com/Arksine/CanBoot">https://github.com/Arksine/CanBoot</a></p>
-<p>3.1 Enter <code>cd~</code> to jump to the home directory, and enter <code>git clone</code> <a href="https://github.com/Arksine/CanBoot">https://github.com/Arksine/CanBoot</a> Download the CanBoot project, enter <code>cd CanBoot</code> to jump to the CanBoot directory.</p>
+<p><strong>3.Flashing Katapult on a CB1/Raspberry Pi</strong></p>
+<p>Note: "Katapult" is the New Name for "CanBoot"</p>
+<p>Please note that Katapult is designed for the purpose of directly updating the MCU firmware via the CAN bus interface. If you prefer the DFU update method, you may skip this step</p>
+<p>Refer to the instructions here to download the Katapult project : <a href="https://github.com/Arksine/Katapult">https://github.com/Arksine/Katapult</a></p>
+<p>3.1 Run<code>cd~</code> to enter the home directory, then run: </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git clone https://github.com/Arksine/Katapult
+</code></pre></div>
+<p>to download Katapult project.</p>
+<p><code>run</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>cd Katapult
+</code></pre></div>
+<p>to enter the Katapult directory.</p>
 <p>3.2 Enter <code>make menuconfig</code> and configure according to the following figure</p>
-<p><strong>Micro-controller Architecture (STMicroelectronics STM32)  ---&gt;</strong></p>
-<p><strong>Processor model (STM32G0B1)  ---&gt;</strong></p>
-<p><strong>Build CanBoot deployment application (Do not build)  ---&gt;</strong></p>
-<p><strong>Clock Reference (8 MHz crystal)  ---&gt;</strong></p>
-<p><strong>Communication interface (CAN bus (on PB0/PB1))  ---&gt;</strong></p>
-<p><strong>Application start offset (8KiB offset)  ---&gt;</strong></p>
-<p><strong>(1000000) CAN bus speed</strong></p>
-<p><strong>()  GPIO pins to set on bootloader entry</strong></p>
-<p><strong>[] Support bootloader entry on rapid double click of reset button</strong>[ ] Enable bootloader entry on button (or gpio) state</p>
-<p><strong>[] Enable Status LED</strong></p>
-<p><strong>(PA13)  Status LED GPIO Pin</strong></p>
 <p><img src=img/EBB2240_2209/EBB2240_Software12.png width="600"/></p>
-<p>3.3 Enter <code>make</code> to compile firmware. When <code>make</code> is completed, the required 'canboot. bin' firmware will be generated in the <code>home/pi/kliiper/out</code> folder of raspberry pie. It can be downloaded directly to the computer on the left side of ssh software.</p>
+<p>3.3 Run<code>make</code> to compile firmware, 'katapult.bin' file will be generated in <code>home/biqu/Katapult/out</code> folder when <code>make</code> is finished, download it onto your computer using the SSH application.</p>
 <p><img src=img/EBB2240_2209/EBB2240_Software13.png width="600"/></p>
-<p>3.4 The computer uses STM32CubeProgrammer software to burn 'canboot. bin' into the chip.</p>
-<p>3.5 Enter <code>cd~/CanBoot/scripts</code>, and then <code>python3 flash_ Can.py - i can0 - q</code> Query canbus ID (connect the can line in advance and power on), as shown in the figure below, the UUID of the device has been found.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software14.png width="600"/></p>
-<p>3.6 Enter <code>python3 flash_ Can.py - i can0 - f~/klipper/out/klipper.bin - u be69315a613c</code> is replaced with the actual UUID. Note: klipper.bin needs to be generated in advance, and the <strong>application start offset</strong> of CanBoot is <strong>8KiB offset</strong>, so the <strong>bootloader offset</strong> in Klipper's menuconfig should also be <strong>8KiB bootloader</strong>, as shown in the following figure, which has been successfully burned</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software15.png width="600"/></p>
-<p>3.7 Enter <code>python3 flash again_ Can.py - i can0 – q</code> query. At this time, the application changes from the previous CanBoot to Klipper, which means that Klipper has been running normally</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software16.png width="600"/></p>
+<p>3.4  Please use a Type-C cable to connect the EBB SB2240/2209 CAN to the Raspberry Pi/CB1, and ensure that the USB_5V jumper is connected, in order to supply power to the EBB SB2240/2209 CAN via Type-C.</p>
+<p><img src=img/EBB2240_2209/EBB2240_Software17.png width="600"/></p>
+<p>3.5  Press and hold the Boot button, and then click the Reset button to enter the DFU mode.</p>
+<p><img src=img/EBB2240_2209/EBB2240_Software18.png width="600"/></p>
+<p>3.5 Enter in the SSH terminal command line</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>lsusb
+</code></pre></div>
+<p>Query DFU device ID</p>
+<p><img src=img/EBB2240_2209/EBB2240_Software19.png width="600"/></p>
+<p>3.6 Please enter the following command to flash Katapult: </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sudo dfu-util -a 0 -d 0483:df11 -s 0x08000000:mass-erase:force -D ~/Katapult/out/katapult.bin
+</code></pre></div>
+<p>where "0483:df11" should be replaced with the actual device ID obtained in step 3.5.</p>
+<p>3.7 After flashing is complete, remove the USB_5V jumper and the Type-C cable.</p>
+<p><img src=img/EBB2240_2209/EBB2240_Software20.png width="600"/></p>
+<p>3.8 To use the CAN bus, you need to connect the CAN bus cable and insert a jumper at the position of the 120R termination resistor.</p>
+<p>Run:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>cd ~/Katapult/scripts
+</code></pre></div>
+<p>then run:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>python3 flash_can.py -i can0 -q
+</code></pre></div>
+<p><img src=img/EBB2240_2209/EBB2240_Software21.png width="600"/></p>
+<p>3.9 Run:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
+</code></pre></div>
+<p>The be69315a613c is replaced with the actual UUID. Note: klipper.bin needs to be made in advance, and the application start offset of Katapult is 8KiB offset, so Klipper's menuconfig Bootloader offset  should also be 8KiB bootloader, as shown in the following figure.</p>
+<p><img src=img/EBB2240_2209/EBB2240_Software22.png width="600"/></p>
+<p>3.10 Run:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>python3 flash_can.py -i can0 -q
+</code></pre></div>
+<p>to query. At this time, the Application changes from Katapult to Klipper, indicating that Klipper has been running normally</p>
+<p><img src=img/EBB2240_2209/EBB2240_Software23.png width="600"/></p>
 <h2 id="canbus-configuration"><strong>CANBus Configuration</strong><a class="headerlink" href="#canbus-configuration" title="Permanent link">&para;</a></h2>
 <p>For details, please click: </p>
 <p><a href="https://bigtreetech.github.io/docs/EBB%20Series.html#canbus-configuration">https://bigtreetech.github.io/docs/EBB%20Series.html#canbus-configuration</a></p>

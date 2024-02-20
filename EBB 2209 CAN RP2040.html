@@ -791,8 +791,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#flashing-canboot" class="md-nav__link">
-    FLASHING CANBOOT
+  <a href="#flashing-katapult" class="md-nav__link">
+    FLASHING KATAPULT
   </a>
   
 </li>
@@ -805,8 +805,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#firmware-updatevia-canboot" class="md-nav__link">
-    FIRMWARE UPDATE(VIA CANBOOT)
+  <a href="#firmware-updatevia-katapult" class="md-nav__link">
+    FIRMWARE UPDATE(VIA KATAPULT)
   </a>
   
 </li>
@@ -2298,8 +2298,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#flashing-canboot" class="md-nav__link">
-    FLASHING CANBOOT
+  <a href="#flashing-katapult" class="md-nav__link">
+    FLASHING KATAPULT
   </a>
   
 </li>
@@ -2312,8 +2312,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#firmware-updatevia-canboot" class="md-nav__link">
-    FIRMWARE UPDATE(VIA CANBOOT)
+  <a href="#firmware-updatevia-katapult" class="md-nav__link">
+    FIRMWARE UPDATE(VIA KATAPULT)
   </a>
   
 </li>
@@ -2364,7 +2364,7 @@
 <h1 id="ebb-sb2209-can-rp2040">EBB SB2209 CAN RP2040<a class="headerlink" href="#ebb-sb2209-can-rp2040" title="Permanent link">&para;</a></h1>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_title.png width="600"/></p>
 <p><font  color="red"><strong>For information about EBB SB2209 CAN V1.0 (RP2040) structure, please click</strong></font> :</p>
-<p><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/EBB SB2209 CAN V1.0（RP2040）BUILD GUIDE.pdf">EBB SB2209 CAN V1.0 (RP2040).PDF</a></p>
+<p><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/EBB SB2209 CAN V1.0（RP2040）Build Guide_20240219.pdf">EBB SB2209 CAN V1.0 (RP2040).PDF</a></p>
 <h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
 <p>Highlighted in red are other accessories of the Voron StealthBurner, which are not included in this EBB SB2209 CAN V1.0(RP2040) and will need to be purchased by yourself.</p>
 <h2 id="main-features"><strong>Main Features</strong><a class="headerlink" href="#main-features" title="Permanent link">&para;</a></h2>
@@ -2375,22 +2375,23 @@
 <li>Highlighted in red are other accessories of the Voron StealthBurner, which are not included in this EBB SB2209 CAN V1.0(RP2040) and will need to be purchased by yourself.</li>
 </ul>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
-<h3 id="flashing-canboot"><strong>FLASHING CANBOOT</strong><a class="headerlink" href="#flashing-canboot" title="Permanent link">&para;</a></h3>
-<p><font  color="red"><strong>Note: Please note that CanBoot is designed for the purpose of directly updating the MCU firmware via the CAN bus interface. If you prefer the DFU update method, you may skip this step.</strong></font> </p>
-<p>“Flashing CanBoot on a CB1/Raspberry Pi”</p>
-<p>Refer to the instructions here to download the CanBoot project</p>
-<p><a href="https://github.com/Arksine/CanBoot">https://github.com/Arksine/CanBoot</a></p>
+<h3 id="flashing-katapult"><strong>FLASHING KATAPULT</strong><a class="headerlink" href="#flashing-katapult" title="Permanent link">&para;</a></h3>
+<p><font  color="red"><strong>"Katapult" is the New Name for "CanBoot"</strong></font> </p>
+<p><font  color="red"><strong>Note: Please note that Katapult is designed for the purpose of directly updating the MCU firmware via the CAN bus interface. If you prefer the DFU update method, you may skip this step.</strong></font> </p>
+<p>“Flashing Katapult on a CB1/Raspberry Pi”</p>
+<p>Refer to the instructions here to download the Katapult project</p>
+<p><a href="https://github.com/Arksine/Katapult">https://github.com/Arksine/Katapult</a></p>
 <p>1.Run:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~
 </code></pre></div>
 <p>to enter the home directory, then run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git clone https://github.com/Arksine/CanBoot
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git clone https://github.com/Arksine/Katapult
 </code></pre></div>
-<p>to download CanBoot project.</p>
+<p>to download Katapult project.</p>
 <p>run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cd CanBoot
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cd Katapult
 </code></pre></div>
-<p>to enter the CanBoot directory.</p>
+<p>to enter the Katapult directory.</p>
 <p>2.Run:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>make menuconfig
 </code></pre></div>
@@ -2399,8 +2400,8 @@
 <p>3.Run</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>make
 </code></pre></div>
-<p>to compile firmware, “canboot.uf2” file will be generated in home/biqu/CanBoot/out folder when make is finished, download it onto your computer using the SSH application.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software2.png width="600"/></p>
+<p>to compile firmware, “canboot.uf2” file will be generated in home/biqu/Katapult/out folder when make is finished, download it onto your computer using the SSH application.</p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software18.png width="600"/></p>
 <p>4.1 Please use a Type-C cable to connect the EBB SB2209 CAN V1.0(RP2040)to the Raspberry Pi/CB1, and ensure that the USB_5V jumper is connected, in order to supply power to the EBB SB2209 CAN V1.0 (RP2040) via Type-C.</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software3.png width="600"/></p>
 <p>4.2. Press and hold the Boot button, and then click the Reset button to enter the DFU mode.</p>
@@ -2410,7 +2411,7 @@
 </code></pre></div>
 <p>Query DFU device ID</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software5.png width="600"/></p>
-<p>4.4. Please enter the following command to flash CanBoot: </p>
+<p>4.4. Please enter the following command to flash Katapult::</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>make flash FLASH_DEVICE=2e8a:0003
 </code></pre></div>
 <p>where “2e8a:0003” should be replaced with the actual device ID obtained in step 4.3.</p>
@@ -2424,10 +2425,10 @@
 <p>Compile the firmware with the following configuration (if the options below are not available, please update your Klipper source code to the newest version).</p>
 <p>[*] Enable extra low-level configuration  optionsMicro-controller Architecture</p>
 <p>(Raspberry Pi RP2040) ---&gt;</p>
-<p><font  color="red"><strong>If you do not use CanBoot</strong></font> </p>
+<p><font  color="red"><strong>If you do not use Katapult</strong></font> </p>
 <p>Bootloader offset (No bootloader) ---&gt;</p>
 <p>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</p>
-<p><font  color="red"><strong>If CanBoot is used</strong></font> </p>
+<p><font  color="red"><strong>If Katapult is used</strong></font> </p>
 <p>Bootloader offset (16KiB bootloader) ---&gt;</p>
 <p><font  color="red"><strong>If USB communication on Type-C is used</strong></font> </p>
 <p>Communication interface (USB) ---&gt;</p>
@@ -2441,10 +2442,10 @@ Yes
  when asked to save the configuration.</p>
 <p>3.) Run make to compile firmware,"klipper. bin" file will be generated in home/pi/klipper/out folder when make is finished, download it onto your computer using the SSH application.</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software6.png width="600"/></p>
-<h3 id="firmware-updatevia-canboot"><strong>FIRMWARE UPDATE(VIA CANBOOT)</strong><a class="headerlink" href="#firmware-updatevia-canboot" title="Permanent link">&para;</a></h3>
+<h3 id="firmware-updatevia-katapult"><strong>FIRMWARE UPDATE(VIA KATAPULT)</strong><a class="headerlink" href="#firmware-updatevia-katapult" title="Permanent link">&para;</a></h3>
 <p>1.To use the CAN bus, you need to connect the CAN bus cable and insert a jumper at the position of the 120R termination resistor.</p>
 <p>2.Run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>cd ~/CanBoot/scripts
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>cd ~/KATAPULT/scripts
 </code></pre></div>
 <p>then run:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>python3 flash_can.py -i can0 -q
@@ -2454,12 +2455,12 @@ Yes
 <p>3.Run:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
 </code></pre></div>
-<p>The be69315a613c is replaced with the actual UUID. Note: klipper.bin needs to be made in advance,and the application start offset of CanBoot is 16KiB offset, so Klipper's menuconfig Bootloader offset should also be 16KiB bootloader, as shown in the following figure.</p>
+<p>The be69315a613c is replaced with the actual UUID. Note: klipper.bin needs to be made in advance,and the application start offset of Katapult is 16KiB offset, so Klipper's menuconfig Bootloader offset should also be 16KiB bootloader, as shown in the following figure.</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software8.png width="600"/></p>
 <p>4.Run:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
-<p>to query. At this time, the Application changes from CanBoot to Klipper, indicating that Klipper has been running normally</p>
+<p>to query. At this time, the Application changes from Katapult to Klipper, indicating that Klipper has been running normally</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software9.png width="600"/></p>
 <h3 id="firmware-updatevia-dfu"><strong>FIRMWARE UPDATE(VIA DFU)</strong><a class="headerlink" href="#firmware-updatevia-dfu" title="Permanent link">&para;</a></h3>
 <p>Raspberry Pi or CB1 update via DFU.</p>
