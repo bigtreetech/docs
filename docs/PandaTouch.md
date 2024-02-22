@@ -36,7 +36,8 @@ It is possible that Bambu Lab may release a future firmware version which impact
 | Display Colors | 16.7M |
 | Communication | 2.4G Wi-Fi (IEEE 802.11 b/g/n) |
 | Operating Temperature | 0-60°C |
-| Operating Current | 5V 0.5A (Peak 0.7A) |
+| Operating Current (fully charged) |  Screen active: 0.6A, Screen inactive: 0.2A  |
+| Operating Current (charging) |  Screen active: 1.25A, Screen inactive: 0.85A  |
 | Logic Voltage | 3.3V |
 | Built-in Battery | Enables Panda Touch portable use for up to 30 minutes. |
 | Charging Time | 1.2 hours |
@@ -178,6 +179,14 @@ Currently (`V1.0.1`), the Panda Touch has 4 settable control modes:
   * You can start a print job on a `Sync` printer using an external USB drive and selecting the slave printer.
   * Currently (`V1.0.1`) you cannot control sync printers using the `Temperature/Axis` and `Filament` menus. They must be temporarily set to `Master` in order to do this. In a future firmware version the grouping scheme will be adjusted such that this is possible.
 * `Disconnected`: The Panda Touch will close the connection to any printers in this state and no instructions will be sent to it.
+
+### Filament Control
+
+The Panda Touch allows users to configure the type and colour of the filament being used on their external spool holder and their AMS. Users can also load and unload filamement using this menu.
+
+When performing any actions, please ensure that the correct AMS unit and filament slot is selected. You will know that the filament is selected when it has a red border around it. If nothing has been selected then the `Load` and `Unload` buttons will be greyed out.
+
+<img src=img/PandaTouch/filament_screen.png width="600"/>
 
 ### Start printing
 
