@@ -115,79 +115,25 @@ theme:
   language: en
 extra_css:
   - _biqumkdocs/css/extra.css
+  - _biqumkdocs/css/zoom.css
 
 # Site usage statistics
-# extra:
-#   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#site-search-tracking
-#   analytics:
-#     provider: google
-#     property: UA-138371409-1
-#   # Language Selection
-#   alternate:
-#     - name: English
-#       link: /
-#       lang: en
-    # Alternate language links automatically added here
+extra:
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#site-search-tracking
+  analytics:
+    provider: google
+    property: UA-138371409-1
+  # Language Selection
+  alternate: 
+    - name: English
+      link: https://bttwiki.com/en/
+      lang: en
+    - name: 简体中文
+      link: https://bttwiki.com/zh/
+      lang: zh
 
 # Navigation hierarchy (this should mimic the layout of Overview.md)
-# nav:
-#   - Motherboards:
-#     - SKR Series:
-#       - SKR MINI E3.md
-#     - Octopus Series:
-#       - Octopus.md
-#       - Octopus Pro.md
-#       - Octopus MAX EZ.md
-#     - Manta Series:
-#       - M4P.md
-#       - M5P.md
-#       - M8P.md
-#     - EBB Series:
-#       - EBB 36 CAN.md
-#       - EBB 42 CAN.md
-#       - EBB 2240 2209 CAN.md
-#       - EBB 2209 CAN RP2040.md
-#       - U2C.md
-#   - IOT:
-#     - CB1.md
-#     - PI4B.md
-#     - PAD7.md
-#     - KNOMI.md
-#     - KNOMI2.md
-#   - Displays:
-#     - TFT43-DIP.md
-#     - TFT35 E3.md
-#     - TFT35.md
-#     - TFT24.md
-#     - TFT35 SPI.md
-#     - HDMI5.md
-#     - HDMI7.md
-#   - Motor Drives:
-#     - TMC Series:
-#       - TMC2130.md
-#       - TMC5160.md
-#       - TMC2209.md
-#       - TMC2208.md
-#       - Tutorials.md
-#     - EZ Series:
-#       - EZ2130.md
-#       - EZ2208.md
-#       - EZ2225.md
-#       - EZ2226.md
-#       - EZ5160 Pro.md
-#       - EZDriver Connector.md
-#       - EZ2209.md
-#       - EZ2240.md
-#       - EZ31865.md
-#   - Software Tutorials:
-#     - Multiple 3D Printers.md
-#     - Software Configuration.md
-#     - Software Installation.md
-#     - EBB Series.md
-#     - libinput_calibration.md
-
 nav:
-  - Home: https://bigtreetech.github.io/docs/
   - BTT:
     - Motherboards:
       - SKR Series:
@@ -273,8 +219,6 @@ nav:
     - Printers: Printers.md 
     - Cooling solution:
       - Universal Turbo Kit.md 
-  - ABOUT:
-    - About.md
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
 

@@ -5,13 +5,11 @@
 
 MKDOCS_DIR="docs/_biqumkdocs/"
 WORK_DIR="work/"
-# TRANS_DIR="${WORK_DIR}BIGTREETECH_translations/"
 TRANS_DIR="${WORK_DIR}docs/"
 TRANS_FILE="${TRANS_DIR}active_translations"
 MKDOCS_MAIN="${MKDOCS_DIR}mkdocs-main.yml"
 
 # Fetch translations
-# git clone --depth 1 https://github.com/z1996xm/BIGTREETECH_translations ${TRANS_DIR}
 git clone --depth 1 https://github.com/bigtreetech/docs ${TRANS_DIR}
 
 # Create new mkdocs-main.yml with language links
@@ -31,16 +29,8 @@ while IFS="," read dirname langsite langdesc langsearch; do
 
   # read toc
   title=$(sed -n '1p' ${locale_dir}/Navigation.md)
-  product_line1=$(sed -n '3p' ${locale_dir}/Navigation.md)
-  cb1=$(sed -n '5p' ${locale_dir}/Navigation.md)
-  document=$(sed -n '7p' ${locale_dir}/Navigation.md)
-  package_download=$(sed -n '9p' ${locale_dir}/Navigation.md)
-  software=$(sed -n '11p' ${locale_dir}/Navigation.md)
-  # faq=$(sed -n '13p' ${locale_dir}/Navigation.md)
-  # product_line2=$(sed -n '15p' ${locale_dir}/Navigation.md)
-  # technical_tutorials=$(sed -n '17p' ${locale_dir}/Navigation.md)
-  product_line2=$(sed -n '13p' ${locale_dir}/Navigation.md)
-  technical_tutorials=$(sed -n '15p' ${locale_dir}/Navigation.md)
+  BTT=$(sed -n '3p' ${locale_dir}/Navigation.md)
+  BIQU=$(sed -n '5p' ${locale_dir}/Navigation.md)
 
   # Copy markdown files to new_docs_dir
   echo "Copying $dirname to $langsite"
@@ -72,15 +62,9 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%^  language: en$%  language: ${langsite}%" "${new_mkdocs_file}"
 
   echo "replace toc"
-  sed -i "s%BIGTREETECH documentation$%${title}%" "${new_mkdocs_file}"
-  sed -i "s%Product_line1:$%${product_line1}:%" "${new_mkdocs_file}"
-  sed -i "s%CB1:$%${cb1}:%" "${new_mkdocs_file}"
-  sed -i "s%Document:$%${document}:%" "${new_mkdocs_file}"
-  sed -i "s%Package download:$%${package_download}:%" "${new_mkdocs_file}"
-  sed -i "s%Software:$%${software}:%" "${new_mkdocs_file}"
-  # sed -i "s%FAQ:$%${faq}:%" "${new_mkdocs_file}"
-  sed -i "s%Product_line2:$%${product_line2}:%" "${new_mkdocs_file}"
-  sed -i "s%Technical Tutorials:$%${technical_tutorials}:%" "${new_mkdocs_file}"
+  title=$(sed -n '1p' ${locale_dir}/Navigation.md)
+  BTT=$(sed -n '3p' ${locale_dir}/Navigation.md)
+  BIQU=$(sed -n '5p' ${locale_dir}/Navigation.md)
 
   # Build site
   echo "building site for ${langsite}"
