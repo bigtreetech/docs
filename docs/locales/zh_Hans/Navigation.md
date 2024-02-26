@@ -14,9 +14,9 @@ BTT
 
 BIQU
 
-Panda 系列
+Panda系列
 
-传感器 模块
+传感器模块
 
 冷却液
 
