@@ -53,21 +53,7 @@ plugins:
 # Website layout configuration (using mkdocs-material theme)
 theme:
   name: material
-  palette:
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default
-    #   primary: blue grey
-    #   accent: blue
-    #   toggle:
-    #     icon: material/lightbulb
-    #     name: Switch to dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   primary: grey
-    #   accent: light blue
-    #   toggle:
-    #     icon: material/lightbulb-outline
-    #     name: Switch to light mode       
+  palette:   
     - scheme: default # 日间模式
       primary: blue grey # 上方的
       accent: blue # 链接等可交互元件的高亮色
