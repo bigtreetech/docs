@@ -25,6 +25,8 @@ jobs:
             ${{ runner.os }}-pip-
       - name: Install dependencies
         run: pip install -r docs/_biqumkdocs/mkdocs-requirements.txt
+      - name: Install mdpo
+        run: pip install mdpo
       - name: Build MkDocs Pages
         run: docs/_biqumkdocs/build-translations.sh
       - name: Deploy
