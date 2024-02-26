@@ -41,7 +41,7 @@ It is possible that Bambu Lab may release a future firmware version which impact
 | Logic Voltage | 3.3V |
 | Built-in Battery | Enables Panda Touch portable use for up to 30 minutes. |
 | Charging Time | 1.2 hours |
-| Expansion Interfaces | I2C (For temperature/humidity sensors supported in future firmware, etc.) <br> USB Drive (For reading 3mf files from USB drives) |
+| Expansion Interfaces | I2C (For temperature/humidity sensors supported in future firmware, etc.) <br> USB Drive (For reading 3mf files from USB drives - FAT32 only) |
 
 ## Assembly Instructions
 
@@ -85,9 +85,9 @@ It is possible that Bambu Lab may release a future firmware version which impact
 * Insert the USB-A end of the charging cable into the USB port on the printer to connect the power supply. Then arrange the cable in the clip as shown.
 <br> <img src=img/PandaTouch/pt_2_3.png width="300"/>
 * You have three options on the rear power switch. 
-  * In the `OFF` position, no power is sent to the Panda Touch and the battery is disconnected.
-  * When switched to the battery position, the USB will charge the batter and power the Panda Touch at the same time. If the Panda Touch is removed from the dock then the battery will take over and power it for up to 30 minutes. Upon being returned to the dock, the USB will once again resume charging and powering the Panda Touch. This mode is recommended for users who do not turn their printer on and off often.
-  * When switched to the DC 5V position, the Panda Touch is powered directly from the USB input, bypassing the battery. Removing it from the dock will power it off. This mode is recommended for users who often turn their printer on and off as it will preserve battery charge cycles. If such users wish to use the Panda Touch in a portable mode then they can flip the switch to battery power after removing it from the dock.
+  * In the `OFF` position, the battery will charge but the Panda Touch will not be powered up.
+  * When switched to the battery position, the USB will charge the battery and power the Panda Touch at the same time. If the Panda Touch is removed from the dock then the battery will take over and power it for up to 30 minutes. Upon being returned to the dock, the USB will once again resume charging and powering the Panda Touch. This mode is recommended for users who do not turn their printer on and off often. Note that there is no battery charge level indicator. The Panda Touch has been designed for brief periods of use away from a dock and not for prolonged mobile use.
+  * When switched to the DC 5V position, the Panda Touch is powered directly from the USB input, while still charging the battery. Removing it from the dock will power it off without the Panda Touch draining the battery. This mode is recommended for users who often turn their printer on and off as it will preserve battery charge cycles. If such users wish to use the Panda Touch in a portable mode then they can flip the switch to battery power after removing it from the dock.
 <br> <img src=img/PandaTouch/pt_2_4.png width="300"/>
 * Panda Touch has been successfully installed and powered on. Please follow the on-screen instructions for the next setup step.
 <br> <img src=img/PandaTouch/pt_2_5.png width="300"/>
@@ -193,7 +193,7 @@ When performing any actions, please ensure that the correct AMS unit and filamen
 
 #### Start printing from USB flash drive
 
-* Ensure that the file system of the USB flash drive is formatted as FAT32.
+* Ensure that the file system of the USB flash drive is *formatted as FAT32*.
 * Export the `.3mf` file from either Bambu Studio or Orca Slicer using the `Export plate sliced file` option. <br> <img src=img/PandaTouch/export_3mf.png width="600"/>
 * Write the sliced `.3mf` file to the root directory of the USB flash drive
   * Panda Touch currently (`V1.0.1`) only supports files are sliced in `Build Plate #1` in Bambu Studio.
@@ -219,7 +219,7 @@ When performing any actions, please ensure that the correct AMS unit and filamen
 
 #### Start printing from the printer's MicroSD card
 
-* Make sure the MicroSD card is inserted into the `Master` printer.
+* Make sure the MicroSD card is inserted into the `Master` printer and *formatted as FAT32*.
 * Go to the `Master printer's MicroSD card` menu.
 <br> <img src=img/PandaTouch/micro_sd.png width="600"/>
 
