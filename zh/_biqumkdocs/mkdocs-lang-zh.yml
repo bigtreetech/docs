@@ -4,7 +4,7 @@
 # layout.  See that script and the README file for more details.
 
 # Site and directory configuration
-site_name: BIGTREETECH documentation
+site_name: BIGTREETECH 文档
 repo_url: https://github.com/bigtreetech/docs
 repo_name: bigtreetech/docs
 edit_uri: blob/master/docs/
@@ -122,7 +122,7 @@ extra:
 # Navigation hierarchy (this should mimic the layout of Overview.md)
 nav:
   - BTT:
-    - Motherboards:
+    - 主板:
       - SKR Series:
         - SKR MINI E3.md
       - Octopus Series:
@@ -139,13 +139,13 @@ nav:
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
         - U2C.md
-    - IOT:
+    - 物联网:
       - CB1.md
       - PI4B.md
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
-    - Displays:
+    - 显示屏:
       - TFT43-DIP.md
       - TFT35 E3.md
       - TFT35.md
@@ -153,7 +153,7 @@ nav:
       - TFT35 SPI.md
       - HDMI5.md
       - HDMI7.md
-    - Motor Drives:
+    - 电机驱动:
       - TMC Series:
         - TMC2130.md
         - TMC5160.md
@@ -171,7 +171,7 @@ nav:
         - EZ2209.md
         - EZ2240.md
         - EZ31865.md
-    - Software Tutorials:
+    - 软件教程:
       - Multiple 3D Printers.md
       - Software Configuration.md
       - Software Installation.md
@@ -201,10 +201,10 @@ nav:
       - Panda Lux.md 
     - Extruders: Extruders.md 
     - Hotends: Hotends.md 
-    - Sensor modules:
+    - 传感器 模块:
       - Hermit Crab 2 Series.md
     - Printers: Printers.md 
-    - Cooling solution:
+    - 冷却液:
       - Universal Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>

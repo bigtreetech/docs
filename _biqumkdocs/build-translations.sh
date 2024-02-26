@@ -30,8 +30,16 @@ while IFS="," read dirname langsite langdesc langsearch; do
   # read toc
   title=$(sed -n '1p' ${locale_dir}/Navigation.md)
   BTT=$(sed -n '3p' ${locale_dir}/Navigation.md)
-  BIQU=$(sed -n '5p' ${locale_dir}/Navigation.md)
-
+  Motherboards=$(sed -n '5p' ${locale_dir}/Navigation.md)
+  IOT=$(sed -n '7p' ${locale_dir}/Navigation.md)
+  Displays=$(sed -n '9p' ${locale_dir}/Navigation.md)
+  Motor_Drives=$(sed -n '11p' ${locale_dir}/Navigation.md)
+  Software_Tutorials=$(sed -n '13p' ${locale_dir}/Navigation.md)
+  BIQU=$(sed -n '15p' ${locale_dir}/Navigation.md)
+  Panda_series=$(sed -n '17p' ${locale_dir}/Navigation.md)  
+  Sensor_modules=$(sed -n '19p' ${locale_dir}/Navigation.md)  
+  Cooling_solution=$(sed -n '21p' ${locale_dir}/Navigation.md)  
+  
   # Copy markdown files to new_docs_dir
   echo "Copying $dirname to $langsite"
   mkdir -p "${new_docs_dir}"
@@ -62,9 +70,17 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%^  language: en$%  language: ${langsite}%" "${new_mkdocs_file}"
 
   echo "replace toc"
-  title=$(sed -n '1p' ${locale_dir}/Navigation.md)
-  BTT=$(sed -n '3p' ${locale_dir}/Navigation.md)
-  BIQU=$(sed -n '5p' ${locale_dir}/Navigation.md)
+  sed -i "s%BIGTREETECH documentation$%${title}%" "${new_mkdocs_file}"
+  sed -i "s%BTT:$%${BTT}:%" "${new_mkdocs_file}"
+  sed -i "s%Motherboards:$%${Motherboards}:%" "${new_mkdocs_file}"
+  sed -i "s%IOT:$%${IOT}:%" "${new_mkdocs_file}"  
+  sed -i "s%Displays:$%${Displays}:%" "${new_mkdocs_file}"    
+  sed -i "s%Motor Drives:$%${Motor_Drives}:%" "${new_mkdocs_file}"
+  sed -i "s%Software Tutorials:$%${Software_Tutorials}:%" "${new_mkdocs_file}"
+  sed -i "s%BIQU:$%${BIQU}:%" "${new_mkdocs_file}"
+  sed -i "s%Panda series:$%${Panda_series}:%" "${new_mkdocs_file}"
+  sed -i "s%Sensor modules:$%${Sensor_modules}:%" "${new_mkdocs_file}"
+  sed -i "s%Cooling solution:$%${Cooling_solution}:%" "${new_mkdocs_file}"
 
   # Build site
   echo "building site for ${langsite}"
