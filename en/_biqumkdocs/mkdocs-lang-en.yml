@@ -106,6 +106,7 @@ extra_css:
 # Site usage statistics
 extra:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#site-search-tracking
+  generator: false
   analytics:
     provider: google
     property: UA-138371409-1
@@ -208,5 +209,3 @@ nav:
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
 
-extra:
-  generator: false
