@@ -1,0 +1,23 @@
+name: Update GetText
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: install mdpo
+      run: pip install mdpo
+    - name: run update-po.sh
+      run: bash ./scripts/update-po.sh
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: "locales: Automated Gettext Update(Manually Triggered)"
+        committer: GitHub <noreply@github.com> 
+        signoff: true
+        author: GitHub <noreply@github.com> 

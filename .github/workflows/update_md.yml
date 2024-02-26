@@ -1,0 +1,28 @@
+name: Update Markdown Output
+
+on:
+  push:
+    branches:
+      - translations
+      # - weblate-klipper-readme
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: install mdpo
+      run: pip install mdpo
+    - name: run update-md.sh
+      run: bash ./scripts/update-md.sh
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: "locales: Automated Markdown Update"
+        committer: GitHub <noreply@github.com> 
+        signoff: true
+        author: GitHub <noreply@github.com> 
+        
