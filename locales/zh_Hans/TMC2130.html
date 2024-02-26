@@ -2301,6 +2301,67 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    主要特点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    基本参数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    尺寸
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    硬件配置
+  </a>
+  
+    <nav class="md-nav" aria-label="硬件配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    工作模式
+  </a>
+  
+    <nav class="md-nav" aria-label="工作模式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stepdir" class="md-nav__link">
+    STEP/DIR 模式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spi" class="md-nav__link">
+    SPI工作模式接线说明
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2321,74 +2382,59 @@
 <h1 id="tmc2130">TMC2130<a class="headerlink" href="#tmc2130" title="Permanent link">&para;</a></h1>
 <p><img src=img/TMC2130/TMC2130_Title.png width="600"/></p>
 <h2 id="_1"><strong>介绍</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>TMC2130是一款高性能两相步进电机驱动芯片，具有标准SPI接口和简单的step/dir接口。非常低的噪音，高负载驱动器不失步<!--</p-->
-
-## **主要特点**
-
-
-- 最多256个细分；
-
-
-- 支持SPI接口控制；
-
-
-- 在高负载下行驶时不要失去步伐；
-
-
-- 逻辑电压：3.3V/5V；
-
-
-- 输入电压范围：12V/24V DC；
-
-
-- 可调节电机工作电流1.2A（峰值2A）；
-
-
-- Spreadcycle可确保步进电机在过零时无死区电流的平稳过渡。TMC2130步进电机驱动芯片几乎没有抖动；
-
-
-- StealthChop可以驱动电机在非常安静的声音下工作，因此可以将电机的噪音控制在10dB以下，远低于传统的电流控制器类型；
-
-
-- SpreadCycle PWM斩波模式自动在慢速和快速衰减器之间划分，设置磁滞衰减功能，平均电流反映正弦配置的正常电流。在正弦过零点处没有过渡期，这减少了电流和扭矩波动，使电流波形更类似于正弦波。与传统的SpreadCycle PWM恒斩波方式相比，电机运行更加平稳；
-
-## **基本参数**
-
-
-- **最高分辨率256微步/整步**
-- **带微步插值的步/方向接口**
-- **microPlyer™SPI接口**
-- **secrethChop™**可实现极其安静的操作和流畅的运动
-- **spreadCycle™**高动态电机控制斩波器
-- **coolStep™**电流控制可实现高达75%的节能
-- **电压范围**12V/24VDC
-- **被动制动**和自由滑行模式
-- **全面保护和诊断**
-
-## **尺寸**
-
-<img src=img/TMC2130/TMC2130_Size1.png width="600"/>
-
-<img src=img/TMC2130/TMC2130_Size2.png width="600"/>
-
-## **硬件配置**
-
-### **工作模式**
-
-#### **STEP/DIR 模式**
-
-<img src=img/TMC2130/TMC2130_Step_mode.png width="600"/>
-
-1.SPI位置焊接0Ω电阻，使驱动器在STEP/DIR模式下工作。
-
-2.工作模式选择：SDI（CFG1）、SCK（CFG2）
-
-<img src=img/TMC2130/TMC2130_table.png width="600"/>
-
-#### **SPI工作模式接线说明**
-
-接线前，必须选择驱动模块的硬件操作模式：
-
+<p>TMC2130是一款高性能两相步进电机驱动芯片，具有标准SPI接口和简单的step/dir接口。非常低的噪音，高负载驱动器不失步</p>
+<h2 id="_2"><strong>主要特点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>最多256个细分；</li>
+</ul>
+<ul>
+<li>支持SPI接口控制；</li>
+</ul>
+<ul>
+<li>在高负载下行驶时不要失去步伐；</li>
+</ul>
+<ul>
+<li>逻辑电压：3.3V/5V；</li>
+</ul>
+<ul>
+<li>输入电压范围：12V/24V DC；</li>
+</ul>
+<ul>
+<li>可调节电机工作电流1.2A（峰值2A）；</li>
+</ul>
+<ul>
+<li>Spreadcycle可确保步进电机在过零时无死区电流的平稳过渡。TMC2130步进电机驱动芯片几乎没有抖动；</li>
+</ul>
+<ul>
+<li>StealthChop可以驱动电机在非常安静的声音下工作，因此可以将电机的噪音控制在10dB以下，远低于传统的电流控制器类型；</li>
+</ul>
+<ul>
+<li>SpreadCycle PWM斩波模式自动在慢速和快速衰减器之间划分，设置磁滞衰减功能，平均电流反映正弦配置的正常电流。在正弦过零点处没有过渡期，这减少了电流和扭矩波动，使电流波形更类似于正弦波。与传统的SpreadCycle PWM恒斩波方式相比，电机运行更加平稳；</li>
+</ul>
+<h2 id="_3"><strong>基本参数</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>最高分辨率256微步/整步</strong></li>
+<li><strong>带微步插值的步/方向接口</strong></li>
+<li><strong>microPlyer™SPI接口</strong></li>
+<li><strong>secrethChop™</strong>可实现极其安静的操作和流畅的运动</li>
+<li><strong>spreadCycle™</strong>高动态电机控制斩波器</li>
+<li><strong>coolStep™</strong>电流控制可实现高达75%的节能</li>
+<li><strong>电压范围</strong>12V/24VDC</li>
+<li><strong>被动制动</strong>和自由滑行模式</li>
+<li><strong>全面保护和诊断</strong></li>
+</ul>
+<h2 id="_4"><strong>尺寸</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p><img src=img/TMC2130/TMC2130_Size1.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Size2.png width="600"/></p>
+<h2 id="_5"><strong>硬件配置</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h3 id="_6"><strong>工作模式</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<h4 id="stepdir"><strong>STEP/DIR 模式</strong><a class="headerlink" href="#stepdir" title="Permanent link">&para;</a></h4>
+<p><img src=img/TMC2130/TMC2130_Step_mode.png width="600"/></p>
+<p>1.SPI位置焊接0Ω电阻，使驱动器在STEP/DIR模式下工作。</p>
+<p>2.工作模式选择：SDI（CFG1）、SCK（CFG2）</p>
+<p><img src=img/TMC2130/TMC2130_table.png width="600"/></p>
+<h4 id="spi"><strong>SPI工作模式接线说明</strong><a class="headerlink" href="#spi" title="Permanent link">&para;</a></h4>
+<p>接线前，必须选择驱动模块的硬件操作模式：</p>
 <p>1.焊料CFG4和CFG5，如紫色区域所示（CFG4连接到GND，CFG5连接到VCC）；（正确焊接以启用扩展循环模式）</p>
 
 <p>2.拆下SPI位置的电阻器，使驱动器处于SPI模式<!--</p-->
