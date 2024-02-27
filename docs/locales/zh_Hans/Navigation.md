@@ -2,7 +2,7 @@ BIGTREETECH 文档
 
 BTT
 
-母板
+主板
 
 SKR系列
 
@@ -26,7 +26,7 @@ EZ系列
 
 BIQU
 
-Panda系列
+Panda 系列
 
 Panda 热端
 
