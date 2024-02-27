@@ -196,7 +196,7 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 
 #### 从USB闪存驱动器开始打印
 
-* 确保USB闪存驱动器的文件系统格式化为FAT32。
+* 确保USB闪存驱动器的文件系统**`格式化为FAT32`**。
 * 使用 `.3mf`选项从Bambu Studio或Orca Slicer导出 `.3mf`文件<br> <img src=img/PandaTouch/export_3mf.png width="600"/>
 * 将切片的`.3mf`文件写入USB闪存驱动器的根目录
   * Panda Touch目前（`V1.0.1`）只支持在Bambu Studio的`Build Plate#1`中切片的文件。
@@ -222,7 +222,7 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 
 #### 从打印机的MicroSD卡开始打印
 
-* 确保MicroSD卡已插入`主机`打印机。
+* 确保MicroSD卡被**`格式化为FAT32`**，且已插入`主机`打印机。
 * 转到`主打印机的MicroSD卡`菜单。
 <br> <img src=img/PandaTouch/micro_sd.png width="600"/>
 

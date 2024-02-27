@@ -28,6 +28,26 @@ BIQU
 
 Panda series
 
+Panda Hotend
+
+Panda Flow
+
+X1
+
+P1
+
+Panda Revo
+
+X1
+
+P1
+
+Panda CHT
+
+X1
+
+P1
+
 Extruders
 
 Hotends
@@ -37,3 +57,4 @@ Sensor modules
 Printers
 
 Cooling solution
+
