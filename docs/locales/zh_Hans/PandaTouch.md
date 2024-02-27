@@ -41,7 +41,7 @@ Bambu实验室可能会在未来发布影响Panda Touch可用功能的固件版�
 | 逻辑电压 | 3.3V |
 | 内置电池 | 允许Panda Touch便携式使用长达30分钟。 |
 | 充电时间 | 1.2小时 |
-| 扩展接口 | I2C（用于未来固件中支持的温度/湿度传感器等）<br/>USB驱动器（用于从USB驱动器读取3mf文件） |
+| 扩展接口 | I2C（用于未来固件等中支持的温度/湿度传感器）<br/>USB驱动器（用于从USB驱动器读取3mf文件-仅限FAT32） |
 
 ## 装配说明
 
@@ -80,16 +80,19 @@ Bambu实验室可能会在未来发布影响Panda Touch可用功能的固件版�
 
 ### 接线和电源连接
 
-* 卸下打印机USB端口上的泡沫，即可访问该端口。
-<br> <img src=img/PandaTouch/pt_2_1.png width="300"/>
-* 将充电电缆穿过打印机右侧的孔，然后将USB-C端插入充电底座的电源输入。
-<br> <img src=img/PandaTouch/pt_2_2.png width="300"/>
-* 将充电电缆的USB-A端插入打印机上的USB端口以连接电源。然后如图所示将电缆布置在夹子中。
-<br> <img src=img/PandaTouch/pt_2_3.png width="300"/>
-* 将电源切换到直流5V以打开。
-<br> <img src=img/PandaTouch/pt_2_4.png width="300"/>
-* Panda Touch已成功安装并通电。请按照屏幕上的说明进行下一步设置。
-<br> <img src=img/PandaTouch/pt_2_5.png width="300"/>
+- 卸下打印机USB端口上的泡沫，即可访问该端口。
+  <br> <img src=img/PandaTouch/pt_2_1.png width="300"/>
+- 将充电电缆穿过打印机右侧的孔，然后将USB-C端插入充电底座的电源输入。
+  <br> <img src=img/PandaTouch/pt_2_2.png width="300"/>
+- 将充电电缆的USB-A端插入打印机上的USB端口以连接电源。然后如图所示将电缆布置在夹子中。
+  <br> <img src=img/PandaTouch/pt_2_3.png width="300"/>
+- 后部电源开关上有三个选项。
+  * 在`关闭`位置，电池将充电，但Panda Touch不会通电。
+  * 当切换到电池位置时，USB将为电池充电，同时为Panda Touch供电。如果从底座上卸下Panda Touch，则电池将接管并为其供电长达30分钟。回到底座后，USB将再次恢复为Panda Touch充电和供电。建议不经常打开和关闭打印机的用户使用此模式。请注意，没有电池电量指示灯。Panda Touch专为远离码头的短时间使用而设计，不适合长时间移动使用。
+  * 当切换到DC 5V位置时，Panda Touch直接由USB输入供电，同时仍在为电池充电。将其从底座上卸下将关闭电源，而Panda Touch不会耗尽电池电量。建议经常打开和关闭打印机的用户使用此模式，因为它可以保持电池充电周期。如果这些用户希望在便携式模式下使用Panda Touch，那么他们可以在将其从底座上取下后将开关切换到电池电源。
+    <br> <img src=img/PandaTouch/pt_2_4.png width="300"/>
+- Panda Touch已成功安装并通电。请按照屏幕上的说明进行下一步设置。
+  <br> <img src=img/PandaTouch/pt_2_5.png width="300"/>
 
 ## 用户界面说明
 
