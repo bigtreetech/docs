@@ -199,11 +199,14 @@ nav:
       - Panda Jet.md 
       - Panda Fur.md 
       - Panda Lux.md 
-    - Extruders: Extruders.md 
-    - Hotends: Hotends.md 
+    - Extruders: 
+      - Extruders.md 
+    - Hotends: 
+      - Hotends.md 
     - 传感器模块:
       - Hermit Crab 2 Series.md
-    - Printers: Printers.md 
+    - Printers: 
+      - Printers.md 
     - 冷却液:
       - Universal Turbo Kit.md 
 
