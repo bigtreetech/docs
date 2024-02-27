@@ -154,14 +154,14 @@ nav:
       - HDMI5.md
       - HDMI7.md
     - 电机驱动:
-      - TMC Series:
+      - TMC系列:
         - TMC2130.md
         - TMC5160.md
         - TMC2209.md
         - TMC2208.md
         - TMC5160TPlus.md
         - Tutorials.md
-      - EZ Series:
+      - EZ系列:
         - EZ2130.md
         - EZ2208.md
         - EZ2225.md
@@ -179,7 +179,7 @@ nav:
       - libinput_calibration.md    
   - BIQU:
     - Panda series: 
-      - Panda Hotend:
+      - Panda 热端:
         - Panda Flow:
           - X1:
             - Panda Flow X1.md
