@@ -122,18 +122,18 @@ extra:
 # Navigation hierarchy (this should mimic the layout of Overview.md)
 nav:
   - BTT:
-    - 主板:
-      - SKR Series:
+    - 母板:
+      - SKR系列:
         - SKR MINI E3.md
-      - Octopus Series:
+      - Octopus系列:
         - Octopus.md
         - Octopus Pro.md
         - Octopus MAX EZ.md
-      - Manta Series:
+      - Manta系列:
         - M4P.md
         - M5P.md
         - M8P.md
-      - EBB Series:
+      - EBB系列:
         - EBB 36 CAN.md
         - EBB 42 CAN.md
         - EBB 2240 2209 CAN.md

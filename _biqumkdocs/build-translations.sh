@@ -31,14 +31,23 @@ while IFS="," read dirname langsite langdesc langsearch; do
   title=$(sed -n '1p' ${locale_dir}/Navigation.md)
   BTT=$(sed -n '3p' ${locale_dir}/Navigation.md)
   Motherboards=$(sed -n '5p' ${locale_dir}/Navigation.md)
-  IOT=$(sed -n '7p' ${locale_dir}/Navigation.md)
-  Displays=$(sed -n '9p' ${locale_dir}/Navigation.md)
-  Motor_Drives=$(sed -n '11p' ${locale_dir}/Navigation.md)
-  Software_Tutorials=$(sed -n '13p' ${locale_dir}/Navigation.md)
-  BIQU=$(sed -n '15p' ${locale_dir}/Navigation.md)
-  Panda_series=$(sed -n '17p' ${locale_dir}/Navigation.md)  
-  Sensor_modules=$(sed -n '19p' ${locale_dir}/Navigation.md)  
-  Cooling_solution=$(sed -n '21p' ${locale_dir}/Navigation.md)  
+  SKR_Series=$(sed -n '7p' ${locale_dir}/Navigation.md)  
+  Octopus_Series=$(sed -n '9p' ${locale_dir}/Navigation.md)  
+  Manta_Series=$(sed -n '11p' ${locale_dir}/Navigation.md)  
+  EBB_Series=$(sed -n '13p' ${locale_dir}/Navigation.md)    
+  IOT=$(sed -n '15p' ${locale_dir}/Navigation.md)
+  Displays=$(sed -n '17p' ${locale_dir}/Navigation.md)
+  Motor_Drives=$(sed -n '19p' ${locale_dir}/Navigation.md)
+  TMC_Series=$(sed -n '21p' ${locale_dir}/Navigation.md)
+  EZ_Series=$(sed -n '23p' ${locale_dir}/Navigation.md)
+  Software_Tutorials=$(sed -n '25p' ${locale_dir}/Navigation.md)
+  BIQU=$(sed -n '27p' ${locale_dir}/Navigation.md)
+  Panda_series=$(sed -n '29p' ${locale_dir}/Navigation.md)  
+  Extruders=$(sed -n '31p' ${locale_dir}/Navigation.md)  
+  Hotends=$(sed -n '33p' ${locale_dir}/Navigation.md)  
+  Sensor_modules=$(sed -n '35p' ${locale_dir}/Navigation.md)  
+  Printers=$(sed -n '37p' ${locale_dir}/Navigation.md)  
+  Cooling_solution=$(sed -n '39p' ${locale_dir}/Navigation.md)  
   
   # Copy markdown files to new_docs_dir
   echo "Copying $dirname to $langsite"
@@ -73,13 +82,22 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%BIGTREETECH documentation$%${title}%" "${new_mkdocs_file}"
   sed -i "s%BTT:$%${BTT}:%" "${new_mkdocs_file}"
   sed -i "s%Motherboards:$%${Motherboards}:%" "${new_mkdocs_file}"
+  sed -i "s%SKR Series:$%${SKR_Series}:%" "${new_mkdocs_file}"
+  sed -i "s%Octopus Series:$%${Octopus_Series}:%" "${new_mkdocs_file}"
+  sed -i "s%Manta Series:$%${Manta_Series}:%" "${new_mkdocs_file}"
+  sed -i "s%EBB Series:$%${EBB_Series}:%" "${new_mkdocs_file}"
   sed -i "s%IOT:$%${IOT}:%" "${new_mkdocs_file}"  
   sed -i "s%Displays:$%${Displays}:%" "${new_mkdocs_file}"    
   sed -i "s%Motor Drives:$%${Motor_Drives}:%" "${new_mkdocs_file}"
+  sed -i "s%TMC_Series:$%${TMC_Series}:%" "${new_mkdocs_file}"  
+  sed -i "s%EZ_Series:$%${EZ_Series}:%" "${new_mkdocs_file}"   
   sed -i "s%Software Tutorials:$%${Software_Tutorials}:%" "${new_mkdocs_file}"
   sed -i "s%BIQU:$%${BIQU}:%" "${new_mkdocs_file}"
   sed -i "s%Panda series:$%${Panda_series}:%" "${new_mkdocs_file}"
+  sed -i "s%Extruders:$%${Extruders}:%" "${new_mkdocs_file}"  
+  sed -i "s%Hotends:$%${Hotends}:%" "${new_mkdocs_file}"   
   sed -i "s%Sensor modules:$%${Sensor_modules}:%" "${new_mkdocs_file}"
+  sed -i "s%Printers:$%${Printers}:%" "${new_mkdocs_file}"     
   sed -i "s%Cooling solution:$%${Cooling_solution}:%" "${new_mkdocs_file}"
 
   # Build site
