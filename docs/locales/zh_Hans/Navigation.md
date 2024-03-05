@@ -30,19 +30,13 @@ Panda 系列
 
 Panda 热端
 
-Panda Flow
+Panda Flow/CHT
 
 X1
 
 P1
 
 Panda Revo
-
-X1
-
-P1
-
-Panda CHT
 
 X1
 

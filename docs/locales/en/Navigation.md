@@ -30,19 +30,13 @@ Panda series
 
 Panda Hotend
 
-Panda Flow
+Panda Flow/CHT
 
 X1
 
 P1
 
 Panda Revo
-
-X1
-
-P1
-
-Panda CHT
 
 X1
 
