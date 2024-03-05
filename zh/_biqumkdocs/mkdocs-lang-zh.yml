@@ -180,21 +180,18 @@ nav:
   - BIQU:
     - Panda series: 
       - Panda 热端:
-        - Panda Flow:
+        - Panda Flow/CHT:
           - X1:
             - Panda Flow X1.md
+            - Panda CHT X1.md
           - P1:
             - Panda Flow P1.md
+            - Panda CHT P1.md
         - Panda Revo:
           - X1:
             - Panda Revo X1 Hotend.md
           - P1:
             - Panda Revo P1 Hotend.md
-        - Panda CHT:
-          - X1:
-            - Panda CHT X1.md
-          - P1:
-            - Panda CHT P1.md
       - PandaTouch.md
       - Panda Jet.md 
       - Panda Fur.md 
