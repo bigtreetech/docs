@@ -1,0 +1,3084 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>Panda Touch - BIGTREETECH documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
+    
+      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-138371409-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#panda-touch" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="BIGTREETECH documentation" class="md-header__button md-logo" aria-label="BIGTREETECH documentation" data-md-component="logo">
+      
+  <img src="../../img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BIGTREETECH documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Panda Touch
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2 0-.68.06-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.923 7.923 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8.008 8.008 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.65 15.65 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/en/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/zh/" hreflang="zh" class="md-select__link">
+                    简体中文
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bigtreetech/docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../SKR%20MINI%20E3.html" class="md-tabs__link">
+        BTT
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Panda%20Flow%20X1.html" class="md-tabs__link">
+        BIQU
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="BIGTREETECH documentation" class="md-nav__button md-logo" aria-label="BIGTREETECH documentation" data-md-component="logo">
+      
+  <img src="../../img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    BIGTREETECH documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bigtreetech/docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          BTT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BTT" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          BTT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" type="checkbox" id="__nav_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1">
+          Motherboards
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Motherboards" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Motherboards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_1" type="checkbox" id="__nav_1_1_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_1">
+          SKR Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SKR Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          SKR Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKR%20MINI%20E3.html" class="md-nav__link">
+        SKR MINI E3
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_2" type="checkbox" id="__nav_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_2">
+          Octopus Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Octopus Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Octopus Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Octopus.html" class="md-nav__link">
+        Octopus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Octopus%20Pro.html" class="md-nav__link">
+        Octopus Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Octopus%20MAX%20EZ.html" class="md-nav__link">
+        Octopus MAX EZ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_3" type="checkbox" id="__nav_1_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_3">
+          Manta Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Manta Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Manta Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../M4P.html" class="md-nav__link">
+        M4P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../M5P.html" class="md-nav__link">
+        M5P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../M8P.html" class="md-nav__link">
+        M8P
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_4" type="checkbox" id="__nav_1_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_4">
+          EBB Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EBB Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          EBB Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%2036%20CAN.html" class="md-nav__link">
+        EBB 36 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%2042%20CAN.html" class="md-nav__link">
+        EBB 42 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%202240%202209%20CAN.html" class="md-nav__link">
+        EBB 2240/2209 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%202209%20CAN%20RP2040.html" class="md-nav__link">
+        EBB SB2209 CAN RP2040
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../U2C.html" class="md-nav__link">
+        U2C
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          IOT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="IOT" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          IOT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CB1.html" class="md-nav__link">
+        CB1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PI4B.html" class="md-nav__link">
+        PI4B
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PAD7.html" class="md-nav__link">
+        PAD7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../KNOMI.html" class="md-nav__link">
+        KNOMI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../KNOMI2.html" class="md-nav__link">
+        KNOMI2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Touch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Displays
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Displays" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Displays
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT43-DIP.html" class="md-nav__link">
+        TFT43-DIP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT35%20E3.html" class="md-nav__link">
+        TFT35 E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT35.html" class="md-nav__link">
+        TFT35
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT24.html" class="md-nav__link">
+        TFT24
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT35%20SPI.html" class="md-nav__link">
+        TFT35 SPI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HDMI5.html" class="md-nav__link">
+        HDMI5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HDMI7.html" class="md-nav__link">
+        HDMI7
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          Motor Drives
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Motor Drives" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Motor Drives
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_1" type="checkbox" id="__nav_1_4_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_1">
+          TMC Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="TMC Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          TMC Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC2130.html" class="md-nav__link">
+        TMC2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC5160.html" class="md-nav__link">
+        TMC5160
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC2209.html" class="md-nav__link">
+        TMC2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC2208.html" class="md-nav__link">
+        TMC2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC5160TPlus.html" class="md-nav__link">
+        TMC5160T Plus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorials.html" class="md-nav__link">
+        Subdivision Table
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_2">
+          EZ Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EZ Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          EZ Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2130.html" class="md-nav__link">
+        EZ2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2208.html" class="md-nav__link">
+        EZ2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2225.html" class="md-nav__link">
+        EZ2225
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2226.html" class="md-nav__link">
+        EZ2226
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ5160%20Pro.html" class="md-nav__link">
+        EZ5160 Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZDriver%20Connector.html" class="md-nav__link">
+        EZDriver Connector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2209.html" class="md-nav__link">
+        EZ2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2240.html" class="md-nav__link">
+        EZ2240
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ31865.html" class="md-nav__link">
+        EZ31865
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_5" type="checkbox" id="__nav_1_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_5">
+          Software Tutorials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Software Tutorials" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Software Tutorials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Multiple%203D%20Printers.html" class="md-nav__link">
+        Installing and Configuring Klipper for Multiple 3D Printers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Software%20Configuration.html" class="md-nav__link">
+        Software Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Software%20Installation.html" class="md-nav__link">
+        Software Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%20Series.html" class="md-nav__link">
+        EBB Series
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../libinput_calibration.html" class="md-nav__link">
+        libinput_calibration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          BIQU
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BIQU" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          BIQU
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Panda series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda series" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Panda Hotend
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Hotend" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Hotend
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1" type="checkbox" id="__nav_2_1_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1">
+          Panda Flow/CHT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Flow/CHT" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Flow/CHT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_1" type="checkbox" id="__nav_2_1_1_1_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Flow%20X1.html" class="md-nav__link">
+        Panda Flow X1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_2" type="checkbox" id="__nav_2_1_1_1_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Flow%20P1.html" class="md-nav__link">
+        Panda Flow P1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2" type="checkbox" id="__nav_2_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2">
+          Panda Revo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Revo" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Revo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_1" type="checkbox" id="__nav_2_1_1_2_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Revo%20X1%20Hotend.html" class="md-nav__link">
+        Panda Revo X1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_2" type="checkbox" id="__nav_2_1_1_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Revo%20P1%20Hotend.html" class="md-nav__link">
+        Panda Revo P1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PandaTouch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Jet.html" class="md-nav__link">
+        Panda Jet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Fur.html" class="md-nav__link">
+        Panda Fur
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Lux.html" class="md-nav__link">
+        Panda Lux
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Extruders
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Extruders" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Extruders
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Extruders.html" class="md-nav__link">
+        Extruders
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Hotends
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hotends" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Hotends
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Hotends.html" class="md-nav__link">
+        Hotends
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Sensor modules
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sensor modules" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sensor modules
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Hermit%20Crab%202%20Series.html" class="md-nav__link">
+        Hermit Crab 2 Series
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Printers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Printers" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Printers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Printers.html" class="md-nav__link">
+        Printers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          Cooling solution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cooling solution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Cooling solution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Universal%20Turbo%20Kit.html" class="md-nav__link">
+        Universal Turbo Kit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#important-note" class="md-nav__link">
+    IMPORTANT NOTE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-usage-information" class="md-nav__link">
+    IMPORTANT USAGE INFORMATION
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifications" class="md-nav__link">
+    Specifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assembly-instructions" class="md-nav__link">
+    Assembly Instructions
+  </a>
+  
+    <nav class="md-nav" aria-label="Assembly Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#charging-dock" class="md-nav__link">
+    Charging dock
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#packing-list" class="md-nav__link">
+    Packing list
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-panda-touch" class="md-nav__link">
+    Installing Panda Touch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wiring-and-power-connection" class="md-nav__link">
+    Wiring and Power Connection
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-interface-instructions" class="md-nav__link">
+    User Interface Instructions
+  </a>
+  
+    <nav class="md-nav" aria-label="User Interface Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-time-connection-guide" class="md-nav__link">
+    First time connection guide
+  </a>
+  
+    <nav class="md-nav" aria-label="First time connection guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wifi-connection-guide" class="md-nav__link">
+    WiFi connection guide
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printer-connection-menu" class="md-nav__link">
+    Printer connection menu
+  </a>
+  
+    <nav class="md-nav" aria-label="Printer connection menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automatic-scanning" class="md-nav__link">
+    Automatic Scanning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manual-data-entry" class="md-nav__link">
+    Manual Data Entry
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keyboard-interface" class="md-nav__link">
+    Keyboard interface
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grouping-logic-control-mode" class="md-nav__link">
+    Grouping logic (Control Mode)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filament-control" class="md-nav__link">
+    Filament Control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-printing" class="md-nav__link">
+    Start printing
+  </a>
+  
+    <nav class="md-nav" aria-label="Start printing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#start-printing-from-usb-flash-drive" class="md-nav__link">
+    Start printing from USB flash drive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-printing-from-the-printers-microsd-card" class="md-nav__link">
+    Start printing from the printer's MicroSD card
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-printing" class="md-nav__link">
+    Multiple printing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hms-health-management-system" class="md-nav__link">
+    HMS (Health Management System)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firmware" class="md-nav__link">
+    Firmware
+  </a>
+  
+    <nav class="md-nav" aria-label="Firmware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#firmware-history" class="md-nav__link">
+    Firmware History
+  </a>
+  
+    <nav class="md-nav" aria-label="Firmware History">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#v101" class="md-nav__link">
+    V1.0.1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feature-requests" class="md-nav__link">
+    Feature requests
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coming-soon" class="md-nav__link">
+    Coming soon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-update-firmware" class="md-nav__link">
+    How to update firmware
+  </a>
+  
+    <nav class="md-nav" aria-label="How to update firmware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ota" class="md-nav__link">
+    OTA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finding-your-connection-details" class="md-nav__link">
+    Finding Your Connection Details
+  </a>
+  
+    <nav class="md-nav" aria-label="Finding Your Connection Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#p1p-p1s" class="md-nav__link">
+    P1P &amp; P1S
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connection-troubleshooting" class="md-nav__link">
+    Connection Troubleshooting
+  </a>
+  
+    <nav class="md-nav" aria-label="Connection Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connect-failed" class="md-nav__link">
+    Connect failed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication-failed" class="md-nav__link">
+    Authentication failed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-support" class="md-nav__link">
+    Technical Support
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/bigtreetech/docs/blob/master/docs/locales/en/Panda Touch.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="panda-touch">Panda Touch<a class="headerlink" href="#panda-touch" title="Permanent link">&para;</a></h1>
+<p><img src=img/PandaTouch/panda_touch.png width="600"/></p>
+<p>The CAD files for the Panda Touch can be downloaded <a href="https://github.com/bigtreetech/PandaTouch/tree/master/3D">here</a></p>
+<h2 id="important-note">IMPORTANT NOTE<a class="headerlink" href="#important-note" title="Permanent link">&para;</a></h2>
+<p>The Panda Touch is currently compatible with all Bambu Lab printer firmware versions up until:</p>
+<ul>
+<li>P1P --&gt; v01.05.02.00</li>
+<li>P1S --&gt; v01.05.02.00</li>
+<li>X1C --&gt; v01.07.02.00</li>
+<li>A1 --&gt; v01.01.01.00</li>
+<li>A1 Mini --&gt; v01.01.03.00</li>
+</ul>
+<p>It is possible that Bambu Lab may release a future firmware version which impacts the functions available from the Panda Touch. Bigtreetech will monitor all beta firmware versions and if we find a firmware version that affects Panda Touch functionality we will send out an alert via email, Aliexpress chat and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.</p>
+<h2 id="important-usage-information">IMPORTANT USAGE INFORMATION<a class="headerlink" href="#important-usage-information" title="Permanent link">&para;</a></h2>
+<ul>
+<li>When using "LAN Only" mode, firmware versions below V1.05.01.00 on the P1P/S will only allow either the Panda Touch or Bambu Studio to connect to the printer at one time. Firmware versions above that will allow both connections simultaneously.</li>
+<li>When using "Cloud" mode, firmware versions below V1.05.01.00 on the P1P/S will allow both Bambu Studio and the Panda Touch to connect simultaneously. However, they will not allow a third device such as Home Assistant to connect. Firmware versions above that will allow all three simultaneous connections.</li>
+<li>Please check the firmware listing in the product page description to ensure that your printer firmware is compatible with the Panda Touch. Updating printer firmware to an incompatible version that may limit the functionality of the Panda Touch is not covered under the Warranty.</li>
+<li>MicroSD card and USB drive files can currently only be read from the root directory and will only be recognized when models are sliced in Build Plate #1 in Bambu Studio and are in 3mf format.</li>
+<li>When running on its built-in lithium battery, the Panda Touch has a battery life of 30 minutes. To maintain the battery and extend the lifespan of the product, it is advised to charge the Panda Touch or turn it off as soon as the battery runs out.</li>
+<li>The screen may flicker when the lithium battery is low on power. This flickering is normal and acts as a warning to users that the battery is almost empty. Users should then promptly charge the battery or turn off the Panda Touch.</li>
+<li>If you plan to turn your printer on and off frequently then we recommend running the Panda Touch on USB direct mode. This bypasses the battery and prevents the battery from being taken through many charge-discharge cycles. If you want to run off the battery then simply flick the switch on the back of the Panda Touch to the battery power mode.</li>
+</ul>
+<h2 id="specifications">Specifications<a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">MCU</th>
+<th align="center">Xtensa 32-bit LX7 dual-core ESP32S3R8 <br> up to 240MHz clock speed.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Memory</td>
+<td align="center">PSRAM-8MB, Flash-16MB</td>
+</tr>
+<tr>
+<td align="left">Display Size</td>
+<td align="center">5”</td>
+</tr>
+<tr>
+<td align="left">Resolution</td>
+<td align="center">800 x 480</td>
+</tr>
+<tr>
+<td align="left">Viewing Angle</td>
+<td align="center">IPS Full View</td>
+</tr>
+<tr>
+<td align="left">Display Colors</td>
+<td align="center">16.7M</td>
+</tr>
+<tr>
+<td align="left">Communication</td>
+<td align="center">2.4G Wi-Fi (IEEE 802.11 b/g/n)</td>
+</tr>
+<tr>
+<td align="left">Operating Temperature</td>
+<td align="center">0-60°C</td>
+</tr>
+<tr>
+<td align="left">Operating Current (fully charged)</td>
+<td align="center">Screen active: 0.6A, Screen inactive: 0.2A</td>
+</tr>
+<tr>
+<td align="left">Operating Current (charging)</td>
+<td align="center">Screen active: 1.25A, Screen inactive: 0.85A</td>
+</tr>
+<tr>
+<td align="left">Logic Voltage</td>
+<td align="center">3.3V</td>
+</tr>
+<tr>
+<td align="left">Built-in Battery</td>
+<td align="center">Enables Panda Touch portable use for up to 30 minutes.</td>
+</tr>
+<tr>
+<td align="left">Charging Time</td>
+<td align="center">1.2 hours</td>
+</tr>
+<tr>
+<td align="left">Expansion Interfaces</td>
+<td align="center">I2C (For temperature/humidity sensors supported in future firmware, etc.) <br> USB Drive (For reading 3mf files from USB drives - FAT32 only)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="assembly-instructions">Assembly Instructions<a class="headerlink" href="#assembly-instructions" title="Permanent link">&para;</a></h2>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h3>
+<p><img src=img/PandaTouch/pt_back.png width="600"/></p>
+<h3 id="charging-dock">Charging dock<a class="headerlink" href="#charging-dock" title="Permanent link">&para;</a></h3>
+<p><img src=img/PandaTouch/charging_dock.png width="600"/></p>
+<ul>
+<li>The power input has been outfitted with hot-plug protection, allowing users to hot-plug the power supply.</li>
+</ul>
+<h3 id="packing-list">Packing list<a class="headerlink" href="#packing-list" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="center"><img src=img/PandaTouch/pl_1.png width="200"/></th>
+<th align="center"><img src=img/PandaTouch/pl_2.png width="200"/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Panda Touch x 1</td>
+<td align="center">Mounting Bracket x 1</td>
+</tr>
+<tr>
+<td align="center"><img src=img/PandaTouch/pl_3.png width="200"/></td>
+<td align="center"><img src=img/PandaTouch/pl_4.png width="200"/></td>
+</tr>
+<tr>
+<td align="center">Magnetic Charging Dock x 1</td>
+<td align="center">USB-C Charging Cable x 1</td>
+</tr>
+<tr>
+<td align="center"><img src=img/PandaTouch/pl_5.png width="200"/></td>
+<td align="center"><img src=img/PandaTouch/pl_6.png width="200"/></td>
+</tr>
+<tr>
+<td align="center">M3x6 Screws x 4 <br> Hex Key x 1</td>
+<td align="center">BTT Duck x 1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="installing-panda-touch">Installing Panda Touch<a class="headerlink" href="#installing-panda-touch" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Use the hex/allen key and the two M3x6 FHCS to assemble the Charging Dock and the Mounting Bracket as shown.
+<br> <img src=img/PandaTouch/pt_1_1.png width="300"/></li>
+<li>Peel off the film from the bottom side of the Mounting Bracket.
+<br> <img src=img/PandaTouch/pt_1_2.png width="300"/></li>
+<li>Ensure the printer surface is clean and free of oil, grease, etc., attach the assembled Charging Dock centrally atop the original screen. Apply pressure to adhere fully and allow 12 hours for optimal adhesion.
+<br> <img src=img/PandaTouch/pt_1_3.png width="300"/></li>
+<li>Attach the Panda Touch to the Charging Dock.
+<br> <img src=img/PandaTouch/pt_1_4.png width="300"/></li>
+</ul>
+<h3 id="wiring-and-power-connection">Wiring and Power Connection<a class="headerlink" href="#wiring-and-power-connection" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Remove the foam covering the USB port on the printer to access the port.
+<br> <img src=img/PandaTouch/pt_2_1.png width="300"/></li>
+<li>Thread the Charging Cable through the hole on the right side of the printer, then plug the USB-C end into the power input of the Charging Dock.
+<br> <img src=img/PandaTouch/pt_2_2.png width="300"/></li>
+<li>Insert the USB-A end of the charging cable into the USB port on the printer to connect the power supply. Then arrange the cable in the clip as shown.
+<br> <img src=img/PandaTouch/pt_2_3.png width="300"/></li>
+<li>You have three options on the rear power switch. <ul>
+<li>In the <code>OFF</code> position, the battery will charge but the Panda Touch will not be powered up.</li>
+<li>When switched to the battery position, the USB will charge the battery and power the Panda Touch at the same time. If the Panda Touch is removed from the dock then the battery will take over and power it for up to 30 minutes. Upon being returned to the dock, the USB will once again resume charging and powering the Panda Touch. This mode is recommended for users who do not turn their printer on and off often. Note that there is no battery charge level indicator. The Panda Touch has been designed for brief periods of use away from a dock and not for prolonged mobile use.</li>
+<li>When switched to the DC 5V position, the Panda Touch is powered directly from the USB input, while still charging the battery. Removing it from the dock will power it off without the Panda Touch draining the battery. This mode is recommended for users who often turn their printer on and off as it will preserve battery charge cycles. If such users wish to use the Panda Touch in a portable mode then they can flip the switch to battery power after removing it from the dock.
+<br> <img src=img/PandaTouch/pt_2_4.png width="300"/></li>
+</ul>
+</li>
+<li>Panda Touch has been successfully installed and powered on. Please follow the on-screen instructions for the next setup step.
+<br> <img src=img/PandaTouch/pt_2_5.png width="300"/></li>
+</ul>
+<h2 id="user-interface-instructions">User Interface Instructions<a class="headerlink" href="#user-interface-instructions" title="Permanent link">&para;</a></h2>
+<h3 id="first-time-connection-guide">First time connection guide<a class="headerlink" href="#first-time-connection-guide" title="Permanent link">&para;</a></h3>
+<p>You will be presented with the screen below after booting for the first time or after executing the <code>Restore Factory Settings</code> command.</p>
+<h4 id="wifi-connection-guide">WiFi connection guide<a class="headerlink" href="#wifi-connection-guide" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.png width="600"/></p>
+<ul>
+<li>During the initial setup the Panda Touch will scan for WiFi networks and then display upt to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap <code>Refresh</code> and the Panda Touch will rescan for WiFi networks. <strong>Note:</strong> The current version (<code>V1.0.1</code>) of the firmware does not support connecting to hidden WiFi networks. Also, when Panda Touch is connecting to WiFi, Panda Touch cannot perform the WiFi scanning task at the same time.</li>
+<li>Click on the WiFi name in the list, and the <a href="#keyboard-interface">keyboard interface</a> will pop up. After entering the correct password, click "OK" to start connecting to WiFi. (Password length: 8~64 characters)</li>
+<li>The connection status will be displayed next to the name of the WiFi network. A <code>Spinner</code> graphic means that WiFi is still attempting a connection, and a <code>✔</code> means the connection is successful.</li>
+<li>After the connection is successful, the <code>Next</code> button will be enabled. Click <code>Next</code> to enter the printer connection menu.</li>
+</ul>
+<h4 id="printer-connection-menu">Printer connection menu<a class="headerlink" href="#printer-connection-menu" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_printer.png width="600"/></p>
+<ul>
+<li>There are two possible methods to connect the Panda Touch to a printer.<ol>
+<li>Automatic Scanning (recommended).</li>
+<li>Manual data entry.</li>
+</ol>
+</li>
+</ul>
+<h5 id="automatic-scanning">Automatic Scanning<a class="headerlink" href="#automatic-scanning" title="Permanent link">&para;</a></h5>
+<ul>
+<li>For automatic scanning simply tap the <code>Scan</code> button. Bambu Lab printers that are on the same WiFi network will be displayed in the scan results with the <code>Name</code>, <code>Printer IP</code>, <code>SN</code> and <code>Model</code> information pre-populated. Pre-populating these fields helps to make adding printers easier and can result in fewer mistakes due to manual data input errors. The only data that you will need to enter is the <code>Access Code</code> which can be found within the printer WiFi/LAN menu. Instructions on how to find your access code will be displayed on the Panda Touch screen. Printers which have previously been connected to the Panda Touch will still be displayed in the scan results however the Panda Touch will not allow them to be added again and <code>Already added</code> will be displayed near to the printer icon. Once you have entered your access code you can confirm the connection or manually add some of the data below.</li>
+</ul>
+<h5 id="manual-data-entry">Manual Data Entry<a class="headerlink" href="#manual-data-entry" title="Permanent link">&para;</a></h5>
+<ul>
+<li>
+<p>You can click on the printer icon on the left to enter the menu for selecting the printer model. You must set it according to the actual model of the printer you are connecting to. The Panda Touch will also perform some checks in the background to confirm the model. The available models are as follows:</p>
+<ul>
+<li>P1P</li>
+<li>P1S</li>
+<li>X1C</li>
+<li>A1 mini</li>
+<li>A1</li>
+</ul>
+<p>After selecting a model using the icon, the content in the <code>Model</code> field will be filled with the corresponding model name.</p>
+</li>
+</ul>
+<ul>
+<li>After selecting the printer model, there are 4 required fields. These fields contain information necessary to connect to and identify the printer. Tap the <code>i</code> icon and swipe left and right for instructions on how to find this information on your printer.<ul>
+<li><code>Name</code>: a custom name for users to identify the printer. (length: 1~15 characters)</li>
+<li><code>Printer IP</code>: for Panda Touch to connect to printer. (length: 7~15 characters)</li>
+<li><code>Access Code</code>: for Panda Touch to connect to printer. (length: 8 characters)</li>
+<li><code>SN</code>: for Panda Touch to connect to printer. (length: 15 characters)</li>
+</ul>
+</li>
+<li>There are 5 optional fields which may help you to identify certain parameters of the printer during later use.<ul>
+<li><code>Model</code>: The model name identifies the exact model of the printer and defines what picture is associated with it. <code>P1P</code>, <code>P1S</code>, <code>X1C</code>, <code>A1 mini</code>, <code>A1</code>, or customized. (length: 0~15 characters)</li>
+<li><code>Filament Color</code>: The color of the filament used by the printer. (length: 0~6 characters)</li>
+<li><code>Filament Material</code>: The material of the filament used by the printer. (length: 0~6 characters)</li>
+<li><code>Nozzle Diameter</code>: The diameter of the nozzle used by the printer. (length: 0~6 characters)</li>
+<li><code>Nozzle Material</code>: The type of nozzle used on the printer. (length: 0~6 characters)</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><code>Confirm</code> button
+After filling in the <code>required</code> information, you can click the <code>Confirm</code> button to start connecting to the printer. The title bar of the Panda Touch will display the status of the connection.</li>
+</ul>
+<h3 id="keyboard-interface">Keyboard interface<a class="headerlink" href="#keyboard-interface" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>①: Use this key to hide or show the entered information.
+②: Switch between upper and lower case letters.
+③: Switch to `Symbol input`.
+④: Switch to `Number input`.
+</code></pre></div>
+<ul>
+<li><code>Letter input</code>:
+     <br> <img src=img/PandaTouch/keyboard_letter.png width="600"/></li>
+</ul>
+<ul>
+<li><code>Symbol input</code>
+ <br> <img src=img/PandaTouch/keyboard_symbol.png width="600"/></li>
+</ul>
+<ul>
+<li><code>Number input</code>
+ <br> <img src=img/PandaTouch/keyboard_number.png width="600"/></li>
+</ul>
+<h3 id="grouping-logic-control-mode">Grouping logic (Control Mode)<a class="headerlink" href="#grouping-logic-control-mode" title="Permanent link">&para;</a></h3>
+<p>Currently (<code>V1.0.1</code>), the Panda Touch has 4 settable control modes:
+&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/control_mode.png width="600"/></p>
+<ul>
+<li><code>Master</code>: A single machine that acts as the source of instructions for itself and possibly other machines.<ul>
+<li>The temperature, filament, and file list in the MicroSD Card displayed by Panda Touch are all derived from this printer.</li>
+<li>Panda Touch requires that a single printer is set at the <code>Master</code> as the source of this information.</li>
+<li>All controls on <code>Temperature/Axis</code> and <code>Filament</code> menus are in reference to the <code>Master</code>.</li>
+<li>The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Master</code> in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.</li>
+<li>You can start print jobs directly on the master using its internal SD memory.</li>
+</ul>
+</li>
+<li><code>Slave</code>: Slave machines will follow the instructions that the user sends to the <code>Master</code>. For example, instructions such as <code>home</code>, <code>heating</code>, <code>setting filament information</code> and <code>load/unload filament</code> will be followed by all slave machines. This design is for batch control of printers in print farms, so it is recommended that the model and filament (AMS) of <code>Slave</code> machines are the same as those of <code>Master</code>. If they are different, please use <code>Slave</code> mode with caution.<ul>
+<li>All controls on <code>Temperature/Axis</code> and <code>Filament</code> menus will take effect on <code>Slave</code> machines.</li>
+<li>There can be none or multiple <code>Slave</code> machines at the same time.</li>
+<li>The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Slave</code> machines in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.</li>
+<li>You can start a print job on a <code>Slave</code> printer using an external USB drive and selecting the slave printer.</li>
+</ul>
+</li>
+<li><code>Sync</code>: An independent machine that does not follow the instructions sent to the master and slave machines.<ul>
+<li>There can be none or multiple <code>Sync</code> machines at the same time.</li>
+<li>The Panda Touch will monitor all <code>print error</code> and <code>HMS</code> messages from the <code>Sync</code> machines in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.</li>
+<li>You can start a print job on a <code>Sync</code> printer using an external USB drive and selecting the slave printer.</li>
+<li>Currently (<code>V1.0.1</code>) you cannot control sync printers using the <code>Temperature/Axis</code> and <code>Filament</code> menus. They must be temporarily set to <code>Master</code> in order to do this. In a future firmware version the grouping scheme will be adjusted such that this is possible.</li>
+</ul>
+</li>
+<li><code>Disconnected</code>: The Panda Touch will close the connection to any printers in this state and no instructions will be sent to it.</li>
+</ul>
+<h3 id="filament-control">Filament Control<a class="headerlink" href="#filament-control" title="Permanent link">&para;</a></h3>
+<p>The Panda Touch allows users to configure the type and colour of the filament being used on their external spool holder and their AMS. Users can also load and unload filamement using this menu.</p>
+<p>When performing any actions, please ensure that the correct AMS unit and filament slot is selected. You will know that the filament is selected when it has a red border around it. If nothing has been selected then the <code>Load</code> and <code>Unload</code> buttons will be greyed out.</p>
+<p><img src=img/PandaTouch/filament_screen.png width="600"/></p>
+<h3 id="start-printing">Start printing<a class="headerlink" href="#start-printing" title="Permanent link">&para;</a></h3>
+<h4 id="start-printing-from-usb-flash-drive">Start printing from USB flash drive<a class="headerlink" href="#start-printing-from-usb-flash-drive" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Ensure that the file system of the USB flash drive is <em>formatted as FAT32</em>.</li>
+<li>Export the <code>.3mf</code> file from either Bambu Studio or Orca Slicer using the <code>Export plate sliced file</code> option. <br> <img src=img/PandaTouch/export_3mf.png width="600"/></li>
+<li>Write the sliced <code>.3mf</code> file to the root directory of the USB flash drive<ul>
+<li>Panda Touch currently (<code>V1.0.1</code>) only supports files are sliced in <code>Build Plate #1</code> in Bambu Studio.</li>
+<li>Panda Touch currently (<code>V1.0.1</code>) only supports <code>.3mf</code> files and does not support <code>.gcode</code> files.</li>
+<li>Panda Touch currently (<code>V1.0.1</code>) only supports reading files in the root directory and does not support reading files in folders.</li>
+</ul>
+</li>
+<li>Insert the USB flash drive into the Panda Touch, and then go to the <code>USB flash drive</code> menu. <br> <img src=img/PandaTouch/usb_flash_drive.png width="600"/></li>
+<li>Find the file we want to print in the file list, click on the file name to select the printer(s) and start printing. <br> <img src=img/PandaTouch/select_printer.png width="600"/><ul>
+<li>①: Select or deselect this printer to start the print job.</li>
+<li>②: Set printing parameters:<ul>
+<li><code>Bed Leveling</code></li>
+<li><code>Flow Calibration</code> (<code>P1P</code> and <code>P1S</code> do not have this feature, so these models of printers will not display this option.)</li>
+<li><code>Timelapse</code></li>
+<li><code>Use AMS</code> (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)</li>
+</ul>
+</li>
+<li>③：List of printers selected to start the task.</li>
+<li>④：Start printing.<ul>
+<li>Please make sure that the sliced <code>.3mf</code> file is compatible with the selected printers.</li>
+<li>If using an AMS, please make sure that the filaments in the AMS tray are consistent with those in the sliced <code>.3mf</code> file as there is currently (<code>V1.0.1</code>) no ability to dynamically map filaments at the start of the print.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Panda Touch will start to upload the files in the USB flash drive to the root directory of the printer's MicroSD card. <br> <img src=img/PandaTouch/uploading.png width="600"/><ul>
+<li>
+<ol>
+<li>Please make sure there is an MicroSD card inserted into the printer.</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Please ensure that the remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Printing will begin once the upload is complete. For very large <code>.3mf</code> files the transfer time may take some minutes to each printer. <br> <img src=img/PandaTouch/printing.png width="600"/></li>
+</ul>
+<h4 id="start-printing-from-the-printers-microsd-card">Start printing from the printer's MicroSD card<a class="headerlink" href="#start-printing-from-the-printers-microsd-card" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Make sure the MicroSD card is inserted into the <code>Master</code> printer and <em>formatted as FAT32</em>.</li>
+<li>Go to the <code>Master printer's MicroSD card</code> menu.
+<br> <img src=img/PandaTouch/micro_sd.png width="600"/></li>
+</ul>
+<ul>
+<li>Panda Touch currently (<code>V1.0.1</code>) only supports files are sliced in <code>Build Plate #1</code> in Bambu Studio.</li>
+<li>Panda Touch currently (<code>V1.0.1</code>) only supports <code>.3mf</code> files and does not support <code>.gcode</code> files.</li>
+<li>Panda Touch currently (<code>V1.0.1</code>) only supports reading files in the root directory and does not support reading files in folders.</li>
+<li>The file list displayed in this menu is from the <code>Master</code> printer. If we want to print files from another printer, we can set the printer we want to print to as the <code>Master</code>.</li>
+<li>Just like the steps in <a href="#start-printing-from-usb-flash-drive">Start printing from USB flash drive</a>, select the printer to start printing.</li>
+</ul>
+<h3 id="multiple-printing">Multiple printing<a class="headerlink" href="#multiple-printing" title="Permanent link">&para;</a></h3>
+<p>When a printer in the <code>sync</code> state is printing, or multiple printers in other states are printing at the same time, the Panda Touch will display the <code>Multiple printing</code> menu as shown below.
+<br> <img src=img/PandaTouch/multi_printing.png width="600"/></p>
+<p>The following group controls exist from this menu:</p>
+<ul>
+<li>①: Turn ON/OFF the chamber LED of the printer in the current print list.</li>
+<li>②: Stop all print jobs in the current print list.</li>
+<li>③: Pause/Resume all print jobs in the current print list.</li>
+</ul>
+<h3 id="hms-health-management-system">HMS (Health Management System)<a class="headerlink" href="#hms-health-management-system" title="Permanent link">&para;</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/hms.png width="600"/></p>
+<ul>
+<li>Tap the title bar of Panda Touch, and the HMS notification center menu will expand.</li>
+<li>When a new HMS notification is detected, Panda Touch will automatically expand the HMS notification center.</li>
+<li>The upper left corner of the title bar will display the number of the printers that have sent HMS notifications.</li>
+<li>Click on the corresponding HMS notification to pop up the wiki link QR code for troubleshooting this problem.</li>
+<li>Click <code>X</code> to ignore this notification.</li>
+<li>Click <code>Ignore All</code> to ignore all notifications. <strong>Note:</strong> Currently (<code>V1.0.1</code>) the Panda Touch will ignore notifications from all printers but the X1C. Since the X1C repeatedly sends notification information at regular intervals, ignored notifications may reappear shortly thereafter.</li>
+</ul>
+<h2 id="firmware">Firmware<a class="headerlink" href="#firmware" title="Permanent link">&para;</a></h2>
+<h3 id="firmware-history">Firmware History<a class="headerlink" href="#firmware-history" title="Permanent link">&para;</a></h3>
+<h4 id="v101"><a href="https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/panda_touch-v1.0.1.bin">V1.0.1</a><a class="headerlink" href="#v101" title="Permanent link">&para;</a></h4>
+<ul>
+<li>First released factory firmware.</li>
+</ul>
+<h3 id="feature-requests">Feature requests<a class="headerlink" href="#feature-requests" title="Permanent link">&para;</a></h3>
+<p>If there is something that you would like to see in a coming release of the Panda Touch firmware then please let us know by logging a feature request on the official Panda Touch github repo.</p>
+<p><a href="https://github.com/bigtreetech/PandaTouch/issues">Request a feature</a></p>
+<h3 id="coming-soon">Coming soon<a class="headerlink" href="#coming-soon" title="Permanent link">&para;</a></h3>
+<p>The features below are being worked on for the next firmware release:</p>
+<ul>
+<li>Automatic IP address healing when the router changes an IP of the printer.</li>
+<li>Changes to grouping to allow more than one group and individual printer access without needing to set it to master.</li>
+<li>Patch to better handle mesh networks with multiple matching SSIDs.</li>
+</ul>
+<h3 id="how-to-update-firmware">How to update firmware<a class="headerlink" href="#how-to-update-firmware" title="Permanent link">&para;</a></h3>
+<h4 id="ota">OTA<a class="headerlink" href="#ota" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Download the firmware binary file (Download link in <a href="#Firmware-History">Firmware History</a>) to the device being used to perform the update. This can be a computer or a mobile device running an OS such as iOS or Android. Hereafter it will be referred to as the "computer".
+<br><img src=img/PandaTouch/firmware_download.png width="600"/></li>
+<li>Connect the Panda Touch to the WiFi on the same LAN as the computer.</li>
+<li>Find the IP address of the Panda Touch from the <code>Network</code> menu.
+<br><img src=img/PandaTouch/ip.png width="600"/></li>
+<li>Enter the Panda Touch's IP address in the computer's browser to access the web UI, and then click "Update FW" button.
+<br><img src=img/PandaTouch/ota_1.png width="600"/></li>
+<li>Click the "Choose File" button, then select the downloaded firmware binary file. The Panda Touch will automatically start updating.
+<br><img src=img/PandaTouch/ota_2.png width="600"/></li>
+<li>After the update is completed, the Panda Touch will automatically restart and run the new firmware.
+<br><img src=img/PandaTouch/ota_3.png width="600"/></li>
+</ul>
+<h2 id="finding-your-connection-details">Finding Your Connection Details<a class="headerlink" href="#finding-your-connection-details" title="Permanent link">&para;</a></h2>
+<h3 id="p1p-p1s">P1P &amp; P1S<a class="headerlink" href="#p1p-p1s" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Navigate to "Settings-&gt;WLAN" on the LCD menu, and click "OK".
+<br><img src=img/PandaTouch/p1_1.png width="600"/></li>
+<li>Enter the IP and Access code into the corresponding Panda Touch input boxes (only Access code for automatic scanning).
+<br><img src=img/PandaTouch/p1_2.png width="600"/></li>
+<li>Find "Settings-&gt;Device" on the screen menu, and click "OK".
+<br><img src=img/PandaTouch/p1_3.png width="600"/></li>
+<li>Enter the SN code into the corresponding Panda Touch input boxes. <br><img src=img/PandaTouch/p1_4.png width="600"/></li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<h3 id="connection-troubleshooting">Connection Troubleshooting<a class="headerlink" href="#connection-troubleshooting" title="Permanent link">&para;</a></h3>
+<h4 id="connect-failed">Connect failed<a class="headerlink" href="#connect-failed" title="Permanent link">&para;</a></h4>
+<p><img src=img/PandaTouch/mqtt_connect_failed.png width="600"/></p>
+<p>This prompt means that the Panda Touch cannot establish a connection with the printer. There are generally several which can cause this:</p>
+<ul>
+<li>The printer and Panda Touch are not on the same LAN - Check if the WiFi connected to the printer and Panda Touch is the same SSID. If not, connect them to the same SSID.</li>
+</ul>
+<ul>
+<li>The router restricts communication between devices within the LAN - This is usually the case when using the "guest" network of a wireless router. It is recommended to the devices to a normal WiFi network instead of a guest WiFi network.</li>
+</ul>
+<ul>
+<li>Incorrect printer IP address - The incorrect IP address was typed into the Panda Touch or the IP address of the printer has been changed by the router. Check that the IP address within the Panda Touch matches that of the printer. In a future firmware update, the Panda Touch will be able to automatically find and heal connections that have been broken due to the router changing the IP address of the printer.</li>
+</ul>
+<ul>
+<li>Incorrect printer SN code - An incorrect SN code was entered. Check that the SN of the printer matches that within the Panda Touch.</li>
+</ul>
+<ul>
+<li>Weak WiFi signal - Both the Panda Touch and printer have icons displaying WiFi signals, please try to ensure as strong a WiFi signal as possible.</li>
+</ul>
+<h4 id="authentication-failed">Authentication failed<a class="headerlink" href="#authentication-failed" title="Permanent link">&para;</a></h4>
+<p><img src=img/PandaTouch/mqtt_login_failed.png width="600"/></p>
+<p>This prompt means that Panda Touch can establish a connection with the printer but authentication has failed. This is usually caused by an incorrect access code. Please check whether the printer's access code matches the set one. An incorrect access code are usually caused by the following:</p>
+<ul>
+<li>Input error.</li>
+<li>Clicking the refresh access code button on the printer resulting in the code changing.</li>
+<li>Enabling / Disabling the printer's LAN mode resulted in the printer generating a new access code.</li>
+<li>Exiting or logging back into the Bambu Lab account resulted in the printer generating a new access code.</li>
+</ul>
+<h2 id="technical-support">Technical Support<a class="headerlink" href="#technical-support" title="Permanent link">&para;</a></h2>
+<p>Did this page help you? If you have any further questions about product usage or encounter other issues, please feel free to contact our after-sales email at <a href="mailto:service001@biqu3d.com">service001@biqu3d.com</a>.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+    
+  </body>
+</html>
