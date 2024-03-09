@@ -47,7 +47,7 @@ BTT SKR MINI E3 V3.0是深圳市必趣科技有限公司3D打印团队为Ender3�
 
 ## **硬件配置**
 
-### **主板LED的含义**
+### **主板指示灯说明**
 
 当主板通电时：
 
@@ -160,10 +160,28 @@ https://biqu3d.com/pages/submit-a-ticket
 
 
 
+**导航:**
+
 BIQU官方网站：                            							  http://biqu3d.com
 
-BIGTREETECH官方网站：            				               http://bigtree-tech.com
+BIGTREETECH官方网站：            				 			 http://bigtree-tech.com
 
-线上商店：                                           				        https://biqu.equipment
+网上商店：                                          				 		https://biqu.equipment
 
-社区：                                            				               https://community.biqu3d.com
+BIGTREETECH官方群: 								  			  https://www.facebook.com/groups/bigtreetech
+
+Discord: 																	   https://discord.gg/hhZsV7zk
+
+Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
+
+微信公众号：																BIGTREETECH 
+
+官方社群：
+
+1群：																			190180312（已满）
+
+2群：																			633401944
+
+微信社群：																   关注微信公众号获取社群二维码
+
+资料获取由微信公众号提供，关注公众号发送及消息即可获取（网盘链接）

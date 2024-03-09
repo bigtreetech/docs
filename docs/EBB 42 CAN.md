@@ -182,4 +182,8 @@ BIGTREETECH Official Website：            				 http://bigtree-tech.com
 
 Online Store：                                           				 https://biqu.equipment
 
-Community：                                            				  https://community.biqu3d.com
+BIGTREETECH Official Group: 								  https://www.facebook.com/groups/bigtreetech
+
+Discord: 																	   https://discord.gg/hhZsV7zk
+
+Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
