@@ -124,14 +124,12 @@ BTT SKR MINI E3 V3.0是深圳市必趣科技有限公司3D打印团队为Ender3�
 
 - 登录我们的网站下载：https://github.com/bigtreetech
 
-
 **主板固件更新**
 
-- 将firmware.bin fifile复制到SD卡的根目录
+- 将firmware.bin复制到SD卡的根目录
 
-- **<font  color="red">*NOTE: Do not change fifile name!* </font>**
+- **<font  color="red">注意：不要更改文件名！</font>**
 - 将SD卡插入插槽，重新通电或重置，更新将在10S后完成，在更新过程中，您应该会看到状态LED闪烁红色。。
-
 
 **请参阅BTT SKR MINI E3 V3.0-PIN.pdf**
 

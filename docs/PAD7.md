@@ -109,6 +109,8 @@ The BIGTREETECH Pad 7, a product of Shenzhen Big Tree Technology Co., Ltd., is a
 
 <img src=img/PAD7/PAD7_CB1_6.png width="600" />
 
+<font  color="red">**Note:White blocks represent the current positions of the slide switch.**</font>
+
 8.Cover the bottom cover back onto the Pad 7.
 
 <font  color="red">**Use a 1.5 mm hex key to fix the bottom cover in place using the two M2.5 x 3 flat head countersunk screws.**</font>
@@ -352,6 +354,10 @@ axes_map: z,y,-x  #  Modify according to the actual orientation of the ADXL345 i
 <img src=img/PAD7/PAD7_FAQ_1.png width="600" />
 
 <img src=img/PAD7/PAD7_FAQ_2.png width="600" />
+
+Note:Whiteblocksrepresentthecurrentpositionsoftheslideswitch.
+
+<font  color="red">**Note:White blocks represent the current positions of the slide switch.**</font>
 
 2.Check the H and L wiring of the CAN bus connection according to the “Connection between Pad7, EBB36, and ADXL345” section of this manual.
 

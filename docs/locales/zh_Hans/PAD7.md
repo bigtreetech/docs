@@ -102,6 +102,8 @@ BIGTREETECHPad7屏幕是深圳市必趣科技有限公司3D打印团队针对Kli
 
 <img src=img/PAD7/PAD7_CB1_6.png width="600" />
 
+<font  color="red">**注: 白色色块为按键开关所拨位置。**</font>
+
 8.盖上小盖板，使用1.5mm六角螺丝刀顺时针旋转两颗M2.5*3的平头螺丝至固定；
 
 <img src=img/PAD7/PAD7_CB1_7.png width="600" />
@@ -382,6 +384,8 @@ iface can0 can static
 <img src=img/PAD7/PAD7_FAQ_6.png width="600" />
 
 <img src=img/PAD7/PAD7_FAQ_7.png width="600" />
+
+<font  color="red">**注: 白色色块为按键开关所拨位置。**</font>
 
 2.按照此手册的硬件接口部分，检查spi端口的接线线序是否正确。
 
