@@ -153,7 +153,8 @@ nav:
       - TFT24.md
       - TFT35 SPI.md
       - HDMI5.md
-      - HDMI7.md
+      - HDMI7 V1.0.md
+      - HDMI7 V1.2.md
     - 电机驱动:
       - TMC系列:
         - TMC2130.md
