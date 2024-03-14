@@ -266,7 +266,7 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 
 - 增加中文语言包。
 
-<font  color="red">**备注：自2024年2月8日起，中国大陆地区销售的Panda Touch出厂固件默认为V1.0.2；如您在2024年2月8日前购买Panda Touch，可在对应销售平台联系客服获取V1.0.2固件进行升级，同时可点击查看V1.0.2升级教程视频：**</font>[视频请点击](https://www.bilibili.com/video/BV1uJ4m1e7cu/?spm_id_from=333.337.search-card.all.click&vd_source=4d2b504c4ca810a3b6654c51b2ffd5e5)
+备注：自2024年2月8日起，中国大陆地区销售的Panda Touch出厂固件默认为V1.0.2；如您在2024年2月8日前购买Panda Touch，可在对应销售平台联系客服获取V1.0.2固件进行升级，同时可点击查看V1.0.2升级教程视频：[视频请点击](https://www.bilibili.com/video/BV1uJ4m1e7cu/?spm_id_from=333.337.search-card.all.click&vd_source=4d2b504c4ca810a3b6654c51b2ffd5e5)
 
 ### 功能请求
 
