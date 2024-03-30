@@ -2,11 +2,11 @@
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_Title.png width="600" />
 
-## **介绍**
+## **产品简介**
 
-BTT SKR MINI E3 V3.0是深圳市必趣科技有限公司3D打印团队为Ender3设计的主板，是对Ender3原有主板的完美替代。
+BTT SKR MINI E3 V3.0是必趣创新科技（深圳）有限公司3D打印团队为Ender3设计的主板，是对Ender3原有主板的完美替代。
 
-## **主要特点**
+## **功能亮点**
 
 - 重新设计的主板ID（工业设计）使其美观
 - 采用STMicroelectronics G0系列MCU STM32G0B1RET6
@@ -16,7 +16,7 @@ BTT SKR MINI E3 V3.0是深圳市必趣科技有限公司3D打印团队为Ender3�
 - 采用MicroUSB代替MiniUSB接口
 - 为SPI输出头增加+3.3V电源
 
-## **基本参数**
+## **规格**
 
 <table border="1">
 	<tr>
@@ -35,17 +35,15 @@ BTT SKR MINI E3 V3.0是深圳市必趣科技有限公司3D打印团队为Ender3�
     <td colspan="5"><b>推荐软件：</b></br>Cura、Simplify3D、Pronterface、Repetier主机、Makerware</td></tr>
 	<tr>
 </table>
-
-
 ## **尺寸**
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_Dimension.png width="600" />
 
-## **接口示意图**
+## **外围设备接口**
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_CAD.png width="600" />
 
-## **硬件配置**
+## **接口介绍**
 
 ### **主板指示灯说明**
 
@@ -60,15 +58,13 @@ BTT SKR MINI E3 V3.0是深圳市必趣科技有限公司3D打印团队为Ender3�
 - D3数控风扇FAN2状态指示灯绿色指示灯：打开时亮，关闭时关。
 - D9 SD卡状态指示灯的绿色指示灯：插入SD卡时亮起，拔出时熄灭。
 
-## **硬件安装**
-
 ### 无传感器归位功能
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_Sensorless.png width="600" />
 
 如图所示，将相应的轴与跳跃帽连接，以选择无传感器归位功能。
 
-**<font  color="red">*注意：如果选择此功能，则不能使用外部ENDSTOP！* </font>**
+**<font  color="red">注意：如果选择此功能，则不能使用外部ENDSTOP！ </font>**
 
 ### **用于BLtouch、TFT、RGB接口的5V电源**
 
@@ -86,7 +82,7 @@ BTT SKR MINI E3 V3.0是深圳市必趣科技有限公司3D打印团队为Ender3�
 
 通过FAN2连接风扇，实现整机制冷。
 
-**<font  color="red">*请注意，工作电压与输入电源电压相同，以避免损坏。* </font>**
+**<font  color="red">请注意，工作电压与输入电源电压相同，以避免损坏。 </font>**
 
 ### **连接BIGTREETECH继电器V1.2**
 

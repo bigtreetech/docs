@@ -2,11 +2,11 @@
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_Title.png width="600" />
 
-## **Introduction**
+## **Product Profile**
 
-BTT SKR MINI E3 V3.0 is a motherboard designed for Ender3, which launched by the 3D printing team of Shenzhen Big Tree Technology Co., Ltd. It is the perfect replacement of the original motherboard of Ender3.
+BTT SKR MINI E3 V3.0 is a motherboard designed for Ender3, which launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.. It is the perfect replacement of the original motherboard of Ender3.
 
-## **Main Features**
+## **Features Highlights**
 
 - Redesigned motherboard ID(Industrial Design) make it good-looking
 - Adopts STMicroelectronics G0 series MCU STM32G0B1RET6
@@ -16,7 +16,7 @@ BTT SKR MINI E3 V3.0 is a motherboard designed for Ender3, which launched by the
 - Adopt MicroUSB instead of MiniUSB interface
 - Added +3.3V power supply for SPI output header
 
-## **Basic Parameters**
+## **Specifications**
 
 <table border="1">
 	<tr>
@@ -40,13 +40,13 @@ BTT SKR MINI E3 V3.0 is a motherboard designed for Ender3, which launched by the
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_Dimension.png width="600" />
 
-## **Interface Diagram**
+## **Peripheral Interface**
+
+### Interface Diagram
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_CAD.png width="600" />
 
-## **Hardware Configuration**
-
-### **Motherboard LED meanings**
+### Motherboard LED meanings
 
 When the motherboard is powered on:
 
@@ -59,7 +59,7 @@ When the motherboard is powered on:
 - D3 green light for the CNC fan FAN2 status indicator: on when open, off when closed.
 - D9 green light for the SD card status indicator: light up when inserted into the SD, off when pulled out.
 
-## **Hardware Installation**
+## **Interface Introduction**
 
 ### Sensorless homing function
 
@@ -67,7 +67,7 @@ When the motherboard is powered on:
 
 As shown, connect the corresponding axes with the jump caps to choose Sensorless homing function.
 
-**<font  color="red">*NOTE: If you choose this function, you cannot use external ENDSTOP!* </font>**
+**<font  color="red">NOTE: If you choose this function, you cannot use external ENDSTOP! </font>**
 
 ### **5V power supply for BLtouch, TFT, RGB interfaces**
 
@@ -79,33 +79,33 @@ As shown, connect the corresponding axes with the jump caps to choose Sensorless
 
 2、To use an external BIGTREETECH DCDC5V V1.0 module, short the pins shown in the above image using a jumper.
 
-### **Connection of cooling fan**
+### Connection of cooling fan
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_Fan.png width="600" />
 
 Connect the fan by FAN2 to realize the whole machine cooling.
 
-**<font  color="red">*Pleast note that the operating voltage is the same with the input power supply voltage to avoid damage.* </font>**
+**<font  color="red">Pleast note that the operating voltage is the same with the input power supply voltage to avoid damage. </font>**
 
-### **Connection to BIGTREETECH Relay V1.2**
+### Connection to BIGTREETECH Relay V1.2
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_Relay.png width="600" />
 
-### **Connection to BTT UPS 24V V1.0**
+### Connection to BTT UPS 24V V1.0
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_UPS.png width="600" />
 
-### **Connection to Neopixel light**
+### Connection to Neopixel light
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_Neopixel.png width="600" />
 
-### **Connection to BL touch**
+### Connection to BL touch
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_BLtouch.png width="600" />
 
 ## **Software Configuration**
 
-### **Communication of Motherboard and PC**
+### Communication of Motherboard and PC
 
 The motherboard can communicate with a PC using the USB interface. 
 
@@ -113,7 +113,7 @@ The same USB interface can be used to communicate with a Raspberry pi or any oth
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_COM.png width="600" />
 
-### **Firmware of motherboard**
+### Firmware of motherboard
 
 The package contains the firmware for testing (Ender3), which can be used directly or changed according to your needs.
 
@@ -127,7 +127,7 @@ The package contains the firmware for testing (Ender3), which can be used direct
 
 - Copy firmware.bin file to the root directory of SD card
 
-- **<font  color="red">*NOTE: Do not change file name!* </font>**
+- **<font  color="red">NOTE: Do not change file name! </font>**
 - Insert the SD card into the slot, re-power on or reset, the update will complete after 10S, And you should see the status LED blinking red during the update..
 
 
@@ -144,7 +144,7 @@ The package contains the firmware for testing (Ender3), which can be used direct
 
 
 
-## Product Purchase Link
+## **Product Purchase Link**
 
 **Purchase Link:**
 
