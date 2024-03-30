@@ -125,6 +125,12 @@ nav:
     - 主板:
       - SKR系列:
         - SKR MINI E3.md
+        - SKR 3 EZ.md
+        - SKR 3.md
+        - SKR Pico.md
+        - SKR PRO V1.2.md
+        - SKR V1.4.md
+        - SKRat.md
       - Octopus系列:
         - Octopus.md
         - Octopus Pro.md
