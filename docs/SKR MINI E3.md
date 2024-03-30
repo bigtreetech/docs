@@ -136,13 +136,11 @@ The package contains the firmware for testing (Ender3), which can be used direct
 - for motherboard firmware DIY.
 
 
-## **PRECAUTIONS**
+## **Precautions**
 
 - The text form and file name of firmware in the SD card cannot be changed from “firmware.bin”.
 - The wiring must be done before powering on.
 - The LCD screen only supports the LCD12864 screen with CR10_STOCKDISPLAY interface.
-
-
 
 ## **Product Purchase Link**
 

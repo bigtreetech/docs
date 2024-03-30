@@ -103,7 +103,7 @@ https://github.com/bigtreetech
 
 ​		(3) Please refer to BTT SKR Pico V1.0-PIN.pdf for Firmware DIY.
 
-## **Precaution**
+## **Precautions**
 
 1. If you want to use a motor drive current of more than 0.8A, it is recommended to use a fan to actively cool the drive chip.
 2. Do not remove the heat sink unless necessary. If it is to be removed, please ensure that the thermal conductive silicon film fits the bottom of the heat sink during installation, so as not to cause short circuit

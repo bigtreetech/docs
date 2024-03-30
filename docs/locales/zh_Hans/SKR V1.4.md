@@ -86,7 +86,7 @@ SKR主板通过USB接口与计算机通信。计算机需要先安装驱动程�
 
 1、常用STEP/DIR模式：（例如：A4988、DRV8825、LV8729、ST820等）根据驱动器细分表选择短路帽连接MS0-MS2。
 
-<img src=img/SKR_V1.4/SKR_V1.4_Step.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_STEP.png width="600" />
 
 <font  color="red">**注意：如果使用A4988或DRV8825驱动程序，则必须使用跳线帽连接RST和SLP。** </font>
 
@@ -110,7 +110,7 @@ SKR主板通过USB接口与计算机通信。计算机需要先安装驱动程�
 
 SKR V1.4与BL touch的连接：
 
-<img src=img/SKR_V1.4/SKR_V1.4_BLTouch.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Bltouch.png width="600" />
 
 ### Relay V1.2
 

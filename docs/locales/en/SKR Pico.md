@@ -1,10 +1,10 @@
 # SKR Pico
 
-## **Introduction**
+## **Product Profile**
 
-BTT SKR Pico V1.0 is a customized motherboard designed for VORON V0 printer, which launched by the 3D printing team of Big Tree Technology Co., Ltd
+BTT SKR Pico V1.0 is a customized motherboard designed for VORON V0 printer, which launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.
 
-## **Main Features**
+## **Features Highlights**
 
 - Good-looking
 - With Raspberry Pi ARM Cortex-M0+ MCU RP2040.
@@ -14,28 +14,29 @@ BTT SKR Pico V1.0 is a customized motherboard designed for VORON V0 printer, whi
 - TYPE-C interface is connected to main control communication.
 - Adopting Raspberry Pi, with optimal size design.
 
-## **Basic Parameters**
+## **Specifications**
 
-- External size: 85*56mm
-- Installation size: Please refer to BTT SKR Pico V1.0-SIZE.pdf 
-- Board layer: 4 
-- MCU: ARM Cortex-M0+ RP2040
-- Power input: DC 12/24V
-- Logic voltage: 3.3V
-- Motor driver: UART mode of the on-board TMC2209
-- Motor driver interface: X, Y, Z1, Z2, E 
-- Temperature sensor interface: TH0, THB, 2-way 100K NTC (RTD)
-- Communication with Raspberry Pi (Raspberry Pi): TYPE-C, UART.
+| External size                                      |                    85*56mm                     |
+| -------------------------------------------------- | :--------------------------------------------: |
+| **Installation size**                              | **Please refer to BTT SKR Pico V1.0-SIZE.pdf** |
+| **Board layer**                                    |                     **4**                      |
+| **MCU**                                            |           **ARM Cortex-M0+ RP2040**            |
+| **Power input**                                    |                 **DC 12/24V**                  |
+| **Logic voltage**                                  |                    **3.3V**                    |
+| **Motor driver**                                   |     **UART mode of the on-board TMC2209**      |
+| **Motor driver interface**                         |              **X, Y, Z1, Z2, E**               |
+| **Temperature sensor interface**                   |       **TH0, THB, 2-way 100K NTC (RTD)**       |
+| **Communication with Raspberry Pi (Raspberry Pi)** |                **TYPE-C, UART**                |
 
 ## **Dimensions**
 
 <img src=img/SKR_Pico/SKR_Pico_Dimension.png width="600" />
 
-## **Interface Diagram**
+## **Peripheral Interface**
+
+### Interface Diagram
 
 <img src=img/SKR_Pico/SKR_Pico_In.png width="600" />
-
-## **Hardware Configuration**
 
 ### **Motherboard LED meanings**
 
@@ -48,7 +49,7 @@ LED2 - FAN2 status indicator: on when turned on, off when turned off
 LED3 - FAN2 status indicator: on when turned on, off when turned off
 LED7 - RGB light, light color can be set
 
-## **Hardware Installation**
+## **Interface Introduction**
 
 ### Sensorless homing function
 
@@ -84,7 +85,7 @@ b. Communication via UART
 
 Please refer to BTT SKR Pico V1.0-PIN.pdf for more details.
 
-## Firmware of Motherboard
+## **Firmware of Motherboard**
 
 1. How to get Contact our customer service or technical support to get.
 Log in the open source website to download: 
@@ -102,7 +103,7 @@ https://github.com/bigtreetech
 
 ​		(3) Please refer to BTT SKR Pico V1.0-PIN.pdf for Firmware DIY.
 
-## Precaution
+## **Precautions**
 
 1. If you want to use a motor drive current of more than 0.8A, it is recommended to use a fan to actively cool the drive chip.
 2. Do not remove the heat sink unless necessary. If it is to be removed, please ensure that the thermal conductive silicon film fits the bottom of the heat sink during installation, so as not to cause short circuit

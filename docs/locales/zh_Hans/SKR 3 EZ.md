@@ -168,3 +168,21 @@ SKR 3 EZ 加热棒的 IO 是通过跳帽连接到 MOS 管的，如果需要接�
 <img src=img/SKR3_EZ/SKR3_EZ_Heater.png width="600" />
 
 ## **Marlin**
+
+详情请点击：https://bttwiki.com/zh/SKR%203.html#marlin
+
+## **Klipper**
+
+详情请点击：https://bttwiki.com/zh/SKR%203.html#klipper
+
+## **Firmware Update**
+
+For details, please click:https://bttwiki.com/zh/SKR%203.html#firmware-update
+
+## **Precausions**
+
+For details, please click:https://bttwiki.com/zh/SKR%203.html#precausions
+
+## **FAQ**
+
+For details, please click:https://bttwiki.com/zh/SKR%203.html#faq
