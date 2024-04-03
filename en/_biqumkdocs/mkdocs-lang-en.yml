@@ -145,14 +145,16 @@ nav:
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
         - U2C.md
-    - IOT:
+      - TMC Series:
+        - MMB CAN V1.0.md
+    - MMB Series:
       - CB1.md
       - PI4B.md
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
       - Panda Touch.md
-    - Displays:
+    - IOT:
       - TFT43-DIP.md
       - TFT35 E3.md
       - TFT35.md
@@ -161,15 +163,15 @@ nav:
       - HDMI5.md
       - HDMI7 V1.0.md
       - HDMI7 V1.2.md
-    - Motor Drives:
-      - TMC Series:
+    - Displays:
+      - Motor Drives:
         - TMC2130.md
         - TMC5160.md
         - TMC2209.md
         - TMC2208.md
         - TMC5160TPlus.md
         - Tutorials.md
-      - EZ Series:
+      - TMC Series:
         - EZ2130.md
         - EZ2208.md
         - EZ2225.md

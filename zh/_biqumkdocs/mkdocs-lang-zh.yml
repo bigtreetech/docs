@@ -145,14 +145,16 @@ nav:
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
         - U2C.md
-    - 物联网:
+      - EZ系列:
+        - MMB CAN V1.0.md
+    - MMB系列:
       - CB1.md
       - PI4B.md
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
       - Panda Touch.md
-    - 显示屏:
+    - 物联网:
       - TFT43-DIP.md
       - TFT35 E3.md
       - TFT35.md
@@ -161,15 +163,15 @@ nav:
       - HDMI5.md
       - HDMI7 V1.0.md
       - HDMI7 V1.2.md
-    - 电机驱动:
-      - TMC系列:
+    - 显示屏:
+      - 电机驱动:
         - TMC2130.md
         - TMC5160.md
         - TMC2209.md
         - TMC2208.md
         - TMC5160TPlus.md
         - Tutorials.md
-      - EZ系列:
+      - TMC系列:
         - EZ2130.md
         - EZ2208.md
         - EZ2225.md
