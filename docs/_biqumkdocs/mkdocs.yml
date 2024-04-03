@@ -145,6 +145,8 @@ nav:
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
         - U2C.md
+      - MMB Series:
+        - MMB CAN V1.0.md
     - IOT:
       - CB1.md
       - PI4B.md

@@ -4,7 +4,7 @@
 
 ## **产品简介**
 
-BIGTREETECH SKR V1.4 motherboard is a 32-bit 3D printer motherboard optimized and upgraded by the 3D printing team of SShenzhen BIQU Innovation Technology Co., Ltd. for the deficiencies of V1.3 version, especially suitable for small and medium-sized printers.
+BIGTREETECH SKR V1.4主板是必趣创新科技（深圳）有限公司针对V1.3版本的不足进行优化升级的32位3D打印机主板，特别适合中小型打印机。
 
 ## **功能亮点**
 
