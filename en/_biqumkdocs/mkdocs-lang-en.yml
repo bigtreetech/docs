@@ -181,24 +181,24 @@ nav:
         - EZ2209.md
         - EZ2240.md
         - EZ31865.md
-    - MMB Series:
+    - Software Tutorials:
       - Multiple 3D Printers.md
       - Software Configuration.md
       - Software Installation.md
       - EBB Series.md
       - libinput_calibration.md    
-  - Software Tutorials:
+  - BIQU:
     - Panda series: 
-      - Panda series:
+      - Panda Hotend:
         - Panda Flow/CHT:
           - X1:
             - Panda Flow X1.md
-          - Panda Revo:
+          - P1:
             - Panda Flow P1.md
-        - X1:
+        - Panda Revo:
           - X1:
             - Panda Revo X1 Hotend.md
-          - Panda Revo:
+          - P1:
             - Panda Revo P1 Hotend.md
       - PandaTouch.md
       - Panda Jet.md 
@@ -208,11 +208,11 @@ nav:
       - Extruders.md 
     - Hotends: 
       - Hotends.md 
-    - Hotends:
+    - Sensor modules:
       - Hermit Crab 2 Series.md
     - Printers: 
       - Printers.md 
-    - Printers:
+    - Cooling solution:
       - Universal Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
