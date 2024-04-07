@@ -12,6 +12,8 @@ Manta Series
 
 EBB Series
 
+MMB Series
+
 IOT
 
 Displays
@@ -21,8 +23,6 @@ Motor Drives
 TMC Series
 
 EZ Series
-
-MMB Series
 
 Software Tutorials
 
