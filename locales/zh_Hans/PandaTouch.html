@@ -2702,27 +2702,23 @@
     V1.0.1
   </a>
   
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
+    <nav class="md-nav" aria-label="V1.0.1">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#_26" class="md-nav__link">
     分组逻辑（控制模式）
   </a>
   
-    <nav class="md-nav" aria-label="分组逻辑（控制模式）">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#_27" class="md-nav__link">
     开始打印
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="开始打印">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#usb" class="md-nav__link">
@@ -2738,10 +2734,20 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+        
           <li class="md-nav__item">
   <a href="#_28" class="md-nav__link">
     多重打印
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -3219,7 +3225,7 @@
 <ul>
 <li>首次发布的工厂固件。</li>
 </ul>
-<h3 id="_26">分组逻辑（控制模式）<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h3>
+<h5 id="_26">分组逻辑（控制模式）<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h5>
 <p>Panda Touch有4种可设置的控制模式：
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/control_mode.png width="600"/></p>
 <ul>
@@ -3247,8 +3253,8 @@
 </li>
 <li><code>断开连接</code>：Panda Touch将在这种状态下关闭与任何打印机的连接，并且不会向其发送任何指示。</li>
 </ul>
-<h4 id="_27">开始打印<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h4>
-<h4 id="usb">从USB闪存驱动器开始打印<a class="headerlink" href="#usb" title="Permanent link">&para;</a></h4>
+<h5 id="_27">开始打印<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h5>
+<h6 id="usb">从USB闪存驱动器开始打印<a class="headerlink" href="#usb" title="Permanent link">&para;</a></h6>
 <ul>
 <li>确保USB闪存驱动器的文件系统<strong><code>格式化为FAT32</code></strong>。</li>
 <li>使用 <code>.3mf</code>选项从Bambu Studio或Orca Slicer导出 <code>.3mf</code>文件<br> <img src=img/PandaTouch/export_3mf.png width="600"/></li>
@@ -3293,7 +3299,7 @@
 </li>
 <li>上传完成后将开始打印。对于非常大的<code>.3mf</code>文件，每个打印机的传输时间可能需要几分钟<br> <img src=img/PandaTouch/printing.png width="600"/></li>
 </ul>
-<h4 id="microsd">从打印机的MicroSD卡开始打印<a class="headerlink" href="#microsd" title="Permanent link">&para;</a></h4>
+<h6 id="microsd">从打印机的MicroSD卡开始打印<a class="headerlink" href="#microsd" title="Permanent link">&para;</a></h6>
 <ul>
 <li>确保MicroSD卡被<strong><code>格式化为FAT32</code></strong>，且已插入<code>主机</code>打印机。</li>
 <li>转到<code>主打印机的MicroSD卡</code>菜单。
@@ -3306,7 +3312,7 @@
 <li>此菜单中显示的文件列表来自<code>主机</code>打印机。如果我们想从另一台打印机打印文件，我们可以将要打印的打印机设置为<code>主机</code>。</li>
 <li>就像[从USB闪存驱动器开始打印]（#从USB闪存驱动开始打印）中的步骤一样，选择要开始打印的打印机。</li>
 </ul>
-<h4 id="_28">多重打印<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h4>
+<h5 id="_28">多重打印<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h5>
 <p>当一台处于<code>同步</code>状态的打印机正在打印，或多台处于其他状态的打印机同时打印时，Panda Touch将显示“多重打印”菜单，如下所示
 <br> <img src=img/PandaTouch/multi_printing.png width="600"/></p>
 <p>此菜单中存在以下组控件：</p>
