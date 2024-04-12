@@ -98,11 +98,16 @@ It is possible that Bambu Lab may release a future firmware version which impact
 
 You will be presented with the screen below after booting for the first time or after executing the `Restore Factory Settings` command.
 
-#### WiFi connection guide
+#### Language select guide
 
+<img src=img/PandaTouch/language_guide.png width="600"/>
+
+* Choose a language for Panda Touch
+
+#### WiFi connection guide
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.png width="600"/>
 
-* During the initial setup the Panda Touch will scan for WiFi networks and then display upt to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. **Note:** The current version (`V1.0.1`) of the firmware does not support connecting to hidden WiFi networks. Also, when Panda Touch is connecting to WiFi, Panda Touch cannot perform the WiFi scanning task at the same time.
+* During the initial setup the Panda Touch will scan for WiFi networks and then display upt to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. **Note:** The version (`V1.0.3`) of the firmware does not support connecting to hidden WiFi networks. Also, when Panda Touch is connecting to WiFi, Panda Touch cannot perform the WiFi scanning task at the same time.
 * Click on the WiFi name in the list, and the [keyboard interface](#keyboard-interface) will pop up. After entering the correct password, click "OK" to start connecting to WiFi. (Password length: 8~64 characters)
 * The connection status will be displayed next to the name of the WiFi network. A `Spinner` graphic means that WiFi is still attempting a connection, and a `✔` means the connection is successful.
 * After the connection is successful, the `Next` button will be enabled. Click `Next` to enter the printer connection menu.
@@ -159,10 +164,120 @@ After filling in the `required` information, you can click the `Confirm` button 
 * `Number input`
  <br> <img src=img/PandaTouch/keyboard_number.png width="600"/>
 
-### Grouping logic (Control Mode)
+### Filament Control
 
-Currently (`V1.0.1`), the Panda Touch has 4 settable control modes:
+The Panda Touch allows users to configure the type and colour of the filament being used on their external spool holder and their AMS. Users can also load and unload filamement using this menu.
+
+When performing any actions, please ensure that the correct AMS unit and filament slot is selected. You will know that the filament is selected when it has a red border around it. If nothing has been selected then the `Load` and `Unload` buttons will be greyed out.
+
+<img src=img/PandaTouch/filament_screen.png width="600"/>
+   
+### HMS (Health Management System)
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/hms.png width="600"/>
+
+* Tap the title bar of Panda Touch, and the HMS notification center menu will expand.
+* When a new HMS notification is detected, Panda Touch will automatically expand the HMS notification center.
+* The upper left corner of the title bar will display the number of the printers that have sent HMS notifications.
+* Click on the corresponding HMS notification to pop up the wiki link QR code for troubleshooting this problem.
+* Click `X` to ignore this notification.
+* Click `Ignore All` to ignore all notifications. **Note:** the Panda Touch will ignore notifications from all printers but the X1C. Since the X1C repeatedly sends notification information at regular intervals, ignored notifications may reappear shortly thereafter.
+
+## Firmware
+
+### Firmware History
+
+#### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
+* Add Multi-group feature.
+* Add the ability to change picture of Panda.
+* Add auto select external filament slot with no AMS.
+* Add the feature when operating the axis during a print, a prompt pops up indicating that the operation is not allowed.
+* Add self healing IP address.
+* Add ability to control screen brightness.
+* Add the feature when adding a new printer, the number of scanning printers increases from 10 to 20.
+* Add reprint function, only supports printing tasks launched from Panda touch, will not take action after restarting.
+* Fix unable to load/unload when print is paused.
+* Fix german filenames are now displayed correctly, ä ü ö ß characters are displayed.
+* Fix wiFi connection instability. If WiFi falls off the network the Panda Touch will attempt three forced disconnect-reconnect cycles. If these still fail then the user is alerted and given an option for a manual reboot.
+* Fix use BSSID as the primary key for WiFi connections instead of SSID.
+
+**Note：** Update V1.0.3 requires two files to be sent to the Panda Touch. 
+One is the firmware file and the other contains the graphics and fonts. 
+This will help us to add more languages to the Panda touch in the future. Be sure to download both the .bin and .img files.
+
+## Using features of the new firmware
+#### Grouping logic  
+Allow you to create up to 10 new groups to control multiple printers:
+
+#### How to add a group
+* Tap + in the connected printer list to pop up the multi function menu.  
+<br><img src=img/PandaTouch/press_plus.png width="600"/>
+* Choose the add group option.
+<br><img src=img/PandaTouch/press_add_group.png width="600"/>
+* Choose the printer which you want add to the group.
+<br><img src=img/PandaTouch/group_choose_printer.png width="600"/>
+* Tap the next and input the group name and click "OK".
+<br><img src=img/PandaTouch/group_name.png width="600"/>
+* You now can see the group in the printer list, tapping this group will allow you to control the whole group but the controls presented will be those of the group leader. 
+
+#### Switch to group
+* To control an individual printer, simply click on the card that corresponds to it and you will be taken to the control page that sends commands to it in isolation even if it is part of a group. If you send a command that takes some time and then you send a command to a group that it belongs to, the second command will be ignored if the first is still busy.
+<br><img src=img/PandaTouch/add_group_ok.png width="600"/> 
+
+### Start printing with one printer
+* Tap to choose the file in the USB disk list to print.
+* Set printing parameters:
+<br><img src=img/PandaTouch/start_print_one.png width="600"/>
+    * `Bed Leveling`
+    * `Flow Calibration` (`P1P` and `P1S` do not have this feature, so these models of printers will not display this option.)
+    * `Timelapse`
+    * `Use AMS` (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)
+  
+* Automatically jump to the main interface and display printer data.
+<br><img src=img/PandaTouch/start_print_one_ing.png width="600"/>
+
+### Multiple printing
+* Tap to choose the file in the USB disk list to print.
+* Set printing parameters:
+<br><img src=img/PandaTouch/start_print.png width="600"/>
+    * `Bed Leveling`
+    * `Flow Calibration` (When there is a printer in the group that supports this feature, it will be automatically selected and only applicable to those supported printers.)
+    * `Timelapse`
+    * `Use AMS` (When there is a printer in the group that supports this feature, it will be automatically selected and only applicable to those supported printers.)
+
+
+* Panda Touch will generate a list of available printers for you choose from. Printers that are already busy will be excluded from this list. This applies to groups that contain printers that are already busy too. Tick box print options for a particular group will be based on the functionality available for the most functional machine in the group. For example, you are using a group wich contains X1C\P1P\P1S, you will have the lidar scan option available but this option will only be sent to the printers in the group that support it.
+<br><img src=img/PandaTouch/udisk_upload.png width="600"/>
+<br><img src=img/PandaTouch/group_printing.png width="600"/>
+
+The group controls menu same as the version V1.0.1
+
+### How to exchange Panda Picture
+You can check out the tool form this link [exchange picture tool](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/)
+* Please upgrade the PandaTouch firmware to V1.0.3 before proceeding.
+* The operation to replace the Panda image can only be performed on a Windows system.
+* Please ensure that the image you want to replace meets the following requirements: pixel width less than 280, pixel height less than 306, pixel depth 32-bit color, and image format PNG.
+#### Step by Step
+* The tool can run at windows system only.
+* Download the Panda Exchange Tool from the firmware folder of V1.0.3.
+* Ensure that the image you want to replace meets the format requirements, rename it, and replace the new_panda.png file in this folder. The Panda Exchange Tool folder already contains a new Panda image. If you don't have a specific image to replace, you can skip this step.
+* Click generate_img.bat to compile.
+* Enter the IP address of the Panda Touch in the browser to access the OTA web UI.
+* Click "Update File," select new_panda.img, and proceed with the update.
+
+
+#### [V1.0.2](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.2/panda_touch-v1.0.2.bin)
+
+* Add multi-language option, support chinese.
+
+#### [V1.0.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.1/panda_touch-v1.0.1.bin)
+
+* First released factory firmware.
+
+##### Grouping logic  
+the Panda Touch has 4 settable control modes:
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/control_mode.png width="600"/>
+
 * `Master`: A single machine that acts as the source of instructions for itself and possibly other machines.
   * The temperature, filament, and file list in the MicroSD Card displayed by Panda Touch are all derived from this printer.
   * Panda Touch requires that a single printer is set at the `Master` as the source of this information.
@@ -178,27 +293,19 @@ Currently (`V1.0.1`), the Panda Touch has 4 settable control modes:
   * There can be none or multiple `Sync` machines at the same time.
   * The Panda Touch will monitor all `print error` and `HMS` messages from the `Sync` machines in the background and either send them to the notification center if they are non-critical or display them with a pop-up if they are critical.
   * You can start a print job on a `Sync` printer using an external USB drive and selecting the slave printer.
-  * Currently (`V1.0.1`) you cannot control sync printers using the `Temperature/Axis` and `Filament` menus. They must be temporarily set to `Master` in order to do this. In a future firmware version the grouping scheme will be adjusted such that this is possible.
+  * you cannot control sync printers using the `Temperature/Axis` and `Filament` menus. They must be temporarily set to `Master` in order to do this. In a future firmware version the grouping scheme will be adjusted such that this is possible.
 * `Disconnected`: The Panda Touch will close the connection to any printers in this state and no instructions will be sent to it.
 
-### Filament Control
-
-The Panda Touch allows users to configure the type and colour of the filament being used on their external spool holder and their AMS. Users can also load and unload filamement using this menu.
-
-When performing any actions, please ensure that the correct AMS unit and filament slot is selected. You will know that the filament is selected when it has a red border around it. If nothing has been selected then the `Load` and `Unload` buttons will be greyed out.
-
-<img src=img/PandaTouch/filament_screen.png width="600"/>
-
-### Start printing
+#### Start printing
 
 #### Start printing from USB flash drive
 
 * Ensure that the file system of the USB flash drive is *formatted as FAT32*.
 * Export the `.3mf` file from either Bambu Studio or Orca Slicer using the `Export plate sliced file` option. <br> <img src=img/PandaTouch/export_3mf.png width="600"/>
 * Write the sliced `.3mf` file to the root directory of the USB flash drive
-  * Panda Touch currently (`V1.0.1`) only supports files are sliced in `Build Plate #1` in Bambu Studio.
-  * Panda Touch currently (`V1.0.1`) only supports `.3mf` files and does not support `.gcode` files.
-  * Panda Touch currently (`V1.0.1`) only supports reading files in the root directory and does not support reading files in folders.
+  * Panda Touch only supports files are sliced in `Build Plate #1` in Bambu Studio.
+  * Panda Touch only supports `.3mf` files and does not support `.gcode` files.
+  * Panda Touch only supports reading files in the root directory and does not support reading files in folders.
 * Insert the USB flash drive into the Panda Touch, and then go to the `USB flash drive` menu. <br> <img src=img/PandaTouch/usb_flash_drive.png width="600"/>
 * Find the file we want to print in the file list, click on the file name to select the printer(s) and start printing. <br> <img src=img/PandaTouch/select_printer.png width="600"/>
   * ①: Select or deselect this printer to start the print job.
@@ -210,7 +317,7 @@ When performing any actions, please ensure that the correct AMS unit and filamen
   * ③：List of printers selected to start the task.
   * ④：Start printing.
     * Please make sure that the sliced `.3mf` file is compatible with the selected printers.
-    * If using an AMS, please make sure that the filaments in the AMS tray are consistent with those in the sliced `.3mf` file as there is currently (`V1.0.1`) no ability to dynamically map filaments at the start of the print.
+    * If using an AMS, please make sure that the filaments in the AMS tray are consistent with those in the sliced `.3mf` file as there is no ability to dynamically map filaments at the start of the print.
 
 * Panda Touch will start to upload the files in the USB flash drive to the root directory of the printer's MicroSD card. <br> <img src=img/PandaTouch/uploading.png width="600"/>
   * 1. Please make sure there is an MicroSD card inserted into the printer.
@@ -223,55 +330,26 @@ When performing any actions, please ensure that the correct AMS unit and filamen
 * Go to the `Master printer's MicroSD card` menu.
 <br> <img src=img/PandaTouch/micro_sd.png width="600"/>
 
-* Panda Touch currently (`V1.0.1`) only supports files are sliced in `Build Plate #1` in Bambu Studio.
-* Panda Touch currently (`V1.0.1`) only supports `.3mf` files and does not support `.gcode` files.
-* Panda Touch currently (`V1.0.1`) only supports reading files in the root directory and does not support reading files in folders.
+* Panda Touch only supports files are sliced in `Build Plate #1` in Bambu Studio.
+* Panda Touch only supports `.3mf` files and does not support `.gcode` files.
+* Panda Touch only supports reading files in the root directory and does not support reading files in folders.
 * The file list displayed in this menu is from the `Master` printer. If we want to print files from another printer, we can set the printer we want to print to as the `Master`.
 * Just like the steps in [Start printing from USB flash drive](#start-printing-from-usb-flash-drive), select the printer to start printing.
 
-### Multiple printing
-
+#### Multiple printing
 When a printer in the `sync` state is printing, or multiple printers in other states are printing at the same time, the Panda Touch will display the `Multiple printing` menu as shown below.
 <br> <img src=img/PandaTouch/multi_printing.png width="600"/>
-
 The following group controls exist from this menu:
 
 * ①: Turn ON/OFF the chamber LED of the printer in the current print list.
 * ②: Stop all print jobs in the current print list.
 * ③: Pause/Resume all print jobs in the current print list.
 
-### HMS (Health Management System)
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/hms.png width="600"/>
-
-* Tap the title bar of Panda Touch, and the HMS notification center menu will expand.
-* When a new HMS notification is detected, Panda Touch will automatically expand the HMS notification center.
-* The upper left corner of the title bar will display the number of the printers that have sent HMS notifications.
-* Click on the corresponding HMS notification to pop up the wiki link QR code for troubleshooting this problem.
-* Click `X` to ignore this notification.
-* Click `Ignore All` to ignore all notifications. **Note:** Currently (`V1.0.1`) the Panda Touch will ignore notifications from all printers but the X1C. Since the X1C repeatedly sends notification information at regular intervals, ignored notifications may reappear shortly thereafter.
-
-## Firmware
-
-### Firmware History
-
-#### [V1.0.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/panda_touch-v1.0.1.bin)
-
-* First released factory firmware.
-
 ### Feature requests
 
 If there is something that you would like to see in a coming release of the Panda Touch firmware then please let us know by logging a feature request on the official Panda Touch github repo.
 
 [Request a feature](https://github.com/bigtreetech/PandaTouch/issues)
-
-### Coming soon
-
-The features below are being worked on for the next firmware release:
-
-* Automatic IP address healing when the router changes an IP of the printer.
-* Changes to grouping to allow more than one group and individual printer access without needing to set it to master.
-* Patch to better handle mesh networks with multiple matching SSIDs.
 
 ### How to update firmware
 
@@ -289,6 +367,19 @@ The features below are being worked on for the next firmware release:
 * After the update is completed, the Panda Touch will automatically restart and run the new firmware.
 <br><img src=img/PandaTouch/ota_3.png width="600"/>
 
+### How to update img file 
+* When the img section of the new firmware changes,The ota will ask for updating the img file.
+<br><img src=img/PandaTouch/ota_img_remind.png width="660"/>
+
+* Download the img file to the device being used to perform the update. This can be a computer or a mobile device running an OS such as iOS or Android. Hereafter it will be referred to as the "computer".
+<br><img src=img/PandaTouch/ota_img_download.png width="660"/>
+* Enter the Panda Touch's IP address in the computer's browser to access the web UI, and then click "Update File" button.
+<br><img src=img/PandaTouch/ota_img_1.png width="660"/>
+* Click the "Choose File" button, then select the downloaded img file. The Panda Touch will automatically start updating.
+<br><img src=img/PandaTouch/ota_img_2.png width="660"/>
+* After the update is completed, the Panda Touch will automatically restart and run the new Img.
+<br><img src=img/PandaTouch/ota_img_3.png width="660"/>
+
 ## Finding Your Connection Details
 
 ### P1P & P1S
@@ -299,7 +390,8 @@ The features below are being worked on for the next firmware release:
 <br><img src=img/PandaTouch/p1_2.png width="600"/>
 * Find "Settings->Device" on the screen menu, and click "OK".
 <br><img src=img/PandaTouch/p1_3.png width="600"/>
-* Enter the SN code into the corresponding Panda Touch input boxes. <br><img src=img/PandaTouch/p1_4.png width="600"/>
+* Enter the SN code into the corresponding Panda Touch input boxes. 
+<br><img src=img/PandaTouch/p1_4.png width="600"/>
 
 ## Troubleshooting
 
