@@ -100,11 +100,16 @@ Bambu实验室可能会在未来发布影响Panda Touch可用功能的固件版�
 
 首次启动后或执行“恢复出厂设置”命令后，您将看到下面的屏幕。
 
+#### 语言选择指南
+<img src=img/PandaTouch/language_guide.png width="600"/>
+
+* 为Panda Touch选择一种语言
+
 #### WiFi连接指南
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.png width="600"/>
 
-* 在初始设置过程中，Panda Touch将扫描WiFi网络，然后显示多达20个具有最佳信号强度的网络。如果您在列表中找不到所需的网络，请点击`刷新`，Panda Touch将重新扫描WiFi网络**注意：**当前版本（`V1.0.1`）的固件不支持连接到隐藏的WiFi网络。此外，当Panda Touch连接到WiFi时，Panda Touch无法同时执行WiFi扫描任务。
+* 在初始设置过程中，Panda Touch将扫描WiFi网络，然后显示多达20个具有最佳信号强度的网络。如果您在列表中找不到所需的网络，请点击`刷新`，Panda Touch将重新扫描WiFi网络**注意：**固件版本（`V1.0.3`）的固件不支持连接到隐藏的WiFi网络。此外，当Panda Touch连接到WiFi时，Panda Touch无法同时执行WiFi扫描任务。
 * 点击列表中的WiFi名称，会弹出[键盘界面]（#键盘界面）。输入正确的密码后，单击“确定”开始连接WiFi。（密码长度：8~64个字符）
 * 连接状态将显示在WiFi网络名称旁边。`Spinner`图形表示WiFi仍在尝试连接`✔` 表示连接成功。
 * 连接成功后，将启用`下一步`按钮。单击`下一步`进入打印机连接菜单。
@@ -161,9 +166,119 @@ Bambu实验室可能会在未来发布影响Panda Touch可用功能的固件版�
 * `数字输入`
  <br> <img src=img/PandaTouch/keyboard_number.png width="600"/>
 
+### 耗材控制
+
+Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型和颜色。用户还可以使用此菜单加载和卸载过滤器。
+
+执行任何操作时，请确保选择了正确的AMS装置和灯丝槽。当耗材周围有红色边框时，您就会知道耗材已被选中。如果未选择任何内容，则“加载”和“卸载”按钮将变灰。
+
+<img src=img/PandaTouch/filament_screen.png width="600"/>
+
+### HMS (健康管理系统)
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/hms.png width="600"/>
+
+* 点击Panda Touch的标题栏，HMS通知中心菜单将展开。
+* 当检测到新的HMS通知时，Panda Touch将自动扩展HMS通知中心。
+* 标题栏的左上角将显示已发送HMS通知的打印机的数量。
+* 点击相应的HMS通知，弹出wiki链接二维码，用于解决此问题。
+* 单击`X`可忽略此通知。
+* 单击`全部忽略`可忽略所有通知**注意：** Panda Touch将忽略除X1C以外的所有打印机的通知。由于X1C以规则的间隔重复发送通知信息，因此被忽略的通知可能在此后不久再次出现。
+
+
+## 固件
+
+### 固件历史记录
+
+#### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
+* 支持多组控制打印机.
+* 支持更换熊猫图片.
+* 新增无AMS情况下，默认自动选择外部耗材插槽.
+* 新增打印时进行轴操作，弹出提示.
+* 新增IP地址重连功能，当打印机IP地址发生变化后，PandaTouch后台自动更新打印机的IP.
+* 新增屏幕亮度控制功能.
+* 新增扫描数量开放至20台的功能.
+* 新增重新打印功能，仅支持从PandaTouch发起的打印任务，打印任务期间请确保PandaTouch不断电.
+* 解决打印暂停时无法加载/卸载耗材.
+* 解决德语文件名未正确显示，ä ü ö ß 字符未显示.
+* Wifi断线后，后台重连3次后，同时点击刷新按钮，可自动重新连接Wifi.
+* 解决相同SSID无法连接问题，使用BSSID区分wifi.
+
+**Note：** 更新V1.0.3时需要同时更新两个文件:
+一个是固件，另一个是img文件. 
+这将有助于我们在未来为Panda Touch添加更多的语言，请确保同时下载.bin和.img文件.
+
+## 使用新固件的特性
+#### 分组控制逻辑
+允许您最多新建10个组来控制多台打印机:
+
+#### 如何新建组
+* 在已连接打印机列表点击+，弹出菜单.  
+<br><img src=img/PandaTouch/press_plus.png width="600"/>
+* 选择Add group这个选项.
+<br><img src=img/PandaTouch/press_add_group.png width="600"/>
+* 选择需要添加到组内的打印机.
+<br><img src=img/PandaTouch/group_choose_printer.png width="600"/>
+* 点击Next按钮后输入组名称然后点击OK.
+<br><img src=img/PandaTouch/group_name.png width="600"/>
+* 新建完成后，会在打印机列表中看到组.
+
+#### 切换组/打印机
+* 点击打印机或者组卡片来切换.
+<br><img src=img/PandaTouch/add_group_ok.png width="600"/> 
+
+### 单台打印机打印
+* 在U盘的文件列表中点击文件开始打印.
+* 配置打印参数:
+<br><img src=img/PandaTouch/start_print_one.png width="600"/>
+    * `热床调平`
+    * `流量校准` (`P1P` and `P1S` 没有这个功能, 因此这些打印机不会显示此选项)
+    * `延时摄影`
+    * `使用 AMS` (Panda Touch将自动识别此打印机是否已插入AMS，然后确定是否需要显示此选项)
+  
+* 自动跳转到主界面并显示打印机数据.
+<br><img src=img/PandaTouch/start_print_one_ing.png width="600"/>
+
+### 多台打印控制
+* 在U盘的文件列表中点击文件开始打印.
+* 配置打印参数:
+<br><img src=img/PandaTouch/start_print.png width="600"/>
+    * `热床调平`
+    * `流量校准` (当组中有支持此功能的打印机时，它将被自动选择，并且仅适用于那些支持的打印机)
+    * `延时摄影`
+    * `使用 AMS` (当组中有支持此功能的打印机时，它将被自动选择，并且仅适用于那些支持的打印机)
+
+* 如果组内有打印机正在打印则无法开始新的打印任务.
+<br><img src=img/PandaTouch/udisk_upload.png width="600"/>
+<br><img src=img/PandaTouch/group_printing.png width="600"/>
+
+组控制菜单与版本V1.0.1相同
+
+### 如何更换主页的熊猫图片
+你可以从这个链接下载转换工具 [exchange picture tool](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/)
+* 在操作之前请先升级固件版本到V1.0.3.
+* 该工具仅支持在WINDOWS系统下运行.
+* 请确保你要更换的图片，像素宽度小于280，像素高度小于306，像素位数为32位色，且图片图片格式为PNG.
+#### 操作步骤 
+* 请从上面的链接下载转换工具.
+* 请确保你要更换的图片满足格式要求，将其重命名后替换该文件夹中new_panda.png，Panda Exchange Tool文件夹中已包含一张新的Panda图片，如你无特别需要替换的图片，可直接到跳过此一步.
+* 请点击generate_img.bat进行编译.
+* 请在浏览器中输入Panda Touch的IP访问OTA的web UI.
+* 点击“Update File”，选择上述new_panda.img.
+
+#### **V1.0.2（仅适用中国大陆地区销售的PandaTouch）**
+
+- 增加中文语言包。
+
+备注：自2024年2月8日起，中国大陆地区销售的Panda Touch出厂固件默认为V1.0.2；如您在2024年2月8日前购买Panda Touch，可在对应销售平台联系客服获取V1.0.2固件进行升级，同时可点击查看V1.0.2升级教程视频：[视频请点击](https://www.bilibili.com/video/BV1uJ4m1e7cu/?spm_id_from=333.337.search-card.all.click&vd_source=4d2b504c4ca810a3b6654c51b2ffd5e5)
+
+#### [V1.0.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/panda_touch-v1.0.1.bin)
+
+* 首次发布的工厂固件。
+
 ### 分组逻辑（控制模式）
 
-目前（`V1.0.1`），Panda Touch有4种可设置的控制模式：
+Panda Touch有4种可设置的控制模式：
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/control_mode.png width="600"/>
 
 * `主机`：一台机器，它为自己和可能的其他机器提供指令。
@@ -181,27 +296,20 @@ Bambu实验室可能会在未来发布影响Panda Touch可用功能的固件版�
   * 同时不能有一台或多台`同步`机器。
   * Panda Touch将在后台监视来自“同步”机器的所有`打印错误`和`HMS`消息，如果它们不是关键消息，则将它们发送到通知中心，如果它们是关键消息，将用弹出窗口显示。
   * 您可以使用外部USB驱动器在`同步`打印机上启动打印作业，然后选择从属打印机。
-  * 目前（`V1.0.1`），您无法使用`温度/轴`和`耗材`菜单控制同步打印机。必须将它们临时设置为`主机`才能执行此操作。在未来的固件版本中，分组方案将被调整以使得这是可能的。
+  * 您无法使用`温度/轴`和`耗材`菜单控制同步打印机。必须将它们临时设置为`主机`才能执行此操作。在未来的固件版本中，分组方案将被调整以使得这是可能的。
 * `断开连接`：Panda Touch将在这种状态下关闭与任何打印机的连接，并且不会向其发送任何指示。
 
-### 耗材控制
 
-Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型和颜色。用户还可以使用此菜单加载和卸载过滤器。
-
-执行任何操作时，请确保选择了正确的AMS装置和灯丝槽。当耗材周围有红色边框时，您就会知道耗材已被选中。如果未选择任何内容，则“加载”和“卸载”按钮将变灰。
-
-<img src=img/PandaTouch/filament_screen.png width="600"/>
-
-### 开始打印
+#### 开始打印
 
 #### 从USB闪存驱动器开始打印
 
 * 确保USB闪存驱动器的文件系统**`格式化为FAT32`**。
 * 使用 `.3mf`选项从Bambu Studio或Orca Slicer导出 `.3mf`文件<br> <img src=img/PandaTouch/export_3mf.png width="600"/>
 * 将切片的`.3mf`文件写入USB闪存驱动器的根目录
-  * Panda Touch目前（`V1.0.1`）只支持在Bambu Studio的`Build Plate#1`中切片的文件。
-  * Panda Touch目前（`V1.0.1`）只支持`.3mf`文件，不支持`.gcode`文件。
-  * Panda Touch目前（`V1.0.1`）只支持读取根目录中的文件，不支持读取文件夹中的文件。
+  * Panda Touch 只支持在Bambu Studio的`Build Plate#1`中切片的文件。
+  * Panda Touch 只支持`.3mf`文件，不支持`.gcode`文件。
+  * Panda Touch 只支持读取根目录中的文件，不支持读取文件夹中的文件。
 * 将USB闪存驱动器插入Panda Touch，然后转到“USB闪存驱动器”菜单。<br> <img src=img/PandaTouch/usb_flash_drive.png width="600"/>
 * 在文件列表中找到要打印的文件，单击文件名选择打印机并开始打印<br> <img src=img/PandaTouch/select_printer.png width="600"/>
   * ①: 选择或取消选择此打印机以启动打印作业。
@@ -213,7 +321,7 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
   * ③：选择用于启动任务的打印机列表。
   * ④：开始打印。
     * 请确保切片的`.3mf`文件与所选打印机兼容。
-    * 如果使用AMS，请确保AMS托盘中的耗材与切片`.3mf`文件中的细丝一致，因为当前（`V1.0.1`）无法在打印开始时动态映射耗材。
+    * 如果使用AMS，请确保AMS托盘中的耗材与切片`.3mf`文件中的细丝一致，因为无法在打印开始时动态映射耗材。
 
 * Panda Touch将开始将USB闪存驱动器中的文件上传到打印机MicroSD卡的根目录<br> <img src=img/PandaTouch/uploading.png width="600"/>
   * 1. 请确保打印机中插入了MicroSD卡。
@@ -226,13 +334,13 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 * 转到`主打印机的MicroSD卡`菜单。
 <br> <img src=img/PandaTouch/micro_sd.png width="600"/>
 
-* Panda Touch目前（`V1.0.1`）只支持在Bambu Studio的`Build Plate#1`中切片的文件。
-* Panda Touch目前（`V1.0.1`）只支持`.3mf`文件，不支持`.gcode`文件。
-* Panda Touch目前（`V1.0.1`）只支持读取根目录中的文件，不支持读取文件夹中的文件。
+* Panda Touch 只支持在Bambu Studio的`Build Plate#1`中切片的文件。
+* Panda Touch 只支持`.3mf`文件，不支持`.gcode`文件。
+* Panda Touch 只支持读取根目录中的文件，不支持读取文件夹中的文件。
 * 此菜单中显示的文件列表来自`主机`打印机。如果我们想从另一台打印机打印文件，我们可以将要打印的打印机设置为`主机`。
 * 就像[从USB闪存驱动器开始打印]（#从USB闪存驱动开始打印）中的步骤一样，选择要开始打印的打印机。
 
-### 多重打印
+#### 多重打印
 
 当一台处于`同步`状态的打印机正在打印，或多台处于其他状态的打印机同时打印时，Panda Touch将显示“多重打印”菜单，如下所示
 <br> <img src=img/PandaTouch/multi_printing.png width="600"/>
@@ -243,43 +351,11 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 * ②: 停止当前打印列表中的所有打印作业。
 * ③: 暂停/恢复当前打印列表中的所有打印作业。
 
-### HMS (健康管理系统)
-
-&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/hms.png width="600"/>
-
-* 点击Panda Touch的标题栏，HMS通知中心菜单将展开。
-* 当检测到新的HMS通知时，Panda Touch将自动扩展HMS通知中心。
-* 标题栏的左上角将显示已发送HMS通知的打印机的数量。
-* 点击相应的HMS通知，弹出wiki链接二维码，用于解决此问题。
-* 单击`X`可忽略此通知。
-* 单击`全部忽略`可忽略所有通知**注意：**目前（`V1.0.1`）Panda Touch将忽略除X1C以外的所有打印机的通知。由于X1C以规则的间隔重复发送通知信息，因此被忽略的通知可能在此后不久再次出现。
-
-## 固件
-
-### 固件历史记录
-
-#### [V1.0.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/panda_touch-v1.0.1.bin)
-
-* 首次发布的工厂固件。
-
-#### **V1.0.2（仅适用中国大陆地区销售的PandaTouch）**
-
-- 增加中文语言包。
-
-备注：自2024年2月8日起，中国大陆地区销售的Panda Touch出厂固件默认为V1.0.2；如您在2024年2月8日前购买Panda Touch，可在对应销售平台联系客服获取V1.0.2固件进行升级，同时可点击查看V1.0.2升级教程视频：[视频请点击](https://www.bilibili.com/video/BV1uJ4m1e7cu/?spm_id_from=333.337.search-card.all.click&vd_source=4d2b504c4ca810a3b6654c51b2ffd5e5)
-
 ### 功能请求
 
 如果您希望在即将发布的Panda Touch固件中看到一些内容，请在官方Panda Touch github repo上记录功能请求，让我们知道。
 
 [请求功能](https://github.com/bigtreetech/PandaTouch/issues)
-
-### 即将到来
-
-正在为下一个固件版本开发以下功能：
-
-* 当路由器更改打印机的IP时，自动IP地址修复。
-* 更改分组以允许多个组和单个打印机访问，而无需将其设置为master。
 
 ### 如何更新固件
 
@@ -296,6 +372,20 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 <br><img src=img/PandaTouch/ota_2.png width="600"/>
 * 更新完成后，Panda Touch将自动重新启动并运行新固件。
 <br><img src=img/PandaTouch/ota_3.png width="600"/>
+
+### 如何更新img文件
+* 当新固件的img部分发生更改时，ota将要求更新img文件.
+<br><img src=img/PandaTouch/ota_img_remind.png width="660"/>
+
+* 将img文件下载到用于执行更新的设备。这可以是运行iOS或Android等操作系统的计算机或移动设备。在下文中，它将被称为`计算机`.
+<br><img src=img/PandaTouch/ota_img_download.png width="660"/>
+* 将Panda Touch连接到与电脑位于同一局域网上的WiFi。
+* 在计算机浏览器中输入Panda Touch的IP地址以访问web UI，然后单击“更新文件”按钮
+<br><img src=img/PandaTouch/ota_img_1.png width="660"/>
+* 单击`选择文件`按钮，然后选择下载的img文件。Panda Touch将自动开始更新。
+<br><img src=img/PandaTouch/ota_img_2.png width="660"/>
+* 更新完成后，Panda Touch将自动重新启动并运行新的img文件.
+<br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ## 查找您的连接详细信息
 
