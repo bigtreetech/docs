@@ -24,7 +24,7 @@ TMC Series
 
 EZ Series
 
-Sensors Modules
+Modules
 
 Software Tutorials
 
