@@ -181,6 +181,8 @@ nav:
         - EZ2209.md
         - EZ2240.md
         - EZ31865.md
+    - Sensors :
+      - ADXL345.md
     - 软件教程:
       - Multiple 3D Printers.md
       - Software Configuration.md
