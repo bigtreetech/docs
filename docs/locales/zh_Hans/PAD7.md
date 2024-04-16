@@ -4,7 +4,7 @@
 
 ## **介绍**
 
-BIGTREETECHPad7屏幕是深圳市必趣科技有限公司3D打印团队针对Klipper研发的屏幕，提供预安装Klipper和KlipperScreen的系统。预留BTB座子，客户可以选择使用CM4、CB1或其它类似方案，解决当下CM4昂贵、缺货的问题。
+BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队针对Klipper研发的屏幕，提供预安装Klipper和KlipperScreen的系统。预留BTB座子，客户可以选择使用CM4、CB1或其它类似方案，解决当下CM4昂贵、缺货的问题。
 
 ## 主要特点
 

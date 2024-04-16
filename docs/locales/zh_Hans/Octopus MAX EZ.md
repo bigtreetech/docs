@@ -4,7 +4,7 @@
 
 ## **介绍**
 
-BIGTREETECHOctopusMAXEZ主板是深圳市必趣科技有限公司3D打印团队针对Octopus Pro优化升级的32位打印机主板，采用自主研发的步进电机驱动座子，增强安全性及用户体验，新增一系列OctopusPro不具有的功能，加大DIY可能性。
+BIGTREETECHOctopusMAXEZ主板是必趣创新科技（深圳）有限公司3D打印团队针对Octopus Pro优化升级的32位打印机主板，采用自主研发的步进电机驱动座子，增强安全性及用户体验，新增一系列OctopusPro不具有的功能，加大DIY可能性。
 
 ## **主要特点**
 

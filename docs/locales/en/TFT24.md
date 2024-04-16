@@ -4,7 +4,7 @@
 
 ## **Introduction**
 
-BIGTREETECH TFT24-V1.1 is a small volume ultra-clear 3D printer display board. It can work in two modes. The board is launched by the 3D printing team of Shenzhen BIGTREETechnology co., LTD. This board can replace LCD12864 for use.
+BIGTREETECH TFT24-V1.1 is a small volume ultra-clear 3D printer display board. It can work in two modes. The board is launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.. This board can replace LCD12864 for use.
 
 ## **Main Features**
 

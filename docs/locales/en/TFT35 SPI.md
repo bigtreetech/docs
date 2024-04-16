@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-BIGTREETECH TFT35 SPI V2.1 is a medium-size and clear 3D printer display developed by the 3D printing team of Shenzhen Big Tree Technology Co., Ltd.
+BIGTREETECH TFT35 SPI V2.1 is a medium-size and clear 3D printer display developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
 
 ## **Main Features**
 

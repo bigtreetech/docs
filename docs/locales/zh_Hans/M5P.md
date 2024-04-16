@@ -4,7 +4,7 @@
 
 ## **介绍**
 
-BIGTREETECH MANTA M5P是深圳市必趣科技有限公司3D打印团队为Klipper运行开发的32位主板。它可以使用核心板运行Klipper，这大大消除了主板和树莓派之间的大量布线，也大大节省了机箱空间。BTB头标是在MANTA M5P上设计的，因此客户可以选择使用CM4或其他解决方案，从而解决了Raspberry Pi CM4的疯狂短缺。
+BIGTREETECH MANTA M5P是必趣创新科技（深圳）有限公司3D打印团队为Klipper运行开发的32位主板。它可以使用核心板运行Klipper，这大大消除了主板和树莓派之间的大量布线，也大大节省了机箱空间。BTB头标是在MANTA M5P上设计的，因此客户可以选择使用CM4或其他解决方案，从而解决了Raspberry Pi CM4的疯狂短缺。
 
 ## **主要特点**
 

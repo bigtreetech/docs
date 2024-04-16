@@ -4,7 +4,7 @@
 
 ## **Introduction**
 
-The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherboard that supports up to 8 stepper drivers with 9 stepper driver outputs in total. It is designed and manufactured by the 3D printing team of Shenzhen Bigtree Technology Co.,Ltd
+The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherboard that supports up to 8 stepper drivers with 9 stepper driver outputs in total. It is designed and manufactured by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
 
 ## **Main Features**
 

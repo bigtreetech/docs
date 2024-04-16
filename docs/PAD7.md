@@ -4,7 +4,7 @@
 
 ## **Introduction**
 
-The BIGTREETECH Pad 7, a product of Shenzhen Big Tree Technology Co., Ltd., is a tablet equipped with pre-installed Klipper and KlipperScreen. The BTB headers have been engineered to provide users with the flexibility to select from various solutions, including CM4, CB1, and more.
+The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd., is a tablet equipped with pre-installed Klipper and KlipperScreen. The BTB headers have been engineered to provide users with the flexibility to select from various solutions, including CM4, CB1, and more.
 
 ## **Main Features**
 
