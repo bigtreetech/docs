@@ -24,6 +24,8 @@ TMC Series
 
 EZ Series
 
+Sensors Modules
+
 Software Tutorials
 
 BIQU
