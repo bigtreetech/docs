@@ -843,15 +843,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
+  <a href="#product-profile" class="md-nav__link">
+    Product Profile
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#main-features" class="md-nav__link">
-    Main Features
+  <a href="#features-highlights" class="md-nav__link">
+    Features Highlights
   </a>
   
 </li>
@@ -1337,8 +1337,8 @@
   
   
     <li class="md-nav__item">
-      <a href="HDMI7 V1.0.md" class="md-nav__link">
-        None
+      <a href="HDMI7%20V1.0.html" class="md-nav__link">
+        HDMI7 V1.0
       </a>
     </li>
   
@@ -2657,15 +2657,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
+  <a href="#product-profile" class="md-nav__link">
+    Product Profile
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#main-features" class="md-nav__link">
-    Main Features
+  <a href="#features-highlights" class="md-nav__link">
+    Features Highlights
   </a>
   
 </li>
@@ -2789,9 +2789,9 @@
   <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Title.png width="550"/>  
 </figure>
 
-<h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH EBB42 CAN V1.0/V1.1 is a nozzle adapter board specially designed for the 42 extruder stepper motor, which is launched by the 3D printing team Shenzhen BIQU Innovation Technology Co., Ltd.. It can communicate via USB port, or CAN BUS, greatly simplifying wirings.</p>
-<h2 id="main-features"><strong>Main Features</strong><a class="headerlink" href="#main-features" title="Permanent link">&para;</a></h2>
+<h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>With BOOT and RESET buttons reserved, users can update the firmware via DFU mode by USB.</li>
 <li>Added protection circuit on the thermistor avoids burning the main control chip caused by leakage current from the heating rod.</li>
@@ -2806,25 +2806,77 @@
 <li>The adaptor board is equipped with terminals, female reeds, double-way studs and screws, which are required accessories for DIY, greatly meeting the DIY needs of customers.</li>
 </ul>
 <h2 id="basic-parameters"><strong>Basic Parameters</strong><a class="headerlink" href="#basic-parameters" title="Permanent link">&para;</a></h2>
-<ul>
-<li>External Dimensions: 40mm x 40mm. For further details please read: <strong>Dimensions</strong></li>
-<li>Installation Dimensions: Hole spacing 31mm x 31mm, M3 screw hole x 4</li>
-<li>Microprocessor: ARM Cortex-M0 STM32F072C8T6 48MHz</li>
-<li>Input Voltage: DC12V-DC24V 9A</li>
-<li>Logic Voltage: DC 3.3V</li>
-<li>Heating Interface: Heating Rod (E0), maximum output current: 5A</li>
-<li>Onboard Sensor: ADXL345</li>
-<li>Fan Interfaces: Two CNC Fans (FAN0, FAN1)</li>
-<li>Maximum Output Current of Fan Interface: 1A, peak value 1.5A</li>
-<li>Expansion Interfaces: EndStop, I2C, Probe, RGB, PT100/PT1000, USB Interface, CAN Interface</li>
-<li>Motor Drive: Onboard TMC2209</li>
-<li>Driver Working Mode: UART</li>
-<li>Stepper Motor Interface: EM</li>
-<li>Temperature Sensor Interface(Optional): 1 channel 100K NTC or PT1000 (TH0),1 channel PT100/PT1000</li>
-<li>USB Communication Interface: USB-Type-C</li>
-<li>DCDC 5V Maximum Output Current: 1A</li>
-</ul>
-<p><font  color="red"><strong><em>Note: BTT EEB42 CAN V1.0/V1.1 only supports Klipper at the present.</em></strong></font></p>
+<table>
+<thead>
+<tr>
+<th>External Dimensions</th>
+<th>40mm x 40mm. For further details please read: Dimensions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Installation Dimensions</td>
+<td>Hole spacing 31mm x 31mm, M3 screw hole x 4</td>
+</tr>
+<tr>
+<td>Microprocessor</td>
+<td>ARM Cortex-M0 STM32F072C8T6 48MHz</td>
+</tr>
+<tr>
+<td>Input Voltage</td>
+<td>DC12V-DC24V 9A</td>
+</tr>
+<tr>
+<td>Logic Voltage</td>
+<td>DC 3.3V</td>
+</tr>
+<tr>
+<td>Heating Interface</td>
+<td>Heating Rod (E0), maximum output current: 5A</td>
+</tr>
+<tr>
+<td>Onboard Sensor</td>
+<td>ADXL345</td>
+</tr>
+<tr>
+<td>Fan Interfaces</td>
+<td>Two CNC Fans (FAN0, FAN1)</td>
+</tr>
+<tr>
+<td>Maximum Output Current of Fan Interface</td>
+<td>1A, peak value 1.5A</td>
+</tr>
+<tr>
+<td>Expansion Interfaces</td>
+<td>EndStop, I2C, Probe, RGB, PT100/PT1000, USB Interface, CAN Interface</td>
+</tr>
+<tr>
+<td>Motor Drive</td>
+<td>Onboard TMC2209</td>
+</tr>
+<tr>
+<td>Driver Working Mode</td>
+<td>UART</td>
+</tr>
+<tr>
+<td>Stepper Motor Interface</td>
+<td>EM</td>
+</tr>
+<tr>
+<td>Temperature Sensor Interface(Optional)</td>
+<td>1 channel 100K NTC or PT1000 (TH0),1 channel PT100/PT1000</td>
+</tr>
+<tr>
+<td>USB Communication Interface</td>
+<td>USB-Type-C</td>
+</tr>
+<tr>
+<td>DCDC 5V Maximum Output Current</td>
+<td>1A</td>
+</tr>
+</tbody>
+</table>
+<p><font  color="red"><strong>Note: BTT EEB42 CAN V1.0/V1.1 only supports Klipper at the present.</strong></font></p>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
 <p>Version:V1.0</p>
 <p><img src=img/EBB42CAN/072/EBB42_072_Diagram.png width="600"/>  </p>

@@ -2505,22 +2505,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
+  <a href="#product-profile" class="md-nav__link">
+    Product Profile
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#main-features" class="md-nav__link">
-    Main Features
+  <a href="#features-highlights" class="md-nav__link">
+    Features Highlights
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#basic-parameters" class="md-nav__link">
-    Basic Parameters
+  <a href="#specifications" class="md-nav__link">
+    Specifications
   </a>
   
 </li>
@@ -2637,9 +2637,9 @@
   <img src=img/EBB36CAN/G0B1/EBB_G0B1_Title.png width="550"/>  
 </figure>
 
-<h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH EBB36 CAN V1.0/V1.1 is a nozzle adapter board specially designed for the 36 extruder stepper motor, which is launched by the 3D printing team Shenzhen BIQU Innovation Technology Co., Ltd.. It can communicate via USB port, or CAN BUS, greatly simplifying wirings.</p>
-<h2 id="main-features"><strong>Main Features</strong><a class="headerlink" href="#main-features" title="Permanent link">&para;</a></h2>
+<h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>With BOOT and RESET buttons reserved, users can update the firmware via DFU mode by USB.</li>
 <li>Added protection circuit on the thermistor avoids burning the main control chip caused by leakage current from the heating rod.</li>
@@ -2652,29 +2652,85 @@
 <li>Supports communication via CAN or USB. The terminal resistor 120R of CAN can be selected through the jumper cap, and it reserves CAN expansion 
   interfaces.</li>
 <li>Equipped ESD protection chip on the USB port prevents the main control board from being broken down by the static electricity of the USB port.</li>
-<li>The adaptor board is equipped with terminals, female reeds, double-way studs and screws, which are required for DIY, greatly meeting the DIY needs of customers.</li>
+<li>The adaptor board is equipped with terminals, female reeds, double-way studs and screws, which are required for DIY, greatly meeting the DIY needs 
+  of customers.</li>
 </ul>
-<h2 id="basic-parameters"><strong>Basic Parameters</strong><a class="headerlink" href="#basic-parameters" title="Permanent link">&para;</a></h2>
-<ul>
-<li>External Dimensions: 51.5mm x 37mm. For further details please read: <strong>Dimensions</strong></li>
-<li>Installation Dimensions: hole spacing 43.85mm, M3 screw hole x 2</li>
-<li>Microprocessor: ARM Cortex-M0 STM32F072C8T6 48MHz (V1.0)</li>
-<li>Microprocessor: ARM Cortex-M0+ STM32G0B1CBT6 64MHz (V1.1)</li>
-<li>Input Voltage: DC12V-DC24V 6A</li>
-<li>Logic Voltage: DC 3.3V</li>
-<li>Heating Interface: Heating rod (E0), maximum output current: 5A</li>
-<li>Onboard Sensor: ADXL345</li>
-<li>Fan Interfaces: two CNC fans (FAN0, FAN1)</li>
-<li>Maximum Output Current of Fan Interface: 1A, Peak Value 1.5A</li>
-<li>Expansion Interfaces: EndStop, I2C, Probe, RGB, PT100/PT1000, USB interface, CAN Interface</li>
-<li>Motor Drive: Onboard TMC2209</li>
-<li>Driver Working Mode: UART</li>
-<li>Stepper Motor Interface: EM</li>
-<li>Temperature Sensor Interface Optional: 1 Channel 100K NTC or PT1000(TH0), 1 Channel PT100/PT1000</li>
-<li>USB Communication Interface: USB-Type-C</li>
-<li>DC 5V Maximum Output Current: 1A</li>
-</ul>
-<p><font  color="red"><strong><em>Note: BTT EEB36 CAN V1.0/V1.1 only supports Klipper at the present.</em></strong></font></p>
+<h2 id="specifications"><strong>Specifications</strong><a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>External Dimensions</strong></th>
+<th><strong>51.5mm x 37mm. For further details please read: Dimensions</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Installation Dimensions</strong></td>
+<td><strong>hole spacing 43.85mm, M3 screw hole x 2</strong></td>
+</tr>
+<tr>
+<td><strong>Microprocessor</strong></td>
+<td><strong>ARM Cortex-M0 STM32F072C8T6 48MHz (V1.0)</strong></td>
+</tr>
+<tr>
+<td><strong>Microprocessor</strong></td>
+<td><strong>ARM Cortex-M0+ STM32G0B1CBT6 64MHz (V1.1)</strong></td>
+</tr>
+<tr>
+<td><strong>Input Voltage</strong></td>
+<td><strong>DC12V-DC24V 6A</strong></td>
+</tr>
+<tr>
+<td><strong>Logic Voltage</strong></td>
+<td><strong>DC 3.3V</strong></td>
+</tr>
+<tr>
+<td><strong>Heating Interface</strong></td>
+<td><strong>Heating rod (E0), maximum output current: 5A</strong></td>
+</tr>
+<tr>
+<td><strong>Onboard Sensor</strong></td>
+<td><strong>ADXL345</strong></td>
+</tr>
+<tr>
+<td><strong>Fan Interfaces</strong></td>
+<td><strong>two CNC fans (FAN0, FAN1)</strong></td>
+</tr>
+<tr>
+<td><strong>Maximum Output Current of Fan Interface</strong></td>
+<td><strong>1A, Peak Value 1.5A</strong></td>
+</tr>
+<tr>
+<td><strong>Expansion Interfaces</strong></td>
+<td><strong>EndStop, I2C, Probe, RGB, PT100/PT1000, USB interface, CAN Interface</strong></td>
+</tr>
+<tr>
+<td><strong>Motor Drive</strong></td>
+<td><strong>Onboard TMC2209</strong></td>
+</tr>
+<tr>
+<td><strong>Driver Working Mode</strong></td>
+<td><strong>UART</strong></td>
+</tr>
+<tr>
+<td><strong>Stepper Motor Interface</strong></td>
+<td><strong>EM</strong></td>
+</tr>
+<tr>
+<td><strong>Temperature Sensor Interface Optional</strong></td>
+<td><strong>1 Channel 100K NTC or PT1000(TH0), 1 Channel PT100/PT1000</strong></td>
+</tr>
+<tr>
+<td><strong>USB Communication Interface</strong></td>
+<td><strong>USB-Type-C</strong></td>
+</tr>
+<tr>
+<td><strong>DC 5V Maximum Output Current</strong></td>
+<td><strong>1A</strong></td>
+</tr>
+</tbody>
+</table>
+<p><font  color="red"><strong>Note: BTT EEB36 CAN V1.0/V1.1 only supports Klipper at the present.</strong></font></p>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
 <p>Version:V1.0</p>
 <p><img src=img/EBB36CAN/072/EBB_072_Diagram.png width="600"/>  </p>
