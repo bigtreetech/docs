@@ -6,7 +6,7 @@
 
 BIGTREETECH TFT35-E3 V3.0 is a medium size, dual-mode,ultra-clear 3D printing machine display launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd., which can perfectly replace the original LCD screen of Ender3 printer.
 
-## **Main Features**
+## **Features Highlights**
 
 - ARM Cortex-M3 series STM32F207VCT6 chip with 32-bit CPU 120MHz;
 - Upgrade the firmware by SD card. It is easy and convenient to operate.
@@ -19,13 +19,14 @@ BIGTREETECH TFT35-E3 V3.0 is a medium size, dual-mode,ultra-clear 3D printing ma
 - TFT touch screen mode：serial port screen RS232 port；
 - 2 sets of UART serial port extension ports are reserved for DIY use.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Appearance size：93*87mm
-- Installation size：Perfectly replace the original LCD screen of Ender3 printer，detail information please check TFT35-E3 V3.0 SIZE
-- Microprocessor：STM32F207VCT6
-- Power Input：DC 5V
-- SD card logic voltage：3.3V and 5V（Such as: support MEGA2560 main control chip motherboard, higher compatibility)
+| **Appearance size**       | **93*87mm**                                                  |
+| ------------------------- | ------------------------------------------------------------ |
+| **Installation size**     | **Perfectly replace the original LCD screen of Ender3 printer，detail information please check TFT35-E3 V3.0 SIZE** |
+| **Microprocessor**        | **STM32F207VCT6**                                            |
+| **Power Input**           | **DC 5V**                                                    |
+| **SD card logic voltage** | **3.3V and 5V（Such as: support MEGA2560 main control chip motherboard, higher compatibility)** |
 
 <font  color="red">***NOTE: After the board is powered on：***</font>
 

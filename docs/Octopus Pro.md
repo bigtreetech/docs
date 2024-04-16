@@ -2,11 +2,11 @@
 
 <img src=img/Octopus_Pro/Octopus_Pro_Title.png width="600"/>
 
-## **Introduction**
+## **Product Profile**
 
 The BIGTREETECH Octopus-pro V1.0 is a powerful and feature rich, 3D printer motherboard that supports up to 8 60V stepper drivers with 9 stepper driver outputs in total. It is designed and manufactured by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
 
-## **Main Features**
+## **Features Highlights**
 
 - Uses a 32-bit ARM Cortex-M4 series. Option A comes with an STM32F446ZET6 main control chip with a core frequency of 180MHz and a flash capacity of 512kB.Option B comes with an STM32F429ZGT6 with a core frequency of 168MHz and a flash capacity of 1MB. For Klipper use, option A is likely sufficient.
 - Supports running Klipper, Marlin and RRF.
@@ -45,22 +45,23 @@ The BIGTREETECH Octopus-pro V1.0 is a powerful and feature rich, 3D printer moth
 - Provides an I2C expansion port for peripherals that communicate using that protocol.
 - Includes a short circuit warning buzzer which will provide an audible alert when the current load on the 5V rail is exceeding what the regulator is able to produce.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Edge to edge size: 160*100mm
-- Mounting hole to hole size: 150*90mm
-- Microprocessor: ARM 32-bit Cortex™-M4 CPU: STM32F446ZET6 OR STM32F429ZGT6
-- Recommended motherboard input voltage: DC15V – 28V
-- Motor input voltage range: DC12-60V
-- Bed input voltage range: DC12-28V
-- Motor drivers: Pluggable drivers supporting all popular driver types.
-- Motor driver sockets: MOTOR0, MOTOR1, MOTOR2_1, MOTOR2_2, MOTOR3, MOTOR4, MOTOR5, MOTOR6, MOTOR7
-- Temperature sensor interfaces: TB, T0, T1, T2, T3.
-- Display interfaces: BIGTREETECH TFT touch screen, LCD12864, LCD2004, etc.
-- PC communication interfaces: USB Type-C with configurable BAUD.
-- Expansion interfaces: Filament runout, power loss detection, automatic power down, BL Touch and many others.
-- Supported print file format: G-code or whatever the firmware under use supports.
-- Recommended slicing/interface software: Cura, IdeaMaker, Simplify3D, Prusa Slicer, Pronterface, Repetier-host, Makerware, etc…
+| **Edge to edge size**                      | **160*100mm**                                                |
+| ------------------------------------------ | ------------------------------------------------------------ |
+| **Mounting hole to hole size**             | **150*90mm**                                                 |
+| **Microprocessor**                         | **ARM 32-bit Cortex™-M4 CPU: STM32F446ZET6 OR STM32F429ZGT6** |
+| **Recommended motherboard input voltage**  | **DC15V – 28V**                                              |
+| **Motor input voltage range**              | **DC12-60V**                                                 |
+| **Bed input voltage range**                | **DC12-28V**                                                 |
+| **Motor drivers**                          | **Pluggable drivers supporting all popular driver types.**   |
+| **Motor driver sockets**                   | **MOTOR0, MOTOR1, MOTOR2_1, MOTOR2_2, MOTOR3, MOTOR4, MOTOR5, MOTOR6, MOTOR7** |
+| **Temperature sensor interfaces**          | **TB, T0, T1, T2, T3.**                                      |
+| **Display interfaces**                     | **BIGTREETECH TFT touch screen, LCD12864, LCD2004, etc.**    |
+| **PC communication interfaces**            | **USB Type-C with configurable BAUD**                        |
+| **Expansion interfaces**                   | **Filament runout, power loss detection, automatic power down, BL Touch and many others** |
+| **Supported print file format**            | **G-code or whatever the firmware under use supports**       |
+| **Recommended slicing/interface software** | **Cura, IdeaMaker, Simplify3D, Prusa Slicer, Pronterface, Repetier-host, Makerware, etc…** |
 
 ## **Dimensions**
 

@@ -5,11 +5,11 @@
   <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Title.png width="550"/>  
 </figure> 
 
-## **Introduction**
+## **Product Profile**
 
 BIGTREETECH EBB42 CAN V1.0/V1.1 is a nozzle adapter board specially designed for the 42 extruder stepper motor, which is launched by the 3D printing team Shenzhen BIQU Innovation Technology Co., Ltd.. It can communicate via USB port, or CAN BUS, greatly simplifying wirings.
 
-## **Main Features**
+## **Features Highlights**
 
 - With BOOT and RESET buttons reserved, users can update the firmware via DFU mode by USB.
 - Added protection circuit on the thermistor avoids burning the main control chip caused by leakage current from the heating rod.
@@ -25,24 +25,25 @@ BIGTREETECH EBB42 CAN V1.0/V1.1 is a nozzle adapter board specially designed for
 
 ## **Basic Parameters**
 
-- External Dimensions: 40mm x 40mm. For further details please read: **Dimensions**
-- Installation Dimensions: Hole spacing 31mm x 31mm, M3 screw hole x 4
-- Microprocessor: ARM Cortex-M0 STM32F072C8T6 48MHz
-- Input Voltage: DC12V-DC24V 9A
-- Logic Voltage: DC 3.3V
-- Heating Interface: Heating Rod (E0), maximum output current: 5A
-- Onboard Sensor: ADXL345
-- Fan Interfaces: Two CNC Fans (FAN0, FAN1)
-- Maximum Output Current of Fan Interface: 1A, peak value 1.5A
-- Expansion Interfaces: EndStop, I2C, Probe, RGB, PT100/PT1000, USB Interface, CAN Interface
-- Motor Drive: Onboard TMC2209
-- Driver Working Mode: UART
-- Stepper Motor Interface: EM
-- Temperature Sensor Interface(Optional): 1 channel 100K NTC or PT1000 (TH0),1 channel PT100/PT1000
-- USB Communication Interface: USB-Type-C
-- DCDC 5V Maximum Output Current: 1A
+| External Dimensions                     | 40mm x 40mm. For further details please read: Dimensions     |
+| --------------------------------------- | ------------------------------------------------------------ |
+| Installation Dimensions                 | Hole spacing 31mm x 31mm, M3 screw hole x 4                  |
+| Microprocessor                          | ARM Cortex-M0 STM32F072C8T6 48MHz                            |
+| Input Voltage                           | DC12V-DC24V 9A                                               |
+| Logic Voltage                           | DC 3.3V                                                      |
+| Heating Interface                       | Heating Rod (E0), maximum output current: 5A                 |
+| Onboard Sensor                          | ADXL345                                                      |
+| Fan Interfaces                          | Two CNC Fans (FAN0, FAN1)                                    |
+| Maximum Output Current of Fan Interface | 1A, peak value 1.5A                                          |
+| Expansion Interfaces                    | EndStop, I2C, Probe, RGB, PT100/PT1000, USB Interface, CAN Interface |
+| Motor Drive                             | Onboard TMC2209                                              |
+| Driver Working Mode                     | UART                                                         |
+| Stepper Motor Interface                 | EM                                                           |
+| Temperature Sensor Interface(Optional)  | 1 channel 100K NTC or PT1000 (TH0),1 channel PT100/PT1000    |
+| USB Communication Interface             | USB-Type-C                                                   |
+| DCDC 5V Maximum Output Current          | 1A                                                           |
 
-<font  color="red">***Note: BTT EEB42 CAN V1.0/V1.1 only supports Klipper at the present.***</font>
+<font  color="red">**Note: BTT EEB42 CAN V1.0/V1.1 only supports Klipper at the present.**</font>
 
 ## **Dimensions**
 

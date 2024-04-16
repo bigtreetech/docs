@@ -2,11 +2,11 @@
 
 <img src=img/TFT35_V3.0/TFT35_V3.0_Title.png width="600" />
 
-## **Introduction**
+## **Product Profile**
 
 TFT35 V3.0 is a medium size, dual-mode, ultra-clear 3D printer display. It is an excellent replacement for the standard 12864 LCD displays.
 
-## **Main Features**
+## **Features Highlights**
 
 - ARM Cortex-M3 series STM32F207VCT6 chip with 32-bit CPU 120 MHz.
 - Users can select two work modes, they are UART serial port screen mode and 12864 screen mode.
@@ -19,12 +19,13 @@ TFT35 V3.0 is a medium size, dual-mode, ultra-clear 3D printer display. It is an
 - TFT touch screen mode uses serial port screen RS232 port.
 - Two sets of UART serial port extension ports are reserved for DIY use.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Size: 110x58mm
-- Input voltage: 5V DC
-- Installation size:103.76 * 49.43 mm
-- SD card logic voltage: 3.3V or 5V, supports MEGA2560 motherboard, with higher compatibility
+| **Size**                  | **110x58mm**                                                 |
+| ------------------------- | ------------------------------------------------------------ |
+| **Input voltage**         | **5V DC**                                                    |
+| **Installation size**     | **103.76 * 49.43 mm**                                        |
+| **SD card logic voltage** | **3.3V or 5V, supports MEGA2560 motherboard, with higher compatibility** |
 
 <font  color="red">***Notes：***</font>
 

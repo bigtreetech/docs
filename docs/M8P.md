@@ -2,11 +2,11 @@
 
 [<img src=img/M8P/M8P_Title.png width="600" />](https://bigtreetech.github.io/docs/M8P.html)
 
-## **Introduction**
+## **Product Profile**
 
 <p>BIGTREETECH MANTA M8P is a 32-bit printer motherboard developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for Klipper firmware. You can simply plug in the core board to run the Klipper firmware, which greatly simplifies the connection between the motherboard and the Raspberry Pi, and saves a lot of space. Moreover, the BTB connector is designed to install CM4 or other solutions to solve the current expensive problem of CM4.</p>
 
-## <p>BIGTREETECH HDMI7 V1.2 is a universal 7-inch HDMI display screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..</p>
+## **Features Highlights**
 
 - Adopt 32-bit 64MHz ARM Cortex-M0+ series STM32G0B1VET6 as the main control chip;
 - The power chip, TPS5450-5A, supports DC12/24V power input. The output current of the chip is up to 5A, and the peak value can reach 6A, which perfectly supports the power supply of Raspberry Pi; 
@@ -24,30 +24,31 @@
 - The proximity switch interface is reserved, supports NPN and PNP types, (24V, 12V, 5V) voltage selection is available, common voltage selection with VFAN6;
 - Provide the SPI expansion interface to allow Klipper firmware users to connect an external acceleration sensor for acceleration compensation.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Product Size: 170 x 102.7mm.  For further details please read: **Dimensions**
-- Microprocessor: ARM Cortex-M0+ STM32G0B1VET6 64MHz
-- Drive Input Voltage: VIN（12V/24V） Or HV(≤56V) 
-- Motherboard Input Voltage: VIN=DC12V or DC24V
-- Heated Bed Input Voltage: BED IN=DC12V or DC24V
-- Logic Voltage: DC3.3V
-- Heating Port: Heated Bed(HB), Heater Cartridge(HE0, HE1, HE2, HE3)
-- The maximum output current of the heated bed port: 10A, Peak Value: 12A
-- The maximum output current of the heater cartridge port: 5.5A, Peak Value: 6A
-- Fan Port: Two-wire CNC Fan (FAN0, FAN1, FAN2, FAN3), four-wire CNC Fan fan (FAN4, FAN5, FAN6), Always-on Fan (24V FAN x 2), among which the CNC Fan voltages are 5V, 12V, 24V optional
-- The maximum output current of the fan port: 1A, Peak Value: 1.5A
-- Total current for heater cartridge + driver + fan: ＜12A
-- Extended Interface: BLTouch(Servos, Probe), PS-ON, Fil-DET, RGBx2, SPI
-- Motor Driver: Support TMC5160, TMC2209, TMC2225, TMC2226, TMC2208, TMC2130, ST820, LV8729, DRV8825, A4988...
-- Driver Working Mode Support: SPI, UART, STEP/DIR
-- Motor Drive Interface: Motor1, Motor2, Motor3(dual motor interface), Motor4, Motor5, Motor6, Motor7, Motor8, a total of Eight
-- Temperature Sensor Interface: 5-way 100K NTC, of which 4-way 100K NTC and PT1000 are optional
-- Support Screen: SPI Touch Screen, LCD Screen
-- PC Communication Interface: Type-C
-- Functional Interface: USB 2.0 x 3, LAN, DSI, CSI, SPI, 40Pin-GPIO, HDMI0 and HDMI1, SOC-Card, MCU-Card
-- Support Machine Structure: Cartesian, Delta, Kossel, Ultimaker, CoreXY
-- Recommended Software: Cura, Simplify3D, Pronterface, Repetier-host, Makerware
+| Product Size                                            | 170 x 102.7mm.  For further details please read: Dimensions  |
+| ------------------------------------------------------- | ------------------------------------------------------------ |
+| Microprocessor                                          | ARM Cortex-M0+ STM32G0B1VET6 64MHz                           |
+| Drive Input Voltage                                     | VIN（12V/24V） Or HV(≤56V)                                   |
+| Motherboard Input Voltage                               | VIN=DC12V or DC24V                                           |
+| Heated Bed Input Voltage                                | BED IN=DC12V or DC24V                                        |
+| Logic Voltage                                           | DC3.3V                                                       |
+| Heating Port                                            | Heated Bed(HB), Heater Cartridge(HE0, HE1, HE2, HE3)         |
+| The maximum output current of the heated bed port       | 10A, Peak Value: 12A                                         |
+| The maximum output current of the heater cartridge port | 5.5A, Peak Value: 6A                                         |
+| Fan Port                                                | Two-wire CNC Fan (FAN0, FAN1, FAN2, FAN3), four-wire CNC Fan fan (FAN4, FAN5, FAN6), Always-on Fan (24V FAN x 2), among which the CNC Fan voltages are 5V, 12V, 24V optional |
+| The maximum output current of the fan port              | 1A, Peak Value: 1.5A                                         |
+| Total current for heater cartridge + driver + fan       | ＜12A                                                        |
+| Extended Interface                                      | BLTouch(Servos, Probe), PS-ON, Fil-DET, RGBx2, SPI           |
+| Motor Driver                                            | Support TMC5160, TMC2209, TMC2225, TMC2226, TMC2208, TMC2130, ST820, LV8729, DRV8825, A4988... |
+| Driver Working Mode Support                             | SPI, UART, STEP/DIR                                          |
+| Motor Drive Interface                                   | Motor1, Motor2, Motor3(dual motor interface), Motor4, Motor5, Motor6, Motor7, Motor8, a total of Eight |
+| Temperature Sensor Interface                            | 5-way 100K NTC, of which 4-way 100K NTC and PT1000 are optional |
+| Support Screen                                          | SPI Touch Screen, LCD Screen                                 |
+| PC Communication Interface                              | Type-C                                                       |
+| Functional Interface                                    | USB 2.0 x 3, LAN, DSI, CSI, SPI, 40Pin-GPIO, HDMI0 and HDMI1, SOC-Card, MCU-Card |
+| Support Machine Structure                               | Cartesian, Delta, Kossel, Ultimaker, CoreXY                  |
+| Recommended Software                                    | Cura, Simplify3D, Pronterface, Repetier-host, Makerware      |
 
 ## **Dimensions**
 

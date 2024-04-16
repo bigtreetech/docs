@@ -2,11 +2,11 @@
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Title.png width="600"/>
 
-## **Introduction**
+## **Product Profile**
 
-BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octopus Pro developed by the 3D printing team of Shenzhen Big Tree Technology Co., Ltd. Its self-developed stepper motor sockets enhance safety and user experience, and it adds a series of features that Octopus Pro does not have, greatly enhancing its DIY capabilities.
+BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octopus Pro developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.. Its self-developed stepper motor sockets enhance safety and user experience, and it adds a series of features that Octopus Pro does not have, greatly enhancing its DIY capabilities.
 
-## **Main Features**
+## **Features Highlights**
 
 - 32 bit 550 MHz ARM Cortex-M7 series STM32H723ZET6 MCU.
 
@@ -32,33 +32,32 @@ BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octo
 
 - Onboard SPI interface for connecting acceleration sensor to enable Klipper's input shaping.
 
-  
 
-## **Basic Parameters**
+## **Specifications**
 
-| Dimensions                                             | 160mm x 100mm for details please refer to **BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf** |
-| :----------------------------------------------------- | ------------------------------------------------------------ |
-| **Mounting Size**                                      | Please refer to **BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf** |
-| MCU                                                    | ARM Cortex-M7 STM32H723ZET6 550MHz                           |
-| Driver Input Voltage                                   | 24V, HV(≤56V) Selectable                                     |
-| Motherboard Input Voltage                              | VIN=DC12V or DC24V                                           |
-| Heated Bed Input Voltage                               | BED IN=DC12V or DC24V                                        |
-| Logic Voltage                                          | DC 3.3V                                                      |
-| Heater Connection                                      | Heated Bed (HB), Heater Cartridge (HE0, HE1, HE2, HE3)       |
-| HB Port Max Current                                    | 10A Continuous, 12A Instantaneous                            |
-| Heater Cartridge Max Current                           | 5.5A Continuous, 6A Instantaneous                            |
-| Fan Port                                               | 2 pins CNC Fan (FAN0, FAN1, FAN2, FAN3), 4 pins CNC Fan (FAN4, FAN5, FAN6), Always On (24V FAN x 2).CNC Fan and MFAN Voltage Selectable (5/12/24V) |
-| Fan Port Max Current                                   | 1A Continuous, 1.5A Instantaneous                            |
-| Overall Max Current (Heater Cartridge+Driver+All Fans) | ＜12A                                                        |
-| Expansion Port                                         | BLTouch (Servos, Probe), PS-ON, FWS, PWRDET, RGBx2, SPI,IND-Probe, CAN, WIFI, TFT |
-| Motor Driver                                           | Support EZ5160, EZ2209, EZ2225, EZ2226, EZ2208, EZ2130...    |
-| Driver Mode                                            | SPI, UART                                                    |
-| Motor Socket                                           | Motor1, Motor2, Motor3 (Dual Motor Sockets), Motor4, Motor5,Motor6, Motor7, Motor8, Motor9, Motor10 10 Channels in Total |
-| Thermistor                                             | 5 x 100K NTC, four of which are selectable for NTC and PT1000 |
-| Display                                                | MINI12864 (FPC Connection), TFT Serial                       |
-| PC Connection                                          | Type-C                                                       |
-| Supported Kinematics                                   | Cartesian, Delta, Kossel, Ultimaker, CoreXY                  |
-| Recommended Slicer/Console                             | Cura, Simplify3D, Pronterface, Repetier-host, Makerware      |
+| **Dimensions**                                             | **160mm x 100mm for details please refer to BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf** |
+| :--------------------------------------------------------- | ------------------------------------------------------------ |
+| **Mounting Size**                                          | **Please refer to BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf** |
+| **MCU**                                                    | **ARM Cortex-M7 STM32H723ZET6 550MHz**                       |
+| **Driver Input Voltage**                                   | **24V, HV(≤56V) Selectable**                                 |
+| **Motherboard Input Voltage**                              | **VIN=DC12V or DC24V**                                       |
+| **Heated Bed Input Voltage**                               | **BED IN=DC12V or DC24V**                                    |
+| **Logic Voltage**                                          | **DC 3.3V**                                                  |
+| **Heater Connection**                                      | **Heated Bed (HB), Heater Cartridge (HE0, HE1, HE2, HE3)**   |
+| **HB Port Max Current**                                    | **10A Continuous, 12A Instantaneous**                        |
+| **Heater Cartridge Max Current**                           | **5.5A Continuous, 6A Instantaneous**                        |
+| **Fan Port**                                               | **2 pins CNC Fan (FAN0, FAN1, FAN2, FAN3), 4 pins CNC Fan (FAN4, FAN5, FAN6), Always On (24V FAN x 2).CNC Fan and MFAN Voltage Selectable (5/12/24V)** |
+| **Fan Port Max Current**                                   | **1A Continuous, 1.5A Instantaneous**                        |
+| **Overall Max Current (Heater Cartridge+Driver+All Fans)** | **＜12A**                                                    |
+| **Expansion Port**                                         | **BLTouch (Servos, Probe), PS-ON, FWS, PWRDET, RGBx2, SPI,IND-Probe, CAN, WIFI, TFT** |
+| **Motor Driver**                                           | **Support EZ5160, EZ2209, EZ2225, EZ2226, EZ2208, EZ2130...** |
+| **Driver Mode**                                            | **SPI, UART**                                                |
+| **Motor Socket**                                           | **Motor1, Motor2, Motor3 (Dual Motor Sockets), Motor4, Motor5,Motor6, Motor7, Motor8, Motor9, Motor10 10 Channels in Total** |
+| **Thermistor**                                             | **5 x 100K NTC, four of which are selectable for NTC and PT1000** |
+| **Display**                                                | **MINI12864 (FPC Connection), TFT Serial**                   |
+| **PC Connection**                                          | **Type-C**                                                   |
+| **Supported Kinematics**                                   | **Cartesian, Delta, Kossel, Ultimaker, CoreXY**              |
+| **Recommended Slicer/Console**                             | **Cura, Simplify3D, Pronterface, Repetier-host, Makerware**  |
 
 ## **Dimensions**
 

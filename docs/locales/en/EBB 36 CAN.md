@@ -5,11 +5,11 @@
   <img src=img/EBB36CAN/G0B1/EBB_G0B1_Title.png width="550"/>  
 </figure> 
 
-## **Introduction**
+## **Product Profile**
 
 BIGTREETECH EBB36 CAN V1.0/V1.1 is a nozzle adapter board specially designed for the 36 extruder stepper motor, which is launched by the 3D printing team Shenzhen BIQU Innovation Technology Co., Ltd.. It can communicate via USB port, or CAN BUS, greatly simplifying wirings.
 
-## **Main Features**
+## **Features Highlights**
 
 - With BOOT and RESET buttons reserved, users can update the firmware via DFU mode by USB.
 - Added protection circuit on the thermistor avoids burning the main control chip caused by leakage current from the heating rod.
@@ -22,29 +22,31 @@ BIGTREETECH EBB36 CAN V1.0/V1.1 is a nozzle adapter board specially designed for
 - Supports communication via CAN or USB. The terminal resistor 120R of CAN can be selected through the jumper cap, and it reserves CAN expansion 
   interfaces.
 - Equipped ESD protection chip on the USB port prevents the main control board from being broken down by the static electricity of the USB port.
-- The adaptor board is equipped with terminals, female reeds, double-way studs and screws, which are required for DIY, greatly meeting the DIY needs of customers.
+- The adaptor board is equipped with terminals, female reeds, double-way studs and screws, which are required for DIY, greatly meeting the DIY needs 
+  of customers.
 
-## **Basic Parameters**
+## **Specifications**
 
-- External Dimensions: 51.5mm x 37mm. For further details please read: **Dimensions**
-- Installation Dimensions: hole spacing 43.85mm, M3 screw hole x 2
-- Microprocessor: ARM Cortex-M0 STM32F072C8T6 48MHz (V1.0)
-- Microprocessor: ARM Cortex-M0+ STM32G0B1CBT6 64MHz (V1.1)
-- Input Voltage: DC12V-DC24V 6A
-- Logic Voltage: DC 3.3V
--  Heating Interface: Heating rod (E0), maximum output current: 5A
-- Onboard Sensor: ADXL345
-- Fan Interfaces: two CNC fans (FAN0, FAN1)
-- Maximum Output Current of Fan Interface: 1A, Peak Value 1.5A
-- Expansion Interfaces: EndStop, I2C, Probe, RGB, PT100/PT1000, USB interface, CAN Interface
-- Motor Drive: Onboard TMC2209
-- Driver Working Mode: UART
-- Stepper Motor Interface: EM
-- Temperature Sensor Interface Optional: 1 Channel 100K NTC or PT1000(TH0), 1 Channel PT100/PT1000
-- USB Communication Interface: USB-Type-C
-- DC 5V Maximum Output Current: 1A
+| **External Dimensions**                     | **51.5mm x 37mm. For further details please read: Dimensions** |
+| ------------------------------------------- | ------------------------------------------------------------ |
+| **Installation Dimensions**                 | **hole spacing 43.85mm, M3 screw hole x 2**                  |
+| **Microprocessor**                          | **ARM Cortex-M0 STM32F072C8T6 48MHz (V1.0)**                 |
+| **Microprocessor**                          | **ARM Cortex-M0+ STM32G0B1CBT6 64MHz (V1.1)**                |
+| **Input Voltage**                           | **DC12V-DC24V 6A**                                           |
+| **Logic Voltage**                           | **DC 3.3V**                                                  |
+| **Heating Interface**                       | **Heating rod (E0), maximum output current: 5A**             |
+| **Onboard Sensor**                          | **ADXL345**                                                  |
+| **Fan Interfaces**                          | **two CNC fans (FAN0, FAN1)**                                |
+| **Maximum Output Current of Fan Interface** | **1A, Peak Value 1.5A**                                      |
+| **Expansion Interfaces**                    | **EndStop, I2C, Probe, RGB, PT100/PT1000, USB interface, CAN Interface** |
+| **Motor Drive**                             | **Onboard TMC2209**                                          |
+| **Driver Working Mode**                     | **UART**                                                     |
+| **Stepper Motor Interface**                 | **EM**                                                       |
+| **Temperature Sensor Interface Optional**   | **1 Channel 100K NTC or PT1000(TH0), 1 Channel PT100/PT1000** |
+| **USB Communication Interface**             | **USB-Type-C**                                               |
+| **DC 5V Maximum Output Current**            | **1A**                                                       |
 
-<font  color="red">***Note: BTT EEB36 CAN V1.0/V1.1 only supports Klipper at the present.***</font>
+<font  color="red">**Note: BTT EEB36 CAN V1.0/V1.1 only supports Klipper at the present.**</font>
 
 ## **Dimensions**
 

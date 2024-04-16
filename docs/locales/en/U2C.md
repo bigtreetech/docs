@@ -4,13 +4,13 @@
 
 <img src=img/U2C/U2C_Title2.png width="600"/>
 
-## **Introduction**
+## **Product Profile**
 
 BIGTREETECH U2C is a USB to CAN bus module, which can convert the USB port of Raspberry Pi to the CAN bus, and connect 3D printing motherboard, BIGTREETECH EBB35/36/42 CAN and other products through CAN bus. There are many different forms of CAN interfaces on the board, which are helpful to connect to different boards.
 
 CAN bus has many advantages in the field of industrial control, so our company has launched this USB to CAN module. The CAN bus has a long transmission distance, and a large number of nodes can be mounted on it, so the motherboard, EBB, and other expansion boards can be mounted on the same CAN bus at the same time.
 
-## **Main Features**
+## **Features Highlights**
 
 - Support CAN bus connection, long data transmission, strong anti-noise ability, strong real-time performance and high reliability.
 - The surface of the PCB adopts the ENIG process.

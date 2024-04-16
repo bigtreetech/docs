@@ -2,11 +2,11 @@
 
 <img src=img/PAD7/PAD7_Title.png width="600" />
 
-## **Introduction**
+## **Product Profile**
 
 The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd., is a tablet equipped with pre-installed Klipper and KlipperScreen. The BTB headers have been engineered to provide users with the flexibility to select from various solutions, including CM4, CB1, and more.
 
-## **Main Features**
+## **Features Highlights**
 
 - The 7-inch IPS touch screen offers a wider field of view, high level of detail, and a comfortable user experience
 
@@ -22,21 +22,21 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 
 - The bracket attaches securely to the back of the Pad 7 during storage and folding, thanks to the built-in magnets
 
+## **Specifications**
 
-## **Basic Parameters**
-
-- Dimensions: 185.7 x 124.78 x 39.5 mm
-- Display Viewing Area: 154.2 x 85.92 mm
-- Display: 7 inches, 1024 x 600 resolution, 60Hz refresh rate
-- Viewing Angle: 178°
-- Brightness: 500 Cd/m²
-- Input: DC 12V, 2A
-- Rated Power: 7.3W
-- Display Port: HDMI
-- Touch Port: USB-HID
-- PC Connection: Type-C (CM4 eMMC OS writing)
-- Interface: USB 2.0 x 3, Ethernet, CAN, SPI, SOC-Card
-- Core Board: BIGTREETECH CB1 v2.2, 1GB, accompanied by a SanDisk 32 GB memory card
+| Dimensions           | 185.7 x 124.78 x 39.5 mm                                     |
+| -------------------- | ------------------------------------------------------------ |
+| Display Viewing Area | 154.2 x 85.92 mm                                             |
+| Display              | 7 inches, 1024 x 600 resolution, 60Hz refresh rate           |
+| Viewing Angle        | 178°                                                         |
+| Brightness           | 500 Cd/m²                                                    |
+| Input                | DC 12V, 2A                                                   |
+| Rated Power          | 7.3W                                                         |
+| Display Port         | HDMI                                                         |
+| Touch Port           | USB-HID                                                      |
+| PC Connection        | Type-C (CM4 eMMC OS writing)                                 |
+| Interface            | USB 2.0 x 3, Ethernet, CAN, SPI, SOC-Card                    |
+| Core Board           | BIGTREETECH CB1 v2.2, 1GB, accompanied by a SanDisk 32 GB memory card |
 
 ## **Dimensions**
 

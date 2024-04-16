@@ -1,6 +1,6 @@
 # EZDriver Connector
 
-## **Introduction**
+## **Product Profile**
 
 EZDriver Connector is the adapter board of the main board and EZdriver.
 

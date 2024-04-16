@@ -2,11 +2,11 @@
 
 <img src=img/HDMI5/HDMI5_Title.png width="600"/>
 
-## **Introduction**
+## **Product Profile**
 
 <p>BIGTREETECH HDMI5 V1.0 is a universal 5-inch HDMI display screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..</p>
 
-## **Main Features**
+## **Features Highlights**
 
 -  HDMI input, can work with Raspberry Pi.
 - Connect to a PC, it can be used as a PC monitor.

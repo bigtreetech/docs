@@ -2,11 +2,11 @@
 
 <img src=img/KNOMI/KNOMI_Title.png width="600" />
 
-## **Introduction**
+## **Product Profile**
 
 KNOMI is a mini round screen designed specifically for Klipper running 3D printers, offering users a unique and personalized way to monitor their printer's operation. The screen displays important information through the KNOMI UI, such as heated bed temperature, nozzle temperature, leveling status, printing progress, etc. KNOMI is an open-source product, allowing users to customize the user interface and design mounting brackets to fit their specific 3D printer.
 
-## **Main Features**
+## **Features Highlights**
 
 - KNOMI UI-based display for quick and easy monitoring of printer status
 - User-friendly, wireless communication through WiFi

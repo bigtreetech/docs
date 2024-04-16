@@ -2,7 +2,7 @@
 
 <img src=img/Hermit_Crab/Hermit_Crab_title.png width="600" />
 
-## **Introduction**
+## **Product Profile**
 
 The Hermit Crab 2 series is made for fast and simple swapping of print heads on 3D printers. It has a fixed plate and multiple tool plates that let you quickly change between different print heads. The 2 series is lighter, more compact, and more robust.
 

@@ -2,23 +2,24 @@
 
 <img src=img/TFT24/TFT24_Title.png width="600" />
 
-## **Introduction**
+## **Product Profile**
 
-BIGTREETECH TFT24-V1.1 is a small volume ultra-clear 3D printer display board. It can work in two modes. The board is launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.. This board can replace LCD12864 for use.
+BIGTREETECH TFT24-V1.1 is a small volume ultra-clear 3D printer display board. It can work in two modes. The board is launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. This board can replace LCD12864 for use.
 
-## **Main Features**
+## **Features Highlights**
 
 - ARM Cortex-M3 series STM32F105RCT6 chip with 32-bit CPU 72MHz;
 - Upgrade the firmware by SD card. It is easy and convenient to operate.
 - his display board has higher compatibility. Users can select two work modes, they are UART serial port screen mode and 12864 screen mode.
 - Serial port screen mode supports two printing modes: SD card and U disk.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Appearance size: 105*46mm
-- Installation size: detail information in TFT24-V1.1-SI
-- Microprocessor：STM32F105RCT6
-- Power Input：DC5V
+| **Appearance size**   | **105*46mm**                             |
+| --------------------- | ---------------------------------------- |
+| **Installation size** | **detail information in TFT24-V1.1-DSI** |
+| **Microprocessor**    | **STM32F105RCT6**                        |
+| **Power Input**       | **DC5V**                                 |
 
 <font  color="red">***NOTE: After the board is powered on, the red power indicator light D3 will light up, indicating that the power supply is normal. The red light D1 is SD 
 card detection indicator. D1 often shines on when SD card is inserted, and the light goes out when the SD card is pulled out.***</font>

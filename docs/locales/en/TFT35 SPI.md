@@ -1,25 +1,26 @@
 # TFT35 SPI
 
-## **Introduction**
+## **Product Profile**
 
-BIGTREETECH TFT35 SPI V2.1 is a medium-size and clear 3D printer display developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
+BIGTREETECH TFT35 SPI V2.1 is a medium-size and clear 3D printer display developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.
 
-## **Main Features**
+## **Features Highlights**
 
 - SPI is used for LCD display, and I2C is used for touch. The touch screen is controlled by the chip on the motherboard, which significantly reduces its cost. 
 - It is connected to the motherboard through the FPC cable, simple and convenient.
 - Designed with XH2.54 terminal, which can communicate with the board through the terminal.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Product Dimensions: 98 x 56mm 
-- Mounting Dimensions: 98 x 56mm.  For further details please read: **Dimensions**
-- Input Voltage: DC 5V
-- Logic Voltage: DC 3.3V 
-- Screen Size: 3.5-inch
-- Resolution: 480x320
-- Driver IC for SPI Display: ILI9488
-- Driver IC for Touch: NS2009
+| **Product Dimensions**        | **98 x 56mm**                                               |
+| ----------------------------- | ----------------------------------------------------------- |
+| **Mounting Dimensions**       | **98 x 56mm.  For further details please read: Dimensions** |
+| **Input Voltage**             | **DC 5V**                                                   |
+| **Logic Voltage**             | **DC 3.3V**                                                 |
+| **Screen Size**               | **3.5-inch**                                                |
+| **Resolution**                | **480x320**                                                 |
+| **Driver IC for SPI Display** | **ILI9488**                                                 |
+| **Driver IC for Touch**       | **NS2009**                                                  |
 
 ## **Dimensions**
 

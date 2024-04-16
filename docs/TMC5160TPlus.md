@@ -2,11 +2,11 @@
 
 <img src=img/TMC5160TPlus/TMC5160TPlus_Title.png width="600"/>
 
-## **Introduction**
+## **Product Profile**
 
 TMC5160T Plus is a high-power stepper motor driver control module, featuring 8 high-power MOSFETs separately mounted on the board with a maximum voltage of 60V. This supports a wider range of stepper motors and offers greater adaptability.
 
-## **Main Features**
+## **Features Highlights**
 
 - <p>8 high-power MOSFETs separately mounted on the board with 100V voltage 
   resistance, 93A current resistance, and equivalent resistance as low as 6mΩ, 
@@ -34,16 +34,17 @@ TMC5160T Plus is a high-power stepper motor driver control module, featuring 8 h
 
 - Heat sink pre-designed with fan mounting holes for DIY fan installation.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Dimensions: TMC5160T Plus: 64 x 56 x 32.55mm;
-- Dimensions: TMC5160T Plus(W/o case): 58 x 50 x 28mm;
-- Drive Chip: TMC5160-TA; 
-- Input Voltage (HVIN) : 8V-60V;
-- Maximum Effective Current: 10.6A, Sine Wave Peak Current 15A;
-- Capacitor: 2 x 560uF;
-- Operating Mode: SPI, SD;
-- Sampling Resistor: 22mΩ;
+| Dimensions                | TMC5160T Plus: 64 x 56 x 32.55mm        |
+| ------------------------- | --------------------------------------- |
+| Dimensions                | TMC5160T Plus(W/o case): 58 x 50 x 28mm |
+| Drive Chip                | TMC5160-TA                              |
+| Input Voltage (HVIN)      | 8V-60V                                  |
+| Maximum Effective Current | 10.6A, Sine Wave Peak Current 15A       |
+| Capacitor                 | 2 x 560uF                               |
+| Operating Mode            | SPI, SD                                 |
+| Sampling Resistor         | 22mΩ                                    |
 
 ## **Interface Diagram**
 

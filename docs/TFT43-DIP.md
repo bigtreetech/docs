@@ -2,7 +2,7 @@
 
 <img src=img/TFT43-DIP/TFT43_DIP_Title.png width="600" />
 
-## **Introduction**
+## **Product Profile**
 
 TFT43-DIP is an display for the Raspberry Pi with capacitive touchscreen.
 

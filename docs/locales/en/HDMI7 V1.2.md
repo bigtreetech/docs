@@ -4,11 +4,11 @@
 
 <img src=img/HDMI7V1.2/HDMI7V1.2_Title.png width="600"/>
 
-## <p>BIGTREETECH HDMI5 V1.0 is a universal 5-inch HDMI display screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..</p>
+## **Product Profile**
 
 <p>BIGTREETECH HDMI7 V1.2 is a universal 7-inch HDMI display screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..</p>
 
-## **Main Features**
+## **Features Highlights**
 
 - HDMI input, can work with Raspberry Pi.
 - Connect to a PC, it can be used as a PC monitor.
@@ -16,15 +16,16 @@
 - Built-in audio decoding circuit, support 3.5mm headphone jack audio output.
 - Support brightness and display direction adjustment.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Product Dimension: 100 x 165mm
-- Mounting Size: 100 x 165mm. For further details please read: **BTT HDMI7_V1.2_SIZE**
-- Power Input: DC 5V
-- Logic Voltage: DC 3.3V
-- Screen Size: 7-inch IPS Display
-- Screen Resolution: 1024x600
-- Screen Viewing Angle: 160°
+| Product Dimension    | 100 x 165mm                                                  |
+| -------------------- | ------------------------------------------------------------ |
+| Mounting Size        | 100 x 165mm. For further details please read: BTT HDMI7_V1.2_SIZE |
+| Power Input          | DC 5V                                                        |
+| Logic Voltage        | DC 3.3V                                                      |
+| Screen Size          | 7-inch IPS Display                                           |
+| Screen Resolution    | 1024x600                                                     |
+| Screen Viewing Angle | 160°                                                         |
 
 ## **Dimensions**
 

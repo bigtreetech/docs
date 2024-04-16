@@ -2,11 +2,11 @@
 
 [<img src=img/M4P/M4P_Title.png width="600"/>](https://z1996xm.github.io/BIGTREETECH/M4P.html)
 
-## **Introduction**
+## **Product Profile**
 
 <p>BIGTREETECH CB1 is an alternative to Raspberry Pi CM4, which is currently out of stock. <br>BIGTREETECH M4P is a 4-axis motherboard using a CM4 BTB header, which can work with CB1 or CM4 perfectly.<br></p>
 
-## **Main Features**
+## **Features Highlights**
 
 - DSI1, CSI1 interface (for CM4)
 
@@ -56,39 +56,23 @@
 
 - Adopt replaceable fuse for easy replacement
 
-## **Basic Parameters**
+## **Specifications**
 
-- Product Size: 160 x 95mm
-
-- Installation Size: 146 x 84.2mm; 97 x 84.2mm
-
-- Core Board Installation Size: 33 x 48mm
-
-- The maximum output current of the heated bed port: 10A
-
-- The maximum output current of the heater cartridge port: 6A
-
-- Fan Port: Three for CNC Fan(24V/5V Voltage Selectable), One SoC Fan(Voltage 
-
-  not Selectable)
-
-- The maximum output current of the fan port:1A
-
-- Total current for heater cartridge + driver + fan: ＜20A
-
-- Extended Interface: BLTouch(Servos, Probe), Fil-DET, 2 * RGB
-
-- Motor Driver: Support TMC5160, TMC2209, TMC2225, TMC2226, TMC2208, 
-
-  TMC2130, ST820, LV8729, DRV8825, A4988...
-
-- Driver Working Mode Support: SPI, UART, STEP/DIR
-
-- Motor Drive Interface: X, Y, Z(Dual Z-axis), E0, a total of four.
-
-- Temperature Sensor Interface: 2-way 100K NTC
-
-- Display Screen: RepRapDiscount EXP-1 + EXP-2
+| Product Size                                            | 160 x 95mm                                                   |
+| ------------------------------------------------------- | ------------------------------------------------------------ |
+| Installation Size                                       | 146 x 84.2mm; 97 x 84.2mm                                    |
+| Core Board Installation Size                            | 33 x 48mm                                                    |
+| The maximum output current of the heated bed port       | 10A                                                          |
+| The maximum output current of the heater cartridge port | 6A                                                           |
+| Fan Port                                                | Three for CNC Fan(24V/5V Voltage Selectable), One SoC Fan(Voltage not Selectable) |
+| The maximum output current of the fan port              | 1A                                                           |
+| Total current for heater cartridge + driver + fan       | ＜20A                                                        |
+| Extended Interface                                      | BLTouch(Servos, Probe), Fil-DET, 2 * RGB                     |
+| Motor Driver                                            | Support TMC5160, TMC2209, TMC2225, TMC2226, TMC2208, TMC2130, ST820, LV8729, DRV8825, A4988... |
+| Driver Working Mode Support                             | SPI, UART, STEP/DIR                                          |
+| Motor Drive Interface                                   | X, Y, Z(Dual Z-axis), E0, a total of four                    |
+| Temperature Sensor Interface                            | 2-way 100K NTC                                               |
+| Display Screen                                          | RepRapDiscount EXP-1 + EXP-2                                 |
 
 ## **Dimensions**
 

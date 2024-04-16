@@ -2,11 +2,11 @@
 
 [<img src=img/CB1.png width="600" />](https://bigtreetech.github.io/docs/CB1.html)
 
-## **Introduction**
+## **Product Profile**
 
 <p>The BIGTREETECH CB1 is launched to provide a great solution to the insane shortage of Raspberry Pi CM4. <br>It outputs signals to the motherboard via the fast and convenient two 100 pins micro BTB connection header. Moreover, it is onboard 2.4G WiFi.<br></p>
 
-## **Main Features**
+## **Features Highlights**
 
 * CPU: ALLWINNER H616, Quad-core Cortex-A53 @1.5GHz
 * GPU: Mali G31 MP2, Support OpenGL3.2
@@ -16,14 +16,15 @@
 * Support 100M Ethernet + 100M WiFi
 * Having the same BTB header as the Raspberry Pi CM4.
 
-## **Basic Parameters**
+## **Specifications**
 
-* Product Size: 40mm x 55mm
-* Mounting Size: 33mm x 48mm
-* Input Voltage: 5V±5%/2A
-* Output Voltage: 3.3V±2%/100mA
-* Output Voltage: 1.8V±2%/100mA
-* WiFi: 2.4G/802.11 b/g/n
+| **Product Size**   | **40mm x 55mm**       |
+| ------------------ | --------------------- |
+| **Mounting Size**  | **33mm x 48mm**       |
+| **Input Voltage**  | **5V±5%/2A**          |
+| **Output Voltage** | **3.3V±2%/100mA**     |
+| **Output Voltage** | **1.8V±2%/100mA**     |
+| **WiFi**           | **2.4G/802.11 b/g/n** |
 
 ## **Dimensions**
 

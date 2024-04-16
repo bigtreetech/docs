@@ -2,11 +2,11 @@
 
 <img src=img/PI4B/PI4B_Title.png width="600"/>
 
-## **Introduction**
+## **Product Profile**
 
 BIGTREETECH PI4B Adapter V1.0 is a Raspberry Pi CM4 carrier board launched by Shenzhen BIQU Innovation Technology Co., Ltd., when the Raspberry Pi CM4 is plugged in, it can be used as a Raspberry Pi 4, which brings convenience for customers to use the CM4.
 
-## **Main Features**
+## **Features Highlights**
 
 - Use Raspberry Pi 4B board outline, the same mounting hole dia;
 - Support various versions of CM4 modules;
@@ -16,13 +16,14 @@ BIGTREETECH PI4B Adapter V1.0 is a Raspberry Pi CM4 carrier board launched by Sh
 - Adopting Type-C interface, which can be used to write CM4 with eMMC, and can supply power to the whole system at the same time;
 - A 5V power interface is reserved, which can be connected to a 5V fan for CM4 heat dissipation.
 
-## **Basic Parameters**
+## **Specifications**
 
-- Product Size: 85 x 54.29mm
-- Installation Size: 58 x 49mm 
-- Power Input: Type-C 5±0.25V 
-- Module Type Support: various versions of Raspberry Pi CM4 modules.
-- Interface Support: Micro HDMI x 2，USB 2.0x4，RJ45，CAM，CSI，Micro SD...
+| Product Size        | 85 x 54.29mm                                           |
+| ------------------- | ------------------------------------------------------ |
+| Installation Size   | 58 x 49mm                                              |
+| Power Input         | Type-C 5±0.25V                                         |
+| Module Type Support | various versions of Raspberry Pi CM4 modules           |
+| Interface Support   | Micro HDMI x 2，USB 2.0x4，RJ45，CAM，CSI，Micro SD... |
 
 ## **Dimensions**
 

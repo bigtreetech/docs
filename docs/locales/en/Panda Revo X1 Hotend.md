@@ -4,11 +4,11 @@
 
 **Product Link:** https://biqu.equipment/products/biqu-panda-hotend
 
-## **Introduction**
+## **Product Profile**
 
 The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle changes and a Revo™ HF nozzle for blazing flow rates up to 40mm³/s, along with a powerful 60W HeaterCore. Perfectly compatible with Bambu Lab's X1 printers. Elevate your printing experience!
 
-## Main Features
+## **Features Highlights**
 
 - Co-developed with E3D, integrated E3D RapidChange Revo™ Ecosystem, compatible with all Revo™ nozzles except the Revo™ Belt Nozzle.
 - 60W HeaterCore with NTC100k thermistor, custom-made by E3D, to satisfy the power requirement for high-speed high-flow printing.
@@ -17,7 +17,7 @@ The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle chan
 - Replaceable nozzle, no need to replace the entire hotend.
 - Compatible with X1 series printer from Bambu Lab.
 
-## **Basic Parameters**
+## **Specifications**
 
 | Length                  | 47.3mm                  |
 | ----------------------- | ----------------------- |
