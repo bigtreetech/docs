@@ -2506,21 +2506,21 @@
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    介绍
+    产品简介
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    主要特点
+    功能亮点
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    基本参数
+    规格
   </a>
   
 </li>
@@ -2745,10 +2745,10 @@
 
 <h1 id="m8p">M8P<a class="headerlink" href="#m8p" title="Permanent link">&para;</a></h1>
 <p><a href="https://bigtreetech.github.io/docs/M8P.html"><img src=img/M8P/M8P_Title.png width="600" /></a></p>
-<h2 id="_1"><strong>介绍</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH MANTA M8P是必趣创新科技（深圳）有限公司3D打印团队为Klipper固件开发的32位打印机主板。您只需插入核心板即可运行Klipper固件，这大大简化了主板和树莓派之间的连接，并节省了大量空间。此外，BTB连接器被设计为安装CM4或其他解决方案，以解决当前CM4的昂贵问题。</p>
 
-<h2 id="_2"><strong>主要特点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <ul>
 <li>采用32位64MHz ARM Cortex-M0+系列STM32G0B1VET6作为主控芯片；</li>
 <li>电源芯片TPS5450-5A，支持DC12/24V电源输入。芯片的输出电流高达5A，峰值可达6A，完美支持树莓派的供电；</li>
@@ -2766,31 +2766,101 @@
 <li>预留接近开关接口，支持NPN和PNP两种类型，可选择（24V、12V、5V）电压，与VFAN6共同选择电压；</li>
 <li>提供SPI扩展接口，允许Klipper固件用户连接外部加速度传感器进行加速度补偿。。</li>
 </ul>
-<h2 id="_3"><strong>基本参数</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<ul>
-<li>产品尺寸：170 x 102.7毫米。有关更多详细信息，请阅读： <strong>尺寸</strong></li>
-<li>微处理器：ARM Cortex-M0+STM32G0B1VET6 64MHz</li>
-<li>驱动输入电压：VIN（12V/24V）或HV（≤56V）</li>
-<li>主板输入电压：VIN=DC12V或DC24V</li>
-<li>加热床输入电压：Bed IN=DC12V或DC24V</li>
-<li>逻辑电压：DC3.3V</li>
-<li>加热端口：加热床（HB）、喷嘴（HE0、HE1、HE2、HE3）</li>
-<li>加热床端口的最大输出电流：10A，峰值：12A</li>
-<li>喷嘴端口的最大输出电流：5.5A，峰值：6A</li>
-<li>来自端口：两线制数控风扇（FAN0、FAN1、FAN2、FAN3）、四线制数控扇（FAN4、FAN5、FAN6）、常开风扇（24V Fan x 2），其中数控风扇电压为5V、12V、24V可选</li>
-<li>风扇端口最大输出电流：1A，峰值：1.5A</li>
-<li>喷嘴+驱动器+风扇总电流：＜12A</li>
-<li>扩展接口：BLTouch（伺服、探针）、PS-ON、Fil-DET、RGBx2、SPI</li>
-<li>电机驱动器：支持TMC5160、TMC2209、TMC2225、TMC2226、TMC2208、TMC2130、ST820、LV8729、DRV8825、A4988。。。</li>
-<li>驱动程序工作模式支持：SPI、UART、STEP/DIR</li>
-<li>电机驱动接口：Motor1、Motor2、Motor3（双电机接口）、Motor4、Motor5、Motor6、Motor7、Motor8，共8台</li>
-<li>温度传感器接口：5路100K NTC，其中4路100K和PT1000可选</li>
-<li>支持屏幕：SPI触摸屏、LCD屏幕</li>
-<li>PC通信接口：Type-C</li>
-<li>功能接口：USB 2.0 x 3、LAN、DSI、CSI、SPI、40Pin GPIO、HDMI0和HDMI1、SOC卡、MCU卡</li>
-<li>支持机器结构: Cartesian, Delta, Kossel, Ultimaker, CoreXY</li>
-<li>推荐软件: Cura, Simplify3D, Pronterface, Repetier-host, Makerware</li>
-</ul>
+<h2 id="_3"><strong>规格</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>产品尺寸</strong></th>
+<th><strong>170 x 102.7毫米。有关更多详细信息，请阅读： 尺寸</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>微处理器</strong></td>
+<td><strong>ARM Cortex-M0+STM32G0B1VET6 64MHz</strong></td>
+</tr>
+<tr>
+<td><strong>驱动输入电压</strong></td>
+<td><strong>VIN（12V/24V）或HV（≤56V）</strong></td>
+</tr>
+<tr>
+<td><strong>主板输入电压</strong></td>
+<td><strong>VIN=DC12V或DC24V</strong></td>
+</tr>
+<tr>
+<td><strong>加热床输入电压</strong></td>
+<td><strong>Bed IN=DC12V或DC24V</strong></td>
+</tr>
+<tr>
+<td><strong>逻辑电压</strong></td>
+<td><strong>DC3.3V</strong></td>
+</tr>
+<tr>
+<td><strong>加热端口</strong></td>
+<td><strong>加热床（HB）、喷嘴（HE0、HE1、HE2、HE3）</strong></td>
+</tr>
+<tr>
+<td><strong>加热床端口的最大输出电流</strong></td>
+<td><strong>10A，峰值：12A</strong></td>
+</tr>
+<tr>
+<td><strong>喷嘴端口的最大输出电流</strong></td>
+<td><strong>5.5A，峰值：6A</strong></td>
+</tr>
+<tr>
+<td><strong>风扇端口</strong></td>
+<td><strong>两线制数控风扇（FAN0、FAN1、FAN2、FAN3）、四线制数控扇（FAN4、FAN5、FAN6）、常开风扇（24V Fan x 2），其中数控风扇电压为5V、12V、24V可选</strong></td>
+</tr>
+<tr>
+<td><strong>风扇端口最大输出电流</strong></td>
+<td><strong>1A，峰值：1.5A</strong></td>
+</tr>
+<tr>
+<td><strong>喷嘴+驱动器+风扇总电流</strong></td>
+<td><strong>＜12A</strong></td>
+</tr>
+<tr>
+<td><strong>扩展接口</strong></td>
+<td><strong>BLTouch（伺服、探针）、PS-ON、Fil-DET、RGBx2、SPI</strong></td>
+</tr>
+<tr>
+<td><strong>电机驱动器</strong></td>
+<td><strong>支持TMC5160、TMC2209、TMC2225、TMC2226、TMC2208、TMC2130、ST820、LV8729、DRV8825、A4988。。。</strong></td>
+</tr>
+<tr>
+<td><strong>驱动程序工作模式支持</strong></td>
+<td><strong>SPI、UART、STEP/DIR</strong></td>
+</tr>
+<tr>
+<td><strong>电机驱动接口</strong></td>
+<td><strong>Motor1、Motor2、Motor3（双电机接口）、Motor4、Motor5、Motor6、Motor7、Motor8，共8台</strong></td>
+</tr>
+<tr>
+<td><strong>温度传感器接口</strong></td>
+<td><strong>5路100K NTC，其中4路100K和PT1000可选</strong></td>
+</tr>
+<tr>
+<td><strong>支持屏幕</strong></td>
+<td><strong>SPI触摸屏、LCD屏幕</strong></td>
+</tr>
+<tr>
+<td><strong>PC通信接口</strong></td>
+<td><strong>Type-C</strong></td>
+</tr>
+<tr>
+<td><strong>功能接口</strong></td>
+<td><strong>USB 2.0 x 3、LAN、DSI、CSI、SPI、40Pin GPIO、HDMI0和HDMI1、SOC卡、MCU卡</strong></td>
+</tr>
+<tr>
+<td><strong>支持机器结构</strong></td>
+<td><strong>Cartesian, Delta, Kossel, Ultimaker, CoreXY</strong></td>
+</tr>
+<tr>
+<td><strong>推荐软件</strong></td>
+<td><strong>Cura, Simplify3D, Pronterface, Repetier-host, Makerware</strong></td>
+</tr>
+</tbody>
+</table>
 <h2 id="_4"><strong>尺寸</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p><img src=img/M8P/M8P_Dimensions1.png width="600" /></p>
 <p><img src=img/M8P/M8P_Dimensions2.png width="600" /></p>

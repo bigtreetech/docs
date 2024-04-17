@@ -2506,21 +2506,21 @@
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    介绍
+    产品简介
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    主要特点
+    功能亮点
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    基本参数
+    规格
   </a>
   
 </li>
@@ -2637,9 +2637,9 @@
   <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Title.png width="550"/>  
 </figure>
 
-<h2 id="_1"><strong>介绍</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH EBB42 CAN V1.0/V1.1是必趣创新科技（深圳）有限公司3D打印团队推出的一款专为42挤出机步进电机设计的喷嘴转接板，可通过USB端口或CAN总线进行通信，大大简化了布线。</p>
-<h2 id="_2"><strong>主要特点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <ul>
 <li>通过保留BOOT和RESET按钮，用户可以通过USB通过DFU模式更新固件。</li>
 <li>热敏电阻上增加了保护电路，避免了加热棒泄漏电流导致主控制芯片烧坏。</li>
@@ -2653,25 +2653,77 @@
 <li>USB端口上配备ESD保护芯片，防止主控板被USB端口的静电击穿。</li>
 <li>转接板配有端子、内簧片、双向螺柱和螺钉，这些都是DIY所需的配件，极大地满足了客户的DIY需求。</li>
 </ul>
-<h2 id="_3"><strong>基本参数</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<ul>
-<li>外形尺寸：40mm x 40mm。有关更多详细信息，请阅读：<strong>尺寸</strong></li>
-<li>安装尺寸：孔间距31mm x 31mm，M3螺孔x 4</li>
-<li>微处理器：ARM Cortex-M0 STM32F072C8T6 48MHz</li>
-<li>输入电压：DC12V-DC24V 9A</li>
-<li>逻辑电压：DC 3.3V</li>
-<li>加热接口：加热棒（E0），最大输出电流：5A</li>
-<li>板载传感器：ADXL345</li>
-<li>风扇接口：两个CNC风扇（FAN0、FAN1）</li>
-<li>风扇接口最大输出电流：1A，峰值1.5A</li>
-<li>扩展接口：EndStop、I2C、Probe、RGB、PT100/PT1000、USB接口、CAN接口</li>
-<li>电机驱动：板载TMC2209</li>
-<li>驱动程序工作模式：UART</li>
-<li>步进电机接口：EM</li>
-<li>温度传感器接口（可选）：1路100K NTC或PT1000（TH0），1路PT100/PT1000</li>
-<li>USB通信接口：USB-C型</li>
-<li>DCDC 5V最大输出电流：1A</li>
-</ul>
+<h2 id="_3"><strong>规格</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>外形尺寸</strong></th>
+<th><strong>40mm x 40mm。有关更多详细信息，请阅读：尺寸</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>安装尺寸</strong></td>
+<td><strong>孔间距31mm x 31mm，M3螺孔x 4</strong></td>
+</tr>
+<tr>
+<td><strong>微处理器</strong></td>
+<td><strong>ARM Cortex-M0 STM32F072C8T6 48MHz</strong></td>
+</tr>
+<tr>
+<td><strong>输入电压</strong></td>
+<td><strong>DC12V-DC24V 9A</strong></td>
+</tr>
+<tr>
+<td><strong>逻辑电压</strong></td>
+<td><strong>DC 3.3V</strong></td>
+</tr>
+<tr>
+<td><strong>加热接口</strong></td>
+<td><strong>加热棒（E0），最大输出电流：5A</strong></td>
+</tr>
+<tr>
+<td><strong>板载传感器</strong></td>
+<td><strong>ADXL345</strong></td>
+</tr>
+<tr>
+<td><strong>风扇接口</strong></td>
+<td><strong>两个CNC风扇（FAN0、FAN1）</strong></td>
+</tr>
+<tr>
+<td><strong>风扇接口最大输出电流</strong></td>
+<td><strong>1A，峰值1.5A</strong></td>
+</tr>
+<tr>
+<td><strong>扩展接口</strong></td>
+<td><strong>EndStop、I2C、Probe、RGB、PT100/PT1000、USB接口、CAN接口</strong></td>
+</tr>
+<tr>
+<td><strong>电机驱动</strong></td>
+<td><strong>板载TMC2209</strong></td>
+</tr>
+<tr>
+<td><strong>驱动程序工作模式</strong></td>
+<td><strong>UART</strong></td>
+</tr>
+<tr>
+<td><strong>步进电机接口</strong></td>
+<td><strong>EM</strong></td>
+</tr>
+<tr>
+<td><strong>温度传感器接口（可选）</strong></td>
+<td><strong>1路100K NTC或PT1000（TH0），1路PT100/PT1000</strong></td>
+</tr>
+<tr>
+<td><strong>USB通信接口</strong></td>
+<td><strong>USB-C型</strong></td>
+</tr>
+<tr>
+<td><strong>DCDC 5V最大输出电流</strong></td>
+<td><strong>1A</strong></td>
+</tr>
+</tbody>
+</table>
 <p><font  color="red"><strong><em>注：BTT EEB42 CAN V1.0/V1.1目前仅支持Klipper。</em></strong></font></p>
 <h2 id="_4"><strong>尺寸</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>版本:V1.0</p>
