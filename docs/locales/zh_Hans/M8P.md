@@ -2,11 +2,11 @@
 
 [<img src=img/M8P/M8P_Title.png width="600" />](https://bigtreetech.github.io/docs/M8P.html)
 
-## **介绍**
+## **产品简介**
 
 <p>BIGTREETECH MANTA M8P是必趣创新科技（深圳）有限公司3D打印团队为Klipper固件开发的32位打印机主板。您只需插入核心板即可运行Klipper固件，这大大简化了主板和树莓派之间的连接，并节省了大量空间。此外，BTB连接器被设计为安装CM4或其他解决方案，以解决当前CM4的昂贵问题。</p>
 
-## **主要特点**
+## **功能亮点**
 
 - 采用32位64MHz ARM Cortex-M0+系列STM32G0B1VET6作为主控芯片；
 - 电源芯片TPS5450-5A，支持DC12/24V电源输入。芯片的输出电流高达5A，峰值可达6A，完美支持树莓派的供电；
@@ -24,30 +24,31 @@
 - 预留接近开关接口，支持NPN和PNP两种类型，可选择（24V、12V、5V）电压，与VFAN6共同选择电压；
 - 提供SPI扩展接口，允许Klipper固件用户连接外部加速度传感器进行加速度补偿。。
 
-## **基本参数**
+## **规格**
 
-- 产品尺寸：170 x 102.7毫米。有关更多详细信息，请阅读： **尺寸**
-- 微处理器：ARM Cortex-M0+STM32G0B1VET6 64MHz
-- 驱动输入电压：VIN（12V/24V）或HV（≤56V）
-- 主板输入电压：VIN=DC12V或DC24V
-- 加热床输入电压：Bed IN=DC12V或DC24V
-- 逻辑电压：DC3.3V
-- 加热端口：加热床（HB）、喷嘴（HE0、HE1、HE2、HE3）
-- 加热床端口的最大输出电流：10A，峰值：12A
-- 喷嘴端口的最大输出电流：5.5A，峰值：6A
-- 来自端口：两线制数控风扇（FAN0、FAN1、FAN2、FAN3）、四线制数控扇（FAN4、FAN5、FAN6）、常开风扇（24V Fan x 2），其中数控风扇电压为5V、12V、24V可选
-- 风扇端口最大输出电流：1A，峰值：1.5A
-- 喷嘴+驱动器+风扇总电流：＜12A
-- 扩展接口：BLTouch（伺服、探针）、PS-ON、Fil-DET、RGBx2、SPI
-- 电机驱动器：支持TMC5160、TMC2209、TMC2225、TMC2226、TMC2208、TMC2130、ST820、LV8729、DRV8825、A4988。。。
-- 驱动程序工作模式支持：SPI、UART、STEP/DIR
-- 电机驱动接口：Motor1、Motor2、Motor3（双电机接口）、Motor4、Motor5、Motor6、Motor7、Motor8，共8台
-- 温度传感器接口：5路100K NTC，其中4路100K和PT1000可选
-- 支持屏幕：SPI触摸屏、LCD屏幕
-- PC通信接口：Type-C
-- 功能接口：USB 2.0 x 3、LAN、DSI、CSI、SPI、40Pin GPIO、HDMI0和HDMI1、SOC卡、MCU卡
-- 支持机器结构: Cartesian, Delta, Kossel, Ultimaker, CoreXY
-- 推荐软件: Cura, Simplify3D, Pronterface, Repetier-host, Makerware
+| **产品尺寸**                 | **170 x 102.7毫米。有关更多详细信息，请阅读： 尺寸**         |
+| ---------------------------- | ------------------------------------------------------------ |
+| **微处理器**                 | **ARM Cortex-M0+STM32G0B1VET6 64MHz**                        |
+| **驱动输入电压**             | **VIN（12V/24V）或HV（≤56V）**                               |
+| **主板输入电压**             | **VIN=DC12V或DC24V**                                         |
+| **加热床输入电压**           | **Bed IN=DC12V或DC24V**                                      |
+| **逻辑电压**                 | **DC3.3V**                                                   |
+| **加热端口**                 | **加热床（HB）、喷嘴（HE0、HE1、HE2、HE3）**                 |
+| **加热床端口的最大输出电流** | **10A，峰值：12A**                                           |
+| **喷嘴端口的最大输出电流**   | **5.5A，峰值：6A**                                           |
+| **风扇端口**                 | **两线制数控风扇（FAN0、FAN1、FAN2、FAN3）、四线制数控扇（FAN4、FAN5、FAN6）、常开风扇（24V Fan x 2），其中数控风扇电压为5V、12V、24V可选** |
+| **风扇端口最大输出电流**     | **1A，峰值：1.5A**                                           |
+| **喷嘴+驱动器+风扇总电流**   | **＜12A**                                                    |
+| **扩展接口**                 | **BLTouch（伺服、探针）、PS-ON、Fil-DET、RGBx2、SPI**        |
+| **电机驱动器**               | **支持TMC5160、TMC2209、TMC2225、TMC2226、TMC2208、TMC2130、ST820、LV8729、DRV8825、A4988。。。** |
+| **驱动程序工作模式支持**     | **SPI、UART、STEP/DIR**                                      |
+| **电机驱动接口**             | **Motor1、Motor2、Motor3（双电机接口）、Motor4、Motor5、Motor6、Motor7、Motor8，共8台** |
+| **温度传感器接口**           | **5路100K NTC，其中4路100K和PT1000可选**                     |
+| **支持屏幕**                 | **SPI触摸屏、LCD屏幕**                                       |
+| **PC通信接口**               | **Type-C**                                                   |
+| **功能接口**                 | **USB 2.0 x 3、LAN、DSI、CSI、SPI、40Pin GPIO、HDMI0和HDMI1、SOC卡、MCU卡** |
+| **支持机器结构**             | **Cartesian, Delta, Kossel, Ultimaker, CoreXY**              |
+| **推荐软件**                 | **Cura, Simplify3D, Pronterface, Repetier-host, Makerware**  |
 
 ## **尺寸**
 

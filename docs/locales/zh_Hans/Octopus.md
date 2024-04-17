@@ -2,11 +2,11 @@
 
 <img src=img/Octopus/Octopus_Title.png width="600"/>
 
-## **介绍**
+## **产品简介**
 
 BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印团队推出的一款可以最多支持8路步进电机的3D打印机主板。
 
-## **主要特点**
+## **功能亮点**
 
 - 主控采用 32 位主频高达 180MHz 的ARM 级Cortex-M4 系列STM32F446ZET6 芯片。
 - 搭载高度模块化开源固件 Marlin2.0 ，方便用户DIY 及二次开发，免除无法掌握核心代码的后顾之忧。
@@ -39,21 +39,21 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 - 支持U 盘功能。
 - 支持IIC 扩展
 
+## **规格**
 
-## **基本参数**
-
-- 外观尺寸：160*100mm
-- 安装尺寸：150*90mm
-- 微处理器： ARM 32-bit Cortex™-M4 CPU
-- 输入电压： DC24V
-- 电机驱动器：可拔插驱动
-- 电机接口：MOTOR0、MOTOR1、MOTOR2_1、MOTOR2_2、MOTOR3、MOTOR4、MOTOR5、MOTOR6、MOTOR7
-- 温度传感器接口：TB、T0、T1、T2、T3
-- 显示屏：BIGTREETECH TFT、LCD12864、LCD2004 等
-- PC 通信接口：Type-C，方便插拔，通信波特率115200
-- 拓展接口功能支持：断料检测，断电续打，打完关机，BL_Touch等
-- 支持文件格式： G-code
-- 推荐软件：Cura、Simplify3D、pronterface、Repetier-host、Makerware
+| **外观尺寸**         | **160*100mm**                                                |
+| -------------------- | ------------------------------------------------------------ |
+| **安装尺寸**         | **150*90mm**                                                 |
+| **微处理器**         | **ARM 32-bit Cortex™-M4 CPU**                                |
+| **输入电压**         | **DC24V**                                                    |
+| **电机驱动器**       | **可拔插驱动**                                               |
+| **电机接口**         | **MOTOR0、MOTOR1、MOTOR2_1、MOTOR2_2、MOTOR3、MOTOR4、MOTOR5、MOTOR6、MOTOR7** |
+| **温度传感器接口**   | **TB、T0、T1、T2、T3**                                       |
+| **显示屏**           | **BIGTREETECH TFT、LCD12864、LCD2004 等**                    |
+| **PC 通信接口**      | **Type-C，方便插拔，通信波特率115200**                       |
+| **拓展接口功能支持** | **断料检测，断电续打，打完关机，BL_Touch等**                 |
+| **支持文件格式**     | **G-code**                                                   |
+| **推荐软件**         | **Cura、Simplify3D、pronterface、Repetier-host、Makerware**  |
 
 ## **尺寸**
 

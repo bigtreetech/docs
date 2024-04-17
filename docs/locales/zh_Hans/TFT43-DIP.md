@@ -2,7 +2,7 @@
 
 <img src=img/TFT43-DIP/TFT43_DIP_Title.png width="600" />
 
-## **介绍**
+## **产品简介**
 
 TFT43-DIP是带电容式触摸屏的树莓派显示器。
 

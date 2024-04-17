@@ -1,6 +1,6 @@
 # EZDriver Connector
 
-## **介绍**
+## **产品简介**
 
 EZDriver连接器是主板和EZDriver的适配器板。
 

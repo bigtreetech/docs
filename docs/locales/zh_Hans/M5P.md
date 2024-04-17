@@ -2,11 +2,11 @@
 
 [<img src=img/M5P/M5P_Title.png width="600" />](https://bigtreetech.github.io/docs/M5P.html)
 
-## **介绍**
+## **产品简介**
 
 BIGTREETECH MANTA M5P是必趣创新科技（深圳）有限公司3D打印团队为Klipper运行开发的32位主板。它可以使用核心板运行Klipper，这大大消除了主板和树莓派之间的大量布线，也大大节省了机箱空间。BTB头标是在MANTA M5P上设计的，因此客户可以选择使用CM4或其他解决方案，从而解决了Raspberry Pi CM4的疯狂短缺。
 
-## **主要特点**
+## **功能亮点**
 
 - 32位64MHz ARM Cortex-M0+系列STM32G0B1RET6 MCU。
 - 热敏电阻电路受到保护，以防止加热床和加热器芯连接短路导致MCU损坏。
@@ -21,7 +21,7 @@ BIGTREETECH MANTA M5P是必趣创新科技（深圳）有限公司3D打印团队
 - 板载SPI接口，用于连接加速度传感器，以实现Klipper的输入整形。
 - 配备了全新的E-FUSE保险丝，可以快速响应，增强自我保护能力，大大减少因短路或点火而导致的主板烧坏。
 
-## **基本参数**
+## **规格**
 
 | 尺寸                  | 137.5mm x 95mm，详情请参考BIGTREETECH MANTA M5P V1.0-SIZE-top.pdf |
 | --------------------- | ------------------------------------------------------------ |

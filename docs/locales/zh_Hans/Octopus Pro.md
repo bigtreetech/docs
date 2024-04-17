@@ -2,11 +2,11 @@
 
 <img src=img/Octopus_Pro/Octopus_Pro_Title.png width="600"/>
 
-## **介绍**
+## **产品简介**
 
 BIGTREETECH Octopus pro V1.0由必趣创新科技（深圳）有限公司3D打印团队设计制造，是一款功能强大、功能丰富的3D打印机主板，最多支持8个60V步进驱动器，总共9个步进驱动器输出。
 
-## **主要特点**
+## **功能亮点**
 
 - 使用32位ARM Cortex-M4系列。选项A配备STM32F446ZET6主控芯片，核心频率为180MHz，闪存容量为512kB。选项B配备STM32F429ZGT6，核心频率为168MHz，闪存容量为1MB。对于Klipper的使用，选项A可能就足够了。
 - 支持Klipper、Marlin和RRF的运行。
@@ -42,22 +42,23 @@ BIGTREETECH Octopus pro V1.0由必趣创新科技（深圳）有限公司3D打�
 - 为使用该协议进行通信的外围设备提供I2C扩展端口。
 - 包括一个短路警告蜂鸣器，当5V导轨上的电流负载超过调节器所能产生的电流时，该蜂鸣器将发出声音警报。
 
-## **基本参数**
+## **规格**
 
-- 边缘到边缘尺寸：160*100mm
-- 安装孔对孔尺寸：150*90mm
-- 微处理器：ARM 32位Cortex™-M4 CPU:STM32F446ZET6或STM32F429ZGT6
-- 建议主板输入电压：DC15V–28V
-- 电机输入电压范围：DC12-60V
-- 热床输入电压范围：DC12-28V
-- 电机驱动器：可插拔驱动器，支持所有流行的驱动器类型。
-- 电机驱动插座：Motor0，Motor1，Motor2_1，Motor2_2，Motor3，Motor4，Motor5，Motor6，Motor7
-- 温度传感器接口：TB、T0、T1、T2、T3
-- 显示接口：BIGTREETECH TFT触摸屏、LCD12864、LCD2004等
-- PC通信接口：USB Type-C，可配置BAUD
-- 扩展接口：断料检测、功率损耗检测、自动断电、BL触摸等。
-- 支持的打印文件格式：G代码或正在使用的固件支持的任何格式。
-- 推荐切片/接口软件：Cura、IdeaMaker、Simplify3D、Prusa切片器、Pronterface、Repetier主机、Makerware等…
+| **边缘到边缘尺寸**     | **160*100mm**                                                |
+| ---------------------- | ------------------------------------------------------------ |
+| **安装孔对孔尺寸**     | **150*90mm**                                                 |
+| **微处理器**           | **ARM 32位Cortex™-M4 CPU:STM32F446ZET6或STM32F429ZGT6**      |
+| **主板建议输入电压**   | **DC15V–28V**                                                |
+| **电机输入电压范围**   | **DC12-60V**                                                 |
+| **热床输入电压范围**   | **DC12-28V**                                                 |
+| **电机驱动器**         | **可插拔驱动器，支持所有流行的驱动器类型**                   |
+| **电机驱动插座**       | **Motor0，Motor1，Motor2_1，Motor2_2，Motor3，Motor4，Motor5，Motor6，Motor7** |
+| **温度传感器接口**     | **TB、T0、T1、T2、T3**                                       |
+| **显示接口**           | **BIGTREETECH TFT触摸屏、LCD12864、LCD2004等**               |
+| **PC通信接口**         | **USB Type-C，可配置BAUD**                                   |
+| **扩展接口**           | **断料检测、功率损耗检测、自动断电、BL触摸等**               |
+| **支持的打印文件格式** | **G代码或正在使用的固件支持的任何格式**                      |
+| **推荐切片/接口软件**  | **Cura、IdeaMaker、Simplify3D、Prusa切片器、Pronterface、Repetier主机、Makerware…** |
 
 ## **尺寸**
 

@@ -2,11 +2,11 @@
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Title.png width="600"/>
 
-## **介绍**
+## **产品简介**
 
 BIGTREETECHOctopusMAXEZ主板是必趣创新科技（深圳）有限公司3D打印团队针对Octopus Pro优化升级的32位打印机主板，采用自主研发的步进电机驱动座子，增强安全性及用户体验，新增一系列OctopusPro不具有的功能，加大DIY可能性。
 
-## **主要特点**
+## **功能亮点**
 
 - 采用32位主频550MHz的ARMCortex-M7系列STM32H723ZET6主控芯片；
 
@@ -32,33 +32,32 @@ BIGTREETECHOctopusMAXEZ主板是必趣创新科技（深圳）有限公司3D打�
 
 - 预留SPI拓展接口，供使用Klipper固件的客户外接加速度传感器来进行加速度补偿；
 
-  
 
-## **基本参数**
+## **规格**
 
-| 外观尺寸                      | 160mm x 100mm 详情请参考： **BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf** |
-| :---------------------------- | ------------------------------------------------------------ |
-| 安装尺寸                      | 见BIGTREETECHOctopusMAXEZV1.0-SIZE.pdf                       |
-| 微处理器                      | ARMCortex-M7STM32H723ZET6550MHz                              |
-| 驱动输入电压                  | 24V，HV(≤56V)可选                                            |
-| 主板输入电压                  | VIN = DC12V或DC24V                                           |
-| 热床输入电压                  | BED IN = DC12V或DC24V                                        |
-| 逻辑电压                      | DC 3.3V                                                      |
-| 加热接口                      | 热床（HB）、加热棒（HE0，HE1，HE2，，HE3）                   |
-| 热床端口最大输出<br/>电流     | 10A，峰值12A                                                 |
-| 加热棒端口最大输<br/>出电流   | 5.5A，峰值6A                                                 |
-| 风扇接口                      | 两线数控风扇（FAN0，FAN1，FAN2，FAN3），<br/>四线数控风扇（FAN4，FAN5，FAN6），<br/>常开风扇（24VFANx2），<br/>其中数控风扇和MFAN电压（5V，12V，24V）可选； |
-| 风扇接口最大输出<br/>电流     | 1A，峰值1.5A                                                 |
-| 加热棒+驱动+<br/>风扇的总电流 | ＜12A                                                        |
-| 拓展接口                      | BLTouch（Servos、Probe）、PS-ON、FWS、PWRDET、<br/>RGB*2、SPI、IND-Probe、CAN、WIFI、TFT |
-| 电机驱动                      | 支持EZ5160、EZ2209、EZ2225、EZ2226、EZ2208、EZ2130等         |
-| 驱动工作模式支持              | SPI, UART                                                    |
-| 电机驱动接口                  | Motor1，Motor2，Motor3（双电机接口），Motor4，<br/>Motor5，Motor6，Motor7，Motor8，Motor9，Motor10<br/>总共10路 |
-| 温度传感器接口                | 5路100KNTC，其中4路为NTC与PT1000可选端口                     |
-| 显示屏                        | MINI12864（FPC连接）、TFT串口屏                              |
-| PC通信接口                    | Type-C，方便插拔                                             |
-| 支持机器结构                  | Cartesian, Delta, Kossel, Ultimaker, CoreXY                  |
-| 推荐软件                      | Cura, Simplify3D, Pronterface, Repetier-host, Makerware      |
+| **外观尺寸**                      | **160mm x 100mm 详情请参考： BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf** |
+| :-------------------------------- | ------------------------------------------------------------ |
+| **安装尺寸**                      | **见BIGTREETECHOctopusMAXEZV1.0-SIZE.pdf**                   |
+| **微处理器**                      | **ARMCortex-M7STM32H723ZET6550MHz**                          |
+| **驱动输入电压**                  | **24V，HV(≤56V)可选**                                        |
+| **主板输入电压**                  | **VIN = DC12V或DC24V**                                       |
+| **热床输入电压**                  | **BED IN = DC12V或DC24V**                                    |
+| **逻辑电压**                      | **DC 3.3V**                                                  |
+| **加热接口**                      | **热床（HB）、加热棒（HE0，HE1，HE2，，HE3）**               |
+| **热床端口最大输出<br/>电流**     | **10A，峰值12A**                                             |
+| **加热棒端口最大输<br/>出电流**   | **5.5A，峰值6A**                                             |
+| **风扇接口**                      | **两线数控风扇（FAN0，FAN1，FAN2，FAN3），<br/>四线数控风扇（FAN4，FAN5，FAN6），<br/>常开风扇（24VFANx2），<br/>其中数控风扇和MFAN电压（5V，12V，24V）可选；** |
+| **风扇接口最大输出<br/>电流**     | **1A，峰值1.5A**                                             |
+| **加热棒+驱动+<br/>风扇的总电流** | **＜12A**                                                    |
+| **拓展接口**                      | **BLTouch（Servos、Probe）、PS-ON、FWS、PWRDET、<br/>RGB*2、SPI、IND-Probe、CAN、WIFI、TFT** |
+| **电机驱动**                      | **支持EZ5160、EZ2209、EZ2225、EZ2226、EZ2208、EZ2130等**     |
+| **驱动工作模式支持**              | **SPI, UART**                                                |
+| **电机驱动接口**                  | **Motor1，Motor2，Motor3（双电机接口），Motor4，<br/>Motor5，Motor6，Motor7，Motor8，Motor9，Motor10<br/>总共10路** |
+| **温度传感器接口**                | **5路100KNTC，其中4路为NTC与PT1000可选端口**                 |
+| **显示屏**                        | **MINI12864（FPC连接）、TFT串口屏**                          |
+| **PC通信接口**                    | **Type-C，方便插拔**                                         |
+| **支持机器结构**                  | **Cartesian, Delta, Kossel, Ultimaker, CoreXY**              |
+| **推荐软件**                      | **Cura, Simplify3D, Pronterface, Repetier-host, Makerware**  |
 
 ## **尺寸**
 

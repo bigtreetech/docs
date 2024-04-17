@@ -2,7 +2,7 @@
 
 <img src=img/Panda_Lux/Panda_Lux_Title.png width="600"/>
 
-## **Product Link**
+## **产品链接**
 
 https://biqu.equipment/products/panda-lux-led-upgrade-kit
 

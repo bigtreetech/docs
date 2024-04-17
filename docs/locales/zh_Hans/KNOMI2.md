@@ -2,11 +2,11 @@
 
 <img src=img/KNOMI2/KNOMI2_Title.png width="600" />
 
-## **介绍**
+## **产品简介**
 
 BIGTREETECHNomiV2.0屏幕是由必趣创新科技（深圳）有限公司3D打印团队开发的用于打印机喷嘴显示的屏幕。支持触摸，方便客户进行机器控制操作。
 
-## **主要特点**
+## **功能亮点**
 
 <table border="1">
 	<tr>
