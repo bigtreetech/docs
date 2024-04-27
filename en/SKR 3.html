@@ -1,0 +1,3891 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>SKR 3 - BIGTREETECH documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
+    
+      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
+    
+    <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-138371409-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#skr-3" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="BIGTREETECH documentation" class="md-header__button md-logo" aria-label="BIGTREETECH documentation" data-md-component="logo">
+      
+  <img src="img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BIGTREETECH documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              SKR 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2 0-.68.06-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.923 7.923 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8.008 8.008 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.65 15.65 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/en/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/zh/" hreflang="zh" class="md-select__link">
+                    简体中文
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bigtreetech/docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="SKR%20MINI%20E3.html" class="md-tabs__link md-tabs__link--active">
+        BTT
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Panda%20Flow%20X1.html" class="md-tabs__link">
+        BIQU
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="BIGTREETECH documentation" class="md-nav__button md-logo" aria-label="BIGTREETECH documentation" data-md-component="logo">
+      
+  <img src="img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    BIGTREETECH documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bigtreetech/docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          BTT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BTT" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          BTT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" type="checkbox" id="__nav_1_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1">
+          Motherboards
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Motherboards" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Motherboards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_1" type="checkbox" id="__nav_1_1_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_1">
+          SKR Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SKR Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          SKR Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20MINI%20E3.html" class="md-nav__link">
+        SKR MINI E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%203%20EZ.html" class="md-nav__link">
+        SKR 3 EZ
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          SKR 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="SKR%203.html" class="md-nav__link md-nav__link--active">
+        SKR 3
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#product-profile" class="md-nav__link">
+    Product Profile
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features-highlights" class="md-nav__link">
+    Features Highlights
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifications" class="md-nav__link">
+    Specifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firmware-support" class="md-nav__link">
+    Firmware Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dimensions" class="md-nav__link">
+    Dimensions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peripheral-interface" class="md-nav__link">
+    Peripheral Interface
+  </a>
+  
+    <nav class="md-nav" aria-label="Peripheral Interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interface-diagram" class="md-nav__link">
+    Interface Diagram
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pin-description" class="md-nav__link">
+    Pin Description
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interface-introduction" class="md-nav__link">
+    Interface Introduction
+  </a>
+  
+    <nav class="md-nav" aria-label="Interface Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usb-power-supply" class="md-nav__link">
+    USB Power Supply
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stepper-motor-drivers" class="md-nav__link">
+    Stepper Motor Drivers
+  </a>
+  
+    <nav class="md-nav" aria-label="Stepper Motor Drivers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stepdirstandalone-mode" class="md-nav__link">
+    STEP/DIR(STANDALONE) mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uart-mode-of-tmc-driver" class="md-nav__link">
+    UART mode of TMC driver
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tmc-driver-spi-mode" class="md-nav__link">
+    TMC driver SPI mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tmc-driver-diagsensorless-homing" class="md-nav__link">
+    TMC driver DIAG(Sensorless Homing)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usb-and-can-mode" class="md-nav__link">
+    USB and CAN mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voltage-selection-for-cnc-fan" class="md-nav__link">
+    Voltage selection for CNC Fan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#100k-ntc-or-pt1000-setting" class="md-nav__link">
+    100K NTC or PT1000 setting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bltouch-wiring" class="md-nav__link">
+    BLTouch wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-power-off-relay-v12-wiring" class="md-nav__link">
+    Auto power off (Relay V1.2) wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-loss-recovery-ups-24v-v10-wiring" class="md-nav__link">
+    Power loss recovery (UPS 24V V1.0) wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rgb-wiring" class="md-nav__link">
+    RGB wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filament-sensor-wiring" class="md-nav__link">
+    Filament sensor wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-wiring" class="md-nav__link">
+    Display wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heater-cartridge-io" class="md-nav__link">
+    Heater cartridge IO
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marlin" class="md-nav__link">
+    Marlin
+  </a>
+  
+    <nav class="md-nav" aria-label="Marlin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-compiling-environment" class="md-nav__link">
+    install compiling environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-marlin-firmware" class="md-nav__link">
+    Download Marlin firmware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-firmware" class="md-nav__link">
+    Configure firmware
+  </a>
+  
+    <nav class="md-nav" aria-label="Configure firmware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-marlin-project" class="md-nav__link">
+    Open Marlin project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compiling-environment" class="md-nav__link">
+    Compiling environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-motherboad-and-serial-port" class="md-nav__link">
+    Configure motherboad and serial port
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-stepper-driver" class="md-nav__link">
+    Configure stepper driver
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensorless-homing" class="md-nav__link">
+    Sensorless homing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#100k-ntc-or-pt1000" class="md-nav__link">
+    100K NTC or PT1000
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bltouch" class="md-nav__link">
+    BLTouch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-power-offrelay-v12" class="md-nav__link">
+    Auto power off(Relay V1.2)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-loss-revovery" class="md-nav__link">
+    Power loss revovery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rgb" class="md-nav__link">
+    RGB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filament-sensor" class="md-nav__link">
+    Filament sensor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-filament-sensorsfs-v10-v20" class="md-nav__link">
+    smart filament sensor(SFS V1.0 / V2.0)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#esp3d" class="md-nav__link">
+    ESP3D
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compile-firmware" class="md-nav__link">
+    Compile firmware
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#klipper" class="md-nav__link">
+    Klipper
+  </a>
+  
+    <nav class="md-nav" aria-label="Klipper">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-os-image" class="md-nav__link">
+    Download OS image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-raspberry-pi-imager" class="md-nav__link">
+    Download and install Raspberry Pi Imager
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#write-image" class="md-nav__link">
+    Write image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wifi-setting" class="md-nav__link">
+    WIFI setting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-connect-to-raspberry-pi" class="md-nav__link">
+    ssh connect to raspberry pi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compile-firmware_1" class="md-nav__link">
+    Compile firmware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-klipper" class="md-nav__link">
+    Configure Klipper
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#firmware-update" class="md-nav__link">
+    Firmware update
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#precausions" class="md-nav__link">
+    Precausions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20Pico.html" class="md-nav__link">
+        SKR Pico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20PRO%20V1.2.html" class="md-nav__link">
+        SKR PRO V1.2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20V1.4.html" class="md-nav__link">
+        SKR V1.4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKRat.html" class="md-nav__link">
+        SKRat
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_2" type="checkbox" id="__nav_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_2">
+          Octopus Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Octopus Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Octopus Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus.html" class="md-nav__link">
+        Octopus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus%20Pro.html" class="md-nav__link">
+        Octopus Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus%20MAX%20EZ.html" class="md-nav__link">
+        Octopus MAX EZ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_3" type="checkbox" id="__nav_1_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_3">
+          Manta Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Manta Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Manta Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M4P.html" class="md-nav__link">
+        M4P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M5P.html" class="md-nav__link">
+        M5P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M8P.html" class="md-nav__link">
+        M8P
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_4" type="checkbox" id="__nav_1_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_4">
+          EBB Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EBB Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          EBB Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%2036%20CAN.html" class="md-nav__link">
+        EBB 36 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%2042%20CAN.html" class="md-nav__link">
+        EBB 42 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%202240%202209%20CAN.html" class="md-nav__link">
+        EBB 2240/2209 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%202209%20CAN%20RP2040.html" class="md-nav__link">
+        EBB SB2209 CAN RP2040
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="U2C.html" class="md-nav__link">
+        U2C
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_5" type="checkbox" id="__nav_1_1_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_5">
+          MMB Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="MMB Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          MMB Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MMB%20CAN%20V1.0.html" class="md-nav__link">
+        MMB CAN V1.0
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          IOT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="IOT" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          IOT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CB1.html" class="md-nav__link">
+        CB1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PI4B.html" class="md-nav__link">
+        PI4B
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PAD7.html" class="md-nav__link">
+        PAD7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="KNOMI.html" class="md-nav__link">
+        KNOMI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="KNOMI2.html" class="md-nav__link">
+        KNOMI2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Touch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Displays
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Displays" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Displays
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT43-DIP.html" class="md-nav__link">
+        TFT43-DIP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35%20E3.html" class="md-nav__link">
+        TFT35 E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35.html" class="md-nav__link">
+        TFT35
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT24.html" class="md-nav__link">
+        TFT24
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35%20SPI.html" class="md-nav__link">
+        TFT35 SPI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI5.html" class="md-nav__link">
+        HDMI5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI7%20V1.0.html" class="md-nav__link">
+        HDMI7 V1.0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI7%20V1.2.html" class="md-nav__link">
+        HDMI7 V1.2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          Motor Drives
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Motor Drives" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Motor Drives
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_1" type="checkbox" id="__nav_1_4_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_1">
+          TMC Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="TMC Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          TMC Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2130.html" class="md-nav__link">
+        TMC2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC5160.html" class="md-nav__link">
+        TMC5160
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2209.html" class="md-nav__link">
+        TMC2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2208.html" class="md-nav__link">
+        TMC2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC5160TPlus.html" class="md-nav__link">
+        TMC5160T Plus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Tutorials.html" class="md-nav__link">
+        Subdivision Table
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_2">
+          EZ Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EZ Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          EZ Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2130.html" class="md-nav__link">
+        EZ2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2208.html" class="md-nav__link">
+        EZ2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2225.html" class="md-nav__link">
+        EZ2225
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2226.html" class="md-nav__link">
+        EZ2226
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ5160%20Pro.html" class="md-nav__link">
+        EZ5160 Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZDriver%20Connector.html" class="md-nav__link">
+        EZDriver Connector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2209.html" class="md-nav__link">
+        EZ2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2240.html" class="md-nav__link">
+        EZ2240
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ31865.html" class="md-nav__link">
+        EZ31865
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_5" type="checkbox" id="__nav_1_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_5">
+          Sensors
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sensors" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sensors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ADXL345.html" class="md-nav__link">
+        ADXL345 V2.0
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_6" type="checkbox" id="__nav_1_6" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_6">
+          Software Tutorials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Software Tutorials" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          Software Tutorials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Multiple%203D%20Printers.html" class="md-nav__link">
+        Installing and Configuring Klipper for Multiple 3D Printers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Software%20Configuration.html" class="md-nav__link">
+        Software Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Software%20Installation.html" class="md-nav__link">
+        Software Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%20Series.html" class="md-nav__link">
+        EBB Series
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="libinput_calibration.html" class="md-nav__link">
+        libinput_calibration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          BIQU
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BIQU" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          BIQU
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Panda series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda series" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Panda Hotend
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Hotend" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Hotend
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1" type="checkbox" id="__nav_2_1_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1">
+          Panda Flow/CHT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Flow/CHT" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Flow/CHT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_1" type="checkbox" id="__nav_2_1_1_1_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Flow%20X1.html" class="md-nav__link">
+        Panda Flow X1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_2" type="checkbox" id="__nav_2_1_1_1_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Flow%20P1.html" class="md-nav__link">
+        Panda Flow P1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2" type="checkbox" id="__nav_2_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2">
+          Panda Revo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Revo" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Revo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_1" type="checkbox" id="__nav_2_1_1_2_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Revo%20X1%20Hotend.html" class="md-nav__link">
+        Panda Revo X1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_2" type="checkbox" id="__nav_2_1_1_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Revo%20P1%20Hotend.html" class="md-nav__link">
+        Panda Revo P1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PandaTouch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Jet.html" class="md-nav__link">
+        Panda Jet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Fur.html" class="md-nav__link">
+        Panda Fur
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Lux.html" class="md-nav__link">
+        Panda Lux
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Extruders
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Extruders" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Extruders
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Extruders.html" class="md-nav__link">
+        Extruders
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Hotends
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hotends" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Hotends
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Hotends.html" class="md-nav__link">
+        Hotends
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Sensor modules
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sensor modules" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sensor modules
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Hermit%20Crab%202%20Series.html" class="md-nav__link">
+        Hermit Crab 2 Series
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Printers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Printers" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Printers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Printers.html" class="md-nav__link">
+        Printers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          Cooling solution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cooling solution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Cooling solution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Universal%20Turbo%20Kit.html" class="md-nav__link">
+        Universal Turbo Kit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#product-profile" class="md-nav__link">
+    Product Profile
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features-highlights" class="md-nav__link">
+    Features Highlights
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifications" class="md-nav__link">
+    Specifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firmware-support" class="md-nav__link">
+    Firmware Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dimensions" class="md-nav__link">
+    Dimensions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peripheral-interface" class="md-nav__link">
+    Peripheral Interface
+  </a>
+  
+    <nav class="md-nav" aria-label="Peripheral Interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interface-diagram" class="md-nav__link">
+    Interface Diagram
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pin-description" class="md-nav__link">
+    Pin Description
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interface-introduction" class="md-nav__link">
+    Interface Introduction
+  </a>
+  
+    <nav class="md-nav" aria-label="Interface Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usb-power-supply" class="md-nav__link">
+    USB Power Supply
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stepper-motor-drivers" class="md-nav__link">
+    Stepper Motor Drivers
+  </a>
+  
+    <nav class="md-nav" aria-label="Stepper Motor Drivers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stepdirstandalone-mode" class="md-nav__link">
+    STEP/DIR(STANDALONE) mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uart-mode-of-tmc-driver" class="md-nav__link">
+    UART mode of TMC driver
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tmc-driver-spi-mode" class="md-nav__link">
+    TMC driver SPI mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tmc-driver-diagsensorless-homing" class="md-nav__link">
+    TMC driver DIAG(Sensorless Homing)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usb-and-can-mode" class="md-nav__link">
+    USB and CAN mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voltage-selection-for-cnc-fan" class="md-nav__link">
+    Voltage selection for CNC Fan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#100k-ntc-or-pt1000-setting" class="md-nav__link">
+    100K NTC or PT1000 setting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bltouch-wiring" class="md-nav__link">
+    BLTouch wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-power-off-relay-v12-wiring" class="md-nav__link">
+    Auto power off (Relay V1.2) wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-loss-recovery-ups-24v-v10-wiring" class="md-nav__link">
+    Power loss recovery (UPS 24V V1.0) wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rgb-wiring" class="md-nav__link">
+    RGB wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filament-sensor-wiring" class="md-nav__link">
+    Filament sensor wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-wiring" class="md-nav__link">
+    Display wiring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heater-cartridge-io" class="md-nav__link">
+    Heater cartridge IO
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marlin" class="md-nav__link">
+    Marlin
+  </a>
+  
+    <nav class="md-nav" aria-label="Marlin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-compiling-environment" class="md-nav__link">
+    install compiling environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-marlin-firmware" class="md-nav__link">
+    Download Marlin firmware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-firmware" class="md-nav__link">
+    Configure firmware
+  </a>
+  
+    <nav class="md-nav" aria-label="Configure firmware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-marlin-project" class="md-nav__link">
+    Open Marlin project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compiling-environment" class="md-nav__link">
+    Compiling environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-motherboad-and-serial-port" class="md-nav__link">
+    Configure motherboad and serial port
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-stepper-driver" class="md-nav__link">
+    Configure stepper driver
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensorless-homing" class="md-nav__link">
+    Sensorless homing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#100k-ntc-or-pt1000" class="md-nav__link">
+    100K NTC or PT1000
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bltouch" class="md-nav__link">
+    BLTouch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-power-offrelay-v12" class="md-nav__link">
+    Auto power off(Relay V1.2)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-loss-revovery" class="md-nav__link">
+    Power loss revovery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rgb" class="md-nav__link">
+    RGB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filament-sensor" class="md-nav__link">
+    Filament sensor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-filament-sensorsfs-v10-v20" class="md-nav__link">
+    smart filament sensor(SFS V1.0 / V2.0)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#esp3d" class="md-nav__link">
+    ESP3D
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compile-firmware" class="md-nav__link">
+    Compile firmware
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#klipper" class="md-nav__link">
+    Klipper
+  </a>
+  
+    <nav class="md-nav" aria-label="Klipper">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-os-image" class="md-nav__link">
+    Download OS image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-raspberry-pi-imager" class="md-nav__link">
+    Download and install Raspberry Pi Imager
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#write-image" class="md-nav__link">
+    Write image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wifi-setting" class="md-nav__link">
+    WIFI setting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh-connect-to-raspberry-pi" class="md-nav__link">
+    ssh connect to raspberry pi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compile-firmware_1" class="md-nav__link">
+    Compile firmware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-klipper" class="md-nav__link">
+    Configure Klipper
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#firmware-update" class="md-nav__link">
+    Firmware update
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#precausions" class="md-nav__link">
+    Precausions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    FAQ
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/bigtreetech/docs/blob/master/docs/SKR 3.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="skr-3">SKR 3<a class="headerlink" href="#skr-3" title="Permanent link">&para;</a></h1>
+<p><img src=img/SKR3/SKR3_Title.png width="600" /></p>
+<h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
+<p>The BIGTREETECH SKR 3 mother board is a brand new 32 bit motherboard developed by Shenzhen BIQU Innovation Technology Co., Ltd. that fixed all the problems of the V1.4/Turbo board with new features and improved functionality.</p>
+<h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utilize 32bit 480MHz ARM Cortex-M7 serires STM32H743VI MCU for massively improved performance</li>
+<li>TPS5450-5A power supply chip，support DC12/24V power input, current output rated at 5A max continuous and 6A max instantaneous，sufficient power supply for Raspberry pi(3A requirement)</li>
+<li>Onboard BOOT button to enable DFU mode to update bootloader</li>
+<li>Thermistor circuit is protected to prevent MCU damage from shorted heatbed and heater cartridge connection.</li>
+<li>Selectable voltage (24V, 12V, 5V by <strong>SKR 3-DC MODE</strong>)for CNC fan (Note: The voltages of the 3 * CNC fans are unified, different voltages cannot be set separately for different ports)，no more need for external stepdown thus prevent board damage from user error</li>
+<li>Thermistor connection supports Pull up resistance value setting using jumpers, No more extra module needed for PT1000</li>
+<li>Supports all models of Serial TFT, SPI TFT, and LCD12864/2004 from BTT</li>
+<li>Firmware installation from using MicroSD card, simple and efficient</li>
+<li>Integrated SPI and UART mode of TMC driver and DIAG pin，easily configurable with jumpers</li>
+<li>Supports power loss recovery, filament runout sensor, Auto poweroff,BLTouch, RGB led etc.</li>
+<li>High efficiency MOSFET for less heat generation</li>
+<li>Replaceable fuse for easy maintenance</li>
+<li>WIFI module（ESP-12S、ESP-07、ESP32）supported</li>
+<li>Onboard SDIO MicroSD slot for Higher transfer rateOnboard EEPROM for setting storage</li>
+<li>2 method for CAN connection:USB &amp; XH2.54 6Pin，USB port CAN/USB mode is selected by switches.</li>
+</ul>
+<h2 id="specifications"><strong>Specifications</strong><a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Dimention</strong></th>
+<th align="center">110<em>85mm, for details please refer to：</em><em>BIGTREETECH SKR 3-SIZE.pdf</em>*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Mounting pattern</strong></td>
+<td align="center"><strong>102*76mm</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>MCU</strong></td>
+<td align="center"><strong>ARM Cortex-M7 STM32H743VI</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>EEPROM</strong></td>
+<td align="center"><strong>24C32 32Kbit</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Voltage in</strong></td>
+<td align="center"><strong>DC12V-DC24V</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Logic voltage</strong></td>
+<td align="center"><strong>DC 3.3V</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Heater connection</strong></td>
+<td align="center"><strong>Heated bed（HB）、heater cartridge（E0、E1）</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>HB port max current</strong></td>
+<td align="center"><strong>10A continuous ，11A instantaneous</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Heater cartridge max current</strong></td>
+<td align="center"><strong>5.5A continuous，6A instantaneous</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Fan port</strong></td>
+<td align="center"><strong>3 X CNC(selectable voltage) ,2 X always on(PSU voltage)</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Fan port max current</strong></td>
+<td align="center"><strong>1A continuous，1.5A instantaneous</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>The Total Current of Heating artridges(E0, E1) + Driver + Fan</strong></td>
+<td align="center"><strong>less than 10A</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>WIFI connection</strong></td>
+<td align="center"><strong>ESP-12S、ESP-07S、ESP32</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Expansion port</strong></td>
+<td align="center"><strong>BLTouch（Servos、Probe）、PS-ON、PWR-DET、Fil-DET、RGB、CAN FD</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Steppers supported</strong></td>
+<td align="center"><strong>TMC5160、TMC2209、TMC2225、TMC2226、TMC2208、TMC2130、ST820、LV8729、DRV8825、A4988 etc.</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Stepper driver mode</strong></td>
+<td align="center"><strong>SPI、UART、STEP/DIR</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Stepper motor socket</strong></td>
+<td align="center"><strong>X、Y、Z（Parallel double Z-Axis）、E0、E1 5 channels in total</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Thermistor</strong></td>
+<td align="center"><strong>2 X thermistor port(NTC/PTC selectable)</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Display</strong></td>
+<td align="center"><strong>Serial、SPI、LCD</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>PC connection</strong></td>
+<td align="center"><strong>USB A</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Supported file format</strong></td>
+<td align="center"><strong>G-code</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Supported kinematics</strong></td>
+<td align="center"><strong>Cartesian、Delta、Kossel、Ultimaker、CoreXY</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>Recommended Slicer/Console</strong></td>
+<td align="center"><strong>Cura、Simplify3D、Pronterface、Repetier-host、Makerware</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="firmware-support"><strong>Firmware Support</strong><a class="headerlink" href="#firmware-support" title="Permanent link">&para;</a></h2>
+<p>Compatible with Klipper, Marlin, RRF(RepRapFirmware) </p>
+<h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
+<p><img src=img/SKR3/SKR3_Dimension.png width="600" /></p>
+<h2 id="peripheral-interface"><strong>Peripheral Interface</strong><a class="headerlink" href="#peripheral-interface" title="Permanent link">&para;</a></h2>
+<h3 id="interface-diagram">Interface Diagram<a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h3>
+<p><img src=img/SKR3/SKR3_Interface.png width="600" /></p>
+<h3 id="pin-description">Pin Description<a class="headerlink" href="#pin-description" title="Permanent link">&para;</a></h3>
+<p><img src=img/SKR3/SKR3_Pinout.png width="600" /></p>
+<h2 id="interface-introduction"><strong>Interface Introduction</strong><a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
+<h3 id="usb-power-supply">USB Power Supply<a class="headerlink" href="#usb-power-supply" title="Permanent link">&para;</a></h3>
+<p>After the SKR 3 board has been powered，the Red led D7(Power) to the upper right of the MCU will light up, indicating power on. When using only USB to power the boar, Please insert the jumper cap onto the VUSB jumper.</p>
+<p><img src=img/SKR3/SKR3_USB.png width="600" /></p>
+<h3 id="stepper-motor-drivers">Stepper Motor Drivers<a class="headerlink" href="#stepper-motor-drivers" title="Permanent link">&para;</a></h3>
+<h4 id="stepdirstandalone-mode">STEP/DIR(STANDALONE) mode<a class="headerlink" href="#stepdirstandalone-mode" title="Permanent link">&para;</a></h4>
+<p>i.e：A4988、DRV8825、LV8729、ST820 etc，connect jumpers(MS0-MS2) according to the microstep chart</p>
+<p><img src=img/SKR3/SKR3_Step.png width="600" /></p>
+<p>For details, please click: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<h4 id="uart-mode-of-tmc-driver">UART mode of TMC driver<a class="headerlink" href="#uart-mode-of-tmc-driver" title="Permanent link">&para;</a></h4>
+<p>i.e：TMC2208、TMC2209、TMC2225 etc. Place jumpers according to the diagram below，microstep and current can be configured in firmware.</p>
+<p><img src=img/SKR3/SKR3_Uart.png width="600" /></p>
+<h4 id="tmc-driver-spi-mode">TMC driver SPI mode<a class="headerlink" href="#tmc-driver-spi-mode" title="Permanent link">&para;</a></h4>
+<p>i.e：TMC2130、TMC5160、TMC5161 et.c，Place jumpers according to the diagram below，microstep and current can be configured in firmware.</p>
+<p><img src=img/SKR3/SKR3_SPI.png width="600" /></p>
+<h4 id="tmc-driver-diagsensorless-homing">TMC driver DIAG(Sensorless Homing)<a class="headerlink" href="#tmc-driver-diagsensorless-homing" title="Permanent link">&para;</a></h4>
+<p>When using sensorless homing, place jumpers according to the diagram below, there is no need to cut the DIAG pin off when not being used.</p>
+<p><img src=img/SKR3/SKR3_Diag.png width="600" /></p>
+<h3 id="usb-and-can-mode">USB and CAN mode<a class="headerlink" href="#usb-and-can-mode" title="Permanent link">&para;</a></h3>
+<p>When the button shown below is released, the board is in usb mode, when pressed down, the board is in CAN FD mode.</p>
+<p><img src=img/SKR3/SKR3_USB_CAN.png width="600" /></p>
+<h3 id="voltage-selection-for-cnc-fan">Voltage selection for CNC Fan<a class="headerlink" href="#voltage-selection-for-cnc-fan" title="Permanent link">&para;</a></h3>
+<p>Connect jumper between the two pins of VIN if using DCIN as CNC fan voltage.
+Connect jumper between the two pins of VOT and insert SKR 3-DC MODE on to the 2*4 Pin sockets if 12V or 5V is desired *</p>
+<p><font  color="red"><strong>Note: The voltages of the 3xCNC fans are unified, different voltages cannot be set separately. i.e: the voltage of 3xCNC can be set to 24V, 12V or 5V at the same time, but it cannot be set to the combination of 24V+12V+5V.</strong></font></p>
+<p><img src=img/SKR3/SKR3_CNC.png width="600" /></p>
+<p>Voltage of the SKR 3-DC MODE is set by connecting jumpers on 5V or 12V on VOTChoose pins.</p>
+<p><img src=img/SKR3/SKR3_CNC1.png width="600" /></p>
+<h3 id="100k-ntc-or-pt1000-setting">100K NTC or PT1000 setting<a class="headerlink" href="#100k-ntc-or-pt1000-setting" title="Permanent link">&para;</a></h3>
+<p>When using 100K NTC no jumpers need to be connected，the pull up resistance of TH0 &amp; TH1 is 4.7K. When using PT1000 the jumpers indicated in the picture below needs to be connected, the pull up resistance of TH0 &amp; TH1 is changed to 1K.</p>
+<p><img src=img/SKR3/SKR3_100K.png width="600" /></p>
+<h3 id="bltouch-wiring">BLTouch wiring<a class="headerlink" href="#bltouch-wiring" title="Permanent link">&para;</a></h3>
+<p><img src=img/SKR3/SKR3_BLtouch.png width="600" /></p>
+<h3 id="auto-power-off-relay-v12-wiring">Auto power off (Relay V1.2) wiring<a class="headerlink" href="#auto-power-off-relay-v12-wiring" title="Permanent link">&para;</a></h3>
+<p><img src=img/SKR3/SKR3_Auto.png width="600" /></p>
+<h3 id="power-loss-recovery-ups-24v-v10-wiring">Power loss recovery (UPS 24V V1.0) wiring<a class="headerlink" href="#power-loss-recovery-ups-24v-v10-wiring" title="Permanent link">&para;</a></h3>
+<p><img src=img/SKR3/SKR3_Power.png width="600" /></p>
+<h3 id="rgb-wiring">RGB wiring<a class="headerlink" href="#rgb-wiring" title="Permanent link">&para;</a></h3>
+<p><img src=img/SKR3/SKR3_RGB.png width="600" /></p>
+<h3 id="filament-sensor-wiring">Filament sensor wiring<a class="headerlink" href="#filament-sensor-wiring" title="Permanent link">&para;</a></h3>
+<p><img src=img/SKR3/SKR3_Filament.png width="600" /></p>
+<h3 id="display-wiring">Display wiring<a class="headerlink" href="#display-wiring" title="Permanent link">&para;</a></h3>
+<p><img src=img/SKR3/SKR3_Display.png width="600" /></p>
+<h3 id="heater-cartridge-io">Heater cartridge IO<a class="headerlink" href="#heater-cartridge-io" title="Permanent link">&para;</a></h3>
+<p>The IO of the SKR 3 heater cartridge is wired to the MOS by the jumper. You can remove the jumper and connect the IO to device directly if you need to use the laser or other device that need PWM. </p>
+<p><font  color="red"><strong>Note: The IO passes through logic conversion chip, the output high level is 5V, and cannot be used as an input.</strong></font></p>
+<p><img src=img/SKR3/SKR3_Heater.png width="600" /></p>
+<h2 id="marlin"><strong>Marlin</strong><a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h2>
+<h3 id="install-compiling-environment">install compiling environment<a class="headerlink" href="#install-compiling-environment" title="Permanent link">&para;</a></h3>
+<p><a href="https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md">https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</a></p>
+<p><a href="https://marlinfw.org/docs/basics/install_platformio_vscode.html">https://marlinfw.org/docs/basics/install_platformio_vscode.html</a></p>
+<p>Refer to the link above for tutorial on installing VSCode and PlatformIO plugin</p>
+<h3 id="download-marlin-firmware">Download Marlin firmware<a class="headerlink" href="#download-marlin-firmware" title="Permanent link">&para;</a></h3>
+<p>1、Download the newest bugfix version of Marlin from official website</p>
+<p><a href="https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x">https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x</a></p>
+<p>2、Download Pre-configured firmware from our GitHub page</p>
+<p><a href="https://github.com/bigtreetech/SKR-3">https://github.com/bigtreetech/SKR-3</a></p>
+<h3 id="configure-firmware">Configure firmware<a class="headerlink" href="#configure-firmware" title="Permanent link">&para;</a></h3>
+<h4 id="open-marlin-project">Open Marlin project<a class="headerlink" href="#open-marlin-project" title="Permanent link">&para;</a></h4>
+<p>You can open Marlin in VS Code in one of several ways:</p>
+<ul>
+<li>Drag the downloaded Marlin Firmware folder onto the VScode application icon</li>
+<li>Use the <strong>Open…</strong> command in the VSCode <strong>File</strong> menu</li>
+<li>Open the PIO Home tab and click the “<strong>Open Project</strong>” button</li>
+</ul>
+<h4 id="compiling-environment">Compiling environment<a class="headerlink" href="#compiling-environment" title="Permanent link">&para;</a></h4>
+<p>Open <strong>platformio.ini</strong> file and change <strong>default_envs</strong> to <strong>STM32H743Vx_btt</strong></p>
+<p><img src=img/SKR3/SKR3_Marlin1.png width="600" /></p>
+<h4 id="configure-motherboad-and-serial-port">Configure motherboad and serial port<a class="headerlink" href="#configure-motherboad-and-serial-port" title="Permanent link">&para;</a></h4>
+<p>Set <code>MOTHERBOARD</code> to <code>BOARD_BTT_SKR_3</code></p>
+<p><strong>Enable serial ports according to your needs</strong></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>MOTHERBOARD BOARD_BTT_SKR_3</strong></font></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>SERIAL_PORT</strong></font> <font  color="green"><strong>1</strong></font> (enable TFT serial port)</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>BAUDRATE</strong></font> <font  color="green"><strong>115200</strong></font> （set baudrate to the same as the communication device）</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>SERIAL_PORT_2 </strong></font> <font  color="green"><strong>-1</strong> </font>（enable USB serial port）</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>SERIAL_PORT_3</strong></font> <font  color="green"><strong>3</strong> </font> （enable WIFI serial port）</p>
+<p><img src=img/SKR3/SKR3_Marlin2.png width="600" /></p>
+<h4 id="configure-stepper-driver">Configure stepper driver<a class="headerlink" href="#configure-stepper-driver" title="Permanent link">&para;</a></h4>
+<p><img src=img/SKR3/SKR3_Marlin3.png width="600" /></p>
+<p>When using SPI mode，<font  color="blue"><strong>TMC_USE_SW_SPI</strong></font> needs to be Uncommented in Configuration_adv.h</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>TMC_USE_SW_SPI</strong></font></p>
+<p><img src=img/SKR3/SKR3_Marlin4.png width="600" /></p>
+<h4 id="sensorless-homing">Sensorless homing<a class="headerlink" href="#sensorless-homing" title="Permanent link">&para;</a></h4>
+<p><img src=img/SKR3/SKR3_Marlin5.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>SENSORLESS_HOMING</strong></font> // enable sensorless homing</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>xx_STALL_SENSITIVITY </strong></font> <font  color="green"><strong>8</strong></font> // sensitivity setting ,TMC2209 range from 0 to 255，higher number results in more sensitive trigger threshold，sensitivity too high will cause endpoint to trigger before gantry actually move to the end，lower number results in less sensitive trigger threshold,，too low of sensitivity will cause endpoint to not trigger and gantrying continue。Other drivers ranges from 63 to -64，lower numbers results in more sensitive triger threshold </p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>IMPROVE_HOMING_RELIABILITY</strong></font> // can be used to set independent motor current for homing moves(xx_CURRENT_HOME) to improve homing reliability.</p>
+<h4 id="100k-ntc-or-pt1000">100K NTC or PT1000<a class="headerlink" href="#100k-ntc-or-pt1000" title="Permanent link">&para;</a></h4>
+<p>When using 100K NTC, pullup resistance is 4.7K, when using Pt1000, pullup resistance is 1K,set sensor type to 1 for 100K NTC +4.7K pullup resistance ，
+1010 for PT1000 + 1K pullup resistance.</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>TEMP_SENSOR_0 </strong></font><font  color="green"><strong>1</strong></font></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>TEMP_SENSOR_1 </strong></font><font  color="green"><strong>1</strong></font></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>TEMP_SENSOR_BED </strong></font><font  color="green"><strong>1</strong></font></p>
+<p><img src=img/SKR3/SKR3_Marlin6.png width="600" /></p>
+<h4 id="bltouch">BLTouch<a class="headerlink" href="#bltouch" title="Permanent link">&para;</a></h4>
+<p><img src=img/SKR3/SKR3_Marlin7.png width="600" /></p>
+<p><font  color="green"><strong>//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN</strong></font></p>
+<p><img src=img/SKR3/SKR3_Marlin8.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>BLTOUCH</strong></font>  // Enable bltouch</p>
+<p><img src=img/SKR3/SKR3_Marlin9.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NOZZLE_TO_PROBE_OFFSET</strong></font>  <font  color="green"><strong>{ -40, -10, -2.85 }</strong></font>  // set BLtouch probe offset</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PROBING_MARGIN</strong></font>  <font  color="green"><strong>10</strong></font> // set distance between probe area and print area perimeter</p>
+<p><img src=img/SKR3/SKR3_Marlin10.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>AUTO_BED_LEVELING_BILINEAR</strong></font> // set probe pattern</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>RESTORE_LEVELING_AFTER_G28</strong></font> // apply leveling after G28 homing command</p>
+<p><img src=img/SKR3/SKR3_Marlin11.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>GRID_MAX_POINTS_X </strong></font> <font  color="green"><strong>5</strong></font> // set number of probe points for x axis, usually 5 point is sufficient
+<font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>GRID_MAX_POINTS_Y GRID_MAX_POINTS_X</strong></font> // set number of probe points for Y axis to the same as X axis</p>
+<p>If bltouch also functions as your Z homing sensor，no wiring change is needed,</p>
+<p><img src=img/SKR3/SKR3_Marlin12.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>USE_PROBE_FOR_Z_HOMING</strong></font> // use Z Probe(BLtouch) for Z homing</p>
+<p><img src=img/SKR3/SKR3_Marlin13.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>Z_SAFE_HOMING</strong></font> // home Z at the center of print bed to prevent probing outside of the print bed.</p>
+<h4 id="auto-power-offrelay-v12">Auto power off(Relay V1.2)<a class="headerlink" href="#auto-power-offrelay-v12" title="Permanent link">&para;</a></h4>
+<p><img src=img/SKR3/SKR3_Marlin14.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PSU_CONTROL</strong></font> // enable PSU control to turn on and off using M80 and M81</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PSU_ACTIVE_STATE HIGH </strong></font> // set turn on level， Relay V1.2 is turned on with high level and turned off with low level ,so this setting needs to be 
+HIGH.</p>
+<h4 id="power-loss-revovery">Power loss revovery<a class="headerlink" href="#power-loss-revovery" title="Permanent link">&para;</a></h4>
+<p>There are two methods for power lost recovery</p>
+<p>1、No extra module needed, the motherboard will write current print status to the SD card after every layer is printed, which shortens the life of the SD 
+card severely.</p>
+<p><img src=img/SKR3/SKR3_Marlin15.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>POWER_LOSS_RECOVERY</strong></font> // enable power loss recovery#define</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PLR_ENABLED_DEFAULT true</strong></font> // true default to power loss recovery enabled</p>
+<p>2、external UPS 24V V1.0 module，when power is cut, the module will provide power to the board and signal the board to save current print status to SD card. This method has virtually no effect on the life of the SD card.</p>
+<p><img src=img/SKR3/SKR3_Marlin16.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>POWER_LOSS_RECOVERY</strong></font> // enable power loss recovery</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PLR_ENABLED_DEFAULT true</strong></font> // true default to power loss recovery enanbled</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>POWER_LOSS_ZRAISE</strong></font> <font  color="green"><strong>10</strong></font> // raise the print head by 10mm after power loss to prevent the nozzle from touching the printed part.</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>POWER_LOSS_STATE HIGH </strong></font> // set signal level， UPS 24V V1.0 returns low level when not triggered and HIGH level when power is cut, thus this setting needs to be HIGH. </p>
+<h4 id="rgb">RGB<a class="headerlink" href="#rgb" title="Permanent link">&para;</a></h4>
+<p><img src=img/SKR3/SKR3_Marlin17.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NEOPIXEL_LED</strong></font> // enable Neopixel
+<font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NEOPIXEL_TYPE NEO_GRB </strong></font> // set Neopixel type
+<font  color="green"><strong>//#define NEOPIXEL_PIN 4</strong></font> // disable PIN setting，use the correct signal pin in the pin file of the motherboard 
+<font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NEOPIXEL_PIXELS</strong></font> <font  color="green"><strong>30</strong></font> // number of leds
+<font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NEOPIXEL_STARTUP_TEST</strong></font> // the light will show red green and blue sequentially to self-test.</p>
+<p>If you are using displays like LCD2004、12864、mini12864 etc，you can also control RGB from your display directly.</p>
+<p><img src=img/SKR3/SKR3_Marlin18.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>LED_CONTROL_MENU</strong></font> // And led control to your menu</p>
+<h4 id="filament-sensor">Filament sensor<a class="headerlink" href="#filament-sensor" title="Permanent link">&para;</a></h4>
+<p>Standard filament run out sensors are usually comprised of a microswitch which signals the mainboard of filament status with High or Low level signal.</p>
+<p><img src=img/SKR3/SKR3_Marlin19.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FILAMENT_RUNOUT_SENSOR</strong></font> // enable filament run out sensor
+<font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FIL_RUNOUT_ENABLED_DEFAULT true</strong></font> // true default to filament run out sensor enanbled 
+<font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NUM_RUNOUT_SENSORS</strong></font> <font  color="green"><strong>1</strong></font> // number of filament run out sensor
+<font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FIL_RUNOUT_STATE LOW </strong></font> // voltage level of the filament runout sensor trigger signal.</p>
+<h4 id="smart-filament-sensorsfs-v10-v20">smart filament sensor(SFS V1.0 / V2.0)<a class="headerlink" href="#smart-filament-sensorsfs-v10-v20" title="Permanent link">&para;</a></h4>
+<p>The Smart filament sensor works by continuously sending signal to the mainboard to communicate filament status</p>
+<p><img src=img/SKR3/SKR3_Marlin20.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FILAMENT_MOTION_SENSOR</strong></font> // set encoder type
+<font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FILAMENT_RUNOUT_DISTANCE_MM</strong></font> <font  color="green"><strong>3</strong></font> // set sensitivity，SFS V1.0 nominal setting should be 7mm，which means if no signal of filament movement is detected after 7mm of filament travel command, filament error will be triggered ，SFS V2.0 nominal setting should be 3mm</p>
+<p>The settings below also need to be set to instruct the printer to park the nozzle after filament error is detected.</p>
+<p><img src=img/SKR3/SKR3_Marlin21.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NOZZLE_PARK_FEATURE </strong></font> // park nozzle</p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 }</strong></font> //set the X,Y,and Z offset coordinate of the nozzle</p>
+<p><img src=img/SKR3/SKR3_Marlin22.png width="600" /></p>
+<p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>ADVANCED_PAUSE_FEATURE</strong></font> // retraction setting of nozzle park movement and filament purge distance after print is resumed.</p>
+<h4 id="esp3d">ESP3D<a class="headerlink" href="#esp3d" title="Permanent link">&para;</a></h4>
+<p>The serial port between ESP8266 and Marlin on the motherboard is UART3</p>
+<p><img src=img/SKR3/SKR3_Marlin23.png width="600" /></p>
+<p>the newest ESP3D firmware can be found at <a href="https://github.com/luc-github/ESP3D">https://github.com/luc-github/ESP3D</a> ,compile your own binary file and rename to <code>esp3d.bin</code>, copy to 
+the root directory of the sd card, insert into the motherboard and press reset button. The bootloader will update the firmware to ESP8266 automatically. If updated successfully, the file will be renamed to ESP3D.CUR</p>
+<h4 id="compile-firmware">Compile firmware<a class="headerlink" href="#compile-firmware" title="Permanent link">&para;</a></h4>
+<p>1、Click <code>√</code> to compile firmware</p>
+<p><img src=img/SKR3/SKR3_Marlin24.png width="600" /></p>
+<p>2、Copy the compiled <code>firmware.bin</code> to SD card and insert to motherboard to update firmware</p>
+<p><img src=img/SKR3/SKR3_Marlin25.png width="600" /></p>
+<h2 id="klipper"><strong>Klipper</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h2>
+<h3 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permanent link">&para;</a></h3>
+<h4 id="download-os-image">Download OS image<a class="headerlink" href="#download-os-image" title="Permanent link">&para;</a></h4>
+<p>Download your preferred OS image with build in WebUI，popular choices are Fluidd, Mainsail etc.</p>
+<p>Fluidd：<a href="https://github.com/fluidd-core/FluiddPI/releases">https://github.com/fluidd-core/FluiddPI/releases</a></p>
+<p><img src=img/SKR3/SKR3_Klipper1.png width="600" /></p>
+<p>Mainsail：<a href="https://github.com/mainsail-crew/MainsailOS/releases">https://github.com/mainsail-crew/MainsailOS/releases</a></p>
+<p><img src=img/SKR3/SKR3_Klipper2.png width="600" /></p>
+<p>Or refer to <font  color="blue"><strong>Klipper official installation guide</strong></font> using Octoprint</p>
+<h4 id="download-and-install-raspberry-pi-imager">Download and install Raspberry Pi Imager<a class="headerlink" href="#download-and-install-raspberry-pi-imager" title="Permanent link">&para;</a></h4>
+<p>Install the official raspberry pi imager <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a></p>
+<h3 id="write-image">Write image<a class="headerlink" href="#write-image" title="Permanent link">&para;</a></h3>
+<p>For details, please click: <a href="https://bttwiki.com/Software%20Installation.html#write-os">https://bttwiki.com/Software%20Installation.html#write-os</a></p>
+<h3 id="wifi-setting">WIFI setting<a class="headerlink" href="#wifi-setting" title="Permanent link">&para;</a></h3>
+<p><font  color="red"><strong>NOTE：skip this step if you are using ethernet port not using WIFI </strong></font></p>
+<p>1、Reinsert the SD card</p>
+<p>2、Find“fluiddpi-wpa-supplicant.txt”or “mainsail-wpa-supplicant.txt”in the SD card root directory, open it with VSCode (do not open it with windows 
+notepad)</p>
+<p><img src=img/SKR3/SKR3_WIFI1.png width="600" /></p>
+<p>3、delete <code>#</code> ,insert the correct wifi SSID and password then save the file，</p>
+<p><img src=img/SKR3/SKR3_WIFI2.png width="600" /></p>
+<h3 id="ssh-connect-to-raspberry-pi">ssh connect to raspberry pi<a class="headerlink" href="#ssh-connect-to-raspberry-pi" title="Permanent link">&para;</a></h3>
+<p>1、Install the ssh application Mobaxterm：<a href="https://mobaxterm.mobatek.net/download-home-edition.html">https://mobaxterm.mobatek.net/download-home-edition.html</a></p>
+<p>2、Insert SD card to raspberry pi，wait for system to load after power one，aprox. 1-2min</p>
+<p>3、The raspberry pi will automatically be assigned a IP address after successfully connected to the network</p>
+<p>4、Find the raspberry pi IP address in your router page</p>
+<p><img src=img/SKR3/SKR3_WIFI3.png width="600" /></p>
+<p>5、Or use the <a href="https://angryip.org/">https://angryip.org/</a> tool，scan all IP address in the current network organize by names, find the IP named Fluidd or Mailsail like shown 
+below</p>
+<p><img src=img/SKR3/SKR3_WIFI4.png width="600" /></p>
+<p>6、Open Mobaxtermand click“Session”，and click“SSH”，inset the raspberry pi IP into Remote host and click“OK”</p>
+<p><font  color="red"><strong>NOTE：your computer and the raspberry pi needs to be in the same network </strong></font></p>
+<p><img src=img/SKR3/SKR3_WIFI5.png width="600" /></p>
+<p>7、login as：pi password：raspberry</p>
+<p><img src=img/SKR3/SKR3_WIFI6.png width="600" /></p>
+<h3 id="compile-firmware_1">Compile firmware<a class="headerlink" href="#compile-firmware_1" title="Permanent link">&para;</a></h3>
+<p>1、After ssh successfully connected to the raspberry pi, enter in terminal:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~/klipper/
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>make menuconfig
+</code></pre></div>
+<p>Compile with the configuration shown below(if the options below is not available, please update you Klipper source code to the newest version)</p>
+<ul>
+<li>[*] Enable extra low-level configuration options </li>
+<li>Micro-controller Architecture (STMicroelectronics STM32) ---&gt; </li>
+<li>Processor model (STM32H743) ---&gt; </li>
+<li>Bootloader offset (128KiB bootloader (SKR SE BX v2.0)) ---&gt; </li>
+<li>Clock Reference (25 MHz crystal) ---&gt; </li>
+<li>Communication interface (USB (on PA11/PA12)) ---&gt;</li>
+</ul>
+<p><img src=img/SKR3/SKR3_Firmware1.png width="600" /></p>
+<p>2、Press <code>q</code> to exit, and <code>Yes</code> when asked to save the configuration</p>
+<p>3、Run make to compile firmware，“klipper.bin”file will be generated in home/pi/kliiper/out folder when make is finished, download it onto your 
+computer using the ssh application.</p>
+<p><img src=img/SKR3/SKR3_Firmware2.png width="600" /></p>
+<p>4、Rename klipper.bin to“firmware.bin”，copy to SD card to update firmware</p>
+<p>5、Enter：ls /dev/serial/by-id/in command line to check motherboad ID to confirm whether firmware is updated successfully like showm below.</p>
+<p><img src=img/SKR3/SKR3_Firmware3.png width="600" /></p>
+<p>copy and save this ID，it is needed when modifying klipper config</p>
+<h3 id="configure-klipper">Configure Klipper<a class="headerlink" href="#configure-klipper" title="Permanent link">&para;</a></h3>
+<p>1、Enter your raspberry pi IP address into your browser to open the webUI，find the reference config for motherboard in the directory shown below，if 
+there is no such config available, update your klipper source code to the newest version or download from github:<a href="https://github.com/bigtreetech/SKR-3">https://github.com/bigtreetech/SKR-3</a></p>
+<p><img src=img/SKR3/SKR3_Klipper1.png width="600" /></p>
+<p>2、Upload your finished config file into Configuration Files, and rename to <code>printer.cfg</code></p>
+<p><img src=img/SKR3/SKR3_Klipper2.png width="600" /></p>
+<p>3、Insert the correct motherboad ID</p>
+<p><img src=img/SKR3/SKR3_Klipper3.png width="600" /></p>
+<p>4、Refer to <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a> for detailed configuration guide according to your machine type.</p>
+<h3 id="firmware-update">Firmware update<a class="headerlink" href="#firmware-update" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Update using Micro SD</li>
+<li>Make sure Micro SD is formatted to FAT32</li>
+<li>Rename your firmware file to“firmware.bin”（note：make sure your system is showing file suffix, if suffix is hided,“firmware.bin”will be shown 
+   as“firmware”）</li>
+<li>Copy“firmware.bin”to the root directory of your SD card.</li>
+<li>Insert Micro SD to the motherboard and power on, the bootloader will automatically update the firmware</li>
+<li>The status indicator led will flash during the update process</li>
+<li>When the led stops flashing and the firmware.bin file has been renamed to firmware.cur, the firmware has been successfully updated.</li>
+</ol>
+<h2 id="precausions"><strong>Precausions</strong><a class="headerlink" href="#precausions" title="Permanent link">&para;</a></h2>
+<ol>
+<li>When not using PT1000,do not connect any jumper in the PT1000 pins，otherwise 100K NTC will not work.</li>
+<li>Maximum heated bed current is 10A，if high power heated bed is preferred, please use 24v to power the system and use a 24v heated bed.</li>
+<li>CNC fan voltage selecting jumper must be inserted for CNC fan port to work correctly</li>
+<li>If the board is plugged into your computer and not responding, make sure the USB/CAN selecting button is released and set to USB mode.</li>
+<li>The Micro SD card slot is not spring loaded, please be careful when inserting the Micro SD card to prevent damage to the card slot. BTT is not 
+    responsible for any damage caused by forcefully inserting the Micro SD card</li>
+</ol>
+<h2 id="faq"><strong>FAQ</strong><a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<p><strong>Q: Max current of heated bed,heater cartridge,fan port?</strong> 
+A：heated bed： 10A continuous，11A instantaneous
+      heater cartridge： 5.5A continuous，6A instantaneous
+       Fan port: 1A continuous，1.5A instantaneous
+       combined current of heater cartridges(E0, E1), stepper driver and fan port should not exceed 10A</p>
+<p><strong>Q：Can not update firmware with SD card</strong> 
+A：make sure your sd card is formatted to FAT32，firmware file name is <code>firmware.bin</code>, make sure your system is showing file suffix, if suffix is 
+hided,“firmware.bin”will be shown as <code>firmware</code>.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="SKR%203%20EZ.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: SKR 3 EZ" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              SKR 3 EZ
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="SKR%20Pico.html" class="md-footer__link md-footer__link--next" aria-label="Next: SKR Pico" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              SKR Pico
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+    
+  </body>
+</html>

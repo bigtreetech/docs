@@ -1,0 +1,4062 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>CB1 - BIGTREETECH 文档</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
+    
+      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
+    
+    <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-138371409-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cb1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="." title="BIGTREETECH 文档" class="md-header__button md-logo" aria-label="BIGTREETECH 文档" data-md-component="logo">
+      
+  <img src="img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BIGTREETECH 文档
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CB1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="选择当前语言">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2 0-.68.06-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.923 7.923 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8.008 8.008 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.65 15.65 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/en/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/zh/" hreflang="zh" class="md-select__link">
+                    简体中文
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bigtreetech/docs/" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="SKR%20MINI%20E3.html" class="md-tabs__link md-tabs__link--active">
+        BTT
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Panda%20Flow%20X1.html" class="md-tabs__link">
+        BIQU
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="BIGTREETECH 文档" class="md-nav__button md-logo" aria-label="BIGTREETECH 文档" data-md-component="logo">
+      
+  <img src="img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    BIGTREETECH 文档
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bigtreetech/docs/" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          BTT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BTT" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          BTT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" type="checkbox" id="__nav_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1">
+          主板
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="主板" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          主板
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_1" type="checkbox" id="__nav_1_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_1">
+          SKR系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SKR系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          SKR系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20MINI%20E3.html" class="md-nav__link">
+        SKR MINI E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%203%20EZ.html" class="md-nav__link">
+        SKR 3 EZ
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%203.html" class="md-nav__link">
+        SKR 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20Pico.html" class="md-nav__link">
+        SKR Pico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20PRO%20V1.2.html" class="md-nav__link">
+        SKR PRO V1.2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20V1.4.html" class="md-nav__link">
+        SKR V1.4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKRat.html" class="md-nav__link">
+        SKRat
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_2" type="checkbox" id="__nav_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_2">
+          Octopus系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Octopus系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Octopus系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus.html" class="md-nav__link">
+        Octopus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus%20Pro.html" class="md-nav__link">
+        Octopus Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus%20MAX%20EZ.html" class="md-nav__link">
+        Octopus MAX EZ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_3" type="checkbox" id="__nav_1_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_3">
+          Manta系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Manta系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Manta系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M4P.html" class="md-nav__link">
+        M4P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M5P.html" class="md-nav__link">
+        M5P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M8P.html" class="md-nav__link">
+        M8P
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_4" type="checkbox" id="__nav_1_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_4">
+          EBB系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EBB系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          EBB系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%2036%20CAN.html" class="md-nav__link">
+        EBB 36 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%2042%20CAN.html" class="md-nav__link">
+        EBB 42 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%202240%202209%20CAN.html" class="md-nav__link">
+        EBB 2240/2209 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%202209%20CAN%20RP2040.html" class="md-nav__link">
+        EBB SB2209 CAN RP2040
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="U2C.html" class="md-nav__link">
+        U2C
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_5" type="checkbox" id="__nav_1_1_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_5">
+          MMB系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="MMB系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          MMB系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MMB%20CAN%20V1.0.html" class="md-nav__link">
+        MMB CAN V1.0
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          物联网
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="物联网" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          物联网
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          CB1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="CB1.html" class="md-nav__link md-nav__link--active">
+        CB1
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    产品简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    功能亮点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    规格
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    产品尺寸
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    原理图
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    外设接口
+  </a>
+  
+    <nav class="md-nav" aria-label="外设接口">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#40-pin-gpio" class="md-nav__link">
+    40 pin GPIO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-100-pins" class="md-nav__link">
+    2 * 100 pins
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    软件配置
+  </a>
+  
+    <nav class="md-nav" aria-label="软件配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    配置网络
+  </a>
+  
+    <nav class="md-nav" aria-label="配置网络">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    使用网线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wifi-settings" class="md-nav__link">
+    WiFi Settings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlays-settings" class="md-nav__link">
+    Overlays Settings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh" class="md-nav__link">
+    SSH 连接
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    软件安装
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    产品购买链接
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PI4B.html" class="md-nav__link">
+        PI4B
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PAD7.html" class="md-nav__link">
+        PAD7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="KNOMI.html" class="md-nav__link">
+        KNOMI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="KNOMI2.html" class="md-nav__link">
+        KNOMI2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Touch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          显示屏
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="显示屏" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          显示屏
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT43-DIP.html" class="md-nav__link">
+        TFT43-DIP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35%20E3.html" class="md-nav__link">
+        TFT35 E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35.html" class="md-nav__link">
+        TFT35
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT24.html" class="md-nav__link">
+        TFT24
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35%20SPI.html" class="md-nav__link">
+        TFT35 SPI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI5.html" class="md-nav__link">
+        HDMI5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI7%20V1.0.html" class="md-nav__link">
+        HDMI7 V1.0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI7%20V1.2.html" class="md-nav__link">
+        HDMI7 V1.2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          电机驱动
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="电机驱动" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          电机驱动
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_1" type="checkbox" id="__nav_1_4_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_1">
+          TMC系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="TMC系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          TMC系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2130.html" class="md-nav__link">
+        TMC2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC5160.html" class="md-nav__link">
+        TMC5160
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2209.html" class="md-nav__link">
+        TMC2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2208.html" class="md-nav__link">
+        TMC2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC5160TPlus.html" class="md-nav__link">
+        TMC5160T Plus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Tutorials.html" class="md-nav__link">
+        细分表
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_2">
+          EZ系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EZ系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          EZ系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2130.html" class="md-nav__link">
+        EZ2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2208.html" class="md-nav__link">
+        EZ2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2225.html" class="md-nav__link">
+        EZ2225
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2226.html" class="md-nav__link">
+        EZ2226
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ5160%20Pro.html" class="md-nav__link">
+        EZ5160 Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZDriver%20Connector.html" class="md-nav__link">
+        EZDriver Connector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2209.html" class="md-nav__link">
+        EZ2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2240.html" class="md-nav__link">
+        EZ2240
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ31865.html" class="md-nav__link">
+        EZ31865
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_5" type="checkbox" id="__nav_1_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_5">
+          Sensors
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sensors" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sensors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ADXL345.html" class="md-nav__link">
+        ADXL345 V2.0
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_6" type="checkbox" id="__nav_1_6" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_6">
+          软件教程
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="软件教程" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          软件教程
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Multiple%203D%20Printers.html" class="md-nav__link">
+        为多台3D打印机安装和配置Klipper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Software%20Configuration.html" class="md-nav__link">
+        软件配置
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Software%20Installation.html" class="md-nav__link">
+        软件安装
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%20Series.html" class="md-nav__link">
+        EBB 系列
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="libinput_calibration.html" class="md-nav__link">
+        libinput_校准
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          BIQU
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BIQU" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          BIQU
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Panda series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda series" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Panda 热端
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda 热端" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda 热端
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1" type="checkbox" id="__nav_2_1_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1">
+          Panda Flow/CHT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Flow/CHT" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Flow/CHT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_1" type="checkbox" id="__nav_2_1_1_1_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Flow%20X1.html" class="md-nav__link">
+        Panda Flow X1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_2" type="checkbox" id="__nav_2_1_1_1_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Flow%20P1.html" class="md-nav__link">
+        Panda Flow P1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2" type="checkbox" id="__nav_2_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2">
+          Panda Revo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Revo" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Revo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_1" type="checkbox" id="__nav_2_1_1_2_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Revo%20X1%20Hotend.html" class="md-nav__link">
+        Panda Revo X1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_2" type="checkbox" id="__nav_2_1_1_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Revo%20P1%20Hotend.html" class="md-nav__link">
+        Panda Revo P1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PandaTouch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Jet.html" class="md-nav__link">
+        Panda Jet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Fur.html" class="md-nav__link">
+        Panda Fur
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Lux.html" class="md-nav__link">
+        Panda Lux
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Extruders
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Extruders" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Extruders
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Extruders.html" class="md-nav__link">
+        Extruders
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Hotends
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hotends" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Hotends
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Hotends.html" class="md-nav__link">
+        Hotends
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          传感器模块
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="传感器模块" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          传感器模块
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Hermit%20Crab%202%20Series.html" class="md-nav__link">
+        Hermit Crab 2 Series
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Printers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Printers" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Printers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Printers.html" class="md-nav__link">
+        Printers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          冷却液
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="冷却液" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          冷却液
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Universal%20Turbo%20Kit.html" class="md-nav__link">
+        Universal Turbo Kit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    产品简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    功能亮点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    规格
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    产品尺寸
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    原理图
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    外设接口
+  </a>
+  
+    <nav class="md-nav" aria-label="外设接口">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#40-pin-gpio" class="md-nav__link">
+    40 pin GPIO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-100-pins" class="md-nav__link">
+    2 * 100 pins
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    软件配置
+  </a>
+  
+    <nav class="md-nav" aria-label="软件配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    配置网络
+  </a>
+  
+    <nav class="md-nav" aria-label="配置网络">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    使用网线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wifi-settings" class="md-nav__link">
+    WiFi Settings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overlays-settings" class="md-nav__link">
+    Overlays Settings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssh" class="md-nav__link">
+    SSH 连接
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    软件安装
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    产品购买链接
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/bigtreetech/docs/blob/master/docs/CB1.md" title="编辑此页" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="cb1">CB1<a class="headerlink" href="#cb1" title="Permanent link">&para;</a></h1>
+<p><a href="https://bigtreetech.github.io/docs/CB1.html"><img src=img/CB1.png width="600" /></a></p>
+<h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>BIGTREETECH CB1 是针对树莓派 CM4 缺货问题推出的替代方案,所有输出信号采用 2 个 100PIN
+微型 BTB 高速连接座与外面扩展底板方便快速连接(包括百兆以太网、HDMI 等)，板载 2.4G 
+WIFI。<br></p>
+
+<h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>CPU: 全志 H616，四核 Cortex-A53 @1.5GHz</li>
+<li>GPU: Mali G31 MP2, 支持 OpenGL3.2</li>
+<li>RAM: 512MB/1GB DDR3L SDRAM</li>
+<li>显示: HDMI2.0A 接口，支持 4K 显示器</li>
+<li>USB2.0 端口</li>
+<li>百兆以太网+百兆 WIFI</li>
+<li>与树莓派 CM4 完全相同的 BTB 座子</li>
+</ul>
+<h2 id="_3"><strong>规格</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>外观尺寸</strong></th>
+<th><strong>40mm*55mm</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>安装尺寸</strong></td>
+<td><strong>33mm*48mm</strong></td>
+</tr>
+<tr>
+<td><strong>输入电压</strong></td>
+<td><strong>5V±5%/2A</strong></td>
+</tr>
+<tr>
+<td><strong>输出电压</strong></td>
+<td><strong>3.3V±2%/100mA</strong></td>
+</tr>
+<tr>
+<td><strong>输出电压</strong></td>
+<td><strong>1.8V±2%/100mA</strong></td>
+</tr>
+<tr>
+<td><strong>WIFI</strong></td>
+<td><strong>2.4G/802.11 b/g/n</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4"><strong>产品尺寸</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p><strong><img src=img/CB1_Size.png width="600" /></strong></p>
+<h2 id="_5"><strong>原理图</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p><strong><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/BIGTREETECH_CB1_V22_220812_SCH.pdf">BIGTREETECH_CB1_V22_220812_SCH</a></strong></p>
+<h2 id="_6"><strong>外设接口</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h3 id="40-pin-gpio"><strong>40 pin GPIO</strong><a class="headerlink" href="#40-pin-gpio" title="Permanent link">&para;</a></h3>
+<p><strong>当CB1与Manta M4P、M5P、M8P、PI4B_Adapter等主板一起使用时，主板上的40引脚GPIO</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>引脚</strong></th>
+<th><strong>信号</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>引脚</strong></th>
+<th><strong>信号</strong></th>
+<th><strong>描述</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>3.3V</strong></td>
+<td></td>
+<td><strong>2</strong></td>
+<td><strong>5V</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>4</strong></td>
+<td><strong>5V</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>6</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>7</strong></td>
+<td><strong>PC7</strong></td>
+<td><strong>GPIO71</strong></td>
+<td><strong>8</strong></td>
+<td><strong>PH0</strong></td>
+<td><strong>GPIO224, UART0_TX</strong></td>
+</tr>
+<tr>
+<td><strong>9</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>10</strong></td>
+<td><strong>PH1</strong></td>
+<td><strong>GPIO225, UART0_RX</strong></td>
+</tr>
+<tr>
+<td><strong>11</strong></td>
+<td><strong>PC14</strong></td>
+<td><strong>GPIO78</strong></td>
+<td><strong>12</strong></td>
+<td><strong>PC13</strong></td>
+<td><strong>GPIO77</strong></td>
+</tr>
+<tr>
+<td><strong>13</strong></td>
+<td><strong>PC12</strong></td>
+<td><strong>GPIO76</strong></td>
+<td><strong>14</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>15</strong></td>
+<td><strong>PC10</strong></td>
+<td><strong>GPIO74</strong></td>
+<td><strong>16</strong></td>
+<td><strong>PC11</strong></td>
+<td><strong>GPIO75</strong></td>
+</tr>
+<tr>
+<td><strong>17</strong></td>
+<td><strong>3.3V</strong></td>
+<td></td>
+<td><strong>18</strong></td>
+<td><strong>PC9</strong></td>
+<td><strong>GPIO73</strong></td>
+</tr>
+<tr>
+<td><strong>19</strong></td>
+<td><strong>PH7</strong></td>
+<td><strong>GPIO231, SPI1_MOSI</strong></td>
+<td><strong>20</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>21</strong></td>
+<td><strong>PH8</strong></td>
+<td><strong>GPIO232, SPI1_MISO</strong></td>
+<td><strong>22</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>23</strong></td>
+<td><strong>PH6</strong></td>
+<td><strong>GPIO230, SPI1_CLK</strong></td>
+<td><strong>24</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>25</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>26</strong></td>
+<td><strong>PG8</strong></td>
+<td><strong>GPIO200</strong></td>
+</tr>
+<tr>
+<td><strong>27</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>28</strong></td>
+<td><strong>PG7</strong></td>
+<td><strong>GPIO199</strong></td>
+</tr>
+<tr>
+<td><strong>29</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>30</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>31</strong></td>
+<td><strong>PG6</strong></td>
+<td><strong>GPIO198</strong></td>
+<td><strong>32</strong></td>
+<td><strong>PG9</strong></td>
+<td><strong>GPIO201</strong></td>
+</tr>
+<tr>
+<td><strong>33</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>34</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>35</strong></td>
+<td><strong>PC6</strong></td>
+<td><strong>GPIO70</strong></td>
+<td><strong>36</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>37</strong></td>
+<td><strong>PC15</strong></td>
+<td><strong>GPIO79</strong></td>
+<td><strong>38</strong></td>
+<td><strong>PH10</strong></td>
+<td><strong>GPIO234, IR_RX</strong></td>
+</tr>
+<tr>
+<td><strong>39</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>40</strong></td>
+<td><strong>PC8</strong></td>
+<td><strong>GPIO72</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-100-pins"><strong>2 * 100 pins</strong><a class="headerlink" href="#2-100-pins" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><strong>A 引脚</strong></th>
+<th><strong>信号</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>A 引脚</strong></th>
+<th><strong>信号</strong></th>
+<th><strong>描述</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>2</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>4</strong></td>
+<td><strong>EPHY-TXP</strong></td>
+<td><strong>以太网TX正极</strong></td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>6</strong></td>
+<td><strong>EPHY-TXN</strong></td>
+<td><strong>以太网TX负极</strong></td>
+</tr>
+<tr>
+<td><strong>7</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>8</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>9</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>10</strong></td>
+<td><strong>EPHY-RXP</strong></td>
+<td><strong>以太网RX正极</strong></td>
+</tr>
+<tr>
+<td><strong>11</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>12</strong></td>
+<td><strong>EPHY-RXN</strong></td>
+<td><strong>以太网RX负极</strong></td>
+</tr>
+<tr>
+<td><strong>13</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>14</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>15</strong></td>
+<td><strong>LINK_LED</strong></td>
+<td><strong>以太网灯</strong></td>
+<td><strong>16</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>17</strong></td>
+<td><strong>SPD_LED</strong></td>
+<td><strong>以太网灯</strong></td>
+<td><strong>18</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>19</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>20</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>21</strong></td>
+<td><strong>PH5</strong></td>
+<td><strong>信号灯(ACT)</strong></td>
+<td><strong>22</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>23</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>24</strong></td>
+<td><strong>PC15</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>25</strong></td>
+<td><strong>PC8</strong></td>
+<td></td>
+<td><strong>26</strong></td>
+<td><strong>PC6</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>27</strong></td>
+<td><strong>PH10</strong></td>
+<td></td>
+<td><strong>28</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>29</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>30</strong></td>
+<td><strong>PG6</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>31</strong></td>
+<td><strong>PG9</strong></td>
+<td></td>
+<td><strong>32</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>33</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>34</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>35</strong></td>
+<td><strong>PG7</strong></td>
+<td></td>
+<td><strong>36</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>37</strong></td>
+<td><strong>PG8</strong></td>
+<td></td>
+<td><strong>38</strong></td>
+<td><strong>PH6</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>39</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>40</strong></td>
+<td><strong>PH8</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>41</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>42</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>43</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>44</strong></td>
+<td><strong>PH7</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>45</strong></td>
+<td><strong>PC9</strong></td>
+<td></td>
+<td><strong>46</strong></td>
+<td><strong>PC10</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>47</strong></td>
+<td><strong>PC11</strong></td>
+<td></td>
+<td><strong>48</strong></td>
+<td><strong>PC12</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>49</strong></td>
+<td><strong>PC13</strong></td>
+<td></td>
+<td><strong>50</strong></td>
+<td><strong>PC14</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>51</strong></td>
+<td><strong>SoC_RX</strong></td>
+<td><strong>调试 UART</strong></td>
+<td><strong>52</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>53</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>54</strong></td>
+<td><strong>PC7</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>55</strong></td>
+<td><strong>SoC_TX</strong></td>
+<td><strong>调试 UART</strong></td>
+<td><strong>56</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>57</strong></td>
+<td><strong>SDC0-CLK</strong></td>
+<td><strong>MicroSD Card</strong></td>
+<td><strong>58</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>59</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>60</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>61</strong></td>
+<td><strong>SDC0-D3</strong></td>
+<td><strong>MicroSD Card</strong></td>
+<td><strong>62</strong></td>
+<td><strong>SDC0-CMD</strong></td>
+<td><strong>MicroSD Card</strong></td>
+</tr>
+<tr>
+<td><strong>63</strong></td>
+<td><strong>SDC0-D0</strong></td>
+<td><strong>MicroSD Card</strong></td>
+<td><strong>64</strong></td>
+<td><strong>PG11</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>65</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>66</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>67</strong></td>
+<td><strong>SDC0-D1</strong></td>
+<td><strong>MicroSD Card</strong></td>
+<td><strong>68</strong></td>
+<td><strong>PG12</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>69</strong></td>
+<td><strong>SDC0-D2</strong></td>
+<td><strong>MicroSD Card</strong></td>
+<td><strong>70</strong></td>
+<td><strong>PG13</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>71</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>72</strong></td>
+<td><strong>PG14</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>73</strong></td>
+<td><strong>PG16</strong></td>
+<td></td>
+<td><strong>74</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>75</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>76</strong></td>
+<td><strong>PI16</strong></td>
+<td><strong>MicroSD Card 检测</strong></td>
+</tr>
+<tr>
+<td><strong>77</strong></td>
+<td><strong>5V</strong></td>
+<td></td>
+<td><strong>78</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>79</strong></td>
+<td><strong>5V</strong></td>
+<td><strong>In 2A</strong></td>
+<td><strong>80</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>81</strong></td>
+<td><strong>5V</strong></td>
+<td><strong>In 2A</strong></td>
+<td><strong>82</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>83</strong></td>
+<td><strong>5V</strong></td>
+<td><strong>In 2A</strong></td>
+<td><strong>84</strong></td>
+<td><strong>3.3V</strong></td>
+<td><strong>Out 200mA</strong></td>
+</tr>
+<tr>
+<td><strong>85</strong></td>
+<td><strong>5V</strong></td>
+<td><strong>In 2A</strong></td>
+<td><strong>86</strong></td>
+<td><strong>3.3V</strong></td>
+<td><strong>Out 200mA</strong></td>
+</tr>
+<tr>
+<td><strong>87</strong></td>
+<td><strong>5V</strong></td>
+<td><strong>In 2A</strong></td>
+<td><strong>88</strong></td>
+<td><strong>1.8V</strong></td>
+<td><strong>Out 100mA</strong></td>
+</tr>
+<tr>
+<td><strong>89</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>90</strong></td>
+<td><strong>1.8V</strong></td>
+<td><strong>Out 100mA</strong></td>
+</tr>
+<tr>
+<td><strong>91</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>92</strong></td>
+<td><strong>PWRON</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>93</strong></td>
+<td><strong>FEL</strong></td>
+<td></td>
+<td><strong>94</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>95</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>96</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>97</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>98</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>99</strong></td>
+<td><strong>Recovery</strong></td>
+<td></td>
+<td><strong>100</strong></td>
+<td><strong>Reset</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>B 引脚</strong></th>
+<th><strong>信号</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>B 引脚</strong></th>
+<th><strong>信号</strong></th>
+<th><strong>描述</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>101</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>102</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>103</strong></td>
+<td><strong>USB1-DM</strong></td>
+<td><strong>Host USB1</strong></td>
+<td><strong>104</strong></td>
+<td><strong>LineOut L</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>105</strong></td>
+<td><strong>USB1-DP</strong></td>
+<td><strong>Host USB1</strong></td>
+<td><strong>106</strong></td>
+<td><strong>LineOut R</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>107</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>108</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>109</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>110</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>111</strong></td>
+<td><strong>TV_OUT</strong></td>
+<td><strong>CVBS OUT</strong></td>
+<td><strong>112</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>113</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>114</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>115</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>116</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>117</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>118</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>119</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>120</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>121</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>122</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>123</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>124</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>125</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>126</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>127</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>128</strong></td>
+<td><strong>USB3-DM</strong></td>
+<td><strong>Host USB3</strong></td>
+</tr>
+<tr>
+<td><strong>129</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>130</strong></td>
+<td><strong>USB3-DP</strong></td>
+<td><strong>Host USB3</strong></td>
+</tr>
+<tr>
+<td><strong>131</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>132</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>133</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>134</strong></td>
+<td><strong>USB2-DM</strong></td>
+<td><strong>Host USB2</strong></td>
+</tr>
+<tr>
+<td><strong>135</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>136</strong></td>
+<td><strong>USB2-DP</strong></td>
+<td><strong>Host USB3</strong></td>
+</tr>
+<tr>
+<td><strong>137</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>138</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>139</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>140</strong></td>
+<td><strong>USB0-DM</strong></td>
+<td><strong>OTG USB</strong></td>
+</tr>
+<tr>
+<td><strong>141</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>142</strong></td>
+<td><strong>USB0-DP</strong></td>
+<td><strong>OTG USB</strong></td>
+</tr>
+<tr>
+<td><strong>143</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>144</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>145</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>146</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>147</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>148</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>149</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>150</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>151</strong></td>
+<td><strong>HCEC</strong></td>
+<td><strong>HDMI CEC</strong></td>
+<td><strong>152</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>153</strong></td>
+<td><strong>HHPD</strong></td>
+<td><strong>HDMI 热插拔</strong></td>
+<td><strong>154</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>155</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>156</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>157</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>158</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>159</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>160</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>161</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>162</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>163</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>164</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>165</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>166</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>167</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>168</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>169</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>170</strong></td>
+<td><strong>HTX2P</strong></td>
+<td><strong>HDMI TX2 正极</strong></td>
+</tr>
+<tr>
+<td><strong>171</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>172</strong></td>
+<td><strong>HTX2N</strong></td>
+<td><strong>HDMI TX2 负极</strong></td>
+</tr>
+<tr>
+<td><strong>173</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>174</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>175</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>176</strong></td>
+<td><strong>HTX1P</strong></td>
+<td><strong>HDMI TX1 正极</strong></td>
+</tr>
+<tr>
+<td><strong>177</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>178</strong></td>
+<td><strong>HTX1N</strong></td>
+<td><strong>HDMI TX1 负极</strong></td>
+</tr>
+<tr>
+<td><strong>179</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>180</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>181</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>182</strong></td>
+<td><strong>HTX0P</strong></td>
+<td><strong>HDMI TX0 正极</strong></td>
+</tr>
+<tr>
+<td><strong>183</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>184</strong></td>
+<td><strong>HTX0N</strong></td>
+<td><strong>HDMI TX0 负极</strong></td>
+</tr>
+<tr>
+<td><strong>185</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>186</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>187</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>188</strong></td>
+<td><strong>HTXCP</strong></td>
+<td><strong>HDMI CLK 正极</strong></td>
+</tr>
+<tr>
+<td><strong>189</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>190</strong></td>
+<td><strong>HTXCN</strong></td>
+<td><strong>HDMI CLK 负极</strong></td>
+</tr>
+<tr>
+<td><strong>191</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>192</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>193</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>194</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>195</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+<td><strong>196</strong></td>
+<td><strong>NC</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>197</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+<td><strong>198</strong></td>
+<td><strong>GND</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>199</strong></td>
+<td><strong>HSDA</strong></td>
+<td><strong>HDMI I2C</strong></td>
+<td><strong>200</strong></td>
+<td><strong>HSCL</strong></td>
+<td><strong>HDMI I2C</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_7"><strong>软件配置</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h3 id="_8"><strong>配置网络</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<h4 id="_9"><strong>使用网线</strong><a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<p><strong>网线即插即用，不需要额外的设置</strong></p>
+<h4 id="wifi-settings"><strong>WiFi Settings</strong><a class="headerlink" href="#wifi-settings" title="Permanent link">&para;</a></h4>
+<p><strong>系统镜像烧录完成后，Micro SD 卡会有一个被电脑识别的 FAT32 分区，此分区下有个名为"system.cfg" 的配置文件</strong>
+<strong><img src=img/system.png width="600" /><br/></strong></p>
+<p><strong>用记事本打开，将 WIFI-SSID 替换为实际的 WIFI 名称，PASSWORD 替换为实际的密码</strong>
+<strong>例如: <code>WIFI_SSID="CB1 Tester"</code></strong>
+<strong><img src=img/wifi.png width="600" /><br/></strong></p>
+<h3 id="overlays-settings"><strong>Overlays Settings</strong><a class="headerlink" href="#overlays-settings" title="Permanent link">&para;</a></h3>
+<p><strong>操作系统写入SD卡后，有一个名为“BOOT”的FAT32分区，用“Notpad”、“Notpad++”或“VSCode”打开“BoardEnv.txt”文件。 <br/><img src=img/BoardEnv.png width="600" /><br/></strong></p>
+<p><strong>根据需要进行设置，如下图所示。 <br/><img src=img/overlays.png width="600" /><br/></strong></p>
+<p><strong>默认值为“console=display”，这意味着CB1的“UART0”默认用作调试端口。我们可以使用“MobaXterm”通过UART0连接到CB1并进行调试。如果klipper想要使用<code>UART0</code>来控制主板，我们需要将其设置为<code>console=serial</code>，现在klippe可以将<code>UART0'用作</code>/dev/ttyS0`。</strong></p>
+<p><strong>CB1会自动识别HDMI分辨率，但如果您的HDMI屏幕无法正常通过EDID报告分辨率，我们可以通过取消注释extraargs=video来强制指定CB1输出的分辨率，并设置实际分辨率。</strong>
+<strong>比如:<br/></strong>
+<strong>BTT-HDMI7 resolution = 1024x600: <code>extraargs=video=HDMI-A-1:1024x600-24@60</code><br/></strong>
+<strong>BTT-HDMI5 resolution = 800x480: <code>extraargs=video=HDMI-A-1:800x480-24@60</code><br/></strong></p>
+<p><strong>取消注释 <code>overlays=tft35_spi</code> 以启用tft35 spi屏幕。</strong></p>
+<p><strong>取消注释 <code>overlays=mcp2515</code> 以启用mcp2515 spi到canbus模块。</strong></p>
+<p><strong>取消注释 <code>overlays=tft35_spi mcp2515</code> 如果要同时使用tft35 spi屏幕和mcp2515 spi到can总线模块。</strong></p>
+<p><strong>取消注释以下覆盖和参数以将“spidev1.1”释放到用户空间，并且“spidev1.1'不能与TFT35_SPI和MCP2515一起使用。</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a> overlays=spi-spidev
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a> param_spidev_spi_bus=1
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a> param_spidev_spi_cs=1
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a> param_spidev_max_freq=1000000
+</code></pre></div>
+<p><strong>注：TFT35 SPI和MCP2515多路复用一组SPI1</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SPI1_CLK=PH6
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>SPI1_MISO=PH8
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>SPI1_MOSI=PH7
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>TFT35_SPI_CS=PC7
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>MCP2515_CS=PC11
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>MCP2515_IRQ=PC9
+</code></pre></div>
+<h3 id="ssh"><strong>SSH 连接</strong><a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h3>
+<p>**安装 ssh 软件 Mobaxterm： <a href="https://mobaxterm.mobatek.net/download-home-edition.html**">https://mobaxterm.mobatek.net/download-home-edition.html**</a></p>
+<p><strong>将Micro SD卡（已安装的操作系统）插入主板，等待系统通电后加载。1-2分钟。主板上的ACT LED在成功启动后会持续闪烁。</strong></p>
+<p><strong>设备连上 WIFI 或者插上网线后，会被自动分配一个 IP</strong></p>
+<p><strong>进入路由器管理界面找到设备的 IP</strong>
+<strong><img src=img/Router.png width="600" /><br/></strong> </p>
+<p><strong>或者使用https://angryip.org/工具，扫描当前网络中的所有IP地址，按名称组织，找到名为Hurakan、BTT-CB1的IP，如下所示</strong>
+<strong><img src=img/AngryIP.png width="600" /><br/></strong> </p>
+<p><strong>打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在Remote host 一栏中输入设备的 IP 地址，点击“OK”（注意：电脑和设备必须要在同一个局域网下）</strong>
+<strong><img src=img/MobaXterm_Login.png width="600" /><br/></strong> </p>
+<p><strong>输入登录名和登录密码进入 SSH 终端界面</strong></p>
+<ul>
+<li><strong>login as: biqu</strong></li>
+<li><strong>password: biqu</strong></li>
+</ul>
+<h2 id="_10"><strong>软件安装</strong><a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>下载系统镜像</strong></li>
+</ol>
+<p>​       **只能下载安装我们提供的系统镜像： <a href="https://github.com/bigtreetech/CB1/releases**">https://github.com/bigtreetech/CB1/releases**</a></p>
+<ol>
+<li><strong>下载并安装烧录软件</strong></li>
+</ol>
+<p>​       **树莓派官方的 Raspberry Pi Imager： <a href="https://www.raspberrypi.com/software/**">https://www.raspberrypi.com/software/**</a></p>
+<p>​       <strong>balenaEtcher: <a href="https://www.balena.io/etcher/">https://www.balena.io/etcher/</a><br/></strong></p>
+<p>​       <strong>以上两种软件都可以使用，任选一种下载安装即可。</strong></p>
+<ol>
+<li><strong>格式化SD卡</strong></li>
+</ol>
+<p>​       **通常，您可以使用计算机系统提供的工具格式化SD卡。使用专业的SD卡格式化软件完全格式化SD卡。 <a href="https://www.sdcard.org/downloads/formatter/**">https://www.sdcard.org/downloads/formatter/**</a></p>
+<ol>
+<li>
+<p><strong>烧录系统</strong></p>
+</li>
+<li>
+<p><strong>使用 Raspberry Pi Imager</strong></p>
+</li>
+</ol>
+<p>​       <strong>将 Micro SD 卡通过读卡器插入到电脑。</strong></p>
+<p>​       <strong>选择系统</strong></p>
+<p><strong><img src=img/RPI_Imager_1.png width="600"/><br/></strong></p>
+<p><strong>选择“用户自定义”，然后选择下载到电脑中的镜像 <br/><img src=img/RPI_Imager_2.png width="600"/><br/></strong></p>
+<p><strong>选择待烧录的 Micro SD 卡（烧录镜像会将 Micro SD 卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录” <br/><img src=img/RPI_Imager_3.png width="600"/><br/></strong></p>
+<p><strong>等待烧录完成 <br/><img src=img/RPI_Imager_4.png width="600"/><br/></strong></p>
+<ol>
+<li><strong>使用 balenaEtcher</strong></li>
+</ol>
+<p>​   <strong>将 Micro SD 卡通过读卡器插入到电脑。</strong></p>
+<p>​   <strong>选择下载到电脑中的镜像 <br/><img src=img/Etcher_1.png width="600"/><br/></strong></p>
+<p><strong>选择待烧录的 Micro SD 卡（烧录镜像会将 Micro SD 卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录” <br/><img src=img/Etcher_2.png width="600"/><br/></strong></p>
+<p>​   <strong>等待烧录完成 <br/><img src=img/Etcher_3.png width="600"/><br/></strong></p>
+<h2 id="_11"><strong>产品购买链接</strong><a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<p><strong>购买链接:</strong></p>
+<p>**<a href="https://biqu.equipment/products/pi4b-adapter-v1-0?variant=40353646051426**">https://biqu.equipment/products/pi4b-adapter-v1-0?variant=40353646051426**</a></p>
+<p><strong>如果您对产品有任何问题，请提交一张支持票</strong></p>
+<p>**<a href="https://biqu3d.com/pages/submit-a-ticket**">https://biqu3d.com/pages/submit-a-ticket**</a></p>
+<p><strong>导航:</strong></p>
+<p>**BIQU官方网站：                                                       <a href="http://biqu3d.com**">http://biqu3d.com**</a></p>
+<p>**BIGTREETECH官方网站：                                       <a href="http://bigtree-tech.com**">http://bigtree-tech.com**</a></p>
+<p>**网上商店：                                                                 <a href="https://biqu.equipment**">https://biqu.equipment**</a></p>
+<p>**BIGTREETECH官方群:                                             <a href="https://www.facebook.com/groups/bigtreetech**">https://www.facebook.com/groups/bigtreetech**</a></p>
+<p>**Discord:                                                                     <a href="https://discord.gg/hhZsV7zk**">https://discord.gg/hhZsV7zk**</a></p>
+<p>**Reddit:                                                                         <a href="https://www.reddit.com/r/BIGTREETECH/**">https://www.reddit.com/r/BIGTREETECH/**</a></p>
+<p><strong>微信公众号：                                                                BIGTREETECH</strong> </p>
+<p><strong>官方社群：</strong></p>
+<p><strong>1群：                                                                           190180312（已满）</strong></p>
+<p><strong>2群：                                                                           633401944</strong></p>
+<p><strong>微信社群：                                                                关注微信公众号获取社群二维码</strong></p>
+<p><strong>资料获取由微信公众号提供，关注公众号发送及消息即可获取（网盘链接）</strong></p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            回到页面顶部
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="页脚">
+      
+        
+        <a href="MMB%20CAN%20V1.0.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: MMB CAN V1.0" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              MMB CAN V1.0
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="PI4B.html" class="md-footer__link md-footer__link--next" aria-label="下一页: PI4B" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              PI4B
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "search": "assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+    
+  </body>
+</html>
