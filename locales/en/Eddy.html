@@ -2797,7 +2797,7 @@
 <h3 id="important-notes">Important Notes<a class="headerlink" href="#important-notes" title="Permanent link">&para;</a></h3>
 <p>1、Klipper has not yet merged the pull request for fast scanning. Until then, please use the BIGTREETECH version of Klipper by running the following commands in your SSH terminal:</p>
 <p><font  color="blue"><strong>cd ~/klipper/</strong></font></p>
-<p><font  color="blue">**git remote add eddy <a href="https://github.com/bigtreetech/klipper**">https://github.com/bigtreetech/klipper**</a></font></p>
+<p><font  color="blue"><strong>git remote add eddy</strong> <a href="https://github.com/bigtreetech/klipper">https://github.com/bigtreetech/klipper</a></font></p>
 <p><font  color="blue"><strong>git fetch eddy</strong></font></p>
 <p><font  color="blue"><strong>git checkout eddy/eddy</strong></font></p>
 <p>Then, restart the Klipper with:</p>
@@ -2887,7 +2887,7 @@
 <p><strong># For rectangular beds, defines the maximum X, Y coordinates of the grid. Following the same principle as mesh_min, but this will be the scanning point farthest from the bed origin. This parameter must be provided for rectangular beds.</strong></p>
 <p><font  color="blue"><strong>probe_count: 5, 5</strong></font></p>
 <p><strong># For rectangular beds, this is a pair of comma-separated integers X, Y, defining the number of points probed along each axis. A single value is also valid, in which case the value will be applied to both axes.</strong></p>
-<p>**Refer to <a href="https://www.klipper3d.org/Config_Reference.html#bed_mesh**">https://www.klipper3d.org/Config_Reference.html#bed_mesh**</a></p>
+<p><strong>Refer to</strong> <a href="https://www.klipper3d.org/Config_Reference.html#bed_mesh">https://www.klipper3d.org/Config_Reference.html#bed_mesh</a></p>
 <p><font  color="red"><strong>The parameter <code>horizontal_move_z</code> in [bed_mesh] should be set to 2 to bring Eddy as close to the bed as possible during scanning. </strong></font></p>
 <h4 id="calibration">Calibration<a class="headerlink" href="#calibration" title="Permanent link">&para;</a></h4>
 <p>1、After the above configuration is completed, first calibrate the drive current of Eddy. Position Eddy about 20mm above the platform.</p>
@@ -2918,7 +2918,7 @@
 <p>​   <font  color="blue"><strong>PROBE_DRIFT_CALIBRATE PROBE=btt_eddy TARGET=50 STEP=5</strong></font></p>
 <p>​   Where TARGET=50 means the target temperature is 50℃, and STEP=5 means each node's temperature scale is 5℃.</p>
 <p>​   For example, if the current temperature is 30℃ and the target temperature is 50℃, then the total temperature range is 50-30=20℃, and the temperature scale for each node is 5℃, so there will be 20 / 5 = 4 nodes sampled.</p>
-<p>​   Executing the above command will immediately require a manual z-offset calibration (Paper test). Then manually heat the heated bed and nozzle, waiting for the BIGTREETECH Eddy temperature to rise. The BIGTREETECH Eddy will require another manual z-offset calibration (Paper test) at the next node, which is 35℃, and then another manual z-offset calibration (Paper test) at the next node, which is 40℃, and so on.</p>
+<p>​   Executing the above command will immediately require a manual z-offset calibration (<font  color="blue"><strong><a href="https://www.klipper3d.org/Bed_Level.html#the-paper-test">Paper test</a></strong></font>). Then manually heat the heated bed and nozzle, waiting for the BIGTREETECH Eddy temperature to rise. The BIGTREETECH Eddy will require another manual z-offset calibration (<font  color="blue"><strong><a href="https://www.klipper3d.org/Bed_Level.html#the-paper-test">Paper test</a></strong></font>) at the next node, which is 35℃, and then another manual z-offset calibration (<font  color="blue"><strong><a href="https://www.klipper3d.org/Bed_Level.html#the-paper-test">Paper test</a></strong></font>) at the next node, which is 40℃, and so on.</p>
 
               
             </article>

@@ -2996,7 +2996,7 @@
 <p>1、Klipper 还没有合并<a href="https://github.com/Klipper3d/klipper/pull/6558">快速扫描的 PR</a>，所以在此之前请使用 BIGTREETECH 版本的 Klipper。</p>
 <p>在 ssh 终端中运行以下命令</p>
 <p><font  color="blue"><strong>cd ~/klipper/</strong></font></p>
-<p><font  color="blue">**git remote add eddy <a href="https://github.com/bigtreetech/klipper**">https://github.com/bigtreetech/klipper**</a></font></p>
+<p><font  color="blue"><strong>git remote add eddy</strong> <a href="https://github.com/bigtreetech/klipper">https://github.com/bigtreetech/klipper</a></font></p>
 <p><font  color="blue"><strong>git fetch eddy</strong></font></p>
 <p><font  color="blue"><strong>git checkout eddy/eddy</strong></font></p>
 <p>然后执行以下命令，重启 Klipper 服务:</p>
@@ -3086,7 +3086,7 @@
 <p><strong># 对于矩形热床，定义网格的最大 X，Y 坐标。遵循与 mesh_min 相同的原则，但这将是离床原点最远的探测点。矩形热床必须提供此参数。</strong></p>
 <p><font  color="blue"><strong>probe_count: 5, 5</strong></font></p>
 <p><strong># 对于矩形热床，这是一对逗号分隔的整数值 X，Y，定义沿每个轴探测的点数。单个值也有效，此时该值将应用于两个轴。</strong></p>
-<p>**参考 <a href="https://www.klipper3d.org/Config_Reference.html#bed_mesh**">https://www.klipper3d.org/Config_Reference.html#bed_mesh**</a></p>
+<p><strong>参考</strong> <a href="https://www.klipper3d.org/Config_Reference.html#bed_mesh">https://www.klipper3d.org/Config_Reference.html#bed_mesh</a></p>
 <p><font  color="red"><strong>[bed_mesh] 里的 horizontal_move_z 参数，建议设置为 2， 使扫描平台的时候，Eddy 尽可能的靠近平台。</strong></font></p>
 <h4 id="_9">校准<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
 <p>1、上述配置完成后，首先需要校准 Eddy 的驱动电流，将 Eddy 放置在平台上方 20mm左右的地方。在 Mainsail 的 Console 执行</p>
