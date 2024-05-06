@@ -184,6 +184,7 @@ nav:
     - Sensors :
       - ADXL345.md
       - SKSM.md
+      - Eddy.md
     - 软件教程:
       - Multiple 3D Printers.md
       - Software Configuration.md
