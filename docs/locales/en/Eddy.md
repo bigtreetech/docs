@@ -76,7 +76,7 @@ Use two M3*25 screws (included in the package) to secure the Eddy to the X Carri
 
 <font  color="blue">**cd ~/klipper/**</font>
 
-<font  color="blue">**git remote add eddy https://github.com/bigtreetech/klipper**</font>
+<font  color="blue">**git remote add eddy** https://github.com/bigtreetech/klipper</font>
 
 <font  color="blue">**git fetch eddy**</font>
 
@@ -266,7 +266,7 @@ Configure Eddy in printer.cfg:
 
 **\# For rectangular beds, this is a pair of comma-separated integers X, Y, defining the number of points probed along each axis. A single value is also valid, in which case the value will be applied to both axes.**
 
-**Refer to https://www.klipper3d.org/Config_Reference.html#bed_mesh**
+**Refer to** https://www.klipper3d.org/Config_Reference.html#bed_mesh
 
 <font  color="red">**The parameter `horizontal_move_z` in [bed_mesh] should be set to 2 to bring Eddy as close to the bed as possible during scanning. **</font>
 
@@ -328,5 +328,5 @@ Set the heated bed to its maximum temperature and a commonly used tool head temp
 
 ​	For example, if the current temperature is 30℃ and the target temperature is 50℃, then the total temperature range is 50-30=20℃, and the temperature scale for each node is 5℃, so there will be 20 / 5 = 4 nodes sampled.
 
-​	Executing the above command will immediately require a manual z-offset calibration (Paper test). Then manually heat the heated bed and nozzle, waiting for the BIGTREETECH Eddy temperature to rise. The BIGTREETECH Eddy will require another manual z-offset calibration (Paper test) at the next node, which is 35℃, and then another manual z-offset calibration (Paper test) at the next node, which is 40℃, and so on.
+​	Executing the above command will immediately require a manual z-offset calibration (<font  color="blue">**[Paper test](https://www.klipper3d.org/Bed_Level.html#the-paper-test)**</font>). Then manually heat the heated bed and nozzle, waiting for the BIGTREETECH Eddy temperature to rise. The BIGTREETECH Eddy will require another manual z-offset calibration (<font  color="blue">**[Paper test](https://www.klipper3d.org/Bed_Level.html#the-paper-test)**</font>) at the next node, which is 35℃, and then another manual z-offset calibration (<font  color="blue">**[Paper test](https://www.klipper3d.org/Bed_Level.html#the-paper-test)**</font>) at the next node, which is 40℃, and so on.
 

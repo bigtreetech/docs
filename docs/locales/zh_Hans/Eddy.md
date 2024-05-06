@@ -76,7 +76,7 @@
 
 <font  color="blue">**cd ~/klipper/**</font>
 
-<font  color="blue">**git remote add eddy https://github.com/bigtreetech/klipper**</font>
+<font  color="blue">**git remote add eddy** https://github.com/bigtreetech/klipper</font>
 
 <font  color="blue">**git fetch eddy**</font>
 
@@ -266,7 +266,7 @@
 
 **\# 对于矩形热床，这是一对逗号分隔的整数值 X，Y，定义沿每个轴探测的点数。单个值也有效，此时该值将应用于两个轴。**
 
-**参考 https://www.klipper3d.org/Config_Reference.html#bed_mesh**
+**参考** https://www.klipper3d.org/Config_Reference.html#bed_mesh
 
 <font  color="red">**[bed_mesh] 里的 horizontal_move_z 参数，建议设置为 2， 使扫描平台的时候，Eddy 尽可能的靠近平台。**</font>
 
