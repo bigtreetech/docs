@@ -183,6 +183,7 @@ nav:
         - EZ31865.md
     - Sensors :
       - ADXL345.md
+      - SKSM.md
     - Software Tutorials:
       - Multiple 3D Printers.md
       - Software Configuration.md
