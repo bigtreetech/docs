@@ -6,4 +6,4 @@
 
 ## 安装教程
 
-https://cdn.shopify.com/videos/c/o/v/402e247f7ab04dc9a02b40fec39ee84e.mp4
+https://www.youtube.com/watch?v=325NnXCLfKY&t=32s

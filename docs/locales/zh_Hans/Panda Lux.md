@@ -77,6 +77,10 @@ Panda Lux是专为Bambu Lab P1/X1系列打印机设计的高亮度LED灯条。�
 
 **步骤8:**将保护盖装回AP板（合上X1打印机的塑料盖）。
 
+## **安装教程**
+
+https://www.youtube.com/watch?v=QioCo0hEi1I
+
 ## **产品购买链接:**
 
 https://biqu.equipment/products/panda-lux-led-upgrade-kit
