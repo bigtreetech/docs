@@ -77,6 +77,10 @@ Note: The stock lightbar connector location on X1 series is on the left side of 
 
 **Step 8:** Install the protective cover back onto the AP board (close the plastic cover for X1 printers).
 
+## **Installation Tutorial**
+
+https://www.youtube.com/watch?v=QioCo0hEi1I
+
 ## **Product Purchase Link:**
 
 https://biqu.equipment/products/panda-lux-led-upgrade-kit

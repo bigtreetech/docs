@@ -1,9 +1,9 @@
 # Panda Fur
 
-## wrap cutting tool
+## Wrap Cutting Tool
 
 [Panda Fur back Cutting Tool](https://raw.githack.com/bigtreetech/docs/master/docs/download/Panda Fur back Cutting Tool.zip)
 
-## installation tutorial
+## Installation Tutorial
 
-https://cdn.shopify.com/videos/c/o/v/402e247f7ab04dc9a02b40fec39ee84e.mp4
+https://www.youtube.com/watch?v=325NnXCLfKY&t=32s
