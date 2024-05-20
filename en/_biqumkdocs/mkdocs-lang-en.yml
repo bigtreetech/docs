@@ -210,6 +210,13 @@ nav:
       - Panda Lux.md 
     - Extruders: 
       - Extruders.md 
+      - H2 V2S.md 
+      - H2 V2S Revo.md 
+      - H2 V2S Lite.md 
+      - H2 V2S Lite Revo.md 
+      - H2 V2X.md 
+      - tools:
+        - belter.md
     - Hotends: 
       - Hotends.md 
     - Sensor modules:
