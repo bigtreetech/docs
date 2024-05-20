@@ -1,7 +1,5 @@
 # Eddy
 
-
-
 <img src=img/Eddy/Eddy_Title.png width="600" />
 
 ## **Features Highlights**

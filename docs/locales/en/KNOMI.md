@@ -169,7 +169,7 @@ The highlights of upgrading KNOMI 1 to KNOMI 2 UI are as follows:
 
 2、Please click to download [Firmware](https://raw.githack.com/bigtreetech/docs/master/docs/download/Firmware.zip)
 
-3、Press and hold the button on knomi1 and connect it to the computer via USB.
+3、<font  color="red">**Press and hold the button on knomi1 and connect it to the computer via USB.**</font> 
 
 4、Click on .exe
 

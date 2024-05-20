@@ -48,6 +48,8 @@ P1
 
 Extruders
 
+tools
+
 Hotends
 
 Sensor modules

@@ -175,7 +175,7 @@ gcode:
 
 2、请点击下载 [固件](https://raw.githack.com/bigtreetech/docs/master/docs/download/Firmware.zip)
 
-3、按住knomi1上的按钮，然后通过USB将其连接到计算机。
+3、<font  color="red">**按住knomi1上的按钮，然后通过USB将其连接到计算机。**</font> 
 
 4、点击 .exe
 
