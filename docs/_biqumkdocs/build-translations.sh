@@ -53,10 +53,10 @@ while IFS="," read dirname langsite langdesc langsearch; do
   X1=$(sed -n '45p' ${locale_dir}/Navigation.md)  
   P1=$(sed -n '47p' ${locale_dir}/Navigation.md)  
   Extruders=$(sed -n '49p' ${locale_dir}/Navigation.md)  
-  tools=$(sed -n '51p' ${locale_dir}/Navigation.md)
-  Hotends=$(sed -n '53p' ${locale_dir}/Navigation.md)  
-  Sensor_modules=$(sed -n '55p' ${locale_dir}/Navigation.md)  
-  Printers=$(sed -n '57p' ${locale_dir}/Navigation.md)  
+  Hotends=$(sed -n '51p' ${locale_dir}/Navigation.md)  
+  Sensor_modules=$(sed -n '53p' ${locale_dir}/Navigation.md)  
+  Printers=$(sed -n '55p' ${locale_dir}/Navigation.md)  
+  tools=$(sed -n '57p' ${locale_dir}/Navigation.md)
   Cooling_solution=$(sed -n '59p' ${locale_dir}/Navigation.md)  
   
   # Copy markdown files to new_docs_dir
@@ -114,10 +114,10 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%X1:$%${X1}:%" "${new_mkdocs_file}"    
   sed -i "s%P1:$%${P1}:%" "${new_mkdocs_file}"  
   sed -i "s%Extruders:$%${Extruders}:%" "${new_mkdocs_file}"  
-  sed -i "s%tools:$%${tools}:%" "${new_mkdocs_file}"  
   sed -i "s%Hotends:$%${Hotends}:%" "${new_mkdocs_file}"   
   sed -i "s%Sensor modules:$%${Sensor_modules}:%" "${new_mkdocs_file}"
-  sed -i "s%Printers:$%${Printers}:%" "${new_mkdocs_file}"     
+  sed -i "s%Printers:$%${Printers}:%" "${new_mkdocs_file}"   
+  sed -i "s%tools:$%${tools}:%" "${new_mkdocs_file}"    
   sed -i "s%Cooling solution:$%${Cooling_solution}:%" "${new_mkdocs_file}"
 
   # Build site

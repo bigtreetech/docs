@@ -48,13 +48,13 @@ P1
 
 Extruders
 
-tools
-
 Hotends
 
 Sensor modules
 
 Printers
+
+tools
 
 Cooling solution
 
