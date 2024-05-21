@@ -149,6 +149,7 @@ nav:
         - MMB CAN V1.0.md
     - IOT:
       - CB1.md
+      - CB2.md
       - PI4B.md
       - PAD7.md
       - KNOMI.md
