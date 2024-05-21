@@ -215,14 +215,14 @@ nav:
       - H2 V2S Lite.md 
       - H2 V2S Lite Revo.md 
       - H2 V2X.md 
-      - tools:
-        - belter.md
     - Hotends: 
       - Hotends.md 
     - Sensor modules:
       - Hermit Crab 2 Series.md
     - Printers: 
       - Printers.md 
+    - tools:
+      - belter.md
     - Cooling solution:
       - Universal Turbo Kit.md 
 

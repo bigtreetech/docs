@@ -215,14 +215,14 @@ nav:
       - H2 V2S Lite.md 
       - H2 V2S Lite Revo.md 
       - H2 V2X.md 
-      - 工具:
-        - belter.md
     - Hotends: 
       - Hotends.md 
     - 传感器模块:
       - Hermit Crab 2 Series.md
     - Printers: 
       - Printers.md 
+    - 工具:
+      - belter.md
     - 冷却液:
       - Universal Turbo Kit.md 
 
