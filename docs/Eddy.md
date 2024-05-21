@@ -32,6 +32,10 @@
 
 <font  color="red">**Note: When installing Eddy, ensure the bottom is at least 1-2 mm above the nozzle.**</font>
 
+The coil center point is as follows:
+
+<img src=img/Eddy/Eddy_Dimensions1.png width="600" />
+
 ## Instructions for the BOOT Button
 
 <img src=img/Eddy/Eddy_Instructions.png width="600" />

@@ -32,6 +32,10 @@
 
 <font  color="red">**注意：在安装 Eddy 时，底部之于喷嘴的位置需至少在喷嘴上面 1-2 mm。**</font>
 
+线圈中心点如下:
+
+<img src=img/Eddy/Eddy_Dimensions1.png width="600" />
+
 ## **BOOT 按键说明**
 
 <img src=img/Eddy/Eddy_Instructions.png width="600" />
