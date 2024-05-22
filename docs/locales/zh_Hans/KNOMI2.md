@@ -88,11 +88,11 @@ https://github.com/bigtreetech/KNOMI
 
 <img src=img/KNOMI2/KNOMI2_IN2.png width="600" />
 
-## ****概览****
+## **概览**
 
 <img src=img/KNOMI2/KNOMI2_IN3.png width="600" />
 
-## ****配置W-FI****
+## **配置W-FI**
 
 <img src=img/KNOMI2/KNOMI2_CN1.png width="600" />
 
@@ -105,8 +105,6 @@ https://github.com/bigtreetech/KNOMI
 ## **把 KNOMI 2 安装到 STEALTHBURNER 上**
 
 <img src=img/KNOMI2/KNOMI2_CN5.png width="600" />
-
-
 
 <img src=img/KNOMI2/KNOMI2_CN6.png width="600" />
 
@@ -191,7 +189,7 @@ gcode:
  SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=False
 ```
 
-## ****固件更新****
+## **固件更新**
 
 在浏览器中输入 **http://knomi.local** ，以访问 KNOMI 2 网络配置页面。滚动至页面底部，点击 “Update FW ”。
 
