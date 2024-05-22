@@ -233,15 +233,17 @@ KNOMI 2 采用彩色屏幕，支持全屏触摸、上滑、下滑、左滑、右
 
 <img src=img/KNOMI2/KNOMI2_CN15.png width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI6.png width="600" />
+<img src=img/KNOMI2/KNOMI2_CN35.png width="600" />
 
 <img src=img/KNOMI2/KNOMI2_CN16.png width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI8.png width="600" />
+<img src=img/KNOMI2/KNOMI2_CN36.png width="600" />
 
 <img src=img/KNOMI2/KNOMI2_CN17.png width="600" />
 
 <img src=img/KNOMI2/KNOMI2_CN18.png width="600" />
+
+<img src=img/KNOMI2/KNOMI2_CN37.png width="600" />
 
 <font  color="red">**如何调整喷嘴/热床温度？**</font> 
 
