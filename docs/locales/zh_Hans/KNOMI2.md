@@ -110,8 +110,6 @@ https://github.com/bigtreetech/KNOMI
 
 <img src=img/KNOMI2/KNOMI2_CN7.png width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN7.png width="600" />
-
 <img src=img/KNOMI2/KNOMI2_CN8.png width="600" />
 
 <img src=img/KNOMI2/KNOMI2_CN9.png width="600" />
