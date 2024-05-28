@@ -15,8 +15,5 @@ BIGTREETECH: service004@biqu3d.com
 
 ## Follow us on social media to get more news
 
-* Facebook: https://www.facebook.com/BIGTREETECH/
-* Twitter: https://twitter.com/BigTreeTech
-* Instagram: https://www.instagram.com/bigtreetech_official/
 * Official Site: https://bigtree-tech.com/
 

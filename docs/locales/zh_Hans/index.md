@@ -14,8 +14,5 @@ title: Welcome
 
 ## 在社交媒体上关注我们，获取更多新闻
 
-* Facebook: https://www.facebook.com/BIGTREETECH/
-* Twitter: https://twitter.com/BigTreeTech
-* Instagram: https://www.instagram.com/bigtreetech_official/
 * 官方网站: https://bigtree-tech.com/
 
