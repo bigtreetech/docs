@@ -4,7 +4,7 @@
 # layout.  See that script and the README file for more details.
 
 # Site and directory configuration
-site_name: BIGTREETECH documentation
+site_name: BIGTREETECH WIKI
 repo_url: https://github.com/bigtreetech/docs
 repo_name: bigtreetech/docs
 edit_uri: blob/master/docs/
@@ -121,7 +121,7 @@ extra:
 
 # Navigation hierarchy (this should mimic the layout of Overview.md)
 nav:
-  - BTT:
+  - BIGTREETECH:
     - Motherboards:
       - SKR Series:
         - SKR MINI E3.md
