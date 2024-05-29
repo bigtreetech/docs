@@ -462,17 +462,29 @@ password：biqu
 
 
 
-**Navigation:**
+**导航:**
 
-BIQU Official Website：                            				http://biqu3d.com
+BIQU官方网站：                            							  http://biqu3d.com
 
-BIGTREETECH Official Website：            				 http://bigtree-tech.com
+BIGTREETECH官方网站：            				 			 http://bigtree-tech.com
 
-Online Store：                                           				 https://biqu.equipment
+网上商店：                                          				 		https://biqu.equipment
 
-BIGTREETECH Official Group: 								  https://www.facebook.com/groups/bigtreetech
+BIGTREETECH官方群: 								  			  https://www.facebook.com/groups/bigtreetech
 
 Discord: 																	   https://discord.gg/hhZsV7zk
 
 Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
+
+微信公众号：																BIGTREETECH 
+
+官方社群：
+
+1群：																			190180312（已满）
+
+2群：																			633401944
+
+微信社群：																   关注微信公众号获取社群二维码
+
+资料获取由微信公众号提供，关注公众号发送及消息即可获取（网盘链接）
 
