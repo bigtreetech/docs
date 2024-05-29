@@ -171,6 +171,7 @@ nav:
         - TMC5160.md
         - TMC2209.md
         - TMC2208.md
+        - TMC2240.md
         - TMC5160TPlus.md
         - Tutorials.md
       - EZ Series:
@@ -181,7 +182,6 @@ nav:
         - EZ5160 Pro.md
         - EZDriver Connector.md
         - EZ2209.md
-        - EZ2240.md
         - EZ31865.md
     - Sensors :
       - ADXL345.md
