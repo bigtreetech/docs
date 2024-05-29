@@ -192,7 +192,7 @@ Enable "FAN_SOFT_PWM" and set "SOFT_PWM_SCALE" to 5.
 
 https://docs.duet3d.com/en/User_manual/Connecting_hardware/Fans_connecting
 
-**Printed Parts Instruction**
+## **Printed Parts Instruction**
 
 Firstly, print everything in the "Stealthburner Parts" folder. You will need the following extra parts to complete the printhead: 1x BTT KNOMI V2.0; 1x 15mm CPAP Tube; 2x Zip Ties
 
