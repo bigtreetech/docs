@@ -6,6 +6,8 @@
 
 The BIGTREETECH SKR 3 mother board is a brand new 32 bit motherboard developed by Shenzhen BIQU Innovation Technology Co., Ltd. that fixed all the problems of the V1.4/Turbo board with new features and improved functionality.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-btt-skr-3-control-board-for-3d-printer
+
 ## **Features Highlights**
 
 - Utilize 32bit 480MHz ARM Cortex-M7 serires STM32H743VI MCU for massively improved performance

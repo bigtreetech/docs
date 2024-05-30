@@ -4,6 +4,8 @@
 
 Aiming at some problems existing in 3D printed motherboards in the market. Shenzhen BIQU Innovation Technology Co., Ltd. launched a high performance 3D printer master board with STM32F407ZGT6 as the core controller, BIGTREETECH-SKR-PRO-V1.2.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-skr-pro-v1-1-32-bit-control-board
+
 ## **Features Highlights**
 
 - The main control uses the ARM-level Cortex-M4 series with a 32-bit dominant frequency of 168 MHz STM32F407ZGT6 chip, performance is greatly improved;

@@ -4,6 +4,8 @@
 
 BTT SKR Pico V1.0 is a customized motherboard designed for VORON V0 printer, which launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.
 
+**Product Link:** https://biqu.equipment/products/btt-skr-pico-v1-0
+
 ## **Features Highlights**
 
 - Good-looking

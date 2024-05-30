@@ -6,6 +6,8 @@
 
 BIGTREETECH SKRat v1.0 is a 3D printer motherboard jointly launched by Shenzhen BIQU Innovation Technology Co., Ltd. and Rat Rig.
 
+**Product Link:** https://biqu.equipment/products/bigtreeetech-skrat-v1-0-control-board
+
 ## **Features Highlights**
 
 - 32-bit 64 MHz ARM Cortex-M0+ series STM32G0B1VET6 MCU.

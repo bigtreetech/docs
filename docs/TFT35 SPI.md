@@ -4,6 +4,8 @@
 
 BIGTREETECH TFT35 SPI V2.1 is a medium-size and clear 3D printer display developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-tft35-spi-v2-1-touchscreen-io2can-module
+
 ## **Features Highlights**
 
 - SPI is used for LCD display, and I2C is used for touch. The touch screen is controlled by the chip on the motherboard, which significantly reduces its cost. 

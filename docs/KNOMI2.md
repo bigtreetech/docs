@@ -6,6 +6,8 @@
 
 The BIGTREETECH KNOMI V2.0 screen is a screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for printer nozzle display. Support for touch, making it convenient for customers to perform machine control operations.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-knomi-v1-0
+
 ## **Features Highlights**
 
 <table border="1">

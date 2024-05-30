@@ -6,6 +6,8 @@
 
 The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd., is a tablet equipped with pre-installed Klipper and KlipperScreen. The BTB headers have been engineered to provide users with the flexibility to select from various solutions, including CM4, CB1, and more.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-pad-7
+
 ## **Features Highlights**
 
 - The 7-inch IPS touch screen offers a wider field of view, high level of detail, and a comfortable user experience

@@ -6,6 +6,8 @@
 
 BIGTREETECH SKR V1.4 motherboard is a 32-bit 3D printer motherboard optimized and upgraded by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for the deficiencies of V1.3 version, especially suitable for small and medium-sized printers.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3
+
 ## **Features Highlights**
 
 - Using 32-bit main frequency 100MHz ARM level Cortex-M3 series LPC1768 main control chip, the performance has been greatly improved;

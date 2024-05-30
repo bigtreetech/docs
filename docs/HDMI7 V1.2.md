@@ -6,7 +6,9 @@
 
 ## **Product Profile**
 
-<p>BIGTREETECH HDMI7 V1.2 is a universal 7-inch HDMI display screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..</p>
+BIGTREETECH HDMI7 V1.2 is a universal 7-inch HDMI display screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
+
+**Product Link:** https://biqu.equipment/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0?variant=39984058138722
 
 ## **Features Highlights**
 

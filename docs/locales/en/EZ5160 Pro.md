@@ -6,6 +6,8 @@
 
 TMC5160 is a high-power stepper motor drive control chip, with an external MOSFET, its maximum voltage can reach 48V, thus the supported stepper motor range is wider, and the adaptability is higher.
 
+**Product Link:** https://biqu.equipment/products/ez-drive-easy-driver-ez2209-ez5160-pro-v1-0?variant=39787467178082
+
 ## **Features Highlights**
 
 - With the external MOSFET, it can support higher voltage and larger current, and the maximum current can reach 8A (because the module is limited by size and connector, the current cannot exceed 3A);

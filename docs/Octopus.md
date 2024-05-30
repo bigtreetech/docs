@@ -6,6 +6,8 @@
 
 The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherboard that supports up to 8 stepper drivers with 9 stepper driver outputs in total. It is designed and manufactured by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-octopus-v1-1
+
 ## **Features Highlights**
 
 - Uses a 32-bit ARM Cortex-M4 series STM32F446ZET6 main control chip with a core frequency of 180MHz.
@@ -241,9 +243,9 @@ positive output as shown in the images.*</font>**
 
 **You can find a pre-compiled version of Marlin for the Octopus by visiting https://github.com/bigtreetech?tab=repositories and looking for the Octopus repository. Alternately you can compile your own version using VScode. Covering how to compile firmware using VSCode is beyond the scope of this manual however there is an abundance of information online which explains how to set up VSCode on your machine and how to configure Marlin thereafter. Good places to start are provided for your convenience in the links below:**
 
-**• https://marlinfw.org/docs/basics/install_platformio_vscode.html**
+• https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
-**• https://www.youtube.com/watch?v=eq_ygvHF29I**
+• https://www.youtube.com/watch?v=eq_ygvHF29I
 
 **Once you have either compiled your own version of Marlin or downloaded a pre-compiled version, you can install it by following the steps below:**
 
@@ -284,26 +286,26 @@ positive output as shown in the images.*</font>**
 
 **Purchase Link:**
 
-**https://biqu.equipment/products/bigtreetech-octopus-v1-1**
+https://biqu.equipment/products/bigtreetech-octopus-v1-1
 
 
 
 **If you have any issues with the product, please submit a support ticket.**
 
-**https://biqu3d.com/pages/submit-a-ticket**
+https://biqu3d.com/pages/submit-a-ticket
 
 
 
 **Navigation:**
 
-**BIQU Official Website：                            				http://biqu3d.com**
+**BIQU Official Website：**                            				http://biqu3d.com
 
-**BIGTREETECH Official Website：            				 http://bigtree-tech.com**
+**BIGTREETECH Official Website：**            				 http://bigtree-tech.com
 
-**Online Store：                                           				 https://biqu.equipment**
+**Online Store：**                                           				 https://biqu.equipment
 
-**BIGTREETECH Official Group: 								  https://www.facebook.com/groups/bigtreetech**
+**BIGTREETECH Official Group: **								  https://www.facebook.com/groups/bigtreetech
 
-**Discord: 																	   https://discord.gg/hhZsV7zk**
+**Discord: **																	   https://discord.gg/hhZsV7zk
 
-**Reddit:																		  https://www.reddit.com/r/BIGTREETECH/**
+**Reddit:**																		  https://www.reddit.com/r/BIGTREETECH/

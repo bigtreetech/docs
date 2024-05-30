@@ -6,6 +6,8 @@
 
 TMC5160T Plus is a high-power stepper motor driver control module, featuring 8 high-power MOSFETs separately mounted on the board with a maximum voltage of 60V. This supports a wider range of stepper motors and offers greater adaptability.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-tmc5160-v1-0-driver-spi-mode-silent-high-precision-stepstick-stepper-motor-driver-with-heatsink-for-skr-v1-3-gen-v1-4-reprap?variant=40447047860322
+
 ## **Features Highlights**
 
 - <p>8 high-power MOSFETs separately mounted on the board with 100V voltage 

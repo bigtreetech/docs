@@ -4,7 +4,9 @@
 
 ## **Product Profile**
 
-<p>BIGTREETECH HDMI5 V1.0 is a universal 5-inch HDMI display screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..</p>
+BIGTREETECH HDMI5 V1.0 is a universal 5-inch HDMI display screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
+
+**Product Link:** https://biqu.equipment/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0
 
 ## **Features Highlights**
 

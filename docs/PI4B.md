@@ -6,6 +6,8 @@
 
 BIGTREETECH PI4B Adapter V1.0 is a Raspberry Pi CM4 carrier board launched by Shenzhen BIQU Innovation Technology Co., Ltd., when the Raspberry Pi CM4 is plugged in, it can be used as a Raspberry Pi 4, which brings convenience for customers to use the CM4.
 
+**Product Link:** https://biqu.equipment/products/pi4b-adapter-v1-0?_pos=1&_psq=pi4b&_ss=e&_v=1.0&variant=39919128969314
+
 ## **Features Highlights**
 
 - Use Raspberry Pi 4B board outline, the same mounting hole dia;

@@ -9,6 +9,8 @@
 
 BIGTREETECH EBB36 CAN V1.0/V1.1 is a nozzle adapter board specially designed for the 36 extruder stepper motor, which is launched by the 3D printing team Shenzhen BIQU Innovation Technology Co., Ltd.. It can communicate via USB port, or CAN BUS, greatly simplifying wirings.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-connecting-klipper-expansion-device?variant=39760665149538
+
 ## **Features Highlights**
 
 - With BOOT and RESET buttons reserved, users can update the firmware via DFU mode by USB.

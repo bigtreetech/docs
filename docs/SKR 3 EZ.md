@@ -6,6 +6,8 @@
 
 BIGTREETECH SKR 3 EZ V1.0 motherboard is a 32-bit 3D printer motherboard updated by the team of Shenzhen BIQU Innovation Technology Co., Ltd. for our EZ series drivers on the basis of SKR 3. It is compatible with both the EZ series driver and the series of TMC drivers.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-btt-skr-3-ez-control-board-mainboard-for-3d-printer
+
 ## **Features Highlights**
 
 - Using 32-bit ARM Cortex-M7 series STM32H743VI main control chip with a main frequency of 480MHz, the performance has greatly improved.

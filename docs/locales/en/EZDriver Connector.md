@@ -4,6 +4,8 @@
 
 EZDriver Connector is the adapter board of the main board and EZdriver.
 
+**Product Link:** https://biqu.equipment/products/ez-drive-easy-driver-ez2209-ez5160-pro-v1-0?variant=39787467997282
+
 ## **Interface Diagram**
 
 <img src=img/EZDriver_Connector/EZDriver_Connector_Interface1.png width="600"/>

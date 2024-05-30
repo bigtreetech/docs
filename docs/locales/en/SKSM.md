@@ -6,6 +6,8 @@
 
 The SKSM is an external module for 3D printers that features the ability to save data in the event of a power outage. It is suitable for 3D printers that use 12-24V DC power supplies and are equipped with Klipper firmware, such as the Ender 3. 
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-sksm-v1-0
+
 ## **Features Highlights**
 
 - Smart Power Outage Detection: It has a high-sensitivity MCU chip that can quickly detect power losses.

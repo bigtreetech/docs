@@ -6,6 +6,8 @@
 
 BIGTREETECH TFT24-V1.1 is a small volume ultra-clear 3D printer display board. It can work in two modes. The board is launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. This board can replace LCD12864 for use.
 
+**Product Link:** https://biqu.equipment/products/tft24v1-1-gd-version
+
 ## **Features Highlights**
 
 - ARM Cortex-M3 series STM32F105RCT6 chip with 32-bit CPU 72MHz;

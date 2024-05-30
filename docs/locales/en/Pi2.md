@@ -6,6 +6,8 @@
 
 BIGTREETECH Pi 2 uses the higher performance quad-core A55-RK3566 chipset. It consists of rich interface functions, a built-in eMMC5.1, onboard support for 2.4G/5G dual-mode, and WiFi transmission speeds of up to 433.3Mbps. It also supports the Bluetooth BT5.2 version. It has the same mounting hole positions as the Raspberry Pi; therefore, installation and use are convenient and quick.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-pi-2-cb2
+
 ## **Features Highlights**
 
 * CPU: Rockchip RK3566, quad-core Cortex-A55 @1.8GHz

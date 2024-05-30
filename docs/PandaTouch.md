@@ -3,6 +3,8 @@
 
 The CAD files for the Panda Touch can be downloaded [here](https://github.com/bigtreetech/PandaTouch/tree/master/3D)
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-panda-touch-5-display-for-bambu-lab-printers
+
 ## IMPORTANT NOTE
 
 The Panda Touch is currently compatible with all Bambu Lab printer firmware versions up until:
@@ -88,7 +90,7 @@ It is possible that Bambu Lab may release a future firmware version which impact
   * In the `OFF` position, the battery will charge but the Panda Touch will not be powered up.
   * When switched to the battery position, the USB will charge the battery and power the Panda Touch at the same time. If the Panda Touch is removed from the dock then the battery will take over and power it for up to 30 minutes. Upon being returned to the dock, the USB will once again resume charging and powering the Panda Touch. This mode is recommended for users who do not turn their printer on and off often. Note that there is no battery charge level indicator. The Panda Touch has been designed for brief periods of use away from a dock and not for prolonged mobile use.
   * When switched to the DC 5V position, the Panda Touch is powered directly from the USB input, while still charging the battery. Removing it from the dock will power it off without the Panda Touch draining the battery. This mode is recommended for users who often turn their printer on and off as it will preserve battery charge cycles. If such users wish to use the Panda Touch in a portable mode then they can flip the switch to battery power after removing it from the dock.
-<br> <img src=img/PandaTouch/pt_2_4.png width="300"/>
+  <br> <img src=img/PandaTouch/pt_2_4.png width="300"/>
 * Panda Touch has been successfully installed and powered on. Please follow the on-screen instructions for the next setup step.
 <br> <img src=img/PandaTouch/pt_2_5.png width="300"/>
 
@@ -171,7 +173,7 @@ The Panda Touch allows users to configure the type and colour of the filament be
 When performing any actions, please ensure that the correct AMS unit and filament slot is selected. You will know that the filament is selected when it has a red border around it. If nothing has been selected then the `Load` and `Unload` buttons will be greyed out.
 
 <img src=img/PandaTouch/filament_screen.png width="600"/>
-   
+
 ### HMS (Health Management System)
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/hms.png width="600"/>
@@ -226,7 +228,7 @@ Allow you to create up to 10 new groups to control multiple printers:
 ##### Start printing with one printer
 * Tap to choose the file in the USB disk list to print.
 * Set printing parameters:
-<br><img src=img/PandaTouch/start_print_one.png width="600"/>
+  <br><img src=img/PandaTouch/start_print_one.png width="600"/>
     * `Bed Leveling`
     * `Flow Calibration` (`P1P` and `P1S` do not have this feature, so these models of printers will not display this option.)
     * `Timelapse`
@@ -238,7 +240,7 @@ Allow you to create up to 10 new groups to control multiple printers:
 ##### Multiple printing
 * Tap to choose the file in the USB disk list to print.
 * Set printing parameters:
-<br><img src=img/PandaTouch/start_print.png width="600"/>
+  <br><img src=img/PandaTouch/start_print.png width="600"/>
     * `Bed Leveling`
     * `Flow Calibration` (When there is a printer in the group that supports this feature, it will be automatically selected and only applicable to those supported printers.)
     * `Timelapse`

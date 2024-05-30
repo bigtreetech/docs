@@ -6,6 +6,8 @@
 
 BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octopus Pro developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.. Its self-developed stepper motor sockets enhance safety and user experience, and it adds a series of features that Octopus Pro does not have, greatly enhancing its DIY capabilities.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-btt-octopusmax-ez-for-3d-printer
+
 ## **Features Highlights**
 
 - 32 bit 550 MHz ARM Cortex-M7 series STM32H723ZET6 MCU.

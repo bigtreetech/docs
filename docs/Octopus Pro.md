@@ -6,6 +6,8 @@
 
 The BIGTREETECH Octopus-pro V1.0 is a powerful and feature rich, 3D printer motherboard that supports up to 8 60V stepper drivers with 9 stepper driver outputs in total. It is designed and manufactured by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-octopus-pro-v1-0-chip-f446
+
 ## **Features Highlights**
 
 - Uses a 32-bit ARM Cortex-M4 series. Option A comes with an STM32F446ZET6 main control chip with a core frequency of 180MHz and a flash capacity of 512kB.Option B comes with an STM32F429ZGT6 with a core frequency of 168MHz and a flash capacity of 1MB. For Klipper use, option A is likely sufficient.

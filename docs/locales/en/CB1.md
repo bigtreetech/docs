@@ -4,7 +4,9 @@
 
 ## **Product Profile**
 
-<p>The BIGTREETECH CB1 is launched to provide a great solution to the insane shortage of Raspberry Pi CM4. <br>It outputs signals to the motherboard via the fast and convenient two 100 pins micro BTB connection header. Moreover, it is onboard 2.4G WiFi.<br></p>
+The BIGTREETECH CB1 is launched to provide a great solution to the insane shortage of Raspberry Pi CM4. It outputs signals to the motherboard via the fast and convenient two 100 pins micro BTB connection header. Moreover, it is onboard 2.4G WiFi.
+
+**Product Link:** https://biqu.equipment/products/manta-m4p-m8p?variant=39847241384034
 
 ## **Features Highlights**
 

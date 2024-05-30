@@ -7,6 +7,8 @@
 The BIGTREETECH CB2, compatible with the Raspberry Pi CM4 form factor, uses two 100-pin high-speed board-to-board (BTB) connectors for easy and quick connection with external expansion baseboards. It offers an alternative with similar IO capabilities, 
 including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally, it features 2.4G and 5G WiFi, Bluetooth 5.2, the Rockchip RK3566 SoC, 2GB LPDDR4 RAM, and 32GB eMMC storage.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-pi-2-cb2?variant=41018191839330
+
 ## **Features Highlights**
 
 * CPU: Rockchip RK3566, quad-core Cortex-A55 @1.8GHz

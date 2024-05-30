@@ -6,6 +6,8 @@
 
 BIGTREETECH ADXL345 V2.0 is a module for printer resonance compensation. It can communicate through USB, greatly simplifying wiring.
 
+**Product Link:** https://biqu.equipment/products/adxl-345-accelerometer-board-for-36-stepper-motors
+
 ## **Features Highlights**
 
 - The board has a reserved BOOT button for easy firmware updates.

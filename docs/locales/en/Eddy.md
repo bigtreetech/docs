@@ -2,6 +2,8 @@
 
 <img src=img/Eddy/Eddy_Title.png width="600" />
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-eddy
+
 ## **Features Highlights**
 
 - Compact size and lightweight;

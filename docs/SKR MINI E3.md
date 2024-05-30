@@ -6,6 +6,8 @@
 
 BTT SKR MINI E3 V3.0 is a motherboard designed for Ender3, which launched by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.. It is the perfect replacement of the original motherboard of Ender3.
 
+**Product Link:** https://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-board-for-ender-3
+
 ## **Features Highlights**
 
 - Redesigned motherboard ID(Industrial Design) make it good-looking
