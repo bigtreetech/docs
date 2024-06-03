@@ -138,6 +138,16 @@ Version:V1.1
 
 <img src=img/EBB36CAN/G0B1/EBB_G0B1_BLTouch.png width="600"/>
 
+<video width="400" height="300" controls>
+    <source src="img/EBB36CAN/SFSEBB36marketing.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+
 ### **Filament Broke Detection**
 
 Version:V1.0
