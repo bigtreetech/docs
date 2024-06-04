@@ -48,6 +48,12 @@ BTT SKR MINI E3 V3.0 is a motherboard designed for Ender3, which launched by the
 
 <img src=img/SKR_MINI_E3/SKR_MINI_E3_CAD.png width="600" />
 
+
+
+
+
+
+
 ### Motherboard LED meanings
 
 When the motherboard is powered on:
@@ -155,6 +161,24 @@ https://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-boar
 **If you have any issues with the product, please submit a support ticket.**
 
 https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**SKR MINI E3 V3.0 Guide Videos**
+
+***How to install the BIGTREETECH SKR MINI E3 V3.0 on the Ender 3 printer***
+
+<video width="430" height="300" controls>
+    <source src="img/SKR_MINI_E3/installationboard.mp4" type="video/mp4">
+</video>
+
+
+
+***How to modify the firmware of SKR MINI E3 V3.0 on Voron V0.1***
+
+<video width="430" height="300" controls>
+    <source src="img/SKR_MINI_E3/firmwarecompiling.mp4" type="video/mp4">
+</video>
 
 
 
