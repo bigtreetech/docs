@@ -111,6 +111,26 @@ https://biqu3d.com/pages/submit-a-ticket
 
 
 
+**PI4B Guide Videos**
+
+***Instructions for Use: Configure CB1(Core Board 1)+Pi4B Adapter***
+
+<video width="430" height="300" controls>
+    <source src="img/PI4B/CB1PI4Binstruction.mp4" type="video/mp4">
+</video>
+
+***Instructions for using CM4 and Pi4B Adapter***
+
+<video width="430" height="300" controls>
+    <source src="img/PI4B/CM4PI4Binstruction.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+
 **Navigation:**
 
 BIQU Official Website：                            				http://biqu3d.com
