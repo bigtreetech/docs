@@ -156,7 +156,21 @@ https://biqu.equipment/products/bigtreetech-skr-mini-e3-v2-0-32-bit-control-boar
 
 https://biqu3d.com/pages/submit-a-ticket
 
+**SKR MINI E3 V3.0 Guide Videos**
 
+***How to install the BIGTREETECH SKR MINI E3 V3.0 on the Ender 3 printer***
+
+
+<video width="430" height="300" controls>
+    <source src="img/SKR_MINI_E3/installationboard.mp4" type="video/mp4">
+</video>
+
+
+***How to modify the firmware of SKR MINI E3 V3.0 on Voron V0.1***
+
+<video width="430" height="300" controls>
+    <source src="img/SKR_MINI_E3/firmwarecompiling.mp4" type="video/mp4">
+</video>
 
 **Navigation:**
 
