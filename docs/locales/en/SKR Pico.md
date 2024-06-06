@@ -6,6 +6,22 @@ BTT SKR Pico V1.0 is a customized motherboard designed for VORON V0 printer, whi
 
 **Product Link:** https://biqu.equipment/products/btt-skr-pico-v1-0
 
+*** Meet BIGTREETECH powerful motherboard SKR PICO V1.0***
+
+
+
+<video width="430" height="300" controls>
+    <source src="img/SKR_Pico/introduction.mp4" type="video/mp4">
+</video>
+
+*** SKR PICO V1.0 - How to install SKR PICO motherboard on the Voron 0.1***
+
+
+
+<video width="430" height="300" controls>
+    <source src="img/SKR_Pico/installationvoron.mp4" type="video/mp4">
+</video>
+
 ## **Features Highlights**
 
 - Good-looking
