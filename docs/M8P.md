@@ -246,7 +246,15 @@ https://biqu.equipment/products/manta-m4p-m8p?variant=39859521716322
 
 https://biqu3d.com/pages/submit-a-ticket
 
+**M8P Guide Videos**
 
+***Unboxing/Wiring/Firmware Installation of CB1&M8P(Voron 2.4 as an example)***
+
+
+
+<video width="430" height="300" controls>
+    <source src="img/M8P/installationvoron2.4.mp4" type="video/mp4">
+</video>
 
 **Navigation:**
 
