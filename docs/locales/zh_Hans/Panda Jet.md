@@ -50,6 +50,8 @@ Panda Jet是Bambu Lab X1/P1系列打印机的升级冷却风扇。其特殊的�
 
 垂直拉出原来的风扇导管，小心地将其拆下。
 
+请注意，最新版本的P1/X1系列打印机，风嘴与前盖之间有胶水粘合，请使用平口钳或笔刀，小心的去除胶水后再移除风嘴，避免造成损坏
+
 <img src=img/Panda_Jet/Panda_Jet_Installation3.png width="600"/>
 
 **步骤3：安装Panda Jet**

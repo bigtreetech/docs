@@ -50,6 +50,8 @@ Remove the following two screws that secures the original fan duct. Keep the scr
 
 Carefully remove the original fan duct by pulling it out in a vertical motion.
 
+Important Notice：Latest Version of the fanduct on the P1/X1 series printer is glued onto the front cover, use a flat cutter or Xacto knife to carefully scrap off the glue to avoid damage to the front cover.
+
 <img src=img/Panda_Jet/Panda_Jet_Installation3.png width="600"/>
 
 **Step 3: Install the Panda Jet**

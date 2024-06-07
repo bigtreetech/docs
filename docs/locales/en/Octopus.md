@@ -175,7 +175,7 @@ placed the stepper sockets close to each other. This means that drivers will hav
 
 **<font  color="red">*Note that if you use an A4988 or a DRV8825 driver, you must connect RST and SLP.*</font>**
 
-**For details, please click: https://bigtreetech.github.io/docs/Tutorials.html**
+**For details, please click:** https://bigtreetech.github.io/docs/Tutorials.html
 
 #### **UART MODE**
 
