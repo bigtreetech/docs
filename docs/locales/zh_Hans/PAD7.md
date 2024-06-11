@@ -6,6 +6,8 @@
 
 BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队针对Klipper研发的屏幕，提供预安装Klipper和KlipperScreen的系统。预留BTB座子，客户可以选择使用CM4、CB1或其它类似方案，解决当下CM4昂贵、缺货的问题。
 
+
+
 ## **功能亮点**
 
 - 七寸IPS高清触摸屏，视域更广，显示更细致，体验更舒适；
@@ -21,6 +23,12 @@ BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队
 - 采用GT911高性能触摸芯片，支持五点触摸；
 
 - 采用磁吸支架，不适用支架时，吸附更方便；
+
+  <video width="430" height="300" controls>
+      <source src="img/PAD7/introduction.mp4" type="video/mp4">
+  </video>
+
+  
 
 ## **规格**
 
