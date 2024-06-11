@@ -5,6 +5,14 @@ The CAD files for the Panda Touch can be downloaded [here](https://github.com/bi
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-panda-touch-5-display-for-bambu-lab-printers
 
+***Panda Touch Guide Video***
+
+<video width="430" height="300" controls>
+    <source src="img/PandaTouch/introduction.mp4" type="video/mp4">
+</video>
+
+
+
 ## IMPORTANT NOTE
 
 The Panda Touch is currently compatible with all Bambu Lab printer firmware versions up until:
