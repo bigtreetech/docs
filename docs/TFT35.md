@@ -8,6 +8,14 @@ TFT35 V3.0 is a medium size, dual-mode, ultra-clear 3D printer display. It is an
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-tft35-v3-0-display-two-working-modes
 
+<video width="430" height="300" controls>
+    <source src="img/TFT35_V3.0/introduction.mp4" type="video/mp4">
+</video>
+
+
+
+
+
 ## **Features Highlights**
 
 - ARM Cortex-M3 series STM32F207VCT6 chip with 32-bit CPU 120 MHz.
