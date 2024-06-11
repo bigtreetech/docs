@@ -8,6 +8,12 @@ BIGTREETECH TFT35-E3 V3.0 is a medium size, dual-mode,ultra-clear 3D printing ma
 
 **Product Link:** https://biqu.equipment/products/btt-tft35-e3-v3-0-display-touch-screen-two-working-modes
 
+<video width="430" height="300" controls>
+    <source src="img/TFT35_E3/introduction.mp4" type="video/mp4">
+</video>
+
+
+
 ## **Features Highlights**
 
 - ARM Cortex-M3 series STM32F207VCT6 chip with 32-bit CPU 120MHz;
