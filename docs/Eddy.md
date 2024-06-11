@@ -4,6 +4,14 @@
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-eddy
 
+*** Eddy Guide Video***
+
+<video width="500" height="300" controls>
+    <source src="img/Eddy/installationen.mp4" type="video/mp4">
+</video>
+
+
+
 ## **Features Highlights**
 
 - Compact size and lightweight;
