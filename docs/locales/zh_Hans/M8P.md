@@ -68,7 +68,7 @@ V1.1中的更改包括：M6、M7、M8、SPI、MCU卡、RGB1和RGB2、FAN4、CAN�
 
 ## **接口示意图**
 
-<img src=img/M8P/M8P_CAD.png width="600" />
+<img src=img/M8P/M8P_2.0_Pinout.png width="600" />
 
 **V1.1增加了功能**
 
@@ -216,13 +216,13 @@ spi_bus: spi1
 
 详情请点击：
 
-https://bigtreetech.github.io/docs/Software%20Configuration.html
+https://bigtreetech.github.io/docs/zh/Software%20Configuration.html
 
 ## **软件安装**
 
 详情请点击：
 
-https://bigtreetech.github.io/docs/Software%20Installation.html
+https://bigtreetech.github.io/docs/zh/Software%20Installation.html
 
 ## **常问问题**
 

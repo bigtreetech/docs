@@ -60,7 +60,7 @@ BIGTREETECH EBB36 CAN V1.0/V1.1是必趣创新科技（深圳）有限公司3D�
 
 Version:V1.0
 
-<img src=img/EBB36CAN/072/EBB_072_Pin.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_Pinout.png width="600"/>
 
 版本:V1.1
 
@@ -159,7 +159,7 @@ Version:V1.0
 
 详情请点击：
 
-https://bigtreetech.github.io/docs/EBB%20Series.html
+https://bigtreetech.github.io/docs/zh/EBB%20Series.html
 
 
 

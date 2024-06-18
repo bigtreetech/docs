@@ -55,7 +55,7 @@ BIGTREETECH SKRat V1.0 主板是必趣创新科技（深圳）有限公司联合
 
 ### 接口示意图
 
-<img src=img/SKRat/SKRat_Diagram.png width="600" />
+<img src=img/SKRat/SKRat_Pinout_CN.png width="600" />
 
 ### 引脚说明
 

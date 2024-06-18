@@ -55,7 +55,7 @@ BIGTREETECH MANTA M5P是必趣创新科技（深圳）有限公司3D打印团队
 
 ## **接口示意图**
 
-<img src=img/M5P/M5P_Diagram.png width="600" />
+<img src=img/M5P/M5P_Pinout_CN.png width="600" />
 
 ## **引出线**
 
@@ -172,13 +172,13 @@ BIGTREETECH MANTA M5P通电后，MCU左侧的红灯D22将亮起，表示已通�
 
 详情请点击：
 
-https://bigtreetech.github.io/docs/Software%20Configuration.html
+https://bigtreetech.github.io/docs/zh/Software%20Configuration.html
 
 ## **软件安装**
 
 详情请点击：
 
-https://bigtreetech.github.io/docs/Software%20Installation.html
+https://bigtreetech.github.io/docs/zh/Software%20Installation.html
 
 ## **常问问题**
 

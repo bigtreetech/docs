@@ -41,7 +41,7 @@ BTT SKR MINI E3 V3.0是必趣创新科技（深圳）有限公司3D打印团队�
 
 ## **外围设备接口**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_CAD.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Pinout_CN.png width="600" />
 
 ## **接口介绍**
 

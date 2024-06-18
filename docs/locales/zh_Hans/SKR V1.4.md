@@ -56,7 +56,7 @@ BIGTREETECH SKR V1.4主板是必趣创新科技（深圳）有限公司针对V1.
 
 ### 接口示意图
 
-<img src=img/SKR_V1.4/SKR_V1.4_Diagram.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Pinout.png width="600" />
 
 ## **接口介绍**
 

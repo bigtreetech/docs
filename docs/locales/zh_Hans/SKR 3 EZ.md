@@ -69,7 +69,7 @@ BIGTREETECH SKR 3 EZ V1.0 主板是必趣创新科技（深圳）有限公司针
 
 ### 接口示意图
 
-<img src=img/SKR3_EZ/SKR3_EZ_Interface.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Pinout_CN.png width="600" />
 
 ### 引脚说明
 

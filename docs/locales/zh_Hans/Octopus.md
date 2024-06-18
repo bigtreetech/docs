@@ -61,7 +61,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 ## **接口示意图**
 
-<img src=img/Octopus/Octopus_CAD.png width="600"/>
+<img src=img/Octopus/Octopus_Pinout_CN.png width="600"/>
 
 ## **引出线**
 

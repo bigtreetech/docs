@@ -60,7 +60,7 @@ BIGTREETECH-SKR-PRO-1.2是必趣创新科技（深圳）有限公司针对市场
 
 ### 接口示意图
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Diagram.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pinout_CN.png width="600" />
 
 ### 引脚说明
 

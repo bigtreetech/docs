@@ -47,7 +47,7 @@
 
 ## **接口示意图**
 
-<img src=img/M4P/M4P_Interface_Diagram.png width="600" />
+<img src=img/M4P/M4P_Pinout.png width="600" />
 
 ## **引出线**
 
@@ -170,13 +170,13 @@ M4P_E1_E2_LCD
 
 详情请点击：
 
-https://bigtreetech.github.io/docs/Software%20Configuration.html
+https://bigtreetech.github.io/docs/zh/Software%20Configuration.html
 
 ## **软件安装**
 
 详情请点击：
 
-https://bigtreetech.github.io/docs/Software%20Installation.html
+https://bigtreetech.github.io/docs/zh/Software%20Installation.html
 
 ## **常问问题**
 

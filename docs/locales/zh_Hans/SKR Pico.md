@@ -34,7 +34,7 @@ BTT SKR Pico V1.0 是必趣创新科技（深圳）有限公司 3D 打印团队�
 
 ## **外围设备接口**
 
-<img src=img/SKR_Pico/SKR_Pico_In.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Pinout_CN.png width="600" />
 
 ## **接口介绍**
 

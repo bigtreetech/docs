@@ -67,7 +67,7 @@ BIGTREETECHOctopusMAXEZ主板是必趣创新科技（深圳）有限公司3D打�
 
 **接口示意图**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Peripheral.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout_CN.png width="600"/>
 
 ## Pin脚说明
 

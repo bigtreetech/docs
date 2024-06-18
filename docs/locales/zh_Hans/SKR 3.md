@@ -64,7 +64,7 @@ BIGTREETECH SKR 3 主板是必趣创新科技（深圳）有限公司针对 SKR 
 
 ### 接口示意图
 
-<img src=img/SKR3/SKR3_Interface.png width="600" />
+<img src=img/SKR3/SKR3_Pinout_CN.png width="600" />
 
 ### 引脚说明
 
