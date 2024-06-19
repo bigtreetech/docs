@@ -48,10 +48,6 @@ P1
 
 Panda Claw
 
-Panda A1/Mini
-
-Panda P1/X1
-
 挤出机
 
 热端
