@@ -206,6 +206,11 @@ nav:
             - Panda Revo X1 Hotend.md
           - P1:
             - Panda Revo P1 Hotend.md
+      - Panda Claw:
+        - Panda A1/Mini:
+          - Panda A1Mini.md
+        - Panda P1/X1:
+          - Panda P1 X1.md
       - PandaTouch.md
       - Panda Jet.md 
       - Panda Fur.md 
