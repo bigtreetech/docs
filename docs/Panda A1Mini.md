@@ -1,2 +1,2 @@
-# Panda A1Mini
+# Panda A1/Mini
 
