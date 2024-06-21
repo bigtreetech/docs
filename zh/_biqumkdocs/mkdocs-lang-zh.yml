@@ -156,6 +156,7 @@ nav:
       - KNOMI.md
       - KNOMI2.md
       - Panda Touch.md
+      - Klipper Touch.md
     - 显示屏:
       - TFT43-DIP.md
       - TFT35 E3.md
@@ -210,6 +211,7 @@ nav:
           - Panda A1Mini.md
           - Panda P1 X1.md
       - PandaTouch.md
+      - Panda Hub.md
       - Panda Jet.md 
       - Panda Fur.md 
       - Panda Lux.md 
