@@ -1,6 +1,6 @@
 # Panda Hub
 
-<img src=img/Panda_Hub/Panda_Hub_title.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub.png width="600"/>
 
 产品链接: [BIGTREETECH Official Website](https://biqu.equipment/products/panda-hub?_pos=1&_sid=38671e86d&_ss=r)
 
