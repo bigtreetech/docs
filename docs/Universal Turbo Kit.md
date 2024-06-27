@@ -51,7 +51,9 @@ The BIQU Universal Turbo Kit consists of high-quality, high-performance componen
 
 ## **Driver Specification**
 
-<img src=img/Turbo_Kit/Turbo_Kit_Driver.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Driver1.png width="600"/>
+
+<img src=img/Turbo_Kit/Turbo_Kit_Driver2.png width="600"/>
 
 ## **Dimensions**
 
@@ -198,49 +200,47 @@ Firstly, print everything in the "Stealthburner Parts" folder. You will need the
 
 To complete the connection from printhead to the Blower, You will need to purchase the 15mm CPAP separately
 
- 
+
 
 Next, select one of the folders in "Exhaust parts" based on your preferred configuration and print everything in the folder. Here are the 4 configurations you can choose from:
 
- 
 
-​	1.Voron-Exhaust-UTK-SFS-without-fan: Redesigned version of the Voron exhaust hood with an integrated SFS V2.0 module, making use of the included Air Filter, without the 60mm exhaust fan. 
+
+1.Voron-Exhaust-UTK-SFS-without-fan: Redesigned version of the Voron exhaust hood with an integrated SFS V2.0 module, making use of the included Air Filter, without the 60mm exhaust fan. 
 
 This is the recommended configuration as it completely encloses the blower, keeping the noise level to a minimum. 
-
-*This design is a remix based on the design from @MichalKelnar_1267496 on Printables.
-
-Original design link: https://www.printables.com/model/668556-modified-voron-exhaust-filter/files
 
 For this configuration, you will need the following extra parts:
 
 1x BIGTREETECH SFS V2.0 module
 
- 
 
-2. Voron-Exhaust-UTK-without-fan: modified Voron design V2.4 exhaust hood without a 60mm exhaust fan. This is the recommended configuration for non-SFS users as it completely encloses the blower, keeping the noise level to a minimum.
+
+2.Voron-Exhaust-UTK-without-fan: modified Voron design V2.4 exhaust hood without a 60mm exhaust fan. This is the recommended configuration for non-SFS users as it completely encloses the blower, keeping the noise level to a minimum.
 
 For this configuration, no extra parts are needed.
 
- 
 
-3. Voron-Exhaust-UTK-SFS-with-fan: this is a redesigned version of the Voron exhaust hood with an integrated SFS V2.0 module and a 60mm exhaust fan. A powerful 60mm fan is needed to maintain negative pressure in the printer enclosure due to the CPAP blower position; bear in mind that this will produce a high noise level, as the blower isn’t enclosed. 
 
-*This design is a remix based on the design from @MichalKelnar_1267496 on Printables.
-
-Original design link: https://www.printables.com/model/668556-modified-voron-exhaust-filter/files
+3.Voron-Exhaust-UTK-SFS-with-fan: this is a redesigned version of the Voron exhaust hood with an integrated SFS V2.0 module and a 60mm exhaust fan. A powerful 60mm fan is needed to maintain negative pressure in the printer enclosure due to the CPAP blower position; bear in mind that this will produce a high noise level, as the blower isn’t enclosed. 
 
 For this configuration, you will need the following extra parts:
 
 1x BIGTREETECH SFS V2.0 module; 1x 60mm Axial Fan
 
- 
 
-4. Voron-Exhaust-UTK-with-fan: original Voron design V2.4 exhaust hood with a 60mm exhaust fan. A powerful 60mm fan is needed to maintain negative pressure in the printer enclosure due to the CPAP blower position; bear in mind that this will also produce a high noise level, as the blower isn’t enclosed.
+
+4.Voron-Exhaust-UTK-with-fan: original Voron design V2.4 exhaust hood with a 60mm exhaust fan. A powerful 60mm fan is needed to maintain negative pressure in the printer enclosure due to the CPAP blower position; bear in mind that this will also produce a high noise level, as the blower isn’t enclosed.
 
 For this configuration, you will need the following extra parts:
 
 1x 60mm Axial Fan
+
+The above design is remixed from the following designer, thank you for the inspiration：
+
+https://www.printables.com/model/668556-modified-voron-exhaust-filter
+https://www.printables.com/model/537863-ws7040-cpap-fan-mount-voron
+https://www.printables.com/model/574324-stealthburner-knomi-can-sb22092240-cpap-nozzle-cam
 
 ## **Product Purchase Link**
 
