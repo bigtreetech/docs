@@ -4,6 +4,10 @@
 
 **产品链接: **https://biqu.equipment/products/biqu-panda-hotend
 
+**参考 Cad：**
+
+https://github.com/bigtreetech/Panda_Revo/tree/master/3D
+
 ## **产品简介**
 
 与E3D共同开发的Panda Revo具有无需工具、30秒喷嘴更换和Revo™HF喷嘴，可实现高达40mm³/s的燃烧流速，以及强大的60W加热器核心。与Bambu实验室的P1打印机完全兼容。提升您的打印体验！
