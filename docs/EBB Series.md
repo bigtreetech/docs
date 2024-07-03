@@ -32,7 +32,7 @@ version).
 
  **Communication interface (CAN bus (on PB8/PB9)) --->**
 
- **(250000) CAN bus speed**
+ **(1000000) CAN bus speed**
 
 <img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/>
 
@@ -56,7 +56,7 @@ version).
 
  **Communication interface (CAN bus (on PB0/PB1)) --->**
 
- **(250000) CAN bus speed**
+ **(1000000) CAN bus speed**
 
 <img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/>
 
@@ -158,11 +158,11 @@ Upgrade with STM32CubeProgrammer
 
  `iface can0 can static`
 
- `bitrate 250000`
+ `bitrate 1000000`
 
  `up ifconfig $IFACE txqueuelen 1024`
 
-Set the speed for CANBus at 250K (which must be the same as the speed set in the firmware (250000) CAN bus speed), Save (Ctrl + S) after modification 
+Set the speed for CANBus at 250K (which must be the same as the speed set in the firmware (1000000) CAN bus speed), Save (Ctrl + S) after modification 
 and exit (Ctrl + X). Type command  `sudo reboot` to reboot Raspberry Pi.
 
 2.Every device on CANBus will generate a canbus_uuid based on MCU's ID. If users want to find the ID for every microcontroller, please make sure the 
@@ -206,11 +206,11 @@ After modification, save `(Ctrl + S)`and exist`(Ctrl + X)`, type sudo reboot to 
 
  `iface can0 can static`
 
- `bitrate 250000`
+ `bitrate 1000000`
 
  `up ifconfig $IFACE txqueuelen 1024`
 
-Set the speed for CANBus at 250K(which must be the same as the speed set in the firmware **(250000) CAN bus speed)**. Save `(Ctrl + S)` after modification and exit `(Ctrl + X)`.Type command sudo reboot to reboot Raspberry Pi.
+Set the speed for CANBus at 250K(which must be the same as the speed set in the firmware **(1000000) CAN bus speed)**. Save `(Ctrl + S)` after modification and exit `(Ctrl + X)`.Type command sudo reboot to reboot Raspberry Pi.
 
 4.Every device on CANBus will generate a canbus_uuid base on MCU's ID. If users want to find ID for every microcontroller, please make sure the 
 hardware is powered on and wired correctly, then run the following command:

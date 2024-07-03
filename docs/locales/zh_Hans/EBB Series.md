@@ -31,7 +31,7 @@ make menuconfig
 
  **Communication interface (CAN bus (on PB8/PB9)) --->**
 
- **(250000) CAN bus speed**
+ **(1000000) CAN bus speed**
 
 <img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/>
 
@@ -55,7 +55,7 @@ make menuconfig
 
  **Communication interface (CAN bus (on PB0/PB1)) --->**
 
- **(250000) CAN bus speed**
+ **(1000000) CAN bus speed**
 
 <img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/>
 
@@ -157,11 +157,11 @@ USART的IO将在进入USB DFU模式之前进行配置。
 
  `iface can0 can static`
 
- `bitrate 250000`
+ `bitrate 1000000`
 
  `up ifconfig $IFACE txqueuelen 1024`
 
-将CAN总线的速度设置为250K（必须与固件中设置的速度（250000）CAN总线速度相同），修改后保存（Ctrl+S），然后退出（Ctrl+X）。键入命令“sudo reboot”以重新启动Raspberry Pi。
+将CAN总线的速度设置为250K（必须与固件中设置的速度（1000000）CAN总线速度相同），修改后保存（Ctrl+S），然后退出（Ctrl+X）。键入命令“sudo reboot”以重新启动Raspberry Pi。
 
 2.CANBus上的每个设备都会根据MCU的ID生成一个CANBus_uuid。如果用户想找到每个微控制器的ID，请确保硬件已通电并正确接线，然后运行以下命令：
 
@@ -203,11 +203,11 @@ USART的IO将在进入USB DFU模式之前进行配置。
 
  `iface can0 can static`
 
- `bitrate 250000`
+ `bitrate 1000000`
 
  `up ifconfig $IFACE txqueuelen 1024`
 
-将CAN总线的速度设置为250K（必须与固件中设置的速度相同**（250000）CAN总线速度）**。修改后保存“（Ctrl+S）”并退出“（Ctrl+X）”。键入命令sudo reboot以重新启动Raspberry Pi。
+将CAN总线的速度设置为250K（必须与固件中设置的速度相同**（1000000）CAN总线速度）**。修改后保存“（Ctrl+S）”并退出“（Ctrl+X）”。键入命令sudo reboot以重新启动Raspberry Pi。
 
 4.CANBus上的每个设备都会根据MCU的ID生成一个CANBus_uuid。如果用户想找到每个微控制器的ID，请确保硬件已通电并正确接线，然后运行以下命令：
 
