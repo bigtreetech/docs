@@ -2936,7 +2936,7 @@
 <p><strong>Communication interface (USB (on PA11/PA12)) ---&gt;</strong></p>
 <p><strong>If using CANBus communication</strong></p>
 <p><strong>Communication interface (CAN bus (on PB8/PB9)) ---&gt;</strong></p>
-<p><strong>(250000) CAN bus speed</strong></p>
+<p><strong>(1000000) CAN bus speed</strong></p>
 <p><img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/></p>
 <p><font  color="red"><strong><em>注意: EBB36/EBB42 VersionV1.1</em></strong></font></p>
 <p><strong>[*] Enable extra low-level configuration options</strong></p>
@@ -2948,7 +2948,7 @@
 <p><strong>Communication interface (USB (on PA11/PA12)) ---&gt;</strong></p>
 <p><strong>If using CANBus communication</strong></p>
 <p><strong>Communication interface (CAN bus (on PB0/PB1)) ---&gt;</strong></p>
-<p><strong>(250000) CAN bus speed</strong></p>
+<p><strong>(1000000) CAN bus speed</strong></p>
 <p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/></p>
 <p><font  color="red">***注意：仅在https://github.com/Klipper3d/klipper/pull/5488被合并到Klipper的主要分支，官方固件将支持STM32G0B1的CAN总线功能。如果您使用CANBus通信，您可以使用我们在GitHub上编译的firmware_CANBus.bin，也可以使用我们的源代码自己编译：<a href="https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus***">https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus***</a> </font></p>
 <p>2.配置完成后，键入“q”退出配置界面。当被问及是否保存配置时，选择“是”</p>
@@ -2999,9 +2999,9 @@
 <p>1.在ssh终端中键入以下命令“sudo nano/etc/network/interfaces.d/can0”并执行</p>
 <p><code>auto can0</code></p>
 <p><code>iface can0 can static</code></p>
-<p><code>bitrate 250000</code></p>
+<p><code>bitrate 1000000</code></p>
 <p><code>up ifconfig $IFACE txqueuelen 1024</code></p>
-<p>将CAN总线的速度设置为250K（必须与固件中设置的速度（250000）CAN总线速度相同），修改后保存（Ctrl+S），然后退出（Ctrl+X）。键入命令“sudo reboot”以重新启动Raspberry Pi。</p>
+<p>将CAN总线的速度设置为250K（必须与固件中设置的速度（1000000）CAN总线速度相同），修改后保存（Ctrl+S），然后退出（Ctrl+X）。键入命令“sudo reboot”以重新启动Raspberry Pi。</p>
 <p>2.CANBus上的每个设备都会根据MCU的ID生成一个CANBus_uuid。如果用户想找到每个微控制器的ID，请确保硬件已通电并正确接线，然后运行以下命令：</p>
 <p><code>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0</code></p>
 <p>3.如果检测到未初始化的CAN设备，上述命令将报告该设备的canbus_uuid：</p>
@@ -3022,9 +3022,9 @@
 <p>3.在ssh终端上键入“sudo nano/etc/network/interfaces.d/can0”，然后运行该命令。</p>
 <p><code>auto can0</code></p>
 <p><code>iface can0 can static</code></p>
-<p><code>bitrate 250000</code></p>
+<p><code>bitrate 1000000</code></p>
 <p><code>up ifconfig $IFACE txqueuelen 1024</code></p>
-<p>将CAN总线的速度设置为250K（必须与固件中设置的速度相同<strong>（250000）CAN总线速度）</strong>。修改后保存“（Ctrl+S）”并退出“（Ctrl+X）”。键入命令sudo reboot以重新启动Raspberry Pi。</p>
+<p>将CAN总线的速度设置为250K（必须与固件中设置的速度相同<strong>（1000000）CAN总线速度）</strong>。修改后保存“（Ctrl+S）”并退出“（Ctrl+X）”。键入命令sudo reboot以重新启动Raspberry Pi。</p>
 <p>4.CANBus上的每个设备都会根据MCU的ID生成一个CANBus_uuid。如果用户想找到每个微控制器的ID，请确保硬件已通电并正确接线，然后运行以下命令：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 </code></pre></div>

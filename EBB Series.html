@@ -3059,7 +3059,7 @@ version).</p>
 <p><strong>Communication interface (USB (on PA11/PA12)) ---&gt;</strong></p>
 <p><strong>If using CANBus communication</strong></p>
 <p><strong>Communication interface (CAN bus (on PB8/PB9)) ---&gt;</strong></p>
-<p><strong>(250000) CAN bus speed</strong></p>
+<p><strong>(1000000) CAN bus speed</strong></p>
 <p><img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/></p>
 <p><font  color="red"><strong><em>NOTE: NOTE: EBB36/EBB42 VersionV1.1</em></strong></font></p>
 <p><strong>[*] Enable extra low-level configuration options</strong></p>
@@ -3071,7 +3071,7 @@ version).</p>
 <p><strong>Communication interface (USB (on PA11/PA12)) ---&gt;</strong></p>
 <p><strong>If using CANBus communication</strong></p>
 <p><strong>Communication interface (CAN bus (on PB0/PB1)) ---&gt;</strong></p>
-<p><strong>(250000) CAN bus speed</strong></p>
+<p><strong>(1000000) CAN bus speed</strong></p>
 <p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/></p>
 <p><font  color="red">***Note: Only after <a href="https://github.com/Klipper3d/klipper/pull/5488">https://github.com/Klipper3d/klipper/pull/5488</a> is merged into the main branch of Klipper, will the official firmware support the CAN bus function of STM32G0B1. If you use CANBus communication, you can use the firmware_canbus.bin compiled by us on our GitHub, or use our source code to compile it yourself: <a href="https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus***">https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus***</a> </font></p>
 <p>2.When the configuration is completed, type 'q' to exit the configuration interface. Select "Yes" when asked whether to save the configuration</p>
@@ -3122,9 +3122,9 @@ version).</p>
 <p>1.Type the following command  <code>sudo nano /etc/network/interfaces.d/can0</code>  in the ssh terminal and execute</p>
 <p><code>auto can0</code></p>
 <p><code>iface can0 can static</code></p>
-<p><code>bitrate 250000</code></p>
+<p><code>bitrate 1000000</code></p>
 <p><code>up ifconfig $IFACE txqueuelen 1024</code></p>
-<p>Set the speed for CANBus at 250K (which must be the same as the speed set in the firmware (250000) CAN bus speed), Save (Ctrl + S) after modification 
+<p>Set the speed for CANBus at 250K (which must be the same as the speed set in the firmware (1000000) CAN bus speed), Save (Ctrl + S) after modification 
 and exit (Ctrl + X). Type command  <code>sudo reboot</code> to reboot Raspberry Pi.</p>
 <p>2.Every device on CANBus will generate a canbus_uuid based on MCU's ID. If users want to find the ID for every microcontroller, please make sure the 
 hardware is powered on and wired correctly, then run the following command:</p>
@@ -3147,9 +3147,9 @@ hardware is powered on and wired correctly, then run the following command:</p>
 <p>3.Type  <code>sudo nano /etc/network/interfaces.d/can0</code> on the ssh terminal and runthe command.</p>
 <p><code>auto can0</code></p>
 <p><code>iface can0 can static</code></p>
-<p><code>bitrate 250000</code></p>
+<p><code>bitrate 1000000</code></p>
 <p><code>up ifconfig $IFACE txqueuelen 1024</code></p>
-<p>Set the speed for CANBus at 250K(which must be the same as the speed set in the firmware <strong>(250000) CAN bus speed)</strong>. Save <code>(Ctrl + S)</code> after modification and exit <code>(Ctrl + X)</code>.Type command sudo reboot to reboot Raspberry Pi.</p>
+<p>Set the speed for CANBus at 250K(which must be the same as the speed set in the firmware <strong>(1000000) CAN bus speed)</strong>. Save <code>(Ctrl + S)</code> after modification and exit <code>(Ctrl + X)</code>.Type command sudo reboot to reboot Raspberry Pi.</p>
 <p>4.Every device on CANBus will generate a canbus_uuid base on MCU's ID. If users want to find ID for every microcontroller, please make sure the 
 hardware is powered on and wired correctly, then run the following command:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
