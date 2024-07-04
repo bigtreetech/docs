@@ -194,6 +194,8 @@ https://docs.duet3d.com/en/User_manual/Connecting_hardware/Fans_connecting
 
 ## **打印件说明**
 
+下载链接：[https://github.com/bigtreetech/Universal-Turbo-Kit/tree/master/3D%20Model/Voron2.4%26Trident](https://github.com/bigtreetech/Universal-Turbo-Kit/tree/master/3D Model/Voron2.4%26Trident)
+
 首先，打印"Stealthburner Parts"文件夹中的所有模型。您还需要以下额外部件来完成热端组装:
 
 1x BTT KNOMI V2.0；1x 15mm CPAP管；2x扎带。

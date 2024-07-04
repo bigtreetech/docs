@@ -196,6 +196,8 @@ https://docs.duet3d.com/en/User_manual/Connecting_hardware/Fans_connecting
 
 ## **Printed Parts Instruction**
 
+Download Link：[https://github.com/bigtreetech/Universal-Turbo-Kit/tree/master/3D%20Model/Voron2.4%26Trident](https://github.com/bigtreetech/Universal-Turbo-Kit/tree/master/3D Model/Voron2.4%26Trident)
+
 Firstly, print everything in the "Stealthburner Parts" folder. You will need the following extra parts to complete the printhead: 1x BTT KNOMI V2.0; 1x 15mm CPAP Tube; 2x Zip Ties
 
 To complete the connection from printhead to the Blower, You will need to purchase the 15mm CPAP separately
