@@ -241,8 +241,12 @@ For this configuration, you will need the following extra parts:
 The above design is remixed from the following designer, thank you for the inspiration：
 
 https://www.printables.com/model/668556-modified-voron-exhaust-filter
+
 https://www.printables.com/model/537863-ws7040-cpap-fan-mount-voron
+
 https://www.printables.com/model/574324-stealthburner-knomi-can-sb22092240-cpap-nozzle-cam
+
+https://www.printables.com/model/688145-knomi-cpap-stealthburner-sb2240-2209-no-camera/files
 
 ## **Product Purchase Link**
 
