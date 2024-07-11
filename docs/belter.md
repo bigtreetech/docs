@@ -8,7 +8,7 @@ https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool
 
 **Wiki Link:**
 
-https://bttwiki.com/belter.html
+https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master
 
 ## **Introduction**
 
