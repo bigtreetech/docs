@@ -2,99 +2,97 @@
 
 <img src=img/H2V2X/H2V2X_title.png width="600"/>
 
-**Product Link:**
+**产品链接:**
 
 https://biqu.equipment/products/h2-v2x
 
-**Github** **Link:**
+**Github** **链接:**
 
 https://github.com/bigtreetech/H2-V2X
 
-## **Introduction**
+## **产品简介**
 
-The H2 V2X is an ultra-lightweight (145g) direct drive extruder designed for highend CoreXY printers, Precision CNC machined from AL6061 T6 aluminum. It features superior motor heat dissipation, hardened dual-gear extrusion for smooth filament feeding, and versatile mounting options
+H2 V2X是一款超轻（145g）直接驱动挤出机，专为高端CoreXY打印机设计，由AL6061 T6铝精密数控加工而成。它具有卓越的电机散热性能、硬化的双齿轮挤压，可实现平稳的送丝，以及多种安装选项
 
-## **Feature Highlights**
+## **功能亮点**
 
-- Ultra-Lightweight: Enables faster, precise printing with minimal inertia.
-- Superior Motor Heat Dissipation: Hollowed-out, all-metal construction keeps the motor cool for consistent performance.
-- Durable Construction: Anodized aluminum with CNC machining ensures long-lasting durability.
-- Versatile Mounting: Features four-sided mounting options for expansion setups.
-- Effortless Filament Changes: One-handed lock/unlock mechanism simplifies filament handling.
-- Tension adjustment allowing you to master all filament
+- 超轻：能够以最小的惯性实现更快、更精确的打印。
+- 卓越的电机散热：镂空全金属结构使电机保持凉爽，性能稳定。
+- 耐用结构：采用CNC加工的阳极氧化铝可确保持久耐用。
+- 多功能安装：具有用于扩展设置的四边安装选项。
+- 轻松更换灯丝：单手锁定/解锁机制简化了灯丝处理。
+- 张力调节，让您掌握所有灯丝
 
-## **Technical Specifications**
+## **技术规范**
 
-| Extrusion Method                | Dual Gear Extrusion                                          |
-| ------------------------------- | ------------------------------------------------------------ |
-| Weight                          | 145 g                                                        |
-| Maximum Extrusion Force         | 7.5 kg (varies according to filament types)                  |
-| E-step                          | 932/mm at 16 microsteps (additional calibration is recommended) |
-| Klipper Rotation Distance       | 3.433                                                        |
-| Recommended Motor Current       | 800 mA                                                       |
-| Gear Ratio                      | 7:1                                                          |
-| Drive Gear Circumference        | 24.5 mm                                                      |
-| Filament Diameter and Tolerance | 1.75 mm ± 0.05 mm                                            |
+| 挤压方法        | 双齿轮挤压                        |
+| --------------- | --------------------------------- |
+| 重量            | 145 g                             |
+| 最大挤压力      | 7.5 kg （因灯丝类型而异）         |
+| E-step          | 932/mm 16微步（建议进行额外校准） |
+| Klipper旋转距离 | 3.433                             |
+| 推荐电机电流    | 800 mA                            |
+| 传动比          | 7:1                               |
+| 传动齿轮周长    | 24.5 mm                           |
+| 长丝直径和公差  | 1.75 mm ± 0.05 mm                 |
 
-Note: Not compatible with standard NEMA14 motor.
+注：与标准NEMA14电机不兼容。
 
-## **Dimensions**
+## **尺寸**
 
-XYZ Dimensions: 53.9 x 37.88 x 51.52mm
+XYZ尺寸：53.9 x 37.88 x 51.52mm
 
 <img src=img/H2V2X/H2V2X_Dimension1.png width="600"/>
 
 <img src=img/H2V2X/H2V2X_Dimension2.png width="600"/>
 
-### **Filament Tension and Filament Release**
+### **耗材张力和耗材释放**
 
-**Adjusting the Drive Gear Tension:**
+**调整传动齿轮张力:**
 
-The tension of the drive gear is adjustable to allow for the use of various types of filament. Turn the Tensioner Screw counterclockwise to increase pressure or clockwise to decrease pressure. 
+驱动齿轮的张力是可调节的，以允许使用各种类型的耗材。逆时针转动张紧器螺钉以增加压力，或顺时针转动以减少压力。
 
-Note: Do not force the screw once it stops turning, as this could damage the extruder.
+注意：一旦螺杆停止转动，不要用力，因为这可能会损坏挤出机。
 
 <img src=img/H2V2X/H2V2X_Filament1.png width="600"/>
 
-**Releasing the Filament:** 
+**释放耗材:** 
 
-To release the filament, pull the lever towards the position labeled "②" in the diagram below. To lock it, move it to position "①".
+要松开耗材，请将操纵杆拉向下图中标记为“②”的位置。要锁定它，请将其移动到位置“①”。
 
 <img src=img/H2V2X/H2V2X_Filament2.png width="600"/>
 
-## **Maximum Operating Temperature**
+## **最高工作温度**
 
-Note: The temperatures listed are for individual components, not for the entire system.
+注：所列温度适用于单个组件，而不是整个系统。
+电机：130°C
+轴承：100°C
 
-Motor: 130°C
+## **电机规格**
 
-Bearings: 100°C
-
-## **Motor Specifications**
-
-| Rated Voltage                | DC 3.45V          |
-| ---------------------------- | ----------------- |
-| Rated Current                | DC 1.5A per phase |
-| Phase                        | 2                 |
-| Winding DC Resistance (25°C) | 2.3x (1±10%) Ω    |
-| Winding Inductance           | 2.0x (1±20%) mH   |
-| Holding Torque               | ≥110mN·m          |
-| Positioning Torque           | 7mN·mREF          |
-| Insulation Resistance        | ≥100MΩ (DC 500V)  |
-| Insulation Level             | Class B           |
-| Moment of Inertia            | 8g·cm³            |
+| 额定电压             | DC 3.45V          |
+| -------------------- | ----------------- |
+| 额定电流             | DC 1.5A per phase |
+| 相数                 | 2                 |
+| 绕组直流电阻（25°C） | 2.3x (1±10%) Ω    |
+| 绕组电感             | 2.0x (1±20%) mH   |
+| 保持扭矩             | ≥110mN·m          |
+| 定位扭矩             | 7mN·mREF          |
+| 绝缘电阻             | ≥100MΩ (DC 500V)  |
+| 绝缘水平             | Class B           |
+| 惯性矩               | 8g·cm³            |
 
 <img src=img/H2V2X/H2V2X_Filament3.png width="600"/>
 
-## **Exploded View**
+## **分解图**
 
 <img src=img/H2V2X/H2V2X_Filament4.png width="600"/>
 
-## **Link To 3D models and Printed Parts:**
+## **链接到3D模型和打印零件:**
 
 https://github.com/bigtreetech/H2-V2X/tree/master/3D%20Model
 
-## **Product Purchase Link:**
+## **产品购买链接:**
 
 https://biqu.equipment/products/h2-v2x
 
@@ -102,18 +100,20 @@ https://biqu.equipment/products/h2-v2x
 
 
 
-If you experience any issues with this product, please contact us and submit a support ticket.
+如果您在使用此产品时遇到任何问题，请与我们联系并提交支持单。
 
 https://biqu3d.com/pages/submit-a-ticket
 
 
 
-Navigation:
+导航:
 
-BIQU Official Website: [http://biqu3d.com](http://biqu3d.com/)
+BIQU官方网站：                            							  http://biqu3d.com
 
-BIGTREETECH Official Website: [http://bigtree-tech.com](http://bigtree-tech.com/)
+BIGTREETECH官方网站：            				 			 http://bigtree-tech.com
 
-Online Store: [https://biqu.equipment](https://biqu.equipment/)
+网上商店：                                          				 		https://biqu.equipmenthttps://biqu.equipment/)
 
-Community: [https://community.biqu3d.com](https://community.biqu3d.com/)
+社区: 																			[https://community.biqu3d.com](https://community.biqu3d.com/)
+
+BIQU官方网站：                            							  http://biqu3d.comhttps://community.biqu3d.com/)
