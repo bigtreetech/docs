@@ -113,10 +113,10 @@ extra:
   # Language Selection
   alternate: 
     - name: English
-      link: https://bttwiki.com/en/
+      link: https://dilixi.github.io/docs/locales/en/
       lang: en
     - name: 简体中文
-      link: https://bttwiki.com/zh/
+      link: https://dilixi.github.io/docs/locales/zh/
       lang: zh
 
 # Navigation hierarchy (this should mimic the layout of Overview.md)

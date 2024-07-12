@@ -117,7 +117,7 @@ You will be presented with the screen below after booting for the first time or 
 #### WiFi connection guide
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.png width="600"/>
 
-* During the initial setup the Panda Touch will scan for WiFi networks and then display upt to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. **Note:** The version (`V1.0.3`) of the firmware does not support connecting to hidden WiFi networks. Also, when Panda Touch is connecting to WiFi, Panda Touch cannot perform the WiFi scanning task at the same time.
+* During the initial setup the Panda Touch will scan for WiFi networks and then display upt to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. **Note:** Currently version of the firmware does not support connecting to hidden WiFi networks. Also, when Panda Touch is connecting to WiFi, Panda Touch cannot perform the WiFi scanning task at the same time.
 * Click on the WiFi name in the list, and the [keyboard interface](#keyboard-interface) will pop up. After entering the correct password, click "OK" to start connecting to WiFi. (Password length: 8~64 characters)
 * The connection status will be displayed next to the name of the WiFi network. A `Spinner` graphic means that WiFi is still attempting a connection, and a `✔` means the connection is successful.
 * After the connection is successful, the `Next` button will be enabled. Click `Next` to enter the printer connection menu.

@@ -109,7 +109,7 @@ Bambu实验室可能会在未来发布影响Panda Touch可用功能的固件版�
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.png width="600"/>
 
-* 在初始设置过程中，Panda Touch将扫描WiFi网络，然后显示多达20个具有最佳信号强度的网络。如果您在列表中找不到所需的网络，请点击`刷新`，Panda Touch将重新扫描WiFi网络**注意：**固件版本（`V1.0.3`）的固件不支持连接到隐藏的WiFi网络。此外，当Panda Touch连接到WiFi时，Panda Touch无法同时执行WiFi扫描任务。
+* 在初始设置过程中，Panda Touch将扫描WiFi网络，然后显示多达20个具有最佳信号强度的网络。如果您在列表中找不到所需的网络，请点击`刷新`，Panda Touch将重新扫描WiFi网络**注意：**当前的固件不支持连接到隐藏的WiFi网络。此外，当Panda Touch连接到WiFi时，Panda Touch无法同时执行WiFi扫描任务。
 * 点击列表中的WiFi名称，会弹出[键盘界面]（#键盘界面）。输入正确的密码后，单击“确定”开始连接WiFi。（密码长度：8~64个字符）
 * 连接状态将显示在WiFi网络名称旁边。`Spinner`图形表示WiFi仍在尝试连接`✔` 表示连接成功。
 * 连接成功后，将启用`下一步`按钮。单击`下一步`进入打印机连接菜单。
@@ -285,7 +285,7 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 
 ##### 如何更换主页的熊猫图片
 你可以从这个链接下载转换工具 [exchange picture tool](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/)
-* 在操作之前请先升级固件版本到V1.0.3.
+* 在操作之前请先升级固件版本到V1.0.3以上.
 * 该工具仅支持在WINDOWS系统下运行.
 * 请确保你要更换的图片，像素宽度小于280，像素高度小于306，像素位数为32位色，且图片图片格式为PNG.
 ###### 操作步骤 

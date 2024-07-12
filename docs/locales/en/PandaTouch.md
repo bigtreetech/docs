@@ -117,7 +117,7 @@ You will be presented with the screen below after booting for the first time or 
 #### WiFi connection guide
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.png width="600"/>
 
-* During the initial setup the Panda Touch will scan for WiFi networks and then display upt to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. **Note:** The version (`V1.0.3`) of the firmware does not support connecting to hidden WiFi networks. Also, when Panda Touch is connecting to WiFi, Panda Touch cannot perform the WiFi scanning task at the same time.
+* During the initial setup the Panda Touch will scan for WiFi networks and then display upt to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. **Note:** Currently version of the firmware does not support connecting to hidden WiFi networks. Also, when Panda Touch is connecting to WiFi, Panda Touch cannot perform the WiFi scanning task at the same time.
 * Click on the WiFi name in the list, and the [keyboard interface](#keyboard-interface) will pop up. After entering the correct password, click "OK" to start connecting to WiFi. (Password length: 8~64 characters)
 * The connection status will be displayed next to the name of the WiFi network. A `Spinner` graphic means that WiFi is still attempting a connection, and a `✔` means the connection is successful.
 * After the connection is successful, the `Next` button will be enabled. Click `Next` to enter the printer connection menu.
@@ -204,7 +204,7 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 * Added the ability to enter Bambu cloud credentials into the settings page.
 * Added the ability to synchronize printers under the account to PandaTouch.
 * Added the ability to configure individual printers to either connect via the cloud or via local LAN.
-* Support WiFi reconnection and automatic connection to stronger signals in the same SSID
+* Support WiFi reconnection and automatic connection to stronger signals in the same SSID. 
 * Support sorting files in u-disk and ftps by time. 
 
 ##### How to add a account
@@ -244,10 +244,6 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 * Fix german filenames are now displayed correctly, ä ü ö ß characters are displayed.
 * Fix wiFi connection instability. If WiFi falls off the network the Panda Touch will attempt three forced disconnect-reconnect cycles. If these still fail then the user is alerted and given an option for a manual reboot.
 * Fix use BSSID as the primary key for WiFi connections instead of SSID.
-
-**Note：** Update V1.0.3 requires two files to be sent to the Panda Touch. 
-One is the firmware file and the other contains the graphics and fonts. 
-This will help us to add more languages to the Panda touch in the future. Be sure to download both the .bin and .img files.
 
 ##### Grouping logic
 Allow you to create up to 10 new groups to control multiple printers:
