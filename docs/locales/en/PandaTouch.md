@@ -5,7 +5,7 @@ The CAD files for the Panda Touch can be downloaded [here](https://github.com/bi
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-panda-touch-5-display-for-bambu-lab-printers
 
-***Panda Touch Guide Video***
+**Panda Touch Guide Video**
 
 <video width="430" height="300" controls>
     <source src="img/PandaTouch/introduction.mp4" type="video/mp4">
@@ -196,6 +196,40 @@ When performing any actions, please ensure that the correct AMS unit and filamen
 ## Firmware
 
 ### Firmware History
+**Note：** Updating versions V1.0.2 and above requires sending two files to Panda Touch. 
+One is the firmware file and the other contains the graphics and fonts. 
+This will help us to add more languages to the Panda touch in the future. Be sure to download both the .bin and .img files.
+
+#### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
+* Added the ability to enter Bambu cloud credentials into the settings page.
+* Added the ability to synchronize printers under the account to PandaTouch.
+* Added the ability to configure individual printers to either connect via the cloud or via local LAN.
+* Support WiFi reconnection and automatic connection to stronger signals in the same SSID
+* Support sorting files in u-disk and ftps by time. 
+
+##### How to add a account
+* Click to jump to the settings page, then click to log in to BambuLab account.  
+<br><img src=img/PandaTouch/add_account.png width="600"/>
+* China uses mobile phone numbers, while global regions use email addresses.
+<br><img src=img/PandaTouch/login.png width="600"/>
+* Tap the confirm button.
+<br><img src=img/PandaTouch/input_account.png width="600"/>
+
+##### Synchronize the printer under the account to the local device
+* After successful login, you can choose to synchronize the printer under your account to the local device. 
+<br><img src=img/PandaTouch/login_ok.png width="600"/> 
+* Tap yes to synchronize,during this process, the synchronized printer must be on the same network as PandaTouch. In case of poor network connection, you may need to re edit the printer's IP address.
+<br><img src=img/PandaTouch/sync_ok.png width="600"/> 
+* As we can see, this printer work in cloud mode.
+<br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
+
+##### How to delete a account
+* Click the "X" button in the upper right corner of the account information to delete the account information saved on PandaTouch. After deleting the account information, the communication mode between PandaTouch and the printer will be changed to local mode. This operation will not directly switch the working mode of the printer itself.
+<br><img src=img/PandaTouch/del_account.png width="600"/> 
+
+##### How to change working mode between PandaTouch and printer
+* Synchronize the printer under the account to switch communication methods locally by selecting cloud mode. Before switching to cloud mode, a new account needs to be added.
+<br><img src=img/PandaTouch/switch_work_mode.png width="600"/> 
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
 * Add Multi-group feature.
@@ -273,7 +307,6 @@ You can check out the tool form this link [exchange picture tool](https://github
 * Click generate_img.bat to compile.
 * Enter the IP address of the Panda Touch in the browser to access the OTA web UI.
 * Click "Update File," select new_panda.img, and proceed with the update.
-
 
 #### [V1.0.2](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.2/panda_touch-v1.0.2.bin)
 

@@ -189,6 +189,40 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 ## 固件
 
 ### 固件历史记录
+**Note：** 更新V1.0.2以上版本时需要同时更新两个文件:
+一个是固件，另一个是img文件. 
+这将有助于我们在未来为Panda Touch添加更多的语言，请确保同时下载.bin和.img文件.
+
+#### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
+* 支持在设置页面登录拓竹账号.
+* 支持同步账号下的打印机到PandaTouch。
+* 支持配置PandaTouch与打印机的通信方式。
+* 支持WIFI重连，并支持自动连接相同SSID中信号最强的WIFI。
+* 支持U盘和FTPS中的文件按照时间排序，最新的在前。 
+
+##### 如何登录拓竹账号
+* 点击跳转到设置页面，点击添加账号.  
+<br><img src=img/PandaTouch/add_account.png width="600"/>
+* 输入手机号.
+<br><img src=img/PandaTouch/login.png width="600"/>
+* 点击确认按钮.
+<br><img src=img/PandaTouch/input_account.png width="600"/>
+
+##### 同步账号下的打印机到PandaTouch
+* 登录成功后可以选择是否同步打印机到PandaTouch. 
+<br><img src=img/PandaTouch/login_ok.png width="600"/> 
+* 点击同步之前需要确认打印机与PandaTouch处于同一个局域网内, 否则会出现扫描不到IP的情况，这个时候就需要手动输入IP.
+<br><img src=img/PandaTouch/sync_ok.png width="600"/> 
+* 可以看到打印机工作在了云模式.
+<br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
+
+##### 如何删除已登录的账号
+* 点击右上角的“X”按钮，删除之后账号下的PandaTouch与打印机的通信方式会设置为本地模式
+<br><img src=img/PandaTouch/del_account.png width="600"/> 
+
+##### 如何切换PandaTouch与打印机的通信方式
+* 点击进入编辑打印机属性，去掉云模式的勾选可以把通信方式更换为本地模式. 在切换到云模式之前需要至少添加一个账号。
+<br><img src=img/PandaTouch/switch_work_mode.png width="600"/> 
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
 * 支持多组控制打印机.
@@ -204,11 +238,7 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 * Wifi断线后，后台重连3次后，同时点击刷新按钮，可自动重新连接Wifi.
 * 解决相同SSID无法连接问题，使用BSSID区分wifi.
 
-**Note：** 更新V1.0.3时需要同时更新两个文件:
-一个是固件，另一个是img文件. 
-这将有助于我们在未来为Panda Touch添加更多的语言，请确保同时下载.bin和.img文件.
-
-##### 分组控制逻辑
+#### 分组控制逻辑
 允许您最多新建10个组来控制多台打印机:
 
 ##### 如何新建组

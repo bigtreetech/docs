@@ -189,6 +189,40 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 ## 固件
 
 ### 固件历史记录
+**Note：** 更新V1.0.2以上版本时需要同时更新两个文件:
+一个是固件，另一个是img文件. 
+这将有助于我们在未来为Panda Touch添加更多的语言，请确保同时下载.bin和.img文件.
+
+#### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
+* 支持在设置页面登录拓竹账号.
+* 支持同步账号下的打印机到PandaTouch。
+* 支持配置PandaTouch与打印机的通信方式。
+* 支持WIFI重连，并支持自动连接相同SSID中信号最强的WIFI。
+* 支持U盘和FTPS中的文件按照时间排序，最新的在前。 
+
+##### 如何登录拓竹账号
+* 点击跳转到设置页面，点击添加账号.  
+<br><img src=img/PandaTouch/add_account.png width="600"/>
+* 输入手机号.
+<br><img src=img/PandaTouch/login.png width="600"/>
+* 点击确认按钮.
+<br><img src=img/PandaTouch/input_account.png width="600"/>
+
+##### 同步账号下的打印机到PandaTouch
+* 登录成功后可以选择是否同步打印机到PandaTouch. 
+<br><img src=img/PandaTouch/login_ok.png width="600"/> 
+* 点击同步之前需要确认打印机与PandaTouch处于同一个局域网内, 否则会出现扫描不到IP的情况，这个时候就需要手动输入IP.
+<br><img src=img/PandaTouch/sync_ok.png width="600"/> 
+* 可以看到打印机工作在了云模式.
+<br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
+
+##### 如何删除已登录的账号
+* 点击右上角的“X”按钮，删除之后账号下的PandaTouch与打印机的通信方式会设置为本地模式
+<br><img src=img/PandaTouch/del_account.png width="600"/> 
+
+##### 如何切换PandaTouch与打印机的通信方式
+* 点击进入编辑打印机属性，去掉云模式的勾选可以把通信方式更换为本地模式. 在切换到云模式之前需要至少添加一个账号。
+<br><img src=img/PandaTouch/switch_work_mode.png width="600"/> 
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
 * 支持多组控制打印机.
@@ -204,15 +238,10 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 * Wifi断线后，后台重连3次后，同时点击刷新按钮，可自动重新连接Wifi.
 * 解决相同SSID无法连接问题，使用BSSID区分wifi.
 
-**Note：** 更新V1.0.3时需要同时更新两个文件:
-一个是固件，另一个是img文件. 
-这将有助于我们在未来为Panda Touch添加更多的语言，请确保同时下载.bin和.img文件.
-
-## 使用新固件的特性
 #### 分组控制逻辑
 允许您最多新建10个组来控制多台打印机:
 
-#### 如何新建组
+##### 如何新建组
 * 在已连接打印机列表点击+，弹出菜单.  
 <br><img src=img/PandaTouch/press_plus.png width="600"/>
 * 选择Add group这个选项.
@@ -223,11 +252,11 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 <br><img src=img/PandaTouch/group_name.png width="600"/>
 * 新建完成后，会在打印机列表中看到组.
 
-#### 切换组/打印机
+##### 切换组/打印机
 * 点击打印机或者组卡片来切换.
 <br><img src=img/PandaTouch/add_group_ok.png width="600"/> 
 
-### 单台打印机打印
+##### 单台打印机打印
 * 在U盘的文件列表中点击文件开始打印.
 * 配置打印参数:
 <br><img src=img/PandaTouch/start_print_one.png width="600"/>
@@ -239,7 +268,7 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 * 自动跳转到主界面并显示打印机数据.
 <br><img src=img/PandaTouch/start_print_one_ing.png width="600"/>
 
-### 多台打印控制
+##### 多台打印控制
 * 在U盘的文件列表中点击文件开始打印.
 * 配置打印参数:
 <br><img src=img/PandaTouch/start_print.png width="600"/>
@@ -254,12 +283,12 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 
 组控制菜单与版本V1.0.1相同
 
-### 如何更换主页的熊猫图片
+##### 如何更换主页的熊猫图片
 你可以从这个链接下载转换工具 [exchange picture tool](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/)
 * 在操作之前请先升级固件版本到V1.0.3.
 * 该工具仅支持在WINDOWS系统下运行.
 * 请确保你要更换的图片，像素宽度小于280，像素高度小于306，像素位数为32位色，且图片图片格式为PNG.
-#### 操作步骤 
+###### 操作步骤 
 * 请从上面的链接下载转换工具.
 * 请确保你要更换的图片满足格式要求，将其重命名后替换该文件夹中new_panda.png，Panda Exchange Tool文件夹中已包含一张新的Panda图片，如你无特别需要替换的图片，可直接到跳过此一步.
 * 请点击generate_img.bat进行编译.
@@ -276,7 +305,7 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 
 * 首次发布的工厂固件。
 
-### 分组逻辑（控制模式）
+##### 分组逻辑（控制模式）
 
 Panda Touch有4种可设置的控制模式：
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/control_mode.png width="600"/>
@@ -300,9 +329,9 @@ Panda Touch有4种可设置的控制模式：
 * `断开连接`：Panda Touch将在这种状态下关闭与任何打印机的连接，并且不会向其发送任何指示。
 
 
-#### 开始打印
+##### 开始打印
 
-#### 从USB闪存驱动器开始打印
+###### 从USB闪存驱动器开始打印
 
 * 确保USB闪存驱动器的文件系统**`格式化为FAT32`**。
 * 使用 `.3mf`选项从Bambu Studio或Orca Slicer导出 `.3mf`文件<br> <img src=img/PandaTouch/export_3mf.png width="600"/>
@@ -328,7 +357,7 @@ Panda Touch有4种可设置的控制模式：
   * 2. 请确保MicroSD卡的剩余容量足以写入要上传的文件。
 * 上传完成后将开始打印。对于非常大的`.3mf`文件，每个打印机的传输时间可能需要几分钟<br> <img src=img/PandaTouch/printing.png width="600"/>
 
-#### 从打印机的MicroSD卡开始打印
+###### 从打印机的MicroSD卡开始打印
 
 * 确保MicroSD卡被**`格式化为FAT32`**，且已插入`主机`打印机。
 * 转到`主打印机的MicroSD卡`菜单。
@@ -340,7 +369,7 @@ Panda Touch有4种可设置的控制模式：
 * 此菜单中显示的文件列表来自`主机`打印机。如果我们想从另一台打印机打印文件，我们可以将要打印的打印机设置为`主机`。
 * 就像[从USB闪存驱动器开始打印]（#从USB闪存驱动开始打印）中的步骤一样，选择要开始打印的打印机。
 
-#### 多重打印
+##### 多重打印
 
 当一台处于`同步`状态的打印机正在打印，或多台处于其他状态的打印机同时打印时，Panda Touch将显示“多重打印”菜单，如下所示
 <br> <img src=img/PandaTouch/multi_printing.png width="600"/>
