@@ -194,11 +194,10 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 这将有助于我们在未来为Panda Touch添加更多的语言，请确保同时下载.bin和.img文件.
 
 #### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
-* 支持在设置页面登录拓竹账号.
-* 支持同步账号下的打印机到PandaTouch。
-* 支持配置PandaTouch与打印机的通信方式。
-* 支持WIFI重连，并支持自动连接相同SSID中信号最强的WIFI。
-* 支持U盘和FTPS中的文件按照时间排序，最新的在前。 
+* 增加在设置页面中登录拓竹账号功能，支持添加打印机开启云模式，可解决无法通过Panda Touch对使用最新固件的拓竹P系列打印机发起打印和加热等功能。
+* 增加PandaTouch本地添加打印机切换使用云模式连接功能。
+* 增加WIFI自动重新连接功能，并支持自动连接相同SSID中信号最强的WIFI，解决Mesh组网中无法自动连接到最强同名Wi-Fi的问题。
+* 增加打印机SD卡存储的打印文件和Pand Touch外接U盘的打印文件，按照新到旧进行排序功能。
 
 ##### 如何登录拓竹账号
 * 点击跳转到设置页面，点击添加账号.  

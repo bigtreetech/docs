@@ -201,16 +201,16 @@ One is the firmware file and the other contains the graphics and fonts.
 This will help us to add more languages to the Panda touch in the future. Be sure to download both the .bin and .img files.
 
 #### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
-* Added the ability to enter Bambu cloud credentials into the settings page.
-* Added the ability to synchronize printers under the account to PandaTouch.
-* Added the ability to configure individual printers to either connect via the cloud or via local LAN.
-* Support WiFi reconnection and automatic connection to stronger signals in the same SSID. 
-* Support sorting files in u-disk and ftps by time.
+* Added the ability to log in to the Bambu account on the settings page, supporting the addition of printers to enable cloud mode. This resolves the issue of not being able to initiate printing and heating functions on Bambu P-series printers using the latest firmware via PandaTouch.
+* Added the ability to switch locally added printers to cloud mode in PandaTouch.
+* Added WiFi automatic reconnection feature, which supports automatic connection to the strongest WiFi signal within the same SSID. This resolves the issue of not being able to automatically connect to the strongest same-name WiFi in Mesh networks. 
+* Added the ability to sort print files stored on the printer's SD card and external USB drives connected to PandaTouch from newest to oldest.
+
 
 ##### How to add a account
 * Click to jump to the settings page, then click the "login BambuLab account" button.  
 <img src=img/PandaTouch/add_account.png width="600"/>
-* China uses mobile phone numbers, while global regions use email addresses.
+* Users in China use mobile phone numbers, while users in global regions use email addresses.
 <br><img src=img/PandaTouch/login.png width="600"/>
 * Tap the confirm button.
 <br><img src=img/PandaTouch/input_account.png width="600"/>
@@ -218,7 +218,7 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 ##### Synchronize the printers under the account to the local device
 * After successful login, you can choose to synchronize the printers under your account to the local device. 
 <br><img src=img/PandaTouch/login_ok.png width="600"/> 
-* Tap yes to synchronize,during this process, the synchronized printers must be on the same network as PandaTouch. In case of poor network connection, you may need to re-edit the printer's IP address.
+* Tap "Yes" to synchronize,during this process, the synchronized printers must be on the same network as PandaTouch. In case of poor network connection, you may need to re-edit the printer's IP address.
 <br><img src=img/PandaTouch/sync_ok.png width="600"/> 
 * As we can see, this printer works in cloud mode.
 <br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
