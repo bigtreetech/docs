@@ -206,7 +206,7 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 * Support sorting files in u-disk and ftps by time.
 
 ##### How to add a account
-* Click to jump to the settings page, then click to log in to BambuLab account.  
+* Click to jump to the settings page, then click the "login BambuLab account" button. 
 <img src=img/PandaTouch/add_account.png width="600"/>
 * China uses mobile phone numbers, while global regions use email addresses.
 <br><img src=img/PandaTouch/login.png width="600"/>
@@ -216,9 +216,9 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 ##### Synchronize the printer under the account to the local device
 * After successful login, you can choose to synchronize the printer under your account to the local device. 
 <br><img src=img/PandaTouch/login_ok.png width="600"/> 
-* Tap yes to synchronize,during this process, the synchronized printer must be on the same network as PandaTouch. In case of poor network connection, you may need to re edit the printer's IP address.
+* Tap yes to synchronize,during this process, the synchronized printer must be on the same network as PandaTouch. In case of poor network connection, you may need to re-edit the printer's IP address.
 <br><img src=img/PandaTouch/sync_ok.png width="600"/> 
-* As we can see, this printer work in cloud mode.
+* As we can see, this printer works in cloud mode.
 <br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
 
 ##### How to delete a account
