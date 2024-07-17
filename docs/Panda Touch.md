@@ -218,7 +218,7 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 ##### Synchronize the printers under the account to the local device
 * After successful login, you can choose to synchronize the printers under your account to the local device. 
 <br><img src=img/PandaTouch/login_ok.png width="600"/> 
-* Tap yes to synchronize,during this process, the synchronized printer must be on the same network as PandaTouch. In case of poor network connection, you may need to re-edit the printer's IP address.
+* Tap yes to synchronize,during this process, the synchronized printers must be on the same network as PandaTouch. In case of poor network connection, you may need to re-edit the printer's IP address.
 <br><img src=img/PandaTouch/sync_ok.png width="600"/> 
 * As we can see, this printer works in cloud mode.
 <br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
