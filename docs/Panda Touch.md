@@ -215,8 +215,8 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 * Tap the confirm button.
 <br><img src=img/PandaTouch/input_account.png width="600"/>
 
-##### Synchronize the printer under the account to the local device
-* After successful login, you can choose to synchronize the printer under your account to the local device. 
+##### Synchronize the printers under the account to the local device
+* After successful login, you can choose to synchronize the printers under your account to the local device. 
 <br><img src=img/PandaTouch/login_ok.png width="600"/> 
 * Tap yes to synchronize,during this process, the synchronized printer must be on the same network as PandaTouch. In case of poor network connection, you may need to re-edit the printer's IP address.
 <br><img src=img/PandaTouch/sync_ok.png width="600"/> 
@@ -228,7 +228,7 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 <br><img src=img/PandaTouch/del_account.png width="600"/> 
 
 ##### How to change working mode between PandaTouch and printer
-* Synchronize the printer under the account to switch communication methods locally by selecting cloud mode. Before switching to cloud mode, a new account needs to be added.
+* Synchronize the printers under the account to switch communication methods locally by selecting cloud mode. Before switching to cloud mode, a new account needs to be added.
 <br><img src=img/PandaTouch/switch_work_mode.png width="600"/> 
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
