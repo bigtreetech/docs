@@ -203,11 +203,11 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 * Added the ability to synchronize printers under the account to PandaTouch.
 * Added the ability to configure individual printers to either connect via the cloud or via local LAN.
 * Support WiFi reconnection and automatic connection to stronger signals in the same SSID. 
-* Support sorting files in u-disk and ftps by time. 
+* Support sorting files in u-disk and ftps by time.
 
 ##### How to add a account
 * Click to jump to the settings page, then click to log in to BambuLab account.  
-<br><img src=img/PandaTouch/add_account.png width="600"/>
+<img src=img/PandaTouch/add_account.png width="600"/>
 * China uses mobile phone numbers, while global regions use email addresses.
 <br><img src=img/PandaTouch/login.png width="600"/>
 * Tap the confirm button.
