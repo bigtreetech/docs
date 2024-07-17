@@ -209,7 +209,7 @@ This will help us to add more languages to the Panda touch in the future. Be sur
 
 ##### How to add a account
 * Click to jump to the settings page, then click to log in to BambuLab account.  
-<br><img src=img/PandaTouch/add_account.png width="600"/>
+<img src=img/PandaTouch/add_account.png width="600"/>
 * China uses mobile phone numbers, while global regions use email addresses.
 <br><img src=img/PandaTouch/login.png width="600"/>
 * Tap the confirm button.
