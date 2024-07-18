@@ -5,6 +5,8 @@ The CAD files for the Panda Touch can be downloaded [here](https://github.com/bi
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-panda-touch-5-display-for-bambu-lab-printers
 
+**Panda Touch Guide Video**
+
 <video width="430" height="300" controls>
     <source src="img/PandaTouch/introduction.mp4" type="video/mp4">
 </video>
@@ -177,7 +179,6 @@ During this process you may need to enter connection details. These can be found
   * `Filament Color`: The color of the filament used by the printer. (length: 0~6 characters)
   * `Filament Material`: The material of the filament used by the printer. (length: 0~6 characters)
   * `Nozzle Diameter`: The diameter of the nozzle used by the printer. (length: 0~6 characters)
-  * `Nozzle Material`: The type of nozzle used on the printer. (length: 0~6 characters)
 
 * `Confirm` button
 After filling in the `required` information, you can click the `Confirm` button to start connecting to the printer. The title bar of the Panda Touch will display the status of the connection.
@@ -209,7 +210,7 @@ Follow the steps below to enable cloud connectivity to those printers that need 
   <br><img src=img/PandaTouch/input_account.png width="600"/>
 
 ##### Synchronize the printers under the account to the local device
-* After a successful login, you can choose to convert all of your existing printers to cloud mode.
+* After a successful login, you can choose to convert the communication between all of your existing printers and PandaTouch to cloud mode.
 * We recommend only converting all of the printers if all of your machines run using cloud mode. If any use LAN Only mode then it is better to manually set each machine to cloud mode as described in [How To Change Working Mode Between The PandaTouch and Printer](#how-to-change-working-mode-between-the-pandatouch-and-printer).
 
   <br><img src=img/PandaTouch/login_ok.png width="600"/> 
@@ -373,7 +374,7 @@ When trying to print from USB, please take note of the important points below.
   
   <br><img src=img/PandaTouch/group_printing.png width="600"/>
 
-* After you start a print you will be taken to the print summary page where the status of each printer in the group is summarised on individual cards.
+* After you start a print you will be taken to the print summary page where the status of each printer in the group is summarized on individual cards.
 
 #### Group Printing Summary Page
 
