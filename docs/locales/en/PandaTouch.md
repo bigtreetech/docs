@@ -21,17 +21,17 @@ The Panda Touch is currently compatible with all Bambu Lab printer firmware vers
 * A1 --> v01.03.00.00
 * A1 Mini --> v01.03.00.00
 
-It is possible that Bambu Lab may release a future firmware version which impacts the functions available from the Panda Touch. Bigtreetech will monitor all beta firmware versions and if we find a firmware version that affects Panda Touch functionality we will send out an alert via email, Aliexpress chat and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.
+It is possible that Bambu Lab may release a future firmware version that impacts the functions available on the Panda Touch. Bigtreetech will monitor all beta firmware versions, and if we find a firmware version that affects Panda Touch functionality, we will send out an alert via email, Aliexpress chat, and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.
 
 ## IMPORTANT USAGE INFORMATION
 
-* When using "LAN Only" mode on a P1P or P1S there is no need to connect the Panda Touch to a cloud account and all printer functions will be available from the Panda Touch.
-* When the printer is set to connect to the cloud, you will need to enable [cloud mode functionality](#cloud-mode-functionality) on the Panda Touch in order to retain the ability to control heaters and printing functions.
-* Please check the firmware listing in the product page description to ensure that your printer firmware is compatible with the Panda Touch. Updating printer firmware to an incompatible version that may limit the functionality of the Panda Touch is not covered under the Warranty.
+* When using "LAN Only" mode on a P1P or P1S, there is no need to connect the Panda Touch to a cloud account, and all printer functions will be available on the Panda Touch.
+* When the printer is set to connect to the cloud, you will need to enable [cloud mode functionality](#cloud-mode-functionality) on the Panda Touch to retain the ability to control heaters and printing functions.
+* Please check the firmware listing on the product page description to ensure that your printer firmware is compatible with the Panda Touch. Updating printer firmware to an incompatible version that may limit the functionality of the Panda Touch is not covered under the warranty.
 * MicroSD card and USB drive files can currently only be read from the root directory and will only be recognized when models are sliced in Build Plate #1 in Bambu Studio and are in 3mf format. Folder browsing and thumbnail previews will come in a future firmware release.
-* When running on its built-in lithium battery, the Panda Touch has a battery life of approximately 20 to 30 minutes depending on the screen brightness. To maintain the battery and extend the lifespan of the product, it is advised to charge the Panda Touch or turn it off as soon as the battery runs out.
+* When running on its built-in lithium battery, the Panda Touch has a battery life of approximately 20 to 30 minutes, depending on the screen brightness. To maintain the battery and extend the lifespan of the product, it is advised to charge the Panda Touch or turn it off as soon as the battery runs out.
 * The screen may flicker when the lithium battery is low on power. This flickering is normal and acts as a warning to users that the battery is almost empty. Users should then promptly charge the battery or turn off the Panda Touch.
-* If you plan to turn your printer on and off frequently then we recommend running the Panda Touch on DC5V mode. This bypasses the battery and prevents the battery from being taken through many charge-discharge cycles. If you want to run off the battery then simply flick the switch on the back of the Panda Touch to the battery power mode.
+* If you plan to turn your printer on and off frequently, we recommend running the Panda Touch on DC5V mode. This bypasses the battery and prevents it from going through many charge-discharge cycles. If you want to run off the battery, then simply flick the switch on the back of the Panda Touch to the battery power mode.
 
 ## Specifications
 
@@ -174,7 +174,7 @@ During this process you may need to enter connection details. These can be found
   * `Printer IP`: for Panda Touch to connect to printer. (length: 7~15 characters)
   * `Access Code`: for Panda Touch to connect to printer. (length: 8 characters)
   * `SN`: for Panda Touch to connect to printer. (length: 15 characters)
-* There are 5 optional fields which may help you to identify certain parameters of the printer during later use.
+* There are 4 optional fields which may help you to identify certain parameters of the printer during later use.
   * `Model`: The model name identifies the exact model of the printer and defines what picture is associated with it. `P1P`, `P1S`, `X1C`, `A1 mini`, `A1`, or customized. (length: 0~15 characters)
   * `Filament Color`: The color of the filament used by the printer. (length: 0~6 characters)
   * `Filament Material`: The material of the filament used by the printer. (length: 0~6 characters)
@@ -199,8 +199,7 @@ Follow the steps below to enable cloud connectivity to those printers that need 
   <img src=img/PandaTouch/add_account.png width="600"/>
 * Select your region by tapping the arrow at the top right of the resulting pop up.
 * Users in China use mobile phone numbers, while users in global regions use email addresses.
-* If you are unable to find your login credentials then please see the section: [Help I Can't Find My Bambu Lab Login Credentials](#help-i-cant-find-my-bambu-lab-login-credentials)
-
+* If you are unable to find your login credentials then please see the section: [Help I Can't Find My Bambu Lab Login Credentials](#help-i-cant-find-my-bambu-lab-login-credentials) 
   <br><img src=img/PandaTouch/login.png width="600"/>
 * Tap the confirm button once you've entered the login details.
 
@@ -210,28 +209,28 @@ Follow the steps below to enable cloud connectivity to those printers that need 
   <br><img src=img/PandaTouch/input_account.png width="600"/>
 
 ##### Synchronize the printers under the account to the local device
-* After a successful login, you can choose to convert the communication between all of your existing printers and PandaTouch to cloud mode.
-* We recommend only converting all of the printers if all of your machines run using cloud mode. If any use LAN Only mode then it is better to manually set each machine to cloud mode as described in [How To Change Working Mode Between The PandaTouch and Printer](#how-to-change-working-mode-between-the-pandatouch-and-printer).
+* After a successful login, you can choose to convert the communication between all of your existing printers and Panda Touch to cloud mode.
+* We recommend only converting all of the printers if all of your machines run using cloud mode. If any use LAN Only mode then it is better to manually set each machine to cloud mode as described in [How To Change Working Mode Between The Panda Touch and Printer](#how-to-change-working-mode-between-the-panda-touch-and-printer).
 
   <br><img src=img/PandaTouch/login_ok.png width="600"/> 
 
 * If you want to convert your existing printers to cloud mode then tap "Yes". 
-* During this process, the printers must be on the same network as the PandaTouch. In case of a poor network connection, you may need to re-edit the printer's IP address.
+* During this process, the printers must be on the same network as the Panda Touch. In case of a poor network connection, you may need to re-edit the printer's IP address.
 
   <br><img src=img/PandaTouch/sync_ok.png width="600"/> 
 
-* Once a printer works in cloud mode you will notice a green cloud associated with its card in the multi printer view. The cloud indicates the account login status. 
+* Once a printer works in cloud mode you will notice a green cloud associated with its card in the multi printer view. The cloud indicates the communication method between the printer and Panda Touch. 
 * You will also notice a green arrow pair to indicate the connection status with that printer.
 
   <br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
 
 ##### How to delete a account
-* Click the "X" button in the upper right corner of the account information to delete the account information saved on PandaTouch. 
-* After deleting the account information, the communication mode between PandaTouch and the printer will be changed to local mode. Note that this will not set the printer itself to `LAN Only` mode but rather it will tell the Panda Touch to only speak to the printer using LAN mode which may result in the loss of some functions.
+* Click the "X" button in the upper right corner of the account information to delete the account information saved on Panda Touch. 
+* After deleting the account information, the communication mode between Panda Touch and the printer will be changed to local mode. Note that this will not set the printer itself to `LAN Only` mode but rather it will tell the Panda Touch to only speak to the printer using LAN mode which may result in the loss of some functions.
 
   <br><img src=img/PandaTouch/del_account.png width="600"/> 
 
-##### How To Change Working Mode Between The PandaTouch and Printer
+##### How To Change Working Mode Between The Panda Touch and Printer
 * Navigate to the printer/group card page.
 * Find the printer that you would like to enable or disable cloud connectivity for.
 * Scroll down to the `Edit` button for that printer.
@@ -452,7 +451,7 @@ This prompt means that Panda Touch can establish a connection with the printer b
 
 ### Feature requests
 
-If there is something that you would like to see in a coming release of the Panda Touch firmware then please let us know by logging a feature request on the official Panda Touch github repo.
+If there is something you would like to see in a future release of the Panda Touch firmware, please let us know by logging a feature request on the official Panda Touch Github repository.
 
 [Request a feature](https://github.com/bigtreetech/PandaTouch/issues)
 
@@ -507,10 +506,10 @@ If there is something that you would like to see in a coming release of the Pand
 ### Firmware History
 
 #### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
-* Added the ability to log in to the Bambu account on the settings page, supporting the addition of printers to enable cloud mode. This resolves the issue of not being able to initiate printing and heating functions on Bambu P-series printers using the latest firmware via PandaTouch.
-* Added the ability to switch locally added printers to cloud mode in PandaTouch.Cloud mode means the communication method between the printer and PandaTouch.
-* Added WiFi automatic reconnection feature, which supports automatic connection to the strongest WiFi signal within the same SSID. This resolves the issue of not being able to automatically connect to the strongest same-name WiFi in Mesh networks. 
-* Added the ability to sort print files stored on the printer's SD card and external USB drives connected to PandaTouch from newest to oldest.
+* Added the ability to log in to the Bambu account on the settings page, supporting the addition of printers to enable cloud mode.Cloud mode means the communication method between the printer and Panda Touch. This resolves the issue of not being able to initiate printing and heating functions on Bambu P-series printers using the latest firmware via Panda Touch.
+* Added the ability to switch locally added printers to cloud mode in Panda Touch.
+* Added a WiFi automatic reconnection feature, which supports automatic connection to the strongest WiFi signal within the same SSID. This resolves the issue of not being able to automatically connect to the strongest same-name WiFi in Mesh networks. 
+* Added the ability to sort print files stored on the printer's SD card and external USB drives connected to Panda Touch from newest to oldest.
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
 * Add Multi-group feature.
