@@ -5,8 +5,8 @@
 
 # Site and directory configuration
 site_name: BIGTREETECH WIKI
-repo_url: https://github.com/dilixi/docs
-repo_name: dilixi/docs
+repo_url: https://github.com/looxonline/bttdocs
+repo_name: looxonline/bttdocs
 edit_uri: blob/master/docs/
 use_directory_urls: False
 docs_dir: '../'
