@@ -508,7 +508,7 @@ If there is something that you would like to see in a coming release of the Pand
 
 #### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
 * Added the ability to log in to the Bambu account on the settings page, supporting the addition of printers to enable cloud mode. This resolves the issue of not being able to initiate printing and heating functions on Bambu P-series printers using the latest firmware via PandaTouch.
-* Added the ability to switch locally added printers to cloud mode in PandaTouch.
+* Added the ability to switch locally added printers to cloud mode in PandaTouch.Cloud mode means the communication method between the printer and PandaTouch.
 * Added WiFi automatic reconnection feature, which supports automatic connection to the strongest WiFi signal within the same SSID. This resolves the issue of not being able to automatically connect to the strongest same-name WiFi in Mesh networks. 
 * Added the ability to sort print files stored on the printer's SD card and external USB drives connected to PandaTouch from newest to oldest.
 
