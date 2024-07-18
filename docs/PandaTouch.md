@@ -174,7 +174,7 @@ During this process you may need to enter connection details. These can be found
   * `Printer IP`: for Panda Touch to connect to printer. (length: 7~15 characters)
   * `Access Code`: for Panda Touch to connect to printer. (length: 8 characters)
   * `SN`: for Panda Touch to connect to printer. (length: 15 characters)
-* There are 5 optional fields which may help you to identify certain parameters of the printer during later use.
+* There are 4 optional fields which may help you to identify certain parameters of the printer during later use.
   * `Model`: The model name identifies the exact model of the printer and defines what picture is associated with it. `P1P`, `P1S`, `X1C`, `A1 mini`, `A1`, or customized. (length: 0~15 characters)
   * `Filament Color`: The color of the filament used by the printer. (length: 0~6 characters)
   * `Filament Material`: The material of the filament used by the printer. (length: 0~6 characters)
@@ -199,8 +199,7 @@ Follow the steps below to enable cloud connectivity to those printers that need 
   <img src=img/PandaTouch/add_account.png width="600"/>
 * Select your region by tapping the arrow at the top right of the resulting pop up.
 * Users in China use mobile phone numbers, while users in global regions use email addresses.
-* If you are unable to find your login credentials then please see the section: [Help I Can't Find My Bambu Lab Login Credentials](#help-i-cant-find-my-bambu-lab-login-credentials)
-
+* If you are unable to find your login credentials then please see the section: [Help I Can't Find My Bambu Lab Login Credentials](#help-i-cant-find-my-bambu-lab-login-credentials) 
   <br><img src=img/PandaTouch/login.png width="600"/>
 * Tap the confirm button once you've entered the login details.
 
