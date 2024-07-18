@@ -7,8 +7,8 @@ Panda Touch的CAD文件可以下载 [点击这里](https://github.com/bigtreetec
 
 Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 
-* P1P --> v01.06.09.00
-* P1S --> v01.06.09.00
+* P1P --> v01.06.00.09
+* P1S --> v01.06.00.09
 * X1C --> v01.08.00.00
 * A1 --> v01.03.00.00
 * A1 Mini --> v01.03.00.00
@@ -107,7 +107,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 #### 语言选择指南
 <img src=img/PandaTouch/language_guide.png width="600"/>
 
-* 为Panda Touch选择一种语言，然后点击下一步
+* 为Panda Touch选择一种语言，然后点击`下一步`
 
 #### WiFi连接指南
 
@@ -119,6 +119,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 * 点击列表中的WiFi名称，会弹出[键盘界面]（#键盘界面）。输入正确的密码后，单击“确定”开始连接WiFi。（密码长度：8~64个字符）
 * 连接状态将显示在WiFi网络名称旁边。`Spinner`图形表示WiFi仍在尝试连接`✔` 表示连接成功。
 * 连接成功后，将启用`下一步`按钮。单击`下一步`进入打印机连接菜单。
+
 >注意：
 >如果您使用的是具有多个共享相同SSID的WiFi网络时，请在列表中选择信号强度最强的SSID。
 
@@ -495,7 +496,7 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
 #### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
 * 增加在设置页面中登录拓竹账号功能，支持添加打印机开启云模式，可解决无法通过Panda Touch对使用最新固件的拓竹P系列打印机发起打印和加热等功能。
 * 增加PandaTouch本地添加打印机切换使用云模式连接功能。
-* 增加WiFi自动重新连接功能，并支持自动连接相同SSID中信号最强的WIFI，解决Mesh组网中无法自动连接到最强同名Wi-Fi的问题。
+* 增加WiFi自动重新连接功能，并支持自动连接相同SSID中信号最强的WiFi，解决Mesh组网中无法自动连接到最强同名WiFi的问题。
 * 增加打印机SD卡存储的打印文件和Pand Touch外接U盘的打印文件，按照新到旧进行排序功能。
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
