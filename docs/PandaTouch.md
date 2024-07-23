@@ -13,11 +13,11 @@ The CAD files for the Panda Touch can be downloaded [here](https://github.com/bi
 
 The Panda Touch is currently compatible with all Bambu Lab printer firmware versions up until:
 
-* P1P --> v01.06.09.00
-* P1S --> v01.06.09.00
+* P1P --> v01.06.01.00
+* P1S --> v01.06.01.00
 * X1C --> v01.08.00.00
-* A1 --> v01.03.00.00
-* A1 Mini --> v01.03.00.00
+* A1 --> v01.03.01.00
+* A1 Mini --> v01.03.01.00
 
 It is possible that Bambu Lab may release a future firmware version which impacts the functions available from the Panda Touch. Bigtreetech will monitor all beta firmware versions and if we find a firmware version that affects Panda Touch functionality we will send out an alert via email, Aliexpress chat and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.
 
@@ -189,6 +189,9 @@ If any of your P1P/S printers are not set to `LAN Only` mode then you are going 
 * Starting prints
 * Pausing prints
 * Stopping prints
+
+> NOTE:
+> If your machines are in `LAN Only` mode then this is not a requirement.
 
 Follow the steps below to enable cloud connectivity to those printers that need it.
 
