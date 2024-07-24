@@ -89,7 +89,7 @@ XYZ尺寸：53.9 x 37.88 x 51.52mm
 
 ## **产品结构图**
 
-<img src=img/H2V2X/H2V2X_Filament4.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament5.png width="600"/>
 
 ## 相关链接
 
