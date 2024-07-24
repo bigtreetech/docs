@@ -6,7 +6,7 @@
 
 https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool
 
-**Wiki 链接:**
+**GitHub 链接:**
 
 https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master
 
