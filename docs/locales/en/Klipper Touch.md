@@ -517,7 +517,7 @@ It is crucial to back up data. Switching between K-Touch firmware and Panda Touc
 * Enter K-Touch's IP address in your computer browser to access the web UI, then click the "Update FW" button.
 <br><img src=img/K_Touch/K-Ptouch3.png width="600"/>
 *  Click the `Choose File` button, then select the downloaded img file. K-Touch will automatically start the update.
-<br><img src=img/K_Touch/K-Ptouch4.png width="600"/>
+<br><img src=img/K_Touch/k_touch4.png width="600"/>
 * After the update is complete, K-Touch will reboot automatically and operate with the new img file.
 <br><img src=img/K_Touch/ota_img_3.png width="660"/>
 * The update is successful, displaying the Panda-Touch initialization interface.
