@@ -1,0 +1,4066 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>K-Touch - BIGTREETECH WIKI</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
+    
+      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
+    
+    <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-138371409-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#k-touch" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="." title="BIGTREETECH WIKI" class="md-header__button md-logo" aria-label="BIGTREETECH WIKI" data-md-component="logo">
+      
+  <img src="img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BIGTREETECH WIKI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              K-Touch
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="选择当前语言">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2 0-.68.06-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.923 7.923 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8.008 8.008 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.65 15.65 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/en/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/zh/" hreflang="zh" class="md-select__link">
+                    简体中文
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bigtreetech/docs/" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="SKR%20MINI%20E3.html" class="md-tabs__link">
+        BIGTREETECH
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Panda%20Flow%20X1.html" class="md-tabs__link">
+        BIQU
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="BIGTREETECH WIKI" class="md-nav__button md-logo" aria-label="BIGTREETECH WIKI" data-md-component="logo">
+      
+  <img src="img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    BIGTREETECH WIKI
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bigtreetech/docs/" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          BIGTREETECH
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BIGTREETECH" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          BIGTREETECH
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" type="checkbox" id="__nav_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1">
+          主板
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="主板" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          主板
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_1" type="checkbox" id="__nav_1_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_1">
+          SKR系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SKR系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          SKR系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20MINI%20E3.html" class="md-nav__link">
+        SKR MINI E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%203%20EZ.html" class="md-nav__link">
+        SKR 3 EZ
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%203.html" class="md-nav__link">
+        SKR 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20Pico.html" class="md-nav__link">
+        SKR Pico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20PRO%20V1.2.html" class="md-nav__link">
+        SKR PRO V1.2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKR%20V1.4.html" class="md-nav__link">
+        SKR V1.4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKRat.html" class="md-nav__link">
+        SKRat
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_2" type="checkbox" id="__nav_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_2">
+          Octopus系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Octopus系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Octopus系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus.html" class="md-nav__link">
+        Octopus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus%20Pro.html" class="md-nav__link">
+        Octopus Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Octopus%20MAX%20EZ.html" class="md-nav__link">
+        Octopus MAX EZ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_3" type="checkbox" id="__nav_1_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_3">
+          Manta系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Manta系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Manta系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M4P.html" class="md-nav__link">
+        M4P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M5P.html" class="md-nav__link">
+        M5P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M8P.html" class="md-nav__link">
+        M8P
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_4" type="checkbox" id="__nav_1_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_4">
+          EBB系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EBB系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          EBB系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%2036%20CAN.html" class="md-nav__link">
+        EBB 36 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%2042%20CAN.html" class="md-nav__link">
+        EBB 42 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%202240%202209%20CAN.html" class="md-nav__link">
+        EBB 2240/2209 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%202209%20CAN%20RP2040.html" class="md-nav__link">
+        EBB SB2209 CAN RP2040
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="U2C.html" class="md-nav__link">
+        U2C
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_5" type="checkbox" id="__nav_1_1_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_5">
+          MMB系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="MMB系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          MMB系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MMB%20CAN%20V1.0.html" class="md-nav__link">
+        MMB CAN V1.0
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          物联网
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="物联网" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          物联网
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CB1.html" class="md-nav__link">
+        CB1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CB2.html" class="md-nav__link">
+        CB2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Pi2.html" class="md-nav__link">
+        Pi2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PI4B.html" class="md-nav__link">
+        PI4B
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PAD7.html" class="md-nav__link">
+        PAD7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="KNOMI.html" class="md-nav__link">
+        KNOMI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="KNOMI2.html" class="md-nav__link">
+        KNOMI2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Touch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Klipper Touch.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Branch.html" class="md-nav__link">
+        Panda Hub
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          显示屏
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="显示屏" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          显示屏
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT43-DIP.html" class="md-nav__link">
+        TFT43-DIP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35%20E3.html" class="md-nav__link">
+        TFT35 E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35.html" class="md-nav__link">
+        TFT35
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT24.html" class="md-nav__link">
+        TFT24
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TFT35%20SPI.html" class="md-nav__link">
+        TFT35 SPI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI5.html" class="md-nav__link">
+        HDMI5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI7%20V1.0.html" class="md-nav__link">
+        HDMI7 V1.0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="HDMI7%20V1.2.html" class="md-nav__link">
+        HDMI7 V1.2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          电机驱动
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="电机驱动" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          电机驱动
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_1" type="checkbox" id="__nav_1_4_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_1">
+          TMC系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="TMC系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          TMC系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2130.html" class="md-nav__link">
+        TMC2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC5160.html" class="md-nav__link">
+        TMC5160
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2209.html" class="md-nav__link">
+        TMC2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2208.html" class="md-nav__link">
+        TMC2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC2240.html" class="md-nav__link">
+        TMC2240
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TMC5160TPlus.html" class="md-nav__link">
+        TMC5160T Plus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Tutorials.html" class="md-nav__link">
+        细分表
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_2">
+          EZ系列
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EZ系列" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          EZ系列
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2130.html" class="md-nav__link">
+        EZ2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2208.html" class="md-nav__link">
+        EZ2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2225.html" class="md-nav__link">
+        EZ2225
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2226.html" class="md-nav__link">
+        EZ2226
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ5160%20Pro.html" class="md-nav__link">
+        EZ5160 Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZDriver%20Connector.html" class="md-nav__link">
+        EZDriver Connector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ2209.html" class="md-nav__link">
+        EZ2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EZ31865.html" class="md-nav__link">
+        EZ31865
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_5" type="checkbox" id="__nav_1_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_5">
+          Sensors
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sensors" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sensors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ADXL345.html" class="md-nav__link">
+        ADXL345 V2.0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SKSM.html" class="md-nav__link">
+        SKSM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Eddy.html" class="md-nav__link">
+        Eddy
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_6" type="checkbox" id="__nav_1_6" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_6">
+          软件教程
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="软件教程" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          软件教程
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Multiple%203D%20Printers.html" class="md-nav__link">
+        为多台3D打印机安装和配置Klipper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Software%20Configuration.html" class="md-nav__link">
+        软件配置
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Software%20Installation.html" class="md-nav__link">
+        软件安装
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EBB%20Series.html" class="md-nav__link">
+        EBB 系列
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="libinput_calibration.html" class="md-nav__link">
+        libinput_校准
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          BIQU
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BIQU" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          BIQU
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Panda series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda series" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Panda 热端
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda 热端" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda 热端
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1" type="checkbox" id="__nav_2_1_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1">
+          Panda Flow/CHT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Flow/CHT" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Flow/CHT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_1" type="checkbox" id="__nav_2_1_1_1_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Flow%20X1.html" class="md-nav__link">
+        Panda Flow X1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_2" type="checkbox" id="__nav_2_1_1_1_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Flow%20P1.html" class="md-nav__link">
+        Panda Flow P1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2" type="checkbox" id="__nav_2_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2">
+          Panda Revo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Revo" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Revo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_1" type="checkbox" id="__nav_2_1_1_2_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Revo%20X1%20Hotend.html" class="md-nav__link">
+        Panda Revo X1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_2" type="checkbox" id="__nav_2_1_1_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Revo%20P1%20Hotend.html" class="md-nav__link">
+        Panda Revo P1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2" type="checkbox" id="__nav_2_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2">
+          Panda Claw
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Claw" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Claw
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20A1Mini.html" class="md-nav__link">
+        A1/Mini
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20P1%20X1.html" class="md-nav__link">
+        P1/X1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PandaTouch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Hub.html" class="md-nav__link">
+        Panda Hub
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Jet.html" class="md-nav__link">
+        Panda Jet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Fur.html" class="md-nav__link">
+        Panda Fur
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda%20Lux.html" class="md-nav__link">
+        Panda Lux
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Panda-Door.html" class="md-nav__link">
+        Panda Door
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Extruders
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Extruders" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Extruders
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Extruders.html" class="md-nav__link">
+        Extruders
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="H2%20V2S.html" class="md-nav__link">
+        H2 V2S
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="H2%20V2S%20Revo.html" class="md-nav__link">
+        H2 V2S Revo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="H2%20V2S%20Lite.html" class="md-nav__link">
+        H2 V2S Lite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="H2%20V2S%20Lite%20Revo.html" class="md-nav__link">
+        H2 V2S Lite Revo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="H2%20V2X.html" class="md-nav__link">
+        H2 V2X
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Hotends
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hotends" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Hotends
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Hotends.html" class="md-nav__link">
+        Hotends
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          传感器模块
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="传感器模块" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          传感器模块
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Hermit%20Crab%202%20Series.html" class="md-nav__link">
+        Hermit Crab 2 Series
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Printers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Printers" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Printers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Printers.html" class="md-nav__link">
+        Printers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          工具
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="工具" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          工具
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="belter.html" class="md-nav__link">
+        Belter
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_7">
+          冷却液
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="冷却液" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_7">
+          <span class="md-nav__icon md-icon"></span>
+          冷却液
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Universal%20Turbo%20Kit.html" class="md-nav__link">
+        Universal Turbo Kit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    重要使用信息
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    基本参数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    装配说明
+  </a>
+  
+    <nav class="md-nav" aria-label="装配说明">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    概述
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    充电座
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    包装清单
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    用户界面说明
+  </a>
+  
+    <nav class="md-nav" aria-label="用户界面说明">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    首次连接指南
+  </a>
+  
+    <nav class="md-nav" aria-label="首次连接指南">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    语言选择指南
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wifi" class="md-nav__link">
+    WiFi连接指南
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    打印机连接指南
+  </a>
+  
+    <nav class="md-nav" aria-label="打印机连接指南">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    添加打印机方式
+  </a>
+  
+    <nav class="md-nav" aria-label="添加打印机方式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    ①：扫描添加打印机
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    ②：手动添加打印机
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    修改打印机名称
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    选择需要添加的打印机
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    选择需要连接的打印机
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    键盘接口
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    主页面
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    轴移动/温度页面
+  </a>
+  
+    <nav class="md-nav" aria-label="轴移动/温度页面">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    ① 设置部分
+  </a>
+  
+    <nav class="md-nav" aria-label="① 设置部分">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    设置喷头/热床温度
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    设置风扇速率
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    ② 轴移动部分
+  </a>
+  
+    <nav class="md-nav" aria-label="② 轴移动部分">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    网床补偿
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xyz" class="md-nav__link">
+    X/Y/Z轴移动
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    归零
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    解锁电机
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    ③ 挤出设置部分
+  </a>
+  
+    <nav class="md-nav" aria-label="③ 挤出设置部分">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    挤出/回抽按钮
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-xyz" class="md-nav__link">
+    ④ X/Y/Z位置显示部分
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    辅助调试页面
+  </a>
+  
+    <nav class="md-nav" aria-label="辅助调试页面">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    限位开关状态
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pid" class="md-nav__link">
+    自动PID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#z" class="md-nav__link">
+    Z轴零点校准
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    系统设置
+  </a>
+  
+    <nav class="md-nav" aria-label="系统设置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wifi_1" class="md-nav__link">
+    WiFi设置
+  </a>
+  
+    <nav class="md-nav" aria-label="WiFi设置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wifi_2" class="md-nav__link">
+    WiFi连接状态
+  </a>
+  
+    <nav class="md-nav" aria-label="WiFi连接状态">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    已连接
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    正在连接
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    连接失败
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    手动刷新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    后台自动刷新
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    屏幕亮度设置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    熄屏时间设置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    语言选择
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    主题选择
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    系统信息
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    开始打印页面
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#klipper" class="md-nav__link">
+    klipper终止页面
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    弹窗
+  </a>
+  
+    <nav class="md-nav" aria-label="弹窗">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    超时弹窗
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    错误弹窗
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    防误触弹窗
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    提醒弹窗
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    固件
+  </a>
+  
+    <nav class="md-nav" aria-label="固件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    固件历史记录
+  </a>
+  
+    <nav class="md-nav" aria-label="固件历史记录">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#v100" class="md-nav__link">
+    V1.0.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    功能请求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    如何更新固件
+  </a>
+  
+    <nav class="md-nav" aria-label="如何更新固件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ota" class="md-nav__link">
+    OTA
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#img" class="md-nav__link">
+    如何更新img文件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k-touchpanda-touch" class="md-nav__link">
+    如何使用不同固件（K-Touch更新到Panda-Touch）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flash_download_tool" class="md-nav__link">
+    flash_download_tool
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    技术支持
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/bigtreetech/docs/blob/master/docs/K-Touch.md" title="编辑此页" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="k-touch">K-Touch<a class="headerlink" href="#k-touch" title="Permanent link">&para;</a></h1>
+<p><img src=img/K_Touch/k-touch.png width="600"/></p>
+<h2 id="_1">重要使用信息<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li>K-Touch 在其内置锂电池上运行时，电池续航时间大约为 20 到 30 分钟，具体取决于屏幕亮度。为了维护电池并延长产品寿命，建议在电池耗尽后及时给 K-Touch 充电或关闭电源。</li>
+<li>当锂电池电量不足时，屏幕可能会闪烁。这种闪烁是正常的，并向用户发出电池几乎耗尽的警告。然后，用户应立即给电池充电或关闭K-Touch。</li>
+<li>如果您计划经常打开和关闭打印机，我们建议您在 DC5V 模式下运行 K-Touch。这样可以绕过电池，防止电池经历多次充放电循环。如果您想使用电池供电，只需将 K-Touch 背面的开关切换到电池电源模式。</li>
+<li>K-Touch主页传感器名称仅支持Klipper配置文件中30个字符以内的配置名称显示，如K-Touch上出现传感器名称和温度无法显示的情况，请修改配置文件中配置名称以显示，例如klipper配置文件中配置名称为：temperature_sensor BQ_MCU（此为名称24个字符，可正常显示）。</li>
+<li>K-Touch支持添加多台Klipper打印机以供用户切换控制，当前最高可同时添加50台打印机以供选择切换。</li>
+<li>K-Touch开始打印的缩略图，目前仅支持预览前50的Gcode文件，如上传的Gcode文件超过50个，K-Touch可能会耗尽内存，请删除一些旧文件以确保正常显示。</li>
+</ul>
+<h2 id="_2">基本参数<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">微处理器</th>
+<th align="center">Xtensa 32位LX7双核ESP32S3R8<br/>时钟速度高达240MHz。</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">存储器</td>
+<td align="center">PSRAM-8MB, Flash-16MB</td>
+</tr>
+<tr>
+<td align="left">屏幕尺寸</td>
+<td align="center">5”</td>
+</tr>
+<tr>
+<td align="left">分辨率</td>
+<td align="center">800 x 480</td>
+</tr>
+<tr>
+<td align="left">可视角度</td>
+<td align="center">IPS完整视图</td>
+</tr>
+<tr>
+<td align="left">显示颜色</td>
+<td align="center">16.7M</td>
+</tr>
+<tr>
+<td align="left">通信方式</td>
+<td align="center">2.4G Wi-Fi (IEEE 802.11 b/g/n)</td>
+</tr>
+<tr>
+<td align="left">工作温度</td>
+<td align="center">0-60°C</td>
+</tr>
+<tr>
+<td align="left">工作电流（充满电）</td>
+<td align="center">屏幕激活：0.6A，屏幕非激活：0.2A</td>
+</tr>
+<tr>
+<td align="left">工作电流（充电）</td>
+<td align="center">屏幕激活：1.25A，(0.95A 2024年5月后) 屏幕非激活：0.85A</td>
+</tr>
+<tr>
+<td align="left">逻辑电压</td>
+<td align="center">3.3V</td>
+</tr>
+<tr>
+<td align="left">内置电池</td>
+<td align="center">允许K-Touch便携式使用长达30分钟。</td>
+</tr>
+<tr>
+<td align="left">充电时间</td>
+<td align="center">1.2小时</td>
+</tr>
+<tr>
+<td align="left">扩展接口</td>
+<td align="center">I2C（用于未来固件等中支持的温度/湿度传感器）<br/>USB驱动器（用于从USB驱动器读取3mf文件-仅限FAT32）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">装配说明<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="_4">概述<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p><img src=img/K_Touch/pt_back.png width="600"/></p>
+<ul>
+<li>将电源开关滑动至<code>锂电池电源</code>，K-Touch即可使用锂电池运行，实现便携性。将其滑动至<code>DC 5V</code>，从磁性充电座直接供电，从而延长内部电池的使用寿命。如果您经常打开和关闭打印机，建议使用此模式。将开关滑动至<code>OFF</code>（关闭）可关闭K-Touch。</li>
+</ul>
+<h3 id="_5">充电座<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p><img src=img/K_Touch/charging_dock.png width="600"/></p>
+<ul>
+<li>电源输入配备了热插拔保护，允许用户热插拔电源。</li>
+</ul>
+<h3 id="_6">包装清单<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="center"><img src=img/K_Touch/pl_1.png width="200"/></th>
+<th align="center"><img src=img/K_Touch/pl_2.png width="200"/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">K-Touch x 1</td>
+<td align="center">安装支架 x 1</td>
+</tr>
+<tr>
+<td align="center"><img src=img/K_Touch/pl_3.png width="200"/></td>
+<td align="center"><img src=img/K_Touch/pl_4.png width="200"/></td>
+</tr>
+<tr>
+<td align="center">磁性充电座 x 1</td>
+<td align="center">USB-C充电电缆 x 1</td>
+</tr>
+<tr>
+<td align="center"><img src=img/K_Touch/pl_5.png width="200"/></td>
+<td align="center"><img src=img/K_Touch/pl_6.png width="200"/></td>
+</tr>
+<tr>
+<td align="center">M3x6螺钉 x 4<br/>六角扳手 x 1</td>
+<td align="center">BTT鸭 x 1</td>
+</tr>
+</tbody>
+</table>
+<p>产品链接: <a href="https://biqu.equipment/products/bigtreetech-k-touch?_pos=1&amp;_psq=K-&amp;_ss=e&amp;_v=1.0">BIGTREETECH Official Website</a></p>
+<h2 id="_7">用户界面说明<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h3 id="_8">首次连接指南<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>首次启动后或执行“恢复出厂设置”命令后，您将看到下面的屏幕。</p>
+<h4 id="_9">语言选择指南<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<p><img src=img/K_Touch/language_guide.png width="600"/></p>
+<ul>
+<li>为K-Touch选择一种语言</li>
+</ul>
+<h4 id="wifi">WiFi连接指南<a class="headerlink" href="#wifi" title="Permanent link">&para;</a></h4>
+<p><img src=img/K_Touch/guide_wifi.png width="600"/></p>
+<ul>
+<li>在初始设置过程中，K-Touch将扫描WiFi网络，然后显示多达20个具有最佳信号强度的网络。如果您在列表中找不到所需的网络，请点击<code>刷新</code>，K-Touch将重新扫描WiFi网络。
+注意：固件版本（<code>V1.0.0</code>）的固件不支持连接到隐藏的WiFi网络。此外，当K-Touch连接到WiFi时，K-Touch无法同时执行WiFi扫描任务。</li>
+<li>点击列表中的WiFi名称，会弹出[键盘界面]（#键盘界面）。输入正确的密码后，单击“确定”开始连接WiFi。（密码长度：8~64个字符）</li>
+<li>连接状态将显示在WiFi网络信号强度旁边。<code>循环</code>图形表示WiFi仍在尝试连接，<code>✔</code>图形表示连接成功。</li>
+<li>连接成功后，将启用<code>下一步</code>按钮。单击<code>下一步</code>进入打印机连接菜单。</li>
+</ul>
+<h4 id="_10">打印机连接指南<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
+<p><img src=img/K_Touch/guide_printer_fconnect.png width="600"/></p>
+<ul>
+<li>首次进入该页面，需要连接一台打印机才可进入主页面。</li>
+<li>点击<code>+...</code>按钮，添加打印机。</li>
+</ul>
+<h5 id="_11">添加打印机方式<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h5>
+<ul>
+<li>K-Touch提供两种方式进行打印机的添加</li>
+</ul>
+<p><img src=img/K_Touch/guide_add_printer.png width="600"/>   </p>
+<p>①： 扫描添加打印机，可扫描与K-Touch同一网络下的Klipper打印机用以添加。 <br />
+②： 手动添加打印机，可直接手动输入打印机的Klipper IP和端口号添加打印机。</p>
+<h6 id="1">①：扫描添加打印机<a class="headerlink" href="#1" title="Permanent link">&para;</a></h6>
+<p><img src=img/K_Touch/guide_printer_ip.png width="600"/></p>
+<ul>
+<li>编辑好端口号后，默认为：80（长度2~5个字符），点击右侧刷新按钮，进行扫描，大概60s左右(网络情况决定扫描时长)，扫描出同一wifi下的打印机设备。</li>
+</ul>
+<p><img src=img/K_Touch/guide_printer_ip_flash.png width="600"/></p>
+<ul>
+<li>扫描完成后会自动刷新扫描出的打印机名称以及IP、端口号。</li>
+</ul>
+<h6 id="2">②：手动添加打印机<a class="headerlink" href="#2" title="Permanent link">&para;</a></h6>
+<p><img src=img/K_Touch/guide_printer_fflash.png width="600"/></p>
+<ul>
+<li>点击 <code>手动添加打印机</code>按钮，弹出手动添加界面。</li>
+</ul>
+<p><img src=img/K_Touch/guide_printer_ip_input_mun.png width="600"/></p>
+<ul>
+<li>点击 <code>IP</code>（长度11<sub>14个字符）和<code>PORT</code>（长度2</sub>5个字符），进行手动输入IP和端口号，点击确认，即可添加成功,跳转到选择添加页面。</li>
+</ul>
+<h5 id="_12">修改打印机名称<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h5>
+<ul>
+<li>长按打印机按钮可修改打印机的名称（长度2~20个字符）</li>
+</ul>
+<p><img src=img/K_Touch/print_name.png width="600"/></p>
+<h5 id="_13">选择需要添加的打印机<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h5>
+<p>提示：K-Touch最高可同时添加50台打印机以供选择切换</p>
+<ul>
+<li><code>未选择要添加打印机</code>:
+<img src=img/K_Touch/guide_printer_falsh_choose.png width="600"/></li>
+</ul>
+<ul>
+<li><code>选择要添加打印机</code>:
+<img src=img/K_Touch/guide_printer_falsh_choosed.png width="600"/></li>
+</ul>
+<ul>
+<li>点击需要添加的打印机，选择成功后，会在白色方框内出现 <code>√</code> 图标，<code>返回</code>按钮变为 <code>确定</code>按钮，点击即可添加打印机到连接列表。（注意，刷新和连接打印机列表具有去重功能，请检查后进行打印机添加与选择）</li>
+</ul>
+<h5 id="_14">选择需要连接的打印机<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h5>
+<ul>
+<li><code>选择要连接的打印机</code>
+<img src=img/K_Touch/guide_printer_connect.png width="600"/></li>
+</ul>
+<ul>
+<li>点击需要<code>确定</code>连接打印机按钮
+<img src=img/K_Touch/guide_printer_connect_popupp.png width="600"/></li>
+</ul>
+<ul>
+<li>打印机连接成功
+<img src=img/K_Touch/guide_printer_connected.png width="600"/></li>
+<li>连接按钮变为主题色（默认为红色），连接的打印机名称、ip、端口号显示在框图内。</li>
+<li>K-Touch只要选择了一台打印机设备，它的信息都会显示在每个界面的最上方。</li>
+<li>连接完成后，点击 <code>下一步</code> 进入主页面。</li>
+</ul>
+<h3 id="_15">键盘接口<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>① ：使用此键可以隐藏或显示输入的信息。
+② ：在大写字母和小写字母之间切换。
+③ ：切换到“符号输入”。
+④ ：切换到“数字输入”。
+</code></pre></div>
+<ul>
+<li><code>信函输入</code>:
+ <br> <img src=img/K_Touch/keyboard_letter.png width="600"/></li>
+</ul>
+<ul>
+<li><code>符号输入</code>
+ <br> <img src=img/K_Touch/keyboard_symbol.png width="600"/></li>
+</ul>
+<ul>
+<li><code>数字输入</code> 
+ <br> <img src=img/K_Touch/keyboard_number.png width="600"/></li>
+</ul>
+<h3 id="_16">主页面<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<p><img src=img/K_Touch/home_screen.png width="600"/></p>
+<ul>
+<li>K-Touch主页面分为6大元素和导航键<ul>
+<li>打印机选择：点击可跳转打印机选择界面，操作与初次连接打印机相同。</li>
+<li>轴移动/温度 ：点击可跳转轴移动/温度界面，拥有控制温度、挤出机进退料、轴移动、解锁电机等操作。</li>
+<li>辅助调试 ：点击可跳转辅助调试界面，拥有限位开关状态检测、自动PID、Z轴零点校准。</li>
+<li>系统设置：点击可跳转系统设置界面，拥有WiFi连接设置、屏幕亮度设置、息屏时间设置、语言选择、主题颜色选择、系统信息（设备ID、当前语言、固件版本、以及恢复出厂设置；另外包含俩个界面的跳转：固件OTA操作流程界面、反馈信息界面）。</li>
+<li>打印文件列表选择界面：搜索当前的打印机列表文件并且显示（包括：打印机名称、预估时间、缩略图等）。</li>
+<li>实时显示温度列表界面（传感器名称（长度最大为50个字符））：点击可跳转轴移动/温度界面。</li>
+</ul>
+</li>
+<li>导航键：左侧三个按钮为三元素导航键，分别为返回上一个页面，回到主页面以及急停按钮
+    ① ：返回按钮：主页面禁止，其他界面点击返回上个页面。
+    ② ：主页按钮：主页面禁止，其他界面点击主页面。
+    ③ ：急停按钮：点击后将发送急停指令给到打印机。</li>
+</ul>
+<h3 id="_17">轴移动/温度页面<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<p><img src=img/K_Touch/temp_axis_screen0.png width="600"/></p>
+<div class="highlight"><pre><span></span><code>① ：实时显示温度和风扇速率，还可以设置喷头、热床温度；设置风扇的速率。
+② ：拥有网床补偿、解锁电机、归零的指令；还可以选择X\Y\Z轴的单次移动距离。
+③ ：可以手动挤出、回抽打印机的物料，并且可以选择合适的挤出长度和速度。
+④ ：实时显示`X/Y/Z`轴的相对、绝对位置，点击可跳转Z轴零点校准界面。
+</code></pre></div>
+<h4 id="1_1">① 设置部分<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h4>
+<h5 id="_18">设置喷头/热床温度<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h5>
+<p><img src=img/K_Touch/temp_axis_screen1.png width="600"/></p>
+<ul>
+<li>点击<code>喷头/热床</code>按钮，输入想要设置的温度数值，点击<code>√</code>，即可设置成功，热床相同。</li>
+<li>键盘左侧的为<code>快速调节温度</code>按钮，可一键设置想要的喷头和热床温度。<p>① ：<strong>ABS：   喷头温度：230度，热床温度：90度</strong>
+  ② ：<strong>PLA：   喷头温度：200度，热床温度：60度</strong>
+  ③ ：<strong>PETG：  喷头温度：240度，热床温度：70度</strong>
+  ④ ：<strong>TPU：   喷头温度：220度，热床温度：50度</strong></p>
+</li>
+</ul>
+<h5 id="_19">设置风扇速率<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h5>
+<p><img src=img/K_Touch/temp_axis_screen1_1.png width="600"/></p>
+<ul>
+<li>点击<code>风扇</code>按钮，会弹出设置风扇速率的界面，可<code>点击</code>或者<code>长按拖动</code>来设置想要的风扇速率（范围0-100）。</li>
+</ul>
+<h4 id="2_1">② 轴移动部分<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h4>
+<h5 id="_20">网床补偿<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h5>
+<p><img src=img/K_Touch/temp_axis_screen2.png width="600"/></p>
+<ul>
+<li>点击<code>网床补偿</code>按钮，K-Touch会发送指令给到打印机，使其开始执行网床补偿，操作完成后，会弹出完成信息，需确认是否<code>保存数据</code>，此弹窗可在任何界面出现（上图为Z轴零点校准界面）</li>
+</ul>
+<h5 id="xyz">X/Y/Z轴移动<a class="headerlink" href="#xyz" title="Permanent link">&para;</a></h5>
+<ul>
+<li>点击按钮可以进行轴移动操作，移动距离默认为10mm，可自由选择。</li>
+</ul>
+<h5 id="_21">归零<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h5>
+<ul>
+<li>点击<code>归零</code>按钮，可进行XYZ轴的归零操作</li>
+</ul>
+<h5 id="_22">解锁电机<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h5>
+<p><img src=img/K_Touch/temp_axis_screen2_1.png width="600"/></p>
+<ul>
+<li>点击<code>解锁电机</code>按钮，会出现弹窗，通过选择<code>确定</code>按钮来解锁电机，<code>取消</code>按钮不进行操作。</li>
+</ul>
+<h4 id="3">③ 挤出设置部分<a class="headerlink" href="#3" title="Permanent link">&para;</a></h4>
+<h5 id="_23">挤出/回抽按钮<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h5>
+<p><img src=img/K_Touch/temp_axis_screen3.png width="600"/></p>
+<ul>
+<li>点击<code>挤出/回抽</code>按钮，若温度未达到200度，则出现弹窗，通过选择<code>确定</code>按钮来升温，<code>取消</code>按钮不进行操作。若温度达到200度，则进行响应的操作，默认为挤出长度：<code>15mm</code>，挤出速度：<code>5mm/S</code>。</li>
+</ul>
+<p><img src=img/K_Touch/temp_axis_screen3_1.png width="600"/></p>
+<ul>
+<li>点击<code>挤出长度</code>和<code>挤出速度</code>的按钮，可弹出选择界面，可自由选择想要的挤出设置。</li>
+</ul>
+<h4 id="4-xyz">④ X/Y/Z位置显示部分<a class="headerlink" href="#4-xyz" title="Permanent link">&para;</a></h4>
+<ul>
+<li>实时显示<code>X/Y/Z</code>轴的相对，绝对位置，点击此按钮可跳转<code>Z轴零点校准界面</code>。</li>
+</ul>
+<h3 id="_24">辅助调试页面<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
+<p>*点击<code>主页面辅助设置</code>按钮，跳转到辅助设置页面。</p>
+<p><img src=img/K_Touch/debug_screen0.png width="600"/></p>
+<h4 id="_25">限位开关状态<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h4>
+<ul>
+<li>点击此按钮，右侧出现弹窗</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen1.png width="600"/></p>
+<ul>
+<li>每两秒检测一次限位开关<code>X/Y/Z</code>的触发状态，需手动触发。</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen1_1.png width="600"/></p>
+<h4 id="pid">自动PID<a class="headerlink" href="#pid" title="Permanent link">&para;</a></h4>
+<ul>
+<li>以喷头为例，点击需要PID的热床或喷头，按钮显示为主题色高光（默认为红）</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen2.png width="600"/></p>
+<ul>
+<li>右侧按钮输入想要PID的数值，点击<code>√</code>，下方<code>自动PID</code>按钮显示为可点击，并且亮起主题色高光。</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen2_1.png width="600"/></p>
+<ul>
+<li>点击<code>自动PID</code>按钮，根据选择弹出确认PID的弹窗界面。</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen2_2.png width="600"/></p>
+<p><img src=img/K_Touch/debug_screen2_3.png width="600"/></p>
+<ul>
+<li>点击<code>确定</code>按钮，弹出正在PID，等待PID完成的弹窗。</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen2_4.png width="600"/></p>
+<ul>
+<li>PID完成，出现弹窗确定是否保存。选择后，下方<code>确认</code>按钮后，弹窗关闭，PID数值将被保存，此时可再次进行PID或者使用网床调平，请注意，如果点击<code>取消</code>按钮，弹窗将再次关闭，但PID数据将不被保存，如需再次进行PID或网床调平功能，您需要重启K-Touch。</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen2_5.png width="600"/></p>
+<h4 id="z">Z轴零点校准<a class="headerlink" href="#z" title="Permanent link">&para;</a></h4>
+<ul>
+<li>可选择想要移动的距离单位（mm），默认为0.05mm，点击下方<code>↑+</code>和<code>↓-</code>按钮来对Z轴进行操作。</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen3.png width="600"/></p>
+<ul>
+<li>点击<code>保存</code>按钮，可将调整的Z轴零点校准数据保存。</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen3_1.png width="600"/></p>
+<ul>
+<li>点击<code>清除</code>按钮，可将调整的Z轴零点校准数据清零。</li>
+</ul>
+<p><img src=img/K_Touch/debug_screen3_2.png width="600"/></p>
+<ul>
+<li>点击<code>轴偏移显示框</code>，可跳转到<code>轴移动/温度页面</code>。</li>
+</ul>
+<h3 id="_26">系统设置<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h3>
+<ul>
+<li>点击主页面<code>系统设置</code>按钮跳转</li>
+</ul>
+<p><img src=img/K_Touch/set_screen1.png width="600"/></p>
+<h4 id="wifi_1">WiFi设置<a class="headerlink" href="#wifi_1" title="Permanent link">&para;</a></h4>
+<h5 id="wifi_2">WiFi连接状态<a class="headerlink" href="#wifi_2" title="Permanent link">&para;</a></h5>
+<h6 id="_27">已连接<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h6>
+<p><img src=img/K_Touch/set_wifi_screen1.png width="600"/></p>
+<ul>
+<li>连接上wifi后会显示，会显示当前连接的IP地址。</li>
+</ul>
+<h6 id="_28">正在连接<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h6>
+<p><img src=img/K_Touch/set_wifi_screen2.png width="600"/></p>
+<h6 id="_29">连接失败<a class="headerlink" href="#_29" title="Permanent link">&para;</a></h6>
+<p><img src=img/K_Touch/set_wifi_screen3.png width="600"/></p>
+<h5 id="_30">手动刷新<a class="headerlink" href="#_30" title="Permanent link">&para;</a></h5>
+<ul>
+<li>IP右侧的<code>刷新</code>按钮，可进行手动刷新wifi设备列表</li>
+</ul>
+<p><img src=img/K_Touch/set_wifi_screen4.png width="600"/></p>
+<h5 id="_31">后台自动刷新<a class="headerlink" href="#_31" title="Permanent link">&para;</a></h5>
+<ul>
+<li>K-Touch拥有<code>后台自动刷新</code>功能，能帮助用户在网络断开的时候尝试自动重连，刷新频率：<code>60S</code>。</li>
+</ul>
+<h4 id="_32">屏幕亮度设置<a class="headerlink" href="#_32" title="Permanent link">&para;</a></h4>
+<p><img src=img/K_Touch/set_screen2.png width="600"/></p>
+<ul>
+<li>点击<code>屏幕亮度</code>按钮，可通过<code>点击</code>或者<code>长按</code>来调节屏幕亮度，默认为<code>50</code>。</li>
+</ul>
+<h4 id="_33">熄屏时间设置<a class="headerlink" href="#_33" title="Permanent link">&para;</a></h4>
+<p><img src=img/K_Touch/set_screen3.png width="600"/></p>
+<ul>
+<li>点击<code>熄屏时间</code>按钮，选择想要设置的时间，默认为<code>10分钟</code>。</li>
+</ul>
+<h4 id="_34">语言选择<a class="headerlink" href="#_34" title="Permanent link">&para;</a></h4>
+<p><img src=img/K_Touch/set_screen4.png width="600"/></p>
+<ul>
+<li>点击<code>语言选择</code>按钮，选择想要的语言，默认为<code>英文</code>。</li>
+</ul>
+<h4 id="_35">主题选择<a class="headerlink" href="#_35" title="Permanent link">&para;</a></h4>
+<p><img src=img/K_Touch/set_screen5.png width="600"/></p>
+<ul>
+<li>点击<code>主题选择</code>按钮，选择想要主题颜色，默认为<code>珊瑚红</code>。</li>
+</ul>
+<h4 id="_36">系统信息<a class="headerlink" href="#_36" title="Permanent link">&para;</a></h4>
+<ul>
+<li>点击<code>系统信息</code>按钮，跳转到系统信息显示页面</li>
+</ul>
+<p><img src=img/K_Touch/set_system1.png width="600"/></p>
+<ul>
+<li>显示当前连接<code>设备ID</code></li>
+<li>显示当前<code>语言</code></li>
+<li>显示当前的<code>固件版本</code></li>
+<li><strong>恢复出厂设置按钮（清除全部数据）</strong></li>
+<li>左下角的OTA升级流程界面</li>
+</ul>
+<p><img src=img/K_Touch/set_system2.png width="600"/></p>
+<ul>
+<li>右下角的反馈信息界面</li>
+</ul>
+<p><img src=img/K_Touch/set_system3.png width="600"/></p>
+<h3 id="_37">开始打印页面<a class="headerlink" href="#_37" title="Permanent link">&para;</a></h3>
+<ul>
+<li>点击<code>打印文件</code>按钮，跳转到打印文件列表页面刷新打印文件列表（最多可显示50个文件）。</li>
+</ul>
+<p><img src=img/K_Touch/print_file_reflash.png width="600"/></p>
+<ul>
+<li>扫描完成后，出现打印文件列表（扫描时长随文件列表大小，图片大小而定）</li>
+<li>红框内打印图片为默认打印图片</li>
+</ul>
+<p><img src=img/K_Touch/print_file_num.png width="600"/></p>
+<ul>
+<li>点击需要打印的文件，确认后开始打印</li>
+</ul>
+<p><img src=img/K_Touch/print_file.png width="600"/></p>
+<ul>
+<li>主页面加载打印信息（没有打印图片采取下图的默认图片）</li>
+<li>打印</li>
+</ul>
+<p><img src=img/K_Touch/home_printing.png width="600"/></p>
+<ul>
+<li>暂停</li>
+</ul>
+<p><img src=img/K_Touch/home_stop.png width="600"/></p>
+<h3 id="klipper">klipper终止页面<a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h3>
+<ul>
+<li>K-Touch实时读取打印机的异常状态并且抓取报错信息</li>
+<li>打印机出现异常或者按下急停按钮后，K-Touch抓取报错信息，并且弹出报错界面</li>
+</ul>
+<p><img src=img/K_Touch/print_report0.png width="600"/>
+<img src=img/K_Touch/print_report1.png width="600"/>
+<img src=img/K_Touch/print_report2.png width="600"/></p>
+<div class="highlight"><pre><span></span><code>① ：发送&quot;RESTART&quot;命令，同网页端一样。
+② ：发送&quot;FIRMWARE_RESTART&quot;命令，同网页端一样。
+③ ：点击进入系统设置界面，可重新连接wifi，选择主题颜色、熄屏时间等，同主页面系统设置按钮功能相同。
+④ ：点击进入打印机选择界面，可重新扫描、输入、选择打印机，同主页面打印机选择按钮功能相同。
+⑤ ：当前打印机状态以及报错信息。
+</code></pre></div>
+<h3 id="_38">弹窗<a class="headerlink" href="#_38" title="Permanent link">&para;</a></h3>
+<h4 id="_39">超时弹窗<a class="headerlink" href="#_39" title="Permanent link">&para;</a></h4>
+<ul>
+<li>K-Touch在网络不稳定造成的获取数据失败、打印机关闭、wifi未连接或信号弱，会弹出超时提示弹窗。</li>
+</ul>
+<p><img src=img/K_Touch/print_timeout0.png width="600"/></p>
+<h4 id="_40">错误弹窗<a class="headerlink" href="#_40" title="Permanent link">&para;</a></h4>
+<ul>
+<li>打印机未归零，操作了xyz轴位移。</li>
+</ul>
+<p><img src=img/K_Touch/error_axis0.png width="600"/></p>
+<ul>
+<li>将喷头或者热床温度设置超出最高温度限制。</li>
+</ul>
+<p><img src=img/K_Touch/error_axis1.png width="600"/></p>
+<ul>
+<li>打印过程中，进行打印机文件的再选择。</li>
+</ul>
+<p><img src=img/K_Touch/error_axis2.png width="600"/></p>
+<h4 id="_41">防误触弹窗<a class="headerlink" href="#_41" title="Permanent link">&para;</a></h4>
+<ul>
+<li>急停按钮</li>
+</ul>
+<p><img src=img/K_Touch/print_stop.png width="600"/></p>
+<ul>
+<li>解锁电机按钮</li>
+</ul>
+<p><img src=img/K_Touch/print_lock.png width="600"/></p>
+<ul>
+<li>重复PID</li>
+</ul>
+<p><img src=img/K_Touch/print_pid.png width="600"/></p>
+<ul>
+<li>恢复出厂设置按钮</li>
+</ul>
+<p><img src=img/K_Touch/print_reset.png width="600"/></p>
+<ul>
+<li>删除打印机</li>
+</ul>
+<p><img src=img/K_Touch/print_delete.png width="600"/></p>
+<ul>
+<li>搜索打印文件时防止切换打印机</li>
+</ul>
+<p><img src=img/K_Touch/print_change.png width="600"/></p>
+<ul>
+<li>打印文件防误触</li>
+</ul>
+<p><img src=img/K_Touch/print_choose.png width="600"/></p>
+<ul>
+<li>停止正在打印的文件</li>
+</ul>
+<p><img src=img/K_Touch/print_printing.png width="600"/></p>
+<h4 id="_42">提醒弹窗<a class="headerlink" href="#_42" title="Permanent link">&para;</a></h4>
+<ul>
+<li>打印机文件列表数量为0或者超过50</li>
+</ul>
+<ul>
+<li>网格补偿完成（<code>确定</code>按钮保存数据）
+<img src=img/K_Touch/print_levening.png width="600"/></li>
+</ul>
+<ul>
+<li>自动PID完成（<code>确定</code>按钮保存数据）
+<img src=img/K_Touch/print_pid_com.png width="600"/></li>
+</ul>
+<ul>
+<li>打印完成
+<img src=img/K_Touch/print_compelete.png width="600"/></li>
+</ul>
+<h2 id="_43">固件<a class="headerlink" href="#_43" title="Permanent link">&para;</a></h2>
+<h3 id="_44">固件历史记录<a class="headerlink" href="#_44" title="Permanent link">&para;</a></h3>
+<h4 id="v100"><a href="https://github.com/bigtreetech/K-Touch/blob/master/Firmware/panda_touch-v1.0.1.bin">V1.0.0</a><a class="headerlink" href="#v100" title="Permanent link">&para;</a></h4>
+<ul>
+<li>首次发布的工厂固件。</li>
+</ul>
+<h3 id="_45">功能请求<a class="headerlink" href="#_45" title="Permanent link">&para;</a></h3>
+<p>如果您希望在即将发布的K-Touch固件中看到一些内容，请在官方K-Touch github repo上记录功能请求，让我们知道。</p>
+<p><a href="https://github.com/bigtreetech/K-Touch/issues">请求功能</a></p>
+<h3 id="_46">如何更新固件<a class="headerlink" href="#_46" title="Permanent link">&para;</a></h3>
+<h4 id="ota">OTA<a class="headerlink" href="#ota" title="Permanent link">&para;</a></h4>
+<ul>
+<li>将固件二进制文件[固件历史记录]下载到用于执行更新的设备。这可以是运行iOS或Android等操作系统的计算机或移动设备。在下文中，它将被称为<code>计算机</code>。
+<br><img src=img/K_Touch/firmware_download.png width="600"/></li>
+<li>将K-Touch连接到与电脑位于同一局域网上的WiFi。</li>
+<li>从<code>系统设置</code>中的<code>Wi-Fi设置</code>查找K-Touch的IP地址。
+<br><img src=img/K_Touch/ip.png width="600"/></li>
+<li>在计算机浏览器中输入K-Touch的IP地址以访问web UI，然后单击“更新固件”按钮。
+<br><img src=img/K_Touch/ota_1.png width="600"/></li>
+<li>单击<code>选择文件</code>按钮，然后选择下载的固件二进制文件。K-Touch将自动开始更新。
+<br><img src=img/K_Touch/ota_2.png width="600"/></li>
+<li>更新完成后，K-Touch将自动重新启动并运行新固件。
+<br><img src=img/K_Touch/ota_3.png width="600"/></li>
+</ul>
+<h3 id="img">如何更新img文件<a class="headerlink" href="#img" title="Permanent link">&para;</a></h3>
+<ul>
+<li>当新固件的img部分发生更改时，ota将要求更新img文件.
+<br><img src=img/K_Touch/ota_img_remind.png width="660"/></li>
+</ul>
+<ul>
+<li>将img文件下载到用于执行更新的设备。这可以是运行iOS或Android等操作系统的计算机或移动设备。在下文中，它将被称为<code>计算机</code>.
+<br><img src=img/K_Touch/ota_img_download.png width="660"/></li>
+<li>将K-Touch连接到与电脑位于同一局域网上的WiFi。</li>
+<li>在计算机浏览器中输入K-Touch的IP地址以访问web UI，然后单击“更新文件”按钮
+<br><img src=img/K_Touch/ota_img_1.png width="660"/></li>
+<li>单击<code>选择文件</code>按钮，然后选择下载的img文件。K-Touch将自动开始更新。
+<br><img src=img/K_Touch/ota_img_2.png width="660"/></li>
+<li>更新完成后，K-Touch将自动重新启动并运行新的img文件.
+<br><img src=img/K_Touch/ota_img_3.png width="660"/></li>
+</ul>
+<h3 id="k-touchpanda-touch">如何使用不同固件（K-Touch更新到Panda-Touch）<a class="headerlink" href="#k-touchpanda-touch" title="Permanent link">&para;</a></h3>
+<ul>
+<li>注意事项：</li>
+<li>
+<ul>
+<li>请记录备份数据
+切换使用不同固件，将设备从K-Touch固件切换为K-Touch固件或从K-Touch固件切换至K-Touch固件，均会导致该设备上原有固件数据全部被抹除，请提前做好相关的数据记录，如记录当前在使用的Klipper打印机IP或拓竹打印机的IP\SN\访问代码、Wi-Fi网络、Wi-Fi网络密码等信息</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>将K-Touch连接到与电脑位于同一局域网上的WiFi，获取需要的IP，便于进行OTA更新。
+<br><img src=img/K_Touch/ip.png width="600"/></li>
+</ul>
+<ul>
+<li>进入当前网址进行Panda-Touch相关文件的下载。
+<a href="https://github.com/bigtreetech/K-Touch/tree/master/Firmware">Panda-Touch</a></li>
+<li>选择最新的固件版本进行下载
+<br><img src=img/K_Touch/K-Ptouch.png width="600"/></li>
+<li>在计算机浏览器中输入K-Touch的IP地址以访问web UI，然后单击“Update File”按钮。
+<br><img src=img/K_Touch/ota_1.png width="600"/></li>
+<li>单击<code>选择文件</code>按钮，然后选择之前下载好的Panda-Touch的固件二进制文件。K-Touch将自动开始更新。
+<br><img src=img/K_Touch/K-Ptouch1.png width="600"/></li>
+<li>更新完成后，K-Touch将自动重新启动并运行新固件。
+<br><img src=img/K_Touch/ota_3.png width="600"/></li>
+<li>因为K-Touch和Panda-Touch的镜像文件不同，所以升级固件后重启K-Touch后会出现Panda-Touch镜像升级界面。
+连接wifi后左边会显示IP地址。
+<br><img src=img/K_Touch/K-Ptouch2.png width="600"/></li>
+<li>在计算机浏览器中输入K-Touch的IP地址以访问web UI，然后单击“更新文件”按钮
+<br><img src=img/K_Touch/K-Ptouch32.png width="600"/></li>
+<li>单击<code>选择文件</code>按钮，然后选择下载的img文件。K-Touch将自动开始更新。
+<br><img src=img/K_Touch/K-Ptouch4.png width="600"/></li>
+<li>更新完成后，K-Touch将自动重新启动并运行新的img文件.
+<br><img src=img/K_Touch/ota_img_3.png width="660"/></li>
+<li>更新成功，显示Panda-Touch的初始化界面。
+<br><img src=img/K_Touch/K-Ptouch6.png width="600"/></li>
+</ul>
+<h3 id="flash_download_tool">flash_download_tool<a class="headerlink" href="#flash_download_tool" title="Permanent link">&para;</a></h3>
+<p>此方法仅支持使用“Windows”系统</p>
+<ul>
+<li>搜索(<a href="https://github.com/bigtreetech/K-Touch">https://github.com/bigtreetech/K-Touch</a>)，点击下载文件。
+<br><img src=img/K_Touch/flash_down.png width="660"/></li>
+</ul>
+<ul>
+<li>通过Type-C USB电缆将K-Touch连接到计算机，请检查计算机的设备管理器中是否有新的COM端口。如果无法识别COM端口，请安装[CH340]驱动程序(<a href="https://www.wch-ic.com/download/CH341SER_EXE.html">https://www.wch-ic.com/download/CH341SER_EXE.html</a>)</li>
+<li>
+<ul>
+<li>将[flash_Download_tool_3.9.3_0-K-Touch.zip]（./flash_Download_tool-3.9.3_0-K-Touch.zip）下载到您的计算机并解压缩。</li>
+</ul>
+</li>
+<li>双击<code>flash_download_tool_3.9.3.exe</code>
+<br><img src=img/K_Touch/flash_down1.png width="660"/></li>
+<li>将ChipType设置为 <code>ESP32-S3</code>, 然后单击<code>确定</code>按钮
+<br><img src=img/K_Touch/flash_down2.png width="660"/></li>
+<li>将COM端口设置为计算机识别的实际COM端口，然后单击<code>ERASE</code>。
+<br><img src=img/K_Touch/flash_down5.png width="660"/></li>
+<li>等待完成后，不要关闭软件，接着进行文件烧录。
+<br><img src=img/K_Touch/flash_down4.png width="660"/></li>
+<li>单击<code>START</code>开始，进行固件烧录。
+<br><img src=img/K_Touch/flash_down3.png width="660"/></li>
+<li>等待完成后，我们可以关闭电源并打开K-Touch以重新启动。
+<br><img src=img/K_Touch/flash_down4.png width="660"/></li>
+</ul>
+<h2 id="_47">技术支持<a class="headerlink" href="#_47" title="Permanent link">&para;</a></h2>
+<p>这个页面对你有帮助吗？如果您对产品使用有任何进一步的问题或遇到其他问题，请随时联系我们的售后电子邮件：<a href="mailto:service001@biqu3d.com">service001@biqu3d.com</a></p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            回到页面顶部
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "search": "assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+    
+  </body>
+</html>
