@@ -443,7 +443,7 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
 
 #### OTA
 
-* 将固件二进制文件[固件历史记录](#固件历史记录)下载到用于执行更新的设备。这可以是运行iOS或Android等操作系统的计算机或移动设备。在下文中，它将被称为`计算机`。
+* 将固件二进制文件[固件历史记录](#firmware_history)下载到用于执行更新的设备。这可以是运行iOS或Android等操作系统的计算机或移动设备。在下文中，它将被称为`计算机`。
 
   <br><img src=img/PandaTouch/firmware_download.png width="600"/>
 
@@ -485,7 +485,7 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
 
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
-### 固件历史记录
+### 固件历史记录 <a id="firmware_history"></a>
 #### [V1.0.4.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4.1/panda_touch-v1.0.4.1.bin)
 * 修复错误：在V1.0.4之前的版本中设置了喷嘴材料后，升级到V1.0.4会导致系统崩溃和重启。
 
