@@ -443,7 +443,7 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
 
 #### OTA
 
-* 将固件二进制文件[固件历史记录]下载到用于执行更新的设备。这可以是运行iOS或Android等操作系统的计算机或移动设备。在下文中，它将被称为`计算机`。
+* 将固件二进制文件[固件历史记录](#固件历史记录)下载到用于执行更新的设备。这可以是运行iOS或Android等操作系统的计算机或移动设备。在下文中，它将被称为`计算机`。
 
   <br><img src=img/PandaTouch/firmware_download.png width="600"/>
 
@@ -486,13 +486,17 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### 固件历史记录
-
+#### [V1.0.4.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4.1/panda_touch-v1.0.4.1.bin)
+* 修复错误：在V1.0.4之前的版本中设置了喷嘴材料后，升级到V1.0.4会导致系统崩溃和重启。
 
 #### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
 * 增加在设置页面中登录拓竹账号功能，支持PandaTouch使用云模式通信，可解决无法使用Panda Touch对更新最新固件的拓竹P系列打印机发起打印和加热等问题。
 * 支持切换不同通信方式，在打印机编辑界面增加开关，支持自由切换Panda Touch与打印机之间是否使用云模式进行通信。
 * 增加Wi-Fi自动重新连接功能，并支持自动连接相同SSID中信号最强的Wi-Fi，解决Mesh组网中无法自动连接到最强同名Wi-Fi的问题。
 * 优化打印文件排序方式，打印机SD卡存储的打印文件和Pand Touch外接U盘的打印文件，将按照时间由新到旧进行排序功能，方便快速使用最新上传的打印文件。
+
+> NOTE:
+> 我们删除了该版本的bin文件，请使用最新版本的固件.
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
 * 支持多组控制打印机.
