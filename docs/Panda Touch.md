@@ -461,7 +461,7 @@ If there is something you would like to see in a future release of the Panda Tou
 
 #### Over The Air Updates
 
-* Download the firmware binary file (Download link in [Firmware History](#Firmware-History)) to the device being used to perform the update. This can be a computer or a mobile device running an OS such as iOS or Android. Hereafter it will be referred to as the "computer".
+* Download the firmware binary file (Download link in [Firmware History](#firmware-history)) to the device being used to perform the update. This can be a computer or a mobile device running an OS such as iOS or Android. Hereafter it will be referred to as the "computer".
 
   <br><img src=img/PandaTouch/firmware_download.png width="600"/>
 
@@ -504,12 +504,17 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
+#### [V1.0.4.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4.1/panda_touch-v1.0.4.1.bin)
+* To fix the bug: Setting the nozzle material in versions prior to V1.0.4 causes a crash after upgrading to V1.0.4.
 
 #### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
 * Added the ability to log in to the Bambu account on the settings page, supporting the addition of printers to enable cloud mode.Cloud mode means the communication method between the printer and Panda Touch. This resolves the issue of not being able to initiate printing and heating functions on Bambu P-series printers using the latest firmware via Panda Touch.
 * Added the ability to switch locally added printers to cloud mode in Panda Touch.
 * Added a WiFi automatic reconnection feature, which supports automatic connection to the strongest WiFi signal within the same SSID. This resolves the issue of not being able to automatically connect to the strongest same-name WiFi in Mesh networks. 
 * Added the ability to sort print files stored on the printer's SD card and external USB drives connected to Panda Touch from newest to oldest.
+
+> NOTE:
+> We have removed this firmware. Please use the latest version of the firmware.
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
 * Add Multi-group feature.
