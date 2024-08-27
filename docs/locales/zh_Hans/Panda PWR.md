@@ -1,7 +1,7 @@
 # Panda PWR
 <img src=img/PandaPWR/product.png width="600"/>
 
-产品链接: [BIGTREETECH Official Website](https://biqu.equipment/products)
+产品链接: [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-panda-pwr-intelligent-power-management-module?_pos=1&_sid=99912d4b2&_ss=r)
 
 ## 重要使用信息
 * 如果 Panda PWR 的 IP 地址发生变更，您必须使用 Panda Touch 贴近 Panda PWR 以获取新的 IP 地址。
@@ -188,7 +188,7 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 
 ### 固件历史
 
-#### [V1.0.0](https://github.com/bigtreetech/PandaPWR/blob/master/Firmware/panda_pwr-v1.0.0.bin)
+#### [V1.0.0](https://github.com/bigtreetech/PandaPWR/blob/master/Firmware/1.0.0/panda_pwr-v1.0.0.bin)
 
 * 初始发布的工厂固件版本。
  
@@ -199,7 +199,7 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 
 ## 恢复工具
 如果 Panda PWR 无法启动且无法进行 OTA 更新，请使用恢复工具恢复功能。
-[下载恢复工具](https://github.com/bigtreetech/PandaPWR/Recovery_tool)
+[下载恢复工具](https://github.com/bigtreetech/PandaPWR/blob/master/Recovery_tool/Recovery_tool.rar)
 
 ## 技术支持
 这个页面对您有帮助吗？如果您对产品使用有任何疑问或遇到问题，请联系我们的售后团队：<br>service001@biqu3d.com

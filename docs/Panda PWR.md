@@ -1,7 +1,7 @@
 # Panda PWR
 <img src=img/PandaPWR/product.png width="600"/>
 
-Product Link: [BIGTREETECH Official Website](https://biqu.equipment/products)
+Product Link: [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-panda-pwr-intelligent-power-management-module?_pos=1&_sid=99912d4b2&_ss=r)
 
 ## Important Usage Information
 * In Panda Touch connection mode, should the IP address of the Panda PWR change, you must bring the Panda Touch close to the Panda PWR to acquire the updated IP address.
@@ -184,7 +184,7 @@ The Panda PWR records the power consumption of the load. To reset the data, clic
 
 ### Firmware History
 
-#### [V1.0.0](https://github.com/bigtreetech/PandaPWR/blob/master/Firmware/panda_pwr-v1.0.0.bin)
+#### [V1.0.0](https://github.com/bigtreetech/PandaPWR/blob/master/Firmware/1.0.0/panda_pwr-v1.0.0.bin)
 
 * Initial release of factory firmware.
 
@@ -196,7 +196,7 @@ We welcome your suggestions for future firmware enhancements. Please submit your
 
 ### Recovery Tool
 If the Panda PWR fails to start and cannot perform an OTA update, use the recovery tool to restore functionality.
-[Recovery Tool Download](https://github.com/bigtreetech/PandaPWR/Recovery_tool)
+[Recovery Tool Download](https://github.com/bigtreetech/PandaPWR/blob/master/Recovery_tool/Recovery_tool.rar)
 
 ## Technical Support
 Was this page helpful? If you have any questions about product usage or encounter issues, please contact our after-sales team at service001@biqu3d.com.
