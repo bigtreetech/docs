@@ -5,8 +5,8 @@
 
 # Site and directory configuration
 site_name: BIGTREETECH WIKI
-repo_url: https://github.com/bigtreetech/docs
-repo_name: bigtreetech/docs
+repo_url: https://github.com/dilixi/docs
+repo_name: dilixi/docs
 edit_uri: blob/master/docs/
 use_directory_urls: False
 docs_dir: '../'
@@ -159,6 +159,7 @@ nav:
       - Panda Touch.md
       - Klipper Touch.md
       - Panda Branch.md
+      - Panda PWR.md
     - Displays:
       - TFT43-DIP.md
       - TFT35 E3.md
@@ -218,6 +219,7 @@ nav:
       - Panda Fur.md 
       - Panda Lux.md 
       - Panda-Door.md 
+      - Panda PWR.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
