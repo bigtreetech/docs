@@ -143,6 +143,10 @@ Power on the printer and run the device’s **Calibration** process. If the proc
 
 ## Slicer Settings
 
+**Nozzle Size Parameter**
+
+<img src=img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_Nozzle.png width="600"/>
+
 Click the "Edit Icon" and enter your filament settings. 
 
 <img src=img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In13.png width="600"/>
