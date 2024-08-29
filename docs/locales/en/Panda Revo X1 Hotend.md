@@ -43,6 +43,12 @@ The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle chan
 | **0.4mm Revo™ High Flow Nozzle**                     | **1** |
 | **BIQU X E3D Sticker**                               | **1** |
 
+Warnings
+During use and cooldown, there is a potential to burn your hands.
+Your HotEnd and printer are your responsibility. We cannot be held responsible for damages caused by our products use, misuse or abuse.
+Revo nozzles are to be fastened by hand without the use of tools，make sure the nozzle is fully tightened before starting a print
+Revo Nozzles must be fastened at room temperature to avoid burn injuries.
+
 ## Installation Guide
 
 ###  Installation Video Tutorial For X1
@@ -150,6 +156,9 @@ Power on the printer and run the device’s **Calibration** process. If the proc
 ## Slicer Settings
 
 **Nozzle Size Parameter**
+
+Please find more detailed slicer setting guide here:
+https://e3d-online.zendesk.com/hc/en-us/articles/4777443097757-Filament-Starter-Settings
 
 <img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_Nozzle.png width="600"/>
 
