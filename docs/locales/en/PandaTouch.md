@@ -509,8 +509,8 @@ If there is something you would like to see in a future release of the Panda Tou
   * Features a Panda PWR management interface to display printer power and energy consumption, with control over the. 
   * By equipping each printer with a Panda PWR, a single Panda Touch can manage the power for up to 10 printers. 
   * In the print initiation window of Panda Touch, you can access preset Panda PWR options for:
-  1）One-click activation for automatic shutdown post-printing, ensuring energy efficiency.
-  2）One-click reset for tracking electricity usage per print job.
+    * One-click activation for automatic shutdown post-printing, ensuring energy efficiency.
+    * One-click reset for tracking electricity usage per print job.
   * Note: This feature requires the use of the BIGTREETECH Panda PWR product.
 * New Sorting Feature for SD Card and USB Drive Filenames
   * Enhanced functionality to sort print files by name, simplifying file retrieval. 
