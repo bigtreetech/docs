@@ -45,11 +45,15 @@ The Panda Revo, co-developed with E3D, features tool-free, 30-second nozzle chan
 
  Installation Video Tutorial For P1： https://www.youtube.com/watch?v=wyYv6dBOpak
 
-Warnings
-During use and cooldown, there is a potential to burn your hands.
-Your HotEnd and printer are your responsibility. We cannot be held responsible for damages caused by our products use, misuse or abuse.
-Revo nozzles are to be fastened by hand without the use of tools，make sure the nozzle is fully tightened before starting a print
-Revo Nozzles must be fastened at room temperature to avoid burn injuries.
+<font  size="6">**Warnings!**</font> 
+
+<font  size="5">**During use and cooldown, there is a potential to burn your hands.**</font> 
+
+<font  size="5">**Your HotEnd and printer are your responsibility. We cannot be held responsible for damages caused by our products use, misuse or abuse.**</font> 
+
+<font  size="5">**Revo nozzles are to be fastened by hand without the use of tools，make sure the nozzle is fully tightened before starting a print**</font> 
+
+<font  size="5">**Revo Nozzles must be fastened at room temperature to avoid burn injuries.**</font> 
 
 ## Installation Guide
 
