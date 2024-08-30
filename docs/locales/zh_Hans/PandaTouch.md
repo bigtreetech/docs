@@ -486,6 +486,25 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### 固件历史记录 <a id="firmware_history"></a>
+#### [V1.0.5](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5/panda_touch-v1.0.5.bin) 
+* 新增Panda PWR绑定模式，实现拓竹打印机智能化电源管理。
+  * 支持显示Panda PWR管理界面，可查看打印机功率和功耗，可控制打印机电源开关。 
+  * 支持Panda PWR集群管理，最高可支持控制10台。 
+  * 支持在Panda Touch发起打印的窗口预设Panda PWR选项。
+  1）可一键选择打印完成后自动关机，实现节能环保打印。
+  2）可一键选择重置电量选项，轻松纪录每次打印用电量。
+  * 该功能需要配合BIGTREETECH Panda PWR产品使用。 
+* 新增SD卡文件名和U盘文件名排序功能。
+  * 支持按名称对打印文件进行排序，方便用户查找打印文件。
+* 新增U盘文件缩略图预览功能。
+  * 支持最高24个仅Bambu Studio生成的3mf文件缩略图显示，用户可在列表或缩略图之间切换查看，轻松识别每个打印文件内容。
+* 优化升降床按钮顺序
+  * 调整了升降床按钮的顺序，更符合P1\X1系列升降逻辑，操作更加顺手。
+* 优化WiFi连接体验
+  * 当用户为Panda Touch配置WiFi时，如输入WiFi密码不正确，将不再自动重新连接WiFi，避免消耗处理器资源。
+* 修复风扇速度显示错误的问题。
+* 修复X1系列热床不能设置超过100摄氏度的问题。
+
 #### [V1.0.4.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4.1/panda_touch-v1.0.4.1.bin)
 * 修复错误：在V1.0.4之前的版本中设置了喷嘴材料后，升级到V1.0.4会导致系统崩溃和重启。
 
