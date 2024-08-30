@@ -45,6 +45,16 @@ https://github.com/bigtreetech/Panda_Revo/tree/master/3D
 
 P1的安装视频教程： https://www.youtube.com/watch?v=wyYv6dBOpak
 
+<font size="6">**警告**</font>
+
+<font size="5">**在使用和冷却过程中，有可能烫伤你的手。**</font>
+
+<font size="5">**您的HotEnd和打印机由您负责。我们不对因使用、误用或滥用我们的产品而造成的损害负责。**</font>
+
+<font size="5">**Revo喷嘴应在不使用工具的情况下用手固定，在开始打印之前，确保喷嘴完全拧紧**</font>
+
+<font size="5">**Revo喷嘴必须在室温下固定，以避免烧伤。**</font>
+
 ## 安装指南
 
 ###  P1的安装视频教程
@@ -142,6 +152,13 @@ P1的安装视频教程： https://www.youtube.com/watch?v=wyYv6dBOpak
 <img src=img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_In12.png width="600"/>
 
 ## 切片器设置
+
+**喷嘴尺寸参数**
+
+请在此处找到更详细的切片机设置指南:
+https://e3d-online.zendesk.com/hc/en-us/articles/4777443097757-Filament-Starter-Settings
+
+<img src=img/Panda_Revo_P1_Hotend/Panda_Revo_P1_Hotend_Nozzle.png width="600"/>
 
 单击“编辑图标”并输入断料检测设置。
 
