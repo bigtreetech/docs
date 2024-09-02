@@ -504,6 +504,25 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
+#### [V1.0.5](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5/panda_touch-v1.0.5.bin) 
+* New Panda PWR Binding Mode for Intelligent Power Management of Bambu Lab Printers
+  * Features a Panda PWR management interface to display printer power and energy consumption, with control over the. 
+  * By equipping each printer with a Panda PWR, a single Panda Touch can manage the power for up to 10 printers. 
+  * In the print initiation window of Panda Touch, you can access preset Panda PWR options for:
+    * One-click activation for automatic shutdown post-printing, ensuring energy efficiency.
+    * One-click reset for tracking electricity usage per print job.
+  * Note: This feature requires the use of the BIGTREETECH Panda PWR product.
+* New Sorting Feature for SD Card and USB Drive Filenames
+  * Enhanced functionality to sort print files by name, simplifying file retrieval. 
+* New USB Drive File Thumbnail Preview
+  * Supports thumbnail displays for up to 24 3mf files, created by Bambu Studio, with options to toggle between list and thumbnail views for easy identification of print file contents.
+* Optimized Button Sequence for Bed Leveling
+  * Adjustments to the bed leveling buttons sequence align with the lifting logic of the P1/X1 series, enhancing intuitive operation.
+* Enhanced WiFi Connection Experience
+  * Improved WiFi setup: entering an incorrect password will not trigger an automatic reconnection, conserving processor resources.
+* Corrected a display error in fan speed.
+* Fixed a bug preventing the X1 series heated bed from reaching temperatures above 100℃.     
+
 #### [V1.0.4.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4.1/panda_touch-v1.0.4.1.bin)
 * To fix the bug: Setting the nozzle material in versions prior to V1.0.4 causes a crash after upgrading to V1.0.4.
 
