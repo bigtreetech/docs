@@ -418,17 +418,17 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 ### SD卡和U盘的排序功能
 #### 按名称排序
 点击"Name"可切换名称按照‘A’->‘Z’或‘Z’->‘A’排序，暂时不支持中文名排序
-<img src=img/PandaTouch/sort_by_name.png width="600"/>
+<br><img src=img/PandaTouch/sort_by_name.png width="600"/>
 
 #### 按日期排序
 点击"Date"可切换日期按照新到旧或旧到新排序
-<img src=img/PandaTouch/sort_by_new.png width="600"/>
+<br><img src=img/PandaTouch/sort_by_new.png width="600"/>
 
 ### U盘文件的缩略图预览功能
 点击右下角的图标可切换为缩略图
-<img src=img/PandaTouch/to_thumbnail.png width="600"/>  
+<br><img src=img/PandaTouch/to_thumbnail.png width="600"/>  
 再次点击可切换回文件为列表
-<img src=img/PandaTouch/thumbnail.png width="600"/>  
+<br><img src=img/PandaTouch/thumbnail.png width="600"/>  
 > 提示:
 > 当前仅支持Bambu Studio生成的3mf文件，如果缩略图无法正常显示，请尝试使用Bambu Studio重新切片
 
