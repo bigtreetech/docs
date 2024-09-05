@@ -36,7 +36,7 @@ To maintain compliance with FCC’s RF exposure guidelines, this equipment shoul
  
 ### Interface Description
 
-<img src=img/PandaPWR/interface.png width="600"/>
+<img src=img/PandaPWR/interface.jpg width="600"/>
 
 #### USB Interface
 * USB1<br>Used for modules that require control switches, such as a USB light strip.
