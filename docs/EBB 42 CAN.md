@@ -105,7 +105,7 @@ Version:V1.1
 	<tr>
     <td>0N</td><td>0N</td><td>0N</td><td>OFF</td><td>Two Lines PT100</td></tr>
 	<tr>
-    <td>0N</td><td>0N</td><td>OFF<td>OFF</td><td>Two Lines PT1000</td></tr>
+    <td>0N</td><td>0N</td><td>OFF<td>ON</td><td>Two Lines PT1000</td></tr>
     <tr>
     <td>OFF</td><td>OFF</td><td>0N</td><td>OFF</td><td>Four Lines PT100</td></tr>
     <tr>
