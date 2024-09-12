@@ -38,73 +38,67 @@ BIQU Panda Claw 是一种专为 X1、P1和A1系列打印机设计的挤出机齿
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide.png width="600"/>
 
-Remove the rotating wheel.
-
-Use an H1.5 hex key to remove the two screws.
-
-Take off pressure block.
+卸下旋转轮。使用H1.5内六角扳手移除两颗螺丝，取下料线压块。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide1.png width="600"/>
 
-Release the hotend latch, then hold the heat sink with your hands and carefully remove the hotend.
+解锁热端锁扣，手握散热片，取出热端。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide2.png width="600"/>
 
-2.Loosen the Filament Cutter
+2.拧松切刀
 
-Use an H2.0 hex key to remove the screw and release the filament cutter. 
+使用H2.0内六角扳手移除螺丝，松开切刀刀柄。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide3.png width="600"/>
 
-Clean the Internal Filament Debris: Use tweezers and a blower to clean out any filament debris and residue.
-
-Manually rotate the yellow gear clockwise for cleaning while the power is off, or alternatively press the "retract" button on the screen while the power is on to rotate the extruder wheel to the specified angle for cleaning.
+用镊子和气吹从图示位置清理断料和残渣（断电时可手动顺时针转动黄色齿轮清理，或者，上电时点击屏幕退料按钮，让挤出轮旋转到指定角度清理）。 
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide4.png width="600"/>
 
-3.Remove the Extrusion Gear
+3.移出原挤出机齿轮组件
 
-1)Remove the Filament Hub Assembly: Use an H2.0 hex key to unscrew the two screws and then carefully remove the filament hub. 
+1)移除五通：使用H2.0内六角扳手移除两颗螺丝，取出五通。
 
-  Be careful not to damage the black FPC cable. After removing the filament hub, you can place it on top of the tool head as shown in the picture below. 
+  注意不要损坏黑色FPC线缆，取出五通后放置于工具头上方，如图所示。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide5.png width="600"/>
 
-2)Remove the Extruder Front Cover: Use an H2.0 hex key to unscrew the four screws on the front cover of the extruder.
+2)移除挤出机前盖：使用H2.0内六角扳手移除前盖上的四颗螺丝。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide6.png width="600"/>
 
-When removing the front cover, first, slightly loosen the screw on the side, hold the top of the bracket, and remove the front cover while holding the other side.
+取下前盖时，先稍微拧松侧边螺丝（只需要拧松一些即可），然后按住从动轮支架顶部，用力移除前盖。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide7.png width="600"/>
 
-3）Remove the Driven Wheel Bracket: Use an H2.0 hex key to unscrew the side screw and carefully remove the bracket.
+3）移除从动轮支架：使用H2.0内六角扳手移除侧面螺丝。
 
-Be cautious as the internal spring and end cap can easily fall off. Use tweezers to carefully remove them to prevent loss.
+取出支架时，内部弹簧和端盖容易掉落，请用镊子小心取出，避免丢失。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide8.png width="600"/>
 
-4）Remove the Extrusion Gear: Remove the extruder gear assembly directly.
+4）移除挤出齿轮：直接取出挤出机齿轮组件。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide9.png width="600"/>
 
-Now that you've removed the stock extruder gear, we can start installing the Panda Claw.
+现在您已经移除了原装的挤出齿轮，我们可以开始安装Panda Claw了。
 
-### Step 2. Panda Claw Assembly Instructions
+### 步骤 2. Panda Claw 组装指南
 
-1.Install the Extrusion Gear
+1.安装挤出齿轮
 
-Lubricate the gear before installing the extrusion gear. 
+给齿轮润滑后，安装挤出齿轮。 
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide10.png width="600"/>
 
-2.Install the Driven Wheel Bracket
+2.安装从动轮支架
 
-Install the driven wheel bracket to the corresponding shaft. Assemble the spring and end cap in the correct orientation and placement, referring to the provided images for guidance below. Utilize tweezers to carefully position them within the driven wheel bracket. The side screw should remain untightened temporarily.
+将从动轮支架装到相应的转轴上。按正确方向和位置安装弹簧和端盖（参照下方正确与错误示范），用镊子放到从动轮支架对应的位置上，拧入侧面螺丝将其顶住，但先不要将其拧紧。
 
-**Important:**
+**重要提醒！**
 
-Ensure that the spring and end cap are installed properly. Incorrect installation may result in the gear failing to grip the filament, leading to print failure.
+确保弹簧和端盖正确安装，否则挤出机将无法正常咬合耗材，导致打印失败。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide11.png width="600"/>
 
@@ -112,54 +106,54 @@ Ensure that the spring and end cap are installed properly. Incorrect installatio
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide13.png width="600"/>
 
-3.Install the Extruder Front Cover
+3.安装挤出机前盖
 
-Tighten the four screws located on the front cover of the extruder.
+拧入挤出机前盖的四颗螺丝。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide14.png width="600"/>
 
-4.Tighten the Screw on the Side of the Extruder
+4.将挤出机侧面的螺丝拧紧
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide15.png width="600"/>
 
-5.Install the Filament Hub Assembly
+5.安装五通
 
-Install the filament hub assembly, ensuring that the black FPC cable is not folded and is smoothly positioned in the designated vacant space. Then, tighten the two screws to secure the filament hub in place. 
+安装五通组件时，确保黑色FPC线缆不被折叠，顺利放入空缺位置。然后拧入两颗螺丝，固定五通。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide16.png width="600"/>
 
-6.Install the Filament Cutter
+6.安装切刀
 
-Lift the lever and slide the cutter into position along the blade groove. Secure the lever by tightening the screw.
+抬起刀柄，沿刀槽将切刀滑入到位，拧紧螺丝固定刀柄。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide17.png width="600"/>
 
-7.Install the Hotend Assembly
+7.安装喷嘴组件
 
-Hold the nozzle heat sink and align it with the mounting position. Mount the nozzle in place and engage the quick-release device. Install the Hotend Silicone Sock, then tighten the two screws to secure the pressure block in place.
+握住喷嘴散热片，对齐安装位置，安装喷嘴并锁定，装上热端硅胶套。拧紧两颗螺丝固定料线压块。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide18.png width="600"/>
 
-Install the rotating wheel and attach the tool head front cover.
+最后，安装旋转轮及工具头前盖。
 
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide19.png width="600"/>
 
-Congratulations! You've successfully upgraded to the Panda Claw. Enjoy enhanced performance and precision in your printing.
+恭喜您！Panda Claw已经安装完成。享受更高的打印性能与精度吧！
 
-## **Product Purchase Link**
+## **购买链接**
 
 https://biqu.equipment/products/biqu-panda-claw-extruder-gear-set-gold-nano-coated-steel-aluminum-cnc-support-for-x1-p1-a1-mini?variant=41425356750946
 
-If you have any issues with the product, please submit a support ticket.
+如果您在使用产品过程中遇到任何问题，请提交支持工单：
 
 https://biqu3d.com/pages/submit-a-ticket
 
-Navigation:
+网站导航:
 
-BIQU Official Website: http://biqu3d.com
+BIQU 官网: http://biqu3d.com
 
-BIGTREETECH Official Website: http://bigtree-tech.com
+BIGTREETECH 官网: http://bigtree-tech.com
 
-Online Store: https://biqu.equipment
+在线商城: https://biqu.equipment
 
-Community: https://community.biqu3d.com
+社区: https://community.biqu3d.com
