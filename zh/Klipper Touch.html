@@ -1603,21 +1603,8 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_43" class="md-nav__link">
-    固件
-  </a>
-  
-    <nav class="md-nav" aria-label="固件">
-      <ul class="md-nav__list">
-        
           <li class="md-nav__item">
-  <a href="#_44" class="md-nav__link">
+  <a href="#_43" class="md-nav__link">
     固件历史记录
   </a>
   
@@ -1628,6 +1615,26 @@
   <a href="#v100" class="md-nav__link">
     V1.0.0
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#v101" class="md-nav__link">
+    V1.0.1
+  </a>
+  
+    <nav class="md-nav" aria-label="V1.0.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    打印文件预览
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -3945,21 +3952,8 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_43" class="md-nav__link">
-    固件
-  </a>
-  
-    <nav class="md-nav" aria-label="固件">
-      <ul class="md-nav__list">
-        
           <li class="md-nav__item">
-  <a href="#_44" class="md-nav__link">
+  <a href="#_43" class="md-nav__link">
     固件历史记录
   </a>
   
@@ -3970,6 +3964,26 @@
   <a href="#v100" class="md-nav__link">
     V1.0.0
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#v101" class="md-nav__link">
+    V1.0.1
+  </a>
+  
+    <nav class="md-nav" aria-label="V1.0.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    打印文件预览
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -4459,7 +4473,7 @@
 <p><img src=img/K_Touch/set_system3.png width="600"/></p>
 <h3 id="_37">开始打印页面<a class="headerlink" href="#_37" title="Permanent link">&para;</a></h3>
 <ul>
-<li>点击<code>打印文件</code>按钮，跳转到打印文件列表页面刷新打印文件列表（最多可显示50个文件）。</li>
+<li>点击<code>打印文件</code>按钮，跳转到打印文件列表页面刷新打印文件列表（最多可显示100个文件）。</li>
 </ul>
 <p><img src=img/K_Touch/print_file_reflash.png width="600"/></p>
 <ul>
@@ -4562,11 +4576,34 @@
 <li>打印完成
 <img src=img/K_Touch/print_compelete.png width="600"/></li>
 </ul>
-<h2 id="_43">固件<a class="headerlink" href="#_43" title="Permanent link">&para;</a></h2>
-<h3 id="_44">固件历史记录<a class="headerlink" href="#_44" title="Permanent link">&para;</a></h3>
-<h4 id="v100"><a href="https://github.com/bigtreetech/K-Touch/blob/master/Firmware/panda_touch-v1.0.1.bin">V1.0.0</a><a class="headerlink" href="#v100" title="Permanent link">&para;</a></h4>
+<h3 id="_43">固件历史记录<a class="headerlink" href="#_43" title="Permanent link">&para;</a></h3>
+<h4 id="v100"><a href="https://github.com/bigtreetech/K-Touch/blob/master/v1.0.0/K-Touch_v1.0.0_firmware.bin">V1.0.0</a><a class="headerlink" href="#v100" title="Permanent link">&para;</a></h4>
 <ul>
 <li>首次发布的工厂固件。</li>
+</ul>
+<h4 id="v101"><a href="https://github.com/bigtreetech/K-Touch/blob/master/v1.0.1/K-Touch_v1.0.1_firmware.bin">V1.0.1</a><a class="headerlink" href="#v101" title="Permanent link">&para;</a></h4>
+<p>以下是此次V1.0.1更新的具体内容：</p>
+<ul>
+<li>增加USB接口功能，实现通过U盘进行打印。</li>
+<li>增加腔体温度读取与设置。</li>
+<li>优化温度设置界面，增加冷却快捷按钮</li>
+<li>优化打印机急停指令，将其设为最高优先级指令。</li>
+<li>优化打印文件列表的加载速度。</li>
+<li>优化打印文件列表UI布局，增加手动刷新按钮以及存储空间显示。</li>
+<li>优化打印文件列表显示数量，最高可支持100个文件缩略图显示。</li>
+<li>优化打印文件列表后台读取算法，最高可支持300个文件读取。</li>
+<li>优化打印文件列表弹窗提示体验。</li>
+<li>优化添加打印机的自动扫描功能，IP扫描端口调整为“7125”。</li>
+<li>优化PID功能，增加PID保存配置按钮。</li>
+<li>修复打印文件列表缩略图过大导致重启的问题。</li>
+<li>修复无法输入IP以及IP长度过长或过短的问题。</li>
+<li>修复切换打印机时出现无法清除消息队列的问题。</li>
+<li>修复开关K-Tocuh电源后，屏幕亮度无法保存的问题。</li>
+</ul>
+<h6 id="_44">打印文件预览<a class="headerlink" href="#_44" title="Permanent link">&para;</a></h6>
+<ul>
+<li>更新了打印文件预览界面，具体如下。
+<br><img src=img/K_Touch/printfile.png width="660"/></li>
 </ul>
 <h3 id="_45">功能请求<a class="headerlink" href="#_45" title="Permanent link">&para;</a></h3>
 <p>如果您希望在即将发布的K-Touch固件中看到一些内容，请在官方K-Touch github repo上记录功能请求，让我们知道。</p>
