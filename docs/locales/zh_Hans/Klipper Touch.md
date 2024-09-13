@@ -373,7 +373,7 @@
 
 ### 开始打印页面
 
-* 点击`打印文件`按钮，跳转到打印文件列表页面刷新打印文件列表（最多可显示50个文件）。
+* 点击`打印文件`按钮，跳转到打印文件列表页面刷新打印文件列表（最多可显示100个文件）。
 
 <img src=img/K_Touch/print_file_reflash.png width="600"/>
 
@@ -483,13 +483,39 @@
 <img src=img/K_Touch/print_compelete.png width="600"/>
 
 
-## 固件
-
 ### 固件历史记录
 
-#### [V1.0.0](https://github.com/bigtreetech/K-Touch/blob/master/Firmware/panda_touch-v1.0.1.bin)
+#### [V1.0.0](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.1/K-Touch_v1.0.0_fileware.bin)
 
 * 首次发布的工厂固件。
+
+#### [V1.0.1](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.1/K-Touch_v1.0.1_fileware.bin)
+
+以下是此次V1.0.1更新的具体内容：
+
+* 增加USB接口功能，实现通过U盘进行打印。
+* 增加腔体温度读取与设置。
+* 优化温度设置界面，增加冷却快捷按钮
+* 优化打印机急停指令，将其设为最高优先级指令。
+* 优化打印文件列表的加载速度。
+* 优化打印文件列表UI布局，增加手动刷新按钮以及存储空间显示。
+* 优化打印文件列表显示数量，最高可支持100个文件缩略图显示。
+* 优化打印文件列表后台读取算法，最高可支持300个文件读取。
+* 优化打印文件列表弹窗提示体验。
+* 优化添加打印机的自动扫描功能，IP扫描端口调整为“7125”。
+* 优化PID功能，增加PID保存配置按钮。
+* 修复打印文件列表缩略图过大导致重启的问题。
+* 修复无法输入IP以及IP长度过长或过短的问题。
+* 修复切换打印机时出现无法清除消息队列的问题。
+* 修复开关K-Tocuh电源后，屏幕亮度无法保存的问题。
+
+###### 打印文件预览
+
+* 更新了打印文件预览界面，具体如下。
+<br><img src=img/K_Touch/printfile.png width="660"/>
+
+
+
 
 ### 功能请求
 
@@ -576,6 +602,11 @@
 <br><img src=img/K_Touch/flash_down3.png width="660"/>
 * 等待完成后，我们可以关闭电源并打开K-Touch以重新启动。
 <br><img src=img/K_Touch/flash_down4.png width="660"/>
+
+
+
+
+
 
 ## 技术支持
 这个页面对你有帮助吗？如果您对产品使用有任何进一步的问题或遇到其他问题，请随时联系我们的售后电子邮件：service001@biqu3d.com
