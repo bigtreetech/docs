@@ -514,9 +514,6 @@
 * 更新了打印文件预览界面，具体如下。
 <br><img src=img/K_Touch/printfile.png width="660"/>
 
-
-
-
 ### 功能请求
 
 如果您希望在即将发布的K-Touch固件中看到一些内容，请在官方K-Touch github repo上记录功能请求，让我们知道。
