@@ -461,7 +461,7 @@ After the first startup or performing the "Restore to Factory Settings" command,
 
 * The initial release of factory firmware.
 
-#### [V1.0.1](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.0/K-Touch_v1.0.1_firmware.bin)
+#### [V1.0.1](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.1/K-Touch_v1.0.1_firmware.bin)
 
 The V1.0.1 version is updated as follows:
 
