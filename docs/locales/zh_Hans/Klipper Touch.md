@@ -485,11 +485,11 @@
 
 ### 固件历史记录
 
-#### [V1.0.0](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.1/K-Touch_v1.0.0_fileware.bin)
+#### [V1.0.0](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.0/K-Touch_v1.0.0_firmware.bin)
 
 * 首次发布的工厂固件。
 
-#### [V1.0.1](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.1/K-Touch_v1.0.1_fileware.bin)
+#### [V1.0.1](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.1/K-Touch_v1.0.1_firmware.bin)
 
 以下是此次V1.0.1更新的具体内容：
 
