@@ -84,19 +84,19 @@ Before assembling the Panda Claw to the extruder, it is recommended to apply lub
 
 Add a small amount of lubricant on the idler extruder gear, and the sides as shown in the image below. 
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide7.png width="600"/>
+<font  color="red">**Notes: Make sure you don’t get any grease on the filament gear teeth (highlighted in blue in the image below). If you do, just wiping it off won’t help. You’ll need to wash the gear with soap to remove the grease and then apply new grease after that.**</font>
 
-Next, you can also apply a bit of lubricant on the extruder gear as shown in the image below.
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide15.png width="600"/>
 
-Be sure to coat all necessary surfaces, then wipe off any excess lubricant before placing the Panda Claw gear into the extruder. 
+Next, you can also apply a bit of lubricant on the extruder gear (highlighted in green in the image below).
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide8.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide16.png width="600"/>
 
-Finally, install the Panda Claw gear onto the extruder body and apply a small amount of lubricant around the designated area, as shown in the image below.
+Finally, install the Panda Claw gear onto the extruder body and apply a small amount of lubricant around the designated area, highlighted in green in the image below.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide9.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide17.png width="600"/>
 
-After applying the lubricant, reinstall the back cover of the extruder and manually rotate the hollow extruder gear a few times to evenly distribute the lubricant and verify that everything is functioning smoothly.
+After applying the lubricant, reinstall the back cover of the extruder and manually rotate the hollow extruder gear a few times to evenly distribute the lubricant and verify that everything is functioning smoothly. 
 
 Be sure to securely tighten the four extruder screws along with the idler tensioner screw to prepare it for installing it onto the printer.
 

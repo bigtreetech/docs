@@ -98,9 +98,11 @@ Now that you've removed the stock extruder gear, we can start installing the Pan
 
 1.Install the Extrusion Gear
 
-Lubricate the gear before installing the extrusion gear. 
+Lubricate the gear (highlighted in green in the image below) before installing the extrusion gear.
 
-<img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide10.png width="600"/>
+<font  color="red">**Notes: Make sure you don’t get any grease on the filament gear teeth(highlighted in blue in the image below). If you do, just wiping it off won’t help. You’ll need to wash the gear with soap to remove the grease and then apply new grease after that.**</font>
+
+<img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide20.png width="600"/>
 
 2.Install the Driven Wheel Bracket
 

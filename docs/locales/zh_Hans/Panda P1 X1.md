@@ -72,15 +72,17 @@ BIQU Panda Claw 是一种专为 X1、P1和A1系列打印机设计的挤出机齿
 
 在更换Panda Claw到挤出机之前，需要先对Panda Claw齿轮进行润滑。在从动齿轮侧面和转轴上滴少量润滑脂，如下图所示。
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide7.png width="600"/>
+<font  color="red">**注意：请务必避免润滑油接触到挤出齿轮的齿（如下图中蓝色高亮部分所示）。如润滑油已沾上，简单擦拭无法去除。必须使用肥皂彻底清洗齿轮，以去除油脂，之后再重新涂抹润滑油。**</font>
+
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide15.png width="600"/>
 
 您还可以在挤出机齿轮上涂抹一点润滑脂或润滑油，润滑脂的效果更持久。确保均匀涂抹，且在安装齿轮前擦去多余部分。
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide8.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide16.png width="600"/>
 
 最后，将Panda Claw安装到挤出机主体上，并在齿轮轴周围涂抹少量润滑剂，如下图所示。
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide9.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide17.png width="600"/>
 
 涂好润滑剂后，安装挤出机后盖，并手动转动镂空齿轮数次，确保润滑剂均匀分布并检查齿轮转动是否顺畅。
 

@@ -88,9 +88,11 @@ BIQU Panda Claw 是一种专为 X1、P1和A1系列打印机设计的挤出机齿
 
 1.安装挤出齿轮
 
-给齿轮润滑后，安装挤出齿轮。 
+给齿轮润滑后（润滑区域如下图中绿色高亮部分所示），安装挤出齿轮。
 
-<img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide10.png width="600"/>
+<font  color="red">**注意：请务必避免润滑油接触到挤出齿轮的齿（如下图中蓝色高亮部分所示）。如润滑油已沾上，简单擦拭无法去除。必须使用肥皂彻底清洗齿轮，以去除油脂，之后再重新涂抹润滑油。**</font>
+
+<img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Guide20.png width="600"/>
 
 2.安装从动轮支架
 
