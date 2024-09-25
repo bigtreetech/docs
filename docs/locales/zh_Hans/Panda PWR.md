@@ -37,7 +37,7 @@
  
 ### 接口示意图
 
-<img src=img/PandaPWR/interface_cn.png width="600"/>
+<img src=img/PandaPWR/interface_cn.jpg width="600"/>
 
 #### USB 接口
 * USB1<br>输出5V可控制，用于连接需要控制开关的负载，例如 USB 灯条。<br>

@@ -7,11 +7,11 @@ Panda Touch的CAD文件可以下载 [点击这里](https://github.com/bigtreetec
 
 Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 
-* P1P --> v01.06.00.09
-* P1S --> v01.06.00.09
-* X1C --> v01.08.00.00
-* A1 --> v01.03.00.00
-* A1 Mini --> v01.03.00.00
+* P1P --> v01.06.01.00
+* P1S --> v01.06.01.00
+* X1C --> v01.08.02.00
+* A1 --> v01.03.01.00
+* A1 Mini --> v01.03.01.00
 
 拓竹可能会在未来发布影响Panda Touch可用功能的固件版本。Bigtreetech将监控所有测试版固件版本，如果我们发现影响Panda Touch功能的固件版本，我们将通过电子邮件、速卖通聊天和我们的社交渠道发出警报。然后，购买者可以决定是否要冒着失去功能的风险执行更新。请注意，Panda Touch保修不包括由于执行Bambu Lab固件更新而导致的功能损失。
 
@@ -313,7 +313,8 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
     * `流量校准` (`P1P` and `P1S` 没有这个功能, 因此这些打印机不会显示此选项)
     * `延时摄影`
     * `使用 AMS` (Panda Touch将自动识别此打印机是否已插入AMS，然后确定是否需要显示此选项)
-
+    * `自动断电` (自动识别在线的Panda PWR,开启自动断电功能)
+    * `清除用电量` (自动识别在线的Panda PWR,重置Panda PWR的用电量)
   <br><img src=img/PandaTouch/start_print_one.png width="600"/>
 
 * 请确保切片的“.3mf”文件与所选打印机兼容。
@@ -337,9 +338,12 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
 * 点击以选择USB磁盘上要打印的文件。
 * 设置打印参数。根据组中的打印机，您可能会看到：
     * `热床调平`
-    * `流量校准` (`P1P`和P1S`没有此功能，因此这些型号的打印机将不会显示此选项。)
+    * `流量校准` (`P1P`和`P1S`没有此功能，因此这些型号的打印机将不会显示此选项。)
     * `延时摄影`
     * `使用 AMS` (Panda Touch将自动识别此打印机是否已插入AMS，然后确定是否需要显示此选项。)
+    * `自动断电` (自动识别在线的Panda PWR,开启自动断电功能)
+    * `清除用电量`(自动识别在线的Panda PWR,重置Panda PWR的用电量)
+
 * 特定组的复选框打印选项将基于组中功能最强大的机器可用的功能。例如，您正在使用包含X1C\P1P\P1S的组，您将有激光雷达扫描选项可用，但此选项将仅发送给支持它的组中的打印机。
 
   <br><img src=img/PandaTouch/start_print.png width="600"/>
@@ -375,6 +379,58 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
     ②: 停止当前打印列表中的所有打印作业。
 
     ③: 暂停/恢复当前打印列表中的所有打印作业。
+
+### 与Panda PWR连接
+#### 绑定Panda Touch 和Panda PWR
+* 打开Panda PWR页面<br><img src=img/PandaPWR/bind_before.png width="600"/>  
+* 长按“Bind”按钮，直到蓝灯开始闪烁（大约 3 秒）。  
+* 将 Panda Touch 放置在 Panda PWR 外壳上，以建立连接。
+<img src=img/PandaPWR/ask_bind.png width="600"/>  
+
+* 绑定成功后，Panda PWR 的数据将在此页面显示。
+<img src=img/PandaPWR/bind_ok.png width="600"/>  
+
+#### 与 Panda PWR 解绑
+* 若要将 Panda PWR 绑定到另一设备，请先解绑当前连接。
+<img src=img/PandaPWR/unbind.png width="600"/>    
+
+#### 打完关机
+当您需要打印机在打印完成后自动关闭时，激活自动断电开关，设置倒计时时间和温度限值，
+并在条件满足时启动倒计时。倒计时完成后，Panda PWR 将自动切断打印机的电源供应。
+
+* 激活自动断电
+<br><img src=img/PandaPWR/start_auto_power_off.png width="600"/>
+
+* 当打印机在线且温度达到设定限值时，倒计时将自动开始。如果条件不满足，倒计
+时将暂停，并在条件再次满足时恢复。
+<br><img src=img/PandaPWR/auto_power_off_ing.png width="600"/>
+
+#### 清除电量消耗数据
+Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage”按钮。
+<br><img src=img/PandaPWR/reset_usage.png width="600"/>
+
+#### USB1 跟随打印机灯光
+* 设置为开：USB1 将跟随打印机的 LED 变化。如果 LED 灯亮，则 USB1 输出 5V；
+如果关闭，则输出禁用。
+* 设置为关：USB1 仅在手动控制下操作，与打印机的 LED 状态无关。
+<br><img src=img/PandaPWR/usb1_function.png width="600"/>
+
+### SD卡和U盘的排序功能
+#### 按名称排序
+点击"Name"可切换名称按照‘A’->‘Z’或‘Z’->‘A’排序，暂时不支持中文名排序
+<br><img src=img/PandaTouch/sort_by_name.png width="600"/>
+
+#### 按日期排序
+点击"Date"可切换日期按照新到旧或旧到新排序
+<br><img src=img/PandaTouch/sort_by_new.png width="600"/>
+
+### U盘文件的缩略图预览功能
+点击右下角的图标可切换为缩略图
+<br><img src=img/PandaTouch/to_thumbnail.png width="600"/>  
+再次点击可切换回文件为列表
+<br><img src=img/PandaTouch/thumbnail.png width="600"/>  
+> 提示:
+> 当前仅支持Bambu Studio生成的3mf文件，如果缩略图无法正常显示，请尝试使用Bambu Studio重新切片
 
 ### 如何更换主页的熊猫图片
 

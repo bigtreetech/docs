@@ -15,11 +15,11 @@ The CAD files for the Panda Touch can be downloaded [here](https://github.com/bi
 
 The Panda Touch is currently compatible with all Bambu Lab printer firmware versions up until:
 
-* P1P --> v01.06.00.09
-* P1S --> v01.06.00.09
-* X1C --> v01.08.00.00
-* A1 --> v01.03.00.00
-* A1 Mini --> v01.03.00.00
+* P1P --> v01.06.01.00
+* P1S --> v01.06.01.00
+* X1C --> v01.08.02.00
+* A1 --> v01.03.01.00
+* A1 Mini --> v01.03.01.00
 
 It is possible that Bambu Lab may release a future firmware version that impacts the functions available on the Panda Touch. Bigtreetech will monitor all beta firmware versions, and if we find a firmware version that affects Panda Touch functionality, we will send out an alert via email, Aliexpress chat, and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.
 
@@ -326,7 +326,8 @@ When trying to print from USB, please take note of the important points below.
     * `Flow Calibration` (`P1P` and `P1S` do not have this feature, so these models of printers will not display this option.)
     * `Timelapse`
     * `Use AMS` (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)
-
+    * `Auto Power-Off` (Automatically detects the online Panda PWR and enables the automatic power-off feature.)
+    * `RST Usage` (Automatically detects the online Panda PWR and resets the power usage of Panda PWR)
   <br><img src=img/PandaTouch/start_print_one.png width="600"/>
 
 * Please make sure that the sliced `.3mf` file is compatible with the selected printer.
@@ -353,6 +354,8 @@ When trying to print from USB, please take note of the important points below.
     * `Flow Calibration` (`P1P` and `P1S` do not have this feature, so these models of printers will not display this option.)
     * `Timelapse`
     * `Use AMS` (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)
+    * `Auto Power-Off` (Automatically detects the online Panda PWR and enables the automatic power-off feature.)
+    * `RST Usage` (Automatically detects the online Panda PWR and resets the power usage of Panda PWR)
 * Tick box print options for a particular group will be based on the functionality available for the most functional machine in the group. For example, you are using a group which contains X1C\P1P\P1S, you will have the lidar scan option available but this option will only be sent to the printers in the group that support it.
 
   <br><img src=img/PandaTouch/start_print.png width="600"/>
@@ -388,6 +391,56 @@ The following group controls exist from this menu:
     ②: Stop all print jobs in the group.
 
     ③: Pause/Resume all print jobs in the group.
+
+### Connecting with Panda PWR
+#### Binding Panda Touch and Panda PWR
+* Open the Panda PWR page<br><img src=img/PandaPWR/bind_before.png width="600"/>  
+* Press and hold the "Bind" button until the blue light starts flashing (approximately 3 seconds).  
+* Place the Panda Touch on the Panda PWR to establish the connection.
+<img src=img/PandaPWR/ask_bind.png width="600"/>  
+
+* After successful binding, the data of Panda PWR will be displayed on this page.
+<img src=img/PandaPWR/bind_ok.png width="600"/>  
+
+#### Unbinding from Panda PWR
+* To bind Panda PWR to another device, unbind the current connection first.
+<img src=img/PandaPWR/unbind.png width="600"/>    
+
+#### Shutdown After Printing
+Enable the automatic power-off feature to have the printer shut down automatically after printing. Set the countdown timer and temperature threshold; 
+the countdown begins once conditions are met, and Panda PWR will cut off the power upon countdown completion.
+
+* Activate the Automatic Power-Off
+<br><img src=img/PandaPWR/start_auto_power_off.png width="600"/>
+
+* The countdown starts automatically when the printer is online and the temperature reaches the set limit. The countdown pauses if conditions are not met and resumes once they are.
+<br><img src=img/PandaPWR/auto_power_off_ing.png width="600"/>
+
+#### Reset Power Usage
+To reset the recorded power consumption data, click the "RST Usage" button.
+<br><img src=img/PandaPWR/reset_usage.png width="600"/>
+
+#### USB1 Follows Printer Lights
+* Set to ON: USB1 will mimic the printer's LED status. When the LED is on, USB1 outputs 5V; when off, the output is disabled.
+* Set to OFF: USB1 functions manually and does not respond to the printer's LED status.
+<br><img src=img/PandaPWR/usb1_function.png width="600"/>
+
+### Sorting Function for SD Cards and USB Drives
+#### Sort by Name
+Click "Name" to sort alphabetically from 'A' to 'Z' or reverse. Sorting by Chinese names is currently unsupported.
+<br><img src=img/PandaTouch/sort_by_name.png width="600"/>
+
+#### Sort by Date
+Click "Date" to sort by date from newest to oldest or vice versa.
+<br><img src=img/PandaTouch/sort_by_new.png width="600"/>
+
+### Thumbnail Preview of USB Files
+Click the icon in the lower right corner to switch to thumbnail view.
+<br><img src=img/PandaTouch/to_thumbnail.png width="600"/>  
+Click again to return to the file list view.
+<br><img src=img/PandaTouch/thumbnail.png width="600"/>  
+> Note:
+> Only 3mf files generated by Bambu Studio are supported for thumbnail previews. If the thumbnail is not displayed correctly, consider re-slicing with Bambu Studio.
 
 ### How To Change The Panda Picture
 
