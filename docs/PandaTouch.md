@@ -199,7 +199,7 @@ Follow the steps below to enable cloud connectivity to those printers that need 
   <img src=img/PandaTouch/add_account.png width="600"/>
 * Select your region by tapping the arrow at the top right of the resulting pop up.
 * Users in China use mobile phone numbers, while users in global regions use email addresses.
-* If you are unable to find your login credentials then please see the section: [Help I Can't Find My Bambu Lab Login Credentials](#help-i-cant-find-my-bambu-lab-login-credentials) 
+* Press 'Send code' button to get code from email. 
   <br><img src=img/PandaTouch/login.png width="600"/>
 * Tap the confirm button once you've entered the login details.
 
@@ -459,18 +459,6 @@ Use [this tool](https://github.com/bigtreetech/PandaTouch/tree/master/Firmware/1
 
 ## Troubleshooting
 
-### Help, I Can't Find My Bambu Lab Login Credentials
-
-To enable cloud connectivity on the Panda Touch you'll need your Bambu Lab cloud details. If you already know your username and password then you are set! If you created your account using a google login then you'll need to create a password using the steps below:
-
- * Go to www.bambulab.com and login using your google account.
- * Click on the little user icon at the top right and select "Profile Setting".
-
-  <img src=img/PandaTouch/profile_setting.png width="600"/>
- * Click on "Change Password" and follow the steps to set a password for your account.
-
-  <img src=img/PandaTouch/change_password.png width="600"/>
-
 ### Connection Troubleshooting
 
 #### Connect Failed
@@ -557,6 +545,9 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
+#### [V1.0.5.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5.1/panda_touch-v1.0.5.1.bin) 
+* change the login method: login by email code.
+
 #### [V1.0.5](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5/panda_touch-v1.0.5.bin) 
 * New Panda PWR Binding Mode for Intelligent Power Management of Bambu Lab Printers
   * Features a Panda PWR management interface to display printer power and energy consumption, with control over the. 

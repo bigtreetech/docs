@@ -449,13 +449,6 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 
 ## 故障排除
 
-##### 如何找到我的拓竹账号信息<a id="bambu_account"></a>
-要在Panda Touch上启用云模式，您需要使用下载Bambu Handy进行操作：
-
- * 登录到拓竹APP后，点击右下角“我的”按钮。
- * 点击“账号与安全”按钮。
- * 点击修改密码进行添加密码。
-
 ### 连接故障排除
 
 #### 连接失败
@@ -542,6 +535,9 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### 固件历史记录 <a id="firmware_history"></a>
+#### [V1.0.5.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5.1/panda_touch-v1.0.5.1.bin) 
+* 新增Panda PWR绑定模式，实现拓竹打印机智能化电源管理。
+
 #### [V1.0.5](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5/panda_touch-v1.0.5.bin) 
 * 新增Panda PWR绑定模式，实现拓竹打印机智能化电源管理。
   * 支持显示Panda PWR管理界面，可查看打印机功率和功耗，可控制打印机电源开关。 
