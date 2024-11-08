@@ -457,9 +457,30 @@ After the first startup or performing the "Restore to Factory Settings" command,
 
 ### Firmware History
 
-#### [V1.0.0](https://github.com/bigtreetech/K-Touch/blob/master/Firmware/panda_touch-v1.0.1.bin)
+#### [V1.0.0](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.0/K-Touch_v1.0.0_firmware.bin)
 
 * The initial release of factory firmware.
+
+#### [V1.0.1](https://github.com/bigtreetech/K-Touch/blob/master/v1.0.1/K-Touch_v1.0.1_firmware.bin)
+
+The V1.0.1 version is updated as follows:
+
+* Added functionality for printing via USB drive through the USB interface.
+* Introduced the capability to read and set the chamber temperature.
+* Refined the temperature setting interface, now featuring a quick-cool button.
+* Prioritized the emergency stop command as the top-level command.
+* Boosted the loading speed of the print file list.
+* Improved the user interface layout of the print file list, which now includes a manual refresh button and a display for storage space.
+* Expanded the display capacity of the print file list to support thumbnails for up to 100 files.
+* Upgraded the backend algorithm for reading the print file list to handle up to 300 files.
+* Enhanced the user experience with improved pop-up notifications for the print file list.
+* Improved the printers auto-scan feature, adjusting the IP scan port to "7125".
+* Enhanced PID functionality with a new save button for PID settings.
+* Fixed an issue where oversized thumbnails in the print file list caused restarts.
+in the print file list caused restarts.
+* Addressed issues related to entering IP addresses and problems with IP length being too long or too short.
+* Solved the issue of the message queue not clearing when switching between printers.
+* Fixed a problem where screen brightness settings were not retained after switching the K-Touch power on or off.
 
 ### Feature Requests
 

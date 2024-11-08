@@ -41,6 +41,8 @@ Power Source: 1x CR2032 3V Button Battery (Included)
 
 ## **Instructions for Use**
 
+<font  color="red">**☆Print and install ProbeTip.step to ensure accurate ready**</font> 
+
 **Preparation**: We provide a table of Belter value-tension converters to assist users in converting readings into belt tension (N). 
 
 Please download the Single-Hand Operation Model and Tension Calculator table files from: https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/PrintParts

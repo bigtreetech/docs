@@ -38,6 +38,8 @@ Belter是一种高精度皮带张力工具，旨在精确测量皮带张力。�
 
 ## **使用说明**
 
+<font  color="red">**☆打印并安装ProbeTip.step，以确保准确准备就绪**</font>
+
 **准备**：我们提供Belter值张力转换器表，以帮助用户将读数转换为皮带张力（N）。
 请从以下位置下载单手操作模型和张力计算器表格文件：https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/PrintParts
 

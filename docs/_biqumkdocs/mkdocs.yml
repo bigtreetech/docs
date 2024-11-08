@@ -159,6 +159,7 @@ nav:
       - Panda Touch.md
       - Klipper Touch.md
       - Panda Branch.md 
+      - DZ01.md
     - Displays:
       - TFT43-DIP.md
       - TFT35 E3.md
@@ -176,6 +177,7 @@ nav:
         - TMC2208.md
         - TMC2240.md
         - TMC5160TPlus.md
+        - TMC5160T Pro V1.0.md
         - Tutorials.md
       - EZ Series:
         - EZ2130.md
@@ -220,6 +222,7 @@ nav:
       - Panda Lux.md 
       - Panda-Door.md 
       - Panda PWR.md
+      - Panda Jetpack.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
