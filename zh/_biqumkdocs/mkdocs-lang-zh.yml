@@ -148,6 +148,8 @@ nav:
         - U2C.md
       - MMB系列:
         - MMB CAN V1.0.md
+      - CNC系列:
+        - rodent.md
     - 物联网:
       - CB1.md
       - CB2.md
