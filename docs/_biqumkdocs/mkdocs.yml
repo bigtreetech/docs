@@ -148,6 +148,8 @@ nav:
         - U2C.md
       - MMB Series:
         - MMB CAN V1.0.md
+      - CNC Series:
+        - rodent.md
     - IOT:
       - CB1.md
       - CB2.md
@@ -240,6 +242,7 @@ nav:
       - belter.md
     - Cooling solution:
       - Universal Turbo Kit.md 
+      - Eco Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
 

@@ -14,6 +14,8 @@ EBB Series
 
 MMB Series
 
+CNC Series
+
 IOT
 
 Displays

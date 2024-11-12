@@ -482,6 +482,20 @@ in the print file list caused restarts.
 * Solved the issue of the message queue not clearing when switching between printers.
 * Fixed a problem where screen brightness settings were not retained after switching the K-Touch power on or off.
 
+#### [V1.1.0](https://github.com/bigtreetech/K-Touch/blob/master/v1.1.0/K-Touch_v1.1.0_firmware.bin)
+
+The V1.1.0 version is updated as follows:
+
+* Added Compatibility with Panda PWR, support for binding with and controlling Panda PWR.
+* Added Klipper console (Console) feature.
+* Added printing flow and speed adjustment capabilities.
+* Home page widgets have been added to provide one-click access to essential features including Panda PWR and Console.
+* A new clock feature has been added to help users estimate the time needed for printing and other printer operations.
+* The firmware update WebUI interface has been optimized to display current firmware and IMG versions.
+* The temperature adjustment interface has been enhanced with line graphs for each temperature sensor, showing preset values and including a one-click cooling option.
+
+Important Notice: Following the upgrade of the K-Touch firmware to version V1.1.0, it is essential to reset your device to factory settings. This step ensures that new features, such as binding the Panda PWR, are activated. Before proceeding with the reset, please back up all important device data, including manually added printer IP addresses. For instructions on how to restore factory settings, please click here.- [Jump to System Information](#system-information)
+
 ### Feature Requests
 
 If you would like to see specific features in upcoming K-Touch firmware releases, please log your feature requests on the official K-Touch GitHub repository to let us know.
