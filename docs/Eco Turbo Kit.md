@@ -10,7 +10,7 @@ https://biqu.equipment/products/biqu-eco-turbo-kit
 
 **GitHub repository:**
 
-[https://bttwiki.com/Eco%20Turbo%20Kit.html](https://bttwiki.com/Eco Turbo Kit.html)
+[GitHub - bigtreetech/Eco-Turbo-Kit](https://github.com/bigtreetech/Eco-Turbo-Kit)
 
 ## **Introduction**
 
