@@ -246,7 +246,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 
 > 注意:
 > 仅显示从Bambu Studio发起的打印任务，该.3mf文件大小需<=20M，X1系列机器暂不支持。
-> 缩略图不匹配: 仅当image文件夹下的图片时间戳与打印文件相同时会导致缩略图不匹配。
+> 缩略图不匹配: 仅当image文件夹下的图片时间戳与其他打印文件相同时会导致缩略图不匹配。
 
 ### 耗材控制
 
@@ -449,13 +449,13 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 
 ### 支持打印机SD卡和U盘的文件夹访问
 * 点击目录后可以切换目录
-<img src=img/PandaTouch/change_dir.png width="600"/>  
+<br><img src=img/PandaTouch/change_dir.png width="600"/>  
 
 * U盘
-<img src=img/PandaTouch/udisk_folder.png width="600"/> 
+<br><img src=img/PandaTouch/udisk_folder.png width="600"/> 
 
 * SD卡
-<img src=img/PandaTouch/ftps_folder.png width="600"/>  
+<br><img src=img/PandaTouch/ftps_folder.png width="600"/>  
 
 ### 重新打印 
  
@@ -467,7 +467,12 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 #### 从历史记录重新打印
 <br><img src=img/PandaTouch/print_history.png width="600"/>  
 
+### 切换打印机默认的SD卡目录 
+<br><img src=img/PandaTouch/cache_root.png width="600"/>
+
 ### 新增语言
+<br><img src=img/PandaTouch/language_custom.png width="600"/>
+
 * 德语
 <br><img src=img/PandaTouch/de.png width="600"/>  
 
