@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Directions
-    url: https://dilixi.github.io/docs/
+    url: https://bigtreetech.github.io/docs/
     about: Have a question? Need help? Start here.
   - name: Biqu Forum
-    url: https://dilixi.github.io/docs/
+    url: https://bigtreetech.github.io/docs/
     about: Biqu community Discourse server.
   - name: Biqu Chat
-    url: https://dilixi.github.io/docs/
+    url: https://bigtreetech.github.io/docs/
     about: Biqu community Discord chat server.

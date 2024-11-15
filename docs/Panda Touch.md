@@ -593,7 +593,7 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
-#### V1.0.6 Firmware Release Notes
+#### V1.0.6
 ##### New Features
 - **Supports thumbnail display of print tasks and SD card on the home screen**: Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. Note: The X1 series printers do not support this feature.
 - **Supports quick reprint from the home screen after printing completion**: The print file must be stored in the default directory on the printer's SD card (default directory can be set to Cache or root directory in Panda Touch settings).
