@@ -460,23 +460,29 @@ Click again to return to the file list view.
 
 ### File Folder Access for SD Cards and USB Drives
 * Tap on a directory to switch to it
-<img src=img/PandaTouch/change_dir.png width="600"/>  
+<br><img src=img/PandaTouch/change_dir.png width="600"/>  
 
 * USB Drive
-<img src=img/PandaTouch/udisk_folder.png width="600"/> 
+<br><img src=img/PandaTouch/udisk_folder.png width="600"/> 
 
 * SD Card
-<img src=img/PandaTouch/ftps_folder.png width="600"/>  
+<br><img src=img/PandaTouch/ftps_folder.png width="600"/>  
 
 ### Reprinting
 #### Reprinting from the Home Screen
-<br><img src=img/PandaTouch/reprint_home.png width="600"/>  
+<img src=img/PandaTouch/reprint_home.png width="600"/>  
 
 > Note: To reprint, ensure the file is stored in the default directory on the printer’s SD card (selectable between Cache or the root directory via Panda Touch settings).
 
 #### Reprinting from History
-<br><img src=img/PandaTouch/print_history.png width="600"/>  
-### Adding New Languages
+<img src=img/PandaTouch/print_history.png width="600"/>  
+
+### Change the Default Directory on the printer’s SD card 
+<br><img src=img/PandaTouch/cache_root.png width="600"/>
+
+### Adding New Languages 
+<br><img src=img/PandaTouch/language_custom.png width="600"/>
+
 * German (Deutsch)
 <br><img src=img/PandaTouch/de.png width="600"/>  
 
