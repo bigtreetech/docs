@@ -3761,7 +3761,7 @@ sample configuration files to get you going. You will need to decide which one s
 to manually move the gantry or bed such that the Eddy is 20mm above the bed.</p>
 <p>2.From Mainsail or Fluidd run the command</p>
 <p><font  color="blue"><strong>LDC_CALIBRATE_DRIVE_CURRENT CHIP=btt_eddy</strong></font></p>
-<p>3.Type <font  color="blue"><strong>LDC_CALIBRATE_DRIVE_CURRENT </strong></font> to save the drive current to your config.</p>
+<p>3.Type <font  color="blue"><strong>SAVE_CONFIG</strong></font> to save the drive current to your config.</p>
 <h3 id="mapping-eddy-readings-to-nozzle-heights">Mapping Eddy Readings to Nozzle Heights<a class="headerlink" href="#mapping-eddy-readings-to-nozzle-heights" title="Permanent link">&para;</a></h3>
 <p>Now that the drive current has been calibrated, the Eddy will be able to obtain readings from the print bed. Klipper needs to know how those readings correspond to the height of the nozzle. The following calibration procedure positions the nozzle on the bed so that the Z height is = 0. It then takes readings from the Eddy as it gradually increases the nozzle height so that it can map those readings to known heights.</p>
 <ul>
