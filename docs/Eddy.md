@@ -218,7 +218,7 @@ to manually move the gantry or bed such that the Eddy is 20mm above the bed.
 
 <font  color="blue">**LDC_CALIBRATE_DRIVE_CURRENT CHIP=btt_eddy**</font>
 
-3.Type <font  color="blue">**LDC_CALIBRATE_DRIVE_CURRENT **</font> to save the drive current to your config.
+3.Type <font  color="blue">**SAVE_CONFIG**</font> to save the drive current to your config.
 
 ### Mapping Eddy Readings to Nozzle Heights
 
