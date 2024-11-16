@@ -492,18 +492,18 @@ Click again to return to the file list view.
 * Japanese (日本語)
 <br><img src=img/PandaTouch/ja.png width="600"/>  
 
-
 ### How To Change The Panda Picture
 
 Use [this tool](https://pandatouch.us.kg/) to change the picture of the panda.
-* Ensure that you are running firmware version 1.0.6 or above. 
+* Ensure that the firmware version of Panda Touch is 1.0.6 or above. 
 * Please ensure that the image you want to replace meets the following requirements: 
   * Pixel width less than 280
   * Pixel height less than 306
   * Pixel depth 32-bit color
   * Image format PNG. 
 * Upload the yml file if you need to replace the label on the UI of Panda Touch.
-<br><img src=img/PandaTouch/upload_new_panda.png width="600"/>   
+  * [Panda Touch UI Translation](https://github.com/bigtreetech/PandaTouch/tree/master/Translation)
+<br><img src=img/PandaTouch/upload_new_panda.png width="600"/>  
 
 * Click generate button. 
 <br><img src=img/PandaTouch/generate_new_panda.png width="600"/> 

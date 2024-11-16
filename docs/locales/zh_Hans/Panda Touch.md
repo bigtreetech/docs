@@ -484,18 +484,16 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 
 ### 如何更换主页的熊猫图片
 
-使用 [这个工具](https://github.com/bigtreetech/PandaTouch/tree/master/Firmware/1.0.3/Panda%20Pic%20Exchange%20Tool) 更改熊猫图片。
-* 确保您运行的固件版本为1.0.3或更高版本。
-* 目前，该工具仅适用于Windows。
-* 请确保要替换的图像符合以下要求： 
-  * 像素宽度小于280
-  * 像素高度小于306
-  * 像素深度32位颜色
-  * PNG格式
-* 确保要替换的图像符合格式要求，重命名它，并替换工具所在文件夹中的new_panda.png文件。
-* 单击generate_img.bat进行编译。
-* 在浏览器中输入Panda Touch的IP地址以访问OTA web UI。
-* 单击“更新文件”，选择new_panda.img，然后继续更新。
+使用 [这个工具](https://pandatouch.us.kg/) 来替换熊猫图片.
+* 请确保Panda Touch的固件是V1.0.6及以上版本. 
+* 请确保图片格式满足以下条件: 
+  * 宽度不超过 280
+  * 高度不超过 306
+  * 色深度为 32位
+  * 格式为PNG. 
+* 如果你想要替换UI上的文本可以上传.yml文件.
+  * [Panda Touch UI 翻译](https://github.com/bigtreetech/PandaTouch/tree/master/Translation)
+<br><img src=img/PandaTouch/upload_new_panda.png width="600"/>   
 
 ## 故障排除
 
