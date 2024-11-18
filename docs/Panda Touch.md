@@ -259,7 +259,7 @@ Follow the steps below to enable cloud connectivity to those printers that need 
  
 > Note:
 > Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. The X1 series printers do not support this feature.
-> Thumbnail Mismatch: A mismatch occurs only if the timestamp of an image in the 'image' folder matches the timestamp of another print file.
+> Thumbnail Mismatch: A mismatch will only occur if the timestamp of an image in the 'image' folder matches the timestamp of another print file.
 > Enhanced loading thumbnails: There is a option for loading thumbnails in setting page, if you turn on this then it will bring a long delay for start printing from u-disk and do something from the sd-card panel.
 
 ### Filament Control
@@ -616,7 +616,7 @@ If there is something you would like to see in a future release of the Panda Tou
 - **Pre-Selection Options Before Printing**: The Auto Power-Off feature of Panda PWR is now by default set to off.
 - **Optimization of New_Panda File Verification**: Device checks the file upon power-up to avoid update interruptions that could prevent startup.
 - **Optimized Chamber Temperature Display Icon**.
-- **Improved IMG File Generation**: New new_panda files can now be generated using the [online tool](https://pandatouch.us.kg/)。 
+- **Improved IMG File Generation**: New new_panda files can now be generated using the [online tool](https://pandatouch.us.kg/).
 
 ##### Bug Fixes
 - **Fixed Access Code Data Synchronization Issue**: Discrepancies in Access code data retrieved from the cloud server can cause loss of SN data, making it impossible to connect to the printer.
