@@ -256,11 +256,11 @@ Follow the steps below to enable cloud connectivity to those printers that need 
 
 ### Display of Print Tasks and SD Card Thumbnails on the Home Screen
 <br> <img src=img/PandaTouch/thumbnail_preview.png width="600"/>
-
+ 
 > Note:
 > Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. The X1 series printers do not support this feature.
 > Thumbnail Mismatch: A mismatch occurs only if the timestamp of an image in the 'image' folder matches the timestamp of another print file.
-
+> Enhanced loading thumbnails: There is a option for loading thumbnails in setting page, if you turn on this then it will bring a long delay for start printing from u-disk and do something from the sd-card panel.
 
 ### Filament Control
 
