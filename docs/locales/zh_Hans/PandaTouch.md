@@ -605,6 +605,7 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 
 ##### 修复BUG
 - **修复Access code数据同步问题**：从云服务器获取的Access code数据错乱时会导致SN数据丢失后无法连接打印机。
+- **修复中国地区云账号登录异常问题**。
 
 #### [V1.0.5.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5.1/panda_touch-v1.0.5.1.bin) 
 * 新增Panda PWR绑定模式，实现拓竹打印机智能化电源管理。
