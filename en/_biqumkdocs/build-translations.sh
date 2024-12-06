@@ -101,7 +101,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%EBB Series:$%${EBB_Series}:%" "${new_mkdocs_file}"
   sed -i "s%MMB Series:$%${MMB_Series}:%" "${new_mkdocs_file}"
   sed -i "s%CNC Series:$%${CNC_Series}:%" "${new_mkdocs_file}"
-  sed -i "s%Kraken Series:$%${CNC_Series}:%" "${new_mkdocs_file}"
+  sed -i "s%Kraken Series:$%${Kraken_Series}:%" "${new_mkdocs_file}"
   sed -i "s%IOT:$%${IOT}:%" "${new_mkdocs_file}"  
   sed -i "s%Displays:$%${Displays}:%" "${new_mkdocs_file}"    
   sed -i "s%Motor Drives:$%${Motor_Drives}:%" "${new_mkdocs_file}"
