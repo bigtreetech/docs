@@ -31,7 +31,7 @@ RS-485 communication, greatly simplifying the wiring process and providing smoot
 
 ### Pin Description
 
-<img src=img/rodent/rodent_pins1.png width="600"/>
+<img src=img/rodent/rodent_pins2.png width="600"/>
 
 ## **Interface Details**
 
