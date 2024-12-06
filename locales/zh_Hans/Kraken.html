@@ -1,0 +1,3770 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>KRAKEN V1.0/V1.1 - BIGTREETECH WIKI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
+    
+      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-138371409-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#kraken-v10v11" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="BIGTREETECH WIKI" class="md-header__button md-logo" aria-label="BIGTREETECH WIKI" data-md-component="logo">
+      
+  <img src="../../img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BIGTREETECH WIKI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              KRAKEN V1.0/V1.1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2 0-.68.06-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.923 7.923 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8.008 8.008 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.65 15.65 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/en/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="https://bttwiki.com/zh/" hreflang="zh" class="md-select__link">
+                    简体中文
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bigtreetech/docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../SKR%20MINI%20E3.html" class="md-tabs__link">
+        BIGTREETECH
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Panda%20Flow%20X1.html" class="md-tabs__link">
+        BIQU
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="BIGTREETECH WIKI" class="md-nav__button md-logo" aria-label="BIGTREETECH WIKI" data-md-component="logo">
+      
+  <img src="../../img/BQ-BIQU.svg" alt="logo">
+
+    </a>
+    BIGTREETECH WIKI
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bigtreetech/docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigtreetech/docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          BIGTREETECH
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BIGTREETECH" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          BIGTREETECH
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" type="checkbox" id="__nav_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1">
+          Motherboards
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Motherboards" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Motherboards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_1" type="checkbox" id="__nav_1_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_1">
+          SKR Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SKR Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          SKR Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKR%20MINI%20E3.html" class="md-nav__link">
+        SKR MINI E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKR%203%20EZ.html" class="md-nav__link">
+        SKR 3 EZ
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKR%203.html" class="md-nav__link">
+        SKR 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKR%20Pico.html" class="md-nav__link">
+        SKR Pico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKR%20PRO%20V1.2.html" class="md-nav__link">
+        SKR PRO V1.2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKR%20V1.4.html" class="md-nav__link">
+        SKR V1.4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKRat.html" class="md-nav__link">
+        SKRat
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_2" type="checkbox" id="__nav_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_2">
+          Octopus Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Octopus Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Octopus Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Octopus.html" class="md-nav__link">
+        Octopus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Octopus%20Pro.html" class="md-nav__link">
+        Octopus Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Octopus%20MAX%20EZ.html" class="md-nav__link">
+        Octopus MAX EZ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_3" type="checkbox" id="__nav_1_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_3">
+          Manta Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Manta Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Manta Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../M4P.html" class="md-nav__link">
+        M4P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../M5P.html" class="md-nav__link">
+        M5P
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../M8P.html" class="md-nav__link">
+        M8P
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_4" type="checkbox" id="__nav_1_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_4">
+          EBB Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EBB Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          EBB Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%2036%20CAN.html" class="md-nav__link">
+        EBB 36 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%2042%20CAN.html" class="md-nav__link">
+        EBB 42 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%202240%202209%20CAN.html" class="md-nav__link">
+        EBB 2240/2209 CAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%202209%20CAN%20RP2040.html" class="md-nav__link">
+        EBB SB2209 CAN RP2040
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%20SB2209%20USB.html" class="md-nav__link">
+        EBB SB2209 USB V1.0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../U2C.html" class="md-nav__link">
+        U2C
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_5" type="checkbox" id="__nav_1_1_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_5">
+          MMB Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="MMB Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          MMB Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MMB%20CAN%20V1.0.html" class="md-nav__link">
+        MMB CAN V1.0
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_6" type="checkbox" id="__nav_1_1_6" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_6">
+          CNC Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="CNC Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          CNC Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Rodent.html" class="md-nav__link">
+        Rodent
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1_7" type="checkbox" id="__nav_1_1_7" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_1_7">
+          Kraken Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Kraken Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_1_7">
+          <span class="md-nav__icon md-icon"></span>
+          Kraken Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Kraken.html" class="md-nav__link">
+        KRAKEN V1.0/V1.1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          IOT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="IOT" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          IOT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CB1.html" class="md-nav__link">
+        CB1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CB2.html" class="md-nav__link">
+        CB2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pi2.html" class="md-nav__link">
+        Pi2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PI4B.html" class="md-nav__link">
+        PI4B
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PAD7.html" class="md-nav__link">
+        PAD7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../KNOMI.html" class="md-nav__link">
+        KNOMI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../KNOMI2.html" class="md-nav__link">
+        KNOMI2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Touch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Klipper%20Touch.html" class="md-nav__link">
+        K-Touch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Branch.html" class="md-nav__link">
+        Panda Hub
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DZ01.html" class="md-nav__link">
+        DZ01
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Displays
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Displays" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Displays
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT43-DIP.html" class="md-nav__link">
+        TFT43-DIP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT35%20E3.html" class="md-nav__link">
+        TFT35 E3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT35.html" class="md-nav__link">
+        TFT35
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT24.html" class="md-nav__link">
+        TFT24
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TFT35%20SPI.html" class="md-nav__link">
+        TFT35 SPI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HDMI5.html" class="md-nav__link">
+        HDMI5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HDMI7%20V1.0.html" class="md-nav__link">
+        HDMI7 V1.0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HDMI7%20V1.2.html" class="md-nav__link">
+        HDMI7 V1.2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          Motor Drives
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Motor Drives" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Motor Drives
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_1" type="checkbox" id="__nav_1_4_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_1">
+          TMC Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="TMC Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          TMC Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC2130.html" class="md-nav__link">
+        TMC2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC5160.html" class="md-nav__link">
+        TMC5160
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC2209.html" class="md-nav__link">
+        TMC2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC2208.html" class="md-nav__link">
+        TMC2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC2240.html" class="md-nav__link">
+        TMC2240
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC5160TPlus.html" class="md-nav__link">
+        TMC5160T Plus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TMC5160T%20Pro%20V1.0.html" class="md-nav__link">
+        TMC5160T Pro V1.0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorials.html" class="md-nav__link">
+        Subdivision Table
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_2">
+          EZ Series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="EZ Series" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          EZ Series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2130.html" class="md-nav__link">
+        EZ2130
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2208.html" class="md-nav__link">
+        EZ2208
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2225.html" class="md-nav__link">
+        EZ2225
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2226.html" class="md-nav__link">
+        EZ2226
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ5160%20Pro.html" class="md-nav__link">
+        EZ5160 Pro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZDriver%20Connector.html" class="md-nav__link">
+        EZDriver Connector
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ2209.html" class="md-nav__link">
+        EZ2209
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EZ31865.html" class="md-nav__link">
+        EZ31865
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_5" type="checkbox" id="__nav_1_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_5">
+          Sensors Modules
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sensors Modules" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Sensors Modules
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ADXL345.html" class="md-nav__link">
+        ADXL345 V2.0
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SKSM.html" class="md-nav__link">
+        SKSM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Eddy.html" class="md-nav__link">
+        Eddy
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_6" type="checkbox" id="__nav_1_6" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_6">
+          Software Tutorials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Software Tutorials" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_6">
+          <span class="md-nav__icon md-icon"></span>
+          Software Tutorials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Multiple%203D%20Printers.html" class="md-nav__link">
+        Installing and Configuring Klipper for Multiple 3D Printers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Software%20Configuration.html" class="md-nav__link">
+        Software Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Software%20Installation.html" class="md-nav__link">
+        Software Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EBB%20Series.html" class="md-nav__link">
+        EBB Series
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../libinput_calibration.html" class="md-nav__link">
+        libinput_calibration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          BIQU
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BIQU" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          BIQU
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Panda series
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda series" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Panda Hotend
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Hotend" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Hotend
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1" type="checkbox" id="__nav_2_1_1_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1">
+          Panda Flow/CHT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Flow/CHT" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Flow/CHT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_1" type="checkbox" id="__nav_2_1_1_1_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Flow%20X1.html" class="md-nav__link">
+        Panda Flow X1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_1_2" type="checkbox" id="__nav_2_1_1_1_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_1_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Flow%20P1.html" class="md-nav__link">
+        Panda Flow P1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2" type="checkbox" id="__nav_2_1_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2">
+          Panda Revo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Revo" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Revo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_1" type="checkbox" id="__nav_2_1_1_2_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_1">
+          X1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="X1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          X1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Revo%20X1%20Hotend.html" class="md-nav__link">
+        Panda Revo X1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2_2" type="checkbox" id="__nav_2_1_1_2_2" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2_2">
+          P1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="P1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_1_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          P1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Revo%20P1%20Hotend.html" class="md-nav__link">
+        Panda Revo P1 Hotend
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2" type="checkbox" id="__nav_2_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2">
+          Panda Claw
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Panda Claw" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Panda Claw
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20A1Mini.html" class="md-nav__link">
+        A1/Mini
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20P1%20X1.html" class="md-nav__link">
+        P1/X1
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PandaTouch.html" class="md-nav__link">
+        Panda Touch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PandaBranch.html" class="md-nav__link">
+        Panda Branch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Hub.html" class="md-nav__link">
+        Panda Hub
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Jet.html" class="md-nav__link">
+        Panda Jet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Fur.html" class="md-nav__link">
+        Panda Fur
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Lux.html" class="md-nav__link">
+        Panda Lux
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda-Door.html" class="md-nav__link">
+        Panda Door
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20PWR.html" class="md-nav__link">
+        Panda PWR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20Jetpack.html" class="md-nav__link">
+        Panda Jetpack
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Panda%20extruder.html" class="md-nav__link">
+        Panda Extruder
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Extruders
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Extruders" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Extruders
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Extruders.html" class="md-nav__link">
+        Extruders
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../H2%20V2S.html" class="md-nav__link">
+        H2 V2S
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../H2%20V2S%20Revo.html" class="md-nav__link">
+        H2 V2S Revo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../H2%20V2S%20Lite.html" class="md-nav__link">
+        H2 V2S Lite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../H2%20V2S%20Lite%20Revo.html" class="md-nav__link">
+        H2 V2S Lite Revo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../H2%20V2X.html" class="md-nav__link">
+        H2 V2X
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Hotends
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hotends" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Hotends
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Hotends.html" class="md-nav__link">
+        Hotends
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Sensor modules
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sensor modules" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sensor modules
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Hermit%20Crab%202%20Series.html" class="md-nav__link">
+        Hermit Crab 2 Series
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Printers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Printers" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Printers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Printers.html" class="md-nav__link">
+        Printers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="tools" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../belter.html" class="md-nav__link">
+        Belter
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_7">
+          Cooling solution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cooling solution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_7">
+          <span class="md-nav__icon md-icon"></span>
+          Cooling solution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Universal%20Turbo%20Kit.html" class="md-nav__link">
+        Universal Turbo Kit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Eco%20Turbo%20Kit.html" class="md-nav__link">
+        Eco Turbo Kit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    产品简介
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    产品特点
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    产品参数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    固件支持
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    产品尺寸
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    外设接口
+  </a>
+  
+    <nav class="md-nav" aria-label="外设接口">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    接口示意图
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pin" class="md-nav__link">
+    Pin脚说明
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    接口介绍
+  </a>
+  
+    <nav class="md-nav" aria-label="接口介绍">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usb" class="md-nav__link">
+    USB供电
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    步进电机驱动
+  </a>
+  
+    <nav class="md-nav" aria-label="步进电机驱动">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tmc2160spi" class="md-nav__link">
+    板载TMC2160的SPI模式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    数控风扇的电压选择
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microprobe-v20" class="md-nav__link">
+    MicroProbe V2.0接线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relay-v12" class="md-nav__link">
+    打完关机模块(Relay V1.2)接线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exp1exp2mini12864-v20" class="md-nav__link">
+    EXP1+EXP2与MINI12864 V2.0屏的接线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rgb" class="md-nav__link">
+    RGB接线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    舵机接线
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#i2c" class="md-nav__link">
+    I2C接线（温湿度传感器）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    两线风扇连接
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    接近开关的连接
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12v" class="md-nav__link">
+    四线数控风扇及水冷装置的连接（下图以12V为例）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    与树莓派的连接
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marlin" class="md-nav__link">
+    Marlin
+  </a>
+  
+    <nav class="md-nav" aria-label="Marlin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    安装编译环境
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marlin_1" class="md-nav__link">
+    下载Marlin固件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    配置固件
+  </a>
+  
+    <nav class="md-nav" aria-label="配置固件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#marlin_2" class="md-nav__link">
+    打开Marlin工程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    配置编译环境
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    编译固件
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#klipper" class="md-nav__link">
+    Klipper
+  </a>
+  
+    <nav class="md-nav" aria-label="Klipper">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    编译固件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#klipper_1" class="md-nav__link">
+    配置Klipper
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    固件更新
+  </a>
+  
+    <nav class="md-nav" aria-label="固件更新">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#micro-sd" class="md-nav__link">
+    Micro SD卡更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dfuklipper" class="md-nav__link">
+    DFU更新Klipper
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s" class="md-nav__link">
+    注意事项s
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/bigtreetech/docs/blob/master/docs/locales/zh_Hans/Kraken.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="kraken-v10v11">KRAKEN V1.0/V1.1<a class="headerlink" href="#kraken-v10v11" title="Permanent link">&para;</a></h1>
+<p><img src=img/Kraken/kraken_title.png width="600" /></p>
+<h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>BIGTREETECH Kraken V1.0主板是深圳市必趣科技有限公司3D打印团队针对大型机器研发的32位打印机主板，板载高压大电流步进电机驱动，大大简化了主板与高压驱动的连接，也大大节省了机箱中的安装空间，主板采用ID设计的丝印，搭配ID设计的散热片进行辅助散热，既美观也实用。</p>
+<h2 id="_2"><strong>产品特点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>采用32位主频550 MHz的ARM Cortex-M7系列STM32H723ZGT6主控芯片；</li>
+<li>电源芯片采用TPS5450-5A，支持DC12/24V电源输入,该芯片输出电流高达5A，峰值可达6A，完美支持树莓派供电；</li>
+<li>主板预留BOOT按键，用户可以通过DFU方式更新主板引导程序；</li>
+<li>增加热敏电阻部分的保护电路，避免因热床或者加热棒漏电导致主控芯片烧毁；</li>
+<li>数控风扇24V、12V、5V电压可选，省去客户外接变压模块的操作，从而减少主板损坏几率；</li>
+<li>板载两路MAX31865，支持双路PT热电偶，支持两线或四线PT100/PT1000可选，方便客户DIY使用；</li>
+<li>可通过MicroSD卡升级MCU固件，也可通过Klipper的make flash命令通过DFU更新MCU固件；</li>
+<li>板载8路TMC2160驱动的SPI模式，板载DIAG功能引脚，只需通过简单的拔插跳帽即可使用；</li>
+<li>预留接口：断料检测、打完关机、Probe、RGB、I2C、舵机接口、EXP1+EXP2、CAN、UART（SBC）接口、USBA电源输出接口等；</li>
+<li>采用高性能MOSFET管，减少发热量；</li>
+<li>采用可更换的保险丝，方便更换；</li>
+<li>预留两路四线风扇接口，24V、12V、5V电压可选,且可用于接水冷装置；</li>
+<li>预留接近开关接口，支持NPN和PNP型选择，（24V，12V，5V）电压可选；</li>
+<li>预留SPI拓展接口，供使用Klipper固件的客户外接加速度传感器来进行加速度补偿；</li>
+<li>TMC2160的MOS管控制电源由外部DC12V提供，降低驱动的输出阻抗，降低芯片发热。</li>
+</ul>
+<h2 id="_3"><strong>产品参数</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>微处理器</th>
+<th>ARM Cortex-M7 STM32H723ZGT6 550MHz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>驱动输入电压</td>
+<td>HV (24-60V)</td>
+</tr>
+<tr>
+<td>主板输入电压</td>
+<td>DCIN = DC12V or DC24V</td>
+</tr>
+<tr>
+<td>热床输入电压</td>
+<td>BED IN = DC12V or DC24V</td>
+</tr>
+<tr>
+<td>逻辑电压</td>
+<td>DC3.3V</td>
+</tr>
+<tr>
+<td>加热接口</td>
+<td>热床（HB）、加热棒（HE0，HE1，HE2，HE3）</td>
+</tr>
+<tr>
+<td>热床端口最大输出电流</td>
+<td>10A，峰值11A</td>
+</tr>
+<tr>
+<td>加热棒端口最大输出电流</td>
+<td>6A，峰值6.5A</td>
+</tr>
+<tr>
+<td>风扇接口</td>
+<td>6路两线数控风扇（FAN0，FAN1，FAN2，FAN3，FAN4，FAN5），2路四线数控风扇（FAN6，FAN7），5路常开风扇，其中数控风扇电压（5V，12V，24V）可选</td>
+</tr>
+<tr>
+<td>风扇接口最大输出电流</td>
+<td>1A，峰值1.5A</td>
+</tr>
+<tr>
+<td>加热棒 +风扇的总电流</td>
+<td>小于14A</td>
+</tr>
+<tr>
+<td>主板5V输出最大电流</td>
+<td>5A（峰值6A）</td>
+</tr>
+<tr>
+<td>主板12V输出最大电流</td>
+<td>5A（峰值6A）</td>
+</tr>
+<tr>
+<td>拓展接口</td>
+<td>Probe（Servos、Probe）、舵机、断料检测、PS-ON、I2C、RGBx2、SPI、SBC（UART）、EXP1+EXP2、CAN、USB-A 5V供电接口、接近开关接口等</td>
+</tr>
+<tr>
+<td>电机驱动</td>
+<td>板载TMC2160，支持24-60V， S5-S8最大支持3A驱动电流（Rsense=75mR）；<br>V1.0版本S1-S4最大支持8A驱动电流（Rsense=22mR），<br>V1.1版本S1-S4最大支持4.7A驱动电流</td>
+</tr>
+<tr>
+<td>驱动工作模式支持</td>
+<td>SPI</td>
+</tr>
+<tr>
+<td>电机接口</td>
+<td>S1, S2, S3, S4, S5, S6, S7, S8总共8路</td>
+</tr>
+<tr>
+<td>温度传感器接口</td>
+<td>5路100K NTC，2路MAX31865端口</td>
+</tr>
+<tr>
+<td>显示屏</td>
+<td>LCD显示屏</td>
+</tr>
+<tr>
+<td>PC通信接口</td>
+<td>Type-C，方便插拔</td>
+</tr>
+<tr>
+<td>支持机器结构</td>
+<td>Cartesian、Delta、Kossel、Ultimaker、CoreXY</td>
+</tr>
+<tr>
+<td>推荐软件</td>
+<td>Cura, Simplify3D, Pronterface, Repetier-host, Makerware</td>
+</tr>
+<tr>
+<td>外观尺寸</td>
+<td>200 x 113mm</td>
+</tr>
+<tr>
+<td>安装尺寸</td>
+<td>见BIGTREETECH Kraken V1.0-SIZE.png</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4"><strong>固件支持</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>此产品支持Marlin、Klipper和RRF(RepRapFirmware)固件。</p>
+<h2 id="_5"><strong>产品尺寸</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p><img src=img/Kraken/kraken_dimension.png width="600" /></p>
+<h2 id="_6"><strong>外设接口</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h3 id="_7">接口示意图<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_interface.png width="600" /></p>
+<h3 id="pin">Pin脚说明<a class="headerlink" href="#pin" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_pin.png width="600" /></p>
+<h2 id="_8"><strong>接口介绍</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<h3 id="usb">USB供电<a class="headerlink" href="#usb" title="Permanent link">&para;</a></h3>
+<p>Kraken主板上电之后，板子上的电源指示灯会亮起红色，表示供电正常。VUSB是电源选择端，仅当使用USB给主板供电时，才需要使用跳线帽短接。</p>
+<p><img src=img/Kraken/kraken_usb.png width="600" /></p>
+<h3 id="_9">步进电机驱动<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<h4 id="tmc2160spi">板载TMC2160的SPI模式<a class="headerlink" href="#tmc2160spi" title="Permanent link">&para;</a></h4>
+<p>无需任何跳线帽选择模式，客户直接使用SPI模式；使用Sensorless Homing功能时就插上跳帽，不使用则不插，DIAG的连接如下：</p>
+<p><img src=img/Kraken/kraken_stepper.png width="600" /></p>
+<h4 id="_10">数控风扇的电压选择<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
+<p>通过跳线帽来设置输出电压为5V，12V或是24V，风扇接口输出电流为1A，注意选型；</p>
+<p><strong><font  color="red">注意：选择电压前请确认清楚风扇支持的电压为哪一档，因为选错导致的风扇烧毁，我司不与承责。</font></strong></p>
+<p><img src=img/Kraken/kraken_pwm.png width="600" /></p>
+<h3 id="microprobe-v20">MicroProbe V2.0接线<a class="headerlink" href="#microprobe-v20" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_microprobe.png width="600" /></p>
+<h3 id="relay-v12">打完关机模块(Relay V1.2)接线<a class="headerlink" href="#relay-v12" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_power_off.png width="600" /></p>
+<h3 id="exp1exp2mini12864-v20">EXP1+EXP2与MINI12864 V2.0屏的接线<a class="headerlink" href="#exp1exp2mini12864-v20" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_display.png width="600" /></p>
+<h3 id="rgb">RGB接线<a class="headerlink" href="#rgb" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_rgb.png width="600" /></p>
+<h3 id="_11">舵机接线<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_servo.png width="600" /></p>
+<h3 id="i2c">I2C接线（温湿度传感器）<a class="headerlink" href="#i2c" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_i2c.png width="600" /></p>
+<h3 id="_12">两线风扇连接<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_2pin.png width="600" /></p>
+<h3 id="_13">接近开关的连接<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>常开（NPN型），不用通过跳线帽短接，如下图24V为例：</p>
+<p><img src=img/Kraken/kraken_proximity.png width="600" /></p>
+<p>常闭（PNP型），需要将跳线帽短接，如下图24V为例：</p>
+<p><img src=img/Kraken/kraken_proximity1.png width="600" /></p>
+<h3 id="12v">四线数控风扇及水冷装置的连接（下图以12V为例）<a class="headerlink" href="#12v" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_4pin.png width="600" /></p>
+<h3 id="_14">与树莓派的连接<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<p><img src=img/Kraken/kraken_pi.png width="600" /></p>
+<h2 id="marlin"><strong>Marlin</strong><a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h2>
+<h3 id="_15">安装编译环境<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p><a href="https://github.com/bigtreetech/Document/blob/master/How to install VScode%2BPlatformio.md"><a href="https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md">https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</a></a></p>
+<p><a href="https://marlinfw.org/docs/basics/install_platformio_vscode.html">https://marlinfw.org/docs/basics/install_platformio_vscode.html</a></p>
+<p>参考这两个链接的说明安装 VSCode 以及 PlatformIO插件（国内的用户在线安装PlatformIO插件可能会很慢）</p>
+<h3 id="marlin_1">下载Marlin固件<a class="headerlink" href="#marlin_1" title="Permanent link">&para;</a></h3>
+<p>从Marlin官方GitHub获取Marlin源码：</p>
+<p><a href="https://github.com/bigtreetech/BIGTREETECH-Kraken">https://github.com/bigtreetech/BIGTREETECH-Kraken</a></p>
+<h3 id="_16">配置固件<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<h4 id="marlin_2">打开Marlin工程<a class="headerlink" href="#marlin_2" title="Permanent link">&para;</a></h4>
+<p>您可以通过以下几种方式之一在VSCode中打开 Marlin：</p>
+<ul>
+<li>将下载的 Marlin Firmware 文件夹拖到VSCode应用程序图标上：</li>
+<li>使用VSCode File菜单中的Open...命令</li>
+<li>打开 PIO Home 选项卡，然后单击Open Project按钮</li>
+</ul>
+<h4 id="_17">配置编译环境<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h4>
+<p>打开platformio.ini文件并将default_envs修改为STM32H723ZG_btt</p>
+<p><img src=img/Kraken/kraken_marlin1.png width="600" /></p>
+<p><strong>配置主板类型、串口号</strong></p>
+<p>设置主板类型MOTHERBOARD 为BOARD_BTT_KRAKEN_V1_0</p>
+<p><font  color="red">#define</font> <font  color="blue">MOTHERBOARD BOARD_BTT_KRAKEN_V1_0</font></p>
+<p><font  color="red">#define</font> <font  color="blue">SERIAL_PORT</font> <font  color="green">3</font>   (启用SBC串口)</p>
+<p><font  color="red">#define</font> <font  color="blue">BAUDRATE</font>  <font  color="green">115200</font>   （设置波特率，注意要跟通信的设备一致）</p>
+<p><font  color="red">#define</font> <font  color="blue">SERIAL_PORT_2</font>  <font  color="green">-1</font>  （启用USB模拟串口）</p>
+<p>以上的设置根据需求自行启用</p>
+<p><img src=img/Kraken/kraken_marlin2.png width="600" /></p>
+<p><strong>配置电机驱动</strong></p>
+<p>Kraken板载8个TMC2160驱动</p>
+<p><img src=img/Kraken/kraken_marlin3.png width="600" /></p>
+<p>需在Configuration_adv.h文件中使能 <font  color="blue">TMC_USE_SW_SPI2</font></p>
+<p><font  color="red">#define</font> <font  color="blue">TMC_USE_SW_SPI</font></p>
+<p><img src=img/Kraken/kraken_marlin4.png width="600" /></p>
+<p>V1.0版本：S1-S4采样电阻是22mΩ，固件需要设置为0.022；</p>
+<p>V1.1版本：S1-S4采样电阻是50mΩ，固件需要设置为0.05；</p>
+<p>S5-S8采样电阻为75mΩ，固件需要设置为0.075</p>
+<p><img src=img/Kraken/kraken_marlin5.png width="600" /></p>
+<p><strong>Sensorless Homing</strong></p>
+<p><img src=img/Kraken/kraken_marlin6.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">SENSORLESS_HOMING</font>  // 打开驱动堵转检测作为Home限位开关的功能</p>
+<p><font  color="red">#define</font> <font  color="blue">xx_STALL_SENSITIVITY</font>   <font  color="green">8</font>   // 设置堵转检测的灵敏度。TMC2209范围为0<sub>255，数值越大越灵敏，容易误触发，现象为Home的时候轴还没有回到原点就停下来了，数值越小越不灵敏容易不触发，现象为归零时一直撞轴发出“噔噔噔”的声音。其他驱动范围为63</sub>-64，数值越小越灵敏。 </p>
+<p><font  color="red">#define</font> <font  color="blue">IMPROVE_HOMING_RELIABILITY</font> // 可以在上面单独设置归零时的电流参数(xx_CURRENT_HOME)，以便得到最好的归零效果。</p>
+<p><strong>100K NTC</strong></p>
+<p>标准的TH端口，仅推荐接 NTK 100K 热敏电阻，板载4.7K的上拉电阻。所以Marlin固件中设置为1即代表 100K NTC + 4.7K上拉电阻。</p>
+<p><font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_0</font>  <font  color="green">1</font></p>
+<p><font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_1</font>  <font  color="green">1</font></p>
+<p><font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_BED</font>    <font  color="green">1</font></p>
+<p><img src=img/Kraken/kraken_marlin7.png width="600" /></p>
+<p><strong>Max31865</strong></p>
+<p>板载两个Max31865可接2/4线PT100/PT1000，根据 Pin 图中的说明，设置拨码开关。
+Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值和校准电阻值分别设置为100、430，PT1000则设置为1000、4300。</p>
+<p><font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_0</font>  <font  color="green">-5</font></p>
+<p><font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_1</font>  <font  color="green">-5</font></p>
+<p><img src=img/Kraken/kraken_marlin8.png width="600" /></p>
+<p><strong>BLTouch</strong></p>
+<p><img src=img/Kraken/kraken_marlin9.png width="600" /></p>
+<p><font  color="green">//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN</font>    // 不把Z_PROBE_PIN重映射到Z_MIN端口上</p>
+<p><img src=img/Kraken/kraken_marlin10.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">BLTOUCH</font>    // 使能BLtouch功能</p>
+<p><img src=img/Kraken/kraken_marlin11.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">NOZZLE_TO_PROBE_OFFSET</font> <font  color="green">{ -40, -10, -2.85 }</font> // 设置BLTouch探针相对于喷嘴的偏移量</p>
+<p><font  color="red">#define</font> <font  color="blue">PROBING_MARGIN</font> <font  color="green">10</font>  // 设置调平探测点到最边缘的距离</p>
+<p><img src=img/Kraken/kraken_marlin12.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">AUTO_BED_LEVELING_BILINEAR</font> // 设置调平策略</p>
+<p><font  color="red">#define</font> <font  color="blue">RESTORE_LEVELING_AFTER_G28</font> // Home之后自动重新加载调平补偿</p>
+<p><img src=img/Kraken/kraken_marlin13.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">GRID_MAX_POINTS_X</font>  <font  color="green">5</font>   // 设置调平探测的点数，X轴探测5个点</p>
+<p><font  color="red">#define</font> <font  color="blue">GRID_MAX_POINTS_Y GRID_MAX_POINTS_X</font>    // Y轴探测5个点</p>
+<p>如果想用BLTouch作为Z轴限位开关，不需要更改接线，只需要修改固件的设置即可</p>
+<p><img src=img/Kraken/kraken_marlin14.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">USE_PROBE_FOR_Z_HOMING</font> // 使用Z Probe(BLTouch) 作为Z轴Home限位开关</p>
+<p><img src=img/Kraken/kraken_marlin15.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">Z_SAFE_HOMING</font>  // Z轴Home时，将X、Y移动到指定的坐标(通常是平台中心)，保证Z轴Home时，Z Probe(BLtouch)的探针在平台的范围内。</p>
+<p><strong>打完关机模块 (Relay V1.2)</strong></p>
+<p><img src=img/Kraken/kraken_marlin16.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">PSU_CONTROL</font>    // 打开控制电源功能，可以通过M80开机、M81关机</p>
+<p><font  color="red">#define</font> <font  color="blue">PSU_ACTIVE_STATE HIGH</font>  // 设置开机的电平， Relay V1.2模块是高电平开机低电平关机，所以需要设置为 HIGH</p>
+<p><strong>RGB彩灯</strong></p>
+<p><img src=img/Kraken/kraken_marlin17.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">NEOPIXEL_LED</font>   // 使能Neopixel功能</p>
+<p><font  color="red">#define</font> <font  color="blue">NEOPIXEL_TYPE  NEO_GRB</font> // 设置彩灯的类型</p>
+<p><font  color="green">//#define NEOPIXEL_PIN  4</font>   // 屏蔽PIN设置，使用主板pin文件中正确的信号线</p>
+<p><font  color="red">#define</font> <font  color="blue">NEOPIXEL_PIXELS</font>    <font  color="green">30</font>  // 彩灯的数量</p>
+<p><font  color="red">#define</font> <font  color="blue">NEOPIXEL_STARTUP_TEST</font>  // 开机时会依次显示红绿蓝三种颜色便于测试</p>
+<p>如果启用了LCD2004、12864、mini12864之类的显示器，还可以在界面上启用RGB的控制菜单</p>
+<p><img src=img/Kraken/kraken_marlin18.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">LED_CONTROL_MENU</font>   // 在屏幕上添加控制LED颜色的菜单</p>
+<p><strong>断料检测</strong></p>
+<p>普通的断料检测模块一般是由机械开关设计而成的，模块给主板一个恒定的高低电平代表耗材的状态</p>
+<p><img src=img/Kraken/kraken_marlin19.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">FILAMENT_RUNOUT_SENSOR</font> // 使能耗材检测的功能</p>
+<p><font  color="red">#define</font> <font  color="blue">FIL_RUNOUT_ENABLED_DEFAULT true</font>    // true 默认是打开的状态</p>
+<p><font  color="red">#define</font> <font  color="blue">NUM_RUNOUT_SENSORS</font> <font  color="green">1</font>   // 耗材检测传感器的数量</p>
+<p><font  color="red">#define</font> <font  color="blue">FIL_RUNOUT_STATE   LOW</font> // 耗材异常时的电平状态，根据模块实际情况设置，如果耗材异常时模块发出低电平就设置为LOW</p>
+<p><strong>智能耗材检测(SFS V1.0)</strong></p>
+<p>智能耗材检测模块在耗材正常通过时会不断的发出跳变的电平信号，当堵料/断料等异常情况出现，耗材无法正常的通过SFS，模块就无法发出跳变的信号给主板，主板从而得知耗材异常。</p>
+<p><img src=img/Kraken/kraken_marlin20.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">FILAMENT_MOTION_SENSOR</font> // 设置耗材传感器为编码器类型</p>
+<p><font  color="red">#define</font> <font  color="blue">FILAMENT_RUNOUT_DISTANCE_MM</font>    <font  color="green">7</font>   // 设置检测灵敏度，SFS V1.0推荐设置为7mm，耗材7mm内如果没有电平跳变就意味着耗材异常</p>
+<p>耗材检测还需要通过以下两个地方来设置耗材异常暂停后的动作</p>
+<p><img src=img/Kraken/kraken_marlin21.png width="600" /></p>
+<p><img src=img/Kraken/kraken_marlin22.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">NOZZLE_PARK_FEATURE</font>    // 喷头暂停功能</p>
+<p><font  color="red">#define</font> <font  color="blue">NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 } </font>  // 设置喷头暂停时的X、Y的坐标以及Z轴抬升的高度</p>
+<p><img src=img/Kraken/kraken_marlin23.png width="600" /></p>
+<p><font  color="red">#define</font> <font  color="blue">ADVANCED_PAUSE_FEATURE</font> // 可以设置暂停时耗材回抽的长度及速度，继续打印后耗材挤出的长度和速度等参数</p>
+<h3 id="_18">编译固件<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p>1、点击底部状态栏中的“√”编译固件</p>
+<p><img src=img/Kraken/kraken_marlin24.png width="600" /></p>
+<p>2、编译完成后会生成“firmware.bin”文件，复制到SD卡中即可更新固件</p>
+<p><img src=img/Kraken/kraken_marlin25.png width="600" /></p>
+<h2 id="klipper"><strong>Klipper</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h2>
+<h3 id="_19">编译固件<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
+<p>1、使用下面的配置编译固件(如果没有下列选项，请更新Klipper固件源码到最新版本)</p>
+<ul>
+<li>[*] Enable extra low-level configuration options</li>
+<li>Micro-controller Architecture (STMicroelectronics STM32)  ---&gt;</li>
+<li>Processor model (STM32H723)  ---&gt;</li>
+<li>Bootloader offset (128KiB bootloader (SKR SE BX v2.0))  ---&gt;</li>
+<li>Clock Reference (25 MHz crystal)  ---&gt;
+USB接口</li>
+<li>Communication interface (USB (on PA11/PA12))  ---&gt;
+CANBUS接口</li>
+<li>Communication interface (CAN bus (on PD0/PD1))  ---&gt;</li>
+</ul>
+<p><img src=img/Kraken/kraken_klipper1.png width="600" /></p>
+<p>2、2.配置选择完成后, 输入 <code>q</code> 退出配置界面，当询问是否保存配置是选择 "Yes"</p>
+<p>3、输入make编译固件，当make执行完成后会在树莓派的home/pi/klipper/out文件夹中生成我们所需要的<code>klipper.bin</code>固件，在ssh软件左侧可以直接下载到电脑中</p>
+<p><img src=img/Kraken/kraken_klipper2.png width="600" /></p>
+<p>4、4.将klipper.bin重命名为“firmware.bin”，复制到SD卡中即可更新固件</p>
+<p>5、在命令行输入：ls /dev/serial/by-id/查询主板的ID来确认固件是否烧录成功，如果烧录成功了会返回一个klipper的设备ID，如下图所示</p>
+<p><img src=img/Kraken/kraken_klipper3.png width="600" /></p>
+<p>复制保存此ID，配置文件中需要设置此ID</p>
+<h3 id="klipper_1">配置Klipper<a class="headerlink" href="#klipper_1" title="Permanent link">&para;</a></h3>
+<p>1、在电脑的浏览器中输入树莓派的IP访问，如下图所示的路径中下载主板的参考配置，如果找不到此文件，请更新Klipepr固件源码到最新版本，或者到github下载</p>
+<p><a href="https://github.com/bigtreetech/BIGTREETECH-Kraken">https://github.com/bigtreetech/BIGTREETECH-Kraken</a></p>
+<p><img src=img/Kraken/kraken_klipper4.png width="600" /></p>
+<p>2、将主板的配置文件上传到Configuration Files中, 并且在printer.cfg文件中包含此配置文件</p>
+<p><img src=img/Kraken/kraken_klipper5.png width="600" /></p>
+<p>[include generic-bigtreetech-kraken.cfg]</p>
+<p><img src=img/Kraken/kraken_klipper6.png width="600" /></p>
+<p>3、将配置文件中的ID号修改为主板实际的ID</p>
+<p><img src=img/Kraken/kraken_klipper7.png width="600" /></p>
+<p>4、 按照 <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a> 的说明配置机器的具体功能</p>
+<h3 id="_20">固件更新<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<h4 id="micro-sd">Micro SD卡更新<a class="headerlink" href="#micro-sd" title="Permanent link">&para;</a></h4>
+<ol>
+<li>确保Micro SD卡已经被格式化为FAT32文件系统</li>
+<li>将自行编译或从github下载的固件重命名为“firmware.bin”（注意：明确电脑系统的扩展名设置，有部分用户隐藏了扩展名，“firmware.bin”实际显示的是“firmware”）</li>
+<li>将“firmware.bin”复制到microSD卡的根目录中</li>
+<li>将microSD卡插入主板的卡槽中，给主板重新通电，主板的引导程序会自动更新固件</li>
+<li>固件更新的过程中，主板右上角的状态指示灯会开始闪烁</li>
+<li>当状态指示灯停止闪烁并且microSD卡中的文件名被重命名为“FIRMWARE.CUR”代表固件更新成功</li>
+</ol>
+<h4 id="dfuklipper">DFU更新Klipper<a class="headerlink" href="#dfuklipper" title="Permanent link">&para;</a></h4>
+<p>1、在命令行输入：ls /dev/serial/by-id/ 查询主板的ID，如果主板正常运行了Klipper则会返回一个klipper的设备ID，如下图所示</p>
+<p><img src=img/Kraken/kraken_klipper8.png width="600" /></p>
+<p>2、如果 ls /dev/serial/by-id/ 能够找到MCU的klipper设备ID，可以直接输入</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~klipper
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h723xx_41003D001751303232383230-if00
+</code></pre></div>
+<p>烧录固件（注意：将/dev/serial/by-id/xxx更换为上一步中查询到的实际的ID）</p>
+<p><img src=img/Kraken/kraken_klipper9.png width="600" /></p>
+<p>烧录完成后会有dfu-util: Error during download get_status错误信息，忽略即可</p>
+<h2 id="s"><strong>注意事项s</strong><a class="headerlink" href="#s" title="Permanent link">&para;</a></h2>
+<p>1、禁止在步进电机运动状态下切换驱动电压;</p>
+<p>2、切换步进电机的驱动电压时，需保证MCU无工作信号输出到驱动芯片;</p>
+<p>3、当驱动电流超过7A时，建议增加散热风扇对驱动进行散热；</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+    
+  </body>
+</html>
