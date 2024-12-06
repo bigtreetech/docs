@@ -33,7 +33,7 @@ BIGTREETECH Rodent V1.0 是深圳市必趣创新科技有限公司 3D 打印团�
 
 ### Pin 脚说明/接口说明
 
-<img src=img/rodent/rodent_pins.png width="600"/>
+<img src=img/rodent/rodent_pins1.png width="600"/>
 
 ## **接口介绍**
 
