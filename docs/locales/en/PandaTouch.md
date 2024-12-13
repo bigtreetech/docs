@@ -14,12 +14,12 @@ The CAD files for the Panda Touch can be downloaded [here](https://github.com/bi
 ## IMPORTANT NOTE
 
 The Panda Touch is currently compatible with all Bambu Lab printer firmware versions up until:
-
-* P1P --> v01.06.01.02
-* P1S --> v01.06.01.02
-* X1C --> v01.08.02.00
-* A1 --> v01.03.01.02
-* A1 Mini --> v01.03.01.02
+ 
+* P1P/S: 01.07.00.00 
+* X1C --> 01.08.02.00
+* X1E --> 01.01.02.00
+* A1 --> 01.03.01.02
+* A1 Mini --> 01.04.00.00
 
 It is possible that Bambu Lab may release a future firmware version that impacts the functions available on the Panda Touch. Bigtreetech will monitor all beta firmware versions, and if we find a firmware version that affects Panda Touch functionality, we will send out an alert via email, Aliexpress chat, and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.
 
@@ -599,7 +599,15 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
-#### [V1.0.6](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6/panda_touch-v1.0.6.bin)
+#### [V1.0.6.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.1/panda_touch-v1.0.6.1.bin)
+##### Bug Fixes
+- **Fixed Crash when start printing**: Crash when start a print task from u-disk.
+- **Fixed Crash in OTA page**: Crash when click ssid of wifi in OTA page.
+
+##### Functional Optimizations
+- **Stop loading thumbnail when printing**. 
+
+#### [V1.0.6]
 ##### New Features
 - **Supports thumbnail display of print tasks and SD card on the home screen**: Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. Note: The X1 series printers do not support this feature.
 - **Supports quick reprint from the home screen after printing completion**: The print file must be stored in the default directory on the printer's SD card (default directory can be set to Cache or root directory in Panda Touch settings).
