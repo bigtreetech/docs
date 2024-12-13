@@ -7,11 +7,11 @@ Panda Touch的CAD文件可以下载 [点击这里](https://github.com/bigtreetec
 
 Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 
-* P1P --> v01.06.01.02
-* P1S --> v01.06.01.02
-* X1C --> v01.08.02.00
-* A1 --> v01.03.01.02
-* A1 Mini --> v01.03.01.02
+* P1P/S: 01.07.00.00 
+* X1C --> 01.08.02.00
+* X1E --> 01.01.02.00
+* A1 --> 01.03.01.02
+* A1 Mini --> 01.04.00.00
 
 拓竹可能会在未来发布影响Panda Touch可用功能的固件版本。Bigtreetech将监控所有测试版固件版本，如果我们发现影响Panda Touch功能的固件版本，我们将通过电子邮件、速卖通聊天和我们的社交渠道发出警报。然后，购买者可以决定是否要冒着失去功能的风险执行更新。请注意，Panda Touch保修不包括由于执行Bambu Lab固件更新而导致的功能损失。
 
@@ -584,7 +584,15 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### 固件历史记录 <a id="firmware_history"></a>
-#### [V1.0.6](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6/panda_touch-v1.0.6.bin)  
+#### [V1.0.6.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.1/panda_touch-v1.0.6.1.bin)
+##### 修复BUG
+- **当打印时崩溃**: 从U盘打印时崩溃重启.
+- **在OTA页面崩溃**: 在OTA页面点击wifi名称时崩溃重启.
+
+##### 功能修改
+- **在打印时停止加载缩略图**. 
+
+#### [V1.0.6]
 ##### 新特性
 - **支持主页打印任务和SD卡的缩略图显示**：仅显示从Bambu Studio发起的打印任务，该.3mf文件大小需<=20M，X1系列机器暂不支持。
 - **支持打印完成后在主页快捷重新打印**：该打印文件须存放在打印机SD卡默认目录下（在Panda Touch设置界面可以选择默认目录为Cache或者根目录）。 
