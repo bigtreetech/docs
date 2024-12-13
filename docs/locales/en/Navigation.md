@@ -16,6 +16,8 @@ MMB Series
 
 CNC Series
 
+Kraken Series
+
 IOT
 
 Displays

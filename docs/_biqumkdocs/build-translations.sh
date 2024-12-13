@@ -37,29 +37,30 @@ while IFS="," read dirname langsite langdesc langsearch; do
   EBB_Series=$(sed -n '13p' ${locale_dir}/Navigation.md)  
   MMB_Series=$(sed -n '15p' ${locale_dir}/Navigation.md)  
   CNC_Series=$(sed -n '17p' ${locale_dir}/Navigation.md)  
-  IOT=$(sed -n '19p' ${locale_dir}/Navigation.md)
-  Displays=$(sed -n '21p' ${locale_dir}/Navigation.md)
-  Motor_Drives=$(sed -n '23p' ${locale_dir}/Navigation.md)
-  TMC_Series=$(sed -n '25p' ${locale_dir}/Navigation.md)
-  EZ_Series=$(sed -n '27p' ${locale_dir}/Navigation.md)
-  Modules=$(sed -n '29p' ${locale_dir}/Navigation.md)
-  Software_Tutorials=$(sed -n '31p' ${locale_dir}/Navigation.md)
-  BIQU=$(sed -n '33p' ${locale_dir}/Navigation.md)
-  Panda_series=$(sed -n '35p' ${locale_dir}/Navigation.md)  
-  Panda_Hotend=$(sed -n '37p' ${locale_dir}/Navigation.md)  
-  Panda_Flow=$(sed -n '39p' ${locale_dir}/Navigation.md)  
-  X1=$(sed -n '41p' ${locale_dir}/Navigation.md)  
-  P1=$(sed -n '43p' ${locale_dir}/Navigation.md)  
-  Panda_Revo=$(sed -n '45p' ${locale_dir}/Navigation.md)  
-  X1=$(sed -n '47p' ${locale_dir}/Navigation.md)  
-  P1=$(sed -n '49p' ${locale_dir}/Navigation.md)  
-  Panda_Claw=$(sed -n '51p' ${locale_dir}/Navigation.md)  
-  Extruders=$(sed -n '53p' ${locale_dir}/Navigation.md)  
-  Hotends=$(sed -n '55p' ${locale_dir}/Navigation.md)  
-  Sensor_modules=$(sed -n '57p' ${locale_dir}/Navigation.md)  
-  Printers=$(sed -n '59p' ${locale_dir}/Navigation.md)  
-  tools=$(sed -n '61p' ${locale_dir}/Navigation.md)
-  Cooling_solution=$(sed -n '63p' ${locale_dir}/Navigation.md)  
+  Kraken_Series=$(sed -n '19p' ${locale_dir}/Navigation.md)  
+  IOT=$(sed -n '21p' ${locale_dir}/Navigation.md)
+  Displays=$(sed -n '23p' ${locale_dir}/Navigation.md)
+  Motor_Drives=$(sed -n '25p' ${locale_dir}/Navigation.md)
+  TMC_Series=$(sed -n '27p' ${locale_dir}/Navigation.md)
+  EZ_Series=$(sed -n '29p' ${locale_dir}/Navigation.md)
+  Modules=$(sed -n '31p' ${locale_dir}/Navigation.md)
+  Software_Tutorials=$(sed -n '33p' ${locale_dir}/Navigation.md)
+  BIQU=$(sed -n '35p' ${locale_dir}/Navigation.md)
+  Panda_series=$(sed -n '37p' ${locale_dir}/Navigation.md)  
+  Panda_Hotend=$(sed -n '39p' ${locale_dir}/Navigation.md)  
+  Panda_Flow=$(sed -n '41p' ${locale_dir}/Navigation.md)  
+  X1=$(sed -n '43p' ${locale_dir}/Navigation.md)  
+  P1=$(sed -n '45p' ${locale_dir}/Navigation.md)  
+  Panda_Revo=$(sed -n '47p' ${locale_dir}/Navigation.md)  
+  X1=$(sed -n '49p' ${locale_dir}/Navigation.md)  
+  P1=$(sed -n '51p' ${locale_dir}/Navigation.md)  
+  Panda_Claw=$(sed -n '53p' ${locale_dir}/Navigation.md)  
+  Extruders=$(sed -n '55p' ${locale_dir}/Navigation.md)  
+  Hotends=$(sed -n '57p' ${locale_dir}/Navigation.md)  
+  Sensor_modules=$(sed -n '59p' ${locale_dir}/Navigation.md)  
+  Printers=$(sed -n '61p' ${locale_dir}/Navigation.md)  
+  tools=$(sed -n '63p' ${locale_dir}/Navigation.md)
+  Cooling_solution=$(sed -n '65p' ${locale_dir}/Navigation.md) 
   
   # Copy markdown files to new_docs_dir
   echo "Copying $dirname to $langsite"
@@ -100,6 +101,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%EBB Series:$%${EBB_Series}:%" "${new_mkdocs_file}"
   sed -i "s%MMB Series:$%${MMB_Series}:%" "${new_mkdocs_file}"
   sed -i "s%CNC Series:$%${CNC_Series}:%" "${new_mkdocs_file}"
+  sed -i "s%Kraken Series:$%${Kraken_Series}:%" "${new_mkdocs_file}"
   sed -i "s%IOT:$%${IOT}:%" "${new_mkdocs_file}"  
   sed -i "s%Displays:$%${Displays}:%" "${new_mkdocs_file}"    
   sed -i "s%Motor Drives:$%${Motor_Drives}:%" "${new_mkdocs_file}"
