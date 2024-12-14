@@ -4,7 +4,7 @@
 
 ## **Product Profile**
 
-KNOMI is a mini round screen designed specifically for Klipper running 3D printers, offering users a unique and personalized way to monitor their printer's operation. The screen displays important information through the KNOMI UI, such as heated bed temperature, nozzle temperature, leveling status, printing progress, etc. KNOMI is an open-source product, allowing users to customize the user interface and design mounting brackets to fit their specific 3D printer.
+KNOMI is a mini round screen designed specifically for Klipper running 3D printers, offering users a unique and personalized way to monitor their printer's operation. The screen displays important information through KNOMI UI, such as heated bed temperature, nozzle temperature, leveling status, printing progress, etc. KNOMI is an open-source product, allowing users to customize the user interface and design mounting brackets to fit their specific 3D printer.
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-knomi-v1-0?variant=40556258492514
 
@@ -48,7 +48,9 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 
 ## **OVERVIEW**
 
-<img src=img/KNOMI/KNOMI_IN5.png width="600" />
+<img src=img/KNOMI/KNOMI_IN19.png width="600" />
+
+*To optimize the user wiring experience, the latest Knomi power connector has been upgraded to a <font  color="red">**vertical type**</font> .
 
 ## **CONFIGURING WIFI**
 
