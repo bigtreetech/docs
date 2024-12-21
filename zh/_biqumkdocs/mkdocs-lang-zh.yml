@@ -201,7 +201,8 @@ nav:
       - Software Configuration.md
       - Software Installation.md
       - EBB Series.md
-      - libinput_calibration.md    
+      - libinput_calibration.md
+      - pi_custom_logo.md
   - BIQU:
     - Panda series: 
       - Panda 热端:
