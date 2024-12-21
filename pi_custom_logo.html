@@ -3196,6 +3196,10 @@
   <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo plymouth-set-default-theme -R armbian
 </code></pre></div></li>
 <li>Wait for the command to complete and then restart.</li>
+<li><code>sudo apt upgrade</code> may automatically update the logo to armbian from the internet. If you don't want this, you can use
+  <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sudo apt-mark hold armbian-plymouth-theme
+</code></pre></div>
+  to disable the logo update.</li>
 </ul>
 
               
