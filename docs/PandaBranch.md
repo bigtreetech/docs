@@ -30,7 +30,7 @@ The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/
 
 ### Interface Diagram
 
-<img src=img/PandaBranch/PandaBranch_Interface.png width="600"/>
+<img src=img/PandaBranch/PandaBranch_Interface1.png width="600"/>
 
 ### Pin Description
 
@@ -38,9 +38,9 @@ The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/
 
 ### Connection Diagram
 
-**Panda Branch + Panda Touch + AMS + 3D Printer**
+**Panda Branch + Panda Touch + AMS/AMS Lite + 3D Printer**
 
-<img src=img/PandaBranch/PandaBranch_Diagram.png width="600"/>
+<img src=img/PandaBranch/PandaBranch_Diagram1.png width="600"/>
 
 
 

@@ -4,7 +4,7 @@
 
 ## **Product Profile**
 
-The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/A1 series printers. It features four 5V outputs, which can be used to power devices such as the Panda Touch, USB fans, and USB light strips. Additionally, it includes the MX3.0 2x2 Pin interface for powering the AMS.
+The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/A1 series printers. It features four 5V outputs, which can be used to power devices such as the Panda Touch, USB fans, and USB light strips. Additionally, it includes the MX3.0 2x2 Pin interface for powering the AMS/AMS Lite.
 
 ## **Features Highlights**
 
@@ -30,7 +30,7 @@ The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/
 
 ### Interface Diagram
 
-<img src=img/PandaBranch/PandaBranch_Interface.png width="600"/>
+<img src=img/PandaBranch/PandaBranch_Interface1.png width="600"/>
 
 ### Pin Description
 
@@ -38,9 +38,9 @@ The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/
 
 ### Connection Diagram
 
-**Panda Branch + Panda Touch + AMS + 3D Printer**
+**Panda Branch + Panda Touch + AMS/AMS Lite + 3D Printer**
 
-<img src=img/PandaBranch/PandaBranch_Diagram.png width="600"/>
+<img src=img/PandaBranch/PandaBranch_Diagram1.png width="600"/>
 
 
 

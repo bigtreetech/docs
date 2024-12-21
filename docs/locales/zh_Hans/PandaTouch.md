@@ -198,7 +198,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 ##### 将帐户下的打印机同步到本地设备
 * 成功登录后，您可以选择将所有现有打印机与PandaTouch的通信方式转换为云模式。
 * 我们建议，只有您的所有打印机都使用云模式运行时，才执行此操作，如果打印机打开了“仅局域网”模式，则可以跳过此操作。如果要改变PandaTouch与打印机之间的通信方式请查看 [如何切换PandaTouch和打印机之间的通信方式](#communication_mode)
- 
+
   <br><img src=img/PandaTouch/login_ok.png width="600"/> 
 
 * 如果您想将现有打印机与PandaTouch之间的通信方式转换为云模式，请点击“是”。 
@@ -216,7 +216,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 * 删除帐户信息后，PandaTouch和打印机之间的通信模式将更改为本地模式。请注意，这不会将打印机本身设置为“仅LAN”模式，而是会告诉Panda Touch仅使用LAN模式与打印机通话，这可能会导致某些功能丢失。
 
   <br><img src=img/PandaTouch/del_account.png width="600"/> 
- 
+
 ##### 如何切换PandaTouch和打印机之间的通信方式 <a id="communication_mode"></a>
 * 导航到打印机/组卡页面。
 * 找到要启用或禁用云模式的打印机。
@@ -383,9 +383,9 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
 此菜单中存在以下组控件：
 
     ①: 打开/关闭当前打印列表中打印机的腔室LED。
-
+    
     ②: 停止当前打印列表中的所有打印作业。
-
+    
     ③: 暂停/恢复当前打印列表中的所有打印作业。
 
 #### 组打印设置延时
@@ -459,7 +459,7 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 <br><img src=img/PandaTouch/ftps_folder.png width="600"/>  
 
 ### 重新打印 
- 
+
 #### 从主页重新打印
 <br><img src=img/PandaTouch/reprint_home.png width="600"/>  
 
@@ -494,7 +494,7 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
   * 格式为PNG. 
 * 如果你想要替换UI上的文本可以上传.yml文件.
   * [Panda Touch UI 翻译](https://github.com/bigtreetech/PandaTouch/tree/master/Translation)
-<br><img src=img/PandaTouch/upload_new_panda.png width="600"/>   
+  <br><img src=img/PandaTouch/upload_new_panda.png width="600"/>   
 
 ## 故障排除
 
