@@ -231,6 +231,7 @@ nav:
       - Panda PWR.md
       - Panda Jetpack.md
       - Panda extruder.md
+      - PandaEdge.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
