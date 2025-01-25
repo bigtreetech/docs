@@ -1,6 +1,6 @@
 # MMB CAN V2.0
 
-<img src=img/mmb_can_v2_0/mmb_can_v2_0_title.png width="600" />
+<img src=img/mmb_can_v2_0/mmb_can_v2_0_title1.png width="600" />
 
 ## **产品简介**
 

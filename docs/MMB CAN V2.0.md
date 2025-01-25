@@ -1,6 +1,6 @@
 # MMB CAN V2.0
 
-<img src=img/mmb_can_v2_0/mmb_can_v2_0_title.png width="600" />
+<img src=img/mmb_can_v2_0/mmb_can_v2_0_title1.png width="600" />
 
 ## **Product Profile**
 
@@ -29,8 +29,8 @@ The BIGTREETECH MMB CAN V2.0 is a buddy board designed specifically for the ERCF
 | **Expansion Interfaces**             | **STP1-STP11, I2C, RGB, Sensor (Infrared Sensor Interface), USB Interface, CAN Interface** |
 | **Supported Motor Drivers**          |                        **EZ Drivers**                        |
 | **Driver Operating Modes**           |                   **STEP/DIR, UART, SPI**                    |
-| **Stepper Motor Interfaces**         |                        **USB Type-C**                        |
-| **USB Communication Interface**      |                           **3.6A**                           |
+| **Stepper Motor Interfaces**         |                      **M1, M2, M3, M4**                      |
+| **USB Communication Interface**      |                        **USB Type-C**                        |
 | **DCDC 5V Output Max Current**       |                            **7A**                            |
 
 ## **Dimensions**
