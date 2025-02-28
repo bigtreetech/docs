@@ -3696,8 +3696,8 @@
 </ul>
 <ul>
 <li>扫描 Panda Knomi 上的二维码(如上图所示), 获取 Panda Knomi 自身开启的 AP 热点的名称和密码, 点击连接。出厂默认的AP信息如下：<br/>
-  Wi-Fi名称: <code>Panda_Knomi_xxxxxxxxxxxx</code><br/>
-  Wi-Fi密码: <code>987654321</code>
+    Wi-Fi名称: <code>Panda_Knomi_xxxxxxxxxxxx</code><br/>
+    Wi-Fi密码: <code>987654321</code><br/>
     &gt; <font size="2">提示：大多数现代智能手机都支持通过相机扫描二维码功能，尤其是搭载 iOS 11 及以上版本的 iPhone 和 Android 9.0 及以上系统的设备。请确保您的设备系统及相机应用为最新版本，以获得最佳的二维码扫描体验。如果您的设备不具备上述条件，可以使用 Google Lens 等外部应用，或直接手动连接 Panda Knomi 的热点（默认密码为：<code>987654321</code>）以访问 Web UI。</font></li>
 <li>如果无法扫码连接，请到设备的 <code>设置</code> 菜单中手动连接热点。<br/>
     以 <code>iPhone</code> 为例：<br/></li>
@@ -4052,22 +4052,24 @@
 <li>j) 预览所设置颜色的区域</li>
 </ul>
 </li>
-</ul>
-<ul>
 <li>④ 查看GIF 储存空间用量，由于 Panda Knomi硬件的限制，所有的 GIF 大小之和不能超过 3MB (3072KB,1MB=1024KB)，超出此大小 Web UI 会阻止更新并弹窗提醒。</li>
 <li>⑤ 每个 GIF 图片单独设置，包括颜色和自定义GIF图片。<br/>
-可以打开/关闭 <code>预览此GIF</code> 开关来显示/隐藏 <code>预览</code> 按钮，点击 <code>预览此GIF</code> 可以使 Panda Knomi进入预览模式，屏幕上将显示 <code>预览此GIF</code> 字样，在屏幕上可查看到自定义 GIF 的效果，若想退出预览模式，请关闭 <code>预览此GIF</code> 开关，或者直接跳转到除 <code>主题</code> 界面之外的其他界面。<br/>
-  自定义GIF注意<br/></li>
+  可以打开/关闭 <code>预览此GIF</code> 开关来显示/隐藏 <code>预览</code> 按钮，点击 <code>预览此GIF</code> 可以使 Panda Knomi进入预览模式，屏幕上将显示 <code>预览此GIF</code> 字样，在屏幕上可查看到自定义 GIF 的效果，若想退出预览模式，请关闭 <code>预览此GIF</code> 开关，或者直接跳转到除 <code>主题</code> 界面之外的其他界面。<br/>
+  自定义GIF注意<br/><ul>
 <li>如果想要使用修改颜色的功能，对应的 GIF 图片的底色必须是透明的，否则修改颜色会连带着背景一起变为设置的颜色，屏幕会满屏显示类似纯颜色的界面。</li>
 <li>并且由于软件解码存在一些限制，透明的 GIF 的最后一帧必须要与第一帧内容一样，否则会存在最后一帧与第一帧同时覆盖显示在一起的问题。如果您不使用动态修改颜色的功能，则不需要使用透明的 GIF，就不存在此限制了。</li>
-<li>Panda Knomi 所使用的屏幕分辨率 <code>宽 x 高</code> 为 <code>240 x 240</code> 像素，超过此分辨率的图片无法完整显示在屏幕上，所以只允许使用小于或等于此分辨率的GIF。超出此限制的GIF，推荐使用工具重新调整GIF的分辨率，使其符合要求。（例如： <a href="https://www.iloveimg.com/resize-image/resize-gif"><a href="https://www.iloveimg.com/resize-image/resize-gif">https://www.iloveimg.com/resize-image/resize-gif</a></a>）。</li>
+<li>Panda Knomi 所使用的屏幕分辨率 <code>宽 x 高</code> 为 <code>240 x 240</code> 像素，超过此分辨率的图片无法完整显示在屏幕上，所以只允许使用小于或等于此分辨率的GIF。超出此限制的GIF，推荐使用工具重新调整GIF的分辨率，使其符合要求。（例如： <a href="https://www.iloveimg.com/resize-image/resize-gif"><a href="https://www.iloveimg.com/resize-image/resize-gif">https://www.iloveimg.com/resize-image/resize-gif</a></a>）。<ul>
 <li>点击网页中的 <code>Select images</code> 按钮选择 GIF 图片，或者直接将GIF图片拖到此界面中</li>
 <li>确保勾选了网页右侧的 <code>Maintain aspect ratio</code>，避免改变长宽比例导致画面效果不协调</li>
 <li>修改 <code>Width (px):</code> 和 <code>Height (px):</code> 中较大的参数到不超过 240, 如果 <code>Width (px):</code> 和 <code>Height (px):</code> 参数是一样的，随便修改任意个即可</li>
 <li>点击 <code>Resize IMAGES</code> 按钮</li>
 <li>等待调整完成，然后点击 <code>Download resized IMAGES</code> 按钮下载调整后的 GIF.</li>
+</ul>
+</li>
 <li>单个 GIF 的尺寸不能超过 1.5MB(1536KB, 1MB=1024KB)，所有 GIF 一起的尺寸不能超过 3MB(3072KB,1MB=1024KB)。</li>
 <li>新的GIF的大小不能超过被替换的GIF大小与剩余空间之和，否则 Web UI 会拒绝替换并弹窗提醒大小超出容量限制。在 <code>④</code> 中可以查看剩余空间，在 <code>⑤</code> 中可以查看每个GIF的大小。例如：使用新的GIF替换 <code>待机状态.gif</code>，出厂的GIF大小为63.61KB，出厂剩余的容量为407.75KB，所以新的GIF大小不能超过 63.61KB + 407.75KB = 471.36KB。</li>
+</ul>
+</li>
 <li>⑥ 将自定义的 GIF 下载导出成IMG文件，方便备份或者分享您的自定义GIF设计。<blockquote>
 <p><font size="2">注意：IMG中不包括自定义颜色的数据信息，仅包含GIF图片数据。</font></p>
 </blockquote>
