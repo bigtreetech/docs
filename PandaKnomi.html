@@ -3830,7 +3830,7 @@
 
 
 <h1 id="panda-knomi">Panda Knomi<a class="headerlink" href="#panda-knomi" title="Permanent link">&para;</a></h1>
-<p><img src=img/PandaKnomi/panda_knomi.png width="600"/></p>
+<p><img src=img/PandaKnomi/panda_knomi.jpg width="400"/></p>
 <h2 id="important-note">IMPORTANT NOTE<a class="headerlink" href="#important-note" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Latest firmware <a href="https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware">Click here</a></li>
@@ -3945,32 +3945,35 @@
   <img src=img/PandaKnomi/install_11.png width="300"/></li>
 </ul>
 </li>
-<li>Step 4: Power Supply
+<li>
+<p>Step 4: Power Supply
   Congratulations on successfully installing your Panda Knomi.
-  Please power on the device and adhere to the on-screen instructions in order to pair it with your printer. <ul>
-<li>For A1 Series:<blockquote>
+  Please power on the device and adhere to the on-screen instructions in order to pair it with your printer. </p>
+<ul>
+<li>
+<p>For A1 Series:</p>
+<blockquote>
 <ul>
 <li>Tips: If the power interface on your A1 series printer is already occupied by other peripherals, you can use the BIGTREETECH Panda Branch to extend the connection.</li>
 <li>Note: Our tests show the A1 Series' AMS port provides up to 24.4W, while AMS lite consumes up to 4W. With a maximum power use of 0.65W. Panda Knomi can be directly connected. For external expansions using the Panda Branch, set the USB power to 2A before connecting Panda Knomi to its 4-pin interface.</li>
-<li>The Panda Branch is sold separately.
-  <br/>
-  <img src=img/PandaKnomi/power_a1.png width="600"/></li>
+<li>The Panda Branch is sold separately.</li>
 </ul>
 </blockquote>
+<p><img src=img/PandaKnomi/power_a1.png width="600"/></p>
 </li>
+</ul>
+<ul>
 <li>For X1 Series<br/>
   <img src=img/PandaKnomi/power_x1.png width="600"/></li>
 <li>For P1 Series<br/>
   <img src=img/PandaKnomi/power_p1.png width="600"/></li>
-</ul>
-</li>
 <li>Step 5: Installation of Cable Clips/Organizers<blockquote>
 <ul>
 <li>To keep the printer organized, we've designed a cable organizer and clip model. Feel free to visit <a href="https://github.com/bigtreetech/PandaKnomi">GitHub</a> to download and print it.</li>
 <li>For optimal organization, it is recommended to print several Cable Organizers.</li>
 </ul>
 </blockquote>
-<ul>
+</li>
 <li>After fitting the printed cable clip, insert the Panda Knomi power cable into the designated slot.<br/>
   <img src=img/PandaKnomi/en_print_1.png width="600"/></li>
 <li>Use the printed cable organizers to systematically arrange the cables.<br/>
@@ -4140,10 +4143,18 @@ You will be presented with the screen below after booting for the first time or 
 <tr>
 <td align="left">1</td>
 <td align="left">gif_idle_standby.gif</td>
-<td align="center"><img src=img/PandaKnomi/gif/standby.gif/></td>
-<td align="center">The printer is idle.</td>
-<td align="center">63.61KB</td>
+<td align="center"><img alt="error" src="/img/PandaKnomi/gif/standby.gif/" /></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">The printer is idle.</td>
+<td align="left">63.61KB</td>
 <td align="center">240 x 240</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 <tr>
 <td align="left">2</td>
@@ -4504,9 +4515,9 @@ Access the Web UI by entering the IP address into your browser’s address bar. 
 <li>Hold the <code>Boot</code> button on Panda Knomi, connect it via <code>Type-C</code> to your computer, and a new COM port should appear in the device manager.<br/>
   <img src=img/PandaKnomi/boot_fw.jpg width="300"/></li>
 <li>Open <code>flash_download_tool_3.9.8_6.exe</code>, and configure as follows:<br/>
-  <img src=img/PandaKnomi/open_esp_tool.png width="600"/></li>
+  <img src=img/PandaKnomi/open_esp_tool.png width="400"/></li>
 <li>As shown in the figure below, configure the flash download tool:<br/>
-  <img src=img/PandaKnomi/set_esp_tool.png width="600"/><ul>
+  <img src=img/PandaKnomi/set_esp_tool.png width="400"/><ul>
 <li>①   Set the.bin file's writing address, ensuring all checkboxes are ticked:<ul>
 <li><code>panda_knomi_bootloader.bin</code> to <code>0x1000</code></li>
 <li><code>panda_knomi_partition.bin</code> to <code>0x8000</code></li>
@@ -4520,7 +4531,7 @@ Access the Web UI by entering the IP address into your browser’s address bar. 
 </li>
 </ul>
 <h3 id="firmware-history">Firmware History <a id="firmware_history"></a><a class="headerlink" href="#firmware-history" title="Permanent link">&para;</a></h3>
-<h4 id="v102"><a href="https://github.com/bigtreetech/PandaKnomi/">V1.0.2</a><a class="headerlink" href="#v102" title="Permanent link">&para;</a></h4>
+<h4 id="v102"><a href="https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.2">V1.0.2</a><a class="headerlink" href="#v102" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Fix: Solve the problem that the TCP connection is occupied and the Web UI cannot be accessed. Now the old connection will be forcibly disconnected and the latest Web UI request will be answered.</li>
 <li>Fixed: MQTT memory leak. Fixed the issue where Panda Knomi may remain in the state of <code>binding printer</code> after disconnecting and rebinding the printer more than 100 times.</li>
