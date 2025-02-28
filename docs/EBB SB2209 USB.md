@@ -216,8 +216,6 @@ to query the device Serial ID.
 
 to flash the firmware (note: replace **/dev/serial/by-id/xxx** with the actual ID obtained in the previous step).
 
-6、After flashing, remove the VUSB jumper and Type-C data cable.
-
 ### **Configuring Klipper**
 
 1、Access the mainsail web UI by entering the IP address of the Raspberry Pi into your browser. Using the path shown in the image below, download the reference configuration named **sample-bigtreetech-ebb-sb-usb-v1.0.cfg**. If this file is not found, update the Klipper firmware source code to the latest version or use the link to download it from GitHub:
