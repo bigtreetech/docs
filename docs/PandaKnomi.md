@@ -105,14 +105,12 @@ You will be presented with the screen below after booting for the first time or 
     Connect to the AP with the default credentials:<br/>
     Wi-Fi SSID: `Panda_Knomi_xxxxxxxxxxxx`<br/>
     Wi-Fi Password: `987654321`<br/>
-
     > <font size="2">Note: Most modern smartphones are equipped to scan QR codes directly through their camera app. This feature is typically available on devices running iOS 11 or later, and Android 9.0 or later. To ensure optimal QR code scanning performance, please verify that both your device’s operating system and camera app are updated to their latest versions. If your smartphone does not have this capability, alternative options include using third-party applications from the application store, like Google Lens. Alternatively, you can manually connect to the Panda Knomi’s hotspot using the default password `987654321` to access the Web UI.</font>
-
-  * If scanning the QR code doesn't work, you can go to the `settings` menu on the device to connect to the hotspot manually.
-    Using an iPhone as an example:
+  * If scanning the QR code doesn't work, you can go to the `settings` menu on the device to connect to the hotspot manually.<br/>
+    Using an iPhone as an example:<br/>
     * On your phone home screen, go to `Settings` → `WLAN`.
     * Turn on `WLAN`. Your device will automatically search for available networks.<br/>
-      <img src=img/PandaKnomi/en_wlan.jpg width="300"/>
+      <img src=img/PandaKnomi/en_wlan.jpg width="300"/><br/>
     * Tap on the network name starting with `Panda_Knomi_` and enter the default password: `987654321`.
     * After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
 * After connecting to the AP, there should be a prompt of `Connected (Login/Authentication required)`, and click it to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.4.1](http://192.168.4.1) in the browser to access the Web UI configuration interface.
@@ -251,8 +249,8 @@ Access the Web UI by entering the IP address into your browser’s address bar. 
 * ④	Alternatively, if your devices are on the same network as Panda Knomi, you can access the Web UI using the hostname, which by default is `PandaKnomi` (accessible via [http://pandaknomi.local](http://pandaknomi.local) , hostname is not case-sensitive). <br/>
   Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>
   Setting the Hostname:<br/>
-    * The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.
-    * The hostname must be at least 8 characters long and no more than 32 characters.
+  * The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.
+  * The hostname must be at least 8 characters long and no more than 32 characters.
 
   After choosing a new hostname, tap `Set Hostname` to update Panda Knomi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping `OK` in the confirmation popup, or postponed by closing the popup with the `x` button.<br/>
   <img src=img/PandaKnomi/en_hostname.png width="300"/>
@@ -306,8 +304,8 @@ Access the Web UI by entering the IP address into your browser’s address bar. 
 * ④	View GIF Storage Usage
   Due to Panda Knomi’s hardware limitations, the total size of all GIFs cannot exceed 3MB (3072KB). If this limit is exceeded, the Web UI will block the update and display a pop-up reminder.
 * ⑤	Set Each GIF Individually (including color and custom GIF images)<br/>
-  Turn "Preview Mode" on/off to show/hide the "Preview" button.<br/>
-  Tapping "Preview this GIF" enters preview mode, allowing you to view the custom GIF on the screen. To exit preview mode, turn off "Preview Mode" or navigate away from the "Theme" interface.<br/>
+  Turn `Preview Mode` on/off to show/hide the `Preview` button.<br/>
+  Tapping `Preview this GIF` enters preview mode, allowing you to view the custom GIF on the screen. To exit preview mode, turn off `Preview Mode` or navigate away from the `Theme` interface.<br/>
   Custom GIF Notes:<br/>
   * If using the UI color changing feature, the GIF must have a transparent background. Without transparency, color changes will affect the entire image.
   * Due to software limitations, the last frame of a transparent GIF must match the first frame to avoid overlap. If dynamic UI color changes are unnecessary, you can use a non-transparent GIF.
