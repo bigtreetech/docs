@@ -4016,13 +4016,10 @@
 <ul>
 <li>扫描 Panda Knomi 上的二维码(如上图所示), 获取 Panda Knomi 自身开启的 AP 热点的名称和密码, 点击连接。出厂默认的AP信息如下：<br/>
   Wi-Fi名称: <code>Panda_Knomi_xxxxxxxxxxxx</code><br/>
-  Wi-Fi密码: <code>987654321</code><br/><blockquote>
-<p><font size="2">提示：大多数现代智能手机都支持通过相机扫描二维码功能，尤其是搭载 iOS 11 及以上版本的 iPhone 和 Android 9.0 及以上系统的设备。请确保您的设备系统及相机应用为最新版本，以获得最佳的二维码扫描体验。如果您的设备不具备上述条件，可以使用 Google Lens 等外部应用，或直接手动连接 Panda Knomi 的热点（默认密码为：<code>987654321</code>）以访问 Web UI。</font></p>
-</blockquote>
-</li>
-</ul>
-<ul>
-<li>如果无法扫码连接，请到设备的 <code>设置</code> 菜单中手动连接热点。以 <code>iPhone</code> 为例：</li>
+  Wi-Fi密码: <code>987654321</code>
+    &gt; <font size="2">提示：大多数现代智能手机都支持通过相机扫描二维码功能，尤其是搭载 iOS 11 及以上版本的 iPhone 和 Android 9.0 及以上系统的设备。请确保您的设备系统及相机应用为最新版本，以获得最佳的二维码扫描体验。如果您的设备不具备上述条件，可以使用 Google Lens 等外部应用，或直接手动连接 Panda Knomi 的热点（默认密码为：<code>987654321</code>）以访问 Web UI。</font></li>
+<li>如果无法扫码连接，请到设备的 <code>设置</code> 菜单中手动连接热点。<br/>
+    以 <code>iPhone</code> 为例：<br/></li>
 <li>在你的主屏幕上，前往 <code>设置</code>-&gt; <code>无线局域网</code>。</li>
 <li>打开 <code>无线局域网</code>。你的设备将自动搜索可供使用的无线局域网。<br/>
       <img src=img/PandaKnomi/wlan.png width="300"/></li>
@@ -4313,9 +4310,11 @@
 <li>③ 配网完成后，推荐客户将手机、电脑等设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同的局域网下，并通过在浏览器地址栏输入 IP 地址访问 Web UI。为避免遗忘 IP地址，可利用手机主屏幕书签功能，方便快速访问。</li>
 <li>
 <p>④ 若设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同的局域网下，用户可以通过主机名直接访问 Web UI，例如出厂默认的主机名是 <code>PandaKnomi</code>，我们可以直接访问 <a href="http://pandaknomi.local"><a href="http://pandaknomi.local">http://pandaknomi.local</a></a> ，不区分大小写。如果设备开了VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用 IP 访问。<br/>
-  用户可以自定义主机名，但是请遵守以下规则：<br/>
-    * 只能由字母（a-z、A-Z）、数字（0-9）、以及连接符（-）组成， 并且首字符必须是字母。
-    * 长度不低于8个字符，不超过32个字符</p>
+  用户可以自定义主机名，但是请遵守以下规则：<br/></p>
+<ul>
+<li>只能由字母（a-z、A-Z）、数字（0-9）、以及连接符（-）组成， 并且首字符必须是字母。</li>
+<li>长度不低于8个字符，不超过32个字符。</li>
+</ul>
 <p>修改完成后，点击 <code>设置主机名</code> 将设置的主机名发送给 Panda Knomi，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 <code>OK</code> 按钮，Panda Knomi 会 <code>立刻重启</code>，若我们不想立刻重启，可以点击弹窗右上角的 <code>x</code> 按钮关闭弹窗。<br/>
 <img src=img/PandaKnomi/hostname.png width="300"/></p>
 </li>
@@ -4346,10 +4345,8 @@
 <li><code>百分比和 GIF 交替显示</code>：打印机打印时，屏幕上交替显示实时的打印进度和 GIF 图片，并且每隔 10s 切换一次显示</li>
 </ul>
 </li>
-<li>
-<p>③ 设置 GIF 的颜色<br/>
-  <img src=img/PandaKnomi/picker.jpg width="300"/></p>
-<ul>
+<li>③ 设置 GIF 的颜色<br/>
+  <img src=img/PandaKnomi/picker.jpg width="300"/><ul>
 <li>a) 点击此按钮，弹出设置GIF颜色的界面</li>
 <li>b) HSL 取色盘（<a href="https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4">HSL是什么？</a>）</li>
 <li>c) HSLA的H色相参数，范围值为：0~360°</li>
@@ -4363,8 +4360,6 @@
 <li>A（透明度）：0xFF (1.00/1.00)</li>
 </ul>
 </li>
-</ul>
-<ul>
 <li>h) 颜色对应的HSLA的值，H色相的范围为：0~360°， S饱和度的范围为：0<sub>100%，L亮度的范围为：0</sub>100%，A透明度的范围为：0.00 ~ 1.00, 可以直接修改此处的值来得到想要的颜色。如图中所示的 hsla(20, 100%, 51%, 1) 意味着：<ul>
 <li>H（色相）：20°</li>
 <li>S（饱和度）：100%</li>
@@ -4374,10 +4369,14 @@
 </li>
 <li>i) 点击清除设置的颜色，GIF会显示原本的颜色</li>
 <li>j) 预览所设置颜色的区域</li>
+</ul>
+</li>
+</ul>
+<ul>
 <li>④ 查看GIF 储存空间用量，由于 Panda Knomi硬件的限制，所有的 GIF 大小之和不能超过 3MB (3072KB,1MB=1024KB)，超出此大小 Web UI 会阻止更新并弹窗提醒。</li>
-<li>⑤ 每个 GIF 图片单独设置，包括颜色和自定义GIF图片。
-可以打开/关闭 “预览模式”开关来显示/隐藏“预览”按钮，点击“预览此GIF”可以使 Panda Knomi进入预览模式，屏幕上将显示“预览模式”字样，在屏幕上可查看到自定义 GIF 的效果，若想退出预览模式，请关闭“预览模式”开关，或者直接跳转到除“主题”界面之外的其他界面。
-自定义GIF注意</li>
+<li>⑤ 每个 GIF 图片单独设置，包括颜色和自定义GIF图片。<br/>
+可以打开/关闭 <code>预览此GIF</code> 开关来显示/隐藏 <code>预览</code> 按钮，点击 <code>预览此GIF</code> 可以使 Panda Knomi进入预览模式，屏幕上将显示 <code>预览此GIF</code> 字样，在屏幕上可查看到自定义 GIF 的效果，若想退出预览模式，请关闭 <code>预览此GIF</code> 开关，或者直接跳转到除 <code>主题</code> 界面之外的其他界面。<br/>
+  自定义GIF注意<br/></li>
 <li>如果想要使用修改颜色的功能，对应的 GIF 图片的底色必须是透明的，否则修改颜色会连带着背景一起变为设置的颜色，屏幕会满屏显示类似纯颜色的界面。</li>
 <li>并且由于软件解码存在一些限制，透明的 GIF 的最后一帧必须要与第一帧内容一样，否则会存在最后一帧与第一帧同时覆盖显示在一起的问题。如果您不使用动态修改颜色的功能，则不需要使用透明的 GIF，就不存在此限制了。</li>
 <li>Panda Knomi 所使用的屏幕分辨率 <code>宽 x 高</code> 为 <code>240 x 240</code> 像素，超过此分辨率的图片无法完整显示在屏幕上，所以只允许使用小于或等于此分辨率的GIF。超出此限制的GIF，推荐使用工具重新调整GIF的分辨率，使其符合要求。（例如： <a href="https://www.iloveimg.com/resize-image/resize-gif"><a href="https://www.iloveimg.com/resize-image/resize-gif">https://www.iloveimg.com/resize-image/resize-gif</a></a>）。</li>
@@ -4393,8 +4392,6 @@
 </blockquote>
 </li>
 <li>⑦ ⑧ 将别人分享的IMG文件更新到Panda Knomi中</li>
-</ul>
-</li>
 </ul>
 <h3 id="imgpanda-knomi">应用IMG文件到Panda Knomi<a class="headerlink" href="#imgpanda-knomi" title="Permanent link">&para;</a></h3>
 <blockquote>
@@ -4492,7 +4489,7 @@
 <li>将设备连接到Panda Knomi的AP热点。以iPhone为例：
     * 在你的主屏幕上，前往 <code>设置</code>-&gt; <code>无线局域网</code>。
     * 打开 <code>无线局域网</code>。你的设备将自动搜索可供使用的无线局域网。<br/>
-      <img src=img/PandaKnomi/wlan.png width="300"/>
+      <img src=img/PandaKnomi/wlan.png width="300"/> <br/>
     * 轻点名称以 <code>Panda_Knomi_</code> 开头的无线局域网，输入默认密码：<code>987654321</code>。
     * 连接上 Panda Knomi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。</li>
 <li>连接上 AP 后，理应有 <code>已连接（需登录/认证）</code> 的提示，并且点击会进入Web UI配置界面。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 可以在浏览器中手动输入 <a href="http://192.168.4.1">192.168.4.1</a> 访问Web UI配置界面。</li>
