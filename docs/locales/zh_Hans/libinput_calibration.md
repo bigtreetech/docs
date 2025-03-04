@@ -128,7 +128,7 @@ sudo ./libinput_calibrator.sh 480 320 61 35 417 281
 ```
 </br>
 脚本将自动转换参数并将其写入配置文件，然后重置KlipperScreen（如果已安装）。您可以通过命令检查配置是否有效 `DISPLAY=:0 xinput list-props <id>`
-<img src=img/tft32_spi_convert.png width="1200"/>
+<img src=img/tft35_spi_convert.png width="1200"/>
 
 ## **FAQ**
 

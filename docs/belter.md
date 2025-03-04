@@ -6,7 +6,7 @@
 
 https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool
 
-**Wiki Link:**
+**GitHub Link:**
 
 https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master
 
@@ -40,6 +40,8 @@ Power Source: 1x CR2032 3V Button Battery (Included)
 <img src=img/Belter/Belter_Dimension.png width="600"/>
 
 ## **Instructions for Use**
+
+<font  color="red">**☆Print and install ProbeTip.step to ensure accurate ready**</font> 
 
 **Preparation**: We provide a table of Belter value-tension converters to assist users in converting readings into belt tension (N). 
 

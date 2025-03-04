@@ -513,6 +513,21 @@ copy and save this ID, it is needed when modifying klipper config.
 5. The status indicator LED will flash during the update process.
 6. When the LED stops flashing and the firmware.bin file has been renamed to FIRMWARE.CUR, the firmware has been successfully updated.
 
+## Updating Klipper via DFU
+
+1. Run **ls /dev/serial/by-id/** to get the board ID. If Klipper is running, it will return a klipper ID.
+
+   <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software44.png width="600"/>
+
+2. With the ID, enter: `cd ~klipper`
+   `make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32h712xx_41003D001751303232383230-if00`
+
+   to flash the firmware (note: replace /dev/serial/by-id/xxx with the actual ID found in the previous step).
+
+   <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software45.png width="600"/>
+
+   Ignore the dfu-util errors after successful flash.
+
 ## **PRECAUTIONS**
 
 1. Unplugging and plugging operations should be performed under the condition of power off.

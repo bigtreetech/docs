@@ -6,13 +6,17 @@
 
 https://biqu.equipment/products/h2-v2x
 
+**Wiki link：**
+
+https://bttwiki.com/H2%20V2X.html
+
 **Github** **Link:**
 
 https://github.com/bigtreetech/H2-V2X
 
 ## **Introduction**
 
-The H2 V2X is an ultra-lightweight (145g) direct drive extruder designed for highend CoreXY printers, Precision CNC machined from AL6061 T6 aluminum. It features superior motor heat dissipation, hardened dual-gear extrusion for smooth filament feeding, and versatile mounting options
+The H2 V2X is an ultra-lightweight (145g) direct drive extruder, crafted from anodized aluminum with CNC precision. It features superior motor heat dissipation, dual-gear extrusion for smooth filament feeding, and versatile mounting options.
 
 ## **Feature Highlights**
 
@@ -21,7 +25,6 @@ The H2 V2X is an ultra-lightweight (145g) direct drive extruder designed for hig
 - Durable Construction: Anodized aluminum with CNC machining ensures long-lasting durability.
 - Versatile Mounting: Features four-sided mounting options for expansion setups.
 - Effortless Filament Changes: One-handed lock/unlock mechanism simplifies filament handling.
-- Tension adjustment allowing you to master all filament
 
 ## **Technical Specifications**
 
@@ -90,15 +93,9 @@ Bearings: 100°C
 
 <img src=img/H2V2X/H2V2X_Filament4.png width="600"/>
 
-## **Link To 3D models and Printed Parts:**
-
-https://github.com/bigtreetech/H2-V2X/tree/master/3D%20Model
-
 ## **Product Purchase Link:**
 
 https://biqu.equipment/products/h2-v2x
-
-
 
 
 

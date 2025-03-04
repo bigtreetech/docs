@@ -121,7 +121,7 @@ sudo ./libinput_calibrator.sh 480 320 61 35 417 281
 ```
 </br>
 The script will automatically convert and write parameters to the configuration file, and then reset KlipperScreen if installed. You can check whether the configuration is effective through the command `DISPLAY=:0 xinput list-props <id>`
-<img src=img/tft32_spi_convert.png width="1200"/>
+<img src=img/tft35_spi_convert.png width="1200"/>
 
 ## **FAQ**
 

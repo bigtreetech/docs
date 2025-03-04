@@ -139,14 +139,21 @@ nav:
         - M4P.md
         - M5P.md
         - M8P.md
+        - M8P-V2_0.md
       - EBB Series:
         - EBB 36 CAN.md
         - EBB 42 CAN.md
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
+        - EBB SB2209 USB.md
         - U2C.md
       - MMB Series:
         - MMB CAN V1.0.md
+        - MMB CAN V2.0.md
+      - CNC Series:
+        - Rodent.md
+      - Kraken Series:
+        - Kraken.md
     - IOT:
       - CB1.md
       - CB2.md
@@ -155,9 +162,11 @@ nav:
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
+      - PandaKnomi.md
       - Panda Touch.md
       - Klipper Touch.md
-      - Panda Branch.md
+      - Panda Branch.md 
+      - DZ01.md
     - Displays:
       - TFT43-DIP.md
       - TFT35 E3.md
@@ -175,6 +184,7 @@ nav:
         - TMC2208.md
         - TMC2240.md
         - TMC5160TPlus.md
+        - TMC5160T Pro V1.0.md
         - Tutorials.md
       - EZ Series:
         - EZ2130.md
@@ -194,7 +204,8 @@ nav:
       - Software Configuration.md
       - Software Installation.md
       - EBB Series.md
-      - libinput_calibration.md    
+      - libinput_calibration.md
+      - pi_custom_logo.md
   - BIQU:
     - Panda series: 
       - Panda Hotend:
@@ -212,10 +223,19 @@ nav:
           - Panda A1Mini.md
           - Panda P1 X1.md
       - PandaTouch.md
+      - PandaBranch.md
       - Panda Hub.md
       - Panda Jet.md 
       - Panda Fur.md 
       - Panda Lux.md 
+      - Panda-Lux-A1-A1mini.md
+      - Panda-Door.md 
+      - Panda-Enclosure.md
+      - Panda PWR.md
+      - Panda Jetpack.md
+      - Panda extruder.md
+      - PandaEdge.md
+      - Panda-AMS-Holder.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
@@ -223,6 +243,7 @@ nav:
       - H2 V2S Lite.md 
       - H2 V2S Lite Revo.md 
       - H2 V2X.md 
+      - Nebula.md 
     - Hotends: 
       - Hotends.md 
     - Sensor modules:
@@ -233,6 +254,7 @@ nav:
       - belter.md
     - Cooling solution:
       - Universal Turbo Kit.md 
+      - Eco Turbo Kit.md 
 
 copyright: <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
 

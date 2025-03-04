@@ -10,6 +10,7 @@ https://biqu.equipment/products/panda-lux-led-upgrade-kit
 
 The Panda Lux is a high-brightness LED light bar specially designed for Bambu Lab P1/X1 series printers. It provides bright illumination for the print area, allowing users to easily monitor the printing process and quickly identify any issues.
 
+
 ## **Feature Highlight**
 
 - High-Level Brightness: 31 LEDs and 6000K color temperature provide clear illumination for the print area.
