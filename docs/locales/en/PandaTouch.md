@@ -119,6 +119,10 @@ You will be presented with the screen below after booting for the first time or 
 #### WiFi Connection Guide
 &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.png width="600"/>
 
+<<<<<<< HEAD
+* During the initial setup the Panda Touch will scan for WiFi networks and then display upt to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. **Note:** Currently version of the firmware does not support connecting to hidden WiFi networks. Also, when Panda Touch is connecting to WiFi, Panda Touch cannot perform the WiFi scanning task at the same time.
+* Click on the WiFi name in the list, and the [keyboard interface](#keyboard-interface) will pop up. After entering the correct password, click "OK" to start connecting to WiFi. (Password length: 8~64 characters)
+=======
 * During the initial setup the Panda Touch will scan for WiFi networks and then display up to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. 
 > NOTE:
 > The current version of firmware does not support connecting to hidden WiFi networks. Also, when the Panda Touch is connecting to WiFi, it cannot perform the WiFi scanning task at the same time.
@@ -128,6 +132,7 @@ You will be presented with the screen below after booting for the first time or 
 > NOTE:
 > If you are using a mesh network with several WiFi networks that share the same SSID then select the SSID with the strongest signal strength in the list.
 
+>>>>>>> 369dcc2d2c879095c98bec6b5030f3fb9dbbc2c3
 * The connection status will be displayed next to the name of the WiFi network. A `Spinner` graphic means that WiFi is still attempting a connection, and a `✔` means the connection is successful.
 * After the connection is successful, the `Next` button will be enabled. Click `Next` to enter the printer connection menu.
 
@@ -599,6 +604,42 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
+<<<<<<< HEAD
+**Note：** Updating versions V1.0.2 and above requires sending two files to Panda Touch. 
+One is the firmware file and the other contains the graphics and fonts. 
+This will help us to add more languages to the Panda touch in the future. Be sure to download both the .bin and .img files.
+
+#### [V1.0.4](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.4/panda_touch-v1.0.4.bin)
+* Added the ability to log in to the Bambu account on the settings page, supporting the addition of printers to enable cloud mode. This resolves the issue of not being able to initiate printing and heating functions on Bambu P-series printers using the latest firmware via PandaTouch.
+* Added the ability to switch locally added printers to cloud mode in PandaTouch.
+* Added WiFi automatic reconnection feature, which supports automatic connection to the strongest WiFi signal within the same SSID. This resolves the issue of not being able to automatically connect to the strongest same-name WiFi in Mesh networks. 
+* Added the ability to sort print files stored on the printer's SD card and external USB drives connected to PandaTouch from newest to oldest.
+
+
+##### How to add a account
+* Click to jump to the settings page, then click the "login BambuLab account" button.  
+<img src=img/PandaTouch/add_account.png width="600"/>
+* Users in China use mobile phone numbers, while users in global regions use email addresses.
+<br><img src=img/PandaTouch/login.png width="600"/>
+* Tap the confirm button.
+<br><img src=img/PandaTouch/input_account.png width="600"/>
+
+##### Synchronize the printers under the account to the local device
+* After successful login, you can choose to synchronize the printers under your account to the local device. 
+<br><img src=img/PandaTouch/login_ok.png width="600"/> 
+* Tap "Yes" to synchronize,during this process, the synchronized printers must be on the same network as PandaTouch. In case of poor network connection, you may need to re-edit the printer's IP address.
+<br><img src=img/PandaTouch/sync_ok.png width="600"/> 
+* As we can see, this printer works in cloud mode.
+<br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
+
+##### How to delete a account
+* Click the "X" button in the upper right corner of the account information to delete the account information saved on PandaTouch. After deleting the account information, the communication mode between PandaTouch and the printer will be changed to local mode. This operation will not directly switch the working mode of the printer itself.
+<br><img src=img/PandaTouch/del_account.png width="600"/> 
+
+##### How to change working mode between PandaTouch and printer
+* Synchronize the printers under the account to switch communication methods locally by selecting cloud mode. Before switching to cloud mode, a new account needs to be added.
+<br><img src=img/PandaTouch/switch_work_mode.png width="600"/> 
+=======
 #### [V1.0.6.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.1/panda_touch-v1.0.6.1.bin)
 ##### Bug Fixes
 - **Fixed Crash when start printing**: Crash when start a print task from u-disk.
@@ -661,6 +702,7 @@ If there is something you would like to see in a future release of the Panda Tou
 
 > NOTE:
 > We have removed this firmware. Please use the latest version of the firmware.
+>>>>>>> 369dcc2d2c879095c98bec6b5030f3fb9dbbc2c3
 
 #### [V1.0.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/panda_touch-v1.0.3.bin)
 * Add Multi-group feature.
@@ -676,6 +718,68 @@ If there is something you would like to see in a future release of the Panda Tou
 * Fix wiFi connection instability. If WiFi falls off the network the Panda Touch will attempt three forced disconnect-reconnect cycles. If these still fail then the user is alerted and given an option for a manual reboot.
 * Fix use BSSID as the primary key for WiFi connections instead of SSID.
 
+<<<<<<< HEAD
+##### Grouping logic
+Allow you to create up to 10 new groups to control multiple printers:
+
+##### How to add a group
+* Tap + in the connected printer list to pop up the multi function menu.  
+<br><img src=img/PandaTouch/press_plus.png width="600"/>
+* Choose the add group option.
+<br><img src=img/PandaTouch/press_add_group.png width="600"/>
+* Choose the printer which you want add to the group.
+<br><img src=img/PandaTouch/group_choose_printer.png width="600"/>
+* Tap the next and input the group name and click "OK".
+<br><img src=img/PandaTouch/group_name.png width="600"/>
+* You now can see the group in the printer list, tapping this group will allow you to control the whole group but the controls presented will be those of the group leader. 
+
+##### Switch to group
+* To control an individual printer, simply click on the card that corresponds to it and you will be taken to the control page that sends commands to it in isolation even if it is part of a group. If you send a command that takes some time and then you send a command to a group that it belongs to, the second command will be ignored if the first is still busy.
+<br><img src=img/PandaTouch/add_group_ok.png width="600"/> 
+
+##### Start printing with one printer
+* Tap to choose the file in the USB disk list to print.
+* Set printing parameters:
+  <br><img src=img/PandaTouch/start_print_one.png width="600"/>
+    * `Bed Leveling`
+    * `Flow Calibration` (`P1P` and `P1S` do not have this feature, so these models of printers will not display this option.)
+    * `Timelapse`
+    * `Use AMS` (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)
+  
+* Automatically jump to the main interface and display printer data.
+<br><img src=img/PandaTouch/start_print_one_ing.png width="600"/>
+
+##### Multiple printing
+* Tap to choose the file in the USB disk list to print.
+* Set printing parameters:
+  <br><img src=img/PandaTouch/start_print.png width="600"/>
+    * `Bed Leveling`
+    * `Flow Calibration` (When there is a printer in the group that supports this feature, it will be automatically selected and only applicable to those supported printers.)
+    * `Timelapse`
+    * `Use AMS` (When there is a printer in the group that supports this feature, it will be automatically selected and only applicable to those supported printers.)
+
+
+* Panda Touch will generate a list of available printers for you choose from. Printers that are already busy will be excluded from this list. This applies to groups that contain printers that are already busy too. Tick box print options for a particular group will be based on the functionality available for the most functional machine in the group. For example, you are using a group wich contains X1C\P1P\P1S, you will have the lidar scan option available but this option will only be sent to the printers in the group that support it.
+<br><img src=img/PandaTouch/udisk_upload.png width="600"/>
+<br><img src=img/PandaTouch/group_printing.png width="600"/>
+
+The group controls menu same as the version V1.0.1
+
+##### How to exchange Panda Picture
+You can check out the tool form this link [exchange picture tool](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.3/)
+* Please upgrade the PandaTouch firmware to V1.0.3 before proceeding.
+* The operation to replace the Panda image can only be performed on a Windows system.
+* Please ensure that the image you want to replace meets the following requirements: pixel width less than 280, pixel height less than 306, pixel depth 32-bit color, and image format PNG.
+###### Step by Step
+* The tool can run at windows system only.
+* Download the Panda Exchange Tool from the firmware folder of V1.0.3.
+* Ensure that the image you want to replace meets the format requirements, rename it, and replace the new_panda.png file in this folder. The Panda Exchange Tool folder already contains a new Panda image. If you don't have a specific image to replace, you can skip this step.
+* Click generate_img.bat to compile.
+* Enter the IP address of the Panda Touch in the browser to access the OTA web UI.
+* Click "Update File," select new_panda.img, and proceed with the update.
+
+=======
+>>>>>>> 369dcc2d2c879095c98bec6b5030f3fb9dbbc2c3
 #### [V1.0.2](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.2/panda_touch-v1.0.2.bin)
 
 * Add multi-language option, support chinese.
