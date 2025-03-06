@@ -10,7 +10,7 @@ TRANS_FILE="${TRANS_DIR}active_translations"
 MKDOCS_MAIN="${MKDOCS_DIR}mkdocs-main.yml"
 
 # Fetch translations
-git clone --depth 1 https://github.com/bigtreetech/docs ${TRANS_DIR}
+git clone --depth 1 https://github.com/dilixi/docs ${TRANS_DIR}
 
 # Create new mkdocs-main.yml with language links
 cp ${MKDOCS_DIR}mkdocs.yml ${MKDOCS_MAIN}
