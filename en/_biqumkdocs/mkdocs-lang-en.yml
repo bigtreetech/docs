@@ -236,6 +236,8 @@ nav:
       - Panda extruder.md
       - PandaEdge.md
       - Panda-AMS-Holder.md
+      - Panda-AMS-Cable.md
+      - Panda-AMS-Lite-Cable.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
