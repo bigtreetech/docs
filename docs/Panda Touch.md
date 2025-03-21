@@ -635,7 +635,7 @@ If there is something you would like to see in a future release of the Panda Tou
 - **Skip Objects Support**: Allows users to skip objects during the print process. 
 - **Filament drying**: Adds filament drying functionality specifically for P1S.
 
-#### [V1.0.6.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.1/panda_touch-v1.0.6.1.bin)
+#### [V1.0.6.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.3/panda_touch-v1.0.6.3.bin)
 ##### Bug Fixes
 - **Fixed Crash when start printing**: Crash when start a print task from u-disk.
 - **Fixed Crash in OTA page**: Crash when click ssid of wifi in OTA page.
