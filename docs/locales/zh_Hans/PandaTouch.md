@@ -10,7 +10,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 * P1P/S: 01.07.00.00 
 * X1C --> 01.08.02.00
 * X1E --> 01.01.02.00
-* A1 --> 01.03.01.02
+* A1 --> 01.04.00.00
 * A1 Mini --> 01.04.00.00
 
 拓竹可能会在未来发布影响Panda Touch可用功能的固件版本。Bigtreetech将监控所有测试版固件版本，如果我们发现影响Panda Touch功能的固件版本，我们将通过电子邮件、速卖通聊天和我们的社交渠道发出警报。然后，购买者可以决定是否要冒着失去功能的风险执行更新。请注意，Panda Touch保修不包括由于执行Bambu Lab固件更新而导致的功能损失。
@@ -24,6 +24,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 * Panda Touch 在其内置锂电池上运行时，电池续航时间大约为 20 到 30 分钟，具体取决于屏幕亮度。为了维护电池并延长产品寿命，建议在电池耗尽后及时给 Panda Touch 充电或关闭电源。
 * 当锂电池电量不足时，屏幕可能会闪烁。这种闪烁是正常的，并向用户发出电池几乎耗尽的警告。然后，用户应立即给电池充电或关闭Panda Touch。
 * 如果您计划经常打开和关闭打印机，我们建议您在 DC5V 模式下运行 Panda Touch。这样可以绕过电池，防止电池经历多次充放电循环。如果您想使用电池供电，只需将 Panda Touch 背面的开关切换到电池电源模式。
+* 最大支持USB驱动器的容量是8GB.
 
 ## 基本参数
 
@@ -256,6 +257,20 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 执行任何操作时，请确保选择了正确的AMS装置和灯丝槽。当耗材周围有红色边框时，您就会知道耗材已被选中。如果未选择任何内容，则“加载”和“卸载”按钮将变灰。
 
 <img src=img/PandaTouch/filament_screen.png width="600"/>
+
+### 耗材烘干
+Panda Touch允许用户在X1系列和P1S上烘干耗材 
+* 点击烘干按钮
+<br><img src=img/PandaTouch/drying.png width="400"/>
+
+* 按照右侧的步骤操作
+<br><img src=img/PandaTouch/filament_dry.png width="400"/>
+
+### 零件跳过
+> ***注意 :*** 
+打印任务需要从Bambu Studio 或者 Handy app上发起，不支持重新打印的任务。 
+
+<img src=img/PandaTouch/skip_objects.gif width="400"/>
 
 ### HMS (健康管理系统)
 
@@ -496,6 +511,18 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
   * [Panda Touch UI 翻译](https://github.com/bigtreetech/PandaTouch/tree/master/Translation)
   <br><img src=img/PandaTouch/upload_new_panda.png width="600"/>   
 
+### Panda Sense
+
+#### 温度和湿度显示
+* 打印机正在打印
+<br><img src=img/PandaTouch/sense_printing.png width="400"/>  
+
+* 打印机空闲
+<br><img src=img/PandaTouch/sense_idle.png width="400"/>  
+
+* 耗材页面
+<br><img src=img/PandaTouch/sense_filament.png width="400"/> 
+
 ## 故障排除
 
 ### 连接故障排除
@@ -584,6 +611,15 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### 固件历史记录 <a id="firmware_history"></a>
+#### [V1.0.7](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7/panda_touch-v1.0.7.bin)
+##### 修复BUG
+- **修复打印机名称不同步问题**：实时获取服务器上打印机名称，如果发生变化就更新它。
+- **修复轴方向错误问题**: 修复控制A1和A1-mini的Y轴和Z轴运动时方向错误问题。
+
+##### 新特性
+- **支持零件跳过**: 允许用户在打印机选择需要跳过的零件. 
+- **支持烘干耗材**: 允许用户在P1S上烘干耗材.  
+
 #### [V1.0.6.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.1/panda_touch-v1.0.6.1.bin)
 ##### 修复BUG
 - **当打印时崩溃**: 从U盘打印时崩溃重启.
@@ -594,6 +630,7 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 
 #### [V1.0.6]
 ##### 新特性
+- **支持 Panda Sense**.
 - **支持主页打印任务和SD卡的缩略图显示**：仅显示从Bambu Studio发起的打印任务，该.3mf文件大小需<=20M，X1系列机器暂不支持。
 - **支持打印完成后在主页快捷重新打印**：该打印文件须存放在打印机SD卡默认目录下（在Panda Touch设置界面可以选择默认目录为Cache或者根目录）。 
 - **支持显示打印历史记录并发起打印**：当前仅支持显示最新的12条打印记录。
