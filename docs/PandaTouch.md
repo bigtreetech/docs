@@ -32,7 +32,7 @@ It is possible that Bambu Lab may release a future firmware version that impacts
 * When running on its built-in lithium battery, the Panda Touch has a battery life of approximately 20 to 30 minutes, depending on the screen brightness. To maintain the battery and extend the lifespan of the product, it is advised to charge the Panda Touch or turn it off as soon as the battery runs out.
 * The screen may flicker when the lithium battery is low on power. This flickering is normal and acts as a warning to users that the battery is almost empty. Users should then promptly charge the battery or turn off the Panda Touch.
 * If you plan to turn your printer on and off frequently, we recommend running the Panda Touch on DC5V mode. This bypasses the battery and prevents it from going through many charge-discharge cycles. If you want to run off the battery, then simply flick the switch on the back of the Panda Touch to the battery power mode.
-* The maximum supported USB drive capacity is 8GB.
+* Maximum Supported Capacity for USB Drive: 8GB.
 
 ## Specifications
 
@@ -272,16 +272,16 @@ When performing any actions, please ensure that the correct AMS unit and filamen
 <img src=img/PandaTouch/filament_screen.png width="600"/>
 
 ### Filament Drying
-The Panda Touch allows users to dry filament on X1 series and P1S.
-* Tap the drying button
+The Panda Touch facilitates drying filaments on both the X1 series and P1S printers.
+* Tap the “Dyring” button
 <br><img src=img/PandaTouch/drying.png width="400"/>
 
-* Check out steps from the right side
+* Follow the subsequent steps as displayed on the screen.
 <br><img src=img/PandaTouch/filament_dry.png width="400"/>
 
-### Skipping objects
+### Skip Objects
 > ***Note :*** 
-The print task needs to be initiated from Bambu Studio or Handy app and it must be a new print task not a reprint task.
+Begin printing tasks via the Bambu Studio or the Handy app.
 
 <img src=img/PandaTouch/skip_objects.gif width="400"/>
 
@@ -527,14 +527,14 @@ Use [this tool](https://pandatouch.us.kg/) to change the picture of the panda.
 
 ### Panda Sense 
 
-#### Temperature and Humidity 
-* Printer is printing
+#### Temperature and Humidity Display
+* printing
 <br><img src=img/PandaTouch/sense_printing.png width="400"/>  
 
-* Printer is not printing
+* Printer Standby
 <br><img src=img/PandaTouch/sense_idle.png width="400"/>  
 
-* Filament page
+* Temperature/Axis page
 <br><img src=img/PandaTouch/sense_filament.png width="400"/>  
 
 ## Troubleshooting
@@ -628,12 +628,12 @@ If there is something you would like to see in a future release of the Panda Tou
 ### Firmware History
 #### [V1.0.7](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7/panda_touch-v1.0.7.bin)
 ##### Bug Fixes
-- **Fixed Printer's Name Synchronization Issue**: Will update the name of printer from cloud if it has changed.
-- **Fixed Wrong Axis Direction**: Fixed the wrong axis direction of Y and Z with A1 and A1-mini.
+- **Printer Name Synchronization Issue**: Ensures printer names are updated in real-time from the server.
+- **Axis Direction Error Issue**: Resolves issues with incorrect Y-axis and Z-axis movement on A1 and A1 mini printers.
 
 ##### New Features
-- **Skip object Support**: Allows users to skip objects when printing. 
-- **Filament drying**: Allows users to dry filament On P1S.  
+- **Skip Objects Support**: Allows users to skip objects during the print process. 
+- **Filament drying**: Adds filament drying functionality specifically for P1S.
 
 #### [V1.0.6.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.1/panda_touch-v1.0.6.1.bin)
 ##### Bug Fixes
@@ -645,7 +645,7 @@ If there is something you would like to see in a future release of the Panda Tou
 
 #### [V1.0.6]
 ##### New Features
-- **Supports Panda Sense**.
+- **Supports Panda Sense for Displaying Temperature and Humidity**.
 - **Supports thumbnail display of print tasks and SD card on the home screen**: Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. Note: The X1 series printers do not support this feature.
 - **Supports quick reprint from the home screen after printing completion**: The print file must be stored in the default directory on the printer's SD card (default directory can be set to Cache or root directory in Panda Touch settings).
 - **Display and Initiate from Print History Records**: Currently supports displaying the latest 12 print records only.

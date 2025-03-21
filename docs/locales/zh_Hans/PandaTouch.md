@@ -520,7 +520,7 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 * 打印机空闲
 <br><img src=img/PandaTouch/sense_idle.png width="400"/>  
 
-* 耗材页面
+* 温度/轴页
 <br><img src=img/PandaTouch/sense_filament.png width="400"/> 
 
 ## 故障排除
@@ -630,7 +630,7 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 
 #### [V1.0.6]
 ##### 新特性
-- **支持 Panda Sense**.
+- **支持Panda Sense温湿度数据显示**.
 - **支持主页打印任务和SD卡的缩略图显示**：仅显示从Bambu Studio发起的打印任务，该.3mf文件大小需<=20M，X1系列机器暂不支持。
 - **支持打印完成后在主页快捷重新打印**：该打印文件须存放在打印机SD卡默认目录下（在Panda Touch设置界面可以选择默认目录为Cache或者根目录）。 
 - **支持显示打印历史记录并发起打印**：当前仅支持显示最新的12条打印记录。
