@@ -18,7 +18,7 @@ The Panda Touch is currently compatible with all Bambu Lab printer firmware vers
 * P1P/S: 01.07.00.00 
 * X1C --> 01.08.02.00
 * X1E --> 01.01.02.00
-* A1 --> 01.03.01.02
+* A1 --> 01.04.00.00
 * A1 Mini --> 01.04.00.00
 
 It is possible that Bambu Lab may release a future firmware version that impacts the functions available on the Panda Touch. Bigtreetech will monitor all beta firmware versions, and if we find a firmware version that affects Panda Touch functionality, we will send out an alert via email, Aliexpress chat, and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.
@@ -32,6 +32,7 @@ It is possible that Bambu Lab may release a future firmware version that impacts
 * When running on its built-in lithium battery, the Panda Touch has a battery life of approximately 20 to 30 minutes, depending on the screen brightness. To maintain the battery and extend the lifespan of the product, it is advised to charge the Panda Touch or turn it off as soon as the battery runs out.
 * The screen may flicker when the lithium battery is low on power. This flickering is normal and acts as a warning to users that the battery is almost empty. Users should then promptly charge the battery or turn off the Panda Touch.
 * If you plan to turn your printer on and off frequently, we recommend running the Panda Touch on DC5V mode. This bypasses the battery and prevents it from going through many charge-discharge cycles. If you want to run off the battery, then simply flick the switch on the back of the Panda Touch to the battery power mode.
+* Maximum Supported Capacity for USB Drive: 8GB.
 
 ## Specifications
 
@@ -269,6 +270,20 @@ The Panda Touch allows users to configure the type and color of the filament bei
 When performing any actions, please ensure that the correct AMS unit and filament slot is selected. You will know that the filament is selected when it has a red border around it. If nothing has been selected then the `Load` and `Unload` buttons will be greyed out.
 
 <img src=img/PandaTouch/filament_screen.png width="600"/>
+
+### Filament Drying
+The Panda Touch facilitates drying filaments on both the X1 series and P1S printers.
+* Tap the “Dyring” button
+<br><img src=img/PandaTouch/drying.png width="400"/>
+
+* Follow the subsequent steps as displayed on the screen.
+<br><img src=img/PandaTouch/filament_dry.png width="400"/>
+
+### Skip Objects
+> ***Note :*** 
+Begin printing tasks via the Bambu Studio or the Handy app.
+
+<img src=img/PandaTouch/skip_objects.gif width="400"/>
 
 ### HMS (Health Management System)
 
@@ -510,6 +525,18 @@ Use [this tool](https://pandatouch.us.kg/) to change the picture of the panda.
 
 * Open the web ui from Panda Touch and update filesystem by this .img file. 
 
+### Panda Sense 
+
+#### Temperature and Humidity Display
+* printing
+<br><img src=img/PandaTouch/sense_printing.png width="400"/>  
+
+* Printer Standby
+<br><img src=img/PandaTouch/sense_idle.png width="400"/>  
+
+* Temperature/Axis page
+<br><img src=img/PandaTouch/sense_filament.png width="400"/>  
+
 ## Troubleshooting
 
 ### Connection Troubleshooting
@@ -599,6 +626,15 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
+#### [V1.0.7](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7/panda_touch-v1.0.7.bin)
+##### Bug Fixes
+- **Printer Name Synchronization Issue**: Ensures printer names are updated in real-time from the server.
+- **Axis Direction Error Issue**: Resolves issues with incorrect Y-axis and Z-axis movement on A1 and A1 mini printers.
+
+##### New Features
+- **Skip Objects Support**: Allows users to skip objects during the print process. 
+- **Filament drying**: Adds filament drying functionality specifically for P1S.
+
 #### [V1.0.6.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.1/panda_touch-v1.0.6.1.bin)
 ##### Bug Fixes
 - **Fixed Crash when start printing**: Crash when start a print task from u-disk.
@@ -609,6 +645,7 @@ If there is something you would like to see in a future release of the Panda Tou
 
 #### [V1.0.6]
 ##### New Features
+- **Supports Panda Sense for Displaying Temperature and Humidity**.
 - **Supports thumbnail display of print tasks and SD card on the home screen**: Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. Note: The X1 series printers do not support this feature.
 - **Supports quick reprint from the home screen after printing completion**: The print file must be stored in the default directory on the printer's SD card (default directory can be set to Cache or root directory in Panda Touch settings).
 - **Display and Initiate from Print History Records**: Currently supports displaying the latest 12 print records only.
