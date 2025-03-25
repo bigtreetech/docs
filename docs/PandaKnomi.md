@@ -483,7 +483,7 @@ If there is something you would like to see in a future release of the Panda Kno
 > <font size="2">Note: Panda Knomi firmware updates should be available as a free OTA, This step is only necessary when OTA is is not working on your network as may be the case with some network configurations.</font>
 
 - If your computer does not have the CH340 driver, please download and install [CH341SER.EXE](https://www.wch-ic.com/downloads/CH341SER_EXE.html)<br/>
-- Download the [Flash Download Tools](https://www.espressif.com.cn/en/support/download/other-tools)
+- Download the [Flash Download Tools](https://www.espressif.com/en/support/download/other-tools)
   <img src=img/PandaKnomi/en_download_esp_tool.png width="800"/>
 - Download the [Panda Knomi firmware](https://github.com/bigtreetech/PandaKnomi)
 - Hold the `Boot` button on Panda Knomi, connect it via `Type-C` to your computer, and a new COM port should appear in the device manager.<br/>

@@ -423,7 +423,7 @@
 > <font size="2">注意：Panda Knomi理应可以自由的OTA，此步骤仅在无法OTA时使用。</font>
 
 * 如果电脑上没有 CH340 的驱动，请先下载安装驱动 [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
-* 下载 [Flash 下载工具](https://www.espressif.com.cn/zh-hans/support/download/other-tools)<br/>
+* 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)<br/>
   <img src=img/PandaKnomi/download_esp_tool.png width="800"/>
 * 下载 [Panda Knomi 的固件](https://github.com/bigtreetech/PandaKnomi)
 * 按住Panda Knomi上的 `Boot` 按键, 然后通过 `Type-C` 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口<br/>
