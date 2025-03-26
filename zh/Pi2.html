@@ -3965,15 +3965,15 @@
 <p>·   接线端子: DC 12-24V</p>
 <p><img src=img/Pi2/Pi2_Power1.png width="600" /></p>
 <h3 id="40-pin-gpio">40 pin GPIO<a class="headerlink" href="#40-pin-gpio" title="Permanent link">&para;</a></h3>
-<p><img src=img/Pi2/Pi2_GPIO.png width="600" /></p>
+<p><img src=img/CB2/PI2_GPIO.png width="1200" /></p>
 <p>GPIO 引脚的计算方式如下：</p>
-<p>GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138</p>
-<p>GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127</p>
+<p>GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 =  1 * 8 + 2 = gpiochip4/gpio10</p>
+<p>GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 =  3 * 8 + 7 = gpiochip3/gpio31</p>
 <h3 id="ups-power">UPS POWER<a class="headerlink" href="#ups-power" title="Permanent link">&para;</a></h3>
 <p><img src=img/Pi2/Pi2_UPS.png width="600" /></p>
-<p>规格为 HX5P-2.54MM 卧式，可配我司的 SKSM 应急电源板使用</p>
+<p>规格为PH-2.0MM-5Pin 卧式，可配我司的SKSM模块使用（需要自行压接线缆和端子）</p>
 <p><img src=img/Pi2/Pi2_SPI.png width="600" /></p>
-<p>规格型号：W25Q256JWEIQ (标准配置没有这个型号，如有需要请联系定制) </p>
+<p>规格型号：W25Q256JWEIQ (出厂默认不带此芯片，如有需要请联系定制)</p>
 <h3 id="spdif-out">SPDIF OUT<a class="headerlink" href="#spdif-out" title="Permanent link">&para;</a></h3>
 <p><img src=img/Pi2/Pi2_SPDIF.png width="600" /></p>
 <h3 id="emmc-en">eMMC-EN<a class="headerlink" href="#emmc-en" title="Permanent link">&para;</a></h3>
@@ -4034,8 +4034,8 @@
 <p><img src=img/Pi2/Pi2_System8.png width="600" /></p>
 <p>2、先将系统烧录到 MicroSD 卡中，然后将 MicroSD 卡插到主板的卡槽，然后等待系统启动。</p>
 <p>3、通过网线，WiFi 或者 USB 转 UART 连接到系统的终端，登录系统</p>
-<p>login: biqu</p>
-<p>password: biqu</p>
+<p>login: <code>biqu</code></p>
+<p>password: <code>biqu</code></p>
 <p>① 运行 sudo nand-sata-install 命令，在弹出的界面中，选择 “2 Boot </p>
 <p>From eMMC - system on eMMC”, 然后选择 “OK”</p>
 <p><img src=img/Pi2/Pi2_System9.png width="600" /></p>
@@ -4148,17 +4148,17 @@
 <p>5、打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在 Remote host 一栏中输入设备的 IP 地址，点击“OK”（注意：电脑和设备必须要在同一个局域网下）</p>
 <p><img src=img/Pi2/Pi2_System33.png width="600" /></p>
 <p>6、输入登录名和登录密码进入 SSH 终端界面</p>
-<p>登录名 login as：biqu </p>
-<p>密码：biqu </p>
+<p>登录名 login as：<code>biqu</code></p>
+<p>密码：<code>biqu</code></p>
 <p><img src=img/Pi2/Pi2_System34.png width="600" /></p>
 <h2 id="_15"><strong>注意事项</strong><a class="headerlink" href="#_15" title="Permanent link">&para;</a></h2>
 <p>1、上电后大概 10s 左右，系统进入 kernel 阶段。此时蓝灯常亮，绿灯会不断的闪烁，代表系统在正常运行。</p>
 <p>2、root 管理员</p>
-<p>login：root</p>
-<p>password：root</p>
+<p>login：<code>root</code></p>
+<p>password：<code>root</code></p>
 <p>biqu 普通用户：</p>
-<p>login：biqu</p>
-<p>password：biqu</p>
+<p>login：<code>biqu</code></p>
+<p>password：<code>biqu</code></p>
 <p>3、PCIe M.2 接口不支持热插拔，需要预先插上固态硬盘才能识别到设备。</p>
 <p>4、使用 eMMC 启动时，不要插 MicroSD 卡。使用 MicroSD 卡启动时，需要将 eMMC 中的数据擦除。</p>
 <p><strong>导航:</strong></p>

@@ -3966,13 +3966,13 @@
 <p>·   Terminal Block: DC 12-24V</p>
 <p><img src=img/Pi2/Pi2_Power1.png width="600" /></p>
 <h3 id="40-pin-gpio">40 pin GPIO<a class="headerlink" href="#40-pin-gpio" title="Permanent link">&para;</a></h3>
-<p><img src=img/Pi2/Pi2_GPIO.png width="600" /></p>
+<p><img src=img/CB2/PI2_GPIO.png width="1200" /></p>
 <p>The method for calculating GPIO pins is as follows:</p>
-<p>GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138</p>
-<p>GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127</p>
+<p>GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 =  1 * 8 + 2 = gpiochip4/gpio10</p>
+<p>GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 =  3 * 8 + 7 = gpiochip3/gpio31</p>
 <h3 id="ups-power">UPS POWER<a class="headerlink" href="#ups-power" title="Permanent link">&para;</a></h3>
 <p><img src=img/Pi2/Pi2_UPS.png width="600" /></p>
-<p>Specifications: HX5P-2.54MM horizontal type, compatible with our company's SKSM emergency power supply board.</p>
+<p>Specifications: PH-2.0MM-5Pin horizontal type, compatible with our company's SKSM emergency power supply board.(Need to crimp cables and terminals by oneself)</p>
 <p><img src=img/Pi2/Pi2_SPI.png width="600" /></p>
 <p>Specification model: W25Q256JWEIQ (NOT included. If needed, please contact us for customization.)</p>
 <h3 id="spdif-out">SPDIF OUT<a class="headerlink" href="#spdif-out" title="Permanent link">&para;</a></h3>
@@ -4035,8 +4035,8 @@
 <p><img src=img/Pi2/Pi2_System8.png width="600" /></p>
 <p>First, write the system onto a MicroSD card, then insert the MicroSD card into the board's card slot, and wait for the system to boot. </p>
 <p>Connect to the system's terminal via Ethernet, WiFi, or USB to UART. Log in with the following credentials:</p>
-<p>login: biqu</p>
-<p>password: biqu</p>
+<p>login: <code>biqu</code></p>
+<p>password: <code>biqu</code></p>
 <p>Execute the command sudo nand-sata-install. In the interface that pops up, select "2 Boot From eMMC - system on eMMC" and then select "OK"</p>
 <p><img src=img/Pi2/Pi2_System9.png width="600" /></p>
 <p>① Select "Yes" to start erasing and writing the system onto the eMMC.</p>
@@ -4147,16 +4147,16 @@ used, such as:</p>
 <p><img src=img/Pi2/Pi2_System32.png width="600" /></p>
 <p>5、Open Mobaxterm and click "Session", and click "SSH", inset the device IP into Remote host and click "OK" (Note: your computer and the device needs to be in the same network).</p>
 <p><img src=img/Pi2/Pi2_System33.png width="600" /></p>
-<p>6、Login as: biqu password: biqu</p>
+<p>6、Login as: <code>biqu</code> password: <code>biqu</code></p>
 <p><img src=img/Pi2/Pi2_System34.png width="600" /></p>
 <h2 id="precautions"><strong>Precautions</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
 <p>1、About 10 seconds after powering on, the system enters the kernel phase. At this time, the blue light stays on, and the green light flashes continuously, indicating that the system is running normally.</p>
 <p>2、Root administrator:</p>
-<p>​       Login: root</p>
-<p>​       Password: root</p>
+<p>​       Login: <code>root</code></p>
+<p>​       Password: <code>root</code></p>
 <p>​   BIQU user:</p>
-<p>​       Login: biqu</p>
-<p>​       Password: biqu</p>
+<p>​       Login: <code>biqu</code></p>
+<p>​       Password: <code>biqu</code></p>
 <p>3、The PCIe M.2 interface does not support hot-plugging; the solid-state drive must be connected in advance for the device to be recognized.</p>
 <p>4、When booting from eMMC, do not insert a MicroSD card. When booting from a MicroSD card, it is necessary to erase the data in the eMMC.</p>
 <p><strong>Navigation:</strong></p>
