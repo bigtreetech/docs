@@ -5041,10 +5041,10 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
 <p><img src=img/CB2/CB2_Interface1.png width="600" /></p>
 <p><img src=img/CB2/CB2_Interface2.png width="600" /></p>
 <h3 id="40-pin-gpio">40 pin GPIO<a class="headerlink" href="#40-pin-gpio" title="Permanent link">&para;</a></h3>
-<p><img src=img/CB2/CB2_Interface3.png width="600" /></p>
+<p><img src=img/Pi2/PI2_GPIO.png width="1200" /></p>
 <p>The calculation method for GPIO pins is as follows:</p>
-<p>GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138</p>
-<p>GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127</p>
+<p>GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 = 1 * 8 + 2 = gpiochip4/gpio10</p>
+<p>GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31</p>
 <h2 id="flashing-the-system"><strong>Flashing the System</strong><a class="headerlink" href="#flashing-the-system" title="Permanent link">&para;</a></h2>
 <h3 id="download-the-system-image">Download the System Image<a class="headerlink" href="#download-the-system-image" title="Permanent link">&para;</a></h3>
 <p>Only use the image provided in the link: <a href="https://github.com/bigtreetech/CB2/releases">https://github.com/bigtreetech/CB2/releases</a></p>
