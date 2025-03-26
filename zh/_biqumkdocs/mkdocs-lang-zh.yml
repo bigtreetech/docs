@@ -162,10 +162,7 @@ nav:
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
-      - PandaKnomi.md
-      - Panda Touch.md
       - Klipper Touch.md
-      - Panda Branch.md 
       - DZ01.md
     - 显示屏:
       - TFT43-DIP.md
@@ -223,6 +220,7 @@ nav:
           - Panda A1Mini.md
           - Panda P1 X1.md
       - PandaTouch.md
+      - PandaKnomi.md
       - PandaBranch.md
       - Panda Hub.md
       - Panda Jet.md 
@@ -238,6 +236,8 @@ nav:
       - Panda-AMS-Holder.md
       - Panda-AMS-Cable.md
       - Panda-AMS-Lite-Cable.md
+      - Panda Branch.md 
+      - Panda Touch.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
