@@ -68,13 +68,13 @@ Input:
 
 ### 40 pin GPIO
 
-<img src=img/Pi2/Pi2_GPIO.png width="600" />
+<img src=img/Pi2/Pi2_GPIO.png width="1200" />
 
 The method for calculating GPIO pins is as follows:
 
-GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138
+GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 = 1 * 8 + 2 = gpiochip4/gpio10
 
-GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127
+GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31
 
 ### UPS POWER
 

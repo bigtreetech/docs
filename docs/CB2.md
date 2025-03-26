@@ -261,13 +261,13 @@ Pressing and holding down SW1 will short-circuit the eMMC signal line to GND, pr
 
 ### 40 pin GPIO
 
-<img src=img/CB2/PI2_GPIO.png width="1200" />
+<img src=img/Pi2/Pi2_GPIO.png width="1200" />
 
 The calculation method for GPIO pins is as follows:
 
-GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 =  1 * 8 + 2 = gpiochip4/gpio10
+GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 = 1 * 8 + 2 = gpiochip4/gpio10
 
-GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 =  3 * 8 + 7 = gpiochip3/gpio31
+GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31
 
 ## **Flashing the System**
 

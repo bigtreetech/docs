@@ -66,13 +66,13 @@ BIGTREETECH Pi 2 采用性能更优的四核 A55-RK3566 芯片，接口功能丰
 
 ### 40 pin GPIO
 
-<img src=img/CB2/PI2_GPIO.png width="1200" />
+<img src=img/Pi2/Pi2_GPIO.png width="1200" />
 
 GPIO 引脚的计算方式如下：
 
-GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 =  1 * 8 + 2 = gpiochip4/gpio10
+GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 = 1 * 8 + 2 = gpiochip4/gpio10
 
-GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 =  3 * 8 + 7 = gpiochip3/gpio31
+GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31
 
 ### UPS POWER
 
