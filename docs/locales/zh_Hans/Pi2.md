@@ -66,23 +66,23 @@ BIGTREETECH Pi 2 采用性能更优的四核 A55-RK3566 芯片，接口功能丰
 
 ### 40 pin GPIO
 
-<img src=img/Pi2/Pi2_GPIO.png width="600" />
+<img src=img/CB2/PI2_GPIO.png width="1200" />
 
 GPIO 引脚的计算方式如下：
 
-GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138
+GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 =  1 * 8 + 2 = gpiochip4/gpio10
 
-GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127
+GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 =  3 * 8 + 7 = gpiochip3/gpio31
 
 ### UPS POWER
 
 <img src=img/Pi2/Pi2_UPS.png width="600" />
 
-规格为 HX5P-2.54MM 卧式，可配我司的 SKSM 应急电源板使用
+规格为PH-2.0MM-5Pin 卧式，可配我司的SKSM模块使用（需要自行压接线缆和端子）
 
 <img src=img/Pi2/Pi2_SPI.png width="600" />
 
-规格型号：W25Q256JWEIQ (标准配置没有这个型号，如有需要请联系定制) 
+规格型号：W25Q256JWEIQ (出厂默认不带此芯片，如有需要请联系定制)
 
 ### SPDIF OUT
 
@@ -204,9 +204,9 @@ https://github.com/bigtreetech/CB2/releases
 
 3、通过网线，WiFi 或者 USB 转 UART 连接到系统的终端，登录系统
 
-login: biqu
+login: `biqu`
 
-password: biqu
+password: `biqu`
 
 ① 运行 sudo nand-sata-install 命令，在弹出的界面中，选择 “2 Boot 
 
@@ -432,9 +432,9 @@ https://mobaxterm.mobatek.net/download-home-edition.html
 
 6、输入登录名和登录密码进入 SSH 终端界面
 
-登录名 login as：biqu 
+登录名 login as：`biqu`
 
-密码：biqu 
+密码：`biqu`
 
 <img src=img/Pi2/Pi2_System34.png width="600" />
 
@@ -444,15 +444,15 @@ https://mobaxterm.mobatek.net/download-home-edition.html
 
 2、root 管理员
 
-login：root
+login：`root`
 
-password：root
+password：`root`
 
 biqu 普通用户：
 
-login：biqu
+login：`biqu`
 
-password：biqu
+password：`biqu`
 
 
 

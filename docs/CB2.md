@@ -253,7 +253,7 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
 
 ### SW1 Button Explanation
 
-The EMMC will not start when holding the SW1 button for 3 seconds while powering up. Releasing the button allows for programming the EMMC using the RKDevTool.
+Pressing and holding down SW1 will short-circuit the eMMC signal line to GND, prohibiting communication between SoC and eMMC.
 
 <img src=img/CB2/CB2_Interface1.png width="600" />
 
@@ -261,13 +261,13 @@ The EMMC will not start when holding the SW1 button for 3 seconds while powering
 
 ### 40 pin GPIO
 
-<img src=img/CB2/CB2_Interface3.png width="600" />
+<img src=img/CB2/PI2_GPIO.png width="1200" />
 
 The calculation method for GPIO pins is as follows:
 
-GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138
+GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 =  1 * 8 + 2 = gpiochip4/gpio10
 
-GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127
+GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 =  3 * 8 + 7 = gpiochip3/gpio31
 
 ## **Flashing the System**
 
@@ -349,9 +349,9 @@ Download and unzip RKDevTool from the GitHub repository (https://github.com/bigt
 
 2、Connect to the system terminal via Ethernet cable, WiFi, or USB to UART, and log in to the system.
 
-login: biqu
+login: `biqu`
 
-password: biqu
+password: `biqu`
 
 Execute the command sudo nand-sata-install. In the interface that pops up, select "2 
 
@@ -571,7 +571,7 @@ Set the recording channel, as shown in the image.
 
 <img src=img/CB2/CB2_System34.png width="600" />
 
-6、Login as: biqu password: biqu
+6、Login as: `biqu` password: `biqu`
 
 <img src=img/CB2/CB2_System35.png width="600" />
 
@@ -581,17 +581,17 @@ Set the recording channel, as shown in the image.
 
 2、Root administrator:
 
-​		Login: root
+​		Login: `root`
 
-​		Password: root
+​		Password: `root`
 
 
 
 ​	BIQU user:
 
-​		Login: biqu
+​		Login: `biqu`
 
-​		Password: biqu
+​		Password: `biqu`
 
 3、The PCIe M.2 interface does not support hot-plugging; the solid-state drive must be connected in advance for the device to be recognized.
 

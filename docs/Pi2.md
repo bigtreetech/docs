@@ -68,19 +68,19 @@ Input:
 
 ### 40 pin GPIO
 
-<img src=img/Pi2/Pi2_GPIO.png width="600" />
+<img src=img/CB2/PI2_GPIO.png width="1200" />
 
 The method for calculating GPIO pins is as follows:
 
-GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138
+GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 =  1 * 8 + 2 = gpiochip4/gpio10
 
-GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127
+GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 =  3 * 8 + 7 = gpiochip3/gpio31
 
 ### UPS POWER
 
 <img src=img/Pi2/Pi2_UPS.png width="600" />
 
-Specifications: HX5P-2.54MM horizontal type, compatible with our company's SKSM emergency power supply board.
+Specifications: PH-2.0MM-5Pin horizontal type, compatible with our company's SKSM emergency power supply board.(Need to crimp cables and terminals by oneself)
 
 <img src=img/Pi2/Pi2_SPI.png width="600" />
 
@@ -206,9 +206,9 @@ First, write the system onto a MicroSD card, then insert the MicroSD card into t
 
 Connect to the system's terminal via Ethernet, WiFi, or USB to UART. Log in with the following credentials:
 
-login: biqu
+login: `biqu`
 
-password: biqu
+password: `biqu`
 
 Execute the command sudo nand-sata-install. In the interface that pops up, select "2 Boot From eMMC - system on eMMC" and then select "OK"
 
@@ -429,7 +429,7 @@ https://mobaxterm.mobatek.net/download-home-edition.html
 
 <img src=img/Pi2/Pi2_System33.png width="600" />
 
-6、Login as: biqu password: biqu
+6、Login as: `biqu` password: `biqu`
 
 <img src=img/Pi2/Pi2_System34.png width="600" />
 
@@ -439,17 +439,17 @@ https://mobaxterm.mobatek.net/download-home-edition.html
 
 2、Root administrator:
 
-​		Login: root
+​		Login: `root`
 
-​		Password: root
+​		Password: `root`
 
 
 
 ​	BIQU user:
 
-​		Login: biqu
+​		Login: `biqu`
 
-​		Password: biqu
+​		Password: `biqu`
 
 3、The PCIe M.2 interface does not support hot-plugging; the solid-state drive must be connected in advance for the device to be recognized.
 
