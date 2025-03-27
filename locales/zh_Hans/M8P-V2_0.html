@@ -3882,12 +3882,12 @@ Mac和Linux系统参考此处安装:
 <p>MANTA M8P板载了USB 2.0 Hub，为了节省功耗，CM4的USB端口默认是被禁用的，如果需要启用，需要在config.txt文件中添加以下内容：</p>
 <p>dtoverlay=dwc2,dr_mode=host</p>
 <h3 id="dsi1">DSI1显示<a class="headerlink" href="#dsi1" title="Permanent link">&para;</a></h3>
-<p>默认的显示接口是HDMI，MANTA M8P引出的DSI接口为DSI1，需要下载DSI1的驱动，在命令行输入以下内容：</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/dt-blob.bin
+<p>默认的显示接口是HDMI，MANTA M8P引出的DSI接口为DSI1，需要下载DSI1的驱动，在命令行输入以下内容（注意：<code>2023-10-10</code> 及其之后的系统，路径为 <code>/boot/firmware/dt-blob.bin</code>， 在此之前的系统，路径为 <code>/boot/dt-blob.bin</code>）：</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/firmware/dt-blob.bin
 </code></pre></div>
-<p>下载完此驱动后重新启动，DSI接口上的屏幕即可正常显示，如果想要使用HDMI接口需要删除下载的 /boot/dt-blob.bin 驱动然后重新启动，HDMI即可正常输出。</p>
+<p>下载完此驱动后重新启动，DSI接口上的屏幕即可正常显示，如果想要使用HDMI接口需要删除下载的 <code>/boot/firmware/dt-blob.bin</code> 驱动然后重新启动，HDMI即可正常输出。</p>
 <h3 id="csi1">CSI1摄像头<a class="headerlink" href="#csi1" title="Permanent link">&para;</a></h3>
-<p>4.4.2中下载的DSI1驱动也带有了CSI1的驱动，如果不想安装DSI1的驱动，只想安装CSI1的驱动，在https://datasheets.raspberrypi.com/licence.html找到想使用的驱动，下载到CM4的boot文件夹中并重命名为 dt-blob.bin，然后参考此处设置使用即可
+<p>4.4.2中下载的DSI1驱动也带有了CSI1的驱动，如果不想安装DSI1的驱动，只想安装CSI1的驱动，在https://datasheets.raspberrypi.com/licence.html找到想使用的驱动，下载到CM4的 <code>/boot/firmware/</code>（注意：<code>2023-10-10</code> 及其之后的系统，路径为 <code>/boot/firmware/</code>， 在此之前的系统，路径为 <code>/boot/</code>）文件夹中并重命名为 <code>dt-blob.bin</code>，然后参考此处设置使用即可
 <a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
 <h2 id="bigtreetech-cb1"><strong>BIGTREETECH CB1使用步骤</strong><a class="headerlink" href="#bigtreetech-cb1" title="Permanent link">&para;</a></h2>
 <h3 id="_16">下载系统镜像<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>

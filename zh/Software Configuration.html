@@ -3546,12 +3546,12 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>dtoverlay=dwc2,dr_mode=host
 </code></pre></div>
 <h3 id="dsi1"><strong>· DSI1显示接口</strong><a class="headerlink" href="#dsi1" title="Permanent link">&para;</a></h3>
-<p>​默认显示接口为HDMI。M4P的板载DSI端口使用DSI1​界面您需要下载DSI1驱动程序，并在中输入以下句子​命令行：</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/dt-blob.bin
+<p>​默认显示接口为HDMI。M4P的板载DSI端口使用DSI1​界面您需要下载DSI1驱动程序，并在中输入以下​命令行（注意：<code>2023-10-10</code> 及其之后的系统，路径为 <code>/boot/firmware/dt-blob.bin</code>， 在此之前的系统，路径为 <code>/boot/dt-blob.bin</code>）：</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/firmware/dt-blob.bin
 </code></pre></div>
-<p>​下载此驱动程序并重新启动后，DSI1的屏幕将正常工作。如果要使用HDMI接口，需要删除下载的<strong>/boot/dt blob.bin</strong>驱动程序并重新启动，HDMI才能正常输出。</p>
+<p>​下载此驱动程序并重新启动后，DSI1的屏幕将正常工作。如果要使用HDMI接口，需要删除下载的 <code>/boot/firmware/dt-blob.bin</code> 驱动程序并重新启动，HDMI才能正常输出。</p>
 <h3 id="csi1"><strong>· CSI1摄像机</strong><a class="headerlink" href="#csi1" title="Permanent link">&para;</a></h3>
-<p>4.4.2 DSI1显示接口中下载的DSI1驱动程序也包括CSI1驱动程序。如果您只想安装CSI1驱动程序，而不是DSI1，请在找到您要使用的驱动程序https://datasheets.raspberrypi.com/licence.html并将其下载到CM4的引导文件夹中，并将其重命名为dt-blob.bin，然后参考此处的设置。<a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
+<p>4.4.2 DSI1显示接口中下载的DSI1驱动程序也包括CSI1驱动程序。如果您只想安装CSI1驱动程序，而不是DSI1，请在找到您要使用的驱动程序https://datasheets.raspberrypi.com/licence.html并将其下载到CM4的 <code>/boot/firmware/</code>（注意：<code>2023-10-10</code> 及其之后的系统，路径为 <code>/boot/firmware/</code>， 在此之前的系统，路径为 <code>/boot/</code>）文件夹中，并将其重命名为<code>dt-blob.bin</code>，然后参考此处的设置。<a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
 <h2 id="wifi"><strong>· WIFI设置</strong><a class="headerlink" href="#wifi" title="Permanent link">&para;</a></h2>
 <p>​注意：如果使用网络电缆连接，则可以跳过此步骤。CB1无法像CM4那样直接使用树莓派成像仪设置WiFi名称和密码。操作系统映像写入完成后，MicroSD卡将具有计算机识别的FAT32分区，找到“system.cfg”</p>
 <p><img src=img/M4P/M4P_WIFI1.png width="600"/></p>

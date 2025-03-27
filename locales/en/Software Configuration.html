@@ -3404,14 +3404,13 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>dtoverlay=dwc2,dr_mode=host
 </code></pre></div>
 <h3 id="dsi1-display-interface"><strong>· DSI1 Display Interface</strong><a class="headerlink" href="#dsi1-display-interface" title="Permanent link">&para;</a></h3>
-<p>​   The default display interface is HDMI. The onboard DSI port of M4P uses the DSI1 
-​   interface. You need to download the DSI1 driver and enter the following sentence in 
-​   the command line:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/dt-blob.bin
+<p>The default display interface is HDMI. The DSI interface of the MANTA M8P is DSI1. To use it, download the DSI1 driver by entering the following command (Note: For systems released on or after <code>2023-10-10</code>, the path is <code>/boot/firmware/dt-blob.bin</code>, and for systems released before that, the path is <code>/boot/dt-blob.bin</code>):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/firmware/dt-blob.bin
 </code></pre></div>
-<p>​   After downloading this driver and restarting, the screen of DSI1 will work normally. If you want to use the HDMI interface, you need to delete the          downloaded <strong>/boot/dt-blob.bin</strong> driver and restart, then the HDMI can output normally.</p>
+<p>​   After downloading this driver and restarting, the screen of DSI1 will work normally. If you want to use the HDMI interface, you need to delete the          downloaded <strong>/boot/firmware/dt-blob.bin</strong> driver and restart, then the HDMI can output normally.</p>
 <h3 id="csi1-camera"><strong>· CSI1 Camera</strong><a class="headerlink" href="#csi1-camera" title="Permanent link">&para;</a></h3>
-<p>​   The DSI1 driver downloaded in 4.4.2 DSI1 Display Interface also includes the CSI1 driver. If you just want to install the CSI1 driver, not DSI1, please find    the driver you want to use at <a href="https://datasheets.raspberrypi.com/licence.html">https://datasheets.raspberrypi.com/licence.html</a> and download it in the boot folder of CM4 and rename it to dt-blob.bin,   and then refer to the settings here. <a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
+<p>The DSI1 driver downloaded in DSI1 Display also includes the CSI1 driver. If you don't want to install the DSI1 driver and only want to install the CSI1 driver, find the driver you want to use at <a href="https://datasheets.raspberrypi.com/licence.html">https://datasheets.raspberrypi.com/licence.html</a> download it to the CM4's <code>/boot/firmware/</code> (Note: For systems released on or after <code>2023-10-10</code>, the path is <code>/boot/firmware/</code>, and for systems released before that, the path is <code>/boot/</code>) folder, and rename it to <code>dt-blob.bin</code>, then refer to the settings here for use:
+<a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
 <h2 id="wifi-setting"><strong>· WIFI Setting</strong><a class="headerlink" href="#wifi-setting" title="Permanent link">&para;</a></h2>
 <p>​   Note: This step can be skipped if you are using a network cable connection.CB1 cannot directly use the Raspberry Pi Imager to set the WiFi name and     password like CM4. After the OS image writing is completed, the MicroSD card will have a FAT32 partition recognized by the computer, find"system.cfg"</p>
 <p><img src=img/M4P/M4P_WIFI1.png width="600"/></p>
