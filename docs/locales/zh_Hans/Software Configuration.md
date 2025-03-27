@@ -12,17 +12,17 @@ dtoverlay=dwc2,dr_mode=host
 
 ### **· DSI1显示接口**
 
-​默认显示接口为HDMI。M4P的板载DSI端口使用DSI1​界面您需要下载DSI1驱动程序，并在中输入以下句子​命令行：
+​默认显示接口为HDMI。M4P的板载DSI端口使用DSI1​界面您需要下载DSI1驱动程序，并在中输入以下​命令行（注意：`2023-10-10` 及其之后的系统，路径为 `/boot/firmware/dt-blob.bin`， 在此之前的系统，路径为 `/boot/dt-blob.bin`）：
 
 ```
-sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/dt-blob.bin
+sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/firmware/dt-blob.bin
 ```
 
-​下载此驱动程序并重新启动后，DSI1的屏幕将正常工作。如果要使用HDMI接口，需要删除下载的**/boot/dt blob.bin**驱动程序并重新启动，HDMI才能正常输出。
+​下载此驱动程序并重新启动后，DSI1的屏幕将正常工作。如果要使用HDMI接口，需要删除下载的 `/boot/firmware/dt-blob.bin` 驱动程序并重新启动，HDMI才能正常输出。
 
 ### **· CSI1摄像机**
 
-4.4.2 DSI1显示接口中下载的DSI1驱动程序也包括CSI1驱动程序。如果您只想安装CSI1驱动程序，而不是DSI1，请在找到您要使用的驱动程序https://datasheets.raspberrypi.com/licence.html并将其下载到CM4的引导文件夹中，并将其重命名为dt-blob.bin，然后参考此处的设置。https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
+4.4.2 DSI1显示接口中下载的DSI1驱动程序也包括CSI1驱动程序。如果您只想安装CSI1驱动程序，而不是DSI1，请在找到您要使用的驱动程序https://datasheets.raspberrypi.com/licence.html并将其下载到CM4的 `/boot/firmware/`（注意：`2023-10-10` 及其之后的系统，路径为 `/boot/firmware/`， 在此之前的系统，路径为 `/boot/`）文件夹中，并将其重命名为`dt-blob.bin`，然后参考此处的设置。https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
 
 ## **· WIFI设置**
 

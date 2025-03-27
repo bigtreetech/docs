@@ -12,19 +12,18 @@ dtoverlay=dwc2,dr_mode=host
 
 ### **· DSI1 Display Interface**
 
-​	The default display interface is HDMI. The onboard DSI port of M4P uses the DSI1 
-​	interface. You need to download the DSI1 driver and enter the following sentence in 
-​	the command line:
+The default display interface is HDMI. The DSI interface of the MANTA M8P is DSI1. To use it, download the DSI1 driver by entering the following command (Note: For systems released on or after `2023-10-10`, the path is `/boot/firmware/dt-blob.bin`, and for systems released before that, the path is `/boot/dt-blob.bin`):
 
 ```
-sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/dt-blob.bin
+sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boot/firmware/dt-blob.bin
 ```
 
-​	After downloading this driver and restarting, the screen of DSI1 will work normally. If you want to use the HDMI interface, you need to delete the 		  	downloaded **/boot/dt-blob.bin** driver and restart, then the HDMI can output normally.
+​	After downloading this driver and restarting, the screen of DSI1 will work normally. If you want to use the HDMI interface, you need to delete the 		  	downloaded **/boot/firmware/dt-blob.bin** driver and restart, then the HDMI can output normally.
 
 ### **· CSI1 Camera**
 
-​	The DSI1 driver downloaded in 4.4.2 DSI1 Display Interface also includes the CSI1 driver. If you just want to install the CSI1 driver, not DSI1, please find 	the driver you want to use at https://datasheets.raspberrypi.com/licence.html and download it in the boot folder of CM4 and rename it to dt-blob.bin, 	and then refer to the settings here. https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
+The DSI1 driver downloaded in DSI1 Display also includes the CSI1 driver. If you don't want to install the DSI1 driver and only want to install the CSI1 driver, find the driver you want to use at https://datasheets.raspberrypi.com/licence.html download it to the CM4's `/boot/firmware/` (Note: For systems released on or after `2023-10-10`, the path is `/boot/firmware/`, and for systems released before that, the path is `/boot/`) folder, and rename it to `dt-blob.bin`, then refer to the settings here for use:
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
 
 ## **· WIFI Setting**
 
