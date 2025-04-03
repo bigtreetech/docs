@@ -502,9 +502,24 @@ If there is something you would like to see in a future release of the Panda Kno
 
 ### Firmware History <a id="firmware_history"></a>
 
+#### [V1.0.3](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.3)
+
+- Fixed: Implement dedicated memory management logic for custom GIF, fixed the issue of insufficient memory caused by memory fragmentation when replacing GIFs.
+* Fixed: MQTT publish failed retry logic.
+* Fixed: MQTT receive buffer size has increased from 14KB to 80KB, because X1C connected to 4 AMS may have a single frame data size of up to 26KB, H2D may up to 50KB.
+* Fixed: Disable netbiosns to avoid the problem of devices failing to start when the hostname exceeds 15 characters.
+* Optimization: The background color of the QR code is fixed to black, and optimizing the contrast is not clear enough, which sometimes causes the phone to fail to scan successfully.
+* Optimization recolor GIF:
+    * Colors are directly stored in GIFs, so that color schemes can be moved along with GIF/IMG files, making it convenient for users to share color schemes.
+    * Convert the colored RGB to CMYK and merge it with the original color, preserving the anti-aliasing effect of GIF.
+    * Delete the configuration of useless alpha transparent channels in WebUI.
+    * Add a GIF loading interface to inform users of the current real-time status of Panda Knomi
+* Optimization: The 'Invalid IMG' interface only appears when the GIF to be displayed is invalid. The previous logic was that as long as any GIF was invalid, it would appear when any of the GIFs needed to be displayed.
+* Optimization: Add error codes to the message of WebUI wifi connection failure to help us locate the cause of the problem.
+
 #### [V1.0.2](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.2)
 
-- Fix: Solve the problem that the TCP connection is occupied and the Web UI cannot be accessed. Now the old connection will be forcibly disconnected and the latest Web UI request will be answered.
+- Fixed: Solve the problem that the TCP connection is occupied and the Web UI cannot be accessed. Now the old connection will be forcibly disconnected and the latest Web UI request will be answered.
 - Fixed: MQTT memory leak. Fixed the issue where Panda Knomi may remain in the state of `binding printer` after disconnecting and rebinding the printer more than 100 times.
 - Fixed: After unbinding a printer in Web UI, if you immediately click `Bind` the printer, Panda Knomi may not bind the printer.
 - Fix: After printing is completed, `gif_printing_ok.gif` is occasionally not displayed.

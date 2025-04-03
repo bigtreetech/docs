@@ -276,7 +276,7 @@
 
 ## 主题设置和IMG分享
 
-### 主题设置
+### 主题设置 <a id="theme-settings"></a>
 
 <img src=img/PandaKnomi/theme_1_2_3_4_5.jpg width="300"/>
 <img src=img/PandaKnomi/theme_6.jpg width="300"/>
@@ -442,6 +442,21 @@
 
 
 ### 固件历史记录 <a id="firmware_history"></a>
+
+#### [V1.0.3](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.3)
+
+- 修复: 为自定义GIF实现专用内存管理逻辑，修复了更换GIF时内存碎片导致的内存不足问题。
+* 修复: MQTT publish 失败重试逻辑。
+* 修复: MQTT 接收缓存由之前的14KB增加到80KB，因为X1C接4个AMS单帧数据量可能高达26KB，H2D可能高达50KB。
+* 修复: 禁用 netbiosns，避免hostname超过15个字符后设备无法启动的问题。
+* 优化: 二维码背景色固定为黑色，优化对比度不够明显导致手机有时无法成功扫描的问题。
+* 优化: GIF重新配色功能:
+    * 颜色直接存储到GIF中，这样配色就会跟着GIF/IMG文件移动，方便用户共享配色。
+    * 将着色的RGB转为CMYK再与原本的颜色合并，保留了GIF的抗锯齿效果。
+    * WebUI 删除无用的alpha透明通道的配置。
+    * 增加GIF加载中界面，告知用户PandaKnomi当前的实时状态。
+* 优化: 无效的IMG界面仅在需要显示的GIF无效时出现，之前的逻辑是只要有任意一个GIF无效，需要显示任意一下GIF时就会出现。
+* 优化: WebUI WiFi连接失败的信息中增加错误码，便于我们定位问题原因。
 
 #### [V1.0.2](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.2)
 

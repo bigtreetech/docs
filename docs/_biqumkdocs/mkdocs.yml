@@ -162,7 +162,6 @@ nav:
       - PAD7.md
       - KNOMI.md
       - KNOMI2.md
-      - PandaKnomi.md
       - Panda Touch.md
       - Klipper Touch.md
       - Panda Branch.md 
@@ -223,7 +222,7 @@ nav:
           - Panda A1Mini.md
           - Panda P1 X1.md
       - PandaTouch.md
-      - Panda Knomi.md
+      - PandaKnomi.md
       - PandaBranch.md
       - Panda Hub.md
       - Panda Jet.md 
