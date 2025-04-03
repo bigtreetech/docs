@@ -502,6 +502,10 @@ If there is something you would like to see in a future release of the Panda Kno
 
 ### Firmware History <a id="firmware_history"></a>
 
+#### [V1.0.3.1](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.3.1)
+
+* Optimization: WebUI custom GIFs with "resolution exceeding 240x240", "single GIF size exceeding 1.5MB" and "sum of all GIF sizes exceeding 3MB" dialog boxes, with added redirect links to wiki instructions for users to adjust GIFs to be compatible with PandaKonmi.
+
 #### [V1.0.3](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.3)
 
 - Fixed: Implement dedicated memory management logic for custom GIF, fixed the issue of insufficient memory caused by memory fragmentation when replacing GIFs.

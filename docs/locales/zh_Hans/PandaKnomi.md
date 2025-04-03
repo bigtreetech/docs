@@ -443,6 +443,10 @@
 
 ### 固件历史记录 <a id="firmware_history"></a>
 
+#### [V1.0.3.1](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.3.1)
+
+* 优化: WebUI 自定义的GIF "分辨率超过240x240", "单个GIF尺寸超过1.5MB" 和 "所有的GIF尺寸之和超过3MB" 弹窗界面，增加引导到wiki说明的跳转连接，便于用户调整GIF使其兼容PandaKnomi
+
 #### [V1.0.3](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.3)
 
 - 修复: 为自定义GIF实现专用内存管理逻辑，修复了更换GIF时内存碎片导致的内存不足问题。
