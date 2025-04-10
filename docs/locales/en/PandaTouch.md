@@ -23,6 +23,13 @@ The Panda Touch is currently compatible with all Bambu Lab printer firmware vers
 
 It is possible that Bambu Lab may release a future firmware version that impacts the functions available on the Panda Touch. Bigtreetech will monitor all beta firmware versions, and if we find a firmware version that affects Panda Touch functionality, we will send out an alert via email, Aliexpress chat, and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.
 
+Certain features of the Panda Touch, including initiating printing, controlling the motion system, adjusting temperatures, controlling fans, AMS settings/calibration, are likely to be affected by the authorization and authentication protection mechanisms in Bambu Lab's newly announced firmware which is currently only released for the X1 series. If using an X1 in cloud mode, these features may be unavailable. However, the ability to access printer status information, such as printing progress, nozzle temperature, and bed temperature, will remain unaffected while in cloud mode. To regain full control of X1 machines (or any machine with the new authentication firmware) when using the Panda Touch, you can manually enable Developer Mode under the LAN mode section.
+
+For more details, please refer to the official announcements by BIQU and Bambu Lab:
+1. https://bigtree-tech.com/blogs/news/announcement-on-bambu-lab-security-firmware-update
+2. https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/
+3. https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/
+
 ## IMPORTANT USAGE INFORMATION
 
 * When using "LAN Only" mode on a P1P or P1S, there is no need to connect the Panda Touch to a cloud account, and all printer functions will be available on the Panda Touch.
@@ -509,7 +516,7 @@ Click again to return to the file list view.
 
 ### How To Change The Panda Picture
 
-Use [this tool](https://pandatouch.us.kg/) to change the picture of the panda.
+Use [this tool](https://ptimgtool.bttwiki.com) to change the picture of the panda.
 * Ensure that the firmware version of Panda Touch is 1.0.6 or above. 
 * Please ensure that the image you want to replace meets the following requirements: 
   * Pixel width less than 280
@@ -635,7 +642,7 @@ If there is something you would like to see in a future release of the Panda Tou
 - **Skip Objects Support**: Allows users to skip objects during the print process. 
 - **Filament drying**: Adds filament drying functionality specifically for P1S.
 
-#### [V1.0.6.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.1/panda_touch-v1.0.6.1.bin)
+#### [V1.0.6.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.3/panda_touch-v1.0.6.3.bin)
 ##### Bug Fixes
 - **Fixed Crash when start printing**: Crash when start a print task from u-disk.
 - **Fixed Crash in OTA page**: Crash when click ssid of wifi in OTA page.
@@ -661,7 +668,7 @@ If there is something you would like to see in a future release of the Panda Tou
 - **Pre-Selection Options Before Printing**: The Auto Power-Off feature of Panda PWR is now by default set to off.
 - **Optimization of New_Panda File Verification**: Device checks the file upon power-up to avoid update interruptions that could prevent startup.
 - **Optimized Chamber Temperature Display Icon**.
-- **Improved IMG File Generation**: New new_panda files can now be generated using the [online tool](https://pandatouch.us.kg/).
+- **Improved IMG File Generation**: New new_panda files can now be generated using the [online tool](https://ptimgtool.bttwiki.com).
 
 ##### Bug Fixes
 - **Fixed Access Code Data Synchronization Issue**: Discrepancies in Access code data retrieved from the cloud server can cause loss of SN data, making it impossible to connect to the printer.

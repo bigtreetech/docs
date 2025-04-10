@@ -183,6 +183,15 @@ The Panda PWR records the power consumption of the load. To reset the data, clic
 ## Firmware
 
 ### Firmware History
+#### [V1.0.0.1](https://github.com/bigtreetech/PandaPWR/blob/master/Firmware/1.0.0.1/panda_pwr-v1.0.0.1.bin)
+##### Bug Fixes
+- **Can not bind to Panda Touch.**
+- **Can not scan wifi.**
+
+##### Functional Optimizations
+- **Add mdns server** Panda Touch can get Panda PWR's ip from LAN. 
+- **Optimized the layout of ssid list.**
+- **Supports up to 63 characters for WiFi password.** 
 
 #### [V1.0.0](https://github.com/bigtreetech/PandaPWR/blob/master/Firmware/1.0.0/panda_pwr-v1.0.0.bin)
 
