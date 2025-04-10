@@ -187,6 +187,15 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 ## 固件
 
 ### 固件历史
+#### [V1.0.0.1](https://github.com/bigtreetech/PandaPWR/blob/master/Firmware/1.0.0.1/panda_pwr-v1.0.0.1.bin)
+##### 修复BUG
+- **无法绑定到Panda Touch。**
+- **无法扫描WIFI。**
+
+##### 功能优化
+- **添加mdns服务** Panda Touch 可以从局域网获取到Panda PWR的IP. 
+- **改变WEB UI中的WIFI名称列表的布局。**
+- **最大支持的WIFI密码改为63个字符。** 
 
 #### [V1.0.0](https://github.com/bigtreetech/PandaPWR/blob/master/Firmware/1.0.0/panda_pwr-v1.0.0.bin)
 

@@ -15,6 +15,14 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 
 拓竹可能会在未来发布影响Panda Touch可用功能的固件版本。Bigtreetech将监控所有测试版固件版本，如果我们发现影响Panda Touch功能的固件版本，我们将通过电子邮件、速卖通聊天和我们的社交渠道发出警报。然后，购买者可以决定是否要冒着失去功能的风险执行更新。请注意，Panda Touch保修不包括由于执行Bambu Lab固件更新而导致的功能损失。
 
+Panda Touch 的部分功能（如发起打印、控制运动系统、调节温度、风扇、AMS设置及校准）预计将受到 Bambu Lab最近宣布的新固件中的授权和身份验证机制影响而无法使用（目前该固件在 X1 系列内测中），但获取打印进度、喷嘴温度、热床温度等打印机状态信息的功能不受影响，同时后续你仍可以在新固件的打印机中的LAN模式下手动启用开发者模式后以使用 Panda Touch 的全部功能。
+
+具体细节请参考必趣科技和Bambu Lab的官方公告：
+
+https://bigtree-tech.com/blogs/news/announcement-on-bambu-lab-security-firmware-update
+https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/
+https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/
+
 ## 重要使用信息
 
 * 当 P1P 或 P1S 使用“仅限局域网”模式时，无需将 Panda Touch 连接到云账户，所有打印机功能都可以从 Panda Touch 上使用。
