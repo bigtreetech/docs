@@ -288,7 +288,7 @@ The Panda Touch facilitates drying filaments on both the X1 series and P1S print
 
 ### Skip Objects
 > ***Note :*** 
-Begin printing tasks via the Bambu Studio or the Handy app.
+Begin printing tasks via the Bambu Studio.
 
 <img src=img/PandaTouch/skip_objects.gif width="400"/>
 
