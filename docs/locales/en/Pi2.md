@@ -236,7 +236,19 @@ Execute the command sudo nand-sata-install. In the interface that pops up, selec
 
 When using a MicroSD card as the system card instead, it's best to erase the data on the eMMC to prevent the motherboard from booting from it by mistake.
 
+#### Using UMS to Erase eMMC (Windows)
+> If a V3.0.1 or later version of the system has already been written into eMMC, the computer will recognize eMMC as a UMS device (Mass Storage device). UMS mode has the following advantages over Loader mode:
+> * We can directly modify the configuration in `/boot/` partition
+> * We can directly write the system image to eMMC like a Micro SD card
+> * All content in eMMC can be erased through software
+
+* Refer to the steps in "4.3.1 Using RKDevTool to Write the eMMC (Windows)" to connect the motherboard to the computer.
+* The computer will recognize eMMC as a UMS device.
+* Install [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) software to format UMS devices for eMMC. (Please do not directly use the formatting function provided by the Windows system, as it cannot completely erase the data in eMMC)
+
 #### Using RKDevTool to Erase eMMC (Windows)
+
+> If a system with V2.0.0 or earlier has been written into eMMC, the computer will recognize eMMC as a device in Loader mode.
 
 1、Refer to the steps in "4.3.1 Using RKDevTool to Write the eMMC (Windows)" to connect the motherboard to the computer.
 
