@@ -3444,6 +3444,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#umsemmc-windows" class="md-nav__link">
+    使用UMS擦除eMMC (Windows)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#rkdevtool-emmc-windows" class="md-nav__link">
     使用 RKDevTool 擦除 eMMC (Windows)
   </a>
@@ -3722,7 +3729,22 @@
 <p>⑥ 关机后断电，然后拔出 MicroSD 卡，重新再通电即可从 eMMC 启动</p>
 <h3 id="emmc_2">擦除 eMMC<a class="headerlink" href="#emmc_2" title="Permanent link">&para;</a></h3>
 <p>当不使用 eMMC，而使用 MicroSD 卡作为系统卡时，最好将 eMMC 的数据擦除，以免主板错误的从 eMMC 启动。</p>
+<h4 id="umsemmc-windows">使用UMS擦除eMMC (Windows)<a class="headerlink" href="#umsemmc-windows" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>若eMMC中已经烧录过V3.0.1及其之后版本的系统，电脑会将eMMC识别为UMS设备（类似U盘一样的设备）。UMS模式相对于Loader模式有以下好处：
+* 可以直接修改 /boot/ 分区中的配置信息
+* 可以直接像Micro SD卡那样，直接烧录系统到eMMC
+* 可以通过软件擦除eMMC中的所有内容</p>
+</blockquote>
+<ul>
+<li>参照“<strong>使用 RKDevTool 烧录系统到 eMMC</strong>”中的步骤，将主板连接到电脑</li>
+<li>电脑会将eMMC识别为UMS设备。</li>
+<li>安装 <a href="https://www.sdcard.org/downloads/formatter/">SD Card Formatter</a>  软件，格式化eMMC的UMS设备。(请不要直接使用windows系统提供的格式化功能，因为它无法完全擦除eMMC中的数据)</li>
+</ul>
 <h4 id="rkdevtool-emmc-windows">使用 RKDevTool 擦除 eMMC (Windows)<a class="headerlink" href="#rkdevtool-emmc-windows" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>若eMMC中已经烧录过V2.0.0及其之前版本的系统，电脑会将eMMC识别为Loader模式的设备。</p>
+</blockquote>
 <p>1、参照“<strong>使用 RKDevTool 烧录系统到 eMMC</strong>”中的步骤，将主板连接到电脑</p>
 <p>2、打开“RKDevTool”软件</p>
 <p><img src=img/Pi2/Pi2_System14.png width="600" /></p>

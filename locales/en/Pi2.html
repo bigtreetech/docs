@@ -3444,6 +3444,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#using-ums-to-erase-emmc-windows" class="md-nav__link">
+    Using UMS to Erase eMMC (Windows)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#using-rkdevtool-to-erase-emmc-windows" class="md-nav__link">
     Using RKDevTool to Erase eMMC (Windows)
   </a>
@@ -3722,7 +3729,22 @@
 <p>⑤ After the system has powered down, disconnect the power supply, remove the MicroSD card, and then reconnect power. The system should now boot from the eMMC.</p>
 <h3 id="erasing-emmc">Erasing eMMC<a class="headerlink" href="#erasing-emmc" title="Permanent link">&para;</a></h3>
 <p>When using a MicroSD card as the system card instead, it's best to erase the data on the eMMC to prevent the motherboard from booting from it by mistake.</p>
+<h4 id="using-ums-to-erase-emmc-windows">Using UMS to Erase eMMC (Windows)<a class="headerlink" href="#using-ums-to-erase-emmc-windows" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>If a V3.0.1 or later version of the system has already been written into eMMC, the computer will recognize eMMC as a UMS device (Mass Storage device). UMS mode has the following advantages over Loader mode:
+* We can directly modify the configuration in <code>/boot/</code> partition
+* We can directly write the system image to eMMC like a Micro SD card
+* All content in eMMC can be erased through software</p>
+</blockquote>
+<ul>
+<li>Refer to the steps in "4.3.1 Using RKDevTool to Write the eMMC (Windows)" to connect the motherboard to the computer.</li>
+<li>The computer will recognize eMMC as a UMS device.</li>
+<li>Install <a href="https://www.sdcard.org/downloads/formatter/">SD Card Formatter</a> software to format UMS devices for eMMC. (Please do not directly use the formatting function provided by the Windows system, as it cannot completely erase the data in eMMC)</li>
+</ul>
 <h4 id="using-rkdevtool-to-erase-emmc-windows">Using RKDevTool to Erase eMMC (Windows)<a class="headerlink" href="#using-rkdevtool-to-erase-emmc-windows" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>If a system with V2.0.0 or earlier has been written into eMMC, the computer will recognize eMMC as a device in Loader mode.</p>
+</blockquote>
 <p>1、Refer to the steps in "4.3.1 Using RKDevTool to Write the eMMC (Windows)" to connect the motherboard to the computer.</p>
 <p>2、Open the "RKDevTool".</p>
 <p><img src=img/Pi2/Pi2_System14.png width="600" /></p>
