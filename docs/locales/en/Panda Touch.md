@@ -639,7 +639,7 @@ If there is something you would like to see in a future release of the Panda Tou
 - **Skipping Objects Not working**: Can not select object.
 - **Reprint function Not working**: Synced with Bambu's latest cloud print request format (custom filaments temporarily unsupported).
 - **Printing with AMS Not working**: Added configurable AMS mapping to resolve AMS printing issues. (supports AMS-1 only, custom filaments unsupported).
-- **Thumbnails in other directories not displaying**: Thumbnails in FTPS other directories not displaying.
+- **Thumbnails in other directories not displaying**:.
 - **Sd-card File year information missing**:. 
 
 ##### Functional Optimizations
