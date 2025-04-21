@@ -633,6 +633,20 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
+#### [V1.0.7.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7.1/panda_touch-v1.0.7.1.bin)
+##### Bug Fixes
+- **Panda Sense Issue**: Panda Sense temperature values not updating.
+- **Skipping Objects Not working**: Can not select object.
+- **Reprint function Not working**: Synced with Bambu's latest cloud print request format (custom filaments temporarily unsupported).
+- **Printing with AMS Not working**: Added configurable AMS mapping to resolve AMS printing issues. (supports AMS-1 only, custom filaments unsupported).
+- **Thumbnails in other directories not displaying**: Thumbnails in FTPS other directories not displaying.
+- **Sd-card File year information missing**:. 
+
+##### Functional Optimizations
+- **Increased thumbnail Size**: Increased homepage thumbnail resolution from 128 * 128 to 280 * 306 when printing via Bambu Studio/Handy app. 
+- **Real-time printer model updates in background**. 
+- **Adjusted MQTT buffer size to 40KB**.  
+
 #### [V1.0.7](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7/panda_touch-v1.0.7.bin)
 ##### Bug Fixes
 - **Printer Name Synchronization Issue**: Ensures printer names are updated in real-time from the server.
