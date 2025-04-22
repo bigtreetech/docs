@@ -276,7 +276,11 @@ Panda Touch允许用户在X1系列和P1S上烘干耗材
 
 ### 零件跳过
 > ***注意 :*** 
-打印任务需要从Bambu Studio 或者 Handy app上发起，不支持重新打印的任务。 
+打印任务需要从Bambu Studio 或者 Handy app上发起，不支持重新打印的任务。  
+ 
+> ***以下情况不可用:***
+> 单盘1个或者64个以上零件
+> Bambu studio 版本低于V1.6
 
 <img src=img/PandaTouch/skip_objects.gif width="400"/>
 

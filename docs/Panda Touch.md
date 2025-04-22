@@ -287,8 +287,12 @@ The Panda Touch facilitates drying filaments on both the X1 series and P1S print
 <br><img src=img/PandaTouch/filament_dry.png width="400"/>
 
 ### Skip Objects
-> ***Note :*** 
+> **Note :** 
 Begin printing tasks via the Bambu Studio or the Handy app.
+ 
+> ***Not available in:***
+> 1 or 64+ objects in single plate
+> Bambu studio slicer lower than V1.6
 
 <img src=img/PandaTouch/skip_objects.gif width="400"/>
 
@@ -644,8 +648,7 @@ If there is something you would like to see in a future release of the Panda Tou
 
 ##### Functional Optimizations
 - **Increased thumbnail Size**: Increased homepage thumbnail resolution from 128 * 128 to 280 * 306 when printing via Bambu Studio/Handy app. 
-- **Real-time printer model updates in background**. 
-- **Adjusted MQTT buffer size to 40KB**.  
+- **Real-time printer model updates in background**.  
 
 #### [V1.0.7](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7/panda_touch-v1.0.7.bin)
 ##### Bug Fixes
