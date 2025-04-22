@@ -289,12 +289,13 @@ The Panda Touch facilitates drying filaments on both the X1 series and P1S print
 ### Skip Objects
 > **Note :** 
 Begin printing tasks via the Bambu Studio or the Handy app.
- 
-> ***Not available in:***
-> 1 or 64+ objects in single plate
-> Bambu studio slicer lower than V1.6
+~~~
+Not available
+- 1 or 64+ objects in single plate 
+- Bambu studio slicer lower than V1.6
+~~~ 
 
-<img src=img/PandaTouch/skip_objects.gif width="400"/>
+<img src=img/PandaTouch/skip_objects.gif width="400"/> 
 
 ### HMS (Health Management System)
 
