@@ -276,7 +276,12 @@ Panda Touch允许用户在X1系列和P1S上烘干耗材
 
 ### 零件跳过
 > ***注意 :*** 
-打印任务需要从Bambu Studio 或者 Handy app上发起，不支持重新打印的任务。 
+打印任务需要从Bambu Studio 或者 Handy app上发起，不支持重新打印的任务。  
+~~~
+以下情况不可用
+- 单盘1个或者64个以上零件 
+- Bambu studio 版本低于V1.6
+~~~  
 
 <img src=img/PandaTouch/skip_objects.gif width="400"/>
 
@@ -619,6 +624,20 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### 固件历史记录 <a id="firmware_history"></a>
+#### [V1.0.7.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7.1/panda_touch-v1.0.7.1.bin)
+##### Bug修复
+- **Panda Sense问题**：Panda Sense温度值有时不更新.
+- **零件跳过不可用**：有些打印任务零件跳过功能不可用.
+- **重打印功能异常**：同步拓竹最新云打印请求格式（暂不支持自定义耗材）.
+- **AMS打印异常**：可配置AMS映射（当前仅支持AMS-1，不支持自定义耗材）.
+- **FTPS其他目录的缩略图不显示**。
+- **SD卡文件年份信息丢失**。
+
+##### 功能优化
+- **提升缩略图尺寸**：通过Bambu Studio/Handy app打印时，主页缩略图分辨率由128 * 128增大至280 * 306.
+- **后台机型实时更新**：实时从云服务器同步打印机机型.
+- **调整MQTT缓存**：将MQTT缓冲区大小调整为40KB.
+
 #### [V1.0.7](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7/panda_touch-v1.0.7.bin)
 ##### 修复BUG
 - **修复打印机名称不同步问题**：实时获取服务器上打印机名称，如果发生变化就更新它。
