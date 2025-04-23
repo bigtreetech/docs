@@ -140,6 +140,7 @@ nav:
         - M5P.md
         - M8P.md
         - M8P-V2_0.md
+        - DZ01.md
       - EBB系列:
         - EBB 36 CAN.md
         - EBB 42 CAN.md
@@ -165,7 +166,6 @@ nav:
       - Panda Touch.md
       - Klipper Touch.md
       - Panda Branch.md 
-      - DZ01.md
     - 显示屏:
       - TFT43-DIP.md
       - TFT35 E3.md
