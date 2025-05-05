@@ -1,0 +1,34 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+"ghcr.io/wxw-matt/devcontainer-features/script_runner:0": {}
+  {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/wxw-matt/devcontainer-features/apt:latest": {
+			"packages": "vim telnet curl"
+        }
+    }
+}
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/wxw-matt/devcontainer-features/command_runner:latest": {
+			"command1": "curl -L 'https://github.com/docker/compose/releases/download/v2.17.3/docker-compose-$(uname -s)-$(uname -m)' -o /usr/local/bin/docker-compose",
+			"command2": "chmod +x /usr/local/bin/docker-compose"
+        }
+    }
+}
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/wxw-matt/devcontainer-features/script_runner:latest": {
+            "script1": "install_vim_plugins#https://gist.githubusercontent.com/wxw-matt/ff35edb5e60c2a404b18724bf63be964/raw",
+            "script2": "avoid_password_service_ssh_start#https://gist.github.com/wxw-matt/186afd98891bd2c26adfb5b3045d236c/raw"
+        }
+    }
+}
+{
+"install_vim_plugins#https://gist.githubusercontent.com/wxw-matt/ff35edb5e60c2a404b18724bf63be964/raw"
+}
+}
