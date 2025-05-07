@@ -131,7 +131,7 @@ To flash Katapult on Raspberry Pi or CB1, refer to the following instructions to
 
 <img src=img/mmb_can_v2_0/mmb_can_v2_0_klipper3.png width="600" />
 
-**[\*] Enable extra low-level configuration optionsMicro-controller**
+**[\*] Enable extra low-level configuration options**
 
 **Micro-controller Architecture (STMicroelectronics STM32) --->**
 

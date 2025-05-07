@@ -140,7 +140,7 @@ To flash CanBoot on Raspberry Pi or CB1, follow the instructions at https://gith
 
 <img src=img/MMB_CAN/MMB_CAN_Klipper4.png width="600" />
 
-**[\*] Enable extra low-level configuration optionsMicro-controller**
+**[\*] Enable extra low-level configuration options**
 
 **Micro-controller Architecture (STMicroelectronics STM32) --->**
 

@@ -157,21 +157,26 @@ If you are coming from the old BIGTREETECH branch of Klipper then we recommend u
 
 3.Use these settings to compile the firmware.
 
-<img src=img/Eddy/Eddy_System1.png width="600" />
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-<font  color="blue">**[*] Enable extra low-level configuration optionsMicro-controller**</font>
+<font  color="blue">**[*] Enable extra low-level configuration options**</font>
 
-<font  color="blue">**Micro-controller Architecture (Raspberry Pi RP2040) --->**</font>
+<font  color="blue">**Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**</font>
 
-<font  color="blue">**Bootloader offset (No bootloader) --->**</font>
+<font  color="blue">**Processor model (rp2040)  --->**</font>
 
-<font  color="blue">**Flash chip (W25Q080 with CLKDIV 2) --->**</font>
+<font  color="blue">**Bootloader offset (No bootloader)  --->**</font>
 
-<font  color="blue">**Communication interface (USB) --->**</font>
+<font  color="blue">**Flash chip (GENERIC_03H with CLKDIV 4)  --->**</font>
 
-<font  color="blue">**USB ids --->**</font>
+USB communication
+<font  color="blue">**Communication Interface (USBSERIAL)  --->**</font>
 
-<font  color="blue">**() GPIO pins to set at micro-controller startup**</font>
+CAN-Bus communication
+<font  color="blue">**Communication interface (CAN bus) --->**</font>
+<font  color="blue">**(4) CAN RX gpio number**</font>
+<font  color="blue">**(5) CAN TX gpio number**</font>
+<font  color="blue">**(1000000) CAN bus speed**</font>
 
 4.Once set, hit 'Q' and when asked, select yes to save. 
 

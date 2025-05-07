@@ -69,17 +69,19 @@ Connecting to Manta M8P (Soldering Wires)
 
 ​	Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper1.png width="600"/>
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-**[\*] Enable extra low-level configuration optionsMicro-controller**
+**[\*] Enable extra low-level configuration options**
 
- **Micro-controller Architecture (Raspberry Pi RP2040) --->**
+ **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
 
- **Bootloader offset (No bootloader) --->**
+ **Processor model (rp2040)  --->**
 
- **Flash chip (W25Q080 with CLKDIV 2) --->**
+ **Bootloader offset (No bootloader)  --->**
 
- **Communication interface (USB) --->**
+ **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
+
+ **Communication Interface (USBSERIAL)  --->**
 
 2.After configuration, press **q** to exit, and select **Yes** when prompted to save.
 

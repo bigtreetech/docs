@@ -153,21 +153,26 @@ BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可
 
 3.使用下面的配置编译固件
 
-<img src=img/Eddy/Eddy_System1.png width="600" />
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-<font  color="blue">**[*] Enable extra low-level configuration optionsMicro-controller**</font>
+<font  color="blue">**[*] Enable extra low-level configuration options**</font>
 
-<font  color="blue">**Micro-controller Architecture (Raspberry Pi RP2040) --->**</font>
+<font  color="blue">**Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**</font>
 
-<font  color="blue">**Bootloader offset (No bootloader) --->**</font>
+<font  color="blue">**Processor model (rp2040)  --->**</font>
 
-<font  color="blue">**Flash chip (W25Q080 with CLKDIV 2) --->**</font>
+<font  color="blue">**Bootloader offset (No bootloader)  --->**</font>
 
-<font  color="blue">**Communication interface (USB) --->**</font>
+<font  color="blue">**Flash chip (GENERIC_03H with CLKDIV 4)  --->**</font>
 
-<font  color="blue">**USB ids --->**</font>
+USB communication
+<font  color="blue">**Communication Interface (USBSERIAL)  --->**</font>
 
-<font  color="blue">**() GPIO pins to set at micro-controller startup**</font>
+CAN-Bus communication
+<font  color="blue">**Communication interface (CAN bus) --->**</font>
+<font  color="blue">**(4) CAN RX gpio number**</font>
+<font  color="blue">**(5) CAN TX gpio number**</font>
+<font  color="blue">**(1000000) CAN bus speed**</font>
 
 4.配置选择完成后, 输入 ‘q’ 退出配置界面，当询问是否保存配置时选择“Yes”；
 

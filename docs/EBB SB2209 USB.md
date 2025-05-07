@@ -166,15 +166,17 @@ available, update the Klipper firmware source code to the latest version).
 
 **[\*] Enable extra low-level configuration options**
 
- **Micro-controller Architecture (Raspberry Pi RP2040) --->** 
+ **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
 
- **Bootloader offset (No bootloader) --->** 
+ **Processor model (rp2040)  --->**
 
- **Flash chip (W25Q080 with CLKDIV 2) --->** 
+ **Bootloader offset (No bootloader)  --->**
 
- **Communication Interface (USBSERIAL) --->**
+ **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper1.png width="600"/>
+ **Communication Interface (USBSERIAL)  --->**
+
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
 2、After configuring, enter ‘q’ to exit the configuration interface. When asked to 
 

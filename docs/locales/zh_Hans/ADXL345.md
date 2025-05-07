@@ -67,17 +67,19 @@ BIGTREETECH ADXL345 V2.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ​	使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)；
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper1.png width="600"/>
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-**[\*] Enable extra low-level configuration optionsMicro-controller**
+**[\*] Enable extra low-level configuration options**
 
- **Micro-controller Architecture (Raspberry Pi RP2040) --->**
+ **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
 
- **Bootloader offset (No bootloader) --->**
+ **Processor model (rp2040)  --->**
 
- **Flash chip (W25Q080 with CLKDIV 2) --->**
+ **Bootloader offset (No bootloader)  --->**
 
- **Communication interface (USB) --->**
+ **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
+
+ **Communication Interface (USBSERIAL)  --->**
 
 2.配置选择完成后, 输入 ‘q’退出配置界面，当询问是否保存配置时选择“Yes”；
 

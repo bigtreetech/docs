@@ -123,7 +123,7 @@ Note: Katapult is for direct firmware updates via CAN bus. Skip this step if usi
 
 ​	and configure as shown in the image below.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper1.png width="600" />
+<img src=img/rp2040_katapult_menuconfig.png width="600"/>
 
 \3) Enter **make** to compile the firmware. When **make** is completed, the required **katapult.uf2** firmware will be generated in the **home/biqu/Katapult/out** folder and can be directly downloaded to the computer on the left side of the SSH software.
 
@@ -155,11 +155,13 @@ Note: Katapult is for direct firmware updates via CAN bus. Skip this step if usi
 
 ​	Compile the firmware using the configuration below (if these options are not available, update the Klipper firmware source code to the latest version).
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper4.png width="600" />
+<img src=img/rp2040_canbus_menuconfig.png width="600" />
 
 ​	**[\*] Enable extra low-level configuration options**
 
-​	 **Micro-controller Architecture (Raspberry Pi RP2040) --->**
+​	 **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
+
+​	 **Processor model (rp2040)  --->**
 
 ​	If not using Katapult:
 
@@ -169,7 +171,7 @@ Note: Katapult is for direct firmware updates via CAN bus. Skip this step if usi
 
 ​	 **Bootloader offset (16KiB bootloader) --->**
 
-​	 **Flash chip (W25Q080 with CLKDIV 2) --->**
+​	 **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
 
 ​	If using CAN Bus communication:
 
@@ -184,10 +186,6 @@ Note: Katapult is for direct firmware updates via CAN bus. Skip this step if usi
 ​	If using USB communication:
 
 ​	 **Communication Interface (USBSERIAL) --->**
-
-​	 **USB ids --->**
-
-​	**() GPIO pins to set at micro-controller startup**
 
 \2. After configuring, enter ‘q’ to exit the configuration interface. When asked to save configuration, select ‘Yes’.
 

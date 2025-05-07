@@ -129,7 +129,7 @@ BIGTREETECH MMB CAN V2.0是深圳市必趣创新科技有限公司3D打印团队
 
 <img src=img/mmb_can_v2_0/mmb_can_v2_0_klipper3.png width="600" />
 
-**[\*] Enable extra low-level configuration optionsMicro-controller**
+**[\*] Enable extra low-level configuration options**
 
 **Micro-controller Architecture (STMicroelectronics STM32) --->**
 

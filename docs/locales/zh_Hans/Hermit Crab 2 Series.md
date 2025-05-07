@@ -115,7 +115,7 @@ https://github.com/Arksine/Katapult
 
 ​	并按照下图配置
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware1.png width="600" />
+<img src=img/rp2040_katapult_menuconfig_led.png width="600"/>
 
 3、输入make编译固件，当make执行完成后会在home/biqu/Katapult/out文件夹中生成我们所需要的‘katapult.uf2’固件，在SSH软件左侧可以直接下载到电
 脑中；
@@ -156,7 +156,7 @@ https://github.com/Arksine/Katapult
 
 ​		**Bootloader offset (No bootloader) --->**
 
-​		**Flash chip (W25Q080 with CLKDIV 2) --->**
+​		**Flash chip (GENERIC_03H with CLKDIV 4)  --->**
 
 ​	如果使用Katapult:
 

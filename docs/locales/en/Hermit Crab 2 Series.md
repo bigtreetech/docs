@@ -115,7 +115,7 @@ https://github.com/Arksine/Katapult
 
 ​	and configure as shown in the image below.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware1.png width="600" />
+<img src=img/rp2040_katapult_menuconfig_led.png width="600"/>
 
 3、Enter make to compile the firmware. When make is completed, the required katapult.uf2 firmware will be generated in the home/biqu/Katapult/out folder and can be directly downloaded to the computer on the left side of the SSH software.
 
@@ -155,7 +155,7 @@ https://github.com/Arksine/Katapult
 
 ​		**Bootloader offset (No bootloader) --->**
 
-​		**Flash chip (W25Q080 with CLKDIV 2) --->**
+​		**Flash chip (GENERIC_03H with CLKDIV 4)  --->**
 
 ​	If using Katapult:
 

@@ -162,17 +162,19 @@ KNOMI 2:
 
 使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本) 
 
-**[\*] Enable extra low-level configuration options** 
+**[\*] Enable extra low-level configuration options**
 
- **Micro-controller Architecture (Raspberry Pi RP2040) --->** 
+ **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
 
- **Bootloader offset (No bootloader) --->** 
+ **Processor model (rp2040)  --->**
 
- **Flash chip (W25Q080 with CLKDIV 2) --->** 
+ **Bootloader offset (No bootloader)  --->**
 
- **Communication Interface (USBSERIAL) --->**
+ **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper1.png width="600"/>
+ **Communication Interface (USBSERIAL)  --->**
+
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
 2、配置选择完成后, 输入 `q` 退出配置界面，当询问是否保存配置是选择 "Yes"
 
