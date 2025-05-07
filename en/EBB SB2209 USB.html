@@ -3918,11 +3918,12 @@
 <p>Compile the firmware using the configuration below (if these options are not </p>
 <p>available, update the Klipper firmware source code to the latest version).</p>
 <p><strong>[*] Enable extra low-level configuration options</strong></p>
-<p><strong>Micro-controller Architecture (Raspberry Pi RP2040) ---&gt;</strong> </p>
-<p><strong>Bootloader offset (No bootloader) ---&gt;</strong> </p>
-<p><strong>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</strong> </p>
-<p><strong>Communication Interface (USBSERIAL) ---&gt;</strong></p>
-<p><img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper1.png width="600"/></p>
+<p><strong>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</strong></p>
+<p><strong>Processor model (rp2040)  ---&gt;</strong></p>
+<p><strong>Bootloader offset (No bootloader)  ---&gt;</strong></p>
+<p><strong>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</strong></p>
+<p><strong>Communication Interface (USBSERIAL)  ---&gt;</strong></p>
+<p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
 <p>2、After configuring, enter ‘q’ to exit the configuration interface. When asked to </p>
 <p>save configuration, select ‘Yes’.</p>
 <p>3、Enter <strong>make</strong> to compile the firmware. When make is completed, the required </p>

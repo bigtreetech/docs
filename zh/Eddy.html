@@ -4091,14 +4091,19 @@
 <p><font  color="blue"><strong>git checkout master</strong></font></p>
 <p>2.接下来，输入：<font  color="blue"><strong>make menuconfig</strong></font></p>
 <p>3.使用下面的配置编译固件</p>
-<p><img src=img/Eddy/Eddy_System1.png width="600" /></p>
-<p><font  color="blue"><strong>[*] Enable extra low-level configuration optionsMicro-controller</strong></font></p>
-<p><font  color="blue"><strong>Micro-controller Architecture (Raspberry Pi RP2040) ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>Bootloader offset (No bootloader) ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>Communication interface (USB) ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>USB ids ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>() GPIO pins to set at micro-controller startup</strong></font></p>
+<p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
+<p><font  color="blue"><strong>[*] Enable extra low-level configuration options</strong></font></p>
+<p><font  color="blue"><strong>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</strong></font></p>
+<p><font  color="blue"><strong>Processor model (rp2040)  ---&gt;</strong></font></p>
+<p><font  color="blue"><strong>Bootloader offset (No bootloader)  ---&gt;</strong></font></p>
+<p><font  color="blue"><strong>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</strong></font></p>
+<p>USB communication
+<font  color="blue"><strong>Communication Interface (USBSERIAL)  ---&gt;</strong></font></p>
+<p>CAN-Bus communication
+<font  color="blue"><strong>Communication interface (CAN bus) ---&gt;</strong></font>
+<font  color="blue"><strong>(4) CAN RX gpio number</strong></font>
+<font  color="blue"><strong>(5) CAN TX gpio number</strong></font>
+<font  color="blue"><strong>(1000000) CAN bus speed</strong></font></p>
 <p>4.配置选择完成后, 输入 ‘q’ 退出配置界面，当询问是否保存配置时选择“Yes”；</p>
 <p>5.输入 <font  color="blue"><strong>make</strong></font> 编译固件，当 make 执行完成后会在 home/pi/klipper/out 文件夹中生成我们所需要的‘klipper.uf2’固件，在 SSH 软件左侧可以直接下载到电脑中。</p>
 <p><img src=img/Eddy/Eddy_System2.png width="600" /></p>

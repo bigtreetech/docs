@@ -3495,7 +3495,7 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>make menuconfig
 </code></pre></div>
 <p>and configure according to the following figure</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software1.png width="600"/></p>
+<p><img src=img/rp2040_katapult_menuconfig_led.png width="600"/></p>
 <p>3.Run</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>make
 </code></pre></div>
@@ -3522,11 +3522,11 @@
 <a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>make menuconfig
 </code></pre></div>
 <p>Compile the firmware with the following configuration (if the options below are not available, please update your Klipper source code to the newest version).</p>
-<p>[*] Enable extra low-level configuration  optionsMicro-controller Architecture</p>
-<p>(Raspberry Pi RP2040) ---&gt;</p>
+<p>[*] Enable extra low-level configuration  options</p>
+<p>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</p>
 <p><font  color="red"><strong>If you do not use Katapult</strong></font> </p>
 <p>Bootloader offset (No bootloader) ---&gt;</p>
-<p>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</p>
+<p>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</p>
 <p><font  color="red"><strong>If Katapult is used</strong></font> </p>
 <p>Bootloader offset (16KiB bootloader) ---&gt;</p>
 <p><font  color="red"><strong>If USB communication on Type-C is used</strong></font> </p>

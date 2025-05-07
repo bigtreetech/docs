@@ -3494,7 +3494,7 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>make menuconfig
 </code></pre></div>
 <p>并按照下图配置</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software1.png width="600"/></p>
+<p><img src=img/rp2040_katapult_menuconfig_led.png width="600"/></p>
 <p>3.输入make编译固件，当make执行完成后会在 home/biqu/Katapult/out 文件夹中生成我们所需要的‘canboot.uf2’固件，在SSH软件左侧可以直接下载到电脑中。</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software18.png width="600"/></p>
 <p>4.1 请使用Type-C连接线将 EBB SB2209 CAN V1.0(RP2040) 连接至树莓派/CB1，并确保已连接USB_5V跳线帽，以便通过Type-C为EBB SB2209 CAN V1.0 (RP2040) 提供电源。</p>
@@ -3518,11 +3518,11 @@
 <a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>make menuconfig
 </code></pre></div>
 <p>使用下面的配置编译固件(如果没有下列选项，请更新Klipper固件源码到最新版本。</p>
-<p>[*] Enable extra low-level configuration  optionsMicro-controller Architecture</p>
-<p>(Raspberry Pi RP2040) ---&gt;</p>
+<p>[*] Enable extra low-level configuration  options</p>
+<p>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</p>
 <p><font  color="red"><strong>如果不使用Katapult</strong></font> </p>
 <p>Bootloader offset (No bootloader) ---&gt;</p>
-<p>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</p>
+<p>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</p>
 <p><font  color="red"><strong>如果使用Katapult</strong></font> </p>
 <p>Bootloader offset (16KiB bootloader) ---&gt;</p>
 <p><font  color="red"><strong>如果使用Type-C上的USB通信</strong></font> </p>

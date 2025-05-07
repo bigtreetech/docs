@@ -4107,14 +4107,19 @@ toolboard. You will need to compile firmware for that toolboard using the master
 <p>2.Next, type:</p>
 <p><font  color="blue"><strong>make menuconfig</strong></font></p>
 <p>3.Use these settings to compile the firmware.</p>
-<p><img src=img/Eddy/Eddy_System1.png width="600" /></p>
-<p><font  color="blue"><strong>[*] Enable extra low-level configuration optionsMicro-controller</strong></font></p>
-<p><font  color="blue"><strong>Micro-controller Architecture (Raspberry Pi RP2040) ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>Bootloader offset (No bootloader) ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>Communication interface (USB) ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>USB ids ---&gt;</strong></font></p>
-<p><font  color="blue"><strong>() GPIO pins to set at micro-controller startup</strong></font></p>
+<p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
+<p><font  color="blue"><strong>[*] Enable extra low-level configuration options</strong></font></p>
+<p><font  color="blue"><strong>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</strong></font></p>
+<p><font  color="blue"><strong>Processor model (rp2040)  ---&gt;</strong></font></p>
+<p><font  color="blue"><strong>Bootloader offset (No bootloader)  ---&gt;</strong></font></p>
+<p><font  color="blue"><strong>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</strong></font></p>
+<p>USB communication
+<font  color="blue"><strong>Communication Interface (USBSERIAL)  ---&gt;</strong></font></p>
+<p>CAN-Bus communication
+<font  color="blue"><strong>Communication interface (CAN bus) ---&gt;</strong></font>
+<font  color="blue"><strong>(4) CAN RX gpio number</strong></font>
+<font  color="blue"><strong>(5) CAN TX gpio number</strong></font>
+<font  color="blue"><strong>(1000000) CAN bus speed</strong></font></p>
 <p>4.Once set, hit 'Q' and when asked, select yes to save. </p>
 <p>5.Enter <font  color="blue"><strong>make </strong></font>to compile the firmware. When make is completed, the required <font  color="blue"><strong>klipper.uf2</strong></font> firmware will be generated in the <font  color="blue"><strong>home/pi/klipper/out folder </strong></font> and can be directly downloaded to the computer on the left side of the SSH software.</p>
 <p><img src=img/Eddy/Eddy_System2.png width="600" /></p>

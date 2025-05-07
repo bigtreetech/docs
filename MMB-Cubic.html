@@ -3587,7 +3587,7 @@
 <p>\2) Enter</p>
 <p>​   <strong>make menuconfig</strong></p>
 <p>​   and configure as shown in the image below.</p>
-<p><img src=img/MMB_Cubic/MMB_Cubic_Klipper1.png width="600" /></p>
+<p><img src=img/rp2040_katapult_menuconfig.png width="600"/></p>
 <p>\3) Enter <strong>make</strong> to compile the firmware. When <strong>make</strong> is completed, the required <strong>katapult.uf2</strong> firmware will be generated in the <strong>home/biqu/Katapult/out</strong> folder and can be directly downloaded to the computer on the left side of the SSH software.</p>
 <p><img src=img/MMB_Cubic/MMB_Cubic_Klipper2.png width="600" /></p>
 <p>\4) Hold down the Boot button and connect to Raspberry Pi/CB1 with a Type-C cable. This allows the chip to enter DFU mode.</p>
@@ -3603,14 +3603,15 @@
 <p>​   <strong>cd ~/klipper/</strong></p>
 <p>​   <strong>make menuconfig</strong></p>
 <p>​   Compile the firmware using the configuration below (if these options are not available, update the Klipper firmware source code to the latest version).</p>
-<p><img src=img/MMB_Cubic/MMB_Cubic_Klipper4.png width="600" /></p>
+<p><img src=img/rp2040_canbus_menuconfig.png width="600" /></p>
 <p>​   <strong>[*] Enable extra low-level configuration options</strong></p>
-<p>​    <strong>Micro-controller Architecture (Raspberry Pi RP2040) ---&gt;</strong></p>
+<p>​    <strong>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</strong></p>
+<p>​    <strong>Processor model (rp2040)  ---&gt;</strong></p>
 <p>​   If not using Katapult:</p>
 <p>​    <strong>Bootloader offset (No bootloader) ---&gt;</strong></p>
 <p>​   If using Katapult:</p>
 <p>​    <strong>Bootloader offset (16KiB bootloader) ---&gt;</strong></p>
-<p>​    <strong>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</strong></p>
+<p>​    <strong>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</strong></p>
 <p>​   If using CAN Bus communication:</p>
 <p>​    <strong>Communication Interface (CAN bus) ---&gt;</strong></p>
 <p>​   <strong>(4) CAN RX gpio number</strong></p>
@@ -3618,8 +3619,6 @@
 <p>​   <strong>(1000000) CAN bus speed</strong></p>
 <p>​   If using USB communication:</p>
 <p>​    <strong>Communication Interface (USBSERIAL) ---&gt;</strong></p>
-<p>​    <strong>USB ids ---&gt;</strong></p>
-<p>​   <strong>() GPIO pins to set at micro-controller startup</strong></p>
 <p>\2. After configuring, enter ‘q’ to exit the configuration interface. When asked to save configuration, select ‘Yes’.</p>
 <p>\3. Enter <strong>make</strong> to compile the firmware. When <strong>make</strong> is completed, the required <strong>klipper.bin</strong> firmware will be generated in the <strong>home/pi/klipper/out</strong>folder.</p>
 <h3 id="firmware-update-via-katapult"><strong>Firmware Update via KATAPULT</strong><a class="headerlink" href="#firmware-update-via-katapult" title="Permanent link">&para;</a></h3>

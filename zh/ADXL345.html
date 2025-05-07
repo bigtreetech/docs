@@ -3606,12 +3606,13 @@
 <p>​   <strong>cd ~/klipper/</strong></p>
 <p>​   <strong>make menuconfig</strong></p>
 <p>​   使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)；</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper1.png width="600"/></p>
-<p><strong>[*] Enable extra low-level configuration optionsMicro-controller</strong></p>
-<p><strong>Micro-controller Architecture (Raspberry Pi RP2040) ---&gt;</strong></p>
-<p><strong>Bootloader offset (No bootloader) ---&gt;</strong></p>
-<p><strong>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</strong></p>
-<p><strong>Communication interface (USB) ---&gt;</strong></p>
+<p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
+<p><strong>[*] Enable extra low-level configuration options</strong></p>
+<p><strong>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</strong></p>
+<p><strong>Processor model (rp2040)  ---&gt;</strong></p>
+<p><strong>Bootloader offset (No bootloader)  ---&gt;</strong></p>
+<p><strong>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</strong></p>
+<p><strong>Communication Interface (USBSERIAL)  ---&gt;</strong></p>
 <p>2.配置选择完成后, 输入 ‘q’退出配置界面，当询问是否保存配置时选择“Yes”；</p>
 <p>3.输入 make 编译固件，当 make 执行完成后会在 home/pi/klipper/out 文件夹中生成我们所需要的‘klipper.bin’固件，在 SSH 软件左侧可以直接下载到电脑中</p>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.png width="600"/></p>

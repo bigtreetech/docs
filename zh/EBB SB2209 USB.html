@@ -3922,12 +3922,13 @@
 <p><strong>cd ~/klipper/</strong> </p>
 <p><strong>make menuconfig</strong></p>
 <p>使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本) </p>
-<p><strong>[*] Enable extra low-level configuration options</strong> </p>
-<p><strong>Micro-controller Architecture (Raspberry Pi RP2040) ---&gt;</strong> </p>
-<p><strong>Bootloader offset (No bootloader) ---&gt;</strong> </p>
-<p><strong>Flash chip (W25Q080 with CLKDIV 2) ---&gt;</strong> </p>
-<p><strong>Communication Interface (USBSERIAL) ---&gt;</strong></p>
-<p><img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper1.png width="600"/></p>
+<p><strong>[*] Enable extra low-level configuration options</strong></p>
+<p><strong>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</strong></p>
+<p><strong>Processor model (rp2040)  ---&gt;</strong></p>
+<p><strong>Bootloader offset (No bootloader)  ---&gt;</strong></p>
+<p><strong>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</strong></p>
+<p><strong>Communication Interface (USBSERIAL)  ---&gt;</strong></p>
+<p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
 <p>2、配置选择完成后, 输入 <code>q</code> 退出配置界面，当询问是否保存配置是选择 "Yes"</p>
 <p>3、输入 <strong>make</strong> 编译固件，当 <strong>make</strong> 执行完成后会在 <strong>home/biqu/klipper/out</strong> 文件夹中生成我们所需要的<code>klipper.uf2</code>固件</p>
 <h3 id="_13"><strong>固件更新</strong><a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
