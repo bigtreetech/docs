@@ -103,7 +103,7 @@ a. Communication via USB
 
 b. Communication via UART
 
-<img src=img/SKR_Pico/SKR_Pico_Rasp1.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Rasp3.png width="600" />
 
 Please refer to BTT SKR Pico V1.0-PIN.pdf for more details.
 
