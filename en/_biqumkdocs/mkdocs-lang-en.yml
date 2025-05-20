@@ -240,6 +240,7 @@ nav:
       - Panda-AMS-Cable.md
       - Panda-AMS-Lite-Cable.md
       - PandaSense.md 
+      - Panda_Alarm.md 
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
