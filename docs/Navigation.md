@@ -52,6 +52,8 @@ P1
 
 Panda Claw
 
+Panda Aura
+
 Extruders
 
 Hotends

@@ -52,6 +52,8 @@ P1
 
 Panda Claw
 
+Panda Aura
+
 挤出机
 
 热端
