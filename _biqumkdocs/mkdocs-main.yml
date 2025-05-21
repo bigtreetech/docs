@@ -222,6 +222,10 @@ nav:
       - Panda Claw:
           - Panda A1Mini.md
           - Panda P1 X1.md
+      - Panda Aura:
+          - Panda_Aura_A1mini.md
+          - Panda_Aura_A1.md
+          - Panda_Aura_Controler.md
       - PandaTouch.md
       - PandaKnomi.md
       - PandaBranch.md
