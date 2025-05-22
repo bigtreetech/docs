@@ -295,7 +295,7 @@ Only use the image provided in the link: https://github.com/bigtreetech/CB2/rele
 
 ### Writing System onto eMMC
 
-Using RKDevTool to Write the eMMC (Windows)
+Using RKDevTool (Windows) to Write the eMMC 
 
 Download and unzip RKDevTool from the GitHub repository (https://github.com/bigtreetech/CB2) to your computer. DO NOT insert a MicroSD card.
 
