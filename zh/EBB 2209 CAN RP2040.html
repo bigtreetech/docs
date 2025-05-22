@@ -3631,8 +3631,8 @@
 <h3 id="_4"><strong>编译固件</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <p>1.)<strong>SSH连接到树莓派后，在命令行输入</strong></p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>cd ~/klipper/
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>make menuconfig
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>make menuconfig
 </code></pre></div>
 <p>使用下面的配置编译固件(如果没有下列选项，请更新Klipper固件源码到最新版本。</p>
 <p>[*] Enable extra low-level configuration  options</p>
@@ -3655,20 +3655,20 @@
 <h3 id="katapult_1"><strong>通过Katapult进行固件更新</strong><a class="headerlink" href="#katapult_1" title="Permanent link">&para;</a></h3>
 <p>1.使用CAN bus需要接好CAN bus线缆以及插上120R终端电阻的跳线帽。</p>
 <p>2.输入:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>cd ~/Katapult/scripts
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>cd ~/Katapult/scripts
 </code></pre></div>
 <p>然后输入:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>python3 flash_can.py -i can0 -q
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
 <p>查询canbus ID （需提前接好CAN线并通电），如下图已找到设备的UUID。</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software7.png width="600"/></p>
 <p>3.输入:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
 </code></pre></div>
 <p>替换为实际的UUID，注意：klipper.bin需要提前make生成出来，并且CanBoot的Application start offset 为16KiB offset，所以Klipper的menuconfig中Bootloader offset 也要为16KiB bootloader，如下图已经烧录成功.</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software8.png width="600"/></p>
 <p>4.输入:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>python3 flash_can.py -i can0 -q
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
 <p>查询，此时Application由之前的Katapult变为Klipper，代表Klipper已经正常运行。</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software9.png width="600"/></p>
@@ -3679,24 +3679,24 @@
 <p>2.按住Boot按钮，然后单击一下Reset按钮进入DFU模式。</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software11.png width="600"/></p>
 <p>3.在SSH终端命令行中输入</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>lsusb
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>lsusb
 </code></pre></div>
 <p>查询 DFU设备ID</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software12.png width="600"/></p>
 <p>4.输入:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>cd klipper 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>cd klipper 
 </code></pre></div>
 <p>跳转到klipper目录下，输入</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>make flash FLASH_DEVICE=2e8a:0003
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>make flash FLASH_DEVICE=2e8a:0003
 </code></pre></div>
 <p>开始烧录固件</p>
 <p><font  color="red"><strong>注意：将2e8a:0003更换为上一步中查询到的实际的设备ID</strong></font> </p>
 <p>5.固件烧录完成后，输入</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>ls /dev/serial/by-id/
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>ls /dev/serial/by-id/
 </code></pre></div>
 <p>查询设备的Serial ID（只有通过USB通信的方式才会有此ID，CANBus方式忽略此步骤)。</p>
 <p>6.如果使用USB通信，第一次烧录完成之后，再次更新时无需手动按Boot和Reset按钮进入DFU 模式，可以直接输入</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
 </code></pre></div>
 <p>烧录固件（注意：将/dev/serial/by-id/xxx更换为上一步中查询到的实际的ID）。</p>
 <p>烧录完成后，请拔下 USB_5V 跳线帽和Type-C数据线。</p>
@@ -3704,26 +3704,26 @@
 <p>搭配BIGTREETECH U2C 模块使用</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software13.png width="600"/></p>
 <p>1.在SSH终端中输入</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>sudo nano /etc/network/interfaces.d/can0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>sudo nano /etc/network/interfaces.d/can0
 </code></pre></div>
 <p>命令并执行</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>allow-hotplug can0
-<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>
-<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>iface can0 can static
-<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>
-<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a> bitrate 1000000
-<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>
-<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a>up ifconfig $IFACE txqueuelen 1024
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>allow-hotplug can0
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>iface can0 can static
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a> bitrate 1000000
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>up ifconfig $IFACE txqueuelen 1024
 </code></pre></div>
 <p>将 CAN bus 速度设置为 1M（必须与固件中设置的速度一致(1000000) CAN bus speed），修改后保存（Ctrl + S）并退出（Ctrl + X），输入</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>sudo reboot
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>sudo reboot
 </code></pre></div>
 <p>重启树莓派</p>
 <p>2.CANBus上的每个设备都会根据MCU的UID生成一个 canbus_uuid，要查找每个微控制器设备 ID，请确保硬件已通电并正确接线，然后运行：</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 </code></pre></div>
 <p>3.如果检测到未初始化的 CAN 设备，上述命令将报告设备的canbus_uuid：</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>Found canbus_uuid=0e0d81e4210c
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>Found canbus_uuid=0e0d81e4210c
 </code></pre></div>
 <p>4.如果 Klipper 已经正常运行并且连接到此设备，那么canbus_uuid将不会被上报，此为正常现象。</p>
 <h3 id="klipper"><strong>配置KLIPPER</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h3>
@@ -3733,7 +3733,7 @@
 <p>2.将主板的配置文件上传到Configuration Files中;</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software15.png width="600"/></p>
 <p>3.并在“printer.cfg”文件中添加此主板的配置</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>[include sample-bigtreetech-ebb-sb-canbus-v1.0.cfg]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>[include sample-bigtreetech-ebb-sb-canbus-v1.0.cfg]
 </code></pre></div>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software16.png width="600"/></p>
 <p>4.将配置文件中的ID号修改为主板实际的ID（USB serial 或者 canbus）</p>

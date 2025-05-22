@@ -4433,10 +4433,12 @@ CB1:
  Password: biqu</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system6.png width="600" /></p>
 <h3 id="compile-mcu-firmware">Compile MCU Firmware<a class="headerlink" href="#compile-mcu-firmware" title="Permanent link">&para;</a></h3>
-<p>1、After connecting to the device via SSH, enter the following command in the command line:
-cd ~/klipper/
-make menuconfig
-Use the following configuration to compile the firmware (if the options below are not available, please update the Klipper firmware source code to the latest version):</p>
+<p>1、After connecting to the device via SSH, enter the following command in the command line:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cd ~/klipper/
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>make menuconfig
+</code></pre></div>
+<p>Use the following configuration to compile the firmware (if the options below are not available, please update the Klipper firmware source code to the latest version):</p>
 <ul>
 <li>[*] Enable extra low-level configuration options</li>
 <li>Micro-controller Architecture (STMicroelectronics STM32)  ---&gt;</li>
@@ -4452,11 +4454,17 @@ Use the following configuration to compile the firmware (if the options below ar
 <h3 id="update-firmware">Update Firmware<a class="headerlink" href="#update-firmware" title="Permanent link">&para;</a></h3>
 <p><strong>SD Card Update</strong></p>
 <p>1、Rename <code>klipper.bin</code> to "firmware.bin", copy it to the root directory of the SD card, insert the SD card into the MANTA M8P SD card slot, press the reset button or power on again, and the firmware will be automatically updated. After the update is complete, the "firmware.bin" in the SD card will be renamed to "FIRMWARE.CUR".</p>
-<p>2、Enter ls /dev/serial/by-id/ in the command line to query the mainboard's ID and confirm whether the firmware has been successfully burned. If the burning is successful, a Klipper device ID will be returned, as shown in the image below.</p>
+<p>2、Enter </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ls /dev/serial/by-id/ 
+</code></pre></div>
+<p>in the command line to query the mainboard's ID and confirm whether the firmware has been successfully burned. If the burning is successful, a Klipper device ID will be returned, as shown in the image below.</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system9.png width="600" /></p>
 <p>Copy and save this ID, as it needs to be set in the configuration file.</p>
 <h3 id="dfu-update">DFU Update<a class="headerlink" href="#dfu-update" title="Permanent link">&para;</a></h3>
-<p>If you can find the MCU's Klipper device ID using ls /dev/serial/by-id/, you can directly enter make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32h712xx_41003D001751303232383230-if00 to burn the firmware (Note: Replace /dev/serial/by-id/xxx with the actual ID found in the previous step).</p>
+<p>If you can find the MCU's Klipper device ID using ls /dev/serial/by-id/, you can directly enter </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32h712xx_41003D001751303232383230-if00
+</code></pre></div>
+<p>to burn the firmware (Note: Replace /dev/serial/by-id/xxx with the actual ID found in the previous step).</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system10.png width="600" /></p>
 <p>After the burning is completed, there will be a dfu-util: Error during download get_status error message, which can be ignored.</p>
 <h3 id="configure-klipper">Configure Klipper<a class="headerlink" href="#configure-klipper" title="Permanent link">&para;</a></h3>

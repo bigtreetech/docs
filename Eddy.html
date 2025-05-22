@@ -4219,10 +4219,13 @@
 toolboard. You will need to compile firmware for that toolboard using the master Klipper branch and then install it onto that toolboard. When configuring the Eddy within Klipper you will just need to specify that it communicates using the I2C port on that toolboard which will depend on the pins for that board.</p>
 <p>If you are coming from the old BIGTREETECH branch of Klipper then we recommend using KIAUH to move back to the mainline branch. We also recommend updating the firmware on all of your Klipper devices so that it too is running on a binary compiled from mainline.</p>
 <p>1.Ensure that you are using mainline klipper by typing the following commands via SSH:</p>
-<p><font  color="blue"><strong>cd ~/klipper/</strong></font></p>
-<p><font  color="blue"><strong>git checkout master</strong></font></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~/klipper/
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git checkout master
+</code></pre></div>
 <p>2.Next, type:</p>
-<p><font  color="blue"><strong>make menuconfig</strong></font></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>make menuconfig
+</code></pre></div>
 <p>3.Use these settings to compile the firmware.</p>
 <p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
 <p><font  color="blue"><strong>[*] Enable extra low-level configuration options</strong></font></p>

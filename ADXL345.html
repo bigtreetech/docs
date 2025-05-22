@@ -3721,16 +3721,24 @@
 <h2 id="klipper-firmware"><strong>Klipper Firmware</strong><a class="headerlink" href="#klipper-firmware" title="Permanent link">&para;</a></h2>
 <h3 id="compiling-klipper-firmware">Compiling Klipper Firmware<a class="headerlink" href="#compiling-klipper-firmware" title="Permanent link">&para;</a></h3>
 <p>1.Connect to CB1/Raspberry Pi via SSH and enter the following commands:</p>
-<p>​   <strong>cd ~/klipper/</strong></p>
-<p>​   <strong>make menuconfig</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~/klipper/
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>make menuconfig
+</code></pre></div>
 <p>​   Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).</p>
 <p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
-<p><strong>[*] Enable extra low-level configuration options</strong></p>
-<p><strong>Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;</strong></p>
-<p><strong>Processor model (rp2040)  ---&gt;</strong></p>
-<p><strong>Bootloader offset (No bootloader)  ---&gt;</strong></p>
-<p><strong>Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;</strong></p>
-<p><strong>Communication Interface (USBSERIAL)  ---&gt;</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>[\*] Enable extra low-level configuration options
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a> Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a> Processor model (rp2040)  ---&gt;
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a> Bootloader offset (No bootloader)  ---&gt;
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a> Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a> Communication Interface (USBSERIAL)  ---&gt;
+</code></pre></div>
 <p>2.After configuration, press <strong>q</strong> to exit, and select <strong>Yes</strong> when prompted to save.</p>
 <p>3.Enter <strong>make</strong> to compile the firmware. The resulting <strong>klipper.bin</strong> file will be in the <strong>home/pi/klipper/out</strong> folder. This can be directly downloaded to your computer from the SSH software's left panel.</p>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.png width="600"/></p>
@@ -3746,17 +3754,21 @@
 </ol>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.png width="600"/></p>
 <p>​   3.Enter</p>
-<p>​   <strong>cd klipper</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>cd klipper
+</code></pre></div>
 <p>​   navigate to the Klipper directory, and enter</p>
-<p>​   <strong>make flash FLASH_DEVICE=2e8a:0003</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>make flash FLASH_DEVICE=2e8a:0003
+</code></pre></div>
 <p>​   start flashing the firmware (Note: Replace 2e8a:0003 with the actual </p>
 <p>​   device ID found in the previous step.)</p>
 <p>​   4.After flashing, enter</p>
-<p>​   <strong>ls /dev/serial/by-id/</strong> </p>
-<p>​   to query the device's Serial ID (only applicable for USB communication, not for CANBus).</p>
-<p>​   5.For USB communication, you don't need to press the Boot button for subsequent updates. Enter the following command to flash the firmware <strong>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00</strong></p>
-<div class="highlight"><pre><span></span><code>(Note: replacing **/dev/serial/by-id/xxx** with the actual ID found in the previous step).
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>ls /dev/serial/by-id/
 </code></pre></div>
+<p>​   to query the device's Serial ID (only applicable for USB communication, not for CANBus).</p>
+<p>​   5.For USB communication, you don't need to press the Boot button for subsequent updates. Enter the following command to flash the firmware </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
+</code></pre></div>
+<p>(Note: replacing <strong>/dev/serial/by-id/xxx</strong> with the actual ID found in the previous step).</p>
 <h3 id="configuring-klipper">Configuring Klipper<a class="headerlink" href="#configuring-klipper" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Download the <strong>sample-bigtreetech-adxl345-v2.0.cfg</strong> config file from:</li>

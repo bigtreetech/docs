@@ -3604,7 +3604,8 @@
 <h2 id="_1"><strong>编译固件</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>1.通过ssh连接到Raspberry Pi后，在命令行键入以下句子：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~/klipper/
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>make menuconfig
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>make menuconfig
 </code></pre></div>
 <p>使用以下配置编译固件（如果以下选项不可用，请将Klipper固件源更新为最新版本</p>
 <p><font  color="red"><strong><em>注意: EBB36/EBB42 VersionV1.0</em></strong></font></p>
@@ -3707,7 +3708,7 @@
 <p><code>up ifconfig $IFACE txqueuelen 1024</code></p>
 <p>将CAN总线的速度设置为250K（必须与固件中设置的速度相同<strong>（1000000）CAN总线速度）</strong>。修改后保存“（Ctrl+S）”并退出“（Ctrl+X）”。键入命令sudo reboot以重新启动Raspberry Pi。</p>
 <p>4.CANBus上的每个设备都会根据MCU的ID生成一个CANBus_uuid。如果用户想找到每个微控制器的ID，请确保硬件已通电并正确接线，然后运行以下命令：</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 </code></pre></div>
 <p>5.如果检测到未初始化的CAN设备，上述命令将报告该设备的canbus_uuid：</p>
 <p><code>Found canbus_uuid=0e0d81e4210c</code></p>

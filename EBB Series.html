@@ -3604,7 +3604,8 @@
 <h2 id="compile-firmware"><strong>Compile Firmware</strong><a class="headerlink" href="#compile-firmware" title="Permanent link">&para;</a></h2>
 <p>1.After connecting to the Raspberry Pi via ssh, type the below sentences at the command line:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~/klipper/
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>make menuconfig
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>make menuconfig
 </code></pre></div>
 <p>Compile the firmware with the following configuration (if the following options are not available, please update the Klipper firmware source to the latest 
 version).</p>
@@ -3711,7 +3712,7 @@ hardware is powered on and wired correctly, then run the following command:</p>
 <p>Set the speed for CANBus at 250K(which must be the same as the speed set in the firmware <strong>(1000000) CAN bus speed)</strong>. Save <code>(Ctrl + S)</code> after modification and exit <code>(Ctrl + X)</code>.Type command sudo reboot to reboot Raspberry Pi.</p>
 <p>4.Every device on CANBus will generate a canbus_uuid base on MCU's ID. If users want to find ID for every microcontroller, please make sure the 
 hardware is powered on and wired correctly, then run the following command:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 </code></pre></div>
 <p>5.If detected an uninitialized CAN device, the above command will report the device's canbus_uuid:</p>
 <p><code>Found canbus_uuid=0e0d81e4210c</code></p>

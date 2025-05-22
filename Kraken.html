@@ -4338,7 +4338,10 @@ CANBUS Interface</li>
 <p>3、Run make to compile firmware, "klipper.bin" file will be generated in home/pi/klipper/out folder when make is finished, download it onto your computer using the SSH application.</p>
 <p><img src=img/Kraken/kraken_klipper2.png width="600" /></p>
 <p>4、Rename klipper.bin to "firmware.bin", copy to SD card to update firmware.</p>
-<p>5、Enter: <strong>ls /dev/serial/by-id/</strong> in command line to check motherboard ID to confirm whether firmware is updated successfully, as shown below.</p>
+<p>5、Enter: </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ls /dev/serial/by-id/ 
+</code></pre></div>
+<p>in command line to check motherboard ID to confirm whether firmware is updated successfully, as shown below.</p>
 <p><img src=img/Kraken/kraken_klipper3.png width="600" /></p>
 <p>copy and save this ID, it is needed when modifying klipper config.</p>
 <h3 id="configuring-klipper">Configuring Klipper<a class="headerlink" href="#configuring-klipper" title="Permanent link">&para;</a></h3>
@@ -4366,9 +4369,9 @@ CANBUS Interface</li>
 <p>1、Run ls /dev/serial/by-id/ to get the board ID. If Klipper is running, it will return a klipper ID.</p>
 <p><img src=img/Kraken/kraken_klipper8.png width="600" /></p>
 <p>2、If ls /dev/serial/by-id/ is able to find the MCU's klipper device ID, you can directly input: </p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~klipper
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cd ~klipper
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h723xx_41003D001751303232383230-if00
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h723xx_41003D001751303232383230-if00
 </code></pre></div>
 <p>to write firmware (Note: Replace/dev/serial/by-id/xxx with the actual ID queried in the previous step)</p>
 <p><img src=img/Kraken/kraken_klipper9.png width="600" /></p>

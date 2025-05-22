@@ -3635,8 +3635,8 @@
 <h3 id="compile-firmware"><strong>COMPILE FIRMWARE</strong><a class="headerlink" href="#compile-firmware" title="Permanent link">&para;</a></h3>
 <p>1.)<strong>After SSH is successfully connected to Raspberry Pi, run</strong></p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>cd ~/klipper/
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>make menuconfig
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>make menuconfig
 </code></pre></div>
 <p>Compile the firmware with the following configuration (if the options below are not available, please update your Klipper source code to the newest version).</p>
 <p>[*] Enable extra low-level configuration  options</p>
@@ -3661,20 +3661,20 @@ Yes
 <h3 id="firmware-updatevia-katapult"><strong>FIRMWARE UPDATE(VIA KATAPULT)</strong><a class="headerlink" href="#firmware-updatevia-katapult" title="Permanent link">&para;</a></h3>
 <p>1.To use the CAN bus, you need to connect the CAN bus cable and insert a jumper at the position of the 120R termination resistor.</p>
 <p>2.Run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>cd ~/KATAPULT/scripts
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>cd ~/KATAPULT/scripts
 </code></pre></div>
 <p>then run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>python3 flash_can.py -i can0 -q
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
 <p>to query the canbus ID (connect the CAN cable and power it on in advance), as shown in the figure below, the UUID of the device has been found</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software7.png width="600"/></p>
 <p>3.Run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
 </code></pre></div>
 <p>The be69315a613c is replaced with the actual UUID. Note: klipper.bin needs to be made in advance,and the application start offset of Katapult is 16KiB offset, so Klipper's menuconfig Bootloader offset should also be 16KiB bootloader, as shown in the following figure.</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software8.png width="600"/></p>
 <p>4.Run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>python3 flash_can.py -i can0 -q
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
 <p>to query. At this time, the Application changes from Katapult to Klipper, indicating that Klipper has been running normally</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software9.png width="600"/></p>
@@ -3685,23 +3685,23 @@ Yes
 <p>2.Press and hold the Boot button, and then click the Reset button to enter the DFU mode.</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software11.png width="600"/></p>
 <p>3.Enter in the SSH terminal command line</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>lsusb
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>lsusb
 </code></pre></div>
 <p>Query DFU device ID</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software12.png width="600"/></p>
 <p>4.Run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>cd klipper 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>cd klipper 
 </code></pre></div>
 <p>to enter to the klipper directory, then run the following command to write the firmware:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>make flash FLASH_DEVICE=2e8a:0003
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>make flash FLASH_DEVICE=2e8a:0003
 </code></pre></div>
 <p><font  color="red"><strong>Note: Replace 2e8a:0003 with the actual device ID found in the previous step.</strong></font> </p>
 <p>5.After the firmware is written, run</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>ls /dev/serial/by-id/
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>ls /dev/serial/by-id/
 </code></pre></div>
 <p>to query the serial ID of the device (this ID can only be found in the USB communication mode, and this step is ignored in CANBus mode).</p>
 <p>6.If USB communication is used, after the first writing, it is not necessary to manually press the Boot and Reset buttons to enter the DFU mode when updating again. You can directly enter</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
 </code></pre></div>
 <p>to write the firmware (Note: replace/dev/serial/by id/xxx with the actual ID found in the previous step).</p>
 <p>After flashing is complete, remove the USB_5V jumper and the Type-C cable.</p>
@@ -3709,26 +3709,26 @@ Yes
 <p>Used with BIGTREETECH U2C module.</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software13.png width="600"/></p>
 <p>1.Enter the command</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>sudo nano /etc/network/interfaces.d/can0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>sudo nano /etc/network/interfaces.d/can0
 </code></pre></div>
 <p>in the SSH terminal and execute</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>allow-hotplug can0
-<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
-<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>iface can0 can static
-<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>
-<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a> bitrate 1000000
-<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>
-<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>up ifconfig $IFACE txqueuelen 1024
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>allow-hotplug can0
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>iface can0 can static
+<a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>
+<a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a> bitrate 1000000
+<a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>
+<a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a>up ifconfig $IFACE txqueuelen 1024
 </code></pre></div>
 <p>Set the CAN-BUS speed to 1M (it must be consistent with the speed set in the firmware (1000000) CAN bus speed), save (Ctrl+S) and exit (Ctrl+X) after modification, and enter</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>sudo reboot
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>sudo reboot
 </code></pre></div>
 <p>to restart Raspberry Pi.</p>
 <p>2.Each device on CAN bus will generate a canbus_uuid according to the UID of MCU, to find each microcontroller device ID, make sure the hardware is powered on and wired correctly, and then run:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 </code></pre></div>
 <p>3.If an uninitialized CAN device is detected, the above command will report the device's canbus_uuid.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>Found canbus_uuid=0e0d81e4210c
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>Found canbus_uuid=0e0d81e4210c
 </code></pre></div>
 <p>4.If Klipper has been running normally and connected to this device, then canbus_uuid will not be reported, which is normal.</p>
 <h3 id="klipper-configure"><strong>KLIPPER CONFIGURE</strong><a class="headerlink" href="#klipper-configure" title="Permanent link">&para;</a></h3>
@@ -3738,7 +3738,7 @@ Yes
 <p>2.Upload the configuration file of the motherboard to Configuration Files.</p>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software15.png width="600"/></p>
 <p>3.Add the configuration of this motherboard in the "printer. cfg" file:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>[include sample-bigtreetech-ebb-sb-canbus-v1.0.cfg]
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>[include sample-bigtreetech-ebb-sb-canbus-v1.0.cfg]
 </code></pre></div>
 <p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software16.png width="600"/></p>
 <p>4.Enter the correct ID (USB serial or canbus).</p>

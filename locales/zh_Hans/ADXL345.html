@@ -3598,15 +3598,19 @@
 </ol>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.png width="600"/></p>
 <p>​   3.输入</p>
-<p>​   <strong>cd klipper</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd klipper
+</code></pre></div>
 <p>​   跳转到 klipper 目录下，输入</p>
-<p>​   <strong>make flash FLASH_DEVICE=2e8a:0003</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>make flash FLASH_DEVICE=2e8a:0003
+</code></pre></div>
 <p>​   开始烧录固件（注意：将 2e8a:0003 更换为上一步中查询到的实际的设备 ID）</p>
 <p>​   4.固件烧录完成后，输入</p>
-<p>​   <strong>ls /dev/serial/by-id/</strong> </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ls /dev/serial/by-id/ 
+</code></pre></div>
 <p>​   查询设备的 Serial ID（只有通过 USB 通信的方式才会有此 ID，CANBus 方式忽略此步骤)。</p>
 <p>​   5.第一次烧录完成之后，再次更新时无需手动按 Boot按钮进入 DFU 模式，可以直接输入</p>
-<p>​   <strong>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
+</code></pre></div>
 <p>​   烧录固件（注意：将/dev/serial/by-id/xxx 更换为上一步中查询到的实际的ID）。</p>
 <h3 id="klipper_2">配置 Klipper<a class="headerlink" href="#klipper_2" title="Permanent link">&para;</a></h3>
 <ol>
