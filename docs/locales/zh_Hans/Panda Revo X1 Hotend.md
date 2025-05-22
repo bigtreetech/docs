@@ -184,7 +184,7 @@ https://e3d-online.zendesk.com/hc/en-us/articles/4777443097757-Filament-Starter-
 
 https://biqu.equipment/products/biqu-panda-hotend
 
-如果您对产品有任何问题，请提交一张支持票。
+**如果您对产品有任何问题，请与我们联系并提交支持工单**
 
 https://biqu3d.com/pages/submit-a-ticket
 

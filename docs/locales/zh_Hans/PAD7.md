@@ -27,7 +27,7 @@ BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队
   <video width="430" height="300" controls>
       <source src="img/PAD7/introduction.mp4" type="video/mp4">
   </video>
-
+  
   
 
 ## **规格**
@@ -430,7 +430,7 @@ https://biqu.equipment/products/bigtreetech-pad-7
 
 
 
-**如果您对产品有任何问题，请提交一张通知单.**
+**如果您对产品有任何问题，请与我们联系并提交支持工单**
 
 https://biqu3d.com/pages/submit-a-ticket
 
