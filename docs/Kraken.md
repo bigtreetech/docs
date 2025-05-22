@@ -380,7 +380,13 @@ CANBUS Interface
 
 4、Rename klipper.bin to "firmware.bin", copy to SD card to update firmware.
 
-5、Enter: **ls /dev/serial/by-id/** in command line to check motherboard ID to confirm whether firmware is updated successfully, as shown below.
+5、Enter: 
+
+```
+ls /dev/serial/by-id/ 
+```
+
+in command line to check motherboard ID to confirm whether firmware is updated successfully, as shown below.
 
 <img src=img/Kraken/kraken_klipper3.png width="600" />
 

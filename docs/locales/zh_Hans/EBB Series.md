@@ -6,6 +6,9 @@
 
 ```
 cd ~/klipper/
+```
+
+```
 make menuconfig
 ```
 

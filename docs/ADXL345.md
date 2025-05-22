@@ -63,25 +63,31 @@ Connecting to Manta M8P (Soldering Wires)
 
 1.Connect to CB1/Raspberry Pi via SSH and enter the following commands:
 
-​	**cd ~/klipper/**
+```
+cd ~/klipper/
+```
 
-​	**make menuconfig**
+```
+make menuconfig
+```
 
 ​	Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).
 
 <img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-**[\*] Enable extra low-level configuration options**
+```
+[\*] Enable extra low-level configuration options
 
- **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
+ Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->
 
- **Processor model (rp2040)  --->**
+ Processor model (rp2040)  --->
 
- **Bootloader offset (No bootloader)  --->**
+ Bootloader offset (No bootloader)  --->
 
- **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
+ Flash chip (GENERIC_03H with CLKDIV 4)  --->
 
- **Communication Interface (USBSERIAL)  --->**
+ Communication Interface (USBSERIAL)  --->
+```
 
 2.After configuration, press **q** to exit, and select **Yes** when prompted to save.
 
@@ -101,11 +107,15 @@ Raspberry Pi or CB1 update via DFU.
 
 ​	3.Enter
 
-​	**cd klipper**
+```
+cd klipper
+```
 
 ​	navigate to the Klipper directory, and enter
 
-​	**make flash FLASH_DEVICE=2e8a:0003**
+```
+make flash FLASH_DEVICE=2e8a:0003
+```
 
 ​	start flashing the firmware (Note: Replace 2e8a:0003 with the actual 
 
@@ -113,13 +123,19 @@ Raspberry Pi or CB1 update via DFU.
 
 ​	4.After flashing, enter
 
-​	**ls /dev/serial/by-id/** 
+```
+ls /dev/serial/by-id/
+```
 
 ​	to query the device's Serial ID (only applicable for USB communication, not for CANBus).
 
-​	5.For USB communication, you don't need to press the Boot button for subsequent updates. Enter the following command to flash the firmware **make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00**
+​	5.For USB communication, you don't need to press the Boot button for subsequent updates. Enter the following command to flash the firmware 
 
- 	(Note: replacing **/dev/serial/by-id/xxx** with the actual ID found in the previous step).
+```
+make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
+```
+
+(Note: replacing **/dev/serial/by-id/xxx** with the actual ID found in the previous step).
 
 ### Configuring Klipper
 

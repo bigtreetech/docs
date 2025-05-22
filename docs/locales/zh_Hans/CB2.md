@@ -294,7 +294,9 @@ GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31
 
 使用 RKDevTool (Windows) 烧录系统到 eMMC 
 
-下载 RKDevTool （https://github.com/bigtreetech/CB2）到电脑上并解压。并且注意不要插 MicroSD 卡。
+下载 RKDevTool 到电脑上并解压。并且注意不要插 MicroSD 卡。
+
+https://github.com/bigtreetech/CB2
 
 1、将拨码开关的 4（USBOTG）、3（RPIBOOT）拨到 ON 进入 BOOT 模式
 

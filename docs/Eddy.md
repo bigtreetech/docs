@@ -149,13 +149,19 @@ If you are coming from the old BIGTREETECH branch of Klipper then we recommend u
 
 1.Ensure that you are using mainline klipper by typing the following commands via SSH:
 
-<font  color="blue">**cd ~/klipper/**</font>
+```
+cd ~/klipper/
+```
 
-<font  color="blue">**git checkout master**</font>
+```
+git checkout master
+```
 
 2.Next, type:
 
-<font  color="blue">**make menuconfig**</font>
+```
+make menuconfig
+```
 
 3.Use these settings to compile the firmware.
 

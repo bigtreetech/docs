@@ -97,21 +97,29 @@ https://github.com/Arksine/Katapult
 
 1、Enter
 
-​	**cd ~**
+```
+cd ~
+```
 
 ​	to go to the home directory, enter
 
-​	git clone https://github.com/Arksine/Katapult
+```
+git clone https://github.com/Arksine/Katapult
+```
 
 ​	to download the Katapult project, then enter
 
-​	**cd Katapult**
+```
+cd Katapult
+```
 
 ​	to navigate to the Katapult directory.
 
 2、Enter
 
-​	make menuconfig
+```
+make menuconfig
+```
 
 ​	and configure as shown in the image below.
 
@@ -129,7 +137,9 @@ https://github.com/Arksine/Katapult
 
 6、Enter the following command to flash Katapult
 
-​	**make flash FLASH_DEVICE=2e8a:0003**
+```
+make flash FLASH_DEVICE=2e8a:0003
+```
 
 ​	Replace **2e8a:0003** with the actual device ID obtained in the previous step.
 
@@ -139,9 +149,13 @@ https://github.com/Arksine/Katapult
 
 1、After SSH connects to CB1/Raspberry Pi, enter the following in the command line:
 
-​	**cd ~/klipper/**
+```
+cd ~/klipper/
+```
 
-​	**make menuconfig**
+```
+make menuconfig
+```
 
 ​	Compile the firmware using the configuration below (if these options are not available, update the Klipper firmware source code to the latest version).
 

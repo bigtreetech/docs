@@ -381,7 +381,7 @@ Boot From eMMC - system on eMMC" and then select "OK"
 
 When using a MicroSD card as the system card instead, it's best to erase the data on the eMMC to prevent the motherboard from booting from it by mistake.
 
-#### Using RKDevTool to Erase eMMC (Windows)
+#### Using RKDevTool (Windows) to Erase eMMC 
 
 1、Refer to the steps in "4.3.1 Using RKDevTool to Write the eMMC (Windows)" to connect the motherboard to the computer.
 
