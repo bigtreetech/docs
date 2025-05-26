@@ -24,7 +24,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html
-  - pymdownx.blocks.caption
   # - mdx_partial_gfm
   # - mdx_truly_sane_lists
   # - mdx_breakless_lists
