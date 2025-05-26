@@ -1,0 +1,5 @@
+# ignore site build by mkdocs
+/site
+
+# ignore .DS_Store file 
+**/.DS_Store
