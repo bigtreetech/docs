@@ -1,6 +1,6 @@
 # CB1
 
-[<img src=img/CB1.png width="600" />](https://bigtreetech.github.io/docs/CB1.html)
+[<img src=img/CB1.png width="500" />](https://bigtreetech.github.io/docs/CB1.html)
 
 ## **Product Profile**
 
@@ -186,6 +186,7 @@ Plug-and-play with an Ethernet cable, no additional setup required.
 #### **WiFi Settings**
 
 After the OS writes to the SD card, there is a FAT32 partition named `BOOT`, open `system.cfg` file with `Notpad`, `Notpad++` or `VSCode`.
+
 <img src=img/system.png width="600">
 
 !!! tip
@@ -228,10 +229,10 @@ Uncomment `overlays=tft35_spi mcp2515` If you want to use both TFT35 SPI screen 
 uncomment the following overlays and parameters to release `spidev1.1` to user space, And `spidev1.1` cannot be used together with TFT35_SPI and MCP2515.
 
 ```systemd
- overlays=spi-spidev
- param_spidev_spi_bus=1
- param_spidev_spi_cs=1
- param_spidev_max_freq=1000000
+overlays=spi-spidev
+param_spidev_spi_bus=1
+param_spidev_spi_cs=1
+param_spidev_max_freq=1000000
 ```
 
 !!! note 
@@ -256,15 +257,16 @@ Insert the Micro SD card (installed OS) to motherboard, wait for system to load 
 The device will automatically be assigned a IP address after successfully connected to the network
 
 Find the device IP address in your router page
-<img src=img/Router.png width="600">
+
+<img src=img/Router.png width="500">
 
 Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown below
 
-<img src=img/AngryIP.png width="600"> 
+<img src=img/AngryIP.png width="500"> 
 
 Open Mobaxtermand click “Session”, and click “SSH”，inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
 
-<img src=img/MobaXterm_Login.png width="600"> 
+<img src=img/MobaXterm_Login.png width="500"> 
 
 Input the login name and password to enter the SSH terminal interface. 
 
@@ -304,7 +306,7 @@ password: biqu
    
     Select the image that you downloaded. 
    
-    ![](img/Etcher_1.png){width="450"}
+    <img title="" src="img/Etcher_1.png" alt="" width="450" data-align="inline">
    
     Select the MicroSD card and click `Flash`
    
@@ -312,11 +314,11 @@ password: biqu
    
         `Flash` the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.
    
-   ![](img/Etcher_2.png){width="450"}
+   <img title="" src="img/Etcher_2.png" alt="" width="450" data-align="inline">
    
     Wait for the writing to finish. 
    
-    ![](img/Etcher_3.png){width="450"}
+   <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="inline">
 
 ## Product Purchase Link
 
