@@ -314,11 +314,11 @@ password: biqu
    
         `Flash` the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.
    
-   <img title="" src="img/Etcher_2.png" alt="" width="450" data-align="inline">
+    <img title="" src="img/Etcher_2.png" alt="" width="450" data-align="inline">
    
     Wait for the writing to finish. 
    
-   <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="inline">
+    <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="inline">
 
 ## Product Purchase Link
 
