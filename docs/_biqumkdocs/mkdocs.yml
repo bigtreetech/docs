@@ -20,9 +20,12 @@ markdown_extensions:
   - pymdownx.tilde
   - md_in_html
   - attr_list
-  - mdx_partial_gfm
-  - mdx_truly_sane_lists
-  - mdx_breakless_lists
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # - mdx_partial_gfm
+  # - mdx_truly_sane_lists
+  # - mdx_breakless_lists
   - pymdownx.arithmatex:  # latex支持
       generic: true
   - toc:
