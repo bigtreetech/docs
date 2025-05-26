@@ -258,10 +258,12 @@ The device will automatically be assigned a IP address after successfully connec
 Find the device IP address in your router page
 <img src=img/Router.png width="600">
 
-Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown          below
+Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown below
+
 <img src=img/AngryIP.png width="600"> 
 
 Open Mobaxtermand click “Session”, and click “SSH”，inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
+
 <img src=img/MobaXterm_Login.png width="600"> 
 
 Input the login name and password to enter the SSH terminal interface. 
@@ -285,35 +287,36 @@ password: biqu
     The official Raspberry Pi Imager: https://www.raspberrypi.com/software/
    
     balenaEtcher: https://www.balena.io/etcher/
-
+   
     Both of the above software can be used, just choose one to download and install
 
 3. **Format SD card**
-
+   
     !!! warning
+   
         Formatting the SD card will remove all data in SD card. Ensure backup data before formatting.
-
+   
     Normally, you can format the SD card with the tools provided by the computer system. Completely format the SD card with professional SD card format software. https://www.sdcard.org/downloads/formatter/
 
-
 4. **Write OS**
-    
+   
     Insert a MicroSD card to your computer through a card reader.
    
     Select the image that you downloaded. 
-    
-    <img title="" src="img/Etcher_1.png" alt="" width="450" data-align="center">
-
+   
+    ![](img/Etcher_1.png){width="450"}
+   
     Select the MicroSD card and click `Flash`
-    
+   
     !!! warning 
+   
         `Flash` the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.
-
-    <img title="" src="img/Etcher_2.png" alt="" width="450" data-align="center">
+   
+   ![](img/Etcher_2.png){width="450"}
    
     Wait for the writing to finish. 
-    
-    <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="center">
+   
+    ![](img/Etcher_3.png){width="450"}
 
 ## Product Purchase Link
 
