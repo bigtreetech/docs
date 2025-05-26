@@ -300,7 +300,9 @@ password: biqu
     
     Insert a MicroSD card to your computer through a card reader.
    
-    Select the image that you downloaded. <img title="" src="img/Etcher_1.png" alt="" width="450" data-align="center">
+    Select the image that you downloaded. 
+    
+    <img title="" src="img/Etcher_1.png" alt="" width="450" data-align="center">
 
     Select the MicroSD card and click `Flash`
     
@@ -309,7 +311,9 @@ password: biqu
 
     <img title="" src="img/Etcher_2.png" alt="" width="450" data-align="center">
    
-    Wait for the writing to finish. <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="center">
+    Wait for the writing to finish. 
+    
+    <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="center">
 
 ## Product Purchase Link
 
