@@ -118,7 +118,7 @@ theme:
   language: en
 extra_css:
   - _biqumkdocs/css/extra.css
-  - _biqumkdocs/css/zoom.css
+  # - _biqumkdocs/css/zoom.css
 
 # Site usage statistics
 extra:
