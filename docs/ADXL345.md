@@ -61,37 +61,20 @@ Connecting to Manta M8P (Soldering Wires)
 
 ### Compiling Klipper Firmware
 
-1.Connect to CB1/Raspberry Pi via SSH and enter the following commands:
+1. Connect to CB1/Raspberry Pi via SSH and enter the following commands:
 
-```
+``` shell
 cd ~/klipper/
-```
-
-```
 make menuconfig
 ```
 
-​	Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).
+Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).
 
 <img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-```
-[\*] Enable extra low-level configuration options
+2. After configuration, press **q** to exit, and select **Yes** when prompted to save.
 
- Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->
-
- Processor model (rp2040)  --->
-
- Bootloader offset (No bootloader)  --->
-
- Flash chip (GENERIC_03H with CLKDIV 4)  --->
-
- Communication Interface (USBSERIAL)  --->
-```
-
-2.After configuration, press **q** to exit, and select **Yes** when prompted to save.
-
-3.Enter **make** to compile the firmware. The resulting **klipper.bin** file will be in the **home/pi/klipper/out** folder. This can be directly downloaded to your computer from the SSH software's left panel.
+3. Enter **make** to compile the firmware. The resulting **klipper.bin** file will be in the **home/pi/klipper/out** folder. This can be directly downloaded to your computer from the SSH software's left panel.
 
 <img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.png width="600"/>
 
@@ -99,65 +82,62 @@ make menuconfig
 
 Raspberry Pi or CB1 update via DFU.
 
-1. Hold the **Boot** button and connect the board to Raspberry Pi/CB1 via Type-C cable to enter DFU mode.
+Hold the **Boot** button and connect the board to Raspberry Pi/CB1 via Type-C cable to enter DFU mode.
 
-2. Enter **lsusb** in the SSH terminal to query the DFU device ID.
+Enter `lsusb` in the SSH terminal to query the DFU device ID.
 
 <img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.png width="600"/>
 
-​	3.Enter
 
-```
-cd klipper
+​Using command below to navigate to the Klipper directory:
+
+``` shell 
+cd ~/klipper
 ```
 
-​	navigate to the Klipper directory, and enter
+Then using command below to flash DFU device:
 
-```
+``` shell 
 make flash FLASH_DEVICE=2e8a:0003
 ```
 
-​	start flashing the firmware (Note: Replace 2e8a:0003 with the actual 
+After flash firmware into ADXL345. It can using command below to find serial id of device: 
 
-​	device ID found in the previous step.)
-
-​	4.After flashing, enter
-
-```
+``` shell 
 ls /dev/serial/by-id/
 ```
 
-​	to query the device's Serial ID (only applicable for USB communication, not for CANBus).
+!!! note    
+    ​to query the device's Serial ID (only applicable for USB communication, not for CANBus).
 
-​	5.For USB communication, you don't need to press the Boot button for subsequent updates. Enter the following command to flash the firmware 
+!!! note
+    For USB communication, you don't need to press the Boot button for subsequent updates. Enter the following command to flash the firmware
 
-```
-make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
-```
+    replacing `/dev/serial/by-id/<serial-id>` with the actual ID found in the previous step
 
-(Note: replacing **/dev/serial/by-id/xxx** with the actual ID found in the previous step).
+    ``` shell 
+    make flash FLASH_DEVICE=/dev/serial/by-id/<serial-id>
+    ```
 
 ### Configuring Klipper
 
-1. Download the **sample-bigtreetech-adxl345-v2.0.cfg** config file from:
+Download the **sample-bigtreetech-adxl345-v2.0.cfg** config file from [GitHub ADXL345](https://github.com/bigtreetech/ADXL345)
 
-​	https://github.com/bigtreetech/ADXL345
-
-​	2.Upload to the **Configuration Files.**
+​2. Upload to the **Configuration Files.**
 
 <img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/>
 
-​	3.In **printer.cfg**, add: 
+​3.In **printer.cfg**, add: 
+``` 
+​[include sample-bigtreetech-adxl345-v2.0.cfg]
+```
+​4.Set the correct ID number for your board. (USB serial)
 
-​	**[include sample-bigtreetech-adxl345-v2.0.cfg]**
-
-​	4.Set the correct ID number for your board.(USB serial)
-
-​	5.Configure the module's functions according to the instructions in the link below:
+​5.Configure the module's functions according to the instructions in the link below:
 
 ​	https://www.klipper3d.org/Config_Reference.html#adxl345
 
-​	The **axes_map** parameter needs to be set according to the direction of the module installation and the movement direction of the printer. The first 	parameter represents the direction of the accelerometer module corresponding to the axis when the printer's X-axis moves in the positive direction (the silk screen on the module shows the direction of each axis of the module), and the second parameter represents the direction of the accelerometer when the Y-axis moves in the positive direction.
+​The **axes_map** parameter needs to be set according to the direction of the module installation and the movement direction of the printer. The first 	parameter represents the direction of the accelerometer module corresponding to the axis when the printer's X-axis moves in the positive direction (the silk screen on the module shows the direction of each axis of the module), and the second parameter represents the direction of the accelerometer when the Y-axis moves in the positive direction.
 
 ​	6.After configuring and installing the module and successfully connecting to the printer, you can start the resonance compensation test. Follow the instructions in the link below to start testing:
 
