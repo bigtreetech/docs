@@ -104,7 +104,7 @@ make flash FLASH_DEVICE=2e8a:0003
 After flash firmware into ADXL345. It can using command below to find serial id of device: 
 
 ``` shell 
-ls /dev/serial/by-id/
+ls /dev/serial/by-id/*
 ```
 
 !!! note    
@@ -121,25 +121,33 @@ ls /dev/serial/by-id/
 
 ### Configuring Klipper
 
-1. Download the [sample-bigtreetech-adxl345-v2.0.cfg](https://github.com/bigtreetech/ADXL345/blob/master/Firmware/sample-bigtreetech-adxl345-v2.0.cfg) config file from [GitHub ADXL345](https://github.com/bigtreetech/ADXL345)
+!!! info 
+    Download the [sample-bigtreetech-adxl345-v2.0.cfg](https://github.com/bigtreetech/ADXL345/blob/master/Firmware/sample-bigtreetech-adxl345-v2.0.cfg) config file from [GitHub ADXL345](https://github.com/bigtreetech/ADXL345) 
 
-​2. Upload to the **Configuration Files.**
+    ​Upload to the **Configuration Files.**
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/>
+    <img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/>
 
-​3.In **printer.cfg**, add:
+Add section below into `printer.cfg`
 
 ``` 
 ​[include sample-bigtreetech-adxl345-v2.0.cfg]
 ```
 
-​4. Set the correct ID number for your board. (USB serial)
+​Then set the correct ID number for your board.
 
-​5. Configure the module's functions according to the instructions [ADXL345 Config_Reference](https://www.klipper3d.org/Config_Reference.html#adxl345)
+```
+[mcu btt_adxl345]
+serial: /dev/serial/by-id/usb-Klipper_rp2040_btt_acc-if00
+```
+
+​!!! tip 
+    Configure the module's functions according to[ADXL345 Config Reference](https://www.klipper3d.org/Config_Reference.html#adxl345)
 
 ​The `axes_map` parameter needs to be set according to the direction of the module installation and the movement direction of the printer. The first parameter represents the direction of the accelerometer module corresponding to the axis when the printer's X-axis moves in the positive direction (the silk screen on the module shows the direction of each axis of the module), and the second parameter represents the direction of the accelerometer when the Y-axis moves in the positive direction.
 
-​6. After configuring and installing the module and successfully connecting to the printer, you can start the resonance compensation test. Follow the instructions in [Klipper Shaper Calibrate](https://www.klipper3d.org/G-Codes.html#shaper_calibrate)
+!!! tip
+    ​After configuring and installing the module and successfully connecting to the printer, you can start the resonance compensation test.
 
 In Mainsail's Console, enter the following command to start X axis calibration:
 
@@ -155,12 +163,12 @@ SHAPER_CALIBRATE AXIS=Y
 
 After calibration is complete, follow the prompts and enter `SAVE_CONFIG` to save the calibration parameters.
 
-!!! note
+!!! tip
     After the resonance compensation test, the ADLX345 module can be removed. The module configuration needs to be commented out in the `printer.cfg` file, otherwise the printer will fail to start if it cannot find the module. Comment out the module configuration by adding `#` in front of the config file name:
 
-```
-# [include sample-bigtreetech-adxl345-v2.0.cfg]
-```
+    ```
+    # [include sample-bigtreetech-adxl345-v2.0.cfg]
+    ```
 
 ## Assembly
 
