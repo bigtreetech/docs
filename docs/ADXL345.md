@@ -121,45 +121,51 @@ ls /dev/serial/by-id/
 
 ### Configuring Klipper
 
-Download the **sample-bigtreetech-adxl345-v2.0.cfg** config file from [GitHub ADXL345](https://github.com/bigtreetech/ADXL345)
+1. Download the [sample-bigtreetech-adxl345-v2.0.cfg](https://github.com/bigtreetech/ADXL345/blob/master/Firmware/sample-bigtreetech-adxl345-v2.0.cfg) config file from [GitHub ADXL345](https://github.com/bigtreetech/ADXL345)
 
 ​2. Upload to the **Configuration Files.**
 
 <img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/>
 
-​3.In **printer.cfg**, add: 
+​3.In **printer.cfg**, add:
+
 ``` 
 ​[include sample-bigtreetech-adxl345-v2.0.cfg]
 ```
-​4.Set the correct ID number for your board. (USB serial)
 
-​5.Configure the module's functions according to the instructions in the link below:
+​4. Set the correct ID number for your board. (USB serial)
 
-​	https://www.klipper3d.org/Config_Reference.html#adxl345
+​5. Configure the module's functions according to the instructions [ADXL345 Config_Reference](https://www.klipper3d.org/Config_Reference.html#adxl345)
 
-​The **axes_map** parameter needs to be set according to the direction of the module installation and the movement direction of the printer. The first 	parameter represents the direction of the accelerometer module corresponding to the axis when the printer's X-axis moves in the positive direction (the silk screen on the module shows the direction of each axis of the module), and the second parameter represents the direction of the accelerometer when the Y-axis moves in the positive direction.
+​The `axes_map` parameter needs to be set according to the direction of the module installation and the movement direction of the printer. The first parameter represents the direction of the accelerometer module corresponding to the axis when the printer's X-axis moves in the positive direction (the silk screen on the module shows the direction of each axis of the module), and the second parameter represents the direction of the accelerometer when the Y-axis moves in the positive direction.
 
-​	6.After configuring and installing the module and successfully connecting to the printer, you can start the resonance compensation test. Follow the instructions in the link below to start testing:
-
-https://www.klipper3d.org/G-Codes.html#shaper_calibrate
+​6. After configuring and installing the module and successfully connecting to the printer, you can start the resonance compensation test. Follow the instructions in [Klipper Shaper Calibrate](https://www.klipper3d.org/G-Codes.html#shaper_calibrate)
 
 In Mainsail's Console, enter the following command to start X axis calibration:
 
+```
 SHAPER_CALIBRATE AXIS=X
+```
 
 Enter the following command to start Y axis calibration:
 
+```
 SHAPER_CALIBRATE AXIS=Y
+```
 
-After calibration is complete, follow the prompts and enter SAVE_CONFIG to save the calibration parameters.
+After calibration is complete, follow the prompts and enter `SAVE_CONFIG` to save the calibration parameters.
 
-**Note:** After the resonance compensation test, the module can be removed. The module configuration needs to be commented out in the "printer.cfg" file, otherwise the printer will fail to start if it cannot find the module. Comment out the module configuration by adding "#" in front of the config file name:
+!!! note
+    After the resonance compensation test, the ADLX345 module can be removed. The module configuration needs to be commented out in the `printer.cfg` file, otherwise the printer will fail to start if it cannot find the module. Comment out the module configuration by adding `#` in front of the config file name:
 
-\# [include sample-bigtreetech-adxl345-v2.0.cfg]
+```
+# [include sample-bigtreetech-adxl345-v2.0.cfg]
+```
 
-## **Assembly** 
+## Assembly
 
-Note: Avoid overtightening screws during installation to prevent damage.
+!!! warning
+    Avoid overtightening screws during installation to prevent damage.
 
 Example using the Voron StealthBurner:
 
@@ -167,10 +173,10 @@ Example using the Voron StealthBurner:
 
 Install on the side bracket with the dual holes (matches official spacing).
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.png width="400"/>
 
 **Method 2:**
 
 Use screws through the PCB and rubber ring on the heater block as shown.
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.png width="400"/>
