@@ -1,6 +1,6 @@
 # CB2
 
-<img src=img/CB2/CB2_Title.png width="600" />
+<img src=img/CB2/CB2_Title.png width="500" />
 
 ## **Product Profile**
 
@@ -255,9 +255,9 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
 
 Pressing and holding down SW1 will short-circuit the eMMC signal line to GND, prohibiting communication between SoC and eMMC.
 
-<img src=img/CB2/CB2_Interface1.png width="600" />
+<img src=img/CB2/CB2_Interface1.png width="450" />
 
-<img src=img/CB2/CB2_Interface2.png width="600" />
+<img src=img/CB2/CB2_Interface2.png width="450" />
 
 ### 40 pin GPIO
 
@@ -387,7 +387,7 @@ When using a MicroSD card as the system card instead, it's best to erase the dat
 
 2、Open the "RKDevTool".
 
-<img src=img/CB2/CB2_System15.png width="600" />
+<img src=img/CB2/CB2_System15.png width="450" />
 
 ①Find the path where the downloaded RKDevTool is located.
 
