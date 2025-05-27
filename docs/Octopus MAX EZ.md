@@ -63,95 +63,92 @@ BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octo
 
 ## **Dimensions**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Dimensions.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Dimensions.png width="600">
 
 ## Peripheral Port
 
 **Connector Diagram**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Peripheral.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Peripheral.png width="600">
 
 ## Pinout Diagram
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout.png width="600">
 
 ## **Hardware Configuration**
 
 ### **USB Power Supply**
 
-After the Octopus MAX EZ has been powered, the Red light D32 on the left side of the MCU will light up, indicating power on. When using only USB to power the board or to supply power via USB, please insert the jumper cap onto the VUSB.
+After the Octopus MAX EZ has been powered, the Red light `D32` on the left side of the MCU will light up, indicating power on. When using only USB to power the board or to supply power via USB, please insert the jumper cap onto the `VUSB`.
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware1.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware1.png width="450">
 
 ### Stepper Motor Driver
 
-**UART/SPI Mode of Driver**
+!!! note "UART / SPI"
+    UART/SPI Mode of Driver
 
-Set in the firmware, no need for a jumper. 
+    Set in the firmware, no need for a jumper. 
 
-**TMC Driver DIAG (Sensorless Homing)**
+!!! note "Sensorless Homing"
+    TMC Driver DIAG (Sensorless Homing)
 
-When using sensorless homing, place jumpers according to the diagram below, there is no need to cut the DIAG pin off when not being used. (Motor1-Motor6).
+    When using sensorless homing, place jumpers according to the diagram below, there is no need to cut the DIAG pin off when not being used. (Motor1-Motor6).
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware2.png width="600"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware2.png width="450">
 
 **Driver Voltage Selection**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware3.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware3.png width="600">
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware4.png width="600"/>
 
 ### Voltage Selection for CNC Fan
 
-The output voltage can be set to 5V, 12V or 24V through a jumper cap. **<font  color="red">(MFAN and FAN6 share the power supply VFAN6). </font>**
+The output voltage can be set to 5V, 12V or 24V through a jumper cap. `MFAN` and `FAN6` share the power supply `VFAN6`.
 
-**<font  color="red">Note: we are not responsible for fan burnout caused by incorrect voltage selection. Please confirm the voltage the fan supports before selecting the voltage. </font>**
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware5.png width="450"/>
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware5.png width="600"/>
+!!! warning
+    we are not responsible for fan burnout caused by incorrect voltage selection. Please confirm the voltage the fan supports before selecting the voltage.
 
-### **100K NTC or PT1000 Setting**
+### 100K NTC or PT1000 Setting
 
-When using 100K NTC, no jumpers need to be connected, the pull-up resistance of TH0-TH3 is 4.7K 0.1%. When using PT1000, the pins indicated in the picture below need to be connected via jumpers, parallel connection of 4.12K 0.1% resistors, the pull-up resistance of TH0-TH1 is 2.2K. 
+When using 100K NTC, no jumpers need to be connected, the pull-up resistance of `TH0` `TH1` `TH2` and `TH3` is **4.7K 0.1%**. When using `PT1000`, the pins indicated in the picture below need to be connected via jumpers, parallel connection of **4.12K 0.1%** resistors, the pull-up resistance of `TH0` `TH1` `TH2` and `TH3` is **2.2K**. 
 
-**<font  color="red">(Note: this method has a much lower accuracy than the MAX31865 in reading temperature.)</font>**
+!!! info 
+    This method connect PT1000 has a much lower accuracy than the MAX31865 in reading temperature.
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware6.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware6.png width="450">
 
-### **BLTouch Wiring**
+!!! note "BLTouch Wiring"
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware7.png width="450">
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware7.png width="600"/>
+!!! note "Auto Power Off (Relay V1.2) Wiring"
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware8.png width="450">
 
-### Auto Power Off (Relay V1.2) Wiring
+!!! note "Connecting with MINI12864/TFT Screen"
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware9.png width="450">
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware8.png width="600"/>
+!!! note "RGB Wiring"
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware10.png width="450">
 
-### Connecting with MINI12864/TFT Screen
+!!! note "Filament Sensor Wiring"
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware11.png width="450">
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware9.png width="600"/>
+!!! note "Proximity Switch Wiring"
+    As shown in the figure below, 24V as an example, normally open (NPN type), no need for shorting through a jumper cap.
 
-### RGB Wiring
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware12.png width="450">
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware10.png width="600"/>
+    As shown in the figure below, 24V as an example, normally closed (PNP type), need for shorting through a jumper cap.
 
-### Filament Sensor Wiring
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.png width="600">
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware11.png width="600"/>
+!!! note "Wiring of 4 pins CNC Fan or Water Cooling System"
+    (12V as an example:)
 
-### Proximity Switch Wiring
-
-As shown in the figure below, 24V as an example, normally open (NPN type), no need for shorting through a jumper cap:
-
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware12.png width="600"/>
-
-As shown in the figure below, 24V as an example, normally closed (PNP type), need for shorting through a jumper cap.
-
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.png width="600"/>
-
-### Wiring of 4 pins CNC Fan and Water Cooling System
-
-(12V as an example:)
-
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware14.png width="600"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware14.png width="600"/>
 
 ## Software Installation
 
