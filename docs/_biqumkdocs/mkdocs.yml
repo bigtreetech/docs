@@ -23,6 +23,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - md_in_html
   # - mdx_partial_gfm
   # - mdx_truly_sane_lists
