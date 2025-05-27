@@ -121,34 +121,43 @@ When using 100K NTC, no jumpers need to be connected, the pull-up resistance of 
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware6.png width="450">
 
-!!! note "BLTouch Wiring"
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware7.png width="450">
+### BLTouch Wiring
 
-!!! note "Auto Power Off (Relay V1.2) Wiring"
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware8.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware7.png width="450">
 
-!!! note "Connecting with MINI12864/TFT Screen"
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware9.png width="450">
+### Auto Power Off (Relay V1.2) Wiring
 
-!!! note "RGB Wiring"
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware10.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware8.png width="450">
 
-!!! note "Filament Sensor Wiring"
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware11.png width="450">
+### Connecting with MINI12864/TFT Screen
 
-!!! note "Proximity Switch Wiring"
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware9.png width="450">
+
+### RGB Wiring
+
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware10.png width="450">
+
+### Filament Sensor Wiring
+
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware11.png width="450">
+
+### Proximity Switch Wiring
+
+=== "Normally Open NPN Type"
     As shown in the figure below, 24V as an example, normally open (NPN type), no need for shorting through a jumper cap.
 
     <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware12.png width="450">
 
+=== "Normally Closed PNP Type"
     As shown in the figure below, 24V as an example, normally closed (PNP type), need for shorting through a jumper cap.
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.png width="600">
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.png width="450">
 
-!!! note "Wiring of 4 pins CNC Fan or Water Cooling System"
-    (12V as an example:)
+### Wiring of 4 pins CNC Fan or Water Cooling System"
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware14.png width="600"/>
+12V as an example:
+
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware14.png width="450">
 
 ## Software Installation
 
