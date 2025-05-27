@@ -1,6 +1,6 @@
 # CB1
 
-[<img src=img/CB1.png width="600" />](https://bigtreetech.github.io/docs/CB1.html)
+[<img src=img/CB1.png width="500" />](https://bigtreetech.github.io/docs/CB1.html)
 
 ## **Product Profile**
 
@@ -10,13 +10,15 @@ The BIGTREETECH CB1 is launched to provide a great solution to the insane shorta
 
 ## **Features Highlights**
 
-* CPU: ALLWINNER H616, Quad-core Cortex-A53 @1.5GHz
-* GPU: Mali G31 MP2, Support OpenGL3.2
-* RAM: 512MB/1GB DDR3L SDRAM
-* Display: Compatible with HDMI2.0A Interface, Support 4K Displays
-* Compatible with USB2.0 Interface
-* Support 100M Ethernet + 100M WiFi
-* Having the same BTB header as the Raspberry Pi CM4.
+| Component     | Specifications                                          |
+| ------------- | ------------------------------------------------------- |
+| CPU           | ALLWINNER H616, Quad-core Cortex-A53 @1.5GHz            |
+| GPU           | Mali G31 MP2, Support OpenGL3.2                         |
+| RAM           | 512MB/1GB DDR3L SDRAM                                   |
+| Display       | Compatible with HDMI2.0A Interface, Support 4K Displays |
+| USB           | Compatible with USB2.0 Interface                        |
+| Network       | Support 100M Ethernet + 100M WiFi                       |
+| BTB connector | Having the same BTB header as the Raspberry Pi CM4      |
 
 ## **Specifications**
 
@@ -30,7 +32,7 @@ The BIGTREETECH CB1 is launched to provide a great solution to the insane shorta
 
 ## **Dimensions**
 
-<img src=img/CB1_Size.png width="600" />
+<img title="" src="img/CB1_Size.png" alt="" width="450" data-align="center">
 
 ## **Schematic**
 
@@ -42,28 +44,28 @@ The BIGTREETECH CB1 is launched to provide a great solution to the insane shorta
 
 **The 40 pin GPIO on the motherboard when CB1 is used with motherboard like Manta M4P, M5P, M8P, PI4B_Adapter, etc.**
 
-| Pin  | Signal | Description        | Pin  | Signal | Description       |
-| ---- | ------ | ------------------ | ---- | ------ | ----------------- |
-| 1    | 3.3V   |                    | 2    | 5V     |                   |
-| 3    | NC     |                    | 4    | 5V     |                   |
-| 5    | NC     |                    | 6    | GND    |                   |
-| 7    | PC7    | GPIO71             | 8    | PH0    | GPIO224, UART0_TX |
-| 9    | GND    |                    | 10   | PH1    | GPIO225, UART0_RX |
-| 11   | PC14   | GPIO78             | 12   | PC13   | GPIO77            |
-| 13   | PC12   | GPIO76             | 14   | GND    |                   |
-| 15   | PC10   | GPIO74             | 16   | PC11   | GPIO75            |
-| 17   | 3.3V   |                    | 18   | PC9    | GPIO73            |
-| 19   | PH7    | GPIO231, SPI1_MOSI | 20   | GND    |                   |
-| 21   | PH8    | GPIO232, SPI1_MISO | 22   | NC     |                   |
-| 23   | PH6    | GPIO230, SPI1_CLK  | 24   | NC     |                   |
-| 25   | GND    |                    | 26   | PG8    | GPIO200           |
-| 27   | NC     |                    | 28   | PG7    | GPIO199           |
-| 29   | NC     |                    | 30   | GND    |                   |
-| 31   | PG6    | GPIO198            | 32   | PG9    | GPIO201           |
-| 33   | NC     |                    | 34   | GND    |                   |
-| 35   | PC6    | GPIO70             | 36   | NC     |                   |
-| 37   | PC15   | GPIO79             | 38   | PH10   | GPIO234, IR_RX    |
-| 39   | GND    |                    | 40   | PC8    | GPIO72            |
+| Pin | Signal | Description        | Pin | Signal | Description       |
+| --- | ------ | ------------------ | --- | ------ | ----------------- |
+| 1   | 3.3V   |                    | 2   | 5V     |                   |
+| 3   | NC     |                    | 4   | 5V     |                   |
+| 5   | NC     |                    | 6   | GND    |                   |
+| 7   | PC7    | GPIO71             | 8   | PH0    | GPIO224, UART0_TX |
+| 9   | GND    |                    | 10  | PH1    | GPIO225, UART0_RX |
+| 11  | PC14   | GPIO78             | 12  | PC13   | GPIO77            |
+| 13  | PC12   | GPIO76             | 14  | GND    |                   |
+| 15  | PC10   | GPIO74             | 16  | PC11   | GPIO75            |
+| 17  | 3.3V   |                    | 18  | PC9    | GPIO73            |
+| 19  | PH7    | GPIO231, SPI1_MOSI | 20  | GND    |                   |
+| 21  | PH8    | GPIO232, SPI1_MISO | 22  | NC     |                   |
+| 23  | PH6    | GPIO230, SPI1_CLK  | 24  | NC     |                   |
+| 25  | GND    |                    | 26  | PG8    | GPIO200           |
+| 27  | NC     |                    | 28  | PG7    | GPIO199           |
+| 29  | NC     |                    | 30  | GND    |                   |
+| 31  | PG6    | GPIO198            | 32  | PG9    | GPIO201           |
+| 33  | NC     |                    | 34  | GND    |                   |
+| 35  | PC6    | GPIO70             | 36  | NC     |                   |
+| 37  | PC15   | GPIO79             | 38  | PH10   | GPIO234, IR_RX    |
+| 39  | GND    |                    | 40  | PC8    | GPIO72            |
 
 ### **2 * 100 pins**
 
@@ -184,24 +186,39 @@ Plug-and-play with an Ethernet cable, no additional setup required.
 #### **WiFi Settings**
 
 After the OS writes to the SD card, there is a FAT32 partition named `BOOT`, open `system.cfg` file with `Notpad`, `Notpad++` or `VSCode`.
-<img src=img/system.png width="600" /><br/>
 
-Set `WIFI_SSID` as your actual wifi name and `WIFI_PASSWD` as your actual wifi password, The space character can be parsed normally without 				 	additional escape character.
-For example: `WIFI_SSID="CB1 Tester"`
-<img src=img/wifi.png width="600" /><br/>
+<img src=img/system.png width="600">
 
-### Overlays Settings
+!!! tip
+    Set `WIFI_SSID` as your actual wifi name and `WIFI_PASSWD` as your actual wifi password, The space character can be parsed normally without additional escape character.
+    For example:
 
-After the OS writes to the SD card, there is a FAT32 partition named `BOOT`, open `BoardEnv.txt` file with `Notpad`, `Notpad++` or `VSCode`. <br/><img src=img/BoardEnv.png width="600" /><br/>
+    ```systemd
+    WIFI_SSID="CB1 Tester"
+    ```
+    
+    <img title="" src="img/wifi.png" alt="" width="450" data-align="center">
 
-Set as required as shown in the figure below. <br/><img src=img/overlays.png width="600" /><br/>
+After the OS writes to the SD card, there is a FAT32 partition named `BOOT`, open `BoardEnv.txt` file with `Notpad`, `Notpad++` or `VSCode`. 
+
+<img src=img/BoardEnv.png width="400" data-align="center">
+
+Set as required as shown in the figure below. 
+
+<img title="" src="img/overlays.png" alt="" width="400" data-align="center">
 
 The default value is `console=display`, This means that the `UART0` of CB1 is used as the debugging port by default. We can use `MobaXterm` to connect to CB1 by UART0 and debug. If klipper wants to use `UART0` to control the motherboard, we need to set it to `console=serial`, now klippe can use `UART0` as `/dev/ttyS0`.
 
-CB1 will automatically identify the HDMI resolution, but if your HDMI screen cannot report the resolution through the EDID normally, we can forcibly specify the resolution of CB1 output by uncomment `extraargs=video` and set the actual resolution.<br/>
-For example:<br/>
-BTT-HDMI7 resolution = 1024x600: `extraargs=video=HDMI-A-1:1024x600-24@60`<br/>
-BTT-HDMI5 resolution = 800x480: `extraargs=video=HDMI-A-1:800x480-24@60`<br/>
+CB1 will automatically identify the HDMI resolution, but if your HDMI screen cannot report the resolution through the EDID normally, we can forcibly specify the resolution of CB1 output by uncomment `extraargs=video` and set the actual resolution.
+
+For example:
+
+```systemd
+# BTT-HDMI7 resolution = 1024x600
+extraargs=video=HDMI-A-1:1024x600-24@60
+# BTT-HDMI5 resolution = 800x480
+extraargs=video=HDMI-A-1:800x480-24@60
+```
 
 Uncomment `overlays=tft35_spi` to enable TFT35 SPI screen.
 
@@ -209,18 +226,19 @@ Uncomment `overlays=mcp2515` to enable MCP2515 spi to canbus module.
 
 Uncomment `overlays=tft35_spi mcp2515` If you want to use both TFT35 SPI screen and MCP2515 spi to canbus module
 
-uncomment the following overlays and parameters to release 'spidev1.1' to user space, And 'spidev1.1' cannot be used together with TFT35_SPI and MCP2515.
+uncomment the following overlays and parameters to release `spidev1.1` to user space, And `spidev1.1` cannot be used together with TFT35_SPI and MCP2515.
 
-```
- overlays=spi-spidev
- param_spidev_spi_bus=1
- param_spidev_spi_cs=1
- param_spidev_max_freq=1000000
+```systemd
+overlays=spi-spidev
+param_spidev_spi_bus=1
+param_spidev_spi_cs=1
+param_spidev_max_freq=1000000
 ```
 
-NOTE: TFT35 SPI and MCP2515 multiplex a group of SPI1
+!!! note 
+    TFT35 SPI and MCP2515 multiplex a group of SPI1
 
-```
+```systemd
 SPI1_CLK=PH6
 SPI1_MISO=PH8
 SPI1_MOSI=PH7
@@ -231,69 +249,76 @@ MCP2515_IRQ=PC9
 
 ### **SSH Connection**
 
-Install the ssh application Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html
+!!! info "SSH Application"
+    Install the ssh application Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html
 
 Insert the Micro SD card (installed OS) to motherboard, wait for system to load after power on, aprox. 1-2min. the ACT LED on the motherboard will flash continuously after startup successfully.
 
 The device will automatically be assigned a IP address after successfully connected to the network
 
 Find the device IP address in your router page
-<img src=img/Router.png width="600" /><br/> 
 
-Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown 	 	below
-<img src=img/AngryIP.png width="600" /><br/> 
+<img src=img/Router.png width="500">
+
+Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown below
+
+<img src=img/AngryIP.png width="500"> 
 
 Open Mobaxtermand click “Session”, and click “SSH”，inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
-<img src=img/MobaXterm_Login.png width="600" /><br/> 
 
-Input the login name and password to enter the SSH terminal interface
+<img src=img/MobaXterm_Login.png width="500"> 
 
-* login as: biqu
-* password: biqu
+Input the login name and password to enter the SSH terminal interface. 
+
+```
+login as: biqu
+password: biqu
+```
+
+!!! note ""
+    password dose not show up in terminal when type
 
 ## **Software Installation**
 
 1. **Download the OS Image**
-
-​		Please download and install the OS image we provided: https://github.com/bigtreetech/CB1/releases
+   
+    Please download and install the OS image we provided: https://github.com/bigtreetech/CB1/releases
 
 2. **Download and Install Writing Software**
-
-​		The official Raspberry Pi Imager: https://www.raspberrypi.com/software/
-
-​		balenaEtcher: https://www.balena.io/etcher/<br/>
-
-​		Both of the above software can be used, just choose one to download and install
+   
+    The official Raspberry Pi Imager: https://www.raspberrypi.com/software/
+   
+    balenaEtcher: https://www.balena.io/etcher/
+   
+    Both of the above software can be used, just choose one to download and install
 
 3. **Format SD card**
-
-​		Normally, you can format the SD card with the tools provided by the computer system. Completely format the SD card with professional SD card 		format software. https://www.sdcard.org/downloads/formatter/
+   
+    !!! warning
+   
+        Formatting the SD card will remove all data in SD card. Ensure backup data before formatting.
+   
+    Normally, you can format the SD card with the tools provided by the computer system. Completely format the SD card with professional SD card format software. https://www.sdcard.org/downloads/formatter/
 
 4. **Write OS**
-
-5. **Raspberry Pi Imager**
-
-​		Insert a MicroSD into your computer.
-
-​		Choose OS. <br/><img src=img/RPI_Imager_1.png width="600"/><br/>
-
-Select "Use custom", then select the image that you downloaded. <br/><img src=img/RPI_Imager_2.png width="600"/><br/>
-
-Select the MicroSD card and click "WRITE" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.) <br/><img src=img/RPI_Imager_3.png width="600"/><br/>
-
-Wait for the writing to finish. <br/><img src=img/RPI_Imager_4.png width="600"/><br/>
-
-6. **balenaEtcher**
-
-​	Insert a MicroSD card to your computer through a card reader.
-
-​	Select the image that you downloaded. <br/><img src=img/Etcher_1.png width="600"/><br/>
-
-​	Select the MicroSD card and click "WRITE" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise 	the data will be formatted.) <br/><img src=img/Etcher_2.png width="600"/><br/>
-
-​	Wait for the writing to finish. <br/><img src=img/Etcher_3.png width="600"/><br/>
-
-
+   
+    Insert a MicroSD card to your computer through a card reader.
+   
+    Select the image that you downloaded. 
+   
+    <img title="" src="img/Etcher_1.png" alt="" width="450" data-align="inline">
+   
+    Select the MicroSD card and click `Flash`
+   
+    !!! warning 
+   
+        `Flash` the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.
+   
+    <img title="" src="img/Etcher_2.png" alt="" width="450" data-align="inline">
+   
+    Wait for the writing to finish. 
+   
+    <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="inline">
 
 ## Product Purchase Link
 
@@ -301,25 +326,20 @@ Wait for the writing to finish. <br/><img src=img/RPI_Imager_4.png width="600"/>
 
 https://biqu.equipment/products/pi4b-adapter-v1-0?variant=40353646051426
 
-
-
 **If you have any issues with the product, please submit a support ticket.**
 
 https://biqu3d.com/pages/submit-a-ticket
 
-
-
 **Navigation:**
 
-BIQU Official Website：                            				http://biqu3d.com
+BIQU Official Website: http://biqu3d.com
 
-BIGTREETECH Official Website：            				 http://bigtree-tech.com
+BIGTREETECH Official Website: http://bigtree-tech.com
 
-Online Store：                                           				 https://biqu.equipment
+Online Store: https://biqu.equipment
 
-BIGTREETECH Official Group: 								  https://www.facebook.com/groups/bigtreetech
+BIGTREETECH Official Group: https://www.facebook.com/groups/bigtreetech
 
-Discord: 																	   https://discord.gg/hhZsV7zk
+Discord: https://discord.gg/hhZsV7zk
 
-Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
-
+Reddit: https://www.reddit.com/r/BIGTREETECH/
