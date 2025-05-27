@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3510,7 +3508,7 @@
 </code></pre></div>
 <p>​下载此驱动程序并重新启动后，DSI1的屏幕将正常工作。如果要使用HDMI接口，需要删除下载的 <code>/boot/firmware/dt-blob.bin</code> 驱动程序并重新启动，HDMI才能正常输出。</p>
 <h3 id="csi1"><strong>· CSI1摄像机</strong><a class="headerlink" href="#csi1" title="Permanent link">&para;</a></h3>
-<p>4.4.2 DSI1显示接口中下载的DSI1驱动程序也包括CSI1驱动程序。如果您只想安装CSI1驱动程序，而不是DSI1，请在找到您要使用的驱动程序https://datasheets.raspberrypi.com/licence.html并将其下载到CM4的 <code>/boot/firmware/</code>（注意：<code>2023-10-10</code> 及其之后的系统，路径为 <code>/boot/firmware/</code>， 在此之前的系统，路径为 <code>/boot/</code>）文件夹中，并将其重命名为<code>dt-blob.bin</code>，然后参考此处的设置。<a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
+<p>4.4.2 DSI1显示接口中下载的DSI1驱动程序也包括CSI1驱动程序。如果您只想安装CSI1驱动程序，而不是DSI1，请在找到您要使用的驱动程序https://datasheets.raspberrypi.com/licence.html并将其下载到CM4的 <code>/boot/firmware/</code>（注意：<code>2023-10-10</code> 及其之后的系统，路径为 <code>/boot/firmware/</code>， 在此之前的系统，路径为 <code>/boot/</code>）文件夹中，并将其重命名为<code>dt-blob.bin</code>，然后参考此处的设置。https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</p>
 <h2 id="wifi"><strong>· WIFI设置</strong><a class="headerlink" href="#wifi" title="Permanent link">&para;</a></h2>
 <p>​注意：如果使用网络电缆连接，则可以跳过此步骤。CB1无法像CM4那样直接使用树莓派成像仪设置WiFi名称和密码。操作系统映像写入完成后，MicroSD卡将具有计算机识别的FAT32分区，找到“system.cfg”</p>
 <p><img src=img/M4P/M4P_WIFI1.png width="600"/></p>
@@ -3520,7 +3518,7 @@
 <h3 id="ssh"><strong>· ssh连接到设备</strong><a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
-<p>安装ssh应用程序Moaxterm：<a href="https://mobaxterm.mobatek.net/downloadhome-edition.html">https://mobaxterm.mobatek.net/downloadhome-edition.html</a></p>
+<p>安装ssh应用程序Moaxterm：https://mobaxterm.mobatek.net/downloadhome-edition.html</p>
 </li>
 <li>
 <p>将Micro SD卡插入M4P，等待系统通电后加载，大约1-2分钟。</p>
@@ -3553,24 +3551,20 @@ CB1:
 <p><img src=img/SSH_Terminal.png width="600" /></p>
 <h3 id="_3"><strong>· 编译固件</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
 <ol>
-<li>
-<p>ssh成功连接到设备后，在终端中输入：</p>
+<li>ssh成功连接到设备后，在终端中输入：</li>
+</ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>cd ~/klipper/
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>make menuconfig
 </code></pre></div>
-</li>
-</ol>
 <p>使用下面显示的配置进行编译（如果下面的选项不可用，
-请将您的Klipper源代码更新到最新版本）</p>
-<ul>
-<li>[*] Enable extra low-level configuration options </li>
-<li>Micro-controller Architecture (STMicroelectronics STM32) ---&gt; </li>
-<li>Processor model (STM32G0B1) ---&gt; </li>
-<li>Bootloader offset (8KiB bootloader) ---&gt; </li>
-<li>Clock Reference (8 MHz crystal) ---&gt; </li>
-<li>Communication interface (USB (on PA11/PA12)) ---&gt;</li>
-</ul>
+请将您的Klipper源代码更新到最新版本）
+* [*] Enable extra low-level configuration options 
+* Micro-controller Architecture (STMicroelectronics STM32) ---&gt; 
+* Processor model (STM32G0B1) ---&gt; 
+* Bootloader offset (8KiB bootloader) ---&gt; 
+* Clock Reference (8 MHz crystal) ---&gt; 
+* Communication interface (USB (on PA11/PA12)) ---&gt;</p>
 <p><img src=img/M4P/M4P_Make.png width="600" /></p>
 <ol>
 <li>运行<strong>make</strong>编译固件，当make完成时，“klipper.bin”文件将在<strong>home/pi/kliper/out</strong>文件夹中生成，并使用ssh应用程序将其下载到您的计算机上。</li>
@@ -3597,7 +3591,7 @@ CB1:
 <p>​   更新后将出现一条错误消息“dfu util:error during download get_status”。忽略它。</p>
 <h3 id="klipper"><strong>· 配置Klipper</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h3>
 <ol>
-<li>在浏览器中输入您的设备IP地址以打开webUI，在下面显示的目录中找到主板的参考配置，如果没有这样的配置，请将您的klipper源代码更新到最新版本或从github下载：<a href="https://github.com/bigtreetech/Manta-M4P">https://github.com/bigtreetech/Manta-M4P</a></li>
+<li>在浏览器中输入您的设备IP地址以打开webUI，在下面显示的目录中找到主板的参考配置，如果没有这样的配置，请将您的klipper源代码更新到最新版本或从github下载：https://github.com/bigtreetech/Manta-M4P</li>
 </ol>
 <p><img src=img/M4P/M4P_Conf_Klipper1.png width="600" /></p>
 <ol>
@@ -3608,7 +3602,7 @@ CB1:
 <li>插入正确的主板ID</li>
 </ol>
 <p><img src=img/M4P/M4P_Conf_Klipper3.png width="600" /></p>
-<p>​   提到https://<a href="http://www.klipper3d.org/Overview.html根据您的机器类型获取详细的配置指南。">www.klipper3d.org/Overview.html根据您的机器类型获取详细的配置指南。</a></p>
+<p>​   提到https://www.klipper3d.org/Overview.html根据您的机器类型获取详细的配置指南。</p>
 
               
             </article>

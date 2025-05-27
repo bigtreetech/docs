@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3510,7 +3508,7 @@
 <p><strong>Communication interface (CAN bus (on PB0/PB1)) ---&gt;</strong></p>
 <p><strong>(1000000) CAN bus speed</strong></p>
 <p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/></p>
-<p><font  color="red">***注意：仅在https://github.com/Klipper3d/klipper/pull/5488被合并到Klipper的主要分支，官方固件将支持STM32G0B1的CAN总线功能。如果您使用CANBus通信，您可以使用我们在GitHub上编译的firmware_CANBus.bin，也可以使用我们的源代码自己编译：<a href="https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus***">https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus***</a> </font></p>
+<p><font  color="red"><strong><em>注意：仅在https://github.com/Klipper3d/klipper/pull/5488被合并到Klipper的主要分支，官方固件将支持STM32G0B1的CAN总线功能。如果您使用CANBus通信，您可以使用我们在GitHub上编译的firmware_CANBus.bin，也可以使用我们的源代码自己编译：https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus</em></strong> </font></p>
 <p>2.配置完成后，键入“q”退出配置界面。当被问及是否保存配置时，选择“是”</p>
 <p>3.输入<strong>make</strong>以编译固件。我们需要的“klipper.bin”固件将在Raspberry pi的<strong>home/pi/klipper/out</strong>文件夹中生成。固件位于SSH软件的左侧，用户可以直接将其下载到计算机上。</p>
 <p><img src=img/EBB36CAN/072/EBB_072_Bin.png width="600"/></p>
@@ -3534,11 +3532,11 @@
 <p><img src=img/EBB36CAN/072/EBB_072_Update5.png width="600"/></p>
 <h3 id="ebb36ebb42-versionv11"><font  color="red"><strong><em>注意: EBB36/EBB42 VersionV1.1</em></strong></font><a class="headerlink" href="#ebb36ebb42-versionv11" title="Permanent link">&para;</a></h3>
 <p>警告：当使用DFU通过Type-C端口更新固件时，STM32G0B1CB需要跳转到系统内存区域以运行bootloader（STMicroelectronics编写）。参考手册AN2606中的说明</p>
-<p>(<a href="https://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf">https://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf</a>), 该引导加载程序的初始化过程如下图所示：</p>
+<p>(https://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf), 该引导加载程序的初始化过程如下图所示：</p>
 <p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update1.png width="600"/></p>
 <p>USART的IO将在进入USB DFU模式之前进行配置。</p>
 <p>进入DFU模式后，<strong>PA2</strong>将被<strong>系统内存</strong>区域的引导加载程序配置为输出高电平，请参阅STM32G0B1CB的数据表</p>
-<p>(<a href="https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf">https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf</a>)</p>
+<p>(https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf)</p>
 <p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update2.png width="600"/></p>
 <p><strong>PA2</strong>用于<strong>EBB36 CAN V1.1</strong>和<strong>EBB42 CAN V1.1</strong><em>中的hotend MOSFET，DFU模式中的高电平将hotend更改为加热状态。因此，在使用Type-C端口的DFU更新固件时，请注意断开hotend的主电源VIN，或者确保固件更新很快完成并进入正常工作模式。当<font color=“red”></em><strong>主电源和hotend连接</strong><em>时，切勿将</em><strong>MCU长时间保持在DFU模式</strong>*</font>。</p>
 <p>使用STM32CubeProgramer升级</p>
@@ -3592,7 +3590,7 @@
 <p><code>Found canbus_uuid=0e0d81e4210c</code></p>
 <p>6.如果Klipper运行良好并且连接到设备，那么它不会报告canbus_uuid，这是正常的。</p>
 <h2 id="klipper"><strong>Klipper 配置</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h2>
-<p>1.在电脑浏览器中输入Raspberry Pi的IP访问权限，并从文件路径下载主板的参考配置，如下图所示。如果找不到此文件，请将Klipper固件源代码更新到最新版本，或从GitHub下载：<a href="https://github.com/bigtreetech/EBB">https://github.com/bigtreetech/EBB</a></p>
+<p>1.在电脑浏览器中输入Raspberry Pi的IP访问权限，并从文件路径下载主板的参考配置，如下图所示。如果找不到此文件，请将Klipper固件源代码更新到最新版本，或从GitHub下载：https://github.com/bigtreetech/EBB</p>
 <p><img src=img/EBB36CAN/072/EBB_072_klipper1.png width="600"/></p>
 <p>2.将主板的配置文件上传到配置文件。</p>
 <p><img src=img/EBB36CAN/072/EBB_072_klipper2.png width="600"/></p>
@@ -3601,7 +3599,7 @@
 <p><img src=img/EBB36CAN/072/EBB_072_klipper3.png width="600"/></p>
 <p>4.将配置文件的ID号修改为主板的实际ID（USB串行或CANBus）。</p>
 <p><img src=img/EBB36CAN/072/EBB_072_klipper4.png width="600"/></p>
-<p>5.按照以下说明配置模块的特定功能：<a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>5.按照以下说明配置模块的特定功能：https://www.klipper3d.org/Overview.html</p>
 <h2 id="_3"><strong>注意事项</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
 <li>当TH0接口无法与PT1000配合使用时，您不能在其上插入跳线，否则100K NTC将无法工作。</li>

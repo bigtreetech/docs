@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3687,11 +3685,11 @@
 <h3 id="flash-katapult">Flash Katapult<a class="headerlink" href="#flash-katapult" title="Permanent link">&para;</a></h3>
 <p>Note: Katapult is for direct firmware updates via CAN bus. Skip this step if using DFU.</p>
 <p>To flash Katapult on Raspberry Pi or CB1, refer to the following instructions to download the Katapult project: </p>
-<p><a href="https://github.com/Arksine/Katapult">https://github.com/Arksine/Katapult</a></p>
+<p>https://github.com/Arksine/Katapult</p>
 <p>1、Enter</p>
 <p>​   <strong>cd ~</strong></p>
 <p>​   to go to the home directory, enter</p>
-<p>​   git clone <a href="https://github.com/Arksine/Katapult">https://github.com/Arksine/Katapult</a></p>
+<p>​   git clone https://github.com/Arksine/Katapult</p>
 <p>​   to download the Katapult project, then enter</p>
 <p>​   <strong>cd Katapult</strong></p>
 <p>​   to navigate to the Katapult directory.</p>
@@ -3793,7 +3791,7 @@
 <p>4、If Klipper is already running and connected to this device, the canbus_uuid will not be reported.</p>
 <h3 id="configuring-klipper">Configuring Klipper<a class="headerlink" href="#configuring-klipper" title="Permanent link">&para;</a></h3>
 <p>1、Access the mainsail web UI by entering the IP address of the BTT Pi or Raspberry Pi into the browser. Using the path shown in the image below, download the reference configuration named sample-bigtreetech-hermit-crab-2-canbus.cfg. If this file is not found, update the Klipper firmware source code to the latest version or use the link to download it from </p>
-<p>GitHub: <a href="https://github.com/bigtreetech/HermitCrab">https://github.com/bigtreetech/HermitCrab</a></p>
+<p>GitHub: https://github.com/bigtreetech/HermitCrab</p>
 <p><img src=img/Hermit_Crab/Hermit_Crab_Klipper1.png width="600" /></p>
 <p>2、Upload the motherboard configuration file to Configuration Files.</p>
 <p><img src=img/Hermit_Crab/Hermit_Crab_Klipper2.png width="600" /></p>
@@ -3801,7 +3799,7 @@
 <p><strong>[include sample-bigtreetech-hermit-crab-2-canbus.cfg]</strong></p>
 <p>4、Change the USB serial or CAN UUID within the configuration file to match the actual ID of the motherboard (USB serial or canbus).</p>
 <p>5、Configure the specific functions of the module according to the instructions in the following link:</p>
-<p><a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>https://www.klipper3d.org/Overview.html</p>
 <h2 id="precautions">Precautions<a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
 <p>1、When using CAN communication, check if this is used as a terminating device (one of the two devices at either end of the bus). If it is, ensure that the 120R position has a jumper inserted.</p>
 <p>2、 When wiring, pay attention to the wire sequence and follow the Pin diagram for DIY instructions to avoid reversing the power line or connecting it to the CAN signal since this could cause damage to the Hermit Crab.</p>

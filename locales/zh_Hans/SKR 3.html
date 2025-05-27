@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3962,7 +3960,7 @@
 <h4 id="stepdirstandalone">普通的 STEP/DIR(STANDALONE)模式<a class="headerlink" href="#stepdirstandalone" title="Permanent link">&para;</a></h4>
 <p>例如：A4988、DRV8825、LV8729、ST820 等，根据驱动细分表来选择跳帽短接 MS0-MS2。</p>
 <p><img src=img/SKR3/SKR3_Step.png width="600" /></p>
-<p>详情请点击: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p>详情请点击: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h4 id="tmc-uart">TMC 驱动的 UART 模式<a class="headerlink" href="#tmc-uart" title="Permanent link">&para;</a></h4>
 <p>例如：TMC2208、TMC2209、TMC2225 等，每个轴使用一个跳帽短接图中红框位置即可，细分和驱动电流通过固件进行设置</p>
 <p><img src=img/SKR3/SKR3_Uart.png width="600" /></p>
@@ -4003,14 +4001,14 @@
 <p><img src=img/SKR3/SKR3_Heater.png width="600" /></p>
 <h2 id="marlin"><strong>Marlin</strong><a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h2>
 <h3 id="_14">安装编译环境<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
-<p><a href="https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md">https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</a></p>
-<p><a href="https://marlinfw.org/docs/basics/install_platformio_vscode.html">https://marlinfw.org/docs/basics/install_platformio_vscode.html</a></p>
+<p>https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</p>
+<p>https://marlinfw.org/docs/basics/install_platformio_vscode.html</p>
 <p>参考这两个链接的说明安装 VSCode 以及 PlatformIO 插件（国内的用户在线安装PlatformIO 插件可能会很慢）</p>
 <h3 id="marlin_1">下载 Marlin 固件<a class="headerlink" href="#marlin_1" title="Permanent link">&para;</a></h3>
 <p>1、从 Marlin 官网下载最新版本的 bugfix 版本的固件</p>
-<p><a href="https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x">https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x</a></p>
+<p>https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x</p>
 <p>2、从我们 github 上下载预先配置好编译环境和主板类型的固件</p>
-<p><a href="https://github.com/bigtreetech/SKR-3">https://github.com/bigtreetech/SKR-3</a></p>
+<p>https://github.com/bigtreetech/SKR-3</p>
 <h3 id="_15">配置固件<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
 <h4 id="marlin_2">打开 Marlin 工程<a class="headerlink" href="#marlin_2" title="Permanent link">&para;</a></h4>
 <p>您可以通过以下几种方式之一在 VSCode 中打开 Marlin：</p>
@@ -4112,7 +4110,7 @@
 <h4 id="esp3d">ESP3D<a class="headerlink" href="#esp3d" title="Permanent link">&para;</a></h4>
 <p>Marlin 中只需设置正确的 “SERIAL_PORT” 和 “BAUDRATE” 即可。主板上 ESP8266 与Marlin 通信的串口是 UART3, 所以将 SERIAL_PORT 设置为 3。</p>
 <p><img src=img/SKR3/SKR3_Marlin23.png width="600" /></p>
-<p>可以在 <a href="https://github.com/luc-github/ESP3D">https://github.com/luc-github/ESP3D</a> 中获取最新的 ESP3D 固件，编译出您自己的二进制文件，将其重命名为 “esp3d.bin” 然后复制到 SD 卡的根目录中，插到主板上然后 Reset，主板中的引导程序会自动将 esp3d.bin 更新到 ESP8266 中，更新完成后文件会被重命名为 “ESP3D.CUR”</p>
+<p>可以在 https://github.com/luc-github/ESP3D 中获取最新的 ESP3D 固件，编译出您自己的二进制文件，将其重命名为 “esp3d.bin” 然后复制到 SD 卡的根目录中，插到主板上然后 Reset，主板中的引导程序会自动将 esp3d.bin 更新到 ESP8266 中，更新完成后文件会被重命名为 “ESP3D.CUR”</p>
 <h4 id="_21">编译固件<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h4>
 <p>1、点击底部状态栏中的<code>√</code>编译固件</p>
 <p><img src=img/SKR3/SKR3_Marlin24.png width="600" /></p>
@@ -4122,15 +4120,15 @@
 <h3 id="_22">准备工作<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
 <h4 id="_23">下载系统镜像<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h4>
 <p>下载内置你喜欢的 WebUI 的系统镜像，目前主流的有 Fluidd、Mainsail 等。</p>
-<p>内置 Fluidd 的系统：<a href="https://github.com/fluidd-core/FluiddPI/releases">https://github.com/fluidd-core/FluiddPI/releases</a></p>
+<p>内置 Fluidd 的系统：https://github.com/fluidd-core/FluiddPI/releases</p>
 <p><img src=img/SKR3/SKR3_Klipper1.png width="600" /></p>
-<p>内置 Mainsail 的系统：<a href="https://github.com/mainsail-crew/MainsailOS/releases">https://github.com/mainsail-crew/MainsailOS/releases</a></p>
+<p>内置 Mainsail 的系统：https://github.com/mainsail-crew/MainsailOS/releases</p>
 <p><img src=img/SKR3/SKR3_Klipper2.png width="600" /></p>
-<p>或者参考官方的安装说明: <a href="https://www.klipper3d.org/Installation.htmlKlipper">https://www.klipper3d.org/Installation.htmlKlipper</a>  使用 Octoprint</p>
+<p>或者参考官方的安装说明: https://www.klipper3d.org/Installation.htmlKlipper  使用 Octoprint</p>
 <h4 id="raspberry-pi-imager">下载并安装 Raspberry Pi Imager<a class="headerlink" href="#raspberry-pi-imager" title="Permanent link">&para;</a></h4>
-<p>下载并安装树莓派官方的烧录软件 <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a></p>
+<p>下载并安装树莓派官方的烧录软件 https://www.raspberrypi.com/software/</p>
 <h3 id="_24">烧录镜像<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
-<p>详情请点击: <a href="https://bttwiki.com/Software%20Installation.html#write-os">https://bttwiki.com/Software%20Installation.html#write-os</a></p>
+<p>详情请点击: https://bttwiki.com/Software%20Installation.html#write-os</p>
 <h3 id="wifi">设置 WIFI<a class="headerlink" href="#wifi" title="Permanent link">&para;</a></h3>
 <p><font  color="red"><strong>注意：如果使用网线端口而不是 WIFI，可以跳过此步。 </strong></font></p>
 <p>1、重新拔插一下读卡器</p>
@@ -4139,12 +4137,12 @@
 <p>3、删除红框中四行行首的‘#’字符，然后设置正确的 WIFI 名称和密码后保存</p>
 <p><img src=img/SKR3/SKR3_WIFI2.png width="600" /></p>
 <h3 id="ssh">ssh 软件连接树莓派<a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h3>
-<p>1、安装 ssh 软件 Mobaxterm：<a href="https://mobaxterm.mobatek.net/download-home-edition.html">https://mobaxterm.mobatek.net/download-home-edition.html</a></p>
+<p>1、安装 ssh 软件 Mobaxterm：https://mobaxterm.mobatek.net/download-home-edition.html</p>
 <p>2、将 SD 卡插到树莓派，通电后等待系统启动，大概 1~2 分钟</p>
 <p>3、树莓派连上 WIFI 或者插上网线后，会被自动分配一个 IP</p>
 <p>4、进入路由器管理界面找到树莓派的 IP</p>
 <p><img src=img/SKR3/SKR3_WIFI3.png width="600" /></p>
-<p>5、或者使用 <a href="https://angryip.org/">https://angryip.org/</a> 工具，扫描当前局域网下的所有 IP 地址，并使用主机名重新排序，找到主机名为 Fluidd 或者 Mainsail 的设备，如下图所示</p>
+<p>5、或者使用 https://angryip.org/ 工具，扫描当前局域网下的所有 IP 地址，并使用主机名重新排序，找到主机名为 Fluidd 或者 Mainsail 的设备，如下图所示</p>
 <p><img src=img/SKR3/SKR3_WIFI4.png width="600" /></p>
 <p>6、打开已经安装的 Mobaxterm 软件，点击<code>Session</code>，在弹出的窗口中点击<code>SSH</code>，在 Remote host 一栏中输入树莓派的 IP 地址，点击<code>OK</code></p>
 <p><font  color="red"><strong>注意：电脑和树莓派必须要在同一个局域网下</strong></font></p>
@@ -4174,13 +4172,13 @@
 <p><img src=img/SKR3/SKR3_Firmware3.png width="600" /></p>
 <p>复制保存此 ID，配置文件中需要设置此 ID</p>
 <h3 id="klipper_1">配置 Klipper<a class="headerlink" href="#klipper_1" title="Permanent link">&para;</a></h3>
-<p>1、在电脑的浏览器中输入树莓派的 IP 访问，如下图所示的路径中下载主板的参考配置，如果找不到此文件，请更新 Klipepr 固件源码到最新版本，或者到 github 下载:<a href="https://github.com/bigtreetech/SKR-3">https://github.com/bigtreetech/SKR-3</a></p>
+<p>1、在电脑的浏览器中输入树莓派的 IP 访问，如下图所示的路径中下载主板的参考配置，如果找不到此文件，请更新 Klipepr 固件源码到最新版本，或者到 github 下载:https://github.com/bigtreetech/SKR-3</p>
 <p><img src=img/SKR3/SKR3_Klipper1.png width="600" /></p>
 <p>2、将主板的配置文件上传到 Configuration Files 中, 并重命名为<code>printer.cfg</code></p>
 <p><img src=img/SKR3/SKR3_Klipper2.png width="600" /></p>
 <p>3、将配置文件中的 ID 号修改为主板实际的 ID</p>
 <p><img src=img/SKR3/SKR3_Klipper3.png width="600" /></p>
-<p>4、按照 <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a> 的说明配置机器的具体功能</p>
+<p>4、按照 https://www.klipper3d.org/Overview.html 的说明配置机器的具体功能</p>
 <h3 id="_26">固件更新<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Micro SD 卡更新</li>

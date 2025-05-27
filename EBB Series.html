@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3633,7 +3631,7 @@ version).</p>
 <p><strong>Communication interface (CAN bus (on PB0/PB1)) ---&gt;</strong></p>
 <p><strong>(1000000) CAN bus speed</strong></p>
 <p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/></p>
-<p><font  color="red">***Note: Only after <a href="https://github.com/Klipper3d/klipper/pull/5488">https://github.com/Klipper3d/klipper/pull/5488</a> is merged into the main branch of Klipper, will the official firmware support the CAN bus function of STM32G0B1. If you use CANBus communication, you can use the firmware_canbus.bin compiled by us on our GitHub, or use our source code to compile it yourself: <a href="https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus***">https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus***</a> </font></p>
+<p><font  color="red"><strong><em>Note: Only after https://github.com/Klipper3d/klipper/pull/5488 is merged into the main branch of Klipper, will the official firmware support the CAN bus function of STM32G0B1. If you use CANBus communication, you can use the firmware_canbus.bin compiled by us on our GitHub, or use our source code to compile it yourself: https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus</em></strong> </font></p>
 <p>2.When the configuration is completed, type 'q' to exit the configuration interface. Select "Yes" when asked whether to save the configuration</p>
 <p>3.Enter <strong>make</strong> to compile the firmware. The 'klipper.bin' firmware that we need will be generated on the <strong>home/pi/klipper/out</strong> folder of the Raspberry Pi when completed. The firmware is on the left side of SSH software, users can download it directly to the computer.</p>
 <p><img src=img/EBB36CAN/072/EBB_072_Bin.png width="600"/></p>
@@ -3657,11 +3655,11 @@ version).</p>
 <p><img src=img/EBB36CAN/072/EBB_072_Update5.png width="600"/></p>
 <h3 id="note-ebb36ebb42-versionv11"><font  color="red"><strong><em>NOTE: EBB36/EBB42 VersionV1.1</em></strong></font><a class="headerlink" href="#note-ebb36ebb42-versionv11" title="Permanent link">&para;</a></h3>
 <p>Warning：STM32G0B1CB needs to jump to the System memory area to runbootloader (written by STMicroelectronics) when using DFU to update firmware through the Type-C port. Referring to the description in manual AN2606</p>
-<p>(<a href="https://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf">https://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf</a>), The initialization process of this bootloader is shown in the following figure: </p>
+<p>(https://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf), The initialization process of this bootloader is shown in the following figure: </p>
 <p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update1.png width="600"/></p>
 <p>The IO of USART will be configured before going to the USB DFU mode. </p>
 <p>After going to DFU mode, <strong>PA2</strong> will be configured to output high level by bootloader in <strong>System memory</strong> area refer to the datasheet of STM32G0B1CB </p>
-<p>(<a href="https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf">https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf</a>)</p>
+<p>(https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf)</p>
 <p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update2.png width="600"/></p>
 <p><strong>PA2</strong> is used for the hotend MOSFET in <strong>EBB36 CAN V1.1</strong> and <strong>EBB42 CAN V1.1</strong>,The high level in the DFU mode change the hotend into heating state. Therefore, please pay attention to disconnect the main power VIN of the hotend when using the DFU of Type-C port to update the firmware, or ensure that the firmware update is completed soon and goto the normal working mode. Never <font  color="red"><strong><em>keep MCU in DFU mode for a long time</em></strong></font> when the <font  color="red"><strong><em>main power supply and hotend are connected</em></strong></font>.</p>
 <p>Upgrade with STM32CubeProgrammer </p>
@@ -3719,7 +3717,7 @@ hardware is powered on and wired correctly, then run the following command:</p>
 <p>6.If Klipper operates well and is connected to the device, then it won't report the canbus_uuid, which is normal.</p>
 <h2 id="klipper-configuration"><strong>Klipper Configuration</strong><a class="headerlink" href="#klipper-configuration" title="Permanent link">&para;</a></h2>
 <p>1.Enter the IP access of Raspberry Pi in the browser of the computer, and download the reference configuration of the motherboard from the file path 
-shown in the figure below. If you cannot find this file, please update the Klipper firmware source code to the latest version, or download it from GitHub: <a href="https://github.com/bigtreetech/EBB">https://github.com/bigtreetech/EBB</a></p>
+shown in the figure below. If you cannot find this file, please update the Klipper firmware source code to the latest version, or download it from GitHub: https://github.com/bigtreetech/EBB</p>
 <p><img src=img/EBB36CAN/072/EBB_072_klipper1.png width="600"/></p>
 <p>2.Upload the motherboard's configuration files to the Configuration Files.</p>
 <p><img src=img/EBB36CAN/072/EBB_072_klipper2.png width="600"/></p>
@@ -3728,7 +3726,7 @@ shown in the figure below. If you cannot find this file, please update the Klipp
 <p><img src=img/EBB36CAN/072/EBB_072_klipper3.png width="600"/></p>
 <p>4.Revise the ID number of the configuration files as the actual ID of the motherboard (USB serial or CANBus).</p>
 <p><img src=img/EBB36CAN/072/EBB_072_klipper4.png width="600"/></p>
-<p>5.Configure the specific functions of the module as instructed below: <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>5.Configure the specific functions of the module as instructed below: https://www.klipper3d.org/Overview.html</p>
 <h2 id="precautions"><strong>PRECAUTIONS</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
 <ul>
 <li>When the TH0 interface doesn't work with PT1000, you can't plug a jump cap on it, otherwise 100K NTC won't work.</li>

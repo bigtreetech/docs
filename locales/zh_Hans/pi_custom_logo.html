@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3416,29 +3414,27 @@
 <p>参考<a href="https://github.com/bigtreetech/armbian-bootlogo">这里</a></p>
 <h2 id="bigtreetech-pi1cb1-os-v300-pi2cb2">BIGTREETECH Pi1/CB1 OS V3.0.0 及其之后的系统, 以及所有的 Pi2/CB2 系统<a class="headerlink" href="#bigtreetech-pi1cb1-os-v300-pi2cb2" title="Permanent link">&para;</a></h2>
 <p>使用标准的 plymouth theme 主题管理.
-<img src=img/custom_logo.png width="500"/></br></p>
-<ul>
-<li>替换系统路径 <code>/usr/share/plymouth/themes/armbian/</code> 下的 <code>bgrt-fallback.png</code>(推荐的分辨率是: 256*256px) 和 <code>watermark.png</code> 图片文件</br>
+<img src=img/custom_logo.png width="500"/></br>
+* 替换系统路径 <code>/usr/share/plymouth/themes/armbian/</code> 下的 <code>bgrt-fallback.png</code>(推荐的分辨率是: 256*256px) 和 <code>watermark.png</code> 图片文件</br>
   <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo mv ./bgrt-fallback.png /usr/share/plymouth/themes/armbian/bgrt-fallback.png
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>sudo mv ./watermark.png /usr/share/plymouth/themes/armbian/watermark.png
-</code></pre></div></li>
-<li>如果不想显示 <code>bgrt-fallback.png</code> 或者 <code>watermark.png</code>, 可以通过下面的命令直接删除它们
+</code></pre></div>
+* 如果不想显示 <code>bgrt-fallback.png</code> 或者 <code>watermark.png</code>, 可以通过下面的命令直接删除它们
   <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo rm /usr/share/plymouth/themes/armbian/bgrt-fallback.png
 </code></pre></div>
   或者
   <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sudo rm /usr/share/plymouth/themes/armbian/watermark.png
-</code></pre></div></li>
-<li><code>throbber-*.png</code> 由脚本根据 <code>spinner.gif</code> 动图生成的一系列的 png 图片. 不推荐自定义它, 如果您不喜欢此 spinner, 可以通过下面的命令直接删除它们
+</code></pre></div>
+* <code>throbber-*.png</code> 由脚本根据 <code>spinner.gif</code> 动图生成的一系列的 png 图片. 不推荐自定义它, 如果您不喜欢此 spinner, 可以通过下面的命令直接删除它们
   <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>sudo rm /usr/share/plymouth/themes/armbian/throbber-*
-</code></pre></div></li>
-<li>更新 logo
+</code></pre></div>
+* 更新 logo
   <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo plymouth-set-default-theme -R armbian
-</code></pre></div></li>
-<li>等待更新命令执行完成, 然后重启系统即可.</li>
-<li>执行 <code>sudo apt upgrade</code> 命令, 可能会从网络自动下载并更新 armbian 的 logo, 如果您不希望发生这种情况, 可以执行下面的命令, 禁止更新 logo
+</code></pre></div>
+* 等待更新命令执行完成, 然后重启系统即可.
+* 执行 <code>sudo apt upgrade</code> 命令, 可能会从网络自动下载并更新 armbian 的 logo, 如果您不希望发生这种情况, 可以执行下面的命令, 禁止更新 logo
   <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sudo apt-mark hold armbian-plymouth-theme
-</code></pre></div></li>
-</ul>
+</code></pre></div></p>
 
               
             </article>

@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3772,7 +3770,7 @@
 <p><img src=img/MMB_CAN/MMB_CAN_Title.png width="600" /></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH MMB CAN V1.0 is a control board for multi-material 3D printing system, e.g., ERCF. It simplifies wiring by communicating via USB or CAN.</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/bigtreetech-mmb">https://biqu.equipment/products/bigtreetech-mmb</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-mmb</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>The board has BOOT and RESET buttons, allowing users to update firmware in DFU mode via USB.</li>
@@ -3862,24 +3860,22 @@
 <h2 id="klipper-firmware"><strong>Klipper Firmware</strong><a class="headerlink" href="#klipper-firmware" title="Permanent link">&para;</a></h2>
 <h3 id="flashing-canboot">Flashing CANBOOT<a class="headerlink" href="#flashing-canboot" title="Permanent link">&para;</a></h3>
 <p>Note: CanBoot is for updating MCU firmware directly via CAN bus. If you prefer DFU, skip this step. </p>
-<p>To flash CanBoot on Raspberry Pi or CB1, follow the instructions at <a href="https://github.com/Arksine/CanBoot">https://github.com/Arksine/CanBoot</a></p>
+<p>To flash CanBoot on Raspberry Pi or CB1, follow the instructions at https://github.com/Arksine/CanBoot</p>
 <ol>
-<li>
-<p>Enter</p>
+<li>Enter</li>
+</ol>
 <p><strong>cd ~</strong></p>
 <p>Navigate to the main directory and input</p>
-<p><strong>git clone</strong> **<a href="https://github.com/Arksine/CanBoot**">https://github.com/Arksine/CanBoot**</a></p>
+<p><strong>git clone</strong> <strong>https://github.com/Arksine/CanBoot</strong></p>
 <p>to download the CanBoot project. Then enter</p>
 <p><strong>cd CanBoot</strong></p>
 <p>navigate to the CanBoot directory.</p>
-</li>
-<li>
-<p>Enter</p>
+<ol>
+<li>Enter</li>
+</ol>
 <p><strong>make menuconfig</strong></p>
 <p>configure as shown in the provided image:</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper1.png width="600" /></p>
-</li>
-</ol>
 <p>​   3.Enter <strong>make</strong> to compile the firmware. The resulting <strong>canboot.bin</strong> file will be in the <strong>home/biqu/CanBoot/out</strong> folder. This can be directly downloaded to your computer from the SSH software's left panel.</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper2.png width="600" /></p>
 <p>​   4.Hold the <strong>Boot</strong> button and connect the board to Raspberry Pi/CB1 via Type-C cable to enter DFU mode.</p>
@@ -3970,13 +3966,13 @@
 <p>4、If Klipper is running and connected to the device, the canbus_uuid will not be reported, which is normal.</p>
 <h3 id="configuring-klipper">Configuring Klipper<a class="headerlink" href="#configuring-klipper" title="Permanent link">&para;</a></h3>
 <p>1、In your computer's web browser, enter the Raspberry Pi's IP address, and as shown in the path below, download the reference configuration file <strong>sample-bigtreetech-mmb-canbus.cfg</strong>. If the file is not available, update Klipper firmware to the latest version or download from:</p>
-<p><a href="https://github.com/bigtreetech/MMB">https://github.com/bigtreetech/MMB</a></p>
+<p>https://github.com/bigtreetech/MMB</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper11.png width="600" /></p>
 <p>2、Upload the configuration file to Configuration Files.</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper12.png width="600" /></p>
 <p>3、Add the board configuration to the "printer.cfg" file:<strong>[include sample-bigtreetech-mmb-canbus.cfg]</strong></p>
 <p>4、Modify the ID number in the configuration file to match the actual ID of the board (USB serial or canbus).</p>
-<p>5、Configure the module's specific functions according to the instructions at <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>5、Configure the module's specific functions according to the instructions at https://www.klipper3d.org/Overview.html</p>
 
               
             </article>

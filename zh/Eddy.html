@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -4242,7 +4240,7 @@
 <p>4.输入 <font  color="blue">ls /dev/serial/by-id/*</font>到命令行。找到的设备将被输入到您的klipper 配置中，作为[mcu eddy]下的 Serial 变量。</p>
 <h2 id="klipper-eddy"><strong>Klipper 和 Eddy 配置</strong><a class="headerlink" href="#klipper-eddy" title="Permanent link">&para;</a></h2>
 <h3 id="_11">打印机配置文件模板<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
-<p>现在您已经成功安装了正确的固件到您的 Eddy 设备上，接下来是完成 Klipper配置的步骤。BIGTREETECH 提供了三种不同的示例配置文件，帮助您开始设置。您需要根据下面的标准选择最适合您需求的文件。仔细阅读选定配置文件中的注释，它们将帮助您了解如何修改安装中的特定参数。每个配置文件的链接如下所示，您也可以通过访问 <a href="https://github.com/bigtreetech/Eddy">https://github.com/bigtreetech/Eddy</a> 找到它们：</p>
+<p>现在您已经成功安装了正确的固件到您的 Eddy 设备上，接下来是完成 Klipper配置的步骤。BIGTREETECH 提供了三种不同的示例配置文件，帮助您开始设置。您需要根据下面的标准选择最适合您需求的文件。仔细阅读选定配置文件中的注释，它们将帮助您了解如何修改安装中的特定参数。每个配置文件的链接如下所示，您也可以通过访问 https://github.com/bigtreetech/Eddy 找到它们：</p>
 <ul>
 <li>如果您希望使用 Eddy 作为自动调平传感器，但使用另一设备作为 Z 轴限位开关，<a href="https://github.com/bigtreetech/Eddy/blob/master/sample-bigtreetech-eddy.cfg">使用该无归零功能的配</a>。</li>
 <li>如果您希望 Eddy 同时作为自动调平传感器和 Z 轴限位开关，<a href="https://github.com/bigtreetech/Eddy/blob/master/sample-bigtreetech-eddy-homing.cfg">使用该包含归零功能的配置</a>。</li>
@@ -4274,19 +4272,23 @@
 <p>驱动电流校准完成后，Eddy 将能够从打印床获取读数。Klipper 需要知道这些读数与喷嘴的高度如何对应。以下校准程序将喷嘴定位在床面上，使 Z 高度等于 0。
 然后，它从 Eddy 获取读数，随着喷嘴高度逐渐增加，将这些读数映射到已知的高度。</p>
 <ul>
-<li>如果您使用了推荐的配置模板，可以简单按照以下步骤执行映射程序。</li>
-</ul>
-<ol>
-<li>发送命令 <font  color="blue">PROBE_EDDY_CURRENT_CALIBRATE_AUTO CHIP=btt_eddy</font></li>
+<li>
+<p>如果您使用了推荐的配置模板，可以简单按照以下步骤执行映射程序。</p>
+</li>
+<li>
+<p>发送命令 <font  color="blue">PROBE_EDDY_CURRENT_CALIBRATE_AUTO CHIP=btt_eddy</font></p>
+</li>
 <li>按照 klipper UI 的提示，逐步降低喷嘴，直至其接触到放在打印床上的纸张。确保纸张在适当的压力下可以平滑移动，同时感受到轻微的摩擦力。注意，在此过程中要避免喷嘴对打印床造成过大的压力或损坏。</li>
 <li>点击“ACCEPT(接受)”，并观察 Eddy 执行映射过程。完成后确保发送 <font  color="blue">SAVE_CONFIG</font>。</li>
-<li>执行网格校准 Bed Mesh Calibration。</li>
-</ol>
-<ul>
-<li>如果您没有使用配置模板，按以下步骤执行映射程序：</li>
-</ul>
-<ol>
-<li>使用命令 G28 X Y 归零 X 轴和 Y 轴。</li>
+<li>
+<p>执行网格校准 Bed Mesh Calibration。</p>
+</li>
+<li>
+<p>如果您没有使用配置模板，按以下步骤执行映射程序：</p>
+</li>
+<li>
+<p>使用命令 G28 X Y 归零 X 轴和 Y 轴。</p>
+</li>
 <li>确保没有加载床面高度图。从控制台发送 <font  color="blue">BED_MESH_CLEAR</font> 以清除高度图。</li>
 <li>
 <p>使用命令 G0 X150 Y150 F6000 将喷嘴移动到平台中心。此命令基于300x300mm 的打印机设置，但您可能需要根据您的打印床尺寸进行相应调整。</p>
@@ -4297,7 +4299,7 @@
 <li>
 <p>完成后使用 <font  color="blue">SAVE_CONFIG</font> 保存配置。</p>
 </li>
-</ol>
+</ul>
 <p><img src=img/Eddy/Eddy_System8.png width="600" /></p>
 <h3 id="_14">床面网格校准<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
 <ol>

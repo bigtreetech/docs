@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3697,7 +3695,7 @@
 <p>\1) Enter</p>
 <p>​   <strong>cd ~</strong></p>
 <p>​   to go to the home directory, enter</p>
-<p>​   <strong>git clone</strong> **<a href="https://github.com/Arksine/katapult**">https://github.com/Arksine/katapult**</a></p>
+<p>​   <strong>git clone</strong> <strong>https://github.com/Arksine/katapult</strong></p>
 <p>​   to download the Katapult project, then enter</p>
 <p>​   <strong>cd Katapult</strong></p>
 <p>​   to navigate to the Katapult directory.</p>
@@ -3787,14 +3785,14 @@
 <p>(4) If Klipper is already running and connected to this device, the canbus_uuid will not be reported.</p>
 <h3 id="configuring-klipper"><strong>Configuring Klipper</strong><a class="headerlink" href="#configuring-klipper" title="Permanent link">&para;</a></h3>
 <p>\1. Access the mainsail web UI by entering the IP address of the Raspberry Pi into the browser. Using the path shown in the image below, download the reference configuration named <strong>sample-bigtreetech-mmb-cubic.cfg</strong>. If this file is not found, update the Klipper firmware source code to the latest version or use the link to download it from GitHub:</p>
-<p><a href="https://github.com/bigtreetech/MMB-Cubic">https://github.com/bigtreetech/MMB-Cubic</a></p>
+<p>https://github.com/bigtreetech/MMB-Cubic</p>
 <p><img src=img/MMB_Cubic/MMB_Cubic_Klipper10.png width="600" /></p>
 <p>\2. Upload the motherboard configuration file to <strong>Configuration Files</strong>.</p>
 <p><img src=img/MMB_Cubic/MMB_Cubic_Klipper11.png width="600" /></p>
 <p>\3. Add the MMB Cubic configuration to the <strong>printer.cfg</strong> file:</p>
 <p><strong>[include sample-bigtreetech-mmb-cubic.cfg]</strong></p>
 <p>\4. Change the USB serial or CAN bus ID within the configuration file to match the actual ID of the board (USB serial or canbus).</p>
-<p>\5. Configure the specific functions of the module according to the instructions in the following link:<a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>\5. Configure the specific functions of the module according to the instructions in the following link:https://www.klipper3d.org/Overview.html</p>
 <h2 id="precautions"><strong>Precautions</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
 <ul>
 <li>When using 24V, each of the three fan interfaces can support up to 1A; at 12V or 5V, the combined maximum is 1.5A.</li>

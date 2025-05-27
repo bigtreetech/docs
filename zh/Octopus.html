@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -4052,7 +4050,7 @@
 下面两行之间的连接跳线将中间引脚（MS）设置为3.3V，第一列中的跳线除外，它将连接SLP和RST。</p>
 <p><font  color="red"><strong><em>请注意，如果您在步进/目录模式中使用的驱动程序使用的是除16以外的微步进因子，则您不能在SPI模式中使用任何其他驱动程序，因为将微步进设置为除16以外任何值所需的引脚也与SPI共享。</em></strong></font></p>
 <p><font  color="red"><strong><em>请注意，如果使用A4988或DRV8825驱动程序，则必须连接RST和SLP。</em></strong></font></p>
-<p>详情请点击：<a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p>详情请点击：https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h4 id="uart"><strong>UART模式</strong><a class="headerlink" href="#uart" title="Permanent link">&para;</a></h4>
 <p>在UART模式下使用驱动程序时，如下图所示，连接该驱动程序下方的跳线。</p>
 <p><img src=img/Octopus/Octopus_DRI3.png width="600"/></p>
@@ -4080,17 +4078,17 @@
 <p><font  color="red"><strong><em>为SPI、UART和I2C提供扩展接口。在Octopus的第一次生产中，PCB下侧的丝印有两个引脚在SPI3接口上标记错误，两个在Raspberry Pi UART接口上标记不正确。为了确保正确连接外围设备，如果使用SPI或UART接口，请参阅PINS.pdf文档。</em></strong></font></p>
 <h2 id="_17">软件安装<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
 <h3 id="_18">主板通信<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
-<p>通过USB电缆将主板连接到计算机后，驱动程序将自动安装（windows、linux和macos）。安装驱动程序后，主板应自动枚举为可用于数据传输的虚拟串行设备。如果未能做到这一点，您可以访问我们的GitHub网站：<a href="https://github.com/bigtreetech?tab=repositories并找到相应的存储库来下载驱动程序。">https://github.com/bigtreetech?tab=repositories并找到相应的存储库来下载驱动程序。</a></p>
+<p>通过USB电缆将主板连接到计算机后，驱动程序将自动安装（windows、linux和macos）。安装驱动程序后，主板应自动枚举为可用于数据传输的虚拟串行设备。如果未能做到这一点，您可以访问我们的GitHub网站：https://github.com/bigtreetech?tab=repositories并找到相应的存储库来下载驱动程序。</p>
 <p>如果您想确认驱动程序安装正确，您可以在windows中访问设备管理器，并在插入主板时查找虚拟com端口。在下面的图像中，主板已分配COM7，但您的操作系统可以为其分配任何可用的com端口号。其他操作系统将以不同的方式列出串行端口。</p>
 <p><img src=img/Octopus/Octopus_Soft1.png width="600"/></p>
 <h3 id="_19"><strong>主板固件支持</strong><a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
 <p>您可以通过访问找到Octopus的Marlin预编版本https://github.com/bigtreetech?tab=repositories并寻找Octopus库。或者，您可以使用VScode编译自己的版本。介绍如何使用VSCode编译固件超出了本手册的范围，但网上有大量信息解释了如何在您的机器上设置VSCode以及此后如何配置Marlin。以下链接为您提供了方便的起点：</p>
-<p>• <a href="https://marlinfw.org/docs/basics/install_platformio_vscode.html">https://marlinfw.org/docs/basics/install_platformio_vscode.html</a></p>
-<p>• <a href="https://www.youtube.com/watch?v=eq_ygvHF29I">https://www.youtube.com/watch?v=eq_ygvHF29I</a></p>
+<p>• https://marlinfw.org/docs/basics/install_platformio_vscode.html</p>
+<p>• https://www.youtube.com/watch?v=eq_ygvHF29I</p>
 <p>一旦您编译了自己的Marlin版本或下载了预编译版本，您可以按照以下步骤进行安装：</p>
 <ol>
 <li>确保固件二进制文件名为“firmware.bin”。任何其他名称都将被引导加载程序拒绝。</li>
-<li>在此处使用已使用SD格式化程序工具格式化的SD卡：<a href="https://www.sdcard.org/downloads/formatter/">https://www.sdcard.org/downloads/formatter/</a></li>
+<li>在此处使用已使用SD格式化程序工具格式化的SD卡：https://www.sdcard.org/downloads/formatter/</li>
 <li>将固件二进制文件复制到SD卡。</li>
 <li>将SD卡插入主板并重置。</li>
 <li>取出SD卡，检查文件名称是否已更改为“FIRMWARE.CUR”。这将确认固件已成功安装。</li>
@@ -4109,25 +4107,23 @@
 </ul>
 <p><img src=img/Octopus/Octopus_Soft3.png width="600"/></p>
 <ul>
-<li>
-<p>Octopus第一次生产时的丝印印刷错误地标记了下面列出的连接器上的引脚。为了确保接线正确，请在使用这些连接器时使用pins.pdf文档。丝印印刷已经被更正，所有后续的Octopus都将反映正确的映射</p>
+<li>Octopus第一次生产时的丝印印刷错误地标记了下面列出的连接器上的引脚。为了确保接线正确，请在使用这些连接器时使用pins.pdf文档。丝印印刷已经被更正，所有后续的Octopus都将反映正确的映射</li>
+</ul>
 <p>a. Fans</p>
 <p>b. SPI3</p>
 <p>c. Raspberry pi UART.</p>
-</li>
-</ul>
 <h2 id="_21">产品购买链接<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h2>
 <p><strong>购买链接:</strong></p>
-<p><a href="https://biqu.equipment/products/bigtreetech-octopus-v1-1">https://biqu.equipment/products/bigtreetech-octopus-v1-1</a></p>
+<p>https://biqu.equipment/products/bigtreetech-octopus-v1-1</p>
 <p><strong>如果您对产品有任何问题，请与我们联系并提交支持工单</strong></p>
-<p><a href="https://biqu3d.com/pages/submit-a-ticket">https://biqu3d.com/pages/submit-a-ticket</a></p>
+<p>https://biqu3d.com/pages/submit-a-ticket</p>
 <p><strong>导航:</strong></p>
-<p>BIQU官方网站：                                                         <a href="http://biqu3d.com">http://biqu3d.com</a></p>
-<p>BIGTREETECH官方网站：                                         <a href="http://bigtree-tech.com">http://bigtree-tech.com</a></p>
-<p>网上商店：                                                               <a href="https://biqu.equipment">https://biqu.equipment</a></p>
-<p>BIGTREETECH官方群:                                               <a href="https://www.facebook.com/groups/bigtreetech">https://www.facebook.com/groups/bigtreetech</a></p>
-<p>Discord:                                                                       <a href="https://discord.gg/hhZsV7zk">https://discord.gg/hhZsV7zk</a></p>
-<p>Reddit:                                                                       <a href="https://www.reddit.com/r/BIGTREETECH/">https://www.reddit.com/r/BIGTREETECH/</a></p>
+<p>BIQU官方网站：                                                         http://biqu3d.com</p>
+<p>BIGTREETECH官方网站：                                         http://bigtree-tech.com</p>
+<p>网上商店：                                                               https://biqu.equipment</p>
+<p>BIGTREETECH官方群:                                               https://www.facebook.com/groups/bigtreetech</p>
+<p>Discord:                                                                       https://discord.gg/hhZsV7zk</p>
+<p>Reddit:                                                                       https://www.reddit.com/r/BIGTREETECH/</p>
 <p>微信公众号：                                                              BIGTREETECH </p>
 <p>官方社群：</p>
 <p>1群：                                                                         190180312（已满）</p>

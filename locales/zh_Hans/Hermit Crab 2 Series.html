@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3687,11 +3685,11 @@
 <h3 id="katapult">烧录KATAPULT<a class="headerlink" href="#katapult" title="Permanent link">&para;</a></h3>
 <p>注意：Katapult旨在通过CANbus接口直接更新MCU固件，若您更倾向于使用DFU更新方法，请跳过此步骤。</p>
 <p>“树莓派或CB1烧录Katapult”，参考此处说明下载Katapult工程：</p>
-<p><a href="https://github.com/Arksine/Katapult">https://github.com/Arksine/Katapult</a></p>
+<p>https://github.com/Arksine/Katapult</p>
 <p>1、输入</p>
 <p>​   <strong>cd ~</strong></p>
 <p>​   跳转到主目录，输入</p>
-<p>​   git clone <a href="https://github.com/Arksine/Katapult">https://github.com/Arksine/Katapult</a></p>
+<p>​   git clone https://github.com/Arksine/Katapult</p>
 <p>​   下载Katapult工程，然后输入</p>
 <p>​   <strong>cd Katapult</strong></p>
 <p>​   跳转到Katapult目录中。</p>
@@ -3796,7 +3794,7 @@
 <h3 id="klipper_1">配置Klipper<a class="headerlink" href="#klipper_1" title="Permanent link">&para;</a></h3>
 <p>1、在电脑的浏览器中输入树莓派的IP访问，如下图所示的路径中下载名为“sample-bigtreetech-hermit-crab-2-canbus.cfg”的参考配置，如果找不到此
 文件，请更新Klipepr固件源码到最新版本，或者到GitHub下载：</p>
-<p>GitHub: <a href="https://github.com/bigtreetech/HermitCrab">https://github.com/bigtreetech/HermitCrab</a></p>
+<p>GitHub: https://github.com/bigtreetech/HermitCrab</p>
 <p><img src=img/Hermit_Crab/Hermit_Crab_Klipper1.png width="600" /></p>
 <p>2、将主板的配置文件上传到ConfigurationFiles中：</p>
 <p><img src=img/Hermit_Crab/Hermit_Crab_Klipper2.png width="600" /></p>
@@ -3804,7 +3802,7 @@
 <p><strong>[include sample-bigtreetech-hermit-crab-2-canbus.cfg]</strong></p>
 <p>4、将配置文件中的ID号修改为主板实际的ID（USBserial或者canbus）</p>
 <p>5、按照下方链接的说明配置模块的具体功能：</p>
-<p><a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>https://www.klipper3d.org/Overview.html</p>
 <h2 id="_7">注意事项<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <p>1、使用CAN通讯时，需要看是否用作终端，如果是终端，必须将120R位置插上跳线帽；</p>
 <p>2、 接线时需注意线序，对照Pin图进行DIY，避免电源线接反或者接到CAN信号中去，导致模块烧毁；</p>

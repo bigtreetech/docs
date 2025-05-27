@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3595,40 +3593,42 @@
 <p>BIGTREETECHOctopusMAXEZ主板是必趣创新科技（深圳）有限公司3D打印团队针对Octopus Pro优化升级的32位打印机主板，采用自主研发的步进电机驱动座子，增强安全性及用户体验，新增一系列OctopusPro不具有的功能，加大DIY可能性。</p>
 <h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <ul>
-<li>采用32位主频550MHz的ARMCortex-M7系列STM32H723ZET6主控芯片；</li>
-</ul>
-<ul>
-<li>主板预留BOOT按键，用户可以通过DFU方式更新主板引导程序；</li>
-</ul>
-<ul>
-<li>增加热敏电阻部分的保护电路，避免因热床或者加热棒漏电导致主控芯片烧毁；</li>
-</ul>
-<ul>
-<li>数控风扇24V、12V、5V电压可选，省去客户外接变压模块的操作，从而减少主板损坏几率；</li>
-</ul>
-<ul>
-<li>增加E-FUSE保护，反应速度快，保护力强，有效避免因为短路、过流、打火等情况造成主板烧毁；</li>
-</ul>
-<ul>
-<li>可通过SD卡升级MCU固件，也可通过Klipper的makeflash命令通过DFU更新MCU固件；</li>
-</ul>
-<ul>
-<li>使用十轴EZ驱动插座，避免手指被针扎破；板载TMC驱动的SPI和UART工作模式，只需通过固件设置即可使用；</li>
-</ul>
-<ul>
-<li>支持断料检测、断电续打、CAN、打完关机、BLTouch、RGB灯等功能；</li>
-</ul>
-<ul>
-<li>采用可更换的保险丝，方便更换；</li>
-</ul>
-<ul>
-<li>预留三路四线风扇接口，且可用于连接水冷装置；</li>
-</ul>
-<ul>
-<li>预留接近开关接口，支持NPN和PNP型选择，（24V，12V，5V）电压可选；</li>
-</ul>
-<ul>
-<li>预留SPI拓展接口，供使用Klipper固件的客户外接加速度传感器来进行加速度补偿；</li>
+<li>
+<p>采用32位主频550MHz的ARMCortex-M7系列STM32H723ZET6主控芯片；</p>
+</li>
+<li>
+<p>主板预留BOOT按键，用户可以通过DFU方式更新主板引导程序；</p>
+</li>
+<li>
+<p>增加热敏电阻部分的保护电路，避免因热床或者加热棒漏电导致主控芯片烧毁；</p>
+</li>
+<li>
+<p>数控风扇24V、12V、5V电压可选，省去客户外接变压模块的操作，从而减少主板损坏几率；</p>
+</li>
+<li>
+<p>增加E-FUSE保护，反应速度快，保护力强，有效避免因为短路、过流、打火等情况造成主板烧毁；</p>
+</li>
+<li>
+<p>可通过SD卡升级MCU固件，也可通过Klipper的makeflash命令通过DFU更新MCU固件；</p>
+</li>
+<li>
+<p>使用十轴EZ驱动插座，避免手指被针扎破；板载TMC驱动的SPI和UART工作模式，只需通过固件设置即可使用；</p>
+</li>
+<li>
+<p>支持断料检测、断电续打、CAN、打完关机、BLTouch、RGB灯等功能；</p>
+</li>
+<li>
+<p>采用可更换的保险丝，方便更换；</p>
+</li>
+<li>
+<p>预留三路四线风扇接口，且可用于连接水冷装置；</p>
+</li>
+<li>
+<p>预留接近开关接口，支持NPN和PNP型选择，（24V，12V，5V）电压可选；</p>
+</li>
+<li>
+<p>预留SPI拓展接口，供使用Klipper固件的客户外接加速度传感器来进行加速度补偿；</p>
+</li>
 </ul>
 <h2 id="_3"><strong>规格</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <table>
@@ -3774,12 +3774,12 @@
 <h2 id="_12">软件安装<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
 <h3 id="marlin">Marlin<a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h3>
 <h4 id="_13">安装编译环境<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h4>
-<p><a href="https://github.com/bigtreetech/Document/blob/master/How to install VScode%2BPlatformio.md"><a href="https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md">https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</a></a></p>
-<p><a href="https://marlinfw.org/docs/basics/install_platformio_vscode.html">https://marlinfw.org/docs/basics/install_platformio_vscode.html</a></p>
+<p><a href="https://github.com/bigtreetech/Document/blob/master/How to install VScode%2BPlatformio.md">https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</a></p>
+<p>https://marlinfw.org/docs/basics/install_platformio_vscode.html</p>
 <p>参考这两个链接的说明安装VSCode以及PlatformIO插件（国内的用户在线安装PlatformIO插件可能会很慢）</p>
 <h4 id="marlin_1">下载Marlin固件<a class="headerlink" href="#marlin_1" title="Permanent link">&para;</a></h4>
-<p>1.从Marlin官网下载最新版本的bugfix版本的固件: <a href="https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x">https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x</a></p>
-<p>2.从我们GitHub上下载预先配置好编译环境和主板类型的固件: <a href="https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ">https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ</a></p>
+<p>1.从Marlin官网下载最新版本的bugfix版本的固件: https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x</p>
+<p>2.从我们GitHub上下载预先配置好编译环境和主板类型的固件: https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ</p>
 <h4 id="_14">配置固件<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h4>
 <p><strong>打开Marlin工程</strong></p>
 <p>您可以通过以下几种方式之一在VSCode中打开Marlin：</p>
@@ -3893,13 +3893,13 @@
 <h4 id="_19">准备工作<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h4>
 <h4 id="_20"><strong>下载系统镜像</strong><a class="headerlink" href="#_20" title="Permanent link">&para;</a></h4>
 <p>下载内置你喜欢的WebUI的系统镜像，目前主流的有Fluidd、Mainsail等</p>
-<p>内置Fluidd的系统: <a href="https://github.com/fluidd-core/FluiddPI/releases">https://github.com/fluidd-core/FluiddPI/releases</a> </p>
+<p>内置Fluidd的系统: https://github.com/fluidd-core/FluiddPI/releases </p>
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software26.png width="600"/></p>
-<p>内置Mainsail的系统: <a href="https://github.com/mainsail-crew/MainsailOS/releases">https://github.com/mainsail-crew/MainsailOS/releases</a> </p>
+<p>内置Mainsail的系统: https://github.com/mainsail-crew/MainsailOS/releases </p>
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software27.png width="600"/></p>
 <p>或者参考Klipper官方的安装说明使用Octoprint</p>
 <h4 id="raspberrypiimager"><strong>下载并安装RaspberryPiImager</strong><a class="headerlink" href="#raspberrypiimager" title="Permanent link">&para;</a></h4>
-<p>下载并安装树莓派官方的烧录软件 <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a></p>
+<p>下载并安装树莓派官方的烧录软件 https://www.raspberrypi.com/software/</p>
 <h4 id="_21">烧录镜像<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h4>
 <p>1、将microSD卡通过读卡器插入到电脑。</p>
 <p>2、选择系统。</p>
@@ -3918,7 +3918,7 @@
 <p>3、删除红框中四行行首的‘#’字符，然后设置正确的WIFI名称和密码后保存。</p>
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software33.png width="600"/></p>
 <h4 id="ssh">SSH软件连接树莓派<a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h4>
-<p>1、安装ssh软件Mobaxterm: <a href="https://mobaxterm.mobatek.net/download-home-edition.html">https://mobaxterm.mobatek.net/download-home-edition.html</a> </p>
+<p>1、安装ssh软件Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html </p>
 <p>2、将SD卡插到树莓派，通电后等待系统启动，大概1~2分钟。</p>
 <p>3、树莓派连上WIFI或者插上网线后，会被自动分配一个IP。</p>
 <p>4、进入路由器管理界面找到树莓派的IP。</p>
@@ -3949,13 +3949,13 @@
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software40.png width="600"/></p>
 <p>复制保存此ID，配置文件中需要设置此ID。</p>
 <h4 id="klipper_1">配置Klipper<a class="headerlink" href="#klipper_1" title="Permanent link">&para;</a></h4>
-<p>1、在电脑的浏览器中输入树莓派的IP访问，如下图所示的路径中下载主板的参考配置，如果找不到此文件，请更新Klipepr固件源码到最新版本，或者到github下载:<a href="https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ">https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ</a></p>
+<p>1、在电脑的浏览器中输入树莓派的IP访问，如下图所示的路径中下载主板的参考配置，如果找不到此文件，请更新Klipepr固件源码到最新版本，或者到github下载:https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ</p>
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software41.png width="600"/></p>
 <p>2、将主板的配置文件上传到ConfigurationFiles中,并重命名为 "printer.cfg".</p>
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software42.png width="600"/></p>
 <p>3、将配置文件中的ID号修改为主板实际的ID</p>
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software43.png width="600"/></p>
-<p>4、按照https://<a href="http://www.klipper3d.org/Overview.html的说明配置机器的具体功能。">www.klipper3d.org/Overview.html的说明配置机器的具体功能。</a></p>
+<p>4、按照https://www.klipper3d.org/Overview.html的说明配置机器的具体功能。</p>
 <h2 id="_23">固件更新<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h2>
 <h3 id="microsd">MicroSD卡更新<a class="headerlink" href="#microsd" title="Permanent link">&para;</a></h3>
 <ol>
@@ -3969,19 +3969,17 @@
 </ol>
 <h3 id="dfuklipper">DFU更新Klipper<a class="headerlink" href="#dfuklipper" title="Permanent link">&para;</a></h3>
 <ol>
-<li>
-<p>在命令行输入：ls/dev/serial/by-id/查询主板的ID，如果主板正常运行了Klipper则会返回一个klipper的设备ID，如下图所示</p>
+<li>在命令行输入：ls/dev/serial/by-id/查询主板的ID，如果主板正常运行了Klipper则会返回一个klipper的设备ID，如下图所示</li>
+</ol>
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software44.png width="600"/></p>
-</li>
-<li>
-<p>如果ls/dev/serial/by-id/能够找到MCU的klipper设备ID，可以直接输入
+<ol>
+<li>如果ls/dev/serial/by-id/能够找到MCU的klipper设备ID，可以直接输入
    cd~klipper
    makeflashFLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h712xx_41003D001751303232383230-if00
-   烧录固件（注意：将/dev/serial/by-id/xxx更换为上一步中查询到的实际的ID）</p>
+   烧录固件（注意：将/dev/serial/by-id/xxx更换为上一步中查询到的实际的ID）</li>
+</ol>
 <p><img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software45.png width="600"/></p>
 <p>烧录完成后会有dfu-util:Errorduringdownloadget_status错误信息，忽略即可</p>
-</li>
-</ol>
 <h2 id="_24"><strong>注意事项</strong><a class="headerlink" href="#_24" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3992,7 +3990,7 @@
 </li>
 </ol>
 <p>如果您还需要此产品的其他资源，可以到https://github.com/bigtreetech/上自行查找，
-如果无法找到您所需的资源，可以联系我们的售后支持（<a href="mailto:service005@biqu3d.com">service005@biqu3d.com</a>）。</p>
+如果无法找到您所需的资源，可以联系我们的售后支持（service005@biqu3d.com）。</p>
 <p>若您使用中还遇到别的问题，欢迎您联系我们，我们定会细心为您解答；若您对我们的产品有什么好的意见或建议，也欢迎您回馈给我们，我们也会仔细斟酌您的意见或建议，感谢您选择BIGTREETECH制品，谢谢！</p>
 
               

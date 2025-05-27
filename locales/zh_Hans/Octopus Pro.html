@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3747,7 +3745,7 @@
 <p>下图是从PINS.pdf文档中截取的片段。要获得更好的可视性，请参阅PINS.pdf文档。</p>
 <p><img src=img/Octopus_Pro/Octopus_Pro_Pin.png width="600"/></p>
 <h2 id="_7"><strong>硬件配置</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
-<p><font  color="red"><strong><em>注意：octopus-pro包含大量功能，需要许多组件和连接器。考虑到组件和连接器密度，不可能在顶部包括连接器标签的丝网。我们建议您在开始之前先拍一张木板底部的照片安装，以便手头有标签参考。如果您忘记了这样做，那么您可以随时使用我们[github repo]上提供的PINS.pdf文件(<a href="https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro">https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro</a>).</em></strong></font></p>
+<p><font  color="red"><strong><em>注意：octopus-pro包含大量功能，需要许多组件和连接器。考虑到组件和连接器密度，不可能在顶部包括连接器标签的丝网。我们建议您在开始之前先拍一张木板底部的照片安装，以便手头有标签参考。如果您忘记了这样做，那么您可以随时使用我们[github repo]上提供的PINS.pdf文件(https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro).</em></strong></font></p>
 <h3 id="_8"><strong>电源接线</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
 <p>octopus pro提供三种独立的电源输入：主板电源、电机电源和床加热器电源。这允许用户使用具有公共接地的多个电源，以确保它们能够向其系统的每个部分提供所需的电力。主板电源使用多种开关模式和低压差电源进行调节，以提供12V、5V和3.3V的电源轨。</p>
 <p>12V、5V和3.3V导轨通过主板上的各种引脚提供。如果您计划使用这些供应导轨中的一个，请参阅PINS.pdf文档以查找分接头。请注意，12V导轨可提供高达4A、5V高达8A和3.3V高达1A的电源，但是，为了防止导轨过载，不建议将其加载到最大容量，因为主板上已经有各种组件也从中获取电源。</p>
@@ -3794,7 +3792,7 @@
 <p><img src=img/Octopus_Pro/Octopus_Pro_DRI2.png width="600"/></p>
 <p>下面两行之间的连接跳线将中间引脚（MS）设置为5V，但第一列中的跳线除外，它将连接SLP和RST。请注意，如果步进驱动器要求任何引脚上都有0V电压，那么在步进/目录模式下运行时实际上不需要将跳线连接到该引脚，在这种情况下连接跳线可能会造成干扰，因为这些线路用于SPI总线。</p>
 <p><font  color="red"><strong><em>请注意，如果使用A4988或DRV8825驱动程序，则必须连接RST和SLP。</em></strong></font></p>
-<p>详情请点击： <a href="https://z1996xm.github.io/BIGTREETECH/Tutorials.html">https://z1996xm.github.io/BIGTREETECH/Tutorials.html</a></p>
+<p>详情请点击： https://z1996xm.github.io/BIGTREETECH/Tutorials.html</p>
 <h4 id="uart"><strong>UART模式</strong><a class="headerlink" href="#uart" title="Permanent link">&para;</a></h4>
 <p>在UART模式下使用驱动程序时，如下图所示，连接该驱动程序下方的跳线。</p>
 <p><img src=img/Octopus_Pro/Octopus_Pro_DRI3.png width="600"/></p>
@@ -3847,18 +3845,18 @@
 <p><img src=img/Octopus_Pro/Octopus_Pro_PT100_1.png width="600"/></p>
 <h2 id="_17">软件安装<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
 <h3 id="_18">主板通信<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
-<p>通过USB电缆将主板连接到计算机后，驱动程序将自动安装（windows、linux和macos）。安装驱动程序后，主板应自动枚举为可用于数据传输的虚拟串行设备。如果未能做到这一点，您可以访问我们的GitHub网站：<a href="https://github.com/bigtreetech?tab=repositories并找到相应的存储库来下载驱动程序。">https://github.com/bigtreetech?tab=repositories并找到相应的存储库来下载驱动程序。</a></p>
+<p>通过USB电缆将主板连接到计算机后，驱动程序将自动安装（windows、linux和macos）。安装驱动程序后，主板应自动枚举为可用于数据传输的虚拟串行设备。如果未能做到这一点，您可以访问我们的GitHub网站：https://github.com/bigtreetech?tab=repositories并找到相应的存储库来下载驱动程序。</p>
 <p>如果您想确认驱动程序安装正确，您可以在windows中访问设备管理器，并在插入主板时查找虚拟com端口。在下面的图像中，主板已分配COM7，但您的操作系统可以为其分配任何可用的com端口号。其他操作系统将以不同的方式列出串行端口。</p>
 <p><img src=img/Octopus_Pro/Octopus_Pro_Soft1.png width="600"/></p>
 <h3 id="_19"><strong>主板固件支持</strong><a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
-<p>Marlin、Klipper和RRF（429变体）都支持Octopus Pro。您可以根据固件开发人员指定的方法编译和配置您选择的固件变体。随着时间的推移，不同固件发行版的配置文件将在[Octopus_Pro]上提供(<a href="https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro">https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro</a>). 介绍如何使用VSCode编译固件超出了本手册的范围，但网上有大量信息解释了如何在您的机器上设置VSCode以及此后如何配置Marlin。以下链接为您提供了方便的起点：</p>
-<p>• <a href="https://marlinfw.org/docs/basics/install_platformio_vscode.html">https://marlinfw.org/docs/basics/install_platformio_vscode.html</a></p>
-<p>• <a href="https://www.youtube.com/watch?v=eq_ygvHF29I">https://www.youtube.com/watch?v=eq_ygvHF29I</a></p>
+<p>Marlin、Klipper和RRF（429变体）都支持Octopus Pro。您可以根据固件开发人员指定的方法编译和配置您选择的固件变体。随着时间的推移，不同固件发行版的配置文件将在[Octopus_Pro]上提供(https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro). 介绍如何使用VSCode编译固件超出了本手册的范围，但网上有大量信息解释了如何在您的机器上设置VSCode以及此后如何配置Marlin。以下链接为您提供了方便的起点：</p>
+<p>• https://marlinfw.org/docs/basics/install_platformio_vscode.html</p>
+<p>• https://www.youtube.com/watch?v=eq_ygvHF29I</p>
 <p>一旦您编译了自己的Marlin版本或下载了预编译版本，您可以按照以下步骤进行安装：</p>
 <ol>
 <li>确保固件二进制文件名为“firmware.bin”。任何其他名称都将是被引导加载程序拒绝。</li>
 <li>在此处使用已使用SD格式化程序工具格式化的SD卡：
-<a href="https://www.sdcard.org/downloads/formatter/">https://www.sdcard.org/downloads/formatter/</a></li>
+https://www.sdcard.org/downloads/formatter/</li>
 <li>将固件二进制文件复制到SD卡。</li>
 <li>将SD卡插入主板并重置。</li>
 <li>取出SD卡，检查文件名称是否已更改为“FIRMWARE.CUR”。这将确认固件已成功安装。</li>
@@ -3880,16 +3878,16 @@
 </ul>
 <h2 id="_21">产品购买链接<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h2>
 <p><strong>购买链接:</strong></p>
-<p><a href="https://biqu.equipment/products/bigtreetech-octopus-pro-v1-0-chip-f446">https://biqu.equipment/products/bigtreetech-octopus-pro-v1-0-chip-f446</a></p>
+<p>https://biqu.equipment/products/bigtreetech-octopus-pro-v1-0-chip-f446</p>
 <p><strong>如果您对产品有任何问题，请与我们联系并提交支持工单</strong></p>
-<p><a href="https://biqu3d.com/pages/submit-a-ticket">https://biqu3d.com/pages/submit-a-ticket</a></p>
+<p>https://biqu3d.com/pages/submit-a-ticket</p>
 <p><strong>导航:</strong></p>
-<p>BIQU官方网站：                                                         <a href="http://biqu3d.com">http://biqu3d.com</a></p>
-<p>BIGTREETECH官方网站：                                         <a href="http://bigtree-tech.com">http://bigtree-tech.com</a></p>
-<p>网上商店：                                                               <a href="https://biqu.equipment">https://biqu.equipment</a></p>
-<p>BIGTREETECH官方群:                                               <a href="https://www.facebook.com/groups/bigtreetech">https://www.facebook.com/groups/bigtreetech</a></p>
-<p>Discord:                                                                       <a href="https://discord.gg/hhZsV7zk">https://discord.gg/hhZsV7zk</a></p>
-<p>Reddit:                                                                       <a href="https://www.reddit.com/r/BIGTREETECH/">https://www.reddit.com/r/BIGTREETECH/</a></p>
+<p>BIQU官方网站：                                                         http://biqu3d.com</p>
+<p>BIGTREETECH官方网站：                                         http://bigtree-tech.com</p>
+<p>网上商店：                                                               https://biqu.equipment</p>
+<p>BIGTREETECH官方群:                                               https://www.facebook.com/groups/bigtreetech</p>
+<p>Discord:                                                                       https://discord.gg/hhZsV7zk</p>
+<p>Reddit:                                                                       https://www.reddit.com/r/BIGTREETECH/</p>
 <p>微信公众号：                                                              BIGTREETECH </p>
 <p>官方社群：</p>
 <p>1群：                                                                         190180312（已满）</p>

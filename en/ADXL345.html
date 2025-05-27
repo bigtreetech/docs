@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3646,7 +3644,7 @@
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.png width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH ADXL345 V2.0 is a module for printer resonance compensation. It can communicate through USB, greatly simplifying wiring.</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/adxl-345-accelerometer-board-for-36-stepper-motors">https://biqu.equipment/products/adxl-345-accelerometer-board-for-36-stepper-motors</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/adxl-345-accelerometer-board-for-36-stepper-motors</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>The board has a reserved BOOT button for easy firmware updates.</li>
@@ -3761,17 +3759,17 @@
 <ol>
 <li>Download the <strong>sample-bigtreetech-adxl345-v2.0.cfg</strong> config file from:</li>
 </ol>
-<p>​   <a href="https://github.com/bigtreetech/ADXL345">https://github.com/bigtreetech/ADXL345</a></p>
+<p>​   https://github.com/bigtreetech/ADXL345</p>
 <p>​   2.Upload to the <strong>Configuration Files.</strong></p>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/></p>
 <p>​   3.In <strong>printer.cfg</strong>, add: </p>
 <p>​   <strong>[include sample-bigtreetech-adxl345-v2.0.cfg]</strong></p>
 <p>​   4.Set the correct ID number for your board.(USB serial)</p>
 <p>​   5.Configure the module's functions according to the instructions in the link below:</p>
-<p>​   <a href="https://www.klipper3d.org/Config_Reference.html#adxl345">https://www.klipper3d.org/Config_Reference.html#adxl345</a></p>
+<p>​   https://www.klipper3d.org/Config_Reference.html#adxl345</p>
 <p>​   The <strong>axes_map</strong> parameter needs to be set according to the direction of the module installation and the movement direction of the printer. The first   parameter represents the direction of the accelerometer module corresponding to the axis when the printer's X-axis moves in the positive direction (the silk screen on the module shows the direction of each axis of the module), and the second parameter represents the direction of the accelerometer when the Y-axis moves in the positive direction.</p>
 <p>​   6.After configuring and installing the module and successfully connecting to the printer, you can start the resonance compensation test. Follow the instructions in the link below to start testing:</p>
-<p><a href="https://www.klipper3d.org/G-Codes.html#shaper_calibrate">https://www.klipper3d.org/G-Codes.html#shaper_calibrate</a></p>
+<p>https://www.klipper3d.org/G-Codes.html#shaper_calibrate</p>
 <p>In Mainsail's Console, enter the following command to start X axis calibration:</p>
 <p>SHAPER_CALIBRATE AXIS=X</p>
 <p>Enter the following command to start Y axis calibration:</p>

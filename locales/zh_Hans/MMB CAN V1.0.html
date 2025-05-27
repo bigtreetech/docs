@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3654,24 +3652,22 @@
 <h2 id="klipper"><strong>Klipper 固件</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h2>
 <h3 id="canboot">烧录 CANBOOT<a class="headerlink" href="#canboot" title="Permanent link">&para;</a></h3>
 <p>注意：CanBoot 旨在通过 CAN bus 接口直接更新 MCU 固件，若您更倾向于使用 DFU 更新方法，请跳过此步骤。</p>
-<p>“树莓派或 CB1 烧录 CanBoot”，参考此处说明下载 CanBoot 工程: <a href="https://github.com/Arksine/CanBoot">https://github.com/Arksine/CanBoot</a></p>
+<p>“树莓派或 CB1 烧录 CanBoot”，参考此处说明下载 CanBoot 工程: https://github.com/Arksine/CanBoot</p>
 <ol>
-<li>
-<p>输入</p>
+<li>输入</li>
+</ol>
 <p><strong>cd ~</strong></p>
 <p>跳转到主目录，输入</p>
-<p><strong>git clone</strong> **<a href="https://github.com/Arksine/CanBoot**">https://github.com/Arksine/CanBoot**</a></p>
+<p><strong>git clone</strong> <strong>https://github.com/Arksine/CanBoot</strong></p>
 <p>下载 CanBoot 工程，然后输入</p>
 <p><strong>cd CanBoot</strong></p>
 <p>跳转到 CanBoot 目录中。</p>
-</li>
-<li>
-<p>输入</p>
+<ol>
+<li>输入</li>
+</ol>
 <p><strong>make menuconfig</strong></p>
 <p>并按照下图配置:</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper1.png width="600" /></p>
-</li>
-</ol>
 <p>​   3.输入 <strong>make</strong> 编译固件，当 <strong>make</strong> 执行完成后会在 <strong>home/biqu/CanBoot/out</strong> 文件夹中生成我们所需要的“<strong>canboot.bin</strong>”固件，在 SSH 软件左侧可以直接下载到电脑中</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper2.png width="600" /></p>
 <p>​   4.请按住 <strong>Boot</strong> 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式</p>
@@ -3759,13 +3755,13 @@
 <p>4、如果 Klipper 已经正常运行并且连接到此设备，那么 canbus_uuid 将不会被上报，此为正常现象。</p>
 <h3 id="klipper_2"><strong>配置 Klipper</strong><a class="headerlink" href="#klipper_2" title="Permanent link">&para;</a></h3>
 <p>1、在电脑的浏览器中输入树莓派的 IP 访问，如下图所示的路径中下载名为“<strong>sample-bigtreetech-mmb-canbus.cfg</strong>”的参考配置，如果找不到此文件，请更新 Klipepr 固件源码到最新版本，或者到 GitHub 下载</p>
-<p><a href="https://github.com/bigtreetech/MMB">https://github.com/bigtreetech/MMB</a></p>
+<p>https://github.com/bigtreetech/MMB</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper11.png width="600" /></p>
 <p>2、将主板的配置文件上传到 Configuration Files 中;</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper12.png width="600" /></p>
 <p>3、并在“printer.cfg”文件中添加此主板的配置:<strong>[include sample-bigtreetech-mmb-canbus.cfg]</strong></p>
 <p>4、将配置文件中的 ID 号修改为主板实际的 ID（USB serial 或者 canbus）</p>
-<p>5、按照下方链接的说明配置模块的具体功能： <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>5、按照下方链接的说明配置模块的具体功能： https://www.klipper3d.org/Overview.html</p>
 
               
             </article>

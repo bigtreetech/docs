@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3633,7 +3631,7 @@
 <p><img src=img/Octopus/Octopus_Title.png width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherboard that supports up to 8 stepper drivers with 9 stepper driver outputs in total. It is designed and manufactured by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/bigtreetech-octopus-v1-1">https://biqu.equipment/products/bigtreetech-octopus-v1-1</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-octopus-v1-1</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Uses a 32-bit ARM Cortex-M4 series STM32F446ZET6 main control chip with a core frequency of 180MHz.</li>
@@ -3781,7 +3779,7 @@ placed the stepper sockets close to each other. This means that drivers will hav
 <strong>Connecting jumpers between the lower two rows will set the middle pin (MS) to 3.3V except for the jumpers in the first column where it will connect SLP and RST.</strong></p>
 <p><strong><font  color="red"><em>Note that if you are using drivers in step/dir mode that use a microstepping factor other than 16 then you cannot use any other drivers in SPI mode since the pins that are required to set the microstepping to anything other than 16 are also shared with SPI.</em></font></strong></p>
 <p><strong><font  color="red"><em>Note that if you use an A4988 or a DRV8825 driver, you must connect RST and SLP.</em></font></strong></p>
-<p><strong>For details, please click:</strong> <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p><strong>For details, please click:</strong> https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h4 id="uart-mode"><strong>UART MODE</strong><a class="headerlink" href="#uart-mode" title="Permanent link">&para;</a></h4>
 <p><strong>When using a driver in UART mode, connect the jumpers beneath that driver as show in the image below.</strong></p>
 <p><strong><img src=img/Octopus/Octopus_DRI3.png width="600"/></strong></p>
@@ -3810,17 +3808,17 @@ positive output as shown in the images.</em></font></strong></p>
 <p><strong><font  color="red"><em>Expansion interfaces are provided for SPI, UART and I2C. In the very first production run of the Octopus the silkscreen on the underside of the PCB had two pins that were mislabeled on the SPI3 interface and two on the Raspberry Pi UART interface. To be sure that you are connecting your peripheral correctly, please refer to the PINS.pdf document if using the SPI or UART interface.</em></font></strong></p>
 <h2 id="software-installation"><strong>Software Installation</strong><a class="headerlink" href="#software-installation" title="Permanent link">&para;</a></h2>
 <h3 id="communicating-with-the-motherboard"><strong>COMMUNICATING WITH THE MOTHERBOARD</strong><a class="headerlink" href="#communicating-with-the-motherboard" title="Permanent link">&para;</a></h3>
-<p><strong>After connecting the motherboard to a computer via a USB cable, the driver will be automatically installed (windows, linux and macos). Upon installation of the driver the motherboard should automatically enumerate as a virtual serial device which can be used for data transfer. If it fails to do so, you can visit our GitHub website: <a href="https://github.com/bigtreetech?tab=repositories">https://github.com/bigtreetech?tab=repositories</a> and find the corresponding repository to download the driver.</strong></p>
+<p><strong>After connecting the motherboard to a computer via a USB cable, the driver will be automatically installed (windows, linux and macos). Upon installation of the driver the motherboard should automatically enumerate as a virtual serial device which can be used for data transfer. If it fails to do so, you can visit our GitHub website: https://github.com/bigtreetech?tab=repositories and find the corresponding repository to download the driver.</strong></p>
 <p><strong>If you would like to confirm that the driver has been installed correctly you can access the device manager in windows and look for a virtual com port when the motherboard is plugged in. In the image below the motherboard has been assigned COM7 however your operating system may assign it any available COM port number. Other operating systems will list serial ports in a different manner.</strong></p>
 <p><strong><img src=img/Octopus/Octopus_Soft1.png width="600"/></strong></p>
 <h3 id="motherboard-firmware-support"><strong>MOTHERBOARD FIRMWARE SUPPORT</strong><a class="headerlink" href="#motherboard-firmware-support" title="Permanent link">&para;</a></h3>
-<p><strong>You can find a pre-compiled version of Marlin for the Octopus by visiting <a href="https://github.com/bigtreetech?tab=repositories">https://github.com/bigtreetech?tab=repositories</a> and looking for the Octopus repository. Alternately you can compile your own version using VScode. Covering how to compile firmware using VSCode is beyond the scope of this manual however there is an abundance of information online which explains how to set up VSCode on your machine and how to configure Marlin thereafter. Good places to start are provided for your convenience in the links below:</strong></p>
-<p>• <a href="https://marlinfw.org/docs/basics/install_platformio_vscode.html">https://marlinfw.org/docs/basics/install_platformio_vscode.html</a></p>
-<p>• <a href="https://www.youtube.com/watch?v=eq_ygvHF29I">https://www.youtube.com/watch?v=eq_ygvHF29I</a></p>
+<p><strong>You can find a pre-compiled version of Marlin for the Octopus by visiting https://github.com/bigtreetech?tab=repositories and looking for the Octopus repository. Alternately you can compile your own version using VScode. Covering how to compile firmware using VSCode is beyond the scope of this manual however there is an abundance of information online which explains how to set up VSCode on your machine and how to configure Marlin thereafter. Good places to start are provided for your convenience in the links below:</strong></p>
+<p>• https://marlinfw.org/docs/basics/install_platformio_vscode.html</p>
+<p>• https://www.youtube.com/watch?v=eq_ygvHF29I</p>
 <p><strong>Once you have either compiled your own version of Marlin or downloaded a pre-compiled version, you can install it by following the steps below:</strong></p>
 <ol>
 <li><strong>Make sure that the firmware binary is named “firmware.bin”. Any other name will be rejected by the bootloader.</strong></li>
-<li>**Use an SD card that has been formatted using the SD formatter tool here: <a href="https://www.sdcard.org/downloads/formatter/**">https://www.sdcard.org/downloads/formatter/**</a></li>
+<li><strong>Use an SD card that has been formatted using the SD formatter tool here: https://www.sdcard.org/downloads/formatter/</strong></li>
 <li><strong>Copy the firmware binary file to the SD card.</strong></li>
 <li><strong>Insert the SD card into the motherboard and reset it.</strong></li>
 <li><strong>Remove the SD card and check that the file has changed name to “FIRMWARE.CUR”. This will confirm that the firmware was successfully installed.</strong></li>
@@ -3839,25 +3837,23 @@ positive output as shown in the images.</em></font></strong></p>
 </ul>
 <p><strong><img src=img/Octopus/Octopus_Soft3.png width="600"/></strong></p>
 <ul>
-<li>
-<p><strong>The silkscreen on the first production run of the octopus had incorrectly labeled pins on the connectors listed below. To be sure that you are wiring on the correct pins please use the PINS.pdf document when using any of these connectors. The silkscreen has been corrected and all subsequent Octopus boards will reflect the correct mapping.</strong></p>
+<li><strong>The silkscreen on the first production run of the octopus had incorrectly labeled pins on the connectors listed below. To be sure that you are wiring on the correct pins please use the PINS.pdf document when using any of these connectors. The silkscreen has been corrected and all subsequent Octopus boards will reflect the correct mapping.</strong></li>
+</ul>
 <p><strong>a. Fans</strong></p>
 <p><strong>b. SPI3</strong></p>
 <p><strong>c. Raspberry pi UART.</strong></p>
-</li>
-</ul>
 <h2 id="product-purchase-link"><strong>Product Purchase Link</strong><a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>
 <p><strong>Purchase Link:</strong></p>
-<p><a href="https://biqu.equipment/products/bigtreetech-octopus-v1-1">https://biqu.equipment/products/bigtreetech-octopus-v1-1</a></p>
+<p>https://biqu.equipment/products/bigtreetech-octopus-v1-1</p>
 <p><strong>If you have any issues with the product, please submit a support ticket.</strong></p>
-<p><a href="https://biqu3d.com/pages/submit-a-ticket">https://biqu3d.com/pages/submit-a-ticket</a></p>
+<p>https://biqu3d.com/pages/submit-a-ticket</p>
 <p><strong>Navigation:</strong></p>
-<p><strong>BIQU Official Website：</strong>                                          <a href="http://biqu3d.com">http://biqu3d.com</a></p>
-<p><strong>BIGTREETECH Official Website：</strong>                            <a href="http://bigtree-tech.com">http://bigtree-tech.com</a></p>
-<p><strong>Online Store：</strong>                                                            <a href="https://biqu.equipment">https://biqu.equipment</a></p>
-<p><strong>BIGTREETECH Official Group: </strong>                                  <a href="https://www.facebook.com/groups/bigtreetech">https://www.facebook.com/groups/bigtreetech</a></p>
-<p><strong>Discord: </strong>                                                                      <a href="https://discord.gg/hhZsV7zk">https://discord.gg/hhZsV7zk</a></p>
-<p><strong>Reddit:</strong>                                                                       <a href="https://www.reddit.com/r/BIGTREETECH/">https://www.reddit.com/r/BIGTREETECH/</a></p>
+<p><strong>BIQU Official Website：</strong>                                          http://biqu3d.com</p>
+<p><strong>BIGTREETECH Official Website：</strong>                            http://bigtree-tech.com</p>
+<p><strong>Online Store：</strong>                                                            https://biqu.equipment</p>
+<p><strong>BIGTREETECH Official Group: </strong>                                  https://www.facebook.com/groups/bigtreetech</p>
+<p><strong>Discord: </strong>                                                                      https://discord.gg/hhZsV7zk</p>
+<p><strong>Reddit:</strong>                                                                       https://www.reddit.com/r/BIGTREETECH/</p>
 
               
             </article>

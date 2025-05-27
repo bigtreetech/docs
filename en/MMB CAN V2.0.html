@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3849,24 +3847,22 @@
 <h2 id="klipper"><strong>Klipper</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h2>
 <h3 id="flashing-katapult-formerly-canboot">Flashing Katapult (formerly CanBoot)<a class="headerlink" href="#flashing-katapult-formerly-canboot" title="Permanent link">&para;</a></h3>
 <p>Note: Katapult is for direct firmware updates via CAN bus. Skip this step if using DFU.</p>
-<p>To flash Katapult on Raspberry Pi or CB1, refer to the following instructions to download the Katapult project: <a href="https://github.com/Arksine/katapult">https://github.com/Arksine/katapult</a></p>
+<p>To flash Katapult on Raspberry Pi or CB1, refer to the following instructions to download the Katapult project: https://github.com/Arksine/katapult</p>
 <ol>
-<li>
-<p>Enter</p>
+<li>Enter</li>
+</ol>
 <p><strong>cd ~</strong></p>
 <p>to go to the home directory, enter</p>
-<p><strong>git clone</strong> **<a href="https://github.com/Arksine/katapult**">https://github.com/Arksine/katapult**</a></p>
+<p><strong>git clone</strong> <strong>https://github.com/Arksine/katapult</strong></p>
 <p>to download the Katapult project, then enter</p>
 <p><strong>cd katapult</strong></p>
 <p>to navigate to the Katapult directory.</p>
-</li>
-<li>
-<p>Enter</p>
+<ol>
+<li>Enter</li>
+</ol>
 <p><strong>make menuconfig</strong></p>
 <p>and configure as shown in the image below.</p>
 <p><img src=img/mmb_can_v2_0/mmb_can_v2_0_klipper1.png width="600" /></p>
-</li>
-</ol>
 <p>​   3.Enter make to compile the firmware. When “make” is completed, the required “katapult.bin” firmware will be generated in the home/biqu/katapult/out folder.</p>
 <p>​   4.Hold down the Boot button and connect to Raspberry Pi/CB1 with a Type-C cable. This allows the chip to enter DFU mode.</p>
 <p>​   5.Use the following command to identify the DFU device ID lsusb</p>
@@ -3942,14 +3938,14 @@
 <p>4、If Klipper is already running and connected to this device, the canbus_uuid will not be reported.</p>
 <h3 id="configuring-klipper">Configuring Klipper<a class="headerlink" href="#configuring-klipper" title="Permanent link">&para;</a></h3>
 <p>1、Access the mainsail web UI by entering the IP address of the Raspberry Pi into the browser. Using the path shown in the image below, download the reference configuration named sample-bigtreetech-mmb-canbus-v2.0.cfg. If this file is not found, update the Klipper firmware source code to the latest version or use the link to download it from GitHub:</p>
-<p><a href="https://github.com/bigtreetech/MMB">https://github.com/bigtreetech/MMB</a></p>
+<p>https://github.com/bigtreetech/MMB</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper11.png width="600" /></p>
 <p>2、Upload the configuration file to Configuration Files.</p>
 <p><img src=img/MMB_CAN/MMB_CAN_Klipper12.png width="600" /></p>
 <p>3、Add the MMB CAN V2 configuration to the printer.cfg file:</p>
 <p>[include sample-bigtreetech-mmb-canbus-v2.0.cfg]</p>
 <p>4、Change the USB serial or CAN UUID within the configuration file to match the actual ID of the motherboard (USB serial or canbus).</p>
-<p>5、Configure the specific functions of the module according to the instructions in the following link: <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>5、Configure the specific functions of the module according to the instructions in the following link: https://www.klipper3d.org/Overview.html</p>
 
               
             </article>

@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3470,31 +3468,33 @@
 <p>TMC2130是一款高性能两相步进电机驱动芯片，具有标准SPI接口和简单的step/dir接口。非常低的噪音，高负载驱动器不失步</p>
 <h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <ul>
-<li>最多256个细分；</li>
-</ul>
-<ul>
-<li>支持SPI接口控制；</li>
-</ul>
-<ul>
-<li>在高负载下行驶时不要失去步伐；</li>
-</ul>
-<ul>
-<li>逻辑电压：3.3V/5V；</li>
-</ul>
-<ul>
-<li>输入电压范围：12V/24V DC；</li>
-</ul>
-<ul>
-<li>可调节电机工作电流1.2A（峰值2A）；</li>
-</ul>
-<ul>
-<li>Spreadcycle可确保步进电机在过零时无死区电流的平稳过渡。TMC2130步进电机驱动芯片几乎没有抖动；</li>
-</ul>
-<ul>
-<li>StealthChop可以驱动电机在非常安静的声音下工作，因此可以将电机的噪音控制在10dB以下，远低于传统的电流控制器类型；</li>
-</ul>
-<ul>
-<li>SpreadCycle PWM斩波模式自动在慢速和快速衰减器之间划分，设置磁滞衰减功能，平均电流反映正弦配置的正常电流。在正弦过零点处没有过渡期，这减少了电流和扭矩波动，使电流波形更类似于正弦波。与传统的SpreadCycle PWM恒斩波方式相比，电机运行更加平稳；</li>
+<li>
+<p>最多256个细分；</p>
+</li>
+<li>
+<p>支持SPI接口控制；</p>
+</li>
+<li>
+<p>在高负载下行驶时不要失去步伐；</p>
+</li>
+<li>
+<p>逻辑电压：3.3V/5V；</p>
+</li>
+<li>
+<p>输入电压范围：12V/24V DC；</p>
+</li>
+<li>
+<p>可调节电机工作电流1.2A（峰值2A）；</p>
+</li>
+<li>
+<p>Spreadcycle可确保步进电机在过零时无死区电流的平稳过渡。TMC2130步进电机驱动芯片几乎没有抖动；</p>
+</li>
+<li>
+<p>StealthChop可以驱动电机在非常安静的声音下工作，因此可以将电机的噪音控制在10dB以下，远低于传统的电流控制器类型；</p>
+</li>
+<li>
+<p>SpreadCycle PWM斩波模式自动在慢速和快速衰减器之间划分，设置磁滞衰减功能，平均电流反映正弦配置的正常电流。在正弦过零点处没有过渡期，这减少了电流和扭矩波动，使电流波形更类似于正弦波。与传统的SpreadCycle PWM恒斩波方式相比，电机运行更加平稳；</p>
+</li>
 </ul>
 <h2 id="_3"><strong>规格</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
@@ -3574,15 +3574,11 @@ Vref值范围：默认值：1V（±0.2）；最大：2.4V；最小值：0V；
 
 ## **注意事项**
 
-
 - <p>当硬件选择SPI操作模式时，请小心使用烙铁，以免烫伤。加工完成后，仔细观察模块内是否有残留锡渣，并将其清理干净，防止模块短路和烧坏<!--</p-->
-
 
 - <p>接线时请注意接线顺序和IO端口。如果接线错误，驱动器将无法工作。请按上图小心连接<!--</p-->
 
-
 - <p>当驱动器插入主板时，请注意看驱动器的方向，不能反向插入，防止驱动器烧坏<!--</p-->
-
 
 - <p>在驱动散热工作（散热器+风扇）之前，一定要做好工作，以防止驱动器工作不正常</p>
 

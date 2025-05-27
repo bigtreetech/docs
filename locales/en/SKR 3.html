@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3827,7 +3825,7 @@
 <p><img src=img/SKR3/SKR3_Title.png width="600" /></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>The BIGTREETECH SKR 3 mother board is a brand new 32 bit motherboard developed by Shenzhen BIQU Innovation Technology Co., Ltd. that fixed all the problems of the V1.4/Turbo board with new features and improved functionality.</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/bigtreetech-btt-skr-3-control-board-for-3d-printer">https://biqu.equipment/products/bigtreetech-btt-skr-3-control-board-for-3d-printer</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-btt-skr-3-control-board-for-3d-printer</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Utilize 32bit 480MHz ARM Cortex-M7 serires STM32H743VI MCU for massively improved performance</li>
@@ -3962,7 +3960,7 @@
 <h4 id="stepdirstandalone-mode">STEP/DIR(STANDALONE) mode<a class="headerlink" href="#stepdirstandalone-mode" title="Permanent link">&para;</a></h4>
 <p>i.e：A4988、DRV8825、LV8729、ST820 etc，connect jumpers(MS0-MS2) according to the microstep chart</p>
 <p><img src=img/SKR3/SKR3_Step.png width="600" /></p>
-<p>For details, please click: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h4 id="uart-mode-of-tmc-driver">UART mode of TMC driver<a class="headerlink" href="#uart-mode-of-tmc-driver" title="Permanent link">&para;</a></h4>
 <p>i.e：TMC2208、TMC2209、TMC2225 etc. Place jumpers according to the diagram below，microstep and current can be configured in firmware.</p>
 <p><img src=img/SKR3/SKR3_Uart.png width="600" /></p>
@@ -4003,14 +4001,14 @@ Connect jumper between the two pins of VOT and insert SKR 3-DC MODE on to the 2*
 <p><img src=img/SKR3/SKR3_Heater.png width="600" /></p>
 <h2 id="marlin"><strong>Marlin</strong><a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h2>
 <h3 id="install-compiling-environment">install compiling environment<a class="headerlink" href="#install-compiling-environment" title="Permanent link">&para;</a></h3>
-<p><a href="https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md">https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</a></p>
-<p><a href="https://marlinfw.org/docs/basics/install_platformio_vscode.html">https://marlinfw.org/docs/basics/install_platformio_vscode.html</a></p>
+<p>https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</p>
+<p>https://marlinfw.org/docs/basics/install_platformio_vscode.html</p>
 <p>Refer to the link above for tutorial on installing VSCode and PlatformIO plugin</p>
 <h3 id="download-marlin-firmware">Download Marlin firmware<a class="headerlink" href="#download-marlin-firmware" title="Permanent link">&para;</a></h3>
 <p>1、Download the newest bugfix version of Marlin from official website</p>
-<p><a href="https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x">https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x</a></p>
+<p>https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x</p>
 <p>2、Download Pre-configured firmware from our GitHub page</p>
-<p><a href="https://github.com/bigtreetech/SKR-3">https://github.com/bigtreetech/SKR-3</a></p>
+<p>https://github.com/bigtreetech/SKR-3</p>
 <h3 id="configure-firmware">Configure firmware<a class="headerlink" href="#configure-firmware" title="Permanent link">&para;</a></h3>
 <h4 id="open-marlin-project">Open Marlin project<a class="headerlink" href="#open-marlin-project" title="Permanent link">&para;</a></h4>
 <p>You can open Marlin in VS Code in one of several ways:</p>
@@ -4116,7 +4114,7 @@ card severely.</p>
 <h4 id="esp3d">ESP3D<a class="headerlink" href="#esp3d" title="Permanent link">&para;</a></h4>
 <p>The serial port between ESP8266 and Marlin on the motherboard is UART3</p>
 <p><img src=img/SKR3/SKR3_Marlin23.png width="600" /></p>
-<p>the newest ESP3D firmware can be found at <a href="https://github.com/luc-github/ESP3D">https://github.com/luc-github/ESP3D</a> ,compile your own binary file and rename to <code>esp3d.bin</code>, copy to 
+<p>the newest ESP3D firmware can be found at https://github.com/luc-github/ESP3D ,compile your own binary file and rename to <code>esp3d.bin</code>, copy to 
 the root directory of the sd card, insert into the motherboard and press reset button. The bootloader will update the firmware to ESP8266 automatically. If updated successfully, the file will be renamed to ESP3D.CUR</p>
 <h4 id="compile-firmware">Compile firmware<a class="headerlink" href="#compile-firmware" title="Permanent link">&para;</a></h4>
 <p>1、Click <code>√</code> to compile firmware</p>
@@ -4127,15 +4125,15 @@ the root directory of the sd card, insert into the motherboard and press reset b
 <h3 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permanent link">&para;</a></h3>
 <h4 id="download-os-image">Download OS image<a class="headerlink" href="#download-os-image" title="Permanent link">&para;</a></h4>
 <p>Download your preferred OS image with build in WebUI，popular choices are Fluidd, Mainsail etc.</p>
-<p>Fluidd：<a href="https://github.com/fluidd-core/FluiddPI/releases">https://github.com/fluidd-core/FluiddPI/releases</a></p>
+<p>Fluidd：https://github.com/fluidd-core/FluiddPI/releases</p>
 <p><img src=img/SKR3/SKR3_Klipper1.png width="600" /></p>
-<p>Mainsail：<a href="https://github.com/mainsail-crew/MainsailOS/releases">https://github.com/mainsail-crew/MainsailOS/releases</a></p>
+<p>Mainsail：https://github.com/mainsail-crew/MainsailOS/releases</p>
 <p><img src=img/SKR3/SKR3_Klipper2.png width="600" /></p>
 <p>Or refer to <font  color="blue"><strong>Klipper official installation guide</strong></font> using Octoprint</p>
 <h4 id="download-and-install-raspberry-pi-imager">Download and install Raspberry Pi Imager<a class="headerlink" href="#download-and-install-raspberry-pi-imager" title="Permanent link">&para;</a></h4>
-<p>Install the official raspberry pi imager <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a></p>
+<p>Install the official raspberry pi imager https://www.raspberrypi.com/software/</p>
 <h3 id="write-image">Write image<a class="headerlink" href="#write-image" title="Permanent link">&para;</a></h3>
-<p>For details, please click: <a href="https://bttwiki.com/Software%20Installation.html#write-os">https://bttwiki.com/Software%20Installation.html#write-os</a></p>
+<p>For details, please click: https://bttwiki.com/Software%20Installation.html#write-os</p>
 <h3 id="wifi-setting">WIFI setting<a class="headerlink" href="#wifi-setting" title="Permanent link">&para;</a></h3>
 <p><font  color="red"><strong>NOTE：skip this step if you are using ethernet port not using WIFI </strong></font></p>
 <p>1、Reinsert the SD card</p>
@@ -4145,12 +4143,12 @@ notepad)</p>
 <p>3、delete <code>#</code> ,insert the correct wifi SSID and password then save the file，</p>
 <p><img src=img/SKR3/SKR3_WIFI2.png width="600" /></p>
 <h3 id="ssh-connect-to-raspberry-pi">ssh connect to raspberry pi<a class="headerlink" href="#ssh-connect-to-raspberry-pi" title="Permanent link">&para;</a></h3>
-<p>1、Install the ssh application Mobaxterm：<a href="https://mobaxterm.mobatek.net/download-home-edition.html">https://mobaxterm.mobatek.net/download-home-edition.html</a></p>
+<p>1、Install the ssh application Mobaxterm：https://mobaxterm.mobatek.net/download-home-edition.html</p>
 <p>2、Insert SD card to raspberry pi，wait for system to load after power one，aprox. 1-2min</p>
 <p>3、The raspberry pi will automatically be assigned a IP address after successfully connected to the network</p>
 <p>4、Find the raspberry pi IP address in your router page</p>
 <p><img src=img/SKR3/SKR3_WIFI3.png width="600" /></p>
-<p>5、Or use the <a href="https://angryip.org/">https://angryip.org/</a> tool，scan all IP address in the current network organize by names, find the IP named Fluidd or Mailsail like shown 
+<p>5、Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Fluidd or Mailsail like shown 
 below</p>
 <p><img src=img/SKR3/SKR3_WIFI4.png width="600" /></p>
 <p>6、Open Mobaxtermand click“Session”，and click“SSH”，inset the raspberry pi IP into Remote host and click“OK”</p>
@@ -4183,13 +4181,13 @@ computer using the ssh application.</p>
 <p>copy and save this ID，it is needed when modifying klipper config</p>
 <h3 id="configure-klipper">Configure Klipper<a class="headerlink" href="#configure-klipper" title="Permanent link">&para;</a></h3>
 <p>1、Enter your raspberry pi IP address into your browser to open the webUI，find the reference config for motherboard in the directory shown below，if 
-there is no such config available, update your klipper source code to the newest version or download from github:<a href="https://github.com/bigtreetech/SKR-3">https://github.com/bigtreetech/SKR-3</a></p>
+there is no such config available, update your klipper source code to the newest version or download from github:https://github.com/bigtreetech/SKR-3</p>
 <p><img src=img/SKR3/SKR3_Klipper1.png width="600" /></p>
 <p>2、Upload your finished config file into Configuration Files, and rename to <code>printer.cfg</code></p>
 <p><img src=img/SKR3/SKR3_Klipper2.png width="600" /></p>
 <p>3、Insert the correct motherboad ID</p>
 <p><img src=img/SKR3/SKR3_Klipper3.png width="600" /></p>
-<p>4、Refer to <a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a> for detailed configuration guide according to your machine type.</p>
+<p>4、Refer to https://www.klipper3d.org/Overview.html for detailed configuration guide according to your machine type.</p>
 <h3 id="firmware-update">Firmware update<a class="headerlink" href="#firmware-update" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Update using Micro SD</li>

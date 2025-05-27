@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3608,43 +3606,45 @@
 <p><a href="https://bigtreetech.github.io/docs/M5P.html"><img src=img/M5P/M5P_Title.png width="600" /></a></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH MANTA M5P is a 32-bit motherboard developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for Klipper running. It can run Klipper with a core board, which greatly eliminates the mass wiring between the motherboard and Raspberry Pi, and also greatly  saves space in the chassis. The BTB headers are designed on MANTA M5P, so that customers can choose to use CM4 or other solutions, thus solving the insane shortage of Raspberry Pi CM4.</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/manta-m4p-m8p">https://biqu.equipment/products/manta-m4p-m8p</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/manta-m4p-m8p</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
-<li>32bit 64MHz ARM Cortex-M0+ series STM32G0B1RET6 MCU.</li>
-</ul>
-<ul>
-<li>The thermistor circuit is protected to prevent MCU damage from shorted heated bed and heater cartridge connections. </li>
-</ul>
-<ul>
-<li>The CNC fan's voltage is selectable in 24V, 12V, and 5V, no more need for external stepdown thus preventing board damage from user error.</li>
-</ul>
-<ul>
-<li>Thermistor connection supports pull-up resistance value setting using jumpers, no more extra module needed for PT1000.</li>
-</ul>
-<ul>
-<li>MCU firmware can be upgraded via an SD card, or use DFU via Klipper's make flash command.</li>
-</ul>
-<ul>
-<li>BTB connectors are adopted between the motherboard and core board, allowing the choice of other core board solutions in addition to CM4.</li>
-</ul>
-<ul>
-<li>Integrated SPI and UART mode of TMC driver and DIAG pin, easily configurable with jumpers.</li>
-</ul>
-<ul>
-<li>Support filament runout sensor, BLTouch, RGB, etc.</li>
-</ul>
-<ul>
-<li>Replaceable fuse for easy maintenance.</li>
-</ul>
-<ul>
-<li>Onboard proximity switch port, support NPN and PNP type selection, (24V, 12V, 5V) voltage selection.</li>
-</ul>
-<ul>
-<li>Onboard SPI interface for connecting acceleration sensor to enable Klipper's input shaping.</li>
-</ul>
-<ul>
-<li>The new E-FUSE fuse is equipped, which can respond quickly, enhance self-protection ability, and greatly reduce the motherboard burnout caused by short circuits or ignition.</li>
+<li>
+<p>32bit 64MHz ARM Cortex-M0+ series STM32G0B1RET6 MCU.</p>
+</li>
+<li>
+<p>The thermistor circuit is protected to prevent MCU damage from shorted heated bed and heater cartridge connections. </p>
+</li>
+<li>
+<p>The CNC fan's voltage is selectable in 24V, 12V, and 5V, no more need for external stepdown thus preventing board damage from user error.</p>
+</li>
+<li>
+<p>Thermistor connection supports pull-up resistance value setting using jumpers, no more extra module needed for PT1000.</p>
+</li>
+<li>
+<p>MCU firmware can be upgraded via an SD card, or use DFU via Klipper's make flash command.</p>
+</li>
+<li>
+<p>BTB connectors are adopted between the motherboard and core board, allowing the choice of other core board solutions in addition to CM4.</p>
+</li>
+<li>
+<p>Integrated SPI and UART mode of TMC driver and DIAG pin, easily configurable with jumpers.</p>
+</li>
+<li>
+<p>Support filament runout sensor, BLTouch, RGB, etc.</p>
+</li>
+<li>
+<p>Replaceable fuse for easy maintenance.</p>
+</li>
+<li>
+<p>Onboard proximity switch port, support NPN and PNP type selection, (24V, 12V, 5V) voltage selection.</p>
+</li>
+<li>
+<p>Onboard SPI interface for connecting acceleration sensor to enable Klipper's input shaping.</p>
+</li>
+<li>
+<p>The new E-FUSE fuse is equipped, which can respond quickly, enhance self-protection ability, and greatly reduce the motherboard burnout caused by short circuits or ignition.</p>
+</li>
 </ul>
 <h2 id="specifications"><strong>Specifications</strong><a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h2>
 <table>
@@ -3758,7 +3758,7 @@
 <p>e.g.: A4988, DRV8825, LV8729, ST820, etc., connect jumpers(MS0-MS2) according to the microstep chart.</p>
 <p><img src=img/M5P/M5P_STEP_Mode.png width="600" /></p>
 <p><strong><font  color="red">Note: RST and SLP must be shorted by jumpers for A4988 or DRV8825. </font></strong></p>
-<p>For details, please click: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h4 id="uart-mode-of-tmc-driver"><strong>UART Mode of TMC Driver</strong><a class="headerlink" href="#uart-mode-of-tmc-driver" title="Permanent link">&para;</a></h4>
 <p>e.g.: TMC2208, TMC2209, TMC2225, etc., place jumpers according to the diagram below, microstep and current can be configured in firmware.</p>
 <p><img src=img/M5P/M5P_UART_Mode.png width="600" /></p>
@@ -3803,10 +3803,10 @@
 <p><img src=img/M5P/M5P_Proximity1.png width="600" /></p>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
 <p>For details, please click: </p>
-<p><a href="https://bigtreetech.github.io/docs/Software%20Configuration.html">https://bigtreetech.github.io/docs/Software%20Configuration.html</a></p>
+<p>https://bigtreetech.github.io/docs/Software%20Configuration.html</p>
 <h2 id="software-installation"><strong>Software Installation</strong><a class="headerlink" href="#software-installation" title="Permanent link">&para;</a></h2>
 <p>For details, please click:</p>
-<p><a href="https://bigtreetech.github.io/docs/Software%20Installation.html">https://bigtreetech.github.io/docs/Software%20Installation.html</a></p>
+<p>https://bigtreetech.github.io/docs/Software%20Installation.html</p>
 <h2 id="faqs"><strong>FAQs</strong><a class="headerlink" href="#faqs" title="Permanent link">&para;</a></h2>
 <ul>
 <li>All unplugging and plugging operations should be performed under the condition of power off, including enabling the eMMC writing.</li>
@@ -3814,16 +3814,16 @@
 </ul>
 <h2 id="product-purchase-link">Product Purchase Link<a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>
 <p><strong>Purchase Link:</strong></p>
-<p><a href="https://biqu.equipment/products/manta-m4p-m8p?variant=40215552852066">https://biqu.equipment/products/manta-m4p-m8p?variant=40215552852066</a></p>
+<p>https://biqu.equipment/products/manta-m4p-m8p?variant=40215552852066</p>
 <p><strong>If you have any issues with the product, please submit a support ticket.</strong></p>
-<p><a href="https://biqu3d.com/pages/submit-a-ticket">https://biqu3d.com/pages/submit-a-ticket</a></p>
+<p>https://biqu3d.com/pages/submit-a-ticket</p>
 <p><strong>Navigation:</strong></p>
-<p>BIQU Official Website：                                          <a href="http://biqu3d.com">http://biqu3d.com</a></p>
-<p>BIGTREETECH Official Website：                            <a href="http://bigtree-tech.com">http://bigtree-tech.com</a></p>
-<p>Online Store：                                                            <a href="https://biqu.equipment">https://biqu.equipment</a></p>
-<p>BIGTREETECH Official Group:                                   <a href="https://www.facebook.com/groups/bigtreetech">https://www.facebook.com/groups/bigtreetech</a></p>
-<p>Discord:                                                                       <a href="https://discord.gg/hhZsV7zk">https://discord.gg/hhZsV7zk</a></p>
-<p>Reddit:                                                                       <a href="https://www.reddit.com/r/BIGTREETECH/">https://www.reddit.com/r/BIGTREETECH/</a></p>
+<p>BIQU Official Website：                                          http://biqu3d.com</p>
+<p>BIGTREETECH Official Website：                            http://bigtree-tech.com</p>
+<p>Online Store：                                                            https://biqu.equipment</p>
+<p>BIGTREETECH Official Group:                                   https://www.facebook.com/groups/bigtreetech</p>
+<p>Discord:                                                                       https://discord.gg/hhZsV7zk</p>
+<p>Reddit:                                                                       https://www.reddit.com/r/BIGTREETECH/</p>
 
               
             </article>

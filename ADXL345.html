@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3646,7 +3644,7 @@
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.png width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH ADXL345 V2.0 is a module for printer resonance compensation. It can communicate through USB, greatly simplifying wiring.</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/adxl-345-accelerometer-board-for-36-stepper-motors">https://biqu.equipment/products/adxl-345-accelerometer-board-for-36-stepper-motors</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/adxl-345-accelerometer-board-for-36-stepper-motors</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>The board has a reserved BOOT button for easy firmware updates.</li>
@@ -3720,86 +3718,94 @@
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Soldering.png width="600"/></p>
 <h2 id="klipper-firmware"><strong>Klipper Firmware</strong><a class="headerlink" href="#klipper-firmware" title="Permanent link">&para;</a></h2>
 <h3 id="compiling-klipper-firmware">Compiling Klipper Firmware<a class="headerlink" href="#compiling-klipper-firmware" title="Permanent link">&para;</a></h3>
-<p>1.Connect to CB1/Raspberry Pi via SSH and enter the following commands:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~/klipper/
+<ol>
+<li>Connect to CB1/Raspberry Pi via SSH and enter the following commands:</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">cd</span><span class="w"> </span>~/klipper/
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>make<span class="w"> </span>menuconfig
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>make menuconfig
-</code></pre></div>
-<p>​   Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).</p>
+<p>Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).</p>
 <p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>[\*] Enable extra low-level configuration options
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a> Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  ---&gt;
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a> Processor model (rp2040)  ---&gt;
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a> Bootloader offset (No bootloader)  ---&gt;
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a> Flash chip (GENERIC_03H with CLKDIV 4)  ---&gt;
-<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
-<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a> Communication Interface (USBSERIAL)  ---&gt;
-</code></pre></div>
-<p>2.After configuration, press <strong>q</strong> to exit, and select <strong>Yes</strong> when prompted to save.</p>
-<p>3.Enter <strong>make</strong> to compile the firmware. The resulting <strong>klipper.bin</strong> file will be in the <strong>home/pi/klipper/out</strong> folder. This can be directly downloaded to your computer from the SSH software's left panel.</p>
+<ol>
+<li>
+<p>After configuration, press <strong>q</strong> to exit, and select <strong>Yes</strong> when prompted to save.</p>
+</li>
+<li>
+<p>Enter <strong>make</strong> to compile the firmware. The resulting <strong>klipper.bin</strong> file will be in the <strong>home/pi/klipper/out</strong> folder. This can be directly downloaded to your computer from the SSH software's left panel.</p>
+</li>
+</ol>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.png width="600"/></p>
 <h3 id="firmware-update-via-dfu">Firmware Update via DFU<a class="headerlink" href="#firmware-update-via-dfu" title="Permanent link">&para;</a></h3>
 <p>Raspberry Pi or CB1 update via DFU.</p>
-<ol>
-<li>
 <p>Hold the <strong>Boot</strong> button and connect the board to Raspberry Pi/CB1 via Type-C cable to enter DFU mode.</p>
-</li>
-<li>
-<p>Enter <strong>lsusb</strong> in the SSH terminal to query the DFU device ID.</p>
-</li>
-</ol>
+<p>Enter <code>lsusb</code> in the SSH terminal to query the DFU device ID.</p>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.png width="600"/></p>
-<p>​   3.Enter</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>cd klipper
+<p>​Using command below to navigate to the Klipper directory:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">cd</span><span class="w"> </span>~/klipper
 </code></pre></div>
-<p>​   navigate to the Klipper directory, and enter</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>make flash FLASH_DEVICE=2e8a:0003
+<p>Then using command below to flash DFU device:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>make<span class="w"> </span>flash<span class="w"> </span><span class="nv">FLASH_DEVICE</span><span class="o">=</span>2e8a:0003
 </code></pre></div>
-<p>​   start flashing the firmware (Note: Replace 2e8a:0003 with the actual </p>
-<p>​   device ID found in the previous step.)</p>
-<p>​   4.After flashing, enter</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>ls /dev/serial/by-id/
+<p>After flash firmware into ADXL345. It can using command below to find serial id of device: </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ls<span class="w"> </span>/dev/serial/by-id/*
 </code></pre></div>
-<p>​   to query the device's Serial ID (only applicable for USB communication, not for CANBus).</p>
-<p>​   5.For USB communication, you don't need to press the Boot button for subsequent updates. Enter the following command to flash the firmware </p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>​to query the device's Serial ID (only applicable for USB communication, not for CANBus).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For USB communication, you don't need to press the Boot button for subsequent updates. Enter the following command to flash the firmware</p>
+<p>replacing <code>/dev/serial/by-id/&lt;serial-id&gt;</code> with the actual ID found in the previous step</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>make<span class="w"> </span>flash<span class="w"> </span><span class="nv">FLASH_DEVICE</span><span class="o">=</span>/dev/serial/by-id/&lt;serial-id&gt;
 </code></pre></div>
-<p>(Note: replacing <strong>/dev/serial/by-id/xxx</strong> with the actual ID found in the previous step).</p>
+</div>
 <h3 id="configuring-klipper">Configuring Klipper<a class="headerlink" href="#configuring-klipper" title="Permanent link">&para;</a></h3>
-<ol>
-<li>Download the <strong>sample-bigtreetech-adxl345-v2.0.cfg</strong> config file from:</li>
-</ol>
-<p>​   <a href="https://github.com/bigtreetech/ADXL345">https://github.com/bigtreetech/ADXL345</a></p>
-<p>​   2.Upload to the <strong>Configuration Files.</strong></p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Download the <a href="https://github.com/bigtreetech/ADXL345/blob/master/Firmware/sample-bigtreetech-adxl345-v2.0.cfg">sample-bigtreetech-adxl345-v2.0.cfg</a> config file from <a href="https://github.com/bigtreetech/ADXL345">GitHub ADXL345</a> </p>
+<p>​Upload to the <strong>Configuration Files.</strong></p>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/></p>
-<p>​   3.In <strong>printer.cfg</strong>, add: </p>
-<p>​   <strong>[include sample-bigtreetech-adxl345-v2.0.cfg]</strong></p>
-<p>​   4.Set the correct ID number for your board.(USB serial)</p>
-<p>​   5.Configure the module's functions according to the instructions in the link below:</p>
-<p>​   <a href="https://www.klipper3d.org/Config_Reference.html#adxl345">https://www.klipper3d.org/Config_Reference.html#adxl345</a></p>
-<p>​   The <strong>axes_map</strong> parameter needs to be set according to the direction of the module installation and the movement direction of the printer. The first   parameter represents the direction of the accelerometer module corresponding to the axis when the printer's X-axis moves in the positive direction (the silk screen on the module shows the direction of each axis of the module), and the second parameter represents the direction of the accelerometer when the Y-axis moves in the positive direction.</p>
-<p>​   6.After configuring and installing the module and successfully connecting to the printer, you can start the resonance compensation test. Follow the instructions in the link below to start testing:</p>
-<p><a href="https://www.klipper3d.org/G-Codes.html#shaper_calibrate">https://www.klipper3d.org/G-Codes.html#shaper_calibrate</a></p>
+</div>
+<p>Add section below into <code>printer.cfg</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>​[include sample-bigtreetech-adxl345-v2.0.cfg]
+</code></pre></div>
+<p>​Then set the correct ID number for your board.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>[mcu btt_adxl345]
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>serial: /dev/serial/by-id/usb-Klipper_rp2040_btt_acc-if00
+</code></pre></div>
+<p>​!!! tip 
+    Configure the module's functions according to<a href="https://www.klipper3d.org/Config_Reference.html#adxl345">ADXL345 Config Reference</a></p>
+<p>​The <code>axes_map</code> parameter needs to be set according to the direction of the module installation and the movement direction of the printer. The first parameter represents the direction of the accelerometer module corresponding to the axis when the printer's X-axis moves in the positive direction (the silk screen on the module shows the direction of each axis of the module), and the second parameter represents the direction of the accelerometer when the Y-axis moves in the positive direction.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>​After configuring and installing the module and successfully connecting to the printer, you can start the resonance compensation test.</p>
+</div>
 <p>In Mainsail's Console, enter the following command to start X axis calibration:</p>
-<p>SHAPER_CALIBRATE AXIS=X</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>SHAPER_CALIBRATE AXIS=X
+</code></pre></div>
 <p>Enter the following command to start Y axis calibration:</p>
-<p>SHAPER_CALIBRATE AXIS=Y</p>
-<p>After calibration is complete, follow the prompts and enter SAVE_CONFIG to save the calibration parameters.</p>
-<p><strong>Note:</strong> After the resonance compensation test, the module can be removed. The module configuration needs to be commented out in the "printer.cfg" file, otherwise the printer will fail to start if it cannot find the module. Comment out the module configuration by adding "#" in front of the config file name:</p>
-<p># [include sample-bigtreetech-adxl345-v2.0.cfg]</p>
-<h2 id="assembly"><strong>Assembly</strong><a class="headerlink" href="#assembly" title="Permanent link">&para;</a></h2>
-<p>Note: Avoid overtightening screws during installation to prevent damage.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>SHAPER_CALIBRATE AXIS=Y
+</code></pre></div>
+<p>After calibration is complete, follow the prompts and enter <code>SAVE_CONFIG</code> to save the calibration parameters.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>After the resonance compensation test, the ADLX345 module can be removed. The module configuration needs to be commented out in the <code>printer.cfg</code> file, otherwise the printer will fail to start if it cannot find the module. Comment out the module configuration by adding <code>#</code> in front of the config file name:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a># [include sample-bigtreetech-adxl345-v2.0.cfg]
+</code></pre></div>
+</div>
+<h2 id="assembly">Assembly<a class="headerlink" href="#assembly" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Avoid overtightening screws during installation to prevent damage.</p>
+</div>
 <p>Example using the Voron StealthBurner:</p>
 <p><strong>Method 1:</strong></p>
 <p>Install on the side bracket with the dual holes (matches official spacing).</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.png width="400"/></p>
 <p><strong>Method 2:</strong></p>
 <p>Use screws through the PCB and rubber ring on the heater block as shown.</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.png width="400"/></p>
 
               
             </article>

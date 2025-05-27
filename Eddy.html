@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -4098,7 +4096,7 @@
 
 <h1 id="eddy">Eddy<a class="headerlink" href="#eddy" title="Permanent link">&para;</a></h1>
 <p><img src=img/Eddy/eddy_title_1.png width="600" /></p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/bigtreetech-eddy">https://biqu.equipment/products/bigtreetech-eddy</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-eddy</p>
 <p><strong><em> Eddy Guide Video</em></strong></p>
 <video width="500" height="300" controls>
     <source src="img/Eddy/installationen.mp4" type="video/mp4">
@@ -4262,7 +4260,7 @@ variable.</p>
 <h2 id="klipper-eddy-configuration">Klipper &amp; Eddy Configuration<a class="headerlink" href="#klipper-eddy-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="printercfg-templates">Printer.cfg Templates<a class="headerlink" href="#printercfg-templates" title="Permanent link">&para;</a></h3>
 <p>Now that you have the right firmware loaded onto your Eddy, it is time to complete the Klipper configuration. BIGTREETECH provides three different 
-sample configuration files to get you going. You will need to decide which one suits your needs the best. Choose the file that works best for you based on the criteria below. Read the comments in the selected configuration file carefully as they will help you to understand how to modify certain parameters to your installation. Each configuration file is linked below, but you can also find them by visiting <a href="https://github.com/bigtreetech/Eddy">https://github.com/bigtreetech/Eddy</a></p>
+sample configuration files to get you going. You will need to decide which one suits your needs the best. Choose the file that works best for you based on the criteria below. Read the comments in the selected configuration file carefully as they will help you to understand how to modify certain parameters to your installation. Each configuration file is linked below, but you can also find them by visiting https://github.com/bigtreetech/Eddy</p>
 <ul>
 <li>You wish to use the Eddy as a probe but will use another device as the z-endstop - <a href="https://github.com/bigtreetech/Eddy/blob/master/sample-bigtreetech-eddy.cfg">Use this config with no homing</a></li>
 <li>You wish to use the Eddy as a probe AND as the z-endstop - <a href="https://github.com/bigtreetech/Eddy/blob/master/sample-bigtreetech-eddy-homing.cfg">Use this config which includes homing</a></li>
@@ -4294,24 +4292,28 @@ to manually move the gantry or bed such that the Eddy is 20mm above the bed.</p>
 <h3 id="mapping-eddy-readings-to-nozzle-heights">Mapping Eddy Readings to Nozzle Heights<a class="headerlink" href="#mapping-eddy-readings-to-nozzle-heights" title="Permanent link">&para;</a></h3>
 <p>Now that the drive current has been calibrated, the Eddy will be able to obtain readings from the print bed. Klipper needs to know how those readings correspond to the height of the nozzle. The following calibration procedure positions the nozzle on the bed so that the Z height is = 0. It then takes readings from the Eddy as it gradually increases the nozzle height so that it can map those readings to known heights.</p>
 <ul>
-<li>If you have used one of the recommended configuration templates, you can simply follow the steps below to run the mapping procedure.</li>
-</ul>
-<ol>
-<li>Send the command <font  color="blue"><strong>PROBE_EDDY_CURRENT_CALIBRATE_AUTO CHIP=btt_eddy</strong></font></li>
+<li>
+<p>If you have used one of the recommended configuration templates, you can simply follow the steps below to run the mapping procedure.</p>
+</li>
+<li>
+<p>Send the command <font  color="blue"><strong>PROBE_EDDY_CURRENT_CALIBRATE_AUTO CHIP=btt_eddy</strong></font></p>
+</li>
 <li>Follow the prompts on the klipper UI to lower the nozzle until it sandwiches a piece of paper between it and the bed but be careful not to dig into the bed. The paper should still be able to move with some force applied.</li>
 <li>Click accept and watch as the Eddy performs the mapping. Be sure to send <font  color="blue"><strong>SAVE_CONFIG</strong></font> when it is done. </li>
-<li>Skip ahead to <strong>Bed Mesh Calibration.</strong></li>
-</ol>
-<ul>
-<li>If you have not used a configuration template, follow the steps below to run the mapping procedure.</li>
-</ul>
-<ol>
-<li>Home X and Y axes with command G28 X Y</li>
+<li>
+<p>Skip ahead to <strong>Bed Mesh Calibration.</strong></p>
+</li>
+<li>
+<p>If you have not used a configuration template, follow the steps below to run the mapping procedure.</p>
+</li>
+<li>
+<p>Home X and Y axes with command G28 X Y</p>
+</li>
 <li>Make sure you don’t have a bed heightmap loaded. Send BED_MESH_CLEAR from the console to clear the heightmap.</li>
 <li>Move Nozzle to Centre of the bed with G0 X150 Y150 F6000. The given command assumes a 300x300 printer but you will need to adjust it for your bed size. </li>
 <li>Start the Manual Z Offset Calibration <a href="[Bed leveling - Klipper documentation (klipper3d.org)](https://www.klipper3d.org/Bed_Level.html#the-paper-test)"><strong>(Paper test)</strong></a> by typing <font  color="blue"><strong>PROBE_EDDY_CURRENT_CALIBRATE CHIP=btt_eddy.</strong></font> You will see an adjustment box that will allow you to lower the nozzle. Lower the nozzle until it sandwiches a piece of paper between it and the bed but be careful not to dig into the bed. The paper should still be able to move with some force applied.</li>
 <li>Once completed use <font  color="blue"><strong>SAVE_CONFIG</strong></font>.</li>
-</ol>
+</ul>
 <p><img src=img/Eddy/Eddy_System8.png width="600" /></p>
 <h3 id="bed-mesh-calibration">Bed Mesh Calibration<a class="headerlink" href="#bed-mesh-calibration" title="Permanent link">&para;</a></h3>
 <ol>

@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1277,13 +1275,6 @@
         
       </ul>
     </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#overlays-settings" class="md-nav__link">
-    Overlays Settings
-  </a>
   
 </li>
         
@@ -3647,13 +3638,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#overlays-settings" class="md-nav__link">
-    Overlays Settings
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#ssh-connection" class="md-nav__link">
     SSH Connection
   </a>
@@ -3697,20 +3681,49 @@
 
 
 <h1 id="cb1">CB1<a class="headerlink" href="#cb1" title="Permanent link">&para;</a></h1>
-<p><a href="https://bigtreetech.github.io/docs/CB1.html"><img src=img/CB1.png width="600" /></a></p>
+<p><a href="https://bigtreetech.github.io/docs/CB1.html"><img src=img/CB1.png width="500" /></a></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>The BIGTREETECH CB1 is launched to provide a great solution to the insane shortage of Raspberry Pi CM4. It outputs signals to the motherboard via the fast and convenient two 100 pins micro BTB connection header. Moreover, it is onboard 2.4G WiFi.</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/manta-m4p-m8p?variant=39847241384034">https://biqu.equipment/products/manta-m4p-m8p?variant=39847241384034</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/manta-m4p-m8p?variant=39847241384034</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
-<ul>
-<li>CPU: ALLWINNER H616, Quad-core Cortex-A53 @1.5GHz</li>
-<li>GPU: Mali G31 MP2, Support OpenGL3.2</li>
-<li>RAM: 512MB/1GB DDR3L SDRAM</li>
-<li>Display: Compatible with HDMI2.0A Interface, Support 4K Displays</li>
-<li>Compatible with USB2.0 Interface</li>
-<li>Support 100M Ethernet + 100M WiFi</li>
-<li>Having the same BTB header as the Raspberry Pi CM4.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Specifications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPU</td>
+<td>ALLWINNER H616, Quad-core Cortex-A53 @1.5GHz</td>
+</tr>
+<tr>
+<td>GPU</td>
+<td>Mali G31 MP2, Support OpenGL3.2</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>512MB/1GB DDR3L SDRAM</td>
+</tr>
+<tr>
+<td>Display</td>
+<td>Compatible with HDMI2.0A Interface, Support 4K Displays</td>
+</tr>
+<tr>
+<td>USB</td>
+<td>Compatible with USB2.0 Interface</td>
+</tr>
+<tr>
+<td>Network</td>
+<td>Support 100M Ethernet + 100M WiFi</td>
+</tr>
+<tr>
+<td>BTB connector</td>
+<td>Having the same BTB header as the Raspberry Pi CM4</td>
+</tr>
+</tbody>
+</table>
 <h2 id="specifications"><strong>Specifications</strong><a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -3743,7 +3756,7 @@
 </tbody>
 </table>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/CB1_Size.png width="600" /></p>
+<p><img title="" src="img/CB1_Size.png" alt="" width="450" data-align="center"></p>
 <h2 id="schematic"><strong>Schematic</strong><a class="headerlink" href="#schematic" title="Permanent link">&para;</a></h2>
 <p><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/BIGTREETECH_CB1_V22_220812_SCH.pdf">BIGTREETECH_CB1_V22_220812_SCH</a></p>
 <h2 id="pinout"><strong>Pinout</strong><a class="headerlink" href="#pinout" title="Permanent link">&para;</a></h2>
@@ -4757,98 +4770,115 @@
 <h4 id="ethernet">Ethernet<a class="headerlink" href="#ethernet" title="Permanent link">&para;</a></h4>
 <p>Plug-and-play with an Ethernet cable, no additional setup required.</p>
 <h4 id="wifi-settings"><strong>WiFi Settings</strong><a class="headerlink" href="#wifi-settings" title="Permanent link">&para;</a></h4>
-<p>After the OS writes to the SD card, there is a FAT32 partition named <code>BOOT</code>, open <code>system.cfg</code> file with <code>Notpad</code>, <code>Notpad++</code> or <code>VSCode</code>.
-<img src=img/system.png width="600" /><br/></p>
-<p>Set <code>WIFI_SSID</code> as your actual wifi name and <code>WIFI_PASSWD</code> as your actual wifi password, The space character can be parsed normally without                     additional escape character.
-For example: <code>WIFI_SSID="CB1 Tester"</code>
-<img src=img/wifi.png width="600" /><br/></p>
-<h3 id="overlays-settings">Overlays Settings<a class="headerlink" href="#overlays-settings" title="Permanent link">&para;</a></h3>
-<p>After the OS writes to the SD card, there is a FAT32 partition named <code>BOOT</code>, open <code>BoardEnv.txt</code> file with <code>Notpad</code>, <code>Notpad++</code> or <code>VSCode</code>. <br/><img src=img/BoardEnv.png width="600" /><br/></p>
-<p>Set as required as shown in the figure below. <br/><img src=img/overlays.png width="600" /><br/></p>
+<p>After the OS writes to the SD card, there is a FAT32 partition named <code>BOOT</code>, open <code>system.cfg</code> file with <code>Notpad</code>, <code>Notpad++</code> or <code>VSCode</code>.</p>
+<p><img src=img/system.png width="600"></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Set <code>WIFI_SSID</code> as your actual wifi name and <code>WIFI_PASSWD</code> as your actual wifi password, The space character can be parsed normally without additional escape character.
+For example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="na">WIFI_SSID</span><span class="o">=</span><span class="s">&quot;CB1 Tester&quot;</span>
+</code></pre></div>
+<p><img title="" src="img/wifi.png" alt="" width="450" data-align="center"></p>
+</div>
+<p>After the OS writes to the SD card, there is a FAT32 partition named <code>BOOT</code>, open <code>BoardEnv.txt</code> file with <code>Notpad</code>, <code>Notpad++</code> or <code>VSCode</code>. </p>
+<p><img src=img/BoardEnv.png width="400" data-align="center"></p>
+<p>Set as required as shown in the figure below. </p>
+<p><img title="" src="img/overlays.png" alt="" width="400" data-align="center"></p>
 <p>The default value is <code>console=display</code>, This means that the <code>UART0</code> of CB1 is used as the debugging port by default. We can use <code>MobaXterm</code> to connect to CB1 by UART0 and debug. If klipper wants to use <code>UART0</code> to control the motherboard, we need to set it to <code>console=serial</code>, now klippe can use <code>UART0</code> as <code>/dev/ttyS0</code>.</p>
-<p>CB1 will automatically identify the HDMI resolution, but if your HDMI screen cannot report the resolution through the EDID normally, we can forcibly specify the resolution of CB1 output by uncomment <code>extraargs=video</code> and set the actual resolution.<br/>
-For example:<br/>
-BTT-HDMI7 resolution = 1024x600: <code>extraargs=video=HDMI-A-1:1024x600-24@60</code><br/>
-BTT-HDMI5 resolution = 800x480: <code>extraargs=video=HDMI-A-1:800x480-24@60</code><br/></p>
+<p>CB1 will automatically identify the HDMI resolution, but if your HDMI screen cannot report the resolution through the EDID normally, we can forcibly specify the resolution of CB1 output by uncomment <code>extraargs=video</code> and set the actual resolution.</p>
+<p>For example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># BTT-HDMI7 resolution = 1024x600</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="na">extraargs</span><span class="o">=</span><span class="s">video=HDMI-A-1:1024x600-24@60</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c1"># BTT-HDMI5 resolution = 800x480</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="na">extraargs</span><span class="o">=</span><span class="s">video=HDMI-A-1:800x480-24@60</span>
+</code></pre></div>
 <p>Uncomment <code>overlays=tft35_spi</code> to enable TFT35 SPI screen.</p>
 <p>Uncomment <code>overlays=mcp2515</code> to enable MCP2515 spi to canbus module.</p>
 <p>Uncomment <code>overlays=tft35_spi mcp2515</code> If you want to use both TFT35 SPI screen and MCP2515 spi to canbus module</p>
-<p>uncomment the following overlays and parameters to release 'spidev1.1' to user space, And 'spidev1.1' cannot be used together with TFT35_SPI and MCP2515.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a> overlays=spi-spidev
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a> param_spidev_spi_bus=1
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a> param_spidev_spi_cs=1
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a> param_spidev_max_freq=1000000
+<p>uncomment the following overlays and parameters to release <code>spidev1.1</code> to user space, And <code>spidev1.1</code> cannot be used together with TFT35_SPI and MCP2515.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="na">overlays</span><span class="o">=</span><span class="s">spi-spidev</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="na">param_spidev_spi_bus</span><span class="o">=</span><span class="s">1</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="na">param_spidev_spi_cs</span><span class="o">=</span><span class="s">1</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="na">param_spidev_max_freq</span><span class="o">=</span><span class="s">1000000</span>
 </code></pre></div>
-<p>NOTE: TFT35 SPI and MCP2515 multiplex a group of SPI1</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SPI1_CLK=PH6
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>SPI1_MISO=PH8
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>SPI1_MOSI=PH7
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>TFT35_SPI_CS=PC7
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>MCP2515_CS=PC11
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>MCP2515_IRQ=PC9
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>TFT35 SPI and MCP2515 multiplex a group of SPI1</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="na">SPI1_CLK</span><span class="o">=</span><span class="s">PH6</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="na">SPI1_MISO</span><span class="o">=</span><span class="s">PH8</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="na">SPI1_MOSI</span><span class="o">=</span><span class="s">PH7</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="na">TFT35_SPI_CS</span><span class="o">=</span><span class="s">PC7</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="na">MCP2515_CS</span><span class="o">=</span><span class="s">PC11</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="na">MCP2515_IRQ</span><span class="o">=</span><span class="s">PC9</span>
 </code></pre></div>
 <h3 id="ssh-connection"><strong>SSH Connection</strong><a class="headerlink" href="#ssh-connection" title="Permanent link">&para;</a></h3>
-<p>Install the ssh application Mobaxterm: <a href="https://mobaxterm.mobatek.net/download-home-edition.html">https://mobaxterm.mobatek.net/download-home-edition.html</a></p>
+<div class="admonition info">
+<p class="admonition-title">SSH Application</p>
+<p>Install the ssh application Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html</p>
+</div>
 <p>Insert the Micro SD card (installed OS) to motherboard, wait for system to load after power on, aprox. 1-2min. the ACT LED on the motherboard will flash continuously after startup successfully.</p>
 <p>The device will automatically be assigned a IP address after successfully connected to the network</p>
-<p>Find the device IP address in your router page
-<img src=img/Router.png width="600" /><br/> </p>
-<p>Or use the <a href="https://angryip.org/">https://angryip.org/</a> tool，scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown        below
-<img src=img/AngryIP.png width="600" /><br/> </p>
-<p>Open Mobaxtermand click “Session”, and click “SSH”，inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
-<img src=img/MobaXterm_Login.png width="600" /><br/> </p>
-<p>Input the login name and password to enter the SSH terminal interface</p>
-<ul>
-<li>login as: biqu</li>
-<li>password: biqu</li>
-</ul>
+<p>Find the device IP address in your router page</p>
+<p><img src=img/Router.png width="500"></p>
+<p>Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown below</p>
+<p><img src=img/AngryIP.png width="500"> </p>
+<p>Open Mobaxtermand click “Session”, and click “SSH”，inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)</p>
+<p><img src=img/MobaXterm_Login.png width="500"> </p>
+<p>Input the login name and password to enter the SSH terminal interface. </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>login as: biqu
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>password: biqu
+</code></pre></div>
+<div class="admonition note">
+<p>password dose not show up in terminal when type</p>
+</div>
 <h2 id="software-installation"><strong>Software Installation</strong><a class="headerlink" href="#software-installation" title="Permanent link">&para;</a></h2>
 <ol>
-<li><strong>Download the OS Image</strong></li>
-</ol>
-<p>​       Please download and install the OS image we provided: <a href="https://github.com/bigtreetech/CB1/releases">https://github.com/bigtreetech/CB1/releases</a></p>
-<ol>
-<li><strong>Download and Install Writing Software</strong></li>
-</ol>
-<p>​       The official Raspberry Pi Imager: <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a></p>
-<p>​       balenaEtcher: <a href="https://www.balena.io/etcher/">https://www.balena.io/etcher/</a><br/></p>
-<p>​       Both of the above software can be used, just choose one to download and install</p>
-<ol>
-<li><strong>Format SD card</strong></li>
-</ol>
-<p>​       Normally, you can format the SD card with the tools provided by the computer system. Completely format the SD card with professional SD card        format software. <a href="https://www.sdcard.org/downloads/formatter/">https://www.sdcard.org/downloads/formatter/</a></p>
-<ol>
+<li>
+<p><strong>Download the OS Image</strong></p>
+<p>Please download and install the OS image we provided: https://github.com/bigtreetech/CB1/releases</p>
+</li>
+<li>
+<p><strong>Download and Install Writing Software</strong></p>
+<p>The official Raspberry Pi Imager: https://www.raspberrypi.com/software/</p>
+<p>balenaEtcher: https://www.balena.io/etcher/</p>
+<p>Both of the above software can be used, just choose one to download and install</p>
+</li>
+<li>
+<p><strong>Format SD card</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Formatting the SD card will remove all data in SD card. Ensure backup data before formatting.</p>
+</div>
+<p>Normally, you can format the SD card with the tools provided by the computer system. Completely format the SD card with professional SD card format software. https://www.sdcard.org/downloads/formatter/</p>
+</li>
 <li>
 <p><strong>Write OS</strong></p>
-</li>
-<li>
-<p><strong>Raspberry Pi Imager</strong></p>
+<p>Insert a MicroSD card to your computer through a card reader.</p>
+<p>Select the image that you downloaded. </p>
+<p><img title="" src="img/Etcher_1.png" alt="" width="450" data-align="inline"></p>
+<p>Select the MicroSD card and click <code>Flash</code></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code>Flash</code> the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.</p>
+</div>
+<p><img title="" src="img/Etcher_2.png" alt="" width="450" data-align="inline"></p>
+<p>Wait for the writing to finish. </p>
+<p><img title="" src="img/Etcher_3.png" alt="" width="450" data-align="inline"></p>
 </li>
 </ol>
-<p>​       Insert a MicroSD into your computer.</p>
-<p>​       Choose OS. <br/><img src=img/RPI_Imager_1.png width="600"/><br/></p>
-<p>Select "Use custom", then select the image that you downloaded. <br/><img src=img/RPI_Imager_2.png width="600"/><br/></p>
-<p>Select the MicroSD card and click "WRITE" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.) <br/><img src=img/RPI_Imager_3.png width="600"/><br/></p>
-<p>Wait for the writing to finish. <br/><img src=img/RPI_Imager_4.png width="600"/><br/></p>
-<ol>
-<li><strong>balenaEtcher</strong></li>
-</ol>
-<p>​   Insert a MicroSD card to your computer through a card reader.</p>
-<p>​   Select the image that you downloaded. <br/><img src=img/Etcher_1.png width="600"/><br/></p>
-<p>​   Select the MicroSD card and click "WRITE" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise   the data will be formatted.) <br/><img src=img/Etcher_2.png width="600"/><br/></p>
-<p>​   Wait for the writing to finish. <br/><img src=img/Etcher_3.png width="600"/><br/></p>
 <h2 id="product-purchase-link">Product Purchase Link<a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>
 <p><strong>Purchase Link:</strong></p>
-<p><a href="https://biqu.equipment/products/pi4b-adapter-v1-0?variant=40353646051426">https://biqu.equipment/products/pi4b-adapter-v1-0?variant=40353646051426</a></p>
+<p>https://biqu.equipment/products/pi4b-adapter-v1-0?variant=40353646051426</p>
 <p><strong>If you have any issues with the product, please submit a support ticket.</strong></p>
-<p><a href="https://biqu3d.com/pages/submit-a-ticket">https://biqu3d.com/pages/submit-a-ticket</a></p>
+<p>https://biqu3d.com/pages/submit-a-ticket</p>
 <p><strong>Navigation:</strong></p>
-<p>BIQU Official Website：                                          <a href="http://biqu3d.com">http://biqu3d.com</a></p>
-<p>BIGTREETECH Official Website：                            <a href="http://bigtree-tech.com">http://bigtree-tech.com</a></p>
-<p>Online Store：                                                            <a href="https://biqu.equipment">https://biqu.equipment</a></p>
-<p>BIGTREETECH Official Group:                                   <a href="https://www.facebook.com/groups/bigtreetech">https://www.facebook.com/groups/bigtreetech</a></p>
-<p>Discord:                                                                       <a href="https://discord.gg/hhZsV7zk">https://discord.gg/hhZsV7zk</a></p>
-<p>Reddit:                                                                       <a href="https://www.reddit.com/r/BIGTREETECH/">https://www.reddit.com/r/BIGTREETECH/</a></p>
+<p>BIQU Official Website: http://biqu3d.com</p>
+<p>BIGTREETECH Official Website: http://bigtree-tech.com</p>
+<p>Online Store: https://biqu.equipment</p>
+<p>BIGTREETECH Official Group: https://www.facebook.com/groups/bigtreetech</p>
+<p>Discord: https://discord.gg/hhZsV7zk</p>
+<p>Reddit: https://www.reddit.com/r/BIGTREETECH/</p>
 
               
             </article>

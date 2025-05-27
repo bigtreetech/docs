@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -4289,7 +4287,7 @@
 <p>例如：A4988、DRV8825、LV8729、ST820等，根据驱动细分表来选择跳帽短接MS0-MS2。</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_stepper.png width="600" /></p>
 <p><strong><font  color="red">注：若使用A4988或DRV8825，则必须用跳帽短接RST和SLP才能正常工作。</font></strong></p>
-<p>更多细节请点击: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p>更多细节请点击: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h3 id="tmcuart">TMC驱动的UART模式<a class="headerlink" href="#tmcuart" title="Permanent link">&para;</a></h3>
 <p>例如：TMC2208、TMC2209、TMC2225等，每个轴使用一个跳帽短接图中红框位置即可，细分和驱动电流通过固件进行设置。</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_tmc1.png width="600" /></p>
@@ -4342,13 +4340,13 @@
 <h2 id="cm4"><strong>树莓派CM4使用步骤</strong><a class="headerlink" href="#cm4" title="Permanent link">&para;</a></h2>
 <h3 id="_14">下载系统镜像<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
 <p>如果使用CM4核心板，可直接下载Fluidd、Mainsail的镜像安装，也可以从树莓派官网下载纯净的系统镜像自行安装。
-Fluidd: <a href="https://github.com/fluidd-core/FluiddPI/releases">https://github.com/fluidd-core/FluiddPI/releases</a>
-Mainsail: <a href="https://github.com/mainsail-crew/MainsailOS/releases">https://github.com/mainsail-crew/MainsailOS/releases</a>
-树莓派官网系统镜像: <a href="https://www.raspberrypi.com/software/operating-systems">https://www.raspberrypi.com/software/operating-systems</a>
+Fluidd: https://github.com/fluidd-core/FluiddPI/releases
+Mainsail: https://github.com/mainsail-crew/MainsailOS/releases
+树莓派官网系统镜像: https://www.raspberrypi.com/software/operating-systems
 (CM4与标准的树莓派3B、4B等的使用方法略有区别，CM4需要参照系统设置部分启用系统的USB、DSI等接口)</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_pi1.png width="600" /></p>
 <h3 id="raspberry-pi-imager">下载并安装Raspberry Pi Imager<a class="headerlink" href="#raspberry-pi-imager" title="Permanent link">&para;</a></h3>
-<p>下载并安装树莓派官方的烧录软件: <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a></p>
+<p>下载并安装树莓派官方的烧录软件: https://www.raspberrypi.com/software/</p>
 <h3 id="_15">烧录系统<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
 <p>CM4 LITE版本(Micro SD卡)</p>
 <p>1、将Micro SD卡通过读卡器插入到电脑。</p>
@@ -4371,9 +4369,9 @@ Configure wireless LAN // 自定义wifi名称和密码</p>
 <p>注意eMMC版本不会运行Micro SD卡中的系统</p>
 <p>1、安装rpiboot 软件</p>
 <p>Windows系统下载安装:
-<a href="http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe">http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe</a>
+http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe
 Mac和Linux系统参考此处安装:
-<a href="#building"><a href="https://github.com/raspberrypi/usbboot#building">https://github.com/raspberrypi/usbboot#building</a></a></p>
+<a href="#building">https://github.com/raspberrypi/usbboot#building</a></p>
 <p>2、将拨码开关的4（USBOTG）、3（RPIBOOT）拨到ON进入BOOT模式</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_cm4_2.png width="600" /></p>
 <p>3、将Type-C 插到电脑的USB端口(为了避免出现电脑USB供电不足导致的问题，推荐使用外部24V电源给主板供电)，运行 sudo ./rpiboot（Mac/Linux）或者Windows上的rpiboot.exe，然后CM4的eMMC就会被电脑识别为一个大容量存储设备（如果此时rpiboot报错，可以尝试重新拔插一下USB）</p>
@@ -4390,12 +4388,12 @@ Mac和Linux系统参考此处安装:
 <p>下载完此驱动后重新启动，DSI接口上的屏幕即可正常显示，如果想要使用HDMI接口需要删除下载的 <code>/boot/firmware/dt-blob.bin</code> 驱动然后重新启动，HDMI即可正常输出。</p>
 <h3 id="csi1">CSI1摄像头<a class="headerlink" href="#csi1" title="Permanent link">&para;</a></h3>
 <p>4.4.2中下载的DSI1驱动也带有了CSI1的驱动，如果不想安装DSI1的驱动，只想安装CSI1的驱动，在https://datasheets.raspberrypi.com/licence.html找到想使用的驱动，下载到CM4的 <code>/boot/firmware/</code>（注意：<code>2023-10-10</code> 及其之后的系统，路径为 <code>/boot/firmware/</code>， 在此之前的系统，路径为 <code>/boot/</code>）文件夹中并重命名为 <code>dt-blob.bin</code>，然后参考此处设置使用即可
-<a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</p>
 <h2 id="bigtreetech-cb1"><strong>BIGTREETECH CB1使用步骤</strong><a class="headerlink" href="#bigtreetech-cb1" title="Permanent link">&para;</a></h2>
 <h3 id="_16">下载系统镜像<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
-<p>如果使用CB1核心板，只能下载安装我们提供的系统镜像: <a href="https://github.com/bigtreetech/CB1/releases">https://github.com/bigtreetech/CB1/releases</a></p>
+<p>如果使用CB1核心板，只能下载安装我们提供的系统镜像: https://github.com/bigtreetech/CB1/releases</p>
 <h3 id="raspberry-pi-imager_1">下载并安装Raspberry Pi Imager<a class="headerlink" href="#raspberry-pi-imager_1" title="Permanent link">&para;</a></h3>
-<p>下载并安装树莓派官方的烧录软件https://<a href="http://www.raspberrypi.com/software/">www.raspberrypi.com/software/</a> CB1的系统镜像也可使用此软件烧录</p>
+<p>下载并安装树莓派官方的烧录软件https://www.raspberrypi.com/software/ CB1的系统镜像也可使用此软件烧录</p>
 <h3 id="_17">烧录系统<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
 <p>1、将Micro SD卡通过读卡器插入到电脑。</p>
 <p>2、选择系统。</p>
@@ -4414,7 +4412,7 @@ Mac和Linux系统参考此处安装:
 <p><img src=img/m8p-v2_0/m8p_v2_0_system2.png width="600" /></p>
 <h3 id="_18">配置主板<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
 <p>ssh软件连接设备</p>
-<p>1、安装ssh软件Mobaxterm: <a href="https://mobaxterm.mobatek.net/download-home-edition.html">https://mobaxterm.mobatek.net/download-home-edition.html</a></p>
+<p>1、安装ssh软件Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html</p>
 <p>2、将MicroSD卡插到MANTA M8P，通电后等待系统启动，大概1~2分钟。</p>
 <p>3、设备连上WIFI或者插上网线后，会被自动分配一个IP。</p>
 <p>4、进入路由器管理界面找到设备的IP。</p>
@@ -4463,7 +4461,7 @@ make menuconfig
 <p>烧录完成后会有dfu-util: Error during download get_status错误信息，忽略即可</p>
 <h3 id="klipper">配置Klipper<a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h3>
 <p>1、在电脑的浏览器中输入树莓派的IP访问，如下图所示的路径中下载名为“generic-bigtreetech-manta-m8p-V2_0.cfg”的参考配置，如果找不到此文件，请更新Klipepr固件源码到最新版本，或者到GitHub下载：</p>
-<p><a href="https://github.com/bigtreetech/Manta-M8P">https://github.com/bigtreetech/Manta-M8P</a></p>
+<p>https://github.com/bigtreetech/Manta-M8P</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system11.png width="600" /></p>
 <p>2、将主板的配置文件上传到Configuration Files中;</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system12.png width="600" /></p>
@@ -4471,7 +4469,7 @@ make menuconfig
 <p><strong>[include generic-bigtreetech-manta-m8p-V2_0.cfg]</strong></p>
 <p>4、4.将配置文件中的ID号修改为主板实际的ID</p>
 <p>5、按照下方链接的说明配置主板的具体功能：</p>
-<p><a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>https://www.klipper3d.org/Overview.html</p>
 <h2 id="v20"><strong>V2.0版本升级说明</strong><a class="headerlink" href="#v20" title="Permanent link">&para;</a></h2>
 <ul>
 <li>主控改为使用ARM Cortex-M7 STM32H723ZET6 550MHz；</li>

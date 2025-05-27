@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3704,7 +3702,7 @@
 <p><img src=img/SKR_V1.4/SKR_V1.4_Title.png width="600" /></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH SKR V1.4 motherboard is a 32-bit 3D printer motherboard optimized and upgraded by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for the deficiencies of V1.3 version, especially suitable for small and medium-sized printers.</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3">https://biqu.equipment/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Using 32-bit main frequency 100MHz ARM level Cortex-M3 series LPC1768 main control chip, the performance has been greatly improved;</li>
@@ -3812,14 +3810,14 @@
 <p><img src=img/SKR_V1.4/SKR_V1.4_USB2.png width="600" /></p>
 <h3 id="connection">Connection<a class="headerlink" href="#connection" title="Permanent link">&para;</a></h3>
 <p>SKR motherboard communicates with the computer through the [USB] interface. The computer needs to install the driver program first and then insert the motherboard into the computer to identify the port for data transmission. Without installing the driver, it is easy for the computer to fail to recognize the USB port.Using the Marlin2.0 firmware, follow the tutorial for installation:</p>
-<p>tutorial：<a href="https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.docx?dl=0">https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.docx?dl=0</a></p>
-<p>driver：<a href="https://www.dropbox.com/s/a0k5idjmf4fn82f/lpc176x_usb_driver.inf?dl=0">https://www.dropbox.com/s/a0k5idjmf4fn82f/lpc176x_usb_driver.inf?dl=0</a></p>
+<p>tutorial：https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.docx?dl=0</p>
+<p>driver：https://www.dropbox.com/s/a0k5idjmf4fn82f/lpc176x_usb_driver.inf?dl=0</p>
 <p><img src=img/SKR_V1.4/SKR_V1.4_Connect.png width="600" /></p>
 <h3 id="drive-mode-and-selection-method">Drive Mode and Selection Method<a class="headerlink" href="#drive-mode-and-selection-method" title="Permanent link">&para;</a></h3>
 <p>1、Common STEP/DIR mode: (for example: A4988, DRV8825, LV8729, ST820, etc.) select the short circuit cap to connect MS0-MS2 according to the driver subdivision table.</p>
 <p><img src=img/SKR_V1.4/SKR_V1.4_STEP.png width="600" /></p>
 <p><font  color="red"><strong>Note: if you are using A4988 or DRV8825 driver, you must connect RST and SLP with jumper cap.</strong> </font></p>
-<p>For details, please click: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <p>2、TMC Driver-UART Mode: (eg: TMC2208, TMC2209, TMC2225, etc.) Each axis uses a shorting cap to connect the red frame in the figure. The subdivision and drive current are set by firmware.</p>
 <p><img src=img/SKR_V1.4/SKR_V1.4_UART.png width="600" /></p>
 <p><font  color="red"><strong>Note: When using the TMC2209, if you don’t use the stallguard function, you need to cut off the DIAG pin on the driver so that the mechanical switch can work normally. The operation method is as shown below:</strong> </font></p>
@@ -3847,10 +3845,10 @@
 <p><font  color="red">The factory motherboard is installed equipped with firmware for testing (model I3), which can be used directly or changed according to your own needs. </font></p>
 <p>1、The Firmware Acquisition Method of SKR Motherboard:</p>
 <p>Obtain by Ask customer service or technical personnel;</p>
-<p>Download at our Company Open source website: <a href="https://github.com/bigtreetech">https://github.com/bigtreetech</a></p>
+<p>Download at our Company Open source website: https://github.com/bigtreetech</p>
 <p>2、Marlin2.0 Firmware update method</p>
 <p>After downloading our open source Marlin2.0 firmware, use Visual Studio Code to open the project to compile, then find the firmware.bin file, copy it to the SD card, and then reset the motherboard. For detailed steps, please refer to the tutorial:</p>
-<p><a href="https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.docx?dl=0">https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.docx?dl=0</a></p>
+<p>https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.docx?dl=0</p>
 <h2 id="precausions"><strong>Precausions</strong><a class="headerlink" href="#precausions" title="Permanent link">&para;</a></h2>
 <ol>
 <li>The motherboard 5V SEL must connect VDD and +5V two pins before printing (that is, 12v-24v power supply must be provided to the motherboard for printing);</li>

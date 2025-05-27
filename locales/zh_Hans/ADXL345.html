@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3616,17 +3614,17 @@
 <ol>
 <li>在 GitHub 下载“sample-bigtreetech-adxl345-v2.0.cfg”配置文件：</li>
 </ol>
-<p>​   <a href="https://github.com/bigtreetech/ADXL345">https://github.com/bigtreetech/ADXL345</a></p>
+<p>​   https://github.com/bigtreetech/ADXL345</p>
 <p>​   2.将主板的配置文件上传到 Configuration Files 中; </p>
 <p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/></p>
 <p>​   3.并在“printer.cfg”文件中添加此主板的配置</p>
 <p>​   <strong>[include sample-bigtreetech-adxl345-v2.0.cfg]</strong></p>
 <p>​   4.将配置文件中的 ID 号修改为主板实际的 ID（USB serial）</p>
 <p>​   5.按照下方链接的说明配置模块的功能：</p>
-<p>​   <a href="https://www.klipper3d.org/Config_Reference.html#adxl345">https://www.klipper3d.org/Config_Reference.html#adxl345</a></p>
+<p>​   https://www.klipper3d.org/Config_Reference.html#adxl345</p>
 <p>​   其中 axes_map 参数需要根据模块安装的方向与打印机的运动方向设置。第一个参数代表打印机 x 轴向正方向移动时加速度计模块对应的轴的方向（模块上的丝印可以看到模块的各个轴方向），第二个参数代表 y 轴向正方向移动时加速度计的方向。</p>
 <p>​   6.配置、安装完成并且成功连接到打印机后，就可以开始共振补偿测试了，可以参考下方链接中的说明开始测试：</p>
-<p><a href="https://www.klipper3d.org/G-Codes.html#shaper_calibrate">https://www.klipper3d.org/G-Codes.html#shaper_calibrate</a></p>
+<p>https://www.klipper3d.org/G-Codes.html#shaper_calibrate</p>
 <p>在 Mainsail 的 Console 中输入以下命令开始 X 轴校准：</p>
 <p>SHAPER_CALIBRATE AXIS=X</p>
 <p>输入以下命令开始 Y 轴校准：</p>

@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3594,75 +3592,65 @@
 <p><a href="https://z1996xm.github.io/BIGTREETECH/M4P.html"><img src=img/M4P/M4P_Title.png width="600"/></a></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH CB1 is an alternative to Raspberry Pi CM4, which is currently out of stock. <br>BIGTREETECH M4P is a 4-axis motherboard using a CM4 BTB header, which can work with CB1 or CM4 perfectly.</p>
-<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/manta-m4p-m8p">https://biqu.equipment/products/manta-m4p-m8p</a></p>
+<p><strong>Product Link:</strong> https://biqu.equipment/products/manta-m4p-m8p</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
-<li>DSI1, CSI1 interface (for CM4)</li>
-</ul>
-<ul>
-<li>Gigabit Ethernet interface (1000M for CM4, 100M for CB1)</li>
-</ul>
-<ul>
-<li>3 USB 2.0 ports</li>
-</ul>
-<ul>
+<li>
+<p>DSI1, CSI1 interface (for CM4)</p>
+</li>
+<li>
+<p>Gigabit Ethernet interface (1000M for CM4, 100M for CB1)</p>
+</li>
+<li>
+<p>3 USB 2.0 ports</p>
+</li>
 <li>
 <p>Equipping the ESD protection chip on the USB and Ethernet ports to prevent being </p>
+</li>
+</ul>
 <p>broken down by the static electricity</p>
-</li>
-</ul>
 <ul>
-<li>
-<p>When working with Raspberry Pi CM4, its 40pin pin header has the same function </p>
+<li>When working with Raspberry Pi CM4, its 40pin pin header has the same function </li>
+</ul>
 <p>as that of Raspberry Pi(Custom IO for CB1)</p>
-</li>
+<ul>
+<li>Using a BTB board-to-board connection, which can be further reinforced with </li>
 </ul>
+<p>screws, perfectly compatible with CB1 or Raspberry Pi CM4</p>
 <ul>
 <li>
-<p>Using a BTB board-to-board connection, which can be further reinforced with </p>
-<p>screws, perfectly compatible with CB1 or Raspberry Pi CM4</p>
+<p>The MCU adopts STM32G0B0RE 32-bit ARM Cortex-M0+ @64MHz chip</p>
 </li>
-</ul>
-<ul>
-<li>The MCU adopts STM32G0B0RE 32-bit ARM Cortex-M0+ @64MHz chip</li>
-</ul>
-<ul>
 <li>
 <p>The power chip adopts TPS5450-5A, which supports DC12/24V power input, the </p>
+</li>
+</ul>
 <p>output current of the chip is up to 5A, and the peak value can reach 6A, which </p>
 <p>perfectly supports the power supply of the core board</p>
-</li>
-</ul>
 <ul>
-<li>
-<p>The protection circuit of the thermistor part prevents the main control chip from </p>
+<li>The protection circuit of the thermistor part prevents the main control chip from </li>
+</ul>
 <p>burning due to leakage of the heated bed or heater cartridge</p>
-</li>
-</ul>
 <ul>
-<li>
-<p>In CNC fan ports: FAN0, FAN1, and FAN2, a 24V (DCIN) or 5V power supply can </p>
+<li>In CNC fan ports: FAN0, FAN1, and FAN2, a 24V (DCIN) or 5V power supply can </li>
+</ul>
 <p>be selected with a jumper cap (Note: the voltage of the three CNC fans should be </p>
 <p>the same, and cannot be set to different voltages individually)</p>
-</li>
-</ul>
 <ul>
-<li>
-<p>MCU firmware can be upgraded through SD card, or through DFU with Klipper's </p>
+<li>MCU firmware can be upgraded through SD card, or through DFU with Klipper's </li>
+</ul>
 <p>make flash command</p>
-</li>
+<ul>
+<li>On-board TMC-driven SPI and UART working modes, on-board DIAG function </li>
 </ul>
+<p>pins, can be used by simply plugging and unplugging the jumper cap</p>
 <ul>
 <li>
-<p>On-board TMC-driven SPI and UART working modes, on-board DIAG function </p>
-<p>pins, can be used by simply plugging and unplugging the jumper cap</p>
+<p>Support filament runout detection, BLTouch, RGB lights...</p>
 </li>
-</ul>
-<ul>
-<li>Support filament runout detection, BLTouch, RGB lights...</li>
-</ul>
-<ul>
-<li>Adopt replaceable fuse for easy replacement</li>
+<li>
+<p>Adopt replaceable fuse for easy replacement</p>
+</li>
 </ul>
 <h2 id="specifications"><strong>Specifications</strong><a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h2>
 <table>
@@ -3745,7 +3733,7 @@
 
 <p><img src=img/M4P/M4P_Stepper_Driver.png width="600" /></p>
 <p><strong><font  color="red">Note: If using A4988or DRV8825, RST and SLP must be shorted with jumper caps for normal operation. </font></strong></p>
-<p>For details, please click: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h4 id="uart-mode-of-tmc-driver"><strong>UART Mode of TMC Driver</strong><a class="headerlink" href="#uart-mode-of-tmc-driver" title="Permanent link">&para;</a></h4>
 <p>For example, TMC2208, TMC2209, TMC2225... Use a jumper cap for each to connect the position of the red box in the figure, and the subdivision and driver current is set by firmware.</p>
 
@@ -3803,10 +3791,10 @@ spi_bus: spi1
 </code></pre></div>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
 <p>For details, please click: </p>
-<p><a href="https://bigtreetech.github.io/docs/Software%20Configuration.html">https://bigtreetech.github.io/docs/Software%20Configuration.html</a></p>
+<p>https://bigtreetech.github.io/docs/Software%20Configuration.html</p>
 <h2 id="software-installation"><strong>Software Installation</strong><a class="headerlink" href="#software-installation" title="Permanent link">&para;</a></h2>
 <p>For details, please click:</p>
-<p><a href="https://bigtreetech.github.io/docs/Software%20Installation.html">https://bigtreetech.github.io/docs/Software%20Installation.html</a></p>
+<p>https://bigtreetech.github.io/docs/Software%20Installation.html</p>
 <h2 id="faqs"><strong>FAQs</strong><a class="headerlink" href="#faqs" title="Permanent link">&para;</a></h2>
 <ul>
 <li>All unplugging and plugging operations should be performed under the condition of power off, including enabling the eMMC writing.</li>
@@ -3814,9 +3802,9 @@ spi_bus: spi1
 </ul>
 <h2 id="product-purchase-link">Product Purchase Link<a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>
 <p><strong>Purchase Link:</strong></p>
-<p><a href="https://biqu.equipment/products/manta-m4p-m8p">https://biqu.equipment/products/manta-m4p-m8p</a></p>
+<p>https://biqu.equipment/products/manta-m4p-m8p</p>
 <p><strong>If you have any issues with the product, please submit a support ticket.</strong></p>
-<p><a href="https://biqu3d.com/pages/submit-a-ticket">https://biqu3d.com/pages/submit-a-ticket</a></p>
+<p>https://biqu3d.com/pages/submit-a-ticket</p>
 <p><strong>M4P Guide Videos</strong></p>
 <p><strong><em> Unboxing/Wiring/Firmware Installation of CB1&amp;M4P(Voron V0 as an example)</em></strong></p>
 <video width="430" height="300" controls>
@@ -3824,12 +3812,12 @@ spi_bus: spi1
 </video>
 
 <p><strong>Navigation:</strong></p>
-<p>BIQU Official Website：                                          <a href="http://biqu3d.com">http://biqu3d.com</a></p>
-<p>BIGTREETECH Official Website：                            <a href="http://bigtree-tech.com">http://bigtree-tech.com</a></p>
-<p>Online Store：                                                            <a href="https://biqu.equipment">https://biqu.equipment</a></p>
-<p>BIGTREETECH Official Group:                                   <a href="https://www.facebook.com/groups/bigtreetech">https://www.facebook.com/groups/bigtreetech</a></p>
-<p>Discord:                                                                       <a href="https://discord.gg/hhZsV7zk">https://discord.gg/hhZsV7zk</a></p>
-<p>Reddit:                                                                       <a href="https://www.reddit.com/r/BIGTREETECH/">https://www.reddit.com/r/BIGTREETECH/</a></p>
+<p>BIQU Official Website：                                          http://biqu3d.com</p>
+<p>BIGTREETECH Official Website：                            http://bigtree-tech.com</p>
+<p>Online Store：                                                            https://biqu.equipment</p>
+<p>BIGTREETECH Official Group:                                   https://www.facebook.com/groups/bigtreetech</p>
+<p>Discord:                                                                       https://discord.gg/hhZsV7zk</p>
+<p>Reddit:                                                                       https://www.reddit.com/r/BIGTREETECH/</p>
 
               
             </article>

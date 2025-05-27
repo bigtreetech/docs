@@ -36,8 +36,6 @@
     
       <link rel="stylesheet" href="../../_biqumkdocs/css/extra.css">
     
-      <link rel="stylesheet" href="../../_biqumkdocs/css/zoom.css">
-    
     <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -3889,7 +3887,7 @@
 <p>For drivers like A4988, DRV8825, LV8729, ST820, etc, use a jumper to short MS0-MS2 based on the microstepping table.</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_stepper.png width="600" /></p>
 <p><strong><font  color="red">Note: A4988 and DRV8825 require RST and SLP jumpered for proper operation.</font></strong></p>
-<p>For details, please click: <a href="https://bigtreetech.github.io/docs/Tutorials.html">https://bigtreetech.github.io/docs/Tutorials.html</a></p>
+<p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h3 id="tmc-drivers-uart-mode">TMC Drivers - UART Mode<a class="headerlink" href="#tmc-drivers-uart-mode" title="Permanent link">&para;</a></h3>
 <p>For TMC2208, TMC2209, TMC2225, etc, short the jumper for each as shown in the red box. Microsteps and current are configured in firmware.</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_tmc1.png width="600" /></p>
@@ -3942,13 +3940,13 @@
 <h2 id="using-the-raspberry-pi-cm4">Using the Raspberry Pi CM4<a class="headerlink" href="#using-the-raspberry-pi-cm4" title="Permanent link">&para;</a></h2>
 <h3 id="download-os-image">Download OS Image<a class="headerlink" href="#download-os-image" title="Permanent link">&para;</a></h3>
 <p>When using CM4, download the image of Fluidd, Mainsail directly, also, you can download a pure OS image from the Raspberry Pi official website and and install it yourself.
-Fluidd: <a href="https://github.com/fluidd-core/FluiddPI/releases">https://github.com/fluidd-core/FluiddPI/releases</a>
-Mainsail: <a href="https://github.com/mainsail-crew/MainsailOS/releases">https://github.com/mainsail-crew/MainsailOS/releases</a>
-Official Raspberry Pi OS Image: <a href="https://www.raspberrypi.com/software/operating-systems">https://www.raspberrypi.com/software/operating-systems</a>
+Fluidd: https://github.com/fluidd-core/FluiddPI/releases
+Mainsail: https://github.com/mainsail-crew/MainsailOS/releases
+Official Raspberry Pi OS Image: https://www.raspberrypi.com/software/operating-systems
 (Note: CM4 has some differences from Pi 3B/4B, refer to the system configuration section to enable USB, DSI etc.)</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_pi1.png width="600" /></p>
 <h3 id="download-and-install-raspberry-pi-imager">Download and install Raspberry Pi Imager<a class="headerlink" href="#download-and-install-raspberry-pi-imager" title="Permanent link">&para;</a></h3>
-<p>Download and install the official Raspberry Pi burning software: <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a></p>
+<p>Download and install the official Raspberry Pi burning software: https://www.raspberrypi.com/software/</p>
 <h3 id="write-os">Write OS<a class="headerlink" href="#write-os" title="Permanent link">&para;</a></h3>
 <p>CM4 LITE Version (MicroSD Card)</p>
 <p>1、Insert MicroSD into your computer via a card reader.</p>
@@ -3972,9 +3970,9 @@ Configure wireless LAN // custom WiFi name and password</p>
 <p>Note: eMMC version will not run the system in the Micro SD card.</p>
 <p>1、Install rpiboot </p>
 <p>For Windows:
-<a href="http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe">http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe</a>
+http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe
 For Mac and Linux:
-<a href="#building"><a href="https://github.com/raspberrypi/usbboot#building">https://github.com/raspberrypi/usbboot#building</a></a></p>
+<a href="#building">https://github.com/raspberrypi/usbboot#building</a></p>
 <p>2、Toggle switches 4 (USBOTG) and 3 (RPIBOOT) to ON to enter BOOT mode.</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_cm4_2.png width="600" /></p>
 <p>3、Connect the Type-C to the computer's USB port (to avoid problems caused by insufficient computer USB power supply, it is recommended to use an external 24V power supply for the motherboard), run sudo ./rpiboot(Mac/Linux) or rpiboot.exe on Windows, and then the CM4 eMMC will be recognized as a large-capacity storage device by the computer (if rpiboot reports an error at this time, you can try unplugging and re-plugging the USB).</p>
@@ -3989,13 +3987,13 @@ For Mac and Linux:
 </code></pre></div>
 <p>After downloading this driver and restarting, the screen on the DSI interface can be displayed normally. If you want to use the HDMI interface, delete the downloaded <code>/boot/firmware/dt-blob.bin</code> driver and restart, then HDMI can output normally.</p>
 <h3 id="csi1-camera">CSI1 Camera<a class="headerlink" href="#csi1-camera" title="Permanent link">&para;</a></h3>
-<p>The DSI1 driver downloaded in DSI1 Display also includes the CSI1 driver. If you don't want to install the DSI1 driver and only want to install the CSI1 driver, find the driver you want to use at <a href="https://datasheets.raspberrypi.com/licence.html">https://datasheets.raspberrypi.com/licence.html</a> download it to the CM4's <code>/boot/firmware/</code> (Note: For systems released on or after <code>2023-10-10</code>, the path is <code>/boot/firmware/</code>, and for systems released before that, the path is <code>/boot/</code>) folder, and rename it to <code>dt-blob.bin</code>, then refer to the settings here for use:
-<a href="https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/">https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</a></p>
+<p>The DSI1 driver downloaded in DSI1 Display also includes the CSI1 driver. If you don't want to install the DSI1 driver and only want to install the CSI1 driver, find the driver you want to use at https://datasheets.raspberrypi.com/licence.html download it to the CM4's <code>/boot/firmware/</code> (Note: For systems released on or after <code>2023-10-10</code>, the path is <code>/boot/firmware/</code>, and for systems released before that, the path is <code>/boot/</code>) folder, and rename it to <code>dt-blob.bin</code>, then refer to the settings here for use:
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</p>
 <h2 id="using-the-bigtreetech-cb1">Using the BIGTREETECH CB1<a class="headerlink" href="#using-the-bigtreetech-cb1" title="Permanent link">&para;</a></h2>
 <h3 id="download-os-image_1">Download OS Image<a class="headerlink" href="#download-os-image_1" title="Permanent link">&para;</a></h3>
-<p>When using CB1, use the provided image: <a href="https://github.com/bigtreetech/CB1/releases">https://github.com/bigtreetech/CB1/releases</a></p>
+<p>When using CB1, use the provided image: https://github.com/bigtreetech/CB1/releases</p>
 <h3 id="download-and-install-raspberry-pi-imager_1">Download and install Raspberry Pi Imager<a class="headerlink" href="#download-and-install-raspberry-pi-imager_1" title="Permanent link">&para;</a></h3>
-<p>Download and install the official Raspberry Pi writing software: <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a> <strong><font  color="red">The CB1 OS image can also be written using this software.</font></strong></p>
+<p>Download and install the official Raspberry Pi writing software: https://www.raspberrypi.com/software/ <strong><font  color="red">The CB1 OS image can also be written using this software.</font></strong></p>
 <h3 id="write-os_1">Write OS<a class="headerlink" href="#write-os_1" title="Permanent link">&para;</a></h3>
 <p>1、Insert MicroSD into your computer via a card reader.</p>
 <p>2、Choose OS.</p>
@@ -4014,12 +4012,12 @@ For Mac and Linux:
 <h3 id="configure-the-motherboard">Configure the Motherboard<a class="headerlink" href="#configure-the-motherboard" title="Permanent link">&para;</a></h3>
 <p><strong>Connect to the Device Using SSH Software</strong></p>
 <p>1、Install the SSH software Mobaxterm:</p>
-<p><a href="https://mobaxterm.mobatek.net/download-home-edition.html">https://mobaxterm.mobatek.net/download-home-edition.html</a></p>
+<p>https://mobaxterm.mobatek.net/download-home-edition.html</p>
 <p>2、Insert the MicroSD card into the MANTA M8P and power it on. Wait for the system to start, which takes about 1-2 minutes.</p>
 <p>3、After the device is connected to Wi-Fi or an Ethernet cable, it will be automatically assigned an IP address.</p>
 <p>4、Enter the router management interface to find the device's IP address.</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system3.png width="600" /></p>
-<p>5、Alternatively, use the tool <a href="https://angryip.org/">https://angryip.org/</a> to scan all IP addresses in the current local area network and reorder them by hostname. Find the device with the hostname Fluidd, Mainsail, or BTT-CB1, as shown in the image below.</p>
+<p>5、Alternatively, use the tool https://angryip.org/ to scan all IP addresses in the current local area network and reorder them by hostname. Find the device with the hostname Fluidd, Mainsail, or BTT-CB1, as shown in the image below.</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system4.png width="600" /></p>
 <p>6、Open the installed Mobaxterm software, click "Session", click "SSH" in the pop-up window, enter the device's IP address in the "Remote host" input box, and click "OK" (Note: The computer and the device must be on the same local area network).</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system5.png width="600" /></p>
@@ -4035,15 +4033,13 @@ CB1:
 <p>1、After connecting to the device via SSH, enter the following command in the command line:
 cd ~/klipper/
 make menuconfig
-Use the following configuration to compile the firmware (if the options below are not available, please update the Klipper firmware source code to the latest version):</p>
-<ul>
-<li>[*] Enable extra low-level configuration options</li>
-<li>Micro-controller Architecture (STMicroelectronics STM32)  ---&gt;</li>
-<li>Processor model (STM32H723)  ---&gt;</li>
-<li>Bootloader offset (128KiB bootloader (SKR SE BX v2.0))  ---&gt;</li>
-<li>Clock Reference (25 MHz crystal)  ---&gt;</li>
-<li>Communication interface (USB (on PA11/PA12))  ---&gt;</li>
-</ul>
+Use the following configuration to compile the firmware (if the options below are not available, please update the Klipper firmware source code to the latest version):
+* [*] Enable extra low-level configuration options
+* Micro-controller Architecture (STMicroelectronics STM32)  ---&gt;
+* Processor model (STM32H723)  ---&gt;
+* Bootloader offset (128KiB bootloader (SKR SE BX v2.0))  ---&gt;
+* Clock Reference (25 MHz crystal)  ---&gt;
+* Communication interface (USB (on PA11/PA12))  ---&gt;</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system7.png width="600" /></p>
 <p>2、After completing the configuration selection, enter <code>q</code> to exit the configuration interface. When asked if you want to save the configuration, select "Yes".</p>
 <p>3、Enter make to compile the firmware. After the make command is executed, the klipper.bin firmware we need will be generated in the device's home/pi/klipper/out folder. You can download it directly to your computer using the SSH software. </p>
@@ -4060,7 +4056,7 @@ Use the following configuration to compile the firmware (if the options below ar
 <p>After the burning is completed, there will be a dfu-util: Error during download get_status error message, which can be ignored.</p>
 <h3 id="configure-klipper">Configure Klipper<a class="headerlink" href="#configure-klipper" title="Permanent link">&para;</a></h3>
 <p>1、Enter the Raspberry Pi's IP address in the computer's browser to access it. Download the reference configuration named generic-bigtreetech-manta-m8p-V2_0.cfg in the path shown in the image below. If you cannot find this file, please update the Klipper firmware source code to the latest version or download it from GitHub:</p>
-<p><a href="https://github.com/bigtreetech/Manta-M8P">https://github.com/bigtreetech/Manta-M8P</a></p>
+<p>https://github.com/bigtreetech/Manta-M8P</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system11.png width="600" /></p>
 <p>2、Upload the mainboard configuration file to Configuration Files.</p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_system12.png width="600" /></p>
@@ -4068,7 +4064,7 @@ Use the following configuration to compile the firmware (if the options below ar
 <p><strong>[include generic-bigtreetech-manta-m8p-V2_0.cfg]</strong></p>
 <p>4、Modify the ID number in the configuration file to the actual ID of the mainboard.</p>
 <p>5、Follow the instructions in the link below to configure the specific functions of the mainboard:</p>
-<p><a href="https://www.klipper3d.org/Overview.html">https://www.klipper3d.org/Overview.html</a></p>
+<p>https://www.klipper3d.org/Overview.html</p>
 <h2 id="v20-upgrade-notes">V2.0 Upgrade Notes<a class="headerlink" href="#v20-upgrade-notes" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Upgraded MCU to ARM Cortex-M7 STM32H723ZET6 550MHz.</li>
