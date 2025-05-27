@@ -428,87 +428,8 @@ The newest ESP3D firmware can be found at [luc-github/ESP3D](https://github.com/
 
 ### Klipper
 
-#### Preparation
-
-#### Download OS Image
-
-Download your preferred OS image with build-in WebUI, popular choices are Fluidd, Mainsail, etc
-
-=== "Mainsail"
-    Mainsail: https://github.com/mainsail-crew/MainsailOS/releases 
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software27.png width="500"/>
-
-=== "Fluidd"
-    Fluidd: https://github.com/fluidd-core/FluiddPI/releases 
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software26.png width="500"/>
-
-Or refer to Klipper official installation guide using Octoprint.
-
-#### Download and Install Raspberry Pi Imager
-
-Install the official Raspberry Pi Imager https://www.raspberrypi.com/software/
-
-#### Write Image
-
-1. Insert microSD into your computer via a card reader.
-
-2. Choose OS.
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software28.png width="400"/>
-
-3. Select "Use custom", then select the image that you downloaded.
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software29.png width="400"/>
-
-4. Select the microSD card and click "WRITE" (WRITE the image will format the microSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted). 
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software30.png width="400"/>
-
-5. Wait for the writing to finish.
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software31.png width="400"/>
-
-#### WiFi Setting
-
-!!! note 
-    This step can be skipped if you are using a network cable connection.
-
-1. Reinsert the SD card
-
-2. Find `mainsail-wpa-supplicant.txt` or `fluiddpi-wpa-supplicant.txt` in the SD card root directory, open it with `VSCode` (do not open it with Windows Notepad)
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software32.png width="400">
-
-3. Delete "#", insert the correct WiFi SSID and password then save the file. 
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software33.png width="400"/>
-
-#### SSH Connect to Raspberry Pi
-
-!!! info "SSH Application"
-    Install the ssh application Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html
-
-1. Insert SD card to Raspberry Pi, wait for system to load after power on, approx. 1-2min.
-
-2. The Raspberry Pi will automatically be assigned an IP address after being successfully connected to the network.
-
-3. Find the Raspberry Pi IP address on your router page.
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software34.png width="400"/>
-
-4. Or use the https://angryip.org/ tool, scan all IP addresses in the current network organize by names, and find the IP named Fluidd or Mailsail, as shown below.
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software35.png width="400"/>
-
-5. Open Mobaxterm and click "Session", and click "SSH", inset the Raspberry Pi IP into Remote host and click "OK" (Note: your computer and the Raspberry Pi needs to be in the same network). 
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software36.png width="400"/>
-
-6. Login as: `pi` password: `raspberry`
-
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software37.png width="400"/>
+!!! note "Before Start"
+    Klipper requires a `host` to run. Please follow the [Mainsial](https://docs.mainsail.xyz/setup/getting-started) / [Bigtreetech CB1](CB1.md) /  [Bigtreetech CB2](CB2.md),  to configure the Klipper `Host` before you start.
 
 #### Compile Firmware
 
@@ -539,7 +460,7 @@ Compile with the configuration shown below (if the options below are not availab
 
 #### Configure Klipper
 
-1. Enter your Raspberry Pi IP address into your browser to open the webUI, find the reference config for motherboard in the directory shown below, if there is no such config available, update your Klipper source code to the newest version or download from GitHub [bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ)
+1. Enter your Klipper Host IP address into your browser to open the webUI, find the reference config for motherboard in the directory shown below, if there is no such config available, update your Klipper source code to the newest version or download from GitHub [bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ)
 
     <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software41.png width="450">
 
