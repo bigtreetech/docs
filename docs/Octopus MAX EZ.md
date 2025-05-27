@@ -541,7 +541,7 @@ Compile with the configuration shown below (if the options below are not availab
 
 1. Enter your Raspberry Pi IP address into your browser to open the webUI, find the reference config for motherboard in the directory shown below, if there is no such config available, update your Klipper source code to the newest version or download from GitHub [bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ)
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software41.png width="4500">
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software41.png width="450">
 
 2. Upload your finished config file into Configuration Files, and rename it to "printer.cfg".
 
@@ -549,7 +549,7 @@ Compile with the configuration shown below (if the options below are not availab
 
 3. Insert the correct motherboard ID.
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software43.png width="450"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software43.png width="500"/>
 
 4. Refer to [Klipper Config Reference](https://www.klipper3d.org/Config_Reference.html) for detailed configuration guide according to your machine type.
 
@@ -566,7 +566,7 @@ Compile with the configuration shown below (if the options below are not availab
 
 1. Run `ls /dev/serial/by-id/*` to get the board ID. If Klipper is running, it will return a klipper ID.
 
-   <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software44.png width="400"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software44.png width="500"/>
 
 2. Flash Firmware
     ``` shell
