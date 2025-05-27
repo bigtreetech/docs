@@ -2,6 +2,8 @@
 
 <img src=img/Nebula/nebula_title.png width="600" />
 
+**Github Repository**： https://github.com/bigtreetech/Nebula
+
 **Product Link:**[ https://biqu.equipment/products/biqu-nebula](https://biqu.equipment/products/biqu-nebula)
 
 **Wiki:** https://bttwiki.com/Nebula.html
