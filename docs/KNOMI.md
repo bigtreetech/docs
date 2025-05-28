@@ -149,15 +149,15 @@ definitions. Once completed, `save` and `exit`.
 ## Update Firmware
 
 !!! info "Highlights of upgrading KNOMI 1 to KNOMI 2 UI"
-    1. OTA (Over-the-Air) functionality has been added, allowing users to complete firmware upgrades online simply by dragging the firmware file into the Web interface.
+    OTA (Over-the-Air) functionality has been added, allowing users to complete firmware upgrades online simply by dragging the firmware file into the Web interface.
 
-    2. The WiFi configuration Web interface has been optimized, enabling users to search for and select the desired WiFi connection directly on the Web page.
+    The WiFi configuration Web interface has been optimized, enabling users to search for and select the desired WiFi connection directly on the Web page.
 
-    3. The KNOMI 2 UI has been upgraded with a completely new design, added QGL leveling UI, making the display effect more vivid. 
+    The KNOMI 2 UI has been upgraded with a completely new design, added QGL leveling UI, making the display effect more vivid. 
 
-    4. Fixed the Bug of the print progress percentage, and achieved display synchronization with Mainsail/Klipperscreen.
+    Fixed the Bug of the print progress percentage, and achieved display synchronization with Mainsail/Klipperscreen.
 
-    5. Fixed other known bugs.
+    Fixed other known bugs.
 
 ### How to Update 
 
