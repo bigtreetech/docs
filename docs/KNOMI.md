@@ -191,7 +191,7 @@ definitions. Once completed, `save` and `exit`.
 
     <img src=img/KNOMI/KNOMI_GIF.png width="400" />
 
-   Click to download [KNOMI GIF](https://github.com/bigtreetech/KNOMI/tree/master/KNOMI_GIF). You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
+    Click to download [KNOMI GIF](https://github.com/bigtreetech/KNOMI/tree/master/KNOMI_GIF). You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
 
     For more GIF pixels, please click on [Knomi Picture Pixels](KNOMI.md#picture-pixels)
 
