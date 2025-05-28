@@ -1,6 +1,6 @@
 # KNOMI
 
-<img src=img/KNOMI/KNOMI_Title.png width="600" />
+<img src=img/KNOMI/KNOMI_Title.png width="450">
 
 ## **Product Profile**
 
@@ -8,7 +8,7 @@ KNOMI is a mini round screen designed specifically for Klipper running 3D printe
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-knomi-v1-0?variant=40556258492514
 
-## **Features Highlights**
+## Features Highlights
 
 - KNOMI UI-based display for quick and easy monitoring of printer status
 - User-friendly, wireless communication through WiFi
@@ -18,113 +18,116 @@ KNOMI is a mini round screen designed specifically for Klipper running 3D printe
 - Reserved Type-C port for DIY burning, increasing versatility
 - Full-view screen for accurate color representation from any angle
 
-<img src=img/KNOMI/KNOMI_IN.png width="600" />
+!!! note inline
+    For information about KNOMI structure, please click [KNOMI USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI1/KNOMI%201%20User%20Manual%2020241214.pdf)
 
-<font  color="red">**For information about KNOMI structure, please click**</font> :[KNOMI USER GUIDE.PDF](https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI USER GUIDE.pdf)
+<img src=img/KNOMI/KNOMI_IN.png width="300">
 
-## **PERFORMANCE COMPARISON TEST**
+</br>
 
-<font  color="red">**DOES USING KNOMI IMPACT YOUR STEALTHBURNER'S PERFORMANCE?**</font> 
+## Performance Comparison Test
+
+!!! question
+    DOES USING KNOMI IMPACT YOUR STEALTHBURNER'S PERFORMANCE?
 
 We will offer the customized mounting printed part files for you to effortlessly install KNOMI onto your Voron Stealthburner, in which the StealthBurner main body retains the original fan position and incorporates additional vents on the top for enhanced compatibility and optimized heat dissipation.
 
-<img src=img/KNOMI/KNOMI_IN1.png width="600" />
+<img src=img/KNOMI/KNOMI_IN1.png width="300" />
 
-<img src=img/KNOMI/KNOMI_IN2.png width="600" />
+<img src=img/KNOMI/KNOMI_IN2.png width="300" />
 
-<font  color="red">**MOUNTING PLATE**</font> 
+## Mounting Plate
 
 Prior to starting the installation procedure, it is advised to have these two printed parts readily available. Owing to size limitations and air duct considerations, the Mounting Plate has been engineered with a snap-fit design. This may be prone to damage during repeated disassembly and assembly. It is recommended to print additional backup pieces for convenience.
-
-
 
 We conducted a comparative analysis measuring wind speed and acoustic energy levels between the original StealthBurner and our customized version featuring vents and KNOMI add-on. The results showed that both versions performed similarly, indicating that adding KNOMI will not compromise the performance of the StealthBurner. 
 
 <img src=img/KNOMI/KNOMI_IN3.png width="600" />
 
-## **PACKING LIST**
+## Packing List
 
 <img src=img/KNOMI/KNOMI_IN4.png width="600" />
 
-## **OVERVIEW**
+## Overview
 
 <img src=img/KNOMI/KNOMI_IN19.png width="600" />
 
-*To optimize the user wiring experience, the latest Knomi power connector has been upgraded to a <font  color="red">**vertical type**</font> .
+!!! abstract "Wiring Experience"
+    To optimize the user wiring experience, the latest Knomi power connector has been upgraded to a **vertical type**.
 
-## **CONFIGURING WIFI**
+## Connecting Knomi
 
-<img src=img/KNOMI/KNOMI_IN6.png width="600" />
+### Configuring Wifi
 
-<font  color="red">**ACTIVATE THE HELLO INTERFACE**</font> 
+<div class="div-table">
+    <img src=img/KNOMI/KNOMI_IN6.png width="300" class="right-image">
 
-Power KNOMI using either the Type-C or MX1.25 interface.
+#### Activate The Hello Interface
 
-While KNOMI is powered on, press and hold the BOOT button for 5 seconds. 
+1. Power KNOMI using either the Type-C or MX1.25 interface.
 
-Wait for KNOMI to display the HELLO message then release the BOOT button.
+2. While KNOMI is powered on, press and hold the BOOT button for 5 seconds. 
 
-Alternatively, following the installation's completion, the BOOT button may be pressed using a slender tool, such as a hex key.
+3. Wait for KNOMI to display the HELLO message then release the BOOT button.
 
-<img src=img/KNOMI/KNOMI_IN7.png width="600" />
+!!! tip
+    Alternatively, following the installation's completion, the BOOT button may be pressed using a slender tool, such as a hex key.
+    
+    <img src=img/KNOMI/KNOMI_IN7.png width="300">
 
-<font  color="red">**COMPATIBILITY**</font> 
+</div>
 
-Due to device compatibility issues, KNOMI cannot configure networks with WPA PSK encryption.If you encounter an error configuring your network with KNOMI, please check the encryption method of your router and switch it to WPA/WPA2 PSK mixed mode or another compatible mode.
+### Connect Knomi to Wi-Fi
 
-<img src=img/KNOMI/KNOMI_IN8.png width="600" />
+!!! note "Wi-Fi Compatibility"
+    Due to device compatibility issues, KNOMI cannot configure networks with `WPA PSK encryption`.If you encounter an error configuring your network with KNOMI, please check the encryption method of your router and switch it to `WPA/WPA2 PSK` mixed mode or another compatible mode.
 
-<font  color="red">**CONNECTING TO KNOM**</font> 
+1. Using a Wi-Fi-enabled device, locate and connect to the “BTT-KNOMI" network.
 
-1.Using a Wi-Fi-enabled device, locate and connect to the “BTT-KNOMI" network.
+    <img src=img/KNOMI/KNOMI_IN8.png width="300">
 
-2.Allow your browser to automatically open the confifiguration page.
+2. Allow your browser to automatically open the confifiguration page.
 
-3.Input your local area network Wi-Fi credentials and the printer IP address in the  designated fields.
+3. Input your local area network Wi-Fi credentials and the printer IP address in the  designated fields.
 
-4.Select “Submit" to save your settings.
+4. Select “Submit" to save your settings.
 
-5.Upon seeing the submission success page, close the browser.
+5. Upon seeing the submission success page, close the browser.
 
-6.Allow about 10 seconds for the display screen to transition to the standard working interface following a successful network connection.
+6. Allow about 10 seconds for the display screen to transition to the standard working interface following a successful network connection.
 
+### Knomi Disconnected
 
-
-<font  color="red">**CONFIGURING WIFI**</font> 
-
-<img src=img/KNOMI/KNOMI_IN9.png width="600" />
-
-<font  color="red">**KNOMI DISCONNECTED**</font> 
+<div class="div-table">
+    <img src=img/KNOMI/KNOMI_IN9.png width="250" class="right-image">
 
 If KNOMI is displaying this interface, it means that KNOMI is disconnected from the printer. 
 This may be caused by the following problems:
 
-1.You have modified the Wi-Fi name or password, causing KNOMI and the printer to be in different network states. To resolve this, press and hold the BOOT button on the side of KNOMI for 5 seconds to enter the "HELLO" interface. From there, you can reconfigure the network connection.
+1. You have modified the Wi-Fi name or password, causing KNOMI and the printer to be in different network states. To resolve this, press and hold the BOOT button on the side of KNOMI for 5 seconds to enter the "HELLO" interface. From there, you can reconfigure the network connection.
 
-2.The printer has a network failure and cannot establish a network connection with KNOMI. 
+2. The printer has a network failure and cannot establish a network connection with KNOMI. 
 To resolve this, try restarting your 3D printer.
 
+</div>
 
+## Install Knomi To Stealthburner
 
-## **INSTALL KNOMI TO STEALTHBURNER**
+<img src=img/KNOMI/KNOMI_IN10.png width="500" />
 
-<img src=img/KNOMI/KNOMI_IN10.png width="600" />
+<img src=img/KNOMI/KNOMI_IN11.png width="500" />
 
+<img src=img/KNOMI/KNOMI_IN12.png width="500" />
 
+<img src=img/KNOMI/KNOMI_IN13.png width="500" />
 
-<img src=img/KNOMI/KNOMI_IN11.png width="600" />
+<img src=img/KNOMI/KNOMI_IN14.png width="500" />
 
-<img src=img/KNOMI/KNOMI_IN12.png width="600" />
+<img src=img/KNOMI/KNOMI_IN15.png width="500" />
 
-<img src=img/KNOMI/KNOMI_IN13.png width="600" />
+## Adding Relevant Macros
 
-<img src=img/KNOMI/KNOMI_IN14.png width="600" />
-
-<img src=img/KNOMI/KNOMI_IN15.png width="600" />
-
-## **ADDING RELEVANT MACROS**
-
-<img src=img/KNOMI/KNOMI_IN16.png width="600" />
+<img src=img/KNOMI/KNOMI_IN16.png width="450" />
 
 ```
 [gcode_macro BED_MESH_CALIBRATE]
@@ -132,27 +135,25 @@ rename_existing: BED_MESH_CALIBRATE_BASE
 variable_probing:False
 
 gcode:
-  SET_GCODE_VARIABLE MACRO=BED_MESH_CALIBRATE VARIABLE=probing VALUE=True
-  BED_MESH_CALIBRATE_BASE
-  SET_GCODE_VARIABLE MACRO=BED_MESH_CALIBRATE VARIABLE=probing VALUE=False
+    SET_GCODE_VARIABLE MACRO=BED_MESH_CALIBRATE VARIABLE=probing VALUE=True
+    BED_MESH_CALIBRATE_BASE
+    SET_GCODE_VARIABLE MACRO=BED_MESH_CALIBRATE VARIABLE=probing VALUE=False
  
 [gcode_macro G28]
 rename_existing: G0028
 variable_homing:False
 
 gcode:
-  SET_GCODE_VARIABLE MACRO=G28 VARIABLE=homing VALUE=True
-  G0028
-  SET_GCODE_VARIABLE MACRO=G28 VARIABLE=homing VALUE=False
+    SET_GCODE_VARIABLE MACRO=G28 VARIABLE=homing VALUE=True
+    G0028
+    SET_GCODE_VARIABLE MACRO=G28 VARIABLE=homing VALUE=False
 ```
 
-<font  color="red">**HOMING AND LEVELING**</font> 
+## Homing And Leveling
+KNOMI requires the addition of relevant macros for homing and leveling within the `printer.cfg` file. Access the print control interface by entering the Klipper IP address into your browser, locate the config Files directory containing `printer.cfg`, and insert the following macro 
+definitions. Once completed, `save` and `exit`.
 
-KNOMI requires the addition of relevant macros for homing and leveling within the printer.cfg file. Access the print control interface by 
-entering the Klipper IP address into your browser, locate the config Files directory containing printer.cfg, and insert the following macro 
-definitions. Once completed, save and exit.
-
-## **Update Firmware**
+## Update Firmware
 
 The highlights of upgrading KNOMI 1 to KNOMI 2 UI are as follows:
 1. OTA (Over-the-Air) functionality has been added, allowing users to complete firmware upgrades online simply by dragging the firmware file into the Web interface.
@@ -171,7 +172,7 @@ The highlights of upgrading KNOMI 1 to KNOMI 2 UI are as follows:
 
 <img src=img/KNOMI/KNOMI_UPDATE1.png width="600" />
 
-2、Please click to download [Firmware](https://raw.githack.com/bigtreetech/docs/master/docs/download/Firmware.zip)
+2、Please click to download [Firmware](https://github.com/bigtreetech/KNOMI)
 
 3、<font  color="red">**Press and hold the button on knomi1 and connect it to the computer via USB.**</font> 
 
@@ -197,7 +198,7 @@ The highlights of upgrading KNOMI 1 to KNOMI 2 UI are as follows:
 
 <img src=img/KNOMI/KNOMI_GIF.png width="600" />
 
-2、Click to download [KNOMI GIF](https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI_GIF.zip) . You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
+2、Click to download [KNOMI GIF](https://github.com/bigtreetech/KNOMI/tree/master/KNOMI_GIF). You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
 
 For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.html#picture-pixels
 
@@ -257,20 +258,15 @@ For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.ht
 
 <img src=img/KNOMI/KNOMI_gif7.png width="600" />
 
-
-
 ## Product Purchase Link
 
 **Purchase Link:**
 
 https://biqu.equipment/products/bigtreetech-knomi-v1-0
 
-
-
 **If you have any issues with the product, please submit a support ticket.**
 
 https://biqu3d.com/pages/submit-a-ticket
-
 
 
 **Navigation:**
