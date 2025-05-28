@@ -73,6 +73,9 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
         <p>Alternatively, following the installation's completion, the BOOT button may be pressed using a slender tool, such as a hex key.</p>
     </div>
 
+    !!! warning
+        Be careful not to slip and touch any of the other electronics!
+
 ### Connect Knomi to Wi-Fi
 
 !!! note "Wi-Fi Compatibility"
