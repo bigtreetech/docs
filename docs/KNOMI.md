@@ -18,12 +18,10 @@ KNOMI is a mini round screen designed specifically for Klipper running 3D printe
 - Reserved Type-C port for DIY burning, increasing versatility
 - Full-view screen for accurate color representation from any angle
 
-!!! note inline
+!!! note
     For information about KNOMI structure, please click [KNOMI USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI1/KNOMI%201%20User%20Manual%2020241214.pdf)
 
-<img src=img/KNOMI/KNOMI_IN.png width="300">
-
-</br>
+    <img src=img/KNOMI/KNOMI_IN.png width="200">
 
 ## Performance Comparison Test
 
@@ -61,21 +59,18 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 
 <div class="div-table">
     <img src=img/KNOMI/KNOMI_IN6.png width="300" class="right-image">
-
-#### Activate The Hello Interface
-
-1. Power KNOMI using either the Type-C or MX1.25 interface.
-
-2. While KNOMI is powered on, press and hold the BOOT button for 5 seconds. 
-
-3. Wait for KNOMI to display the HELLO message then release the BOOT button.
+    <h4 id="activate-the-hello-interface">Activate The Hello Interface</h4>
+    <ol>
+        <li>Power KNOMI using either the Type-C or MX1.25 interface.</li>
+        <li>While KNOMI is powered on, press and hold the BOOT button for 5 seconds.</li>
+        <li>Wait for KNOMI to display the HELLO message then release the BOOT button.</li>
+    </ol>
+</div>
 
 !!! tip
     Alternatively, following the installation's completion, the BOOT button may be pressed using a slender tool, such as a hex key.
     
     <img src=img/KNOMI/KNOMI_IN7.png width="300">
-
-</div>
 
 ### Connect Knomi to Wi-Fi
 
