@@ -8,12 +8,6 @@ The BIGTREETECH KNOMI V2.0 screen is a screen developed by the 3D printing team 
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-knomi-v1-0
 
-<video width="430" height="300" controls>
-    <source src="img/KNOMI2/installation.mp4" type="video/mp4">
-</video>
-
-
-
 ## **Features Highlights**
 
 <table border="1">

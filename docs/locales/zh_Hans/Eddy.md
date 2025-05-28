@@ -4,14 +4,6 @@
 
 ***Eddy 安装视频***
 
-<video width="500" height="300" controls>
-    <source src="img/Eddy/installationcn.mp4" type="video/mp4">
-</video>
-
-
-
-
-
 ## **功能亮点**
 
 - 整体体积小，重量轻；

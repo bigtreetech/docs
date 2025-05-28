@@ -10,10 +10,6 @@ https://biqu.equipment/products/panda-lux-led-upgrade-kit
 
 Panda Lux是专为Bambu Lab P1/X1系列打印机设计的高亮度LED灯条。它为打印区域提供明亮的照明，使用户可以轻松监控打印过程并快速识别任何问题。
 
-<video width="500" height="300" controls>
-    <source src="img/Panda_Lux/installationen.mp4" type="video/mp4">
-</video>
-
 ## **功能亮点**
 
 - **高亮度:** 31个LED和6000K色温为打印区域提供清晰的照明。

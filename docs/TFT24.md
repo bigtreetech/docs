@@ -8,14 +8,6 @@ BIGTREETECH TFT24-V1.1 is a small volume ultra-clear 3D printer display board. I
 
 **Product Link:** https://biqu.equipment/products/tft24v1-1-gd-version
 
-<video width="430" height="300" controls>
-    <source src="img/TFT24/introduction.mp4" type="video/mp4">
-</video>
-
-
-
-
-
 ## **Features Highlights**
 
 - ARM Cortex-M3 series STM32F105RCT6 chip with 32-bit CPU 72MHz;

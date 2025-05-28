@@ -250,12 +250,6 @@ https://biqu3d.com/pages/submit-a-ticket
 
 ***Unboxing/Wiring/Firmware Installation of CB1&M8P(Voron 2.4 as an example)***
 
-
-
-<video width="430" height="300" controls>
-    <source src="img/M8P/installationvoron2.4.mp4" type="video/mp4">
-</video>
-
 **Navigation:**
 
 BIQU Official Website:                         				http://biqu3d.com

@@ -8,12 +8,6 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-pad-7
 
-<video width="430" height="300" controls>
-    <source src="img/PAD7/introduction.mp4" type="video/mp4">
-</video>
-
-
-
 ## **Features Highlights**
 
 - The 7-inch IPS touch screen offers a wider field of view, high level of detail, and a comfortable user experience

@@ -236,22 +236,6 @@ https://biqu3d.com/pages/submit-a-ticket
 
 *** Unboxing/Wiring/Firmware Installation of CB1&M4P(Voron V0 as an example)***
 
-
-
-<video width="430" height="300" controls>
-    <source src="img/M4P/installationvoron0.mp4" type="video/mp4">
-</video>
-
-
-
-
-
-
-
-
-
-
-
 **Navigation:**
 
 BIQU Official Website：                            				http://biqu3d.com
