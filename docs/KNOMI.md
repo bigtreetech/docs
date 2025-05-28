@@ -68,9 +68,10 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 </div>
 
 !!! tip
-    Alternatively, following the installation's completion, the BOOT button may be pressed using a slender tool, such as a hex key.
-    
-    <img src=img/KNOMI/KNOMI_IN7.png width="300">
+    <div class="div-table">
+        <img class="right-image" src=img/KNOMI/KNOMI_IN7.png width="300">
+        <p>Alternatively, following the installation's completion, the BOOT button may be pressed using a slender tool, such as a hex key.</p>
+    </div>
 
 ### Connect Knomi to Wi-Fi
 
@@ -95,15 +96,12 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 
 <div class="div-table">
     <img src=img/KNOMI/KNOMI_IN9.png width="250" class="right-image">
-
-If KNOMI is displaying this interface, it means that KNOMI is disconnected from the printer. 
-This may be caused by the following problems:
-
-1. You have modified the Wi-Fi name or password, causing KNOMI and the printer to be in different network states. To resolve this, press and hold the BOOT button on the side of KNOMI for 5 seconds to enter the "HELLO" interface. From there, you can reconfigure the network connection.
-
-2. The printer has a network failure and cannot establish a network connection with KNOMI. 
-To resolve this, try restarting your 3D printer.
-
+    <p>If KNOMI is displaying this interface, it means that KNOMI is disconnected from the printer. 
+    This may be caused by the following problems:</p>
+    <ol>
+        <li>You have modified the Wi-Fi name or password, causing KNOMI and the printer to be in different network states. To resolve this, press and hold the BOOT button on the side of KNOMI for 5 seconds to enter the "HELLO" interface. From there, you can reconfigure the network connection.</li>
+        <li>The printer has a network failure and cannot establish a network connection with KNOMI. To resolve this, try restarting your 3D printer.</li>
+    </ol>
 </div>
 
 ## Install Knomi To Stealthburner
@@ -150,108 +148,109 @@ definitions. Once completed, `save` and `exit`.
 
 ## Update Firmware
 
-The highlights of upgrading KNOMI 1 to KNOMI 2 UI are as follows:
-1. OTA (Over-the-Air) functionality has been added, allowing users to complete firmware upgrades online simply by dragging the firmware file into the Web interface.
+!!! info "Highlights of upgrading KNOMI 1 to KNOMI 2 UI"
+    1. OTA (Over-the-Air) functionality has been added, allowing users to complete firmware upgrades online simply by dragging the firmware file into the Web interface.
 
-2. The WiFi configuration Web interface has been optimized, enabling users to search for and select the desired WiFi connection directly on the Web page.
+    2. The WiFi configuration Web interface has been optimized, enabling users to search for and select the desired WiFi connection directly on the Web page.
 
-3. The KNOMI 2 UI has been upgraded with a completely new design, added QGL leveling UI, making the display effect more vivid. 
+    3. The KNOMI 2 UI has been upgraded with a completely new design, added QGL leveling UI, making the display effect more vivid. 
 
-4. Fixed the Bug of the print progress percentage, and achieved display synchronization with Mainsail/Klipperscreen.
+    4. Fixed the Bug of the print progress percentage, and achieved display synchronization with Mainsail/Klipperscreen.
 
-5. Fixed other known bugs.
+    5. Fixed other known bugs.
 
-   
+### How to Update 
 
-1、Please click on the link to download the burning tool  https://www.espressif.com.cn/en/support/download/other-tools
+1. Please click on the link to download the burning tool  https://www.espressif.com.cn/en/support/download/other-tools
 
-<img src=img/KNOMI/KNOMI_UPDATE1.png width="600" />
+    <img src=img/KNOMI/KNOMI_UPDATE1.png width="500" />
 
-2、Please click to download [Firmware](https://github.com/bigtreetech/KNOMI)
+2. Please click to download [Firmware](https://github.com/bigtreetech/KNOMI)
 
-3、<font  color="red">**Press and hold the button on knomi1 and connect it to the computer via USB.**</font> 
+3. Press and hold the button on knomi1 and connect it to the computer via USB.
 
-4、Click on .exe
+4. Run `flash_download_tool`
 
-<img src=img/KNOMI/KNOMI_UPDATE2.png width="600" />
+    <img src=img/KNOMI/KNOMI_UPDATE2.png width="500" />
 
-5、Select esp32
+5. Select esp32
 
-<img src=img/KNOMI/KNOMI_UPDATE3.png width="600" />
+    <img src=img/KNOMI/KNOMI_UPDATE3.png width="400" />
 
-5、Unzip downloaded Firmware. Click "..." to add 3 corresponding bin files, and manually enter the corresponding bin file offset address after "@" (note that the bin file name corresponds to the address). Select COM for knomi1.Click "START" to start downloading, wait for the progress bar to end and prompt completion;
+6. Unzip downloaded Firmware. Click `...` to add 3 corresponding bin files, and manually enter the corresponding bin file offset address after `@` (note that the bin file name corresponds to the address). Select COM for knomi1. Click `START` to start downloading, wait for the progress bar to end and prompt completion;
 
-<img src=img/KNOMI/KNOMI_UPDATE4.png width="600" />
+    <img src=img/KNOMI/KNOMI_UPDATE4.png width="400" />
 
-6、Unplug the USB and plug it back in (re power on), and you can see that the display screen displays the content normally, indicating successful burning;
+7. Unplug the USB and plug it back in (re power on), and you can see that the display screen displays the content normally, indicating successful flash firmware.
 
-## **Customize UI**
+## Customize UI
 
-### **Image conversion**
+### Image conversion
 
-1、We have provided seventeen customizable gifs in knomi.
+1. We have provided seventeen customizable gifs in knomi.
 
-<img src=img/KNOMI/KNOMI_GIF.png width="600" />
+    <img src=img/KNOMI/KNOMI_GIF.png width="400" />
 
-2、Click to download [KNOMI GIF](https://github.com/bigtreetech/KNOMI/tree/master/KNOMI_GIF). You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
+   Click to download [KNOMI GIF](https://github.com/bigtreetech/KNOMI/tree/master/KNOMI_GIF). You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
 
-For more GIF pixels, please click on https://bigtreetech.github.io/docs/KNOMI.html#picture-pixels
+    For more GIF pixels, please click on [Knomi Picture Pixels](KNOMI.md#picture-pixels)
 
-<img src=img/KNOMI/KNOMI_Tip.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip.png width="400" />
 
-3、Click https://github.com/bigtreetech/KNOMI/tree/firmware to download the KNOMI1project. Using Visual Studio Code https://marlinfw.org/docs/basics/install_platformio_vscode.html to open the project and enter lvgl_ Gif.cpp file.
+2. Click [bigtreetech/KNOMI/firmware](https://github.com/bigtreetech/KNOMI/tree/firmware) to download the KNOMI1 project. Using [Visual Studio Code](https://marlinfw.org/docs/basics/install_platformio_vscode.html) to open the project and enter lvgl_ Gif.cpp file.
 
-<img src=img/KNOMI/KNOMI_Tip1.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip1.png width="400" />
 
-4、Right click on the GIF you want to replace and click on Go To Definition.
+3. Right click on the GIF you want to replace and click on Go To Definition.
 
-<img src=img/KNOMI/KNOMI_Tip2.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip2.png width="400" />
 
-5、Can see the structure and data type header.cf of GIF
+4. Can see the structure and data type header.cf of GIF
 
-<img src=img/KNOMI/KNOMI_Tip3.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip3.png width="400" />
 
-6、Click on the link to enter the GIF conversion tool https://lvgl.io/tools/imageconverter
+5. Click on the link to enter the GIF conversion tool https://lvgl.io/tools/imageconverter
 
-<img src=img/KNOMI/KNOMI_Tip4.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip4.png width="400" />
 
-7、Click on BROWSE and select the new replacement GIF，The Color format selects the same data type as the original GIF
+6. Click on BROWSE and select the new replacement GIF，The Color format selects the same data type as the original GIF
 
-<img src=img/KNOMI/KNOMI_Tip5.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip5.png width="400" />
 
-<font  color="red">**Note:After selecting CF_RAW_CHROMA, it will display as CF_RAW, please ignore this issue**</font> 
+!!! note 
+    After selecting `CF_RAW_CHROMA`, it will display as `CF_RAW`, please ignore this issue
 
-8、The Output format select C array,and click on Convert.
+7. The Output format select `C array`, and click on Convert.
 
-<img src=img/KNOMI/KNOMI_Tip6.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip6.png width="400" />
 
-9、Replace the generated gif_standby. c file with the source file with the same name in the knomi project.
+8. Replace the generated `gif_standby.c` file with the source file with the same name in the knomi project.
 
-<img src=img/KNOMI/KNOMI_Tip7.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip7.png width="400" />
 
-10、Click Compile.
+9. Click Compile.
 
-<img src=img/KNOMI/KNOMI_Tip8.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip8.png width="400" />
 
-11、After the compilation is completed, connect KNOMI to the computer through using the USB Type C connector.  Click on download, and once the download is completed, power on KNOMI again.
+10. After the compilation is completed, connect KNOMI to the computer through using the USB Type C connector.  Click on download, and once the download is completed, power on KNOMI again.
 
-<img src=img/KNOMI/KNOMI_Tip9.png width="600" />
+    <img src=img/KNOMI/KNOMI_Tip9.png width="400" />
 
-### **Picture Pixels**
+### Picture Pixels
 
-<img src=img/KNOMI/KNOMI_gif1.png width="600" />
+<img src=img/KNOMI/KNOMI_gif1.png width="500" />
 
-<img src=img/KNOMI/KNOMI_gif2.png width="600" />
+<img src=img/KNOMI/KNOMI_gif2.png width="500" />
 
-<img src=img/KNOMI/KNOMI_gif3.png width="600" />
+<img src=img/KNOMI/KNOMI_gif3.png width="500" />
 
-<img src=img/KNOMI/KNOMI_gif4.png width="600" />
+<img src=img/KNOMI/KNOMI_gif4.png width="500" />
 
-<img src=img/KNOMI/KNOMI_gif5.png width="600" />
+<img src=img/KNOMI/KNOMI_gif5.png width="500" />
 
-<img src=img/KNOMI/KNOMI_gif6.png width="600" />
+<img src=img/KNOMI/KNOMI_gif6.png width="500" />
 
-<img src=img/KNOMI/KNOMI_gif7.png width="600" />
+<img src=img/KNOMI/KNOMI_gif7.png width="500" />
 
 ## Product Purchase Link
 
