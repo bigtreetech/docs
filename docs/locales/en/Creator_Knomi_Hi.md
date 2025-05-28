@@ -1,2 +1,0 @@
-# Creator Knomi Hi
-

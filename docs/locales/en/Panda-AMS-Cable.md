@@ -1,2 +1,0 @@
-# Panda AMS Cable
-
