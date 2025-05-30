@@ -135,9 +135,6 @@ extra:
     - name: English
       link: https://bttwiki.com/
       lang: en
-    - name: 简体中文
-      link: https://bttwiki.com/zh/
-      lang: zh
 
 # Navigation hierarchy (this should mimic the layout of Overview.md)
 nav:
