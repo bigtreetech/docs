@@ -24,12 +24,6 @@ BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队
 
 - 采用磁吸支架，不适用支架时，吸附更方便；
 
-  <video width="430" height="300" controls>
-      <source src="img/PAD7/introduction.mp4" type="video/mp4">
-  </video>
-  
-  
-
 ## **规格**
 
 | **外型尺寸**       | **185.7mm x 124.78mm x 39.5mm**                     |

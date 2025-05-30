@@ -6,13 +6,7 @@
 
 The BIGTREETECH KNOMI V2.0 screen is a screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for printer nozzle display. Support for touch, making it convenient for customers to perform machine control operations.
 
-**Product Link:** https://biqu.equipment/products/bigtreetech-knomi-v1-0
-
-<video width="430" height="300" controls>
-    <source src="img/KNOMI2/installation.mp4" type="video/mp4">
-</video>
-
-
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-knomi-v1-0)
 
 ## **Features Highlights**
 
@@ -64,41 +58,36 @@ The BIGTREETECH KNOMI V2.0 screen is a screen developed by the 3D printing team 
 	<tr>  
 </table>
 
-<font  color="red">**For information about KNOMI2 structure, please click**</font> :[KNOMI 2 User Manual.pdf](https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI 2 User Manual.pdf)
+!!! note
+    For information about KNOMI structure, please click [KNOMI 2 USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI2/Manual/KNOMI%202%20User%20Manual%2020240109.pdf)
 
-## **PERFORMANCE COMPARISON TEST**
+## Performance Comparison Test
 
-<font  color="red">**DOES USING KNOMI 2 IMPACT YOUR STEALTHBURNER'S PERFORMANCE?**</font> 
+!!! question
+    DOES USING KNOMI IMPACT YOUR STEALTHBURNER'S PERFORMANCE?
 
-We have customized installation print parts for KNOMI 2, facilitating its easy installation into your Voron StealthBurner. In particular, 
-our StealthBurner Main Body not only retains the original fan positions but also incorporates a circular ventilation opening at the top, 
-enhancing compatibility and optimizing heat dissipation.
+We have customized installation print parts for KNOMI 2, facilitating its easy installation into your Voron StealthBurner. In particular, our StealthBurner Main Body not only retains the original fan positions but also incorporates a circular ventilation opening at the top, enhancing compatibility and optimizing heat dissipation.
 
-<img src=img/KNOMI2/KNOMI2_IN0.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN0.png width="300" />
 
-<img src=img/KNOMI2/KNOMI2_IN.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN.png width="300" />
 
-<font  color="red">**DOWNLOAD THE PRINTED PARTS**</font> 
+!!! note "Printed Parts"
+	Download The Printed Parts from [Bigtreetech/Knomi](https://github.com/bigtreetech/KNOMI)
 
-https://github.com/bigtreetech/KNOMI
-
-<font  color="red">**MOUNTING PLATE**</font> 
+## Mounting Plate
 
 Before you start the assembly, we recommend preparing these two printed parts in advance. The Mounting Plate is designed with a snap-on feature due to size limitations and considerations for the air duct design. This may cause some wear and tear through repeated disassembling and reassembling. Hence, we suggest printing several extra copies of this part for future use.
 
+We conducted a comparative analysis measuring wind speed and acoustic energy levels between the original StealthBurner and our customized version featuring vents and KNOMI add-on. The results showed that both versions performed similarly, indicating that adding KNOMI will not compromise the performance of the StealthBurner. 
 
+<img src=img/KNOMI/KNOMI_IN3.png width="600" />
 
-We conducted a comparative analysis measuring wind speed and acoustic energy levels between the original StealthBurner and our customized 
-version featuring vents and KNOMI 2 add-on. The results showed that both versions performed similarly, indicating that adding KNOMI 2 will not 
-compromise the performance of the StealthBurner.
-
-<img src=img/KNOMI2/KNOMI2_IN1.png width="600" />
-
-## **PACKING LIST**
+## Packing List
 
 <img src=img/KNOMI2/KNOMI2_IN2.png width="600" />
 
-## **OVERVIEW**
+## Overview
 
 <img src=img/KNOMI2/KNOMI2_IN3.png width="600" />
 
@@ -110,26 +99,23 @@ compromise the performance of the StealthBurner.
 
 <img src=img/KNOMI2/KNOMI2_WIFI3.png width="600" />
 
-<font  color="red">**ROUTER ENCRYPTION MODE**</font> 
+!!! note "Wi-Fi Compatibility"
+    Due to device compatibility issues, KNOMI 2 cannot configure networks with `WPA PSK encryption`.If you encounter an error configuring your network with KNOMI 2, please check the encryption method of your router and switch it to `WPA/WPA2 PSK` mixed mode or another compatible mode.
 
-Due to device compatibility issues, KNOMI 2 cannot configure networks with WPA PSK encryption mode. If you're having trouble getting your 
-network to configure successfully with KNOMI 2, please check the encryption mode of your router. You may need to switch your router's 
-encryption to a mode like WPA/WPA2 PSK mixed mode, or another mode.
+### Knomi Disconnected
 
-<img src=img/KNOMI2/KNOMI2_WIFI4.png width="600" />
+<div class="div-table">
+    <img src=img/KNOMI2/KNOMI2_WIFI4.png width="250" class="right-image">
+    <p>This status on KNOMI 2 indicates it has lost connection to the WiFi hotspot. Potential causes:</p>
+    <ol>
+        <li>You changed the WiFi name or password, requiring a long press of the BOOT button to get to the HELLO interface and reconfigure KNOMI 2's network connection.</li>
+        <li>KNOMI 2 is too far from the WiFi hotspot, resulting in poor signal quality.</li>
+    </ol>
+</div>
 
-<font  color="red">**CONNECTION LOST**</font> 
-
-This status on KNOMI 2 indicates it has lost connection to the WiFi hotspot. Potential causes:
-1. You changed the WiFi name or password, requiring a long press of the BOOT button to get 
- to the HELLO interface and reconfigure KNOMI 2's network connection.
-2. KNOMI 2 is too far from the WiFi hotspot, resulting in poor signal quality.
-
-## **INSTALL KNOMI TO STEALTHBURNER**
+## Install Knomi To Stealthburner
 
 <img src=img/KNOMI2/KNOMI2_IN4.png width="600" />
-
-
 
 <img src=img/KNOMI2/KNOMI2_IN5.png width="600" />
 
@@ -141,19 +127,16 @@ This status on KNOMI 2 indicates it has lost connection to the WiFi hotspot. Pot
 
 <img src=img/KNOMI2/KNOMI2_IN9.png width="600" />
 
-<font  color="red">**POWER CABLE ROUTING**</font> 
+!!! tip "Power Cable Routing"
+	<div class="div-table">
+        <img class="right-image" src=img/KNOMI2/KNOMI2_IN10.png width="300">
+        <p>As shown, guide KNOMI 2's power cable through the hole in the printed part, and then direct it towards the rear of the EBB SB0000 CAN.</p>
+		<p>If you are not using the EBB SB0000 CAN or a similar tool board, after routing the power cable as shown in the diagram, connect it to your motherboard or other power source.</p>
+    </div>
 
-As shown, guide KNOMI 2's power cable through the hole in the printed part, and then direct it towards the rear of the EBB SB0000 CAN.
+## Adding Relevant Macros
 
-<img src=img/KNOMI2/KNOMI2_IN10.png width="600" />
-
-<font  color="red">**Power Supply**</font> 
-
-If you are not using the EBB SB0000 CAN or a similar tool board, after routing the power cable as shown in the diagram, connect it to your motherboard or other power source.
-
-## **ADDING RELEVANT MACROS**
-
-<img src=img/KNOMI2/KNOMI2_ADD1.png width="600" />
+<img src=img/KNOMI2/KNOMI2_ADD1.png width="450" />
 
 ```
 [gcode_macro _KNOMI_STATUS]
@@ -167,68 +150,68 @@ gcode:
 [gcode_macro M109]
 rename_existing: M109.1
 gcode:
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=heating_nozzle VALUE=True
- M109.1 {rawparams}
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=heating_nozzle VALUE=False
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=heating_nozzle VALUE=True
+	M109.1 {rawparams}
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=heating_nozzle VALUE=False
  
 [gcode_macro M190]
 rename_existing: M190.1
 gcode:
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=heating_bed VALUE=True
- M190.1 {rawparams}
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=heating_bed VALUE=False
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=heating_bed VALUE=True
+	M190.1 {rawparams}
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=heating_bed VALUE=False
  
 [gcode_macro G28]
 rename_existing: G28.1
 gcode:
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=homing VALUE=True
- G28.1 {rawparams}
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=homing VALUE=False
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=homing VALUE=True
+	G28.1 {rawparams}
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=homing VALUE=False
  
 [gcode_macro BED_MESH_CALIBRATE]
 rename_existing: BTT_BED_MESH_CALIBRATE
 gcode:
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=probing VALUE=True
- BTT_BED_MESH_CALIBRATE
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=probing VALUE=False
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=probing VALUE=True
+	BTT_BED_MESH_CALIBRATE
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=probing VALUE=False
 ```
 
-<font  color="red">**If the printer has a QGL feature :**</font> 
+If the printer has a QGL feature
 
-<img src=img/KNOMI2/KNOMI2_ADD2.png width="600" />
+<img src=img/KNOMI2/KNOMI2_ADD2.png width="500" />
 
 ```
 [gcode_macro QUAD_GANTRY_LEVEL]
 rename_existing: BTT_QUAD_GANTRY_LEVEL
 gcode:
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=True
- BTT_QUAD_GANTRY_LEVEL
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=False
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=True
+	BTT_QUAD_GANTRY_LEVEL
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=False
 ```
 
-<font  color="red">**If there is no QGL but there is a Z_TILT function, you can follow the settings below :**</font> 
+If there is no QGL but there is a Z_TILT function, you can follow the settings below :
 
 <img src=img/KNOMI2/KNOMI2_ADD3.png width="600" />
 
 ```
 [gcode_macro QUAD_GANTRY_LEVEL]
 gcode:
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=True
- Z_TILT_ADJUST
- SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=False
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=True
+	Z_TILT_ADJUST
+	SET_GCODE_VARIABLE MACRO=_KNOMI_STATUS VARIABLE=qgling VALUE=False
 ```
 
-## **UPDATING FIRMWARE**
+## Updating Firmware
 
-Enter http://knomi.local into your browser to access the KNOMI 2 network configuration page. Scroll to the bottom of the page and click “Update FW”.
+Enter http://knomi.local into your browser to access the KNOMI 2 network configuration page. Scroll to the bottom of the page and click `Update FW`.
 
 <img src=img/KNOMI2/KNOMI2_UPDATE1.png width="600" />
 
-Click on“Choose File”on the firmware update page.
+Click on `Choose File` on the firmware update page.
 
 <img src=img/KNOMI2/KNOMI2_UPDATE2.png width="600" />
 
-Select the xxx.bin file.
+Select the `xxx.bin` file.
 
 <img src=img/KNOMI2/KNOMI2_UPDATE3.png width="600" />
 
@@ -237,17 +220,16 @@ The firmware will automatically update over-the-air.
 <img src=img/KNOMI2/KNOMI2_UPDATE4.png width="600" />
 
 KNOMI 2 will reboot to indicate a successful update. The page will also show information that the update succeeded.
-At this point, you can click “Back” to return to the main KNOMI 2 network configuration interface.
+At this point, you can click `Back` to return to the main KNOMI 2 network configuration interface.
 
 <img src=img/KNOMI2/KNOMI2_UPDATE5.png width="600" />
 
-## **KNOMI UI**
+## KNOMI UI
 
-<font  color="red">**KNOMI CONTROL UI INSTRUCTION & GESTURE OPERATION**</font> 
+!!! note "Knomi Control UI Instruction & Gesture Operation"
+	KNOMI 2 supports full-screen touch, swiping up, down, left, and right, as well as long press operations.
 
-KNOMI 2 supports full-screen touch, swiping up, down, left, and right, as well as long press operations.
-
-<font  color="red">**Main Interface**</font> 
+### Main Interface
 
 <img src=img/KNOMI2/KNOMI2_UI1.png width="600" />
 
@@ -255,7 +237,7 @@ KNOMI 2 supports full-screen touch, swiping up, down, left, and right, as well a
 
 <img src=img/KNOMI2/KNOMI2_UI3.png width="600" />
 
-<font  color="red">**HOW TO EXTRUDE AND RETRACT FILAMENT？**</font> 
+### How To Extrude And Retract Filament?
 
 Swipe right from the Standby UI to access the Extruding/Retracting Filament interface.
 
@@ -275,7 +257,7 @@ Swipe right from the Standby UI to access the Extruding/Retracting Filament inte
 
 <img src=img/KNOMI2/KNOMI2_UI11.png width="600" />
 
-<font  color="red">**HOW TO ADJUST THE TEMPERATURE OF THE NOZZLE/BED?**</font> 
+### How To Adjust The Temperature Of The Nozzle/bed?
 
 Swipe left from the Standby UI to access the Nozzle/Heated Bed Temperature Settings interface.
 
@@ -285,7 +267,7 @@ Swipe left from the Standby UI to access the Nozzle/Heated Bed Temperature Setti
 
 <img src=img/KNOMI2/KNOMI2_UI14.png width="600" />
 
-<font  color="red">**MANUAL TEMPERATURE ADJUSTMENT IS NOT REQUIRED**</font> 
+### Manual Temperature Adjustment Is Not Required
 
 <img src=img/KNOMI2/KNOMI2_UI15.png width="600" />
 
@@ -297,13 +279,15 @@ Swipe left from the Standby UI to access the Nozzle/Heated Bed Temperature Setti
 
 <img src=img/KNOMI2/KNOMI2_UI19.png width="600" />
 
-**1、Advanced setting - please only use it if you fully understand its specific function.**
+## Advanced setting 
 
-**2、KNOMI has built-in mDNS. You can enter "http://knomi.local" in the browser (The default hostname is KNOMI. If users have modified** 
-**it, please use the custom name instead of “knomi” in the URL, the URL characters are case-insensitive), or view the IP address on** 
-**the "Knomi Info".**
+please only use it if you fully understand its specific function.
 
-<font  color="red">**HOW TO ADJUST KNOMI UI COLORS?**</font> 
+### Config mDNS URL
+
+KNOMI has built-in mDNS. You can enter `http://knomi.local` in the browser (The default hostname is KNOMI. If users have modified it, please use the custom name instead of `knomi` in the URL, the URL characters are case-insensitive), or view the IP address on the Knomi Info.
+
+### Adjust Knomi UI Colors?
 
 <img src=img/KNOMI2/KNOMI2_UI20.png width="600" />
 
@@ -314,17 +298,17 @@ After selecting a color on the wheel, long press the black area outside the whee
 
 <img src=img/KNOMI2/KNOMI2_UI22.png width="600" />
 
- When you pick a saturation/brightness level, returning to the RGB wheel will show that saturation/brightness.
+When you pick a saturation/brightness level, returning to the RGB wheel will show that saturation/brightness.
 
 <img src=img/KNOMI2/KNOMI2_UI23.png width="600" />
 
-<font  color="red">**HOW TO ADJUST BRIGHTNESS?**</font> 
+### Adjust Brightness?
 
 <img src=img/KNOMI2/KNOMI2_UI24.png width="600" />
 
 <img src=img/KNOMI2/KNOMI2_UI25.png width="600" />
 
-<font  color="red">**KNOMI UI Status Icons**</font> 
+### KNOMI UI Status Icons
 
 KNOMI UI uses visual elements to provide status information at different stages of printer operation :
 
@@ -332,7 +316,6 @@ KNOMI UI uses visual elements to provide status information at different stages 
 
 <img src=img/KNOMI2/KNOMI2_UI27.png width="600" />
 
-## **FAQ**
+## FAQ
 
 <img src=img/KNOMI2/KNOMI2_FAQ1.png width="600" />
-

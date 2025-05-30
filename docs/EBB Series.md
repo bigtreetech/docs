@@ -4,66 +4,26 @@
 
 1.After connecting to the Raspberry Pi via ssh, type the below sentences at the command line:
 
-```
+``` shell 
 cd ~/klipper/
-```
-
-```
 make menuconfig
 ```
 
 Compile the firmware with the following configuration (if the following options are not available, please update the Klipper firmware source to the latest 
 version).
 
-<font  color="red">***NOTE: EBB36/EBB42 VersionV1.0***</font>
+!!! note 
+  NOTE: EBB36/EBB42 VersionV1.0
 
-**[\*] Enable extra low-level configuration options**
+  <img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/>
 
- **Micro-controller Architecture (STMicroelectronics STM32) --->**
+!!! note 
+  NOTE: EBB36/EBB42 VersionV1.1
 
- **Processor model (STM32F072) --->**
+  <img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/>
 
- **Bootloader offset (No bootloader) --->**
-
- **Clock Reference (8 MHz crystal) --->**
-
- **If using USB communication over Type-C**
-
- **Communication interface (USB (on PA11/PA12)) --->**
-
- **If using CANBus communication**
-
- **Communication interface (CAN bus (on PB8/PB9)) --->**
-
- **(1000000) CAN bus speed**
-
-<img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/>
-
-<font  color="red">***NOTE: NOTE: EBB36/EBB42 VersionV1.1***</font>
-
-**[\*] Enable extra low-level configuration options**
-
- **Micro-controller Architecture (STMicroelectronics STM32) --->**
-
- **Processor model (STM32G0B1) --->**
-
- **Bootloader offset (No bootloader) --->**
-
- **Clock Reference (8 MHz crystal) --->**
-
-**If using USB communication over Type-C**
-
- **Communication interface (USB (on PA11/PA12)) --->**
-
-**If using CANBus communication**
-
- **Communication interface (CAN bus (on PB0/PB1)) --->**
-
- **(1000000) CAN bus speed**
-
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/>
-
-<font  color="red">***Note: Only after https://github.com/Klipper3d/klipper/pull/5488 is merged into the main branch of Klipper, will the official firmware support the CAN bus function of STM32G0B1. If you use CANBus communication, you can use the firmware_canbus.bin compiled by us on our GitHub, or use our source code to compile it yourself: https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus*** </font>
+!!! note 
+  Only after [Klipper Pull request 5488](https://github.com/Klipper3d/klipper/pull/5488) is merged into the main branch of Klipper, will the official firmware support the CAN bus function of STM32G0B1. If you use CANBus communication, you can use the firmware_canbus.bin compiled by us on our GitHub, or use our source code to compile it yourself: https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus
 
 2.When the configuration is completed, type 'q' to exit the configuration interface. Select "Yes" when asked whether to save the configuration
 
@@ -73,35 +33,36 @@ version).
 
 ##  **Update Firmware**
 
-### <font  color="red">***NOTE: EBB36/EBB42 VersionV1.0***</font>
+!!! note "EBB36/EBB42 version 1.0"
+    below is for EBB 36 and EBB 42 version 1.0
 
 Update firmware via Raspberry Pi (You can also update via STM32CubeProgrammer software after the board is plugged into the computer and entering DFU mode).
 
 1.Press on the Boot button, then click on the Reset button to enter DFU mode.
 
-<font  color="red">**Verison:EBB36 V1.0**</font>
+=== "EBB36 V1.0"
+    <img src=img/EBB36CAN/072/EBB_072_Update1.png width="300"/>  
 
-  <img src=img/EBB36CAN/072/EBB_072_Update1.png width="600"/>  
+=== "EBB42 V1.0"
+    <img src=img/EBB42CAN/072/EBB42_072_Update1.png width="300"/>  
 
-<font  color="red">**Verison:EBB42 V1.0**</font>
+1. Type `lsusb` in the ssh terminal command line to query the ID of the DFU device.
 
-  <img src=img/EBB42CAN/072/EBB42_072_Update1.png width="600"/>  
+    <img src=img/EBB36CAN/072/EBB_072_Update2.png width="300"/>
 
-2.Type `lsusb` in the ssh terminal command line to query the ID of the DFU device.
+2. Type `make flash FLASH_DEVICE=0483:df11` to download the firmware (Notice: Replace 0483:df11 with the actual ID of the DFU device queried in the previous step).
 
-  <img src=img/EBB36CAN/072/EBB_072_Update2.png width="600"/>
+    <img src=img/EBB36CAN/072/EBB_072_Update3.png width="600"/>
 
-3.Type `make flash FLASH_DEVICE=0483:df11` to download the firmware (Notice: Replace 0483:df11 with the actual ID of the DFU device queried in the previous step).
+3. Type `ls /dev/serial/by-id/`  to query about the serial ID of the device when finished downloading the firmware (The serial ID will only exist when communicating via USB. Ignore this step when communicating via CAN Bus).
 
-  <img src=img/EBB36CAN/072/EBB_072_Update3.png width="600"/>
+    <img src=img/EBB36CAN/072/EBB_072_Update4.png width="600"/>
 
-4.Type  `ls /dev/serial/by-id/`  to query about the serial ID of the device when finished downloading the firmware (The serial ID will only exist when communicating via USB. Ignore this step when communicating via CAN Bus).
+4. After downloading the firmware for the first time, there's no need to press on Boot and Reset button again to enter DFU mode when updating the firmware again. User can type
 
-<img src=img/EBB36CAN/072/EBB_072_Update4.png width="600"/>
-
-5.After downloading the firmware for the first time, there's no need to press on Boot and Reset button again to enter DFU mode when updating the firmware again. User can type
-
- `make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32f072xb_28002D001557434338313020-if00`
+``` shell
+make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32f072xb_xxx-if00
+```
 
 to download the firmware(Notice: Replace `/dev/serial/by-id/xxx` with actual ID queried in the previous step)
 

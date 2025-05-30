@@ -18,7 +18,7 @@ TMC5160 is a high-power stepper motor drive control chip, with an external MOSFE
 - Can drive 57 stepper motors;
 - The newly developed board frame is used to match the new connector so that customers can experience the aesthetic feeling and avoid the accident of the old driving pin stabbing the hand;
 - Using a new type of specially made heat sink to enhance the heat dissipation as well as protect the driver chip from external damage;
-- Using the environmentally friendly packaging to improve the costeffectiveness.
+- Using the environmentally friendly packaging to improve the cost effectiveness.
 
 ## **Basic Parameters**
 

@@ -1,13 +1,13 @@
 # CB2
 
-<img src=img/CB2/CB2_Title.png width="600" />
+<img src=img/CB2/CB2_Title.png width="500" />
 
 ## **Product Profile**
 
 The BIGTREETECH CB2, compatible with the Raspberry Pi CM4 form factor, uses two 100-pin high-speed board-to-board (BTB) connectors for easy and quick connection with external expansion baseboards. It offers an alternative with similar IO capabilities, 
 including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally, it features 2.4G and 5G WiFi, Bluetooth 5.2, the Rockchip RK3566 SoC, 2GB LPDDR4 RAM, and 32GB eMMC storage.
 
-**Product Link:** https://biqu.equipment/products/bigtreetech-pi-2-cb2?variant=41018191839330
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-pi-2-cb2?variant=41018191839330)
 
 ## **Features Highlights**
 
@@ -255,9 +255,9 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
 
 Pressing and holding down SW1 will short-circuit the eMMC signal line to GND, prohibiting communication between SoC and eMMC.
 
-<img src=img/CB2/CB2_Interface1.png width="600" />
+<img src=img/CB2/CB2_Interface1.png width="450" />
 
-<img src=img/CB2/CB2_Interface2.png width="600" />
+<img src=img/CB2/CB2_Interface2.png width="450" />
 
 ### 40 pin GPIO
 
@@ -387,7 +387,7 @@ When using a MicroSD card as the system card instead, it's best to erase the dat
 
 2、Open the "RKDevTool".
 
-<img src=img/CB2/CB2_System15.png width="600" />
+<img src=img/CB2/CB2_System15.png width="450" />
 
 ①Find the path where the downloaded RKDevTool is located.
 

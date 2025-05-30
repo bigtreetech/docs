@@ -50,4 +50,4 @@ Printing Parts Link:
 
 [MakerWorld (P1&X1 Series)](https://makerworld.com/en/models/606669#profileId-529547)
 
-[MakerWorld  (A1 Series)](https://makerworld.com/en/models/606628#profileId-529508)
+[MakerWorld (A1 Series)](https://makerworld.com/en/models/606628#profileId-529508)
