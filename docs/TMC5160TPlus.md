@@ -10,9 +10,7 @@ TMC5160T Plus is a high-power stepper motor driver control module, featuring 8 h
 
 ## **Features Highlights**
 
-- <p>8 high-power MOSFETs separately mounted on the board with 100V voltage 
-  resistance, 93A current resistance, and equivalent resistance as low as 6mΩ, 
-  significantly enhancing the drive's performance;</p>
+- <p>8 high-power MOSFETs separately mounted on the board with 100V voltage resistance, 93A current resistance, and equivalent resistance as low as 6mΩ, significantly enhancing the drive's performance;
 
 - Supports a maximum voltage of 60V, a maximum effective current (IRMS) of 10.6A, and a sine wave peak current of up to 15A;
 
@@ -62,9 +60,15 @@ TMC5160T Plus is a high-power stepper motor driver control module, featuring 8 h
 
 Connection methods for common motherboards (e.g., SKR3), use the supplied TMC Driver Adaptor and cables to connect the TMC5160T Plus with SKR3 as shown in the diagram:
 
+!!! warning 
+    TMC Driver Adaptor only support 24v!
+
 <img src=img/TMC5160TPlus/TMC5160TPlus_Ins1.png width="600"/>
 
 For EZ series motherboards (e.g., Octopus MAX EZ), use the supplied EZ Driver Adaptor and cables to connect the TMC5160T Plus with Octopus MAX EZ as shown in the diagram:
+
+!!! warning 
+    EZ Driver Adaptor only support 24v!
 
 <img src=img/TMC5160TPlus/TMC5160TPlus_Ins2.png width="600"/>
 
@@ -72,7 +76,7 @@ For EZ series motherboards (e.g., Octopus MAX EZ), use the supplied EZ Driver Ad
 
 ### **Marlin Firmware Settings**
 
-<font  color="red">**Important Note: Currently, only Marlin 2.0 and later firmware versions support TMC5160's SPI mode.**</font>
+<font color="red">**Important Note: Currently, only Marlin 2.0 and later firmware versions support TMC5160's SPI mode.**</font>
 
 <p>Step 1: In the Marlin 2.0 firmware, locate and open the "Configuration.h" file, 
 then find the line "#define MOTHERBOARD XXXXXX". "XXXXXX" represents 
