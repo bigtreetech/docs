@@ -2,13 +2,9 @@
 
 <img src=img/Belter/Belter_title.png width="600"/>
 
-**Product Link:**
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool)
 
-https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool
-
-**GitHub Link:**
-
-[bigtreetech/Belter-belt-tension-Tool](https://github.com/bigtreetech/Belter-belt-tension-Tool)
+**GitHub Link:** [bigtreetech/Belter-belt-tension-Tool](https://github.com/bigtreetech/Belter-belt-tension-Tool)
 
 ## **Introduction**
 

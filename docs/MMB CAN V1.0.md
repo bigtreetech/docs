@@ -6,7 +6,7 @@
 
 BIGTREETECH MMB CAN V1.0 is a control board for multi-material 3D printing system, e.g., ERCF. It simplifies wiring by communicating via USB or CAN.
 
-**Product Link:** https://biqu.equipment/products/bigtreetech-mmb
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-mmb)
 
 ## **Features Highlights**
 

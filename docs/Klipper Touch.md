@@ -564,7 +564,7 @@ This method is supported only on the Windows operating system.
 * Visit the [K-Touch GitHub](https://github.com/bigtreetech/K-Touch) to download the required files.
 <br><img src=img/K_Touch/flash_down.png width="660"/>
 * Use a Type-C USB cable to connect K-Touch to your computer. Check if a new COM port appears in the Device Manager. If the COM port is not recognized, please install the [CH340 driver](https://www.wch-ic.com/download/CH341SER_EXE.html).
-* Download and unzip [flash_Download_tool_3.9.3_0-K-Touch.zip]（./flash_Download_tool-3.9.3_0-K-Touch.zip）to your computer.
+* Download and unzip [flash_Download_tool_3.9.3_0-K-Touch.zip](./flash_Download_tool-3.9.3_0-K-Touch.zip)to your computer.
 * Double-click `flash_download_tool_3.9.3.exe`
 <br><img src=img/K_Touch/flash_down1.png width="660"/>
 * Set the ChipType to `ESP32-S3` and click the `OK` button.
