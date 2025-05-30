@@ -107,9 +107,22 @@ Step 6: Set the corresponding axis drive type to "TMC5160" in the "Configuration
 
 ### **Klipper Firmware Settings**
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Software7.png width="600"/>
+```
+[tmc5160 stepper_x]
+cs_pin: PD2
+spi_software_sclk_pin: PC6
+spi_software_mosi_pin: PC8
+spi_software_miso_pin: PC7
+run_current: 1.20
+sense_resistor: 0.022
+interpolate: False
+stealthchop_threshold: 0
+# diag1_pin: ^!PF3
+# driver_SGT: 2
+```
 
-<font  color="red">**Note: The default sense_resistor in Klipper is 0.075; it needs to be set to 0.022.**</font>
+!!! warning "check sense resistor"
+    The default sense_resistor in Klipper is `0.075`. It needs to be set to `0.022`.
 
 ## **Precautions**
 
