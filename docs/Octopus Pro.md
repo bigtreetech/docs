@@ -6,7 +6,7 @@
 
 The BIGTREETECH Octopus-pro V1.0 is a powerful and feature rich, 3D printer motherboard that supports up to 8 60V stepper drivers with 9 stepper driver outputs in total. It is designed and manufactured by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd..
 
-**Product Link:** https://biqu.equipment/products/bigtreetech-octopus-pro-v1-0-chip-f446
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-octopus-pro-v1-0-chip-f446)
 
 ## **Features Highlights**
 
@@ -71,18 +71,20 @@ The BIGTREETECH Octopus-pro V1.0 is a powerful and feature rich, 3D printer moth
 
 ## **Interface Diagram**
 
-<img src=img/Octopus_Pro/Octopus_Pro_CAD.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_CAD.png width="500"/>
 
 ## **Pinout**
 
 The image below is a snippet taken from the PINS.pdf document. For better viewability please consult the PINS.pdf document.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Pin.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Pin.png width="500"/>
 
 ## **Hardware Configuration**
 
-<font  color="red">***Note: The octopus-pro packs a ton of features which necessitates many components and connectors. Given the component and connector density it was not possible to include the silk screen for connector labels on the top. We recommend that you snap a picture of the bottom of the board before starting 
-the installation so that you have a label reference on hand. If you forget to do so then you can always make use of the PINS.pdf file available on our [github repo](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro).***</font>
+The octopus-pro packs a ton of features which necessitates many components and connectors. Given the component and connector density it was not possible to include the silk screen for connector labels on the top. We recommend that you snap a picture of the bottom of the board before starting the installation so that you have a label reference on hand. 
+    
+!!! tip 
+    If you forget to do so then you can always make use of the PINS.pdf file available on our GitHub repo [bigtreetech/BIGTREETECH-OCTOPUS-Pro](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro).
 
 ### **POWER WIRING**
 

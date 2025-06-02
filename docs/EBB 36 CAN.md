@@ -50,7 +50,7 @@ BIGTREETECH EBB36 CAN V1.0/V1.1 is a printhead board specially designed for the 
 
 ## Dimensions
 
-=== "EBB 36 V1.1"
+=== "EBB 36 V1.1 / V.2"
     <img src=img/EBB36CAN/G0B1/EBB_G0B1_Diagram.png width="450">
 
 === "EBB 36 V1.0"
@@ -58,7 +58,7 @@ BIGTREETECH EBB36 CAN V1.0/V1.1 is a printhead board specially designed for the 
 
 ## **Pinout**
 
-=== "EBB 36 V1.1"
+=== "EBB 36 V1.1 / V1.2"
     <img src=img/EBB36CAN/G0B1/EBB_G0B1_Pin.png width="450">
 
 === "EBB 36 V1.0"
@@ -68,7 +68,7 @@ BIGTREETECH EBB36 CAN V1.0/V1.1 is a printhead board specially designed for the 
 
 ### **USB Power Supply**
 
-=== "EBB 36 V1.1"
+=== "EBB 36 V1.1 / V1.2"
     After the motherboard is powered on, the yellow-green LED1 lights will light up, indicating a normal power supply. The VUSB on the right side of the board is the power selection terminal. Only when using USB to supply power to the motherboard or need to supply power through USB, do you need to use the jumper cap to connect VUSB.
 
     <img src=img/EBB36CAN/G0B1/EBB_G0B1_USB_Power.png width="450">
@@ -87,11 +87,11 @@ Version without 31865: No need to plug a jumper cap when using a 100K NTC thermi
 !!! info
     Temperature accuracy that's read out this way will be less accurate than that of `MAX31865`
 
-=== "EBB 36 V1.1"
-    <img src=img/EBB36CAN/G0B1/EBB_G0B1_PT100.png width="600"/>
+=== "EBB 36 V1.1 / V1.2"
+    <img src=img/EBB36CAN/G0B1/EBB_G0B1_PT100.png width="450"/>
 
 === "EBB 36 V1.0"
-    <img src=img/EBB36CAN/072/EBB_072_PT100.png width="600"/>
+    <img src=img/EBB36CAN/072/EBB_072_PT100.png width="450"/>
 
 !!! info 
     Version with 31865: Select PT100/PT1000 by DIP switch, 2 wire or 4 wire:
@@ -103,7 +103,7 @@ Version without 31865: No need to plug a jumper cap when using a 100K NTC thermi
     | OFF | OFF | ON  | OFF | 4 wire PT100  |
     | OFF | OFF | OFF | ON  | 4 wire PT1000 |
 
-=== "EBB 36 V1.1"
+=== "EBB 36 V1.1 / V1.2"
     <img src=img/EBB36CAN/G0B1/EBB_G0B1_TwoW.png width="450">
 
     <img src=img/EBB36CAN/G0B1/EBB_G0B1_FourW.png width="450">
@@ -115,7 +115,7 @@ Version without 31865: No need to plug a jumper cap when using a 100K NTC thermi
 
 ### **BL-Touch Wiring**
 
-=== "EBB 36 V1.1"
+=== "EBB 36 V1.1 / V1.2"
     <img src=img/EBB36CAN/G0B1/EBB_G0B1_BLTouch.png width="450"/>
 
 === "EBB 36 V1.0"
@@ -124,7 +124,7 @@ Version without 31865: No need to plug a jumper cap when using a 100K NTC thermi
 
 ### **Filament Broke Detection**
 
-=== "EBB 36 V1.1"
+=== "EBB 36 V1.1 / V1.2"
     <img src=img/EBB36CAN/G0B1/EBB_G0B1_Broke.png width="450"/>
 
 === "EBB 36 V1.0"
@@ -132,11 +132,11 @@ Version without 31865: No need to plug a jumper cap when using a 100K NTC thermi
 
 ### **RGB**
 
-=== "EBB 36 V1.1"
-    <img src=img/EBB36CAN/G0B1/EBB_G0B1_RGB.png width="600"/>
+=== "EBB 36 V1.1 / V1.2"
+    <img src=img/EBB36CAN/G0B1/EBB_G0B1_RGB.png width="450"/>
 
 === "EBB 36 V1.0"
-    <img src=img/EBB36CAN/072/EBB_072_RGB.png width="600"/>
+    <img src=img/EBB36CAN/072/EBB_072_RGB.png width="450"/>
 
 ## **Software Configuration**
 
