@@ -16,7 +16,7 @@ The BIGTREETECH Panda Hub is a compact device that turns one USB port into two, 
 
 | Dimensions    | 33mm x 20mm                                                 |
 | ------------- | ----------------------------------------------------------- |
-| Mounting Size | For details, please refer to BIGTREETECH Panda Hub-SIZE.pdf |
+| Mounting Size | For details, please refer to [Panda Hub User Manual](https://github.com/bigtreetech/Panda-Hub/blob/master/BIGTREETECH%20Panda%20Hub%20User%20Manual.pdf) |
 | Input Voltage | DC 5V                                                       |
 | Logic Voltage | DC 5V                                                       |
 
