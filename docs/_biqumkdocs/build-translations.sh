@@ -134,3 +134,8 @@ while IFS="," read dirname langsite langdesc langsearch; do
   ln -sf "${PWD}/site/${langsite}/" "${WORK_DIR}lang/${langsite}/site"
   mkdocs build -f "${new_mkdocs_file}"
 done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
+
+mkdir site/en
+cp site/*.html site/en
+cp -r site/img site/en
+cp -r site/assets site/en
