@@ -130,14 +130,18 @@ extra:
   analytics:
     provider: google
     property: UA-138371409-1
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bigtreetech
   # Language Selection
   alternate: 
     - name: English
-      link: https://bttwiki.com/
+      link: /
       lang: en
     - name: 简体中文
-      link: https://bttwiki.com/zh/
+      link: /zh/
       lang: zh
+    # Alternate language links automatically added here
 
 # Navigation hierarchy (this should mimic the layout of Overview.md)
 nav:
