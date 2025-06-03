@@ -40,7 +40,7 @@ TMC5160T Plus is a high-power stepper motor driver control module, featuring 8 h
 | ------------------------- | --------------------------------------- |
 | Dimensions                | TMC5160T Plus(W/o case): 58 x 50 x 28mm |
 | Drive Chip                | TMC5160-TA                              |
-| Input Voltage (HVIN)      | 8V-60V                                  |
+| Input Voltage (HVIN)      | 8V - 56V                                |
 | Maximum Effective Current | 10.6A, Sine Wave Peak Current 15A       |
 | Capacitor                 | 2 x 560uF                               |
 | Operating Mode            | SPI, SD                                 |
@@ -124,12 +124,19 @@ stealthchop_threshold: 0
 
 ## Precautions
 
-!!! warning 
-    - Turn off the power before installing the driver to prevent damage.
-    - Do not plug or unplug the driver module with power on to avoid damage.
-    - Be cautious of polarity when connecting; reversing can cause the driver to burn out.
-    - The factory-installed heat sink should not be removed, as doing so will decrease heat dissipation in the absence of thermal interface material.
-    - For large currents (greater than 3A), active cooling is required for normal operation.
-    - This product uses a 0.022R sampling resistor, so the maximum effective driving current is 10.6A.
-    - Pay attention to the power sequence; ensure the driver power is turned on before the logic power. That is, turn on the driver power first, then power on the motherboard.
-    - Regardless of whether the driver uses high or low voltage power delivery, the output voltage from the main control board to the drive must not  exceed 24V; exceeding this will damage the driver.
+!!! warning "Precautions"
+    Turn off the power before installing the driver to prevent damage.
+    
+    Do not plug or unplug the driver module with power on to avoid damage.
+    
+    Be cautious of polarity when connecting; reversing can cause the driver to burn out.
+    
+    The factory-installed heat sink should not be removed, as doing so will decrease heat dissipation in the absence of thermal interface material.
+    
+    For large currents (greater than 3A), active cooling is required for normal operation.
+    
+    This product uses a 0.022R sampling resistor, so the maximum effective driving current is 10.6A.
+    
+    Pay attention to the power sequence; ensure the driver power is turned on before the logic power. That is, turn on the driver power first, then power on the motherboard.
+    
+    Regardless of whether the driver uses high or low voltage power delivery, the output voltage from the main control board to the drive must not  exceed 24V; exceeding this will damage the driver.
