@@ -270,6 +270,7 @@ nav:
       - PandaSense.md 
       - Panda_Alarm.md 
       - Panda-Purge-Shield.md
+      - Panda-AMS-Guard.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
