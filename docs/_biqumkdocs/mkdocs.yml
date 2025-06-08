@@ -133,6 +133,11 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/bigtreetech
+    - icon: material/sticker-plus
+      link: https://biqu3d.com/pages/submit-a-ticket
+    - icon: fontawesome/solid/store
+      link: https://biqu.equipment
+    
   # Language Selection
   alternate: 
     - name: English
