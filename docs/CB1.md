@@ -260,11 +260,11 @@ Find the device IP address in your router page
 
 <img src=img/Router.png width="500">
 
-Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown below
+Or use the https://angryip.org/ tool, scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown below
 
 <img src=img/AngryIP.png width="500"> 
 
-Open Mobaxtermand click “Session”, and click “SSH”，inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
+Open Mobaxtermand click “Session”, and click “SSH”, inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
 
 <img src=img/MobaXterm_Login.png width="500"> 
 

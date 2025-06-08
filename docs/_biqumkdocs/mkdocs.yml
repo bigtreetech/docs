@@ -120,8 +120,14 @@ theme:
     # - toc.integrate
   language: en
 extra_css:
-  - _biqumkdocs/css/extra.css
+  - assets/css/extra.css
+  - assets/css/katex.min.css
   # - _biqumkdocs/css/zoom.css
+
+extra_javascript:
+  - assets/javascripts/katex.js
+  - assets/javascripts/katex_lib/katex.min.js
+  - assets/javascripts/katex_lib/contrib/auto-render.min.js
 
 # Site usage statistics
 extra:

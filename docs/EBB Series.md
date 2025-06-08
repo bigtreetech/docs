@@ -12,18 +12,14 @@ make menuconfig
 Compile the firmware with the following configuration (if the following options are not available, please update the Klipper firmware source to the latest 
 version).
 
-!!! note 
-  NOTE: EBB36/EBB42 VersionV1.0
+=== "EBB36 EBB 42 V1.1 / v1.2"
+    <img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/>
 
-  <img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/>
-
-!!! note 
-  NOTE: EBB36/EBB42 VersionV1.1
-
-  <img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/>
+=== "EBB36 EBB 42 V1.0"
+    <img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/>
 
 !!! note 
-  Only after [Klipper Pull request 5488](https://github.com/Klipper3d/klipper/pull/5488) is merged into the main branch of Klipper, will the official firmware support the CAN bus function of STM32G0B1. If you use CANBus communication, you can use the firmware_canbus.bin compiled by us on our GitHub, or use our source code to compile it yourself: https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus
+    Only after [Klipper Pull request 5488](https://github.com/Klipper3d/klipper/pull/5488) is merged into the main branch of Klipper, will the official firmware support the CAN bus function of STM32G0B1. If you use CANBus communication, you can use the firmware_canbus.bin compiled by us on our GitHub, or use our source code to compile it yourself: https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus
 
 2.When the configuration is completed, type 'q' to exit the configuration interface. Select "Yes" when asked whether to save the configuration
 

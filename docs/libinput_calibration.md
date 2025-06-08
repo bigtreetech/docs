@@ -1,33 +1,50 @@
 # libinput_calibration
 
-## **Note**
+!!! note "Befor start"
+    The current purpose of this step is only for `TFT35_SPI` resistive touch screen. If your capacitive touch screen (such as HDMI5, HDMI7, Pad7, etc.) has inaccurate touch, you can also experiment with this calibration step, but it may not solve the problem because the capacitive screen has been calibrated before leaving the factory and is directly read from the coordinates, rather than calculated through adc sampling values like a resistive screen.
 
-The current purpose of this step is only for `TFT35_SPI` resistive touch screen. If your capacitive touch screen (such as HDMI5, HDMI7, Pad7, etc.) has inaccurate touch, you can also experiment with this calibration step, but it may not solve the problem because the capacitive screen has been calibrated before leaving the factory and is directly read from the coordinates, rather than calculated through adc sampling values like a resistive screen.</br>
-Anyway, the experiment will not cause any losses
+    Anyway, the experiment will not cause any losses
 
-##  **xinput_calibrator**
+## xinput_calibrator
 
-1.Install `xinput_calibrator`</br>
-```
+### Install `xinput_calibrator`
+
+Use command below to update and install `xinput-calibrator`
+
+``` shell
 sudo apt update
 sudo apt install xinput-calibrator
 ```
-2.Query the ID of the touchscreen, The name of TFT35_SPI is `ns2009` or `TSC2007`, as shown in the figure the id is `6`</br>
-```
+
+### Find ID of touchscreen 
+
+Query the ID of the touchscreen, The name of TFT35_SPI is `ns2009` or `TSC2007`, as shown in the figure the id is `6`
+
+``` shell
 DISPLAY=:0 xinput_calibrator --list
 ```
+
 <img src=img/tft35_spi_id.png width="500"/></br>
-3.Start calibration, Click on the center of the cross that appears one by one on the screen. Replace the id with the actual id found in the previous step. Record the parameters of `click 0 X`, `click 0 Y`, `click 3 X`, and `click 3 Y`, which are required for conversion.</br>
-```
+
+### Start Calibration
+
+Start calibration, Click on the center of the cross that appears one by one on the screen. Replace the id with the actual id found in the previous step. Record the parameters of `click 0 X`, `click 0 Y`, `click 3 X`, and `click 3 Y`, which are required for conversion.
+
+``` shell 
 DISPLAY=:0 xinput_calibrator -v --device <id>
 ```
-<img src=img/tft35_spi_calibration.png width="1200"/>
-  
-## **Convert to libinput**
 
-__The parameter of `xinput_calibrator` cannot be directly used for `libinput` and needs to be converted. Please refer to [here](https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator) for details__</br>
-1.`sudo nano libinput_calibrator.sh` create conversion script, Copy and paste the following content</br>
-```
+<img src=img/tft35_spi_calibration.png width="600"/>
+  
+## Convert to libinput
+
+The parameter of `xinput_calibrator` cannot be directly used for `libinput` and needs to be converted. Please refer to [ArchLinux Wiki](https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator) for details.
+
+### Conversion Script
+
+Use `sudo nano libinput_calibrator.sh` to create conversion script, Copy and paste the following content.
+
+``` bash title="libinput_calibrator.sh"
 #!/bin/bash
 
 #according to https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator
@@ -101,11 +118,17 @@ if [ -e "${CONFIG}" ]; then
     echo "to check if the calibration parameters are effective"
     echo ""
 fi
+```
 
+Use command below to add executable permissions
+
+``` shell
+sudo chmod +x libinput_calibrator.sh
 ```
-2.`sudo chmod +x libinput_calibrator.sh` add executable permissions
-3.run `libinput_calibrator.sh` to convert calibration parameters</br>
-```
+
+Then run `libinput_calibrator.sh` to convert calibration parameters
+
+``` shell 
 sudo ./libinput_calibrator.sh <screen width> <screen height> <click_0 X> <click_0 Y> <click_3 X> <click_3 Y>
 ```
 
@@ -115,19 +138,22 @@ sudo ./libinput_calibrator.sh <screen width> <screen height> <click_0 X> <click_
 `<click_0 Y>`: The `Y` position of `click 0` during the previous step calibration</br>
 `<click_3 X>`: The `X` position of `click 3` during the previous step calibration</br>
 `<click_3 Y>`: The `Y` position of `click 3` during the previous step calibration</br>
-for example:</br>
-```
+
+for example:
+
+``` shell 
 sudo ./libinput_calibrator.sh 480 320 61 35 417 281
 ```
-</br>
+
 The script will automatically convert and write parameters to the configuration file, and then reset KlipperScreen if installed. You can check whether the configuration is effective through the command `DISPLAY=:0 xinput list-props <id>`
-<img src=img/tft35_spi_convert.png width="1200"/>
+<img src=img/tft35_spi_convert.png width="700"/>
 
 ## **FAQ**
 
 **Q: How to rotate TFT35_SPI direction**
 
 A: The direction of `TFT35_SPI` cannot be modified through the configuration in `system.cfg` currently, it can only be rotated by modifying the `.dts` file.
-For detailed steps, please refer to here:</br>
-https://github.com/bigtreetech/TFT35-SPI/issues/7</br>
+
+For detailed steps, please refer to [bigtreetech/TFT35-SPI issues 7](https://github.com/bigtreetech/TFT35-SPI/issues/7)
+
 https://www.youtube.com/watch?v=tA7uRC17F6U

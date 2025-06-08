@@ -1,11 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Directions
-    url: https://bigtreetech.github.io/docs/
-    about: Have a question? Need help? Start here.
-  - name: Biqu Forum
-    url: https://bigtreetech.github.io/docs/
-    about: Biqu community Discourse server.
-  - name: Biqu Chat
-    url: https://bigtreetech.github.io/docs/
-    about: Biqu community Discord chat server.
+  - name: Q&A
+    url: https://github.com/bigtreetech/docs/discussions/categories/q-a
+    about: Have a Question? Need help? Start here.
