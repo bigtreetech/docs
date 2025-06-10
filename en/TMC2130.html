@@ -87,7 +87,9 @@
       
     
     
-      <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
+      <link rel="stylesheet" href="assets/css/extra.css">
+    
+      <link rel="stylesheet" href="assets/css/katex.min.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -2442,9 +2444,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#spi-mode-firmware-change-instructions" class="md-nav__link">
+  <a href="#klipper-spi-mode-config" class="md-nav__link">
     <span class="md-ellipsis">
-      SPI mode firmware change instructions:
+      Klipper SPI mode config
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marlin-spi-mode-firmware-change-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marlin SPI mode firmware change instructions
     </span>
   </a>
   
@@ -2459,15 +2470,6 @@
   <a href="#precautions" class="md-nav__link">
     <span class="md-ellipsis">
       Precautions
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#product-purchase-link" class="md-nav__link">
-    <span class="md-ellipsis">
-      Product Purchase Link
     </span>
   </a>
   
@@ -3230,7 +3232,7 @@
   
   
   <span class="md-ellipsis">
-    pi_custom_logo
+    Config Bigtreetech Pi Startup Logo
     
   </span>
   
@@ -5393,9 +5395,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#spi-mode-firmware-change-instructions" class="md-nav__link">
+  <a href="#klipper-spi-mode-config" class="md-nav__link">
     <span class="md-ellipsis">
-      SPI mode firmware change instructions:
+      Klipper SPI mode config
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marlin-spi-mode-firmware-change-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marlin SPI mode firmware change instructions
     </span>
   </a>
   
@@ -5410,15 +5421,6 @@
   <a href="#precautions" class="md-nav__link">
     <span class="md-ellipsis">
       Precautions
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#product-purchase-link" class="md-nav__link">
-    <span class="md-ellipsis">
-      Product Purchase Link
     </span>
   </a>
   
@@ -5460,7 +5462,7 @@
 <p><img src=img/TMC2130/TMC2130_Title.png width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>TMC2130 is a high-performance two-phase stepper motor driver chip with a standard SPI interface and a simple step/dir interface. Very low noise, high load driver does not lose step.</p>
-<p><strong>Product Link:</strong> https://biqu.equipment/products/btt-tmc2130-v3-0-stepper-motor-driver</p>
+<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/btt-tmc2130-v3-0-stepper-motor-driver">BIGTREETECH Official Website</a></p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
@@ -5503,17 +5505,17 @@
 <li><strong>Passive Braking</strong> and freewheeling mode</li>
 <li><strong>Full Protection &amp; Diagnostics</strong></li>
 </ul>
-<h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
+<h2 id="dimensions">Dimensions<a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
 <p><img src=img/TMC2130/TMC2130_Size1.png width="600"/></p>
 <p><img src=img/TMC2130/TMC2130_Size2.png width="600"/></p>
-<h2 id="hardware-configuration"><strong>Hardware Configuration</strong><a class="headerlink" href="#hardware-configuration" title="Permanent link">&para;</a></h2>
-<h3 id="working-mode"><strong>Working mode </strong><a class="headerlink" href="#working-mode" title="Permanent link">&para;</a></h3>
-<h4 id="stepdir-mode"><strong>STEP/DIR mode</strong><a class="headerlink" href="#stepdir-mode" title="Permanent link">&para;</a></h4>
+<h2 id="hardware-configuration">Hardware Configuration<a class="headerlink" href="#hardware-configuration" title="Permanent link">&para;</a></h2>
+<h3 id="working-mode">Working mode<a class="headerlink" href="#working-mode" title="Permanent link">&para;</a></h3>
+<h4 id="stepdir-mode">STEP/DIR mode<a class="headerlink" href="#stepdir-mode" title="Permanent link">&para;</a></h4>
 <p><img src=img/TMC2130/TMC2130_Step_mode.png width="600"/></p>
 <p>1.SPI position welding 0Ω resistor, making the driver work in STEP/DIR mode.</p>
 <p>2.Working mode selection: SDI (CFG1), SCK (CFG2)</p>
-<p><img src=img/TMC2130/TMC2130_table.png width="600"/></p>
-<h4 id="spi-working-mode-wiring-instructions"><strong>SPI working mode wiring instructions</strong><a class="headerlink" href="#spi-working-mode-wiring-instructions" title="Permanent link">&para;</a></h4>
+<p><img src=img/TMC2130/TMC2130_Table.png width="600"/></p>
+<h4 id="spi-working-mode-wiring-instructions">SPI working mode wiring instructions<a class="headerlink" href="#spi-working-mode-wiring-instructions" title="Permanent link">&para;</a></h4>
 <p>Before wiring, it is necessary to select the hardware operation mode of the driver module:</p>
 <p>1.Solder CFG4 and CFG5 as shown in the purple area (CFG4 is connected to GND, CFG5 is connected to VCC); (Welding is correct to enable spreadcycle mode) </p>
 
@@ -5529,11 +5531,26 @@
 <p>Turn the potentiometer counterclockwise: Increase Vref to increase the driver current.</p>
 <p>The exact voltage of Vref must be measured when the main board is supplied with 12V or 24V.</p>
 <p>Range of Vref values: default: 1V (±0.2); MAX: 2.4V; MIN: 0V;</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
 <p>Do not use too much force when rotating the potentiometer to prevent irreversible damage to the potentiometer; when it is rotated counterclockwise to the maximum value, it will become the minimum value if it continues to rotate; similarly, when it is rotated clockwise to the minimum value, If you continue to rotate, it will become the maximum value;</p>
-
+</div>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
-<h3 id="spi-mode-firmware-change-instructions"><strong>SPI mode firmware change instructions:</strong><a class="headerlink" href="#spi-mode-firmware-change-instructions" title="Permanent link">&para;</a></h3>
-<p>For example，(Marlin-2.0)BIGTREETECH SKR V1.3 ：</p>
+<h3 id="klipper-spi-mode-config">Klipper SPI mode config<a class="headerlink" href="#klipper-spi-mode-config" title="Permanent link">&para;</a></h3>
+<div class="highlight"><span class="filename">printer.cfg</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[tmc2130 stepper_x]
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>cs_pin: PD2
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>spi_software_sclk_pin: PC6
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>spi_software_mosi_pin: PC8
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>spi_software_miso_pin: PC7
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>diag1_pin: ^!PF3
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>run_current: 0.80
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>sense_resistor: 0.110
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>interpolate: True
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>stealthchop_threshold: 0
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>driver_SGT: 0
+</code></pre></div>
+<h3 id="marlin-spi-mode-firmware-change-instructions">Marlin SPI mode firmware change instructions<a class="headerlink" href="#marlin-spi-mode-firmware-change-instructions" title="Permanent link">&para;</a></h3>
+<p>For example，(Marlin-2.0)BIGTREETECH SKR V1.3: </p>
 <p><strong>Configuration.h file：</strong></p>
 <p><img src=img/TMC2130/TMC2130_Config_h.png width="600"/></p>
 <p><strong>Configuration_adv.h file:</strong></p>
@@ -5543,34 +5560,14 @@
 <p><strong>pins_BIGTREE_SKR_V1.3.h file:</strong></p>
 <p><img src=img/TMC2130/TMC2130_Pin.png width="600"/></p>
 <p>After firmware debugging, compile and upload to the motherboard, open e pronterface online Print software, connected to the motherboard can view the SPI mode 2130 drive Dynamic running state.</p>
-
 <h2 id="precautions"><strong>Precautions</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
-<ul>
-<li>
-<p><p>When selecting SPI operation mode for hardware, please use soldering iron carefully to avoid burns. After processing, observe carefully whether there is residual tin residue in the module, and clean it up to prevent short-circuit and burning of the module;</p></p>
-</li>
-<li>
-<p><p>Please pay attention to the wire sequence and IO port when wiring. If the wrong wire is connected,the drive will not work. Connect them as shown above carefully .</p></p>
-</li>
-<li>
-<p><p>When the driver is inserted into the motherboard, please pay attention to see the direction of the drive, can not be inserted in reverse, to prevent the drive from burning;</p></p>
-</li>
-<li>
-<p><p>Be sure to do a good job before driving heat dissipation work (heat sink + fan), to prevent the drive is not working properly</p></p>
-</li>
-</ul>
-<h2 id="product-purchase-link">Product Purchase Link<a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>
-<p><strong>Purchase Link:</strong></p>
-<p>https://biqu.equipment/products/btt-tmc2130-v3-0-stepper-motor-driver</p>
-<p><strong>If you have any issues with the product, please submit a support ticket.</strong></p>
-<p>https://biqu3d.com/pages/submit-a-ticket</p>
-<p><strong>Navigation:</strong></p>
-<p>BIQU Official Website：                                          http://biqu3d.com</p>
-<p>BIGTREETECH Official Website：                            http://bigtree-tech.com</p>
-<p>Online Store：                                                            https://biqu.equipment</p>
-<p>BIGTREETECH Official Group:                                   https://www.facebook.com/groups/bigtreetech</p>
-<p>Discord:                                                                       https://discord.gg/hhZsV7zk</p>
-<p>Reddit:                                                                       https://www.reddit.com/r/BIGTREETECH/</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When selecting SPI operation mode for hardware, please use soldering iron carefully to avoid burns. After processing, observe carefully whether there is residual tin residue in the module, and clean it up to prevent short-circuit and burning of the module.</p>
+<p>Please pay attention to the wire sequence and IO port when wiring. If the wrong wire is connected,the drive will not work. Connect them as shown above carefully.</p>
+<p>When the driver is inserted into the motherboard, please pay attention to see the direction of the drive, can not be inserted in reverse, to prevent the drive from burning.</p>
+<p>Be sure to do a good job before driving heat dissipation work (heat sink + fan), to prevent the drive is not working properly.</p>
+</div>
 
 
 
@@ -5667,6 +5664,28 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://biqu3d.com/pages/submit-a-ticket" target="_blank" rel="noopener" title="biqu3d.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.5 2h-13C3.6 2 2 3.6 2 5.5v13C2 20.4 3.6 22 5.5 22H16l6-6V5.5C22 3.6 20.4 2 18.5 2M13 16h-2v-3H8v-2h3V8h2v3h3v2h-3zm2 4v-1.5c0-1.9 1.6-3.5 3.5-3.5H20z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://biqu.equipment" target="_blank" rel="noopener" title="biqu.equipment" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m547.6 103.8-57.3-90.7C485.2 5 476.1 0 466.4 0H109.6c-9.7 0-18.8 5-23.9 13.1l-57.4 90.7c-29.6 46.8-3.4 111.9 51.9 119.4 4 .5 8.1.8 12.1.8 26.1 0 49.3-11.4 65.2-29 15.9 17.6 39.1 29 65.2 29s49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29 26.2 0 49.3-11.4 65.2-29 16 17.6 39.1 29 65.2 29 4.1 0 8.1-.3 12.1-.8 55.5-7.4 81.8-72.5 52.1-119.4zm-47.9 151.1h-.1c-5.3.7-10.7 1.1-16.2 1.1-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4-5.5 0-11-.4-16.3-1.1H76c-4.1-.6-8.1-1.3-12-2.3V448c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V252.6c-4 1-8 1.8-12.3 2.3"/></svg>
+    </a>
+  
 </div>
       
     </div>
@@ -5685,6 +5704,12 @@
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="assets/javascripts/katex.js"></script>
+      
+        <script src="assets/javascripts/katex_lib/katex.min.js"></script>
+      
+        <script src="assets/javascripts/katex_lib/contrib/auto-render.min.js"></script>
       
     
   </body>

@@ -87,7 +87,9 @@
       
     
     
-      <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
+      <link rel="stylesheet" href="assets/css/extra.css">
+    
+      <link rel="stylesheet" href="assets/css/katex.min.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -2446,21 +2448,36 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Software Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#klipper-config-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Klipper Config Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marlin-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marlin Config
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#precautions" class="md-nav__link">
     <span class="md-ellipsis">
       Precautions
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#product-purchase-link" class="md-nav__link">
-    <span class="md-ellipsis">
-      Product Purchase Link
     </span>
   </a>
   
@@ -3200,7 +3217,7 @@
   
   
   <span class="md-ellipsis">
-    pi_custom_logo
+    Config Bigtreetech Pi Startup Logo
     
   </span>
   
@@ -5344,21 +5361,36 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Software Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#klipper-config-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Klipper Config Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marlin-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marlin Config
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#precautions" class="md-nav__link">
     <span class="md-ellipsis">
       Precautions
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#product-purchase-link" class="md-nav__link">
-    <span class="md-ellipsis">
-      Product Purchase Link
     </span>
   </a>
   
@@ -5413,7 +5445,7 @@
 
 <p>TMC5130 series to higher voltages and higher motor currents.</p>
 
-<p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-tmc5160-v1-0-driver-spi-mode-silent-high-precision-stepstick-stepper-motor-driver-with-heatsink-for-skr-v1-3-gen-v1-4-reprap</p>
+<p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/bigtreetech-tmc5160-v1-0-driver-spi-mode-silent-high-precision-stepstick-stepper-motor-driver-with-heatsink-for-skr-v1-3-gen-v1-4-reprap">BIGTREETECH Official Website</a></p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
@@ -5484,45 +5516,46 @@
 
 <p><img src=img/TMC5160/TMC5160_Hardware.png width="600"/></p>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
-<p><strong>Special note : Currently only firmware of Marlin 2.0 and above supports the SPI mode of TMC5160.</strong></p>
-<p>Find and open “Configuration.h” in Marlin 2.0 firmware File, and then find "# define MOTHERBOARD XXXXXX" and "XXXXX"Represents the type of board used. Confirm the motherboard you use.</p>
-
+<h3 id="klipper-config-example">Klipper Config Example<a class="headerlink" href="#klipper-config-example" title="Permanent link">&para;</a></h3>
+<div class="highlight"><span class="filename">printer.cfg</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[tmc5160 stepper_x]
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>cs_pin: PD2
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>spi_software_sclk_pin: PC6
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>spi_software_mosi_pin: PC8
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>spi_software_miso_pin: PC7
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>run_current: 0.80
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>sense_resistor: 0.075
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>interpolate: True
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>stealthchop_threshold: 0
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>diag1_pin: ^!PF3
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>driver_SGT: 0
+</code></pre></div>
+<h3 id="marlin-config">Marlin Config<a class="headerlink" href="#marlin-config" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Marlin version</p>
+<p>Currently only firmware of Marlin 2.0 and above supports the SPI mode of TMC5160.</p>
+</div>
+<p>Find and open <code>Configuration.h</code> in Marlin 2.0 firmware File, and then find <code># define MOTHERBOARD XXXXXX</code> and <code>XXXXX</code> Represents the type of board used. Confirm the motherboard you use.</p>
 <p><img src=img/TMC5160/TMC5160_Config.png width="600"/></p>
-<p>Find the "pins_xxxxxx.h" file (xxxx represents the model of the board) in the Marlin \src \pins directory, and then find "X_CS_PIN", "Y_CS_PIN", "Z_CS_PIN", "EO_CS_PIN" under the file.Finally modify the following pin name to the pin you use.</p>
+<p>Find the <code>pins_xxxxxx.h</code> file (xxxx represents the model of the board) in the Marlin <code>./src/pins</code> directory, and then find <code>X_CS_PIN</code>, <code>Y_CS_PIN</code>, <code>Z_CS_PIN</code>, <code>EO_CS_PIN</code> under the file.Finally modify the following pin name to the pin you use.</p>
 <p><img src=img/TMC5160/TMC5160_Pins.png width="600"/></p>
-<p>Find "#define TMC_SW_MOSI XXX", "#define TMC_SW_MISO XXX", "#define TMC_SW_SCK XXX" under the file in Step 2. Modify "XXX" to the pin you want to use.</p>
+<p>Find <code>#define TMC_SW_MOSI XXX</code>, <code>#define TMC_SW_MISO XXX</code>, <code>#define TMC_SW_SCK XXX</code> under the file in Step 2. Modify <code>XXX</code> to the pin you want to use.</p>
 <p><img src=img/TMC5160/TMC5160_Pins1.png width="600"/></p>
-<p>Find and open "Configuration_adv.h" and then find " define TMC_USE_SW_SPI" to remove the shield "//". </p>
+<p>Find and open <code>Configuration_adv.h</code> and then find <code>#define TMC_USE_SW_SPI</code> to remove the comment <code>//</code> to enable. </p>
 <p><img src=img/TMC5160/TMC5160_Configadv_h.png width="600"/></p>
-<p>Under the "Configuration_adv.h" file, find "# define X_CURRENT", "#define X_MICROSTEPS", "#define X_RSENSE". After modification of the parameters (the axes used need to be modified), the RSENE of the axes used should be changed to "0.075"</p>
+<p>Under the <code>Configuration_adv.h</code> file, find <code>#define X_CURRENT</code>, <code>#define X_MICROSTEPS</code>, <code>#define X_RSENSE</code>. After modification of the parameters (the axes used need to be modified), the <code>RSENE</code> of the axes used should be changed to <code>0.075</code></p>
 <p><img src=img/TMC5160/TMC5160_Configadv_h1.png width="600"/></p>
-<p>After the modification of Step 5 is completed, find and open "Configuration. h" and then find "# define" DEFAULT_AXIS_STEPS_PER_UNIT" modifies the following parameters to set the subdivision, which must correspond to the subdivision of step 5. </p>
-<p>Subdivision calculation method, "80, 80, 400, 96" represents 16 subdivisions. If modified to 32 subdivisions, it will be "80<em> (32/16), 80</em> (32/16), 400<em> (32/16), 96</em> (32/16).</p>
+<p>After the modification of Step 5 is completed, find and open <code>Configuration.h</code> and then find <code>#define DEFAULT_AXIS_STEPS_PER_UNIT</code> modifies the following parameters to set the subdivision, which must correspond to the subdivision of step 5.</p>
+<p>Subdivision calculation method, <code>80, 80, 400, 96</code> represents 16 subdivisions. If modified to 32 subdivisions, it will be <code>80 * (32/16), 80 * (32/16), 400 * (32/16), 96 * (32/16)</code>.</p>
 <p><img src=img/TMC5160/TMC5160_Config1.png width="600"/></p>
 <h2 id="precautions"><strong>Precautions</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
-<ul>
-<li>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
 <p>Always disconnect the power supply before installing the driver to prevent the driver from burning.</p>
-</li>
-<li>
 <p>Be sure to confirm the direction of the driver before installing the driver. Prevent the driver from burning due to reverse connection.</p>
-</li>
-<li>Please do not plug and unplug the driver module when power is on to avoid damage.</li>
-<li>When installing the heat sink, please be careful not to contact the heat sink and the pin header to prevent short circuit.</li>
-<li>The product is sensitive to static electricity, please handle it carefully when using, it is best to remove the package when using.</li>
-</ul>
-<h2 id="product-purchase-link">Product Purchase Link<a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>
-<p><strong>Purchase Link:</strong></p>
-<p>https://biqu.equipment/products/bigtreetech-tmc5160-v1-0-driver-spi-mode-silent-high-precision-stepstick-stepper-motor-driver-with-heatsink-for-skr-v1-3-gen-v1-4-reprap</p>
-<p><strong>If you have any issues with the product, please submit a support ticket.</strong></p>
-<p>https://biqu3d.com/pages/submit-a-ticket</p>
-<p><strong>Navigation:</strong></p>
-<p>BIQU Official Website：                                          http://biqu3d.com</p>
-<p>BIGTREETECH Official Website：                            http://bigtree-tech.com</p>
-<p>Online Store：                                                            https://biqu.equipment</p>
-<p>BIGTREETECH Official Group:                                   https://www.facebook.com/groups/bigtreetech</p>
-<p>Discord:                                                                       https://discord.gg/hhZsV7zk</p>
-<p>Reddit:                                                                       https://www.reddit.com/r/BIGTREETECH/</p>
+<p>Please do not plug and unplug the driver module when power is on to avoid damage.</p>
+<p>When installing the heat sink, please be careful not to contact the heat sink and the pin header to prevent short circuit.</p>
+<p>The product is sensitive to static electricity, please handle it carefully when using, it is best to remove the package when using.</p>
+</div>
 
 
 
@@ -5619,6 +5652,28 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://biqu3d.com/pages/submit-a-ticket" target="_blank" rel="noopener" title="biqu3d.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.5 2h-13C3.6 2 2 3.6 2 5.5v13C2 20.4 3.6 22 5.5 22H16l6-6V5.5C22 3.6 20.4 2 18.5 2M13 16h-2v-3H8v-2h3V8h2v3h3v2h-3zm2 4v-1.5c0-1.9 1.6-3.5 3.5-3.5H20z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://biqu.equipment" target="_blank" rel="noopener" title="biqu.equipment" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m547.6 103.8-57.3-90.7C485.2 5 476.1 0 466.4 0H109.6c-9.7 0-18.8 5-23.9 13.1l-57.4 90.7c-29.6 46.8-3.4 111.9 51.9 119.4 4 .5 8.1.8 12.1.8 26.1 0 49.3-11.4 65.2-29 15.9 17.6 39.1 29 65.2 29s49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29 26.2 0 49.3-11.4 65.2-29 16 17.6 39.1 29 65.2 29 4.1 0 8.1-.3 12.1-.8 55.5-7.4 81.8-72.5 52.1-119.4zm-47.9 151.1h-.1c-5.3.7-10.7 1.1-16.2 1.1-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4-5.5 0-11-.4-16.3-1.1H76c-4.1-.6-8.1-1.3-12-2.3V448c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V252.6c-4 1-8 1.8-12.3 2.3"/></svg>
+    </a>
+  
 </div>
       
     </div>
@@ -5637,6 +5692,12 @@
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="assets/javascripts/katex.js"></script>
+      
+        <script src="assets/javascripts/katex_lib/katex.min.js"></script>
+      
+        <script src="assets/javascripts/katex_lib/contrib/auto-render.min.js"></script>
       
     
   </body>

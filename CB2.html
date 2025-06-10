@@ -87,7 +87,9 @@
       
     
     
-      <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
+      <link rel="stylesheet" href="assets/css/extra.css">
+    
+      <link rel="stylesheet" href="assets/css/katex.min.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -3375,7 +3377,7 @@
   
   
   <span class="md-ellipsis">
-    pi_custom_logo
+    Config Bigtreetech Pi Startup Logo
     
   </span>
   
@@ -7040,174 +7042,364 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
 <p>GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31</p>
 <h2 id="flashing-the-system"><strong>Flashing the System</strong><a class="headerlink" href="#flashing-the-system" title="Permanent link">&para;</a></h2>
 <h3 id="download-the-system-image">Download the System Image<a class="headerlink" href="#download-the-system-image" title="Permanent link">&para;</a></h3>
-<p>Only use the image provided in the link: https://github.com/bigtreetech/CB2/releases</p>
+<p>Only use the image provided in <a href="https://github.com/bigtreetech/CB2/releases/latest">bigtreetech/CB2/releases</a></p>
 <h3 id="write-system-to-microsd-card">Write System to MicroSD Card<a class="headerlink" href="#write-system-to-microsd-card" title="Permanent link">&para;</a></h3>
-<p>1、Download the balenaEtcher software from [https://www.balena.io/etcher/], install, and run it.</p>
-<p>2、Insert the MicroSD card via a card reader. </p>
-<p>3、Select your downloaded image.</p>
-<p><img src=img/CB2/CB2_System1.png width="600" /></p>
-<p>4、Select the MicroSD card and click "Flash" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted). </p>
-<p><img src=img/CB2/CB2_System2.png width="600" /></p>
-<p>5、Wait for the process to complete.</p>
-<p><img src=img/CB2/CB2_System3.png width="600" /></p>
+<ol>
+<li>
+<p>Download the balenaEtcher software from <a href="https://www.balena.io/etcher/">balena.io/etcher</a>, install, and run it.</p>
+</li>
+<li>
+<p>Insert the MicroSD card via a card reader. </p>
+</li>
+<li>
+<p>Select your downloaded image.</p>
+<p><img src=img/CB2/CB2_System1.png width="450" /></p>
+</li>
+<li>
+<p>Select the MicroSD card and click "Flash" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted). </p>
+<p><img src=img/CB2/CB2_System2.png width="450" /></p>
+</li>
+<li>
+<p>Wait for the process to complete.</p>
+<p><img src=img/CB2/CB2_System3.png width="450" /></p>
+</li>
+</ol>
 <h3 id="writing-system-onto-emmc">Writing System onto eMMC<a class="headerlink" href="#writing-system-onto-emmc" title="Permanent link">&para;</a></h3>
 <p>Using RKDevTool (Windows) to Write the eMMC </p>
-<p>Download and unzip RKDevTool from the GitHub repository (https://github.com/bigtreetech/CB2) to your computer. DO NOT insert a MicroSD card.</p>
-<p>1、Turn the DIP switch 4 (USBOTG) and 3 (RPIBOOT) to the ON position to enter BOOT mode.</p>
-<p><img src=img/CB2/CB2_System4.png width="600" /></p>
-<p>2、Then, connect the Type-C cable to the computer.</p>
-<p>3、Install the driver:</p>
-<p>​   ① In “Device Manager”, if you see “Unknown Device”, it indicates that the computer is missing drivers.</p>
-<p><img src=img/CB2/CB2_System5.png width="600" /></p>
-<p>​   ② Open the DriverAssistant tool in the downloaded RKDevTool folder, click “①Uninstall Driver”, then click “② Install Driver” to ensure that the latest version of the driver is installed.</p>
-<p><img src=img/CB2/CB2_System6.png width="600" /></p>
-<p>③After the installation is complete, hold down the “Recovery” button, replug the Type-C cable. "Device Manager" should now recognize a “Rockusb Device”, indicating that the driver installation is successful.</p>
-<p><img src=img/CB2/CB2_System7.png width="600" /></p>
-<p>​   ④Open the “RKDevTool” software:</p>
-<p><img src=img/CB2/CB2_System8.png width="600" /></p>
-<p><strong>Note:</strong> The parameters in the software are set by default as shown in the image. Normally, you only need to set the “④ actual path of the .img system”. If the parameters in your software do not match those in the image, manually adjust them to match.</p>
+<p>Download and unzip <code>RKDevTool.zip</code> from the GitHub repo <a href="https://github.com/bigtreetech/CB2">bigtreetech/CB2</a> to your computer. <strong>DO NOT</strong> insert a MicroSD card.</p>
+<ol>
+<li>
+<p>Turn the DIP switch 4 (USBOTG) and 3 (RPIBOOT) to the ON position to enter BOOT mode.</p>
+<p><img src=img/CB2/CB2_System4.png width="450" /></p>
+</li>
+<li>
+<p>Then, connect the Type-C cable to the computer.</p>
+</li>
+<li>
+<p>Install the driver:</p>
+<ol>
+<li>
+<p>In “Device Manager”, if you see “Unknown Device”, it indicates that the computer is missing drivers.</p>
+<p><img src=img/CB2/CB2_System5.png width="450" /></p>
+</li>
+<li>
+<p>Open the DriverAssistant tool in the downloaded RKDevTool folder, click “①Uninstall Driver”, then click “② Install Driver” to ensure that the latest version of the driver is installed.</p>
+<p><img src=img/CB2/CB2_System6.png width="450" /></p>
+</li>
+<li>
+<p>After the installation is complete, hold down the “Recovery” button, replug the Type-C cable. "Device Manager" should now recognize a “Rockusb Device”, indicating that the driver installation is successful.</p>
+<p><img src=img/CB2/CB2_System7.png width="450" /></p>
+</li>
+</ol>
+</li>
+<li>
+<p>Open the “RKDevTool” software:</p>
+<p><img src=img/CB2/CB2_System8.png width="450" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The parameters in the software are set by default as shown in the image. Normally, you only need to set the “4 actual path of the .img system”. If the parameters in your software do not match those in the image, manually adjust them to match.</p>
 <p><img src=img/CB2/CB2_System9.png width="600" /></p>
-<p>①Find the path where the downloaded RKDevTool is located.</p>
-<p>②Open the RKDevTool tool.</p>
-<p>③The software will recognize a “LOADER” or “MASKROOM” device.</p>
-<p>④Select the system to be written (the OS image must be unzipped as a .img file beforehand; RKDevTool does not support directly writing compressed .xz files).</p>
-<p>⑤Check “Write by Address”.</p>
-<p>⑥Click “Run” to start writting the system.</p>
-<p>⑦“Download image OK” indicates that the system has been successfully burned.</p>
-<p>5、After writing is complete, toggle the USB OTG switch to the OFF position to boot normally. Note: Files on the eMMC cannot be accessed by the computer like those on a MicroSD card, so you cannot modify the system.cfg configuration file to set up the WiFi network. Instead, use an Ethernet cable or USB-to-UART connection to configure the terminal.</p>
+</div>
+<ol>
+<li>
+<p>Find the path where the downloaded RKDevTool is located.</p>
+</li>
+<li>
+<p>Open the RKDevTool tool.</p>
+</li>
+<li>
+<p>The software will recognize a “LOADER” or “MASKROOM” device.</p>
+</li>
+<li>
+<p>Select the system to be written (the OS image must be unzipped as a .img file beforehand; RKDevTool does not support directly writing compressed .xz files).</p>
+</li>
+<li>
+<p>Check “Write by Address”.</p>
+</li>
+<li>
+<p>Click “Run” to start writting the system.</p>
+</li>
+<li>
+<p>“Download image OK” indicates that the system has been successfully burned.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>After writing is complete, toggle the USB OTG switch to the OFF position to boot normally. Note: Files on the eMMC cannot be accessed by the computer like those on a MicroSD card, so you cannot modify the system.cfg configuration file to set up the WiFi network. Instead, use an Ethernet cable or USB-to-UART connection to configure the terminal.</p>
+</li>
+</ol>
 <h3 id="writing-system-onto-emmc-using-a-microsd-card">Writing System onto eMMC Using a MicroSD Card<a class="headerlink" href="#writing-system-onto-emmc-using-a-microsd-card" title="Permanent link">&para;</a></h3>
-<p>1、First, write the system onto the MicroSD card. Then, insert the MicroSD card into the motherboard's card slot and wait for the system to boot.</p>
-<p>2、Connect to the system terminal via Ethernet cable, WiFi, or USB to UART, and log in to the system.</p>
-<p>login: <code>biqu</code></p>
-<p>password: <code>biqu</code></p>
-<p>Execute the command sudo nand-sata-install. In the interface that pops up, select "2 </p>
-<p>Boot From eMMC - system on eMMC" and then select "OK"</p>
-<p><img src=img/CB2/CB2_System10.png width="600" /></p>
-<p>①Select "Yes" to start erasing and writing the system onto the eMMC.</p>
-<p><img src=img/CB2/CB2_System11.png width="600" /></p>
-<p>②Choose the filesystem "1 ext4" and then select "OK".</p>
-<p><img src=img/CB2/CB2_System12.png width="600" /></p>
-<p>③Wait for the writing process to complete.</p>
-<p><img src=img/CB2/CB2_System13.png width="600" /></p>
-<p>④Upon completion, you will be prompted whether to power off. Select “Power off” to shut down the system.</p>
-<p><img src=img/CB2/CB2_System14.png width="600" /></p>
-<p>⑤After the system has powered down, disconnect the power supply, remove the MicroSD card, and then reconnect power. The system should now boot from the eMMC.</p>
+<ol>
+<li>
+<p>First, write the system onto the MicroSD card. Then, insert the MicroSD card into the motherboard's card slot and wait for the system to boot.</p>
+</li>
+<li>
+<p>Connect to the system terminal via Ethernet cable, WiFi, or USB to UART, and log in to the system.</p>
+<p>CB2 image minimal username and password</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>login<span class="w"> </span>as:<span class="w"> </span>root
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>password:<span class="w"> </span>root
+</code></pre></div>
+<p>CB2 image with Klipper username and password</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>login<span class="w"> </span>as:<span class="w"> </span>biqu
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>password:<span class="w"> </span>biqu
+</code></pre></div>
+<p>root account</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>login<span class="w"> </span>as:<span class="w"> </span>root
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>password:<span class="w"> </span>root
+</code></pre></div>
+</li>
+</ol>
+<p>Execute the command sudo nand-sata-install. In the interface that pops up, select <code>2 Boot From eMMC - system on eMMC</code> and then select <code>OK</code></p>
+<p><img src=img/CB2/CB2_System10.png width="500" /></p>
+<ol>
+<li>
+<p>Select "Yes" to start erasing and writing the system onto the eMMC.</p>
+<p><img src=img/CB2/CB2_System11.png width="500" /></p>
+</li>
+<li>
+<p>Choose the filesystem "1 ext4" and then select "OK".</p>
+<p><img src=img/CB2/CB2_System12.png width="500" /></p>
+</li>
+<li>
+<p>Wait for the writing process to complete.</p>
+<p><img src=img/CB2/CB2_System13.png width="500" /></p>
+</li>
+<li>
+<p>Upon completion, you will be prompted whether to power off. Select “Power off” to shut down the system.</p>
+<p><img src=img/CB2/CB2_System14.png width="500" /></p>
+</li>
+<li>
+<p>After the system has powered down, disconnect the power supply, remove the MicroSD card, and then reconnect power. The system should now boot from the eMMC.</p>
+</li>
+</ol>
 <h3 id="erasing-emmc">Erasing eMMC<a class="headerlink" href="#erasing-emmc" title="Permanent link">&para;</a></h3>
 <p>When using a MicroSD card as the system card instead, it's best to erase the data on the eMMC to prevent the motherboard from booting from it by mistake.</p>
 <h4 id="using-rkdevtool-windows-to-erase-emmc">Using RKDevTool (Windows) to Erase eMMC<a class="headerlink" href="#using-rkdevtool-windows-to-erase-emmc" title="Permanent link">&para;</a></h4>
-<p>1、Refer to the steps in "4.3.1 Using RKDevTool to Write the eMMC (Windows)" to connect the motherboard to the computer.</p>
-<p>2、Open the "RKDevTool".</p>
+<ol>
+<li>
+<p>Refer to the steps in <a href="#writing-system-onto-emmc">Using RKDevTool to Write the eMMC (Windows)</a> to connect the motherboard to the computer.</p>
+</li>
+<li>
+<p>Open the <code>RKDevTool</code>.</p>
 <p><img src=img/CB2/CB2_System15.png width="450" /></p>
-<p>①Find the path where the downloaded RKDevTool is located.</p>
-<p>②Open the RKDevTool.</p>
-<p>③The software will recognize a "LOADER" device. If it recognizes "MASKROOM," it indicates there is no data in the eMMC, hence no erase operation is necessary.</p>
-<p>④Click "Advanced Function."</p>
-<p>⑤Click "EraseAll" to begin erasing data from the eMMC.</p>
-<p>⑥"Erasing sectors success" indicates the erasure is complete.</p>
+<ol>
+<li>
+<p>Find the path where the downloaded RKDevTool is located.</p>
+</li>
+<li>
+<p>Open the RKDevTool.</p>
+</li>
+<li>
+<p>The software will recognize a <code>LOADER</code> device. If it recognizes <code>MASKROOM</code>, it indicates there is no data in the eMMC, hence no erase operation is necessary.</p>
+</li>
+<li>
+<p>Click <code>Advanced Function</code>.</p>
+</li>
+<li>
+<p>Click <code>EraseAll</code> to begin erasing data from the eMMC.</p>
+</li>
+<li>
+<p><code>Erasing sectors success</code> indicates the erasure is complete.</p>
+</li>
+</ol>
+</li>
+</ol>
 <h4 id="erasing-emmc-after-booting-from-microsd-card">Erasing eMMC After Booting from MicroSD Card<a class="headerlink" href="#erasing-emmc-after-booting-from-microsd-card" title="Permanent link">&para;</a></h4>
-<p>1、Refer to the steps in "4.3.2 Writing System onto eMMC Using a MicroSD Card" and log into the system terminal. </p>
-<p>2、Run the command sudo mkfs /dev/mmcblk1 and then enter "y" to confirm. </p>
+<ol>
+<li>
+<p>Refer to the steps in <a href="#writing-system-onto-emmc-using-a-microsd-card">Writing System onto eMMC Using a MicroSD Card</a> and log into the system terminal.</p>
+</li>
+<li>
+<p>Run the command sudo mkfs /dev/mmcblk1 and then enter <code>y</code> to confirm. </p>
 <p><img src=img/CB2/CB2_System16.png width="600" /></p>
-<h2 id="system-configuration"><strong>System Configuration</strong><a class="headerlink" href="#system-configuration" title="Permanent link">&para;</a></h2>
+</li>
+</ol>
+<h2 id="system-configuration">System Configuration<a class="headerlink" href="#system-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="using-ethernet">Using Ethernet<a class="headerlink" href="#using-ethernet" title="Permanent link">&para;</a></h3>
 <p>Ethernet is plug-and-play and requires no additional setup.</p>
 <h3 id="setting-up-wifi">Setting Up WiFi<a class="headerlink" href="#setting-up-wifi" title="Permanent link">&para;</a></h3>
-<p>After the system image has been written, the MicroSD card will have a FAT32 partition recognized by the computer. In this partition, there is a "system.cfg" file. Open it and replace "Your SSID" with your actual WiFi name and "Your Password" with the actual password.</p>
-<p><img src=img/CB2/CB2_System17.png width="600" /></p>
+<p>After the system image has been written, the MicroSD card will have a FAT32 partition recognized by the computer. In this partition, there is a <code>system.cfg</code> file. Open it and replace <code>Your SSID</code> with your actual WiFi name and <code>Your Password</code> with the actual password.</p>
+<p><img src=img/CB2/CB2_System17.png width="500"/></p>
 <h3 id="configuring-overlays">Configuring Overlays<a class="headerlink" href="#configuring-overlays" title="Permanent link">&para;</a></h3>
-<p>Open the "armbianEnv.txt" file in the BOOT partition and set the values for overlays. The configuration file supports only one line of overlays at a time; if multiple overlays are enabled, only the last line will take effect. If you need multiple overlays, place the contents of multiple configurations on the same line separated by a space. For example, if you need to use a DSI screen, MCP2515 SPI to CAN module, and I2C1 simultaneously:</p>
-<p>overlays=dsi mcp2515 i2c1</p>
+<p>Open the <code>armbianEnv.txt</code> file in the BOOT partition and set the values for overlays. The configurati   on file supports only one line of overlays at a time; if multiple overlays are enabled, only the last line will take effect. If you need multiple overlays, place the contents of multiple configurations on the same line separated by a space. For example, if you need to use a DSI screen, <code>MCP2515</code> SPI to CAN module, and <code>I2C1</code> simultaneously</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>overlays=dsi mcp2515 i2c1
+</code></pre></div>
 <p><img src=img/CB2/CB2_System18.png width="600" /></p>
 <h3 id="configuring-the-display">Configuring the Display<a class="headerlink" href="#configuring-the-display" title="Permanent link">&para;</a></h3>
-<p>1、Open the "armbianEnv.txt" file in the BOOT partition.</p>
+<ol>
+<li>
+<p>Open the "armbianEnv.txt" file in the BOOT partition.</p>
 <p><img src=img/CB2/CB2_System19.png width="600" /></p>
-<p>2、The default overlay is set to "hdmi," meaning the system uses an HDMI screen by default. This can be changed to match the actual screen being used, such as: </p>
-<p>· "hdmi": <a href="https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0">HDMI screen</a></p>
-<p>· "dsi": <a href="https://biqu.equipment/collections/lcd/products/bigtreetech-pi-tft43-v2-0-screen-board">DSI screen</a></p>
-<p>· "tft_35": <a href="https://biqu.equipment/collections/lcd/products/bigtreetech-tft35-spi-v2-1-touchscreen-io2can-module">SPI Screen</a></p>
-<p>· </p>
-<p>For "tft_35", there is also a "tft35_spi_rotate" parameter for system-level screen rotation, with default "0" meaning no rotation, other options include "90", "180", "270".</p>
-<p><strong>Note:</strong> Only one screen type can be used at a time. </p>
-<p>3、To configure KlipperScreen, open the <code>system.cfg</code> file in the BOOT partition. Set the screen type with the parameter <code>ks_src</code>, and the rotation angle with <code>ks_angle</code>.</p>
-<p><img src=img/CB2/CB2_System20.png width="600" /></p>
+</li>
+<li>
+<p>The default overlay is set to "hdmi," meaning the system uses an HDMI screen by default. This can be changed to match the actual screen being used, such as: </p>
+</li>
+<li>
+<p><code>hdmi</code>: <a href="https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0">HDMI screen</a></p>
+</li>
+<li>
+<p><code>dsi</code>: <a href="https://biqu.equipment/collections/lcd/products/bigtreetech-pi-tft43-v2-0-screen-board">DSI screen</a></p>
+</li>
+<li>
+<p><code>tft_35</code>: <a href="https://biqu.equipment/collections/lcd/products/bigtreetech-tft35-spi-v2-1-touchscreen-io2can-module">SPI Screen</a></p>
+</li>
+</ol>
+<p>For <code>tft_35</code>, there is also a <code>tft35_spi_rotate</code> parameter for system-level screen rotation, with default "0" meaning no rotation, other options include <code>90</code>, <code>180</code>, <code>270</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only one screen type can be used at a time. </p>
+</div>
+<ol>
+<li>To configure KlipperScreen, open the <code>system.cfg</code> file in the BOOT partition. Set the screen type with the parameter <code>ks_src</code>, and the rotation angle with <code>ks_angle</code>.</li>
+</ol>
+<p><img src=img/CB2/CB2_System20.png width="500" /></p>
 <h3 id="using-spi-to-can">Using SPI to CAN<a class="headerlink" href="#using-spi-to-can" title="Permanent link">&para;</a></h3>
-<p>Open the "armbianEnv.txt" file in the BOOT partition and add "mcp2515" to the overlays configuration.</p>
-<p><img src=img/CB2/CB2_System21.png width="600" /></p>
+<p>Open the <code>armbianEnv.txt</code> file in the BOOT partition and add <code>mcp2515</code> to the overlays configuration.</p>
+<p><img src=img/CB2/CB2_System21.png width="500" /></p>
 <h3 id="using-csi-camera-and-crowsnest-configuration">Using CSI Camera and Crowsnest Configuration<a class="headerlink" href="#using-csi-camera-and-crowsnest-configuration" title="Permanent link">&para;</a></h3>
 <p>For both RPi v1.3 ov5647 and RPi v2 imx219 cameras, no specific configuration in "armbianEnv.txt" is required as they are plug-and-play. "crowsnest.conf" file configuration is as follows:</p>
-<p><font  color="blue"><strong>device: /dev/video0</strong></font> # The CSI camera node is fixed as video0</p>
-<p><font  color="blue"><strong>custom_flags: --format=UYVY</strong></font> # The current system's CSI camera does not support the default YUYV, so it needs to be set to the supported UYVY format.</p>
-<p><img src=img/CB2/CB2_System22.png width="600" /></p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>device: /dev/video0
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a># The CSI camera node is fixed as video0
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>custom_flags: --format=UYVY
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a># The current system&#39;s CSI camera does not support the default YUYV, so it needs to be set to the supported UYVY format.
+</code></pre></div>
+<img src=img/CB2/CB2_System22.png width="500" /></p>
 <h3 id="using-bluetooth">Using Bluetooth<a class="headerlink" href="#using-bluetooth" title="Permanent link">&para;</a></h3>
-<p>1、To scan for Bluetooth devices, enter the following command, and a list of Bluetooth devices will appear as shown below:</p>
-<p><font  color="blue"><strong>bluetoothctl --timeout 15 scan on</strong></font></p>
-<p><img src=img/CB2/CB2_System23.png width="600" /></p>
-<p>2、Find your Bluetooth device, for example, if your device name is "HONOR xSport PRO", locate the corresponding Bluetooth MAC ID as shown below.</p>
-<p><img src=img/CB2/CB2_System24.png width="600" /></p>
-<p>3、To connect to a Bluetooth device, enter the following command, connection success is shown as below</p>
-<p><font  color="blue"><strong>bluetoothctl connect E0:9D:FA:50:CD:4F</strong></font></p>
-<p><img src=img/CB2/CB2_System25.png width="600" /></p>
-<p>①If there's an issue while connecting, as shown below, please restart the Bluetooth device and repeat steps 1 and 2 to connect.</p>
-<p><img src=img/CB2/CB2_System26.png width="600" /></p>
-<p>②If there's an issue while connecting, as shown below, please enter the following commands and then repeat steps 1 and 2:</p>
-<p><font  color="blue"><strong>bluetoothctl remove E0:9D:FA:50:CD:4F</strong></font> <font  color="red"><strong>(Your Bluetooth device's corresponding MAC ID)</strong></font></p>
-<p><font  color="blue"><strong>rfkill block bluetooth</strong></font></p>
-<p><font  color="blue"><strong>sleep 3s</strong></font></p>
-<p><font  color="blue"><strong>rfkill unblock bluetooth</strong></font></p>
-<p><font  color="blue"><strong>pulseaudio -k</strong></font></p>
-<p><font  color="blue"><strong>pulseaudio –start</strong></font></p>
-<p><img src=img/CB2/CB2_System27.png width="600" /></p>
-<p>4、 If you exit voice playback during the use of Bluetooth and cannot reuse it, manually delete the corresponding playback process. Use the ps command to view the process number, then use kill -9 process_number to delete the corresponding playback process.</p>
-<p><img src=img/CB2/CB2_System28.png width="600" /></p>
+<ol>
+<li>
+<p>To scan for Bluetooth devices, enter the following command, and a list of Bluetooth devices will appear as shown below:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>bluetoothctl<span class="w"> </span>--timeout<span class="w"> </span><span class="m">15</span><span class="w"> </span>scan<span class="w"> </span>on
+</code></pre></div>
+<p><img src=img/CB2/CB2_System23.png width="500" /></p>
+</li>
+<li>
+<p>Find your Bluetooth device, for example, if your device name is "HONOR xSport PRO", locate the corresponding Bluetooth MAC ID as shown below.</p>
+<p><img src=img/CB2/CB2_System24.png width="500" /></p>
+</li>
+<li>
+<p>To connect to a Bluetooth device, enter the following command, connection success is shown as below</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>bluetoothctl<span class="w"> </span>connect<span class="w"> </span>E0:9D:FA:50:CD:4F
+</code></pre></div>
+<p><img src=img/CB2/CB2_System25.png width="500" /></p>
+<ol>
+<li>
+<p>If there's an issue while connecting, as shown below, please restart the Bluetooth device and repeat steps 1 and 2 to connect.</p>
+<p><img src=img/CB2/CB2_System26.png width="500" /></p>
+</li>
+<li>
+<p>If there's an issue while connecting, as shown below, please enter the following commands and then repeat steps 1 and 2:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>bluetoothctl<span class="w"> </span>remove<span class="w"> </span>E0:9D:FA:50:CD:4F<span class="w"> </span><span class="c1"># Your Bluetooth device&#39;s corresponding MAC ID</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>rfkill<span class="w"> </span>block<span class="w"> </span>bluetooth
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>sleep<span class="w"> </span>3s
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>rfkill<span class="w"> </span>unblock<span class="w"> </span>bluetooth
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>pulseaudio<span class="w"> </span>-k
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>pulseaudio<span class="w"> </span>–start
+</code></pre></div>
+<p><img src=img/CB2/CB2_System27.png width="500" /></p>
+</li>
+</ol>
+</li>
+<li>
+<p>If you exit voice playback during the use of Bluetooth and cannot reuse it, manually delete the corresponding playback process. Use the ps command to view the process number, then use <code>kill -9 &lt;process_number&gt;</code> to delete the corresponding playback process.</p>
+<p><img src=img/CB2/CB2_System28.png width="500" /></p>
+</li>
+</ol>
 <h3 id="setting-up-35mm-headphones-port">Setting up 3.5mm Headphones Port<a class="headerlink" href="#setting-up-35mm-headphones-port" title="Permanent link">&para;</a></h3>
-<p>1、Enter the command: <font  color="blue"><strong>aplay -l</strong></font></p>
-<p>Check for the corresponding sound card, as shown in the image (the sound card for the headphone port shown in the image corresponds to <font  color="blue"><strong>card 0</strong></font>).</p>
-<p><img src=img/CB2/CB2_System29.png width="600" /></p>
-<p>2、Enter the command:</p>
-<p><font  color="blue"><strong>amixer -c 0 contents</strong></font>(0 represents the card 0 found in the previous <font  color="blue"><strong>aplay -l</strong></font> command)</p>
+<ol>
+<li>
+<p>Enter the command: </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>aplay<span class="w"> </span>-l
+</code></pre></div>
+</li>
+</ol>
+<p>Check for the corresponding sound card, as shown in the image (the sound card for the headphone port shown in the image corresponds to <code>card 0</code>).</p>
+<p><img src=img/CB2/CB2_System29.png width="500" /></p>
+<ol>
+<li>
+<p>Enter the command:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>amixer<span class="w"> </span>-c<span class="w"> </span><span class="m">0</span><span class="w"> </span>contents<span class="w"> </span><span class="c1"># 0 represents the card 0 found in the previous `aplay -l` command</span>
+</code></pre></div>
 <p>Check the settings for playback and recording channels, as shown in the image.</p>
-<p><img src=img/CB2/CB2_System30.png width="600" /></p>
-<p>3、Enter the command:</p>
-<p><font  color="blue"><strong>amixer -c 0 cset numid=1 3</strong></font></p>
+<p><img src=img/CB2/CB2_System30.png width="500" /></p>
+</li>
+<li>
+<p>Enter the command:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>amixer<span class="w"> </span>-c<span class="w"> </span><span class="m">0</span><span class="w"> </span>cset<span class="w"> </span><span class="nv">numid</span><span class="o">=</span><span class="m">1</span><span class="w"> </span><span class="m">3</span>
+</code></pre></div>
 <p>Set the playback channel, as shown in the image.</p>
-<p><img src=img/CB2/CB2_System31.png width="600" /></p>
-<p>4、Enter the command:</p>
-<p><font  color="blue"><strong>amixer -c 0 cset numid=2 1</strong></font></p>
+<p><img src=img/CB2/CB2_System31.png width="500" /></p>
+</li>
+<li>
+<p>Enter the command:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>amixer<span class="w"> </span>-c<span class="w"> </span><span class="m">0</span><span class="w"> </span>cset<span class="w"> </span><span class="nv">numid</span><span class="o">=</span><span class="m">2</span><span class="w"> </span><span class="m">1</span>
+</code></pre></div>
 <p>Set the recording channel, as shown in the image.</p>
-<p><img src=img/CB2/CB2_System32.png width="600" /></p>
-<p>5、Enter the following command to play audio, with the audio file directory xxx and the audio file name xxxxx.wav:</p>
-<p><font  color="blue"><strong>aplay -D plughw:0,0 /xxx/xxxxx.wav</strong></font></p>
-<p>6、Enter the following command to record (where 10 represents recording for 10 seconds), storing the recording in directory xxx, file name xxxx.wav:</p>
-<p><font  color="blue"><strong>sudo arecord -Dhw:0,0 -d 10 -f cd -r 44100 -c 2 -t wav /xxx/xxxx.wav</strong></font></p>
-<p>7、Enter the following command to play the recording:</p>
-<p><font  color="blue"><strong>aplay -D plughw:0,0 /xxx/xxxx.wav</strong></font></p>
-<h2 id="ssh-connect-to-device"><strong>SSH Connect to Device</strong><a class="headerlink" href="#ssh-connect-to-device" title="Permanent link">&para;</a></h2>
-<p>1、Install the SSH software Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html</p>
-<p>2、After powering on, wait for the system to boot, which typically takes about 1 to 2 minutes.</p>
-<p>3、Once the device is connected to WiFi or an Ethernet cable is plugged in, it will automatically be assigned an IP address.</p>
-<p>4、Access the router management interface to find the device's IP (it should be BTT-CB2 here).</p>
-<p><img src=img/CB2/CB2_System33.png width="600" /></p>
-<p>5、Open Mobaxterm and click "Session", and click "SSH", inset the device IP into Remote host and click "OK" (Note: your computer and the device needs to be in the same network).</p>
-<p><img src=img/CB2/CB2_System34.png width="600" /></p>
-<p>6、Login as: <code>biqu</code> password: <code>biqu</code></p>
-<p><img src=img/CB2/CB2_System35.png width="600" /></p>
-<h2 id="precautions"><strong>Precautions</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
-<p>1、About 10 seconds after powering on, the system enters the kernel phase. At this time, the blue light stays on, and the green light flashes continuously, indicating that the system is running normally.</p>
-<p>2、Root administrator:</p>
-<p>​       Login: <code>root</code></p>
-<p>​       Password: <code>root</code></p>
-<p>​   BIQU user:</p>
-<p>​       Login: <code>biqu</code></p>
-<p>​       Password: <code>biqu</code></p>
-<p>3、The PCIe M.2 interface does not support hot-plugging; the solid-state drive must be connected in advance for the device to be recognized.</p>
-<p>4、When booting from eMMC, do not insert a MicroSD card. When booting from a MicroSD card, it is necessary to erase the data in the eMMC.</p>
-<p><strong>Navigation:</strong></p>
-<p>BIQU Official Website：                                          http://biqu3d.com</p>
-<p>BIGTREETECH Official Website：                            http://bigtree-tech.com</p>
-<p>Online Store：                                                            https://biqu.equipment</p>
-<p>BIGTREETECH Official Group:                                   https://www.facebook.com/groups/bigtreetech</p>
-<p>Discord:                                                                       https://discord.gg/hhZsV7zk</p>
-<p>Reddit:                                                                       https://www.reddit.com/r/BIGTREETECH/</p>
+<p><img src=img/CB2/CB2_System32.png width="500" /></p>
+</li>
+<li>
+<p>Enter the following command to play audio, with the audio file directory xxx and the audio file name xxxxx.wav:</p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>aplay<span class="w"> </span>-D<span class="w"> </span>plughw:0,0<span class="w"> </span>/path/to/file.wav
+</code></pre></div>
+<ol>
+<li>Enter the following command to record (where 10 represents recording for 10 seconds), storing the recording in directory <code>/path/to/</code>, file name <code>file.wav</code>.</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>sudo<span class="w"> </span>arecord<span class="w"> </span>-Dhw:0,0<span class="w"> </span>-d<span class="w"> </span><span class="m">10</span><span class="w"> </span>-f<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>-r<span class="w"> </span><span class="m">44100</span><span class="w"> </span>-c<span class="w"> </span><span class="m">2</span><span class="w"> </span>-t<span class="w"> </span>wav<span class="w"> </span>/path/to/file.wav
+</code></pre></div>
+<ol>
+<li>Enter the following command to play the recording:</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>aplay<span class="w"> </span>-D<span class="w"> </span>plughw:0,0<span class="w"> </span>/path/to/file.wav
+</code></pre></div>
+<h2 id="ssh-connect-to-device">SSH Connect to Device<a class="headerlink" href="#ssh-connect-to-device" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">SSH Application</p>
+<p>Install the ssh application Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html</p>
+</div>
+<ol>
+<li>
+<p>After powering on, wait for the system to boot, which typically takes about 1 to 2 minutes.</p>
+</li>
+<li>
+<p>Once the device is connected to WiFi or an Ethernet cable is plugged in, it will automatically be assigned an IP address.</p>
+</li>
+<li>
+<p>Access the router management interface to find the device's IP (it should be BTT-CB2 here).</p>
+<p><img src=img/CB2/CB2_System33.png width="500" /></p>
+</li>
+<li>
+<p>Open Mobaxterm and click "Session", and click "SSH", inset the device IP into Remote host and click "OK" (Note: your computer and the device needs to be in the same network).</p>
+<p><img src=img/CB2/CB2_System34.png width="500" /></p>
+</li>
+<li>
+<p>Login as: <code>biqu</code> password: <code>biqu</code></p>
+<p><img src=img/CB2/CB2_System35.png width="500" /></p>
+</li>
+</ol>
+<h2 id="precautions">Precautions<a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Boot from eMMC</p>
+<p>When booting from eMMC, do not insert a MicroSD card. When booting from a MicroSD card, it is necessary to erase the data in the eMMC.</p>
+</div>
+<ol>
+<li>
+<p>About 10 seconds after powering on, the system enters the kernel phase. At this time, the blue light stays on, and the green light flashes continuously, indicating that the system is running normally.</p>
+</li>
+<li>
+<p>user account </p>
+<div class="highlight"><span class="filename">login in as biqu</span><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>login<span class="w"> </span>as:<span class="w"> </span>biqu
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>password:<span class="w"> </span>biqu
+</code></pre></div>
+<div class="highlight"><span class="filename">login in as root</span><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>login<span class="w"> </span>as:<span class="w"> </span>root
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>password:<span class="w"> </span>root
+</code></pre></div>
+</li>
+<li>
+<p>The PCIe M.2 interface does not support hot-plugging; the solid-state drive must be connected in advance for the device to be recognized.</p>
+</li>
+</ol>
 
 
 
@@ -7304,6 +7496,28 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://biqu3d.com/pages/submit-a-ticket" target="_blank" rel="noopener" title="biqu3d.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.5 2h-13C3.6 2 2 3.6 2 5.5v13C2 20.4 3.6 22 5.5 22H16l6-6V5.5C22 3.6 20.4 2 18.5 2M13 16h-2v-3H8v-2h3V8h2v3h3v2h-3zm2 4v-1.5c0-1.9 1.6-3.5 3.5-3.5H20z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://biqu.equipment" target="_blank" rel="noopener" title="biqu.equipment" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m547.6 103.8-57.3-90.7C485.2 5 476.1 0 466.4 0H109.6c-9.7 0-18.8 5-23.9 13.1l-57.4 90.7c-29.6 46.8-3.4 111.9 51.9 119.4 4 .5 8.1.8 12.1.8 26.1 0 49.3-11.4 65.2-29 15.9 17.6 39.1 29 65.2 29s49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29 26.2 0 49.3-11.4 65.2-29 16 17.6 39.1 29 65.2 29 4.1 0 8.1-.3 12.1-.8 55.5-7.4 81.8-72.5 52.1-119.4zm-47.9 151.1h-.1c-5.3.7-10.7 1.1-16.2 1.1-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4-5.5 0-11-.4-16.3-1.1H76c-4.1-.6-8.1-1.3-12-2.3V448c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V252.6c-4 1-8 1.8-12.3 2.3"/></svg>
+    </a>
+  
 </div>
       
     </div>
@@ -7322,6 +7536,12 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="assets/javascripts/katex.js"></script>
+      
+        <script src="assets/javascripts/katex_lib/katex.min.js"></script>
+      
+        <script src="assets/javascripts/katex_lib/contrib/auto-render.min.js"></script>
       
     
   </body>

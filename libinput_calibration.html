@@ -87,7 +87,9 @@
       
     
     
-      <link rel="stylesheet" href="_biqumkdocs/css/extra.css">
+      <link rel="stylesheet" href="assets/css/extra.css">
+    
+      <link rel="stylesheet" href="assets/css/katex.min.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -3073,20 +3075,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#note" class="md-nav__link">
-    <span class="md-ellipsis">
-      Note
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#xinput_calibrator" class="md-nav__link">
     <span class="md-ellipsis">
       xinput_calibrator
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="xinput_calibrator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-xinput_calibrator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install xinput_calibrator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-id-of-touchscreen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find ID of touchscreen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start Calibration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3096,6 +3122,21 @@
       Convert to libinput
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Convert to libinput">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conversion-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conversion Script
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3129,7 +3170,7 @@
   
   
   <span class="md-ellipsis">
-    pi_custom_logo
+    Config Bigtreetech Pi Startup Logo
     
   </span>
   
@@ -5189,20 +5230,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#note" class="md-nav__link">
-    <span class="md-ellipsis">
-      Note
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#xinput_calibrator" class="md-nav__link">
     <span class="md-ellipsis">
       xinput_calibrator
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="xinput_calibrator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-xinput_calibrator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install xinput_calibrator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-id-of-touchscreen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find ID of touchscreen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start Calibration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -5212,6 +5277,21 @@
       Convert to libinput
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Convert to libinput">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conversion-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conversion Script
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -5257,121 +5337,127 @@
 
 
 <h1 id="libinput_calibration">libinput_calibration<a class="headerlink" href="#libinput_calibration" title="Permanent link">&para;</a></h1>
-<h2 id="note"><strong>Note</strong><a class="headerlink" href="#note" title="Permanent link">&para;</a></h2>
-<p>The current purpose of this step is only for <code>TFT35_SPI</code> resistive touch screen. If your capacitive touch screen (such as HDMI5, HDMI7, Pad7, etc.) has inaccurate touch, you can also experiment with this calibration step, but it may not solve the problem because the capacitive screen has been calibrated before leaving the factory and is directly read from the coordinates, rather than calculated through adc sampling values like a resistive screen.</br>
-Anyway, the experiment will not cause any losses</p>
-<h2 id="xinput_calibrator"><strong>xinput_calibrator</strong><a class="headerlink" href="#xinput_calibrator" title="Permanent link">&para;</a></h2>
-<p>1.Install <code>xinput_calibrator</code></br>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo apt update
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>sudo apt install xinput-calibrator
+<div class="admonition note">
+<p class="admonition-title">Befor start</p>
+<p>The current purpose of this step is only for <code>TFT35_SPI</code> resistive touch screen. If your capacitive touch screen (such as HDMI5, HDMI7, Pad7, etc.) has inaccurate touch, you can also experiment with this calibration step, but it may not solve the problem because the capacitive screen has been calibrated before leaving the factory and is directly read from the coordinates, rather than calculated through adc sampling values like a resistive screen.</p>
+<p>Anyway, the experiment will not cause any losses</p>
+</div>
+<h2 id="xinput_calibrator">xinput_calibrator<a class="headerlink" href="#xinput_calibrator" title="Permanent link">&para;</a></h2>
+<h3 id="install-xinput_calibrator">Install <code>xinput_calibrator</code><a class="headerlink" href="#install-xinput_calibrator" title="Permanent link">&para;</a></h3>
+<p>Use command below to update and install <code>xinput-calibrator</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>apt<span class="w"> </span>update
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>xinput-calibrator
 </code></pre></div>
-2.Query the ID of the touchscreen, The name of TFT35_SPI is <code>ns2009</code> or <code>TSC2007</code>, as shown in the figure the id is <code>6</code></br>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DISPLAY=:0 xinput_calibrator --list
+<h3 id="find-id-of-touchscreen">Find ID of touchscreen<a class="headerlink" href="#find-id-of-touchscreen" title="Permanent link">&para;</a></h3>
+<p>Query the ID of the touchscreen, The name of TFT35_SPI is <code>ns2009</code> or <code>TSC2007</code>, as shown in the figure the id is <code>6</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nv">DISPLAY</span><span class="o">=</span>:0<span class="w"> </span>xinput_calibrator<span class="w"> </span>--list
 </code></pre></div>
-<img src=img/tft35_spi_id.png width="500"/></br>
-3.Start calibration, Click on the center of the cross that appears one by one on the screen. Replace the id with the actual id found in the previous step. Record the parameters of <code>click 0 X</code>, <code>click 0 Y</code>, <code>click 3 X</code>, and <code>click 3 Y</code>, which are required for conversion.</br>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>DISPLAY=:0 xinput_calibrator -v --device &lt;id&gt;
+<p><img src=img/tft35_spi_id.png width="500"/></br></p>
+<h3 id="start-calibration">Start Calibration<a class="headerlink" href="#start-calibration" title="Permanent link">&para;</a></h3>
+<p>Start calibration, Click on the center of the cross that appears one by one on the screen. Replace the id with the actual id found in the previous step. Record the parameters of <code>click 0 X</code>, <code>click 0 Y</code>, <code>click 3 X</code>, and <code>click 3 Y</code>, which are required for conversion.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">DISPLAY</span><span class="o">=</span>:0<span class="w"> </span>xinput_calibrator<span class="w"> </span>-v<span class="w"> </span>--device<span class="w"> </span>&lt;id&gt;
 </code></pre></div>
-<img src=img/tft35_spi_calibration.png width="1200"/></p>
-<h2 id="convert-to-libinput"><strong>Convert to libinput</strong><a class="headerlink" href="#convert-to-libinput" title="Permanent link">&para;</a></h2>
-<p><strong>The parameter of <code>xinput_calibrator</code> cannot be directly used for <code>libinput</code> and needs to be converted. Please refer to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">here</a> for details</strong></br>
-1.<code>sudo nano libinput_calibrator.sh</code> create conversion script, Copy and paste the following content</br>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>#!/bin/bash
+<p><img src=img/tft35_spi_calibration.png width="600"/></p>
+<h2 id="convert-to-libinput">Convert to libinput<a class="headerlink" href="#convert-to-libinput" title="Permanent link">&para;</a></h2>
+<p>The parameter of <code>xinput_calibrator</code> cannot be directly used for <code>libinput</code> and needs to be converted. Please refer to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">ArchLinux Wiki</a> for details.</p>
+<h3 id="conversion-script">Conversion Script<a class="headerlink" href="#conversion-script" title="Permanent link">&para;</a></h3>
+<p>Use <code>sudo nano libinput_calibrator.sh</code> to create conversion script, Copy and paste the following content.</p>
+<div class="highlight"><span class="filename">libinput_calibrator.sh</span><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="ch">#!/bin/bash</span>
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>#according to https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1">#according to https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator</span>
 <a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>screen_width=$1
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>screen_height=$2
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>click_0_X=$3
-<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>click_0_Y=$4
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>click_3_X=$5
-<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>click_3_Y=$6
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="nv">screen_width</span><span class="o">=</span><span class="nv">$1</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="nv">screen_height</span><span class="o">=</span><span class="nv">$2</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="nv">click_0_X</span><span class="o">=</span><span class="nv">$3</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="nv">click_0_Y</span><span class="o">=</span><span class="nv">$4</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="nv">click_3_X</span><span class="o">=</span><span class="nv">$5</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="nv">click_3_Y</span><span class="o">=</span><span class="nv">$6</span>
 <a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>
-<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>re=&#39;^[0-9]+$&#39;
-<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>if ! [[ $screen_width =~ $re ]] ; then
-<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>  echo &quot;error: screen_width=\&quot;$screen_width\&quot; Not a number&quot; &gt;&amp;2; exit 1
-<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>fi
-<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>if ! [[ $screen_height =~ $re ]] ; then
-<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>  echo &quot;error: screen_height=\&quot;$screen_height\&quot; Not a number&quot; &gt;&amp;2; exit 1
-<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>fi
-<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>if ! [[ $click_0_X =~ $re ]] ; then
-<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>  echo &quot;error: click_0_X=\&quot;$click_0_X\&quot; Not a number&quot; &gt;&amp;2; exit 1
-<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>fi
-<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>if ! [[ $click_0_Y =~ $re ]] ; then
-<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>  echo &quot;error: click_0_Y=\&quot;$click_0_Y\&quot; Not a number&quot; &gt;&amp;2; exit 1
-<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>fi
-<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a>if ! [[ $click_3_X =~ $re ]] ; then
-<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>  echo &quot;error: click_3_X=\&quot;$click_3_X\&quot; Not a number&quot; &gt;&amp;2; exit 1
-<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a>fi
-<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>if ! [[ $click_3_Y =~ $re ]] ; then
-<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a>  echo &quot;error: click_3_Y=\&quot;$click_3_Y\&quot; Not a number&quot; &gt;&amp;2; exit 1
-<a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a>fi
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="nv">re</span><span class="o">=</span><span class="s1">&#39;^[0-9]+$&#39;</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="k">if</span><span class="w"> </span>!<span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$screen_width</span><span class="w"> </span><span class="o">=</span>~<span class="w"> </span><span class="nv">$re</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;error: screen_width=\&quot;</span><span class="nv">$screen_width</span><span class="s2">\&quot; Not a number&quot;</span><span class="w"> </span>&gt;<span class="p">&amp;</span><span class="m">2</span><span class="p">;</span><span class="w"> </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="k">fi</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="k">if</span><span class="w"> </span>!<span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$screen_height</span><span class="w"> </span><span class="o">=</span>~<span class="w"> </span><span class="nv">$re</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;error: screen_height=\&quot;</span><span class="nv">$screen_height</span><span class="s2">\&quot; Not a number&quot;</span><span class="w"> </span>&gt;<span class="p">&amp;</span><span class="m">2</span><span class="p">;</span><span class="w"> </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a><span class="k">fi</span>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="k">if</span><span class="w"> </span>!<span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$click_0_X</span><span class="w"> </span><span class="o">=</span>~<span class="w"> </span><span class="nv">$re</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;error: click_0_X=\&quot;</span><span class="nv">$click_0_X</span><span class="s2">\&quot; Not a number&quot;</span><span class="w"> </span>&gt;<span class="p">&amp;</span><span class="m">2</span><span class="p">;</span><span class="w"> </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="k">fi</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="k">if</span><span class="w"> </span>!<span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$click_0_Y</span><span class="w"> </span><span class="o">=</span>~<span class="w"> </span><span class="nv">$re</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;error: click_0_Y=\&quot;</span><span class="nv">$click_0_Y</span><span class="s2">\&quot; Not a number&quot;</span><span class="w"> </span>&gt;<span class="p">&amp;</span><span class="m">2</span><span class="p">;</span><span class="w"> </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a><span class="k">fi</span>
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a><span class="k">if</span><span class="w"> </span>!<span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$click_3_X</span><span class="w"> </span><span class="o">=</span>~<span class="w"> </span><span class="nv">$re</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;error: click_3_X=\&quot;</span><span class="nv">$click_3_X</span><span class="s2">\&quot; Not a number&quot;</span><span class="w"> </span>&gt;<span class="p">&amp;</span><span class="m">2</span><span class="p">;</span><span class="w"> </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a><span class="k">fi</span>
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a><span class="k">if</span><span class="w"> </span>!<span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$click_3_Y</span><span class="w"> </span><span class="o">=</span>~<span class="w"> </span><span class="nv">$re</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a><span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;error: click_3_Y=\&quot;</span><span class="nv">$click_3_Y</span><span class="s2">\&quot; Not a number&quot;</span><span class="w"> </span>&gt;<span class="p">&amp;</span><span class="m">2</span><span class="p">;</span><span class="w"> </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a><span class="k">fi</span>
 <a id="__codelineno-3-31" name="__codelineno-3-31" href="#__codelineno-3-31"></a>
-<a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a>#a = (screen_width * 6 / 8) / (click_3_X - click_0_X)
-<a id="__codelineno-3-33" name="__codelineno-3-33" href="#__codelineno-3-33"></a>#c = ((screen_width / 8) - (a * click_0_X)) / screen_width
-<a id="__codelineno-3-34" name="__codelineno-3-34" href="#__codelineno-3-34"></a>#e = (screen_height * 6 / 8) / (click_3_Y - click_0_Y)
-<a id="__codelineno-3-35" name="__codelineno-3-35" href="#__codelineno-3-35"></a>#f = ((screen_height / 8) - (e * click_0_Y)) / screen_height
+<a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a><span class="c1">#a = (screen_width * 6 / 8) / (click_3_X - click_0_X)</span>
+<a id="__codelineno-3-33" name="__codelineno-3-33" href="#__codelineno-3-33"></a><span class="c1">#c = ((screen_width / 8) - (a * click_0_X)) / screen_width</span>
+<a id="__codelineno-3-34" name="__codelineno-3-34" href="#__codelineno-3-34"></a><span class="c1">#e = (screen_height * 6 / 8) / (click_3_Y - click_0_Y)</span>
+<a id="__codelineno-3-35" name="__codelineno-3-35" href="#__codelineno-3-35"></a><span class="c1">#f = ((screen_height / 8) - (e * click_0_Y)) / screen_height</span>
 <a id="__codelineno-3-36" name="__codelineno-3-36" href="#__codelineno-3-36"></a>
-<a id="__codelineno-3-37" name="__codelineno-3-37" href="#__codelineno-3-37"></a>a=$(awk &quot;BEGIN { printf(\&quot;%.6f\&quot;, ($screen_width * 6 / 8) / ($click_3_X - $click_0_X))}&quot;)
-<a id="__codelineno-3-38" name="__codelineno-3-38" href="#__codelineno-3-38"></a>c=$(awk &quot;BEGIN { printf(\&quot;%.6f\&quot;, (($screen_width / 8) - ($a * $click_0_X)) / $screen_width)}&quot;)
-<a id="__codelineno-3-39" name="__codelineno-3-39" href="#__codelineno-3-39"></a>e=$(awk &quot;BEGIN { printf(\&quot;%.6f\&quot;, ($screen_height * 6 / 8) / ($click_3_Y - $click_0_Y))}&quot;)
-<a id="__codelineno-3-40" name="__codelineno-3-40" href="#__codelineno-3-40"></a>f=$(awk &quot;BEGIN { printf(\&quot;%.6f\&quot;, (($screen_height / 8) - ($e * $click_0_Y)) / $screen_height)}&quot;)
+<a id="__codelineno-3-37" name="__codelineno-3-37" href="#__codelineno-3-37"></a><span class="nv">a</span><span class="o">=</span><span class="k">$(</span>awk<span class="w"> </span><span class="s2">&quot;BEGIN { printf(\&quot;%.6f\&quot;, (</span><span class="nv">$screen_width</span><span class="s2"> * 6 / 8) / (</span><span class="nv">$click_3_X</span><span class="s2"> - </span><span class="nv">$click_0_X</span><span class="s2">))}&quot;</span><span class="k">)</span>
+<a id="__codelineno-3-38" name="__codelineno-3-38" href="#__codelineno-3-38"></a><span class="nv">c</span><span class="o">=</span><span class="k">$(</span>awk<span class="w"> </span><span class="s2">&quot;BEGIN { printf(\&quot;%.6f\&quot;, ((</span><span class="nv">$screen_width</span><span class="s2"> / 8) - (</span><span class="nv">$a</span><span class="s2"> * </span><span class="nv">$click_0_X</span><span class="s2">)) / </span><span class="nv">$screen_width</span><span class="s2">)}&quot;</span><span class="k">)</span>
+<a id="__codelineno-3-39" name="__codelineno-3-39" href="#__codelineno-3-39"></a><span class="nv">e</span><span class="o">=</span><span class="k">$(</span>awk<span class="w"> </span><span class="s2">&quot;BEGIN { printf(\&quot;%.6f\&quot;, (</span><span class="nv">$screen_height</span><span class="s2"> * 6 / 8) / (</span><span class="nv">$click_3_Y</span><span class="s2"> - </span><span class="nv">$click_0_Y</span><span class="s2">))}&quot;</span><span class="k">)</span>
+<a id="__codelineno-3-40" name="__codelineno-3-40" href="#__codelineno-3-40"></a><span class="nv">f</span><span class="o">=</span><span class="k">$(</span>awk<span class="w"> </span><span class="s2">&quot;BEGIN { printf(\&quot;%.6f\&quot;, ((</span><span class="nv">$screen_height</span><span class="s2"> / 8) - (</span><span class="nv">$e</span><span class="s2"> * </span><span class="nv">$click_0_Y</span><span class="s2">)) / </span><span class="nv">$screen_height</span><span class="s2">)}&quot;</span><span class="k">)</span>
 <a id="__codelineno-3-41" name="__codelineno-3-41" href="#__codelineno-3-41"></a>
-<a id="__codelineno-3-42" name="__codelineno-3-42" href="#__codelineno-3-42"></a>CONFIG_OPTION=&quot;Option \&quot;CalibrationMatrix\&quot; &quot;
-<a id="__codelineno-3-43" name="__codelineno-3-43" href="#__codelineno-3-43"></a>CONFIG_LINE=&quot;\&quot;$a 0.000000 $c 0.000000 $e $f 0.000000 0.000000 1.000000\&quot;&quot;
+<a id="__codelineno-3-42" name="__codelineno-3-42" href="#__codelineno-3-42"></a><span class="nv">CONFIG_OPTION</span><span class="o">=</span><span class="s2">&quot;Option \&quot;CalibrationMatrix\&quot; &quot;</span>
+<a id="__codelineno-3-43" name="__codelineno-3-43" href="#__codelineno-3-43"></a><span class="nv">CONFIG_LINE</span><span class="o">=</span><span class="s2">&quot;\&quot;</span><span class="nv">$a</span><span class="s2"> 0.000000 </span><span class="nv">$c</span><span class="s2"> 0.000000 </span><span class="nv">$e</span><span class="s2"> </span><span class="nv">$f</span><span class="s2"> 0.000000 0.000000 1.000000\&quot;&quot;</span>
 <a id="__codelineno-3-44" name="__codelineno-3-44" href="#__codelineno-3-44"></a>
-<a id="__codelineno-3-45" name="__codelineno-3-45" href="#__codelineno-3-45"></a>echo &quot;${CONFIG_OPTION}${CONFIG_LINE}&quot;
-<a id="__codelineno-3-46" name="__codelineno-3-46" href="#__codelineno-3-46"></a>echo &quot;&quot;
+<a id="__codelineno-3-45" name="__codelineno-3-45" href="#__codelineno-3-45"></a><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CONFIG_OPTION</span><span class="si">}${</span><span class="nv">CONFIG_LINE</span><span class="si">}</span><span class="s2">&quot;</span>
+<a id="__codelineno-3-46" name="__codelineno-3-46" href="#__codelineno-3-46"></a><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
 <a id="__codelineno-3-47" name="__codelineno-3-47" href="#__codelineno-3-47"></a>
-<a id="__codelineno-3-48" name="__codelineno-3-48" href="#__codelineno-3-48"></a>CONFIG_OPTION=&quot;Option \&quot;CalibrationMatrix\&quot; &quot;
-<a id="__codelineno-3-49" name="__codelineno-3-49" href="#__codelineno-3-49"></a>CONFIG=&quot;/usr/share/X11/xorg.conf.d/40-libinput.conf&quot;
-<a id="__codelineno-3-50" name="__codelineno-3-50" href="#__codelineno-3-50"></a>INPUT_CLASS=&quot;Identifier \&quot;libinput touchscreen catchall\&quot;&quot;
-<a id="__codelineno-3-51" name="__codelineno-3-51" href="#__codelineno-3-51"></a>if [ -e &quot;${CONFIG}&quot; ]; then
-<a id="__codelineno-3-52" name="__codelineno-3-52" href="#__codelineno-3-52"></a>    ks_restart=0
-<a id="__codelineno-3-53" name="__codelineno-3-53" href="#__codelineno-3-53"></a>    grep -e &quot;^\        ${CONFIG_OPTION}${CONFIG_LINE}&quot; ${CONFIG} &gt; /dev/null
-<a id="__codelineno-3-54" name="__codelineno-3-54" href="#__codelineno-3-54"></a>    STATUS=$?
-<a id="__codelineno-3-55" name="__codelineno-3-55" href="#__codelineno-3-55"></a>    if [ $STATUS -eq 1 ]; then
-<a id="__codelineno-3-56" name="__codelineno-3-56" href="#__codelineno-3-56"></a>        sudo sed -i &quot;/${CONFIG_OPTION}/d&quot; ${CONFIG}
-<a id="__codelineno-3-57" name="__codelineno-3-57" href="#__codelineno-3-57"></a>        sudo sed -i &quot;/${INPUT_CLASS}/a\        ${CONFIG_OPTION}${CONFIG_LINE}&quot; ${CONFIG}
-<a id="__codelineno-3-58" name="__codelineno-3-58" href="#__codelineno-3-58"></a>        echo &quot;Written to file:&quot;
-<a id="__codelineno-3-59" name="__codelineno-3-59" href="#__codelineno-3-59"></a>        echo &quot;    ${CONFIG}&quot;
-<a id="__codelineno-3-60" name="__codelineno-3-60" href="#__codelineno-3-60"></a>        echo &quot;&quot;
-<a id="__codelineno-3-61" name="__codelineno-3-61" href="#__codelineno-3-61"></a>        ks_restart=1
-<a id="__codelineno-3-62" name="__codelineno-3-62" href="#__codelineno-3-62"></a>    fi
+<a id="__codelineno-3-48" name="__codelineno-3-48" href="#__codelineno-3-48"></a><span class="nv">CONFIG_OPTION</span><span class="o">=</span><span class="s2">&quot;Option \&quot;CalibrationMatrix\&quot; &quot;</span>
+<a id="__codelineno-3-49" name="__codelineno-3-49" href="#__codelineno-3-49"></a><span class="nv">CONFIG</span><span class="o">=</span><span class="s2">&quot;/usr/share/X11/xorg.conf.d/40-libinput.conf&quot;</span>
+<a id="__codelineno-3-50" name="__codelineno-3-50" href="#__codelineno-3-50"></a><span class="nv">INPUT_CLASS</span><span class="o">=</span><span class="s2">&quot;Identifier \&quot;libinput touchscreen catchall\&quot;&quot;</span>
+<a id="__codelineno-3-51" name="__codelineno-3-51" href="#__codelineno-3-51"></a><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-e<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CONFIG</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a id="__codelineno-3-52" name="__codelineno-3-52" href="#__codelineno-3-52"></a><span class="w">    </span><span class="nv">ks_restart</span><span class="o">=</span><span class="m">0</span>
+<a id="__codelineno-3-53" name="__codelineno-3-53" href="#__codelineno-3-53"></a><span class="w">    </span>grep<span class="w"> </span>-e<span class="w"> </span><span class="s2">&quot;^\        </span><span class="si">${</span><span class="nv">CONFIG_OPTION</span><span class="si">}${</span><span class="nv">CONFIG_LINE</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="si">${</span><span class="nv">CONFIG</span><span class="si">}</span><span class="w"> </span>&gt;<span class="w"> </span>/dev/null
+<a id="__codelineno-3-54" name="__codelineno-3-54" href="#__codelineno-3-54"></a><span class="w">    </span><span class="nv">STATUS</span><span class="o">=</span><span class="nv">$?</span>
+<a id="__codelineno-3-55" name="__codelineno-3-55" href="#__codelineno-3-55"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="nv">$STATUS</span><span class="w"> </span>-eq<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<a id="__codelineno-3-56" name="__codelineno-3-56" href="#__codelineno-3-56"></a><span class="w">        </span>sudo<span class="w"> </span>sed<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;/</span><span class="si">${</span><span class="nv">CONFIG_OPTION</span><span class="si">}</span><span class="s2">/d&quot;</span><span class="w"> </span><span class="si">${</span><span class="nv">CONFIG</span><span class="si">}</span>
+<a id="__codelineno-3-57" name="__codelineno-3-57" href="#__codelineno-3-57"></a><span class="w">        </span>sudo<span class="w"> </span>sed<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;/</span><span class="si">${</span><span class="nv">INPUT_CLASS</span><span class="si">}</span><span class="s2">/a\        </span><span class="si">${</span><span class="nv">CONFIG_OPTION</span><span class="si">}${</span><span class="nv">CONFIG_LINE</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="si">${</span><span class="nv">CONFIG</span><span class="si">}</span>
+<a id="__codelineno-3-58" name="__codelineno-3-58" href="#__codelineno-3-58"></a><span class="w">        </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Written to file:&quot;</span>
+<a id="__codelineno-3-59" name="__codelineno-3-59" href="#__codelineno-3-59"></a><span class="w">        </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;    </span><span class="si">${</span><span class="nv">CONFIG</span><span class="si">}</span><span class="s2">&quot;</span>
+<a id="__codelineno-3-60" name="__codelineno-3-60" href="#__codelineno-3-60"></a><span class="w">        </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<a id="__codelineno-3-61" name="__codelineno-3-61" href="#__codelineno-3-61"></a><span class="w">        </span><span class="nv">ks_restart</span><span class="o">=</span><span class="m">1</span>
+<a id="__codelineno-3-62" name="__codelineno-3-62" href="#__codelineno-3-62"></a><span class="w">    </span><span class="k">fi</span>
 <a id="__codelineno-3-63" name="__codelineno-3-63" href="#__codelineno-3-63"></a>
-<a id="__codelineno-3-64" name="__codelineno-3-64" href="#__codelineno-3-64"></a>    # restart KlipperScreen
-<a id="__codelineno-3-65" name="__codelineno-3-65" href="#__codelineno-3-65"></a>    if [ ${ks_restart} -eq 1 ];then
-<a id="__codelineno-3-66" name="__codelineno-3-66" href="#__codelineno-3-66"></a>        sudo service KlipperScreen restart
-<a id="__codelineno-3-67" name="__codelineno-3-67" href="#__codelineno-3-67"></a>    fi
+<a id="__codelineno-3-64" name="__codelineno-3-64" href="#__codelineno-3-64"></a><span class="w">    </span><span class="c1"># restart KlipperScreen</span>
+<a id="__codelineno-3-65" name="__codelineno-3-65" href="#__codelineno-3-65"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="si">${</span><span class="nv">ks_restart</span><span class="si">}</span><span class="w"> </span>-eq<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="k">then</span>
+<a id="__codelineno-3-66" name="__codelineno-3-66" href="#__codelineno-3-66"></a><span class="w">        </span>sudo<span class="w"> </span>service<span class="w"> </span>KlipperScreen<span class="w"> </span>restart
+<a id="__codelineno-3-67" name="__codelineno-3-67" href="#__codelineno-3-67"></a><span class="w">    </span><span class="k">fi</span>
 <a id="__codelineno-3-68" name="__codelineno-3-68" href="#__codelineno-3-68"></a>
-<a id="__codelineno-3-69" name="__codelineno-3-69" href="#__codelineno-3-69"></a>    echo &quot;run:&quot;
-<a id="__codelineno-3-70" name="__codelineno-3-70" href="#__codelineno-3-70"></a>    echo &quot;    DISPLAY=:0 xinput list-props &lt;device&gt;&quot;
-<a id="__codelineno-3-71" name="__codelineno-3-71" href="#__codelineno-3-71"></a>    echo &quot;to check if the calibration parameters are effective&quot;
-<a id="__codelineno-3-72" name="__codelineno-3-72" href="#__codelineno-3-72"></a>    echo &quot;&quot;
-<a id="__codelineno-3-73" name="__codelineno-3-73" href="#__codelineno-3-73"></a>fi
+<a id="__codelineno-3-69" name="__codelineno-3-69" href="#__codelineno-3-69"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;run:&quot;</span>
+<a id="__codelineno-3-70" name="__codelineno-3-70" href="#__codelineno-3-70"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;    DISPLAY=:0 xinput list-props &lt;device&gt;&quot;</span>
+<a id="__codelineno-3-71" name="__codelineno-3-71" href="#__codelineno-3-71"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;to check if the calibration parameters are effective&quot;</span>
+<a id="__codelineno-3-72" name="__codelineno-3-72" href="#__codelineno-3-72"></a><span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<a id="__codelineno-3-73" name="__codelineno-3-73" href="#__codelineno-3-73"></a><span class="k">fi</span>
 </code></pre></div>
-2.<code>sudo chmod +x libinput_calibrator.sh</code> add executable permissions
-3.run <code>libinput_calibrator.sh</code> to convert calibration parameters</br>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo ./libinput_calibrator.sh &lt;screen width&gt; &lt;screen height&gt; &lt;click_0 X&gt; &lt;click_0 Y&gt; &lt;click_3 X&gt; &lt;click_3 Y&gt;
-</code></pre></div></p>
+<p>Use command below to add executable permissions</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo<span class="w"> </span>chmod<span class="w"> </span>+x<span class="w"> </span>libinput_calibrator.sh
+</code></pre></div>
+<p>Then run <code>libinput_calibrator.sh</code> to convert calibration parameters</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sudo<span class="w"> </span>./libinput_calibrator.sh<span class="w"> </span>&lt;screen<span class="w"> </span>width&gt;<span class="w"> </span>&lt;screen<span class="w"> </span>height&gt;<span class="w"> </span>&lt;click_0<span class="w"> </span>X&gt;<span class="w"> </span>&lt;click_0<span class="w"> </span>Y&gt;<span class="w"> </span>&lt;click_3<span class="w"> </span>X&gt;<span class="w"> </span>&lt;click_3<span class="w"> </span>Y&gt;
+</code></pre></div>
 <p><code>&lt;screen width&gt;</code>: Screen horizontal resolution, TFT35 SPI is <code>480</code></br>
 <code>&lt;screen height&gt;</code>: Screen vertical resolution, TFT35 SPI is <code>320</code></br>
 <code>&lt;click_0 X&gt;</code>: The <code>X</code> position of <code>click 0</code> during the previous step calibration</br>
 <code>&lt;click_0 Y&gt;</code>: The <code>Y</code> position of <code>click 0</code> during the previous step calibration</br>
 <code>&lt;click_3 X&gt;</code>: The <code>X</code> position of <code>click 3</code> during the previous step calibration</br>
-<code>&lt;click_3 Y&gt;</code>: The <code>Y</code> position of <code>click 3</code> during the previous step calibration</br>
-for example:</br>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sudo ./libinput_calibrator.sh 480 320 61 35 417 281
+<code>&lt;click_3 Y&gt;</code>: The <code>Y</code> position of <code>click 3</code> during the previous step calibration</br></p>
+<p>for example:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sudo<span class="w"> </span>./libinput_calibrator.sh<span class="w"> </span><span class="m">480</span><span class="w"> </span><span class="m">320</span><span class="w"> </span><span class="m">61</span><span class="w"> </span><span class="m">35</span><span class="w"> </span><span class="m">417</span><span class="w"> </span><span class="m">281</span>
 </code></pre></div>
-</br>
-The script will automatically convert and write parameters to the configuration file, and then reset KlipperScreen if installed. You can check whether the configuration is effective through the command <code>DISPLAY=:0 xinput list-props &lt;id&gt;</code>
-<img src=img/tft35_spi_convert.png width="1200"/></p>
+<p>The script will automatically convert and write parameters to the configuration file, and then reset KlipperScreen if installed. You can check whether the configuration is effective through the command <code>DISPLAY=:0 xinput list-props &lt;id&gt;</code>
+<img src=img/tft35_spi_convert.png width="700"/></p>
 <h2 id="faq"><strong>FAQ</strong><a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
 <p><strong>Q: How to rotate TFT35_SPI direction</strong></p>
-<p>A: The direction of <code>TFT35_SPI</code> cannot be modified through the configuration in <code>system.cfg</code> currently, it can only be rotated by modifying the <code>.dts</code> file.
-For detailed steps, please refer to here:</br>
-https://github.com/bigtreetech/TFT35-SPI/issues/7</br>
-https://www.youtube.com/watch?v=tA7uRC17F6U</p>
+<p>A: The direction of <code>TFT35_SPI</code> cannot be modified through the configuration in <code>system.cfg</code> currently, it can only be rotated by modifying the <code>.dts</code> file.</p>
+<p>For detailed steps, please refer to <a href="https://github.com/bigtreetech/TFT35-SPI/issues/7">bigtreetech/TFT35-SPI issues 7</a></p>
+<p>https://www.youtube.com/watch?v=tA7uRC17F6U</p>
 
 
 
@@ -5426,13 +5512,13 @@ https://www.youtube.com/watch?v=tA7uRC17F6U</p>
         
         
           
-          <a href="pi_custom_logo.html" class="md-footer__link md-footer__link--next" aria-label="Next: pi_custom_logo">
+          <a href="pi_custom_logo.html" class="md-footer__link md-footer__link--next" aria-label="Next: Config Bigtreetech Pi Startup Logo">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                pi_custom_logo
+                Config Bigtreetech Pi Startup Logo
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -5468,6 +5554,28 @@ https://www.youtube.com/watch?v=tA7uRC17F6U</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://biqu3d.com/pages/submit-a-ticket" target="_blank" rel="noopener" title="biqu3d.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.5 2h-13C3.6 2 2 3.6 2 5.5v13C2 20.4 3.6 22 5.5 22H16l6-6V5.5C22 3.6 20.4 2 18.5 2M13 16h-2v-3H8v-2h3V8h2v3h3v2h-3zm2 4v-1.5c0-1.9 1.6-3.5 3.5-3.5H20z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://biqu.equipment" target="_blank" rel="noopener" title="biqu.equipment" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m547.6 103.8-57.3-90.7C485.2 5 476.1 0 466.4 0H109.6c-9.7 0-18.8 5-23.9 13.1l-57.4 90.7c-29.6 46.8-3.4 111.9 51.9 119.4 4 .5 8.1.8 12.1.8 26.1 0 49.3-11.4 65.2-29 15.9 17.6 39.1 29 65.2 29s49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29 26.2 0 49.3-11.4 65.2-29 16 17.6 39.1 29 65.2 29 4.1 0 8.1-.3 12.1-.8 55.5-7.4 81.8-72.5 52.1-119.4zm-47.9 151.1h-.1c-5.3.7-10.7 1.1-16.2 1.1-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4-5.5 0-11-.4-16.3-1.1H76c-4.1-.6-8.1-1.3-12-2.3V448c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V252.6c-4 1-8 1.8-12.3 2.3"/></svg>
+    </a>
+  
 </div>
       
     </div>
@@ -5486,6 +5594,12 @@ https://www.youtube.com/watch?v=tA7uRC17F6U</p>
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="assets/javascripts/katex.js"></script>
+      
+        <script src="assets/javascripts/katex_lib/katex.min.js"></script>
+      
+        <script src="assets/javascripts/katex_lib/contrib/auto-render.min.js"></script>
       
     
   </body>

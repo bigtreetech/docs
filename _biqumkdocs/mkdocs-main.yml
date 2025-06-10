@@ -120,8 +120,14 @@ theme:
     # - toc.integrate
   language: en
 extra_css:
-  - _biqumkdocs/css/extra.css
+  - assets/css/extra.css
+  - assets/css/katex.min.css
   # - _biqumkdocs/css/zoom.css
+
+extra_javascript:
+  - assets/javascripts/katex.js
+  - assets/javascripts/katex_lib/katex.min.js
+  - assets/javascripts/katex_lib/contrib/auto-render.min.js
 
 # Site usage statistics
 extra:
@@ -133,6 +139,11 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/bigtreetech
+    - icon: material/sticker-plus
+      link: https://biqu3d.com/pages/submit-a-ticket
+    - icon: fontawesome/solid/store
+      link: https://biqu.equipment
+    
   # Language Selection
   alternate: 
     - name: English
