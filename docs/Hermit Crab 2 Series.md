@@ -37,7 +37,7 @@ The Hermit Crab 2 series is made for fast and simple swapping of print heads on 
 | Heating Interface              | Heater  Cartridge(HE0), maximum output current: 3A           | Heater  Cartridge(HE0), maximum output current: 6A           |
 | Fan Interface                  | 2x 2-Pin CNC Fans (FAN1, FAN2), 1x 4-Pin  Fan (FAN0), selectable voltage | 2x 2-Pin CNC Fans (FAN1, FAN2), 1x 4-Pin  Fan (FAN0), selectable voltage |
 | Maximum Fan Interface          | 0.75A, peak 0.9A                                             | 0.75A, peak 0.9A                                             |
-| Expansion Interface            | RGB, I2C, Probe                                              | I2C，Probe，RGB，USB，CAN，STOP                              |
+| Expansion Interface            | RGB, I2C, Probe                                              | I2C, Probe, RGB, USB, CAN, STOP                              |
 | Motor Driver                   | -                                                            | TMC2209                                                      |
 | Driver Operating Mode          | -                                                            | UART                                                         |
 | Stepper Motor Interface        | E0                                                           | E0                                                           |
