@@ -4,40 +4,40 @@
 
 ## **Product Profile**
 
-BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octopus Pro developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd.. Its self-developed stepper motor sockets enhance safety and user experience, and it adds a series of features that Octopus Pro does not have, greatly enhancing its DIY capabilities.
+BIGTREETECH Octopus MAX EZ is a 32-bit motherboard and an upgraded version of the Octopus Pro, developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. Its self-developed stepper motor sockets enhance safety and user experience, and it includes additional features not found on the Octopus Pro, significantly improving its DIY capabilities. 
 
 **Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-btt-octopusmax-ez-for-3d-printer)
 
 ## **Features Highlights**
 
-- 32 bit 550 MHz ARM Cortex-M7 series STM32H723ZET6 MCU.
+- 32-bit, 550 MHz ARM Cortex-M7 series STM32H723ZET6 MCU. 
 
 - Onboard BOOT button to enable DFU mode to update bootloader.
 
-- The thermistor circuit is protected to prevent MCU damage from shorted heated bed and heater cartridge connections.
+- Thermistor circuit protection to prevent MCU damage from shorted heated bed and heater cartridge connections.
 
-- Selectable voltage (24V, 12V, 5V) for CNC fan, no more need for external stepdown thus preventing board damage from user error.
+- Selectable voltage (24V, 12V, 5V) for CNC fans, eliminating the need for external step-down modules and preventing board damage from user error. 
 
-- Upgraded with eFuse protection, which responses faster with strong protection, effectively protecting the motherboard from being damaged caused by short circuits, over-current, electric spark, etc.
+- Upgraded eFuse protection for faster response and robust protection against short circuits, over-current, electric sparks, etc. 
 
-- MCU firmware can be upgraded via SD card, or use DFU via Klipper's make flash command.
+- MCU firmware can be upgraded via SD card or DFU using Klipper's make flash command.
 
-- 10 EZ driver sockets, working with pinless driver, safer to use; Onboard SPI and UART, can be used by simply setting in the firmware, no need for a jumper. 
+- 10 EZ driver sockets compatible with pinless drivers for safer use. Onboard SPI and UART can be enabled via firmware settings without jumpers. 
 
-- Support power loss recovery, filament runout sensor, CAN, auto power-off, BLTouch, RGB, etc.
+- Supports power loss recovery, filament runout sensors, CAN, auto power-off, BLTouch, RGB, and more. 
 
 - Replaceable fuse for easy maintenance.
 
-- 3 x 4 pins fan ports, also for connecting water cooling system.
+- 3 x 4-pin fan ports, also compatible with water cooling systems. 
 
-- Onboard proximity switch port, supports NPN and PNP types, 24V, 12V, 5V voltage selectable.
+- Onboard proximity switch port supporting NPN and PNP types, with selectable voltages (24V, 12V, 5V). 
 
 - Onboard SPI interface for connecting acceleration sensor to enable Klipper's input shaping.
 
 
 ## **Specifications**
 
-| **Dimensions**                                             | **160mm x 100mm for details please refer to BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf** |
+| **Dimensions**                                             | **160mm x 100mm (for details, refer to BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf)** |
 | :--------------------------------------------------------- | ------------------------------------------------------------ |
 | **Mounting Size**                                          | **Please refer to BIGTREETECH Octopus MAX EZ V1.0-SIZE.pdf** |
 | **MCU**                                                    | **ARM Cortex-M7 STM32H723ZET6 550MHz**                       |
@@ -48,14 +48,14 @@ BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octo
 | **Heater Connection**                                      | **Heated Bed (HB), Heater Cartridge (HE0, HE1, HE2, HE3)**   |
 | **HB Port Max Current**                                    | **10A Continuous, 12A Instantaneous**                        |
 | **Heater Cartridge Max Current**                           | **5.5A Continuous, 6A Instantaneous**                        |
-| **Fan Port**                                               | **2 pins CNC Fan (FAN0, FAN1, FAN2, FAN3), 4 pins CNC Fan (FAN4, FAN5, FAN6), Always On (24V FAN x 2).CNC Fan and MFAN Voltage Selectable (5/12/24V)** |
+| **Fan Port**                                               | **2-pin CNC Fan (FAN0, FAN1, FAN2, FAN3), 4-pin CNC Fan (FAN4, FAN5, FAN6), Always On (24V FAN x 2). CNC Fan and MFAN voltage selectable (5V/12V/24V)** |
 | **Fan Port Max Current**                                   | **1A Continuous, 1.5A Instantaneous**                        |
 | **Overall Max Current (Heater Cartridge+Driver+All Fans)** | **＜12A**                                                    |
 | **Expansion Port**                                         | **BLTouch (Servos, Probe), PS-ON, FWS, PWRDET, RGBx2, SPI,IND-Probe, CAN, WIFI, TFT** |
-| **Motor Driver**                                           | **Support EZ5160, EZ2209, EZ2225, EZ2226, EZ2208, EZ2130...** |
+| **Motor Driver**                                           | **Supports EZ5160, EZ2209, EZ2225, EZ2226, EZ2208, EZ2130, etc* |
 | **Driver Mode**                                            | **SPI, UART**                                                |
-| **Motor Socket**                                           | **Motor1, Motor2, Motor3 (Dual Motor Sockets), Motor4, Motor5,Motor6, Motor7, Motor8, Motor9, Motor10 10 Channels in Total** |
-| **Thermistor**                                             | **5 x 100K NTC, four of which are selectable for NTC and PT1000** |
+| **Motor Sockets**                                           | **Motor1, Motor2, Motor3 (Dual Motor Sockets), Motor4, Motor5, Motor6, Motor7, Motor8, Motor9, Motor10 (10 channels total)** |
+| **Thermistor**                                             | **5 x 100K NTC (four selectable for NTC or PT1000)** |
 | **Display**                                                | **MINI12864 (FPC Connection), TFT Serial**                   |
 | **PC Connection**                                          | **Type-C**                                                   |
 | **Supported Kinematics**                                   | **Cartesian, Delta, Kossel, Ultimaker, CoreXY**              |
@@ -79,7 +79,7 @@ BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octo
 
 ### **USB Power Supply**
 
-After the Octopus MAX EZ has been powered, the Red light `D32` on the left side of the MCU will light up, indicating power on. When using only USB to power the board or to supply power via USB, please insert the jumper cap onto the `VUSB`.
+After powering the Octopus MAX EZ, the red LED 'D32' on the left side of the MCU will illuminate, indicating power is on. When powering the board via USB only, insert the jumper cap onto 'VUSB'. 
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware1.png width="450">
 
@@ -88,12 +88,12 @@ After the Octopus MAX EZ has been powered, the Red light `D32` on the left side 
 !!! note "UART / SPI"
     UART/SPI Mode of Driver
 
-    Set in the firmware, no need for a jumper. 
+     Configured in firmware; no jumper required. 
 
 !!! note "Sensorless Homing"
     TMC Driver DIAG (Sensorless Homing)
 
-    When using sensorless homing, place jumpers according to the diagram below, there is no need to cut the DIAG pin off when not being used. (Motor1-Motor6).
+  For sensorless homing, place jumpers as shown below. No need to cut the DIAG pin when unused (Motor1-Motor6).
 
     <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware2.png width="450">
 
@@ -105,19 +105,19 @@ After the Octopus MAX EZ has been powered, the Red light `D32` on the left side 
 
 ### Voltage Selection for CNC Fan
 
-The output voltage can be set to 5V, 12V or 24V through a jumper cap. `MFAN` and `FAN6` share the power supply `VFAN6`.
+Set output voltage to 5V, 12V, or 24V via jumper cap. MFAN and FAN6 share the VFAN6 power supply. 
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware5.png width="450"/>
 
 !!! warning
-    we are not responsible for fan burnout caused by incorrect voltage selection. Please confirm the voltage the fan supports before selecting the voltage.
+    We are not responsible for fan burnout caused by incorrect voltage selection. Confirm the fan's supported voltage before selection. 
 
 ### 100K NTC or PT1000 Setting
 
-When using 100K NTC, no jumpers need to be connected, the pull-up resistance of `TH0` `TH1` `TH2` and `TH3` is **4.7K 0.1%**. When using `PT1000`, the pins indicated in the picture below need to be connected via jumpers, parallel connection of **4.12K 0.1%** resistors, the pull-up resistance of `TH0` `TH1` `TH2` and `TH3` is **2.2K**. 
+For 100K NTC, no jumpers are needed. The pull-up resistance for TH0, TH1, TH2, and TH3 is 4.7K 0.1%. For PT1000, connect jumpers as shown below to parallel 4.12K 0.1% resistors, changing the pull-up resistance to 2.2K. 
 
 !!! info 
-    This method connect PT1000 has a much lower accuracy than the MAX31865 in reading temperature.
+    This PT1000 connection method is less accurate than MAX31865 for temperature readings. 
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware6.png width="450">
 
@@ -143,17 +143,15 @@ When using 100K NTC, no jumpers need to be connected, the pull-up resistance of 
 
 ### Proximity Switch Wiring
 
-=== "Normally Open NPN Type"
-    As shown in the figure below, 24V as an example, normally open (NPN type), no need for shorting through a jumper cap.
+ === "Normally Open NPN Type" As shown below (24V example), no jumper needed for normally open (NPN type).   
 
     <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware12.png width="450">
 
-=== "Normally Closed PNP Type"
-    As shown in the figure below, 24V as an example, normally closed (PNP type), need for shorting through a jumper cap.
+=== "Normally Closed PNP Type" As shown below (24V example), a jumper is required for normally closed (PNP type).   
 
     <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.png width="450">
 
-### Wiring of 4 pins CNC Fan or Water Cooling System
+###Wiring 4-Pin CNC Fan or Water Cooling System 
 
 12V as an example:
 
@@ -173,9 +171,9 @@ Refer to the link above for tutorial on installing VSCode and PlatformIO plugin.
 
 #### Download Marlin Firmware
 
-1.Download the newest bugfix version of Marlin from the official website: https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x
+1.Download the latest bugfix version from: https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x
 
-2.Download pre-configured firmware from our GitHub page: https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ
+2.Download pre-configured firmware from: https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ
 
 #### Configure Firmware
 
@@ -237,10 +235,10 @@ When using SPI mode, you need to enable TMC_USE_SW_SPI in Configuration_adv.h
 
 #### 100K NTC or PT1000
 
-When using 100K NTC, no jumpers need to be connected, the pull-up resistance of `TH0` `TH1` `TH2` and `TH3` is **4.7K 0.1%**. When using `PT1000`, the pins indicated in the picture below need to be connected via jumpers, parallel connection of **4.12K 0.1%** resistors, the pull-up resistance of `TH0` `TH1` `TH2` and `TH3` is **2.2K**. 
+For 100K NTC, no jumpers are needed. The pull-up resistance for TH0, TH1, TH2, and TH3 is 4.7K 0.1%. For PT1000, connect jumpers as shown below to parallel 4.12K 0.1% resistors, changing the pull-up resistance to 2.2K. 
 
 !!! info 
-    This method connect PT1000 has a much lower accuracy than the MAX31865 in reading temperature.
+  This PT1000 connection method is less accurate than MAX31865 for temperature readings. 
 
 ``` cpp
 #define TEMP_SENSOR_0 1
@@ -288,7 +286,7 @@ When using 100K NTC, no jumpers need to be connected, the pull-up resistance of 
 #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X // set the number of probe points for Y axis to the same as X axis.
 ```
 
-If bltouch also functions as your Z homing sensor, no wiring change is needed, just set it in the firmware. 
+If BLTouch also functions as your Z homing sensor, no wiring change is needed, just set it in the firmware. 
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software12.png width="450"/>
 
@@ -316,7 +314,7 @@ If bltouch also functions as your Z homing sensor, no wiring change is needed, j
 
 There are two methods for power loss recovery
 
-1. No extra module needed, the motherboard will write current print status to the SD card after every layer is printed, which shortens the life of the SD card severely. 
+1. No extra module needed, the motherboard will write current print status to the SD card after every layer is printed (shortens SD card life).
 
     <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software15.png width="450"/>
 
@@ -326,7 +324,7 @@ There are two methods for power loss recovery
     #define PLR_ENABLED_DEFAULT  true // true default to power loss recovery enabled
     ```
 
-2. External UPS 24V V1.0 module, when power is cut, the module will provide power to the board and signal the board to save current print status to SD card. This method has virtually no effect on the life of the SD card. 
+2.External UPS 24V V1.0 module (recommended). When power is cut, the module will provide power to the board and signal the board to save current print status to SD card. This method has virtually no effect on the life of the SD card. 
 
     <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software16.png width="450"/>
 
@@ -440,7 +438,7 @@ cd ~/klipper
 make menuconfig
 ```
 
-Compile with the configuration shown below (if the options below are not available, please update your Klipper source code to the newest version).
+Compile with the configuration shown below (if the options below are not available, please update your Klipper source code to the latest version).
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software38.png width="450"/>
 
@@ -506,10 +504,12 @@ Compile with the configuration shown below (if the options below are not availab
 ## PRECAUTIONS
 
 !!! warning
-    Unplugging and plugging operations should be performed under the condition of power off.
+   Perform plugging/unplugging only when powered off.
 
-    Ensure that the voltage selection matches the fan's working voltage to prevent damage.
+    Ensure that the voltage selection matches the fan's working voltage to prevent damage
 
-If you need other resources for this product, please visit https://github.com/bigtreetech/ and find them yourself. If you cannot find the resources you need, you can contact our after-sales support.
+  
 
-If you encounter other problems during use, feel free to contact us, and we are answering them carefully; any good opinions or suggestions on our products are welcome, too and we will consider them carefully. Thank you for choosing BIGTREETECH. Your support means a lot to us!
+For additional resources related to this product, please visit our GitHub repository at https://github.com/bigtreetech/. Should you require resources not readily available there, please contact our after-sales support team. 
+
+If you encounter any other issues during use, or if you have feedback or suggestions for our products, we welcome you to reach out. Our team carefully reviews all inquiries and appreciates your insights. Thank you for choosing BIGTREETECH. We value your support. 
