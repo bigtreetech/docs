@@ -61,9 +61,13 @@ Supported Firmware: Marlin, Klipper
 
 ### Pin Description
 
-<img src=img/SKRat/SKRat_Pinout.png width="600" />
+<table>
+<td bgcolor=white>
+<img src=img/SKRat/SKRat_Pinout.svg width="1200"/>
+</table>
 
-<font  color="red">**For details please refer to BTT SKRat_V1.0_SIZE.**</font>
+!!! info
+    For details please refer to [BIGTREETECH SKRat V1.0-Pin.pdf](https://github.com/bigtreetech/SKRat/blob/master/Hardware/BIGTREETECH%20SKRat%20V1.0-Pin.pdf).
 
 ## **Interface Introduction**
 
