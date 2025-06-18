@@ -62,8 +62,10 @@ Supported Firmware: Marlin, Klipper
 ### Pin Description
 
 <table>
+<tr>
 <td bgcolor=white>
 <img src=img/SKRat/SKRat_Pinout.svg width="1200"/>
+</tr>
 </table>
 
 !!! info
