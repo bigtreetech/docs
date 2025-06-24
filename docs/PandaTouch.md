@@ -200,11 +200,14 @@ Follow the steps below to enable cloud connectivity to those printers that need 
 ##### Add a Bambu Cloud Account
 * Tap to jump to the settings page and then tap the `Login BambuLab account` button.
 
-  <img src=img/PandaTouch/add_account.png width="600"/>
+  <br><img src=img/PandaTouch/add_account.png width="600"/>
+  
 * Select your region by tapping the arrow at the top right of the resulting pop up.
 * Users in China use mobile phone numbers, while users in global regions use email addresses.
 * Press 'Send code' button to get code from email. 
+
   <br><img src=img/PandaTouch/login.png width="600"/>
+
 * Tap the confirm button once you've entered the login details.
 
   > NOTE:
