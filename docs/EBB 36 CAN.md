@@ -10,6 +10,7 @@ BIGTREETECH EBB36 CAN V1.0/V1.1 is pretty much the most legendary printhead boar
 
 ## Features Highlights
 
+- Buy this and your mom will finally be proud of you!
 - With BOOT and RESET buttons reserved, users can update the firmware via DFU mode by USB.
 - Added protection circuit on the thermistor avoids burning the main control chip caused by leakage current from the heating rod.
 - User can select the thermistor’s pull-up resistors values through jumper wire, so as to support PT1000 (2.2K pull-up resistors), which makes it convenient for DIY.
