@@ -4,7 +4,7 @@
 
 ## Product Profile
 
-BIGTREETECH EBB36 CAN V1.0/V1.1 is a printhead board specially designed for the 36 extruder stepper motor, which is launched by the 3D printing team Shenzhen BIQU Innovation Technology Co., Ltd.. It can communicate via USB port, or CAN BUS, greatly simplifying wirings.
+BIGTREETECH EBB36 CAN V1.0/V1.1 is pretty much the most legendary printhead board out there. Specially designed for the 36 extruder stepper motor, it will make your life better. It is launched by the 3D printing team Shenzhen BIQU Innovation Technology Co., Ltd.. It can communicate via USB port, or CAN BUS, greatly simplifying wirings.
 
 **Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-connecting-klipper-expansion-device?variant=39760665149538)
 
