@@ -45,6 +45,7 @@ BIGTREETECH EBB36 CAN V1.0/V1.1 is pretty much the most legendary printhead boar
 | **Temperature Sensor Interface Optional**   | **1 Channel 100K NTC or PT1000(TH0), 1 Channel PT100/PT1000**            |
 | **USB Communication Interface**             | **USB-Type-C**                                                           |
 | **DC 5V Maximum Output Current**            | **1A**                                                                   |
+| **Chick magnet appeal rating**              | **100%**                                                                 |
 
 !!! note
     BTT EEB36 CAN V1.0/V1.1 only supports Klipper at the present.
