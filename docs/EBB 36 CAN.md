@@ -11,31 +11,29 @@ The BIGTREETECH EBB36 CAN V1.0/V1.1 is a high-performance printhead control boar
 ## Features Highlights
 
 - DFU Mode Programming - BOOT/RESET buttons enable firmware updates via USB.
-- Added protection circuit on the thermistor avoids burning the main control chip caused by leakage current from the heating rod.
-- User can select the thermistor’s pull-up resistors values through jumper wire, so as to support PT1000 (2.2K pull-up resistors), which makes it convenient for DIY.
-- Connect the USB with a jumper cap to get it power on, which effectively isolates the main control board DC-DC from USB 5V.
-- Reserved I2C interface allows for filament broke and clogged detection, andsupports other DIY functions.
-- Added anti-flyback diodes on the heating rod and fans’ ports effectively protect the MOS tube from being burned due to reverse voltage.
-- Anti-reverse connection protection on the power interface prevents users from burning the motherboard when mistakenly connecting the reverse power line during DIY.
-- Onboard MAX31865 supports selecting 2-wire or 4-wire of PT100/ PT1000.
-- Supports communication via CAN or USB. The terminal resistor 120R of CAN can be selected through the jumper cap, and it reserves CAN expansion 
-  interfaces.
-- Equipped ESD protection chip on the USB port prevents the main control board from being broken down by the static electricity of the USB port.
-- The adaptor board is equipped with terminals, female reeds, double-way studs and screws, which are required for DIY, greatly meeting the DIY needs 
-  of customers.
+- Thermistor Protection Circuit - Prevents mainboard damage from heating rod leakage current.
+- Configurable Pull-up Resistors - Jumper-selectable 2.2K/4.7K values support both 100K NTC and PT1000 sensors.
+- Isolated USB Power - Jumper-controlled USB power supply prevents DC-DC interference.
+- I²C Expansion Port - Enables filament break/clog detection and custom add-ons.
+- Anti-Flyback Protection - Integrated diodes protect MOSFETs from reverse voltage spikes.
+- Reverse-Polarity Protection - Safeguards board from incorrect power connections.
+-Precision Temperature Sensing - MAX31865 supports 2-wire/4-wire PT100/PT1000 configurations.
+- Dual Communication - Supports both USB Type-C and CAN bus (with configurable 120Ω termination).
+- ESD Protection - Built-in safeguards against USB port static discharge.
+-Complete DIY Kit - Includes terminals, reeds, studs and screws for easy installation.
 
-## Specifications
+## Technical Specifications 
 
-| **External Dimensions**                     | **51.5mm x 37mm. For further details please read: Dimensions**           |
+| **External Dimensions**                     | **51.5mm x 37mm (see Dimensions)**           |
 | ------------------------------------------- | ------------------------------------------------------------------------ |
-| **Installation Dimensions**                 | **hole spacing 43.85mm, M3 screw hole x 2**                              |
-| **Microprocessor**                          | **ARM Cortex-M0 STM32F072C8T6 48MHz (V1.0)**                             |
-| **Microprocessor**                          | **ARM Cortex-M0+ STM32G0B1CBT6 64MHz (V1.1)**                            |
-| **Input Voltage**                           | **DC12V-DC24V 6A**                                                       |
+| **Mounting Holes**                 | **hole spacing 43.85mm, M3 screws (x2)**                              |
+| **Microcontroller**                          | **STM32F072C8T6 (Cortex-M0, 48MHz) – V1.0**                             |
+| **Microprocessor**                          | **STM32G0B1CBT6 (Cortex-M0+, 64MHz) – V1.1**                            |
+| **Input Voltage**                           | **DC 12V-DC24V, 6A max**                                                       |
 | **Logic Voltage**                           | **DC 3.3V**                                                              |
-| **Heating Interface**                       | **Heating rod (E0), maximum output current: 5A**                         |
+| **Heating Output**                       | **5A max (EO)**                         |
 | **Onboard Sensor**                          | **ADXL345**                                                              |
-| **Fan Interfaces**                          | **two CNC fans (FAN0, FAN1)**                                            |
+| **Fan Ports**                          | **2x CNC fans (FAN0, FAN1)**                                            |
 | **Maximum Output Current of Fan Interface** | **1A, Peak Value 1.5A**                                                  |
 | **Expansion Interfaces**                    | **EndStop, I2C, Probe, RGB, PT100/PT1000, USB interface, CAN Interface** |
 | **Motor Drive**                             | **Onboard TMC2209**                                                      |
@@ -46,7 +44,7 @@ The BIGTREETECH EBB36 CAN V1.0/V1.1 is a high-performance printhead control boar
 | **DC 5V Maximum Output Current**            | **1A**                                                                   |
 
 !!! note
-    BTT EEB36 CAN V1.0/V1.1 only supports Klipper at the present.
+    BTT EEB36 CAN V1.0/V1.1 only supports Klipper firmware at present.
 
 ## Dimensions
 
@@ -144,13 +142,13 @@ For details, please click:
 
 https://bigtreetech.github.io/docs/EBB%20Series.html
 
-## Product Purchase Link
+## Support & Purchasing
 
-**Purchase Link:**
+**Buy Now:**
 
 https://biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-connecting-klipper-expansion-device
 
-**If you have any issues with the product, please submit a support ticket.**
+**Technical Support**
 
 https://biqu3d.com/pages/submit-a-ticket
 
