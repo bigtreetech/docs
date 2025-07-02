@@ -65,7 +65,7 @@ BIQU Panda Jetpack 是为 Bambu Lab P1 和 X1 打印机专门设计的高效散�
 
 https://biqu.equipment/products/biqu-panda-jetpack-lightweight-hollow-design-bambu-extruder-front-cover-integrated-with-panda-jet-cooling-fan-duct-for-bambu-lab-p1-x1?_pos=2&_sid=68cccd523&_ss=r
 
-**如果您在使用产品过程中遇到任何问题，请提交支持工单：**
+**如果您在使用产品过程中遇到任何问题，请与我们联系并提交支持工单：**
 
 https://biqu3d.com/pages/submit-a-ticket
 

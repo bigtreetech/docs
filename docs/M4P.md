@@ -6,7 +6,7 @@
 
 BIGTREETECH CB1 is an alternative to Raspberry Pi CM4, which is currently out of stock. <br>BIGTREETECH M4P is a 4-axis motherboard using a CM4 BTB header, which can work with CB1 or CM4 perfectly.
 
-**Product Link:** https://biqu.equipment/products/manta-m4p-m8p
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/manta-m4p-m8p)
 
 ## **Features Highlights**
 
@@ -235,22 +235,6 @@ https://biqu3d.com/pages/submit-a-ticket
 **M4P Guide Videos**
 
 *** Unboxing/Wiring/Firmware Installation of CB1&M4P(Voron V0 as an example)***
-
-
-
-<video width="430" height="300" controls>
-    <source src="img/M4P/installationvoron0.mp4" type="video/mp4">
-</video>
-
-
-
-
-
-
-
-
-
-
 
 **Navigation:**
 

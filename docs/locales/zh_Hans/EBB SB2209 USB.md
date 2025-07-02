@@ -156,23 +156,29 @@ KNOMI 2:
 
 1、ssh 连接到树莓派后，在命令行输入：
 
-**cd ~/klipper/** 
+```
+cd ~/klipper/ 
+```
 
-**make menuconfig**
+```
+make menuconfig
+```
 
 使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本) 
 
-**[\*] Enable extra low-level configuration options** 
+**[\*] Enable extra low-level configuration options**
 
- **Micro-controller Architecture (Raspberry Pi RP2040) --->** 
+ **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
 
- **Bootloader offset (No bootloader) --->** 
+ **Processor model (rp2040)  --->**
 
- **Flash chip (W25Q080 with CLKDIV 2) --->** 
+ **Bootloader offset (No bootloader)  --->**
 
- **Communication Interface (USBSERIAL) --->**
+ **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper1.png width="600"/>
+ **Communication Interface (USBSERIAL)  --->**
+
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
 2、配置选择完成后, 输入 `q` 退出配置界面，当询问是否保存配置是选择 "Yes"
 
@@ -188,7 +194,9 @@ KNOMI 2:
 
 3、在 SSH 终端命令行中输入：
 
-**lsusb** 
+```
+lsusb 
+```
 
 查询 DFU 设备 ID
 
@@ -196,17 +204,23 @@ KNOMI 2:
 
 4、输入：
 
-**cd klipper**
+```
+cd klipper
+```
 
 跳转到 klipper 目录下，输入：
 
-**make flash FLASH_DEVICE= 2e8a:0003**
+```
+make flash FLASH_DEVICE= 2e8a:0003
+```
 
 开始烧录固件（注意：将 **2e8a:0003** 更换为上一步中查询到的实际的设备 ID）
 
 5、固件烧录完成后，输入：
 
-**ls /dev/serial/by-id/**
+```
+ls /dev/serial/by-id/
+```
 
 查询设备的 Serial ID
 
@@ -214,11 +228,11 @@ KNOMI 2:
 
 以直接输入
 
-**make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00**
+```
+make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
+```
 
 烧录固件（注意：将**/dev/serial/by-id/xxx** 更换为上一步中查询到的实际的 ID）
-
-6、烧录完成后，请拔下 VUSB 跳线帽和 Type-C 数据线。
 
 ### **配置 Klipper** 
 

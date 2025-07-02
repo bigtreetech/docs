@@ -74,7 +74,7 @@ https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool
 
 
 
-如果您在使用此产品时遇到任何问题，请与我们联系并提交支持单。
+如果您在使用此产品时遇到任何问题，请与我们联系并提交支持工单。
 
 https://biqu3d.com/pages/submit-a-ticket
 

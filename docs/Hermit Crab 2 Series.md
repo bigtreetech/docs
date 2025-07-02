@@ -37,7 +37,7 @@ The Hermit Crab 2 series is made for fast and simple swapping of print heads on 
 | Heating Interface              | Heater  Cartridge(HE0), maximum output current: 3A           | Heater  Cartridge(HE0), maximum output current: 6A           |
 | Fan Interface                  | 2x 2-Pin CNC Fans (FAN1, FAN2), 1x 4-Pin  Fan (FAN0), selectable voltage | 2x 2-Pin CNC Fans (FAN1, FAN2), 1x 4-Pin  Fan (FAN0), selectable voltage |
 | Maximum Fan Interface          | 0.75A, peak 0.9A                                             | 0.75A, peak 0.9A                                             |
-| Expansion Interface            | RGB, I2C, Probe                                              | I2C，Probe，RGB，USB，CAN，STOP                              |
+| Expansion Interface            | RGB, I2C, Probe                                              | I2C, Probe, RGB, USB, CAN, STOP                              |
 | Motor Driver                   | -                                                            | TMC2209                                                      |
 | Driver Operating Mode          | -                                                            | UART                                                         |
 | Stepper Motor Interface        | E0                                                           | E0                                                           |
@@ -97,25 +97,33 @@ https://github.com/Arksine/Katapult
 
 1、Enter
 
-​	**cd ~**
+```
+cd ~
+```
 
 ​	to go to the home directory, enter
 
-​	git clone https://github.com/Arksine/Katapult
+```
+git clone https://github.com/Arksine/Katapult
+```
 
 ​	to download the Katapult project, then enter
 
-​	**cd Katapult**
+```
+cd Katapult
+```
 
 ​	to navigate to the Katapult directory.
 
 2、Enter
 
-​	make menuconfig
+```
+make menuconfig
+```
 
 ​	and configure as shown in the image below.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware1.png width="600" />
+<img src=img/rp2040_katapult_menuconfig_led.png width="600"/>
 
 3、Enter make to compile the firmware. When make is completed, the required katapult.uf2 firmware will be generated in the home/biqu/Katapult/out folder and can be directly downloaded to the computer on the left side of the SSH software.
 
@@ -129,7 +137,9 @@ https://github.com/Arksine/Katapult
 
 6、Enter the following command to flash Katapult
 
-​	**make flash FLASH_DEVICE=2e8a:0003**
+```
+make flash FLASH_DEVICE=2e8a:0003
+```
 
 ​	Replace **2e8a:0003** with the actual device ID obtained in the previous step.
 
@@ -139,9 +149,13 @@ https://github.com/Arksine/Katapult
 
 1、After SSH connects to CB1/Raspberry Pi, enter the following in the command line:
 
-​	**cd ~/klipper/**
+```
+cd ~/klipper/
+```
 
-​	**make menuconfig**
+```
+make menuconfig
+```
 
 ​	Compile the firmware using the configuration below (if these options are not available, update the Klipper firmware source code to the latest version).
 
@@ -155,7 +169,7 @@ https://github.com/Arksine/Katapult
 
 ​		**Bootloader offset (No bootloader) --->**
 
-​		**Flash chip (W25Q080 with CLKDIV 2) --->**
+​		**Flash chip (GENERIC_03H with CLKDIV 4)  --->**
 
 ​	If using Katapult:
 

@@ -14,6 +14,10 @@ EBB Series
 
 MMB Series
 
+CNC Series
+
+Kraken Series
+
 IOT
 
 Displays
@@ -47,6 +51,8 @@ X1
 P1
 
 Panda Claw
+
+Panda Aura
 
 Extruders
 

@@ -30,7 +30,7 @@ BIGTREETECH Panda Branch V1.0是一款针对X1/P1/A1系列打印机设计的电�
 
 ### 接口示意图
 
-<img src=img/PandaBranch/PandaBranch_Interface_C.png width="600"/>
+<img src=img/PandaBranch/PandaBranch_Interface_C1.png width="600"/>
 
 ### Pin图
 
@@ -40,7 +40,7 @@ BIGTREETECH Panda Branch V1.0是一款针对X1/P1/A1系列打印机设计的电�
 
 **Panda Branch + Panda Touch + AMS + 3D Printer**
 
-<img src=img/PandaBranch/PandaBranch_Diagram_C.png width="600"/>
+<img src=img/PandaBranch/PandaBranch_Diagram_C1.png width="600"/>
 
 
 

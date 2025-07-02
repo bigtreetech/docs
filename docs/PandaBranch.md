@@ -30,7 +30,7 @@ The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/
 
 ### Interface Diagram
 
-<img src=img/PandaBranch/PandaBranch_Interface.png width="600"/>
+<img src=img/PandaBranch/PandaBranch_Interface1.png width="600"/>
 
 ### Pin Description
 
@@ -38,18 +38,16 @@ The BIGTREETECH Panda Branch V1.0 is a power expansion board designed for X1/P1/
 
 ### Connection Diagram
 
-**Panda Branch + Panda Touch + AMS + 3D Printer**
+**Panda Branch + Panda Touch + AMS/AMS Lite + 3D Printer**
 
-<img src=img/PandaBranch/PandaBranch_Diagram.png width="600"/>
+<img src=img/PandaBranch/PandaBranch_Diagram1.png width="600"/>
 
-
-
-Product Link: [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-panda-branch-v1-0?_pos=1&_sid=0047702f2&_ss=r)
+Product Link: [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-panda-branch-v1-0)
 
 Printing Parts Link: 
 
-[Github Repo (A1、P1&X1 Series)](https://github.com/bigtreetech/Panda-Branch/tree/master/STL)
+[GithHub Repo (A1,P1&X1 Series)](https://github.com/bigtreetech/Panda-Branch/tree/master/STL)
 
-[Maker world (P1&X1 Series)](https://makerworld.com/en/models/606669#profileId-529547)
+[MakerWorld (P1&X1 Series)](https://makerworld.com/en/models/606669#profileId-529547)
 
-[Maker world  (A1 Series)](https://makerworld.com/en/models/606628#profileId-529508)
+[MakerWorld (A1 Series)](https://makerworld.com/en/models/606628#profileId-529508)

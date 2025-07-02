@@ -1,4 +1,0 @@
-# Panda series
-
-
-

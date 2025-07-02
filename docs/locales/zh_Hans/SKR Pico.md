@@ -79,7 +79,7 @@ a. 通过 USB 通信
 
 b. 通过 UART 通信
 
-<img src=img/SKR_Pico/SKR_Pico_Rasp1.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Rasp3.png width="600" />
 
 线序参考BTT SKR Pico V1.0-PIN.pdf。
 

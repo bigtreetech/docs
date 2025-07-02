@@ -4,14 +4,6 @@
 
 ***Eddy 安装视频***
 
-<video width="500" height="300" controls>
-    <source src="img/Eddy/installationcn.mp4" type="video/mp4">
-</video>
-
-
-
-
-
 ## **功能亮点**
 
 - 整体体积小，重量轻；
@@ -23,18 +15,17 @@
 
 ## **规格**
 
-| **产品名称** | **Eddy**                                            |
-| ------------ | --------------------------------------------------- |
-| **产品重量** | **6g**                                              |
-| **电压**     | **5V**                                              |
-| **静态电流** | **30mA**                                            |
-| **工作电流** | **30mA**                                            |
-| **电缆长度** | **2.5 m（USB 版），15cm（coil 版）**                |
-| **接线**     | **USB：4pin, 间距 1.5mm**                           |
-|              | **Coil：4-2.54mm 杜邦母头，一头 ZH1 5mm 4P 连接器** |
-| **使用温度** | **≤60℃ 环境温度**                                   |
-| **标准误差** | **0.5μm**                                           |
-| **适配机型** | **所有使用 Klipper 的 FDM 打印机**                  |
+| **产品名称** | **Eddy**                                                     |
+| ------------ | ------------------------------------------------------------ |
+| **产品重量** | **6g**                                                       |
+| **电压**     | **5V**                                                       |
+| **静态电流** | **30mA**                                                     |
+| **工作电流** | **30mA**                                                     |
+| **电缆长度** | **2.5 m（USB 版），15cm（coil 版）**                         |
+| **接线**     | **Eddy, Eddy Duo：4pin, 间距1.5mm**<br>**Eddy Coil：4-2.54mm杜邦母头，一头ZH1 5mm 4P连接器** |
+| **使用温度** | **≤60℃ 环境温度**                                            |
+| **标准误差** | **0.5μm**                                                    |
+| **适配机型** | **所有使用 Klipper 的 FDM 打印机**                           |
 
 ## **产品尺寸及接口**
 
@@ -46,7 +37,7 @@
 
 ## **BOOT 按键位置**
 
-<img src=img/Eddy/Eddy_Boot.png width="600" />
+<img src=img/Eddy/eddy_boot_1.png width="600" />
 
 BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可以自动进入BOOT 模式并重新烧录固件。
 
@@ -90,9 +81,50 @@ BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可
 
 <img src=img/Eddy/Eddy_Connection3.png width="600" />
 
+### Eddy Duo + MANTA M5P（USB）
+
+<img src=img/Eddy/eddy_connection4.png width="600" />
+
+### Eddy Duo + MANTA M8P V2.0（USB）
+
+<img src=img/Eddy/eddy_connection6.png width="600" />
+
+### Eddy Duo + MANTA M8P V2.0（CAN）
+
+<img src=img/Eddy/eddy_connection7.png width="600" />
+
+### Eddy Duo + EBB36
+
+<img src=img/Eddy/eddy_connection8.png width="600" />
+
+### Eddy Duo + EBB42
+
+<img src=img/Eddy/eddy_connection9.png width="600" />
+
+### Eddy Duo + EBB SB
+
+<img src=img/Eddy/eddy_connection10.png width="600" />
+
+### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（USB）
+
+<img src=img/Eddy/eddy_connection11.png width="600" />
+
+### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（CAN）
+
+<img src=img/Eddy/eddy_connection12.png width="600" />
+
+### Octopus Pro V1.1 + Eddy Duo（USB）
+
+<img src=img/Eddy/eddy_connection13.png width="600" />
+
+### Octopus Pro V1.1 + Eddy Duo（CAN）
+
+<img src=img/Eddy/eddy_connection14.png width="600" />
+
 ## **固件**
 
-**重要提示：**Eddy 和 Eddy Coil 只支持基于 Python 3 的 Klipper 虚拟环境。即使系统已安装 Python 3，也不代表 klippy 虚拟环境是用 Python 3 建立的。若出现' Internal error during connect: split() takes no keyword arguments '等错误信息，说明您的 klippy 主机可能还在使用基于 Python 2 的虚拟环境，需要进行升级。推荐使用 KIAUH 工具，这是在不覆盖现有配置的情况下，更新 klippy主机至 Python 3 环境的最简便方法。
+1. **重要提示：**Eddy 和 Eddy Coil 只支持基于 Python 3 的 Klipper 虚拟环境。即使系统已安装 Python 3，也不代表 klippy 虚拟环境是用 Python 3 建立的。若出现' Internal error during connect: split() takes no keyword arguments '等错误信息，说明您的 klippy 主机可能还在使用基于 Python 2 的虚拟环境，需要进行升级。推荐使用 KIAUH 工具，这是在不覆盖现有配置的情况下，更新 klippy主机至 Python 3 环境的最简便方法。
+2. Eddy Duo 有两种通信方式。如果要从USB通信方式转换到CAN通信方式时，建议在USB通信模式下更新CAN通信所需要的固件会让过程更简单。（使用DFU更新会比KATAPULT更新简单）
 
 ### 编译固件
 
@@ -113,21 +145,26 @@ BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可
 
 3.使用下面的配置编译固件
 
-<img src=img/Eddy/Eddy_System1.png width="600" />
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-<font  color="blue">**[*] Enable extra low-level configuration optionsMicro-controller**</font>
+<font  color="blue">**[*] Enable extra low-level configuration options**</font>
 
-<font  color="blue">**Micro-controller Architecture (Raspberry Pi RP2040) --->**</font>
+<font  color="blue">**Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**</font>
 
-<font  color="blue">**Bootloader offset (No bootloader) --->**</font>
+<font  color="blue">**Processor model (rp2040)  --->**</font>
 
-<font  color="blue">**Flash chip (W25Q080 with CLKDIV 2) --->**</font>
+<font  color="blue">**Bootloader offset (No bootloader)  --->**</font>
 
-<font  color="blue">**Communication interface (USB) --->**</font>
+<font  color="blue">**Flash chip (GENERIC_03H with CLKDIV 4)  --->**</font>
 
-<font  color="blue">**USB ids --->**</font>
+USB communication
+<font  color="blue">**Communication Interface (USBSERIAL)  --->**</font>
 
-<font  color="blue">**() GPIO pins to set at micro-controller startup**</font>
+CAN-Bus communication
+<font  color="blue">**Communication interface (CAN bus) --->**</font>
+<font  color="blue">**(4) CAN RX gpio number**</font>
+<font  color="blue">**(5) CAN TX gpio number**</font>
+<font  color="blue">**(1000000) CAN bus speed**</font>
 
 4.配置选择完成后, 输入 ‘q’ 退出配置界面，当询问是否保存配置时选择“Yes”；
 

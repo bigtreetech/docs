@@ -250,7 +250,7 @@ BIGTREETECH CB2 是针对树莓派 CM4 缺货问题推出的替代方案,所有�
 
 ### SW1 按键说明
 
-SW1 按住上电开机 3 秒不启动 EMMC，松开可以用工具 RKDevTool 烧录 EMMC
+SW1按住会将eMMC信号线与GND短路，禁止主控与eMMC通信。
 
 <img src=img/CB2/CB2_Interface1.png width="600" />
 
@@ -258,13 +258,13 @@ SW1 按住上电开机 3 秒不启动 EMMC，松开可以用工具 RKDevTool 烧
 
 ### 40 pin GPIO
 
-<img src=img/CB2/CB2_Interface3.png width="600" />
+<img src=img/Pi2/Pi2_GPIO.png width="1200" />
 
 GPIO 引脚的计算方式如下：
 
-GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138
+GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 = 1 * 8 + 2 = gpiochip4/gpio10
 
-GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127
+GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31
 
 ## **烧录系统**
 
@@ -292,9 +292,11 @@ GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 +
 
 ### 烧录系统到 eMMC
 
-使用 RKDevTool 烧录系统到 eMMC (Windows)
+使用 RKDevTool (Windows) 烧录系统到 eMMC 
 
-下载 RKDevTool（https://github.com/bigtreetech/CB2）到电脑上并解压。并且注意不要插 MicroSD 卡。
+下载 RKDevTool 到电脑上并解压。并且注意不要插 MicroSD 卡。
+
+https://github.com/bigtreetech/CB2
 
 1、将拨码开关的 4（USBOTG）、3（RPIBOOT）拨到 ON 进入 BOOT 模式
 
@@ -346,9 +348,9 @@ GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 +
 
 2、通过网线，WiFi 或者 USB 转 UART 连接到系统的终端，登录系统。
 
-login: biqu
+login: `biqu`
 
-password: biqu
+password: `biqu`
 
 ①运行 sudo nand-sata-install 命令，在弹出的界面中，选择 “2 Boot 
 
@@ -572,9 +574,9 @@ crowsnest.conf 文件中的配置如下图所示：
 
 6、输入登录名和登录密码进入 SSH 终端界面
 
-登录名 login as：biqu
+登录名 login as：`biqu`
 
-密码：biqu
+密码：`biqu`
 
 <img src=img/CB2/CB2_System35.png width="600" />
 
@@ -584,17 +586,17 @@ crowsnest.conf 文件中的配置如下图所示：
 
 2、root 管理员:
 
-​		Login: root
+​		Login: `root`
 
-​		Password: root
+​		Password: `root`
 
 
 
 ​	biqu 普通用户:
 
-​		Login: biqu
+​		Login: `biqu`
 
-​		Password: biqu
+​		Password: `biqu`
 
 3、PCIe M.2 接口不支持热插拔，需要预先插上固态硬盘才能识别到设备。
 

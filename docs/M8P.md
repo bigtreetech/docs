@@ -6,7 +6,7 @@
 
 BIGTREETECH MANTA M8P is a 32-bit printer motherboard developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for Klipper firmware. You can simply plug in the core board to run the Klipper firmware, which greatly simplifies the connection between the motherboard and the Raspberry Pi, and saves a lot of space. Moreover, the BTB connector is designed to install CM4 or other solutions to solve the current expensive problem of CM4.
 
-**Product Link:** https://biqu.equipment/products/manta-m4p-m8p
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/manta-m4p-m8p)
 
 ## **Features Highlights**
 
@@ -249,12 +249,6 @@ https://biqu3d.com/pages/submit-a-ticket
 **M8P Guide Videos**
 
 ***Unboxing/Wiring/Firmware Installation of CB1&M8P(Voron 2.4 as an example)***
-
-
-
-<video width="430" height="300" controls>
-    <source src="img/M8P/installationvoron2.4.mp4" type="video/mp4">
-</video>
 
 **Navigation:**
 

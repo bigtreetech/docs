@@ -67,17 +67,19 @@ BIGTREETECH ADXL345 V2.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ​	使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)；
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper1.png width="600"/>
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-**[\*] Enable extra low-level configuration optionsMicro-controller**
+**[\*] Enable extra low-level configuration options**
 
- **Micro-controller Architecture (Raspberry Pi RP2040) --->**
+ **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
 
- **Bootloader offset (No bootloader) --->**
+ **Processor model (rp2040)  --->**
 
- **Flash chip (W25Q080 with CLKDIV 2) --->**
+ **Bootloader offset (No bootloader)  --->**
 
- **Communication interface (USB) --->**
+ **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
+
+ **Communication Interface (USBSERIAL)  --->**
 
 2.配置选择完成后, 输入 ‘q’退出配置界面，当询问是否保存配置时选择“Yes”；
 
@@ -96,23 +98,31 @@ BIGTREETECH ADXL345 V2.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ​	3.输入
 
-​	**cd klipper**
+```
+cd klipper
+```
 
 ​	跳转到 klipper 目录下，输入
 
-​	**make flash FLASH_DEVICE=2e8a:0003**
+```
+make flash FLASH_DEVICE=2e8a:0003
+```
 
 ​	开始烧录固件（注意：将 2e8a:0003 更换为上一步中查询到的实际的设备 ID）
 
 ​	4.固件烧录完成后，输入
 
-​	**ls /dev/serial/by-id/** 
+```
+ls /dev/serial/by-id/ 
+```
 
 ​	查询设备的 Serial ID（只有通过 USB 通信的方式才会有此 ID，CANBus 方式忽略此步骤)。
 
 ​	5.第一次烧录完成之后，再次更新时无需手动按 Boot按钮进入 DFU 模式，可以直接输入
 
-​	**make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00**
+```
+make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if00
+```
 
 ​	烧录固件（注意：将/dev/serial/by-id/xxx 更换为上一步中查询到的实际的ID）。
 

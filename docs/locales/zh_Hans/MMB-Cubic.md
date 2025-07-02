@@ -125,7 +125,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 ​	并按照下图配置
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper1.png width="600" />
+<img src=img/rp2040_katapult_menuconfig.png width="600"/>
 
 \3)输入 **make** 编译固件，当 **make** 执行完成后会在 **home/biqu/katapult/out** 文件夹中生成我们所需要的“**katapult.uf2**”固件，在 SSH 软件左侧可以直接下载到电脑中；
 
@@ -155,11 +155,13 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 ​	使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)；
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper4.png width="600" />
+<img src=img/rp2040_canbus_menuconfig.png width="600" />
 
 ​	**[\*] Enable extra low-level configuration options**
 
-​	 **Micro-controller Architecture (Raspberry Pi RP2040) --->**
+​	 **Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**
+
+​	 **Processor model (rp2040)  --->**
 
 ​	如果不使用 katapult 
 
@@ -169,7 +171,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 ​	 **Bootloader offset (16KiB bootloader) --->**
 
-​	 **Flash chip (W25Q080 with CLKDIV 2) --->**
+​	 **Flash chip (GENERIC_03H with CLKDIV 4)  --->**
 
 ​	如果使用 CAN bus 通信
 
@@ -184,10 +186,6 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 ​	如果使用 USB 通信
 
 ​	 **Communication Interface (USBSERIAL) --->**
-
-​	 **USB ids --->**
-
-​	**() GPIO pins to set at micro-controller startup**
 
 \2. 配置选择完成后, 输入 ‘**q**’退出配置界面，当询问是否保存配置时选择“**Yes**”；
 

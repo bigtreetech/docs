@@ -67,7 +67,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 下图是从PINS.pdf文档中截取的片段。要获得更好的可视性，请参阅PINS.pdf文档。
 
-<img src=img/Octopus/Octopus_Pin.png width="600"/>
+<img src=img/Octopus/Octopus_Pinout.svg width="600"/>
 
 ## **硬件配置**
 
@@ -286,7 +286,7 @@ https://biqu.equipment/products/bigtreetech-octopus-v1-1
 
 
 
-**如果您对产品有任何问题，请提交一张支持票**
+**如果您对产品有任何问题，请与我们联系并提交支持工单**
 
 https://biqu3d.com/pages/submit-a-ticket
 

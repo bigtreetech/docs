@@ -251,7 +251,9 @@ https://www.printables.com/model/668556-modified-voron-exhaust-filter/files
 购买链接:
 https://biqu.equipment/products/universal-turbo-kit
 
-如果您对产品有任何问题，请提交支持单.
+
+
+**如果您对产品有任何问题，请与我们联系并提交支持工单.**
 https://biqu3d.com/pages/submit-a-ticket
 
 

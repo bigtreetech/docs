@@ -14,6 +14,10 @@ EBB系列
 
 MMB系列
 
+CNC系列
+
+Kraken系列
+
 物联网
 
 显示屏
@@ -47,6 +51,8 @@ X1
 P1
 
 Panda Claw
+
+Panda Aura
 
 挤出机
 

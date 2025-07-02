@@ -134,7 +134,7 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 <img src=img/MMB_CAN/MMB_CAN_Klipper4.png width="600" />
 
-**[\*] Enable extra low-level configuration optionsMicro-controller**
+**[\*] Enable extra low-level configuration options**
 
 **Micro-controller Architecture (STMicroelectronics STM32) --->**
 

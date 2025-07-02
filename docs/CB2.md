@@ -1,13 +1,13 @@
 # CB2
 
-<img src=img/CB2/CB2_Title.png width="600" />
+<img src=img/CB2/CB2_Title.png width="500" />
 
 ## **Product Profile**
 
 The BIGTREETECH CB2, compatible with the Raspberry Pi CM4 form factor, uses two 100-pin high-speed board-to-board (BTB) connectors for easy and quick connection with external expansion baseboards. It offers an alternative with similar IO capabilities, 
 including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally, it features 2.4G and 5G WiFi, Bluetooth 5.2, the Rockchip RK3566 SoC, 2GB LPDDR4 RAM, and 32GB eMMC storage.
 
-**Product Link:** https://biqu.equipment/products/bigtreetech-pi-2-cb2?variant=41018191839330
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-pi-2-cb2?variant=41018191839330)
 
 ## **Features Highlights**
 
@@ -253,163 +253,179 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
 
 ### SW1 Button Explanation
 
-The EMMC will not start when holding the SW1 button for 3 seconds while powering up. Releasing the button allows for programming the EMMC using the RKDevTool.
+Pressing and holding down SW1 will short-circuit the eMMC signal line to GND, prohibiting communication between SoC and eMMC.
 
-<img src=img/CB2/CB2_Interface1.png width="600" />
+<img src=img/CB2/CB2_Interface1.png width="450" />
 
-<img src=img/CB2/CB2_Interface2.png width="600" />
+<img src=img/CB2/CB2_Interface2.png width="450" />
 
 ### 40 pin GPIO
 
-<img src=img/CB2/CB2_Interface3.png width="600" />
+<img src=img/Pi2/Pi2_GPIO.png width="1200" />
 
 The calculation method for GPIO pins is as follows:
 
-GPIO4_B2 = (GPIO4 - GPIO0) * 32 + (‘B’ - ‘A’) * 8 + 2 = 4 * 32 + 1 * 8 + 2 = gpio138
+GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 = 1 * 8 + 2 = gpiochip4/gpio10
 
-GPIO3_D7 = (GPIO3 - GPIO0) * 32 + (‘D’ - ‘A’) * 8 + 7 = 3 * 32 + 3 * 8 + 7 = gpio127
+GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31
 
 ## **Flashing the System**
 
 ### Download the System Image
 
-Only use the image provided in the link: https://github.com/bigtreetech/CB2/releases
+Only use the image provided in [bigtreetech/CB2/releases](https://github.com/bigtreetech/CB2/releases/latest)
 
 ### Write System to MicroSD Card
 
-1、Download the balenaEtcher software from [https://www.balena.io/etcher/], install, and run it.
+1. Download the balenaEtcher software from [balena.io/etcher](https://www.balena.io/etcher/), install, and run it.
 
-2、Insert the MicroSD card via a card reader. 
+2. Insert the MicroSD card via a card reader. 
 
-3、Select your downloaded image.
+3. Select your downloaded image.
 
-<img src=img/CB2/CB2_System1.png width="600" />
+    <img src=img/CB2/CB2_System1.png width="450" />
 
-4、Select the MicroSD card and click "Flash" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted). 
+4. Select the MicroSD card and click "Flash" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted). 
 
-<img src=img/CB2/CB2_System2.png width="600" />
+    <img src=img/CB2/CB2_System2.png width="450" />
 
-5、Wait for the process to complete.
+5. Wait for the process to complete.
 
-<img src=img/CB2/CB2_System3.png width="600" />
+    <img src=img/CB2/CB2_System3.png width="450" />
 
 ### Writing System onto eMMC
 
-Using RKDevTool to Write the eMMC (Windows)
+Using RKDevTool (Windows) to Write the eMMC 
 
-Download and unzip RKDevTool from the GitHub repository (https://github.com/bigtreetech/CB2) to your computer. DO NOT insert a MicroSD card.
+Download and unzip `RKDevTool.zip` from the GitHub repo [bigtreetech/CB2](https://github.com/bigtreetech/CB2) to your computer. **DO NOT** insert a MicroSD card.
 
-1、Turn the DIP switch 4 (USBOTG) and 3 (RPIBOOT) to the ON position to enter BOOT mode.
+1. Turn the DIP switch 4 (USBOTG) and 3 (RPIBOOT) to the ON position to enter BOOT mode.
 
-<img src=img/CB2/CB2_System4.png width="600" />
+    <img src=img/CB2/CB2_System4.png width="450" />
 
-2、Then, connect the Type-C cable to the computer.
+2. Then, connect the Type-C cable to the computer.
 
-3、Install the driver:
+3. Install the driver:
 
-​	① In “Device Manager”, if you see “Unknown Device”, it indicates that the computer is missing drivers.
+    1. In “Device Manager”, if you see “Unknown Device”, it indicates that the computer is missing drivers.
 
-<img src=img/CB2/CB2_System5.png width="600" />
+        <img src=img/CB2/CB2_System5.png width="450" />
+    
+    2. Open the DriverAssistant tool in the downloaded RKDevTool folder, click “①Uninstall Driver”, then click “② Install Driver” to ensure that the latest version of the driver is installed.
 
-​	② Open the DriverAssistant tool in the downloaded RKDevTool folder, click “①Uninstall Driver”, then click “② Install Driver” to ensure that the latest version of the driver is installed.
+        <img src=img/CB2/CB2_System6.png width="450" />
 
-<img src=img/CB2/CB2_System6.png width="600" />
+    3. After the installation is complete, hold down the “Recovery” button, replug the Type-C cable. "Device Manager" should now recognize a “Rockusb Device”, indicating that the driver installation is successful.
 
- ③After the installation is complete, hold down the “Recovery” button, replug the Type-C cable. "Device Manager" should now recognize a “Rockusb Device”, indicating that the driver installation is successful.
+        <img src=img/CB2/CB2_System7.png width="450" />
 
-<img src=img/CB2/CB2_System7.png width="600" />
+4. Open the “RKDevTool” software:
 
-​	④Open the “RKDevTool” software:
+    <img src=img/CB2/CB2_System8.png width="450" />
+    
+    !!! note 
+        The parameters in the software are set by default as shown in the image. Normally, you only need to set the “4 actual path of the .img system”. If the parameters in your software do not match those in the image, manually adjust them to match.
 
-<img src=img/CB2/CB2_System8.png width="600" />
+        <img src=img/CB2/CB2_System9.png width="600" />
 
-**Note:** The parameters in the software are set by default as shown in the image. Normally, you only need to set the “④ actual path of the .img system”. If the parameters in your software do not match those in the image, manually adjust them to match.
+    1. Find the path where the downloaded RKDevTool is located.
 
-<img src=img/CB2/CB2_System9.png width="600" />
+    2. Open the RKDevTool tool.
+    
+    3. The software will recognize a “LOADER” or “MASKROOM” device.
 
-①Find the path where the downloaded RKDevTool is located.
+    4. Select the system to be written (the OS image must be unzipped as a .img file beforehand; RKDevTool does not support directly writing compressed .xz files).
 
-②Open the RKDevTool tool.
+    5. Check “Write by Address”.
 
-③The software will recognize a “LOADER” or “MASKROOM” device.
+    6. Click “Run” to start writting the system.
 
-④Select the system to be written (the OS image must be unzipped as a .img file beforehand; RKDevTool does not support directly writing compressed .xz files).
+    7. “Download image OK” indicates that the system has been successfully burned.
 
-⑤Check “Write by Address”.
-
-⑥Click “Run” to start writting the system.
-
-⑦“Download image OK” indicates that the system has been successfully burned.
-
-5、After writing is complete, toggle the USB OTG switch to the OFF position to boot normally. Note: Files on the eMMC cannot be accessed by the computer like those on a MicroSD card, so you cannot modify the system.cfg configuration file to set up the WiFi network. Instead, use an Ethernet cable or USB-to-UART connection to configure the terminal.
+5. After writing is complete, toggle the USB OTG switch to the OFF position to boot normally. Note: Files on the eMMC cannot be accessed by the computer like those on a MicroSD card, so you cannot modify the system.cfg configuration file to set up the WiFi network. Instead, use an Ethernet cable or USB-to-UART connection to configure the terminal.
 
 ### Writing System onto eMMC Using a MicroSD Card
 
-1、First, write the system onto the MicroSD card. Then, insert the MicroSD card into the motherboard's card slot and wait for the system to boot.
+1. First, write the system onto the MicroSD card. Then, insert the MicroSD card into the motherboard's card slot and wait for the system to boot.
 
-2、Connect to the system terminal via Ethernet cable, WiFi, or USB to UART, and log in to the system.
+2. Connect to the system terminal via Ethernet cable, WiFi, or USB to UART, and log in to the system.
 
-login: biqu
+    CB2 image minimal username and password
 
-password: biqu
+    ``` shell
+    login as: root
+    password: root
+    ```
 
-Execute the command sudo nand-sata-install. In the interface that pops up, select "2 
+    CB2 image with Klipper username and password
 
-Boot From eMMC - system on eMMC" and then select "OK"
+    ``` shell
+    login as: biqu
+    password: biqu
+    ```
+    
+    root account
 
-<img src=img/CB2/CB2_System10.png width="600" />
+    ``` shell 
+    login as: root
+    password: root
+    ```
 
-①Select "Yes" to start erasing and writing the system onto the eMMC.
+Execute the command sudo nand-sata-install. In the interface that pops up, select `2 Boot From eMMC - system on eMMC` and then select `OK`
 
-<img src=img/CB2/CB2_System11.png width="600" />
+<img src=img/CB2/CB2_System10.png width="500" />
 
-②Choose the filesystem "1 ext4" and then select "OK".
+1. Select "Yes" to start erasing and writing the system onto the eMMC.
 
-<img src=img/CB2/CB2_System12.png width="600" />
+    <img src=img/CB2/CB2_System11.png width="500" />
 
-③Wait for the writing process to complete.
+2. Choose the filesystem "1 ext4" and then select "OK".
 
-<img src=img/CB2/CB2_System13.png width="600" />
+    <img src=img/CB2/CB2_System12.png width="500" />
 
-④Upon completion, you will be prompted whether to power off. Select “Power off” to shut down the system.
+3. Wait for the writing process to complete.
 
-<img src=img/CB2/CB2_System14.png width="600" />
+    <img src=img/CB2/CB2_System13.png width="500" />
 
-⑤After the system has powered down, disconnect the power supply, remove the MicroSD card, and then reconnect power. The system should now boot from the eMMC.
+4. Upon completion, you will be prompted whether to power off. Select “Power off” to shut down the system.
+
+    <img src=img/CB2/CB2_System14.png width="500" />
+
+5. After the system has powered down, disconnect the power supply, remove the MicroSD card, and then reconnect power. The system should now boot from the eMMC.
 
 ### Erasing eMMC
 
 When using a MicroSD card as the system card instead, it's best to erase the data on the eMMC to prevent the motherboard from booting from it by mistake.
 
-#### Using RKDevTool to Erase eMMC (Windows)
+#### Using RKDevTool (Windows) to Erase eMMC 
 
-1、Refer to the steps in "4.3.1 Using RKDevTool to Write the eMMC (Windows)" to connect the motherboard to the computer.
+1. Refer to the steps in [Using RKDevTool to Write the eMMC (Windows)](#writing-system-onto-emmc) to connect the motherboard to the computer.
 
-2、Open the "RKDevTool".
+2. Open the `RKDevTool`.
 
-<img src=img/CB2/CB2_System15.png width="600" />
+    <img src=img/CB2/CB2_System15.png width="450" />
 
-①Find the path where the downloaded RKDevTool is located.
+    1. Find the path where the downloaded RKDevTool is located.
 
-②Open the RKDevTool.
+    2. Open the RKDevTool.
 
-③The software will recognize a "LOADER" device. If it recognizes "MASKROOM," it indicates there is no data in the eMMC, hence no erase operation is necessary.
+    3. The software will recognize a `LOADER` device. If it recognizes `MASKROOM`, it indicates there is no data in the eMMC, hence no erase operation is necessary.
 
-④Click "Advanced Function."
+    4. Click `Advanced Function`.
 
-⑤Click "EraseAll" to begin erasing data from the eMMC.
+    5. Click `EraseAll` to begin erasing data from the eMMC.
 
-⑥"Erasing sectors success" indicates the erasure is complete.
+    6. `Erasing sectors success` indicates the erasure is complete.
 
 #### Erasing eMMC After Booting from MicroSD Card
 
-1、Refer to the steps in "4.3.2 Writing System onto eMMC Using a MicroSD Card" and log into the system terminal. 
+1. Refer to the steps in [Writing System onto eMMC Using a MicroSD Card](#writing-system-onto-emmc-using-a-microsd-card) and log into the system terminal.
 
-2、Run the command sudo mkfs /dev/mmcblk1 and then enter "y" to confirm. 
+2. Run the command sudo mkfs /dev/mmcblk1 and then enter `y` to confirm. 
 
-<img src=img/CB2/CB2_System16.png width="600" />
+    <img src=img/CB2/CB2_System16.png width="600" />
 
-## **System Configuration**
+## System Configuration
 
 ### Using Ethernet
 
@@ -417,199 +433,203 @@ Ethernet is plug-and-play and requires no additional setup.
 
 ### Setting Up WiFi
 
-After the system image has been written, the MicroSD card will have a FAT32 partition recognized by the computer. In this partition, there is a "system.cfg" file. Open it and replace "Your SSID" with your actual WiFi name and "Your Password" with the actual password.
+After the system image has been written, the MicroSD card will have a FAT32 partition recognized by the computer. In this partition, there is a `system.cfg` file. Open it and replace `Your SSID` with your actual WiFi name and `Your Password` with the actual password.
 
-<img src=img/CB2/CB2_System17.png width="600" />
+<img src=img/CB2/CB2_System17.png width="500"/>
 
 ### Configuring Overlays
 
-Open the "armbianEnv.txt" file in the BOOT partition and set the values for overlays. The configuration file supports only one line of overlays at a time; if multiple overlays are enabled, only the last line will take effect. If you need multiple overlays, place the contents of multiple configurations on the same line separated by a space. For example, if you need to use a DSI screen, MCP2515 SPI to CAN module, and I2C1 simultaneously:
+Open the `armbianEnv.txt` file in the BOOT partition and set the values for overlays. The configurati   on file supports only one line of overlays at a time; if multiple overlays are enabled, only the last line will take effect. If you need multiple overlays, place the contents of multiple configurations on the same line separated by a space. For example, if you need to use a DSI screen, `MCP2515` SPI to CAN module, and `I2C1` simultaneously
 
+``` 
 overlays=dsi mcp2515 i2c1
+```
 
 <img src=img/CB2/CB2_System18.png width="600" />
 
 ### Configuring the Display
 
-1、Open the "armbianEnv.txt" file in the BOOT partition.
+1. Open the "armbianEnv.txt" file in the BOOT partition.
 
-<img src=img/CB2/CB2_System19.png width="600" />
+    <img src=img/CB2/CB2_System19.png width="600" />
 
-2、The default overlay is set to "hdmi," meaning the system uses an HDMI screen by default. This can be changed to match the actual screen being used, such as: 
+2. The default overlay is set to "hdmi," meaning the system uses an HDMI screen by default. This can be changed to match the actual screen being used, such as: 
 
-· "hdmi": [HDMI screen](https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0)
+- `hdmi`: [HDMI screen](https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0)
 
-· "dsi": [DSI screen](https://biqu.equipment/collections/lcd/products/bigtreetech-pi-tft43-v2-0-screen-board)
+- `dsi`: [DSI screen](https://biqu.equipment/collections/lcd/products/bigtreetech-pi-tft43-v2-0-screen-board)
 
-· "tft_35": [SPI Screen](https://biqu.equipment/collections/lcd/products/bigtreetech-tft35-spi-v2-1-touchscreen-io2can-module)
+- `tft_35`: [SPI Screen](https://biqu.equipment/collections/lcd/products/bigtreetech-tft35-spi-v2-1-touchscreen-io2can-module)
 
-· 
+For `tft_35`, there is also a `tft35_spi_rotate` parameter for system-level screen rotation, with default "0" meaning no rotation, other options include `90`, `180`, `270`.
 
-For "tft_35", there is also a "tft35_spi_rotate" parameter for system-level screen rotation, with default "0" meaning no rotation, other options include "90", "180", "270".
+!!! note 
+    Only one screen type can be used at a time. 
 
-**Note:** Only one screen type can be used at a time. 
+3. To configure KlipperScreen, open the `system.cfg` file in the BOOT partition. Set the screen type with the parameter `ks_src`, and the rotation angle with `ks_angle`.
 
-3、To configure KlipperScreen, open the `system.cfg` file in the BOOT partition. Set the screen type with the parameter `ks_src`, and the rotation angle with `ks_angle`.
-
-<img src=img/CB2/CB2_System20.png width="600" />
+<img src=img/CB2/CB2_System20.png width="500" />
 
 ### Using SPI to CAN
 
-Open the "armbianEnv.txt" file in the BOOT partition and add "mcp2515" to the overlays configuration.
+Open the `armbianEnv.txt` file in the BOOT partition and add `mcp2515` to the overlays configuration.
 
-<img src=img/CB2/CB2_System21.png width="600" />
+<img src=img/CB2/CB2_System21.png width="500" />
 
 ### Using CSI Camera and Crowsnest Configuration
 
 For both RPi v1.3 ov5647 and RPi v2 imx219 cameras, no specific configuration in "armbianEnv.txt" is required as they are plug-and-play. "crowsnest.conf" file configuration is as follows:
 
-<font  color="blue">**device: /dev/video0**</font> # The CSI camera node is fixed as video0
+```
+device: /dev/video0
+# The CSI camera node is fixed as video0
 
-<font  color="blue">**custom_flags: --format=UYVY**</font> # The current system's CSI camera does not support the default YUYV, so it needs to be set to the supported UYVY format.
-
-<img src=img/CB2/CB2_System22.png width="600" />
+custom_flags: --format=UYVY
+# The current system's CSI camera does not support the default YUYV, so it needs to be set to the supported UYVY format.
+```
+<img src=img/CB2/CB2_System22.png width="500" />
 
 ### Using Bluetooth
 
-1、To scan for Bluetooth devices, enter the following command, and a list of Bluetooth devices will appear as shown below:
+1. To scan for Bluetooth devices, enter the following command, and a list of Bluetooth devices will appear as shown below:
 
-<font  color="blue">**bluetoothctl --timeout 15 scan on**</font>
+    ``` shell
+    bluetoothctl --timeout 15 scan on
+    ```
 
-<img src=img/CB2/CB2_System23.png width="600" />
+    <img src=img/CB2/CB2_System23.png width="500" />
 
-2、Find your Bluetooth device, for example, if your device name is "HONOR xSport PRO", locate the corresponding Bluetooth MAC ID as shown below.
+2. Find your Bluetooth device, for example, if your device name is "HONOR xSport PRO", locate the corresponding Bluetooth MAC ID as shown below.
 
-<img src=img/CB2/CB2_System24.png width="600" />
+    <img src=img/CB2/CB2_System24.png width="500" />
 
-3、To connect to a Bluetooth device, enter the following command, connection success is shown as below
+3. To connect to a Bluetooth device, enter the following command, connection success is shown as below
 
-<font  color="blue">**bluetoothctl connect E0:9D:FA:50:CD:4F**</font>
+    ``` shell
+    bluetoothctl connect E0:9D:FA:50:CD:4F
+    ```
 
-<img src=img/CB2/CB2_System25.png width="600" />
+    <img src=img/CB2/CB2_System25.png width="500" />
 
-①If there's an issue while connecting, as shown below, please restart the Bluetooth device and repeat steps 1 and 2 to connect.
+    1. If there's an issue while connecting, as shown below, please restart the Bluetooth device and repeat steps 1 and 2 to connect.
 
-<img src=img/CB2/CB2_System26.png width="600" />
+        <img src=img/CB2/CB2_System26.png width="500" />
 
-②If there's an issue while connecting, as shown below, please enter the following commands and then repeat steps 1 and 2:
+    2. If there's an issue while connecting, as shown below, please enter the following commands and then repeat steps 1 and 2:
 
-<font  color="blue">**bluetoothctl remove E0:9D:FA:50:CD:4F**</font> <font  color="red">**(Your Bluetooth device's corresponding MAC ID)**</font>
+        ``` shell
+        bluetoothctl remove E0:9D:FA:50:CD:4F # Your Bluetooth device's corresponding MAC ID
+        rfkill block bluetooth
+        sleep 3s
+        rfkill unblock bluetooth
+        pulseaudio -k
+        pulseaudio –start
+        ```
 
-<font  color="blue">**rfkill block bluetooth**</font>
+        <img src=img/CB2/CB2_System27.png width="500" />
 
-<font  color="blue">**sleep 3s**</font>
+4. If you exit voice playback during the use of Bluetooth and cannot reuse it, manually delete the corresponding playback process. Use the ps command to view the process number, then use `kill -9 <process_number>` to delete the corresponding playback process.
 
-<font  color="blue">**rfkill unblock bluetooth**</font>
-
-<font  color="blue">**pulseaudio -k**</font>
-
-<font  color="blue">**pulseaudio –start**</font>
-
-<img src=img/CB2/CB2_System27.png width="600" />
-
-4、 If you exit voice playback during the use of Bluetooth and cannot reuse it, manually delete the corresponding playback process. Use the ps command to view the process number, then use kill -9 process_number to delete the corresponding playback process.
-
-<img src=img/CB2/CB2_System28.png width="600" />
+    <img src=img/CB2/CB2_System28.png width="500" />
 
 ### Setting up 3.5mm Headphones Port
 
-1、Enter the command: <font  color="blue">**aplay -l**</font>
+1. Enter the command: 
 
-Check for the corresponding sound card, as shown in the image (the sound card for the headphone port shown in the image corresponds to <font  color="blue">**card 0**</font>).
+    ``` shell
+    aplay -l
+    ```
 
-<img src=img/CB2/CB2_System29.png width="600" />
+Check for the corresponding sound card, as shown in the image (the sound card for the headphone port shown in the image corresponds to `card 0`).
 
-2、Enter the command:
+<img src=img/CB2/CB2_System29.png width="500" />
 
-<font  color="blue">**amixer -c 0 contents**</font>(0 represents the card 0 found in the previous <font  color="blue">**aplay -l**</font> command)
+2. Enter the command:
 
-Check the settings for playback and recording channels, as shown in the image.
+    ``` shell
+    amixer -c 0 contents # 0 represents the card 0 found in the previous `aplay -l` command
+    ```
 
-<img src=img/CB2/CB2_System30.png width="600" />
+    Check the settings for playback and recording channels, as shown in the image.
 
-3、Enter the command:
+    <img src=img/CB2/CB2_System30.png width="500" />
 
-<font  color="blue">**amixer -c 0 cset numid=1 3**</font>
+3. Enter the command:
 
-Set the playback channel, as shown in the image.
+    ``` shell
+    amixer -c 0 cset numid=1 3
+    ```
 
-<img src=img/CB2/CB2_System31.png width="600" />
+    Set the playback channel, as shown in the image.
 
-4、Enter the command:
+    <img src=img/CB2/CB2_System31.png width="500" />
 
-<font  color="blue">**amixer -c 0 cset numid=2 1**</font>
+4. Enter the command:
 
-Set the recording channel, as shown in the image.
+    ``` shell 
+    amixer -c 0 cset numid=2 1
+    ```
 
-<img src=img/CB2/CB2_System32.png width="600" />
+    Set the recording channel, as shown in the image.
 
-5、Enter the following command to play audio, with the audio file directory xxx and the audio file name xxxxx.wav:
+    <img src=img/CB2/CB2_System32.png width="500" />
 
-<font  color="blue">**aplay -D plughw:0,0 /xxx/xxxxx.wav**</font>
+5. Enter the following command to play audio, with the audio file directory xxx and the audio file name xxxxx.wav:
 
-6、Enter the following command to record (where 10 represents recording for 10 seconds), storing the recording in directory xxx, file name xxxx.wav:
+``` shell
+aplay -D plughw:0,0 /path/to/file.wav
+```
 
-<font  color="blue">**sudo arecord -Dhw:0,0 -d 10 -f cd -r 44100 -c 2 -t wav /xxx/xxxx.wav**</font>
+6. Enter the following command to record (where 10 represents recording for 10 seconds), storing the recording in directory `/path/to/`, file name `file.wav`.
 
-7、Enter the following command to play the recording:
+``` shell
+sudo arecord -Dhw:0,0 -d 10 -f cd -r 44100 -c 2 -t wav /path/to/file.wav
+```
 
-<font  color="blue">**aplay -D plughw:0,0 /xxx/xxxx.wav**</font>
+7. Enter the following command to play the recording:
 
-## **SSH Connect to Device**
+``` shell
+aplay -D plughw:0,0 /path/to/file.wav
+```
 
-1、Install the SSH software Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html
+## SSH Connect to Device
 
-2、After powering on, wait for the system to boot, which typically takes about 1 to 2 minutes.
+!!! info "SSH Application"
+    Install the ssh application Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html
 
-3、Once the device is connected to WiFi or an Ethernet cable is plugged in, it will automatically be assigned an IP address.
+1. After powering on, wait for the system to boot, which typically takes about 1 to 2 minutes.
 
-4、Access the router management interface to find the device's IP (it should be BTT-CB2 here).
+2. Once the device is connected to WiFi or an Ethernet cable is plugged in, it will automatically be assigned an IP address.
 
-<img src=img/CB2/CB2_System33.png width="600" />
+3. Access the router management interface to find the device's IP (it should be BTT-CB2 here).
 
-5、Open Mobaxterm and click "Session", and click "SSH", inset the device IP into Remote host and click "OK" (Note: your computer and the device needs to be in the same network).
+    <img src=img/CB2/CB2_System33.png width="500" />
 
-<img src=img/CB2/CB2_System34.png width="600" />
+4. Open Mobaxterm and click "Session", and click "SSH", inset the device IP into Remote host and click "OK" (Note: your computer and the device needs to be in the same network).
 
-6、Login as: biqu password: biqu
+    <img src=img/CB2/CB2_System34.png width="500" />
 
-<img src=img/CB2/CB2_System35.png width="600" />
+5. Login as: `biqu` password: `biqu`
 
-## **Precautions**
+    <img src=img/CB2/CB2_System35.png width="500" />
 
-1、About 10 seconds after powering on, the system enters the kernel phase. At this time, the blue light stays on, and the green light flashes continuously, indicating that the system is running normally.
+## Precautions
 
-2、Root administrator:
+!!! info "Boot from eMMC"
+    When booting from eMMC, do not insert a MicroSD card. When booting from a MicroSD card, it is necessary to erase the data in the eMMC.
 
-​		Login: root
+1. About 10 seconds after powering on, the system enters the kernel phase. At this time, the blue light stays on, and the green light flashes continuously, indicating that the system is running normally.
 
-​		Password: root
+2. user account 
 
+    ``` shell title="login in as biqu"
+    login as: biqu
+    password: biqu
+    ```
 
+    ``` shell title="login in as root"
+    login as: root
+    password: root
+    ```
 
-​	BIQU user:
-
-​		Login: biqu
-
-​		Password: biqu
-
-3、The PCIe M.2 interface does not support hot-plugging; the solid-state drive must be connected in advance for the device to be recognized.
-
-4、When booting from eMMC, do not insert a MicroSD card. When booting from a MicroSD card, it is necessary to erase the data in the eMMC.
-
-
-
-**Navigation:**
-
-BIQU Official Website：                            				http://biqu3d.com
-
-BIGTREETECH Official Website：            				 http://bigtree-tech.com
-
-Online Store：                                           				 https://biqu.equipment
-
-BIGTREETECH Official Group: 								  https://www.facebook.com/groups/bigtreetech
-
-Discord: 																	   https://discord.gg/hhZsV7zk
-
-Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
-
+3. The PCIe M.2 interface does not support hot-plugging; the solid-state drive must be connected in advance for the device to be recognized.

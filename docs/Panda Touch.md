@@ -7,21 +7,24 @@ The CAD files for the Panda Touch can be downloaded [here](https://github.com/bi
 
 **Panda Touch Guide Video**
 
-<video width="430" height="300" controls>
-    <source src="img/PandaTouch/introduction.mp4" type="video/mp4">
-</video>
-
 ## IMPORTANT NOTE
 
 The Panda Touch is currently compatible with all Bambu Lab printer firmware versions up until:
-
-* P1P --> v01.06.01.00
-* P1S --> v01.06.01.00
-* X1C --> v01.08.02.00
-* A1 --> v01.03.01.00
-* A1 Mini --> v01.03.01.00
+ 
+* P1P/S: 01.07.00.00 
+* X1C --> 01.08.02.00
+* X1E --> 01.01.02.00
+* A1 --> 01.04.00.00
+* A1 Mini --> 01.04.00.00
 
 It is possible that Bambu Lab may release a future firmware version that impacts the functions available on the Panda Touch. Bigtreetech will monitor all beta firmware versions, and if we find a firmware version that affects Panda Touch functionality, we will send out an alert via email, Aliexpress chat, and our social channels. Buyers can then decide whether or not they would like to perform the update at the risk of losing functionality. Note that the Panda Touch warranty does not cover lost functionality due to a Bambu Lab firmware update being performed.
+
+Certain features of the Panda Touch, including initiating printing, controlling the motion system, adjusting temperatures, controlling fans, AMS settings/calibration, are likely to be affected by the authorization and authentication protection mechanisms in Bambu Lab's newly announced firmware which is currently only released for the X1 series. If using an X1 in cloud mode, these features may be unavailable. However, the ability to access printer status information, such as printing progress, nozzle temperature, and bed temperature, will remain unaffected while in cloud mode. To regain full control of X1 machines (or any machine with the new authentication firmware) when using the Panda Touch, you can manually enable Developer Mode under the LAN mode section.
+
+For more details, please refer to the official announcements by BIQU and Bambu Lab:
+1. https://bigtree-tech.com/blogs/news/announcement-on-bambu-lab-security-firmware-update
+2. https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/
+3. https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/
 
 ## IMPORTANT USAGE INFORMATION
 
@@ -32,6 +35,7 @@ It is possible that Bambu Lab may release a future firmware version that impacts
 * When running on its built-in lithium battery, the Panda Touch has a battery life of approximately 20 to 30 minutes, depending on the screen brightness. To maintain the battery and extend the lifespan of the product, it is advised to charge the Panda Touch or turn it off as soon as the battery runs out.
 * The screen may flicker when the lithium battery is low on power. This flickering is normal and acts as a warning to users that the battery is almost empty. Users should then promptly charge the battery or turn off the Panda Touch.
 * If you plan to turn your printer on and off frequently, we recommend running the Panda Touch on DC5V mode. This bypasses the battery and prevents it from going through many charge-discharge cycles. If you want to run off the battery, then simply flick the switch on the back of the Panda Touch to the battery power mode.
+* Maximum Supported Capacity for USB Drive: 8GB.
 
 ## Specifications
 
@@ -254,13 +258,40 @@ Follow the steps below to enable cloud connectivity to those printers that need 
 * `Number input`
  <br> <img src=img/PandaTouch/keyboard_number.png width="600"/>
 
+### Display of Print Tasks and SD Card Thumbnails on the Home Screen
+<br> <img src=img/PandaTouch/thumbnail_preview.png width="600"/>
+ 
+> Note:
+> Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. The X1 series printers do not support this feature.
+> Thumbnail Mismatch: A mismatch will only occur if the timestamp of an image in the 'image' folder matches the timestamp of another print file.
+> Enhanced loading thumbnails: There is a option for loading thumbnails in setting page, if you turn on this then it will bring a long delay for start printing from u-disk and do something from the sd-card panel.
+
 ### Filament Control
 
-The Panda Touch allows users to configure the type and colour of the filament being used on their external spool holder and their AMS. Users can also load and unload filamement using this menu.
+The Panda Touch allows users to configure the type and color of the filament being used on their external spool holder and their AMS. Users can also load and unload Filament using this menu.
 
 When performing any actions, please ensure that the correct AMS unit and filament slot is selected. You will know that the filament is selected when it has a red border around it. If nothing has been selected then the `Load` and `Unload` buttons will be greyed out.
 
 <img src=img/PandaTouch/filament_screen.png width="600"/>
+
+### Filament Drying
+The Panda Touch facilitates drying filaments on both the X1 series and P1S printers.
+* Tap the “Dyring” button
+<br><img src=img/PandaTouch/drying.png width="400"/>
+
+* Follow the subsequent steps as displayed on the screen.
+<br><img src=img/PandaTouch/filament_dry.png width="400"/>
+
+### Skip Objects
+> **Note :** 
+Begin printing tasks via the Bambu Studio or the Handy app.
+~~~
+Not available
+- 1 or 64+ objects in single plate 
+- Bambu studio slicer lower than V1.6
+~~~ 
+
+<img src=img/PandaTouch/skip_objects.gif width="400"/> 
 
 ### HMS (Health Management System)
 
@@ -392,6 +423,10 @@ The following group controls exist from this menu:
 
     ③: Pause/Resume all print jobs in the group.
 
+#### Group Printing Delay Function
+The group printing is delayed based on this time, and if the current printer heats up or the time is up, the print job is sent to the next one.
+<br> <img src=img/PandaTouch/group_delay.png width="600"/>
+
 ### Connecting with Panda PWR
 #### Binding Panda Touch and Panda PWR
 * Open the Panda PWR page<br><img src=img/PandaPWR/bind_before.png width="600"/>  
@@ -420,6 +455,10 @@ the countdown begins once conditions are met, and Panda PWR will cut off the pow
 To reset the recorded power consumption data, click the "RST Usage" button.
 <br><img src=img/PandaPWR/reset_usage.png width="600"/>
 
+#### Hiding the Panda PWR Control Interface
+* Navigate to the settings menu, tap on Panda PWR, and select 'Off'.
+<br><img src=img/PandaTouch/hide_pwr.png width="600"/>
+
 #### USB1 Follows Printer Lights
 * Set to ON: USB1 will mimic the printer's LED status. When the LED is on, USB1 outputs 5V; when off, the output is disabled.
 * Set to OFF: USB1 functions manually and does not respond to the printer's LED status.
@@ -442,20 +481,69 @@ Click again to return to the file list view.
 > Note:
 > Only 3mf files generated by Bambu Studio are supported for thumbnail previews. If the thumbnail is not displayed correctly, consider re-slicing with Bambu Studio.
 
+### File Folder Access for SD Cards and USB Drives
+* Tap on a directory to switch to it
+<br><img src=img/PandaTouch/change_dir.png width="600"/>  
+
+* USB Drive
+<br><img src=img/PandaTouch/udisk_folder.png width="600"/> 
+
+* SD Card
+<br><img src=img/PandaTouch/ftps_folder.png width="600"/>  
+
+### Reprinting
+#### Reprinting from the Home Screen
+<img src=img/PandaTouch/reprint_home.png width="600"/>  
+
+> Note: To reprint, ensure the file is stored in the default directory on the printer’s SD card (selectable between Cache or the root directory via Panda Touch settings).
+
+#### Reprinting from History
+<img src=img/PandaTouch/print_history.png width="600"/>  
+
+### Change the Default Directory on the printer’s SD card 
+<br><img src=img/PandaTouch/cache_root.png width="600"/>
+
+### Adding New Languages 
+<br><img src=img/PandaTouch/language_custom.png width="600"/>
+
+* German (Deutsch)
+<br><img src=img/PandaTouch/de.png width="600"/>  
+
+* Spanish (Español)
+<br><img src=img/PandaTouch/es.png width="600"/>  
+
+* Japanese (日本語)
+<br><img src=img/PandaTouch/ja.png width="600"/>  
+
 ### How To Change The Panda Picture
 
-Use [this tool](https://github.com/bigtreetech/PandaTouch/tree/master/Firmware/1.0.3/Panda%20Pic%20Exchange%20Tool) to change the picture of the panda.
-* Ensure that you are running firmware version 1.0.3 or above.
-* Currently, the tool only works on Windows.
+Use [this tool](https://ptimgtool.bttwiki.com) to change the picture of the panda.
+* Ensure that the firmware version of Panda Touch is 1.0.6 or above. 
 * Please ensure that the image you want to replace meets the following requirements: 
   * Pixel width less than 280
   * Pixel height less than 306
   * Pixel depth 32-bit color
-  * Image format PNG.
-* Ensure that the image you want to replace meets the format requirements, rename it, and replace the new_panda.png file in the folder where the tool is located.
-* Click generate_img.bat to compile.
-* Enter the IP address of the Panda Touch in the browser to access the OTA web UI.
-* Click "Update File," select new_panda.img, and proceed with the update.
+  * Image format PNG. 
+* Upload the yml file if you need to replace the label on the UI of Panda Touch.
+  * [Panda Touch UI Translation](https://github.com/bigtreetech/PandaTouch/tree/master/Translation)
+<br><img src=img/PandaTouch/upload_new_panda.png width="600"/>  
+
+* Click generate button. 
+<br><img src=img/PandaTouch/generate_new_panda.png width="600"/> 
+
+* Open the web ui from Panda Touch and update filesystem by this .img file. 
+
+### Panda Sense 
+
+#### Temperature and Humidity Display
+* printing
+<br><img src=img/PandaTouch/sense_printing.png width="400"/>  
+
+* Printer Standby
+<br><img src=img/PandaTouch/sense_idle.png width="400"/>  
+
+* Temperature/Axis page
+<br><img src=img/PandaTouch/sense_filament.png width="400"/>  
 
 ## Troubleshooting
 
@@ -498,8 +586,9 @@ If there is something you would like to see in a future release of the Panda Tou
 
 ### How to update firmware
 
-> NOTE: Updating versions V1.0.2 and above requires sending two files to Panda Touch. One is the firmware file (.bin) and the other contains the graphics and fonts (.img).  This will help us to add more languages to the Panda touch in the future. Be sure to download both the .bin and .img files.
-
+> Note:
+> Updating versions V1.0.2 and above requires sending two files to Panda Touch. One is the firmware file (.bin) and the other contains the graphics and fonts (.img).  This will help us to add more languages to the Panda touch in the future. Be sure to download both the .bin and .img files.
+ 
 #### Over The Air Updates
 
 * Download the firmware binary file (Download link in [Firmware History](#firmware-history)) to the device being used to perform the update. This can be a computer or a mobile device running an OS such as iOS or Android. Hereafter it will be referred to as the "computer".
@@ -545,6 +634,58 @@ If there is something you would like to see in a future release of the Panda Tou
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### Firmware History
+#### [V1.0.7.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7.1/panda_touch-v1.0.7.1.bin)
+##### Bug Fixes
+- **Panda Sense Issue**: Panda Sense temperature values not updating.
+- **Skipping Objects Not working**: Can not select object.
+- **Reprint function Not working**: Synced with Bambu's latest cloud print request format (custom filaments temporarily unsupported).
+- **Printing with AMS Not working**: Added configurable AMS mapping to resolve AMS printing issues. (supports AMS-1 only, custom filaments unsupported).
+- **Thumbnails in other directories not displaying**.
+- **Sd-card File year information missing**. 
+
+##### Functional Optimizations
+- **Increased thumbnail Size**: Increased homepage thumbnail resolution from 128 * 128 to 280 * 306 when printing via Bambu Studio/Handy app. 
+- **Real-time printer model updates in background**.  
+
+#### [V1.0.7](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7/panda_touch-v1.0.7.bin)
+##### Bug Fixes
+- **Printer Name Synchronization Issue**: Ensures printer names are updated in real-time from the server.
+- **Axis Direction Error Issue**: Resolves issues with incorrect Y-axis and Z-axis movement on A1 and A1 mini printers.
+
+##### New Features
+- **Skip Objects Support**: Allows users to skip objects during the print process. 
+- **Filament drying**: Adds filament drying functionality specifically for P1S.
+
+#### [V1.0.6.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.3/panda_touch-v1.0.6.3.bin)
+##### Bug Fixes
+- **Fixed Crash when start printing**: Crash when start a print task from u-disk.
+- **Fixed Crash in OTA page**: Crash when click ssid of wifi in OTA page.
+
+##### Functional Optimizations
+- **Stop loading thumbnail when printing**. 
+
+#### [V1.0.6]
+##### New Features
+- **Supports Panda Sense for Displaying Temperature and Humidity**.
+- **Supports thumbnail display of print tasks and SD card on the home screen**: Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. Note: The X1 series printers do not support this feature.
+- **Supports quick reprint from the home screen after printing completion**: The print file must be stored in the default directory on the printer's SD card (default directory can be set to Cache or root directory in Panda Touch settings).
+- **Display and Initiate from Print History Records**: Currently supports displaying the latest 12 print records only.
+- **Folder Directory Access**: Includes access for both SD card and USB drives.
+- **Filament Management Interface**: Displays the currently loaded filament with a new UI closer to the official operating experience.
+- **AMS Interface Humidity Display**: Displays a humidity icon and data in the bottom right corner.  
+- **Expanded Filament Type Selection in Filament Management Interface**: Filament editing now synchronized with the types settable via the Handy APP.   
+- **Group Printing Delay Function**: Allows delayed printing operations when initiating group printing via USB drive.
+- **Hide Panda PWR Control Interface**: Option to enable/disable in Panda Touch settings.
+- **Multilingual Display**: Currently supports German, Spanish, and Japanese. Each language uses a different .img file, selectable as the third language option. 
+
+##### Functional Optimizations
+- **Pre-Selection Options Before Printing**: The Auto Power-Off feature of Panda PWR is now by default set to off.
+- **Optimization of New_Panda File Verification**: Device checks the file upon power-up to avoid update interruptions that could prevent startup.
+- **Optimized Chamber Temperature Display Icon**.
+- **Improved IMG File Generation**: New new_panda files can now be generated using the [online tool](https://ptimgtool.bttwiki.com).
+
+##### Bug Fixes
+- **Fixed Access Code Data Synchronization Issue**: Discrepancies in Access code data retrieved from the cloud server can cause loss of SN data, making it impossible to connect to the printer.
 #### [V1.0.5.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5.1/panda_touch-v1.0.5.1.bin) 
 * change the login method: login by email code.
 

@@ -2,13 +2,9 @@
 
 <img src=img/Belter/Belter_title.png width="600"/>
 
-**Product Link:**
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool)
 
-https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool
-
-**GitHub Link:**
-
-https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master
+**GitHub Link:** [bigtreetech/Belter-belt-tension-Tool](https://github.com/bigtreetech/Belter-belt-tension-Tool)
 
 ## **Introduction**
 
@@ -27,8 +23,11 @@ Belter is a high-precision belt tension tool designed to accurately measure belt
 ## **Specifications**
 
 Product Name: Belter
+
 Material: Aluminum Alloy Oxide Sandblasting
+
 Unit Switching: inch/mm 
+
 Power Source: 1x CR2032 3V Button Battery (Included)
 
 ## **Product Structure**
@@ -41,11 +40,13 @@ Power Source: 1x CR2032 3V Button Battery (Included)
 
 ## **Instructions for Use**
 
-<font  color="red">**☆Print and install ProbeTip.step to ensure accurate ready**</font> 
+!!! warning "Before Start"
+    Print and install [PrintParts](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/PrintParts) to ensure accurate measurement.
 
-**Preparation**: We provide a table of Belter value-tension converters to assist users in converting readings into belt tension (N). 
+    [Tension calculation table](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation%20Tool) of Belter value-tension converters to assist users in converting readings into belt tension (N). 
 
-Please download the Single-Hand Operation Model and Tension Calculator table files from: https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/PrintParts
+    Before start make sure download the [Single-Hand Operation Model](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/PrintParts) and [Tension Calculator table](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation%20Tool) 
+    
 
 **Step 1:** Zero measurement.
 
@@ -63,9 +64,7 @@ Record the value displayed.
 
 **Step 3:** Convert the Belter value to tension (N)
 
-Find calculator File Here:
-
-[https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation%20Tool](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation Tool)
+Then using [Calculation Tool](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation%20Tool) to calculate belt tension (N) 
 
 <img src=img/Belter/Belter_Instruction4.png width="600"/>
 
@@ -77,13 +76,9 @@ Compare the result of your measurement and adjust your belt tension accordingly.
 
 https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool
 
-
-
 If you experience any issues with this product, please contact us and submit a support ticket.
 
 https://biqu3d.com/pages/submit-a-ticket
-
-
 
 Navigation:
 

@@ -71,7 +71,7 @@ The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherbo
 
 **The image below is a snippet taken from the PINS.pdf document. For better viewability please consult the PINS.pdf document.**
 
-**<img src=img/Octopus/Octopus_Pin.png width="600"/>**
+<img src=img/Octopus/Octopus_Pinout.svg width="600"/>
 
 ## **Hardware Configuration**
 

@@ -6,7 +6,7 @@
 
 BIGTREETECH MMB CAN V1.0 is a control board for multi-material 3D printing system, e.g., ERCF. It simplifies wiring by communicating via USB or CAN.
 
-**Product Link:** https://biqu.equipment/products/bigtreetech-mmb
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-mmb)
 
 ## **Features Highlights**
 
@@ -140,7 +140,7 @@ To flash CanBoot on Raspberry Pi or CB1, follow the instructions at https://gith
 
 <img src=img/MMB_CAN/MMB_CAN_Klipper4.png width="600" />
 
-**[\*] Enable extra low-level configuration optionsMicro-controller**
+**[\*] Enable extra low-level configuration options**
 
 **Micro-controller Architecture (STMicroelectronics STM32) --->**
 

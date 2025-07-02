@@ -114,7 +114,7 @@ BIQU Panda Claw 是一种专为 X1、P1和A1系列打印机设计的挤出机齿
 
 https://biqu.equipment/products/biqu-panda-claw-extruder-gear-set-gold-nano-coated-steel-aluminum-cnc-support-for-x1-p1-a1-mini?variant=41425356783714
 
-如果您在使用产品过程中遇到任何问题，请提交支持工单
+**如果您在使用产品过程中遇到任何问题，请与我们联系并提交支持工单**
 
 https://biqu3d.com/pages/submit-a-ticket
 

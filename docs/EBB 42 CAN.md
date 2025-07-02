@@ -9,7 +9,7 @@
 
 BIGTREETECH EBB42 CAN V1.0/V1.1 is a nozzle adapter board specially designed for the 42 extruder stepper motor, which is launched by the 3D printing team Shenzhen BIQU Innovation Technology Co., Ltd.. It can communicate via USB port, or CAN BUS, greatly simplifying wirings.
 
-**Product Link:** https://biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-connecting-klipper-expansion-device
+**Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-connecting-klipper-expansion-device)
 
 ## **Features Highlights**
 
@@ -45,115 +45,99 @@ BIGTREETECH EBB42 CAN V1.0/V1.1 is a nozzle adapter board specially designed for
 | USB Communication Interface             | USB-Type-C                                                   |
 | DCDC 5V Maximum Output Current          | 1A                                                           |
 
-<font  color="red">**Note: BTT EEB42 CAN V1.0/V1.1 only supports Klipper at the present.**</font>
+!!! note
+    BTT EEB42 CAN V1.0/V1.1 only supports Klipper at the present.
 
 ## **Dimensions**
 
-Version:V1.0
+=== "EBB 42 V1.1 / V1.2"
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Diagram.png width="450"/>
 
-<img src=img/EBB42CAN/072/EBB42_072_Diagram.png width="600"/>  
-
-Version:V1.1
-
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Diagram.png width="600"/>
+=== "EBB 42 V1.0"
+    <img src=img/EBB42CAN/072/EBB42_072_Diagram.png width="450"/>  
 
 ## **Pinout**
 
-Version:V1.0
 
-<img src=img/EBB42CAN/072/EBB42_072_Pin.png width="600"/>
+=== "EBB 42 V1.1 / V1.2"
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Pin.png width="450"/>
 
-Version:V1.1
-
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Pin.png width="600"/>
+=== "EBB 42 V1.0"
+    <img src=img/EBB42CAN/072/EBB42_072_Pin.png width="450"/>
 
 ## **Hardware Configuration**
 
 ### **USB Power Supply**
 
-Version:V1.0
+=== "EBB 42 V1.1 / V1.2"
+    After the motherboard is powered on, the yellow-green LED1 lights will light up, indicating a normal power supply. The VUSB in the middle of the board is the power selection part. Only when using USB to supply power to the motherboard or need to supply power through USB, do you need to use the jumper cap to connect VUSB.
 
-D1 RGB light will be on when the control board is powers on, which shows supplying normal power. VUSB in the middle of the board is the selection terminal for power. Only when USB supplies power to the board, or the board supplies power through USB, users need to short circuit the VUSB by jump cap.
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_USBP.png width="450"/>
 
-<img src=img/EBB42CAN/072/EBB42_072_USBP.png width="600"/>
+=== "EBB 42 V1.0"
+    D1 RGB light will be on when the control board is powers on, which shows supplying normal power. VUSB in the middle of the board is the selection terminal for power. Only when USB supplies power to the board, or the board supplies power through USB, users need to short circuit the VUSB by jump cap.
 
-Version:V1.1
-
-After the motherboard is powered on, the yellow-green LED1 lights will light up, indicating a normal power supply. The VUSB in the middle of the board is the power selection part. Only when using USB to supply power to the motherboard or need to supply power through USB, do you need to use the jumper cap to connect VUSB.
-
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_USBP.png width="600"/>
+    <img src=img/EBB42CAN/072/EBB42_072_USBP.png width="450"/>
 
 ## **Hardware Installation**
 
 ### **100K NTC or PT1000 Settings**
 
-1.Version without 31865: No need to insert a jumper cap when using a 100K NTC thermistor, and TH0's pull-up resistor value is 4.7K. When using PT1000, you need to use the jumper cap to short the two pins circled in red as shown below. At this time, TH0's pull-up resistor value is 2.2K (Notice: the temperature accuracy that's read out this way will be less accurate than that of MAX31865).
+Version without 31865: No need to plug a jumper cap when using a 100K NTC thermistor, and `TH0` pull-up resistor value is `4.7K`. When using `PT1000`, you need to use the jumper cap to short the two pins, as shown below picture. At this time, `TH0` pull-up resistor value is `2.2K`.
 
-Version:V1.0
+!!! info
+    Temperature accuracy that's read out this way will be less accurate than that of `MAX31865`
 
-<img src=img/EBB42CAN/072/EBB42_072_PT100.png width="600"/>
 
-Version:V1.1
+=== "EBB 42 V1.1 / V1.2"
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_PT100.png width="450"/>
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_PT100.png width="600"/>
+=== "EBB 42 V1.0"
+    <img src=img/EBB42CAN/072/EBB42_072_PT100.png width="450"/>
 
-2.Version with 31865: Select PT100/PT1000 by DIP switch, two-line or four-wire.
+!!! info 
+    Version with 31865: Select PT100/PT1000 by DIP switch, 2 wire or 4 wire:
 
-<table border="1">
-	<tr>
-    <td>1</td><td>2</td><td>3</td><td>4</td><td>Sensor Model</td></tr>
-	<tr>
-    <td>0N</td><td>0N</td><td>0N</td><td>OFF</td><td>Two Lines PT100</td></tr>
-	<tr>
-    <td>0N</td><td>0N</td><td>OFF<td>ON</td><td>Two Lines PT1000</td></tr>
-    <tr>
-    <td>OFF</td><td>OFF</td><td>0N</td><td>OFF</td><td>Four Lines PT100</td></tr>
-    <tr>
-    <td>OFF</td><td>OFF</td><td>OFF</td><td>0N</td><td>Four Lines PT1000</td></tr>
-    <tr>
-</table>
+    | 1   | 2   | 3   | 4   | Sensor Model  |
+    | --- | --- | --- | --- | ------------- |
+    | ON  | ON  | ON  | OFF | 2 wire PT100  |
+    | ON  | ON  | OFF | ON  | 2 wire PT1000 |
+    | OFF | OFF | ON  | OFF | 4 wire PT100  |
+    | OFF | OFF | OFF | ON  | 4 wire PT1000 |
 
-Version:V1.0
+=== "EBB 42 V1.1 / V1.2"
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_TwoW.png width="450"/>
 
-<img src=img/EBB42CAN/072/EBB42_072_TwoW.png width="600"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_FourW.png width="450"/>
 
-<img src=img/EBB42CAN/072/EBB42_072_FourW.png width="600"/>
+=== "EBB 42 V1.0"
+    <img src=img/EBB42CAN/072/EBB42_072_TwoW.png width="450"/>
 
-Version:V1.1
-
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_TwoW.png width="600"/>
-
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_FourW.png width="600"/>
+    <img src=img/EBB42CAN/072/EBB42_072_FourW.png width="450"/>
 
 ### **BL-Touch**
 
-Version:V1.0
+=== "EBB 42 V1.1 / V1.2"
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_BLTouch.png width="450"/>
 
-<img src=img/EBB42CAN/072/EBB42_072_BLTouch.png width="600"/>
-
-Version:V1.1
-
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_BLTouch.png width="600"/>
+=== "EBB 42 V1.0"
+    <img src=img/EBB42CAN/072/EBB42_072_BLTouch.png width="450"/>
 
 ### **Filament Broke Detection**
 
-Version:V1.0
+=== "EBB 42 V1.1 / V1.2"
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Broke.png width="450"/>
 
-<img src=img/EBB42CAN/072/EBB42_072_Broke.png width="600"/>
-
-Version:V1.1
-
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Broke.png width="600"/>
+=== "EBB 42 V1.0"
+    <img src=img/EBB42CAN/072/EBB42_072_Broke.png width="450"/>
 
 ###  **RGB**
 
-Version:V1.0
+=== "EBB 42 V1.1 / V1.2"
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_RGB.png width="450"/>
 
-<img src=img/EBB42CAN/072/EBB42_072_RGB.png width="600"/>
-
-Version:V1.1
-
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_RGB.png width="600"/>
+=== "EBB 42 V1.0"
+    <img src=img/EBB42CAN/072/EBB42_072_RGB.png width="450"/>
 
 ## **Software Configuration**
 

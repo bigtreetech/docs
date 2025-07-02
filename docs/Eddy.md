@@ -1,16 +1,10 @@
 # Eddy
 
-<img src=img/Eddy/Eddy_Title.png width="600" />
+<img src=img/Eddy/eddy_title_1.png width="600" />
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-eddy
 
 *** Eddy Guide Video***
-
-<video width="500" height="300" controls>
-    <source src="img/Eddy/installationen.mp4" type="video/mp4">
-</video>
-
-
 
 ## **Features Highlights**
 
@@ -23,15 +17,14 @@
 
 ## **Specifications**
 
-| **Name**                  | **Eddy**                                                     |
+| **Name**                  | **Eddy, Eddy Coil, Eddy Duo**                                |
 | ------------------------- | ------------------------------------------------------------ |
 | **Weight**                | **6g**                                                       |
 | **Voltage**               | **5V**                                                       |
 | **Static Current**        | **30mA**                                                     |
 | **Operating Current**     | **30mA**                                                     |
 | **Cable Length**          | **2.5 m (USB Version), 15 cm (Coil Version)**                |
-| **Connection**            | **USB: 4-pin, 1.5mm pitch**                                  |
-|                           | **Coil: 4-2.54mm DuPont female header, one end with ZH1 5mm 4P connector** |
+| **Connection**            | **Eddy, Eddy Duo: 4-pin, 1.5mm pitch**<br>**Eddy Coil: 4-2.54mm DuPont female header, one end with ZH1 5mm 4P connector** |
 | **Operating Temperature** | **≤60℃ Ambient**                                             |
 | **Standard Error**        | **0.5μm**                                                    |
 | **Compatible Models**     | **All FDM printers using the Klipper firmware**              |
@@ -46,7 +39,7 @@ The coil's center point, used for calculating XY offsets, is as follows:
 
 ## Location of the BOOT Button
 
-<img src=img/Eddy/Eddy_Boot.png width="600" />
+<img src=img/Eddy/eddy_boot_1.png width="600" />
 
 The BOOT button is used when programming Klipper onto the Eddy for the first time; afterward, Klipper can automatically reprogram the RP2040.
 
@@ -92,11 +85,54 @@ Brackets for various common machines are available in our GitHub repository and 
 
 <img src=img/Eddy/Eddy_Connection3.png width="600" />
 
+### Eddy Duo + MANTA M5P（USB）
+
+<img src=img/Eddy/eddy_connection4.png width="600" />
+
+### Eddy Duo + MANTA M8P V2.0（USB）
+
+<img src=img/Eddy/eddy_connection6.png width="600" />
+
+### Eddy Duo + MANTA M8P V2.0（CAN）
+
+<img src=img/Eddy/eddy_connection7.png width="600" />
+
+### Eddy Duo + EBB36
+
+<img src=img/Eddy/eddy_connection8.png width="600" />
+
+
+
+### Eddy Duo + EBB42
+
+<img src=img/Eddy/eddy_connection9.png width="600" />
+
+### Eddy Duo + EBB SB
+
+<img src=img/Eddy/eddy_connection10.png width="600" />
+
+### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（USB）
+
+<img src=img/Eddy/eddy_connection11.png width="600" />
+
+### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（CAN）
+
+<img src=img/Eddy/eddy_connection12.png width="600" />
+
+### Octopus Pro V1.1 + Eddy Duo（USB）
+
+<img src=img/Eddy/eddy_connection13.png width="600" />
+
+### Octopus Pro V1.1 + Eddy Duo（CAN）
+
+<img src=img/Eddy/eddy_connection14.png width="600" />
+
 ## **Firmware**
 
 ### **Important:**
 
-Eddy and Eddy Coil are ONLY compatible with Klipper installations that are using a virtual environment based on Python 3. Even if you have Python 3 installed on your system this does not mean that your klippy virtual environment has been created using Python 3. If you receive an error that says something like: Internal error during connect: split() takes no keyword arguments then you have a klippy host that is based on a Python 2 virtual environment and you need to get it upgraded. The easiest way to do this is to use KIAUH which will allow you to reinstall the klippy host without overwriting your configs while selecting the Python 3 option.
+1. Eddy and Eddy Coil are ONLY compatible with Klipper installations that are using a virtual environment based on Python 3. Even if you have Python 3 installed on your system this does not mean that your klippy virtual environment has been created using Python 3. If you receive an error that says something like: Internal error during connect: split() takes no keyword arguments then you have a klippy host that is based on a Python 2 virtual environment and you need to get it upgraded. The easiest way to do this is to use KIAUH which will allow you to reinstall the klippy host without overwriting your configs while selecting the Python 3 option.
+2. Eddy Duo supports two communication methods: USB and CAN. When switching from USB communication to CAN communication, it is recommended to update the firmware required for CAN communication while still in USB communication mode. This simplifies the process, as updating via DFU is easier than using KATAPULT.
 
 ### Compiling Firmware
 
@@ -107,31 +143,42 @@ If you are coming from the old BIGTREETECH branch of Klipper then we recommend u
 
 1.Ensure that you are using mainline klipper by typing the following commands via SSH:
 
-<font  color="blue">**cd ~/klipper/**</font>
+```
+cd ~/klipper/
+```
 
-<font  color="blue">**git checkout master**</font>
+```
+git checkout master
+```
 
 2.Next, type:
 
-<font  color="blue">**make menuconfig**</font>
+```
+make menuconfig
+```
 
 3.Use these settings to compile the firmware.
 
-<img src=img/Eddy/Eddy_System1.png width="600" />
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
-<font  color="blue">**[*] Enable extra low-level configuration optionsMicro-controller**</font>
+<font  color="blue">**[*] Enable extra low-level configuration options**</font>
 
-<font  color="blue">**Micro-controller Architecture (Raspberry Pi RP2040) --->**</font>
+<font  color="blue">**Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->**</font>
 
-<font  color="blue">**Bootloader offset (No bootloader) --->**</font>
+<font  color="blue">**Processor model (rp2040)  --->**</font>
 
-<font  color="blue">**Flash chip (W25Q080 with CLKDIV 2) --->**</font>
+<font  color="blue">**Bootloader offset (No bootloader)  --->**</font>
 
-<font  color="blue">**Communication interface (USB) --->**</font>
+<font  color="blue">**Flash chip (GENERIC_03H with CLKDIV 4)  --->**</font>
 
-<font  color="blue">**USB ids --->**</font>
+USB communication
+<font  color="blue">**Communication Interface (USBSERIAL)  --->**</font>
 
-<font  color="blue">**() GPIO pins to set at micro-controller startup**</font>
+CAN-Bus communication
+<font  color="blue">**Communication interface (CAN bus) --->**</font>
+<font  color="blue">**(4) CAN RX gpio number**</font>
+<font  color="blue">**(5) CAN TX gpio number**</font>
+<font  color="blue">**(1000000) CAN bus speed**</font>
 
 4.Once set, hit 'Q' and when asked, select yes to save. 
 
@@ -218,7 +265,7 @@ to manually move the gantry or bed such that the Eddy is 20mm above the bed.
 
 <font  color="blue">**LDC_CALIBRATE_DRIVE_CURRENT CHIP=btt_eddy**</font>
 
-3.Type <font  color="blue">**LDC_CALIBRATE_DRIVE_CURRENT **</font> to save the drive current to your config.
+3.Type <font  color="blue">**SAVE_CONFIG**</font> to save the drive current to your config.
 
 ### Mapping Eddy Readings to Nozzle Heights
 
@@ -370,5 +417,4 @@ this overshoot in the bed_mesh configuration section using the scan_overshoot: p
 
 - [KAMP aka Klipper-Adaptive-Meshing-Purging](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging) should be removed from your Klipper prior to using Eddy. Please comment out the include line. ie#[include ./KAMP/adaptive_meshing.cfg] from your KAMP_SETTINGS.cfg
 - Instead KAMP has been integrated into Klipper as of January 2024 and you should use the ADAPTIVE=1 option in your BED_MESH_CALIBRATION calls. You can find more [Information on Adaptive Mesh Here](https://www.klipper3d.org/Bed_Mesh.html#adaptive-meshes)
-
 

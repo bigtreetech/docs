@@ -55,7 +55,9 @@ KNOMI是一款专为运行Klipper固件的3D打印机设计的迷你圆形显示
 
 ## ****概览****
 
-<img src=img/KNOMI/KNOMI_IN5.png width="600" />
+<img src=img/KNOMI/KNOMI_IN19.png width="600" />
+
+*为优化用户接线体验，最新款Knomi屏幕供电座子已升级为<font  color="red">**立式座子**</font> 。
 
 ## ****配置 WI-FI****
 
@@ -269,7 +271,7 @@ https://biqu.equipment/products/bigtreetech-knomi-v1-0
 
 
 
-**如果您对产品有任何问题，请提交一张支持票。**
+**如果您对产品有任何问题，请与我们联系并提交支持工单**
 
 https://biqu3d.com/pages/submit-a-ticket
 

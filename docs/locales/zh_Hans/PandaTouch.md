@@ -7,13 +7,21 @@ Panda Touch的CAD文件可以下载 [点击这里](https://github.com/bigtreetec
 
 Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 
-* P1P --> v01.06.01.00
-* P1S --> v01.06.01.00
-* X1C --> v01.08.02.00
-* A1 --> v01.03.01.00
-* A1 Mini --> v01.03.01.00
+* P1P/S: 01.07.00.00 
+* X1C --> 01.08.02.00
+* X1E --> 01.01.02.00
+* A1 --> 01.04.00.00
+* A1 Mini --> 01.04.00.00
 
 拓竹可能会在未来发布影响Panda Touch可用功能的固件版本。Bigtreetech将监控所有测试版固件版本，如果我们发现影响Panda Touch功能的固件版本，我们将通过电子邮件、速卖通聊天和我们的社交渠道发出警报。然后，购买者可以决定是否要冒着失去功能的风险执行更新。请注意，Panda Touch保修不包括由于执行Bambu Lab固件更新而导致的功能损失。
+
+Panda Touch 的部分功能（如发起打印、控制运动系统、调节温度、风扇、AMS设置及校准）预计将受到 Bambu Lab最近宣布的新固件中的授权和身份验证机制影响而无法使用（目前该固件在 X1 系列内测中），但获取打印进度、喷嘴温度、热床温度等打印机状态信息的功能不受影响，同时后续你仍可以在新固件的打印机中的LAN模式下手动启用开发者模式后以使用 Panda Touch 的全部功能。
+
+具体细节请参考必趣科技和Bambu Lab的官方公告：
+
+https://bigtree-tech.com/blogs/news/announcement-on-bambu-lab-security-firmware-update
+https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/
+https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/
 
 ## 重要使用信息
 
@@ -24,6 +32,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 * Panda Touch 在其内置锂电池上运行时，电池续航时间大约为 20 到 30 分钟，具体取决于屏幕亮度。为了维护电池并延长产品寿命，建议在电池耗尽后及时给 Panda Touch 充电或关闭电源。
 * 当锂电池电量不足时，屏幕可能会闪烁。这种闪烁是正常的，并向用户发出电池几乎耗尽的警告。然后，用户应立即给电池充电或关闭Panda Touch。
 * 如果您计划经常打开和关闭打印机，我们建议您在 DC5V 模式下运行 Panda Touch。这样可以绕过电池，防止电池经历多次充放电循环。如果您想使用电池供电，只需将 Panda Touch 背面的开关切换到电池电源模式。
+* 最大支持USB驱动器的容量是8GB.
 
 ## 基本参数
 
@@ -198,7 +207,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 ##### 将帐户下的打印机同步到本地设备
 * 成功登录后，您可以选择将所有现有打印机与PandaTouch的通信方式转换为云模式。
 * 我们建议，只有您的所有打印机都使用云模式运行时，才执行此操作，如果打印机打开了“仅局域网”模式，则可以跳过此操作。如果要改变PandaTouch与打印机之间的通信方式请查看 [如何切换PandaTouch和打印机之间的通信方式](#communication_mode)
- 
+
   <br><img src=img/PandaTouch/login_ok.png width="600"/> 
 
 * 如果您想将现有打印机与PandaTouch之间的通信方式转换为云模式，请点击“是”。 
@@ -216,7 +225,7 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 * 删除帐户信息后，PandaTouch和打印机之间的通信模式将更改为本地模式。请注意，这不会将打印机本身设置为“仅LAN”模式，而是会告诉Panda Touch仅使用LAN模式与打印机通话，这可能会导致某些功能丢失。
 
   <br><img src=img/PandaTouch/del_account.png width="600"/> 
- 
+
 ##### 如何切换PandaTouch和打印机之间的通信方式 <a id="communication_mode"></a>
 * 导航到打印机/组卡页面。
 * 找到要启用或禁用云模式的打印机。
@@ -241,6 +250,14 @@ Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 * `数字输入`
  <br> <img src=img/PandaTouch/keyboard_number.png width="600"/>
 
+### 主页打印任务和SD卡的缩略图显示
+<br> <img src=img/PandaTouch/thumbnail_preview.png width="600"/>
+
+> 注意:
+> 仅显示从Bambu Studio发起的打印任务，该.3mf文件大小需<=20M，X1系列机器暂不支持。
+> 缩略图不匹配: 仅当image文件夹下的图片时间戳与其他打印文件相同时会导致缩略图不匹配。
+> 增强缩略图显示: 在设置页面有个选项用于增强缩略图显示，开启后，从U盘打印或者在SD卡面板操作时都会有比较长的延时。
+
 ### 耗材控制
 
 Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型和颜色。用户还可以使用此菜单加载和卸载过滤器。
@@ -248,6 +265,25 @@ Panda Touch允许用户配置外部线轴支架和AMS上使用的耗材的类型
 执行任何操作时，请确保选择了正确的AMS装置和灯丝槽。当耗材周围有红色边框时，您就会知道耗材已被选中。如果未选择任何内容，则“加载”和“卸载”按钮将变灰。
 
 <img src=img/PandaTouch/filament_screen.png width="600"/>
+
+### 耗材烘干
+Panda Touch允许用户在X1系列和P1S上烘干耗材 
+* 点击烘干按钮
+<br><img src=img/PandaTouch/drying.png width="400"/>
+
+* 按照右侧的步骤操作
+<br><img src=img/PandaTouch/filament_dry.png width="400"/>
+
+### 零件跳过
+> ***注意 :*** 
+打印任务需要从Bambu Studio 或者 Handy app上发起，不支持重新打印的任务。  
+~~~
+以下情况不可用
+- 单盘1个或者64个以上零件 
+- Bambu studio 版本低于V1.6
+~~~  
+
+<img src=img/PandaTouch/skip_objects.gif width="400"/>
 
 ### HMS (健康管理系统)
 
@@ -375,10 +411,14 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
 此菜单中存在以下组控件：
 
     ①: 打开/关闭当前打印列表中打印机的腔室LED。
-
+    
     ②: 停止当前打印列表中的所有打印作业。
-
+    
     ③: 暂停/恢复当前打印列表中的所有打印作业。
+
+#### 组打印设置延时
+在组打印时根据这个时间来进行延时，如果当前打印机加热完成或者时间到了，就发送打印任务到下一台。
+<br> <img src=img/PandaTouch/group_delay.png width="600"/>
 
 ### 与Panda PWR连接
 #### 绑定Panda Touch 和Panda PWR
@@ -409,6 +449,10 @@ Panda Touch允许您创建多达10个组，每个组可以包含单个或多个�
 Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage”按钮。
 <br><img src=img/PandaPWR/reset_usage.png width="600"/>
 
+#### 如何隐藏Panda PWR的控制界面
+* 切换到设置页面，点击Panda PWR，再选择Off
+<br><img src=img/PandaTouch/hide_pwr.png width="600"/>
+
 #### USB1 跟随打印机灯光
 * 设置为开：USB1 将跟随打印机的 LED 变化。如果 LED 灯亮，则 USB1 输出 5V；
 如果关闭，则输出禁用。
@@ -432,20 +476,65 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
 > 提示:
 > 当前仅支持Bambu Studio生成的3mf文件，如果缩略图无法正常显示，请尝试使用Bambu Studio重新切片
 
+### 支持打印机SD卡和U盘的文件夹访问
+* 点击目录后可以切换目录
+<br><img src=img/PandaTouch/change_dir.png width="600"/>  
+
+* U盘
+<br><img src=img/PandaTouch/udisk_folder.png width="600"/> 
+
+* SD卡
+<br><img src=img/PandaTouch/ftps_folder.png width="600"/>  
+
+### 重新打印 
+
+#### 从主页重新打印
+<br><img src=img/PandaTouch/reprint_home.png width="600"/>  
+
+> 注意: 该打印文件须存放在打印机SD卡默认目录下（在Panda Touch设置界面可以选择默认目录为Cache或者根目录）。
+
+#### 从历史记录重新打印
+<br><img src=img/PandaTouch/print_history.png width="600"/>  
+
+### 切换打印机默认的SD卡目录 
+<br><img src=img/PandaTouch/cache_root.png width="600"/>
+
+### 新增语言
+<br><img src=img/PandaTouch/language_custom.png width="600"/>
+
+* 德语
+<br><img src=img/PandaTouch/de.png width="600"/>  
+
+* 西班牙语
+<br><img src=img/PandaTouch/es.png width="600"/>  
+
+* 日语
+<br><img src=img/PandaTouch/ja.png width="600"/>  
+
 ### 如何更换主页的熊猫图片
 
-使用 [这个工具](https://github.com/bigtreetech/PandaTouch/tree/master/Firmware/1.0.3/Panda%20Pic%20Exchange%20Tool) 更改熊猫图片。
-* 确保您运行的固件版本为1.0.3或更高版本。
-* 目前，该工具仅适用于Windows。
-* 请确保要替换的图像符合以下要求： 
-  * 像素宽度小于280
-  * 像素高度小于306
-  * 像素深度32位颜色
-  * PNG格式
-* 确保要替换的图像符合格式要求，重命名它，并替换工具所在文件夹中的new_panda.png文件。
-* 单击generate_img.bat进行编译。
-* 在浏览器中输入Panda Touch的IP地址以访问OTA web UI。
-* 单击“更新文件”，选择new_panda.img，然后继续更新。
+使用 [这个工具](https://pandatouch.us.kg/) 来替换熊猫图片.
+* 请确保Panda Touch的固件是V1.0.6及以上版本. 
+* 请确保图片格式满足以下条件: 
+  * 宽度不超过 280
+  * 高度不超过 306
+  * 色深度为 32位
+  * 格式为PNG. 
+* 如果你想要替换UI上的文本可以上传.yml文件.
+  * [Panda Touch UI 翻译](https://github.com/bigtreetech/PandaTouch/tree/master/Translation)
+  <br><img src=img/PandaTouch/upload_new_panda.png width="600"/>   
+
+### Panda Sense
+
+#### 温度和湿度显示
+* 打印机正在打印
+<br><img src=img/PandaTouch/sense_printing.png width="400"/>  
+
+* 打印机空闲
+<br><img src=img/PandaTouch/sense_idle.png width="400"/>  
+
+* 温度/轴页
+<br><img src=img/PandaTouch/sense_filament.png width="400"/> 
 
 ## 故障排除
 
@@ -535,6 +624,61 @@ Panda PWR 记录负载的电力消耗。要重置数据，请点击“RST Usage�
   <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
 
 ### 固件历史记录 <a id="firmware_history"></a>
+#### [V1.0.7.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7.1/panda_touch-v1.0.7.1.bin)
+##### Bug修复
+- **Panda Sense问题**：Panda Sense温度值有时不更新.
+- **零件跳过不可用**：有些打印任务零件跳过功能不可用.
+- **重打印功能异常**：同步拓竹最新云打印请求格式（暂不支持自定义耗材）.
+- **AMS打印异常**：可配置AMS映射（当前仅支持AMS-1，不支持自定义耗材）.
+- **FTPS其他目录的缩略图不显示**。
+- **SD卡文件年份信息丢失**。
+
+##### 功能优化
+- **提升缩略图尺寸**：通过Bambu Studio/Handy app打印时，主页缩略图分辨率由128 * 128增大至280 * 306.
+- **后台机型实时更新**：实时从云服务器同步打印机机型.
+- **调整MQTT缓存**：将MQTT缓冲区大小调整为40KB.
+
+#### [V1.0.7](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7/panda_touch-v1.0.7.bin)
+##### 修复BUG
+- **修复打印机名称不同步问题**：实时获取服务器上打印机名称，如果发生变化就更新它。
+- **修复轴方向错误问题**: 修复控制A1和A1-mini的Y轴和Z轴运动时方向错误问题。
+
+##### 新特性
+- **支持零件跳过**: 允许用户在打印机选择需要跳过的零件. 
+- **支持烘干耗材**: 允许用户在P1S上烘干耗材.  
+
+#### [V1.0.6.3](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.6.3/panda_touch-v1.0.6.3.bin)
+##### 修复BUG
+- **当打印时崩溃**: 从U盘打印时崩溃重启.
+- **在OTA页面崩溃**: 在OTA页面点击wifi名称时崩溃重启.
+
+##### 功能修改
+- **在打印时停止加载缩略图**. 
+
+#### [V1.0.6]
+##### 新特性
+- **支持Panda Sense温湿度数据显示**.
+- **支持主页打印任务和SD卡的缩略图显示**：仅显示从Bambu Studio发起的打印任务，该.3mf文件大小需<=20M，X1系列机器暂不支持。
+- **支持打印完成后在主页快捷重新打印**：该打印文件须存放在打印机SD卡默认目录下（在Panda Touch设置界面可以选择默认目录为Cache或者根目录）。 
+- **支持显示打印历史记录并发起打印**：当前仅支持显示最新的12条打印记录。
+- **支持文件夹目录访问**：包括SD卡和U盘。 
+- **支持耗材管理界面显示当前加载的耗材**：全新UI效果，更接近官方操作体验。 
+- **支持AMS界面显示AMS设备湿度**：在右下角可查看湿度显示图标及数据。  
+- **支持耗材管理界面选择更多类型的耗材**：耗材编辑界面现已同步Handy APP可设置的耗材类型。   
+- **支持组打印设置延时功能**：当通过 U 盘发起组打印时，能够对打印机进行延时打印操作。   
+- **支持隐藏Panda PWR控制界面**：在Panda Touch设置界面选择开启/关闭。   
+- **支持更多语言显示**：新增德语、西班牙语、日语显示。每种语言使用不同的.img文件，以第三种语言方式使用。 
+
+##### 功能优化
+- **优化打印前预选项**：Panda PWR的自动关机（Auto Power-Off）功能选项默认为关闭。
+- **优化更换熊猫封面文件的校对程序**：设备通电后检查该文件是否正确以避免更新过程中意外中断导致无法启动。
+- **优化腔体温度显示图标**。
+- **优化IMG文件生成方式**：可使用在线工具生成new_panda文件包：[online tool](https://pandatouch.us.kg/)。 
+
+##### 修复BUG
+- **修复Access code数据同步问题**：从云服务器获取的Access code数据错乱时会导致SN数据丢失后无法连接打印机。
+- **修复中国地区云账号登录异常问题**。
+
 #### [V1.0.5.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.5.1/panda_touch-v1.0.5.1.bin) 
 * 新增Panda PWR绑定模式，实现拓竹打印机智能化电源管理。
 

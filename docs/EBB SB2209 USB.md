@@ -156,25 +156,33 @@ KNOMI 2:
 
 1、After SSH connects to Raspberry Pi, enter the following in the command line:
 
-**cd ~/klipper/**
+```
+cd ~/klipper/
+```
 
-**make menuconfig**
+```
+make menuconfig
+```
 
 Compile the firmware using the configuration below (if these options are not 
 
 available, update the Klipper firmware source code to the latest version).
 
-**[\*] Enable extra low-level configuration options**
+```
+[\*] Enable extra low-level configuration options
 
- **Micro-controller Architecture (Raspberry Pi RP2040) --->** 
+ Micro-controller Architecture (Raspberry Pi RP2040/RP235x)  --->
 
- **Bootloader offset (No bootloader) --->** 
+ Processor model (rp2040)  --->
 
- **Flash chip (W25Q080 with CLKDIV 2) --->** 
+ Bootloader offset (No bootloader)  --->
 
- **Communication Interface (USBSERIAL) --->**
+ Flash chip (GENERIC_03H with CLKDIV 4)  --->
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper1.png width="600"/>
+ Communication Interface (USBSERIAL)  --->
+```
+
+<img src=img/rp2040_usb_menuconfig.png width="600"/>
 
 2、After configuring, enter ‘q’ to exit the configuration interface. When asked to 
 
@@ -192,31 +200,45 @@ save configuration, select ‘Yes’.
 
 2、Hold down the Boot button, then press the Reset button once to enter DFU mode.
 
-3、In the SSH terminal command line, enter **lsusb** to query the DFU device ID.
+3、In the SSH terminal command line, enter 
+
+```
+lsusb 
+```
+
+to query the DFU device ID.
 
 <img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper2.png width="600"/>
 
-Enter **cd klipper** to navigate to the klipper directory, then enter
+Enter 
 
-**make flash FLASH_DEVICE= 2e8a:0003**
+```
+cd klipper
+```
+
+ to navigate to the klipper directory, then enter
+
+```
+make flash FLASH_DEVICE= 2e8a:0003
+```
 
 to start flashing the firmware (note: replace 2e8a:0003 with the actual device ID obtained in the previous step).
 
 4、After flashing, enter
 
-**ls /dev/serial/by-id/**
+```
+ls /dev/serial/by-id/
+```
 
 to query the device Serial ID. 
 
 5、There is no need to manually press the Boot button to enter DFU mode for subsequent updates after the first flashing is completed. Directly enter
 
-**make flash FLASH_DEVICE=/dev/serial/by-id/usb**
-
-**Klipper_rp2040_4550357128922FC8-if00**
+```
+make flash FLASH_DEVICE=/dev/serial/by-id/usb_Klipper_rp2040_4550357128922FC8-if00
+```
 
 to flash the firmware (note: replace **/dev/serial/by-id/xxx** with the actual ID obtained in the previous step).
-
-6、After flashing, remove the VUSB jumper and Type-C data cable.
 
 ### **Configuring Klipper**
 
