@@ -10,13 +10,13 @@ KNOMI is a compact round display designed for Klipper-powered 3D printers, provi
 
 ## Key Features
 
-- Intuitive UI: Clear display of printer status.
+- Intuitive Knomi UI: Clear display of printer status.
 - Wireless Connectivity: Seamless Wi-Fi integration.
 - Open-Source Customization: Effortless customization and adaptation of KNOMI to various 3D printers with provided 3D model files, while also allowing personalized user interfaces to suit preferences.
 - Voron StealthBurner Support: Includes compatible mounting files.
 - Wide Voltage Range: Operates on 5V–24V DC for convenient power supply.
 - Type-C Port: For DIY burning, increasing versatility.
-- Full-View Screen – Accurate colors from any angle.
+- Full-View Screen: Accurate colors from any angle.
 
 !!! note
     For detailed assembly instructions, refer to the [KNOMI USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI1/KNOMI%201%20User%20Manual%2020241214.pdf)
