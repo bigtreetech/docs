@@ -1,4 +1,2 @@
 # Panda Status
 
-Waiting
-
