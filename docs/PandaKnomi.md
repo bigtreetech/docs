@@ -161,7 +161,7 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
     - Tap on the network name starting with `Panda_Knomi_` and enter the default password: `987654321`.
     - After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
 
-- After connecting to the Panda Knomi hotspot, the webUI should automatically appear once you close the camera app on an iPhone or on Android there should be a prompt of `Connected (Login/Authentication required)` which you should click to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds for this to appear. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.4.1](http://192.168.4.1) in the browser to access the Web UI configuration interface.
+- After connecting to the Panda Knomi hotspot, the webUI should automatically appear once you close the camera app on an iPhone or on Android there should be a prompt of `Connected (Login/Authentication required)` which you should click to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds for this to appear. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.254.1](http://192.168.254.1) for firmware versions `V1.0.4.1` and later (and use [192.168.4.1](http://192.168.4.1) for previous versions) in the browser to access the Web UI configuration interface.
 
 #### Connect Panda Knomi to the same Wi-Fi network as your printer
 
@@ -474,7 +474,7 @@ If there is something you would like to see in a future release of the Panda Kno
         <img src=img/PandaKnomi/en_wlan.jpg width="300"/>
       - Tap on the network name starting with `Panda_Knomi_` and enter the default password: `987654321`.
       - After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
-    - After connecting to the AP, there should be a prompt of `Connected (Login/Authentication required)`, and click it to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.4.1](http://192.168.4.1) in the browser to access the Web UI configuration interface.
+    - After connecting to the AP, there should be a prompt of `Connected (Login/Authentication required)`, and click it to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.254.1](http://192.168.254.1) for firmware versions `V1.0.4.1` and later (and use [192.168.4.1](http://192.168.4.1) for previous versions) in the browser to access the Web UI configuration interface.
 - In the configuration interface, go to ① `Settings`, then tap ② `Select .bin file` to choose the firmware to update. The device will restart automatically after the update.<br/>
   <img src=img/PandaKnomi/en_firmware.png width="300"/>
 
@@ -501,6 +501,9 @@ If there is something you would like to see in a future release of the Panda Kno
   - ③ Click `START` to begin writing. Once done, power off and restart Panda Knomi.
 
 ### Firmware History <a id="firmware_history"></a>
+
+#### [V1.0.4.1](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4.1)
+* Optimization: Change the default AP Hotspot IP from `192.168.4.1` to `192.168.254.1` to minimize the possibility of conflicts with the router IP range as much as possible.
 
 #### [V1.0.4](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4)
 
