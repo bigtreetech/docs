@@ -289,6 +289,10 @@ nav:
       - Panda Breeze.md
       - Panda_Status.md
       - Panda_Station.md
+      - Panda_Hub_Plus.md
+      - Panda_Branch_Plus.md
+      - Panda_Gateway.md
+      - Panda_Knomi_3D.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
