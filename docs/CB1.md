@@ -2,15 +2,16 @@
 
 [<img src=img/CB1.png width="500" />](https://bigtreetech.github.io/docs/CB1.html)
 
-## **Product Profile**
+## **Product Overview**
 
-The BIGTREETECH CB1 is launched to provide a great solution to the insane shortage of Raspberry Pi CM4. It outputs signals to the motherboard via the fast and convenient two 100 pins micro BTB connection header. Moreover, it is onboard 2.4G WiFi.
+The BIGTREETECH CB1 offers a cost-effective alternative to Raspberry Pi CM4 during supply shortages, featuring dual 100-pin micro BTB connectors for seamless motherboard integration and onboard 2.4GHz WiFi connectivity.
 
 **Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/manta-m4p-m8p?variant=39847241384034)
 
-## **Features Highlights**
+## **Key Features**
+## **Technical Specifications**
 
-| Component     | Specifications                                          |
+| Component     | Details                                                 |
 | ------------- | ------------------------------------------------------- |
 | CPU           | ALLWINNER H616, Quad-core Cortex-A53 @1.5GHz            |
 | GPU           | Mali G31 MP2, Support OpenGL3.2                         |
@@ -20,7 +21,7 @@ The BIGTREETECH CB1 is launched to provide a great solution to the insane shorta
 | Network       | Support 100M Ethernet + 100M WiFi                       |
 | BTB connector | Having the same BTB header as the Raspberry Pi CM4      |
 
-## **Specifications**
+## **Physical Specifications**
 
 | **Product Size**   | **40mm x 55mm**       |
 | ------------------ | --------------------- |
@@ -40,11 +41,11 @@ The BIGTREETECH CB1 is launched to provide a great solution to the insane shorta
 
 ## **Pinout**
 
-### **40 pin GPIO**
+### **40-pin GPIO**
 
-**The 40 pin GPIO on the motherboard when CB1 is used with motherboard like Manta M4P, M5P, M8P, PI4B_Adapter, etc.**
+**The 40-pin GPIO on the motherboard when CB1 is used with motherboard like Manta M4P, M5P, M8P, PI4B_Adapter, etc.**
 
-| Pin | Signal | Description        | Pin | Signal | Description       |
+| Pin | Signal | Function           | Pin | Signal | Function          |
 | --- | ------ | ------------------ | --- | ------ | ----------------- |
 | 1   | 3.3V   |                    | 2   | 5V     |                   |
 | 3   | NC     |                    | 4   | 5V     |                   |
@@ -67,7 +68,7 @@ The BIGTREETECH CB1 is launched to provide a great solution to the insane shorta
 | 37  | PC15   | GPIO79             | 38  | PH10   | GPIO234, IR_RX    |
 | 39  | GND    |                    | 40  | PC8    | GPIO72            |
 
-### **2 * 100 pins**
+### **Dual 100-pin Connectors**
 
 | A Pin | Signal   | Description     | A Pin | Signal   | Description          |
 | ----- | -------- | --------------- | ----- | -------- | -------------------- |
@@ -175,9 +176,9 @@ The BIGTREETECH CB1 is launched to provide a great solution to the insane shorta
 | 197   | GND     |              | 198   | GND       |                   |
 | 199   | HSDA    | HDMI I2C     | 200   | HSCL      | HDMI I2C          |
 
-## **Software Configuration**
+## **Software Setup**
 
-### Network Settings
+### Network Configuration
 
 #### Ethernet
 
@@ -207,9 +208,9 @@ Set as required as shown in the figure below.
 
 <img title="" src="img/overlays.png" alt="" width="400" data-align="center">
 
-The default value is `console=display`, This means that the `UART0` of CB1 is used as the debugging port by default. We can use `MobaXterm` to connect to CB1 by UART0 and debug. If klipper wants to use `UART0` to control the motherboard, we need to set it to `console=serial`, now klippe can use `UART0` as `/dev/ttyS0`.
+The default value is `console=display`, This means that the `UART0` of CB1 is used as the debugging port by default. We can use `MobaXterm` to connect to CB1 by UART0 and debug. If klipper wants to use `UART0` to control the motherboard, we need to set it to `console=serial`, now klipper can use `UART0` as `/dev/ttyS0`.
 
-CB1 will automatically identify the HDMI resolution, but if your HDMI screen cannot report the resolution through the EDID normally, we can forcibly specify the resolution of CB1 output by uncomment `extraargs=video` and set the actual resolution.
+The CB1 automatically detects HDMI display resolution via EDID. For displays that cannot properly report their resolution, you can manually specify the output resolution by uncommenting `extraargs=video` and setting your displays native resolution.
 
 For example:
 
@@ -226,7 +227,7 @@ Uncomment `overlays=mcp2515` to enable MCP2515 spi to canbus module.
 
 Uncomment `overlays=tft35_spi mcp2515` If you want to use both TFT35 SPI screen and MCP2515 spi to canbus module
 
-uncomment the following overlays and parameters to release `spidev1.1` to user space, And `spidev1.1` cannot be used together with TFT35_SPI and MCP2515.
+Uncomment the following overlays and parameters to release `spidev1.1` to user space, And `spidev1.1` cannot be used together with TFT35_SPI and MCP2515.
 
 ```systemd
 overlays=spi-spidev
@@ -252,7 +253,7 @@ MCP2515_IRQ=PC9
 !!! info "SSH Application"
     Install the ssh application Mobaxterm: https://mobaxterm.mobatek.net/download-home-edition.html
 
-Insert the Micro SD card (installed OS) to motherboard, wait for system to load after power on, aprox. 1-2min. the ACT LED on the motherboard will flash continuously after startup successfully.
+Insert the microSD card containing the installed operating system into the motherboard's slot. After powering on the system, allow approximately 1-2 minutes for the boot process to complete - successful startup will be indicated by the motherboard's ACT LED flashing continuously.
 
 The device will automatically be assigned a IP address after successfully connected to the network
 
@@ -264,7 +265,7 @@ Or use the https://angryip.org/ tool, scan all IP address in the current network
 
 <img src=img/AngryIP.png width="500"> 
 
-Open Mobaxtermand click “Session”, and click “SSH”, inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
+Open MobaXterm and click 'Session', then select 'SSH'. Enter the device IP in the Remote host field and click 'OK' (Note: Your computer and the device must be on the same network).
 
 <img src=img/MobaXterm_Login.png width="500"> 
 
@@ -312,7 +313,7 @@ password: biqu
    
     !!! warning 
    
-        `Flash` the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.
+       The `Flash` operation will completely erase and reformat your microSD card. Double-check to ensure you’ve selected the correct storage device, as this process will permanently delete all data on the targeted drive.
    
     <img title="" src="img/Etcher_2.png" alt="" width="450" data-align="inline">
    
@@ -320,17 +321,19 @@ password: biqu
    
     <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="inline">
 
-## Product Purchase Link
+## Where to Buy & Support
 
-**Purchase Link:**
+**Purchase Options**
 
+**Official Store:**
 https://biqu.equipment/products/pi4b-adapter-v1-0?variant=40353646051426
 
-**If you have any issues with the product, please submit a support ticket.**
+**Technical Support**
+**Need assistance? Simply submit a support ticket.**
 
 https://biqu3d.com/pages/submit-a-ticket
 
-**Navigation:**
+**Official Resources**
 
 BIQU Official Website: http://biqu3d.com
 
