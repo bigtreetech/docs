@@ -443,6 +443,19 @@
 
 ### 固件历史记录 <a id="firmware_history"></a>
 
+#### [V1.0.4](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4)
+
+* 修复: 使用 MAC 地址作为 MQTT 的 `client_id`, 避免多台设备使用相同的 `client_id` 被打印机禁止连接的问题
+* 修复: WebUI 增加设置 AP Hotspot IP 的功能。Panda Knomi 默认使用 `192.168.4.1` , 如果您的路由器也使用此号段，Panda Knomi 会无法连接到打印机，需要将 Panda Knomi 设置为与路由器不同的号段，例如: `192.168.5.1`。设置完成后需要重启设备才生效。
+* 修复：打印机断电续打后，Panda Knomi 一直显示 homing GIF。
+* 修复: 过滤非 UTF-8 编码的 WiFi 名称, 因为非 UTF-8 字符无法通过 WebSocket TEXT 传输。
+* 修复：WiFi 名称以空格开头，或者有多个连续空格，无法正常显示和连接的问题
+* 优化: WebUI STA 和 AP 增加隐藏 WiFi 密码的功能
+* 优化: WiFi 连接失败，后台重连时增加 5s 的间隔，优化不间断的重连 WiFi 可能导致的 AP 不稳定以及 WebUI 应答缓慢的问题
+<br>
+
+* TODO(已知的问题): 无法正常显示和连接名称中带有`"`字符的 WiFi，会在下一版本中解决
+
 #### [V1.0.3.1](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.3.1)
 
 * 优化: WebUI 自定义的GIF "分辨率超过240x240", "单个GIF尺寸超过1.5MB" 和 "所有的GIF尺寸之和超过3MB" 弹窗界面，增加引导到wiki说明的跳转连接，便于用户调整GIF使其兼容PandaKnomi
