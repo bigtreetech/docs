@@ -2,13 +2,13 @@
 
 <img src=img/KNOMI2/KNOMI2_Title.png width="600" />
 
-## **Product Profile**
+## **Product Overview**
 
-The BIGTREETECH KNOMI V2.0 screen is a screen developed by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for printer nozzle display. Support for touch, making it convenient for customers to perform machine control operations.
+The BIGTREETECH KNOMI V2.0 is a compact touchscreen display developed by Shenzhen BIQU Innovation Technology Co., Ltd. for 3D printer nozzle monitoring and control. Its intuitive touch interface simplifies machine operation, offering seamless interaction for users.
 
 **Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-knomi-v1-0)
 
-## **Features Highlights**
+## **Key Features**
 
 <table border="1">
 	<tr>
@@ -59,14 +59,14 @@ The BIGTREETECH KNOMI V2.0 screen is a screen developed by the 3D printing team 
 </table>
 
 !!! note
-    For information about KNOMI structure, please click [KNOMI 2 USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI2/Manual/KNOMI%202%20User%20Manual%2020240109.pdf)
+    For detailed structural and setup information, refer to the [KNOMI 2 USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI2/Manual/KNOMI%202%20User%20Manual%2020240109.pdf)
 
 ## Performance Comparison Test
 
 !!! question
-    DOES USING KNOMI IMPACT YOUR STEALTHBURNER'S PERFORMANCE?
+    Does KNOMI 2 affect StealthBurner performance?
 
-We have customized installation print parts for KNOMI 2, facilitating its easy installation into your Voron StealthBurner. In particular, our StealthBurner Main Body not only retains the original fan positions but also incorporates a circular ventilation opening at the top, enhancing compatibility and optimizing heat dissipation.
+Our custom-designed StealthBurner Main Body integrates KNOMI 2 seamlessly while maintaining optimal airflow and heat dissipation. The modified design includes a top ventilation opening, ensuring no compromise in cooling efficiency.
 
 <img src=img/KNOMI2/KNOMI2_IN0.png width="300" />
 
@@ -77,9 +77,9 @@ We have customized installation print parts for KNOMI 2, facilitating its easy i
 
 ## Mounting Plate
 
-Before you start the assembly, we recommend preparing these two printed parts in advance. The Mounting Plate is designed with a snap-on feature due to size limitations and considerations for the air duct design. This may cause some wear and tear through repeated disassembling and reassembling. Hence, we suggest printing several extra copies of this part for future use.
+Before beginning installation, make sure you have both printed parts ready. Due to size constraints and airflow requirements, the mounting plate uses a snap-fit design. Note that this design may wear out with repeated removal and reinstallation. We recommend printing extra copies for convenience.
 
-We conducted a comparative analysis measuring wind speed and acoustic energy levels between the original StealthBurner and our customized version featuring vents and KNOMI add-on. The results showed that both versions performed similarly, indicating that adding KNOMI will not compromise the performance of the StealthBurner. 
+Our performance testing compared airflow velocity and acoustic levels between the standard StealthBurner and the modified KNOMI-equipped version. The results demonstrated equivalent cooling performance and noise output between both configurations, confirming that the KNOMI integration - including its additional ventilation features - maintains the StealthBurner's original operational performance without compromise.
 
 <img src=img/KNOMI/KNOMI_IN3.png width="600" />
 
