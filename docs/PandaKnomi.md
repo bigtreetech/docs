@@ -504,11 +504,11 @@ If there is something you would like to see in a future release of the Panda Kno
 
 #### [V1.0.4](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4)
 
-* Fix: Use MAC address as the `client_id` for MQTT. To avoid the problem of multiple devices using the same `client_id` being prohibited from connecting by the printer
-* Fix: WebUI adds the ability to set AP Hotspot IP. Panda Knomi defaults to using `192.168.4.1`. If your router also uses this IP range, Panda Knomi will not be able to connect to the printer and needs to be set to a different IP range from the router, such as `192.168.5.1`. After the setup is completed, the device needs to be restarted for it to take effect.
-* Fix: Panda Knomi keeps displaying homing GIF when power loss recovery.
-* Fix: Filter non UTF-8 encoded WiFi SSID(name) because non UTF-8 characters cannot be transmitted through WebSocket TEXT.
-* Fix: Unable to display and connect properly when WiFi SSID(name) starts with a space or has multiple consecutive spaces.
+* Fixed: Use MAC address as the `client_id` for MQTT. To avoid the problem of multiple devices using the same `client_id` being prohibited from connecting by the printer
+* Fixed: WebUI adds the ability to set AP Hotspot IP. Panda Knomi defaults to using `192.168.4.1`. If your router also uses this IP range, Panda Knomi will not be able to connect to the printer and needs to be set to a different IP range from the router, such as `192.168.5.1`. After the setup is completed, the device needs to be restarted for it to take effect.
+* Fixed: Panda Knomi keeps displaying homing GIF when power loss recovery.
+* Fixed: Filter non UTF-8 encoded WiFi SSID(name) because non UTF-8 characters cannot be transmitted through WebSocket TEXT.
+* Fixed: Unable to display and connect properly when WiFi SSID(name) starts with a space or has multiple consecutive spaces.
 * Optimization: WebUI STA and AP add the function of hiding WiFi passwords.
 * Optimization: WiFi connection failure, add a 5-second interval when reconnecting in the background, optimize uninterrupted reconnection to WiFi may cause unstable AP and slow WebUI response issues.
 <br>
