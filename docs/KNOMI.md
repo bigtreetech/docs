@@ -2,33 +2,33 @@
 
 <img src=img/KNOMI/KNOMI_Title.png width="450">
 
-## **Product Profile**
+## **Product Overview**
 
-KNOMI is a mini round screen designed specifically for Klipper running 3D printers, offering users a unique and personalized way to monitor their printer's operation. The screen displays important information through KNOMI UI, such as heated bed temperature, nozzle temperature, leveling status, printing progress, etc. KNOMI is an open-source product, allowing users to customize the user interface and design mounting brackets to fit their specific 3D printer.
+KNOMI is a compact round display designed for Klipper-powered 3D printers, providing real-time monitoring of printer operations. It shows essential metrics like bed/nozzle temperature, leveling status, and print progress via its customizable KNOMI UI. As an open-source product, users can modify the interface and design custom mounts for their printer.
 
 **Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-knomi-v1-0?variant=40556258492514)
 
-## Features Highlights
+## Key Features
 
-- KNOMI UI-based display for quick and easy monitoring of printer status
-- User-friendly, wireless communication through WiFi
-- Open-source enables effortless customization and adaptation of KNOMI to various 3D printers with provided 3D model files, while also allowing personalized user interfaces to suit preferences
-- Compatibility with Voron StealthBurner using our custom printed part files
-- Wide input voltage range (DC 5V-24V) for convenient power supply
-- Reserved Type-C port for DIY burning, increasing versatility
-- Full-view screen for accurate color representation from any angle
+- Intuitive UI: Clear display of printer status.
+- Wireless Connectivity: Seamless Wi-Fi integration.
+- Open-Source Customization: Effortless customization and adaptation of KNOMI to various 3D printers with provided 3D model files, while also allowing personalized user interfaces to suit preferences.
+- Voron StealthBurner Support: Includes compatible mounting files.
+- Wide Voltage Range: Operates on 5V–24V DC for convenient power supply.
+- Type-C Port: For DIY burning, increasing versatility.
+- Full-View Screen – Accurate colors from any angle.
 
 !!! note
-    For information about KNOMI structure, please click [KNOMI USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI1/KNOMI%201%20User%20Manual%2020241214.pdf)
+    For detailed assembly instructions, refer to the [KNOMI USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI1/KNOMI%201%20User%20Manual%2020241214.pdf)
 
     <img src=img/KNOMI/KNOMI_IN.png width="200">
 
-## Performance Comparison Test
+## Performance & Compatibility
 
 !!! question
-    DOES USING KNOMI IMPACT YOUR STEALTHBURNER'S PERFORMANCE?
+    Does KNOMI Affect StealthBurner Performance?
 
-We will offer the customized mounting printed part files for you to effortlessly install KNOMI onto your Voron Stealthburner, in which the StealthBurner main body retains the original fan position and incorporates additional vents on the top for enhanced compatibility and optimized heat dissipation.
+We provide custom mounting files for easy KNOMI installation on your Voron StealthBurner. Our design preserves the original fan placement while adding strategic top vents to maintain optimal airflow and heat dissipation - ensuring full compatibility without compromising performance.
 
 <img src=img/KNOMI/KNOMI_IN1.png width="300" />
 
@@ -36,9 +36,9 @@ We will offer the customized mounting printed part files for you to effortlessly
 
 ## Mounting Plate
 
-Prior to starting the installation procedure, it is advised to have these two printed parts readily available. Owing to size limitations and air duct considerations, the Mounting Plate has been engineered with a snap-fit design. This may be prone to damage during repeated disassembly and assembly. It is recommended to print additional backup pieces for convenience.
+Before beginning installation, make sure you have both printed parts ready. Due to size constraints and airflow requirements, the mounting plate uses a snap-fit design. Note that this design may wear out with repeated removal and reinstallation. We recommend printing extra copies for convenience.
 
-We conducted a comparative analysis measuring wind speed and acoustic energy levels between the original StealthBurner and our customized version featuring vents and KNOMI add-on. The results showed that both versions performed similarly, indicating that adding KNOMI will not compromise the performance of the StealthBurner. 
+Our performance testing compared airflow velocity and acoustic levels between the standard StealthBurner and the modified KNOMI-equipped version. The results demonstrated equivalent cooling performance and noise output between both configurations, confirming that the KNOMI integration - including its additional ventilation features - maintains the StealthBurner's original operational performance without compromise.
 
 <img src=img/KNOMI/KNOMI_IN3.png width="600" />
 
@@ -255,18 +255,18 @@ definitions. Once completed, `save` and `exit`.
 
 <img src=img/KNOMI/KNOMI_gif7.png width="500" />
 
-## Product Purchase Link
+## Purchasing & Support
 
 **Purchase Link:**
 
 https://biqu.equipment/products/bigtreetech-knomi-v1-0
 
-**If you have any issues with the product, please submit a support ticket.**
+**Need assistance? Simply submit a support ticket.**
 
 https://biqu3d.com/pages/submit-a-ticket
 
 
-**Navigation:**
+**Official Sites:**
 
 BIQU Official Website：                            				http://biqu3d.com
 
