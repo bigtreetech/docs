@@ -7059,11 +7059,11 @@
 <h3 id="firmware-history">Firmware History <a id="firmware_history"></a><a class="headerlink" href="#firmware-history" title="Permanent link">&para;</a></h3>
 <h4 id="v104"><a href="https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4">V1.0.4</a><a class="headerlink" href="#v104" title="Permanent link">&para;</a></h4>
 <ul>
-<li>Fix: Use MAC address as the <code>client_id</code> for MQTT. To avoid the problem of multiple devices using the same <code>client_id</code> being prohibited from connecting by the printer</li>
-<li>Fix: WebUI adds the ability to set AP Hotspot IP. Panda Knomi defaults to using <code>192.168.4.1</code>. If your router also uses this IP range, Panda Knomi will not be able to connect to the printer and needs to be set to a different IP range from the router, such as <code>192.168.5.1</code>. After the setup is completed, the device needs to be restarted for it to take effect.</li>
-<li>Fix: Panda Knomi keeps displaying homing GIF when power loss recovery.</li>
-<li>Fix: Filter non UTF-8 encoded WiFi SSID(name) because non UTF-8 characters cannot be transmitted through WebSocket TEXT.</li>
-<li>Fix: Unable to display and connect properly when WiFi SSID(name) starts with a space or has multiple consecutive spaces.</li>
+<li>Fixed: Use MAC address as the <code>client_id</code> for MQTT. To avoid the problem of multiple devices using the same <code>client_id</code> being prohibited from connecting by the printer</li>
+<li>Fixed: WebUI adds the ability to set AP Hotspot IP. Panda Knomi defaults to using <code>192.168.4.1</code>. If your router also uses this IP range, Panda Knomi will not be able to connect to the printer and needs to be set to a different IP range from the router, such as <code>192.168.5.1</code>. After the setup is completed, the device needs to be restarted for it to take effect.</li>
+<li>Fixed: Panda Knomi keeps displaying homing GIF when power loss recovery.</li>
+<li>Fixed: Filter non UTF-8 encoded WiFi SSID(name) because non UTF-8 characters cannot be transmitted through WebSocket TEXT.</li>
+<li>Fixed: Unable to display and connect properly when WiFi SSID(name) starts with a space or has multiple consecutive spaces.</li>
 <li>Optimization: WebUI STA and AP add the function of hiding WiFi passwords.</li>
 <li>
 <p>Optimization: WiFi connection failure, add a 5-second interval when reconnecting in the background, optimize uninterrupted reconnection to WiFi may cause unstable AP and slow WebUI response issues.
