@@ -4401,6 +4401,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#v1041" class="md-nav__link">
+    <span class="md-ellipsis">
+      V1.0.4.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#v104" class="md-nav__link">
     <span class="md-ellipsis">
       V1.0.4
@@ -6240,6 +6249,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#v1041" class="md-nav__link">
+    <span class="md-ellipsis">
+      V1.0.4.1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#v104" class="md-nav__link">
     <span class="md-ellipsis">
       V1.0.4
@@ -6562,7 +6580,7 @@
 </ul>
 </li>
 <li>
-<p>After connecting to the Panda Knomi hotspot, the webUI should automatically appear once you close the camera app on an iPhone or on Android there should be a prompt of <code>Connected (Login/Authentication required)</code> which you should click to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds for this to appear. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter <a href="http://192.168.4.1">192.168.4.1</a> in the browser to access the Web UI configuration interface.</p>
+<p>After connecting to the Panda Knomi hotspot, the webUI should automatically appear once you close the camera app on an iPhone or on Android there should be a prompt of <code>Connected (Login/Authentication required)</code> which you should click to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds for this to appear. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter <a href="http://192.168.254.1">192.168.254.1</a> for firmware versions <code>V1.0.4.1</code> and later (and use <a href="http://192.168.4.1">192.168.4.1</a> for previous versions) in the browser to access the Web UI configuration interface.</p>
 </li>
 </ul>
 <h4 id="connect-panda-knomi-to-the-same-wi-fi-network-as-your-printer">Connect Panda Knomi to the same Wi-Fi network as your printer<a class="headerlink" href="#connect-panda-knomi-to-the-same-wi-fi-network-as-your-printer" title="Permanent link">&para;</a></h4>
@@ -7025,7 +7043,7 @@
     <img src=img/PandaKnomi/en_wlan.jpg width="300"/></li>
 <li>Tap on the network name starting with <code>Panda_Knomi_</code> and enter the default password: <code>987654321</code>.</li>
 <li>After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.</li>
-<li>After connecting to the AP, there should be a prompt of <code>Connected (Login/Authentication required)</code>, and click it to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter <a href="http://192.168.4.1">192.168.4.1</a> in the browser to access the Web UI configuration interface.</li>
+<li>After connecting to the AP, there should be a prompt of <code>Connected (Login/Authentication required)</code>, and click it to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter <a href="http://192.168.254.1">192.168.254.1</a> for firmware versions <code>V1.0.4.1</code> and later (and use <a href="http://192.168.4.1">192.168.4.1</a> for previous versions) in the browser to access the Web UI configuration interface.</li>
 </ul>
 </li>
 <li>In the configuration interface, go to ① <code>Settings</code>, then tap ② <code>Select .bin file</code> to choose the firmware to update. The device will restart automatically after the update.<br/>
@@ -7057,6 +7075,10 @@
 <li>③ Click <code>START</code> to begin writing. Once done, power off and restart Panda Knomi.</li>
 </ul>
 <h3 id="firmware-history">Firmware History <a id="firmware_history"></a><a class="headerlink" href="#firmware-history" title="Permanent link">&para;</a></h3>
+<h4 id="v1041"><a href="https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4.1">V1.0.4.1</a><a class="headerlink" href="#v1041" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Optimization: Change the default AP addHotspot IP ress from <code>192.168.4.1</code> to <code>192.168.254.1</code> to minimize the possibility of conflicts with the router IP range as much as possible.</li>
+</ul>
 <h4 id="v104"><a href="https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4">V1.0.4</a><a class="headerlink" href="#v104" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Fixed: Use MAC address as the <code>client_id</code> for MQTT. To avoid the problem of multiple devices using the same <code>client_id</code> being prohibited from connecting by the printer</li>
