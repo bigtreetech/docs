@@ -100,8 +100,8 @@ Our performance testing compared airflow velocity and acoustic levels between th
 <img src=img/KNOMI2/KNOMI2_WIFI3.png width="600" />
 
 !!! note "Wi-Fi Compatibility"
-    Due to device compatibility issues, KNOMI 2 cannot configure networks with `WPA PSK encryption`.If you encounter an error configuring your network with KNOMI 2, please check the encryption method of your router and switch it to `WPA/WPA2 PSK` mixed mode or another compatible mode.
-
+    Due to device compatibility issues, KNOMI 2 cannot configure networks with `WPA PSK encryption`.If you experience connection issues during setup, please verify your router's encryption settings in the admin panel and change it to `WPA/WPA2 PSK` mixed mode or another supported encryption protocol to establish a successful connection.
+    
 ### Knomi Disconnected
 
 <div class="div-table">
@@ -219,15 +219,15 @@ The firmware will automatically update over-the-air.
 
 <img src=img/KNOMI2/KNOMI2_UPDATE4.png width="600" />
 
-KNOMI 2 will reboot to indicate a successful update. The page will also show information that the update succeeded.
-At this point, you can click `Back` to return to the main KNOMI 2 network configuration interface.
+Upon completing the firmware update, KNOMI 2 will automatically reboot. You'll see a confirmation message on both the device screen and web interface indicating the update was successful
+You may now click the `Back` to return to  KNOMI 2's main network configuration interface.
 
 <img src=img/KNOMI2/KNOMI2_UPDATE5.png width="600" />
 
 ## KNOMI UI
 
 !!! note "Knomi Control UI Instruction & Gesture Operation"
-	KNOMI 2 supports full-screen touch, swiping up, down, left, and right, as well as long press operations.
+	KNOMI 2's touchscreen supports swipe gestures (up/down/left/right) for navigation and long presses for selections.
 
 ### Main Interface
 
@@ -294,12 +294,11 @@ KNOMI has built-in mDNS. You can enter `http://knomi.local` in the browser (The 
 <img src=img/KNOMI2/KNOMI2_UI21.png width="600" />
 
 You can further customize the saturation and brightness:
-After selecting a color on the wheel, long press the black area outside the wheel to cycle through saturation, brightness, and back to the RGB wheel.
+After choosing a color from the wheel, long-press the outer black area to cycle through saturation adjustment, brightness adjustment, and return to the RGB color wheel.
 
 <img src=img/KNOMI2/KNOMI2_UI22.png width="600" />
 
-When you pick a saturation/brightness level, returning to the RGB wheel will show that saturation/brightness.
-
+Your selected saturation/brightness settings remain applied when you return to the RGB color wheel.
 <img src=img/KNOMI2/KNOMI2_UI23.png width="600" />
 
 ### Adjust Brightness?
