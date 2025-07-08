@@ -318,3 +318,33 @@ KNOMI UI uses visual elements to provide status information at different stages 
 ## FAQ
 
 <img src=img/KNOMI2/KNOMI2_FAQ1.png width="600" />
+
+## Where to Buy & Support
+
+**Purchase KNOMI 2:**
+
+(https://biqu.equipment/products/bigtreetech-knomi-2-for-voron-stealthburner?_pos=2&_psq=knomi&_ss=e&_v=1.0)
+
+
+
+**Need assistance? Submit a support ticket.**
+
+https://biqu3d.com/pages/submit-a-ticket
+
+
+
+**Official Channels**
+
+BIQU Official Website：                            				http://biqu3d.com
+
+BIGTREETECH Official Website：            				 http://bigtree-tech.com
+
+Online Store：                                           				 https://biqu.equipment
+
+**Community & Discussion**
+
+BIGTREETECH Official Group: 								  https://www.facebook.com/groups/bigtreetech
+
+Discord: 																	   https://discord.gg/hhZsV7zk
+
+Reddit:																		  https://www.reddit.com/r/BIGTREETECH/
