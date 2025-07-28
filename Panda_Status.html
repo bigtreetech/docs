@@ -5903,7 +5903,7 @@
 <ul>
 <li>
 <p>Step 1: Print the control board PCB casing.</p>
-<p><img src=img/panda_status/panda_station_pcb.png width="600"/></p>
+<p><img src=img/panda_status/case.png width="600"/></p>
 </li>
 <li>
 <p>Step 2: Install the control board into the printed casing, then securely snap on the rear cover.</p>
@@ -6119,56 +6119,54 @@
 </li>
 <li>
 <p>Device Modes </p>
+<ul>
+<li>
+<p>Mode 1: Music (Factory Default Mode)</p>
+<p><img src=img/panda_status/en/rgb_set_color_cn.jpg width="600"/></p>
+<p>Brightness is set to 50% by default, adjustable from 0 to 100%.</p>
+<p>In this mode, RGB lights pulse rhythmically with the audio level, changing color from Blue → Green → Yellow → Orange → Red.
+Specific light effects:</p>
+<table>
+<thead>
+<tr>
+<th>-------- Low Audio --------</th>
+<th>---- Medium Audio ----</th>
+<th>---------High Audio --------</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img src=gif/panda_status/music.gif width="600"/></p>
+</li>
+<li>
+<p>Mode 2: H2D Style</p>
+<p><img src=img/panda_status/en/rgb_set_color_cn.jpg width="600"/></p>
+<p>Brightness is set to 50% by default, adjustable from 0 to 100%.</p>
+<p>In this mode, the RGB light will display various effects based on the printer's current status, as follows:</p>
+<p>Idle State: White breathing light (customizable color settings for this state: <a href="#rgb_set_color">How to set the color</a>)</p>
+<p><img src=gif/panda_status/printer_idle.gif width="600"/></p>
+<p>Downloading Files: Yellow flow.</p>
+<p><img src=gif/panda_status/printer_loading.gif width="600"/></p>
+<p>Pre-print Preparation: Yellow-orange flowing light.</p>
+<p><img src=gif/panda_status/printer_wave.gif width="600"/></p>
+<p>Printing: White solid light that fills proportionally based on the printing percentage (customizable color settings for this state: <a href="#rgb_set_color">How to set the color</a>)</p>
+<p><img src=gif/panda_status/printer_printing.gif width="600"/></p>
+<p>Print Completed: Green light stays on for 30 seconds before switching to the idle state light effect (default is white breathing light).</p>
+<p><img src=gif/panda_status/printer_complete.gif width="600"/></p>
+<p>Print Paused: White breathing light.</p>
+<p><img src=gif/panda_status/printer_pause.gif width="600"/></p>
+<p>Print Error: Red flashing light (customizable color settings for this state: <a href="#rgb_set_color">How to set the color</a>)</p>
+<p><img src=gif/panda_status/printer_error.gif width="600"/></p>
 </li>
 </ul>
-<p>Mode 1: Music (Factory Default Mode)</p>
-<div class="highlight"><pre><span></span><code>&lt;img src=img/panda_status/en/rgb_set_color_cn.jpg width=&quot;600&quot;/&gt;
-
-Brightness is set to 50% by default, adjustable from 0 to 100%.
-
-In this mode, RGB lights pulse rhythmically with the audio level, changing color from Blue → Green → Yellow → Orange → Red.
-Specific light effects:
-
-|--------- Low Audio -----------|--------- Medium Audio ----------- | -----------High Audio -----------|
-|-----------------------------|------------------------------|--------------------------------|
-
-&lt;img src=gif/panda_status/music.gif width=&quot;600&quot;/&gt;
-</code></pre></div>
-<p>Mode 2: H2D Style</p>
-<div class="highlight"><pre><span></span><code>&lt;img src=img/panda_status/en/rgb_set_color_cn.jpg width=&quot;600&quot;/&gt;
-
-Brightness is set to 50% by default, adjustable from 0 to 100%.
-
-In this mode, the RGB light will display various effects based on the printer&#39;s current status, as follows:
-
-Idle State: White breathing light (customizable color settings for this state: [How to set the color](#rgb_set_color))
-
-&lt;img src=gif/panda_status/printer_idle.gif width=&quot;600&quot;/&gt;
-
-Downloading Files: Yellow flow.
-
-&lt;img src=gif/panda_status/printer_loading.gif width=&quot;600&quot;/&gt;
-
-Pre-print Preparation: Yellow-orange flowing light.
-
-&lt;img src=gif/panda_status/printer_wave.gif width=&quot;600&quot;/&gt;
-
-Printing: White solid light that fills proportionally based on the printing percentage (customizable color settings for this state: [How to set the color](#rgb_set_color))
-
-&lt;img src=gif/panda_status/printer_printing.gif width=&quot;600&quot;/&gt;
-
-Print Completed: Green light stays on for 30 seconds before switching to the idle state light effect (default is white breathing light).
-
-&lt;img src=gif/panda_status/printer_complete.gif width=&quot;600&quot;/&gt;
-
-Print Paused: White breathing light.
-
-&lt;img src=gif/panda_status/printer_pause.gif width=&quot;600&quot;/&gt;
-
-Print Error: Red flashing light (customizable color settings for this state: [How to set the color](#rgb_set_color))
-
-&lt;img src=gif/panda_status/printer_error.gif width=&quot;600&quot;/&gt;
-</code></pre></div>
+</li>
+</ul>
 <p><a id="rgb_set_color"></a></p>
 <h5 id="customizing-light-color">Customizing Light Color<a class="headerlink" href="#customizing-light-color" title="Permanent link">&para;</a></h5>
 <ul>
