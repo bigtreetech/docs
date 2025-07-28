@@ -6,6 +6,8 @@ Product Link: https://bit.ly/4kY2Ulr
 
 Wiki: https://bttwiki.com/Panda-Under-Armor-PX.html
 
+Makerworld: https://makerworld.com/en/models/1646712-panda-castor-wheel-adjustment-tool#profileId-1740562
+
 ## Introduction
 
 The BIQU Panda Under Armor is designed for the P1/X1 series 3D printers, offering full bottom protection and safer mobility. Made from durable AL6061-T6 aluminum alloy, it's lightweight yet sturdy. Optional castor wheels provide easy movement and stable parking, adapting to various usage scenarios for enhanced protection and convenience.
