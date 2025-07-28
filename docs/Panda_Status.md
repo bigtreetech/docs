@@ -232,7 +232,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
     
     Enter the printer’s access code: Find the access code in the printer’s settings, enter it in the box, and click `Bind` to successfully bind the printer.
 
-    <img src=img/panda_status/en/printer_acess_code_cn.jpg width="600"/>
+    <img src=img/panda_status/en/printer_access_code.png width="600"/>
 
     <img src=gif/panda_status/printer_binding.gif width="600"/>
 
@@ -267,7 +267,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 * Elements and Functions
 
-    <img src=img/panda_status/en/rgb_screen_cn.jpg width="600"/>
+    <img src=img/panda_status/en/rgb_screen_cn.png width="600"/>
 
     ① Control Page Selection: When you click the icon, it will turn red to indicate that you are on the Control page.
 
