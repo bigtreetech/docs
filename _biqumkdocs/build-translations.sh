@@ -74,7 +74,9 @@ while IFS="," read dirname langsite langdesc langsearch; do
   mkdir -p "${new_docs_dir}"
   cp "${locale_dir}"/*.md "${new_docs_dir}"
   echo "copy resources"
+  cp -r docs/assets "${new_docs_dir}"
   cp -r docs/img "${new_docs_dir}"
+  cp -r docs/gif "${new_docs_dir}"
   #cp -r docs/prints "${new_docs_dir}"
   cp -r docs/_biqumkdocs "${new_docs_dir}"
 
