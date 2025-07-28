@@ -4,7 +4,7 @@
 
 * 第一步：打印控制板PCB外壳
 
-    <img src=img/panda_status/panda_station_pcb.png width="600"/>
+    <img src=img/panda_status/case.png width="600"/>
 
 * 第二步：将控制板安装至打印件内，扣压紧后盖
 
@@ -285,54 +285,54 @@
 
 * 设备模式 
 
-   模式一：音频律动（出厂默认模式）
+    * 模式一：音频律动（出厂默认模式）
 
-    <img src=img/panda_status/zh/rgb_set_color_cn.png width="600"/>
+        <img src=img/panda_status/zh/rgb_set_color_cn.png width="600"/>
 
-    出厂默认亮度为50%，可随意调节(0-100%)
+        出厂默认亮度为50%，可随意调节(0-100%)
 
-    当前模式下，RGB灯会随着音调的大小来进行音频律动并且变色(蓝->绿->黄->橙->红)，具体灯效如下：
+        当前模式下，RGB灯会随着音调的大小来进行音频律动并且变色(蓝->绿->黄->橙->红)，具体灯效如下：
 
-    |--------- 音频：低 -----------|--------- 音频：中 ----------- | -----------音频：高 -----------|
-    |-----------------------------|------------------------------|--------------------------------|
+        |--------- 音频：低 -----------|--------- 音频：中 ----------- | -----------音频：高 -----------|
+        |-----------------------------|------------------------------|--------------------------------|
 
-    <img src=gif/panda_status/music.gif width="600"/>
+        <img src=gif/panda_status/music.gif width="600"/>
 
-   模式二：H2D灯条模式
+    * 模式二：H2D灯条模式
 
-    <img src=img/panda_status/zh/rgb_set_color_cn.png width="600"/>
+        <img src=img/panda_status/zh/rgb_set_color_cn.png width="600"/>
 
-    出厂默认亮度为50%，可随意调节(0-100%)
+        出厂默认亮度为50%，可随意调节(0-100%)
 
-    在当前模式下，RGB灯会根据打印机的状态来亮起不同的灯效，分别为：
+        在当前模式下，RGB灯会根据打印机的状态来亮起不同的灯效，分别为：
 
-    空闲状态，白色呼吸灯(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
+        空闲状态，白色呼吸灯(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
 
-    <img src=gif/panda_status/printer_idle.gif width="600"/>
+        <img src=gif/panda_status/printer_idle.gif width="600"/>
 
-    下载文件状态，黄色极光：
+        下载文件状态，黄色极光：
 
-    <img src=gif/panda_status/printer_loading.gif width="600"/>
+        <img src=gif/panda_status/printer_loading.gif width="600"/>
 
-    打印前准备，黄橙流光：
+        打印前准备，黄橙流光：
 
-    <img src=gif/panda_status/printer_wave.gif width="600"/>
+        <img src=gif/panda_status/printer_wave.gif width="600"/>
 
-    打印中：白色百分比常亮(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
+        打印中：白色百分比常亮(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
 
-    <img src=gif/panda_status/printer_printing.gif width="600"/>
+        <img src=gif/panda_status/printer_printing.gif width="600"/>
 
-    打印完成：绿灯常亮30S后切换为空闲状态的灯效(默认为白色呼吸灯)
+        打印完成：绿灯常亮30S后切换为空闲状态的灯效(默认为白色呼吸灯)
 
-    <img src=gif/panda_status/printer_complete.gif width="600"/>
+        <img src=gif/panda_status/printer_complete.gif width="600"/>
 
-    打印暂停：白色百分比呼吸灯：
+        打印暂停：白色百分比呼吸灯：
 
-    <img src=gif/panda_status/printer_pause.gif width="600"/>
+        <img src=gif/panda_status/printer_pause.gif width="600"/>
 
-    打印报错：红灯闪烁(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
+        打印报错：红灯闪烁(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
 
-    <img src=gif/panda_status/printer_error.gif width="600"/>
+        <img src=gif/panda_status/printer_error.gif width="600"/>
 
 
 <a id="rgb_set_color"></a>
