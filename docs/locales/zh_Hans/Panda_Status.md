@@ -1,4 +1,4 @@
-# Panda Station
+# Panda Status
 
 ## 装配说明(以Bambu Lab P1S为例)
 
