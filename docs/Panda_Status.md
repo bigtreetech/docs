@@ -2,7 +2,7 @@
 
 ## Assembly Manual (Using the Bambu Lab P1S as an Example)
 
-* Step 1: Print the control board PCB casing.
+* Step 1: Print the control board PCB casing. Print file download from [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) or [Maker world](https://makerworld.com/zh/models/1650182-panda-status-upper-shell#profileId-1744587)
 
     <img src=img/panda_status/case.png width="600"/>
 

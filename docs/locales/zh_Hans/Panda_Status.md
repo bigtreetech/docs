@@ -2,7 +2,7 @@
 
 ## 装配说明(以Bambu Lab P1S为例)
 
-* 第一步：打印控制板PCB外壳
+* 第一步：打印控制板PCB外壳，从 [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) 或者 [Maker world](https://makerworld.com/zh/models/1650182-panda-status-upper-shell#profileId-1744587) 下载打印文件
 
     <img src=img/panda_status/case.png width="600"/>
 
