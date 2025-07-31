@@ -96,27 +96,24 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     * Connect to the Panda_Status AP hotspot: `Panda_Status_XXXXXXXXXX`. The default password is `987654321`.
 
-        <img src=img/panda_status/en/wifi_list.png width="200"/>
+        <img src=img/panda_status/en/pc_wifi_list.png width="300"/>
 
 * Accessing the AP Webpage
 
     * After connecting to the AP, open a browser on your computer and enter the default IP address: `192.168.4.1`. On mobile devices, the Panda_Status Web UI will automatically appear, or you can manually enter the IP address in the browser: `192.168.4.1`.
-    
-       For Computer:
+        For Computer:
 
-       <img src=img/panda_status/en/com_start_web.png width="600"/>
+        <img src=img/panda_status/en/pc_hello.png width="800"/>
 
-       For Mobile:
+        For Mobile:
 
-       <img src=img/panda_status/en/phone_start_web.png width="200"/>
-
-## Webpage Usage Guide
+        <img src=img/panda_status/en/phone_hello.png width="300"/>
 
 * Select Language (Default: English)
 
     * After selecting a language, click `Next`.
 
-        <img src=img/panda_status/en/start_languge_cn.png width="600"/>
+        <img src=img/panda_status/en/languge.png width="300"/>
 
 <a id="wifi_connect_section"></a>
 
@@ -126,166 +123,139 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         After the initial setup or a factory reset, this page will automatically scan for available WiFi networks.
 
-        <img src=img/panda_status/en/start_wifi_display_ssid_cn.jpg width="600"/>
+        <img src=img/panda_status/en/wifi_scanning.jpg width="300"/>
 
         Once the scan is complete, a pop-up will appear notifying you that the scan is finished.
 
-        <img src=img/panda_status/en/start_wifi_scan_compelete_cn.jpg width="600"/>
+        <img src=img/panda_status/en/wifi_scanned.jpg width="300"/>
 
         Select the WiFi network you want to connect to.
 
-        <img src=img/panda_status/en/start_wifi_scan_choose_cn.jpg width="600"/>
+        <img src=img/panda_status/en/phone_wifi_list.jpg width="300"/>
 
     * Connecting to WiFi
 
         Type your password and tap the `eye icon` if you'd like to see the password you've entered.
 
-        <img src=img/panda_status/en/start_wifi_display_ssid_cn.jpg width="600"/>
+        <img src=img/panda_status/en/wifi_input.jpg width="300"/>
 
         Click Connect, and the interface will switch to the WiFi connection page, showing `Connecting to WiFi`.
 
-        <img src=img/panda_status/en/wifi_screen_connecting_cn.jpg width="600"/>
+        <img src=img/panda_status/en/wifi_connecting.jpg width="300"/>
 
         Wait a moment, and a WiFi connection status pop-up will appear.
 
-        Connection Failed:
+        * Connection Failed:
 
-        <img src=img/panda_status/en/wifi_screen_connect_falid_cn.jpg width="600"/>
+            <img src=img/panda_status/en/wifi_falid.jpg width="300"/>
 
-        Connection Successful: You can either `bind the printer` and proceed to the printer interface or click `Cancel` to stay on the WiFi page.
+        * Connection Successful: You can either `bind the printer` and proceed to the printer interface or click `Cancel` to stay on the WiFi page.
 
-        <img src=img/panda_status/en/wifi_screen_connect_vctory_cn.jpg width="600"/>
+            <img src=img/panda_status/en/wifi_ok.jpg width="300"/>
 
-The WiFi connection is complete. Below are the elements and functions of each page.
-
-### Panda Status Web UI Overview (The Web UI consists of five pages.)
-
-#### WiFi Page
+### Printer Binding Page
 
 * Elements and Functions
 
-    <img src=img/panda_status/en/wifi_screen_cn.png width="600"/>
+    <img src=img/panda_status/en/printer.png width="300"/>
 
-    ① WiFi Page Selection:  When you click the icon, it will turn red to indicate that you are on the WiFi page.
-
-    ② Current WiFi Connection Status
-
-    ③ IP Address Icon: Click the icon to display a pop-up. If the IP field is blank, ensure Panda_Status shows "Connected." If it says, "Not Connected," check your network settings.
-    
-    ④ IP Address Display: Entering this IP in your browser will take you to the Web page, as long as you're on the same local network.
-
-    ⑤ WiFi Network Configuration Button: Click to go to the [WiFi connection page](#wifi_connect_section)
-
-    ⑥ Host Name: The default hostname is "PandaStatus." If you forget the IP, you can use the hostname followed by "local" in the browser (e.g., http://PandaStatus.local). To modify the hostname, click the text box to edit it, then click "Set Hostname" to confirm.
-
-    ⑦ Confirm Hostname Modification
-
-#### AP Page
-
-* Elements and Functions
-
-    <img src=img/panda_status/en/ap_screenc_cn.png width="600"/>
-
-    ① AP Page Selection:  When you click the icon, it will turn red to indicate that you are on the AP page.
-
-    ② AP Hotspot Switch
-
-    ③ AP Name: Default is `Panda_Status_XXXXXXXXXX`
-    
-    ④ AP Password: Default is `987654321`
-
-    ⑤ Hotspot IP: Default Hotspot IP is "192.168.4.1." If your router's IP range is "192.168.4.xxx," an IP conflict will prevent the device from binding to the printer. Change the Panda_Status hotspot IP to a different range.
-
-    ⑥ Confirm Button: Clicking this will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](#wifi_connect_ap))
-
-
-
-#### Printer Binding Page 
-
-* Elements and Functions
-
-    <img src=img/panda_status/en/printer_bind_screen_cn.png width="600"/>
-
-    ① Printer Page Selection: When you click the icon, it will turn red to indicate that you are on the Printer page.
-
-    ② Scan for Printers on the Same Local Network
-
-    ③ Select the Detected Printer
-    
-    ④ Enter Printer’s SN Code
-
-    ⑤ Enter Printer’s Access Code
-
-    ⑥ Enter Printer’s IP Address
-
-    ⑦ Confirm to Bind This Printer
+    * ① Printer Page Selection: When you click the icon, it will turn red to indicate that you are on the Printer page.
+    * ② Scan for Printers on the Same Local Network
+    * ③ Select the Detected Printer
+    * ④ Enter Printer's SN Code
+    * ⑤ Enter Printer's Access Code
+    * ⑥ Enter Printer's IP Address
+    * ⑦ Confirm to Bind This Printer
 
 * How to Bind a Printer (Using P1P as an Example)
 
     Click `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
-    <img src=img/panda_status/en/printer_scan_compelete_cn.jpg width="600"/>
+    <img src=img/panda_status/en/printer_scanned.jpg width="300"/>
 
-    Select the printer from the list. The printer’s SN code and IP address will automatically fill in.
+    Select the printer from the list. The printer's SN code and IP address will automatically fill in.
 
-    <img src=img/panda_status/en/printer_choose_cn.jpg width="600"/>
+    <img src=img/panda_status/en/printer_list.jpg width="300"/>
     
-    Enter the printer’s access code: Find the access code in the printer’s settings, enter it in the box, and click `Bind` to successfully bind the printer.
+    Enter the printer's access code: Find the access code in the printer's settings, enter it in the box, and click `Bind` to successfully bind the printer.
 
-    <img src=img/panda_status/en/printer_access_code.png width="600"/>
+    <img src=img/panda_status/en/p1_1_2_3.png width="600"/>
 
-    <img src=gif/panda_status/printer_binding.gif width="600"/>
+    <img src=img/panda_status/en/p1_4_5.png width="600"/>
 
+    <img src=gif/panda_status/en/printer_binding.gif width="300"/>
 
-#### Settings Page
+## Webpage Usage Guide
+
+### WiFi Page
 
 * Elements and Functions
 
-    <img src=img/panda_status/en/system_set_screen_cn.jpg width="600"/>
+    <img src=img/panda_status/en/wifi_ip.png width="300"/>
 
-    ① Settings Page Selection: When you click the icon, it will turn red to indicate that you are on the Settings page.
+    * ① WiFi Page Selection:  When you click the icon, it will turn red to indicate that you are on the WiFi page.
+    * ② Current WiFi Connection Status
+    * ③ IP Address Icon: Click the icon to display a pop-up. If the IP field is blank, ensure Panda_Status shows "Connected." If it says, "Not Connected," check your network settings.
+    * ④ IP Address Display: Entering this IP in your browser will take you to the Web page, as long as you're on the same local network.
+    * ⑤ WiFi Network Configuration Button: Click to go to the [WiFi connection page](#wifi_connect_section)
+    * ⑥ Host Name: The default hostname is "PandaStatus." If you forget the IP, you can use the hostname followed by "local" in the browser (e.g., http://PandaStatus.local). To modify the hostname, click the text box to edit it, then click "Set Hostname" to confirm.
+    * ⑦ Confirm Hostname Modification
 
-    ② Choose Language (Default: English)
-
-    ③ Show Current Firmware Version
-    
-    ④ Firmware OTA Update: Select a `.bin` file for the update.
-
-    ⑤ Click to Confirm [Restore Factory Settings](#reset_config)
-
-* Firmware OTA Function Introduction
-
-    Click `Select .bin File` to choose the .bin file for the OTA update.
-
-    <img src=img/panda_status/en/system_ota_cn.jpg width="600"/>
-
-    Wait for the progress to complete, and the device will automatically restart once the update is finished.
-
-    <img src=img/panda_status/en/system_ota_yes_cn.jpg width="600"/>
-
-#### Control Page
+### AP Page
 
 * Elements and Functions
 
-    <img src=img/panda_status/en/rgb_screen_cn.png width="600"/>
+    <img src=img/panda_status/en/ap.png width="300"/>
 
-    ① Control Page Selection: When you click the icon, it will turn red to indicate that you are on the Control page.
+    * ① AP Page Selection:  When you click the icon, it will turn red to indicate that you are on the AP page.
+    * ② AP Hotspot Switch
+    * ③ AP Name: Default is `Panda_Status_XXXXXXXXXX`
+    * ④ AP Password: Default is `987654321`
+    * ⑤ Hotspot IP: Default Hotspot IP is "192.168.4.1." If your router's IP range is "192.168.4.xxx," an IP conflict will prevent the device from binding to the printer. Change the Panda_Status hotspot IP to a different range.
+    * ⑥ Confirm Button: Clicking this will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](#wifi_connect_ap))
 
-    ② Current Device Name
 
-    ③ Current Device Mode
-    
-    ④ Current Mode’s Light Effects
+### Settings Page
 
-    ⑤ Brightness
+* Elements and Functions
 
-    ⑥ Speed
+    <img src=img/panda_status/en/settings.jpg width="300"/>
+
+    * ① Settings Page Selection: When you click the icon, it will turn red to indicate that you are on the Settings page.
+    * ② Choose Language (Default: English)
+    * ③ Show Current Firmware Version
+    * ④ Firmware OTA Update: Select a `.bin` file for the update.
+        * Click `Select .bin File` to choose the .bin file for the OTA update.
+
+            <img src=img/panda_status/en/fw_upload.png width="300"/>
+
+        * Wait for the progress to complete, and the device will automatically restart once the update is finished.
+
+            <img src=img/panda_status/en/fw_uploading.jpg width="300"/>
+            <img src=img/panda_status/en/fw_uploaded.jpg width="300"/>
+
+    * ⑤ Click to Confirm [Restore Factory Settings](#reset_config)
+
+
+### Control Page
+
+* Elements and Functions
+
+    <img src=img/panda_status/en/rgb.png width="300"/>
+
+    * ① Control Page Selection: When you click the icon, it will turn red to indicate that you are on the Control page.
+    * ② Current Device Name
+    * ③ Current Device Mode
+    * ④ Current Mode's Light Effects
+    * ⑤ Brightness
+    * ⑥ Speed
+    * ⑦ Clicking the `Reset Settings` button will restore the brightness for both Music and H2D modes to the factory default (50%). Additionally, the colors for the three printing states will be reset to their default settings.
 
 * Device Modes 
 
     * Mode 1: Music (Factory Default Mode)
 
-        <img src=img/panda_status/en/rgb_set_color_cn.jpg width="600"/>
+        <img src=img/panda_status/en/rgb_music.jpg width="300"/>
 
         Brightness is set to 50% by default, adjustable from 0 to 100%.
 
@@ -299,7 +269,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
     * Mode 2: H2D Style
 
-        <img src=img/panda_status/en/rgb_set_color_cn.jpg width="600"/>
+        <img src=img/panda_status/en/rgb_h2d.jpg width="300"/>
 
         Brightness is set to 50% by default, adjustable from 0 to 100%.
 
@@ -336,45 +306,38 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 <a id="rgb_set_color"></a>
 
-##### Customizing Light Color
+#### Customizing Light Color
 
 * To set the color (using the idle state as an example):
-    
-    In the control page, select the H2D mode. Under the "Color" option, you will see three boxes: Idle-white breathing light, Printing-white solid light that fills based on progress, and Error-red flashing light.
+    * In the control page, select the H2D mode. Under the "Color" option, you will see three boxes: Idle-white breathing light, Printing-white solid light that fills based on progress, and Error-red flashing light.
 
-    <img src=img/panda_status/en/rgb_set_color_state_cn.jpg width="600"/>
+        <img src=img/panda_status/en/rgb_h2d.jpg width="300"/>
 
-    Select the idle state and click `Confirm` button.
+    * Select the idle state and click `Confirm` button.
 
-    <img src=img/panda_status/en/rgb_set_idle_color_state_cn.jpg width="600"/>
+        <img src=img/panda_status/en/rgb_h2d_idle.jpg width="300"/>
 
-    You will then be directed to the color selection page.
+    * You will then be directed to the color selection page.
 
-    <img src=img/panda_status/en/rgb_color_block_cn.jpg width="600"/>
+        <img src=img/panda_status/en/rgb_color_block.jpg width="300"/>
 
-    ① Factory default preset color.
+        * ① Factory default preset color.
+        * ② Custom color
 
-    ② Custom color
+    * After selecting a color block, click `Confirm`.
 
-    After selecting a color block, click `Confirm`.
+        <img src=img/panda_status/en/rgb_set_block.jpg width="300"/>
 
-    <img src=img/panda_status/en/rgb_set_block_cn.jpg width="600"/>
+    * The white idle light will change to the selected color, such as sky blue.
 
-    The white idle light will change to the selected color, such as sky blue.
+        <img src=img/panda_status/en/rgb_idle_ok.jpg width="300"/>
 
-    <img src=img/panda_status/en/rgb_set_idle_success_cn.jpg width="600"/>
+## Firmware History
 
-
-##### Reset Button
-
-* Clicking the `Reset Settings` button will restore the brightness for both Music and H2D modes to the factory default (50%). Additionally, the colors for the three printing states will be reset to their default settings.
-
-### Firmware History
-
-#### [V1.0.0](https://github.com/bigtreetech/Panda_Status/tree/master/Firmware/v1.0.0)
+### [V1.0.0](https://github.com/bigtreetech/Panda_Status/tree/master/Firmware/v1.0.0)
 * First released factory firmware.
 
-### Feature Requests
+## Feature Requests
 
 If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. 
 [Feature Requests](https://github.com/bigtreetech/issues)
