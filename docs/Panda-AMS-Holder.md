@@ -50,7 +50,7 @@ Secure with M3x4 button head cap screws.
 
 ### For two AMS or AMS 2 Pro units: Install all four support bars.
 
-## Expansion Model Files
+[Expansion Model Files](https://github.com/bigtreetech/Panda_Perch)
 
 Additional printable files (such as build plate storage, tool storage, and top glass cover stays, and more) are available on GitHub.
 

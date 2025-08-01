@@ -34,7 +34,7 @@
 
 ### 使用两台AMS/AMS 2 PRO时需要将四条支撑条全部安装
 
-## 打印件拓展功能（需在GitHub下载打印文件）
+[打印件拓展功能](https://github.com/bigtreetech/Panda_Perch)
 
 <img src=img/Panda_Perch_CN/8.png width="600"/>
 
