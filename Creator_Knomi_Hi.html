@@ -6413,24 +6413,26 @@ Secure the Creator Knomi Hi Shell with the the previously removed screws.<br/>
 <p>Connect to the Creator Knomi Hi AP hotspot
   After powering on for the first time or performing a <code>Factory Reset</code>, you’ll see this interface:<br/>
   <img src=img/Creator_Knomi_Hi/ap_qr_code.jpg width="400"/></p>
-</li>
-<li>
-<p>Scan the QR code on the Creator Knomi Hi to get the AP name and password.<br/>
-  Connect to the AP with the default credentials:<br/>
-  Wi-Fi Name: <code>Creator_Knomi_Hi_xxxxxxxxxxxx</code><br/>
-  Wi-Fi Password: <code>987654321</code><br/>
-    &gt; <font size="2">Note: Most modern smartphones are equipped to scan QR codes directly through their camera app. This feature is typically available on devices running iOS 11 or later, and Android 9.0 or later. To ensure optimal QR code scanning performance, please verify that both your device’s operating system and camera app are updated to their latest versions.
-If your smartphone does not have this capability, alternative options include using third-party applications from the application store, like Google Lens. Alternatively, you can manually connect to the  Creator Knomi Hi’s hotspot using the default password <code>987654321</code> to access the Web UI.</font></p>
+<ul>
+<li>Scan the QR code on the Creator Knomi Hi to get the AP name and password.<br/>
+Connect to the AP with the default credentials:<br/>
+Wi-Fi Name: <code>Creator_Knomi_Hi_xxxxxxxxxxxx</code><br/>
+Wi-Fi Password: <code>987654321</code><br/><blockquote>
+<p><font size="2">Note: Most modern smartphones are equipped to scan QR codes directly through their camera app. This feature is typically available on devices running iOS 11 or later, and Android 9.0 or later. To ensure optimal QR code scanning performance, please verify that both your device’s operating system and camera app are updated to their latest versions.
+  If your smartphone does not have this capability, alternative options include using third-party applications from the application store, like Google Lens. Alternatively, you can manually connect to the  Creator Knomi Hi’s hotspot using the default password <code>987654321</code> to access the Web UI.</font></p>
+</blockquote>
 </li>
 <li>If scanning the QR code doesn't work, you can go to the <code>settings</code> menu on the device to connect to the hotspot manually. <br/>
-    Using an iPhone as an example:<br/></li>
+  Using an iPhone as an example:<br/></li>
 <li>On your phone home screen, go to <code>Settings</code> → <code>WLAN</code>.</li>
 <li>Turn on <code>WLAN</code>. Your device will automatically search for available networks.
 <br/>
-      <img src=img/Creator_Knomi_Hi/wlan.png width="300"/></li>
+  <img src=img/Creator_Knomi_Hi/wlan.png width="300"/></li>
 <li>Tap on the network name starting with <code>Creator_Knomi_Hi</code> and enter the default password: <code>987654321</code>.</li>
 <li>After successfully connecting to the Creator_Knomi_Hi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.</li>
 <li>Once connected, a <code>Login Required</code> message may appear. Tap it to launch the Web UI. If that doesn’t happen, wait 10–20 seconds. If it still doesn’t load, open your browser manually and go to: <a href="http://192.168.254.1">192.168.254.1</a>.</li>
+</ul>
+</li>
 </ul>
 <h4 id="connecting-to-the-same-wi-fi-as-the-printer">Connecting to the Same Wi-Fi as the Printer<a class="headerlink" href="#connecting-to-the-same-wi-fi-as-the-printer" title="Permanent link">&para;</a></h4>
 <ul>
@@ -6461,12 +6463,14 @@ Scanning may take 50–300 seconds depending on how many devices are on your net
 </ul>
 </blockquote>
 <ul>
-<li>Find the printer’s IP and enter it in the Web UI:</li>
-<li>①   <code>Settings</code><br/>
-    <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/></li>
+<li>Find the printer’s IP and enter it in the Web UI:<ul>
+<li>① <code>Settings</code><br/>
+  <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/></li>
 <li>② <code>Network</code> -&gt; ③ <code>IP</code><br/>
-    <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/></li>
+  <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/></li>
 <li>The default port is <code>7125</code></li>
+</ul>
+</li>
 <li>Tap <code>Bind</code>. A "Binding successful" popup will confirm that the Creator Knomi Hi has connected to the printer.<br/>
   <img src=img/Creator_Knomi_Hi/en/bind_ok.jpg width="300"/></li>
 <li>Congratulations! Your Creator Knomi Hi is now ready to use—enjoy the experience!</li>
@@ -6601,7 +6605,7 @@ Scanning may take 50–300 seconds depending on how many devices are on your net
 <ul>
 <li>The screen saver GIF is as follows:<br/>
   <img src=img/Creator_Knomi_Hi/screen_saver.gif /></li>
-<li>The screen saver is active on the following interfaces:</li>
+<li>The screen saver is active on the following interfaces:<ul>
 <li>Invalid IMG Interface</li>
 <li>Hello Screen at Factory Settings</li>
 <li>Wi-Fi Scan Completion</li>
@@ -6610,6 +6614,8 @@ Scanning may take 50–300 seconds depending on how many devices are on your net
 <li>Binding Printer Interface</li>
 <li>Printer Scan Completion</li>
 <li>Printer Unready</li>
+</ul>
+</li>
 </ul>
 <h3 id="wi-fi-ip-settings">Wi-Fi &amp; IP Settings<a class="headerlink" href="#wi-fi-ip-settings" title="Permanent link">&para;</a></h3>
 <p><img src=img/Creator_Knomi_Hi/en/wifi_ip.jpg width="300"/></p>
@@ -6623,8 +6629,8 @@ However, to avoid losing connection during this transition, it is recommended to
 <li>③ After configuring the network, ensure that your devices (phone, computer, etc.) are connected to the same local network as Creator Knomi Hi.<br/>
 Access the Web UI by entering the IP address into your browser’s address bar. To avoid forgetting the IP address, consider bookmarking it on your phone’s home screen.</li>
 <li>④ Alternatively, if your devices are on the same network as Creator Knomi Hi, you can access the Web UI using the hostname, which by default is <code>Creator_Knomi_Hi</code> (accessible via  <a href="http://CreatorKnomiHi.local">http://CreatorKnomiHi.local</a>  , hostname is not case-sensitive).
-Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.
-  Setting the Hostname:</li>
+Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>
+  Setting the Hostname:<br/></li>
 <li>The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.</li>
 <li>The hostname must be at least 8 characters long and no more than 32 characters.  (if firmware is <code>v1.0.2</code> or earlier, max is 15 characters to avoid boot failure. To support longer names, update to firmware version V1.0.3 or later.)</li>
 </ul>
@@ -6655,12 +6661,14 @@ When the AP hotspot is off, the device will no longer connect to Creator Knomi H
 <img src=img/Creator_Knomi_Hi/en/settings_7_8.jpg width="300"/></p>
 <ul>
 <li>① Go to the <code>Theme</code> interface.</li>
-<li>② Choose how to display printing progress:</li>
+<li>② Choose how to display printing progress:<ul>
 <li><code>Only percentage</code>: Displays real-time printing progress as a percentage</li>
 <li><code>Only GIF</code>: Displays a GIF representing the printing process.</li>
 <li><code>Alternating percentage and GIF</code>: Alternates between showing the percentage and GIF every 10 seconds.</li>
+</ul>
+</li>
 <li>③ Set GIF Colors<br/>
-  <img src=img/Creator_Knomi_Hi/en/picker.jpg width="300"/></li>
+  <img src=img/Creator_Knomi_Hi/en/picker.jpg width="300"/><ul>
 <li>a) Tap to open the color setting interface for the GIF.</li>
 <li>b) Use the HSL Color Wheel. ( <a href="https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4">What is HSL?</a>）</li>
 <li>c) H (Hue) ranges from 0° to 360°.</li>
@@ -6673,16 +6681,20 @@ When the AP hotspot is off, the device will no longer connect to Creator Knomi H
 </ul>
 </li>
 <li>g) The HSLA Values — Hue (H) ranges from 0–360°, Saturation (S) from 0–100%, and Lightness (L) from 0–100%. You can directly edit these values to achieve your desired color.
-For example, the value hsla(77, 100%, 65%) shown in the image means:</li>
+  For example, the value hsla(77, 100%, 65%) shown in the image means:<ul>
 <li>H (Hue): 77°</li>
 <li>S (Saturation): 100%</li>
 <li>L (Lightness): 65%</li>
+</ul>
+</li>
 <li>h) Tap to reset to the original GIF color.</li>
 <li>i) Preview the color in the preview area.</li>
+</ul>
+</li>
 <li>④ View GIF Storage Usage：Due to Creator Knomi Hi’s hardware limitations, the total size of all GIFs cannot exceed 3MB (3072KB). If this limit is exceeded, the Web UI will block the update and display a pop-up reminder.</li>
 <li>⑤ Set Each GIF Individually (including color and custom GIF images：<br/>
   Turn <code>Preview Mode</code> on/off to show/hide the <code>Preview</code> button. Tapping <code>Preview this GIF</code> enters preview mode, allowing you to view the custom GIF on the screen. To exit preview mode, turn off <code>Preview Mode</code> or navigate away from the <code>Theme</code> interface.<br/>
-  Custom GIF Notes:<br/></li>
+  Custom GIF Notes:<br/><ul>
 <li>The screen resolution of the Creator Knomi Hi is <code>240 × 240 pixels</code> (width × height). GIFs larger than this will not display correctly. Only GIFs that are <code>240 × 240 pixels</code> or smaller are supported. If your GIF exceeds this size, we recommend resizing it using an online tool like <a href="https://www.iloveimg.com/resize-image/resize-gif">https://www.iloveimg.com/resize-image/resize-gif</a><ul>
 <li>Click <code>Select images</code> or drag your GIF into the upload area.</li>
 <li>Ensure <code>Maintain aspect ratio</code> is checked to prevent distortion.</li>
@@ -6693,13 +6705,17 @@ For example, the value hsla(77, 100%, 65%) shown in the image means:</li>
 </li>
 <li>Each individual GIF must be no larger than 1.5MB (1536KB). The total size of all GIFs must not exceed 3MB (3072KB).</li>
 <li>When replacing a built-in GIF, the new GIF's size must not exceed the sum of the original GIF size and the remaining available space. You can check the available space in <code>④</code> and each GIF’s size in <code>⑤</code>. Example: To replace <code>standby.gif</code> (242.21KB) with 1697.94KB of remaining space, the new GIF must be ≤ 1940.15KB(242.21KB + 1697.94KB).</li>
+</ul>
+</li>
 <li>⑥  Export your custom GIFs as an <code>.img</code> file for easy backup or sharing.</li>
 <li>⑦ ⑧ Import a shared <code>.img</code> file into Creator Knomi Hi to apply the custom theme.</li>
 </ul>
 <h3 id="download-img-theme-and-apply-to-creator-knomi-hi">Download IMG Theme and Apply to Creator Knomi Hi<a class="headerlink" href="#download-img-theme-and-apply-to-creator-knomi-hi" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Download IMG Theme File</li>
+<li>Download IMG Theme File<ul>
 <li>Download a <code>.img</code> theme file from the community</li>
+</ul>
+</li>
 <li>Open Creator Knomi Hi’s Web UI: ① <code>Settings</code> -&gt; ② <code>Select .img file</code>，select the .img file you just downloaded. Once the update is complete, Creator Knomi Hi will automatically apply the new IMG file.<br/>
   <img src=img/Creator_Knomi_Hi/en/img_web_upload.jpg width="300"/></li>
 </ul>
@@ -6732,7 +6748,7 @@ For example, the value hsla(77, 100%, 65%) shown in the image means:</li>
 <li>Open the Web UI<blockquote>
 <p><font size="2">You can access it by connecting your device to the same Wi-Fi as Creator Knomi Hi or by connecting to Creator Knomi Hi’s AP hotspot.</font></p>
 </blockquote>
-</li>
+<ul>
 <li>Option A: Connect via local network：<ul>
 <li>Connect your device (phone/computer) to the same Wi-Fi as Creator Knomi Hi.</li>
 <li>Open a browser and go to Creator Knomi Hi’s IP or hostname (e.g.,: <code>http://CreatorKnomiHi.local</code>). If VPN is active, use the IP address instead.</li>
@@ -6752,6 +6768,8 @@ If the page doesn't open automatically, wait about 10–20 seconds.<br/>
 If it still doesn’t appear, open Safari and manually enter: <a href="http://192.168.254.1">192.168.254.1</a></li>
 </ul>
 </li>
+</ul>
+</li>
 <li>In Web UI: Go to ① <code>Settings</code>-&gt; ② Tap <code>Select .bin file</code>, then select the firmware file, after uploading, Creator Knomi Hi will reboot automatically<br/>
   <img src=img/Creator_Knomi_Hi/en/firmware.jpg width="300"/></li>
 </ul>
@@ -6769,8 +6787,8 @@ If it still doesn’t appear, open Safari and manually enter: <a href="http://19
 <li>Open <code>flash_download_tool_3.9.8_6.exe</code> and configure as follows:<br/>
   <img src=img/Creator_Knomi_Hi/open_esp_tool.png width="400"/></li>
 <li>As shown in the figure below, configure the burning software:<br/>
-  <img src=img/Creator_Knomi_Hi/set_esp_tool.png width="400"/></li>
-<li>①   Set the.bin file's burning address, ensuring all checkboxes are ticked:<ul>
+  <img src=img/Creator_Knomi_Hi/set_esp_tool.png width="400"/><ul>
+<li>① Set the.bin file's burning address, ensuring all checkboxes are ticked:<ul>
 <li><code>creator_knomi_hi_bootloader.bin</code> to <code>0x1000</code></li>
 <li><code>creator_knomi_hi_partitions.bin</code> to <code>0x8000</code></li>
 <li><code>creator_knomi_hi_ota_data.bin</code> to <code>0xe000</code></li>
@@ -6778,8 +6796,10 @@ If it still doesn’t appear, open Safari and manually enter: <a href="http://19
 <li><code>creator_knomi_hi_01.00.00.00.img</code> to <code>0x910000</code></li>
 </ul>
 </li>
-<li>②   Set the COM port to the Creator Knomi Hi port(check in Device Manager) and choose a baud rate (recommended: <code>460800</code>)</li>
-<li>③   Click <code>START</code> to begin burning. Once done, power off and restart Creator Knomi Hi.</li>
+<li>② Set the COM port to the Creator Knomi Hi port(check in Device Manager) and choose a baud rate (recommended: <code>460800</code>)</li>
+<li>③ Click <code>START</code> to begin burning. Once done, power off and restart Creator Knomi Hi.</li>
+</ul>
+</li>
 </ul>
 <h3 id="firmware-version-history">Firmware Version History <a id="firmware_history"></a><a class="headerlink" href="#firmware-version-history" title="Permanent link">&para;</a></h3>
 <h4 id="01000000"><a href="https://github.com/bigtreetech/Creator_Knomi_Hi/tree/master/Firmware/01.00.00.00">01.00.00.00</a><a class="headerlink" href="#01000000" title="Permanent link">&para;</a></h4>
