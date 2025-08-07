@@ -116,21 +116,22 @@
 #### 访问Web UI配置界面。
 
 * 连接 Creator Knomi Hi 的 AP热点<br/>
-首次启动后或执行 `恢复出厂设置` 命令后，您将看到下面的屏幕。<br/>
+  首次启动后或执行 `恢复出厂设置` 命令后，您将看到下面的屏幕。<br/>
   <img src=img/Creator_Knomi_Hi/ap_qr_code.jpg width="400"/>
-  * 扫描 Creator Knomi Hi 上的二维码(如上图所示), 获取 Creator Knomi Hi 自身开启的 AP 热点的名称和密码, 点击连接。<br/>
-  <img src=img/Creator_Knomi_Hi/password.jpg width="300"/>
-  <br/>出厂默认的AP信息如下：<br/>
-    Wi-Fi名称: `Creator_Knomi_Hi_xxxxxxxxxxxx`<br/>
-    Wi-Fi密码: `987654321`<br/>
-    > <font size="2">提示：大多数现代智能手机都支持通过相机扫描二维码功能，尤其是搭载 iOS 11 及以上版本的 iPhone 和 Android 9.0 及以上系统的设备。请确保您的设备系统及相机应用为最新版本，以获得最佳的二维码扫描体验。如果您的设备不具备上述条件，可以使用 Google Lens 等外部应用，或直接手动连接 Creator Knomi Hi 的热点（默认密码为：`987654321`）以访问 Web UI。</font>
-  * 如果无法扫码连接，请到设备的 `设置` 菜单中手动连接热点。<br/>
-    以 `iPhone` 为例：<br/>
-    * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
-    * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
-      <img src=img/Creator_Knomi_Hi/wlan.png width="300"/>
-    * 轻点名称以 `Creator_Knomi_Hi` 开头的无线局域网，输入默认密码：`987654321`。
-    * 连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
+
+    * 扫描 Creator Knomi Hi 上的二维码(如上图所示), 获取 Creator Knomi Hi 自身开启的 AP 热点的名称和密码, 点击连接。<br/> <img src=img/Creator_Knomi_Hi/password.jpg width="300"/><br/>
+      出厂默认的AP信息如下：<br/>
+      Wi-Fi名称: `Creator_Knomi_Hi_xxxxxxxxxxxx`<br/>
+      Wi-Fi密码: `987654321`<br/>
+      > <font size="2">提示：大多数现代智能手机都支持通过相机扫描二维码功能，尤其是搭载 iOS 11 及以上版本的 iPhone 和 Android 9.0 及以上系统的设备。请确保您的设备系统及相机应用为最新版本，以获得最佳的二维码扫描体验。如果您的设备不具备上述条件，可以使用 Google Lens 等外部应用，或直接手动连接 Creator Knomi Hi 的热点（默认密码为：`987654321`）以访问 Web UI。</font>
+    * 如果无法扫码连接，请到设备的 `设置` 菜单中手动连接热点。<br/>
+      以 `iPhone` 为例：<br/>
+        * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
+        * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
+        <img src=img/Creator_Knomi_Hi/wlan.png width="300"/>
+        * 轻点名称以 `Creator_Knomi_Hi` 开头的无线局域网，输入默认密码：`987654321`。
+        * 连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
+
 * 连接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入Web UI配置界面。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) 访问Web UI配置界面。
 
 #### 将Creator Knomi Hi连接到打印机所在的Wi-Fi下
@@ -159,11 +160,11 @@
 > * 如果您局域网内的打印机数量不多，但是却仍然扫描不到打印机，我们可以先尝试 `手动输入` 绑定打印机所需要的所有信息。如果Creator Knomi Hi无法连接到打印机，可能是您路由器的一些安全特性，禁止了局域网内的设备互相通信。请联系客服 support01@bigtree-tech.com 协助您做进一步的排查。
 
 * 在打印机上找到 `IP`，并输入到Web UI上对应的输入栏中。
-  * ①	`设置`<br/>
-    <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/>
-  * ② `网络` -> ③ `IP`<br/>
-    <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/>
-  * 打印机默认的端口号为 `7125`
+    * ①	`设置`<br/>
+      <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/>
+    * ② `网络` -> ③ `IP`<br/>
+      <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/>
+    * 打印机默认的端口号为 `7125`
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着Creator Knomi Hi已经成功连接到打印机了。<br/>
   <img src=img/Creator_Knomi_Hi/zh/bind_ok.jpg width="300"/>
 * 恭喜您！现在可以尽情的享用您的 Creator Knomi Hi 了。
@@ -196,14 +197,14 @@
 * 屏保GIF的效果如下：<br/>
   <img src=img/Creator_Knomi_Hi/screen_saver.gif />
 * 以下静态界面中具有屏保逻辑：
-  * 无效的 IMG 界面
-  * 出厂时的 Hello 界面
-  * Wi-Fi 扫描完成界面
-  * Wi-Fi 连接失败界面
-  * Wi-Fi 密码错误界面
-  * 绑定打印机界面
-  * 打印机扫描完成界面
-  * 打印机未就绪界面
+    * 无效的 IMG 界面
+    * 出厂时的 Hello 界面
+    * Wi-Fi 扫描完成界面
+    * Wi-Fi 连接失败界面
+    * Wi-Fi 密码错误界面
+    * 绑定打印机界面
+    * 打印机扫描完成界面
+    * 打印机未就绪界面
 
 
 ### Wi-Fi & IP 界面
@@ -214,13 +215,12 @@
 * ②	如果您想要重新配置 Creator Knomi Hi 要连接的 Wi-Fi，可以点击 `Wi-Fi 网络配置` 按钮再次进入配置 Wi-Fi的界面重新配置要连接的 Wi-Fi。
   > <font size="2">提示：Creator Knomi Hi 更换所连接的 Wi-Fi 后，Creator Knomi Hi 所在的局域网和 IP 地址可能发生改变，若在设备连接到与 Creator Knomi Hi 所连接的 Wi-Fi 相同的局域网下改变此配置，则设备会与 Creator Knomi Hi 断开通信连接，需要将设备也重新连接到 Creator Knomi Hi 新连接的 Wi-Fi 网络下才可重新建立通信连接。为避免此类情况，建议将设备连接到 Creator Knomi Hi 的 AP 热点，然后再修改此配置。</font>
 * ③	配网完成后，推荐客户将手机、电脑等设备连接到与 Creator Knomi Hi 所连接的 Wi-Fi 相同的局域网下，并通过在浏览器地址栏输入 IP 地址访问 Web UI。为避免遗忘 IP地址，可利用手机主屏幕书签功能，方便快速访问。
-* ④	若设备连接到与 Creator Knomi Hi 所连接的 Wi-Fi 相同的局域网下，用户可以通过主机名直接访问 Web UI，例如出厂默认的主机名是 `Creator_Knomi_Hi`，我们可以直接访问 [http://CreatorKnomiHi.local](http://CreatorKnomiHi.local) ，不区分大小写。如果设备开了VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用 IP 访问。<br/>
-  用户可以自定义主机名，但是请遵守以下规则：<br/>
-  * 只能由字母（a-z、A-Z）、数字（0-9）、以及连接符（-）组成， 并且首字符必须是字母。
-  * 长度不低于8个字符，不超过32个字符 (在`V1.0.2`及其之前版本的固件上, 请不要超过15个字符, 否则设备会无法启动，需要更新到`V1.0.3`及其之后版本的固件)。
+* ④	若设备连接到与 Creator Knomi Hi 所连接的 Wi-Fi 相同的局域网下，用户可以通过主机名直接访问 Web UI，例如出厂默认的主机名是 `Creator_Knomi_Hi`，我们可以直接访问 [http://CreatorKnomiHi.local](http://CreatorKnomiHi.local) ，不区分大小写。如果设备开了VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用 IP 访问。<br/>用户可以自定义主机名，但是请遵守以下规则：<br/>
+    * 只能由字母（a-z、A-Z）、数字（0-9）、以及连接符（-）组成， 并且首字符必须是字母。
+    * 长度不低于8个字符，不超过32个字符 (在`V1.0.2`及其之前版本的固件上, 请不要超过15个字符, 否则设备会无法启动，需要更新到`V1.0.3`及其之后版本的固件)。
 
-  修改完成后，点击 `设置主机名` 将设置的主机名发送给 Creator Knomi Hi，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Creator Knomi Hi 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/hostname.jpg width="300"/>
+    修改完成后，点击 `设置主机名` 将设置的主机名发送给 Creator Knomi Hi，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Creator Knomi Hi 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。<br/>
+    <img src=img/Creator_Knomi_Hi/zh/hostname.jpg width="300"/>
 
 ### AP 界面
 
@@ -246,45 +246,45 @@
 
 * ①	进入 `主题` 界面
 * ②	打印进度显示选择，有以下3种选项：
-  * `仅显示百分比`：打印机打印时，屏幕上显示实时的打印进度
-  * `仅显示 GIF`：打印机打印时，屏幕上显示代表打印中的 GIF 图片
-  * `百分比和 GIF 交替显示`：打印机打印时，屏幕上交替显示实时的打印进度和 GIF 图片，并且每隔 10s 切换一次显示
+    * `仅显示百分比`：打印机打印时，屏幕上显示实时的打印进度
+    * `仅显示 GIF`：打印机打印时，屏幕上显示代表打印中的 GIF 图片
+    * `百分比和 GIF 交替显示`：打印机打印时，屏幕上交替显示实时的打印进度和 GIF 图片，并且每隔 10s 切换一次显示
 * ③	设置 GIF 的颜色<br/>
   <img src=img/Creator_Knomi_Hi/zh/picker.jpg width="300"/>
-  * a) 点击此按钮，弹出设置GIF颜色的界面
-  * b) HSL 取色盘（[HSL是什么？](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)）
-  * c) HSL的H色相参数，范围值为：0~360°
-  * d) HSL的S饱和度参数，范围值为：0~100%
-  * e) HSL的L亮度参数，范围值为：0~100%
-  * f) 颜色对应的RGB 的16进制值，16进制下每个值的范围均为 0~255（0x00~0xFF）, 可以直接修改此处的值来得到想要的颜色。 如图中所示的 #CCFF4D 意味着：
-    * R（红色）：0xCC (204/255)
-    * G（绿色）：0xFF (255/255)
-    * B（蓝色）：0x4D (77/255)
-  * g) 颜色对应的HSL的值，H色相的范围为：0~360°， S饱和度的范围为：0~100%，L亮度的范围为：0~100%，可以直接修改此处的值来得到想要的颜色。如图中所示的 hsla(77, 100%, 65%) 意味着：
-    * H（色相）：77°
-    * S（饱和度）：100%
-    * L（亮度）：65%
-  * h) 点击清除设置的颜色，GIF会显示原本的颜色
-  * i) 预览所设置颜色的区域
+    * a) 点击此按钮，弹出设置GIF颜色的界面
+    * b) HSL 取色盘（[HSL是什么？](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)）
+    * c) HSL的H色相参数，范围值为：0~360°
+    * d) HSL的S饱和度参数，范围值为：0~100%
+    * e) HSL的L亮度参数，范围值为：0~100%
+    * f) 颜色对应的RGB 的16进制值，16进制下每个值的范围均为 0~255（0x00~0xFF）, 可以直接修改此处的值来得到想要的颜色。 如图中所示的 #CCFF4D 意味着：
+        * R（红色）：0xCC (204/255)
+        * G（绿色）：0xFF (255/255)
+        * B（蓝色）：0x4D (77/255)
+    * g) 颜色对应的HSL的值，H色相的范围为：0~360°， S饱和度的范围为：0~100%，L亮度的范围为：0~100%，可以直接修改此处的值来得到想要的颜色。如图中所示的 hsla(77, 100%, 65%) 意味着：
+        * H（色相）：77°
+        * S（饱和度）：100%
+        * L（亮度）：65%
+    * h) 点击清除设置的颜色，GIF会显示原本的颜色
+    * i) 预览所设置颜色的区域
 * ④	查看GIF 储存空间用量，由于 Creator Knomi Hi 硬件的限制，所有的 GIF 大小之和不能超过 3MB (3072KB,1MB=1024KB)，超出此大小 Web UI 会阻止更新并弹窗提醒。
 * ⑤	每个 GIF 图片单独设置，包括颜色和自定义GIF图片。<br/>
   可以打开/关闭 `预览此GIF` 开关来显示/隐藏 `预览` 按钮，点击 `预览此GIF` 可以使 Creator Knomi Hi 进入预览模式，屏幕上将显示 `预览此GIF` 字样，在屏幕上可查看到自定义 GIF 的效果，若想退出预览模式，请关闭 `预览此GIF` 开关，或者直接跳转到除 `主题` 界面之外的其他界面。<br/>
   自定义GIF注意<br/>
-  * Creator Knomi Hi 所使用的屏幕分辨率 `宽 x 高` 为 `240 x 240` 像素，超过此分辨率的图片无法完整显示在屏幕上，所以只允许使用小于或等于此分辨率的GIF。超出此限制的GIF，推荐使用工具重新调整GIF的分辨率，使其符合要求。（例如： [https://www.iloveimg.com/resize-image/resize-gif](https://www.iloveimg.com/resize-image/resize-gif)）。
-    * 点击网页中的 `Select images` 按钮选择 GIF 图片，或者直接将GIF图片拖到此界面中
-    * 确保勾选了网页右侧的 `Maintain aspect ratio`，避免改变长宽比例导致画面效果不协调
-    * 修改 `Width (px):` 和 `Height (px):` 中较大的参数到不超过 240, 如果 `Width (px):` 和 `Height (px):` 参数是一样的，随便修改任意个即可
-    * 点击 `Resize IMAGES` 按钮
-    * 等待调整完成，然后点击 `Download resized IMAGES` 按钮下载调整后的 GIF.
+    * Creator Knomi Hi 所使用的屏幕分辨率 `宽 x 高` 为 `240 x 240` 像素，超过此分辨率的图片无法完整显示在屏幕上，所以只允许使用小于或等于此分辨率的GIF。超出此限制的GIF，推荐使用工具重新调整GIF的分辨率，使其符合要求。（例如： [https://www.iloveimg.com/resize-image/resize-gif](https://www.iloveimg.com/resize-image/resize-gif)）。
+        * 点击网页中的 `Select images` 按钮选择 GIF 图片，或者直接将GIF图片拖到此界面中
+        * 确保勾选了网页右侧的 `Maintain aspect ratio`，避免改变长宽比例导致画面效果不协调
+        * 修改 `Width (px):` 和 `Height (px):` 中较大的参数到不超过 240, 如果 `Width (px):` 和 `Height (px):` 参数是一样的，随便修改任意个即可
+        * 点击 `Resize IMAGES` 按钮
+        * 等待调整完成，然后点击 `Download resized IMAGES` 按钮下载调整后的 GIF.
   * 单个 GIF 的尺寸不能超过 1.5MB(1536KB, 1MB=1024KB)，所有 GIF 一起的尺寸不能超过 3MB(3072KB,1MB=1024KB)。
-  * 新的GIF的大小不能超过被替换的GIF大小与剩余空间之和，否则 Web UI 会拒绝替换并弹窗提醒大小超出容量限制。在 `④` 中可以查看剩余空间，在 `⑤` 中可以查看每个GIF的大小。例如：使用新的GIF替换 `待机状态.gif`，出厂的GIF大小为 242.21KB，出厂剩余的容量为 1697.94KB，所以新的GIF大小不能超过 242.21KB + 1697.94KB = 1940.15KB。
+  * 新的GIF的大小不能超过被替换的GIF大小与剩余空间之和，否则 Web UI 会拒绝替换并弹窗提醒大小超出容量限制。在 `④` 中可以查看剩余空间，在 `⑤` 中可以查看每个GIF的大小。<br/>例如：<br/>&ensp;&nbsp;使用新的GIF替换 `待机状态.gif`，出厂的GIF大小为 242.21KB，出厂剩余的容量为 1697.94KB，所以新的GIF大小不能超过 242.21KB + 1697.94KB = 1940.15KB。
 * ⑥	将自定义的 GIF 下载导出成IMG文件，方便备份或者分享您的自定义GIF设计。
 * ⑦	⑧ 将别人分享的IMG文件更新到Creator Knomi Hi中
 
 ### 应用IMG文件到Creator Knomi Hi
 
 * 下载IMG主题文件
-  * 下载社区中其他用户分享的Creator Knomi Hi 的 `.img` 文件
+    * 下载社区中其他用户分享的Creator Knomi Hi 的 `.img` 文件
 * 进入Creator Knomi Hi的Web UI，① `设置` -> ② `选择.img文件`，然后选择刚才下载的 `.img` 文件，等待更新完成后，Creator Knomi Hi 会自动应用并显示新的IMG文件。<br/>
   <img src=img/Creator_Knomi_Hi/zh/img_web_upload.jpg width="300"/>
 
@@ -323,17 +323,17 @@
 
 * 访问Web UI配置界面。
   > <font size="2">如果Creator Knomi Hi已经连接到Wi-Fi中了，可以将设备连接到此Wi-Fi相同的局域网下直接通过IP访问Web UI更新固件。也可以将设备连接到Creator Knomi Hi的AP热点上访问WebUI更新固件。这两种途径任选其一即可</font>
-  * 连接到Creator Knomi Hi所在Wi-Fi的局域网下
-    * 将设备连接到Creator Knomi Hi所在Wi-Fi的局域网下（Wi-Fi、以太网均可）
-    * 在设备的浏览器中输入Creator Knomi Hi的IP或者主机名，主机名出厂默认为：`http://CreatorKnomiHi.local`，如果设备开了VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用IP访问Web UI配置界面。
-  * 连接Creator Knomi Hi的AP热点更新
-    * 将设备连接到Creator Knomi Hi的AP热点。以iPhone为例：
-        * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
-        * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
-          <img src=img/Creator_Knomi_Hi/wlan.png width="300"/> <br/>
-        * 轻点名称以 `Creator_Knomi_Hi_` 开头的无线局域网，输入默认密码：`987654321`。
-        * 连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
-    * 连接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入Web UI配置界面。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) 访问Web UI配置界面。
+    * 连接到Creator Knomi Hi所在Wi-Fi的局域网下
+        * 将设备连接到Creator Knomi Hi所在Wi-Fi的局域网下（Wi-Fi、以太网均可）
+        * 在设备的浏览器中输入Creator Knomi Hi的IP或者主机名，主机名出厂默认为：`http://CreatorKnomiHi.local`，如果设备开了VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用IP访问Web UI配置界面。
+    * 连接Creator Knomi Hi的AP热点更新
+        * 将设备连接到Creator Knomi Hi的AP热点。以iPhone为例：
+            * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
+            * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
+            <img src=img/Creator_Knomi_Hi/wlan.png width="300"/> <br/>
+            * 轻点名称以 `Creator_Knomi_Hi_` 开头的无线局域网，输入默认密码：`987654321`。
+            * 连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
+        * 连接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入Web UI配置界面。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) 访问Web UI配置界面。
 * 在Web UI配置界面中，进入 ① `设置` 界面, 点击 ② `选择 .bin 文件`, 然后选择要更新的固件, 更新完成后设备会自动重启。<br/>
   <img src=img/Creator_Knomi_Hi/zh/firmware.jpg width="300"/>
 
@@ -351,14 +351,14 @@
   <img src=img/Creator_Knomi_Hi/open_esp_tool.png width="400"/>
 * 烧录软件的配置如下图<br/>
   <img src=img/Creator_Knomi_Hi/set_esp_tool.png width="400"/>
-  * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
-    * `creator_knomi_hi_bootloader.bin` 写入到 `0x1000`
-    * `creator_knomi_hi_partitions.bin` 写入到 `0x8000`
-    * `creator_knomi_hi_ota_data.bin` 写入到 `0xe000`
-    * `creator_knomi_hi_01.00.00.00.bin` 写入到 `0x10000`
-    * `creator_knomi_hi_01.00.00.00.img` 写入到 `0x910000`
-  * ②	设置COM端口为 Creator Knomi Hi 实际的端口（可在电脑的`设备管理器`->`端口`中查看）, 并且设置一个合适的波特率, 我们推荐使用 `460800`
-  * ③	点击 `START` 开始烧录，等待烧录完成, 断电重启即可。
+    * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
+        * `creator_knomi_hi_bootloader.bin` 写入到 `0x1000`
+        * `creator_knomi_hi_partitions.bin` 写入到 `0x8000`
+        * `creator_knomi_hi_ota_data.bin` 写入到 `0xe000`
+        * `creator_knomi_hi_01.00.00.00.bin` 写入到 `0x10000`
+        * `creator_knomi_hi_01.00.00.00.img` 写入到 `0x910000`
+    * ②	设置COM端口为 Creator Knomi Hi 实际的端口（可在电脑的`设备管理器`->`端口`中查看）, 并且设置一个合适的波特率, 我们推荐使用 `460800`
+    * ③	点击 `START` 开始烧录，等待烧录完成, 断电重启即可。
 
 
 ### 固件历史记录 <a id="firmware_history"></a>
