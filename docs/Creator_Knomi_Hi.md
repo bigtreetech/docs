@@ -347,10 +347,8 @@ Want a new feature added in the next firmware release? Submit a request on Creat
     * After connecting, you should see a message like `Connected (Login Required)`. Tap this message to launch the Web UI configuration page.<br/>
 If the page doesn't open automatically, wait about 10–20 seconds.<br/>
 If it still doesn’t appear, open Safari and manually enter: [192.168.254.1](http://192.168.254.1)
-* In Web UI: Go to ① `Settings`-> ② Tap `Select .bin file`, then select the firmware file, after uploading, Creator Knomi Hi will reboot automatically
-
-<br/>
-  <img src=img/Creator_Knomi_Hi/firmware.jpg width="300"/>
+* In Web UI: Go to ① `Settings`-> ② Tap `Select .bin file`, then select the firmware file, after uploading, Creator Knomi Hi will reboot automatically<br/>
+  <img src=img/Creator_Knomi_Hi/en/firmware.jpg width="300"/>
 
 #### Flash via flash_download_tool (USB Type-C)
 
