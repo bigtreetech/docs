@@ -6383,7 +6383,7 @@ Secure the Creator Knomi Hi Shell with the the previously removed screws.<br/>
 </code></pre></div>
   <img src=img/Creator_Knomi_Hi/printer_2.png width="600"/></li>
 <li>Edit <code>sensorless.cfg</code> <br/>
-At the beginning of each of the following macros: <code>_HOME_X</code>, <code>_HOME_Y</code>, and <code>_HOME_Z</code>, add the this line:
+  At the beginning of each of the following macros: <code>_HOME_X</code>, <code>_HOME_Y</code>, and <code>_HOME_Z</code>, add the this line:
   <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SET_KNOMI_STATUS VALUE=4
 </code></pre></div>
   At the end of each macro, add:
@@ -6392,14 +6392,19 @@ At the beginning of each of the following macros: <code>_HOME_X</code>, <code>_H
   <img src=img/Creator_Knomi_Hi/printer_3.png width="600"/>
   <br/>Note: The screenshot only shows “_HOME_X” but “_HOME_Y” and “_HOME_Z” should be updated the same way.<br/>
   <br/></li>
-<li>Edit <code>gcode_macro.cfg</code>: In the <code>QUIT_MATERIAL</code> macro, add the following in the shown location:
+<li>
+<p>Edit <code>gcode_macro.cfg</code>: In the <code>QUIT_MATERIAL</code> macro, add the following in the shown location:
   <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>SET_KNOMI_STATUS VALUE=9
-</code></pre></div></li>
-</ul>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>RESET_KNOMI_STATUS
 </code></pre></div>
-  <img src=img/Creator_Knomi_Hi/printer_4.png width="600"/>
-* After making all changes, click <code>SAVE &amp; RESTART</code> to apply your configuration.</p>
+  and
+  <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>RESET_KNOMI_STATUS
+</code></pre></div>
+  <img src=img/Creator_Knomi_Hi/printer_4.png width="600"/></p>
+</li>
+<li>
+<p>After making all changes, click <code>SAVE &amp; RESTART</code> to apply your configuration.</p>
+</li>
+</ul>
 <h2 id="user-interface-overview">User Interface Overview<a class="headerlink" href="#user-interface-overview" title="Permanent link">&para;</a></h2>
 <h3 id="first-time-setup-guide">First-Time Setup Guide<a class="headerlink" href="#first-time-setup-guide" title="Permanent link">&para;</a></h3>
 <h4 id="accessing-the-web-ui-configuration-page">Accessing the Web UI Configuration Page<a class="headerlink" href="#accessing-the-web-ui-configuration-page" title="Permanent link">&para;</a></h4>
@@ -6425,11 +6430,7 @@ If your smartphone does not have this capability, alternative options include us
       <img src=img/Creator_Knomi_Hi/wlan.png width="300"/></li>
 <li>Tap on the network name starting with <code>Creator_Knomi_Hi</code> and enter the default password: <code>987654321</code>.</li>
 <li>After successfully connecting to the Creator_Knomi_Hi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.</li>
-<li>
-<ul>
 <li>Once connected, a <code>Login Required</code> message may appear. Tap it to launch the Web UI. If that doesn’t happen, wait 10–20 seconds. If it still doesn’t load, open your browser manually and go to: <a href="http://192.168.254.1">192.168.254.1</a>.</li>
-</ul>
-</li>
 </ul>
 <h4 id="connecting-to-the-same-wi-fi-as-the-printer">Connecting to the Same Wi-Fi as the Printer<a class="headerlink" href="#connecting-to-the-same-wi-fi-as-the-printer" title="Permanent link">&para;</a></h4>
 <ul>
@@ -6622,8 +6623,8 @@ However, to avoid losing connection during this transition, it is recommended to
 <li>③ After configuring the network, ensure that your devices (phone, computer, etc.) are connected to the same local network as Creator Knomi Hi.<br/>
 Access the Web UI by entering the IP address into your browser’s address bar. To avoid forgetting the IP address, consider bookmarking it on your phone’s home screen.</li>
 <li>④ Alternatively, if your devices are on the same network as Creator Knomi Hi, you can access the Web UI using the hostname, which by default is <code>Creator_Knomi_Hi</code> (accessible via  <a href="http://CreatorKnomiHi.local">http://CreatorKnomiHi.local</a>  , hostname is not case-sensitive).
-Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>
-  Setting the Hostname:<br/></li>
+Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.
+  Setting the Hostname:</li>
 <li>The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.</li>
 <li>The hostname must be at least 8 characters long and no more than 32 characters.  (if firmware is <code>v1.0.2</code> or earlier, max is 15 characters to avoid boot failure. To support longer names, update to firmware version V1.0.3 or later.)</li>
 </ul>
