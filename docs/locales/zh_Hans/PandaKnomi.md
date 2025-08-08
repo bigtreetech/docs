@@ -67,7 +67,8 @@
     * 顶部开始扣入Panda Knomi，轻轻按压以固定。<br/>
       > 注意：光固化版本外壳具有易碎特性。安装时，请确保卡位准确，并轻轻卡入，避免错位导致过度用力，以免损坏打印件。
 
-      <img src=img/PandaKnomi/install_9.png height="300"/><img src=img/PandaKnomi/install_10.png height="300"/>
+        <img src=img/PandaKnomi/install_9.png height="300"/><img src=img/PandaKnomi/install_10.png height="300"/>
+
     * 安装完成<br/>
       <img src=img/PandaKnomi/install_11.png width="300"/>
 
@@ -78,7 +79,8 @@
       > * 经实测，A1的AMS端口约可提供24.4W的最大功率消耗，AMS lite最大功耗约为4W。由于Panda Knomi最大功耗仅为0.65W，可直接连接该端口使用，如您使用Panda Branch进行外部功能拓展，请将USB接口供电档位调为2A后，可以将Panda Knomi接入其4-pin接口使用。
       > * Panda Branch需要额外购买。
 
-      <img src=img/PandaKnomi/power_a1.png width="600"/>
+        <img src=img/PandaKnomi/power_a1.png width="600"/>
+
     * X1 系列<br/>
       <img src=img/PandaKnomi/power_x1.png width="600"/>
     * P1 系列<br/>
