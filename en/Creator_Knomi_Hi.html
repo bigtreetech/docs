@@ -6415,31 +6415,25 @@ Secure the Creator Knomi Hi Shell with the the previously removed screws.<br/>
   <img src=img/Creator_Knomi_Hi/ap_qr_code.jpg width="400"/></p>
 <ul>
 <li>Scan the QR code on the Creator Knomi Hi to get the AP name and password.<br/>
-Connect to the AP with the default credentials:<br/>
-Wi-Fi Name: <code>Creator_Knomi_Hi_xxxxxxxxxxxx</code><br/>
-Wi-Fi Password: <code>987654321</code><br/><blockquote>
+  Connect to the AP with the default credentials:<br/>
+  Wi-Fi Name: <code>Creator_Knomi_Hi_xxxxxxxxxxxx</code><br/>
+  Wi-Fi Password: <code>987654321</code><br/><blockquote>
 <p><font size="2">Note: Most modern smartphones are equipped to scan QR codes directly through their camera app. This feature is typically available on devices running iOS 11 or later, and Android 9.0 or later. To ensure optimal QR code scanning performance, please verify that both your device’s operating system and camera app are updated to their latest versions.
   If your smartphone does not have this capability, alternative options include using third-party applications from the application store, like Google Lens. Alternatively, you can manually connect to the  Creator Knomi Hi’s hotspot using the default password <code>987654321</code> to access the Web UI.</font></p>
 </blockquote>
 </li>
-<li>
-<p>If scanning the QR code doesn't work, you can go to the <code>settings</code> menu on the device to connect to the hotspot manually. <br/>
-  Using an iPhone as an example:<br/></p>
-<ul>
+<li>If scanning the QR code doesn't work, you can go to the <code>settings</code> menu on the device to connect to the hotspot manually. <br/>Using an iPhone as an example:<br/><ul>
 <li>On your phone home screen, go to <code>Settings</code> → <code>WLAN</code>.</li>
-<li>
-<p>Turn on <code>WLAN</code>. Your device will automatically search for available networks.
-  <br/>
-<img src=img/Creator_Knomi_Hi/wlan.png width="300"/></p>
-</li>
-<li>
-<p>Tap on the network name starting with <code>Creator_Knomi_Hi</code> and enter the default password: <code>987654321</code>.</p>
-</li>
+<li>Turn on <code>WLAN</code>. Your device will automatically search for available networks.<br/>
+  <img src=img/Creator_Knomi_Hi/wlan.png width="300"/></li>
+<li>Tap on the network name starting with <code>Creator_Knomi_Hi</code> and enter the default password: <code>987654321</code>.</li>
 <li>After successfully connecting to the Creator_Knomi_Hi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.</li>
-<li>Once connected, a <code>Login Required</code> message may appear. Tap it to launch the Web UI. If that doesn’t happen, wait 10–20 seconds. If it still doesn’t load, open your browser manually and go to: <a href="http://192.168.254.1">192.168.254.1</a>.</li>
 </ul>
 </li>
 </ul>
+</li>
+<li>
+<p>Once connected, a <code>Login Required</code> message may appear. Tap it to launch the Web UI. If that doesn’t happen, wait 10–20 seconds. If it still doesn’t load, open your browser manually and go to: <a href="http://192.168.254.1">192.168.254.1</a>.</p>
 </li>
 </ul>
 <h4 id="connecting-to-the-same-wi-fi-as-the-printer">Connecting to the Same Wi-Fi as the Printer<a class="headerlink" href="#connecting-to-the-same-wi-fi-as-the-printer" title="Permanent link">&para;</a></h4>
@@ -6456,7 +6450,7 @@ Select the printer’s connected Wi-Fi network, enter the password, and tap <cod
 <h5 id="auto-scan">Auto Scan<a class="headerlink" href="#auto-scan" title="Permanent link">&para;</a></h5>
 <ul>
 <li>In the Web UI, go to the <code>Printer</code> page, set the scan port (default for Creality Hi is <code>7125</code>) and tap <code>Scan</code>.<br/>
-Scanning may take 50–300 seconds depending on how many devices are on your network. If the desired printer isn’t found after scanning, you can tap <code>Scan</code> again to retry, or manual enter the printer information directly.<br/>
+  Scanning may take 50–300 seconds depending on how many devices are on your network. If the desired printer isn’t found after scanning, you can tap <code>Scan</code> again to retry, or manual enter the printer information directly.<br/>
   <img src=img/Creator_Knomi_Hi/en/printer.jpg width="300"/></li>
 <li>After scanning, select your printer. The IP/Device Name and port will fill in automatically</li>
 <li>Tap <code>Bind</code>. A <code>Binding successful</code> popup will confirm that the Creator Knomi Hi has connected to the printer.<br/>
@@ -6636,13 +6630,14 @@ However, to avoid losing connection during this transition, it is recommended to
 </li>
 <li>③ After configuring the network, ensure that your devices (phone, computer, etc.) are connected to the same local network as Creator Knomi Hi.<br/>
 Access the Web UI by entering the IP address into your browser’s address bar. To avoid forgetting the IP address, consider bookmarking it on your phone’s home screen.</li>
-<li>④ Alternatively, if your devices are on the same network as Creator Knomi Hi, you can access the Web UI using the hostname, which by default is <code>Creator_Knomi_Hi</code> (accessible via  <a href="http://CreatorKnomiHi.local">http://CreatorKnomiHi.local</a>  , hostname is not case-sensitive).
-  Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>Setting the Hostname:<br/><ul>
+<li>
+<p>④ Alternatively, if your devices are on the same network as Creator Knomi Hi, you can access the Web UI using the hostname, which by default is <code>Creator_Knomi_Hi</code> (accessible via  <a href="http://CreatorKnomiHi.local">http://CreatorKnomiHi.local</a>  , hostname is not case-sensitive).<br/>Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>Setting the Hostname:<br/></p>
+<ul>
 <li>The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.</li>
-<li>The hostname must be at least 8 characters long and no more than 32 characters.  (if firmware is <code>v1.0.2</code> or earlier, max is 15 characters to avoid boot failure. To support longer names, update to firmware version V1.0.3 or later.)
-  After choosing a new hostname, tap <code>Set Hostname</code> to update Creator Knomi Hi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping <code>OK</code> in the confirmation popup, or postponed by closing the popup with the <code>x</code> button.<br/>
-  <img src=img/Creator_Knomi_Hi/en/hostname.jpg width="300"/></li>
+<li>The hostname must be at least 8 characters long and no more than 32 characters.  (if firmware is <code>v1.0.2</code> or earlier, max is 15 characters to avoid boot failure. To support longer names, update to firmware version V1.0.3 or later.)</li>
 </ul>
+<p>After choosing a new hostname, tap <code>Set Hostname</code> to update Creator Knomi Hi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping <code>OK</code> in the confirmation popup, or postponed by closing the popup with the <code>x</code> button.<br/>
+<img src=img/Creator_Knomi_Hi/en/hostname.jpg width="300"/></p>
 </li>
 </ul>
 <h3 id="ap-interface">AP Interface<a class="headerlink" href="#ap-interface" title="Permanent link">&para;</a></h3>
