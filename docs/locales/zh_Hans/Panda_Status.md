@@ -1,6 +1,8 @@
 # Panda Status
 
-## 装配说明(以Bambu Lab P1S为例)
+## 装配说明
+
+### Bambu Lab P1S
 
 * 第一步：打印控制板PCB外壳，从 [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) 或者 [Maker world](https://makerworld.com/zh/models/1650182-panda-status-upper-shell#profileId-1744587) 下载打印文件
 
@@ -76,6 +78,52 @@
 
     <img src=img/panda_status/27.png width="600"/>
 
+### Bambu Lab A1
+
+* 第一步：打印控制板PCB外壳，从 [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) 或者 [Maker world](https://makerworld.com/zh/models/1650182-panda-status-upper-shell#profileId-1744587) 下载打印文件
+
+    <img src=img/panda_status/A1_case.png width="600"/>
+
+* 第二步：将控制板安装至打印件内，扣压紧后盖
+
+    <img src=img/panda_status/A1_1.png width="600"/>
+
+    <img src=img/panda_status/A1_2.png width="600"/>
+
+* 第三步：将打印件固定在机器背后（剪盒内配送的较长双面胶作为控制盒背胶使用）
+
+    <img src=img/panda_status/A1_3.png width="600"/>
+
+    <img src=img/panda_status/A1_4.png width="600"/>
+
+    <img src=img/panda_status/A1_5.png width="600"/>
+
+* 第四步：前移热床，分别使用酒精棉与干燥布清理安装面
+
+    <img src=img/panda_status/A1_13.png width="600"/>
+
+* 第五步：插上灯条供电线，撕开双面胶离型膜，将灯条贴在热床正面按压粘合牢固（24小时后粘合效果最佳）
+
+    <img src=img/panda_status/A1_6.png width="600"/>
+
+    <img src=img/panda_status/A1_7.png width="600"/>
+
+    <img src=img/panda_status/A1_8.png width="600"/>
+
+* 第六步：将醋酸胶布撕至合适长度用于热床底部布线（如图所示）
+
+    <img src=img/panda_status/A1_9.png width="600"/>
+
+    <img src=img/panda_status/A1_10.png width="600"/>
+
+    <img src=img/panda_status/A1_11.png width="600"/>
+
+* 第七步:将灯条供电线与控制板供电线插至控制板上
+
+    <img src=img/panda_status/A1_12.png width="600"/>
+
+### 注意事项
+
 * 配件中有备用双面胶，同时双面堆叠可安装至其它位置
 
     <img src=img/panda_status/26.jpg width="600"/>
@@ -103,7 +151,7 @@
 * 访问AP网页
 
     * 连接上AP后，电脑端可以在浏览器输入默认的ip：`192.168.4.1`;手机端会自动弹出Panda_Status的Web Ui,也可以在浏览器输入ip：`192.168.4.1`来访问网页。(注：此ip为出厂默认ip)
-    
+
         电脑端：
 
         <img src=img/panda_status/zh/pc_hello.png width="800"/>
@@ -188,7 +236,7 @@
 
     <img src=img/panda_status/zh/p1_4_5.png width="600"/>
 
-    <img src=gif/panda_status/zh/printer_binding.gif width="300"/>
+    <img src=img/panda_status/zh/printer_binding.gif width="300"/>
 
 ## 用户界面说明
 
@@ -266,7 +314,7 @@
         |-------- 音频：低 -----------|-------- 音频：中 --------- | ----------音频：高 -----------|
         |----------------------------|---------------------------|-------------------------------|
 
-        <img src=gif/panda_status/music.gif width="600"/>
+        <img src=img/panda_status/music.gif width="600"/>
 
     * 模式二：H2D灯条模式
 
@@ -278,31 +326,31 @@
 
         空闲状态，白色呼吸灯(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
 
-        <img src=gif/panda_status/printer_idle.gif width="600"/>
+        <img src=img/panda_status/printer_idle.gif width="600"/>
 
         下载文件状态，黄色极光：
 
-        <img src=gif/panda_status/printer_loading.gif width="600"/>
+        <img src=img/panda_status/printer_loading.gif width="600"/>
 
         打印前准备，黄橙流光：
 
-        <img src=gif/panda_status/printer_wave.gif width="600"/>
+        <img src=img/panda_status/printer_wave.gif width="600"/>
 
         打印中：白色百分比常亮(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
 
-        <img src=gif/panda_status/printer_printing.gif width="600"/>
+        <img src=img/panda_status/printer_printing.gif width="600"/>
 
         打印完成：绿灯常亮30S后切换为空闲状态的灯效(默认为白色呼吸灯)
 
-        <img src=gif/panda_status/printer_complete.gif width="600"/>
+        <img src=img/panda_status/printer_complete.gif width="600"/>
 
         打印暂停：白色百分比呼吸灯：
 
-        <img src=gif/panda_status/printer_pause.gif width="600"/>
+        <img src=img/panda_status/printer_pause.gif width="600"/>
 
         打印报错：红灯闪烁(可自定义当前状态颜色[如何设置颜色](#rgb_set_color))：
 
-        <img src=gif/panda_status/printer_error.gif width="600"/>
+        <img src=img/panda_status/printer_error.gif width="600"/>
 
 
 <a id="rgb_set_color"></a>

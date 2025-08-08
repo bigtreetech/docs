@@ -1,8 +1,10 @@
 # Panda Status
 
-## Assembly Manual (Using the Bambu Lab P1S as an Example)
+## Assembly Manual
 
-* Step 1: Print the control board PCB casing. Print file download from [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) or [Maker world](https://makerworld.com/zh/models/1650182-panda-status-upper-shell#profileId-1744587)
+### Bambu Lab P1S
+
+* Step 1: Print the control board PCB casing. Print file download from [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) or [Maker world](https://makerworld.com/en/models/1650182-panda-status-upper-shell#profileId-1744587)
 
     <img src=img/panda_status/case.png width="600"/>
 
@@ -75,6 +77,52 @@
 * Step 10: Route the cables beneath the heated bed (as shown in the image).
 
     <img src=img/panda_status/27.png width="600"/>
+
+### Bambu Lab A1
+
+* Step 1: Print the controller casing. Print file download from [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) or [Maker world](https://makerworld.com/en/models/1650182-panda-status-upper-shell#profileId-1744587)
+
+    <img src=img/panda_status/A1_case.png width="600"/>
+
+* Step 2: Install the controller board into the printed casing and securely snap the back cover into place.
+
+    <img src=img/panda_status/A1_1.png width="600"/>
+
+    <img src=img/panda_status/A1_2.png width="600"/>
+
+* Step 3: Mount the printed casing to the back of the printer (use the longer strip of double‑sided tape included in the kit as the backing adhesive for the casing).
+
+    <img src=img/panda_status/A1_3.png width="600"/>
+
+    <img src=img/panda_status/A1_4.png width="600"/>
+
+    <img src=img/panda_status/A1_5.png width="600"/>
+
+* Step 4: Move the heated bed toward the back of the printer (from the printer's perspective) and clean the mounting surface with an alcohol wipe, then a dry cloth.
+
+    <img src=img/panda_status/A1_13.png width="600"/>
+
+* Step 5: Plug in the Panda Status power cable. Peel off the protective film from the double-sided tape and press the Panda Status firmly onto the front of the heated bed. <br> Full bond strength is achieved after 24 hours.
+
+    <img src=img/panda_status/A1_6.png width="600"/>
+
+    <img src=img/panda_status/A1_7.png width="600"/>
+
+    <img src=img/panda_status/A1_8.png width="600"/>
+
+* Step 6: Cut acetate tape to the appropriate length and use it to route and secure the cables along the underside of the heated bed (as shown).
+
+    <img src=img/panda_status/A1_9.png width="600"/>
+
+    <img src=img/panda_status/A1_10.png width="600"/>
+
+    <img src=img/panda_status/A1_11.png width="600"/>
+
+* Step 7: Connect the Panda Status power cable and the controller power cable to the controller board.
+
+    <img src=img/panda_status/A1_12.png width="600"/>
+
+### Note
 
 * The accessories include spare double-sided tape, which can be stacked to install the Panda Status in other positions.
 
@@ -183,7 +231,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     <img src=img/panda_status/en/p1_4_5.png width="600"/>
 
-    <img src=gif/panda_status/en/printer_binding.gif width="300"/>
+    <img src=img/panda_status/en/printer_binding.gif width="300"/>
 
 ## Webpage Usage Guide
 
@@ -265,7 +313,7 @@ When you power up for the first time or restore factory settings, you'll see a b
         |-------- Low Audio --------|---- Medium Audio ---- | ---------High Audio --------|
         |---------------------------|-----------------------|-----------------------------|
 
-        <img src=gif/panda_status/music.gif width="600"/>
+        <img src=img/panda_status/music.gif width="600"/>
 
     * Mode 2: H2D Style
 
@@ -277,31 +325,31 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         Idle State: White breathing light (customizable color settings for this state: [How to set the color](#rgb_set_color))
 
-        <img src=gif/panda_status/printer_idle.gif width="600"/>
+        <img src=img/panda_status/printer_idle.gif width="600"/>
 
         Downloading Files: Yellow flow.
 
-        <img src=gif/panda_status/printer_loading.gif width="600"/>
+        <img src=img/panda_status/printer_loading.gif width="600"/>
 
         Pre-print Preparation: Yellow-orange flowing light.
 
-        <img src=gif/panda_status/printer_wave.gif width="600"/>
+        <img src=img/panda_status/printer_wave.gif width="600"/>
 
         Printing: White solid light that fills proportionally based on the printing percentage (customizable color settings for this state: [How to set the color](#rgb_set_color))
 
-        <img src=gif/panda_status/printer_printing.gif width="600"/>
+        <img src=img/panda_status/printer_printing.gif width="600"/>
 
         Print Completed: Green light stays on for 30 seconds before switching to the idle state light effect (default is white breathing light).
 
-        <img src=gif/panda_status/printer_complete.gif width="600"/>
+        <img src=img/panda_status/printer_complete.gif width="600"/>
 
         Print Paused: White breathing light.
 
-        <img src=gif/panda_status/printer_pause.gif width="600"/>
+        <img src=img/panda_status/printer_pause.gif width="600"/>
 
         Print Error: Red flashing light (customizable color settings for this state: [How to set the color](#rgb_set_color))
 
-        <img src=gif/panda_status/printer_error.gif width="600"/>
+        <img src=img/panda_status/printer_error.gif width="600"/>
 
 
 <a id="rgb_set_color"></a>
