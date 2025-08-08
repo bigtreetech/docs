@@ -148,18 +148,18 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 - Start by connecting to the Panda Knomi hotspot. After booting for the first time or a factory reset, you'll see the screen below.<br/>
   <img src=img/PandaKnomi/en_ap_qr_code.jpg width="400"/>
 
-  - You can either scan the QR code to connect to the hotspot directly or perform a WiFi scan on your device and connect manually using the credentials below.
-    Default credentials:<br/>
-    Wi-Fi SSID: `Panda_Knomi_xxxxxxxxxxxx`<br/>
-    Wi-Fi Password: `987654321`<br/>
-    > <font size="2">Note: Most modern smartphones are equipped to scan QR codes directly through their camera app. This feature is typically available on devices running iOS 11 or later, and Android 9.0 or later. If you are using an iPhone then you may need to hold the phone a little away from the screen and pinch to zoom in for the phone to recognise the QR code.</font>
-  - If scanning the QR code doesn't work, you can go to the `settings` menu on the device to connect to the hotspot manually.<br/>
-    Using an iPhone as an example:<br/>
-    - On your phone home screen, go to `Settings` → `WLAN`.
-    - Turn on `WLAN`. Your device will automatically search for available networks.<br/>
-      <img src=img/PandaKnomi/en_wlan.jpg width="300"/><br/>
-    - Tap on the network name starting with `Panda_Knomi_` and enter the default password: `987654321`.
-    - After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
+    - You can either scan the QR code to connect to the hotspot directly or perform a WiFi scan on your device and connect manually using the credentials below.
+      Default credentials:<br/>
+      Wi-Fi SSID: `Panda_Knomi_xxxxxxxxxxxx`<br/>
+      Wi-Fi Password: `987654321`<br/>
+      > <font size="2">Note: Most modern smartphones are equipped to scan QR codes directly through their camera app. This feature is typically available on devices running iOS 11 or later, and Android 9.0 or later. If you are using an iPhone then you may need to hold the phone a little away from the screen and pinch to zoom in for the phone to recognise the QR code.</font>
+    - If scanning the QR code doesn't work, you can go to the `settings` menu on the device to connect to the hotspot manually.<br/>
+      Using an iPhone as an example:<br/>
+        - On your phone home screen, go to `Settings` → `WLAN`.
+        - Turn on `WLAN`. Your device will automatically search for available networks.<br/>
+        <img src=img/PandaKnomi/en_wlan.jpg width="300"/><br/>
+        - Tap on the network name starting with `Panda_Knomi_` and enter the default password: `987654321`.
+        - After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
 
 - After connecting to the Panda Knomi hotspot, the webUI should automatically appear once you close the camera app on an iPhone or on Android there should be a prompt of `Connected (Login/Authentication required)` which you should click to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds for this to appear. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.254.1](http://192.168.254.1) for firmware versions `V1.0.4.1` and later (and use [192.168.4.1](http://192.168.4.1) for previous versions) in the browser to access the Web UI configuration interface.
 
@@ -181,21 +181,21 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 - In the `Printer` interface, tap `Scan` to scan for printers on the same local network. A full scan takes about 30 seconds. Each additional Bambu printer adds up to 20 seconds to the scan time. Panda Knomi supports up to 20 printers per scan. If the number of printers in your LAN exceeds 20, it may not be able to scan all printers. If the scan fails to identify the printer you want to connect, you can click the `Scan` button to scan again, or [manually input](#manual-input) all the information to bind the printer.<br/>
   <img src=img/PandaKnomi/en_printer.png width="300"/>
 - After scanning, select the printer you wish to connect to. After selecting a printer, the `SN Code` and `IP` will be automatically filled in, but you will need to manually enter the `Access Code`.
-  - For A1 Series
-    - ① `Setting`<br/>
-      <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
-    - ② -> ③ `LAN Only Mode`<br/>
-      <img src=img/PandaKnomi/en_a1_2_3.jpg width="300"/>
-    - ④ `Access Code`<br/>
-      <img src=img/PandaKnomi/en_a1_4_5.jpg width="300"/>
-  - For P1 Series
-    - ① `Setting`-> ② `WLAN` -> ③ `OK`<br/>
-      <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
-    - ⑤ `Access Code`<br/>
-      <img src=img/PandaKnomi/p1_4_5.png width="600"/>
-  - For X1 Series<br/>
-    - ① `Setting` -> ② `General` -> ③ `Access Code`<br/>
-      <img src=img/PandaKnomi/en_x1_1_2_3_4.jpg width="600"/>
+    - For A1 Series
+        - ① `Setting`<br/>
+            <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
+        - ② -> ③ `LAN Only Mode`<br/>
+            <img src=img/PandaKnomi/en_a1_2_3.jpg width="300"/>
+        - ④ `Access Code`<br/>
+            <img src=img/PandaKnomi/en_a1_4_5.jpg width="300"/>
+    - For P1 Series
+        - ① `Setting`-> ② `WLAN` -> ③ `OK`<br/>
+            <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
+        - ⑤ `Access Code`<br/>
+            <img src=img/PandaKnomi/p1_4_5.png width="600"/>
+    - For X1 Series<br/>
+        - ① `Setting` -> ② `General` -> ③ `Access Code`<br/>
+            <img src=img/PandaKnomi/en_x1_1_2_3_4.jpg width="600"/>
 - Tap `Bind`. A `Binding successful` popup will confirm that the Panda Knomi has connected to the printer.<br/>
   <img src=img/PandaKnomi/en_bind_ok.png width="300"/>
 
@@ -207,39 +207,39 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 > - If you don't have many Bambu Lab printers in your LAN, but still can't scan the printer, we can also try to `Manually Input` all the information required to bind the printer. If Panda Knomi cannot connect to the printer, it may be that some security features of your router prohibit devices in the LAN from communicating with each other. This is typical for guest networks on routers where device to device communication is restricted. If you are using a guest network then please enable device to device communication on the router or move to a non-guest network. If these suggestions fail then please contact customer service `support01@bigtree-tech.com` to assist you with further investigation.
 
 - Find the `Printer SN`, `Access Code` and `IP` on the printer, and enter them into the corresponding input fields on the Web UI.
-  - For A1 Series
-    - `Printer SN`
-      - ① `Setting`<br/>
-        <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
-      - ② `Device`<br/>
-        <img src=img/PandaKnomi/en_a1_2.jpg width="300"/>
-      - ③ `Printer SN`<br/>
-        <img src=img/PandaKnomi/en_a1_3.jpg width="300"/>
-    - `Access Code` and `IP`
-      - ① `Setting`<br/>
-        <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
-      - ② -> ③ `LAN Only Mode`<br/>
-        <img src=img/PandaKnomi/en_a1_2_3.jpg width="300"/>
-      - ④ `Access Code`, ⑤ `IP`<br/>
-        <img src=img/PandaKnomi/en_a1_4_5.jpg width="300"/>
-  - For P1 Series
-    - `Printer SN`
-      - ① `Setting` -> ② `Device`<br/>
-        <img src=img/PandaKnomi/p1_1_2.png width="600"/>
-      - ③ `Printer` is the `Printer SN`<br/>
-        <img src=img/PandaKnomi/p1_3.png width="600"/>
-    - `Access Code` and `IP`
-      - ① `Setting`-> ② `WLAN` -> ③<br/>
-        <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
-      - ④ `IP`, ⑤ `Access Code`<br/>
-        <img src=img/PandaKnomi/p1_4_5.png width="600"/>
-  - For X1 Series
-    - `Printer SN` 和 `Access Code`
-      - ① `Setting` -> ② `General` -> ③ `Access Code`, ④ `Device info` is the `Printer SN`<br/>
-        <img src=img/PandaKnomi/en_x1_1_2_3_4.jpg width="600"/>
-    - `IP`
-      - ① `Setting`-> ② `Network` -> ③ `IP`<br/>
-        <img src=img/PandaKnomi/en_x1_1_2_3.jpg width="600"/>
+    - For A1 Series
+        - `Printer SN`
+        - ① `Setting`<br/>
+            <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
+        - ② `Device`<br/>
+            <img src=img/PandaKnomi/en_a1_2.jpg width="300"/>
+        - ③ `Printer SN`<br/>
+            <img src=img/PandaKnomi/en_a1_3.jpg width="300"/>
+        - `Access Code` and `IP`
+        - ① `Setting`<br/>
+            <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
+        - ② -> ③ `LAN Only Mode`<br/>
+            <img src=img/PandaKnomi/en_a1_2_3.jpg width="300"/>
+        - ④ `Access Code`, ⑤ `IP`<br/>
+            <img src=img/PandaKnomi/en_a1_4_5.jpg width="300"/>
+    - For P1 Series
+        - `Printer SN`
+        - ① `Setting` -> ② `Device`<br/>
+            <img src=img/PandaKnomi/p1_1_2.png width="600"/>
+        - ③ `Printer` is the `Printer SN`<br/>
+            <img src=img/PandaKnomi/p1_3.png width="600"/>
+        - `Access Code` and `IP`
+        - ① `Setting`-> ② `WLAN` -> ③<br/>
+            <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
+        - ④ `IP`, ⑤ `Access Code`<br/>
+            <img src=img/PandaKnomi/p1_4_5.png width="600"/>
+    - For X1 Series
+        - `Printer SN` 和 `Access Code`
+        - ① `Setting` -> ② `General` -> ③ `Access Code`, ④ `Device info` is the `Printer SN`<br/>
+            <img src=img/PandaKnomi/en_x1_1_2_3_4.jpg width="600"/>
+        - `IP`
+        - ① `Setting`-> ② `Network` -> ③ `IP`<br/>
+            <img src=img/PandaKnomi/en_x1_1_2_3.jpg width="600"/>
 - Tap `Bind`. A `Binding successful` popup will confirm that the Panda Knomi has connected to the printer.<br/>
   <img src=img/PandaKnomi/en_bind_ok.png width="300"/>
 
@@ -256,14 +256,12 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
   > <font size="2">Note: When the Panda Knomi switches to a different Wi-Fi network, it will connect to a new local network and IP address. If your device is connected to the same Wi-Fi network as Panda Knomi at the time of this change, you will lose the ability to communicate with it. To reconnect, you'll need to join the new Wi-Fi network to which Panda Knomi has connected. However, to avoid losing connection during this transition, it is recommended to connect your device to the Panda Knomi's hotspot before initiating any changes to the Wi-Fi settings. This way, you can manage the network settings without disrupting your connection to the device.</font>
 - ③ After configuring the network you'll see the IP address that the Panda Knomi has been assigned on the network appear here. Make a note of this IP address because it is one of the methods you can use to access the web UI again in the future. To access the web UI using the IP address, type http://IPAddress into your browser, substituting the string "IPAddress" for the address listed in this field.
 - ④ Alternatively, if your devices are on the same network as Panda Knomi, you can access the web UI using the hostname, which by default is `PandaKnomi` (accessible via [http://pandaknomi.local](http://pandaknomi.local) , hostname is not case-sensitive). <br/>
-  Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>
-  Setting the Hostname:<br/>
+  Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>Setting the Hostname:<br/>
+    - The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.
+    - The hostname must be at least 8 characters long and no more than 32 characters.(On firmware version `V1.0.2` and earlier, please do not exceed 15 characters, otherwise the device will not start and needs to be updated to firmware version `V1.0.3` or later)
 
-  - The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.
-  - The hostname must be at least 8 characters long and no more than 32 characters.(On firmware version `V1.0.2` and earlier, please do not exceed 15 characters, otherwise the device will not start and needs to be updated to firmware version `V1.0.3` or later)
-
-  After choosing a new hostname, tap `Set Hostname` to update Panda Knomi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping `OK` in the confirmation popup, or postponed by closing the popup with the `x` button. After changing the hostname, you will need to make sure that you use that new hostname to access the web UI.<br/>
-  <img src=img/PandaKnomi/en_hostname.png width="300"/>
+    After choosing a new hostname, tap `Set Hostname` to update Panda Knomi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping `OK` in the confirmation popup, or postponed by closing the popup with the `x` button. After changing the hostname, you will need to make sure that you use that new hostname to access the web UI.<br/>
+    <img src=img/PandaKnomi/en_hostname.png width="300"/>
 
 ### AP Interface
 
@@ -314,17 +312,17 @@ The next UI page is the Panda Knomi access point configuration page. The Panda K
 - The screen saver GIF is as follows:<br/>
   <img src=img/PandaKnomi/gif/screen_saver.gif />
 - The screen saver is active on the following interfaces:
-  - Invalid IMG interface
-  - Hello screen after first power on
-  - Wi-Fi scan completion
-  - Wi-Fi connection failure
-  - Wi-Fi password error
-  - Binding printer interface
-  - Printer scan completion
-  - Printer SN error
-  - Printer Access Code error
-  - One printer HMS QR code interface
-  - Multiple printer HMS error interface
+    - Invalid IMG interface
+    - Hello screen after first power on
+    - Wi-Fi scan completion
+    - Wi-Fi connection failure
+    - Wi-Fi password error
+    - Binding printer interface
+    - Printer scan completion
+    - Printer SN error
+    - Printer Access Code error
+    - One printer HMS QR code interface
+    - Multiple printer HMS error interface
 
 ### Theme Settings
 
@@ -336,47 +334,46 @@ The next UI page is the Panda Knomi access point configuration page. The Panda K
 
 - ① Go to the `Theme` interface.
 - ② Choose how to display printing progress:
-  - `Only percentage`: Displays real-time printing progress as a percentage.
-  - `Only GIF`: Displays a GIF representing the printing process.
-  - `Alternating percentage and GIF`: Alternates between showing the percentage and GIF every 10 seconds.
+    - `Only percentage`: Displays real-time printing progress as a percentage.
+    - `Only GIF`: Displays a GIF representing the printing process.
+    - `Alternating percentage and GIF`: Alternates between showing the percentage and GIF every 10 seconds.
 - ③ Set GIF Colors<br/>
-  <img src=img/PandaKnomi/en_picker.jpg width="300"/>
-  - a) Tap to open the color setting interface for the GIF.
-  - b) Use the HSL Color Picker.（[What is HSL?](https://en.wikipedia.org/wiki/HSL_and_HSV)）
-  - c) H (Hue) ranges from 0° to 360°.
-  - d) S (Saturation) ranges from 0% to 100%.
-  - e) L (Lightness) ranges from 0% to 100%.
-  - f) A (Alpha/Opacity) ranges from 0.00 to 1.00.
-  - g) The corresponding RGBA Hexadecimal Value: Each color value ranges from 0 to 255 (0x00 to 0xFF). You can modify these values to get the desired color. For example, #FFFFFFFF means:
-    - R (Red)：0xFF (255/255)
-    - G (Green)：0xFF (255/255)
-    - B (Blue)：0xFF (255/255)
-    - A (Alpha)：0xFF (1.00/1.00)
-  - h) The corresponding HSLA Values, You can modify these values to get the desired color.
-    - H (Hue)：0°
-    - S (Saturation)：0%
-    - L (Lightness)：100%
-    - A (Alpha)：1.00
-  - i) Tap to reset to the original GIF color.
-  - j) Preview the color in the preview area.
+    <img src=img/PandaKnomi/en_picker.jpg width="300"/>
+    - a) Tap to open the color setting interface for the GIF.
+    - b) Use the HSL Color Picker.（[What is HSL?](https://en.wikipedia.org/wiki/HSL_and_HSV)）
+    - c) H (Hue) ranges from 0° to 360°.
+    - d) S (Saturation) ranges from 0% to 100%.
+    - e) L (Lightness) ranges from 0% to 100%.
+    - f) A (Alpha/Opacity) ranges from 0.00 to 1.00.
+    - g) The corresponding RGBA Hexadecimal Value: Each color value ranges from 0 to 255 (0x00 to 0xFF). You can modify these values to get the desired color. For example, #FFFFFFFF means:
+        - R (Red)：0xFF (255/255)
+        - G (Green)：0xFF (255/255)
+        - B (Blue)：0xFF (255/255)
+        - A (Alpha)：0xFF (1.00/1.00)
+    - h) The corresponding HSLA Values, You can modify these values to get the desired color.
+        - H (Hue)：0°
+        - S (Saturation)：0%
+        - L (Lightness)：100%
+        - A (Alpha)：1.00
+    - i) Tap to reset to the original GIF color.
+    - j) Preview the color in the preview area.
 - ④ View GIF Storage Usage
   Due to Panda Knomi’s hardware limitations, the total size of all GIFs cannot exceed 3MB (3072KB). If this limit is exceeded, the Web UI will block the update and display a pop-up reminder.
 - ⑤ Set Each GIF Individually (including color and custom GIF images)<br/>
   Turn `Preview Mode` on/off to show/hide the `Preview` button.<br/>
   Tapping `Preview this GIF` enters preview mode, allowing you to view the custom GIF on the screen. To exit preview mode, turn off `Preview Mode` or navigate away from the `Theme` interface.<br/>
   Custom GIF Notes:<br/>
-  - Panda Knomi uses a `240 x 240` pixel screen resolution. GIFs larger than this resolution won’t display fully, so only GIFs of this size or smaller are allowed.
-    [Resize larger GIFs](https://www.iloveimg.com/resize-image/resize-gif):
-    - Tap `Select images` button to select GIF, or Drag and drop the GIF into the browser window.
-    - Make sure that the `Maintain aspect ratio` box is ticked. Avoid changing the aspect ratio to cause inconsistent image effects
-    - Change the larger of the `Width (px):` or `Height (px):` to 240. If both are the same then you can change either of them.
-    - Tap `Resize IMAGES`
-    - Tap `Download resized IMAGES` to download the resized GIF.
-  - If using the UI color changing feature, the GIF must have a transparent background (usually black is used for transparency if activated within a GIF). Without transparency, color changes will affect the entire image. Note that almost all GIFs you can find online will not be transparent. BIGTREETECH specifically designed our GIFs to have a transparent background and you can too if you are familiar with how GIFs work.
-  - Due to the nature of how GIFs update the display between frames, the last frame of a transparent GIF must match the first frame otherwise there will be residual pixels during the loop. This is only relevant if you are crafting your own, custom, transparent GIFs.
-  - The size of a single GIF cannot exceed 1.5MB (1536KB, 1MB=1024KB), and the total size of all GIFs cannot exceed 3MB (3072KB, 1MB=1024KB).
-  - The new GIF size must not exceed the sum of the replaced GIF size and remaining capacity. Otherwise, the Web UI will reject the replacement. You can check the available capacity in ④ and the size of each GIF in ⑤. <br/>
-    For example, to replace “Standby.gif,” if the factory GIF size is 63.61KB and the remaining capacity is 407.75KB, the new GIF size cannot exceed 63.61KB + 407.75KB = 471.36KB.
+    - Panda Knomi uses a `240 x 240` pixel screen resolution. GIFs larger than this resolution won’t display fully, so only GIFs of this size or smaller are allowed.
+        [Resize larger GIFs](https://www.iloveimg.com/resize-image/resize-gif):
+        - Tap `Select images` button to select GIF, or Drag and drop the GIF into the browser window.
+        - Make sure that the `Maintain aspect ratio` box is ticked. Avoid changing the aspect ratio to cause inconsistent image effects
+        - Change the larger of the `Width (px):` or `Height (px):` to 240. If both are the same then you can change either of them.
+        - Tap `Resize IMAGES`
+        - Tap `Download resized IMAGES` to download the resized GIF.
+    - If using the UI color changing feature, the GIF must have a transparent background (usually black is used for transparency if activated within a GIF). Without transparency, color changes will affect the entire image. Note that almost all GIFs you can find online will not be transparent. BIGTREETECH specifically designed our GIFs to have a transparent background and you can too if you are familiar with how GIFs work.
+    - Due to the nature of how GIFs update the display between frames, the last frame of a transparent GIF must match the first frame otherwise there will be residual pixels during the loop. This is only relevant if you are crafting your own, custom, transparent GIFs.
+    - The size of a single GIF cannot exceed 1.5MB (1536KB, 1MB=1024KB), and the total size of all GIFs cannot exceed 3MB (3072KB, 1MB=1024KB).
+    - The new GIF size must not exceed the sum of the replaced GIF size and remaining capacity. Otherwise, the Web UI will reject the replacement. You can check the available capacity in ④ and the size of each GIF in ⑤. <br/>For example:<br/>&ensp;&nbsp;to replace “Standby.gif,” if the factory GIF size is 63.61KB and the remaining capacity is 407.75KB, the new GIF size cannot exceed 63.61KB + 407.75KB = 471.36KB.
 - ⑥ Download and Export Custom GIF as IMG File, Conveniently backup or share your custom GIF designs.
   > <font size="2">Note: As of firmware V1.0.2 the IMG does not include custom color data information, only GIF image data. Custom color data will be included in V1.0.3.</font>
 - ⑦ ⑧ Install Others’ Shared IMG Files to your Panda Knomi.
@@ -386,13 +383,13 @@ The next UI page is the Panda Knomi access point configuration page. The Panda K
 > <font size="2">Note: As of firmware V1.0.2 the IMG does not include custom color data information, only GIF image data. Custom color data will be included in V1.0.3.</font>
 
 - Download IMG Theme file
-  - Download Panda Knomi `.img` files shared by other users in the community.
-  - Download from the Github of Panda Knomi.
-    - Visit [Panda Knomi’s GitHub repository](https://github.com/bigtreetech/PandaKnomi)
-    - Go to the IMG Folder, select the IMG theme.<br/>
-      <img src=img/PandaKnomi/img_github_path.png width="800"/>
-    - Click Download to save it locally.<br/>
-      <img src=img/PandaKnomi/img_github_download.png width="800"/>
+    - Download Panda Knomi `.img` files shared by other users in the community.
+    - Download from the Github of Panda Knomi.
+        - Visit [Panda Knomi’s GitHub repository](https://github.com/bigtreetech/PandaKnomi)
+        - Go to the IMG Folder, select the IMG theme.<br/>
+        <img src=img/PandaKnomi/img_github_path.png width="800"/>
+        - Click Download to save it locally.<br/>
+        <img src=img/PandaKnomi/img_github_download.png width="800"/>
 - Then, enter Panda Knomi's Web UI: ① Go to "Settings" → ② Select the .img file you just downloaded.
   Once the update is complete, Panda Knomi will automatically apply the new IMG file.<br/>
   <img src=img/PandaKnomi/en_img_web_upload.jpg width="300"/>
@@ -405,33 +402,33 @@ The next UI page is the Panda Knomi access point configuration page. The Panda K
   <img src=img/PandaKnomi/en_img_web_download.jpg width="300"/>
 - Rename it using the following format: `panda_knomi_diy_<theme_name>_<author_name>_YYYY_MM_DD.img`
 
-  - `<theme_name>`: Choose a theme name for the IMG
-  - `<author_name>`: Author’s nickname or name
-  - `YYYY_MM_DD`: Date of the IMG file (Year_Month_Day)
+    - `<theme_name>`: Choose a theme name for the IMG
+    - `<author_name>`: Author’s nickname or name
+    - `YYYY_MM_DD`: Date of the IMG file (Year_Month_Day)
 
-  Example: panda_knomi_diy_theme_author_2025_02_22.img。
+    Example: panda_knomi_diy_theme_author_2025_02_22.img。
 
 - Share IMG theme to GitHub
-  - If you don’t have a GitHub account, please [create](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) one.
-  - Visit [Panda Knomi’s GitHub repository](https://github.com/bigtreetech/PandaKnomi)
-  - Click ① `Fork`<br/>
-    <img src=img/PandaKnomi/fork_1.png width="800"/>
-  - Click ② `Create fork`<br/>
-    <img src=img/PandaKnomi/fork_2.png width="800"/>
-  - Wait for the `fork` to complete<br/>
-    <img src=img/PandaKnomi/fork_3.png width="800"/>
-  - After forking, go to the IMG Folder<br/>
-    <img src=img/PandaKnomi/img_pri_path.png width="800"/>
-  - Drag and drop the IMG file into the browser window. The `Drop to upload your files` interface will appear.<br/>
-    <img src=img/PandaKnomi/img_drag.png width="800"/><br/>
-    <img src=img/PandaKnomi/img_drop.png width="800"/>
-  - Enter the ① `title`, ② `description`, and ③ `commit changes`.<br/>
-    <img src=img/PandaKnomi/img_pri_commit.png width="800"/>
-  - ① `Contribute` -> ② `Open pull request`<br/>
-    <img src=img/PandaKnomi/img_open_pr.png width="800"/>
-  - Write a ① `title`, ② `description`, check ③ `Allow edits by maintainers`, and ④ `Create pull request`<br/>
-    <img src=img/PandaKnomi/img_create_pr.png width="800"/>
-  - Congratulations! You’ve shared your theme.
+    - If you don’t have a GitHub account, please [create](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) one.
+    - Visit [Panda Knomi’s GitHub repository](https://github.com/bigtreetech/PandaKnomi)
+    - Click ① `Fork`<br/>
+        <img src=img/PandaKnomi/fork_1.png width="800"/>
+    - Click ② `Create fork`<br/>
+        <img src=img/PandaKnomi/fork_2.png width="800"/>
+    - Wait for the `fork` to complete<br/>
+        <img src=img/PandaKnomi/fork_3.png width="800"/>
+    - After forking, go to the IMG Folder<br/>
+        <img src=img/PandaKnomi/img_pri_path.png width="800"/>
+    - Drag and drop the IMG file into the browser window. The `Drop to upload your files` interface will appear.<br/>
+        <img src=img/PandaKnomi/img_drag.png width="800"/><br/>
+        <img src=img/PandaKnomi/img_drop.png width="800"/>
+    - Enter the ① `title`, ② `description`, and ③ `commit changes`.<br/>
+        <img src=img/PandaKnomi/img_pri_commit.png width="800"/>
+    - ① `Contribute` -> ② `Open pull request`<br/>
+        <img src=img/PandaKnomi/img_open_pr.png width="800"/>
+    - Write a ① `title`, ② `description`, check ③ `Allow edits by maintainers`, and ④ `Create pull request`<br/>
+        <img src=img/PandaKnomi/img_create_pr.png width="800"/>
+    - Congratulations! You’ve shared your theme.
 
 ## Factory Reset
 
@@ -463,18 +460,18 @@ If there is something you would like to see in a future release of the Panda Kno
 
 - Access the Web UI
   > <font size="2">If Panda Knomi is already connected to Wi-Fi, you can connect the device to the same LAN as the Wi-Fi and access the Web UI directly via IP to update the firmware. You can also connect the device to the AP hotspot of Panda Knomi to access the Web UI to update the firmware. You can choose either of these two methods.</font>
-  - Connect your device to the same local network as Panda Knomi
-    - Connect your device to the local area network of the Wi-Fi where Panda Knomi is located (Wi-Fi or Ethernet is OK)
-    - Enter Panda Knomi’s IP or hostname into your browser. The default hostname is [http://pandaknomi.local](http://pandaknomi.local).
-  - Connect to Panda Knomi's AP hotspot
-    - Connect your device to Panda Knomi's AP hotspot
-      Using an iPhone as an example:
-      - On your phone home screen, go to `Settings` → `WLAN`.
-      - Turn on `WLAN`. Your device will automatically search for available networks.<br/>
-        <img src=img/PandaKnomi/en_wlan.jpg width="300"/>
-      - Tap on the network name starting with `Panda_Knomi_` and enter the default password: `987654321`.
-      - After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
-    - After connecting to the AP, there should be a prompt of `Connected (Login/Authentication required)`, and click it to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.254.1](http://192.168.254.1) for firmware versions `V1.0.4.1` and later (and use [192.168.4.1](http://192.168.4.1) for previous versions) in the browser to access the Web UI configuration interface.
+    - Connect your device to the same local network as Panda Knomi
+        - Connect your device to the local area network of the Wi-Fi where Panda Knomi is located (Wi-Fi or Ethernet is OK)
+        - Enter Panda Knomi’s IP or hostname into your browser. The default hostname is [http://pandaknomi.local](http://pandaknomi.local).
+    - Connect to Panda Knomi's AP hotspot
+        - Connect your device to Panda Knomi's AP hotspot
+        Using an iPhone as an example:
+        - On your phone home screen, go to `Settings` → `WLAN`.
+        - Turn on `WLAN`. Your device will automatically search for available networks.<br/>
+            <img src=img/PandaKnomi/en_wlan.jpg width="300"/>
+        - Tap on the network name starting with `Panda_Knomi_` and enter the default password: `987654321`.
+        - After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
+        - After connecting to the AP, there should be a prompt of `Connected (Login/Authentication required)`, and click it to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.254.1](http://192.168.254.1) for firmware versions `V1.0.4.1` and later (and use [192.168.4.1](http://192.168.4.1) for previous versions) in the browser to access the Web UI configuration interface.
 - In the configuration interface, go to ① `Settings`, then tap ② `Select .bin file` to choose the firmware to update. The device will restart automatically after the update.<br/>
   <img src=img/PandaKnomi/en_firmware.png width="300"/>
 
@@ -491,14 +488,14 @@ If there is something you would like to see in a future release of the Panda Kno
 - Open `flash_download_tool_3.9.8_6.exe`, and configure as follows:<br/>
   <img src=img/PandaKnomi/open_esp_tool.png width="400"/>
 - As shown in the figure below, configure the flash download tool:<br/>
-  <img src=img/PandaKnomi/set_esp_tool.png width="400"/>
-  - ① Set the.bin file's writing address, ensuring all checkboxes are ticked:
-    - `panda_knomi_bootloader.bin` to `0x1000`
-    - `panda_knomi_partition.bin` to `0x8000`
-    - `panda_knomi_v1.0.0.bin` to `0x10000`
-    - `panda_knomi_v1.0.0.img` to `0x910000`
-  - ② Set the COM port to the Panda Knomi port(We can check it in the computer's `Device Manager` -> `Port`), and choose a baud rate (recommended: 460800).
-  - ③ Click `START` to begin writing. Once done, power off and restart Panda Knomi.
+    <img src=img/PandaKnomi/set_esp_tool.png width="400"/>
+    - ① Set the.bin file's writing address, ensuring all checkboxes are ticked:
+        - `panda_knomi_bootloader.bin` to `0x1000`
+        - `panda_knomi_partition.bin` to `0x8000`
+        - `panda_knomi_v1.0.0.bin` to `0x10000`
+        - `panda_knomi_v1.0.0.img` to `0x910000`
+    - ② Set the COM port to the Panda Knomi port(We can check it in the computer's `Device Manager` -> `Port`), and choose a baud rate (recommended: 460800).
+    - ③ Click `START` to begin writing. Once done, power off and restart Panda Knomi.
 
 ### Firmware History <a id="firmware_history"></a>
 
