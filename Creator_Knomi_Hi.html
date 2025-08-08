@@ -6422,15 +6422,23 @@ Wi-Fi Password: <code>987654321</code><br/><blockquote>
   If your smartphone does not have this capability, alternative options include using third-party applications from the application store, like Google Lens. Alternatively, you can manually connect to the  Creator Knomi Hi’s hotspot using the default password <code>987654321</code> to access the Web UI.</font></p>
 </blockquote>
 </li>
-<li>If scanning the QR code doesn't work, you can go to the <code>settings</code> menu on the device to connect to the hotspot manually. <br/>
-  Using an iPhone as an example:<br/></li>
+<li>
+<p>If scanning the QR code doesn't work, you can go to the <code>settings</code> menu on the device to connect to the hotspot manually. <br/>
+  Using an iPhone as an example:<br/></p>
+<ul>
 <li>On your phone home screen, go to <code>Settings</code> → <code>WLAN</code>.</li>
-<li>Turn on <code>WLAN</code>. Your device will automatically search for available networks.
-<br/>
-  <img src=img/Creator_Knomi_Hi/wlan.png width="300"/></li>
-<li>Tap on the network name starting with <code>Creator_Knomi_Hi</code> and enter the default password: <code>987654321</code>.</li>
+<li>
+<p>Turn on <code>WLAN</code>. Your device will automatically search for available networks.
+  <br/>
+<img src=img/Creator_Knomi_Hi/wlan.png width="300"/></p>
+</li>
+<li>
+<p>Tap on the network name starting with <code>Creator_Knomi_Hi</code> and enter the default password: <code>987654321</code>.</p>
+</li>
 <li>After successfully connecting to the Creator_Knomi_Hi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.</li>
 <li>Once connected, a <code>Login Required</code> message may appear. Tap it to launch the Web UI. If that doesn’t happen, wait 10–20 seconds. If it still doesn’t load, open your browser manually and go to: <a href="http://192.168.254.1">192.168.254.1</a>.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -6629,13 +6637,14 @@ However, to avoid losing connection during this transition, it is recommended to
 <li>③ After configuring the network, ensure that your devices (phone, computer, etc.) are connected to the same local network as Creator Knomi Hi.<br/>
 Access the Web UI by entering the IP address into your browser’s address bar. To avoid forgetting the IP address, consider bookmarking it on your phone’s home screen.</li>
 <li>④ Alternatively, if your devices are on the same network as Creator Knomi Hi, you can access the Web UI using the hostname, which by default is <code>Creator_Knomi_Hi</code> (accessible via  <a href="http://CreatorKnomiHi.local">http://CreatorKnomiHi.local</a>  , hostname is not case-sensitive).
-Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>
-  Setting the Hostname:<br/></li>
+  Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>Setting the Hostname:<br/><ul>
 <li>The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.</li>
-<li>The hostname must be at least 8 characters long and no more than 32 characters.  (if firmware is <code>v1.0.2</code> or earlier, max is 15 characters to avoid boot failure. To support longer names, update to firmware version V1.0.3 or later.)</li>
+<li>The hostname must be at least 8 characters long and no more than 32 characters.  (if firmware is <code>v1.0.2</code> or earlier, max is 15 characters to avoid boot failure. To support longer names, update to firmware version V1.0.3 or later.)
+  After choosing a new hostname, tap <code>Set Hostname</code> to update Creator Knomi Hi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping <code>OK</code> in the confirmation popup, or postponed by closing the popup with the <code>x</code> button.<br/>
+  <img src=img/Creator_Knomi_Hi/en/hostname.jpg width="300"/></li>
 </ul>
-<p>After choosing a new hostname, tap <code>Set Hostname</code> to update Creator Knomi Hi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping <code>OK</code> in the confirmation popup, or postponed by closing the popup with the <code>x</code> button.<br/>
-  <img src=img/Creator_Knomi_Hi/en/hostname.jpg width="300"/></p>
+</li>
+</ul>
 <h3 id="ap-interface">AP Interface<a class="headerlink" href="#ap-interface" title="Permanent link">&para;</a></h3>
 <blockquote>
 <p><font size="2">If your device is connected to the Creator Knomi Hi AP hotspot to access the Web UI, any changes or shutdown of the Creator Knomi Hi AP settings will disconnect the device. To prevent this, it is recommended to connect your device to the same local network as Creator Knomi Hi before making changes.</font></p>
