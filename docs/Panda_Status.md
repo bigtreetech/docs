@@ -1,5 +1,25 @@
 # Panda Status
 
+## Feature Highlights
+
+* Built in microphone, users can DIY to display sound intensity by lighting different lights according to the sound;
+* Reserved fast flashing interface for customers to DIY flash firmware and subsequent firmware upgrades;
+* Support RGB interface, connect WS2812 series light strips;
+* Type-C interface power supply, convenient for customers to use;
+* RGB light strips support customers to DIY their own lighting effects;
+* Onboard ESP32 WIFI module, supporting wireless control.
+
+## Specifications
+
+| MCU | ESP32-C3-MINI|
+| :-----| :----: |
+| Controller PCB Dimensions | 50mm*25mm |
+| Input Power | Type-C：5V 3A |
+| Logic Voltage | 3.3V |
+| RGB Output | PH2.0 3Pin：5V 1.5A(Peak)|
+| Standby | 5V 90mA 0.45W |
+| Working | 5V 540mA 2.73W(Peak)|
+
 ## Assembly Manual
 
 ### Bambu Lab P1S
