@@ -408,4 +408,4 @@ When you power up for the first time or restore factory settings, you'll see a b
 ## Feature Requests
 
 If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. 
-[Feature Requests](https://github.com/bigtreetech/issues)
+[Feature Requests](https://github.com/bigtreetech/Panda_Status/issues)
