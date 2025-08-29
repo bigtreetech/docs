@@ -1,5 +1,10 @@
 # SKR Pico
 
+!!! info
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [SKR Pico Bigtreetech WiKi NEO](http://neo.bttwiki.com/docs/board-docs/skr-series/skr-pico/skr-pico-intro)
+
 ## **产品简介**
 
 BTT SKR Pico V1.0 是必趣创新科技（深圳）有限公司 3D 打印团队推出的一款专门为 VORON V0 打印机量身定制的主板。

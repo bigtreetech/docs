@@ -1,5 +1,10 @@
 # Nebula
 
+!!! info
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [Nebula Bigtreetech WiKi NEO](http://neo.bttwiki.com/docs/category/nebula)
+
 <img src=img/Nebula/nebula_title.png width="600" />
 
 **Github 仓库**： https://github.com/bigtreetech/Nebula

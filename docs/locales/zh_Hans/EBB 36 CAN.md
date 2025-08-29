@@ -1,5 +1,10 @@
 # EBB 36 CAN
 
+!!! info
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [EBB 36 Bigtreetech WiKi NEO](http://neo.bttwiki.com/docs/board-docs/ebb-series/ebb-36/ebb-36-intro)
+
 <figure class="half">
   <img src=img/EBB36CAN/072/EBB_072_Title.png width="550"/>  
   <img src=img/EBB36CAN/G0B1/EBB_G0B1_Title.png width="550"/>  
