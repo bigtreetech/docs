@@ -386,7 +386,7 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 
 ### Wi-Fi & IP Settings
 
-> The first tab that will appear when connecting to the Panda Knomi webUI is the WiFi and AP settings tab.
+> The first tab that will appear when connecting to the Panda Knomi webUI is the WiFi and IP settings tab.
 
 <img src=img/PandaKnomi/en_wifi_ip.png width="300"/>
 
@@ -404,8 +404,8 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 
 ### AP Interface
 
-The next UI page is the Panda Knomi access point configuration page. The Panda Knomi AP is a hotspot that the Panda Knomi broadcasts that allows you to connect directly to it instead of via another WiFi network. If you do not want this hotspot to be broadcast then you can turn it off but the Panda Knomi will turn it back on in case it is ever unable to connect to the WiFi network that you have programed into it. This provides a failsafe way of reconnecting to the Panda Knomi in case the primary network becomes unavailable.
-
+> The next UI page is the Panda Knomi access point configuration page. The Panda Knomi AP is a hotspot that the Panda Knomi broadcasts that allows you to connect directly to it instead of via another WiFi network. If you do not want this hotspot to be broadcast then you can turn it off but the Panda Knomi will turn it back on in case it is ever unable to connect to the WiFi network that you have programed into it. This provides a failsafe way of reconnecting to the Panda Knomi in case the primary network becomes unavailable.
+>
 > <font size="2">If your device is connected to the Panda Knomi AP hotspot to access the Web UI, any changes or shutdown of the Panda Knomi AP settings will disconnect the device. To prevent this, it is recommended to connect your device to the same local network as Panda Knomi before making changes.</font>
 
 <img src=img/PandaKnomi/en_ap.png width="300"/>

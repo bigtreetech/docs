@@ -84,7 +84,7 @@
 
     <img src=img/PandaKnomi/print_2.png width="600"/>
 
-* 我们还建议使用提供的扎带工具头电缆和 Panda Knomi 电源线轻轻捆绑在一起。扎带不应太紧避免扯到电缆。
+* 我们还建议使用提供的扎带将工具头电缆和 Panda Knomi 电源线轻轻捆绑在一起。扎带不应太紧避免扯到电缆。
 
 * 已成功安装到 A1 系列工具头上
 
@@ -302,6 +302,7 @@
 ## 用户界面说明
 
 <a id="first-time-use-guide"></a>
+
 ### 首次使用指南
 
 #### 访问Web UI配置界面。
@@ -401,6 +402,40 @@
   <img src=img/PandaKnomi/bind_ok.png width="300"/>
 * 恭喜您！现在可以尽情的享用您的 Panda Knomi 了。
 
+### Wi-Fi & IP 界面
+
+> 连接到 Panda Knomi WebUI 中出现的第一个界面是 WiFi&IP 设置界面。
+
+<img src=img/PandaKnomi/wifi_ip.jpg width="300"/>
+
+* ①	进入 `Wi-Fi&IP` 界面
+* ②	如果您想要重新配置 Panda Knomi 要连接的 Wi-Fi，可以点击 `Wi-Fi 网络配置` 按钮再次进入配置 Wi-Fi的界面重新配置要连接的 Wi-Fi。
+  > <font size="2">提示：Panda Knomi 更换所连接的 Wi-Fi 后，Panda Knomi 所在的局域网和 IP 地址可能发生改变，若在设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同的局域网下改变此配置，则设备会与 Panda Knomi 断开通信连接，需要将设备也重新连接到 Panda Knomi 新连接的 Wi-Fi 网络下才可重新建立通信连接。为避免此类情况，建议将设备连接到 Panda Knomi 的 AP 热点，然后再修改此配置。</font>
+* ③	配网完成后，推荐客户将手机、电脑等设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同的局域网下，并通过在浏览器地址栏输入 IP 地址访问 Web UI。为避免遗忘 IP地址，可利用手机主屏幕书签功能，方便快速访问。
+* ④	若设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同的局域网下，用户可以通过主机名直接访问 Web UI，例如出厂默认的主机名是 `PandaKnomi`，我们可以直接访问 [http://pandaknomi.local](http://pandaknomi.local) ，不区分大小写。如果设备开了VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用 IP 访问。<br/>用户可以自定义主机名，但是请遵守以下规则：<br/>
+    * 只能由字母（a-z、A-Z）、数字（0-9）、以及连接符（-）组成， 并且首字符必须是字母。
+    * 长度不低于8个字符，不超过32个字符 (在`V1.0.2`及其之前版本的固件上, 请不要超过15个字符, 否则设备会无法启动，需要更新到`V1.0.3`及其之后版本的固件)。
+
+    修改完成后，点击 `设置主机名` 将设置的主机名发送给 Panda Knomi，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Panda Knomi 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。<br/>
+    <img src=img/PandaKnomi/hostname.png width="300"/>
+
+### AP 界面
+
+> Panda Knomi WebUI 中出现的下一个界面是 AP 界面。Panda Knomi AP 是 Panda Knomi 广播的 WiFi 热点，允许手机/电脑直接连接到它。如果您不希望广播此热点，则可以将其关闭，但 Panda Knomi 会在无法连接到您设置的 WiFi 时自动重新打开此热点。这提供了一种故障保护方式，可以在设置的 WiFi 网络不可用的情况下重新连接到Panda Knomi。
+>
+> <font size="2">若设备是连接到 Panda Knomi 的 AP 热点访问的 Web UI，关闭或者修改 Panda Knomi 的 AP 信息都会导致设备与 Panda Knomi 断开通信连接。为避免此类情况，建议将设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同局域网下再修改此配置。</font>
+
+<img src=img/PandaKnomi/ap.jpg width="300"/>
+
+* ①	进入 `AP` 界面
+* ②	打开/关闭 Panda Knomi 的 AP 热点。关闭AP热点后将无法连接到 Panda Knomi 的热点去访问 Web UI，关闭前请务必记录 Panda Knomi 在其所处的 Wi-Fi 的IP，以便使用同一 Wi-Fi 的设备通过 IP 访问 Web UI。
+* ③	修改 Panda Knomi 的 AP 热点， 默认配置为：<br/>
+  Wi-Fi名称: `Panda_Knomi_xxxxxxxxxxxx`<br/>
+  Wi-Fi密码: `987654321`<br/>
+  修改完成后不用重启 Panda Knomi，Panda Knomi会在后台重新创建新的 AP 热点。
+
+## 主题设置和IMG分享
+
 ### 各GIF状态说明
 
 * 由于硬件的限制，Panda Knomi 规定单个GIF大小不能超过1.5MB(1536KB, 1MB=1024KB), 并且所有的GIF大小之和不能超过3MB(3072KB,1MB=1024KB)。
@@ -442,37 +477,6 @@
     * 打印机 Access Code 错误界面
     * 打印机单个 HMS 二维码界面
     * 打印机多个 HMS 错误界面
-
-
-### Wi-Fi & IP 界面
-
-<img src=img/PandaKnomi/wifi_ip.jpg width="300"/>
-
-* ①	进入 `Wi-Fi&IP` 界面
-* ②	如果您想要重新配置 Panda Knomi 要连接的 Wi-Fi，可以点击 `Wi-Fi 网络配置` 按钮再次进入配置 Wi-Fi的界面重新配置要连接的 Wi-Fi。
-  > <font size="2">提示：Panda Knomi 更换所连接的 Wi-Fi 后，Panda Knomi 所在的局域网和 IP 地址可能发生改变，若在设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同的局域网下改变此配置，则设备会与 Panda Knomi 断开通信连接，需要将设备也重新连接到 Panda Knomi 新连接的 Wi-Fi 网络下才可重新建立通信连接。为避免此类情况，建议将设备连接到 Panda Knomi 的 AP 热点，然后再修改此配置。</font>
-* ③	配网完成后，推荐客户将手机、电脑等设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同的局域网下，并通过在浏览器地址栏输入 IP 地址访问 Web UI。为避免遗忘 IP地址，可利用手机主屏幕书签功能，方便快速访问。
-* ④	若设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同的局域网下，用户可以通过主机名直接访问 Web UI，例如出厂默认的主机名是 `PandaKnomi`，我们可以直接访问 [http://pandaknomi.local](http://pandaknomi.local) ，不区分大小写。如果设备开了VPN, 那么通过主机名访问的方式可能会失效, 此时请直接使用 IP 访问。<br/>用户可以自定义主机名，但是请遵守以下规则：<br/>
-    * 只能由字母（a-z、A-Z）、数字（0-9）、以及连接符（-）组成， 并且首字符必须是字母。
-    * 长度不低于8个字符，不超过32个字符 (在`V1.0.2`及其之前版本的固件上, 请不要超过15个字符, 否则设备会无法启动，需要更新到`V1.0.3`及其之后版本的固件)。
-
-    修改完成后，点击 `设置主机名` 将设置的主机名发送给 Panda Knomi，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Panda Knomi 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。<br/>
-    <img src=img/PandaKnomi/hostname.png width="300"/>
-
-### AP 界面
-
-> <font size="2">若设备是连接到 Panda Knomi 的 AP 热点访问的 Web UI，关闭或者修改 Panda Knomi 的 AP 信息都会导致设备与 Panda Knomi 断开通信连接。为避免此类情况，建议将设备连接到与 Panda Knomi 所连接的 Wi-Fi 相同局域网下再修改此配置。</font>
-
-<img src=img/PandaKnomi/ap.jpg width="300"/>
-
-* ①	进入 `AP` 界面
-* ②	打开/关闭 Panda Knomi 的 AP 热点。关闭AP热点后将无法连接到 Panda Knomi 的热点去访问 Web UI，关闭前请务必记录 Panda Knomi 在其所处的 Wi-Fi 的IP，以便使用同一 Wi-Fi 的设备通过 IP 访问 Web UI。
-* ③	修改 Panda Knomi 的 AP 热点， 默认配置为：<br/>
-  Wi-Fi名称: `Panda_Knomi_xxxxxxxxxxxx`<br/>
-  Wi-Fi密码: `987654321`<br/>
-  修改完成后不用重启 Panda Knomi，Panda Knomi会在后台重新创建新的 AP 热点。
-
-## 主题设置和IMG分享
 
 ### 主题设置 <a id="theme-settings"></a>
 
@@ -574,7 +578,7 @@
 
 ## 恢复出厂设置
 
-> <font size="2">Panda Knomi恢复出厂设置会清空所有的配置，包括语言、连接的WiFi、自定义的主机名、自定义的AP热点名称和密码、绑定的打印机、打印进度显示选择、主题配色信息。但是无法将自定义的GIF恢复为出厂GIF，GIF只能通过上传GIF或者更新IMG修改，出厂的IMG文件可从[Panda Knomi的Github](https://github.com/bigtreetech/PandaKnomi)上面下载。</font>
+> <font size="2">Panda Knomi恢复出厂设置会清空所有的配置，包括语言、连接的WiFi、自定义的主机名、自定义的AP热点名称和密码、绑定的打印机、打印进度显示选择、主题配色信息。但是无法将自定义的GIF恢复为出厂GIF，GIF只能通过上传GIF或者更新IMG修改，出厂的IMG文件可从[Panda Knomi的Github](https://github.com/bigtreetech/PandaKnomi/blob/master/IMG/panda_knomi_factory.img)上面下载。</font>
 
 ### 通过Web UI 恢复出厂设置
 
