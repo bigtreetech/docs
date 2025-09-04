@@ -45,7 +45,9 @@
 >
 > In this initial section, you will learn how to install the Panda Knomi onto the A1 Series toolhead using the BIGTREETECH plastic shell. Later, installation instructions are provided for the gantry mount on the A1 as well as the P1 and X1 series.
 
-### A1 Series Toolhead Mount
+### A1 Series Mounting
+
+#### A1 Series Toolhead Mount
 
 - Gently peel off the protective cover.<br/>
   <img src=img/PandaKnomi/install_1.png width="300"/>
@@ -71,21 +73,101 @@
 - A1 Toolhead installation Completed<br/>
   <img src=img/PandaKnomi/install_11.png width="300"/>
 
-Congratulations on successfully installing your Panda Knomi on the A1 series toolhead. We now present the alternative mounting location guide and then the guide to provide power for A1 series installations.
+> Congratulations on successfully installing your Panda Knomi on the A1 series toolhead. We now present the alternative mounting location guide and then the guide to provide power for A1 series installations.
 
-### A1 Alternative Gantry Mount
+#### Disassembly Guide For A1 Series Toolhead
 
-- Another mounting location exists on the A1 series printers that places the Panda Knomi on the gantry.
-- To install the Panda Knomi in this location, first remove the front cover that is installed over the gantry motor mount.
-- Next, place the Panda Knomi within the gantry mount cradle so that the screen is unobscured.
-- Install the gantry mount cradle into the gantry mount face plate.
-- Run the power wire through the provided cable channel at the bottom right of the gantry motor mount.
-- Plug the power cable into the Panda Knomi.
-- Secure the gantry mount in place by first clipping the bottom left and then the remainder of the mount.
+> To disassemble the plastic shell’s back cover or to detach the Panda Knomi from the A1 series toolhead, please follow the method below.
+
+- Press the shell from both sides to unlock and carefully remove it from the toolhead.
+
+    <img src=img/PandaKnomi/uninstall.png width="500"/>
+
+- Press the blue-highlighted slot using the cover opener, and the cover will pop open. (You will need to download the cover opener model file from [GitHub](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cover%20Opener%20%E5%BC%80%E7%9B%96%E5%99%A8_V1.0.stl) and print it ahead of time.)
+
+    <img src=img/PandaKnomi/en_open.jpg width="600"/>
+
+#### A1 Series Gantry Mount
+
+##### A1 Alternative Gantry Mount
+
+* Download the [installation file](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1_X_Axis_Shell_X%E8%BD%B4%E5%9B%BA%E5%AE%9A%E4%BB%B6.stl) and pre-print them using a 3D printer.
+
+* Gently peel off the protective cover.
+
+    <img src=img/PandaKnomi/install_1.png width="300"/>
+
+* Thread the power cord through the designated hole on the base (as shown in the image below) and connect it to the Panda Knomi's power interface.
+
+    <img src=img/PandaKnomi/a1_gantry_1.png width="600"/>
+
+* Position the Panda Knomi directly into the base and route the power cord through the pre-designed groove on the back.
+
+    <img src=img/PandaKnomi/a1_gantry_2.png width="300"/>
+
+    <img src=img/PandaKnomi/a1_gantry_3.png width="600"/>
+
+    <img src=img/PandaKnomi/a1_gantry_4.png width="200"/>
+
+* Align and place the cover onto the base, pressing evenly until it clicks into place. 
+
+    <img src=img/PandaKnomi/a1_gantry_5.png width="400"/>
+
+    <img src=img/PandaKnomi/a1_gantry_6.png width="200"/>
+
+* Remove the front cover that is installed over the A1 gantry motor mount.
+
+    <img src=img/PandaKnomi/a1_gantry_7.png width="400"/>
+
+* Align the Panda Knomi's casing wiring groove with those on the printer, then secure it in place by first clipping the bottom left and then moving on to the remainder of the mount.
+
+    <img src=img/PandaKnomi/a1_gantry_8.png width="400"/>
+
+    <img src=img/PandaKnomi/a1_gantry_9.png width="400"/>
 
 > Congratulations on installing your Panda Knomi in the gantry mount position. You can now move on to the power guide for the A1 series.
 
-### A1 Series Power
+##### A1 mini Alternative Gantry Mount
+
+* Download the [installation file](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1MINI_mount.STL) and pre-print them using a 3D printer.
+
+* Gently peel off the protective cover.
+
+    <img src=img/PandaKnomi/install_1.png width="300"/>
+
+* Connect the power cord to the Panda Knomi’s power interface.
+
+    <img src=img/PandaKnomi/a1mini_gantry_1.png width="300"/>
+
+* Position the Panda Knomi directly into the base.
+
+    <img src=img/PandaKnomi/a1mini_gantry_2.png width="300"/>
+
+    <img src=img/PandaKnomi/a1mini_gantry_3.png width="200"/>
+
+* Route the power cord through the pre-designed groove on the back.
+
+    <img src=img/PandaKnomi/a1mini_gantry_4.png width="600"/>
+
+* Align and place the cover onto the base, pressing evenly until it clicks into place. 
+
+    <img src=img/PandaKnomi/a1mini_gantry_5.png width="400"/>
+
+    <img src=img/PandaKnomi/a1mini_gantry_6.png width="200"/>
+
+* Remove the front cover that is installed over the A1 mini gantry motor mount.
+
+    <img src=img/PandaKnomi/a1mini_gantry_7.png width="400"/>
+
+* Align the Panda Knomi's casing wiring groove with those on the printer and then secure it onto the printer.
+
+    <img src=img/PandaKnomi/a1mini_gantry_8.png width="400"/>
+
+    <img src=img/PandaKnomi/a1mini_gantry_9.png width="400"/>
+
+> Congratulations on installing your Panda Knomi in the gantry mount position. You can now move on to the power guide for the A1 series.
+
+#### A1 Series Power
 
 It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS POWERED OFF BEFORE PERFORMING THIS STAGE.**
 
@@ -97,47 +179,104 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 
 ### X1 Series Mounting
 
+#### Shell mounting
+
 - Ensure that you have printed out the [X1 series mount](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files/X1_Series) before you start installation.
-- Gently peel off the protective cover.<br/>
+
+- Gently peel off the protective cover.
+
   <img src=img/PandaKnomi/install_1.png width="300"/>
+
 - Place the Panda Knomi into the [back cover](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Back%20Cover%20%E5%A4%96%E5%A3%B3%E5%B0%81%E6%9D%BF.STL) with the screen facing forward.
+
+    <img src=img/PandaKnomi/x1_1.png width="300"/>
+
+    <img src=img/PandaKnomi/x1_2.png width="200"/>
+
 - Clip the back cover into the [round panel](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Round%20Panel%20%E5%A4%96%E5%A3%B3%E6%89%A3%E7%9B%96.STL).
+
+    <img src=img/PandaKnomi/x1_3.png width="300"/>
+
+    <img src=img/PandaKnomi/x1_4.png width="200"/>
+
 - Press fit the round panel into the [TFT panel](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Panel%20%E5%A4%96%E5%A3%B3%E9%9D%A2%E6%9D%BF.STL).
+
+    <img src=img/PandaKnomi/x1_5.png width="300"/>
+
 - Insert the power plug into the power socket on the rear of the Panda Knomi.
-- Install the whole assembly onto the TFT.
+
+    <img src=img/PandaKnomi/x1_6.png width="600"/>
+
+* Organize the power cord within the designated wiring slot on the panel.
+
+    <img src=img/PandaKnomi/x1_7.png width="400"/>
+
+* Install the whole assembly onto the printer’s TFT, starting from the top and pressing downward to secure it in place.
+
+    <img src=img/PandaKnomi/x1_8.png width="600"/>
+
+> Congratulations on installing your Panda Knomi in the X1 series. You can now move on to the power guide for the X1 series.
 
 #### X1 Series Power
 
 > There are several options to provide power to the Panda Knomi when using an X1 series machine.
 
 - If you are not using an AMS then you can connect it directly to the AMS output port at the rear of the machine.
-- If you are using an AMS then you will need to use a Panda Branch to expand the four pin AMS port and then connect the Panda Knomi to one of the expansion ports. Please take note that the Panda Branch is not designed to provide power to arbitrary peripherals. Only use it within the recommendations of BIGTREETECH to ensure that you do not overload the internal PSU of the printer. The Panda Knomi consumes only 0.65W of power and is well within the specification of what the internal PSU can provide. With that in mind, please set the Panda Branch USB power switch to the 2A setting after connecting the Panda Knomi to ensure that any connected USB peripherals are appropriately current limited.<br/>
-  <img src=img/PandaKnomi/power_x1.png width="600"/>
+- If you are using an AMS then you will need to use a Panda Branch to expand the four pin AMS port and then connect the Panda Knomi to one of the expansion ports. Please take note that the Panda Branch is not designed to provide power to arbitrary peripherals. Only use it within the recommendations of BIGTREETECH to ensure that you do not overload the internal PSU of the printer. The Panda Knomi consumes only 0.65W of power and is well within the specification of what the internal PSU can provide. With that in mind, please set the Panda Branch USB power switch to the 2A setting after connecting the Panda Knomi to ensure that any connected USB peripherals are appropriately current limited.
+
+    <img src=img/PandaKnomi/power_x1.png width="600"/>
 
 > It's now time to power up the Panda Knomi and get things configured so head over to the [First Time Use Guide](#first-time-use-guide)
 
 ### P1 Series Mounting
 
+#### Shell mounting
+
 - Ensure that you have printed out the [P1 series shell](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/P1_Seires/P1%20Series_Shell%20%E5%A4%96%E5%A3%B3.STL) before you start installation.
-- Gently peel off the protective cover.<br/>
-  <img src=img/PandaKnomi/install_1.png width="300"/>
-- Place the Panda Knomi into the [shell](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/P1_Seires/P1%20Series_Shell%20%E5%A4%96%E5%A3%B3.STL) with the screen facing forward.
-- Insert the power plug into the power socket on the rear of the Panda Knomi or into the USB-C port depending on where you are sourcing power from.
-- If you are sourcing power from the internal USB port then route the power cable using the cable clips that exist within the machine along the top of that channel.<br/>
-  <img src=img/PandaKnomi/power_p1.png width="600"/>
+
+- Gently peel off the protective cover.
+
+    <img src=img/PandaKnomi/install_1.png width="300"/>
+
+- Position the Panda Knomi directly into the base.
+
+    <img src=img/PandaKnomi/p1_1.png width="430"/>
+
+    <img src=img/PandaKnomi/p1_2.png width="300"/>
+
+* Align and gently place the round panel, pressing down evenly to secure.
+
+    <img src=img/PandaKnomi/p1_install_3.png width="430"/>
+
+    <img src=img/PandaKnomi/p1_4.png width="300"/>
+
+#### P1 Series Power
+
+> The Panda Knomi can be powered through its rear power interface or USB-C interface, depending on where you are sourcing power from.
+
+- Power supplied through the internal USB port.
+
+    <img src=img/PandaKnomi/power_p1.png width="600"/>
+
+    - please route the power cable using the cable clips that exist within the machine along the top of that channel. Then route the USB cable out through the designated hole on the machine.
+
+        <img src=img/PandaKnomi/p1_5.png width="600"/>
+
+    - Secure the USB cable within the wire clip of the base and connect it to the Panda Knomi's USB-C port.
+
+        <img src=img/PandaKnomi/p1_6.png width="400"/>
+
+    * Attach the base onto the designated hole to complete the installation.
+
+        <img src=img/PandaKnomi/p1_7.png width="400"/>
+
+        <img src=img/PandaKnomi/p1_8.png width="600"/>
+
 - If you are sourcing power from the rear of the machine then select a cable route that works best for you.
+
 - If you are using an AMS then you will need to use a Panda Branch to expand the four pin AMS port and then connect the Panda Knomi to one of the expansion ports. Please take note that the Panda Branch is not designed to provide power to arbitrary peripherals. Only use it within the recommendations of BIGTREETECH to ensure that you do not overload the internal PSU of the printer. The Panda Knomi consumes only 0.65W of power and is well within the specification of what the internal PSU can provide. With that in mind, please set the Panda Branch USB power switch to the 2A setting after connecting the Panda Knomi to ensure that any connected USB peripherals are appropriately current limited.
 
 > It's now time to power up the Panda Knomi and get things configured so head over to the [First Time Use Guide](#first-time-use-guide)
-
-## Disassembly Guide For A1 Series
-
-> To disassemble the plastic shell’s back cover or to detach the Panda Knomi from the A1 series toolhead, please follow the method below.
-
-- Press the shell from both sides to unlock and carefully remove it from the toolhead.<br/>
-  <img src=img/PandaKnomi/uninstall.png width="500"/>
-- Press the blue-highlighted slot using the cover opener, and the cover will pop open. (You will need to download the cover opener model file from [GitHub](https://github.com/bigtreetech/PandaKnomi) and print it ahead of time.)<br/>
-  <img src=img/PandaKnomi/en_open.jpg width="600"/>
 
 ## User Interface Instructions
 

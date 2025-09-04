@@ -4,14 +4,15 @@
 
 ## 重要提示
 
-* 最新固件 [点击这里](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware)
-* 打印文件 [点击这里](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files)
-* Panda Knomi只监听打印机的状态，不控制打印机，所以Panda Knomi的功能不会受拓竹固件更新的影响。
+* Panda Knomi只监听打印机的状态，不控制打印机，所以Panda Knomi的功能不会受拓竹固件更新的影响。有关受影响和不受影响的更多信息，请参阅[Bambu Lab 官方公告](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/)。
+* 确保您的设备运行了[最新版本的固件](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware)。
+* 您可以在[Github](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files)上找到 P1、X1 和 A1 系列的各种可打印支架以及整理线缆的工具。
 * 光固化3D打印外壳具有透明高亮显著优点，但受限于其树脂打印材质，不可避免存在易碎且不耐高温特性。安装时请务必按照说明书步骤要求，确保卡位精准、轻卡入以避免损坏该打印件。当环境温度超 40℃，该外壳有软化风险，不建议在高温封箱环境使用。
 * Panda Knomi仅支持连接到2.4G Wi-Fi。
 * 如出现长时间 `无效的IP，自动修正中`，请使用 `Bambu Handy` 或 `Bambu Studio` 尝试控制打印机，如果打印机无应答或显示不在线，可能是打印机所处的网络环境异常，请检查网络环境。如果可以正常控制打印机，请尝试断电重启Panda Knomi，若重启后仍无法正常连接，请联系售后支持邮箱 `support01@bigtree-tech.com`
 * 在设置界面连接Panda Knomi的AP热点后，直接跳转到的Web UI界面，部分手机由于权限的问题可能无法在此界面上传更新GIF图片、IMG文件和固件，请到浏览器中访问Web UI再进行此类上传文件的操作。
-* 如果你在使用过程遇到任何问题，欢迎前往Github[提交issues](https://github.com/bigtreetech/PandaKnomi/issues)与我们保持联系。
+* 如果您在使用过程中遇到任何问题，或者对未来的硬件或固件版本有建议，欢迎前往Github[提交issues](https://github.com/bigtreetech/PandaKnomi/issues)与我们保持联系。
+* 如果您有任何此wiki无法解决的问题，请通过以下方式联系客户支持：`support01@bigtree-tech.com`.
 
 ## 基本参数
 
@@ -40,11 +41,17 @@
 
 ## 安装指南
 
-> 本节将介绍如何用使塑料外壳或者光固化版本外壳，将 Panda Knomi 安装到A1系列打印机的工具头上。
+> Panda Knomi 可以安装在 A1、P1 和 X1 系列机器上。
+>
+> 本节最开始将介绍如何用使塑料外壳或者光固化版本外壳，将 Panda Knomi 安装到A1系列打印机的工具头上。随后的章节会提供说明，介绍如何安装到 A1、P1 和 X1 系列机架/机箱上。
 
-* 步骤 1: 轻轻揭下 Panda Knomi 的保护膜。<br/>
+### 安装到 A1 系列
+
+#### 安装到 A1 系列工具头
+
+* 轻轻揭下 Panda Knomi 的保护膜。<br/>
   <img src=img/PandaKnomi/install_1.png width="300"/>
-* 步骤 2: 将Panda Knomi 安装到外壳内
+* 将Panda Knomi 安装到外壳内
     * 塑料外壳
         * 将屏幕放入外壳卡槽中。<br/>
           <img src=img/PandaKnomi/install_2.jpg width="300"/>
@@ -55,7 +62,7 @@
           <img src=img/PandaKnomi/install_2.jpg width="300"/>
         * 确保 `压盖` 与扣位对齐后，轻轻放置并顺时针旋转以固定。<br/>
           <img src=img/PandaKnomi/install_4.png width="600"/>
-* 步骤 3: 安装Panda Knomi 到A1系列工具头
+* 安装Panda Knomi 到A1系列工具头
     * 从侧面用力按压工具头前盖，解锁并移除前盖。<br/>
       <img src=img/PandaKnomi/install_5.png width="300"/>
     * 卸下旋转轮。<br/>
@@ -69,43 +76,232 @@
 
         <img src=img/PandaKnomi/install_9.png height="300"/><img src=img/PandaKnomi/install_10.png height="300"/>
 
-    * 安装完成<br/>
-      <img src=img/PandaKnomi/install_11.png width="300"/>
+* 最后，为了避免电源线干扰打印以及让打印机看起来更加整洁，我们设计了[可打印的夹线器模型](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cable_Clip%20%E5%A4%B9%E7%BA%BF%E5%99%A8_V1.0.stl)，请下载并打印安装。
 
-* 步骤 4: 接通电源。
-  恭喜您成功安装 Panda Knomi！请接通电源并开启设备，并根据屏幕提示完成与打印机的配对。 
-    * A1 系列
-      > * 温馨提示: 如果 A1 系列打印机的电源接口已被其他外设占用，可使用 BIGTREETECH Panda Branch 扩展连接。
-      > * 经实测，A1的AMS端口约可提供24.4W的最大功率消耗，AMS lite最大功耗约为4W。由于Panda Knomi最大功耗仅为0.65W，可直接连接该端口使用，如您使用Panda Branch进行外部功能拓展，请将USB接口供电档位调为2A后，可以将Panda Knomi接入其4-pin接口使用。
-      > * Panda Branch需要额外购买。
+    <img src=img/PandaKnomi/en_print_1.png width="600"/>
 
-        <img src=img/PandaKnomi/power_a1.png width="600"/>
+* 如果您使用的是 AMS Lite，我们还设计了[可打印的集线器模型](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cable_Organizer%20%E9%9B%86%E7%BA%BF%E5%99%A8_V1.0.stl)，可让您将所有PTFE管、工具头电缆和 Panda Knomi 电源线捆绑在一起。
 
-    * X1 系列<br/>
-      <img src=img/PandaKnomi/power_x1.png width="600"/>
-    * P1 系列<br/>
-      <img src=img/PandaKnomi/power_p1.png width="600"/>
+    <img src=img/PandaKnomi/print_2.png width="600"/>
 
-* 步骤 5: 安装夹线器、束线器
-  > * 为了让打印机看起来更加整洁，我们设计了夹线器、束线器模型。欢迎访问 [Panda Knomi的Github](https://github.com/bigtreetech/PandaKnomi) 下载并打印。
-  > * 建议打印多个束线器，以便更好地管理线材。
+* 我们还建议使用提供的扎带工具头电缆和 Panda Knomi 电源线轻轻捆绑在一起。扎带不应太紧避免扯到电缆。
 
-    * 套上预先打印好的夹线器后，将Panda Knomi电源线卡入其对应扣位。<br/>
-      <img src=img/PandaKnomi/print_1.png width="600"/>
-    * 使用预先打印好的束线器对电线进行有序收纳。<br/>
-      <img src=img/PandaKnomi/print_2.png width="600"/>
+* 已成功安装到 A1 系列工具头上
 
-## 拆卸指南
+    <img src=img/PandaKnomi/install_11.png width="300"/>
+
+> 祝贺您已完成 Panda Knomi 的安装。现在您可以继续阅读如何在 A1 系列打印机上给 Panda Knomi 供电。
+
+#### 从 A1 系列工具头上拆卸
 
 > 如需拆卸塑料外壳背盖或从工具头上取下 Panda Knomi ，请按照以下步骤。
 
-* 使用后盖开盖器顶住图示中蓝色高亮槽口的位置，后盖将自动弹开，便于取下。(您需要先从 [GitHub](https://github.com/bigtreetech/PandaKnomi) 下载后盖开盖器的文件并自行打印)<br/>
-  <img src=img/PandaKnomi/open.jpg width="600"/>
-* 捏住外壳两端，向上取下外壳即可从工具头上取下 Panda Knomi<br/>
-  <img src=img/PandaKnomi/uninstall.png width="500"/>
+* 捏住外壳两端，向上取下外壳即可从工具头上取下 Panda Knomi
+
+    <img src=img/PandaKnomi/uninstall.png width="500"/>
+
+* 使用后盖开盖器顶住图示中蓝色高亮槽口的位置，后盖将自动弹开，便于取下。(您需要先从 [GitHub](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cover%20Opener%20%E5%BC%80%E7%9B%96%E5%99%A8_V1.0.stl) 下载后盖开盖器的文件并自行打印)
+
+    <img src=img/PandaKnomi/open.jpg width="600"/>
+
+#### 安装到 A1 系列龙门架
+
+##### 安装到 A1 打印机龙门架
+
+* 下载并打印[A1 安装外壳](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1_X_Axis_Shell_X%E8%BD%B4%E5%9B%BA%E5%AE%9A%E4%BB%B6.stl)
+
+* 轻轻揭下 Panda Knomi 表面的保护膜。
+
+    <img src=img/PandaKnomi/install_1.png width="300"/>
+
+* 将电源线穿过底座图示的孔位，并插入Panda Knomi的电源接口。
+
+    <img src=img/PandaKnomi/a1_gantry_1.png width="600"/>
+
+* 将 Panda Knomi 放入底座中，并将电源线沿外壳预留的走线槽妥善布置。
+
+    <img src=img/PandaKnomi/a1_gantry_2.png width="300"/>
+
+    <img src=img/PandaKnomi/a1_gantry_3.png width="600"/>
+
+    <img src=img/PandaKnomi/a1_gantry_4.png width="200"/>
+
+* 对齐上盖与底座，轻轻盖上，双手均匀施压，直至四周卡扣完全啮合。
+
+    <img src=img/PandaKnomi/a1_gantry_5.png width="400"/>
+
+    <img src=img/PandaKnomi/a1_gantry_6.png width="200"/>
+
+* 移除 A1 打印机电机安装座上的前盖板。
+
+    <img src=img/PandaKnomi/a1_gantry_7.png width="400"/>
+
+* 将 Panda Knomi 外壳打印件的走线槽与机器的走线槽对齐，先扣合底部左侧卡扣，再依次固定其余部分，完成安装。
+
+    <img src=img/PandaKnomi/a1_gantry_8.png width="400"/>
+
+    <img src=img/PandaKnomi/a1_gantry_9.png width="400"/>
+
+> 祝贺您已完成 Panda Knomi 的安装。现在您可以继续阅读如何在 A1 系列打印机上给 Panda Knomi 供电。
+
+##### 安装到 A1 mini 打印机龙门架
+
+* 下载并打印[A1 mini 安装外壳](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1MINI_mount.STL)
+
+* 轻轻揭下 Panda Knomi 表面的保护膜。
+
+    <img src=img/PandaKnomi/install_1.png width="300"/>
+
+* 将电源线插入 Panda Knomi 的电源接口。
+
+    <img src=img/PandaKnomi/a1mini_gantry_1.png width="300"/>
+
+* 将 Panda Knomi 放入底座中。
+
+    <img src=img/PandaKnomi/a1mini_gantry_2.png width="300"/>
+
+    <img src=img/PandaKnomi/a1mini_gantry_3.png width="200"/>
+
+* 翻转至背面，将电源线妥善嵌入外壳预留的走线槽内。
+
+    <img src=img/PandaKnomi/a1mini_gantry_4.png width="600"/>
+
+* 对齐上盖与底座，轻轻盖上，双手均匀施压，直至四周卡扣完全啮合。
+
+    <img src=img/PandaKnomi/a1mini_gantry_5.png width="400"/>
+
+    <img src=img/PandaKnomi/a1mini_gantry_6.png width="200"/>
+
+* 移除 A1 mini 打印机电机安装座上的前盖板。
+
+    <img src=img/PandaKnomi/a1mini_gantry_7.png width="400"/>
+
+* 将 Panda Knomi 外壳打印件的电线槽位与机器的电线线槽对齐，卡入并固定到位。
+
+    <img src=img/PandaKnomi/a1mini_gantry_8.png width="400"/>
+
+    <img src=img/PandaKnomi/a1mini_gantry_9.png width="400"/>
+
+> 祝贺您已完成 Panda Knomi 的安装。现在您可以继续阅读如何在 A1 系列打印机上给 Panda Knomi 供电。
+
+#### A1 系列供电
+
+现在是时候给 Panda Knomi 供电了。**执行此步骤之前，请确保打印机已关闭电源**
+
+* 在机器后部(A1)或侧面(A1 mini)找到一个未使用的 4pin 电源端口。
+
+    <img src=img/PandaKnomi/power_a1.png width="600"/>
+
+* 如果没有可用的电源端口，您可以使用[Panda Branch](https://biqu.equipment/products/panda-knomi?variant=41781607399522)（单独出售），它将把一个端口分成四个。如果使用[Panda Branch](https://biqu.equipment/products/panda-knomi?variant=41781607399522)，请注意仅在 BIGTREETECH 的建议范围内使用以确保打印机的内部 PSU 不会过载。Panda Knomi 仅消耗 0.65W 的功率，完全符合内部 PSU 的规格。考虑到这一点，请在连接 Panda Knomi 后将 Panda Branch 的 USB 电源开关设置为 2A，以确保任何连接的 USB 外设会被限流在安全的工作范围内。
+
+> 现在是时候给 Panda Knomi 通电并进行配置了，请前往[首次使用指南](#first-time-use-guide)
+
+### 安装到 X1 系列
+
+#### 外壳安装
+
+* 下载并打印[所有的 X1 安装外壳](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files/X1_Series)
+
+* 轻轻揭下 Panda Knomi 表面的保护膜。
+
+    <img src=img/PandaKnomi/install_1.png width="300"/>
+
+* 将Panda Knomi放入[底座](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Back%20Cover%20%E5%A4%96%E5%A3%B3%E5%B0%81%E6%9D%BF.STL)中。
+
+    <img src=img/PandaKnomi/x1_1.png width="300"/>
+
+    <img src=img/PandaKnomi/x1_2.png width="200"/>
+
+* 对齐[压盖](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Round%20Panel%20%E5%A4%96%E5%A3%B3%E6%89%A3%E7%9B%96.STL)与底座，轻轻盖上，并均匀按压各处，确保固定。
+
+    <img src=img/PandaKnomi/x1_3.png width="300"/>
+
+    <img src=img/PandaKnomi/x1_4.png width="200"/>
+
+* 将组装好的 Panda Knomi 嵌入[面板打印件](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Panel%20%E5%A4%96%E5%A3%B3%E9%9D%A2%E6%9D%BF.STL)预留的孔位中。
+
+    <img src=img/PandaKnomi/x1_5.png width="300"/>
+
+* 将电源线插入 Panda Knomi 的电源接口。
+
+    <img src=img/PandaKnomi/x1_6.png width="600"/>
+
+* 将电源线卡入面板预留的理线槽口
+
+    <img src=img/PandaKnomi/x1_7.png width="400"/>
+
+* 对准面板预留的孔位与 X1 机器屏幕，首先从上方开始卡入屏幕，然后轻轻按压下方以完成安装。
+
+    <img src=img/PandaKnomi/x1_8.png width="600"/>
+
+> 祝贺您已完成 Panda Knomi 的安装。现在您可以继续阅读如何在 X1 系列打印机上给 Panda Knomi 供电。
+
+#### X1 系列供电
+
+> 使用 X1 系列机器时，有以下几个选项可以为 Panda Knomi 供电。
+
+* 如果您没有使用 AMS，则可以将其直接连接到机器后部的 AMS 输出端口。
+
+* 如果您有使用 AMS，则需要使用 Panda Branch 扩展 4pin 的 AMS 端口，然后将 Panda Knomi 连接到其中一个扩展端口。请注意仅在 BIGTREETECH 的建议范围内使用以确保打印机的内部 PSU 不会过载。Panda Knomi 仅消耗 0.65W 的功率，完全符合内部 PSU 的规格。考虑到这一点，请在连接 Panda Knomi 后将 Panda Branch 的 USB 电源开关设置为 2A，以确保任何连接的 USB 外设会被限流在安全的工作范围内。
+
+    <img src=img/PandaKnomi/power_x1.png width="600"/>
+
+> 现在是时候给 Panda Knomi 通电并进行配置了，请前往[首次使用指南](#first-time-use-guide)
+
+### 安装到 P1 系列
+
+#### 外壳安装
+
+* 下载并打印[所有的 P1 安装外壳](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/P1_Seires/P1%20Series_Shell%20%E5%A4%96%E5%A3%B3.STL)
+
+* 轻轻揭下 Panda Knomi 表面的保护膜。
+
+    <img src=img/PandaKnomi/install_1.png width="300"/>
+
+* 将 Panda Knomi 放入底座中。
+
+    <img src=img/PandaKnomi/p1_1.png width="430"/>
+
+    <img src=img/PandaKnomi/p1_2.png width="300"/>
+
+* 对齐压盖与底座，轻轻盖上并均匀按压各处以固定。
+
+    <img src=img/PandaKnomi/p1_install_3.png width="430"/>
+
+    <img src=img/PandaKnomi/p1_4.png width="300"/>
+
+#### P1 系列供电
+
+> Panda Knomi可通过其背部的电源插孔或USB-C接口进行供电。
+
+* 通过机身内置USB端口供电
+
+    <img src=img/PandaKnomi/power_p1.png width="600"/>
+
+    * 沿设备顶部通道使用预留卡扣整理走线，将USB线从图示的机器孔位穿出。
+
+        <img src=img/PandaKnomi/p1_5.png width="600"/>
+
+    * 将USB线卡入底座的线扣，并插入Panda Knomi背部的USB-C接口。
+
+        <img src=img/PandaKnomi/p1_6.png width="400"/>
+
+    * 将底座的线扣卡入机器的孔位以完成安装。
+
+        <img src=img/PandaKnomi/p1_7.png width="400"/>
+
+        <img src=img/PandaKnomi/p1_8.png width="600"/>
+
+* 如果您从机器后部供电，请选择最适合您的走线方式。
+
+* 如果您有使用 AMS，则需要使用 Panda Branch 扩展 4pin 的 AMS 端口，然后将 Panda Knomi 连接到其中一个扩展端口。请注意仅在 BIGTREETECH 的建议范围内使用以确保打印机的内部 PSU 不会过载。Panda Knomi 仅消耗 0.65W 的功率，完全符合内部 PSU 的规格。考虑到这一点，请在连接 Panda Knomi 后将 Panda Branch 的 USB 电源开关设置为 2A，以确保任何连接的 USB 外设会被限流在安全的工作范围内。
+
+> 现在是时候给 Panda Knomi 通电并进行配置了，请前往[首次使用指南](#first-time-use-guide)
+
 
 ## 用户界面说明
 
+<a id="first-time-use-guide"></a>
 ### 首次使用指南
 
 #### 访问Web UI配置界面。
