@@ -367,37 +367,37 @@
 * 在打印机上找到 `SN码`，`访问码` 和 `IP`，并输入到Web UI上对应的输入栏中。
     * A1系列打印机
         * `SN码`
-        * ①	`设置`<br/>
-          <img src=img/PandaKnomi/a1_1.jpg width="300"/>
-        * ② `设备`<br/>
-          <img src=img/PandaKnomi/a1_2.jpg width="300"/>
-        * ③ `打印机序列号` 即为 `SN码`<br/>
-          <img src=img/PandaKnomi/a1_3.jpg width="300"/>
+            * ①	`设置`<br/>
+                <img src=img/PandaKnomi/a1_1.jpg width="300"/>
+            * ② `设备`<br/>
+                <img src=img/PandaKnomi/a1_2.jpg width="300"/>
+            * ③ `打印机序列号` 即为 `SN码`<br/>
+                <img src=img/PandaKnomi/a1_3.jpg width="300"/>
         * `访问码` 和 `IP`
-        * ①	`设置`<br/>
-          <img src=img/PandaKnomi/a1_1.jpg width="300"/>
-        * ② -> ③ `局域网模式`<br/>
-          <img src=img/PandaKnomi/a1_2_3.jpg width="300"/>
-        * ④ `访问码`, ⑤ `IP`<br/>
-          <img src=img/PandaKnomi/a1_4_5.jpg width="300"/>
+            * ①	`设置`<br/>
+                <img src=img/PandaKnomi/a1_1.jpg width="300"/>
+            * ② -> ③ `局域网模式`<br/>
+                <img src=img/PandaKnomi/a1_2_3.jpg width="300"/>
+            * ④ `访问码`, ⑤ `IP`<br/>
+                <img src=img/PandaKnomi/a1_4_5.jpg width="300"/>
     * P1系列打印机
         * `SN码`
-        * ①	`设置` -> ② `设备(Device)`<br/>
-          <img src=img/PandaKnomi/p1_1_2.png width="600"/>
-        * ③ `打印机(Printer)` 即为 `SN码`<br/>
-          <img src=img/PandaKnomi/p1_3.png width="600"/>
+            * ①	`设置` -> ② `设备(Device)`<br/>
+                <img src=img/PandaKnomi/p1_1_2.png width="600"/>
+            * ③ `打印机(Printer)` 即为 `SN码`<br/>
+                <img src=img/PandaKnomi/p1_3.png width="600"/>
         * `访问码` 和 `IP`          
-        * ①	`设置`-> ② `网络(WLAN)` -> ③<br/>
-          <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
-        * ④ `IP`, ⑤ `访问码`<br/>
-          <img src=img/PandaKnomi/p1_4_5.png width="600"/>
+            * ①	`设置`-> ② `网络(WLAN)` -> ③<br/>
+                <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
+            * ④ `IP`, ⑤ `访问码`<br/>
+                <img src=img/PandaKnomi/p1_4_5.png width="600"/>
     * X1系列打印机
         * `SN码` 和 `访问码`
-        * ①	`设置` -> ② `通用` -> ③ `访问码`, ④ `设备信息` 即为 `SN码`<br/>
-          <img src=img/PandaKnomi/x1_1_2_3_4.jpg width="600"/>
+            * ①	`设置` -> ② `通用` -> ③ `访问码`, ④ `设备信息` 即为 `SN码`<br/>
+                <img src=img/PandaKnomi/x1_1_2_3_4.jpg width="600"/>
         * `IP`          
-        * ①	`设置`-> ② `网络(WLAN)` -> ③ `IP`<br/>
-          <img src=img/PandaKnomi/x1_1_2_3.jpg width="600"/>
+            * ①	`设置`-> ② `网络(WLAN)` -> ③ `IP`<br/>
+                <img src=img/PandaKnomi/x1_1_2_3.jpg width="600"/>
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着Panda Knomi已经成功连接到打印机了。<br/>
   <img src=img/PandaKnomi/bind_ok.png width="300"/>
 * 恭喜您！现在可以尽情的享用您的 Panda Knomi 了。

@@ -348,37 +348,37 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 - Find the `Printer SN`, `Access Code` and `IP` on the printer, and enter them into the corresponding input fields on the Web UI.
     - For A1 Series
         - `Printer SN`
-        - ① `Setting`<br/>
-            <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
-        - ② `Device`<br/>
-            <img src=img/PandaKnomi/en_a1_2.jpg width="300"/>
-        - ③ `Printer SN`<br/>
-            <img src=img/PandaKnomi/en_a1_3.jpg width="300"/>
+            - ① `Setting`<br/>
+                <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
+            - ② `Device`<br/>
+                <img src=img/PandaKnomi/en_a1_2.jpg width="300"/>
+            - ③ `Printer SN`<br/>
+                <img src=img/PandaKnomi/en_a1_3.jpg width="300"/>
         - `Access Code` and `IP`
-        - ① `Setting`<br/>
-            <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
-        - ② -> ③ `LAN Only Mode`<br/>
-            <img src=img/PandaKnomi/en_a1_2_3.jpg width="300"/>
-        - ④ `Access Code`, ⑤ `IP`<br/>
-            <img src=img/PandaKnomi/en_a1_4_5.jpg width="300"/>
+            - ① `Setting`<br/>
+                <img src=img/PandaKnomi/en_a1_1.jpg width="300"/>
+            - ② -> ③ `LAN Only Mode`<br/>
+                <img src=img/PandaKnomi/en_a1_2_3.jpg width="300"/>
+            - ④ `Access Code`, ⑤ `IP`<br/>
+                <img src=img/PandaKnomi/en_a1_4_5.jpg width="300"/>
     - For P1 Series
         - `Printer SN`
-        - ① `Setting` -> ② `Device`<br/>
-            <img src=img/PandaKnomi/p1_1_2.png width="600"/>
-        - ③ `Printer` is the `Printer SN`<br/>
-            <img src=img/PandaKnomi/p1_3.png width="600"/>
+            - ① `Setting` -> ② `Device`<br/>
+                <img src=img/PandaKnomi/p1_1_2.png width="600"/>
+            - ③ `Printer` is the `Printer SN`<br/>
+                <img src=img/PandaKnomi/p1_3.png width="600"/>
         - `Access Code` and `IP`
-        - ① `Setting`-> ② `WLAN` -> ③<br/>
-            <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
-        - ④ `IP`, ⑤ `Access Code`<br/>
-            <img src=img/PandaKnomi/p1_4_5.png width="600"/>
+            - ① `Setting`-> ② `WLAN` -> ③<br/>
+                <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
+            - ④ `IP`, ⑤ `Access Code`<br/>
+                <img src=img/PandaKnomi/p1_4_5.png width="600"/>
     - For X1 Series
         - `Printer SN` 和 `Access Code`
-        - ① `Setting` -> ② `General` -> ③ `Access Code`, ④ `Device info` is the `Printer SN`<br/>
-            <img src=img/PandaKnomi/en_x1_1_2_3_4.jpg width="600"/>
+            - ① `Setting` -> ② `General` -> ③ `Access Code`, ④ `Device info` is the `Printer SN`<br/>
+                <img src=img/PandaKnomi/en_x1_1_2_3_4.jpg width="600"/>
         - `IP`
-        - ① `Setting`-> ② `Network` -> ③ `IP`<br/>
-            <img src=img/PandaKnomi/en_x1_1_2_3.jpg width="600"/>
+            - ① `Setting`-> ② `Network` -> ③ `IP`<br/>
+                <img src=img/PandaKnomi/en_x1_1_2_3.jpg width="600"/>
 - Tap `Bind`. A `Binding successful` popup will confirm that the Panda Knomi has connected to the printer.<br/>
   <img src=img/PandaKnomi/en_bind_ok.png width="300"/>
 
