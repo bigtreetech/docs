@@ -43,7 +43,8 @@ A dedicated 5V / 5A Type-C output provides direct power for Panda Hub Plus, whil
 
 ## **Installation Instructions**
 
-Download the required case files for your printer model from the GitHub repository, then print the case.
+Download the required case files for your printer model [from the GitHub repository](https://github.com/bigtreetech/PandaBranchPlus/tree/master/Print_Files
+), then print the case.
 
 ### Installation Steps
 
