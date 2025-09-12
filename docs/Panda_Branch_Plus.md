@@ -38,6 +38,7 @@ A dedicated 5V / 5A Type-C output provides direct power for Panda Hub Plus, whil
 - **Important Notes**: Uses included 24V / 2.8A adapter.  
 
 ## **Interface**
+
 <img src=img/PandaBranchPlus/jiekou.jpg width="1600"/>
 
 ## **Installation Instructions**
@@ -48,40 +49,40 @@ Download the required case files for your printer model from the GitHub reposito
 
 #### For A1 mini Printer
 
-1. Place the Panda Branch Plus into the printed upper and lower shells and secure it with **KM3×14 self-tapping screws**.
+* Place the Panda Branch Plus into the printed upper and lower shells and secure it with **KM3×14 self-tapping screws**.
 
-   <img src=img/PandaBranchPlus/a1mini1_en.png width="800"/>
+    <img src=img/PandaBranchPlus/a1mini1_en.png width="800"/>
 
-2. Insert the printed bracket into the position shown and secure it with **KM3×15 machine screws**. Place the assembled case from Step 1 into the slot at the top of the printed bracket, then fasten it with the printed thumb screw.
+* Insert the printed bracket into the position shown and secure it with **KM3×15 machine screws**. Place the assembled case from Step 1 into the slot at the top of the printed bracket, then fasten it with the printed thumb screw.
    
-   <img src=img/PandaBranchPlus/a1mini2_en.jpg width="800"/>
+    <img src=img/PandaBranchPlus/a1mini2_en.jpg width="800"/>
 
 
 #### For A1 Printer
 
-1. Place the Panda Branch Plus into the printed upper and lower shells and secure it with **KM3×14 self-tapping screws**.
+* Place the Panda Branch Plus into the printed upper and lower shells and secure it with **KM3×14 self-tapping screws**.
    
-   <img src=img/PandaBranchPlus/a11_en.jpg width="800"/>
+    <img src=img/PandaBranchPlus/a11_en.jpg width="800"/>
 
-2. Insert the printed bracket into the position shown and secure it either with the printed thumb screw or with **M3×15 machine screws**.
+* Insert the printed bracket into the position shown and secure it either with the printed thumb screw or with **M3×15 machine screws**.
    
    *Option 1:* Attach directly to the A1 Z-axis using the printed thumb screw. <br>
    Place the assembled case from Step 1 into the slot and secure it with the printed thumb screw.
 
-   <img src=img/PandaBranchPlus/a12_en.jpg width="800"/>
+    <img src=img/PandaBranchPlus/a12_en.jpg width="800"/>
    
    *Option 2:* Use **two M3×15 machine screws** to secure it to the A1 Z-axis.
 
-   <img src=img/PandaBranchPlus/a13_en.jpg width="800"/>
+    <img src=img/PandaBranchPlus/a13_en.jpg width="800"/>
 
-   
+
 #### For P1 / X1 Series Printers
 
-1. Place the Panda Branch Plus into the printed upper and lower shells and secure it with **KM3×14 self-tapping screws**.
-   
-   <img src=img/PandaBranchPlus/p11_en.jpg width="800"/>
+* Place the Panda Branch Plus into the printed upper and lower shells and secure it with **KM3×14 self-tapping screws**.
+ 
+    <img src=img/PandaBranchPlus/p11_en.jpg width="800"/>
 
-2. Insert the printed bracket into the position shown and secure it with **M3×15 machine screws**.
+* Insert the printed bracket into the position shown and secure it with **M3×15 machine screws**.
    
    <img src=img/PandaBranchPlus/p12_en.jpg width="800"/>
    
@@ -95,28 +96,27 @@ Download the required case files for your printer model from the GitHub reposito
 
 * The device will create a hotspot named **"Panda\_Branch\_Plus\_XXXXXXXXXXXX"**, with the default password **"987654321"**.
 * Connect to this hotspot using your mobile phone or computer. <br>
-
-  <img src=img/PandaBranchPlus/ap_select.png width="300"/>
+    <img src=img/PandaBranchPlus/ap_select.png width="300"/>
 
 * Open a browser and enter: **[http://192.168.254.1/](http://192.168.254.1/)**
 * Select your preferred language. <br>
   
-  <img src=img/PandaBranchPlus/language.png width="300"/>
-<br>
+    <img src=img/PandaBranchPlus/language.png width="300"/><br>
+
 * After scanning for Wi-Fi, choose the target network, enter its password, and click **Connect**. <br>
   
-  <img src=img/PandaBranchPlus/ap_connect_en.png width="300"/>
+    <img src=img/PandaBranchPlus/ap_connect_en.png width="300"/>
 
 ## Binding the Printer
 
 * Click **Scan Printer**.
 * Enter the access code, then click **Connect**. <br>
-   <img src=img/PandaBranchPlus/bind_printer_en.png width="300"/>
+    <img src=img/PandaBranchPlus/bind_printer_en.png width="300"/>
 
 ## Power Control
 
 The USB port and 24V port can be switched on or off through the Web UI. <br>
-  <img src=img/PandaBranchPlus/port_control_en.png width="300">
+    <img src=img/PandaBranchPlus/port_control_en.png width="300">
 
 ## Binding Other Panda Devices
 

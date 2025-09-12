@@ -46,72 +46,64 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 
 #### A1mini机型
 
-1、将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
+* 将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
 
-<img src=img/PandaBranchPlus/a1mini1.png width="800"/>
+    <img src=img/PandaBranchPlus/a1mini1.png width="800"/>
 
-2、将打印好的支架放入如图对应的位置，用M3*15机牙螺丝固定,随后将第一步中装配好上下壳放入打印支架顶端的槽中，再将打印的手拧螺丝拧紧。
+* 将打印好的支架放入如图对应的位置，用M3*15机牙螺丝固定,随后将第一步中装配好上下壳放入打印支架顶端的槽中，再将打印的手拧螺丝拧紧。
 
-<img src=img/PandaBranchPlus/a1mini2.jpg width="800"/>
+    <img src=img/PandaBranchPlus/a1mini2.jpg width="800"/>
 
 #### A1机型
 
-1、将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
+* 将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
 
-<img src=img/PandaBranchPlus/a11.jpg width="800"/>
+    <img src=img/PandaBranchPlus/a11.jpg width="800"/>
 
-2、将打印好的支架放入如图对应的位置，用相应的打印件或者M3*15机牙螺丝固定。
+* 将打印好的支架放入如图对应的位置，用相应的打印件或者M3*15机牙螺丝固定。
 
-<img src=img/PandaBranchPlus/a12.jpg width="800"/>
+    <img src=img/PandaBranchPlus/a12.jpg width="800"/><br>
+    ​（该方式直接用打印件固定到A1的Z轴上,放入第一步装配好的上下壳，再拧上打印的手拧螺丝）
 
-​（该方式直接用打印件固定到A1的Z轴上,放入第一步装配好的上下壳，再拧上打印的手拧螺丝）
-
-<img src=img/PandaBranchPlus/a13.jpg width="800"/>
-
-（该方式需要用两个M3*15机牙螺丝固定在A1的Z轴上）
+    <img src=img/PandaBranchPlus/a13.jpg width="800"/><br>
+    （该方式需要用两个M3*15机牙螺丝固定在A1的Z轴上）
 
 #### P1/X1机型
 
-1、将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
+* 将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
 
-<img src=img/PandaBranchPlus/p11.jpg width="800"/>
+    <img src=img/PandaBranchPlus/p11.jpg width="800"/>
 
-2、将打印好的支架放入如图对应的位置，用M3*15机牙螺丝固定。
+* 将打印好的支架放入如图对应的位置，用M3*15机牙螺丝固定。
 
-<img src=img/PandaBranchPlus/p12.jpg width="800"/>
+    <img src=img/PandaBranchPlus/p12.jpg width="800"/>
 
-<img src=img/PandaBranchPlus/p13.png width="800"/>
-
-（该方式需要用两个M3*15机牙螺丝固定在机器的右后方或者上后方）
+    <img src=img/PandaBranchPlus/p13.png width="800"/><br>
+    （该方式需要用两个M3*15机牙螺丝固定在机器的右后方或者上后方）
 
 ## 首次使用
 
 ## 配网
 * 设备会产生一个热点:"Panda_Branch_Plus_XXXXXXXXXXXX"，密码默认为"987654321"
 
-* 使用手机或者电脑连接该热点 
-<br>
-<img src=img/PandaBranchPlus/ap_select.png width="300"/>  
+* 使用手机或者电脑连接该热点 <br>
+    <img src=img/PandaBranchPlus/ap_select.png width="300"/>  
 
 * 在浏览器输入:http://192.168.254.1/
-* 选择语言
-  <br>
-  <img src=img/PandaBranchPlus/language.png width="300"/> 
+* 选择语言<br>
+    <img src=img/PandaBranchPlus/language.png width="300"/> 
   
-* 扫描WiFi后，选择需要连接的WiFi名称，输入wifi密码后点击连接
-<br>
-<img src=img/PandaBranchPlus/ap_connect.png width="300"/>   
+* 扫描WiFi后，选择需要连接的WiFi名称，输入wifi密码后点击连接<br>
+    <img src=img/PandaBranchPlus/ap_connect.png width="300"/>   
 
 ## 绑定打印机
 * 点击扫描打印机
-* 输入访问码后点击连接
-<br>
-<img src=img/PandaBranchPlus/bind_printer.png width="300"/>
+* 输入访问码后点击连接<br>
+    <img src=img/PandaBranchPlus/bind_printer.png width="300"/>
 
 ## 开关控制
-支持通过WEB UI控制USB端口和24V端口的开和关
-<br>
-<img src=img/PandaBranchPlus/port_control.png width="300">
+支持通过WEB UI控制USB端口和24V端口的开和关<br>
+    <img src=img/PandaBranchPlus/port_control.png width="300">
 
 ## 其他Panda设备如何绑定该设备
 ### 该设备先绑定一台打印机
@@ -128,7 +120,7 @@ DevVersion.bambu.com: 01.00.00.00
 ### 输入打印机上的访问码，访问码与打印机上的一模一样。
 ### 点击绑定
 <br>
-<img src=img/PandaBranchPlus/as_printer.png width="500">
+    <img src=img/PandaBranchPlus/as_printer.png width="500">
 
 ## 使用限制
 ### 与PandaTouch连接
