@@ -81,11 +81,11 @@ Download the required case files for your printer model from the GitHub reposito
    
    <img src=img/PandaBranchPlus/p13_en.png width="800"/>
 
-   **Note:* This method requires **two M3×15 machine screws** to secure the bracket to either the rear-right side or the upper-rear side of the printer.
+    * **Note:** This method requires **two M3×15 machine screws** to secure the bracket to either the rear-right side or the upper-rear side of the printer.
 
 ## **First-Time Setup**
 
-## Network Configuration
+### Network Configuration
 
 * The device will create a hotspot named **"Panda\_Branch\_Plus\_XXXXXXXXXXXX"**, with the default password **"987654321"**.
 * Connect to this hotspot using your mobile phone or computer. <br>
@@ -98,7 +98,7 @@ Download the required case files for your printer model from the GitHub reposito
 * After scanning for Wi-Fi, choose the target network, enter its password, and click **Connect**. <br>
     <img src=img/PandaBranchPlus/ap_connect_en.png width="300"/>
 
-## Binding the Printer
+### Binding the Printer
 
 * Click **Scan Printer**.
 * Enter the access code, then click **Connect**. <br>

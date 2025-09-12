@@ -83,7 +83,7 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 
 ## 首次使用
 
-## 配网
+### 配网
 * 设备会产生一个热点:"Panda_Branch_Plus_XXXXXXXXXXXX"，密码默认为"987654321"
 
 * 使用手机或者电脑连接该热点 <br>
@@ -96,7 +96,7 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 * 扫描WiFi后，选择需要连接的WiFi名称，输入wifi密码后点击连接<br>
     <img src=img/PandaBranchPlus/ap_connect.png width="300"/>   
 
-## 绑定打印机
+### 绑定打印机
 * 点击扫描打印机
 * 输入访问码后点击连接<br>
     <img src=img/PandaBranchPlus/bind_printer.png width="300"/>
