@@ -81,7 +81,8 @@ Download the required case files for your printer model from the GitHub reposito
    
    <img src=img/PandaBranchPlus/p13_en.png width="800"/>
 
-    **Note:** This method requires **two M3×15 machine screws** to secure the bracket to either the rear-right side or the upper-rear side of the printer.
+> Note:
+This method requires **two M3×15 machine screws** to secure the bracket to either the rear-right side or the upper-rear side of the printer.
 
 ## **First-Time Setup**
 
