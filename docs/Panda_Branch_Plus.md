@@ -63,11 +63,11 @@ Download the required case files for your printer model from the GitHub reposito
 
 * Insert the printed bracket into the position shown and secure it either with the printed thumb screw or with **M3×15 machine screws**.
    
-   *Option 1:* Attach directly to the A1 Z-axis using the printed thumb screw. <br>
+    * **Option 1:** Attach directly to the A1 Z-axis using the printed thumb screw. <br>
    Place the assembled case from Step 1 into the slot and secure it with the printed thumb screw.<br>
     <img src=img/PandaBranchPlus/a12_en.jpg width="800"/>
    
-   *Option 2:* Use **two M3×15 machine screws** to secure it to the A1 Z-axis<br>
+    * **Option 2:** Use **two M3×15 machine screws** to secure it to the A1 Z-axis<br>
     <img src=img/PandaBranchPlus/a13_en.jpg width="800"/>
 
 
@@ -81,7 +81,7 @@ Download the required case files for your printer model from the GitHub reposito
    
    <img src=img/PandaBranchPlus/p13_en.png width="800"/>
 
-   *Note:* This method requires **two M3×15 machine screws** to secure the bracket to either the rear-right side or the upper-rear side of the printer.
+   **Note:* This method requires **two M3×15 machine screws** to secure the bracket to either the rear-right side or the upper-rear side of the printer.
 
 ## **First-Time Setup**
 
