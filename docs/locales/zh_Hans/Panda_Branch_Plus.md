@@ -106,8 +106,8 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
     <img src=img/PandaBranchPlus/port_control.png width="300">
 
 ## 其他Panda设备如何绑定该设备
-### 该设备先绑定一台打印机
-在绑定一台打印机后，该设备会在局域网广播设备信息，模拟一台打印机，打印机名称为"PandaBranchPlus"
+### 步骤 1: 该设备先绑定一台打印机 
+在绑定一台打印机后，该设备会在局域网广播设备信息，模拟一台打印机，打印机名称为"PandaBranchPlus"。
 ~~~
 Location: xxx.xxx.xxx.xxx
 USN: B1098A316C65xxx
@@ -116,11 +116,12 @@ DevModel.bambu.com: C12
 DevName.bambu.com: PandaBranchPlus
 DevVersion.bambu.com: 01.00.00.00
 ~~~
-### 其他Panda设备打开WEB UI，点击扫描打印机，选择名称"PandaBranchPlus"
-### 输入打印机上的访问码，访问码与打印机上的一模一样。
-### 点击绑定
-<br>
-    <img src=img/PandaBranchPlus/as_printer.png width="500">
+### 步骤 2: 其他Panda设备
+
+* 打开WEB UI, 电机 **扫描打印机**, and select **"PandaBranchPlus"**。
+* 输入打印机上的访问码，访问码与打印机上的一模一样。
+* 点击 **绑定**。 <br>
+  <img src=img/PandaBranchPlus/as_printer.png width="500"> 
 
 ## 使用限制
 ### 与PandaTouch连接

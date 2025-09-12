@@ -77,9 +77,9 @@ Download the required case files for your printer model from the GitHub reposito
     <img src=img/PandaBranchPlus/p11_en.jpg width="800"/>
 
 * Insert the printed bracket into the position shown and secure it with **M3×15 machine screws**.<br>
-   <img src=img/PandaBranchPlus/p12_en.jpg width="800"/>
+    <img src=img/PandaBranchPlus/p12_en.jpg width="800"/>
    
-   <img src=img/PandaBranchPlus/p13_en.png width="800"/>
+    <img src=img/PandaBranchPlus/p13_en.png width="800"/>
 
 > Note:
 This method requires **two M3×15 machine screws** to secure the bracket to either the rear-right side or the upper-rear side of the printer.
@@ -116,14 +116,14 @@ The USB port and 24V port can be switched on or off through the Web UI. <br>
 
 Once a printer is bound, the device will broadcast its information over the local network, simulating a printer named **"PandaBranchPlus"**.
 
-```
+~~~
 Location: xxx.xxx.xxx.xxx
 USN: B1098A316C65xxx
 DevConnect.bambu.com: lan
 DevModel.bambu.com: C12
 DevName.bambu.com: PandaBranchPlus
 DevVersion.bambu.com: 01.00.00.00
-```
+~~~
 
 ### Step 2: On Another Panda Device
 
