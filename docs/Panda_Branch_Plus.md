@@ -29,10 +29,10 @@ A dedicated 5V / 5A Type-C output provides direct power for Panda Hub Plus, whil
 - **Power Input**: DC 5.5×2.1 (included adapter: 24V / 2.8A)  
 - **Built-in Gateway**: Integrated MQTT gateway, supports up to 20 sub-devices.  
 - **Output Ports**:  
-  - 1 × Type-C (5A)  
-  - 4 × Type-C (1.5A)  
-  - 5 × MX3.0 2-pin (2A)  
-  - **Total**: 10 independently switchable outputs  
+    - 1 × Type-C (5A)  
+    - 4 × Type-C (1.5A)  
+    - 5 × MX3.0 2-pin (2A)  
+    - **Total**: 10 independently switchable outputs  
 - **Web UI + BIQU APP Control**: ✔  
 - **Protection Features**: ESD Protection, Over-Current Protection, Short-Circuit Protection  
 - **Important Notes**: Uses included 24V / 2.8A adapter.  
@@ -102,6 +102,7 @@ Download the required case files for your printer model from the GitHub reposito
 * Select your preferred language. <br>
   
   <img src=img/PandaBranchPlus/language.png width="300"/>
+<br>
 * After scanning for Wi-Fi, choose the target network, enter its password, and click **Connect**. <br>
   
   <img src=img/PandaBranchPlus/ap_connect_en.png width="300"/>
@@ -135,7 +136,7 @@ DevVersion.bambu.com: 01.00.00.00
 ### Step 2: On Another Panda Device
 
 * Open the Web UI, click **Scan Printer**, and select **"PandaBranchPlus"**.
-* Enter the access code shown on the printer.
+* Enter the access code shown on the printer, The access code is same as the one on the printer.
 * Click **Bind**. <br>
   <img src=img/PandaBranchPlus/as_printer.png width="500">
 

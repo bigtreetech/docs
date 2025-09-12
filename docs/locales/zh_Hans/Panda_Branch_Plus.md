@@ -125,7 +125,7 @@ DevName.bambu.com: PandaBranchPlus
 DevVersion.bambu.com: 01.00.00.00
 ~~~
 ### 其他Panda设备打开WEB UI，点击扫描打印机，选择名称"PandaBranchPlus"
-### 输入打印机上的访问码
+### 输入打印机上的访问码，访问码与打印机上的一模一样。
 ### 点击绑定
 <br>
 <img src=img/PandaBranchPlus/as_printer.png width="500">
