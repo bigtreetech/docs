@@ -118,7 +118,7 @@ Once a printer is bound, the device will broadcast its information over the loca
 
 ~~~
 Location: xxx.xxx.xxx.xxx
-USN: B1098A316C65xxx
+USN: 41098A316C65xxx
 DevConnect.bambu.com: lan
 DevModel.bambu.com: C12
 DevName.bambu.com: PandaBranchPlus

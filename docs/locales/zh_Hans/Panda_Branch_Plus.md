@@ -110,7 +110,7 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 在绑定一台打印机后，该设备会在局域网广播设备信息，模拟一台打印机，打印机名称为"PandaBranchPlus"。
 ~~~
 Location: xxx.xxx.xxx.xxx
-USN: B1098A316C65xxx
+USN: 41098A316C65xxx
 DevConnect.bambu.com: lan
 DevModel.bambu.com: C12
 DevName.bambu.com: PandaBranchPlus
