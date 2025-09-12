@@ -40,8 +40,7 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 
 ## 安装说明
 
-请前往[Github链接](https://github.com/bigtreetech/PandaBranchPlus/tree/master/Print_Files
-)，根据不同机型下载所需的外壳文件并打印外壳。
+请前往[Github链接](https://github.com/bigtreetech/PandaBranchPlus/tree/master/Print_Files)，根据不同机型下载所需的外壳文件并打印外壳。
 
 ### 安装步骤
 
