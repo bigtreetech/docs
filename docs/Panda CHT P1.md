@@ -1,4 +1,0 @@
-# Panda CHT P1
-
-
-

@@ -435,7 +435,8 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 
 #### OTA
 
-* Visit the Web UI configuration interface.  
+* Visit the Web UI configuration interface.
+
     > <font size="2">If Panda Alarm is already connected to Wi-Fi, you can connect the device to the same network and access the Web UI via IP to update the firmware. Alternatively, you can connect the device to Panda Alarm's AP hotspot to access the Web UI for the firmware update. You can choose either method.</font>
 
     * Connect to the Wi-Fi network of Panda Alarm
@@ -512,7 +513,7 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 
 ### Firmware History
 
-#### [V1.0.0]
+#### [V1.0.0](https://github.com/bigtreetech/PandaAlarm/tree/master/Firmware/v1.0.0)
 
 * Initial factory release.
 

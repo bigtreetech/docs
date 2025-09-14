@@ -417,10 +417,10 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
 ## 固件历史记录
 
-### [V1.0.0](https://github.com/bigtreetech/PandaJetpack/tree/master/Firmware/v1.0.0)
+### [V1.0.0](https://github.com/bigtreetech/PandaJetpackV2/tree/master/Firmware/v1.0.0)
 
 - 首次发布的出厂固件。
 
 ## 功能请求
 
-如果您希望在即将发布的固件中看到一些内容，请在官方 github repo上记录功能请求，让我们知道。[请求功能](https://github.com/bigtreetech/PandaJetpack/issues)
+如果您希望在即将发布的固件中看到一些内容，请在官方 github repo上记录功能请求，让我们知道。[请求功能](https://github.com/bigtreetech/PandaJetpackV2/issues)

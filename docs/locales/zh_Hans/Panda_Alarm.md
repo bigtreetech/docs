@@ -494,7 +494,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 ### 固件历史记录
 
-#### [V1.0.0]
+#### [V1.0.0](https://github.com/bigtreetech/PandaAlarm/tree/master/Firmware/v1.0.0)
 
 * 首次发布的出厂固件。
 

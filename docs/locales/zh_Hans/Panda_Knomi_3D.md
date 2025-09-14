@@ -644,7 +644,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 ### 固件历史记录
 
-#### [01.00.00.01]
+#### [01.00.00.01](https://github.com/bigtreetech/PandaKnomi3D/tree/master/Firmware/01.00.00.01)
 
 * 首次发布的出厂固件。
 

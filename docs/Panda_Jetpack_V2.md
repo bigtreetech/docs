@@ -422,10 +422,10 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 ## Firmware History
 
-### [V1.0.0](https://github.com/bigtreetech/PandaJetpack/tree/master/Firmware/v1.0.0)
+### [V1.0.0](https://github.com/bigtreetech/PandaJetpackV2/tree/master/Firmware/v1.0.0)
 
 - First-release factory firmware.
 
 ## Feature Requests
 
-If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. [Feature Requests](https://github.com/bigtreetech/PandaJetpack/issues)
+If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. [Feature Requests](https://github.com/bigtreetech/PandaJetpackV2/issues)

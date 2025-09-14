@@ -660,7 +660,7 @@ If you’d like to request new features for upcoming Panda Knomi 3D firmware rel
 
 ### Firmware History
 
-#### [01.00.00.01]
+#### [01.00.00.01](https://github.com/bigtreetech/PandaKnomi3D/tree/master/Firmware/01.00.00.01)
 
 * Initial factory release.
 
