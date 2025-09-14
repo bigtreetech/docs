@@ -257,8 +257,6 @@ nav:
           - Panda P1 X1.md
       - Panda Aura:
           - Panda_Aura_A1mini.md
-          - Panda_Aura_A1.md
-          - Panda_Aura_Controler.md
       - PandaTouch.md
       - PandaKnomi.md
       - PandaBranch.md
@@ -298,6 +296,10 @@ nav:
       - Panda_Stack.md
       - Panda_RGB_Controller.md
       - Panda_Bifrost.md
+      - Panda_Cooler_A1.md
+      - Panda_Jetpack_V2.md
+      - Panda-Lux-RGB-PX.md
+      - Panda-Under-Armor-H2D.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
