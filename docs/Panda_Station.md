@@ -8,7 +8,7 @@
 
     - Naked Panda Station:https://bit.ly/4pmxSah 
 
-The printed parts include:
+The [printed parts](https://github.com/bigtreetech/PandaStation/tree/master/Print_Files) include:
 
 * The RGB light strip fixture
 * Panda RGB Controller external mounting shell

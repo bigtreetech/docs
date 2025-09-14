@@ -8,7 +8,7 @@
 
     - Naked Panda Station:https://bit.ly/4pmxSah 
 
-打印件包含:
+[打印件](https://github.com/bigtreetech/PandaStation/tree/master/Print_Files)包含:
 
 * RGB灯条固定件
 * Panda RGB Controller外置安装壳

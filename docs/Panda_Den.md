@@ -4,7 +4,7 @@
 
 - **Product Link**: [Buy Here](https://bit.ly/4mAb2JP)
 
-The printed files include:
+The [printed files](https://github.com/bigtreetech/PandaDen/tree/master/Print_Files) include:
 
 * Panda RGB Controller mounting shell
 * 256*256 printed build plate storage rack

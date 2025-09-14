@@ -4,7 +4,7 @@
 
 - **产品链接**: [点击购买](https://bit.ly/4mAb2JP)
 
-打印件包含:
+[打印件](https://github.com/bigtreetech/PandaDen/tree/master/Print_Files)包含:
 
 * Panda RGB Controller安装壳
 
