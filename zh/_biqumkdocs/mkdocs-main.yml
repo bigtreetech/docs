@@ -243,7 +243,28 @@ nav:
       - libinput_calibration.md
       - pi_custom_logo.md
   - BIQU:
-    - Panda series: 
+    - Panda series:
+      - Panda_Alarm.md
+      - Panda-AMS-Cable.md
+      - Panda-AMS-Guard.md
+      - Panda-AMS-Holder.md
+      - Panda-AMS-Lite-Cable.md
+      - Panda Aura:
+          - Panda_Aura_A1mini.md
+      - Panda_Bifrost.md
+      - PandaBranch.md
+      - Panda_Branch_Plus.md
+      - Panda Breeze.md
+      - Panda Claw:
+          - Panda A1Mini.md
+          - Panda P1 X1.md
+      - Panda_Cooler_A1.md
+      - Panda_Den.md
+      - Panda_Diaper_PX.md
+      - Panda-Door.md
+      - PandaEdge.md
+      - Panda-Enclosure.md
+      - Panda extruder.md
       - Panda Hotend:
         - Panda Flow/CHT:
           - X1:
@@ -255,54 +276,33 @@ nav:
             - Panda Revo X1 Hotend.md
           - P1:
             - Panda Revo P1 Hotend.md
-      - Panda Claw:
-          - Panda A1Mini.md
-          - Panda P1 X1.md
-      - Panda Aura:
-          - Panda_Aura_A1mini.md
-      - PandaTouch.md
-      - PandaKnomi.md
-      - PandaBranch.md
-      - Panda Hub.md
-      - Panda Jet.md 
-      - Panda Fur.md 
-      - Panda Lux.md 
-      - Panda-Lux-A1-A1mini.md
-      - Panda-Door.md 
-      - Panda-Enclosure.md
-      - Panda PWR.md
-      - Panda Jetpack.md
-      - Panda extruder.md
-      - PandaEdge.md
-      - Panda-AMS-Holder.md
-      - Panda-AMS-Cable.md
-      - Panda-AMS-Lite-Cable.md
-      - PandaSense.md 
-      - Panda_Alarm.md 
-      - Panda-Purge-Shield.md
-      - Panda-AMS-Guard.md
-      - Panda_Den.md
-      - 5050_LED_Light_Strip.md
-      - Panda_Diaper_PX.md
-      - Panda Breeze.md
-      - Panda_Status.md
-      - Panda_Station.md
-      - Panda_Hub_Plus.md
-      - Panda_Branch_Plus.md
+      - Panda Fur.md
       - Panda_Gateway.md
-      - Panda_Knomi_3D.md
+      - Panda Hub.md
+      - Panda_Hub_Plus.md
       - Panda_Hue_OTG.md
-      - Panda_PTFree.md
-      - Panda-Turbo-Kit.md
-      - Panda_Perch_H2D.md
-      - Panda-Under-Armor-PX.md
-      - Panda_Stack.md
-      - Panda_RGB_Controller.md
-      - Panda_Bifrost.md
-      - Panda_Cooler_A1.md
+      - Panda Jet.md
+      - Panda Jetpack.md
       - Panda_Jetpack_V2.md
+      - PandaKnomi.md
+      - Panda_Knomi_3D.md
+      - Panda Lux.md
+      - Panda-Lux-A1-A1mini.md
       - Panda-Lux-RGB-PX.md
+      - Panda_Perch_H2D.md
+      - Panda_PTFree.md
+      - Panda-Purge-Shield.md
+      - Panda PWR.md
+      - Panda_RGB_Controller.md
+      - PandaSense.md
+      - Panda_Stack.md
+      - Panda_Station.md
+      - Panda_Status.md
+      - PandaTouch.md
+      - Panda-Turbo-Kit.md
       - Panda-Under-Armor-H2D.md
+      - Panda-Under-Armor-PX.md
+      - 5050_LED_Light_Strip.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
