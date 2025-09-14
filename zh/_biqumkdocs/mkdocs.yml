@@ -242,10 +242,7 @@ nav:
   - BIQU:
     - Panda series:
       - Panda_Alarm.md
-      - Panda-AMS-Cable.md
       - Panda-AMS-Guard.md
-      - Panda-AMS-Holder.md
-      - Panda-AMS-Lite-Cable.md
       - Panda Aura:
           - Panda_Aura_A1mini.md
       - Panda_Bifrost.md
@@ -274,7 +271,6 @@ nav:
           - P1:
             - Panda Revo P1 Hotend.md
       - Panda Fur.md
-      - Panda_Gateway.md
       - Panda Hub.md
       - Panda_Hub_Plus.md
       - Panda_Hue_OTG.md
@@ -286,6 +282,7 @@ nav:
       - Panda Lux.md
       - Panda-Lux-A1-A1mini.md
       - Panda-Lux-RGB-PX.md
+      - Panda-AMS-Holder.md
       - Panda_Perch_H2D.md
       - Panda_PTFree.md
       - Panda-Purge-Shield.md
