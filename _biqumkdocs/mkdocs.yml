@@ -253,6 +253,7 @@ nav:
           - Panda A1Mini.md
           - Panda P1 X1.md
       - Panda_Cooler_A1.md
+      - Panda_Cushion_XP.md
       - Panda_Den.md
       - Panda_Diaper_PX.md
       - Panda-Door.md
@@ -297,6 +298,7 @@ nav:
       - Panda-Under-Armor-H2D.md
       - Panda-Under-Armor-PX.md
       - 5050_LED_Light_Strip.md
+
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 
