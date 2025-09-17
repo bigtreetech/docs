@@ -3,8 +3,8 @@
 <img src=img/PandaLuxRGBPX/panda_lux_rgb.jpg width="400"/>
 
 - **产品链接**: [点击购买](https://bit.ly/3Iejmk0) 
-
 - **GitHub**: [固件](https://github.com/bigtreetech/Panda-Lux-RGB)  
+- **MakerWorld**: [前往 MakerWorld 获取打印文件](https://makerworld.com/en/models/1795232-panda-lux-rgb-mounting-shell#profileId-1913824 )  
 
 
 ## **修订历史**
@@ -168,7 +168,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
         <img src=img/PandaLuxRGBPX/zh/language.jpg width="300"/>
 
 <a id="wifi-connect"></a>
-  
+
 - WiFi连接界面
 
     - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
@@ -246,7 +246,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
             <img src=img/PandaLuxRGBPX/zh/printer_bind.png width="300"/>
 
             <img src=img/PandaLuxRGBPX/zh/bind_ok.png width="300"/>
-  
+
 
 ## 用户界面说明
 

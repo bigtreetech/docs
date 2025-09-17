@@ -3,8 +3,8 @@
 <img src=img/PandaLuxRGBPX/panda_lux_rgb.jpg width="400"/>
 
 * **Product Link**: [Click to Buy](https://bit.ly/3Iejmk0)
-
 * **GitHub**: [Repository](https://github.com/bigtreetech/Panda-Lux-RGB)
+* **MakerWorld**: [Print Files on MakerWorld](https://makerworld.com/en/models/1795232-panda-lux-rgb-mounting-shell#profileId-1913824 )  
 
 
 ## **Revision Log**
@@ -169,7 +169,7 @@ When you power up for the first time or restore factory settings, you'll see a b
         <img src=img/PandaLuxRGBPX/en/language.jpg width="300"/>
 
 <a id="wifi-connect"></a>
-  
+
 - WiFi Connection Page
 
     - After the initial setup or a factory reset, this page will automatically scan for nearby Wi-Fi networks, or you can manually tap the scan button.
@@ -225,7 +225,7 @@ When you power up for the first time or restore factory settings, you'll see a b
     - ⑦ Confirm to Bind This Printer
 
 - How to Bind a Printer
- 
+
     - Tap `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
         <img src=img/PandaLuxRGBPX/en/printer_scan_ok.png width="300"/>
