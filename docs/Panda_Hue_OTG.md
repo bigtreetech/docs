@@ -14,12 +14,11 @@
 
 ## **Introduction**
 
-Panda Hue OTG, an all-aluminum alloy handle upgrade for the Bambu Lab A1 mini, combining effortless portability with customizable lighting. The integrated light board module supports interchangeable DIY relief panels, allowing personalized style while preserving durability and function—a sleek fusion of utility and customization for your printer.
-
+The Panda Hue OTG is an all-aluminum alloy handle upgrade designed for the Bambu Lab A1 mini, enhancing its portability and customization. It features an integrated light board module that supports interchangeable, user-designed relief panels. This system allows for personalization without compromising the unit's structural integrity or functionality, offering a sophisticated fusion of utility and aesthetic customization.
 
 ## **Features**
 
-**Unmatched Durability** – High-strength aluminum alloy with CNC precision for lightweight yet rugged performance.
+**Unmatched Durability** – Crafted from high-strength aluminum alloy and precision-machined with CNC technology, this component delivers robust performance while remaining exceptionally lightweight.
 
 **Custom CMYK Lithophane Swappable** – Personalize with your artwork, logo, or favorite image.
 
@@ -57,7 +56,7 @@ Panda Hue OTG, an all-aluminum alloy handle upgrade for the Bambu Lab A1 mini, c
 
         <img src=img/PandaHueOTG/install_2.jpg width="500"/>
 
-    - Keep the stock screw — it will be reused to secure the Panda HUE OTG later.x
+    - Keep the stock screw — it will be reused to secure the Panda HUE OTG later.
 
         <img src=img/PandaHueOTG/install_3.jpg width="500"/>
 
