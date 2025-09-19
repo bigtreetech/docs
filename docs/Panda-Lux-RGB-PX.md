@@ -97,7 +97,7 @@ Panda Lux RGB PX – Engineered for the Bambu Lab P1/X1 series, this dual-functi
 
 * Plug in the included USB-A to USB-C cable.
 
-   <img src=img/PandaLuxRGBPX/install_5.jpg width="300"/> 
+    <img src=img/PandaLuxRGBPX/install_5.jpg width="300"/> 
 
 * Attach the Panda LUX RGB PX inside the printer.
 
@@ -109,11 +109,11 @@ Panda Lux RGB PX – Engineered for the Bambu Lab P1/X1 series, this dual-functi
 
 * Carefully remove a section of the cable management tape from the printer's frame and follow the diagram to route the Panda LUX RGB PX power cable into the machine.
 
-   <img src=img/PandaLuxRGBPX/install_8.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/install_8.jpg width="300"/>
 
 * Insert the Panda LUX RGB PX power cable into the control board, then secure the control board inside the machine to complete the installation.
 
-   <img src=img/PandaLuxRGBPX/install_9.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/install_9.jpg width="300"/>
 
 ### Installation on X1 Series Printer
 
@@ -129,17 +129,17 @@ Panda Lux RGB PX – Engineered for the Bambu Lab P1/X1 series, this dual-functi
 
 * Plug the 2m USB-A to USB-C cable (sold separately).
 
-   <img src=img/PandaLuxRGBPX/en/install_10.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/en/install_10.jpg width="300"/>
 
 * Attach the Panda Lux RGB PX magnetically inside the printer. Insert the power cable of the Panda Lux RGB PX into the control board and secure the control board inside the printer as shown.
 
-   <img src=img/PandaLuxRGBPX/install_11.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/install_11.jpg width="300"/>
 
 * Route the USB-A to USB-C cable along the printer upper frame, loosen the screws on the back of the cover and lift the cover, pass it through the hole, and power it using Panda Branch or a separate 5V USB power adapter.
 
-   <img src=img/PandaLuxRGBPX/install_12.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/install_12.jpg width="300"/>
 
-   <img src=img/PandaLuxRGBPX/install_13.jpg width="600"/>
+    <img src=img/PandaLuxRGBPX/install_13.jpg width="600"/>
 
 
 ## Initial Connection

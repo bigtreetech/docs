@@ -96,8 +96,8 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 * 插入附带的USB-A转USB-C线。
 
-   <img src=img/PandaLuxRGBPX/install_5.jpg width="300"/> 
-   
+    <img src=img/PandaLuxRGBPX/install_5.jpg width="300"/> 
+
 * 将Panda LUX RGB PX磁吸安装在打印机机舱内。
 
     <img src=img/PandaLuxRGBPX/install_6.jpg width="300"/>
@@ -108,11 +108,11 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 * 将打印机上的胶带部分取下，按照图示走线，将Panda LUX RGB PX的电源线引卡机器内部。
 
-   <img src=img/PandaLuxRGBPX/install_8.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/install_8.jpg width="300"/>
 
 * 将Panda LUX RGB PX的电源线插入控制板，并将控制板卡入机器内，完成安装。
 
-   <img src=img/PandaLuxRGBPX/install_9.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/install_9.jpg width="300"/>
 
 ### 在X1系列打印机上安装
 
@@ -128,17 +128,17 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 * 插入2m USB-A转USB-C线(需另购)。
 
-   <img src=img/PandaLuxRGBPX/zh/install_10.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/zh/install_10.jpg width="300"/>
 
 * 将Panda Lux RGB PX 磁吸安装在打印机机舱内。 将Panda Lux RGB PX的电源线插入控制板，并将控制板卡入机舱内，如图所示
 
-   <img src=img/PandaLuxRGBPX/install_11.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/install_11.jpg width="300"/>
 
 * 将USB-A转USB-C线沿着机器框架布线，松开盖板背部螺丝并掀起盖板，穿过出线孔，使用Panda Branch供电，或者另行配置5V USB电源适配器。
 
-   <img src=img/PandaLuxRGBPX/install_12.jpg width="300"/>
+    <img src=img/PandaLuxRGBPX/install_12.jpg width="300"/>
 
-   <img src=img/PandaLuxRGBPX/install_13.jpg width="600"/>
+    <img src=img/PandaLuxRGBPX/install_13.jpg width="600"/>
 
 
 ## 用户首次连接指南
