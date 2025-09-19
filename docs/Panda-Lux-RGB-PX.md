@@ -4,7 +4,7 @@
 
 * **Product Link**: [Click to Buy](https://bit.ly/3Iejmk0)
 * **GitHub**: [Repository](https://github.com/bigtreetech/Panda-Lux-RGB)
-* **MakerWorld**: [Print Files on MakerWorld](https://makerworld.com/en/models/1795232-panda-lux-rgb-mounting-shell#profileId-1913824 )  
+* **MakerWorld**: [Download Print Files](https://makerworld.com/en/models/1795232-panda-lux-rgb-mounting-shell#profileId-1913824 )  
 
 
 ## **Revision Log**
@@ -70,9 +70,9 @@ Panda Lux RGB PX – Engineered for the Bambu Lab P1/X1 series, this dual-functi
 
 - **For Bambu Lab P1P, P1S**: Direct install and use.
 
-- **For X1C and X1E**: Requires a separate 2 m USB cable.
+- **For X1C and X1E**: Requires a separate 2m USB cable.
 
-    For X1C and X1E printers, it is recommended to use the Panda Branch as the power source for optimal cable routing. Otherwise, a separate 5V USB power adapter is required.*
+    For X1C and X1E printers, it is recommended to use the Panda Branch as the power source for optimal cable routing. Otherwise, a separate 5V USB power adapter is required.
 
 ### USB Product Compatibility
 
@@ -85,7 +85,7 @@ Panda Lux RGB PX – Engineered for the Bambu Lab P1/X1 series, this dual-functi
 
 ### Installation on P1 Series Printer
 
-* Print the control board housing and place the control board inside the printed housing. Secure it with screws.
+* Print the provided control board housing file. Once printed, place the control board into the housing and secure it firmly using the included screws.
 
     <img src=img/PandaLuxRGBPX/install_1.jpg width="300"/>
 
@@ -95,11 +95,11 @@ Panda Lux RGB PX – Engineered for the Bambu Lab P1/X1 series, this dual-functi
 
     <img src=img/PandaLuxRGBPX/install_4.jpg width="300"/> 
 
-* Pluig in the included USB-A to USB-C cable.
+* Plug in the included USB-A to USB-C cable.
 
    <img src=img/PandaLuxRGBPX/install_5.jpg width="300"/> 
 
-* Attatch the Panda LUX RGB PX inside the printe.
+* Attach the Panda LUX RGB PX inside the printer.
 
     <img src=img/PandaLuxRGBPX/install_6.jpg width="300"/>
 
@@ -107,7 +107,7 @@ Panda Lux RGB PX – Engineered for the Bambu Lab P1/X1 series, this dual-functi
 
     <img src=img/PandaLuxRGBPX/install_7.jpg width="300"/>
 
-* Remove part of the tape from the printer and follow the diagram to route the Panda LUX RGB PX power cable into the machine.
+* Carefully remove a section of the cable management tape from the printer's frame and follow the diagram to route the Panda LUX RGB PX power cable into the machine.
 
    <img src=img/PandaLuxRGBPX/install_8.jpg width="300"/>
 
@@ -142,7 +142,7 @@ Panda Lux RGB PX – Engineered for the Bambu Lab P1/X1 series, this dual-functi
    <img src=img/PandaLuxRGBPX/install_13.jpg width="600"/>
 
 
-## First Connection
+## Initial Connection
 
 <a id="first-connection"></a>
 
@@ -162,6 +162,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - After connecting to the AP, open a browser on your computer and enter the default IP address: `192.168.254.1`. On mobile devices, the Panda Lux RGB PX Web UI will automatically appear, or you can manually enter the IP address in the browser: `192.168.254.1`.
 
+For Mobile(As an example):
 - Select Language (Default: English)
 
     - After selecting a language, tap `Next`.
@@ -188,7 +189,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         <img src=img/PandaLuxRGBPX/en/wifi_connect.jpg width="300"/>
 
-    - tap Connect, and the interface will switch to the WiFi connection page, showing `WiFi Connecting...`.
+    - Tap Connect, and the interface will switch to the WiFi connection page, showing `Connecting to WiFi`.
 
         <img src=img/PandaLuxRGBPX/en/wifi_connecting.png width="300"/>
 
@@ -203,6 +204,10 @@ When you power up for the first time or restore factory settings, you'll see a b
             <img src=img/PandaLuxRGBPX/en/wifi_ok.png width="300"/>
 
 <a id="printer-bind"></a>
+
+## Introduction to Each Page
+
+The WiFi connection is complete. Below are the elements and functions of each page.
 
 ### Printer Binding Page
 
@@ -224,9 +229,9 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - ⑦ Confirm to Bind This Printer
 
-- How to Bind a Printer
+- How to Bind a Printer (Using P1P as an Example)
 
-    - Tap `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
+    - Tap the `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
         <img src=img/PandaLuxRGBPX/en/printer_scan_ok.png width="300"/>
 
@@ -234,22 +239,16 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         <img src=img/PandaLuxRGBPX/en/printer_list.png width="300"/>
 
-    - Enter the printer's `Access Code`
+    - Enter the printer's `Access Code`: Find the access code in the printer's settings, enter it in the box, and tap `Bind` to successfully bind the printer. <br> 
 
-        * Find the `Access Code` in the printer (Using P1 series printer as an Example)
+       <img src=img/PandaLuxRGBPX/en/p1_1_2_3.png width="600"/> <br> 
 
-            <img src=img/PandaLuxRGBPX/en/p1_1_2_3.png width="600"/>
+       <img src=img/PandaLuxRGBPX/en/p1_4_5.png width="600"/> <br> 
 
-            <img src=img/PandaLuxRGBPX/en/p1_4_5.png width="600"/>
+      <img src=img/PandaLuxRGBPX/en/printer_bind.png width="300"/> <br> 
 
-        * Enter `Access Code` in the input box, and tap `Bind` to bind the printer.
+       <img src=img/PandaLuxRGBPX/en/bind_ok.png width="300"/> <br> 
 
-            <img src=img/PandaLuxRGBPX/en/printer_bind.png width="300"/>
-
-            <img src=img/PandaLuxRGBPX/en/bind_ok.png width="300"/>
-
-
-## Introduction to Each Page
 
 ### WiFi Page
 
@@ -261,7 +260,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - ③ IP Address Icon: tap the icon to display a pop-up. If the IP field is blank, ensure Panda_Status shows "Connected." If it says, "Not Connected," check your network settings.
 
-- ④ IP Address Display: Entering this IP in your browser will take you to the Web page, as long as you're on the same local network.
+- ④ IP Address Display: Entering this IP in your browser will take you to the Web page, as long as you are on the same local network.
 
 - ⑤ WiFi Network Configuration Button: tap to go to the [WiFi connection page](#wifi-connect)
 
@@ -283,13 +282,13 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - ⑤ Hotspot IP: Default Hotspot IP is "192.168.254.1." If your router's IP range is "192.168.254.xxx," an IP conflict will prevent the device from binding to the printer. Change the Panda_Lux_RGB hotspot IP to a different range.
 
-- ⑥ Confirm Button: taping this will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](https://bttwiki.com/Panda-Lux-RGB.html#wifi_connect_ap))
+- ⑥ Confirm Button: Tapping this button will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](https://bttwiki.com/Panda-Lux-RGB.html#wifi_connect_ap))
 
 ### Settings Page
 
 <img src=img/PandaLuxRGBPX/en/settings.png width="300"/>
 
-- ① Settings Page Selection: When you tap the icon, it will turn red to indicate that you are on the Settings page.
+- ① Settings Page Selection: When you tap this icon, it will turn red to indicate that you are on the Settings page.
 
 - ② Choose Language (Default: English)
 
@@ -297,41 +296,39 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - ④ Firmware OTA Update: Select a `.bin` file for the update.
 
-    - tap the 'Select .bin File' button to choose the bin file that requires OTA.
+    - Tap the 'Select .bin File' button to choose the bin file that requires OTA.
 
         <img src=img/PandaLuxRGBPX/ota_bin.png width="300"/>
 
-    - Wait for the progress to complete, and the device will automatically restart once the update is finished.
+    - Wait for the progress to complete. The device will automatically restart once the update is finished. 
 
         <img src=img/PandaLuxRGBPX/en/ota_progress.png width="300"/>
 
         <img src=img/PandaLuxRGBPX/en/ota_ok.png width="300"/>
 
-- ⑤ tap to Confirm [Restore Factory Settings](#first-connection)
+- ⑤ Tap to Confirm [Restore Factory Settings](#first-connection)
 
 ### Control Page
 
-- Feature Introduction
+<img src=img/PandaLuxRGBPX/en/panel.png width="300"/>
 
-    <img src=img/PandaLuxRGBPX/en/panel.png width="300"/>
+- ① Control Page Selection: When you tap the icon, it will turn red to indicate that you are on the Control page.
 
-    - ① Control Page Selection: When you tap the icon, it will turn red to indicate that you are on the Control page.
+- ② Current Device Name
 
-    - ② Current Device Name
+- ③ Turn on and off the RGB Light effects.
 
-    - ③ Turn on and off the RGB Light effects.
+- ④ Automatically turns the RGB effect ON and OFF following the printer's stock light.
 
-    - ④ Automatically turns RGB effect ON and OFF following the printers stock light.
+- ⑤ Override Red flashing warning light when the printer is in an error state.
 
-    - ⑤ Override Red flashing warning light when printer is in error state.
+- ⑥ Select the lighting effect and the current effect.
 
-    - ⑥ Select the lighting effect and the current effect.
+- ⑦ Light color setting.
 
-    - ⑦ Light color setting.
+- ⑧ Brightness.
 
-    - ⑧ Brightness.
-
-    - ⑨ Speed.
+- ⑨ Speed.
 
 - Light Effect
 
@@ -339,15 +336,15 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - ①-⑦ After selection, the corresponding lighting effect will be displayed immediately.
 
-    - ⑧ The light color can change based on the printer’s temperature. Additionally, you can choose between two lighting effects—Static or Strobing—under Safety Effect and Danger Effect.
+    - ⑧ The light color can change based on the printer’s temperature. Additionally, you can choose between two lighting effects — Static or Strobing — under Safety Effect and Danger Effect.
 
         <img src=img/PandaLuxRGBPX/en/warning_mode.png width="300"/>
 
-    - ⑨ After selection,The color of the light can be adjusted according to the printer.You can choose between the Static or Rainbow lighting effects in the printing.
+    - ⑨ After selection, the color of the light can be adjusted according to the printer. You can choose between the Static or Rainbow lighting effects in the printing.
 
         <img src=img/PandaLuxRGBPX/en/h2d_mode.png width="300"/>
 
-- Customizing Light Color (using Static mode as an example):
+- Customizing Light Color (using the Static mode as an example):
 
     - Tap on the color setting box, and you will be directed to the color selection page.
 
@@ -359,11 +356,11 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         - ① Factory default preset color.
 
-        - ② Custom color. After clicking, a color picker will appear where you can set the color value for this custom color.
+        - ② Custom color. 
 
             <img src=img/PandaLuxRGBPX/en/picker.jpg width="300"/>
 
-    - After selecting a `Preset` or `Color Definition`(custom color) color block. Click `Confirm`, you can set the RGB lights to your selected color.
+    - After selecting a color block, tap `Confirm`. If you tap on the color block in Color Definition, you can set it to your preferred color.
 
         <img src=img/PandaLuxRGBPX/en/confirm.png width="300"/>
 
