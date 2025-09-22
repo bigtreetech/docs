@@ -143,7 +143,7 @@ DevVersion.bambu.com: 01.00.00.00
 
 ### 步骤 2: 其他Panda设备
 
-* 打开WEB UI, 电机 **扫描打印机**, and select **"PandaBranchPlus"**。
+* 打开WEB UI, 点击 **扫描打印机**, and select **"PandaBranchPlus"**。
 * 输入打印机上的访问码，访问码与打印机上的一模一样。
 * 点击 **绑定**。
 
