@@ -16,11 +16,11 @@
 
 ## Important Notes
 
-* Panda Aura A1 & A1mini include two models: Panda Aura A1 (for A1 printer) and Panda Aura A1mini (for A1mini printer), also referred to as Panda_Aura in some places. Please pay attention.
+* The Panda Aura product line consists of two dedicated models: the Panda Aura A1 for the A1 printer and the Panda Aura A1 mini for the A1 mini printer. Please be aware that the term "Panda_Aura" is often used as a collective name for both products.
 
-* Panda Aura A1 & A1mini only monitor the printer’s status and do not control the printer, so the functionality of Panda Aura A1 & A1mini will not be affected by Bambu firmware updates. For more information on affected and unaffected features, please refer to the [Bambu Lab Official Announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
+* As the Panda Aura A1 and A1 mini are designed solely to monitor printer status and do not issue commands, their functionality remains independent and will not be affected by Bambu Lab firmware updates. For more information on affected and unaffected features, please refer to the [Bambu Lab Official Announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
 
-* Panda Aura A1 & A1mini only supports connection to 2.4G Wi-Fi.
+* Panda Aura A1 & A1 mini only support connection to 2.4G Wi-Fi.
 
 * After connecting Panda Aura A1 & A1mini's AP hotspot in the setup interface, the Web UI interface will directly open. Due to permission issues on some phones, firmware uploads may not be possible on this page. Please visit the Web UI in a browser to upload files.
 
@@ -29,12 +29,12 @@
 
 ## Product Overview
 
-Panda Aura A1 & A1mini instantly transforms the A1 / A1 mini printers into desktop focal points. This product includes colorful light effects and audio-visual alarms, with customizable RGB lighting and sound effects, which can be controlled through Web UI or the mobile app (coming soon). You can also preset scene interactions like "Las Vegas" and "Cyber Neon." When printing is complete or an error occurs, the light board will emit lighting effects similar to the H2D Style Status Indicator. Panda Aura A1 & A1mini enable remote control, status visibility, and interactive ambiance, making each print a light show.
+The Panda Aura A1 and A1 mini transform your Bambu Lab A1 printers into interactive desktop centerpieces. They provide real-time status updates through customizable RGB lighting and audio-visual alarms, which can be managed via a Web UI or an upcoming mobile app. Choose from preset scenes or create your own for a unique ambiance. By offering remote status visibility and dynamic light shows for events like print completion, these devices enhance both functionality and style.
 
 
 ## Product Features
 
-* Product Positioning: A1/A1mini printer decorative light board and audio-visual alarm
+* Product Positioning: A1/A1 mini printer decorative light board and audio-visual alarm
 * Customizable RGB light effects and sound effects (via Web UI and APP)
 * Remote control of lighting effects via APP (coming soon), with scene interactions
 * Displays printing status (same logic as H2D printer status light)
@@ -48,12 +48,12 @@ Panda Aura A1 & A1mini instantly transforms the A1 / A1 mini printers into deskt
 | Storage          | 384 KB ROM, 400 KB SRAM, 4 MB combined flash                             |
 | Logic Voltage    | 3.3V                                                                   |
 | Input Voltage    | 24V                                                                    |
-| Current          | Panda Aura A1: 0.53A; Panda Aura A1mini: 0.46A                         |
+| Current          | Panda Aura A1: 0.53A; Panda Aura A1 mini: 0.46A                         |
 | Power Input      | Supports MX3.0 4pin & MX3.0 2pin                                       |
 | Light Board Material | Acrylic                                                              |
-| RGB Light Beads  | Panda Aura A1: 60 pieces; Panda Aura A1mini: 55 pieces                 |
-| Packaging Size   | Panda Aura A1: 427x 406 x 37mm; Panda Aura A1mini: 416x 230 x 37mm     |
-| Light Board Size | Panda Aura A1: 384x 380x 8mm; Panda Aura A1mini: 314x 199 x 8mm         |
+| RGB Light Beads  | Panda Aura A1: 60 pieces; Panda Aura A1 mini: 55 pieces                 |
+| Packaging Size   | Panda Aura A1: 427x 406 x 37mm; Panda Aura A1 mini: 416x 230 x 37mm     |
+| Light Board Size | Panda Aura A1: 384x 380x 8mm; Panda Aura A1 mini: 314x 199 x 8mm         |
 | Speaker Power    | 3W                                                                     |
 | Audio Format     | Supports MP3 format                                                     |
 | Communication    | 2.4G Wi-Fi (IEEE 802.11 b/g/n)                                          |
@@ -86,19 +86,19 @@ Panda Aura A1 Accessories List
 
     <img src=img/PandaAura/install_2.png width="600"/>
 
-* Adjust the A1 printer to be centered and ensure that the left and right columns are pressed against the limit blocks at the back.
+* Position the A1 printer so that it is centered and both the left and right columns are flush against the rear limit blocks.
 
     <img src=img/PandaAura/install_3.png width="600"/>
 
-* Install the three self-tapping screws from the bottom (it’s easier to install from the bottom by moving the device to the edge of the table without flipping the printer).
+* For easiest installation, position the device at the edge of your work surface. Then, install the three self-tapping screws from the underside. This method avoids the need to flip the printer over.
 
     <img src=img/PandaAura/install_4.png width="600"/>
 
-* Insert the acrylic light board's connecting cable into the control box’s bottom port, as shown.
+* Connect the acrylic light board's cable to the port on the bottom of the control box, as illustrated.
 
     <img src=img/PandaAura/install_5.png width="600"/>
 
-* Determine the position of the metal sheet by positioning the control box at the appropriate location on the printer, then attach the metal sheet to secure it.
+* To determine the metal sheet's position, hold the control box in its intended location on the printer. Once positioned, attach the sheet to secure the box.
 
     <img src=img/PandaAura/install_6.png width="600"/>
 
@@ -108,23 +108,23 @@ Panda Aura A1 Accessories List
 
     <img src=img/PandaAura/install_7_1.jpg width="600"/>
 
-* Insert the 2-pin plug into the back port. (When removing, please apply force at the terminal, do not pull the cable directly.)
+* Connect the 2-pin plug to the port on the back. When disconnecting, pull from the plug itself, not the cable.
 
     <img src=img/PandaAura/install_8.png width="400"/>
 
-* Locate an unused 4-pin power port on the back of the A1 printer, then insert the other end of the adapter cable's MX3.0 4-pin plug into the printer’s MX3.0 4-pin port.
+* Locate an unused 4-pin MX3.0 power port on the back of the A1 printer. Connect the adapter cable's corresponding 4-pin MX3.0 plug to this port.
 
     <img src=img/PandaAura/install_9.jpg width="600"/>
 
 #### Powering through Panda Branch Plus
 
-If you do not wish to power through the printer, or if the printer's MX3.0 port is occupied, you can choose to purchase Panda Branch Plus (sold separately), directly inserting Panda Aura A1's MX3.0 2-pin plug into Panda Branch Plus's MX3.0 port to power it.
+For an alternative power source, or if the printer's MX3.0 port is occupied, you can use the Panda Branch Plus (sold separately). Simply connect the Panda Aura A1's 2-pin MX3.0 plug directly into the Panda Branch Plus.
 
 <img src=img/PandaAura/branchplus.jpg width="600"/>
 
-### Installation on A1mini Printer
+### Installation on A1 mini Printer
 
-Panda Aura A1mini Accessories List
+Panda Aura A1 mini Accessories List
 
 <img src=img/PandaAura/en/list_a1mini.png width="600"/>
 
@@ -134,11 +134,11 @@ Panda Aura A1mini Accessories List
 
     <img src=img/PandaAura/install_11.png width="600"/>
 
-* Place the A1mini printer on the acrylic light board, aligning the board’s edges with the printer body.
+* Place the A1 mini printer on the acrylic light board, aligning the board’s edges with the printer body.
 
     <img src=img/PandaAura//install_12.png width="600"/>
 
-* Install the four M3*18 self-tapping screws from the bottom (it’s easier to install from the bottom by moving the printer to the edge of the table without flipping the printer).
+* For easiest installation, position the printer at the edge of your work surface. Then, install the four M3x18 self-tapping screws from the underside. This method avoids the need to flip the printer over.
 
     <img src=img/PandaAura/install_13.png width="600"/>
 
@@ -146,7 +146,7 @@ Panda Aura A1mini Accessories List
 
     <img src=img/PandaAura/install_14.png width="600"/>
 
-* Determine the position of the metal sheet by positioning the control box at the appropriate location on the printer, then attach the metal sheet to secure it.
+* To determine the metal sheet's position, first place the control box in its intended location on the printer. Then, attach the sheet to secure the box.
 
     <img src=img/PandaAura/install_15.png width="600"/>
 
@@ -156,17 +156,18 @@ Panda Aura A1mini Accessories List
 
     <img src=img/PandaAura/install_7_1.jpg width="600"/>
 
-* Insert the 2-pin plug into the back port. (When removing, please apply force at the terminal, do not pull the cable directly.)
+* Insert the 2-pin plug into the rear port. When disconnecting, pull from the plug itself to avoid damaging the cable.
 
     <img src=img/PandaAura/install_8.png width="400"/>
 
-* Locate an unused 4-pin power port on the side of the A1mini printer, then insert the other end of the adapter cable’s MX3.0 4-pin plug into the printer’s MX3.0 4-pin port as shown.
+* Locate an unused 4-pin MX3.0 power port on the side of the A1mini printer. Connect the adapter cable's corresponding 4-pin plug to this port, as shown in the illustration.
+
 
     <img src=img/PandaAura/install_16.png width="600"/>
 
 #### Powering through Panda Branch Plus
 
-If you do not wish to power through the printer, or if the printer's MX3.0 port is occupied, you can choose to purchase Panda Branch Plus (sold separately), directly inserting Panda Aura A1mini’s MX3.0 2-pin plug into Panda Branch Plus's MX3.0 port to power it.
+For an alternative power source, or if the printer's MX3.0 port is in use, the Panda Branch Plus (sold separately) is available. Simply connect the Panda Aura A1 mini's MX3.0 2-pin plug into Panda Branch Plus's MX3.0 port to power it.
 
 <img src=img/PandaAura/branchplus.jpg width="600"/>
 
@@ -174,7 +175,7 @@ If you do not wish to power through the printer, or if the printer's MX3.0 port 
 
 <a id="first-connection"></a>
 
-> Note: The software operation steps for the control box used by Panda Aura A1 and Panda Aura A1mini are the same. Below, it will be referred to as Panda_Aura, without distinguishing between the specific models.
+> Note: The software setup and operation for the Panda Aura A1 and A1 mini control boxes are identical. For the remainder of this guide, they will be collectively referred to as "Panda_Aura."
 
 When you power up for the first time or restore factory settings, you'll see a blue flowing light, indicating that Panda Aura is not yet bound to the printer.
 
@@ -202,7 +203,7 @@ When you power up for the first time or restore factory settings, you'll see a b
   
 - WiFi Connection Page
 
-    - After the first factory shipment or resetting to factory settings, entering this page will automatically scan for surrounding WiFi, or you can manually click to scan.
+    - Upon initial setup or after a factory reset, this page will automatically scan for available Wi-Fi networks. You can also manually initiate a scan.
 
         <img src=img/PandaAura/en/wifi_scan.png width="300"/>
 
@@ -218,11 +219,11 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         <img src=img/PandaAura/en/wifi_connect.png width="300"/>
 
-    - Click Connect, and the interface will switch to the WiFi connection page, showing `WiFi connecting...`.
+    - Click 'Connect' to proceed to the Wi-Fi connection page, where the status will display as `WiFi connecting...`.
 
         <img src=img/PandaAura/en/wifi_connecting.png width="300"/>
 
-    - Wait a moment, and a WiFi connection status pop-up will appear.
+    - A pop-up will appear shortly to confirm the Wi-Fi connection status.
 
         - Connection Failed:
 
@@ -266,7 +267,7 @@ When you power up for the first time or restore factory settings, you'll see a b
     
     - Enter the printer's `Access Code`
 
-        * Find the `Access Code` in the printer (Using A1 series printer as an Example)
+        * Find the `Access Code` in the printer (Using the A1 series printer as an example)
 
             <img src=img/PandaAura/en/a1_1.jpg width="300"/>
 
@@ -305,7 +306,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 <img src=img/PandaAura/en/wifi_ap.png width="300"/>
 
-- ① AP Page Selection: When you click the icon, it will turn red to indicate that you are on the AP page.
+- ① AP Page Selection: When you click on the icon, it will turn red to indicate that you are on the AP page.
 
 - ② AP Hotspot Switch
 
@@ -339,7 +340,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         <img src=img/PandaAura/ota_bin.png width="300"/>
   
-    - Wait for the progress to complete, and the device will automatically restart once the update is finished.
+    - Wait for the update to complete; the device will then restart automatically.
 
         <img src=img/PandaAura/en/ota_progress.png width="300"/>
 
@@ -357,7 +358,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - ② Current Device Name
 
-    - ③ Click Switch to turn on and off the RGB Light effects.
+    - ③ Use the 'Switch' button to turn the RGB lighting effects on or off.
 
     - ④ Automatically turns RGB effect ON and OFF following the printers stock light.
 
@@ -375,7 +376,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     <img src=img/PandaAura/en/mode.png width="300"/>
 
-    - ①-⑥After selection, the corresponding lighting effect will be displayed immediately.
+    - ①-⑥The lighting effect will change in real-time as you make your selection.
 
     - ⑦The color of the light can be adjusted according to the temperature of the printer.You can choose between two lighting effects, Static or Strobing, under Safety Effect and Danger Effect.
 
@@ -387,21 +388,21 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - Customizing Light Color (using the Static mode as an example):
 
-    - Click on the color setting option,You will then be directed to the color selection page.
+    - Click the color setting option to open the color selection page.
 
         <img src=img/PandaAura/en/static_mode.png width="300"/>
 
-    - Choose the desired color.
+    - Choose your desired color.
 
         <img src=img/PandaAura/en/color_preset.png width="300"/>
 
         - ① Factory default preset color.
 
-        - ② Custom color. After clicking, a color picker will appear where you can set the color value for this custom color.
+        - ② Select Custom Color to open a color picker and set a specific color value.
 
             <img src=img/PandaAura/en/picker.png width="300"/>
 
-    - After selecting a `Preset` or `Color Definition`(custom color) color block. Click `Confirm`, you can set the RGB lights to your selected color.
+    - After selecting a `Preset` or `Color Definition`(custom color) color block, click `Confirm`. You can set the RGB lights to your selected color.
 
         <img src=img/PandaAura/en/confirm.png width="300"/>
 
