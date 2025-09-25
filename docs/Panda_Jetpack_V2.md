@@ -14,8 +14,7 @@
 
 ## **Introduction**
 
-The Panda Jetpack V2 is a lightweight front cover upgrade for Bambu Lab P1/X1 printers that revolutionizes the printing experience. This precision-engineered cover deliver omnidirectional cooling for flawless overhangs and intricate details, while its optimized mass distribution enhances printhead speed and accuracy. Complete with customizable RGB lighting, the Jetpack V2 offers both functional print monitoring through visual alerts and aesthetic customization to match your style. It's the perfect fusion of performance and personalization, all while maintaining your printer's sleek profile.
-
+The Panda Jetpack V2 is a precision-engineered front cover upgrade for Bambu Lab P1 and X1 printers, designed to significantly enhance print quality and performance. It delivers omnidirectional cooling for superior overhangs and fine details, while its optimized mass distribution allows for increased printhead speed and accuracy. Equipped with customizable RGB lighting, it provides both practical print monitoring through visual alerts and aesthetic personalization - all within a sleek, form-fitting design that maintains the printer's original profile.
 
 ## **Feature Highlights**
 
@@ -25,19 +24,19 @@ The Panda Jetpack V2 is a lightweight front cover upgrade for Bambu Lab P1/X1 pr
 
 - **Omni-directional Part Cooling Fan Duct**
 
-    Engineered with a corner-outlet design for uniform airflow, delivering superior bridging and overhang performance. Its compact shape provides a perfect view of the nozzle and print at all times.
+    Features a corner-outlet design that distributes airflow evenly. This improves bridging and overhang performance. The compact shape also ensures a clear, unobstructed view of the nozzle and printing process.
 
 - **Precision Injection Molded**
 
-    Enhanced surface finish for elevated visual appeal and premium feel.
+    Provides an enhanced surface finish, resulting in a more visually appealing and premium-feeling product.
 
 - **Web UI Wireless Control**
 
-    Customize your lighting effortlessly. Manage effects, color, brightness, and speed via an intuitive web interface.
+    Use the intuitive web interface to customize your lighting. Adjust effects, color, brightness, and speed.
 
-- **H-Series Style Status Color Indicator**
+- **H2D Style Status Color Indicator**
 
-    Vibrant, colorful lighting provides instant feedback and dynamic visual alerts.
+    Use the vibrant LED lighting to receive instant feedback on device status and dynamic visual alerts for notifications.
 
 
 ## **Specifications**
@@ -63,13 +62,13 @@ The Panda Jetpack V2 is a lightweight front cover upgrade for Bambu Lab P1/X1 pr
 
 ### Preparation
 
-Before beginning, unload the filament and power off the printer.
+Before starting, completely unload the filament and turn the printer's power off.
 
 ### **Disassembly**
 
 * Step 1 – Remove the Front Housing Assembly
 
-    Remove the front housing assembly completely by disconnecting the fan connector.
+    After disconnecting the fan's electrical connector, you can remove the front housing assembly.
 
     <img src=img/PandaJetpackV2/install_1.png width="300"/>
 
@@ -81,7 +80,7 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 3 – Release the Cutter
 
-    Loosen the cutter lever screw with the H1.5 hex key to release the cutter from the extruder, allowing the cutter lever to hang freely.
+    Using a H1.5 hex key, loosen the cutter lever screw just enough to release the lever assembly from the extruder body.
 
     <img src=img/PandaJetpackV2/install_3.png width="300"/>
 
@@ -89,7 +88,7 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 4 – Remove Screws
 
-    Remove the 8 screws on the sides of the toolhead, with 4 screws on each side.
+    Remove the 8 screws on the sides of the toolhead, with 4 screws on each side. These screws will be used later to secure the Panda Jetpack Back Shell.
 
     <img src=img/PandaJetpackV2/install_5.jpg width="300"/>
 
@@ -111,7 +110,7 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 1 – Install Panda Jetpack Back Shell Middle Housing
 
-    As shown, correctly install the Panda Jetpack back shell middle housing.
+    Correctly install the Panda Jetpack back shell middle housing by aligning it with the toolhead and pressing firmly until it clicks into place.
 
     <img src=img/PandaJetpackV2/install_9.png width="300"/>
 
@@ -125,7 +124,7 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 3 – Secure Screws
 
-    After aligning the rear housing with the middle housing, insert and tighten the 8 screws to secure them in place.
+    After aligning the housings, secure them by inserting and tightening the eight (8)  previously removed screws.
 
     <img src=img/PandaJetpackV2/install_11.jpg width="300"/>
 
@@ -140,14 +139,14 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 5 – Connect PTFE Tube
 
-    Insert the filament tube into the pneumatic joint securely.
+    Insert the PTFE tube straight into the pneumatic fitting and push firmly until it is fully seated.
 
     <img src=img/PandaJetpackV2/install_14.jpg width="300"/>
 
 
 * Step 6 – Attach Jetpack Front Housing Assembly
 
-    Push the fan out from the center of the stock front housing.
+    Push firmly on the fan's outer frame to dislodge it.
 
     <img src=img/PandaJetpackV2/install_15.jpg width="300"/>
 
