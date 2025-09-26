@@ -4,11 +4,11 @@
 
 - **Product Link**:
 
-    - Panda Station：https://bit.ly/4nogy2S
+    - Panda Station：[Buy Here](https://bit.ly/4nogy2S)  
 
-    - Naked Panda Station:https://bit.ly/4pmxSah 
+    - Naked Panda Station: [Buy Here](https://bit.ly/4pmxSah)   
 
-The [printed parts](https://github.com/bigtreetech/PandaStation/tree/master/Print_Files) include:
+You can download the print files from [GitHub](https://github.com/bigtreetech/PandaStation/tree/master/Print_Files) or [MakerWorld](https://makerworld.com/zh/models/1820302-panda-station-printout#profileId-1942928):
 
 * The RGB light strip fixture
 * Panda RGB Controller external mounting shell
