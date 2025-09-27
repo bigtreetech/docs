@@ -66,7 +66,7 @@ Panda Station is a stackable storage solution designed for **Bambu Lab printer**
 
 * Step 1: Install the caster wheels at the bottom.
 
-   After unpacking, place the protective foam on the floor to prevent scratches, remove all internal accessories, and carefully turn the Panda Station upside down onto the foam to install the caster wheels onto the mounting points at the bottom of the unit.
+    After unpacking, place the protective foam on the floor to prevent scratches, remove all internal accessories, and carefully turn the Panda Station upside down onto the foam to install the caster wheels onto the mounting points at the bottom of the unit.
 
     <img src=img/PandaStation/install_1.png width="300"/>
 
@@ -236,7 +236,7 @@ Panda Station is a stackable storage solution designed for **Bambu Lab printer**
 
 * Step 3: For the Panda Station (enclosed version), remove the side panel within the red-marked area (skip this step for the Naked Panda Station), then attach the provided cable management clips to the pillar sides. Insert the longer 4-pin cable (from the package) into the light strip’s connector, ensuring the arrow on the connector is aligned, then route the cable as shown in the diagram and connect it to the upper port on the back panel. 
 
-Note: The Naked Panda Station does not include the connector board; it must be purchased separately as part of the [Panda Station Enclosure Kit](https://) or [Panda Station Lighting Kit](https://). The Panda Station Lighting Kit requires the use of the printed mounting fixtures.
+    Note: The Naked Panda Station does not include the connector board; it must be purchased separately as part of the [Panda Station Enclosure Kit](https://bit.ly/3VzQKoD) or [Panda Station Lighting Kit](https://bit.ly/4mk6yqz). The Panda Station Lighting Kit requires the use of the printed mounting fixtures.
 
     <img src=img/PandaStation/rgb_7.png width="600"/>
 
