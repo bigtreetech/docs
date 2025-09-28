@@ -4,10 +4,10 @@
 
 - **Product Link**: [Buy Here](https://bit.ly/4mAb2JP)
 
-- The [print files](https://github.com/bigtreetech/PandaDen/tree/master/Print_Files) include:
-  - Panda RGB Controller mounting shell.
-  - 256×256 build plate storage rack.
-  - Tool Drawer Gridfinity adapter chassis and related storage components.
+- You can download the print files from [GitHub](https://github.com/bigtreetech/PandaDen/tree/master/Print_Files) or [MakerWorld](https://makerworld.com/en/models/1832235-panda-den-printout#profileId-1956684):
+   - Panda RGB Controller mounting shell.
+   - 256×256 build plate storage rack.
+   - Tool Drawer Gridfinity adapter chassis and related storage components.
 
 ## **Revision History**
 | Version   | Date             | Update Content |
