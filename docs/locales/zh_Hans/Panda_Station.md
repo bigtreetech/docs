@@ -10,6 +10,8 @@
 
 [打印件](https://github.com/bigtreetech/PandaStation/tree/master/Print_Files)包含:
 
+[Makerworld](https://makerworld.com/zh/models/1820302-panda-station-printout#profileId-1942928)
+
 * RGB灯条固定件
 * Panda RGB Controller外置安装壳
 * 托盘耗材固定架、256*256打印钢板收纳架
