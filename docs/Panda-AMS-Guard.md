@@ -12,13 +12,13 @@ The Panda AMS Guard is a precision-engineered drop-in upgrade designed to safegu
 
 ## **Key Features**
 
-**High-Hardness Ceramic Inlet**
+**High-Hardness Ceramic Inlet**<br>
 Engineered for superior abrasion resistance, the ceramic inlet protects critical entry points from wear, even when processing abrasive filaments—extending the lifespan of your AMS.
 
-**Tool-Free Snap-Fit Installation**
+**Tool-Free Snap-Fit Installation**<br>
 Designed for effortless setup, the guard securely clicks into place without requiring additional tools, ensuring a fast and hassle-free upgrade.
 
-**Premium HP SLS Nylon Body**
+**Premium HP SLS Nylon Body**<br>
 Manufactured using high-performance Selective Laser Sintering (SLS) nylon, the guard delivers exceptional strength, dimensional precision, and long-term durability for a perfect fit.
 
 
