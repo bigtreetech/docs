@@ -69,14 +69,6 @@ The **BIQU Panda Under Armor H2D**  is a dedicated mobile base for the H2D 3D pr
 
     <img src=img/PandaUnderArmorH2D/install_4.JPg width="600"/>
 
-    
-### Feature Requests
-
-We welcome your suggestions for future firmware enhancements. Please submit your feature requests on the official Panda Branch Plus GitHub repository.
-
-[Request Features](https://github.com/bigtreetech/PandaBranchPlus/issues)
-
-
 ## Technical Support
 
 Was this page helpful? If you have any questions about product usage or encounter issues, please contact our after-sales team at service001@biqu3d.com.
