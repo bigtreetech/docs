@@ -8,7 +8,7 @@
 
 ## **Product Overview**
 
-The **BIQU Panda Under Armor H2D** is specifically designed for the H2D 3D printer, offering full bottom protection during moving. It features castor wheels for easy movement and stable positioning, making it adaptable to various usage scenarios while ensuring complete protection and convenience for your device.
+The **BIQU Panda Under Armor H2D**  is a dedicated mobile base for the H2D 3D printer. It offers full-bottom protection against dust and impacts while the printer is in motion. The built-in caster wheels make it easy to reposition your printer, and they lock to provide a stable, vibration-resistant platform for high-quality prints.
 
 
 ## **Product Features**
@@ -17,7 +17,7 @@ The **BIQU Panda Under Armor H2D** is specifically designed for the H2D 3D print
 
 * **Custom Fit**: Custom fit for the H2D printer, providing a seamless fit that effectively blocks dust and debris.
 
-* **Equipped with Liftable Castor Wheels**: : Enables smooth mobility and secure parking, adapting to diverse workspace requirements with ease.
+* **Equipped with Liftable Castor Wheels**: Enables smooth mobility and secure parking, adapting to diverse workspace requirements with ease.
 
 
 ## **Product Specifications**
@@ -43,24 +43,40 @@ The **BIQU Panda Under Armor H2D** is specifically designed for the H2D 3D print
 
     * With the silkscreened side facing up, join the two metal panels and secure them with **6 × M4×6 screws**.
 
-    * Use **4 × M3×6 screws** to attach the emergency stop switch bracket to the plate.
+    * Attach the emergency stop switch bracket to the plate using **4 × M3×6 screws**.
 
     <img src=img/PandaUnderArmorH2D/en/install_2.png width="600"/>
 
 * **Step 3: Reinforce Connection Stability**
 
-    * Flip the Panda Under Armor H2D onto its load-bearing side (the side without silkscreened) and use **8 × M4×6 screws** to secure the reinforcement plate across the two panels, enhancing stability.
+    * Flip the assembly onto its non-silkscreened, load-bearing side. Secure the reinforcement plate across the two panels using **8 × M4×6 screws** to enhance stability.
 
-    * Finally, use **4 × M3×16 screws** at each corner to fully install the wheels. With the help of a partner, align the printer with the Panda Under Armor H2D and place the printer onto it.
+    * Complete the assembly by installing the wheels using **4 × M3×16 screws** at each corner. Then, with the help of a partner, carefully align and position the printer onto the base.
 
     <img src=img/PandaUnderArmorH2D/en/install_3.png width="600"/>
 
 ### **How to Lower the Shock-Absorbing Foot Pads for Stable Placement**
 
-If you need the printer to stay stable and immovable, you can lower the shock-absorbing foot pads within the castor wheels.
+ Lower the shock-absorbing foot pads on the castor wheels to prevent any movement during operation.
 
 * **Step 1**: Visit the [Panda Castor Wheel Adjustment Tool](https://makerworld.com/en/models/1646712-panda-castor-wheel-adjustment-tool?from=search#profileId-1740562) to download and print the Panda Castor Wheel Adjustment Tool.
 
-* **Step 2**: Use the Panda Castor Wheel Adjustment Tool to pull the red adjustment wheel forward or backward to easily raise or lower the foot pads, allowing the printer to either stay securely on the desktop or floor, or move smoothly when needed.
+* **Step 2**: 
+
+**To Lock**: Use the tool to pull the red adjustment wheel forward, lowering the foot pads and securing the printer to the floor.
+
+**To Unlock**: Pull the wheel backward to raise the foot pads, enabling smooth movement.
 
     <img src=img/PandaUnderArmorH2D/install_4.JPg width="600"/>
+
+    
+### Feature Requests
+
+We welcome your suggestions for future firmware enhancements. Please submit your feature requests on the official Panda Branch Plus GitHub repository.
+
+[Request Features](https://github.com/bigtreetech/PandaBranchPlus/issues)
+
+
+## Technical Support
+
+Was this page helpful? If you have any questions about product usage or encounter issues, please contact our after-sales team at service001@biqu3d.com.
