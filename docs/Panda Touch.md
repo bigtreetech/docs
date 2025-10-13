@@ -11,7 +11,7 @@ The CAD files for the Panda Touch can be downloaded [here](https://github.com/bi
 
 The Panda Touch is currently compatible with all Bambu Lab printer firmware versions up until:
  
-* P1P/S: 01.07.00.00 
+* P1P/S: 01.08.01.00
 * X1C --> 01.08.02.00
 * X1E --> 01.01.02.00
 * A1 --> 01.04.00.00
