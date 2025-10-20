@@ -2,53 +2,50 @@
 
 <img src=img/Panda_AMS_Guard/panda_ams_guard_title.png width="600"/>
 
-**Product Link:** 
-https://biqu.equipment/products/biqu-ams-upgrades-multi-material-reliability-upgrades-for-bambu-lab-p1-x1-3d-printers-with-ams-simple-plug-and-play-installation?variant=41897387917410
+**Product Link**: [Buy Here](https://biqu.equipment/products/biqu-ams-upgrades-multi-material-reliability-upgrades-for-bambu-lab-p1-x1-3d-printers-with-ams-simple-plug-and-play-installation?variant=41897387917410)  
 
-**Wiki:** https://bttwiki.com/Panda-AMS-Guard.html
 
 ## **Introduction**
 
-The Panda AMS Guard is a drop-in upgrade designed to protect your AMS filament feed port from wear and tear. Featuring a ceramic inlet and an SLS nylon body, it ensures exceptional durability, secure installation, and long-term reliability during multi-color printing.
+The Panda AMS Guard is a precision-engineered drop-in upgrade designed to safeguard your AMS filament feed port against wear and abrasion. Constructed with a high-hardness ceramic inlet and a durable SLS nylon body, this upgrade ensures long-term reliability, secure installation, and enhanced durability—especially during intensive multi-color printing sessions.
 
-## **Feature Highlights**
 
-**High-Hardness Ceramic Inlet:** Abrasion-resistant to withstand even the harshest filaments, ensuring AMS longevity by protecting critical entry points from wear.
+## **Key Features**
 
-**Snap-Fit Installation:** Tool-free design enables fast, secure attachment.
+**High-Hardness Ceramic Inlet**<br>
+Engineered for superior abrasion resistance, the ceramic inlet protects critical entry points from wear, even when processing abrasive filaments—extending the lifespan of your AMS.
 
-**HP SLS Nylon Body:** Provides high strength, a precise fit, and long-term durability.
+**Tool-Free Snap-Fit Installation**<br>
+Designed for effortless setup, the guard securely clicks into place without requiring additional tools, ensuring a fast and hassle-free upgrade.
 
-## **Specifications**
+**Premium HP SLS Nylon Body**<br>
+Manufactured using high-performance Selective Laser Sintering (SLS) nylon, the guard delivers exceptional strength, dimensional precision, and long-term durability for a perfect fit.
+
+
+## **Technical Specifications**
 
 - Product Name: Panda AMS Guard
-- Material: Ceramic, HP SLS Nylon
-- Compatibility: AMS
-- Packaging List: Panda AMS Guard x4
+- Materials: High-hardness ceramic, HP SLS Nylon
+- Compatibility: Bambu Lab AMS (Automatic Material System)
+- Included in Package: (4) Panda AMS Guards
 
-## **Installation Guide**
 
-Align the Panda AMS Guard with the AMS filament feed port, cover the top part of the port, and press firmly until it clicks into place.
+## **Installation Instructions**
+
+1.	Align the Panda AMS Guard with the AMS filament feed port.
+2.	Position the guard over the top of the port.
+3.	Press firmly until an audible click confirms secure installation.
 
 <img src=img/Panda_AMS_Guard/panda_ams_guard_in1.png width="600"/>
 
 
-
-**Product Purchase Link**
-
-https://biqu.equipment/products/biqu-ams-upgrades-multi-material-reliability-upgrades-for-bambu-lab-p1-x1-3d-printers-with-ams-simple-plug-and-play-installation?variant=41897387917410
-
-**If you have any issues with the product, please submit a support ticket.**
-
-https://biqu3d.com/pages/submit-a-ticket
+**If you have any issues with the product, please submit a support ticket.**  
+[Submit a Ticket](https://biqu3d.com/pages/submit-a-ticket)
 
 **Navigation:**
 
-BIQU Official Website: http://biqu3d.com
-
-BIGTREETECH Official Website: http://bigtree-tech.com
-
-Online Store: https://biqu.equipment
-
-Community: https://community.biqu3d.com
+- [BIQU Official Website](http://biqu3d.com)  
+- [BIGTREETECH Official Website](http://bigtree-tech.com)  
+- [Online Store](https://biqu.equipment)  
+- [Community](https://community.biqu3d.com)  
 
