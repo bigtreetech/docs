@@ -14,16 +14,16 @@
 
 ## **Product Overview**
 
-Panda Hub Plus is a compact power distribution solution designed for Bambu Lab P1, X1, and A1 series printers. It supports a **5V / 5A power input** (via a standard adapter or the Panda Branch Plus Type-C port) and provides **seven Type-C outputs**, capable of powering up to 7 devices simultaneously.
+Panda Hub Plus is a compact power distribution unit for Bambu Lab P1, X1, and A1 series printers. It accepts a 5V/5A input from a standard adapter or the Panda Branch Plus Type-C port and distributes power through seven Type-C outputs, enabling the simultaneous operation of up to seven devices.
 
-With its printable case, Panda Hub Plus can also be mounted inside the P1 printer chamber for a clean, professional installation. This product delivers reliable performance to all connected devices while ensuring safe and organized cable management in your workspace.
+The Panda Hub Plus features a printable case for a clean, professional installation inside the P1 printer chamber. It ensures reliable performance for all connected devices while maintaining safe and organized cable management.
 
 
 ## **Features**
 
 * Dedicated power hub for Bambu Lab printers
 
-* Supports **5V / 5A input** (adapter or Panda Branch Plus Type-C port)
+* Supports **5V/5A input** (adapter or Panda Branch Plus Type-C port)
 
 * Provides **7 × Type-C outputs** (3 × 3A, 4 × 1.5A)
 
@@ -104,3 +104,8 @@ Download the required case files for your printer model [from the GitHub reposit
     <img src=img/PandaHubPlus/en/p12.jpg width="600"/>
 
     *Note:* This method requires **one M3×20 machine screw** at the position shown in the image.
+
+    
+## Technical Support
+
+Was this page helpful? If you have any questions about product usage or encounter issues, please contact our after-sales team at service001@biqu3d.com.
