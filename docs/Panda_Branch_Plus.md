@@ -14,9 +14,9 @@
 
 ## **Product Overview**
 
-Panda Branch Plus delivers advanced modular power management for your 3D printing ecosystem. This all-in-one system includes a powerful 24V / 2.8A adapter and features 10 independent power channels (5 × MX3.0 ports and 5 × Type-C ports) for flexible device connections—each individually switchable via the WebUI. Powered by a built-in ESP32 processor and enhanced MQTT gateway technology, it overcomes traditional connectivity limitations.
+The Panda Branch Plus is an advanced, all-in-one power management hub designed for sophisticated 3D printing ecosystems. It centralizes control with ten independent, switchable channels (five MX3.0 and five Type-C ports - powered by a robust 24V/2.8A adapter). Each channel can be individually controlled via the intuitive WebUI, allowing for precise management of every connected device. Driven by a built-in ESP32 processor and enhanced MQTT gateway technology, the Panda Branch Plus ensures seamless and reliable connectivity, eliminating the limitations of traditional power solutions.
 
-A dedicated 5V / 5A Type-C output provides direct power for Panda Hub Plus, while the detachable housing design ensures quick and easy installation—simply snap the housing into place for a ready-to-use power solution. With integrated intelligent power distribution and network reliability, Panda Branch Plus guarantees stable, worry-free performance across all connected devices.
+A dedicated 5V/5A Type-C output seamlessly powers a Panda Hub Plus, and the tool-free, snap-in housing design enables quick and effortless installation. Together with its intelligent power distribution and robust network reliability, the Panda Branch Plus guarantees stable, worry-free performance for your entire connected ecosystem.
 
 
 ## **Product Features**
@@ -25,7 +25,7 @@ A dedicated 5V / 5A Type-C output provides direct power for Panda Hub Plus, whil
 
 * Built-in **MQTT gateway** supporting multiple sub-devices for reliable networking
 
-* High-power adapter included: **24V / 2.8A** for stable and consistent output
+* High-power adapter included: **24V/2.8A** for stable and consistent output
 
 * **5 × Type-C outputs** and **5 × MX3.0 outputs** for versatile connections
 
@@ -38,9 +38,9 @@ A dedicated 5V / 5A Type-C output provides direct power for Panda Hub Plus, whil
 
 - **Product Name**: BIQU Panda Branch Plus
 
-- **Compatibility**: P1P / P1S / X1C / X1E / A1 / A1 mini
+- **Compatibility**: P1P/P1S/X1C/X1E/A1/A1 mini
 
-- **Power Input**: DC 5.5×2.1 (included adapter: 24V / 2.8A)
+- **Power Input**: DC 5.5×2.1 (included adapter: 24V/2.8A)
 
 - **Built-in Gateway**: Integrated MQTT gateway, supports up to 20 sub-devices.
 
@@ -58,7 +58,7 @@ A dedicated 5V / 5A Type-C output provides direct power for Panda Hub Plus, whil
 
 - **Protection Features**: ESD Protection, Over-Current Protection, Short-Circuit Protection
 
-- **Important Notes**: Uses included 24V / 2.8A adapter.
+- **Important Notes**: Uses included 24V/2.8A adapter.
 
 
 ## **Interface**
@@ -94,11 +94,11 @@ Download the required case files for your printer model [from the GitHub reposit
 
     <img src=img/PandaBranchPlus/a12_en.jpg width="800"/>
    
-    **Option 2:** Use **two M3×15 machine screws** to secure it to the A1 Z-axis
+    **Option 2:** Use **two M3×15 machine screws** to secure it to the A1 Z-axis.
 
     <img src=img/PandaBranchPlus/a13_en.jpg width="800"/>
 
-#### For P1 / X1 Series Printers
+#### For P1/X1 Series Printers
 
 * Place the Panda Branch Plus into the printed upper and lower shells and secure it with **KM3×14 self-tapping screws**.
 
@@ -128,7 +128,7 @@ Download the required case files for your printer model [from the GitHub reposit
 
     <img src=img/PandaBranchPlus/language.png width="300"/>
 
-* After scanning for Wi-Fi, choose the target network, enter its password, and click **Connect**.
+* After scanning for Wi-Fi, select your target Wi-Fi network from the list, enter the password, and click **Connect**.
 
     <img src=img/PandaBranchPlus/ap_connect_en.png width="300"/>
 
@@ -198,7 +198,7 @@ DevVersion.bambu.com: 01.00.00.00
 
 ### Feature Requests
 
-We welcome your suggestions for future firmware enhancements. Please submit your feature requests on the official Panda Branch Plus GitHub repository.
+We are committed to evolving the Panda Branch Plus firmware based on user feedback. To suggest new features, please submit them as tickets on our official GitHub repository.
 
 [Request Features](https://github.com/bigtreetech/PandaBranchPlus/issues)
 
