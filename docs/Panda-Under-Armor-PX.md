@@ -111,7 +111,9 @@ Follow these steps to install the Panda Under Armor PX on your P1 printer.
 
 2、Visit https://github.com/bigtreetech/Panda-Under-Armor-PX to download and print the Panda Castor Wheel Adjustment Tool.
 
-3、Use the Panda Castor Wheel Adjustment Tool to pull the red adjustment wheel forward or backward to easily raise or lower the foot pads, allowing the printer to either stay securely on the desktop or floor, or move smoothly when needed.
+To Lock: Use the tool to pull the red adjustment wheel toward the triangle icon on the tool, lowering the foot pads and securing the printer to the floor.
+
+To Unlock: Pull the wheel toward the circle icon to raise the foot pads, allowing smooth movement.
 
 <img src=img/Panda_Under_Armor/panda_under_armor_installation16.png width="600" />
 
