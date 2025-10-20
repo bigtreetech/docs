@@ -14,20 +14,20 @@
 
 ## **Introduction**
 
-Panda Cooler A1 is the ultimate printhead upgrade for the Bambu Lab A1/A1 mini, combining active cooling (15-25°C lower stepper temps) with customizable RGB fan and nozzle lighting. This plug-and-play accessory boosts performance during long prints while allowing you to personalize your machine's look – functionality and flair in one sleek package.
+The Panda Cooler A1 is a high-performance printhead upgrade for your Bambu Lab A1 or A1 mini. This plug-and-play accessory actively cools the stepper motor, reducing temperatures by 15-25°C to ensure reliable performance during long prints. It also features a customizable RGB fan and nozzle light, allowing you to personalize your printer's style. It’s the perfect combination of enhanced functionality and sleek design.
 
 
 ## **Feature Highlights**
 
-- **Smart Cooling System**: Powered by an integrated ESP32 chip with network connectivity, the Panda Cooler A1 intelligently monitors your printing status. It automatically turns on to cool stepper motors during printing and shuts off during standby for a quiet workspace.
+- **Smart Cooling System**: Powered by an integrated ESP32 chip, the Panda Cooler A1 intelligently monitors your print status. It automatically activates to cool the stepper motors while printing and turns itself off during pauses or when the print is done, ensuring a quiet and energy-efficient workspace.
 
-- **H2D Style Status Color Indicator**: Vibrant color cues display your print progress at a glance—30%, 60%, and 100% completion are highlighted in clear visual stages.
+- **H2D Style Status Color Indicator**: The RGB lighting does more than just look good—it shows your print's progress. The colors change through three clear stages (30%, 60%, and 100% complete) so you can see how your print is doing from across the room.
 
-- **Multiple Lighting Effects**: Choose from various dynamic lighting patterns with 16 million colors to perfectly complement your workspace aesthetic.
+- **Multiple Lighting Effects**: Personalize your printer with 16 million colors and a variety of dynamic lighting effects to match your unique style and workspace aesthetic.
 
-- **Independent Nozzle Lighting**: Equipped with a dedicated lighting system that syncs with the fan's RGB effects or provides adjustable white light for clear visibility to monitor your print progress and first-layer adhesion.
+- **Independent Nozzle Lighting**: A dedicated lighting system provides both style and function. Sync the nozzle light with the fan's RGB for a unified glow, or switch to adjustable white light for clear visibility to check print details and first-layer adhesion.
 
-- **Web UI Wireless Control**: Customize your lighting effortlessly. Manage modes, effects, color, brightness, and speed via an intuitive web interface.
+- **Web UI Wireless Control**: Effortlessly customize your lighting through an intuitive web interface. You have full control over modes, colors, effects, brightness, and animation speed.
 
 
 ## **Specifications**
@@ -59,7 +59,7 @@ Please refer to the image below to verify the contents of your product package.
 
 * Step 1: Preparation
 
-    Apply the sticky back washer to the two mounting holes on the rear of the nozzle light PCB.
+    Peel off the backing and apply the two adhesive washers over the mounting holes on the back of the nozzle light PCB.
 
     <img src=img/PandaCoolerA1/install1.jpg width="300"/>
 
@@ -81,7 +81,7 @@ Please refer to the image below to verify the contents of your product package.
 
 * Step 4: Install RGB Fan Module
 
-    Secure the RGB fan module to the bracket on the left side of the printhead. Ensure it is firmly attached.
+   Secure the RGB fan module to the bracket on the left side of the printhead using the provided screws. Ensure it is firmly and evenly attached.
 
     <img src=img/PandaCoolerA1/install4.png width="400"/>
 
@@ -100,7 +100,7 @@ Please refer to the image below to verify the contents of your product package.
 
     <img src=img/PandaCoolerA1/install7.jpg width="400"/>
 
-    **Key Point**: Ensure all 4 pins are fully inserted and properly seated.
+    **Key Point**: Ensure all 4 pins are fully inserted and the connector is flush with the port.
 
 * Step 7: Secure Controller Module Housing
 
@@ -147,7 +147,7 @@ Please refer to the image below to verify the contents of your product package.
 
 ## First Connection
 
-When you power up for the first time or restore factory settings, you'll see a blue flowing light, indicating that Panda Cooler A1 is not yet bound to the printer.
+When you power up for the first time or restore factory settings, you'll see a flowing blue light, indicating that Panda Cooler A1 is not yet bound to the printer.
 
 ### WiFi Connection Guide
 
@@ -177,7 +177,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - Scan WiFi
 
-        After the initial setup or a factory reset, this page will automatically scan for nearby Wi-Fi networks, or you can manually tap the scan button.
+        After setup or a factory reset, this page will automatically scan for Wi-Fi networks. If your network doesn't appear, tap the "Scan" button to search again.
 
         <img src=img/PandaCoolerA1/en/wifi_scan.jpg width="300"/>
 
@@ -195,11 +195,11 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         <img src=img/PandaCoolerA1/en/wifi_connect.jpg width="300"/>
 
-        tap Connect, and the interface will switch to the WiFi connection page, showing `Connecting to WiFi`.
+        Tap Connect, and the interface will switch to the WiFi connection page, showing `Connecting to WiFi`.
 
         <img src=img/PandaCoolerA1/en/wifi_connecting.jpg width="300"/>
 
-        Wait a moment, and a WiFi connection status pop-up will appear.
+        After a moment, a pop-up will appear to confirm the WiFi connection status
 
         Connection Failed:
 
@@ -232,7 +232,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - How to Bind a Printer
  
-    - Tap `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
+    - Tap the `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
         <img src=img/PandaCoolerA1/en/printer_scan_ok.jpg width="300"/>
 
@@ -273,7 +273,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - ② Current WiFi Connection Status
 
-- ③ IP Address Icon: tap the icon to display a pop-up. If the IP field is blank, ensure  Panda Cooler A1 shows "Connected." If it says, "Not Connected," check your network settings.
+- ③ IP Address Icon: Tap the icon to display a pop-up. If the IP field is blank, ensure  Panda Cooler A1 shows "Connected." If it says, "Not Connected," check your network settings.
 
 - ④ IP Address Display: Entering this IP in your browser will take you to the Web page, as long as you're on the same local network.
 
@@ -297,7 +297,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - ⑤ Hotspot IP: Default Hotspot IP is "192.168.254.1." If your router's IP range is "192.168.254.xxx," an IP conflict will prevent the device from binding to the printer. Change the Panda Cooler A1 hotspot IP to a different range.
 
-- ⑥ Confirm Button: taping this will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](https://bttwiki.com/Panda_Cooler_A1.html#wifi_connect_ap))
+- ⑥ Confirm Button: Tapping this button will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](https://bttwiki.com/Panda_Cooler_A1.html#wifi_connect_ap))
 
 
 ### Settings Page
@@ -365,19 +365,19 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 * ②: Controls the brightness speed in high temperature mode.
 
-* ③: Allows selection of lighting effects (solid or flashing) for Safety Effect and Danger Effect respectively.
+* ③: Allows selection of lighting effects (solid or flashing) for Safety and Danger alert modes respectively.
 
 ##### H2D Style Status Indicator
 
 <img src=img/PandaCoolerA1/en/7-3.jpg width="300"/>
 
-* ①: Indicates the lighting effect colors for specific printer status. Tap the info button next to each color for details.
+* ①: Indicates the lighting effect colors for specific printer status. Tap the info button next to each color for a detailed description.
 
-* ②: Controls brightness in high temperature mode (speed cannot be customized)
+* ②: Controls brightness in high temperature mode (speed cannot be customized).
 
 #### Nozzle Lighting Effects
 
-* Taping on nozzle lighting effects reveals two options (Follow Fan Lighting and White Light Always On)
+* Tapping on the nozzle lighting effects reveals two options (Follow Fan Lighting and White Light Always On).
 
   <img src=img/PandaCoolerA1/en/7-4.jpg width="300"/>
 
@@ -387,7 +387,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 * Setting Colors (using Static mode as example, `Static mode speed cannot be adjusted`)
 
-   In the control interface, select Static mode and tap the box under Color
+   In the control interface, select Static mode, then tap the color box to choose a color.
 
    <img src=img/PandaCoolerA1/en/7-5.jpg width="300"/>
 
@@ -417,4 +417,6 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 ## Feature Requests
 
-If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. [Feature Requests](https://github.com/bigtreetech/PandaCoolerA1/issues)
+If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository.
+
+ [Feature Requests](https://github.com/bigtreetech/PandaCoolerA1/issues).
