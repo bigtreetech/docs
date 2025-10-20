@@ -11,7 +11,7 @@
 
 ## **Product Overview**
 
-Panda RGB Controller is designed for wirelessly controlling RGB light strips, which can interact with printers when paired with external RGB light strips.
+The Panda RGB Controller enables wireless control of up to two RGB light strips. You can set them to a custom display pattern or synchronize them with your 3D printer's activity.
 
 
 ## **Product Features**
@@ -55,13 +55,13 @@ Panda RGB Controller is designed for wirelessly controlling RGB light strips, wh
 
     <img src=img/PandaRGBController/shell_station.png width="300"/>
 
-* Use the included M3x10 screws (HA) to secure it to the support bracket, then use M3x6 screws to fix the support bracket to the shell (this shell is compatible with both Panda Branch and Panda RGB Controller).
+* First, secure the device to the support bracket using the included M3x10 screws (HA), and then fix the bracket to the shell using the M3x6 screws. This shell is compatible with both the Panda Branch and Panda RGB Controller.
 
     <img src=img/PandaRGBController/install_1.png width="600"/>
 
     <img src=img/PandaRGBController/install_2.png width="600"/>
 
-* Next, remove the screws from the back of the Panda Station, then use the M3*15 screws from the Panda RGB Controller Kit to fix the box.
+* Next, remove the existing screws from the back of the Panda Station, and then use the M3x15 screws from the Panda RGB Controller Kit to secure the box in place.
 
     <img src=img/PandaRGBController/install_3.png width="600"/>
 
@@ -75,7 +75,7 @@ Panda RGB Controller is designed for wirelessly controlling RGB light strips, wh
 
 * Wiring Diagram
 
-    Insert the wire labeled "5" from the Controller packaging into the red-marked port to control the bottom RGB light strip. Insert wire "2" into the green-marked port to power the internal lighting strip (Naked Panda Station requires the internal lighting kit to use this feature).
+    Insert the wire labeled "5" from the controller into the red-marked port to control the bottom RGB light strip. Then, insert wire "2" into the green-marked port to power the internal lighting strip. Please note that the Naked Panda Station requires an internal lighting kit to use this feature.
 
     <img src=img/PandaRGBController/install_6.png width="600"/>
 
@@ -91,13 +91,13 @@ Panda RGB Controller is designed for wirelessly controlling RGB light strips, wh
 
     <img src=img/PandaRGBController/shell_den.png width="300"/>
 
-* Use the included M3x10 screws (HA) to secure it to the support bracket, then use M3x6 screws to fix the support bracket to the shell (this shell is compatible with both Panda Branch and Panda RGB Controller).
+* First, secure the device to the support bracket using the included M3x10 screws (HA). Then, attach the bracket to the shell using the M3x6 screws. This shell is compatible with both the Panda Branch and Panda RGB Controller.
 
     <img src=img/PandaRGBController/install_1.png width="600"/>
 
     <img src=img/PandaRGBController/install_9.png width="600"/>
 
-* Next, remove the metal cover plate from the back of the Den, connect the Panda Den RGB light strip using the RGB Controller's wire "3" to the control board (as shown in red) and replace the mounting plate.
+* Next, remove the metal cover plate from the back of the Den. Connect the Panda Den RGB light strip to the control board using wire "3" from the RGB Controller (as shown in red), and then replace the mounting plate.
 
     <img src=img/PandaRGBController/install_6.png width="600"/>
 
@@ -109,11 +109,11 @@ Panda RGB Controller is designed for wirelessly controlling RGB light strips, wh
 
     <img src=img/PandaRGBController/install_13.png width="300"/>
 
-    > When using [Panda Station](https://bttwiki.com/Panda-Station.html), you can connect the control board to the Panda Den's back, using wire "5" to connect to the red-marked RGB control port, and wire "2" as the image shown.
+    > When using the [Panda Station](https://bttwiki.com/Panda-Station.html), you can connect its control board to the back of the Panda Den. For this, use wire "5" for the red-marked RGB control port and wire "2" for power, as shown in the accompanying image.
 
     <img src=img/PandaRGBController/install_8.png width="300"/>
 
-    > When using [Panda Perch PX](https://bttwiki.com/Panda_AMS_Holder.html) with a purchased lighting kit, connect the control board to the Panda Den's back, using wire "4" to connect the light strip to the Controller.
+    > When using the [Panda Perch PX](https://bttwiki.com/Panda_AMS_Holder.html) with a purchased lighting kit, connect the control board to the back of the Panda Den and use wire "4" to connect the light strip to the Controller.
 
     <img src=img/PandaRGBController/install_12.png width="300"/>
 
@@ -123,7 +123,7 @@ Panda RGB Controller is designed for wirelessly controlling RGB light strips, wh
 
     <img src=img/PandaRGBController/shell_perch.png width="300"/>
 
-* Use the included screws to secure it to the support bracket, then fix the bracket to the shell (this shell is compatible with both Panda Branch and Panda RGB Controller).
+* Secure the unit to the support bracket using the included screws, and then attach the bracket to the universal shell, which is compatible with both the Panda Branch and Panda RGB Controller.
 
     <img src=img/PandaRGBController/install_1.png width="600"/>
 
@@ -148,7 +148,7 @@ Panda RGB Controller is designed for wirelessly controlling RGB light strips, wh
 
 <a id="first-connection"></a>
 
-When you power up for the first time or restore factory settings, you'll see a blue flowing light, indicating that Panda RGB Controller is not yet bound to the printer.
+When you power on the device for the first time or after a factory reset, a flowing blue light indicates that the Panda RGB Controller is in pairing mode and ready to be bound to your printer.
 
 ### WiFi Connection Guide
 
@@ -174,15 +174,15 @@ When you power up for the first time or restore factory settings, you'll see a b
   
 - WiFi Connection Page
 
-    - After the first factory shipment or resetting to factory settings, entering this page will automatically scan for surrounding WiFi, or you can manually click to scan.
+    - Upon first setup or after a factory reset, this page will automatically scan for available Wi-Fi networks. You can also manually initiate a scan at any time.
 
         <img src=img/PandaRGBController/en/wifi_scan.png width="300"/>
 
-    - Once the scan is complete, a pop-up will appear notifying you that the scan is finished.
+    - Once the scan is complete, a pop-up notification will confirm that it has finished.
 
         <img src=img/PandaRGBController/en/wifi_scan_ok.png width="300"/>
 
-    - Select the WiFi network you want to connect to.
+    - Select your desired Wi-Fi network from the list.
 
         <img src=img/PandaRGBController/en/wifi_list.png width="300"/>
 
@@ -194,7 +194,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         <img src=img/PandaRGBController/en/wifi_connecting.png width="300"/>
 
-    - Wait a moment, and a WiFi connection status pop-up will appear.
+    - After a moment, a pop-up will display the status of your Wi-Fi connection.
 
         - Connection Failed:
 
@@ -228,11 +228,11 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - How to Bind a Printer
   
-    - Tap `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
+    - Tap the `Scan` button; a pop-up will appear shortly to confirm a successful scan.
 
         <img src=img/PandaRGBController/en/printer_scan_ok.png width="300"/>
     
-    - Select the printer from the list. The printer's SN code and IP address will automatically fill in.
+    - Select your printer from the list, and its SN code and IP address will be automatically filled in.
 
         <img src=img/PandaRGBController/en/printer_list.png width="300"/>
     
@@ -285,7 +285,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - ⑤ Hotspot IP: Default Hotspot IP is "192.168.254.1." If your router's IP range is "192.168.254.xxx," an IP conflict will prevent the device from binding to the printer. Change the Panda_RGB_Controller hotspot IP to a different range.
 
-- ⑥ Confirm Button: Clicking this will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](#ap-connect))
+- ⑥ Confirm Button: Clicking this will restart the device, after which you can connect to its AP hotspot. ([How to connect to the AP hotspot](#ap-connect))
 
 ### Settings Page
 
@@ -337,20 +337,20 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     <img src=img/PandaRGBController/en/mode.png width="300"/>
 
-    - ①-④After selection, the corresponding lighting effect will be displayed immediately.
+    - ①-④ After selection, the corresponding lighting effect will be displayed immediately.
 
-    - ⑤The color of the light can be adjusted according to the temperature of the printer.You can choose between two lighting effects, Static or Strobing, under Safety Effect and Danger Effect.
+    - ⑤The color of the light can be adjusted according to the temperature of the printer. You can choose between two lighting effects, Static or Strobing, under Safety Effect and Danger Effect.
 
         <img src=img/PandaRGBController/en/warning_mode.png width="300"/>
 
-    - ⑥After selection,The color of the light can be adjusted according to the printer. You can click "idle" to [customize the light color](#Customizing-Light-Color) when the printer is idle.
+    - ⑥After selection. The color of the light can be adjusted according to the printer. You can click "idle" to [customize the light color](#Customizing-Light-Color) when the printer is idle.
 
         <img src=img/PandaRGBController/en/h2d_mode.png width="300"/>
 
 <a id="Customizing-Light-Color"></a>
 
 - Customizing Light Color (using the Static mode as an example):
-  - Click on the color setting option,You will then be directed to the color selection page.
+  - Click on the color setting option. You will then be directed to the color selection page.
   
     <img src=img/PandaRGBController/en/static_mode.png width="300"/>
 
@@ -389,3 +389,8 @@ If you'd like to see certain features in the upcoming firmware release, please s
 - [BIGTREETECH Official Website](http://bigtree-tech.com)
 - [Official Store](https://biqu.equipment)
 - [User Community](https://community.biqu3d.com)
+
+
+## Technical Support
+
+Was this page helpful? For further assistance or if you encounter any issues, please contact our after-sales team at service001@biqu3d.com.
