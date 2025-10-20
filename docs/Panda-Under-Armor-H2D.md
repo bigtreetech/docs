@@ -61,13 +61,13 @@ The **BIQU Panda Under Armor H2D**  is a dedicated mobile base for the H2D 3D pr
 
 * **Step 1**: Visit the [Panda Castor Wheel Adjustment Tool](https://makerworld.com/en/models/1646712-panda-castor-wheel-adjustment-tool?from=search#profileId-1740562) to download and print the Panda Castor Wheel Adjustment Tool.
 
-* **Step 2**: 
+* **Step 2**:
 
-**To Lock**: Use the tool to pull the red adjustment wheel forward, lowering the foot pads and securing the printer to the floor.
+  **To Lock**: Use the tool to pull the red adjustment wheel toward the triangle icon on the tool, lowering the foot pads and securing the printer to the floor.
 
-**To Unlock**: Pull the wheel backward to raise the foot pads, enabling smooth movement.
+  **To Unlock**: Pull the wheel toward the circle icon to raise the foot pads, allowing smooth movement.
 
-    <img src=img/PandaUnderArmorH2D/install_4.JPg width="600"/>
+   <img src=img/PandaUnderArmorH2D/install_4.JPg width="600"/>
 
 ## Technical Support
 
