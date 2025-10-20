@@ -21,7 +21,7 @@ The Panda Cooler A1 is a high-performance printhead upgrade for your Bambu Lab A
 
 - **Smart Cooling System**: Powered by an integrated ESP32 chip, the Panda Cooler A1 intelligently monitors your print status. It automatically activates to cool the stepper motors while printing and turns itself off during pauses or when the print is done, ensuring a quiet and energy-efficient workspace.
 
-- **H2D Style Status Color Indicator**: The RGB lighting does more than just look good—it shows your print's progress. The colors change through three clear stages (30%, 60%, and 100% complete) so you can see how your print is doing from across the room.
+- **H2D Style Status Color Indicator**: The RGB lighting does more than just look good—it shows your print's progress. The colors display through clear stages (eg.; 30%, 60%, and 100% complete) so you can see how your print is doing from across the room.
 
 - **Multiple Lighting Effects**: Personalize your printer with 16 million colors and a variety of dynamic lighting effects to match your unique style and workspace aesthetic.
 
@@ -81,7 +81,7 @@ Please refer to the image below to verify the contents of your product package.
 
 * Step 4: Install RGB Fan Module
 
-   Secure the RGB fan module to the bracket on the left side of the printhead using the provided screws. Ensure it is firmly and evenly attached.
+   Secure the RGB fan module to the bracket on the left side of the printhead by simply clipping it on. Ensure it is firmly and evenly attached.
 
     <img src=img/PandaCoolerA1/install4.png width="400"/>
 
