@@ -22,3 +22,7 @@ Panda PTFree is a handy tool designed for making PTFE tube removal faster and ea
 <img src=img/PandaPTFree/en/usage_1.jpg width="600"/>
 
 <img src=img/PandaPTFree/en/usage_2.jpg width="600"/>
+
+## Technical Support
+
+Was this page helpful? If you have any questions about product usage or encounter issues, please contact our after-sales team at service001@biqu3d.com.
