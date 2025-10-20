@@ -59,8 +59,10 @@ BIQU Panda Under Armor H2D 专为 H2D 3D 打印机设计，提供底部全方位
 
 当您需要打印机稳固放置不移动时，可以通过放下万向轮里的减震脚垫来实现。  
 
-- **步骤 1**: 请访问 [Panda Castor Wheel Adjustment Tool 下载页面](https://makerworld.com/en/models/1646712-panda-castor-wheel-adjustment-tool?from=search#profileId-1740562) 下载并打印我们设计好的 Panda castor Wheel Adjustment Tool。
+请访问 [Panda Castor Wheel Adjustment Tool 下载页面](https://makerworld.com/en/models/1646712-panda-castor-wheel-adjustment-tool?from=search#profileId-1740562) 下载并打印我们设计好的 Panda Castor Wheel Adjustment Tool。
 
-- **步骤 2**: 通过 Panda Castor Wheel Adjustment Tool 向前或向后拉动红色调节轮，您可以轻松收起或放下脚垫，从而使打印机能够稳固地放置在桌面或地面上，或者可以顺畅地移动。
+- 稳固停放打印机： 使用 Panda Castor Wheel Adjustment Tool，沿工具上三角形图标方向拉动红色调节轮，使脚垫下降，将打印机稳固固定于地面。
 
-    <img src=img/PandaUnderArmorH2D/install_4.jpg width="600"/>  
+- 顺畅移动打印机： 沿工具上圆形图标方向拉动调节轮，使脚垫升起，便于平稳移动打印机。
+
+   <img src=img/PandaUnderArmorH2D/install_4.jpg width="600"/>  
