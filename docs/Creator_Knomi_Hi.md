@@ -53,21 +53,21 @@ Unplug the two connectors shown by the arrows to remove the wiring harness. <br/
 <br/>
 
 * Step 3: Cable Connection<br/>
-Plug part A of the cable into socket d on the display (as shown in the image).<br/>
+Plug connector A into the display socket d (as shown in the image).<br/>
 <img src=img/Creator_Knomi_Hi/wring_1.jpg width="400"/><br/>
-Plug part B of the cable into socket e on the Creality Hi print head controller board.<br/>
+Plug connector B to the e port on the Creality Hi print head controller board.<br/>
 <img src=img/Creator_Knomi_Hi/wring_2.jpg width="400"/><br/>
-Plug part C of the cable into socket f on the print head, then route the cable through position g.<br/>
+Plug connector C to the f port on the print head, then route the cable through position g.<br/>
 <img src=img/Creator_Knomi_Hi/wring_3.jpg width="400"/>
-<br/>Make sure all connections are fully seated and that the cables are routed cleanly to avoid pinching or interference during motion.<br/>
+<br/>Ensure all connections are fully seated and secure. Route cables neatly to prevent pinching or mechanical interference during operation.<br/>
 
 * Step 4: Attach and Secure the Creator Knomi Hi Shell <br/>
-Secure the Creator Knomi Hi Shell with the the previously removed screws.<br/>
+Align the Creator Knomi Hi shell in place. Secure it using the screws you removed earlier.<br/>
 <img src=img/Creator_Knomi_Hi/close_left.jpg width="400"/>
 <img src=img/Creator_Knomi_Hi/close_right.jpg width="400"/>
 <br/>
 
-* Installation Complete <br/>
+* Installation Complete! <br/>
 <img src=img/Creator_Knomi_Hi/succeed.jpg width="400"/>
 
 
@@ -79,7 +79,7 @@ Secure the Creator Knomi Hi Shell with the the previously removed screws.<br/>
   * ② Tap `Network` -> ③ `IP`<br/>
     <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/>
 
-* Connect your computer to the same local network as the printer. The default port for the Creality Hi printer is `4408`. If your printer’s IP is `192.168.3.81`, enter `192.168.3.81:4408` in your browser.
+* Ensure your computer is connected to the same local network as the printer. Open a web browser and enter the printer's IP address followed by `4408` (the default port). Example: If your printer's IP is `192.168.3.81`, enter `192.168.3.81:4408` in your browser.
 * Upload Configuration File:  In the interface:  ① -> ② -> ③ Tap `Upload Files` and select `Creator_Knomi_Hi_01.00.00.00.cfg` to upload. <br/>
   <img src=img/Creator_Knomi_Hi/printer_1.png width="600"/>
 * Edit `printer.cfg` and add this line:
@@ -172,7 +172,7 @@ Select the printer’s connected Wi-Fi network, enter the password, and tap `Con
     * The default port is `7125`
 * Tap `Bind`. A "Binding successful" popup will confirm that the Creator Knomi Hi has connected to the printer.<br/>
   <img src=img/Creator_Knomi_Hi/en/bind_ok.jpg width="300"/>
-* Congratulations! Your Creator Knomi Hi is now ready to use—enjoy the experience!
+* Congratulations! Your Creator Knomi Hi is now set up and ready to use. Enjoy exploring its features!
 
 ### GIF Status Explanation
 
@@ -224,7 +224,7 @@ However, to avoid losing connection during this transition, it is recommended to
 Access the Web UI by entering the IP address into your browser’s address bar. To avoid forgetting the IP address, consider bookmarking it on your phone’s home screen.
 * ④	Alternatively, if your devices are on the same network as Creator Knomi Hi, you can access the Web UI using the hostname, which by default is `Creator_Knomi_Hi` (accessible via  [http://CreatorKnomiHi.local](http://CreatorKnomiHi.local)  , hostname is not case-sensitive).<br/>Note that if a VPN is active on your device, you may need to use the IP address directly, as accessing by hostname might fail.<br/>Setting the Hostname:<br/>
     * The hostname must consist only of letters (a-z, A-Z), numbers (0-9), and hyphens (-), and must start with a letter.
-    * The hostname must be at least 8 characters long and no more than 32 characters.  (if firmware is `v1.0.2` or earlier, max is 15 characters to avoid boot failure. To support longer names, update to firmware version V1.0.3 or later.)
+    * The hostname must be at least 8 characters long and no more than 32 characters.  (If firmware is `v1.0.2` or earlier, max is 15 characters to avoid boot failure. To support longer names, update to firmware version V1.0.3 or later.)
 
     After choosing a new hostname, tap `Set Hostname` to update Creator Knomi Hi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping `OK` in the confirmation popup, or postponed by closing the popup with the `x` button.<br/>
     <img src=img/Creator_Knomi_Hi/en/hostname.jpg width="300"/>
@@ -333,8 +333,8 @@ Want a new feature added in the next firmware release? Submit a request on Creat
 * Open the Web UI
   > <font size="2">You can access it by connecting your device to the same Wi-Fi as Creator Knomi Hi or by connecting to Creator Knomi Hi’s AP hotspot.</font>
     * Option A: Connect via local network：
-        * Connect your device (phone/computer) to the same Wi-Fi as Creator Knomi Hi.
-        * Open a browser and go to Creator Knomi Hi’s IP or hostname (e.g.,: `http://CreatorKnomiHi.local`). If VPN is active, use the IP address instead.
+        * Ensure your device (phone/computer) is connected to the same Wi-Fi network as your Creator Knomi Hi.
+        * Open a browser and go to Creator Knomi Hi’s IP or hostname (e.g., `http://CreatorKnomiHi.local`). If VPN is active, use the IP address instead.
     * Option B: Connect via AP hotspot:
         * Connect to Creator Knomi Hi’s hotspot on your phone (iPhone Example):
             * Go to `Settings`-> `WLAN`.
@@ -342,10 +342,10 @@ Want a new feature added in the next firmware release? Submit a request on Creat
               <img src=img/Creator_Knomi_Hi/wlan.png width="300"/> <br/>
             * Tap the network name that starts with `Creator_Knomi_Hi_` then enter the default password：`987654321`.
             * Once connected: A blue checkmark will appear next to the network name. The Wi-Fi icon will be visible in the top-right corner of your phone screen.
-        * After connecting, you should see a message like `Connected (Login Required)`. Tap this message to launch the Web UI configuration page.<br/>
+        * After connecting, you should see a message such as `Connected (Login Required)`. Tap this message to launch the Web UI configuration page.<br/>
         If the page doesn't open automatically, wait about 10–20 seconds.<br/>
         If it still doesn’t appear, open Safari and manually enter: [192.168.254.1](http://192.168.254.1)
-* In Web UI: Go to ① `Settings`-> ② Tap `Select .bin file`, then select the firmware file, after uploading, Creator Knomi Hi will reboot automatically<br/>
+* In Web UI: Go to ① `Settings`-> ② Tap `Select .bin file`, then select the firmware file, after uploading, Creator Knomi Hi will reboot automatically.<br/>
   <img src=img/Creator_Knomi_Hi/en/firmware.jpg width="300"/>
 
 #### Flash via flash_download_tool (USB Type-C)
@@ -353,7 +353,7 @@ Want a new feature added in the next firmware release? Submit a request on Creat
 > <font size="2">Note: Creator Knomi Hi should be able to perform OTA updates automatically. This step is only necessary when OTA is unavailable.</font>
 
 * If your computer does not have the CH340 driver, please download and install [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
-* Dowloand [Flash Download Tools](https://www.espressif.com/zh-hans/support/download/other-tools)<br/>
+* Download [Flash Download Tools](https://www.espressif.com/zh-hans/support/download/other-tools)<br/>
   <img src=img/Creator_Knomi_Hi/en/download_esp_tool.png width="800"/>
 * Download the [Creator Knomi Hi Firmware](https://github.com/bigtreetech/Creator_Knomi_Hi)
 * Hold the Boot button on Creator Knomi Hi, connect it via Type-C to your computer, and a new COM port should appear in the device manager.<br/>
@@ -368,7 +368,7 @@ Want a new feature added in the next firmware release? Submit a request on Creat
         * `creator_knomi_hi_ota_data.bin` to `0xe000`
         * `creator_knomi_hi_01.00.00.00.bin` to `0x10000`
         * `creator_knomi_hi_01.00.00.00.img` to `0x910000`
-    * ②	Set the COM port to the Creator Knomi Hi port(check in Device Manager) and choose a baud rate (recommended: `460800`)
+    * ②	Set the COM port to the Creator Knomi Hi port (check in Device Manager) and choose a baud rate (recommended: `460800`)
     * ③	Click `START` to begin burning. Once done, power off and restart Creator Knomi Hi.
 
 
