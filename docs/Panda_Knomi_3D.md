@@ -7,17 +7,17 @@
 
 ## **Important Notice**:  
 
-- **Printer Monitoring Only**: Panda Knomi 3D only monitors the printer’s status and does not control the printer. Therefore, its functionality will not be affected by Bambu Lab firmware updates. For details on which functions are affected or unaffected, please refer to the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
+- **Printer Monitoring Only**: The Panda Knomi 3D is a monitoring-only device, meaning it reads the printer's status but does not control it. This key distinction ensures its core functionality remains unaffected by Bambu Lab firmware updates. For a detailed breakdown of which printer features are impacted by updates, please consult the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
 
 - **Firmware**: Ensure your device is running the latest [firmware version](https://github.com/bigtreetech/PandaKnomi3D/tree/master/Firmware).  
 
-- **Wi-Fi Support**: Panda Knomi 3D supports only 2.4G Wi-Fi connections.  
+- **Wi-Fi Support**: The Panda Knomi 3D is compatible with 2.4GHz Wi-Fi networks only.  
 
-- **Invalid IP Message**: If you see the message "Invalid IP, Adjusting" for an extended period, try controlling the printer using Bambu Handy or Bambu Studio. If the printer does not respond or appears offline, it may be due to an issue with the network environment. Please check your network settings. If you can control the printer normally, try restarting the Panda Knomi by turning it off and on. If the issue persists after rebooting, please contact customer support at: `support01@bigtree-tech.com`
+- **Invalid IP Message**: If you see the message "Invalid IP, Adjusting" for an extended period, first check if you can control the printer normally using Bambu Handy or Bambu Studio. If the printer is unresponsive, the issue is likely your network environment and you should review your settings. If the printer operates correctly, please restart the Panda Knomi by turning it off and on. Should the problem continue after rebooting, contact customer support for further assistance at: `support01@bigtree-tech.com`
 
-- **Web UI Access**: After connecting to the Panda Knomi 3D AP hotspot in your phone settings menu, you will be redirected directly to the Web UI interface. Due to permission issues on some mobile phones, it may not be possible to upload GIF images, IMG files, or firmware updates on this page. Please access the Web UI through a browser to perform file uploads.
+- **Web UI Access**: After connecting to the "Panda Knomi 3D AP" hotspot in your phone's settings, you will be automatically directed to its Web UI. Please note that due to system permissions on some mobile devices, you may be unable to upload GIFs, IMG files, or firmware updates from this screen. To perform these actions reliably, please open the Web UI address directly in a mobile browser.
 
-- **GitHub Feedback**: If you encounter any issues during use, or if you have suggestions for future hardware or firmware versions, feel free to [submit](https://github.com/bigtreetech/PandaKnomi3D/issues) them on GitHub to stay in touch with us.  
+- **GitHub Feedback**: We value your feedback. If you encounter any issues or have suggestions for improving future hardware or firmware versions, please feel free to [submit](https://github.com/bigtreetech/PandaKnomi3D/issues) them on GitHub. This is the best way to share your ideas and stay connected with our development process.  
 
 - **Further Support**: For questions not addressed in this wiki, please contact customer support at: `support01@bigtree-tech.com`.
 
@@ -53,11 +53,11 @@
 
 ## Mounting Guide
 
-In this section, you will learn how to install the Panda Knomi 3D onto the A1 Series printer's toolhead
+In this section, you will learn how to install the Panda Knomi 3D onto the A1 Series printer's toolhead.
 
 ### A1 Series Toolhead Mount
 
-* Insert the lens
+* Insert the lens.
 
     <img src=img/PandaKnomi3D/install_1.jpg width="300"/>
 
@@ -65,7 +65,7 @@ In this section, you will learn how to install the Panda Knomi 3D onto the A1 Se
 
     <img src=img/PandaKnomi3D/install_2.jpg width="300"/>
 
-* Install the screen into the housing. Before doing so, carefully inspect the lens and screen for any dust, debris, or particles. If any are present, clean them promptly to prevent damage during installation.
+* Before installing the screen into the housing, carefully inspect both the lens and the screen surface for any dust, debris, or particles. Clean them promptly if any are found to prevent scratches or other damage during the installation process.
 
     <img src=img/PandaKnomi3D/install_3.jpg width="300"/>
 
@@ -85,7 +85,9 @@ In this section, you will learn how to install the Panda Knomi 3D onto the A1 Se
 
     <img src=img/PandaKnomi3D/install_7.jpg width="600"/>
 
-* Snap the Panda Knomi 3D from the top, then gently press to secure.
+* First snap the top of the Panda Knomi 3D into place, then gently press the bottom until it is fully secured.
+
+
 
     <img src=img/PandaKnomi3D/install_8.jpg width="400"/>
 
@@ -99,13 +101,14 @@ In this section, you will learn how to install the Panda Knomi 3D onto the A1 Se
 
     <img src=img/PandaKnomi3D/install_11.jpg width="600"/>
 
-    We also recommend using the included zip ties to gently bundle the toolhead cable and the Panda Knomi 3D power cable. Make sure the ties are not too tight, as this could place unnecessary strain on the cables.
+    We also recommend using the included zip ties to gently bundle the toolhead cable with the Panda Knomi 3D power cable. When securing them, ensure the ties are not overly tight to avoid placing unnecessary strain on the cables.
 
-* Completing Installation on the A1 Series Toolhead
+
+* Completing Installation on the A1 Series Toolhead.
 
     <img src=img/PandaKnomi3D/install_12.jpg width="300"/>
 
-> Congratulations on successfully installing your Panda Knomi on the A1 series toolhead. We now present the alternative mounting location guide and then the guide to provide power for A1 series installations.
+> Congratulations on successfully installing your Panda Knomi to the A1 series toolhead. The following guide will cover alternative mounting locations and then demonstrate how to provide power for your A1 series setup.
 
 #### Disassembly Guide For A1 Series Toolhead
 
@@ -121,7 +124,8 @@ In this section, you will learn how to install the Panda Knomi 3D onto the A1 Se
 
 ### A1 Series Power
 
-It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS POWERED OFF BEFORE PERFORMING THIS STAGE.**
+You are now ready to power on your device. 
+**IMPORTANT: MAKE SURE THAT YOUR PRINTER IS POWERED OFF BEFORE PERFORMING THIS STAGE.**
 
 #### Power Connection via the Printer
 
@@ -139,7 +143,7 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 
 <img src=img/PandaKnomi3D/install_15.jpg width="600"/>
 
-> Now it’s time to power on the Panda Knomi 3D and start configuration. Please refer to the [First-Time Use Guide](#first-time-use-guide).
+> You are now ready to power on the Panda Knomi 3D and begin the configuration process. Please refer to the [First-Time Use Guide](#first-time-use-guide).
 
 
 ## User Interface Description
@@ -190,7 +194,7 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 
     <img src=img/PandaKnomi3D/en/wifi.jpg width="300"/>
 
-* Wait for the connection to complete. Once connected, a pop-up window will appear. Click **Bind Printer** to proceed to the **Printer** screen and bind the printer.
+* Wait for the connection to be established. Once successful, a pop-up window will appear. Click **Bind Printer** to proceed to the **Printer** screen and complete the binding process.
 
     <img src=img/PandaKnomi3D/en/goto_printer.jpg width="300"/>
 
@@ -224,7 +228,7 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 
     <img src=img/PandaKnomi3D/en/bind_ok.jpg width="300"/>
 
-* Congratulations! Your Panda Knomi 3D is now ready for use.
+* Congratulations! Your Panda Knomi 3D is now successfully set up and ready for use.
 
 ##### Manual Input
 
@@ -298,9 +302,11 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 ### AP Interface
 
 > The next screen in the Panda Knomi 3D Web UI is the **AP interface**. The Panda Knomi 3D AP is the Wi-Fi hotspot broadcast by the device, allowing a phone or computer to connect directly.
-> If you do not want the hotspot to be broadcast, you can disable it. However, Panda Knomi 3D will automatically re-enable the hotspot if it cannot connect to the configured Wi-Fi. This ensures a fail-safe method to reconnect if the configured Wi-Fi is unavailable.
+> You can disable the hotspot broadcast if you wish. However, please note that the Panda Knomi 3D is designed to automatically re-enable its hotspot if it loses the connection to your configured Wi-Fi network. This provides a fail-safe method to regain access and reconfigure the device should your network become unavailable.
 >
-> <font size="2">**Tip:** If your device is connected to the Web UI through the Panda Knomi 3D AP hotspot, disabling or changing the AP settings will disconnect your device. To avoid this, connect your device to the same Wi-Fi network as Panda Knomi 3D before making any changes.</font>
+> <font size="2">**Tip:** If you are currently connected to the Web UI via the "Panda Knomi 3D AP" hotspot, you will be disconnected immediately if you disable or change the AP settings. To maintain a stable connection while adjusting these settings, please ensure your device is connected to the same local Wi-Fi network as the Panda Knomi 3D beforehand.
+
+</font>
 
 <img src=img/PandaKnomi3D/en/ap.jpg width="300"/>
 
@@ -317,7 +323,7 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
     Wi-Fi Name: `Panda_Knomi_3D_xxxxxxxxxxxx`
     Wi-Fi Password: `987654321`
 
-    After changes, no reboot is required—the device will recreate the AP hotspot in the background.
+  No reboot is necessary after applying these changes. The device will automatically recreate the AP hotspot in the background.
 
 * ④ Change the AP hotspot IP address. If the IP range conflicts with your router (for example, if both use `192.168.254.1`), Panda Knomi 3D will be unable to bind to the printer. To resolve this, change the **Hotspot IP** to a different range, such as `192.168.253.1`.
 
@@ -332,7 +338,8 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 
 * Due to hardware limitations, Panda Knomi 3D requires that the size of a single GIF not exceed 1.5MB (1536KB, 1MB = 1024KB), and the total size of all GIFs must not exceed 3MB (3072KB, 1MB = 1024KB).
 
-* In the factory state, the total size of all GIFs is 2903.28KB (slightly different from the sum of all sizes in the table below due to rounding each GIF's size to two decimal places), leaving 168.72KB of available space.
+* In its factory state, the total space occupied by all pre-loaded GIFs is 2903.28 KB. This leaves 168.72 KB of available space for your custom images.
+Please note that the total size may differ slightly from the sum of individual GIFs listed in the table due to file system overhead and rounding of individual file sizes.
 
 
 | | File Name in Web UI | GIF Effect | Conditions for Display (Printer must be bound) | Factory GIF Size | Factory GIF Resolution (Width x Height) |
@@ -366,7 +373,7 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 
     * Invalid IMG interface
 
-    * Hello screen at factory settings
+    * 'Hello' screen at factory settings
 
     * Wi-Fi scan completion
 
@@ -446,7 +453,7 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 
     **Note for Custom GIFs**
 
-    * The screen resolution of Panda Knomi 3D is **240 x 240** pixels. Images larger than this will not be fully displayed on the screen, so only GIFs smaller than or equal to this resolution are allowed. Resize larger GIFs using a tool like [Resize GIF](https://www.iloveimg.com/resize-image/resize-gif).
+    * or optimal display, use GIFs that match the Panda Knomi 3D's screen resolution of **240 x 240** pixels. Any GIFs larger than the given resolution will not be fully displayed.  We recommend using a tool like ILoveIMG's Resize GIF to adjust your files. [Resize GIF](https://www.iloveimg.com/resize-image/resize-gif).
 
         * Click **Select images** to choose a GIF, or drag and drop the GIF into the interface.
 
@@ -456,11 +463,11 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 
         * Click **Resize IMAGES**.
 
-        * Wait for the adjustment to complete, then click **Download resized IMAGES** to download the resized GIF.
+        * Once the resizing is complete, click the **Download resized IMAGES** button to save your new GIF.
 
     * The size of each individual GIF cannot exceed 1.5MB (1536KB), and the total size of all GIFs cannot exceed 3MB (3072KB).
 
-    * The size of a new GIF cannot exceed the combined size of the replaced GIF and the remaining space; otherwise, the Web UI will reject the replacement and show a pop-up warning about exceeding the size limit. Check the remaining space in **④** and the size of each GIF in **⑤**.
+    * A new GIF cannot be larger than the available space. The maximum size allowed is the combined total of the GIF you are replacing and the remaining free space.  If a file exceeds this limit, the Web UI will reject it and display a warning pop-up. Check the remaining space in **④** and the size of each GIF in **⑤**.
 
         Example:
 
@@ -549,7 +556,7 @@ If you do not want to draw power from the printer, or if the printer’s MX3.0 i
 
 ## Restore Factory Settings
 
-> <font size="2">Restoring Panda Knomi 3D to factory settings will erase all configurations, including language, connected Wi-Fi, custom hostname, custom AP hotspot name and password, bound printers, and print progress display options.
+> <font size="2">Please be advised that performing a factory reset will erase all personalized configurations on your Panda Knomi 3D. This includes your language setting, saved Wi-Fi network, custom hostname, AP hotspot credentials, all bound printers, and print progress display options.
 > However, the theme color scheme will not be reset. Custom GIFs cannot be restored to the factory version; they can only be replaced by uploading a new GIF or updating an IMG file. The factory IMG file can be downloaded from [Panda Knomi 3D GitHub](https://github.com/bigtreetech/PandaKnomi3D/blob/master/IMG/panda_knomi_3d_factory.img).</font>
 
 ### Restore via Web UI
@@ -606,7 +613,7 @@ If you’d like to request new features for upcoming Panda Knomi 3D firmware rel
 
             * Select the network starting with **Panda\_Knomi\_3D\_**, and enter the default password: `987654321`.
 
-            * Once connected, a blue checkmark will appear next to the network name, and the Wi-Fi icon will show in the status bar.
+            * Once connected, a blue checkmark will appear next to the network name, and the Wi-Fi icon will be displayed in the status bar.
 
         * After connecting, you should see a **“Connected (Login/Authentication Required)”** prompt that redirects to the Web UI.
 
