@@ -108,7 +108,7 @@ In this section, you will learn how to install the Panda Knomi 3D onto the A1 Se
 
     <img src=img/PandaKnomi3D/install_12.jpg width="300"/>
 
-> Congratulations on successfully installing your Panda Knomi to the A1 series toolhead. The following guide will cover alternative mounting locations and then demonstrate how to provide power for your A1 series setup.
+> Congratulations on successfully installing your Panda Knomi to the A1 series toolhead. The following guide will demonstrate how to provide power for your A1 series setup.
 
 #### Disassembly Guide For A1 Series Toolhead
 
@@ -453,7 +453,7 @@ Please note that the total size may differ slightly from the sum of individual G
 
     **Note for Custom GIFs**
 
-    * or optimal display, use GIFs that match the Panda Knomi 3D's screen resolution of **240 x 240** pixels. Any GIFs larger than the given resolution will not be fully displayed.  We recommend using a tool like ILoveIMG's Resize GIF to adjust your files. [Resize GIF](https://www.iloveimg.com/resize-image/resize-gif).
+    * For optimal display, use GIFs that match the Panda Knomi 3D's screen resolution of **240 x 240** pixels. Any GIFs larger than the given resolution will not be fully displayed.  We recommend using a tool like ILoveIMG's Resize GIF to adjust your files. [Resize GIF](https://www.iloveimg.com/resize-image/resize-gif).
 
         * Click **Select images** to choose a GIF, or drag and drop the GIF into the interface.
 
