@@ -517,6 +517,12 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
   > <font size="2">Note: As of firmware V1.0.2 the IMG does not include custom color data information, only GIF image data. Custom color data will be included in V1.0.3.</font>
 - ⑦ ⑧ Install Others’ Shared IMG Files to your Panda Knomi.
 
+### Optimizing GIF Files
+
+For best results, please optimize your GIFs before uploading using [ezgif.com](https://ezgif.com). This helps you store more GIFs on your Panda Knomi. See our [Compression Guide](https://github.com/bigtreetech/PandaKnomi/blob/master/COMPRESSION-GUIDE.md) for detailed instructions.
+
+
+
 ### Apply IMG to Panda Knomi
 
 > <font size="2">Note: As of firmware V1.0.2 the IMG does not include custom color data information, only GIF image data. Custom color data will be included in V1.0.3.</font>
