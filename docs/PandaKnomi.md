@@ -627,7 +627,7 @@ If there is something you would like to see in a future release of the Panda Kno
 - If your computer does not have the CH340 driver, please download and install [CH341SER.EXE](https://www.wch-ic.com/downloads/CH341SER_EXE.html)<br/>
 - Download the [Flash Download Tools](https://www.espressif.com/en/support/download/other-tools)
   <img src=img/PandaKnomi/en_download_esp_tool.png width="800"/>
-- Download the [Panda Knomi firmware](https://github.com/bigtreetech/PandaKnomi/releases/tag/V1.0.5) from the releases page.
+- Download the [Panda Knomi firmware](https://github.com/bigtreetech/PandaKnomi/releases) from the releases page.
 - Hold the `Boot` button on Panda Knomi, connect it via `Type-C` to your computer, and a new COM port should appear in the device manager.<br/>
   <img src=img/PandaKnomi/boot_fw.jpg width="300"/>
 - Open `flash_download_tool_3.9.8_6.exe`, and configure as follows:<br/>
@@ -647,6 +647,7 @@ If there is something you would like to see in a future release of the Panda Kno
 #### [V1.0.5](https://github.com/bigtreetech/PandaKnomi/releases/download/V1.0.5/panda_knomi_V1.0.5.zip)
 * Fixed bad HMS errors and improved web interface stability.
 * Added new theme options, progress colors, and screensaver toggle.
+* For detailed release information, visit the [releases page](https://github.com/bigtreetech/PandaKnomi/releases/tag/V1.0.5).
 
 #### [V1.0.4.1](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4.1)
 * Optimization: Change the default AP Hotspot IP from `192.168.4.1` to `192.168.254.1` to minimize the possibility of conflicts with the router IP range as much as possible.
