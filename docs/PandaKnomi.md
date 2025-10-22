@@ -5,7 +5,7 @@
 ## IMPORTANT NOTES
 
 - Since the Panda Knomi only uses "non-critical", status communication from printers, it is not affected by any authentication processes that have recently been announced by Bambu Lab. For more information on what is and is not affected, please refer to the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
-- Always make sure you are running the latest Panda Knomi firmware which you can find [here](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware)
+- Always make sure you are running the latest Panda Knomi firmware which you can find [here](https://github.com/bigtreetech/PandaKnomi/releases)
 - We are actively developing a repository where users can share their Panda Knomi themes. We will share this link with users as soon as the repository is ready.
 - You can find various printable mounts for the P1, X1 and A1 series as well as cable management tools [here](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files)
 - Panda Knomi only supports connections to 2.4G Wi-Fi. Please ensure that your router is broadcasting a 2.4GHz access point.
