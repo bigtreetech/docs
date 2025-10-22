@@ -647,6 +647,7 @@ If there is something you would like to see in a future release of the Panda Kno
 #### [V1.0.5](https://github.com/bigtreetech/PandaKnomi/releases/download/V1.0.5/panda_knomi_V1.0.5.zip)
 * Fixed bad HMS errors and improved web interface stability.
 * Added new theme options, progress colors, and screensaver toggle.
+* For detailed release information, visit the [releases page](https://github.com/bigtreetech/PandaKnomi/releases).
 
 #### [V1.0.4.1](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4.1)
 * Optimization: Change the default AP Hotspot IP from `192.168.4.1` to `192.168.254.1` to minimize the possibility of conflicts with the router IP range as much as possible.
