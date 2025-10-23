@@ -131,7 +131,7 @@ M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路�
 
 <img src=img/M8P/M8P_Sel_PS1.png width="600" />
 
-<img src=img/M8P/M8P_Sel_PS1.png width="600" />
+<img src=img/M8P/M8P_Sel_PS2.png width="600" />
 
 ### **通过BTB连接安装核心板**
 
