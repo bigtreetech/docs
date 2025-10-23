@@ -133,7 +133,7 @@ As shown in the figure, plug the jumper cap when using the Sensorless Homing fun
 
 <img src=img/M8P/M8P_Sel_PS1.png width="600" />
 
-<img src=img/M8P/M8P_Sel_PS1.png width="600" />
+<img src=img/M8P/M8P_Sel_PS2.png width="600" />
 
 ### **Install the Core Board via BTB Connection**
 
