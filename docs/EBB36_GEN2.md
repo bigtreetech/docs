@@ -9,6 +9,7 @@
 | Version | Date         | Update Notes    |
 | :------ | :----------- | :-------------- |
 | v1.00   | October 17th, 2025 | Initial Release |
+| v1.1    | October 24th, 2025 | Corrected an error with heater output power rating |
 
 ## **Introduction**
 
@@ -53,7 +54,7 @@ Enjoy the industry’s most advanced and reliable toolboard.
 | Main Control Chip | ARM Cortex-M0+ STM32G0B1CBT6, 64MHz |
 | Mainboard Input Voltage | DCIN=DC24V-DC28V |
 | Logic Voltage | DC3.3V |
-| Heater Port Power | 96 W (24 V / 4 A) |
+| Heater Port Power | 120 W (24 V / 5 A) |
 | Hotend Thermistor Compatibility | PT1000 or NTC |
 | Fan Interfaces | Two 2-pin PWM fans (FAN0, FAN1)<br>One 3-pin fan (FAN2) with tachometer feedback. |
 | Fan Interface Rated Current | Total: 1 A,  Peak Current: 1.5 A<br>Built-in protection against over-current and over-temperature. |
@@ -192,7 +193,7 @@ The probe port features multi-faceted protection. First, the probe pin is protec
 
 <img src=img/EBB36_GEN2/heater.jpg width="300"/>
 
-The heater output uses rising clamp type screw terminals. Please do not use wires with soldered ends for this connection as it could cause a poor connection if the solder creeps with time.
+The heater output uses drop-down, pressure plate type screw terminals. Please do not use wires with soldered ends for this connection as it could cause a poor connection if the solder creeps with time.
 >Note: The voltage of the heater interface is the same as the input voltage. If the input is connected to > 24V, then you need to see whether the heater element supports > 24V input.
 
 The heater output features flyback protection while short circuit protection is provided via the fuses on the adapter board.
