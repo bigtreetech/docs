@@ -21,7 +21,6 @@
 ## Product Overview
 
 Panda Alarm is a wireless monitoring system that synchronizes your 3D printing farm. It provides immediate, at-a-glance status updates for P-series printers through synchronized RGB lighting and customizable audio alerts.
-
 The plug-and-play device sends real-time notifications for print completion, failure, and filament depletion. Manage all alerts remotely via the web interface or mobile app for streamlined farm operation. Panda Alarm transforms monitoring into a seamless, easy-to-understand experience, keeping you informed of your printer’s status at all times.
 
 ## Product Features
