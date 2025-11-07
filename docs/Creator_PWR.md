@@ -215,7 +215,7 @@ Displays the device’s **IP Address** and **Serial Number (SN)**.
 
 <img src=img/Creator_PWR/check_about_en.png width="400"/>
 
-#### Controlling USB1 and 220 V Power via Custom Macros
+### Controlling USB1 and 220 V Power via Custom Macros
 
 * Download the config file [creator_pwr.cfg](https://github.com/bigtreetech/CreatorPWR/blob/master/creator_pwr.cfg)
 * Upload it to **/config**.

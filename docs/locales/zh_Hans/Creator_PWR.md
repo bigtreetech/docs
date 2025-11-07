@@ -201,7 +201,7 @@
 <br>
 <img src=img/Creator_PWR/check_about.png width="400"/>
 
-#### 通过自定义宏控制USB1和220V电源
+### 通过自定义宏控制USB1和220V电源
 * 下载配置文件 [creator_pwr.cfg](https://github.com/bigtreetech/CreatorPWR/blob/master/creator_pwr.cfg)
 * 上传配置文件到 /config
 * 包含到printer.cfg中
