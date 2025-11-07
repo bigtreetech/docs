@@ -217,7 +217,7 @@ Displays the device’s **IP Address** and **Serial Number (SN)**.
 
 #### Controlling USB1 and 220 V Power via Custom Macros
 
-* Download the config file [creator_pwr.cfg](https://github.com/bigtreetech/Creator_PWR/blob/master/creator_pwr.cfg)
+* Download the config file [creator_pwr.cfg](https://github.com/bigtreetech/CreatorPWR/blob/master/creator_pwr.cfg)
 * Upload it to **/config**.
 * Add to **printer.cfg**.
 
@@ -228,17 +228,17 @@ Displays the device’s **IP Address** and **Serial Number (SN)**.
 ## Firmware
 
 ### Firmware History  
-#### [01.00.00.00](https://github.com/bigtreetech/Creator_PWR/blob/master/Firmware/01.00.00.00/creator_pwr-01.00.00.00.bin)
+#### [01.00.00.00](https://github.com/bigtreetech/CreatorPWR/blob/master/Firmware/01.00.00.00/creator_pwr-01.00.00.00.bin)
 
 * Initial release.
  
 ## Feature Requests
 We are committed to evolving the Creator PWR firmware based on user feedback. To suggest new features, please submit them as tickets on our official GitHub repository.<br>
-[Request Features](https://github.com/bigtreetech/Creator_PWR/issues)
+[Request Features](https://github.com/bigtreetech/CreatorPWR/issues)
 
 ## Recovery Tool
 If your Creator PWR fails to boot or perform OTA updates, use the recovery tool to restore functionality:
-[Download Recovery Tool](https://github.com/bigtreetech/Creator_PWR/blob/master/Recovery_tool/Recovery_tool.rar)
+[Download Recovery Tool](https://github.com/bigtreetech/CreatorPWR/blob/master/Recovery_tool/Recovery_tool.rar)
 
 ## Technical Support
 Was this page helpful? If you have any questions about product usage or encounter issues, please contact our after-sales team at **[service001@biqu3d.com](mailto:service001@biqu3d.com)**.

@@ -202,7 +202,7 @@
 <img src=img/Creator_PWR/check_about.png width="400"/>
 
 #### 通过自定义宏控制USB1和220V电源
-* 下载配置文件 [creator_pwr.cfg](https://github.com/bigtreetech/Creator_PWR/blob/master/creator_pwr.cfg)
+* 下载配置文件 [creator_pwr.cfg](https://github.com/bigtreetech/CreatorPWR/blob/master/creator_pwr.cfg)
 * 上传配置文件到 /config
 * 包含到printer.cfg中
 
@@ -213,17 +213,17 @@
 ## 固件
 
 ### 固件历史  
-#### [01.00.00.00](https://github.com/bigtreetech/Creator_PWR/blob/master/Firmware/01.00.00.00/creator_pwr-01.00.00.00.bin)
+#### [01.00.00.00](https://github.com/bigtreetech/CreatorPWR/blob/master/Firmware/01.00.00.00/creator_pwr-01.00.00.00.bin)
 
 * 初始发布的工厂固件版本。
  
 ## 功能请求
 我们欢迎您为未来的固件更新提供建议。请在官方 Creator PWR GitHub 仓库中提交您的功能请求。
-[请求功能](https://github.com/bigtreetech/Creator_PWR/issues)
+[请求功能](https://github.com/bigtreetech/CreatorPWR/issues)
 
 ## 恢复工具
 如果 Creator PWR 无法启动且无法进行 OTA 更新，请使用恢复工具恢复功能。
-[下载恢复工具](https://github.com/bigtreetech/Creator_PWR/blob/master/Recovery_tool/Recovery_tool.rar)
+[下载恢复工具](https://github.com/bigtreetech/CreatorPWR/blob/master/Recovery_tool/Recovery_tool.rar)
 
 ## 技术支持
 这个页面对您有帮助吗？如果您对产品使用有任何疑问或遇到问题，请联系我们的售后团队：
