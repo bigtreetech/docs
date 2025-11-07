@@ -67,30 +67,30 @@ Use only the antenna supplied with the device.
 
 ### Initial Connection
 #### WiFi Connection Guide
-1. Connect to Creator PWR's hotspot using your mobile phone or computer. <br/>
+1.Connect to Creator PWR's hotspot using your mobile phone or computer. <br/>
 Default credentials：<br/>
     SSID: `Creator_PWR_xxxxxxxxxxxx`<br/>
     Password: `987654321`<br/>
 
 <img src=img/Creator_PWR/ap.png width="400"/>
 
-2. After connecting, the Web UI should open automatically. If it doesn’t within 10–20 seconds, open `192.168.254.1` manually in your browser.
+2.After connecting, the Web UI should open automatically. If it doesn’t within 10–20 seconds, open `192.168.254.1` manually in your browser.
 
 <img src=img/Creator_PWR/welcome.png width="400"/>
 
-3. Select your language and tap "Next".
+3.Select your language and tap "Next".
 
 <img src=img/Creator_PWR/language_en.png width="400"/>
 
-4. The interface will display available Wi-Fi networks. Choose the same Wi-Fi your printer uses. If your network isn’t listed, tap "Scan" to refresh.
+4.The interface will display available Wi-Fi networks. Choose the same Wi-Fi your printer uses. If your network isn’t listed, tap "Scan" to refresh.
 
 <img src=img/Creator_PWR/config_sta_en.png width="400"/>
 
-5. Once connected, an IP confirmation popup will appear, tap "Confirm".
+5.Once connected, an IP confirmation popup will appear, tap "Confirm".
 
 <img src=img/Creator_PWR/sta_ip_en.png width="400"/> 
 
-6. Enter your preferred printer name, printer IP address, and port **4408**, then tap "Connect". When `Connection Successful` appears, tap "OK".
+6.Enter your preferred printer name, printer IP address, and port **4408**, then tap "Connect". When `Connection Successful` appears, tap "OK".
 
 <img src=img/Creator_PWR/config_printer_en.png width="400"/> 
 
@@ -101,11 +101,11 @@ Default credentials：<br/>
 
 <img src=img/Creator_PWR/control_en.png width="400"/> 
 
-* 1. Turn the 220 V output on or off.
-* 2. Toggle **Auto Power-Off After Print Completion** — when enabled, the printer powers off automatically after printing is done (the toggle resets afterward).
-* 3. Turn **USB1 output** on or off.
-* 4. Enable or disable the **Countdown** function.
-* 5. Set the **Countdown Duration**.
+* 1.Turn the 220 V output on or off.
+* 2.Toggle **Auto Power-Off After Print Completion** — when enabled, the printer powers off automatically after printing is done (the toggle resets afterward).
+* 3.Turn **USB1 output** on or off.
+* 4.Enable or disable the **Countdown** function.
+* 5.Set the **Countdown Duration**.
 
 ##### Power Parameters
 Displays real-time **voltage**, **current**, and **power** supplied to external devices.
@@ -229,7 +229,7 @@ Displays the device’s **IP Address** and **Serial Number (SN)**.
 
 ### Firmware History  
 #### [01.00.00.00](https://github.com/bigtreetech/CreatorPWR/blob/master/Firmware/01.00.00.00/creator_pwr-01.00.00.00.bin)
-
+                    
 * Initial release.
  
 ## Feature Requests
