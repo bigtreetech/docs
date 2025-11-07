@@ -7,7 +7,7 @@ Panda Touch的CAD文件可以下载 [点击这里](https://github.com/bigtreetec
 
 Panda Touch目前与所有Bambu Lab打印机固件版本兼容，直到：
 
-* P1P/S: 01.07.00.00 
+* P1P/S: 01.08.01.00
 * X1C --> 01.08.02.00
 * X1E --> 01.01.02.00
 * A1 --> 01.04.00.00

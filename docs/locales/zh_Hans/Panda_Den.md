@@ -6,6 +6,8 @@
 
 [打印件](https://github.com/bigtreetech/PandaDen/tree/master/Print_Files)包含:
 
+[Makerworld](https://makerworld.com/zh/models/1832235-panda-den-printout#profileId-1956684)
+
 * Panda RGB Controller安装壳
 
 * 256*256打印钢板收纳架

@@ -179,6 +179,8 @@ nav:
         - EBB 2240 2209 CAN.md
         - EBB 2209 CAN RP2040.md
         - EBB SB2209 USB.md
+        - EBB36_GEN2.md
+        - EBB42_GEN2.md
         - U2C.md
       - MMB Series:
         - MMB CAN V1.0.md
@@ -259,7 +261,7 @@ nav:
       - Panda-Door.md
       - PandaEdge.md
       - Panda-Enclosure.md
-      - Panda extruder.md
+      - Panda Extruder.md
       - Panda Hotend:
         - Panda Flow/CHT:
           - X1:
@@ -297,8 +299,9 @@ nav:
       - Panda-Turbo-Kit.md
       - Panda-Under-Armor-H2D.md
       - Panda-Under-Armor-PX.md
+      - Panda_Belt_Kit_XP.md
       - 5050_LED_Light_Strip.md
-
+      - MindDuck.md
     - Extruders: 
       - Extruders.md 
       - H2 V2S.md 

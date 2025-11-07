@@ -14,8 +14,7 @@
 
 ## **Introduction**
 
-The Panda Jetpack V2 is a lightweight front cover upgrade for Bambu Lab P1/X1 printers that revolutionizes the printing experience. This precision-engineered cover deliver omnidirectional cooling for flawless overhangs and intricate details, while its optimized mass distribution enhances printhead speed and accuracy. Complete with customizable RGB lighting, the Jetpack V2 offers both functional print monitoring through visual alerts and aesthetic customization to match your style. It's the perfect fusion of performance and personalization, all while maintaining your printer's sleek profile.
-
+The Panda Jetpack V2 is a precision-engineered front cover upgrade for Bambu Lab P1 and X1 printers, designed to significantly enhance print quality and performance. It delivers omnidirectional cooling for superior overhangs and fine details, while its optimized mass distribution allows for increased printhead speed and accuracy. Equipped with customizable RGB lighting, it provides both practical print monitoring through visual alerts and aesthetic personalization - all within a sleek, form-fitting design that maintains the printer's original profile.
 
 ## **Feature Highlights**
 
@@ -25,19 +24,19 @@ The Panda Jetpack V2 is a lightweight front cover upgrade for Bambu Lab P1/X1 pr
 
 - **Omni-directional Part Cooling Fan Duct**
 
-    Engineered with a corner-outlet design for uniform airflow, delivering superior bridging and overhang performance. Its compact shape provides a perfect view of the nozzle and print at all times.
+    Features a corner-outlet design that distributes airflow evenly. This improves bridging and overhang performance. The compact shape also ensures a clear, unobstructed view of the nozzle and printing process.
 
 - **Precision Injection Molded**
 
-    Enhanced surface finish for elevated visual appeal and premium feel.
+    Provides an enhanced surface finish, resulting in a more visually appealing and premium-feeling product.
 
 - **Web UI Wireless Control**
 
-    Customize your lighting effortlessly. Manage effects, color, brightness, and speed via an intuitive web interface.
+    Use the intuitive web interface to customize your lighting. Adjust effects, color, brightness, and speed.
 
-- **H-Series Style Status Color Indicator**
+- **H2D Style Status Color Indicator**
 
-    Vibrant, colorful lighting provides instant feedback and dynamic visual alerts.
+    Use the vibrant LED lighting to receive instant feedback on device status and dynamic visual alerts for notifications.
 
 
 ## **Specifications**
@@ -63,13 +62,13 @@ The Panda Jetpack V2 is a lightweight front cover upgrade for Bambu Lab P1/X1 pr
 
 ### Preparation
 
-Before beginning, unload the filament and power off the printer.
+Before starting, completely unload the filament and turn the printer's power off.
 
 ### **Disassembly**
 
 * Step 1 – Remove the Front Housing Assembly
 
-    Remove the front housing assembly completely by disconnecting the fan connector.
+    After disconnecting the fan's electrical connector, you can remove the front housing assembly.
 
     <img src=img/PandaJetpackV2/install_1.png width="300"/>
 
@@ -81,7 +80,7 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 3 – Release the Cutter
 
-    Loosen the cutter lever screw with the H1.5 hex key to release the cutter from the extruder, allowing the cutter lever to hang freely.
+    Using a H1.5 hex key, loosen the cutter lever screw just enough to release the lever assembly from the extruder body.
 
     <img src=img/PandaJetpackV2/install_3.png width="300"/>
 
@@ -89,7 +88,7 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 4 – Remove Screws
 
-    Remove the 8 screws on the sides of the toolhead, with 4 screws on each side.
+    Locate the eight screws securing the housing - four on each side. Using a hex key, remove all eight screws. These screws will be used later to secure the Panda Jetpack Back Shell.
 
     <img src=img/PandaJetpackV2/install_5.jpg width="300"/>
 
@@ -111,7 +110,7 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 1 – Install Panda Jetpack Back Shell Middle Housing
 
-    As shown, correctly install the Panda Jetpack back shell middle housing.
+    Correctly install the Panda Jetpack back shell middle housing by aligning it with the toolhead and pressing firmly until it clicks into place.
 
     <img src=img/PandaJetpackV2/install_9.png width="300"/>
 
@@ -125,7 +124,7 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 3 – Secure Screws
 
-    After aligning the rear housing with the middle housing, insert and tighten the 8 screws to secure them in place.
+    After aligning the housings, secure them by inserting and tightening the eight previously removed screws.
 
     <img src=img/PandaJetpackV2/install_11.jpg width="300"/>
 
@@ -140,18 +139,18 @@ Before beginning, unload the filament and power off the printer.
 
 * Step 5 – Connect PTFE Tube
 
-    Insert the filament tube into the pneumatic joint securely.
+    Insert the PTFE tube straight into the pneumatic fitting and push firmly until it is fully seated.
 
     <img src=img/PandaJetpackV2/install_14.jpg width="300"/>
 
 
 * Step 6 – Attach Jetpack Front Housing Assembly
 
-    Push the fan out from the center of the stock front housing.
+    Remove the screw securing the fan, then push on the fan’s outer frame from the front face of the housing to dislodge it.
 
     <img src=img/PandaJetpackV2/install_15.jpg width="300"/>
 
-    Align the holes and insert the fan into the Panda Jetpack V2. Connect the fan cable to the corresponding port on the Panda Jetpack V2 PCBA.
+    Position the fan into its location on the Panda Jetpack V2, aligning its mounting holes with those on the housing. Insert the previously removed screws and tighten them securely to mount the fan. Connect the fan's cable to the designated FAN port on the Panda Jetpack V2 printed circuit board assembly (PCBA).
 
     <img src=img/PandaJetpackV2/install_16.jpg width="300"/>
 
@@ -187,7 +186,7 @@ Before beginning, unload the filament and power off the printer.
     <img src=img/PandaJetpackV2/install_24.jpg width="300"/>
 
 
-## First Connection
+## Initial Connection
 
 <a id="first-connection"></a>
 
@@ -205,7 +204,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - Accessing the AP Webpage
 
-    - After connecting to the AP, open a browser on your computer and enter the default IP address: `192.168.254.1`. On mobile devices, the Panda_Jetpack Web UI will automatically appear, or you can manually enter the IP address in the browser: `192.168.254.1`.
+    - After connecting to the AP, open a browser on your computer and enter the default IP address: `192.168.254.1`. On mobile devices, the Panda_Jetpack Web UI will automatically appear, or you can manually enter the IP address in the browser: `192.168.254.1`. Below, the mobile version will be used as an example for explanation. The web version operates similarly. For Mobile:
 
 - Select Language (Default: English)
 
@@ -217,11 +216,11 @@ When you power up for the first time or restore factory settings, you'll see a b
   
 - WiFi Connection Page
 
-    - After the initial setup or a factory reset, this page will automatically scan for nearby Wi-Fi networks, or you can manually tap the scan button.
+    - After initial setup or a factory reset, the interface will automatically scan for available Wi-Fi networks. If your network is not listed, tap Scan to refresh the list manually.
 
         <img src=img/PandaJetpackV2/en/wifi_scan.png width="300"/>
 
-    - Once the scan is complete, a pop-up will appear notifying you that the scan is finished.
+    - A confirmation message will appear when the scan is complete.
 
         <img src=img/PandaJetpackV2/en/wifi_scan_ok.png width="300"/>
 
@@ -249,27 +248,29 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 <a id="printer-bind"></a>
 
+## Introduction to Each Page
+
+The WiFi connection is complete. Below are the elements and functions of each page.
+
 ### Printer Binding Page
 
-- Feature Introduction
+<img src=img/PandaJetpackV2/en/printer.png width="300"/>
 
-    <img src=img/PandaJetpackV2/en/printer.png width="300"/>
+- ① Printer Page Selection: When you tap the icon, it will turn red to indicate that you are on the Printer page.
 
-    - ① Printer Page Selection: When you tap the icon, it will turn red to indicate that you are on the Printer page.
+- ② Scan for Printers on the Same Local Network
 
-    - ② Scan for Printers on the Same Local Network
+- ③ Select the Detected Printer
 
-    - ③ Select the Detected Printer
+- ④ Enter Printer's SN Code
 
-    - ④ Enter Printer's SN Code
+- ⑤ Enter Printer's Access Code
 
-    - ⑤ Enter Printer's Access Code
+- ⑥ Enter Printer's IP Address
 
-    - ⑥ Enter Printer's IP Address
+- ⑦ Confirm to Bind This Printer
 
-    - ⑦ Confirm to Bind This Printer
-
-- How to Bind a Printer
+- How to Bind a Printer (Using P1P as an Example)
  
     - Tap `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
@@ -279,24 +280,15 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         <img src=img/PandaJetpackV2/en/printer_list.png width="300"/>
 
-    - Enter the printer's `Access Code`
+    - Enter the printer's `Access Code`: Find the access code in the printer's settings, enter it in the box, and tap `Bind` to successfully bind the printer.
 
-        * Find the `Access Code` in the printer (Using P1 series printer as an Example)
+        <img src=img/PandaJetpackV2/en/p1_1_2_3.png width="600"/>
 
-            <img src=img/PandaJetpackV2/en/p1_1_2_3.png width="600"/>
+        <img src=img/PandaJetpackV2/en/p1_4_5.png width="600"/>
 
-            <img src=img/PandaJetpackV2/en/p1_4_5.png width="600"/>
+        <img src=img/PandaJetpackV2/en/printer_bind.png width="300"/>
 
-        * Enter `Access Code` in the input box, and tap `Bind` to bind the printer.
-
-            <img src=img/PandaJetpackV2/en/printer_bind.png width="300"/>
-
-            <img src=img/PandaJetpackV2/en/bind_ok.png width="300"/>
-
-
-## Introduction to Each Page
-
-The WiFi connection is complete. Below are the elements and functions of each page.
+        <img src=img/PandaJetpackV2/en/bind_ok.png width="300"/>
 
 ### WiFi Page
 
@@ -330,7 +322,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 - ⑤ Hotspot IP: Default Hotspot IP is "192.168.254.1." If your router's IP range is "192.168.254.xxx," an IP conflict will prevent the device from binding to the printer. Change the Panda_Jetpack hotspot IP to a different range.
 
-- ⑥ Confirm Button: Taping this will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](https://bttwiki.com/Panda_Jetpack.html#wifi_connect_ap))
+- ⑥ Confirm Button: Tapping this button will restart the device. After the restart, you can connect to the AP hotspot.([How to connect to the AP hotspot](https://bttwiki.com/Panda_Jetpack.html#wifi_connect_ap))
 
 ### Settings Page
 
@@ -348,7 +340,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
         <img src=img/PandaJetpackV2/ota_bin.png width="300"/>
 
-    - Wait for the progress to complete, and the device will automatically restart once the update is finished.
+    - Wait for the progress to complete. The device will automatically restart once the update is finished.
 
         <img src=img/PandaJetpackV2/en/ota_progress.png width="300"/>
 
@@ -358,27 +350,25 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 ### Control Page
 
-- Feature Introduction
+<img src=img/PandaJetpackV2/en/panel.png width="300"/>
 
-    <img src=img/PandaJetpackV2/en/panel.png width="300"/>
+- ① Control Page Selection: When you tap the icon, it will turn red to indicate that you are on the Control page.
 
-    - ① Control Page Selection: When you tap the icon, it will turn red to indicate that you are on the Control page.
+- ② Current Device Name
 
-    - ② Current Device Name
+- ③ Turn on and off the RGB Light effects.
 
-    - ③ Turn on and off the RGB Light effects.
+- ④ Automatically turns RGB effect ON and OFF following the printers stock light.
 
-    - ④ Automatically turns RGB effect ON and OFF following the printers stock light.
+- ⑤ Override Red flashing warning light when printer is in error state.
 
-    - ⑤ Override Red flashing warning light when printer is in error state.
+- ⑥ Select the lighting effect and the current effect.
 
-    - ⑥ Select the lighting effect and the current effect.
+- ⑦ Light color setting.
 
-    - ⑦ Light color setting.
+- ⑧ Brightness.
 
-    - ⑧ Brightness.
-
-    - ⑨ Speed.
+- ⑨ Speed.
 
 - Light Effect
 
@@ -394,7 +384,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
         <img src=img/PandaJetpackV2/en/fan.png width="300"/>
 
-    - ⑩ After selection,The color of the light can be adjusted according to the printer.You can choose between the Static or Rainbow lighting effects in the printing.
+    - ⑩ After selection, the color of the light can be adjusted according to the printer. You can choose between the Static or Rainbow lighting effects in the printing.
 
         <img src=img/PandaJetpackV2/en/h2d_mode.png width="300"/>
 
@@ -410,11 +400,11 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
         - ① Factory default preset color.
 
-        - ② Custom color. After clicking, a color picker will appear where you can set the color value for this custom color.
+        - ② Custom color. 
 
             <img src=img/PandaJetpackV2/en/picker.png width="300"/>
 
-    - After selecting a `Preset` or `Color Definition`(custom color) color block. Click `Confirm`, you can set the RGB lights to your selected color.
+    - After selecting a color block, tap `Confirm`. If you tap on the color block in "Color Definition," you can set it to your preferred color.
 
         <img src=img/PandaJetpackV2/en/confirm.png width="300"/>
 
@@ -428,4 +418,4 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 ## Feature Requests
 
-If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. [Feature Requests](https://github.com/bigtreetech/PandaJetpackV2/issues)
+If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. [Feature Requests.](https://github.com/bigtreetech/PandaJetpackV2/issues)

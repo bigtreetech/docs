@@ -111,7 +111,9 @@ BIQU Panda Under Armor PX 专为 P1/X1 系列 3D 打印机设计，提供底部�
 
 2、请访问 https://github.com/bigtreetech/Panda-Under-Armor-PX 下载并打印我们设计好的 Panda Caster Wheel Adjustment Tool。
 
-3、通过Panda Castor Wheel Adjustment Tool向前或向后拉动红色调节轮，您可以轻松收起或放下脚垫，从而使打印机能够稳固地放置在桌面或地面上，或者可以顺畅地移动。
+- 稳固停放打印机： 使用 Panda Castor Wheel Adjustment Tool，沿工具上三角形图标方向拉动红色调节轮，使脚垫下降，将打印机稳固固定于地面。
+
+- 顺畅移动打印机： 沿工具上圆形图标方向拉动调节轮，使脚垫升起，便于平稳移动打印机。
 
 <img src=img/Panda_Under_Armor/panda_under_armor_installation16.png width="600" />
 

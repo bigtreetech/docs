@@ -50,7 +50,7 @@ Remove the following two screws that secures the original fan duct. Keep the scr
 
 Carefully remove the original fan duct by pulling it out in a vertical motion.
 
-<font size="5" color="red">Important Notice：Latest Version of the fanduct on the P1/X1 series printer is glued onto the front cover, use a flat cutter or Xacto knife to carefully scrap off the glue to avoid damage to the front cover.</font>
+<font size="5" color="red">Important Notice：Latest Version of the fanduct on the P1/X1 series printer is glued onto the front cover, use a flat cutter or Xacto knife to carefully scrap off the glue to avoid damage to the front cover. If clips on the front cover has been damaged during removal , the jetpack will still install securely, you may need to apply small amount of super glue if large gaps appear between the panda jet and the front cover.</font>
 
 
 

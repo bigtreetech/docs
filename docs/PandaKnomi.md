@@ -5,7 +5,7 @@
 ## IMPORTANT NOTES
 
 - Since the Panda Knomi only uses "non-critical", status communication from printers, it is not affected by any authentication processes that have recently been announced by Bambu Lab. For more information on what is and is not affected, please refer to the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
-- Always make sure you are running the latest Panda Knomi firmware which you can find [here](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware)
+- Always make sure you are running the latest Panda Knomi firmware which you can find [here](https://github.com/bigtreetech/PandaKnomi/releases)
 - We are actively developing a repository where users can share their Panda Knomi themes. We will share this link with users as soon as the repository is ready.
 - You can find various printable mounts for the P1, X1 and A1 series as well as cable management tools [here](https://github.com/bigtreetech/PandaKnomi/tree/master/Print_Files)
 - Panda Knomi only supports connections to 2.4G Wi-Fi. Please ensure that your router is broadcasting a 2.4GHz access point.
@@ -517,6 +517,12 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
   > <font size="2">Note: As of firmware V1.0.2 the IMG does not include custom color data information, only GIF image data. Custom color data will be included in V1.0.3.</font>
 - ⑦ ⑧ Install Others’ Shared IMG Files to your Panda Knomi.
 
+### Optimizing GIF Files
+
+For best results, please optimize your GIFs before uploading using [ezgif.com](https://ezgif.com). This helps you store more GIFs on your Panda Knomi. See our [Compression Guide](https://github.com/bigtreetech/PandaKnomi/blob/master/COMPRESSION-GUIDE.md) for detailed instructions.
+
+
+
 ### Apply IMG to Panda Knomi
 
 > <font size="2">Note: As of firmware V1.0.2 the IMG does not include custom color data information, only GIF image data. Custom color data will be included in V1.0.3.</font>
@@ -621,7 +627,7 @@ If there is something you would like to see in a future release of the Panda Kno
 - If your computer does not have the CH340 driver, please download and install [CH341SER.EXE](https://www.wch-ic.com/downloads/CH341SER_EXE.html)<br/>
 - Download the [Flash Download Tools](https://www.espressif.com/en/support/download/other-tools)
   <img src=img/PandaKnomi/en_download_esp_tool.png width="800"/>
-- Download the [Panda Knomi firmware](https://github.com/bigtreetech/PandaKnomi)
+- Download the [Panda Knomi firmware](https://github.com/bigtreetech/PandaKnomi/releases) from the releases page.
 - Hold the `Boot` button on Panda Knomi, connect it via `Type-C` to your computer, and a new COM port should appear in the device manager.<br/>
   <img src=img/PandaKnomi/boot_fw.jpg width="300"/>
 - Open `flash_download_tool_3.9.8_6.exe`, and configure as follows:<br/>
@@ -637,6 +643,11 @@ If there is something you would like to see in a future release of the Panda Kno
     - ③ Click `START` to begin writing. Once done, power off and restart Panda Knomi.
 
 ### Firmware History <a id="firmware_history"></a>
+
+#### [V1.0.5](https://github.com/bigtreetech/PandaKnomi/releases/download/V1.0.5/panda_knomi_V1.0.5.zip)
+* Fixed bad HMS errors and improved web interface stability.
+* Added new theme options, progress colors, and screensaver toggle.
+* For detailed release information, visit the [releases page](https://github.com/bigtreetech/PandaKnomi/releases).
 
 #### [V1.0.4.1](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4.1)
 * Optimization: Change the default AP Hotspot IP from `192.168.4.1` to `192.168.254.1` to minimize the possibility of conflicts with the router IP range as much as possible.

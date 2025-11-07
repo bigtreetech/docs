@@ -36,6 +36,8 @@
 
 [打印件拓展功能](https://github.com/bigtreetech/Panda_Perch)
 
+[Makerworld](https://makerworld.com/zh/models/1802706-panda-perch-printable-collection#profileId-1922491)
+
 <img src=img/Panda_Perch_CN/8.png width="600"/>
 
 打印件包含钢板收纳、工具收纳、上玻璃盖打开限位等
