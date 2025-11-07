@@ -1,7 +1,7 @@
 # Creator PWR
 <img src=img/Creator_PWR/product.png width="600"/>
 
-Product Link: [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-panda-pwr-intelligent-power-management-module?_pos=1&_sid=99912d4b2&_ss=r)
+Product Link: [BIGTREETECH Official Website]()
 
 ## Important Usage Information 
 * Store the product in a **dry** environment. Do not use it in humid conditions.

@@ -1,7 +1,7 @@
 # Creator PWR
 <img src=img/Creator_PWR/product.png width="600"/>
 
-产品链接: [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-panda-pwr-intelligent-power-management-module?_pos=1&_sid=99912d4b2&_ss=r)
+产品链接: [BIGTREETECH Official Website]()
 
 ## 重要使用信息 
 * 请将产品存放在干燥的环境中。避免在潮湿环境中使用；
@@ -84,7 +84,7 @@
 <img src=img/Creator_PWR/config_sta.png width="400"/>
 
 5.Wi-Fi连接成功后，会自动弹出 Creator PWR设备的 IP 地址弹框，点击 “确定”按钮。
-
+<br>
 <img src=img/Creator_PWR/sta_ip.png width="400"/> 
 
 6.输入一个您喜欢的打印机名，输入您目标连接的打印机IP地址，输入端口：4408，点击“连接”按钮，开始连接打印机, 当出现 `连接成功` 的弹窗意味着 Creator PWR已经成功连接到打印机了，点击“确定”按钮。
