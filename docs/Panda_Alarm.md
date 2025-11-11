@@ -6,7 +6,7 @@
 
 ## **Important Notice**:
 
-- **Printer Monitoring Only**: Panda Alarm only monitors the printer’s status and does not control the printer. Therefore, its functionality will not be affected by Bambu Lab firmware updates. For details on which functions are affected or unaffected, please refer to the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
+- **Printer Monitoring Only**: Panda Alarm  is a monitoring-only device, meaning it reads the printer's status but does not control it. This key distinction ensures its core functionality remains unaffected by Bambu Lab firmware updates. For a detailed breakdown on which functions are affected or unaffected ny updates, please consult the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
 
 - **Firmware**: Ensure your device is running the latest [firmware version](https://github.com/bigtreetech/PandaAlarm/tree/master/Firmware).  
 
@@ -20,7 +20,8 @@
 
 ## Product Overview
 
-Panda Alarm ensures your 3D printing farm stays perfectly synchronized. This smart, wireless system allows you to instantly see and hear the status of your printers. Specifically designed for the P series printers, it integrates synchronized RGB lighting with customizable sound alarms to notify you in real-time when a print is complete, fails, or when filament runs out. With a simple plug-and-play setup, you can remotely manage all alerts through a web interface or mobile app, ensuring your entire farm operates smoothly and efficiently. Panda Alarm transforms monitoring into a seamless, easy-to-understand experience, keeping you informed of your printer’s status at all times.
+Panda Alarm is a wireless monitoring system that synchronizes your 3D printing farm. It provides immediate, at-a-glance status updates for P-series printers through synchronized RGB lighting and customizable audio alerts.
+The plug-and-play device sends real-time notifications for print completion, failure, and filament depletion. Manage all alerts remotely via the web interface or mobile app for streamlined farm operation. Panda Alarm transforms monitoring into a seamless, easy-to-understand experience, keeping you informed of your printer’s status at all times.
 
 ## Product Features
 
@@ -34,7 +35,7 @@ Panda Alarm ensures your 3D printing farm stays perfectly synchronized. This sma
 
 * **Remote Control**: Control alarms and settings via a mobile app (launching soon)
 
-* **Compatibility**: Specifically designed for P series printers
+* **Compatibility**: Specifically designed for P-series printers
 
 ## Specifications
 
@@ -71,7 +72,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 
 #### Installation Steps
 
-* Take the transparent Panda Alarm main unit from the packaging and attach it to the control box using the two included **M3×8 countersunk self-tapping screws**.
+* Remove the transparent Panda Alarm main unit from its packaging. Secure it to the control box using the two supplied **M3×8 countersunk self-tapping screws**.
 
     <img src=img/PandaAlarm/install_1.jpg width="500"/>
 
@@ -79,7 +80,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 
     <img src=img/PandaAlarm/install_2.jpg width="500"/>
 
-* Insert the USB power cable into the **USB-A port** on the printer. The USB-A port is located in the upper groove on the P1 printer's door panel. You may need to remove the printer's cover to access it.
+* Plug the USB power cable into the printer's **USB-A port**, located in the upper groove of the P1 door panel. Access may require removing the printer's cover.
 
     <img src=img/PandaAlarm/install_3.jpg width="500"/>
 
@@ -87,11 +88,13 @@ Panda Alarm is designed for installation on the P1 series printer.
 
     <img src=img/PandaAlarm/install_4.jpg width="500"/>
 
-* Insert the exposed **Type-C connector** into the **Type-C port** on the control box, routing the cable as shown.
+* Insert the exposed **Type-C connector** into the **Type-C port** on the control box,  ensuring the cable is routed appropriately, as shown.
 
     <img src=img/PandaAlarm/install_5.jpg width="500"/>
 
-* Determine the position for the metal sheet: Place the entire Panda Alarm unit on the upper-right side of the P1 printer, ensuring the curvature of the lightboard aligns with the printer's curvature. Then, attach the included metal sheet to the corresponding area on the printer to secure the control box.
+* Determine the position for the metal sheet: Position the Panda Alarm unit on the printer's upper-right side, aligning the lightboard's curvature with the printer's. Secure the control box by attaching the included metal sheet over it.
+
+
 
     <img src=img/PandaAlarm/install_6.jpg width="500"/>
 
@@ -99,7 +102,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 
     <img src=img/PandaAlarm/install_7.jpg width="500"/>
 
-* Position the Panda Alarm unit along the upper-right curvature of the printer, pressing it firmly into place with the double-sided tape to secure it at the top.
+* Position the Panda Alarm unit along the upper-right curvature of the printer. Press it firmly to secure the top with the integrated double-sided tape.
 
     <img src=img/PandaAlarm/install_8.jpg width="500"/>
 
@@ -113,7 +116,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 
 * Connect to Panda Alarm's AP Hotspot
 
-    After the first startup or after executing the **Restore Factory Settings** command, Panda Alarm's light effect will display a **blue marquee**, indicating the device has not yet been bound to a printer. To configure and bind the printer, you’ll need to connect to the Web UI. Follow these steps to manually connect to the Panda Alarm's AP Hotspot:
+    After the first startup or after executing the **Restore Factory Settings** command, the Panda Alarm will display a **blue marquee** light effect - indicating that the device has not yet been bound to a printer. To configure and bind the printer, you’ll need to connect to the Web UI. Follow these steps to manually connect to the Panda Alarm's AP Hotspot:
 
     Example using an **iPhone**:
 
@@ -131,21 +134,21 @@ Panda Alarm is designed for installation on the P1 series printer.
 
 ### Connect Panda Alarm to the same Wi-Fi as the printer
 
-* Upon first-time configuration, the device will automatically take you to the **Select Language** screen. After setting your language preference, click **Next**.
+* UUpon first connection, you will be directed to the **Select Language** screen. Choose your language and click **Next**.
 
     <img src=img/PandaAlarm/en/language.jpg width="300"/>
 
-* On the Wi-Fi connection screen, Panda Alarm will automatically scan for available Wi-Fi networks. Select the network your printer is connected to. If the printer’s Wi-Fi is not detected, click **Scan** to rescan.
+* The system will automatically scan for available Wi-Fi networks. Select the same network your printer uses. If the network is not listed, click **Scan** to rescan.
 
     <img src=img/PandaAlarm/en/wifi.jpg width="300"/>
 
-* Wait for the connection to complete. Once connected, a pop-up window will appear. Click **Bind Printer** to proceed to the **Printer** screen and bind the printer.
+*After the connection is established, a confirmation pop-up will appear. Click **Bind Printer** to finalize the setup.
 
     <img src=img/PandaAlarm/en/goto_printer.jpg width="300"/>
 
 ### Bind Printer
 
-> **Note**: If the access code field is blank, the printer may be in cloud mode and not linked to a cloud account. Please switch the printer to "LAN Only Mode" or use Bambu Handy/Bambu Studio to bind the printer to a cloud account.
+> **Note**: If the access code field is blank, the printer is likely in an unlinked cloud mode. Please configure the printer's network to "LAN Only Mode," or use Bambu Handy/Bambu Studio to complete the cloud account binding.
 
 #### Auto Scan
 
@@ -176,7 +179,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 > * Panda Alarm can detect up to 20 printers per scan. If there are more than 20 printers in your network, some may not be detected. You can use **Manual Input** to bind the printer by entering all necessary information.
 > * If fewer printers are present but the desired one is still not detected, try using **Manual Input** to bind it. If Panda Alarm cannot connect to the printer, router security settings may be preventing local network communication. For further assistance, please contact support at [support01@bigtree-tech.com](mailto:support01@bigtree-tech.com).
 
-* Find the **SN**, **Access Code**, and **IP** on the printer, and enter them into the corresponding fields in the Web UI.
+* Enter the printer's **SN**, **Access Code**, and **IP** address into their corresponding fields in the Web UI.
 
     * P1 Series Printer
 
@@ -208,7 +211,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 
 ### Device Status
 
-Panda Alarm has **3 system-level statuses** and **7 printer statuses**, totaling **10 statuses**. The default **light effects** and **sound effects** for each status are as follows:
+The system provides **10 status alerts (3 system-level, 7 printer-level)**, each with a default **light** and **sound** effect as shown:
 
 #### System-level Statuses
 
@@ -244,13 +247,14 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 * ③ Preview Mode
 
-    Used to preview the device's **light effects** or **sound effects**. Enable **Preview Mode**, select the **simulated state** you want, and the device will display the corresponding **light effect** or **sound effect** based on your selection.
+    Use this mode to test the device's **light** and **sound** effects. Select a **simulated status** to activate its corresponding alerts.
 
     <img src=img/PandaAlarm/en/preview.jpg width="300"/>
    
     * a) Toggle **Preview Mode** on/off.
 
-        > **Note:** If you switch to another interface or log out of the Web UI, **Preview Mode** will automatically close to prevent it from staying active.
+        > **Note:** **Preview Mode** closes automatically if you exit the interface or log out.
+
 
     * b) Choose the **simulated state**. The device has the following **10 states**:
         * OTA in progress
@@ -347,27 +351,29 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 * ② To reconfigure the Wi-Fi connection for Panda Alarm, click the **Wi-Fi Network Configuration** button to return to the Wi-Fi configuration screen.
 
-    > <font size="2">Tip: When Panda Alarm switches to a different Wi-Fi network, its local network and IP address may change. If you change this setting on a device within the same network, communication with Panda Alarm will be lost. The device will need to reconnect to the newly configured Wi-Fi. To avoid this, we recommend connecting your device to Panda Alarm’s AP hotspot first, then changing the configuration.</font>
+    > <font size="2">Tip: Changing the Panda Alarm's Wi-Fi network will change its IP address, interrupting communication with devices on the old network. To maintain access during configuration, first connect your device directly to the Panda Alarm's hotspot, then update the network settings.
 
-* ③ Once the network configuration is complete, we recommend connecting your phone, computer, or other devices to the same Wi-Fi network as Panda Alarm. Access the Web UI via the IP address in your browser’s address bar. You can also save the IP address as a bookmark on your home screen for easy access.
+</font>
+
+* ③ Once configured, ensure your devices are connected to the same Wi-Fi network as the Panda Alarm. Access the Web UI by entering its IP address in a browser. For convenience, bookmark this address.
 
 * ④ If your device is on the same network as Panda Alarm, you can access the Web UI using the hostname. The default hostname `PandaAlarm`, accessible at [http://pandaalarm.local](http://pandaalarm.local) (case-insensitive). If your device is using a VPN, this method may not work, and you should use the IP address instead.
 
     Users can customize the hostname by following these rules:
 
-    * It must consist of letters (a-z, A-Z), numbers (0-9), and hyphens (-), with the first character being a letter.
+    * It must consist of letters (a-z, A-Z), numbers (0-9), and hyphens (-). The first character must be a letter.
 
-    * It must be between 8 and 32 characters long.
+    * The length must be between 8 and 32 characters.
 
-    After changing, click **Set Hostname** to apply the new hostname to Panda Alarm. If a pop-up window appears, the hostname has been successfully updated. The new hostname will take effect after a reboot. Click **OK** to reboot Panda Alarm immediately, or click the **x** button to close the window without rebooting.
+    After changing, click **Set Hostname** to apply the new hostname to Panda Alarm. A pop-up confirms the update was successful. The new hostname will take effect after a reboot. Click **OK** to reboot Panda Alarm immediately, or click the **x** button to close the window without rebooting.
       
     <img src=img/PandaAlarm/en/hostname.jpg width="300"/>
 
 ### AP Interface
 
-> The next screen in the Panda Alarm Web UI is the **AP interface**. The Panda Alarm AP is the Wi-Fi hotspot broadcast by the device, allowing a phone or computer to connect directly. If you do not want the hotspot to be broadcast, you can disable it. However, Panda Alarm will automatically re-enable the hotspot if it cannot connect to the configured Wi-Fi. This ensures a fail-safe method to reconnect if the configured Wi-Fi is unavailable.
+> The next screen in the Panda Alarm Web UI is the **AP interface**. The Panda Alarm AP controls the device's direct Wi-Fi hotspot. You can disable this hotspot, but it will automatically re-enable if the Panda Alarm loses its connection to the configured network, ensuring a fail-safe access point to reconnect if the configured Wi-Fi is unavailable.
 >
-> <font size="2">**Tip:** If your device is connected to the Web UI through the Panda Alarm AP hotspot, disabling or changing the AP settings will disconnect your device. To avoid this, connect your device to the same Wi-Fi network as Panda Alarm before making any changes.</font>
+> <font size="2">**Tip:** If your device is connected to the Web UI through the Panda Alarm AP hotspot, disabling or changing the AP settings will disconnect your device. To maintain access, connect your device to the same Wi-Fi network as Panda Alarm before making any changes.</font>
 
 <img src=img/PandaAlarm/en/ap.jpg width="300"/>
 
@@ -381,11 +387,13 @@ The following **7 printer statuses** share light effects and default **colors** 
 
     Wi-Fi Password: `987654321`
 
-    After ch~anges, no reboot is required—the device will recreate the AP hotspot in the background.
+    After changes, no reboot is required. The device will recreate the AP hotspot in the background.
 
 * ④ Change the AP hotspot IP address. If the IP range conflicts with your router (for example, if both use `192.168.254.1`), Panda Alarm will be unable to bind to the printer. To resolve this, change the **Hotspot IP** to a different range, such as `192.168.253.1`.
 
-    After modifying the **Hotspot IP**, you must reboot the device for the new settings to take effect. If the following pop-up appears, the **Hotspot IP** has been successfully updated. Click **OK** to reboot Panda Alarm immediately, or click the **x** in the upper-right corner to close the pop-up without rebooting.Wi-Fi密码: `987654321`
+    After modifying the **Hotspot IP**, you must reboot the device for the new settings to take effect. If the following pop-up appears, the **Hotspot IP** has been successfully updated. Click **OK** to reboot Panda Alarm immediately, or click the **x** in the upper-right corner to close the pop-up without rebooting. 
+    
+    Wi-Fi: `987654321`
 
     <img src=img/PandaAlarm/en/hotspot_ip.jpg width="300"/>
 
@@ -419,7 +427,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
 ### Restore Factory Settings via Button
 
-Use a sharp object to press and hold the Recovery button for 5 seconds, and Panda Alarm will restore factory settings and reboot.
+Use a sharp object to press and hold down the Recovery button for 5 seconds to initiate a factory reset and reboot.
 
 <img src=img/PandaAlarm/recovery.jpg width="300"/>
 
@@ -427,7 +435,7 @@ Use a sharp object to press and hold the Recovery button for 5 seconds, and Pand
 
 ### Feature Requests
 
-If you'd like to request new features for upcoming Panda Alarm firmware releases, please submit them on the Panda Alarm GitHub repo:
+To request new features for future firmware, please submit them to the Panda Alarm GitHub repository:
 
 [Submit a Feature Request](https://github.com/bigtreetech/PandaAlarm/issues)
 
@@ -443,7 +451,7 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 
         * Connect the device to the same Wi-Fi network as Panda Alarm (Wi-Fi or Ethernet).
 
-        * Enter Panda Alarm's IP or hostname in the device’s browser. The default hostname is `http://pandaalarm.local`. If your device is using a VPN, the hostname access may not work, in which case, please use the IP to access the Web UI configuration page.
+        * Enter Panda Alarm's IP or hostname in the device’s browser. The default hostname is `http://pandaalarm.local`. If using a VPN, the hostname access may not work; in which case, please use the IP to access the Web UI configuration page.
 
     * Update via Panda Alarm’s AP Hotspot
 
@@ -459,9 +467,11 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 
             * Tap the network name starting with `Panda_Alarm`, and enter the default password: `987654321`.
 
-            * After connecting to Panda Alarm’s Wi-Fi, you will see a blue checkmark next to the network, and the Wi-Fi icon in the top-right corner of the display.
+            * After connecting to Panda Alarm’s Wi-Fi, a blue checkmark next to the network name and a Wi-Fi icon in the display's top-right corner will appear to confirm a successful connection.
 
-        * After connecting to the AP, you should see the `Connected (Login/Authentication Required)` message, and tapping it will enter the Web UI configuration page. If the Web UI does not load after waiting 10-20 seconds, you can manually enter [192.168.254.1](http://192.168.254.1) in your browser to access the Web UI configuration page.
+
+
+        * After connecting to the AP, the network status should show `Connected (Login/Authentication Required)`. Tap this message to enter the Web UI configuration page. If the Web UI does not load after waiting 10-20 seconds, you can manually enter [192.168.254.1](http://192.168.254.1) in your browser to access the Web UI configuration page.
 
 * In the Web UI configuration interface, go to ① `Settings`, click ② `Select .bin File`, then choose the firmware to update. After the update, the device will automatically reboot.
 
@@ -469,9 +479,9 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 
 #### Flash Download Tool (Type-C Flash)
 
-> <font size="2">Note: Panda Alarm should support OTA updates freely. This step should only be used when OTA fails.</font>
+> <font size="2">Note: Panda Alarm should support OTA updates freely. This manual update method is only required if the standard OTA update fails.</font>
 
-* If your computer does not have the CH340 driver, please download and install it first: [CH341SER.EXE](https://www.wch-ic.com/downloads/CH341SER_EXE.html)
+* If your computer does not have the CH340 driver, please download and install it before continuing: [CH341SER.EXE](https://www.wch-ic.com/downloads/CH341SER_EXE.html)
 
 * Download [Flash Download Tool](https://www.espressif.com/en/support/download/other-tools)
 
@@ -479,7 +489,7 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 
 * Download the [Panda Alarm Firmware](https://github.com/bigtreetech/PandaAlarm)
 
-* Connect Panda Alarm to your computer using a `Type-C` cable. The new COM port should be recognized in the device manager.
+* Connect Panda Alarm to your computer using a `Type-C` cable. The device manager should automatically recognize a new COM port.
 
     <img src=img/PandaAlarm/type_c.jpg width="300"/>
 
@@ -507,7 +517,7 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 
     * ② Set the COM port to Panda Alarm’s actual port (viewable in your computer's `Device Manager` -> `Ports`), and set an appropriate baud rate. We recommend using `460800`.
 
-    * ③ Click `START` to begin flashing. Wait for the process to complete, then power cycle to restart.
+    * ③ Click `START` to begin flashing. Wait for the process to complete, then turn the device off and on to restart.
 
 <a id="firmware_history"></a>
 
@@ -520,7 +530,7 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 ## FAQ
 
 * Q: How is the `Printer Error` status recognized?  
-    A: It is recognized by listening to the `HMS` and `print_error` fields in the MQTT data frame. The device will report an error when the values match the following:
+    A:  The system monitors the `HMS` and `print_error`  fields in the MQTT data frame. An error is reported when their values match the following criteria:
 
     * `HMS`:  
         [HMS_0300-1200-0002-0001](https://e.bambulab.cn/?e=0300120000020001)
@@ -544,7 +554,7 @@ If you'd like to request new features for upcoming Panda Alarm firmware releases
 
         Any other values will be treated as errors.
 
-        If you encounter any status that should trigger an error but doesn’t, or if an error is triggered incorrectly, please report the issue on [Github](https://github.com/bigtreetech/PandaAlarm/issues), including the `HMS` and `print_error` values (you can view these in Bambu Studio or Bambu Handy, or simply provide a screenshot of the pop-up or error message if you don't know the values).
+        If an error status is not triggered when it should be, or is triggered incorrectly, please report the issue on [Github](https://github.com/bigtreetech/PandaAlarm/issues), including the `HMS` and `print_error` values from Bambu Studio or Bambu Handy, or simply provide a screenshot of the error message. if you don't know the values.
 
 
 ## Technical Support
