@@ -13,7 +13,7 @@ Product Link: [BIGTREETECH Official Website]()
 This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: 
 (1) This device may not cause harmful interference; and
 (2) This device must accept any interference received, including interference that may cause undesired operation. 
-Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment. 
+Any changes or modifications not officially approved will void your warranty and your authority to operate the equipment.
 
 **Note:** This equipment has been tested and found to comply with the limits for a **Class B digital device** pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, try to correct the interference by one or more of the following measures:
 
@@ -74,7 +74,7 @@ Default credentials：<br/>
 
 <img src=img/Creator_PWR/ap.png width="400"/>
 
-2.After connecting, the Web UI should open automatically. If it doesn’t within 10–20 seconds, open `192.168.254.1` manually in your browser.
+2.After connecting, the Web UI should open automatically. If it doesn’t open within 10–20 seconds, access `192.168.254.1` manually in your browser.
 
 <img src=img/Creator_PWR/welcome.png width="400"/>
 
@@ -153,7 +153,7 @@ Tap "Clear" to clear data.
 <br>① Tap on this icon to detect available networks.
 <br>② Select your Wi-Fi.
 <br>③ Enter the password.
-<br>④ Tap "Connect" .
+<br>④ Tap "Connect".
 <br>
 
 <img src=img/Creator_PWR/change_wifi_en.png width="400"/>
@@ -195,7 +195,7 @@ In the Settings page, tap "Factory Restore".
 
 <img src=img/Creator_PWR/goto_factory_en.png width="400"/> 
 
-Optionally choose whether to clear power record.<br>
+Optionally clear the device's power usage history.<br>
 After resetting, AP credentials return to default:<br>
 * **SSID:** `Creator_PWR_xxxxxxxxxxxx`
 * **Password:** `987654321`
@@ -217,7 +217,7 @@ Displays the device’s **IP Address** and **Serial Number (SN)**.
 
 ### Controlling USB1 and 220 V Power via Custom Macros
 
-* Download the config file [creator_pwr.cfg](https://github.com/bigtreetech/CreatorPWR/blob/master/creator_pwr.cfg)
+* Download the configuration file [creator_pwr.cfg](https://github.com/bigtreetech/CreatorPWR/blob/master/creator_pwr.cfg)
 * Upload it to **/config**.
 * Add to **printer.cfg**.
 
@@ -238,7 +238,7 @@ We are committed to evolving the Creator PWR firmware based on user feedback. To
 
 ## Recovery Tool
 If your Creator PWR fails to boot or perform OTA updates, use the recovery tool to restore functionality:
-[Download Recovery Tool](https://github.com/bigtreetech/CreatorPWR/blob/master/Recovery_tool/Recovery_tool.rar)
+[Download Recovery Tool](https://github.com/bigtreetech/CreatorPWR/blob/master/Recovery_tool/Recovery_tool.rar).
 
 ## Technical Support
 Was this page helpful? If you have any questions about product usage or encounter issues, please contact our after-sales team at **[service001@biqu3d.com](mailto:service001@biqu3d.com)**.
