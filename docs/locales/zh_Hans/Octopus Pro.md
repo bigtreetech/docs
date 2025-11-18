@@ -1,5 +1,10 @@
 # Octopus Pro
 
+!!! info
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [Octopus Pro Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/octopus-series/octopus-pro/)
+
 <img src=img/Octopus_Pro/Octopus_Pro_Title.png width="600"/>
 
 ## **产品简介**

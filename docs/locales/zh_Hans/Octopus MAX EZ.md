@@ -3,7 +3,7 @@
 !!! info
     此界面已迁移到 Bigtreetech WiKi NEO
 
-    [Octopus MAX EZ Bigtreetech WiKi NEO](http://neo.bttwiki.com/docs/board-docs/octopus-series/max-ez/max-ez-intro)
+    [Octopus MAX EZ Bigtreetech WiKi NEO](http://neo.bttwiki.com/docs/board-docs/octopus-series/max-ez)
 
 <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Title.png width="600"/>
 
