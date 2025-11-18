@@ -6,7 +6,7 @@
 
 ## **Important Notice**:
 
-- **Printer Monitoring Only**: Panda Alarm  is a monitoring-only device, meaning it reads the printer's status but does not control it. This key distinction ensures its core functionality remains unaffected by Bambu Lab firmware updates. For a detailed breakdown on which functions are affected or unaffected ny updates, please consult the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
+- **Printer Monitoring Only**: Panda Alarm  is a monitoring-only device, meaning it reads the printer's status but does not control it. This key distinction ensures its core functionality remains unaffected by Bambu Lab firmware updates. For a detailed breakdown on which functions are affected or unaffected by updates, please consult the [official Bambu Lab announcement](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/).
 
 - **Firmware**: Ensure your device is running the latest [firmware version](https://github.com/bigtreetech/PandaAlarm/tree/master/Firmware).  
 
@@ -134,7 +134,7 @@ Panda Alarm is designed for installation on the P1 series printer.
 
 ### Connect Panda Alarm to the same Wi-Fi as the printer
 
-* UUpon first connection, you will be directed to the **Select Language** screen. Choose your language and click **Next**.
+* Upon first connection, you will be directed to the **Select Language** screen. Choose your language and click **Next**.
 
     <img src=img/PandaAlarm/en/language.jpg width="300"/>
 
@@ -393,7 +393,7 @@ The following **7 printer statuses** share light effects and default **colors** 
 
     After modifying the **Hotspot IP**, you must reboot the device for the new settings to take effect. If the following pop-up appears, the **Hotspot IP** has been successfully updated. Click **OK** to reboot Panda Alarm immediately, or click the **x** in the upper-right corner to close the pop-up without rebooting. 
     
-    Wi-Fi: `987654321`
+    Wi-Fi password: `987654321`
 
     <img src=img/PandaAlarm/en/hotspot_ip.jpg width="300"/>
 
