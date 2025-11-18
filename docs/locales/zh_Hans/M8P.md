@@ -1,5 +1,10 @@
 # M8P
 
+!!! info
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [M8P Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/manta-series/manta-m8p-v1/)
+
 [<img src=img/M8P/M8P_Title.png width="600" />](https://bigtreetech.github.io/docs/M8P.html)
 
 ## **产品简介**
