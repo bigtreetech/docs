@@ -1,6 +1,6 @@
 # SKR Pico
 
-!!! info
+!!! info "Bigtreetech WiKi NEO"
     此界面已迁移到 Bigtreetech WiKi NEO
 
     [SKR Pico Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/skr-series/skr-pico)

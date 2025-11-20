@@ -1,6 +1,6 @@
 # Octopus MAX EZ
 
-!!! info
+!!! info "Bigtreetech WiKi NEO"
     此界面已迁移到 Bigtreetech WiKi NEO
 
     [Octopus MAX EZ Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/octopus-series/max-ez)

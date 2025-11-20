@@ -1,6 +1,6 @@
 # EBB 36 CAN
 
-!!! info
+!!! info "Bigtreetech WiKi NEO"
     此界面已迁移到 Bigtreetech WiKi NEO
 
     [EBB 36 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/ebb-series/ebb-36/)

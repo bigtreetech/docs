@@ -1,6 +1,6 @@
 # Nebula
 
-!!! info
+!!! info "Bigtreetech WiKi NEO"
     此界面已迁移到 Bigtreetech WiKi NEO
 
     [Nebula Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/category/nebula)
