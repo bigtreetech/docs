@@ -1,5 +1,10 @@
 # HDMI5
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [HDMI5 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/HDMI5-display/)
+
 <img src=img/HDMI5/HDMI5_Title.png width="600"/>
 
 ## **产品简介**

@@ -1,5 +1,10 @@
 # TFT24
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [TFT24 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/TFT24/)
+
 <img src=img/TFT24/TFT24_Title.png width="600" />
 
 ## **产品简介**

@@ -1,5 +1,10 @@
 # ADXL345 V2.0
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [ADXL345 V2.0 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/sensor/adxl345/)
+
 <img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.png width="600"/>
 
 ## **产品简介**
