@@ -1,6 +1,6 @@
 # TMC5160T Pro V1.0
 
-!!! info
+!!! info "Bigtreetech WiKi NEO"
     此界面已迁移到 Bigtreetech WiKi NEO
 
     [TMC5160T Pro V1.0 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/tmc-driver/tmc-5160-t-pro/)

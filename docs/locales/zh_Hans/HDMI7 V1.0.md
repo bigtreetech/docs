@@ -1,5 +1,10 @@
 # HDMI7 V1.0
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [HDMI7 V1.0 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/HDMI7-v1-display/)
+
 <img src=img/HDMI7/HDMI7_Title.png width="600"/>
 
 ## **介绍**

@@ -1,5 +1,10 @@
 # TFT35 E3
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [TFT35 E3 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/TFT35-E3/)
+
 <img src=img/TFT35_E3/TFT35_E3_Title.png width="600" />
 
 ## **产品简介**

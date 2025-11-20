@@ -1,9 +1,9 @@
 # H2 V2X
 
-!!! info
+!!! info "Bigtreetech WiKi NEO"
     此界面已迁移到 Bigtreetech WiKi NEO
 
-    [H2 V2X Bigtreetech WiKi NEO](http://neo.bttwiki.com/docs/extruder-docs/h2-v2x)
+    [H2 V2X Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/extruder-docs/h2-v2x)
 
 <img src=img/H2V2X/H2V2X_title.png width="600"/>
 

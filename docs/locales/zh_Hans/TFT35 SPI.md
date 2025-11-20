@@ -1,5 +1,10 @@
 # TFT35 SPI
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [TFT35 SPI Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/TFT35-SPI/)
+
 ## **产品简介**
 
 BIGTREETECH TFT35 SPI V2.1是由必趣创新科技（深圳）有限公司3D打印团队开发的一款中型清晰3D打印机显示器。

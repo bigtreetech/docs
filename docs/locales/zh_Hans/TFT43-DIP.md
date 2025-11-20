@@ -1,5 +1,10 @@
 # TFT43-DIP
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [TFT43-DIP Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/TFT43-DIP/)
+
 <img src=img/TFT43-DIP/TFT43_DIP_Title.png width="600" />
 
 ## **产品简介**
