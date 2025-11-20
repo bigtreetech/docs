@@ -1,6 +1,6 @@
 # M8P
 
-!!! info
+!!! info "Bigtreetech WiKi NEO"
     此界面已迁移到 Bigtreetech WiKi NEO
 
     [M8P Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/manta-series/manta-m8p-v1/)

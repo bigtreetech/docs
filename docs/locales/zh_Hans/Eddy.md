@@ -3,7 +3,7 @@
 !!! info
     此界面已迁移到 Bigtreetech WiKi NEO
 
-    [Eddy Bigtreetech WiKi NEO](http://neo.bttwiki.com/docs/module-docs/eddy/eddy-intro)
+    [Eddy Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/eddy/eddy-intro)
 
 <img src=img/Eddy/Eddy_Title.png width="600" />
 
