@@ -3,7 +3,7 @@
 <img src=img/PandaCoolerA1/panda_cooler_a1.jpg width="400"/>
 
 * **Product Link**: [Click to Buy](https://bit.ly/4pkQhnK)
-* https://github.com/bigtreetech/PandaCoolerA1
+* [https://github.com/bigtreetech/PandaCoolerA1](https://github.com/bigtreetech/PandaCoolerA1)
 
 
 ## **Revision Log**
