@@ -526,6 +526,13 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 * In non-MUSIC mode, if no print is made in the idle state for more than 120 minutes, it will automatically switch to standby mode and light up when the next print is initiated. When a user accesses or operates the Web UI or prints, the light bar is awakened (the light bar lights up).
 
+
+### [V1.0.2](https://github.com/bigtreetech/Panda_Status/tree/master/Firmware/v1.0.2)
+
+* Support connection to Bambu Lab P2S.
+
+* Added illegal character filtering.
+
 ## Feature Requests
 
 If you'd like to see certain features in the upcoming firmware release, please submit a feature request on the official GitHub repository. 
