@@ -3,6 +3,7 @@
 <img src=img/PandaCoolerA1/panda_cooler_a1.jpg width="400"/>
 
 * **Product Link**: [Click to Buy](https://bit.ly/4pkQhnK)
+* https://github.com/bigtreetech/PandaCoolerA1
 
 
 ## **Revision Log**
@@ -158,7 +159,7 @@ When you power up for the first time or restore factory settings, you'll see a f
     Panda Cooler A1 AP hotspot: `Panda_Cooler_A1_XXXXXXXXXX`.
 
     The default password is `987654321`.
- 
+
     <img src=img/PandaCoolerA1/ap.jpg width="200"/>
 
 - Accessing the WebUI
@@ -231,7 +232,7 @@ When you power up for the first time or restore factory settings, you'll see a f
 
 
 - How to Bind a Printer
- 
+
     - Tap the `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
         <img src=img/PandaCoolerA1/en/printer_scan_ok.jpg width="300"/>
@@ -319,7 +320,7 @@ When you power up for the first time or restore factory settings, you'll see a f
         <img src=img/PandaCoolerA1/en/ota_progress.jpg width="300"/>
 
 - ⑤ Tap to Confirm [Restore Factory Settings](#reset_config)
- 
+
 
 ### Control Page
 

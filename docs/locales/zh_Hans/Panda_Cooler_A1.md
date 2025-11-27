@@ -3,6 +3,7 @@
 <img src=img/PandaCoolerA1/panda_cooler_a1.jpg width="400"/>
 
 * **Product Link**: [Click to Buy](https://bit.ly/4pkQhnK)
+* https://github.com/bigtreetech/PandaCoolerA1
 
 
 ## **修订历史**
@@ -386,7 +387,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 #### 自定义灯效颜色
 
 * 设置颜色(以恒亮状态为例，`恒亮不可调节速度`)
-    
+  
     在控制界面下选择恒亮模式，点击Color下的框
 
     <img src=img/PandaCoolerA1/zh/7-5.jpg width="300"/>
