@@ -147,7 +147,7 @@ extra:
   # Language Selection
   alternate: 
     - name: English
-      link: /
+      link: /docs
       lang: en
     # Alternate language links automatically added here
 
