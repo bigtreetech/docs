@@ -20,8 +20,12 @@ cp active_translations ${TRANS_DIR}
 
 # Create new mkdocs-main.yml with language links
 cp ${MKDOCS_DIR}mkdocs.yml ${MKDOCS_MAIN}
+# while IFS="," read dirname langsite langdesc langsearch; do
+#   sed -i "s%^.*# Alternate language links automatically added here$%    - name: ${langdesc}\n      link: /${langsite}/\n      lang: ${langsite}\n\0%" ${MKDOCS_MAIN}
+# done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
+
 while IFS="," read dirname langsite langdesc langsearch; do
-  sed -i "s%^.*# Alternate language links automatically added here$%    - name: ${langdesc}\n      link: /${langsite}/\n      lang: ${langsite}\n\0%" ${MKDOCS_MAIN}
+  sed -i "s%^.*# Alternate language links automatically added here$%    - name: ${langdesc}\n      link: /docs/${langsite}/\n      lang: ${langsite}\n\0%" ${MKDOCS_MAIN}
 done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
 
 # Build main English website
