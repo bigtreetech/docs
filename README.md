@@ -1,3 +1,3 @@
 This GitHub repository is used for BIGTREETECH wiki
 
-The main BIGTREETECH project is at [bttwiki](https://bigtreetech.github.io/docs/)
+The main BIGTREETECH wiki project is at [Global Bigtreetech wiki](https://global.bttwiki.com)
