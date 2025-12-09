@@ -147,7 +147,7 @@ extra:
   # Language Selection
   alternate: 
     - name: English
-      link: /docs
+      link: /
       lang: en
     # Alternate language links automatically added here
 
@@ -172,7 +172,6 @@ nav:
         - M5P.md
         - M8P.md
         - M8P-V2_0.md
-        - DZ01.md
       - EBB Series:
         - EBB 36 CAN.md
         - EBB 42 CAN.md
