@@ -15,7 +15,7 @@ The **BIQU Panda Under Armor H2D**  is a dedicated mobile base for the H2D 3D pr
 
 * **Full Protection**: Offers complete protection for the bottom components of the printer, preventing damage from accidental bumps during movement.
 
-* **Custom Fit**: Custom fit for the H2D printer, providing a seamless fit that effectively blocks dust and debris.
+* **Custom Fit**: Custom fit for the H2D/H2S/H2C printer, providing a seamless fit that effectively blocks dust and debris.
 
 * **Equipped with Liftable Castor Wheels**: Enables smooth mobility and secure parking, adapting to diverse workspace requirements with ease.
 
@@ -26,7 +26,7 @@ The **BIQU Panda Under Armor H2D**  is a dedicated mobile base for the H2D 3D pr
 
 * **Material**: Powder Coated Steel 
 
-* **Compatible Model**: H2D 3D Printer
+* **Compatible Model**: H2D, H2S, H2C 3D Printers
 
 
 ## **Installation Guide**
