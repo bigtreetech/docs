@@ -3,7 +3,7 @@
 <img src=img/PandaPerchH2D/zhutu.png width="600"/>
 
 - **Product Link**: [Buy Here](https://biqu.equipment/products/biqu-panda-perch-aluminum-mount-supports-two-ams-units-with-tool-storage-and-lighting-option-for-bambu-lab-p1-x1-h2d-series?_pos=1&_sid=319492f97&_ss=r&variant=42173363322978)  
-- **MakerWorld**: [Print Files on MakerWorld](https://makerworld.com/en/models/1802706-panda-perch-printable-collection?from=search#profileId-1922491) or [GitHub](https://github.com/bigtreetech/PandaPerchH2D/tree/master/Print_Files)
+- **Print files are available on**: [MakerWorld](https://makerworld.com/en/models/1802706-panda-perch-printable-collection?from=search#profileId-1922491) or [GitHub](https://github.com/bigtreetech/PandaPerchH2D/tree/master/Print_Files)
 
 ## **Revision Log**
 | Version   | Date           | Revision      |
@@ -11,25 +11,25 @@
 | v1.00     | November 10th, 2025 | Initial Version |
 
 ## **Introduction**
-The Panda Perch H2D is a versatile AMS storage solution for Bambu Lab H2D/H2S/H2C 3D printers. It holds up to 2 AMS/AMS 2 Pro or 6 AMS HT units on top, with optional side baskets for up to 4 additional AMS HT units. Furthermore, you can enhance both functionality and style with the optional RGB lighting kit, while the hexagonal side holes conveniently work with printed parts to provide extra storage, keeping your workspace organized and efficient.
+The Panda Perch H2D is a dedicated storage rack for Bambu Lab H2D, H2S, and H2C 3D printers. Its primary top platform securely holds either 2 standard AMS/AMS 2 Pro units or 6 AMS HT units. For expanded capacity, optional side baskets can accommodate up to 4 additional AMS HT units. The design also features versatile hexagonal side holes for mounting 3D-printed organizers, and offers an optional RGB lighting kit to personalize your workspace, combining efficient organization with customizable style.
 
 ## **Key Features**
 
 - **Space Efficiency**
 
-The Panda Perch is designed to sit on top of the H2D/H2S/H2C 3D printers, providing a sleek and efficient way to hold AMS/AMS 2 Pro units. This smart storage solution not only maximizes space but also helps keep your workspace tidy, organized, and free from clutter.
+The Panda Perch mounts directly on top of your Bambu Lab H2D/H2S/H2C printer, creating a sleek, elevated platform for AMS units. This space-saving design keeps your filament management organized and your workspace clear of clutter.
 
 - **Durable Construction**
 
-Crafted from high-strength 6061 aluminum alloy and steel, this solution offers exceptional load-bearing capacity and long-term durability.
+Crafted from high-strength 6061 aluminum alloy and steel, the Panda Perch is engineered for exceptional durability and reliable load-bearing capacity, ensuring long-term performance.
 
 - **Easy Expansion**
 
-With a variety of printable files, you can easily create additional storage space to suit your needs and maximize organization.
+A variety of printable add-on files allows you to easily create custom storage accessories, tailoring the Panda Perch to your specific organization needs.
 
 - **RGB Lighting Support**
 
-Enhance both functionality and style with customizable RGB lighting effects, controllable via the WEB UI or the BQ App.
+Personalize your workspace with integrated, customizable RGB lighting. Control dynamic color effects and patterns seamlessly through the WEB UI or the dedicated BQ App.
 
 - **Broad Compatibility**
 
@@ -57,8 +57,9 @@ Enhance both functionality and style with customizable RGB lighting effects, con
 
 * **Step 1: Form the Main Frame**
 
-    Unbox the left and right side panels (the right panel is marked with the product name), the back panel, and the front bottom bar. Assemble these parts to form the main frame using CM3x4 screws. (Do not fully tighten them yet—tighten after securing the top panel.)
+    Unpack the side panels (note that the right panel is labeled with the product name), back panel, and front bottom bar. Assemble these components into the main frame, loosely fastening all joints with the CM3x4 screws.
 
+    **Important**: Final tightening must wait until after the top panel is secured in a later step.
 
     <img src=img/PandaPerchH2D/3.jpg width="600"/>
 
@@ -70,13 +71,13 @@ Enhance both functionality and style with customizable RGB lighting effects, con
 
 * **Step 3: Install the Bottom Support Bars**
 
-    Install the bottom support bars: the longer one is for the back, and the two identical ones are for the sides. Attach the bars with the folded edge facing upward and inward, as shown in the diagram. After securing the bars, tighten all screws.
+    Install the three bottom support bars. The single longer bar attaches to the back of the unit, while the two identical shorter bars attach to the sides. Orient each bar so its folded edge faces upward and toward the inside of the frame (refer to the diagram). After positioning and securing all bars, tighten their mounting screws completely.
 
     <img src=img/PandaPerchH2D/5.jpg width="600"/>
 
 * **Step 4: Secure the AMS Support Bars**  
 
-    Attach the AMS support bars to the raised horizontal bars on the top panel using CM3x4 screws (horizontal installation). Then, use KM3x15 screws to fix the AMS support bars to the top panel (vertical installation). Finally, secure the reinforcement bars at both ends of the AMS support bars using CN3x4 screws.
+    Position the AMS support bars onto the raised horizontal bars of the top panel and fasten them temporarily using CM3x4 screws (horizontal attachment). Then, fully secure the bars by driving KM3x15 screws vertically down through the bars and into the top panel. Finally, install the reinforcement bars at each end of the AMS support bars using CN3x4 screws to complete the assembly.
 
     <img src=img/PandaPerchH2D/6.jpg width="600"/>
 
@@ -99,7 +100,7 @@ Enhance both functionality and style with customizable RGB lighting effects, con
 
 * **Step 1: Assemble the AMS HT Storage Rack**
 
-    Take out the Storage Rack and the hanging rod. Use the CM4x6 screws to attach the hanging rod to the Storage Rack.
+    Retrieve the Storage Rack and the hanging rod. Attach the hanging rod to the rack using the CM4x6 screws.
 
     > Note: For each Storage Rack, use the regular CM4x6 screws to fix the hanging rod to one side, and use the screws with the suction cup to fix the other side. Ensure the suction cup screw is on the side that attaches to the printer, as shown in the image.
 
@@ -134,7 +135,7 @@ Enhance both functionality and style with customizable RGB lighting effects, con
 
 * **Step 2: Apply the Metal Sheet for Securing the Suction Cup Screws**
 
-    Use the round metal sheet from the AMS HT Storage Rack package. Peel off the adhesive backing and surface protection film, then stick it to the area where the suction cup screws will make contact with the printer’s outer wall. (*If the suction cup screws will be attached to the printer's smooth side window, this step can be skipped—no metal sheet is needed.*)
+    For optimal suction cup adhesion, apply the included round adhesive metal sheet to the printer's outer wall at each screw contact point. Peel off both protective films and press the sheet firmly in place. (*If the suction cup screws will be attached to the printer's smooth side window, this step can be skipped—no metal sheet is needed.*)
 
     <img src=img/PandaPerchH2D/03.jpg width="600"/>
 
@@ -142,7 +143,7 @@ Enhance both functionality and style with customizable RGB lighting effects, con
 
 * **Step 3: Ensure Proper Function of the Top Cover Open-Door Detection**
 
-    Attach the two R6x4 magnets from the Panda Perch H2D package to the detection areas on the top cover. <br> *Note: The Bambu Lab H2D Laser Edition top cover has two open-door detection points, one at the front and one at the back. Both need magnets installed.*
+    Attach the two R6x4 magnets (from the Panda Perch H2D package) to the designated detection areas on the printer's top cover. <br> *Note for H2D Laser Edition Users: The H2D Laser Edition top cover has two open-door detection points—one at the front and one at the back. A magnet must be installed at both locations.*
 
     <img src=img/PandaPerchH2D/04.jpg width="600"/>
 
@@ -156,19 +157,19 @@ Enhance both functionality and style with customizable RGB lighting effects, con
 
 * **Step 2: Attach the Light Strip Support Bar**
 
-    Use the CM3x4 screws from the package to attach the light strip support bar to the front bottom bar of the Panda Perch H2D.
+    Mount the light strip support bar to the front bottom bar of the Panda Perch H2D frame using the provided CM3x4 screws.
 
     <img src=img/PandaPerchH2D/RGB1.jpg width="600"/>
 
 * **Step 3: Install the Light Strip and Secure with Clips**
 
-    Pass the Power Cable: Carefully pass the light strip power cable through the reserved hole at the back of the Panda Perch H2D.
+    1. Pass the Power Cable: Route the light strip's power cable by threading it through the reserved cable hole at the back of the Panda Perch H2D.
 
     <img src=img/PandaPerchH2D/RGB2.jpg width="600"/>
 
-    Align and Stick the Light Strip: Align the light strip along the bottom edge of the Panda Perch H2D. Peel off the protective film from the adhesive backing of the light strip, then press it firmly in place to ensure it sticks securely.
+    2. Align and Stick the Light Strip: Carefully align the light strip along the bottom edge of the Panda Perch H2D frame. Before sticking, ensure the alignment is correct. Then, peel the protective film from the adhesive backing and press the strip down firmly, applying pressure along its entire length to activate the adhesive for a permanent, secure fit.
 
-    Trim and Secure the Light Strip: Cut off any excess length of the light strip, following the designated cut points to ensure a neat installation. Then, use the printed clips to secure the light strip along the bottom edge.
+    3. Trim and Secure the Light Strip: First, trim the light strip to your required length by cutting only at the clearly marked cut points. This ensures proper function and a clean finish. Next, use the included 3D-printed retention clips to snap the light strip securely into place along the bottom edge of the Panda Perch.
     
     <img src=img/PandaPerchH2D/RGB3.jpg width="600"/>
 
@@ -177,7 +178,7 @@ Enhance both functionality and style with customizable RGB lighting effects, con
     <img src=img/PandaPerchH2D/RGB5.jpg width="600"/>
 
 * **Connect the RGB Controller**
-[Click to view.](https://bttwiki.com/en/Panda_RGB_Controller.html)**
+[Click to view.](https://bttwiki.com/en/Panda_RGB_Controller.html)
 
 ## **Important Notice** 
 
