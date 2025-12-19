@@ -2,6 +2,18 @@
 
 ## Panda Perch Installation Guide
 
+<video width="600" height="480" controls>
+    <source src="img/Panda_Perch/Main_installation_steps_1.mp4" type="video/mp4">
+</video>
+
+<video width="600" height="480" controls>
+    <source src="img/Panda_Perch/Main_installation_steps_2.mp4" type="video/mp4">
+</video>
+
+<video width="600" height="480" controls>
+    <source src="img/Panda_Perch/Main_installation_steps_3.mp4" type="video/mp4">
+</video>
+
 ### Step 1: Assemble the Side Plates
 
 Position the left and right side plates against the rear plates, ensuring all edges and screw holes align.

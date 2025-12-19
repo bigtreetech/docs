@@ -2,6 +2,28 @@
 
 ## Panda Perch安装教程
 
+<video width="600" height="480" controls>
+    <source src="img/Panda_Perch/Main_installation_steps_1.mp4" type="video/mp4">
+</video>
+
+
+
+<video width="600" height="480" controls>
+    <source src="img/Panda_Perch/Main_installation_steps_2.mp4" type="video/mp4">
+</video>
+
+
+
+<video width="600" height="480" controls>
+    <source src="img/Panda_Perch/Main_installation_steps_3.mp4" type="video/mp4">
+</video>
+
+### 第一步 对齐
+
+### 第一步 对齐
+
+### 第一步 对齐
+
 ### 第一步 对齐左右侧板，使用BHCS M3X4螺丝锁紧
 
 <img src=img/Panda_Perch_CN/BHCSM3X4.png width="600"/>
