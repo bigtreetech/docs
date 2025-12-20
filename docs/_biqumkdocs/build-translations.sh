@@ -80,11 +80,15 @@ while IFS="," read dirname langsite langdesc langsearch; do
   mkdir -p "${new_docs_dir}"
   cp "${locale_dir}"/*.md "${new_docs_dir}"
   echo "copy resources"
-  cp -r docs/assets "${new_docs_dir}"
-  cp -r docs/img "${new_docs_dir}"
+  # cp -r docs/assets "${new_docs_dir}"
+  # cp -r docs/img "${new_docs_dir}"
   #cp -r docs/prints "${new_docs_dir}"
   cp -r docs/_biqumkdocs "${new_docs_dir}"
 
+  # use rsync to avoid mp4 file 
+  rsync -av --exclude='*.mp4' docs/assets "${new_docs_dir}"
+  rsync -av --exclude='*.mp4' cp -r docs/img "${new_docs_dir}"
+  
   # manually replace index.md if a manual-index.md exist
   manual_index="${new_docs_dir}manual-index.md"
   if [[ -f "${manual_index}" ]]; then
