@@ -15,7 +15,9 @@ MKDOCS_MAIN="${MKDOCS_DIR}mkdocs-main.yml"
 # copy build file to work dir 
 mkdir ${WORK_DIR}
 mkdir ${TRANS_DIR}
-cp -r docs ${TRANS_DIR}
+# cp -r docs ${TRANS_DIR}
+# use rsync to avoid mp4 in build 
+rsync -av --exclude='*.mp4' docs ${TRANS_DIR}
 cp active_translations ${TRANS_DIR}
 
 # Create new mkdocs-main.yml with language links
