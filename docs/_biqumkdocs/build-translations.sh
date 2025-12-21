@@ -32,6 +32,7 @@ done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
 
 # Build main English website
 echo "building site for en"
+find docs -type f -iname "*.mp4" -delete
 mkdocs build -f ${MKDOCS_MAIN}
 
 # Build each additional language website
