@@ -1,6 +1,6 @@
 # H2 V2X
 
-<img src=img/H2V2X/H2V2X_title.png width="600"/>
+<img src=img/H2V2X/H2V2X_title.webp width="600"/>
 
 **Product Link:**
 
@@ -45,9 +45,9 @@ Note: Not compatible with standard NEMA14 motor.
 
 XYZ Dimensions: 53.9 x 37.88 x 51.52mm
 
-<img src=img/H2V2X/H2V2X_Dimension1.png width="600"/>
+<img src=img/H2V2X/H2V2X_Dimension1.webp width="600"/>
 
-<img src=img/H2V2X/H2V2X_Dimension2.png width="600"/>
+<img src=img/H2V2X/H2V2X_Dimension2.webp width="600"/>
 
 ### **Filament Tension and Filament Release**
 
@@ -57,13 +57,13 @@ The tension of the drive gear is adjustable to allow for the use of various type
 
 Note: Do not force the screw once it stops turning, as this could damage the extruder.
 
-<img src=img/H2V2X/H2V2X_Filament1.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament1.webp width="600"/>
 
 **Releasing the Filament:** 
 
 To release the filament, pull the lever towards the position labeled "②" in the diagram below. To lock it, move it to position "①".
 
-<img src=img/H2V2X/H2V2X_Filament2.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament2.webp width="600"/>
 
 ## **Maximum Operating Temperature**
 
@@ -87,11 +87,11 @@ Bearings: 100°C
 | Insulation Level             | Class B           |
 | Moment of Inertia            | 8g·cm³            |
 
-<img src=img/H2V2X/H2V2X_Filament3.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament3.webp width="600"/>
 
 ## **Exploded View**
 
-<img src=img/H2V2X/H2V2X_Filament4.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament4.webp width="600"/>
 
 ## **Product Purchase Link:**
 

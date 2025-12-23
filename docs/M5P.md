@@ -1,6 +1,6 @@
 # M5P
 
-[<img src=img/M5P/M5P_Title.png width="600" />](https://bigtreetech.github.io/docs/M5P.html)
+[<img src=img/M5P/M5P_Title.webp width="600" />](https://bigtreetech.github.io/docs/M5P.html)
 
 ## **Product Profile**
 
@@ -62,17 +62,17 @@ BIGTREETECH MANTA M5P is a 32-bit motherboard developed by the 3D printing team 
 
 ## **Dimensions**
 
-<img src=img/M5P/M5P_Dimension1.png width="600" />
+<img src=img/M5P/M5P_Dimension1.webp width="600" />
 
-<img src=img/M5P/M5P_Dimension2.png width="600" />
+<img src=img/M5P/M5P_Dimension2.webp width="600" />
 
 ## **Interface Diagram**
 
-<img src=img/M5P/M5P_Diagram.png width="600" />
+<img src=img/M5P/M5P_Diagram.webp width="600" />
 
 ## **Pinout**
 
-<img src=img/M5P/M5P_Pinout.png width="600" />
+<img src=img/M5P/M5P_Pinout.webp width="600" />
 
 ## **Hardware Configuration**
 
@@ -80,7 +80,7 @@ BIGTREETECH MANTA M5P is a 32-bit motherboard developed by the 3D printing team 
 
 After the BIGTREETECH MANTA M5P has been powered, the red light D22 on the left side of the MCU will light up, indicating power on. When using  only the USB to power the board or provide power through the USB, please insert the jumper cap onto the VUSB.
 
-<img src=img/M5P/M5P_USB_PS.png width="600" />
+<img src=img/M5P/M5P_USB_PS.webp width="600" />
 
 ## **Hardware Installation**
 
@@ -90,7 +90,7 @@ After the BIGTREETECH MANTA M5P has been powered, the red light D22 on the left 
 
 e.g.: A4988, DRV8825, LV8729, ST820, etc., connect jumpers(MS0-MS2) according to the microstep chart.
 
-<img src=img/M5P/M5P_STEP_Mode.png width="600" />
+<img src=img/M5P/M5P_STEP_Mode.webp width="600" />
 
 **<font  color="red">Note: RST and SLP must be shorted by jumpers for A4988 or DRV8825. </font>**
 
@@ -101,35 +101,35 @@ For details, please click: https://bigtreetech.github.io/docs/Tutorials.html
 
 e.g.: TMC2208, TMC2209, TMC2225, etc., place jumpers according to the diagram below, microstep and current can be configured in firmware.
 
-<img src=img/M5P/M5P_UART_Mode.png width="600" />
+<img src=img/M5P/M5P_UART_Mode.webp width="600" />
 
 #### **SPI Mode of TMC Driver** 
 
 e.g.: TMC2130, TMC5160, TMC5161, etc., place jumpers according to the diagram below, microstep and current can be configured in firmware.
 
-<img src=img/M5P/M5P_SPI_Mode.png width="600" />
+<img src=img/M5P/M5P_SPI_Mode.webp width="600" />
 
 #### **DIAG(Sensorless Homing) of TMC Driver** 
 
 When using sensorless homing, place jumpers according to the diagram below, there is no need to cut the DIAG pin off when not being used.
 
-<img src=img/M5P/M5P_DRI_Diag.png width="600" />
+<img src=img/M5P/M5P_DRI_Diag.webp width="600" />
 
 #### **Driver Voltage Selection** 
 
-<img src=img/M5P/M5P_DRI_Vol1.png width="600" />
+<img src=img/M5P/M5P_DRI_Vol1.webp width="600" />
 
-<img src=img/M5P/M5P_DRI_Vol2.png width="600" />
+<img src=img/M5P/M5P_DRI_Vol2.webp width="600" />
 
 ### **Install the Core Board via BTB Connection**
 
 **M5P+CM4: Note the direction, as shown in the figure below:**
 
-<img src=img/M5P/M5P_CM4.png width="600" />
+<img src=img/M5P/M5P_CM4.webp width="600" />
 
 **M5P+CB1: Note the direction, as shown in the figure below:**
 
-<img src=img/M5P/M5P_CB1.png width="600" />
+<img src=img/M5P/M5P_CB1.webp width="600" />
 
 ### **Voltage Selection for CNC Fans**
 
@@ -139,47 +139,47 @@ Through the jumper cap, you can set the output voltage to 5V, 12V, or 24V.
 
 Please confirm the voltage the fan supports before selecting the voltage.
 
-<img src=img/M5P/M5P_Vol_CNC.png width="600" />
+<img src=img/M5P/M5P_Vol_CNC.webp width="600" />
 
 ### **100K NTC or PT1000 Setting**
 
 When using 100K NTC, no jumpers need to be connected, the pull up resistance of TH0-TH3 is 4.7K 0.1%. When using PT1000, the pins indicated in the picture below need to be connected via jumpers, parallel connection of 4.12K 0.1% resistors, the pull-up resistance of TH0-TH1 is 2.2K. (This  	    	 	method has a much lower accuracy than the MAX31865 in reading temperature.)
 
-<img src=img/M5P/M5P_100K.png width="600" />
+<img src=img/M5P/M5P_100K.webp width="600" />
 
 ### **BLTouch Wiring**
 
-<img src=img/M5P/M5P_BLTouch_Wiring.png width="600" />
+<img src=img/M5P/M5P_BLTouch_Wiring.webp width="600" />
 
 ### **Wiring between LCD Screen and EXP1+EXP2**
 
-<img src=img/M5P/M5P_LCD_E1_E2.png width="600" />
+<img src=img/M5P/M5P_LCD_E1_E2.webp width="600" />
 
 ### **RGB Wiring**
 
-<img src=img/M5P/M5P_RGB_Wiring.png width="600" />
+<img src=img/M5P/M5P_RGB_Wiring.webp width="600" />
 
 ### **Filament Sensor Wiring**
 
-<img src=img/M5P/M5P_Filament.png width="600" />
+<img src=img/M5P/M5P_Filament.webp width="600" />
 
 ### **40 Pins GPIO**
 
-<img src=img/M5P/M5P_40_Pins.png width="600" />
+<img src=img/M5P/M5P_40_Pins.webp width="600" />
 
 ### **DSI/CSI Wiring**
 
-<img src=img/M5P/M5P_DSI.png width="600" />
+<img src=img/M5P/M5P_DSI.webp width="600" />
 
 ### **Proximity Switch Wiring**
 
 As shown in the figure below, 24V as an example, normally open (NPN type), no need for shorting through a jumper cap:
 
-<img src=img/M5P/M5P_Proximity.png width="600" />
+<img src=img/M5P/M5P_Proximity.webp width="600" />
 
 As shown in the figure below, 24V as an example, normally closed (PNP type), need for shorting through a jumper cap.
 
-<img src=img/M5P/M5P_Proximity1.png width="600" />
+<img src=img/M5P/M5P_Proximity1.webp width="600" />
 
 ## **Software Configuration**
 

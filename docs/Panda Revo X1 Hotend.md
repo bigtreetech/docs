@@ -1,6 +1,6 @@
 # Panda Revo X1 Hotend
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_Title.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_Title.webp width="600"/>
 
 **Product Link:** https://biqu.equipment/products/biqu-panda-hotend
 
@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=ubwh3KBd5eE
 
 (Cooling fan not included) for X1 Series Printer.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In1.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In1.webp width="600"/>
 
 The image displays the "Complete Hotend Assembly" for the X1 Series Printer, with the cooling fan excluded for reference in subsequent assembly.
 
@@ -87,7 +87,7 @@ Cut the filament manually with the cutter lever and ensure the nozzle temperatur
 
 Remove the front housing assembly completely by disconnecting the fan connector.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In2.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In2.webp width="600"/>
 
 **Step 2 - Disconnect Cables**
 
@@ -95,33 +95,33 @@ Remove the front housing assembly completely by disconnecting the fan connector.
 
 Disconnect the hotend fan and the heater connectors from the board, and remove the wires by sliding them out of the clip shown in the image below (indicated by a red arrow).  
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In3.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In3.webp width="600"/>
 
 **Step 3 - Remove Hotend Assembly**
 
 Remove the 2 screws with the H2.0 hex key, then proceed to remove the hotend assembly by gently pulling downwards. 
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In4.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In4.webp width="600"/>
 
 **Step 4 – Transfer the Heatsink Fan**
 
 Loosen the two screws holding the fan to remove the heatsink fan.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In5.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In5.webp width="600"/>
 
 And install it onto your brand new Panda Revo.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In6.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In6.webp width="600"/>
 
 Make sure you position the cable in the cable guide channel according to the picture with the flat face of the HeaterCore socks parallel to the side of the heatsink.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In7.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In7.webp width="600"/>
 
 The images below show the "Complete Hotend Assembly" for your reference.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In8.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In8.webp width="600"/>
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In9.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In9.webp width="600"/>
 
 ### Assembly 
 
@@ -129,7 +129,7 @@ The images below show the "Complete Hotend Assembly" for your reference.
 
 Insert the Panda Revo hotend assembly into the extruder and tighten the 2 screws. 
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In10.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In10.webp width="600"/>
 
 <font  color="red">**Make sure to securely tighten the hotend screws using an H2.0 hex key, and avoid over-tightening.**</font> 
 
@@ -139,21 +139,21 @@ Tuck in the heater cable wires back into the clip
 Connect the very small 2-pin thermistor plug, the 4-pin hotend cooling fan plug, and finally, the larger 2-pin ceramic heater plug.
 Tuck the wires back into the clip.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In11.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In11.webp width="600"/>
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In12.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In12.webp width="600"/>
 
 **Step 3 - Install the Front Housing**
 
 Connect the housing assembly by reconnecting the fan connector onto the front housing, then close the front housing assembly cover.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In13.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In13.webp width="600"/>
 
 ## How to Verify
 
 Power on the printer and run the device’s **Calibration** process. If the process passes, it means the operation has been successful.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In14.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In14.webp width="600"/>
 
 ## Slicer Settings
 
@@ -162,16 +162,16 @@ Power on the printer and run the device’s **Calibration** process. If the proc
 Please find more detailed slicer setting guide here:
 https://e3d-online.zendesk.com/hc/en-us/articles/4777443097757-Filament-Starter-Settings
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_Nozzle.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_Nozzle.webp width="600"/>
 
 Click the "Edit Icon" and enter your filament settings. 
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In15.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In15.webp width="600"/>
 
 Change the "Max volumetric speed" under "Filament" to around 35-40, depending on the filament you are using. 
 If you observe signs of under-extrusion, lower this number until print quality is restored.
 
-<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In16.png width="600"/>
+<img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_In16.webp width="600"/>
 
 ## Product Purchase Link
 

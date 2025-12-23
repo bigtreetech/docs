@@ -1,6 +1,6 @@
 # TMC5160T Plus
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Title.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -48,11 +48,11 @@ TMC5160T Plus is a high-power stepper motor driver control module, featuring 8 h
 
 ## Interface Diagram
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Dim.png width="500"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Dim.webp width="500"/>
 
 ## Pinout/Function
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Pin.png width="500"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Pin.webp width="500"/>
 
 ## Interface Introduction
 
@@ -63,14 +63,14 @@ Connection methods for common motherboards (e.g., SKR3), use the supplied TMC Dr
 !!! warning 
     TMC Driver Adaptor only support 24v!
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Ins1.png width="500"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Ins1.webp width="500"/>
 
 For EZ series motherboards (e.g., Octopus MAX EZ), use the supplied EZ Driver Adaptor and cables to connect the TMC5160T Plus with Octopus MAX EZ as shown in the diagram:
 
 !!! warning 
     EZ Driver Adaptor only support 24v!
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Ins2.png width="500"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Ins2.webp width="500"/>
 
 ## Software Configuration
 
@@ -81,27 +81,27 @@ For EZ series motherboards (e.g., Octopus MAX EZ), use the supplied EZ Driver Ad
 
 1. In the Marlin 2.0 firmware, locate and open the "Configuration.h" file, then find the line `#define MOTHERBOARD XXXXXX`. `XXXXXX` represents the model of the board being used. Confirm the motherboard you are using.
 
-    <img src=img/TMC5160TPlus/TMC5160TPlus_Software1.png width="500"/>
+    <img src=img/TMC5160TPlus/TMC5160TPlus_Software1.webp width="500"/>
 
 2. In the `Marlin/src/pins` directory, find the `pins_xxxxxx.h` file corresponding to your board (xxxxxx represents the board model), and then locate `X_CS_PIN`, `Y_CS_PIN`, `Z_CS_PIN`, and `EO_CS_PIN` within the file. Modify the pin names following these variables to the pins you are using.
 
-    <img src=img/TMC5160TPlus/TMC5160TPlus_Software2.png width="500"/>
+    <img src=img/TMC5160TPlus/TMC5160TPlus_Software2.webp width="500"/>
 
 3. In the file from Step 2, locate `#define TMC_SW_MOSI XXX`, `#define TMC_SW_MISO XXX`, and `#define TMC_SW_SCK XXX`. Change `XXX` to the pins you want to use.
 
-    <img src=img/TMC5160TPlus/TMC5160TPlus_Software3.png width="500"/>
+    <img src=img/TMC5160TPlus/TMC5160TPlus_Software3.webp width="500"/>
 
 4. Find and open `Configuration_adv.h`, then locate `#define TMC_USE_SW_SPI` and remove the comment symbols `//`.
 
-    <img src=img/TMC5160TPlus/TMC5160TPlus_Software4.png width="500"/>
+    <img src=img/TMC5160TPlus/TMC5160TPlus_Software4.webp width="500"/>
 
 5. In the `Configuration_adv.h` file, find `#define X_CURRENT`, `#define X_MICROSTEPS`, and `#define X_RSENSE` and modify the parameters that follow (for each axis being used). The `RSENSE` value for each used axis should be changed to `0.022`.
 
-    <img src=img/TMC5160TPlus/TMC5160TPlus_Software5.png width="500"/>
+    <img src=img/TMC5160TPlus/TMC5160TPlus_Software5.webp width="500"/>
 
 6. Set the corresponding axis drive type to `TMC5160` in the `Configuration.h` file.
 
-    <img src=img/TMC5160TPlus/TMC5160TPlus_Software6.png width="500"/>
+    <img src=img/TMC5160TPlus/TMC5160TPlus_Software6.webp width="500"/>
 
 ### Klipper Firmware Settings
 

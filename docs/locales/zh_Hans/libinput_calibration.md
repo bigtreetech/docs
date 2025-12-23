@@ -19,13 +19,13 @@ sudo apt install xinput-calibrator
 ```
 DISPLAY=:0 xinput_calibrator --list
 ```
-<img src=img/tft35_spi_id.png width="500"/></br>
+<img src=img/tft35_spi_id.webp width="500"/></br>
 3.开始校准，单击屏幕上逐个显示的十字的中心。将id替换为在上一步骤中找到的实际id。记录转换所需的参数`点击0 X`、`点击0 Y`、`单击3 X`和`点击3 Y`。</br>
 
 ```
 DISPLAY=:0 xinput_calibrator -v --device <id>
 ```
-<img src=img/tft35_spi_calibration.png width="1200"/>
+<img src=img/tft35_spi_calibration.webp width="1200"/>
 
 ## **转换为libinput**
 
@@ -128,7 +128,7 @@ sudo ./libinput_calibrator.sh 480 320 61 35 417 281
 ```
 </br>
 脚本将自动转换参数并将其写入配置文件，然后重置KlipperScreen（如果已安装）。您可以通过命令检查配置是否有效 `DISPLAY=:0 xinput list-props <id>`
-<img src=img/tft35_spi_convert.png width="1200"/>
+<img src=img/tft35_spi_convert.webp width="1200"/>
 
 ## **FAQ**
 

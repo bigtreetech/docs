@@ -1,6 +1,6 @@
 # EBB SB2209 USB V1.0
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Title.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -40,19 +40,19 @@ BIGTREETECH EBB SB2209 USB V1.0 是一款为 Voron StealthBurner 设计的工具
 
 ## **产品尺寸**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions1.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions1.webp width="600"/>
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions2.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions2.webp width="600"/>
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions3.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions3.webp width="600"/>
 
 ## **外设接口**
 
 ### **Pin 脚说明**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Peripheral1.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Peripheral1.webp width="600"/>
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Peripheral2.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Peripheral2.webp width="600"/>
 
 ## **接口介绍**
 
@@ -60,15 +60,15 @@ BIGTREETECH EBB SB2209 USB V1.0 是一款为 Voron StealthBurner 设计的工具
 
 如下图所示，正常供电时，电源指示灯“P”为长亮状态，程序正常启动时，状态指示灯“S”为长亮状态：
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface1.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface1.webp width="600"/>
 
 ### **加热棒连接**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface2.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface2.webp width="600"/>
 
 ### **100K NTC or PT1000 连接**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface3.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface3.webp width="600"/>
 
 <font  color="red">**注意:**</font> 
 
@@ -78,21 +78,21 @@ BIGTREETECH EBB SB2209 USB V1.0 是一款为 Voron StealthBurner 设计的工具
 
 ### **Probe 接口**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface4.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface4.webp width="600"/>
 
 ### **Endstop 连接**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface5.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface5.webp width="600"/>
 
 ### **Proximity Switch**
 
 #### **Connecting the NPN Type Proximity Switch**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface6.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface6.webp width="600"/>
 
 #### **Connecting the PNP Type Proximity Switch**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface7.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface7.webp width="600"/>
 
 **注意：**
 
@@ -102,19 +102,19 @@ BIGTREETECH EBB SB2209 USB V1.0 是一款为 Voron StealthBurner 设计的工具
 
 #### **用作 FAN 功能**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface8.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface8.webp width="600"/>
 
 ### **步进电机接口**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface9.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface9.webp width="600"/>
 
 ### **I2C接口**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface10.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface10.webp width="600"/>
 
 ### **USB2.0接口**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface11.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface11.webp width="600"/>
 
 **注意:** 
 
@@ -126,29 +126,29 @@ BIGTREETECH EBB SB2209 USB V1.0 是一款为 Voron StealthBurner 设计的工具
 
 #### **四线风扇**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface12.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface12.webp width="600"/>
 
 **注意：**四线风扇接口，出厂默认输出 5V，客户若想使用 24V，则需要手动将保险丝焊接到24V 一侧。
 
 #### **两线风扇**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface13.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface13.webp width="600"/>
 
 注意：两线风扇接口，出厂默认输出 24V，客户若想使用 5V，则需要手动将保险丝焊接到5V 一侧。
 
 ### **RGB接口**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface14.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface14.webp width="600"/>
 
 ### **5V-OUT接口**
 
 KNOMI:
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface15.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface15.webp width="600"/>
 
 KNOMI 2:
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface16.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface16.webp width="600"/>
 
 ## **Klipper**
 
@@ -178,7 +178,7 @@ make menuconfig
 
  **Communication Interface (USBSERIAL)  --->**
 
-<img src=img/rp2040_usb_menuconfig.png width="600"/>
+<img src=img/rp2040_usb_menuconfig.webp width="600"/>
 
 2、配置选择完成后, 输入 `q` 退出配置界面，当询问是否保存配置是选择 "Yes"
 
@@ -200,7 +200,7 @@ lsusb
 
 查询 DFU 设备 ID
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper2.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper2.webp width="600"/>
 
 4、输入：
 
@@ -240,20 +240,20 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if
 
 https://github.com/bigtreetech/EBB
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper3.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper3.webp width="600"/>
 
 2、将主板的配置文件上传到 Configuration Files 中
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper4.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper4.webp width="600"/>
 
 3、并在“printer.cfg”文件中添加此主板的配置
 
 **[include sample-bigtreetech-ebb-sb-usb-v1.0.cfg]**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper5.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper5.webp width="600"/>
 
 4、将配置文件中的 ID 号修改为主板实际的 ID（USB serial）
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper6.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper6.webp width="600"/>
 
 5、按照 https://www.klipper3d.org/Overview.html 的说明配置模块的具体功能

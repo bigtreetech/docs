@@ -6,13 +6,13 @@ EZDriver连接器是主板和EZDriver的适配器板。
 
 ## **接口示意图**
 
-<img src=img/EZDriver_Connector/EZDriver_Connector_Interface1.png width="600"/>
+<img src=img/EZDriver_Connector/EZDriver_Connector_Interface1.webp width="600"/>
 
-<img src=img/EZDriver_Connector/EZDriver_Connector_Interface.png width="600"/>
+<img src=img/EZDriver_Connector/EZDriver_Connector_Interface.webp width="600"/>
 
 ## **引出线**
 
-<img src=img/EZDriver_Connector/EZDriver_Connector_Pin.png width="600"/>
+<img src=img/EZDriver_Connector/EZDriver_Connector_Pin.webp width="600"/>
 
 ## 产品购买链接
 

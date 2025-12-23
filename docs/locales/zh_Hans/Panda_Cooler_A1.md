@@ -70,13 +70,13 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     拆除打印头下方风扇的四颗原装固定螺丝。
 
-    <img src=img/PandaCoolerA1/install2.png width="500"/>
+    <img src=img/PandaCoolerA1/install2.webp width="500"/>
 
 * 步骤 3：安装喷嘴照明灯
 
     使用随附的 M1.7×8 和 M1.7×10 自攻螺丝将喷嘴照明灯安装固定。
 
-    <img src=img/PandaCoolerA1/install3.png width="500"/>
+    <img src=img/PandaCoolerA1/install3.webp width="500"/>
 
     **重要提醒**：灯珠面必须朝向热床方向。
 
@@ -84,7 +84,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     将RGB风扇模块扣合在挤出头左侧的支架上，确保固定稳定。
 
-    <img src=img/PandaCoolerA1/install4.png width="400"/>
+    <img src=img/PandaCoolerA1/install4.webp width="400"/>
 
 * 步骤 5：安装控制模块
 
@@ -94,7 +94,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     <img src=img/PandaCoolerA1/install5.jpg width="400"/>
 
-    <img src=img/PandaCoolerA1/install6.png width="400"/>
+    <img src=img/PandaCoolerA1/install6.webp width="400"/>
 
 * 步骤 6：连接电源
 
@@ -108,7 +108,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     使用随附的 M2.6×8 自攻螺丝将控制模块外壳固定到底座上。
 
-    <img src=img/PandaCoolerA1/install8.png width="400"/>
+    <img src=img/PandaCoolerA1/install8.webp width="400"/>
 
 * 步骤 8：固定Type-C线缆
 
@@ -120,13 +120,13 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     将风扇的2PIN插头接入图示的任一2PIN插口。
 
-    <img src=img/PandaCoolerA1/install10.png width="400"/>
+    <img src=img/PandaCoolerA1/install10.webp width="400"/>
 
 * 步骤 10：连接RGB灯插头
 
     将风扇RGB灯插头插入后方对应的3PIN接口。
 
-    <img src=img/PandaCoolerA1/install11.png width="400"/>
+    <img src=img/PandaCoolerA1/install11.webp width="400"/>
 
     **⚠️ 警告**：请仔细核对接口，避免接错。底部喷嘴照明灯的插头暂时不要接入。
 
@@ -134,7 +134,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     将底部喷嘴照明灯的线束整理并放入走线盖板的槽中。
 
-    <img src=img/PandaCoolerA1/install12.png width="300"/>
+    <img src=img/PandaCoolerA1/install12.webp width="300"/>
 
 * 步骤 12：完成安装
 
@@ -142,7 +142,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     * 连接喷嘴照明灯的插头，完成全部安装
 
-    <img src=img/PandaCoolerA1/install13.png width="300"/>
+    <img src=img/PandaCoolerA1/install13.webp width="300"/>
 
 
 <a id="reset_config"></a>

@@ -1,6 +1,6 @@
 # HDMI5
 
-<img src=img/HDMI5/HDMI5_Title.png width="600"/>
+<img src=img/HDMI5/HDMI5_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -29,13 +29,13 @@ BIGTREETECH HDMI5 V1.0 is a universal 5-inch HDMI display screen developed by th
 
 ## **Dimensions**
 
-<img src=img/HDMI5/HDMI5_Dimension.png width="600"/>
+<img src=img/HDMI5/HDMI5_Dimension.webp width="600"/>
 
 ***You can read more details here: *\*BTT HDMI5_V1.0_SIZE\**** 
 
 ## **Interface Diagram**
 
-<img src=img/HDMI5/HDMI5_Interface.png width="600"/>
+<img src=img/HDMI5/HDMI5_Interface.webp width="600"/>
 
 ## **Hardware Configuration**
 
@@ -49,19 +49,19 @@ BIGTREETECH HDMI5 V1.0 is a universal 5-inch HDMI display screen developed by th
 
 Plug the 3.5mm earphone/speaker into the AUDIO interface to realize audio output. 
 
-<img src=img/HDMI5/HDMI5_Audio.png width="600"/>
+<img src=img/HDMI5/HDMI5_Audio.webp width="600"/>
 
 ### **Screen Brightness Adjustment**
 
 <p>BIGTREETECH HDMI5 V1.0 supports brightness adjustment, you can increase the brightness via the Ks1 button, and decrease the brightness via the Ks3 button.</p>
 
-<img src=img/HDMI5/HDMI5_Brightness.png width="600"/>
+<img src=img/HDMI5/HDMI5_Brightness.webp width="600"/>
 
 ### **Display Direction Adjustment**
 
 BIGTREETECH HDMI5 V1.0 supports horizontal display direction adjustment via the Ks2 button.
 
-<img src=img/HDMI5/HDMI5_Direction.png width="600"/>
+<img src=img/HDMI5/HDMI5_Direction.webp width="600"/>
 
 ### **Indicator Light**
 
@@ -121,7 +121,7 @@ hdmi_drive=1
 
 2.After entering the system desktop, right-click the audio source icon in the upper right corner, and select HDMI.
 
-<img src=img/HDMI5/HDMI5_Desktop.png width="600"/>
+<img src=img/HDMI5/HDMI5_Desktop.webp width="600"/>
 
 
 

@@ -50,7 +50,7 @@ Aiming at some problems existing in 3D printed motherboards in the market. Shenz
 
 ## **Dimensions**
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Dimensions.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Dimensions.webp width="600" />
 
 ## Content of the upgrade
 
@@ -62,11 +62,11 @@ Aiming at some problems existing in 3D printed motherboards in the market. Shenz
 
 ### Interface Diagram
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Diagram.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Diagram.webp width="600" />
 
 ### Pin Description
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pin.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pin.webp width="600" />
 
 ## **Interface Introduction**
 
@@ -74,7 +74,7 @@ Aiming at some problems existing in 3D printed motherboards in the market. Shenz
 
 #### Power jumper cap selection
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Power.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Power.webp width="600" />
 
 1. As shown in the red box, when the jumper cap is connected to IN and VCC, the motherboard selects 12V/24V power supply; when the jumper cap is connected to USB and VCC, the motherboard selects USB power supply.
 2. If the jumper cap has USB power selected, the 5V and 3.3V indicators will also light.
@@ -84,7 +84,7 @@ Aiming at some problems existing in 3D printed motherboards in the market. Shenz
 
 1. Three Power supply method of switching Power supply
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Wiring.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Wiring.webp width="600" />
 
 As shown above, three sets of power lines need to be connected to the motherboard, namely, motor power supply, hot bed power supply and motherboard power supply, and the extra group is hot bed interface.
 
@@ -98,7 +98,7 @@ https://github.com/bigtreetech?tab=repositories to find the corresponding mother
 
 After the drive installation is completed, open the `Device Manager` to see the port as shown in the figure below, which indicates that the system board is properly connected to the computer.
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_COM.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_COM.webp width="600" />
 
 ### Description of patterns and interfaces
 
@@ -106,13 +106,13 @@ After the drive installation is completed, open the `Device Manager` to see the 
 
 According to the driver used, the subdivision table is corresponding and the jumper cap is used for subdivision selection.
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_STEP.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_STEP.webp width="600" />
 
 Note: the high level is connected to the above two row needles, and the low level is connected to the following two rows of needles.
 
 2、A4988 and 8825 driver instructions
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_A4988.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_A4988.webp width="600" />
 
 If the drive is using A4988 or 8825, it is necessary to short the two pins in the purple box with the jumper cap (as shown). If it is not A4988 or 8825, the jumper cap in the box needs to be pulled out.
 
@@ -120,15 +120,15 @@ If the drive is using A4988 or 8825, it is necessary to short the two pins in th
 
 When using UART mode, you need to short the needle in the red box with a jumper cap.
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART.webp width="600" />
 
 As shown in the figure below, the Pin foot corresponding to the TMC2208 UART mode is the Pin foot selected by the red box, that is, the 4th Pin pin from the top to the bottom.
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART1.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART1.webp width="600" />
 
 4、SPI mode
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI.webp width="600" />
 
 When using SPI mode, you need to short the needle in the red box with a jumper cap
 
@@ -138,17 +138,17 @@ As shown in the picture, when the jumper cap is connected to the left, the USB f
 
 <font  color="red">**Note: at present, the firmware does not support the USB disk function for the time being.**</font>
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_USB.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_USB.webp width="600" />
 
 6、SPI expansion port
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI_PORT.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI_PORT.webp width="600" />
 
 The SPI expansion port shares IO with the SPI mode of the driver and can only be used if the SPI mode driver is not used.
 
 7、WIFI interface
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_WIFI.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_WIFI.webp width="600" />
 
 The WIFI interface is as shown in the picture above. When the WIFI is inserted, the edge of the board shown by the purple box on the right side faces outward and is inserted vertically.
 
@@ -156,23 +156,23 @@ The WIFI interface is as shown in the picture above. When the WIFI is inserted, 
 
 As shown in the picture below, the purple box is the stall pin corresponding to the stall detection.
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_stallguard.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_stallguard.webp width="600" />
 
 Take the TMC2209 as an example. When the stallguard function is not used, the stallguard pin of the TMC2209 needs to be cut off so that the mechanical switch can work normally.
 
 The operation method is as shown below:
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Operation.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Operation.webp width="600" />
 
 This function pin needs to be trimmed only when the stallguard function is not used.
 
 9、Double Z-axis connection description
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Double.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Double.webp width="600" />
 
 10、Description of the indicator light for the limit switch
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Description.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Description.webp width="600" />
 
 The status indicator is the normally closed limit switch indicator.
 

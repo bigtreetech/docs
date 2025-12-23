@@ -1,6 +1,6 @@
 # Eco Turbo Kit
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_title.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_title.webp width="600"/>
 
 **Product Link:**
 
@@ -34,9 +34,9 @@ The BIQU Eco Turbo Kit is designed to significantly boost cooling efficiency. Th
 
 ## **Dimensions**
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_dimensions1.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_dimensions1.webp width="600"/>
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_dimensions2.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_dimensions2.webp width="600"/>
 
 ## **Precautions**
 
@@ -48,7 +48,7 @@ The BIQU Eco Turbo Kit is designed to significantly boost cooling efficiency. Th
 
 ### Interface Diagram
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_interface.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_interface.webp width="600"/>
 
 ## **Interface Introduction**
 
@@ -60,7 +60,7 @@ The input signal for the fan supports a range from 5V to 24V.
 
 <font  color="red">**Note that 'FAN-' is not a ground connection.**</font>
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_fan.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_fan.webp width="600"/>
 
 ### Power Input
 
@@ -70,11 +70,11 @@ The power input requires a 24VDC source.
 
 <font  color="red">**Note that 'FAN-' is not a ground connection.**</font>
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_power.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_power.webp width="600"/>
 
 ### Writing Interface
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_writing.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_writing.webp width="600"/>
 
 ### Driver Cooling Fan Interface
 
@@ -82,13 +82,13 @@ Equipped with a 24V BLDC driver cooling fan.
 
 <font  color="red">**When the PWM input signal falls below 10%, the driver cooling fan is deactivated. For input signals between 10% and 50%, the driver cooling fan operates at 50% of its maximum speed. When the input signal ranges from 50% to 100%, the driver cooling fan functions at full capacity.**</font>
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_driver.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_driver.webp width="600"/>
 
 ### Turbo Fan Interface
 
 Do not connect the blower to your mainboard through this interface, the integrated adaptor board communicates to the blower through this interface.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_turbo.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_turbo.webp width="600"/>
 
 ## **Mounting Tutorial**
 
@@ -100,15 +100,15 @@ Check the packaging list and ensure you have the fan pipe, which must be purchas
 
 **Packaging List:** 
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_mounting.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_mounting.webp width="600"/>
 
 **Fan Pipe (purchased separately):**
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_pipe.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_pipe.webp width="600"/>
 
 **Installation Model (print in advance):**
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_model.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_model.webp width="600"/>
 
 **Print Files Instruction**
 
@@ -143,13 +143,13 @@ For this configuration, you will need the following extra parts:
 
 1. Melt eight M3 heat-set inserts into the printed case, ensuring they sit flush with the case surface. (front side of the shell: 2 pcs, other side of the shell: 6 pcs)
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step1.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step1.webp width="600"/>
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step2.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step2.webp width="600"/>
 
 2. Attach the printed pipe connector to the blower.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step3.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step3.webp width="600"/>
 
 3. SFS Installation (Skip if not using SFS)
 
@@ -159,76 +159,76 @@ For this configuration, you will need the following extra parts:
 
 ​	Secure with three M3x6 screws.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step4.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step4.webp width="600"/>
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step5.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step5.webp width="600"/>
 
 4. Fasten the case to the blower assembly using three M3x8 screws.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step6.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step6.webp width="600"/>
 
 5. SFS Cable management (Skip if not using SFS) - Organize the cable into the cable clip.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step7.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step7.webp width="600"/>
 
 6. Use four M3x30 screws to secure the 6020 fan to the case.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step8.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step8.webp width="600"/>
 
 7. Connect the Power and Fan Cables
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step9.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step9.webp width="600"/>
 
 Cables can be routed through this slot.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step10.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step10.webp width="600"/>
 
 8. Use two M3x12 screws to secure the cover.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step11.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step11.webp width="600"/>
 
 9. Cut the pipe as shown in the image below.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step12.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step12.webp width="600"/>
 
 10. Install the Mounting Bracket - Insert the M5 Drop-In T-Nuts into the profile, aligning with the printed bracket spacing.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step13.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step13.webp width="600"/>
 
 Position the bracket and fasten with two M5x10 screws.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step14.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step14.webp width="600"/>
 
 11. Install the Pipe and Secure the Ventilation Cover - Pass the pipe through the second hole on the right of the printed ventilation cover. 
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step15.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step15.webp width="600"/>
 
 Rotate the pipe into the printed pipe connector.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step16.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step16.webp width="600"/>
 
 12. Use two M3 x 12 screws through the ventilation cover and bracket to secure the case.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step17.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step17.webp width="600"/>
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step18.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step18.webp width="600"/>
 
 13. Insert the SFS quick-connect button and turn it 90 degrees, then insert the PTFE tube into the button until it is fully seated in the SFS.
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step19.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step19.webp width="600"/>
 
 **Eco Turbo KIT Installation Complete**
 Internal Machine View:
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step20.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step20.webp width="600"/>
 
 External View
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step21.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step21.webp width="600"/>
 
 Tips: cable instructions
 
-<img src=img/eco_turbo_kit/eco_turbo_kit_step22.png width="600"/>
+<img src=img/eco_turbo_kit/eco_turbo_kit_step22.webp width="600"/>
 
 ## **Firmware Setup**
 

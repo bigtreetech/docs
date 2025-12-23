@@ -1,6 +1,6 @@
 # KNOMI2
 
-<img src=img/KNOMI2/KNOMI2_Title.png width="600" />
+<img src=img/KNOMI2/KNOMI2_Title.webp width="600" />
 
 ## **Product Overview**
 
@@ -68,9 +68,9 @@ The BIGTREETECH KNOMI V2.0 is a compact touchscreen display developed by Shenzhe
 
 Our custom-designed StealthBurner Main Body integrates KNOMI 2 seamlessly while maintaining optimal airflow and heat dissipation. The modified design includes a top ventilation opening, ensuring no compromise in cooling efficiency.
 
-<img src=img/KNOMI2/KNOMI2_IN0.png width="300" />
+<img src=img/KNOMI2/KNOMI2_IN0.webp width="300" />
 
-<img src=img/KNOMI2/KNOMI2_IN.png width="300" />
+<img src=img/KNOMI2/KNOMI2_IN.webp width="300" />
 
 !!! note "Printed Parts"
 	Download The Printed Parts from [Bigtreetech/Knomi](https://github.com/bigtreetech/KNOMI)
@@ -81,23 +81,23 @@ Before beginning installation, make sure you have both printed parts ready. Due 
 
 Our performance testing compared airflow velocity and acoustic levels between the standard StealthBurner and the modified KNOMI-equipped version. The results demonstrated equivalent cooling performance and noise output between both configurations, confirming that the KNOMI integration - including its additional ventilation features - maintains the StealthBurner's original operational performance without compromise.
 
-<img src=img/KNOMI/KNOMI_IN3.png width="600" />
+<img src=img/KNOMI/KNOMI_IN3.webp width="600" />
 
 ## Packing List
 
-<img src=img/KNOMI2/KNOMI2_IN2.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN2.webp width="600" />
 
 ## Overview
 
-<img src=img/KNOMI2/KNOMI2_IN3.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN3.webp width="600" />
 
 ## **CONFIGURING WIFI**
 
-<img src=img/KNOMI2/KNOMI2_WIFI1.png width="600" />
+<img src=img/KNOMI2/KNOMI2_WIFI1.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_WIFI2.png width="600" />
+<img src=img/KNOMI2/KNOMI2_WIFI2.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_WIFI3.png width="600" />
+<img src=img/KNOMI2/KNOMI2_WIFI3.webp width="600" />
 
 !!! note "Wi-Fi Compatibility"
     Due to device compatibility issues, KNOMI 2 cannot configure networks with `WPA PSK encryption`.If you experience connection issues during setup, please verify your router's encryption settings in the admin panel and change it to `WPA/WPA2 PSK` mixed mode or another supported encryption protocol to establish a successful connection.
@@ -105,7 +105,7 @@ Our performance testing compared airflow velocity and acoustic levels between th
 ### Knomi Disconnected
 
 <div class="div-table">
-    <img src=img/KNOMI2/KNOMI2_WIFI4.png width="250" class="right-image">
+    <img src=img/KNOMI2/KNOMI2_WIFI4.webp width="250" class="right-image">
     <p>This status on KNOMI 2 indicates it has lost connection to the WiFi hotspot. Potential causes:</p>
     <ol>
         <li>You changed the WiFi name or password, requiring a long press of the BOOT button to get to the HELLO interface and reconfigure KNOMI 2's network connection.</li>
@@ -115,28 +115,28 @@ Our performance testing compared airflow velocity and acoustic levels between th
 
 ## Install Knomi To Stealthburner
 
-<img src=img/KNOMI2/KNOMI2_IN4.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN4.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_IN5.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN5.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_IN6.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN6.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_IN7.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN7.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_IN8.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN8.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_IN9.png width="600" />
+<img src=img/KNOMI2/KNOMI2_IN9.webp width="600" />
 
 !!! tip "Power Cable Routing"
 	<div class="div-table">
-        <img class="right-image" src=img/KNOMI2/KNOMI2_IN10.png width="300">
+        <img class="right-image" src=img/KNOMI2/KNOMI2_IN10.webp width="300">
         <p>As shown, guide KNOMI 2's power cable through the hole in the printed part, and then direct it towards the rear of the EBB SB0000 CAN.</p>
 		<p>If you are not using the EBB SB0000 CAN or a similar tool board, after routing the power cable as shown in the diagram, connect it to your motherboard or other power source.</p>
     </div>
 
 ## Adding Relevant Macros
 
-<img src=img/KNOMI2/KNOMI2_ADD1.png width="450" />
+<img src=img/KNOMI2/KNOMI2_ADD1.webp width="450" />
 
 ```
 [gcode_macro _KNOMI_STATUS]
@@ -178,7 +178,7 @@ gcode:
 
 If the printer has a QGL feature
 
-<img src=img/KNOMI2/KNOMI2_ADD2.png width="500" />
+<img src=img/KNOMI2/KNOMI2_ADD2.webp width="500" />
 
 ```
 [gcode_macro QUAD_GANTRY_LEVEL]
@@ -191,7 +191,7 @@ gcode:
 
 If there is no QGL but there is a Z_TILT function, you can follow the settings below :
 
-<img src=img/KNOMI2/KNOMI2_ADD3.png width="600" />
+<img src=img/KNOMI2/KNOMI2_ADD3.webp width="600" />
 
 ```
 [gcode_macro QUAD_GANTRY_LEVEL]
@@ -205,24 +205,24 @@ gcode:
 
 Enter http://knomi.local into your browser to access the KNOMI 2 network configuration page. Scroll to the bottom of the page and click `Update FW`.
 
-<img src=img/KNOMI2/KNOMI2_UPDATE1.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UPDATE1.webp width="600" />
 
 Click on `Choose File` on the firmware update page.
 
-<img src=img/KNOMI2/KNOMI2_UPDATE2.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UPDATE2.webp width="600" />
 
 Select the `xxx.bin` file.
 
-<img src=img/KNOMI2/KNOMI2_UPDATE3.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UPDATE3.webp width="600" />
 
 The firmware will automatically update over-the-air.
 
-<img src=img/KNOMI2/KNOMI2_UPDATE4.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UPDATE4.webp width="600" />
 
 Upon completing the firmware update, KNOMI 2 will automatically reboot. You'll see a confirmation message on both the device screen and web interface indicating the update was successful
 You may now click the `Back` to return to  KNOMI 2's main network configuration interface.
 
-<img src=img/KNOMI2/KNOMI2_UPDATE5.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UPDATE5.webp width="600" />
 
 ## KNOMI UI
 
@@ -231,53 +231,53 @@ You may now click the `Back` to return to  KNOMI 2's main network configuration 
 
 ### Main Interface
 
-<img src=img/KNOMI2/KNOMI2_UI1.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI1.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI2.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI2.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI3.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI3.webp width="600" />
 
 ### How To Extrude And Retract Filament?
 
 Swipe right from the Standby UI to access the Extruding/Retracting Filament interface.
 
-<img src=img/KNOMI2/KNOMI2_UI4.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI4.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI5.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI5.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI6.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI6.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI7.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI7.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI8.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI8.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI9.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI9.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI10.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI10.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI11.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI11.webp width="600" />
 
 ### How To Adjust The Temperature Of The Nozzle/bed?
 
 Swipe left from the Standby UI to access the Nozzle/Heated Bed Temperature Settings interface.
 
-<img src=img/KNOMI2/KNOMI2_UI12.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI12.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI13.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI13.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI14.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI14.webp width="600" />
 
 ### Manual Temperature Adjustment Is Not Required
 
-<img src=img/KNOMI2/KNOMI2_UI15.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI15.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI16.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI16.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI17.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI17.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI18.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI18.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI19.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI19.webp width="600" />
 
 ## Advanced setting 
 
@@ -289,35 +289,35 @@ KNOMI has built-in mDNS. You can enter `http://knomi.local` in the browser (The 
 
 ### Adjust Knomi UI Colors?
 
-<img src=img/KNOMI2/KNOMI2_UI20.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI20.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI21.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI21.webp width="600" />
 
 You can further customize the saturation and brightness:
 After choosing a color from the wheel, long-press the outer black area to cycle through saturation adjustment, brightness adjustment, and return to the RGB color wheel.
 
-<img src=img/KNOMI2/KNOMI2_UI22.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI22.webp width="600" />
 
 Your selected saturation/brightness settings remain applied when you return to the RGB color wheel.
-<img src=img/KNOMI2/KNOMI2_UI23.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI23.webp width="600" />
 
 ### Adjust Brightness?
 
-<img src=img/KNOMI2/KNOMI2_UI24.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI24.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI25.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI25.webp width="600" />
 
 ### KNOMI UI Status Icons
 
 KNOMI UI uses visual elements to provide status information at different stages of printer operation :
 
-<img src=img/KNOMI2/KNOMI2_UI26.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI26.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_UI27.png width="600" />
+<img src=img/KNOMI2/KNOMI2_UI27.webp width="600" />
 
 ## FAQ
 
-<img src=img/KNOMI2/KNOMI2_FAQ1.png width="600" />
+<img src=img/KNOMI2/KNOMI2_FAQ1.webp width="600" />
 
 ## Where to Buy & Support
 

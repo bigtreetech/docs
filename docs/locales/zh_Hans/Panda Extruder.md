@@ -1,6 +1,6 @@
 # Panda Extruder
 
-<img src=img/panda_extruder/panda_extruder_title.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_title.webp width="600"/>
 
 **产品链接:** https://biqu.equipment/products/biqu-panda-extruder 
 
@@ -22,7 +22,7 @@ BIQU Panda Extruder是一款专为P1P、P1S、X1C和X1E打印机设计的耐用�
 
 ## **包装清单**
 
-<img src=img/panda_extruder/panda_extruder_packaging.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_packaging.webp width="600"/>
 
 ## **安装指南**
 
@@ -34,23 +34,23 @@ BIQU Panda Extruder是一款专为P1P、P1S、X1C和X1E打印机设计的耐用�
 
 2.按照图示移除工具头前盖
 
-<img src=img/panda_extruder/panda_extruder_step1.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step1.webp width="600"/>
 
 3.将插头拔出（如红圈所示）
 
-<img src=img/panda_extruder/panda_extruder_step2.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step2.webp width="600"/>
 
 4.使用H1.5内六角扳手松开箭头所指的螺丝
 
-<img src=img/panda_extruder/panda_extruder_step3.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step3.webp width="600"/>
 
 5.使用H2.0内六角扳手将箭头所指的3枚M3螺丝依次拆下，然后按下铁氟龙管接头，将PTFE管拔出
 
-<img src=img/panda_extruder/panda_extruder_step4.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step4.webp width="600"/>
 
 到此原装挤出机已成功拆下。
 
-<img src=img/panda_extruder/panda_extruder_step5.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step5.webp width="600"/>
 
 ### 步骤2：拆卸原装挤出机
 
@@ -58,69 +58,69 @@ BIQU Panda Extruder是一款专为P1P、P1S、X1C和X1E打印机设计的耐用�
 
 1.先拆卸热端。使用H2.0内六角扳手移除下图红色标示的两颗螺丝。
 
-<img src=img/panda_extruder/panda_extruder_step6.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step6.webp width="600"/>
 
 2.接着，使用H1.5内六角扳手拆开耗材检测器。
 
-<img src=img/panda_extruder/panda_extruder_step7.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step7.webp width="600"/>
 
 3.翻至另一面，用H2.0内六角扳手移除图示的五颗螺丝，将内部零件拆开（得到齿轮支架、弹簧、弹簧座、挤出齿轮）。
 
-<img src=img/panda_extruder/panda_extruder_step8.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step8.webp width="600"/>
 
-<img src=img/panda_extruder/panda_extruder_step9.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step9.webp width="600"/>
 
 ### 步骤3：组装Panda Extruder
 
 1.拆下图中圈出的两颗螺丝，开始组装Panda Extruder。
 
-<img src=img/panda_extruder/panda_extruder_step10.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step10.webp width="600"/>
 
 2.将随附的两颗693ZZ轴承安装到指定位置。
 
-<img src=img/panda_extruder/panda_extruder_step11.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step11.webp width="600"/>
 
 3.先安装齿轮支架，在安装挤出机齿轮。
 
-<img src=img/panda_extruder/panda_extruder_step13.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step13.webp width="600"/>
 
 4.安装弹簧和弹簧座，并用螺丝锁上。
 
-<img src=img/panda_extruder/panda_extruder_step14.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step14.webp width="600"/>
 
 5.将压盖组合，并锁上4枚M3螺丝。
 
-<img src=img/panda_extruder/panda_extruder_step15.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step15.webp width="600"/>
 
 6.将耗材检测器对齐安装，并锁上螺丝。
 
-<img src=img/panda_extruder/panda_extruder_step16.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step16.webp width="600"/>
 
 7.重新安装热端并拧紧螺丝。
 
-<img src=img/panda_extruder/panda_extruder_step17.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step17.webp width="600"/>
 
 ### 步骤4：将Panda Extruder 安装到工具头上
 
 1.按图示安装Panda Extruder, 使用H2.0内六角扳手依次将3枚螺丝锁上。
 
-<img src=img/panda_extruder/panda_extruder_step18.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step18.webp width="600"/>
 
 2.将切刀对齐刀口插入，并向里面推的同时，用H1.5内六角扳手锁紧。
 
-<img src=img/panda_extruder/panda_extruder_step19.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step19.webp width="600"/>
 
 3.将三个插头插入对应插座。
 
-<img src=img/panda_extruder/panda_extruder_step20.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step20.webp width="600"/>
 
 4.插入PTFE管。
 
-<img src=img/panda_extruder/panda_extruder_step21.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step21.webp width="600"/>
 
 5.连接风扇插头并重新安装前盖
 
-<img src=img/panda_extruder/panda_extruder_step22.png width="600"/>
+<img src=img/panda_extruder/panda_extruder_step22.webp width="600"/>
 
 **恭喜您！您已成功升级到Panda Extruder。尽情享受更高的打印性能与精度吧！**
 

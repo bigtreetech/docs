@@ -1,6 +1,6 @@
 # **Panda Branch Plus**
 
-<img src=img/PandaBranchPlus/zhuban.png width="800"/>
+<img src=img/PandaBranchPlus/zhuban.webp width="800"/>
 
 - **Product Link**: [Click to buy](https://bit.ly/47E0Gog)
 
@@ -76,7 +76,7 @@ Download the required case files for your printer model [from the GitHub reposit
 
 * Place the Panda Branch Plus into the printed upper and lower shells and secure it with **KM3×14 self-tapping screws**.
 
-    <img src=img/PandaBranchPlus/a1mini1_en.png width="800"/>
+    <img src=img/PandaBranchPlus/a1mini1_en.webp width="800"/>
 
 * Insert the printed bracket into the position shown and secure it with **KM3×15 machine screws**. Place the assembled case from Step 1 into the slot at the top of the printed bracket, then fasten it with the printed thumb screw.
 
@@ -108,7 +108,7 @@ Download the required case files for your printer model [from the GitHub reposit
 
     <img src=img/PandaBranchPlus/p12_en.jpg width="800"/>
    
-    <img src=img/PandaBranchPlus/p13_en.png width="800"/>
+    <img src=img/PandaBranchPlus/p13_en.webp width="800"/>
 
 > Note: This method requires **two M3×15 machine screws** to secure the bracket to either the rear-right side or the upper-rear side of the printer.
 
@@ -120,17 +120,17 @@ Download the required case files for your printer model [from the GitHub reposit
 
 * Connect to this hotspot using your mobile phone or computer.
 
-    <img src=img/PandaBranchPlus/ap_select.png width="300"/>
+    <img src=img/PandaBranchPlus/ap_select.webp width="300"/>
 
 * Open a browser and enter: **[http://192.168.254.1/](http://192.168.254.1/)**
 
 * Select your preferred language.
 
-    <img src=img/PandaBranchPlus/language.png width="300"/>
+    <img src=img/PandaBranchPlus/language.webp width="300"/>
 
 * After scanning for Wi-Fi, select your target Wi-Fi network from the list, enter the password, and click **Connect**.
 
-    <img src=img/PandaBranchPlus/ap_connect_en.png width="300"/>
+    <img src=img/PandaBranchPlus/ap_connect_en.webp width="300"/>
 
 ### Binding the Printer
 
@@ -138,14 +138,14 @@ Download the required case files for your printer model [from the GitHub reposit
 
 * Enter the access code, then click **Connect**.
 
-    <img src=img/PandaBranchPlus/bind_printer_en.png width="300"/>
+    <img src=img/PandaBranchPlus/bind_printer_en.webp width="300"/>
 
 
 ## Power Control
 
 The USB port and 24V port can be switched on or off through the Web UI.
 
-<img src=img/PandaBranchPlus/port_control_en.png width="300">
+<img src=img/PandaBranchPlus/port_control_en.webp width="300">
 
 
 ## Binding Other Panda Devices
@@ -171,7 +171,7 @@ DevVersion.bambu.com: 01.00.00.00
 
 * Click **Bind**.
 
-    <img src=img/PandaBranchPlus/as_printer.png width="500">
+    <img src=img/PandaBranchPlus/as_printer.webp width="500">
 
 ## Usage Limitations
 

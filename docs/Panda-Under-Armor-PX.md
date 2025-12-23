@@ -1,6 +1,6 @@
 # Panda Under Armor PX
 
-<img src=img/Panda_Under_Armor/panda_under_armor_title.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_title.webp width="600" />
 
 Product Link: https://bit.ly/4kY2Ulr
 
@@ -42,25 +42,25 @@ Follow these steps to install the Panda Under Armor PX on your P1 printer.
 
 <font  color="red">**Note: Do not screw in too tightly, as these screws will need to be removed later.**</font> 
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation1.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation1.webp width="600" />
 
 3、Place the printer on its side on a desktop, such as with the back facing left and the door facing right.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation2.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation2.webp width="600" />
 
 ## **Installation Steps:**
 
 1、Use an H2.0 screwdriver to screw the three M3 hex standoffs, with screws already attached, into the three threaded holes at the bottom of the printer (as shown in the image).
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation3.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation3.webp width="600" />
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation4.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation4.webp width="600" />
 
 2、Remove the screws from the M3 hex standoffs, leaving the standoffs in place. These screws will be used later to secure the Panda Under Armor PX.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation5.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation5.webp width="600" />
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation6.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation6.webp width="600" />
 
 **Now, you can choose between two installation methods:**
 
@@ -71,11 +71,11 @@ Follow these steps to install the Panda Under Armor PX on your P1 printer.
 
 1、Align the Panda Under Armor PX with the bottom of the printer, ensuring it fits snugly. Gently press it down. 
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation7.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation7.webp width="600" />
 
 2、Reinsert the screws you removed earlier into the M3 hex standoffs to securely fasten the Panda Under Armor PX.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation8.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation8.webp width="600" />
 
 3、The Panda Under Armor PX installation is now complete.
 
@@ -83,27 +83,27 @@ Follow these steps to install the Panda Under Armor PX on your P1 printer.
 
 1、Use the 16 screws from the castor wheel kit to attach the four castor wheels to the Panda Under Armor PX.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation9.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation9.webp width="600" />
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation10.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation10.webp width="600" />
 
 2、Remove the stock foot pads from the printer.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation11.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation11.webp width="600" />
 
 3、Align the Panda Under Armor PX, with the caster wheels installed, with the bottom of the printer, ensuring a snug fit. Gently press it down.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation12.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation12.webp width="600" />
 
 4、Reinsert the screws you removed earlier into the M3 hex standoffs to securely fasten the Panda Under Armor PX.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation13.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation13.webp width="600" />
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation14.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation14.webp width="600" />
 
 5、The installation of the Panda Under Armor PX with the wheel kit is now complete.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation15.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation15.webp width="600" />
 
 **How to Lower the Shock-Absorbing Foot Pads for Stable Placement**
 
@@ -115,7 +115,7 @@ To Lock: Use the tool to pull the red adjustment wheel toward the triangle icon 
 
 To Unlock: Pull the wheel toward the circle icon to raise the foot pads, allowing smooth movement.
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation16.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation16.webp width="600" />
 
 ## Product Purchase Link
 

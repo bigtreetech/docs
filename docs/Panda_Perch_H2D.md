@@ -1,6 +1,6 @@
 # **Panda Perch H2D**
 
-<img src=img/PandaPerchH2D/zhutu.png width="600"/>
+<img src=img/PandaPerchH2D/zhutu.webp width="600"/>
 
 - **Product Link**: [Buy Here](https://biqu.equipment/products/biqu-panda-perch-aluminum-mount-supports-two-ams-units-with-tool-storage-and-lighting-option-for-bambu-lab-p1-x1-h2d-series?_pos=1&_sid=319492f97&_ss=r&variant=42173363322978)  
 - **Print files are available on**: [MakerWorld](https://makerworld.com/en/models/1802706-panda-perch-printable-collection?from=search#profileId-1922491) or [GitHub](https://github.com/bigtreetech/PandaPerchH2D/tree/master/Print_Files)
@@ -43,7 +43,7 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
     - For 3D Printer - H2D/H2S/H2C
     - For Multi-Material Unit - AMS/AMS 2 Pro/AMS HT   
 
-<img src=img/PandaPerchH2D/chicun.png width="600"/>
+<img src=img/PandaPerchH2D/chicun.webp width="600"/>
 
 ## Panda Perch H2D Assembly Guide
 
@@ -153,7 +153,7 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
     In the print file, locate the RGB light strip support bar and light strip clips, then print them out (it is recommended to use high-temperature-resistant materials like ABS).
 
-    <img src=img/PandaPerchH2D/RGB1.png width="600"/>
+    <img src=img/PandaPerchH2D/RGB1.webp width="600"/>
 
 * **Step 2: Attach the Light Strip Support Bar**
 

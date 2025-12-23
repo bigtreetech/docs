@@ -5,7 +5,7 @@
 
     [TFT24 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/TFT24/)
 
-<img src=img/TFT24/TFT24_Title.png width="600" />
+<img src=img/TFT24/TFT24_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -30,11 +30,11 @@ BIGTREETECH TFT24-V1.1是一款小体积超清晰3D打印机显示板。它可�
 
 ## **尺寸**
 
-<img src=img/TFT24/TFT24_Diagram.png width="600" />
+<img src=img/TFT24/TFT24_Diagram.webp width="600" />
 
 ## **接口示意图**
 
-<img src=img/TFT24/TFT24_Interface.png width="600" />
+<img src=img/TFT24/TFT24_Interface.webp width="600" />
 
 - 使用12864屏幕模式时，将端口EXP1和EXP2连接到主板。此模式下没有触摸功能。
 - 当使用串行端口屏幕模式时，通过RS232与主板上的TFT或aux-2连接。在这种模式下，有触摸功能。

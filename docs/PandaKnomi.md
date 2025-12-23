@@ -36,7 +36,7 @@
 
 ## Dimensions & Interface
 
-<img src=img/PandaKnomi/size.png width="400"/>
+<img src=img/PandaKnomi/size.webp width="400"/>
 <img src=img/PandaKnomi/port.jpg width="400"/>
 
 ## Installation Guides
@@ -50,28 +50,28 @@
 #### A1 Series Toolhead Mount
 
 - Gently peel off the protective cover.<br/>
-  <img src=img/PandaKnomi/install_1.png width="300"/>
+  <img src=img/PandaKnomi/install_1.webp width="300"/>
 - Position the Panda Knomi directly into the shell.<br/>
   <img src=img/PandaKnomi/install_2.jpg width="300"/>
 - Align the cover with the locking tab, as shown by Arrow `A`. Then, gently press down in the direction of Arrow `B` until it clicks past the tab, securing it in place.<br/>
   <img src=img/PandaKnomi/install_3.jpg width="300"/>
 - Press the Toolhead Cover from both sides to unlock and remove the cover.<br/>
-  <img src=img/PandaKnomi/install_5.png width="300"/>
+  <img src=img/PandaKnomi/install_5.webp width="300"/>
 - Then remove the rotating wheel.<br/>
-  <img src=img/PandaKnomi/en_install_6.png width="300"/>
+  <img src=img/PandaKnomi/en_install_6.webp width="300"/>
 - Pass the power cable through the designated holes.<br/>
   <img src=img/PandaKnomi/install_7.jpg width="300"/>
 - Then connect it to the Panda Knomi power interface.<br/>
   <img src=img/PandaKnomi/install_8.jpg width="300"/>
 - Snap the Panda Knomi from the top, then gently press to secure.<br/>
-  <img src=img/PandaKnomi/install_9.png height="300"/><img src=img/PandaKnomi/install_10.png height="300"/>
+  <img src=img/PandaKnomi/install_9.webp height="300"/><img src=img/PandaKnomi/install_10.webp height="300"/>
 - Finally, you will need to secure the power cable neatly so that it does not interfere with the print. Start by installing the [printable](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cable_Clip%20%E5%A4%B9%E7%BA%BF%E5%99%A8_V1.0.stl) cable clip and then securing the power cable to it.<br/>
-  <img src=img/PandaKnomi/en_print_1.png width="600"/>
+  <img src=img/PandaKnomi/en_print_1.webp width="600"/>
 - If you are using an AMS Lite you will also want to make use of the [printable](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cable_Organizer%20%E9%9B%86%E7%BA%BF%E5%99%A8_V1.0.stl) cable organizer which will allow you to bind all of the PTFE tubes, the toolhead cable and the Panda Knomi power cable together.
-  <img src=img/PandaKnomi/print_2.png width="600"/>
+  <img src=img/PandaKnomi/print_2.webp width="600"/>
 - We also recommend using the supplied cable ties to gently bind the toolhead power cable and the Panda Knomi power cable together at points along their length. The cable ties should not be so tight that the pinch the wires only so that they remain in place.
 - A1 Toolhead installation Completed<br/>
-  <img src=img/PandaKnomi/install_11.png width="300"/>
+  <img src=img/PandaKnomi/install_11.webp width="300"/>
 
 > Congratulations on successfully installing your Panda Knomi on the A1 series toolhead. We now present the alternative mounting location guide and then the guide to provide power for A1 series installations.
 
@@ -81,7 +81,7 @@
 
 - Press the shell from both sides to unlock and carefully remove it from the toolhead.
 
-    <img src=img/PandaKnomi/uninstall.png width="500"/>
+    <img src=img/PandaKnomi/uninstall.webp width="500"/>
 
 - Press the blue-highlighted slot using the cover opener, and the cover will pop open. (You will need to download the cover opener model file from [GitHub](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cover%20Opener%20%E5%BC%80%E7%9B%96%E5%99%A8_V1.0.stl) and print it ahead of time.)
 
@@ -95,35 +95,35 @@
 
 * Gently peel off the protective cover.
 
-    <img src=img/PandaKnomi/install_1.png width="300"/>
+    <img src=img/PandaKnomi/install_1.webp width="300"/>
 
 * Thread the power cord through the designated hole on the base (as shown in the image below) and connect it to the Panda Knomi's power interface.
 
-    <img src=img/PandaKnomi/a1_gantry_1.png width="600"/>
+    <img src=img/PandaKnomi/a1_gantry_1.webp width="600"/>
 
 * Position the Panda Knomi directly into the base and route the power cord through the pre-designed groove on the back.
 
-    <img src=img/PandaKnomi/a1_gantry_2.png width="300"/>
+    <img src=img/PandaKnomi/a1_gantry_2.webp width="300"/>
 
-    <img src=img/PandaKnomi/a1_gantry_3.png width="600"/>
+    <img src=img/PandaKnomi/a1_gantry_3.webp width="600"/>
 
-    <img src=img/PandaKnomi/a1_gantry_4.png width="200"/>
+    <img src=img/PandaKnomi/a1_gantry_4.webp width="200"/>
 
 * Align and place the cover onto the base, pressing evenly until it clicks into place. 
 
-    <img src=img/PandaKnomi/a1_gantry_5.png width="400"/>
+    <img src=img/PandaKnomi/a1_gantry_5.webp width="400"/>
 
-    <img src=img/PandaKnomi/a1_gantry_6.png width="200"/>
+    <img src=img/PandaKnomi/a1_gantry_6.webp width="200"/>
 
 * Remove the front cover that is installed over the A1 gantry motor mount.
 
-    <img src=img/PandaKnomi/a1_gantry_7.png width="400"/>
+    <img src=img/PandaKnomi/a1_gantry_7.webp width="400"/>
 
 * Align the Panda Knomi's casing wiring groove with those on the printer, then secure it in place by first clipping the bottom left and then moving on to the remainder of the mount.
 
-    <img src=img/PandaKnomi/a1_gantry_8.png width="400"/>
+    <img src=img/PandaKnomi/a1_gantry_8.webp width="400"/>
 
-    <img src=img/PandaKnomi/a1_gantry_9.png width="400"/>
+    <img src=img/PandaKnomi/a1_gantry_9.webp width="400"/>
 
 > Congratulations on installing your Panda Knomi in the gantry mount position. You can now move on to the power guide for the A1 series.
 
@@ -133,37 +133,37 @@
 
 * Gently peel off the protective cover.
 
-    <img src=img/PandaKnomi/install_1.png width="300"/>
+    <img src=img/PandaKnomi/install_1.webp width="300"/>
 
 * Connect the power cord to the Panda Knomi’s power interface.
 
-    <img src=img/PandaKnomi/a1mini_gantry_1.png width="300"/>
+    <img src=img/PandaKnomi/a1mini_gantry_1.webp width="300"/>
 
 * Position the Panda Knomi directly into the base.
 
-    <img src=img/PandaKnomi/a1mini_gantry_2.png width="300"/>
+    <img src=img/PandaKnomi/a1mini_gantry_2.webp width="300"/>
 
-    <img src=img/PandaKnomi/a1mini_gantry_3.png width="200"/>
+    <img src=img/PandaKnomi/a1mini_gantry_3.webp width="200"/>
 
 * Route the power cord through the pre-designed groove on the back.
 
-    <img src=img/PandaKnomi/a1mini_gantry_4.png width="600"/>
+    <img src=img/PandaKnomi/a1mini_gantry_4.webp width="600"/>
 
 * Align and place the cover onto the base, pressing evenly until it clicks into place. 
 
-    <img src=img/PandaKnomi/a1mini_gantry_5.png width="400"/>
+    <img src=img/PandaKnomi/a1mini_gantry_5.webp width="400"/>
 
-    <img src=img/PandaKnomi/a1mini_gantry_6.png width="200"/>
+    <img src=img/PandaKnomi/a1mini_gantry_6.webp width="200"/>
 
 * Remove the front cover that is installed over the A1 mini gantry motor mount.
 
-    <img src=img/PandaKnomi/a1mini_gantry_7.png width="400"/>
+    <img src=img/PandaKnomi/a1mini_gantry_7.webp width="400"/>
 
 * Align the Panda Knomi's casing wiring groove with those on the printer and then secure it onto the printer.
 
-    <img src=img/PandaKnomi/a1mini_gantry_8.png width="400"/>
+    <img src=img/PandaKnomi/a1mini_gantry_8.webp width="400"/>
 
-    <img src=img/PandaKnomi/a1mini_gantry_9.png width="400"/>
+    <img src=img/PandaKnomi/a1mini_gantry_9.webp width="400"/>
 
 > Congratulations on installing your Panda Knomi in the gantry mount position. You can now move on to the power guide for the A1 series.
 
@@ -172,7 +172,7 @@
 It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS POWERED OFF BEFORE PERFORMING THIS STAGE.**
 
 - Locate an unused, 4 pin power port at the rear or side of the machine (A1 or A1 mini).<br/>
-  <img src=img/PandaKnomi/power_a1.png width="600"/>
+  <img src=img/PandaKnomi/power_a1.webp width="600"/>
 - If there are no available power ports then you can make use of the [Panda Branch](https://biqu.equipment/products/panda-knomi?variant=41781607399522) (sold separately) which will split one port into four. If using the [Panda Branch](https://biqu.equipment/products/panda-knomi?variant=41781607399522) for this purpose please take note that it is not designed to provide power to arbitrary peripherals. Only use it within the recommendations of BIGTREETECH to ensure that you do not overload the internal PSU of the printer. The Panda Knomi consumes only 0.65W of power and is well within the specification of what the internal PSU can provide. With that in mind, please set the Panda Branch USB power switch to the 2A setting after connecting the Panda Knomi to ensure that any connected USB peripherals are appropriately current limited.
 
 > It's now time to power up the Panda Knomi and get things configured so head over to the [First Time Use Guide](#first-time-use-guide)
@@ -185,35 +185,35 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 
 - Gently peel off the protective cover.
 
-  <img src=img/PandaKnomi/install_1.png width="300"/>
+  <img src=img/PandaKnomi/install_1.webp width="300"/>
 
 - Place the Panda Knomi into the [back cover](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Back%20Cover%20%E5%A4%96%E5%A3%B3%E5%B0%81%E6%9D%BF.STL) with the screen facing forward.
 
-    <img src=img/PandaKnomi/x1_1.png width="300"/>
+    <img src=img/PandaKnomi/x1_1.webp width="300"/>
 
-    <img src=img/PandaKnomi/x1_2.png width="200"/>
+    <img src=img/PandaKnomi/x1_2.webp width="200"/>
 
 - Clip the back cover into the [round panel](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Round%20Panel%20%E5%A4%96%E5%A3%B3%E6%89%A3%E7%9B%96.STL).
 
-    <img src=img/PandaKnomi/x1_3.png width="300"/>
+    <img src=img/PandaKnomi/x1_3.webp width="300"/>
 
-    <img src=img/PandaKnomi/x1_4.png width="200"/>
+    <img src=img/PandaKnomi/x1_4.webp width="200"/>
 
 - Press fit the round panel into the [TFT panel](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Panel%20%E5%A4%96%E5%A3%B3%E9%9D%A2%E6%9D%BF.STL).
 
-    <img src=img/PandaKnomi/x1_5.png width="300"/>
+    <img src=img/PandaKnomi/x1_5.webp width="300"/>
 
 - Insert the power plug into the power socket on the rear of the Panda Knomi.
 
-    <img src=img/PandaKnomi/x1_6.png width="600"/>
+    <img src=img/PandaKnomi/x1_6.webp width="600"/>
 
 * Organize the power cord within the designated wiring slot on the panel.
 
-    <img src=img/PandaKnomi/x1_7.png width="400"/>
+    <img src=img/PandaKnomi/x1_7.webp width="400"/>
 
 * Install the whole assembly onto the printer’s TFT, starting from the top and pressing downward to secure it in place.
 
-    <img src=img/PandaKnomi/x1_8.png width="600"/>
+    <img src=img/PandaKnomi/x1_8.webp width="600"/>
 
 > Congratulations on installing your Panda Knomi in the X1 series. You can now move on to the power guide for the X1 series.
 
@@ -224,7 +224,7 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 - If you are not using an AMS then you can connect it directly to the AMS output port at the rear of the machine.
 - If you are using an AMS then you will need to use a Panda Branch to expand the four pin AMS port and then connect the Panda Knomi to one of the expansion ports. Please take note that the Panda Branch is not designed to provide power to arbitrary peripherals. Only use it within the recommendations of BIGTREETECH to ensure that you do not overload the internal PSU of the printer. The Panda Knomi consumes only 0.65W of power and is well within the specification of what the internal PSU can provide. With that in mind, please set the Panda Branch USB power switch to the 2A setting after connecting the Panda Knomi to ensure that any connected USB peripherals are appropriately current limited.
 
-    <img src=img/PandaKnomi/power_x1.png width="600"/>
+    <img src=img/PandaKnomi/power_x1.webp width="600"/>
 
 > It's now time to power up the Panda Knomi and get things configured so head over to the [First Time Use Guide](#first-time-use-guide)
 
@@ -236,19 +236,19 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 
 - Gently peel off the protective cover.
 
-    <img src=img/PandaKnomi/install_1.png width="300"/>
+    <img src=img/PandaKnomi/install_1.webp width="300"/>
 
 - Position the Panda Knomi directly into the base.
 
-    <img src=img/PandaKnomi/p1_1.png width="430"/>
+    <img src=img/PandaKnomi/p1_1.webp width="430"/>
 
-    <img src=img/PandaKnomi/p1_2.png width="300"/>
+    <img src=img/PandaKnomi/p1_2.webp width="300"/>
 
 * Align and gently place the round panel, pressing down evenly to secure.
 
-    <img src=img/PandaKnomi/p1_install_3.png width="430"/>
+    <img src=img/PandaKnomi/p1_install_3.webp width="430"/>
 
-    <img src=img/PandaKnomi/p1_4.png width="300"/>
+    <img src=img/PandaKnomi/p1_4.webp width="300"/>
 
 #### P1 Series Power
 
@@ -256,21 +256,21 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 
 - Power supplied through the internal USB port.
 
-    <img src=img/PandaKnomi/power_p1.png width="600"/>
+    <img src=img/PandaKnomi/power_p1.webp width="600"/>
 
     - please route the power cable using the cable clips that exist within the machine along the top of that channel. Then route the USB cable out through the designated hole on the machine.
 
-        <img src=img/PandaKnomi/p1_5.png width="600"/>
+        <img src=img/PandaKnomi/p1_5.webp width="600"/>
 
     - Secure the USB cable within the wire clip of the base and connect it to the Panda Knomi's USB-C port.
 
-        <img src=img/PandaKnomi/p1_6.png width="400"/>
+        <img src=img/PandaKnomi/p1_6.webp width="400"/>
 
     * Attach the base onto the designated hole to complete the installation.
 
-        <img src=img/PandaKnomi/p1_7.png width="400"/>
+        <img src=img/PandaKnomi/p1_7.webp width="400"/>
 
-        <img src=img/PandaKnomi/p1_8.png width="600"/>
+        <img src=img/PandaKnomi/p1_8.webp width="600"/>
 
 - If you are sourcing power from the rear of the machine then select a cable route that works best for you.
 
@@ -305,11 +305,11 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 #### Connect Panda Knomi to the same Wi-Fi network as your printer
 
 - You will be prompted to select a language. After setting the language, tap `Next` to proceed to the Wi-Fi connection interface.<br/>
-  <img src=img/PandaKnomi/en_language.png width="300"/>
+  <img src=img/PandaKnomi/en_language.webp width="300"/>
 - The Panda Knomi will automatically search for available Wi-Fi networks in the vicinity. Please select the Wi-Fi that the printer is connected to to connect. If the Wi-Fi that the printer is connected to is not found. you can tap the `Scan` button to initiate a new search for networks.<br/>
-  <img src=img/PandaKnomi/en_wifi.png width="300"/>
+  <img src=img/PandaKnomi/en_wifi.webp width="300"/>
 - Once the connection is established, tap `Binding` to proceed to the `Printer` interface where you will bind the printer.<br/>
-  <img src=img/PandaKnomi/en_goto_printer.png width="300"/>
+  <img src=img/PandaKnomi/en_goto_printer.webp width="300"/>
 
 #### Printer Binding
 
@@ -318,7 +318,7 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 ##### Automatic Scanning
 
 - In the `Printer` interface, tap `Scan` to scan for printers on the same local network. A full scan takes about 30 seconds. Each additional Bambu printer adds up to 20 seconds to the scan time. Panda Knomi supports up to 20 printers per scan. If the number of printers in your LAN exceeds 20, it may not be able to scan all printers. If the scan fails to identify the printer you want to connect, you can click the `Scan` button to scan again, or [manually input](#manual-input) all the information to bind the printer.<br/>
-  <img src=img/PandaKnomi/en_printer.png width="300"/>
+  <img src=img/PandaKnomi/en_printer.webp width="300"/>
 - After scanning, select the printer you wish to connect to. After selecting a printer, the `SN Code` and `IP` will be automatically filled in, but you will need to manually enter the `Access Code`.
     - For A1 Series
         - ① `Setting`<br/>
@@ -329,14 +329,14 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
             <img src=img/PandaKnomi/en_a1_4_5.jpg width="300"/>
     - For P1 Series
         - ① `Setting`-> ② `WLAN` -> ③ `OK`<br/>
-            <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
+            <img src=img/PandaKnomi/p1_1_2_3.webp width="600"/>
         - ⑤ `Access Code`<br/>
-            <img src=img/PandaKnomi/p1_4_5.png width="600"/>
+            <img src=img/PandaKnomi/p1_4_5.webp width="600"/>
     - For X1 Series<br/>
         - ① `Setting` -> ② `General` -> ③ `Access Code`<br/>
             <img src=img/PandaKnomi/en_x1_1_2_3_4.jpg width="600"/>
 - Tap `Bind`. A `Binding successful` popup will confirm that the Panda Knomi has connected to the printer.<br/>
-  <img src=img/PandaKnomi/en_bind_ok.png width="300"/>
+  <img src=img/PandaKnomi/en_bind_ok.webp width="300"/>
 
 > Congratulations! You can now enjoy your Panda Knomi.
 
@@ -364,14 +364,14 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
     - For P1 Series
         - `Printer SN`
             - ① `Setting` -> ② `Device`<br/>
-                <img src=img/PandaKnomi/p1_1_2.png width="600"/>
+                <img src=img/PandaKnomi/p1_1_2.webp width="600"/>
             - ③ `Printer` is the `Printer SN`<br/>
-                <img src=img/PandaKnomi/p1_3.png width="600"/>
+                <img src=img/PandaKnomi/p1_3.webp width="600"/>
         - `Access Code` and `IP`
             - ① `Setting`-> ② `WLAN` -> ③<br/>
-                <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
+                <img src=img/PandaKnomi/p1_1_2_3.webp width="600"/>
             - ④ `IP`, ⑤ `Access Code`<br/>
-                <img src=img/PandaKnomi/p1_4_5.png width="600"/>
+                <img src=img/PandaKnomi/p1_4_5.webp width="600"/>
     - For X1 Series
         - `Printer SN` 和 `Access Code`
             - ① `Setting` -> ② `General` -> ③ `Access Code`, ④ `Device info` is the `Printer SN`<br/>
@@ -380,7 +380,7 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
             - ① `Setting`-> ② `Network` -> ③ `IP`<br/>
                 <img src=img/PandaKnomi/en_x1_1_2_3.jpg width="600"/>
 - Tap `Bind`. A `Binding successful` popup will confirm that the Panda Knomi has connected to the printer.<br/>
-  <img src=img/PandaKnomi/en_bind_ok.png width="300"/>
+  <img src=img/PandaKnomi/en_bind_ok.webp width="300"/>
 
 > Congratulations! You can now enjoy your Panda Knomi.
 
@@ -388,7 +388,7 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 
 > The first tab that will appear when connecting to the Panda Knomi webUI is the WiFi and IP settings tab.
 
-<img src=img/PandaKnomi/en_wifi_ip.png width="300"/>
+<img src=img/PandaKnomi/en_wifi_ip.webp width="300"/>
 
 - ① Tap the `Wi-Fi & IP` option.
 - ② To change the Wi-Fi network that Panda Knomi connects to, tap "Configure Wi-Fi", this will take you back to the Wi-Fi configuration interface.
@@ -400,7 +400,7 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
     - The hostname must be at least 8 characters long and no more than 32 characters.(On firmware version `V1.0.2` and earlier, please do not exceed 15 characters, otherwise the device will not start and needs to be updated to firmware version `V1.0.3` or later)
 
     After choosing a new hostname, tap `Set Hostname` to update Panda Knomi. A popup will confirm the successful change. The device must be restarted for the hostname change to take effect. This can be initiated by tapping `OK` in the confirmation popup, or postponed by closing the popup with the `x` button. After changing the hostname, you will need to make sure that you use that new hostname to access the web UI.<br/>
-    <img src=img/PandaKnomi/en_hostname.png width="300"/>
+    <img src=img/PandaKnomi/en_hostname.webp width="300"/>
 
 ### AP Interface
 
@@ -408,7 +408,7 @@ It's now time to get your device powered up. **MAKE SURE THAT YOUR PRINTER IS PO
 >
 > <font size="2">If your device is connected to the Panda Knomi AP hotspot to access the Web UI, any changes or shutdown of the Panda Knomi AP settings will disconnect the device. To prevent this, it is recommended to connect your device to the same local network as Panda Knomi before making changes.</font>
 
-<img src=img/PandaKnomi/en_ap.png width="300"/>
+<img src=img/PandaKnomi/en_ap.webp width="300"/>
 
 - ① Access the `AP` interface.
 - ② Toggle the Panda Knomi AP hotspot on or off. When the AP hotspot is off, the Panda Knomi will no longer broadcast its own WiFi network and you will only be able to connect to the web UI using the WiFi network that it has connected to. Before disabling it, ensure you record the Panda Knomi’s IP address and hostname on the current Wi-Fi network. Note that if the Panda Knomi loses connection to the primary WiFi network then it will re-enable the AP hotspot regardless of this setting so that you can connect to it and reconfigure the primary network.
@@ -532,9 +532,9 @@ For best results, please optimize your GIFs before uploading using [ezgif.com](h
     - Download from the Github of Panda Knomi.
         - Visit [Panda Knomi’s GitHub repository](https://github.com/bigtreetech/PandaKnomi)
         - Go to the IMG Folder, select the IMG theme.<br/>
-        <img src=img/PandaKnomi/img_github_path.png width="800"/>
+        <img src=img/PandaKnomi/img_github_path.webp width="800"/>
         - Click Download to save it locally.<br/>
-        <img src=img/PandaKnomi/img_github_download.png width="800"/>
+        <img src=img/PandaKnomi/img_github_download.webp width="800"/>
 - Then, enter Panda Knomi's Web UI: ① Go to "Settings" → ② Select the .img file you just downloaded.
   Once the update is complete, Panda Knomi will automatically apply the new IMG file.<br/>
   <img src=img/PandaKnomi/en_img_web_upload.jpg width="300"/>
@@ -557,22 +557,22 @@ For best results, please optimize your GIFs before uploading using [ezgif.com](h
     - If you don’t have a GitHub account, please [create](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) one.
     - Visit [Panda Knomi’s GitHub repository](https://github.com/bigtreetech/PandaKnomi)
     - Click ① `Fork`<br/>
-        <img src=img/PandaKnomi/fork_1.png width="800"/>
+        <img src=img/PandaKnomi/fork_1.webp width="800"/>
     - Click ② `Create fork`<br/>
-        <img src=img/PandaKnomi/fork_2.png width="800"/>
+        <img src=img/PandaKnomi/fork_2.webp width="800"/>
     - Wait for the `fork` to complete<br/>
-        <img src=img/PandaKnomi/fork_3.png width="800"/>
+        <img src=img/PandaKnomi/fork_3.webp width="800"/>
     - After forking, go to the IMG Folder<br/>
-        <img src=img/PandaKnomi/img_pri_path.png width="800"/>
+        <img src=img/PandaKnomi/img_pri_path.webp width="800"/>
     - Drag and drop the IMG file into the browser window. The `Drop to upload your files` interface will appear.<br/>
-        <img src=img/PandaKnomi/img_drag.png width="800"/><br/>
-        <img src=img/PandaKnomi/img_drop.png width="800"/>
+        <img src=img/PandaKnomi/img_drag.webp width="800"/><br/>
+        <img src=img/PandaKnomi/img_drop.webp width="800"/>
     - Enter the ① `title`, ② `description`, and ③ `commit changes`.<br/>
-        <img src=img/PandaKnomi/img_pri_commit.png width="800"/>
+        <img src=img/PandaKnomi/img_pri_commit.webp width="800"/>
     - ① `Contribute` -> ② `Open pull request`<br/>
-        <img src=img/PandaKnomi/img_open_pr.png width="800"/>
+        <img src=img/PandaKnomi/img_open_pr.webp width="800"/>
     - Write a ① `title`, ② `description`, check ③ `Allow edits by maintainers`, and ④ `Create pull request`<br/>
-        <img src=img/PandaKnomi/img_create_pr.png width="800"/>
+        <img src=img/PandaKnomi/img_create_pr.webp width="800"/>
     - Congratulations! You’ve shared your theme.
 
 ## Factory Reset
@@ -582,9 +582,9 @@ For best results, please optimize your GIFs before uploading using [ezgif.com](h
 ### Via Web UI
 
 - Go to the ① `Settings` interface and tap the ② `Factory Reset`<br/>
-  <img src=img/PandaKnomi/en_factory_1.png width="300"/>
+  <img src=img/PandaKnomi/en_factory_1.webp width="300"/>
 - A confirmation popup will appear, Tap ③ `YES` to confirm and reset. Panda Knomi will restore the factory settings and restart.<br/>
-  <img src=img/PandaKnomi/en_factory_2.png width="300"/>
+  <img src=img/PandaKnomi/en_factory_2.webp width="300"/>
 
 ### Via Hardware Button
 
@@ -618,7 +618,7 @@ If there is something you would like to see in a future release of the Panda Kno
         - After successfully connecting to the Panda Knomi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
         - After connecting to the AP, there should be a prompt of `Connected (Login/Authentication required)`, and click it to enter the Web UI configuration interface. Sometimes due to network reasons, you need to wait for 10~20 seconds. If you still cannot enter the Web UI configuration interface after waiting, you can manually enter [192.168.254.1](http://192.168.254.1) for firmware versions `V1.0.4.1` and later (and use [192.168.4.1](http://192.168.4.1) for previous versions) in the browser to access the Web UI configuration interface.
 - In the configuration interface, go to ① `Settings`, then tap ② `Select .bin file` to choose the firmware to update. The device will restart automatically after the update.<br/>
-  <img src=img/PandaKnomi/en_firmware.png width="300"/>
+  <img src=img/PandaKnomi/en_firmware.webp width="300"/>
 
 #### flash_download_tool (Type-C)
 
@@ -626,14 +626,14 @@ If there is something you would like to see in a future release of the Panda Kno
 
 - If your computer does not have the CH340 driver, please download and install [CH341SER.EXE](https://www.wch-ic.com/downloads/CH341SER_EXE.html)<br/>
 - Download the [Flash Download Tools](https://www.espressif.com/en/support/download/other-tools)
-  <img src=img/PandaKnomi/en_download_esp_tool.png width="800"/>
+  <img src=img/PandaKnomi/en_download_esp_tool.webp width="800"/>
 - Download the [Panda Knomi firmware](https://github.com/bigtreetech/PandaKnomi/releases) from the releases page.
 - Hold the `Boot` button on Panda Knomi, connect it via `Type-C` to your computer, and a new COM port should appear in the device manager.<br/>
   <img src=img/PandaKnomi/boot_fw.jpg width="300"/>
 - Open `flash_download_tool_3.9.8_6.exe`, and configure as follows:<br/>
-  <img src=img/PandaKnomi/open_esp_tool.png width="400"/>
+  <img src=img/PandaKnomi/open_esp_tool.webp width="400"/>
 - As shown in the figure below, configure the flash download tool:<br/>
-    <img src=img/PandaKnomi/set_esp_tool.png width="400"/>
+    <img src=img/PandaKnomi/set_esp_tool.webp width="400"/>
     - ① Set the.bin file's writing address, ensuring all checkboxes are ticked:
         - `panda_knomi_bootloader.bin` to `0x1000`
         - `panda_knomi_partition.bin` to `0x8000`

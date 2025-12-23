@@ -1,6 +1,6 @@
 # Panda Breeze
 
-<img src=img/Panda_Breeze/panda_breeze.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze.webp width="600"/>
 
 
 
@@ -38,61 +38,61 @@ The BIQU Panda Breeze is an auxiliary cooling fan designed for the Bambu Lab A1 
 
 1、Using a 2.0 mm hex driver, remove the two screws on the back of the X-axis (see reference images).
 
-<img src=img/Panda_Breeze/panda_breeze_installation1.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation1.webp width="600"/>
 
 2、Reuse those screws. Align Panda Breeze with the screw holes on the back of the X‑axis and tighten to secure it firmly.
 
-<img src=img/Panda_Breeze/panda_breeze_installation2.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation2.webp width="600"/>
 
-<img src=img/Panda_Breeze/panda_breeze_installation3.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation3.webp width="600"/>
 
 **Step 2: Install the Adapter Board**
 
-<img src=img/Panda_Breeze/panda_breeze_installation4.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation4.webp width="600"/>
 
-<img src=img/Panda_Breeze/panda_breeze_installation5.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation5.webp width="600"/>
 
 **Step 3: Wiring**
 
 1、Plug the Panda Breeze fan cable into its matching connector (see red‑circled area in the images).
 
-<img src=img/Panda_Breeze/panda_breeze_installation6.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation6.webp width="600"/>
 
 2、Insert the power cable into the MX3.0 power jack on the rear of the printer (see red circled area).
 
-<img src=img/Panda_Breeze/panda_breeze_installation7.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation7.webp width="600"/>
 
 3、Insert the power cable as indicated in the image.
 
-<img src=img/Panda_Breeze/panda_breeze_installation8.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation8.webp width="600"/>
 
 4、Open the toolhead rear cover via the notch at the bottom of the toolhead.
 
-<img src=img/Panda_Breeze/panda_breeze_installation9.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation9.webp width="600"/>
 
 5、Disconnect the part-cooling fan connector (see red circled area).
 
-<img src=img/Panda_Breeze/panda_breeze_installation10.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation10.webp width="600"/>
 
 6、Plug the Panda Breeze fan‑signal adapter cable into the original part‑cooling fan port.
 
-<img src=img/Panda_Breeze/panda_breeze_installation11.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation11.webp width="600"/>
 
 7、Connect the previously unplugged part‑cooling fan cable to the fan‑signal adapter cable.
 
-<img src=img/Panda_Breeze/panda_breeze_installation12.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation12.webp width="600"/>
 
 8、Neatly arrange all cables inside the toolhead. Remove the right‑side cover of the print head and route the fan‑signal adapter cable out along the indicated path.
 
-<img src=img/Panda_Breeze/panda_breeze_installation13.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation13.webp width="600"/>
 
 9、Press the rear cover back into place and ensure it is securely seated.
 
-<img src=img/Panda_Breeze/panda_breeze_installation14.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation14.webp width="600"/>
 
 10、Print the side cover from MakerWorld (https://makerworld.com/en/models/1698174-panda-breeze-printed-parts#profileId-1800624), reinstall the cable duct, and fasten the wiring.
 
-<img src=img/Panda_Breeze/panda_breeze_installation16.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation16.webp width="600"/>
 
 **Step 4: Install the LED Strip**
 
@@ -100,11 +100,11 @@ The BIQU Panda Breeze is an auxiliary cooling fan designed for the Bambu Lab A1 
 2. Peel off the protective film from the LED strip’s adhesive backing.
 3. Align the strip under the X-axis. Starting at the left, press slowly toward the right to adhere the strip.
 
-<img src=img/Panda_Breeze/panda_breeze_installation15.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation15.webp width="600"/>
 
 4、Press along the strip several times to ensure a secure installation.
 
-<img src=img/Panda_Breeze/panda_breeze_installation17.png width="600"/>
+<img src=img/Panda_Breeze/panda_breeze_installation17.webp width="600"/>
 
 ## Product Purchase Link
 

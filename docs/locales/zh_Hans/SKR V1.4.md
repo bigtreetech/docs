@@ -1,6 +1,6 @@
 # SKR V1.4
 
-<img src=img/SKR_V1.4/SKR_V1.4_Title.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -50,13 +50,13 @@ BIGTREETECH SKR V1.4主板是必趣创新科技（深圳）有限公司针对V1.
 
 ## **尺寸**
 
-<img src=img/SKR_V1.4/SKR_V1.4_Dimension.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Dimension.webp width="600" />
 
 ## **外围设备接口**
 
 ### 接口示意图
 
-<img src=img/SKR_V1.4/SKR_V1.4_Pinout.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Pinout.webp width="600" />
 
 ## **接口介绍**
 
@@ -66,11 +66,11 @@ SKR主板通电后，左下角的D5红灯亮起，表示电源正常。板中间
 
 1、使用USB为主板供电时：
 
-<img src=img/SKR_V1.4/SKR_V1.4_USB1.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_USB1.webp width="600" />
 
 2、使用12v-24v电源时：
 
-<img src=img/SKR_V1.4/SKR_V1.4_USB2.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_USB2.webp width="600" />
 
 ### 连接
 
@@ -80,13 +80,13 @@ SKR主板通过USB接口与计算机通信。计算机需要先安装驱动程�
 
 驱动：https://www.dropbox.com/s/a0k5idjmf4fn82f/lpc176x_usb_driver.inf?dl=0
 
-<img src=img/SKR_V1.4/SKR_V1.4_Connect.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Connect.webp width="600" />
 
 ### 驱动方式和选择方法
 
 1、常用STEP/DIR模式：（例如：A4988、DRV8825、LV8729、ST820等）根据驱动器细分表选择短路帽连接MS0-MS2。
 
-<img src=img/SKR_V1.4/SKR_V1.4_STEP.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_STEP.webp width="600" />
 
 <font  color="red">**注意：如果使用A4988或DRV8825驱动程序，则必须使用跳线帽连接RST和SLP。** </font>
 
@@ -94,47 +94,47 @@ SKR主板通过USB接口与计算机通信。计算机需要先安装驱动程�
 
 2、TMC驱动器UART模式：（例如：TMC2208、TMC2209、TMC2225等）每个轴使用短路帽连接图中的红色框架。细分和驱动电流由固件设置。
 
-<img src=img/SKR_V1.4/SKR_V1.4_UART.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_UART.webp width="600" />
 
 <font  color="red">**注意：使用TMC2209时，如果不使用安装保护功能，则需要切断驱动器上的DIAG引脚，以便机械开关能够正常工作。操作方法如下所示：** </font>
 
-<img src=img/SKR_V1.4/SKR_V1.4_Before.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Before.webp width="600" />
 
 <font  color="red">**注意：只有在不使用阻塞检测功能时，才需要裁剪此功能引脚。** </font>
 
 3、TMC驱动器SPI模式：（如：TMC2130、TMC5160、TMC516 1等）每个轴使用四个短路帽连接图中的红框位置。细分和驱动电流由固件设置。
 
-<img src=img/SKR_V1.4/SKR_V1.4_SPI.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_SPI.webp width="600" />
 
 ### BLTouch
 
 SKR V1.4与BL touch的连接：
 
-<img src=img/SKR_V1.4/SKR_V1.4_Bltouch.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Bltouch.webp width="600" />
 
 ### Relay V1.2
 
 SKR V1.4与打印后自动关机模块（继电器V1.2）的连接：
 
-<img src=img/SKR_V1.4/SKR_V1.4_Auto.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Auto.webp width="600" />
 
 ### UPS
 
 SKR V1.4与断电时恢复打印模块（UPS 24V V1.0）的连接：
 
-<img src=img/SKR_V1.4/SKR_V1.4_Power.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Power.webp width="600" />
 
 ### 树莓派
 
 SKR V1.4和树莓派的连接：
 
-<img src=img/SKR_V1.4/SKR_V1.4_RPI.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_RPI.webp width="600" />
 
 ### 闭环驱动器
 
 SKR V1.4与闭环驱动器的连接：
 
-<img src=img/SKR_V1.4/SKR_V1.4_Loop.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Loop.webp width="600" />
 
 ## **Marlin**
 

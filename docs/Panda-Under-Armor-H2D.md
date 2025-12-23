@@ -35,7 +35,7 @@ The **BIQU Panda Under Armor H2D**  is a dedicated mobile base for the H2D 3D pr
 
     As shown in the image, secure the mounting bracket to the castor wheel using **M10×10 screws**.
 
-    <img src=img/PandaUnderArmorH2D/en/install_1.png width="300"/>
+    <img src=img/PandaUnderArmorH2D/en/install_1.webp width="300"/>
 
 * **Step 2: Assemble the Main Panel**
 
@@ -45,7 +45,7 @@ The **BIQU Panda Under Armor H2D**  is a dedicated mobile base for the H2D 3D pr
 
     * Attach the emergency stop switch bracket to the plate using **4 × M3×6 screws**.
 
-    <img src=img/PandaUnderArmorH2D/en/install_2.png width="600"/>
+    <img src=img/PandaUnderArmorH2D/en/install_2.webp width="600"/>
 
 * **Step 3: Reinforce Connection Stability**
 
@@ -53,7 +53,7 @@ The **BIQU Panda Under Armor H2D**  is a dedicated mobile base for the H2D 3D pr
 
     * Complete the assembly by installing the wheels using **4 × M3×16 screws** at each corner. Then, with the help of a partner, carefully align and position the printer onto the base.
 
-    <img src=img/PandaUnderArmorH2D/en/install_3.png width="600"/>
+    <img src=img/PandaUnderArmorH2D/en/install_3.webp width="600"/>
 
 ### **How to Lower the Shock-Absorbing Foot Pads for Stable Placement**
 

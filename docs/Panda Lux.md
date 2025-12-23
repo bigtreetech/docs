@@ -1,6 +1,6 @@
 # Panda Lux
 
-<img src=img/Panda_Lux/Panda_Lux_Title.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Title.webp width="600"/>
 
 ## **Product Link**
 
@@ -32,13 +32,13 @@ The Panda Lux is a high-brightness LED light bar specially designed for Bambu La
 
 ## **Dimensions**
 
-<img src=img/Panda_Lux/Panda_Lux_Dimension.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Dimension.webp width="600"/>
 
 ## **Packaging List**
 
-<img src=img/Panda_Lux/Panda_Lux_Packaging1.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Packaging1.webp width="600"/>
 
-<img src=img/Panda_Lux/Panda_Lux_Packaging2.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Packaging2.webp width="600"/>
 
 ## **Installation Instructions**
 
@@ -48,7 +48,7 @@ The following instructions use the Bambu Lab P1P as an example.
 
 *The Panda Lux has built-in magnets that allow for easy installation. For additional reinforcement, double-sided adhesive tapes are included in the package but are not required.
 
-<img src=img/Panda_Lux/Panda_Lux_Installation1.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Installation1.webp width="600"/>
 
 **Step 2:** Remove the protective cover off of the AP board if you are installing on a P1 printer (USB port PCB) or open the plastic cover on the right side of the frame if you are installing on a X1 printer.
 
@@ -56,25 +56,25 @@ The following instructions use the Bambu Lab P1P as an example.
 
 *For additional stability to prevent the cable from moving, use the electrical tape provided in the package to secure the cable firmly to the door frame.
 
-<img src=img/Panda_Lux/Panda_Lux_Installation2.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Installation2.webp width="600"/>
 
 **Step 4:** Disconnect the stock light bar connector from the AP board.
 
-<img src=img/Panda_Lux/Panda_Lux_Installation3.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Installation3.webp width="600"/>
 
 **Step 5:** Connect the Panda Lux cable connector on the adapter board.
 
-<img src=img/Panda_Lux/Panda_Lux_Installation4.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Installation4.webp width="600"/>
 
 **Step 6:** Peel off the double-sided tape on the bottom of the adapter board and stick it on a suitable location.
 
-<img src=img/Panda_Lux/Panda_Lux_Installation5.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Installation5.webp width="600"/>
 
 **Step 7:** Insert one end of the connection cable into the AP board's stock light bar port, and insert the other end of the connection cable into the adapter board.
 
 Note: The stock lightbar connector location on X1 series is on the left side of the frame behind the plastic cover.
 
-<img src=img/Panda_Lux/Panda_Lux_Installation6.png width="600"/>
+<img src=img/Panda_Lux/Panda_Lux_Installation6.webp width="600"/>
 
 **Step 8:** Install the protective cover back onto the AP board (close the plastic cover for X1 printers).
 

@@ -1,5 +1,5 @@
 # Panda Touch
-<img src=img/PandaTouch/panda_touch.png width="600"/>
+<img src=img/PandaTouch/panda_touch.webp width="600"/>
 
 The CAD files for the Panda Touch can be downloaded [here](https://github.com/bigtreetech/PandaTouch/tree/master/3D)
 
@@ -59,54 +59,54 @@ For more details, please refer to the official announcements by BIQU and Bambu L
 
 ### Overview
 
-<img src=img/PandaTouch/pt_back.png width="600"/>
+<img src=img/PandaTouch/pt_back.webp width="600"/>
 
 ### Charging Dock
 
-<img src=img/PandaTouch/charging_dock.png width="600"/>
+<img src=img/PandaTouch/charging_dock.webp width="600"/>
 
 * The power input has been outfitted with hot-plug protection, allowing users to hot-plug the power supply.
 
 ### Packing List
 
-| <img src=img/PandaTouch/pl_1.png width="200"/> | <img src=img/PandaTouch/pl_2.png width="200"/> |
+| <img src=img/PandaTouch/pl_1.webp width="200"/> | <img src=img/PandaTouch/pl_2.webp width="200"/> |
 | :----: | :----: |
 | Panda Touch x 1 | Mounting Bracket x 1 |
-| <img src=img/PandaTouch/pl_3.png width="200"/> | <img src=img/PandaTouch/pl_4.png width="200"/> |
+| <img src=img/PandaTouch/pl_3.webp width="200"/> | <img src=img/PandaTouch/pl_4.webp width="200"/> |
 | Magnetic Charging Dock x 1 | USB-C Charging Cable x 1 |
-| <img src=img/PandaTouch/pl_5.png width="200"/> | <img src=img/PandaTouch/pl_6.png width="200"/> |
+| <img src=img/PandaTouch/pl_5.webp width="200"/> | <img src=img/PandaTouch/pl_6.webp width="200"/> |
 | M3x6 Screws x 4 <br> Hex Key x 1 | BTT Duck x 1 |
 
 ### Installing Panda Touch
 
 * Use the hex/allen key and the two M3x6 FHCS to assemble the Charging Dock and the Mounting Bracket as shown.
-<br> <img src=img/PandaTouch/pt_1_1.png width="300"/>
+<br> <img src=img/PandaTouch/pt_1_1.webp width="300"/>
 * Peel off the film from the bottom side of the Mounting Bracket.
-<br> <img src=img/PandaTouch/pt_1_2.png width="300"/>
+<br> <img src=img/PandaTouch/pt_1_2.webp width="300"/>
 * Ensure the printer surface is clean and free of oil, grease, etc., attach the assembled Charging Dock centrally atop the original screen. Apply pressure to adhere fully and allow 12 hours for optimal adhesion.
-<br> <img src=img/PandaTouch/pt_1_3.png width="300"/>
+<br> <img src=img/PandaTouch/pt_1_3.webp width="300"/>
 * Attach the Panda Touch to the Charging Dock.
-<br> <img src=img/PandaTouch/pt_1_4.png width="300"/>
+<br> <img src=img/PandaTouch/pt_1_4.webp width="300"/>
 
 ### Wiring and Power Connection
 
 * Remove the foam covering the USB port on the printer to access the port.
-<br> <img src=img/PandaTouch/pt_2_1.png width="300"/>
+<br> <img src=img/PandaTouch/pt_2_1.webp width="300"/>
 * Thread the Charging Cable through the hole on the right side of the printer, then plug the USB-C end into the power input of the Charging Dock.
-<br> <img src=img/PandaTouch/pt_2_2.png width="300"/>
+<br> <img src=img/PandaTouch/pt_2_2.webp width="300"/>
 * Insert the USB-A end of the charging cable into the USB port on the printer to connect the power supply. Then arrange the cable in the clip as shown.
 
 > TIP:
 > Be 100% sure that you have threaded the cable into the clips to prevent the tool head from catching it during a homing sequence.
 
-<br> <img src=img/PandaTouch/pt_2_3.png width="300"/>
+<br> <img src=img/PandaTouch/pt_2_3.webp width="300"/>
 * You have three options on the rear power switch. 
   * In the `OFF` position, the battery will charge but the Panda Touch will not be powered up.
   * When switched to the `battery` position, the USB will charge the battery and power the Panda Touch at the same time. If the Panda Touch is removed from the dock then the battery will take over and power it for up to 30 minutes. Upon being returned to the dock, the USB will once again resume charging and powering the Panda Touch. This mode is recommended for users who do not turn their printer on and off often. Note that there is no battery charge level indicator. The Panda Touch has been designed for brief periods of use away from a dock and not for prolonged mobile use.
   * When switched to the `DC 5V` position, the Panda Touch is powered directly from the USB input, while still charging the battery. Removing it from the dock will power it off without the Panda Touch draining the battery. This mode is recommended for users who often turn their printer on and off as it will preserve battery charge cycles. If such users wish to use the Panda Touch in a portable mode then they can flip the switch to battery power after removing it from the dock.
-  <br> <img src=img/PandaTouch/pt_2_4.png width="300"/>
+  <br> <img src=img/PandaTouch/pt_2_4.webp width="300"/>
 * Panda Touch has been successfully installed and powered on. Please follow the on-screen instructions for the next setup step.
-<br> <img src=img/PandaTouch/pt_2_5.png width="300"/>
+<br> <img src=img/PandaTouch/pt_2_5.webp width="300"/>
 
 ## User Interface Instructions
 
@@ -116,12 +116,12 @@ You will be presented with the screen below after booting for the first time or 
 
 #### Language Selection Guide
 
-<img src=img/PandaTouch/language_guide.png width="600"/>
+<img src=img/PandaTouch/language_guide.webp width="600"/>
 
 * Choose a language for Panda Touch and press `Next`
 
 #### WiFi Connection Guide
-&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.png width="600"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_wifi.webp width="600"/>
 
 * During the initial setup the Panda Touch will scan for WiFi networks and then display up to 20 networks with the best signal strength. If you cannot find your desired network in the list then tap `Refresh` and the Panda Touch will rescan for WiFi networks. 
 > NOTE:
@@ -137,7 +137,7 @@ You will be presented with the screen below after booting for the first time or 
 
 #### Printer Connection Menu
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_printer.png width="600"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/guide_printer.webp width="600"/>
 
 * There are two possible methods to connect the Panda Touch to a printer.
    1. Automatic Scanning (recommended).
@@ -150,13 +150,13 @@ During this process you may need to enter connection details. These can be found
 ##### P1P & P1S
 
 * Navigate to "Settings->WLAN" on the LCD menu, and click "OK".
-<br><img src=img/PandaTouch/p1_1.png width="600"/>
+<br><img src=img/PandaTouch/p1_1.webp width="600"/>
 * Here you will find the IP addess and access code (only Access code is needed for automatic scanning).
-<br><img src=img/PandaTouch/p1_2.png width="600"/>
+<br><img src=img/PandaTouch/p1_2.webp width="600"/>
 * Find "Settings->Device" on the screen menu, and click "OK".
-<br><img src=img/PandaTouch/p1_3.png width="600"/>
+<br><img src=img/PandaTouch/p1_3.webp width="600"/>
 * Here you will find the serial number of the printer. This is only needed for manual entry mode. 
-<br><img src=img/PandaTouch/p1_4.png width="600"/>
+<br><img src=img/PandaTouch/p1_4.webp width="600"/>
 
 ##### Automatic Scanning
 
@@ -200,39 +200,39 @@ Follow the steps below to enable cloud connectivity to those printers that need 
 ##### Add a Bambu Cloud Account
 * Tap to jump to the settings page and then tap the `Login BambuLab account` button.
 
-  <img src=img/PandaTouch/add_account.png width="600"/>
+  <img src=img/PandaTouch/add_account.webp width="600"/>
 * Select your region by tapping the arrow at the top right of the resulting pop up.
 * Users in China use mobile phone numbers, while users in global regions use email addresses.
 * Press 'Send code' button to get code from email. 
-  <br><img src=img/PandaTouch/login.png width="600"/>
+  <br><img src=img/PandaTouch/login.webp width="600"/>
 * Tap the confirm button once you've entered the login details.
 
   > NOTE:
   > Currently, two factor authentication needs to be turned off in order to enable cloud mode on the Panda Touch. If you would like to keep it enabled then you can turn it off, enable cloud mode on the Panda Touch and then turn it back on. Note that you will likely need to repeat this process every three months as the login details will expire on the Panda Touch after that period.
 
-  <br><img src=img/PandaTouch/input_account.png width="600"/>
+  <br><img src=img/PandaTouch/input_account.webp width="600"/>
 
 ##### Synchronize the printers under the account to the local device
 * After a successful login, you can choose to convert the communication between all of your existing printers and Panda Touch to cloud mode.
 * We recommend only converting all of the printers if all of your machines run using cloud mode. If any use LAN Only mode then it is better to manually set each machine to cloud mode as described in [How To Change Working Mode Between The Panda Touch and Printer](#how-to-change-working-mode-between-the-panda-touch-and-printer).
 
-  <br><img src=img/PandaTouch/login_ok.png width="600"/> 
+  <br><img src=img/PandaTouch/login_ok.webp width="600"/> 
 
 * If you want to convert your existing printers to cloud mode then tap "Yes". 
 * During this process, the printers must be on the same network as the Panda Touch. In case of a poor network connection, you may need to re-edit the printer's IP address.
 
-  <br><img src=img/PandaTouch/sync_ok.png width="600"/> 
+  <br><img src=img/PandaTouch/sync_ok.webp width="600"/> 
 
 * Once a printer works in cloud mode you will notice a green cloud associated with its card in the multi printer view. The cloud indicates the communication method between the printer and Panda Touch. 
 * You will also notice a green arrow pair to indicate the connection status with that printer.
 
-  <br><img src=img/PandaTouch/cloud_mode.png width="600"/> 
+  <br><img src=img/PandaTouch/cloud_mode.webp width="600"/> 
 
 ##### How to delete a account
 * Click the "X" button in the upper right corner of the account information to delete the account information saved on Panda Touch. 
 * After deleting the account information, the communication mode between Panda Touch and the printer will be changed to local mode. Note that this will not set the printer itself to `LAN Only` mode but rather it will tell the Panda Touch to only speak to the printer using LAN mode which may result in the loss of some functions.
 
-  <br><img src=img/PandaTouch/del_account.png width="600"/> 
+  <br><img src=img/PandaTouch/del_account.webp width="600"/> 
 
 ##### How To Change Working Mode Between The Panda Touch and Printer
 * Navigate to the printer/group card page.
@@ -242,7 +242,7 @@ Follow the steps below to enable cloud connectivity to those printers that need 
 > TIP
 > You must have a cloud account entered into the settings menu otherwise you will not be able to set any printers to cloud mode.
 
-<br><img src=img/PandaTouch/switch_work_mode.png width="600"/> 
+<br><img src=img/PandaTouch/switch_work_mode.webp width="600"/> 
 
 ### Keyboard interface
     ①: Use this key to hide or show the entered information.
@@ -250,16 +250,16 @@ Follow the steps below to enable cloud connectivity to those printers that need 
     ③: Switch to `Symbol input`.
     ④: Switch to `Number input`.
 * `Letter input`:
-     <br> <img src=img/PandaTouch/keyboard_letter.png width="600"/>
+     <br> <img src=img/PandaTouch/keyboard_letter.webp width="600"/>
 
 * `Symbol input`
- <br> <img src=img/PandaTouch/keyboard_symbol.png width="600"/>
+ <br> <img src=img/PandaTouch/keyboard_symbol.webp width="600"/>
 
 * `Number input`
- <br> <img src=img/PandaTouch/keyboard_number.png width="600"/>
+ <br> <img src=img/PandaTouch/keyboard_number.webp width="600"/>
 
 ### Display of Print Tasks and SD Card Thumbnails on the Home Screen
-<br> <img src=img/PandaTouch/thumbnail_preview.png width="600"/>
+<br> <img src=img/PandaTouch/thumbnail_preview.webp width="600"/>
  
 > Note:
 > Only displays print tasks initiated from Bambu Studio with .3mf files of size <=20MB. The X1 series printers do not support this feature.
@@ -272,15 +272,15 @@ The Panda Touch allows users to configure the type and color of the filament bei
 
 When performing any actions, please ensure that the correct AMS unit and filament slot is selected. You will know that the filament is selected when it has a red border around it. If nothing has been selected then the `Load` and `Unload` buttons will be greyed out.
 
-<img src=img/PandaTouch/filament_screen.png width="600"/>
+<img src=img/PandaTouch/filament_screen.webp width="600"/>
 
 ### Filament Drying
 The Panda Touch facilitates drying filaments on both the X1 series and P1S printers.
 * Tap the “Dyring” button
-<br><img src=img/PandaTouch/drying.png width="400"/>
+<br><img src=img/PandaTouch/drying.webp width="400"/>
 
 * Follow the subsequent steps as displayed on the screen.
-<br><img src=img/PandaTouch/filament_dry.png width="400"/>
+<br><img src=img/PandaTouch/filament_dry.webp width="400"/>
 
 ### Skip Objects
 > **Note :** 
@@ -295,7 +295,7 @@ Not available
 
 ### HMS (Health Management System)
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/hms.png width="600"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/hms.webp width="600"/>
 
 * Tap the title bar of Panda Touch, and the HMS notification center menu will expand.
 * When a new HMS notification is detected, Panda Touch will automatically expand the HMS notification center.
@@ -310,18 +310,18 @@ The Panda Touch allows you to create up to 10 groups that can each contain indiv
 #### How To Add A Group
 * Tap + in the connected printer list to pop up the multi function menu.  
 
-  <br><img src=img/PandaTouch/press_plus.png width="600"/>
+  <br><img src=img/PandaTouch/press_plus.webp width="600"/>
 
 * Choose the add group option.
 
-  <br><img src=img/PandaTouch/press_add_group.png width="600"/>
+  <br><img src=img/PandaTouch/press_add_group.webp width="600"/>
 
 * Choose the printers which you want add to the group and ensure that you select which one should be the leader (other printers in the group will follow the commands sent to the leader).
-  <br><img src=img/PandaTouch/group_choose_printer.png width="600"/>
+  <br><img src=img/PandaTouch/group_choose_printer.webp width="600"/>
 
 * Tap next, input the group name and click "OK".
   
-  <br><img src=img/PandaTouch/group_name.png width="600"/>
+  <br><img src=img/PandaTouch/group_name.webp width="600"/>
 
 * You now can see the group in the printer list, tapping this group will allow you to control the whole group but the controls presented will be those of the group leader.
 
@@ -330,7 +330,7 @@ The Panda Touch allows you to create up to 10 groups that can each contain indiv
 * If you send a command to an individual printer that takes some time (such as homing) and then you send a command to a group that it belongs to, the second command will be ignored if the first is still busy.
 * To control an entire group, simply click on the card that corresponds to that group and you will notice the name in the top bar change to the name of the group and the name of the leader, separated by a forward slash. You can now send commands to the leader and other printers in the group will follow.
 
-  <br><img src=img/PandaTouch/add_group_ok.png width="600"/> 
+  <br><img src=img/PandaTouch/add_group_ok.webp width="600"/> 
 
 #### Considerations For Printing From USB
 
@@ -339,7 +339,7 @@ When trying to print from USB, please take note of the important points below.
 * Ensure that the file system of the USB flash drive is **formatted as FAT32**.
 * Export the `.3mf` file from either Bambu Studio or Orca Slicer using the `Export plate sliced file` option. 
 
-  <br> <img src=img/PandaTouch/export_3mf.png width="400"/>
+  <br> <img src=img/PandaTouch/export_3mf.webp width="400"/>
 
 * Write the sliced `.3mf` file to the root directory of the USB flash drive
   * Panda Touch only supports files that are sliced on `Build Plate #1` in Bambu Studio.
@@ -347,7 +347,7 @@ When trying to print from USB, please take note of the important points below.
   * Panda Touch only supports reading files in the root directory and does not support reading files in folders.
 * Insert the USB flash drive into the Panda Touch, and then go to the `USB flash drive` menu.
 
-  <br> <img src=img/PandaTouch/usb_flash_drive.png width="600"/>
+  <br> <img src=img/PandaTouch/usb_flash_drive.webp width="600"/>
 
 #### Start Printing With One Printer
 
@@ -359,7 +359,7 @@ When trying to print from USB, please take note of the important points below.
     * `Use AMS` (Panda Touch will automatically identify whether this printer has AMS plugged in and then determine whether this option needs to be displayed.)
     * `Auto Power-Off` (Automatically detects the online Panda PWR and enables the automatic power-off feature.)
     * `RST Usage` (Automatically detects the online Panda PWR and resets the power usage of Panda PWR)
-  <br><img src=img/PandaTouch/start_print_one.png width="600"/>
+  <br><img src=img/PandaTouch/start_print_one.webp width="600"/>
 
 * Please make sure that the sliced `.3mf` file is compatible with the selected printer.
 * If using an AMS, please make sure that the filaments in the AMS tray are consistent with those in the sliced `.3mf` file as there is no ability to dynamically map filaments at the start of the print.
@@ -368,13 +368,13 @@ When trying to print from USB, please take note of the important points below.
   1. There is an MicroSD card inserted into the printer.
   2. The remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.
 
-  <br> <img src=img/PandaTouch/uploading.png width="600"/>
+  <br> <img src=img/PandaTouch/uploading.webp width="600"/>
 
 * Printing will begin once the upload is complete. For very large `.3mf` files the transfer time may take some minutes to each printer.
 
 * After starting the print the Panda Touch will automatically jump to the main interface and display printer data.
 
-  <br><img src=img/PandaTouch/start_print_one_ing.png width="600"/>
+  <br><img src=img/PandaTouch/start_print_one_ing.webp width="600"/>
 
 #### Group Printing
 
@@ -389,7 +389,7 @@ When trying to print from USB, please take note of the important points below.
     * `RST Usage` (Automatically detects the online Panda PWR and resets the power usage of Panda PWR)
 * Tick box print options for a particular group will be based on the functionality available for the most functional machine in the group. For example, you are using a group which contains X1C\P1P\P1S, you will have the lidar scan option available but this option will only be sent to the printers in the group that support it.
 
-  <br><img src=img/PandaTouch/start_print.png width="600"/>
+  <br><img src=img/PandaTouch/start_print.webp width="600"/>
 
 * Panda Touch will generate a list of available printers for you choose from. 
 * Printers and groups that are already busy will be excluded from this list. This means that if a single printer in a group is already busy then you will be unable to print to any printers in that group. This allows groups to always remain in sync with each other.
@@ -401,11 +401,11 @@ When trying to print from USB, please take note of the important points below.
   1. There is an MicroSD card inserted into the printer(s).
   2. The remaining capacity of the MicroSD card is sufficient to write the files to be uploaded.
 
-  <br><img src=img/PandaTouch/udisk_upload.png width="600"/>
+  <br><img src=img/PandaTouch/udisk_upload.webp width="600"/>
 
 * Printing will begin once the upload is complete. For very large `.3mf` files the transfer time may take some minutes to each printer.
   
-  <br><img src=img/PandaTouch/group_printing.png width="600"/>
+  <br><img src=img/PandaTouch/group_printing.webp width="600"/>
 
 * After you start a print you will be taken to the print summary page where the status of each printer in the group is summarized on individual cards.
 
@@ -413,7 +413,7 @@ When trying to print from USB, please take note of the important points below.
 
 When a group is selected and multiple printers in the group are busy printing, the Panda Touch will display the `Multiple printing` menu as shown below.
 
-  <br> <img src=img/PandaTouch/multi_printing.png width="600"/>
+  <br> <img src=img/PandaTouch/multi_printing.webp width="600"/>
 
 The following group controls exist from this menu:
 
@@ -425,95 +425,95 @@ The following group controls exist from this menu:
 
 #### Group Printing Delay Function
 The group printing is delayed based on this time, and if the current printer heats up or the time is up, the print job is sent to the next one.
-<br> <img src=img/PandaTouch/group_delay.png width="600"/>
+<br> <img src=img/PandaTouch/group_delay.webp width="600"/>
 
 ### Connecting with Panda PWR
 #### Binding Panda Touch and Panda PWR
-* Open the Panda PWR page<br><img src=img/PandaPWR/bind_before.png width="600"/>  
+* Open the Panda PWR page<br><img src=img/PandaPWR/bind_before.webp width="600"/>  
 * Press and hold the "Bind" button until the blue light starts flashing (approximately 3 seconds).  
 * Place the Panda Touch on the Panda PWR to establish the connection.
-<img src=img/PandaPWR/ask_bind.png width="600"/>  
+<img src=img/PandaPWR/ask_bind.webp width="600"/>  
 
 * After successful binding, the data of Panda PWR will be displayed on this page.
-<img src=img/PandaPWR/bind_ok.png width="600"/>  
+<img src=img/PandaPWR/bind_ok.webp width="600"/>  
 
 #### Unbinding from Panda PWR
 * To bind Panda PWR to another device, unbind the current connection first.
-<img src=img/PandaPWR/unbind.png width="600"/>    
+<img src=img/PandaPWR/unbind.webp width="600"/>    
 
 #### Shutdown After Printing
 Enable the automatic power-off feature to have the printer shut down automatically after printing. Set the countdown timer and temperature threshold; 
 the countdown begins once conditions are met, and Panda PWR will cut off the power upon countdown completion.
 
 * Activate the Automatic Power-Off
-<br><img src=img/PandaPWR/start_auto_power_off.png width="600"/>
+<br><img src=img/PandaPWR/start_auto_power_off.webp width="600"/>
 
 * The countdown starts automatically when the printer is online and the temperature reaches the set limit. The countdown pauses if conditions are not met and resumes once they are.
-<br><img src=img/PandaPWR/auto_power_off_ing.png width="600"/>
+<br><img src=img/PandaPWR/auto_power_off_ing.webp width="600"/>
 
 #### Reset Power Usage
 To reset the recorded power consumption data, click the "RST Usage" button.
-<br><img src=img/PandaPWR/reset_usage.png width="600"/>
+<br><img src=img/PandaPWR/reset_usage.webp width="600"/>
 
 #### Hiding the Panda PWR Control Interface
 * Navigate to the settings menu, tap on Panda PWR, and select 'Off'.
-<br><img src=img/PandaTouch/hide_pwr.png width="600"/>
+<br><img src=img/PandaTouch/hide_pwr.webp width="600"/>
 
 #### USB1 Follows Printer Lights
 * Set to ON: USB1 will mimic the printer's LED status. When the LED is on, USB1 outputs 5V; when off, the output is disabled.
 * Set to OFF: USB1 functions manually and does not respond to the printer's LED status.
-<br><img src=img/PandaPWR/usb1_function.png width="600"/>
+<br><img src=img/PandaPWR/usb1_function.webp width="600"/>
 
 ### Sorting Function for SD Cards and USB Drives
 #### Sort by Name
 Click "Name" to sort alphabetically from 'A' to 'Z' or reverse. Sorting by Chinese names is currently unsupported.
-<br><img src=img/PandaTouch/sort_by_name.png width="600"/>
+<br><img src=img/PandaTouch/sort_by_name.webp width="600"/>
 
 #### Sort by Date
 Click "Date" to sort by date from newest to oldest or vice versa.
-<br><img src=img/PandaTouch/sort_by_new.png width="600"/>
+<br><img src=img/PandaTouch/sort_by_new.webp width="600"/>
 
 ### Thumbnail Preview of USB Files
 Click the icon in the lower right corner to switch to thumbnail view.
-<br><img src=img/PandaTouch/to_thumbnail.png width="600"/>  
+<br><img src=img/PandaTouch/to_thumbnail.webp width="600"/>  
 Click again to return to the file list view.
-<br><img src=img/PandaTouch/thumbnail.png width="600"/>  
+<br><img src=img/PandaTouch/thumbnail.webp width="600"/>  
 > Note:
 > Only 3mf files generated by Bambu Studio are supported for thumbnail previews. If the thumbnail is not displayed correctly, consider re-slicing with Bambu Studio.
 
 ### File Folder Access for SD Cards and USB Drives
 * Tap on a directory to switch to it
-<br><img src=img/PandaTouch/change_dir.png width="600"/>  
+<br><img src=img/PandaTouch/change_dir.webp width="600"/>  
 
 * USB Drive
-<br><img src=img/PandaTouch/udisk_folder.png width="600"/> 
+<br><img src=img/PandaTouch/udisk_folder.webp width="600"/> 
 
 * SD Card
-<br><img src=img/PandaTouch/ftps_folder.png width="600"/>  
+<br><img src=img/PandaTouch/ftps_folder.webp width="600"/>  
 
 ### Reprinting
 #### Reprinting from the Home Screen
-<img src=img/PandaTouch/reprint_home.png width="600"/>  
+<img src=img/PandaTouch/reprint_home.webp width="600"/>  
 
 > Note: To reprint, ensure the file is stored in the default directory on the printer’s SD card (selectable between Cache or the root directory via Panda Touch settings).
 
 #### Reprinting from History
-<img src=img/PandaTouch/print_history.png width="600"/>  
+<img src=img/PandaTouch/print_history.webp width="600"/>  
 
 ### Change the Default Directory on the printer’s SD card 
-<br><img src=img/PandaTouch/cache_root.png width="600"/>
+<br><img src=img/PandaTouch/cache_root.webp width="600"/>
 
 ### Adding New Languages 
-<br><img src=img/PandaTouch/language_custom.png width="600"/>
+<br><img src=img/PandaTouch/language_custom.webp width="600"/>
 
 * German (Deutsch)
-<br><img src=img/PandaTouch/de.png width="600"/>  
+<br><img src=img/PandaTouch/de.webp width="600"/>  
 
 * Spanish (Español)
-<br><img src=img/PandaTouch/es.png width="600"/>  
+<br><img src=img/PandaTouch/es.webp width="600"/>  
 
 * Japanese (日本語)
-<br><img src=img/PandaTouch/ja.png width="600"/>  
+<br><img src=img/PandaTouch/ja.webp width="600"/>  
 
 ### How To Change The Panda Picture
 
@@ -526,10 +526,10 @@ Use [this tool](https://ptimgtool.bttwiki.com) to change the picture of the pand
   * Image format PNG. 
 * Upload the yml file if you need to replace the label on the UI of Panda Touch.
   * [Panda Touch UI Translation](https://github.com/bigtreetech/PandaTouch/tree/master/Translation)
-<br><img src=img/PandaTouch/upload_new_panda.png width="600"/>  
+<br><img src=img/PandaTouch/upload_new_panda.webp width="600"/>  
 
 * Click generate button. 
-<br><img src=img/PandaTouch/generate_new_panda.png width="600"/> 
+<br><img src=img/PandaTouch/generate_new_panda.webp width="600"/> 
 
 * Open the web ui from Panda Touch and update filesystem by this .img file. 
 
@@ -537,13 +537,13 @@ Use [this tool](https://ptimgtool.bttwiki.com) to change the picture of the pand
 
 #### Temperature and Humidity Display
 * printing
-<br><img src=img/PandaTouch/sense_printing.png width="400"/>  
+<br><img src=img/PandaTouch/sense_printing.webp width="400"/>  
 
 * Printer Standby
-<br><img src=img/PandaTouch/sense_idle.png width="400"/>  
+<br><img src=img/PandaTouch/sense_idle.webp width="400"/>  
 
 * Temperature/Axis page
-<br><img src=img/PandaTouch/sense_filament.png width="400"/>  
+<br><img src=img/PandaTouch/sense_filament.webp width="400"/>  
 
 ## Troubleshooting
 
@@ -551,7 +551,7 @@ Use [this tool](https://ptimgtool.bttwiki.com) to change the picture of the pand
 
 #### Connect Failed
 
-<img src=img/PandaTouch/mqtt_connect_failed.png width="600"/>
+<img src=img/PandaTouch/mqtt_connect_failed.webp width="600"/>
 
 This prompt means that the Panda Touch cannot establish a connection with the printer. There are generally several which can cause this:
 
@@ -567,7 +567,7 @@ This prompt means that the Panda Touch cannot establish a connection with the pr
 
 #### Authentication Failed
 
-<img src=img/PandaTouch/mqtt_login_failed.png width="600"/>
+<img src=img/PandaTouch/mqtt_login_failed.webp width="600"/>
 
 This prompt means that Panda Touch can establish a connection with the printer but authentication has failed. This is usually caused by an incorrect access code. Please check whether the printer's access code matches the set one. An incorrect access code are usually caused by the following:
 
@@ -593,45 +593,45 @@ If there is something you would like to see in a future release of the Panda Tou
 
 * Download the firmware binary file (Download link in [Firmware History](#firmware-history)) to the device being used to perform the update. This can be a computer or a mobile device running an OS such as iOS or Android. Hereafter it will be referred to as the "computer".
 
-  <br><img src=img/PandaTouch/firmware_download.png width="600"/>
+  <br><img src=img/PandaTouch/firmware_download.webp width="600"/>
 
 * Connect the Panda Touch to the WiFi on the same LAN as the computer.
 * Find the IP address of the Panda Touch from the `Network` menu.
 
-  <br><img src=img/PandaTouch/ip.png width="600"/>
+  <br><img src=img/PandaTouch/ip.webp width="600"/>
 
 * Enter the Panda Touch's IP address in the computer's browser to access the web UI, and then click "Update FW" button.
 
-  <br><img src=img/PandaTouch/ota_1.png width="600"/>
+  <br><img src=img/PandaTouch/ota_1.webp width="600"/>
 
 * Click the "Choose File" button, then select the downloaded firmware binary file. The Panda Touch will automatically start updating.
 
-  <br><img src=img/PandaTouch/ota_2.png width="600"/>
+  <br><img src=img/PandaTouch/ota_2.webp width="600"/>
 
 * After the update is completed, the Panda Touch will automatically restart and run the new firmware.
 
-  <br><img src=img/PandaTouch/ota_3.png width="600"/>
+  <br><img src=img/PandaTouch/ota_3.webp width="600"/>
 
 #### How to update img file 
 * When the img section of the new firmware changes, the user interface will ask you to update the img file.
 
-  <br><img src=img/PandaTouch/ota_img_remind.png width="660"/>
+  <br><img src=img/PandaTouch/ota_img_remind.webp width="660"/>
 
 * Download the img file to the device being used to perform the update. This can be a computer or a mobile device running an OS such as iOS or Android. Hereafter it will be referred to as the "computer".
 
-  <br><img src=img/PandaTouch/ota_img_download.png width="660"/>
+  <br><img src=img/PandaTouch/ota_img_download.webp width="660"/>
 
 * Enter the Panda Touch's IP address in the computer's browser to access the web UI, and then click "Update File" button.
 
-  <br><img src=img/PandaTouch/ota_img_1.png width="660"/>
+  <br><img src=img/PandaTouch/ota_img_1.webp width="660"/>
 
 * Click the "Choose File" button, then select the downloaded img file. The Panda Touch will automatically start updating.
 
-  <br><img src=img/PandaTouch/ota_img_2.png width="660"/>
+  <br><img src=img/PandaTouch/ota_img_2.webp width="660"/>
 
 * After the update is completed, the Panda Touch will automatically restart and be ready to run the latest firmware.
 
-  <br><img src=img/PandaTouch/ota_img_3.png width="660"/>
+  <br><img src=img/PandaTouch/ota_img_3.webp width="660"/>
 
 ### Firmware History
 #### [V1.0.7.1](https://github.com/bigtreetech/PandaTouch/blob/master/Firmware/1.0.7.1/panda_touch-v1.0.7.1.bin)
@@ -746,7 +746,7 @@ The section below discusses how the logic of this firmware version worked. For t
 
 ##### Grouping logic
 the Panda Touch has 4 settable control modes:
-&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/control_mode.png width="600"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/PandaTouch/control_mode.webp width="600"/>
 
 * `Master`: A single machine that acts as the source of instructions for itself and possibly other machines.
   * The temperature, filament, and file list in the MicroSD Card displayed by Panda Touch are all derived from this printer.
@@ -770,7 +770,7 @@ the Panda Touch has 4 settable control modes:
 
 * Make sure the MicroSD card is inserted into the `Master` printer and *formatted as FAT32*.
 * Go to the `Master printer's MicroSD card` menu.
-<br> <img src=img/PandaTouch/micro_sd.png width="600"/>
+<br> <img src=img/PandaTouch/micro_sd.webp width="600"/>
 
 * Panda Touch only supports files are sliced in `Build Plate #1` in Bambu Studio.
 * Panda Touch only supports `.3mf` files and does not support `.gcode` files.
@@ -780,7 +780,7 @@ the Panda Touch has 4 settable control modes:
 
 ###### Multiple printing
 When a printer in the `sync` state is printing, or multiple printers in other states are printing at the same time, the Panda Touch will display the `Multiple printing` menu as shown below.
-<br> <img src=img/PandaTouch/multi_printing.png width="600"/>
+<br> <img src=img/PandaTouch/multi_printing.webp width="600"/>
 The following group controls exist from this menu:
 
 * ①: Turn ON/OFF the chamber LED of the printer in the current print list.

@@ -1,6 +1,6 @@
 # KNOMI
 
-<img src=img/KNOMI/KNOMI_Title.png width="600" />
+<img src=img/KNOMI/KNOMI_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -19,7 +19,7 @@ KNOMI是一款专为运行Klipper固件的3D打印机设计的迷你圆形显示
 - 预留Type-C口，方便客户自行DIY烧录使用，使用面更广；
 - 采用全视域的屏幕，让你从哪个角度都能看到真实的色彩。
 
-<img src=img/KNOMI/KNOMI_IN.png width="600" />
+<img src=img/KNOMI/KNOMI_IN.webp width="600" />
 
 <font  color="red">**有关KNOMI结构的信息，请单击**</font> :[KNOMI USER GUIDE.PDF](https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI 1 用户手册.pdf)
 
@@ -31,9 +31,9 @@ KNOMI是一款专为运行Klipper固件的3D打印机设计的迷你圆形显示
 
 我们将为您提供定制的安装打印件文件，以便您轻松地将KNOMI安装到您的Voron StealthBurner中。其中，我们的StealthBurner前盖打印件不仅保留了原有的风扇位置，还在顶部增加环状开窗通风口，以提高兼容性和优化散热效果。
 
-<img src=img/KNOMI/KNOMI_IN1.png width="600" />
+<img src=img/KNOMI/KNOMI_IN1.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_IN2.png width="600" />
+<img src=img/KNOMI/KNOMI_IN2.webp width="600" />
 
 
 
@@ -47,21 +47,21 @@ KNOMI是一款专为运行Klipper固件的3D打印机设计的迷你圆形显示
 
 我们对搭配定制打印件安装了KNOMI的StealthBurner与原始未安装KNOMI的StealthBurner进行了性能比较。结果显示，无论是在风速还是声能级上，两者的表现几乎相同，安装KNOMI后的StealthBurner仍然能够如期地保持其性能表现。
 
-<img src=img/KNOMI/KNOMI_IN3.png width="600" />
+<img src=img/KNOMI/KNOMI_IN3.webp width="600" />
 
 ## ****包装清单****
 
-<img src=img/KNOMI/KNOMI_IN4.png width="600" />
+<img src=img/KNOMI/KNOMI_IN4.webp width="600" />
 
 ## ****概览****
 
-<img src=img/KNOMI/KNOMI_IN19.png width="600" />
+<img src=img/KNOMI/KNOMI_IN19.webp width="600" />
 
 *为优化用户接线体验，最新款Knomi屏幕供电座子已升级为<font  color="red">**立式座子**</font> 。
 
 ## ****配置 WI-FI****
 
-<img src=img/KNOMI/KNOMI_IN6.png width="600" />
+<img src=img/KNOMI/KNOMI_IN6.webp width="600" />
 
 <font  color="red">**进入欢迎词界面**</font> 
 
@@ -73,13 +73,13 @@ KNOMI是一款专为运行Klipper固件的3D打印机设计的迷你圆形显示
 
 若您已经安装了KNOMI在StealthBurner上，可以使用细长工具(如六角扳手)来按住BOOT按钮。
 
-<img src=img/KNOMI/KNOMI_IN7.png width="600" />
+<img src=img/KNOMI/KNOMI_IN7.webp width="600" />
 
 <font  color="red">**路由器加密模式**</font> 
 
 由于设备兼容性问题，KNOMI无法配置WPA PSK加密模式的网络，如您遇到KNOMI无法成功配置您的网络，请检查您的路由器加密模式，将路由器的加密方式切换为WPA/WAP2 PSK混合模式或其他模式。
 
-<img src=img/KNOMI/KNOMI_IN8.png width="600" />
+<img src=img/KNOMI/KNOMI_IN8.webp width="600" />
 
 <font  color="red">**连接KNOMI**</font> 
 
@@ -99,7 +99,7 @@ KNOMI是一款专为运行Klipper固件的3D打印机设计的迷你圆形显示
 
 <font  color="red">**配置 WI-FI**</font> 
 
-<img src=img/KNOMI/KNOMI_IN9.png width="600" />
+<img src=img/KNOMI/KNOMI_IN9.webp width="600" />
 
 <font  color="red">**连接断开**</font> 
 
@@ -113,23 +113,23 @@ KNOMI是一款专为运行Klipper固件的3D打印机设计的迷你圆形显示
 
 ## **把KNOMI安装到STEALTHBURNER上**
 
-<img src=img/KNOMI/KNOMI_IN10.png width="600" />
+<img src=img/KNOMI/KNOMI_IN10.webp width="600" />
 
 
 
-<img src=img/KNOMI/KNOMI_IN11.png width="600" />
+<img src=img/KNOMI/KNOMI_IN11.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_IN12.png width="600" />
+<img src=img/KNOMI/KNOMI_IN12.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_IN13.png width="600" />
+<img src=img/KNOMI/KNOMI_IN13.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_IN14.png width="600" />
+<img src=img/KNOMI/KNOMI_IN14.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_IN15.png width="600" />
+<img src=img/KNOMI/KNOMI_IN15.webp width="600" />
 
 ## **添加相关宏**
 
-<img src=img/KNOMI/KNOMI_IN16.png width="600" />
+<img src=img/KNOMI/KNOMI_IN16.webp width="600" />
 
 ```
 [gcode_macro BED_MESH_CALIBRATE]
@@ -173,7 +173,7 @@ gcode:
 
 1、请点击链接下载刻录工具：  https://www.espressif.com.cn/en/support/download/other-tools
 
-<img src=img/KNOMI/KNOMI_UPDATE1.png width="600" />
+<img src=img/KNOMI/KNOMI_UPDATE1.webp width="600" />
 
 2、请点击下载 [固件](https://raw.githack.com/bigtreetech/docs/master/docs/download/Firmware.zip)
 
@@ -181,15 +181,15 @@ gcode:
 
 4、点击 .exe
 
-<img src=img/KNOMI/KNOMI_UPDATE2.png width="600" />
+<img src=img/KNOMI/KNOMI_UPDATE2.webp width="600" />
 
 5、选择esp32
 
-<img src=img/KNOMI/KNOMI_UPDATE3.png width="600" />
+<img src=img/KNOMI/KNOMI_UPDATE3.webp width="600" />
 
 5、解压缩下载的固件。点击“…”按钮，添加3个对应的bin文件，在“@”后手动输入对应bin文件偏移地址（注意bin文件名对应地址）。选择knomi1的COM。点击“开始”开始下载，等待进度条结束并提示完成；
 
-<img src=img/KNOMI/KNOMI_UPDATE4.png width="600" />
+<img src=img/KNOMI/KNOMI_UPDATE4.webp width="600" />
 
 6、拔下USB并插回（重新通电），可以看到显示屏显示内容正常，表示刻录成功；
 
@@ -199,67 +199,67 @@ gcode:
 
 1、我们在knomi提供了17个可定制的GIF。
 
-<img src=img/KNOMI/KNOMI_GIF.png width="600" />
+<img src=img/KNOMI/KNOMI_GIF.webp width="600" />
 
 2、点击下载 [KNOMI GIF](https://raw.githack.com/bigtreetech/docs/master/docs/download/KNOMI_GIF.zip) . 您必须将GIF更改为与要替换的GIF相同的名称和像素。 你可以点击 [这里 (English)](https://www.gifgit.com/gif/resize)or  [这里 (Chinese)](https://www.gif.cn/) 修改GIF像素，右键单击可查看GIF。
 
 了解更多GIF像素，请点击 https://bigtreetech.github.io/docs/KNOMI.html#picture-pixels
 
-<img src=img/KNOMI/KNOMI_Tip.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip.webp width="600" />
 
 3、点击 https://github.com/bigtreetech/KNOMI/tree/firmware 下载KNOMI1项目。 使用Visual Studio Code https://marlinfw.org/docs/basics/install_platformio_vscode.html 以打开项目并输入lvgl_Gif.cpp文件。
 
-<img src=img/KNOMI/KNOMI_Tip1.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip1.webp width="600" />
 
 4、右键单击要替换的GIF，然后单击“转到定义”。
 
-<img src=img/KNOMI/KNOMI_Tip2.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip2.webp width="600" />
 
 5、可以看到GIF的结构和数据类型header.cf。
 
-<img src=img/KNOMI/KNOMI_Tip3.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip3.webp width="600" />
 
 6、点击链接进入GIF转换工具 https://lvgl.io/tools/imageconverter
 
-<img src=img/KNOMI/KNOMI_Tip4.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip4.webp width="600" />
 
 7、点击浏览并选择新的替换GIF，颜色格式选择与原始GIF相同的数据类型。
 
-<img src=img/KNOMI/KNOMI_Tip5.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip5.webp width="600" />
 
 <font  color="red">**注意：选择CF_RAW_CHROMA后，将显示为CF_RAW，请忽略此问题**</font> 
 
 8、输出格式选择C数组，然后单击转换。
 
-<img src=img/KNOMI/KNOMI_Tip6.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip6.webp width="600" />
 
 9、将生成的gif_standby替换为。c文件与knomi项目中同名的源文件。
 
-<img src=img/KNOMI/KNOMI_Tip7.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip7.webp width="600" />
 
 10、单击“编译”。
 
-<img src=img/KNOMI/KNOMI_Tip8.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip8.webp width="600" />
 
 11、编译完成后，使用USB Type C连接器将KNOMI连接到计算机。单击下载，下载完成后，再次打开KNOMI电源。
 
-<img src=img/KNOMI/KNOMI_Tip9.png width="600" />
+<img src=img/KNOMI/KNOMI_Tip9.webp width="600" />
 
 ### **图片像素**
 
-<img src=img/KNOMI/KNOMI_gif1.png width="600" />
+<img src=img/KNOMI/KNOMI_gif1.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_gif2.png width="600" />
+<img src=img/KNOMI/KNOMI_gif2.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_gif3.png width="600" />
+<img src=img/KNOMI/KNOMI_gif3.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_gif4.png width="600" />
+<img src=img/KNOMI/KNOMI_gif4.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_gif5.png width="600" />
+<img src=img/KNOMI/KNOMI_gif5.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_gif6.png width="600" />
+<img src=img/KNOMI/KNOMI_gif6.webp width="600" />
 
-<img src=img/KNOMI/KNOMI_gif7.png width="600" />
+<img src=img/KNOMI/KNOMI_gif7.webp width="600" />
 
 
 

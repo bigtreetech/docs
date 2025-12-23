@@ -1,6 +1,6 @@
 # TFT35
 
-<img src=img/TFT35_V3.0/TFT35_V3.0_Title.png width="600" />
+<img src=img/TFT35_V3.0/TFT35_V3.0_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -37,11 +37,11 @@ TFT35 V3.0 is a medium size, dual-mode, ultra-clear 3D printer display. It is an
 
 ## **Dimensions**
 
-<img src=img/TFT35_V3.0/TFT35_V3.0_Diagram.png width="600" />
+<img src=img/TFT35_V3.0/TFT35_V3.0_Diagram.webp width="600" />
 
 ## **Interface Diagram**
 
-<img src=img/TFT35_V3.0/TFT35_V3.0_Interface.png width="600" />
+<img src=img/TFT35_V3.0/TFT35_V3.0_Interface.webp width="600" />
 
 <font  color="red">***Notes：***</font>
 

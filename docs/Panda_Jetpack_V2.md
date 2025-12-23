@@ -1,6 +1,6 @@
 # **Panda Jetpack V2**
 
-<img src=img/PandaJetpackV2/panda_jetpack.png width="400"/>
+<img src=img/PandaJetpackV2/panda_jetpack.webp width="400"/>
 
 * **Product Link**: [Click to Buy](https://bit.ly/46pxcrX)
 
@@ -70,7 +70,7 @@ Before starting, completely unload the filament and turn the printer's power off
 
     After disconnecting the fan's electrical connector, you can remove the front housing assembly.
 
-    <img src=img/PandaJetpackV2/install_1.png width="300"/>
+    <img src=img/PandaJetpackV2/install_1.webp width="300"/>
 
 * Step 2 – Remove PTFE Tube
 
@@ -82,7 +82,7 @@ Before starting, completely unload the filament and turn the printer's power off
 
     Using a H1.5 hex key, loosen the cutter lever screw just enough to release the lever assembly from the extruder body.
 
-    <img src=img/PandaJetpackV2/install_3.png width="300"/>
+    <img src=img/PandaJetpackV2/install_3.webp width="300"/>
 
     <img src=img/PandaJetpackV2/install_4.jpg width="300"/>
 
@@ -112,14 +112,14 @@ Before starting, completely unload the filament and turn the printer's power off
 
     Correctly install the Panda Jetpack back shell middle housing by aligning it with the toolhead and pressing firmly until it clicks into place.
 
-    <img src=img/PandaJetpackV2/install_9.png width="300"/>
+    <img src=img/PandaJetpackV2/install_9.webp width="300"/>
 
 
 * Step 2 – Install Toolhead Panda Jetpack Back Shell Rear Housing
 
     Attach the Panda Jetpack back shell rear housing onto the toolhead, ensuring the top latch is aligned.
 
-    <img src=img/PandaJetpackV2/install_10.png width="300"/>
+    <img src=img/PandaJetpackV2/install_10.webp width="300"/>
 
 
 * Step 3 – Secure Screws
@@ -167,15 +167,15 @@ Before starting, completely unload the filament and turn the printer's power off
 
 * Unscrew the two screws securing the control board, then remove the board.
 
-    <img src=img/PandaJetpackV2/install_19.png width="300"/>
+    <img src=img/PandaJetpackV2/install_19.webp width="300"/>
 
-    <img src=img/PandaJetpackV2/install_20.png width="300"/>
+    <img src=img/PandaJetpackV2/install_20.webp width="300"/>
 
 * Use a screwdriver to push out the light cover.
 
     <img src=img/PandaJetpackV2/install_21.jpg width="300"/>
 
-    <img src=img/PandaJetpackV2/install_22.png width="300"/>
+    <img src=img/PandaJetpackV2/install_22.webp width="300"/>
 
 #### Install Light Cover
 
@@ -200,7 +200,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - Connect to the Panda_Jetpack AP hotspot: `Panda_Jetpack_XXXXXXXXXX`. The default password is `987654321`.
 
-        <img src=img/PandaJetpackV2/ap.png width="300"/>
+        <img src=img/PandaJetpackV2/ap.webp width="300"/>
 
 - Accessing the AP Webpage
 
@@ -210,7 +210,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - After selecting a language, tap `Next`.
 
-        <img src=img/PandaJetpackV2/en/language.png width="300"/>
+        <img src=img/PandaJetpackV2/en/language.webp width="300"/>
 
   <a id="wifi-connect"></a>
   
@@ -218,33 +218,33 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - After initial setup or a factory reset, the interface will automatically scan for available Wi-Fi networks. If your network is not listed, tap Scan to refresh the list manually.
 
-        <img src=img/PandaJetpackV2/en/wifi_scan.png width="300"/>
+        <img src=img/PandaJetpackV2/en/wifi_scan.webp width="300"/>
 
     - A confirmation message will appear when the scan is complete.
 
-        <img src=img/PandaJetpackV2/en/wifi_scan_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/en/wifi_scan_ok.webp width="300"/>
 
     - Select the WiFi network you want to connect to.
 
-        <img src=img/PandaJetpackV2/en/wifi_list.png width="300"/>
+        <img src=img/PandaJetpackV2/en/wifi_list.webp width="300"/>
 
     - Type your password and tap the `eye icon` if you'd like to see the password you've entered.
 
-        <img src=img/PandaJetpackV2/en/wifi_connect.png width="300"/>
+        <img src=img/PandaJetpackV2/en/wifi_connect.webp width="300"/>
 
     - Tap Connect, and the interface will switch to the WiFi connection page, showing `Connecting to WiFi`.
 
-        <img src=img/PandaJetpackV2/en/wifi_connecting.png width="300"/>
+        <img src=img/PandaJetpackV2/en/wifi_connecting.webp width="300"/>
 
     - Wait a moment, and a WiFi connection status pop-up will appear.
 
         - Connection Failed:
 
-        <img src=img/PandaJetpackV2/en/wifi_failed.png width="300"/>
+        <img src=img/PandaJetpackV2/en/wifi_failed.webp width="300"/>
 
         - Connection Successful: You can either [bind the printer](#printer-bind) and proceed to the printer interface or tap `Cancel` to stay on the WiFi page.
 
-        <img src=img/PandaJetpackV2/en/wifi_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/en/wifi_ok.webp width="300"/>
 
 <a id="printer-bind"></a>
 
@@ -254,7 +254,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 ### Printer Binding Page
 
-<img src=img/PandaJetpackV2/en/printer.png width="300"/>
+<img src=img/PandaJetpackV2/en/printer.webp width="300"/>
 
 - ① Printer Page Selection: When you tap the icon, it will turn red to indicate that you are on the Printer page.
 
@@ -274,25 +274,25 @@ The WiFi connection is complete. Below are the elements and functions of each pa
  
     - Tap `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
-        <img src=img/PandaJetpackV2/en/printer_scan_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/en/printer_scan_ok.webp width="300"/>
 
     - Select the printer from the list. The printer's SN code and IP address will automatically fill in.
 
-        <img src=img/PandaJetpackV2/en/printer_list.png width="300"/>
+        <img src=img/PandaJetpackV2/en/printer_list.webp width="300"/>
 
     - Enter the printer's `Access Code`: Find the access code in the printer's settings, enter it in the box, and tap `Bind` to successfully bind the printer.
 
-        <img src=img/PandaJetpackV2/en/p1_1_2_3.png width="600"/>
+        <img src=img/PandaJetpackV2/en/p1_1_2_3.webp width="600"/>
 
-        <img src=img/PandaJetpackV2/en/p1_4_5.png width="600"/>
+        <img src=img/PandaJetpackV2/en/p1_4_5.webp width="600"/>
 
-        <img src=img/PandaJetpackV2/en/printer_bind.png width="300"/>
+        <img src=img/PandaJetpackV2/en/printer_bind.webp width="300"/>
 
-        <img src=img/PandaJetpackV2/en/bind_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/en/bind_ok.webp width="300"/>
 
 ### WiFi Page
 
-<img src=img/PandaJetpackV2/en/wifi_ip.png width="300"/>
+<img src=img/PandaJetpackV2/en/wifi_ip.webp width="300"/>
 
 - ① WiFi Page Selection: When you tap the icon, it will turn red to indicate that you are on the WiFi page.
 
@@ -310,7 +310,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 ### AP Page
 
-<img src=img/PandaJetpackV2/en/wifi_ap.png width="300"/>
+<img src=img/PandaJetpackV2/en/wifi_ap.webp width="300"/>
 
 - ① AP Page Selection: When you tap the icon, it will turn red to indicate that you are on the AP page.
 
@@ -326,7 +326,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 ### Settings Page
 
-<img src=img/PandaJetpackV2/en/settings.png width="300"/>
+<img src=img/PandaJetpackV2/en/settings.webp width="300"/>
 
 - ① Settings Page Selection: When you tap the icon, it will turn red to indicate that you are on the Settings page.
 
@@ -338,19 +338,19 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
     - Tap the 'Select .bin File' button to choose the bin file that requires OTA.
 
-        <img src=img/PandaJetpackV2/ota_bin.png width="300"/>
+        <img src=img/PandaJetpackV2/ota_bin.webp width="300"/>
 
     - Wait for the progress to complete. The device will automatically restart once the update is finished.
 
-        <img src=img/PandaJetpackV2/en/ota_progress.png width="300"/>
+        <img src=img/PandaJetpackV2/en/ota_progress.webp width="300"/>
 
-        <img src=img/PandaJetpackV2/en/ota_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/en/ota_ok.webp width="300"/>
 
 - ⑤ Tap to Confirm [Restore Factory Settings](#first-connection)
 
 ### Control Page
 
-<img src=img/PandaJetpackV2/en/panel.png width="300"/>
+<img src=img/PandaJetpackV2/en/panel.webp width="300"/>
 
 - ① Control Page Selection: When you tap the icon, it will turn red to indicate that you are on the Control page.
 
@@ -372,43 +372,43 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 - Light Effect
 
-    <img src=img/PandaJetpackV2/en/mode.png width="300"/>
+    <img src=img/PandaJetpackV2/en/mode.webp width="300"/>
 
     - ①-⑦ After selection, the corresponding lighting effect will be displayed immediately.
 
     - ⑧ The light color can change based on the printer’s temperature. Additionally, you can choose between two lighting effects—Static or Strobing—under Safety Effect and Danger Effect.
 
-        <img src=img/PandaJetpackV2/en/warning_mode.png width="300"/>
+        <img src=img/PandaJetpackV2/en/warning_mode.webp width="300"/>
 
     - ⑨ After selection, the light color can be adjusted based on the fan.
 
-        <img src=img/PandaJetpackV2/en/fan.png width="300"/>
+        <img src=img/PandaJetpackV2/en/fan.webp width="300"/>
 
     - ⑩ After selection, the color of the light can be adjusted according to the printer. You can choose between the Static or Rainbow lighting effects in the printing.
 
-        <img src=img/PandaJetpackV2/en/h2d_mode.png width="300"/>
+        <img src=img/PandaJetpackV2/en/h2d_mode.webp width="300"/>
 
 - Customizing Light Color (using Static mode as an example):
 
     - Tap on the color setting box, and you will be directed to the color selection page.
 
-        <img src=img/PandaJetpackV2/en/static_mode.png width="300"/>
+        <img src=img/PandaJetpackV2/en/static_mode.webp width="300"/>
 
     - Choose the desired color.
 
-        <img src=img/PandaJetpackV2/en/color_preset.png width="300"/>
+        <img src=img/PandaJetpackV2/en/color_preset.webp width="300"/>
 
         - ① Factory default preset color.
 
         - ② Custom color. 
 
-            <img src=img/PandaJetpackV2/en/picker.png width="300"/>
+            <img src=img/PandaJetpackV2/en/picker.webp width="300"/>
 
     - After selecting a color block, tap `Confirm`. If you tap on the color block in "Color Definition," you can set it to your preferred color.
 
-        <img src=img/PandaJetpackV2/en/confirm.png width="300"/>
+        <img src=img/PandaJetpackV2/en/confirm.webp width="300"/>
 
-        <img src=img/PandaJetpackV2/en/custom_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/en/custom_ok.webp width="300"/>
 
 ## Firmware History
 

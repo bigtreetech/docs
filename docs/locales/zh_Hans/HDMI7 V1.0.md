@@ -5,7 +5,7 @@
 
     [HDMI7 V1.0 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/HDMI7-v1-display/)
 
-<img src=img/HDMI7/HDMI7_Title.png width="600"/>
+<img src=img/HDMI7/HDMI7_Title.webp width="600"/>
 
 ## **介绍**
 
@@ -32,13 +32,13 @@
 
 ## **尺寸**
 
-<img src=img/HDMI7/HDMI7_Dimension.png width="600"/>
+<img src=img/HDMI7/HDMI7_Dimension.webp width="600"/>
 
 您可以在此处阅读更多详细信息：**BTT HDMI7_1.0_SIZE**
 
 ## **接口示意图**
 
-<img src=img/HDMI7/HDMI7_Interface.png width="600"/>
+<img src=img/HDMI7/HDMI7_Interface.webp width="600"/>
 
 ## **硬件配置**
 
@@ -52,19 +52,19 @@
 
 将3.5毫米耳机/扬声器插入AUDIO接口，实现音频输出。
 
-<img src=img/HDMI7/HDMI7_Audio.png width="600"/>
+<img src=img/HDMI7/HDMI7_Audio.webp width="600"/>
 
 ### **屏幕亮度调整**
 
 <p>BIGTREETECH HDMI7 V1.0支持亮度调节，可以通过Ks1按钮增加亮度，通过Ks3按钮降低亮度。<br></p>
 
-<img src=img/HDMI7/HDMI7_Brightness.png width="600"/>
+<img src=img/HDMI7/HDMI7_Brightness.webp width="600"/>
 
 ### **显示方向调整**
 
 BIGTREETECH HDMI7 V1.0支持通过Ks2按钮进行水平显示方向调整。
 
-<img src=img/HDMI7/HDMI7_Direction.png width="600"/>
+<img src=img/HDMI7/HDMI7_Direction.webp width="600"/>
 
 ### **指示灯**
 
@@ -124,7 +124,7 @@ hdmi_drive=1
 
 2.进入系统桌面后，右键单击右上角的音频源图标，然后选择HDMI。
 
-<img src=img/HDMI7/HDMI7_Desktop.png width="600"/>
+<img src=img/HDMI7/HDMI7_Desktop.webp width="600"/>
 
 ## 产品购买链接
 

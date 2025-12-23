@@ -28,12 +28,12 @@ sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boo
 
 ​注意：如果使用网络电缆连接，则可以跳过此步骤。CB1无法像CM4那样直接使用树莓派成像仪设置WiFi名称和密码。操作系统映像写入完成后，MicroSD卡将具有计算机识别的FAT32分区，找到“system.cfg”
 
-<img src=img/M4P/M4P_WIFI1.png width="600"/>
+<img src=img/M4P/M4P_WIFI1.webp width="600"/>
 
 
 用记事本打开它，将WIFI-SSID替换为您的WIFI名称，将PASSWORD替换为密码。
 
-<img src=img/wifi.png width="600" />
+<img src=img/wifi.webp width="600" />
 
 ## **· 配置主板**
 
@@ -47,16 +47,16 @@ sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-disp1-cam1.bin -O /boo
 
 4. 在路由器页面中查找设备IP地址
 
-<img src=img/Router.png width="600" />
+<img src=img/Router.webp width="600" />
 
 5. 或者使用https://angryip.org/工具，扫描当前网络中的所有IP地址，按名称组织，找到名为Fluidd、Mailsail（CM4）或Hurakan（CB1）的IP，如下所示
 
 
-<img src=img/AngryIP.png width="600" />
+<img src=img/AngryIP.webp width="600" />
 
 6. 打开Moaxterm，点击“会话”，点击“SSH”，将设备IP插入远程主机，点击“确定”（注意：您的计算机和设备需要在同一网络中）
 
-<img src=img/MobaXterm_Login.png width="600" />
+<img src=img/MobaXterm_Login.webp width="600" />
 
 7. 输入登录名和密码进入SSH终端界面
 CM4:
@@ -66,7 +66,7 @@ CB1:
  login as: biqu
  password: biqu
 
-<img src=img/SSH_Terminal.png width="600" />
+<img src=img/SSH_Terminal.webp width="600" />
 
 ### **· 编译固件**
 
@@ -89,7 +89,7 @@ CB1:
 * Clock Reference (8 MHz crystal) ---> 
 * Communication interface (USB (on PA11/PA12)) --->
 
-<img src=img/M4P/M4P_Make.png width="600" />
+<img src=img/M4P/M4P_Make.webp width="600" />
 
 3. 运行**make**编译固件，当make完成时，“klipper.bin”文件将在**home/pi/kliper/out**文件夹中生成，并使用ssh应用程序将其下载到您的计算机上。
 
@@ -105,7 +105,7 @@ CB1:
 ls /dev/serial/by-id/
 ```
 
-<img src=img/M4P/M4P_Update_Using_SD.png width="600" />
+<img src=img/M4P/M4P_Update_Using_SD.webp width="600" />
 
 #### **· 使用DFU更新**
 
@@ -117,7 +117,7 @@ make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32g0b1xx_190028000D504
 
 ​	更新固件 **(NOTE: Replace /dev/serial/by-id/xxx with the actual ID found in the previous step)**
 
-<img src=img/M4P/M4P_DFU.png width="600" />
+<img src=img/M4P/M4P_DFU.webp width="600" />
 
 ​	更新后将出现一条错误消息“dfu util:error during download get_status”。忽略它。
 
@@ -125,14 +125,14 @@ make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32g0b1xx_190028000D504
 
 1. 在浏览器中输入您的设备IP地址以打开webUI，在下面显示的目录中找到主板的参考配置，如果没有这样的配置，请将您的klipper源代码更新到最新版本或从github下载：https://github.com/bigtreetech/Manta-M4P
 
-<img src=img/M4P/M4P_Conf_Klipper1.png width="600" />
+<img src=img/M4P/M4P_Conf_Klipper1.webp width="600" />
 
 2. 将完成的配置文件上载到配置文件中，并重命名为“printer.cfg”
 
-<img src=img/M4P/M4P_Conf_Klipper2.png width="600" />
+<img src=img/M4P/M4P_Conf_Klipper2.webp width="600" />
 
 3. 插入正确的主板ID
 
-<img src=img/M4P/M4P_Conf_Klipper3.png width="600" />
+<img src=img/M4P/M4P_Conf_Klipper3.webp width="600" />
 
 ​	提到https://www.klipper3d.org/Overview.html根据您的机器类型获取详细的配置指南。

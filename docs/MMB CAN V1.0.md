@@ -1,6 +1,6 @@
 # MMB CAN V1.0
 
-<img src=img/MMB_CAN/MMB_CAN_Title.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -40,13 +40,13 @@ Currently, MMB CAN V1.0 only supports Klipper firmware.
 
 ## **Dimensions**
 
-<img src=img/MMB_CAN/MMB_CAN_Dimension.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Dimension.webp width="600" />
 
 ## **Peripheral Interface**
 
 ### Pin Description
 
-<img src=img/MMB_CAN/MMB_CAN_Pin.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Pin.webp width="600" />
 
 ## **Interface Introduction**
 
@@ -54,27 +54,27 @@ Currently, MMB CAN V1.0 only supports Klipper firmware.
 
 After the board is powered on, the power indicator light will turn on, indicating that the power supply is normal. The VUSB label on the board is the power selection terminal, and a jumper is needed to short VUSB only when using USB to power the board.
 
-<img src=img/MMB_CAN/MMB_CAN_USB.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_USB.webp width="600" />
 
 ### Servo Wiring
 
-<img src=img/MMB_CAN/MMB_CAN_Servo.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Servo.webp width="600" />
 
 ### RGB-WS2812 Wiring
 
-<img src=img/MMB_CAN/MMB_CAN_WS2812.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_WS2812.webp width="600" />
 
 ###  Sensor (e.g., CRT5000 infrared sensor) Wiring
 
-<img src=img/MMB_CAN/MMB_CAN_Sensor.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Sensor.webp width="600" />
 
 ### I2C (e.g., AHT10 temperature and humidity sensor) Wiring
 
-<img src=img/MMB_CAN/MMB_CAN_I2C.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_I2C.webp width="600" />
 
 ### Endstop (e.g., Hall sensor) Wiring
 
-<img src=img/MMB_CAN/MMB_CAN_Endstop.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Endstop.webp width="600" />
 
 ## **Klipper Firmware**
 
@@ -104,17 +104,17 @@ To flash CanBoot on Raspberry Pi or CB1, follow the instructions at https://gith
 
    configure as shown in the provided image:
 
-   <img src=img/MMB_CAN/MMB_CAN_Klipper1.png width="600" />
+   <img src=img/MMB_CAN/MMB_CAN_Klipper1.webp width="600" />
 
 ​	3.Enter **make** to compile the firmware. The resulting **canboot.bin** file will be in the **home/biqu/CanBoot/out** folder. This can be directly downloaded to your computer from the SSH software's left panel.
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper2.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper2.webp width="600" />
 
 ​	4.Hold the **Boot** button and connect the board to Raspberry Pi/CB1 via Type-C cable to enter DFU mode.
 
 ​	5.Enter **lsusb** in the SSH terminal to query the DFU device ID.
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper3.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper3.webp width="600" />
 
 ​	6.Enter the following command to flash CanBoot
 
@@ -138,7 +138,7 @@ To flash CanBoot on Raspberry Pi or CB1, follow the instructions at https://gith
 
 ​		firmware to the latest version if options are not available).
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper4.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper4.webp width="600" />
 
 **[\*] Enable extra low-level configuration options**
 
@@ -168,7 +168,7 @@ If CAN-Bus communication is used
 
 3.Enter **make** to compile the firmware. The resulting **klipper.bin** file will be in the **home/pi/klipper/out** folder. This can be directly downloaded to your computer from the SSH software's left panel.
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper5.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper5.webp width="600" />
 
 ### Firmware Update via CANBOOT
 
@@ -184,7 +184,7 @@ If CAN-Bus communication is used
 
 ​	query the canbus ID (make sure the CAN cable is connected and powered on) as shown in the figure below, the UUID of the device has been found:
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper6.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper6.webp width="600" />
 
 ​	3.Enter
 
@@ -192,7 +192,7 @@ If CAN-Bus communication is used
 
 ​	The **be69315a613c** is replaced with the actual UUID. Note: **klipper.bin**needs to be generated in advance using the **make** command, and the **application start offset** of CanBoot is **8KiB offset**, so **Klipper's** **menuconfig Bootloader offset** should also be **8KiB bootloader**, as shown in the 	following figure.
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper7.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper7.webp width="600" />
 
 ​	4.Query again with
 
@@ -200,7 +200,7 @@ If CAN-Bus communication is used
 
 ​	The Application should now show Klipper, indicating it is running correctly.
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper8.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper8.webp width="600" />
 
 ### Firmware Update via DFU
 
@@ -210,7 +210,7 @@ Raspberry Pi or CB1 update via DFU.
 
 2、Enter **lsusb** in the SSH terminal to query the DFU device ID.
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper9.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper9.webp width="600" />
 
 3、Enter
 
@@ -242,7 +242,7 @@ subsequent updates. Enter the following command to flash the firmware
 
 Use with BIGTREETECH U2C module.
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper10.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper10.webp width="600" />
 
 1、Enter the following command in the SSH terminal:
 
@@ -276,11 +276,11 @@ Set the CAN bus speed to **1M** (must match the firmware setting of 1000000 CAN 
 
 https://github.com/bigtreetech/MMB
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper11.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper11.webp width="600" />
 
 2、Upload the configuration file to Configuration Files.
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper12.png width="600" />
+<img src=img/MMB_CAN/MMB_CAN_Klipper12.webp width="600" />
 
 3、Add the board configuration to the "printer.cfg" file:**[include sample-bigtreetech-mmb-canbus.cfg]**
 

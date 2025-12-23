@@ -71,7 +71,7 @@ Download the required case files for your printer model [from the GitHub reposit
 
     *Option 1:* Attach directly to the A1 Z-axis using the printed thumb screw. 
 
-    <img src=img/PandaHubPlus/en/a12.png width="600"/>
+    <img src=img/PandaHubPlus/en/a12.webp width="600"/>
 
     *Option 2:* Use **two KM3×20 machine screws** to secure it to the A1 Z-axis.
 

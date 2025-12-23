@@ -1,6 +1,6 @@
 # Panda Purge Shield
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_title.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_title.webp width="600"/>
 
 **Product Link:** [Buy Here](https://biqu.equipment/products/biqu-purging-reliability-improvement-upgrades-multi-material-printing-enhancement-kit-for-bambu-lab-p1-x1-3d-printers?srsltid=AfmBOorvQcaYL_S1yAT664B53W7NNYe1z0XoU2Zak0eI_-0d9kNR_pR0)
 
@@ -34,19 +34,19 @@ Adds a premium, high-tech aesthetic to your printer while maintaining functional
 
 Remove the old pad from the front of the waste chute.
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_in1.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_in1.webp width="600"/>
 
 Degrease the chute (an alcohol wipe works well).
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_in2.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_in2.webp width="600"/>
 
 Peel off the adhesive backing and align the Panda Purge Shield to the chute front, pressing firmly into place.
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_in3.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_in3.webp width="600"/>
 
 Apply metallic sticker, peel off the transfer film, enjoy.
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_in4.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_in4.webp width="600"/>
 
 
 **If you have any issues with the product, please submit a support ticket.**  

@@ -36,7 +36,7 @@ make menuconfig
 
  **(1000000) CAN bus speed**
 
-<img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_Make.webp width="600"/>
 
 <font  color="red">***注意: EBB36/EBB42 VersionV1.1***</font>
 
@@ -60,7 +60,7 @@ make menuconfig
 
  **(1000000) CAN bus speed**
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.webp width="600"/>
 
 <font  color="red">***注意：仅在https://github.com/Klipper3d/klipper/pull/5488被合并到Klipper的主要分支，官方固件将支持STM32G0B1的CAN总线功能。如果您使用CANBus通信，您可以使用我们在GitHub上编译的firmware_CANBus.bin，也可以使用我们的源代码自己编译：https://github.com/bigtreetech/klipper/tree/stm32g0b1-canbus*** </font>
 
@@ -68,7 +68,7 @@ make menuconfig
 
 3.输入**make**以编译固件。我们需要的“klipper.bin”固件将在Raspberry pi的**home/pi/klipper/out**文件夹中生成。固件位于SSH软件的左侧，用户可以直接将其下载到计算机上。
 
-<img src=img/EBB36CAN/072/EBB_072_Bin.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_Bin.webp width="600"/>
 
 ##  **更新固件**
 
@@ -80,23 +80,23 @@ make menuconfig
 
 <font  color="red">**版本:EBB36 V1.0**</font>
 
-  <img src=img/EBB36CAN/072/EBB_072_Update1.png width="600"/>  
+  <img src=img/EBB36CAN/072/EBB_072_Update1.webp width="600"/>  
 
 <font  color="red">**版本:EBB42 V1.0**</font>
 
-  <img src=img/EBB42CAN/072/EBB42_072_Update1.png width="600"/>  
+  <img src=img/EBB42CAN/072/EBB42_072_Update1.webp width="600"/>  
 
 2.在ssh终端命令行中键入“lsusb”以查询DFU设备的ID。
 
-  <img src=img/EBB36CAN/072/EBB_072_Update2.png width="600"/>
+  <img src=img/EBB36CAN/072/EBB_072_Update2.webp width="600"/>
 
 3.键入“make flash flash_DEVICE=0483:df11”以下载固件（注意：将0483:df11替换为上一步骤中查询的DFU设备的实际ID）。
 
-  <img src=img/EBB36CAN/072/EBB_072_Update3.png width="600"/>
+  <img src=img/EBB36CAN/072/EBB_072_Update3.webp width="600"/>
 
 4.键入“ls/dev/serial/by-id/”以在下载完固件后查询设备的串行id（串行id仅在通过USB通信时存在。通过CAN总线通信时忽略此步骤）。
 
-<img src=img/EBB36CAN/072/EBB_072_Update4.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_Update4.webp width="600"/>
 
 5.第一次下载固件后，再次更新固件时无需再次按下引导和重置按钮即可进入DFU模式。用户可以键入
 
@@ -104,7 +104,7 @@ make menuconfig
 
 下载固件（注意：将“/dev/serial/by-id/xxx”替换为上一步骤中查询的实际id）
 
-<img src=img/EBB36CAN/072/EBB_072_Update5.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_Update5.webp width="600"/>
 
 ### <font  color="red">***注意: EBB36/EBB42 VersionV1.1***</font>
 
@@ -112,7 +112,7 @@ make menuconfig
 
 (https://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf), 该引导加载程序的初始化过程如下图所示：
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update1.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update1.webp width="600"/>
 
 USART的IO将在进入USB DFU模式之前进行配置。
 
@@ -120,7 +120,7 @@ USART的IO将在进入USB DFU模式之前进行配置。
 
 (https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf)
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update2.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update2.webp width="600"/>
 
 **PA2**用于**EBB36 CAN V1.1**和**EBB42 CAN V1.1***中的hotend MOSFET，DFU模式中的高电平将hotend更改为加热状态。因此，在使用Type-C端口的DFU更新固件时，请注意断开hotend的主电源VIN，或者确保固件更新很快完成并进入正常工作模式。当<font color=“red”>***主电源和hotend连接***时，切勿将***MCU长时间保持在DFU模式***</font>。
 
@@ -128,31 +128,31 @@ USART的IO将在进入USB DFU模式之前进行配置。
 
 1.打开已安装的STM32CubeProgrammer，选择要下载的固件（klipper.bin）。
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update3.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update3.webp width="600"/>
 
 2.按住Boot（引导）按钮，然后单击RST（重新设置）按钮进入DFU模式。
 
 <font  color="red">**Verison:EBB36 V1.1**</font>
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update4.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update4.webp width="600"/>
 
 <font  color="red">**Verison:EBB42 V1.1**</font>
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Update1.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Update1.webp width="600"/>
 
 3.单击STM32CubeProgram中的“刷新”按钮，直到端口从“无DFU d…”变为“USB1”，然后单击“连接”连接芯片。
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update5.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update5.webp width="600"/>
 
 4.连接成功后，“连接”将变为“断开连接”，然后单击“下载”，下载完成后，将出现“文件下载完成”的弹出窗口，表示刻录成功。
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update6.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Update6.webp width="600"/>
 
 ## **CANBus 配置**
 
 ### **与BIGTREETECH U2C模块一起使用**
 
-<img src=img/EBB36CAN/072/EBB_072_CANBus1.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_CANBus1.webp width="600"/>
 
 1.在ssh终端中键入以下命令“sudo nano/etc/network/interfaces.d/can0”并执行
 
@@ -178,7 +178,7 @@ USART的IO将在进入USB DFU模式之前进行配置。
 
 ### **与BIGTREETECH RPI-CAN HAT模块一起使用**
 
-<img src=img/EBB36CAN/072/EBB_CANBus2.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_CANBus2.webp width="600"/>
 
 1.键入并运行以下命令“sudo nano/boot/config.txt”，并在文件config.txt中添加以下内容。
 
@@ -198,7 +198,7 @@ USART的IO将在进入USB DFU模式之前进行配置。
 
  `[ 9.482332] IPv6: ADDRCONF(NETDEV_CHANGE): can0: link becomes ready`
 
-<img src=img/EBB36CAN/072/EBB_CANBus3.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_CANBus3.webp width="600"/>
 
 3.在ssh终端上键入“sudo nano/etc/network/interfaces.d/can0”，然后运行该命令。
 
@@ -228,21 +228,21 @@ USART的IO将在进入USB DFU模式之前进行配置。
 
 1.在电脑浏览器中输入Raspberry Pi的IP访问权限，并从文件路径下载主板的参考配置，如下图所示。如果找不到此文件，请将Klipper固件源代码更新到最新版本，或从GitHub下载：https://github.com/bigtreetech/EBB
 
-<img src=img/EBB36CAN/072/EBB_072_klipper1.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_klipper1.webp width="600"/>
 
 2.将主板的配置文件上传到配置文件。
 
-<img src=img/EBB36CAN/072/EBB_072_klipper2.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_klipper2.webp width="600"/>
 
 3.将主板的配置添加到文件“printer.cfg”中。
 
  `[include sample-bigtreetech-ebb-canbus-v1.1.cfg]`
 
-<img src=img/EBB36CAN/072/EBB_072_klipper3.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_klipper3.webp width="600"/>
 
 4.将配置文件的ID号修改为主板的实际ID（USB串行或CANBus）。
 
-<img src=img/EBB36CAN/072/EBB_072_klipper4.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_klipper4.webp width="600"/>
 
 5.按照以下说明配置模块的特定功能：https://www.klipper3d.org/Overview.html
 

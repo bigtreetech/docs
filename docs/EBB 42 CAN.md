@@ -1,8 +1,8 @@
 # EBB 42 CAN
 
 <figure class="half">
-  <img src=img/EBB42CAN/072/EBB42_072_Title.png width="550"/>  
-  <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Title.png width="550"/>  
+  <img src=img/EBB42CAN/072/EBB42_072_Title.webp width="550"/>  
+  <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Title.webp width="550"/>  
 </figure> 
 
 ## **Product Profile**
@@ -51,19 +51,19 @@ BIGTREETECH EBB42 CAN V1.0/V1.1 is a nozzle adapter board specially designed for
 ## **Dimensions**
 
 === "EBB 42 V1.1 / V1.2"
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Diagram.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Diagram.webp width="450"/>
 
 === "EBB 42 V1.0"
-    <img src=img/EBB42CAN/072/EBB42_072_Diagram.png width="450"/>  
+    <img src=img/EBB42CAN/072/EBB42_072_Diagram.webp width="450"/>  
 
 ## **Pinout**
 
 
 === "EBB 42 V1.1 / V1.2"
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Pin.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Pin.webp width="450"/>
 
 === "EBB 42 V1.0"
-    <img src=img/EBB42CAN/072/EBB42_072_Pin.png width="450"/>
+    <img src=img/EBB42CAN/072/EBB42_072_Pin.webp width="450"/>
 
 ## **Hardware Configuration**
 
@@ -72,12 +72,12 @@ BIGTREETECH EBB42 CAN V1.0/V1.1 is a nozzle adapter board specially designed for
 === "EBB 42 V1.1 / V1.2"
     After the motherboard is powered on, the yellow-green LED1 lights will light up, indicating a normal power supply. The VUSB in the middle of the board is the power selection part. Only when using USB to supply power to the motherboard or need to supply power through USB, do you need to use the jumper cap to connect VUSB.
 
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_USBP.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_USBP.webp width="450"/>
 
 === "EBB 42 V1.0"
     D1 RGB light will be on when the control board is powers on, which shows supplying normal power. VUSB in the middle of the board is the selection terminal for power. Only when USB supplies power to the board, or the board supplies power through USB, users need to short circuit the VUSB by jump cap.
 
-    <img src=img/EBB42CAN/072/EBB42_072_USBP.png width="450"/>
+    <img src=img/EBB42CAN/072/EBB42_072_USBP.webp width="450"/>
 
 ## **Hardware Installation**
 
@@ -90,10 +90,10 @@ Version without 31865: No need to plug a jumper cap when using a 100K NTC thermi
 
 
 === "EBB 42 V1.1 / V1.2"
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_PT100.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_PT100.webp width="450"/>
 
 === "EBB 42 V1.0"
-    <img src=img/EBB42CAN/072/EBB42_072_PT100.png width="450"/>
+    <img src=img/EBB42CAN/072/EBB42_072_PT100.webp width="450"/>
 
 !!! info 
     Version with 31865: Select PT100/PT1000 by DIP switch, 2 wire or 4 wire:
@@ -106,38 +106,38 @@ Version without 31865: No need to plug a jumper cap when using a 100K NTC thermi
     | OFF | OFF | OFF | ON  | 4 wire PT1000 |
 
 === "EBB 42 V1.1 / V1.2"
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_TwoW.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_TwoW.webp width="450"/>
 
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_FourW.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_FourW.webp width="450"/>
 
 === "EBB 42 V1.0"
-    <img src=img/EBB42CAN/072/EBB42_072_TwoW.png width="450"/>
+    <img src=img/EBB42CAN/072/EBB42_072_TwoW.webp width="450"/>
 
-    <img src=img/EBB42CAN/072/EBB42_072_FourW.png width="450"/>
+    <img src=img/EBB42CAN/072/EBB42_072_FourW.webp width="450"/>
 
 ### **BL-Touch**
 
 === "EBB 42 V1.1 / V1.2"
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_BLTouch.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_BLTouch.webp width="450"/>
 
 === "EBB 42 V1.0"
-    <img src=img/EBB42CAN/072/EBB42_072_BLTouch.png width="450"/>
+    <img src=img/EBB42CAN/072/EBB42_072_BLTouch.webp width="450"/>
 
 ### **Filament Broke Detection**
 
 === "EBB 42 V1.1 / V1.2"
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Broke.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Broke.webp width="450"/>
 
 === "EBB 42 V1.0"
-    <img src=img/EBB42CAN/072/EBB42_072_Broke.png width="450"/>
+    <img src=img/EBB42CAN/072/EBB42_072_Broke.webp width="450"/>
 
 ###  **RGB**
 
 === "EBB 42 V1.1 / V1.2"
-    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_RGB.png width="450"/>
+    <img src=img/EBB42CAN/G0B1/EBB42_G0B1_RGB.webp width="450"/>
 
 === "EBB 42 V1.0"
-    <img src=img/EBB42CAN/072/EBB42_072_RGB.png width="450"/>
+    <img src=img/EBB42CAN/072/EBB42_072_RGB.webp width="450"/>
 
 ## **Software Configuration**
 

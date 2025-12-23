@@ -1,6 +1,6 @@
 # Panda Purge Shield
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_title.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_title.webp width="600"/>
 
 **产品链接:** 
 https://biqu.equipment/products/biqu-purging-reliability-improvement-upgrades-multi-material-printing-enhancement-kit-for-bambu-lab-p1-x1-3d-printers?srsltid=AfmBOorvQcaYL_S1yAT664B53W7NNYe1z0XoU2Zak0eI_-0d9kNR_pR0
@@ -32,19 +32,19 @@ Panda Purge Shield专为防止废料熔融后粘附槽口而设计，有效提�
 
 移除废料槽内的小铁片。
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_in1.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_in1.webp width="600"/>
 
 清洁槽口前端区域（建议使用酒精湿巾）。
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_in2.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_in2.webp width="600"/>
 
 撕下Panda Pure Shield背胶，对准废料槽贴上并按压固定。
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_in3.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_in3.webp width="600"/>
 
 将金属贴纸粘贴于废料槽外侧，揭掉转移膜，完成安装。
 
-<img src=img/Panda_Purge_Shield/panda_purge_shield_in4.png width="600"/>
+<img src=img/Panda_Purge_Shield/panda_purge_shield_in4.webp width="600"/>
 
 **购买链接:**
 

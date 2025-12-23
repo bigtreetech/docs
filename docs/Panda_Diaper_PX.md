@@ -45,7 +45,7 @@ The Panda Diaper PX is a debris collection system specifically designed for user
 
 * Step 1: Remove the cover at one end of the package and take the product out of the bag.
 
-    <img src=img/PandaDiaperPX/5.png width="600"/>
+    <img src=img/PandaDiaperPX/5.webp width="600"/>
 
 * Step 2: Lay the Diaper flat on the bottom of the PX printer and press the four corners and openings to the bottom, as shown in the figure
     <img src=img/PandaDiaperPX/6.jpg width="600"/>

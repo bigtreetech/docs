@@ -1,6 +1,6 @@
 # Panda Under Armor PX
 
-<img src=img/Panda_Under_Armor/panda_under_armor_title.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_title.webp width="600" />
 
 产品链接: https://bit.ly/4kY2Ulr
 
@@ -42,25 +42,25 @@ BIQU Panda Under Armor PX 专为 P1/X1 系列 3D 打印机设计，提供底部�
 
 <font  color="red">**请勿拧得过紧，因为这些螺丝后续还需要移除。**</font> 
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation1.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation1.webp width="600" />
 
 3、为了方便安装，将打印机侧放于桌面上，使打印机背面朝左、舱门朝右。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation2.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation2.webp width="600" />
 
 ## **安装步骤：**
 
 1、使用H2.0螺丝刀，将已装好螺丝的螺柱拧入打印机底部的三个螺纹孔中（如图所示）。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation3.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation3.webp width="600" />
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation4.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation4.webp width="600" />
 
 2、将刚刚拧入螺柱中的螺丝移除，让螺柱保留在安装孔内。而螺丝将在后续步骤中用于固定Panda Under Armor PX。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation5.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation5.webp width="600" />
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation6.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation6.webp width="600" />
 
 **下面分为两种安装方式：**
 
@@ -71,11 +71,11 @@ BIQU Panda Under Armor PX 专为 P1/X1 系列 3D 打印机设计，提供底部�
 
 1、将Panda Under Armor PX对准打印机底部相应的槽位。轻轻按下Panda Under Armor PX，确保它与打印机底部完全贴合。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation7.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation7.webp width="600" />
 
 2、将之前从螺柱中移除的螺丝重新拧回螺柱，以牢固地固定住Panda Under Armor PX。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation8.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation8.webp width="600" />
 
 3、至此，Panda Under Armor PX 的安装已完成。
 
@@ -83,27 +83,27 @@ BIQU Panda Under Armor PX 专为 P1/X1 系列 3D 打印机设计，提供底部�
 
 1、使用轮组套件附带的16颗螺丝，将四个万向轮固定在 Panda Under Armor PX 上。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation9.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation9.webp width="600" />
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation10.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation10.webp width="600" />
 
 2、移除打印机原有的脚垫。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation11.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation11.webp width="600" />
 
 3、将已安装好万向轮的Panda Under Armor PX对准打印机底部相应的槽位。轻轻按下Panda Under Armor PX，确保它与打印机底部完全贴合。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation12.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation12.webp width="600" />
 
 4、将之前从螺柱中移除的螺丝重新拧入螺柱，以牢固地固定住Panda Under Armor PX。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation13.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation13.webp width="600" />
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation14.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation14.webp width="600" />
 
 5、至此，带有轮组套件的Panda Under Armor PX 已成功安装。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation15.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation15.webp width="600" />
 
 **如何放下减震脚垫，使机器稳固放置不移动：**
 
@@ -115,7 +115,7 @@ BIQU Panda Under Armor PX 专为 P1/X1 系列 3D 打印机设计，提供底部�
 
 - 顺畅移动打印机： 沿工具上圆形图标方向拉动调节轮，使脚垫升起，便于平稳移动打印机。
 
-<img src=img/Panda_Under_Armor/panda_under_armor_installation16.png width="600" />
+<img src=img/Panda_Under_Armor/panda_under_armor_installation16.webp width="600" />
 
 ## 相关链接
 

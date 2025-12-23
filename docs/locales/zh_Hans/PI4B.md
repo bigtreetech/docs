@@ -1,6 +1,6 @@
 # PI4B
 
-<img src=img/PI4B/PI4B_Title.png width="600"/>
+<img src=img/PI4B/PI4B_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -27,11 +27,11 @@ BIGTREETECH PI4B适配器V1.0是必趣创新科技（深圳）有限公司推出
 
 ## **尺寸**
 
-<img src=img/PI4B/PI4B_Dimension.png width="600"/>
+<img src=img/PI4B/PI4B_Dimension.webp width="600"/>
 
 ## **接口示意图**
 
-<img src=img/PI4B/PI4B_Interface.png width="600"/>
+<img src=img/PI4B/PI4B_Interface.webp width="600"/>
 
 <font  color="red">***警告：Type-C的电压为5V，不允许使用12/24V，否则会造成不可逆的损坏。***</font>
 
@@ -41,7 +41,7 @@ BIGTREETECH PI4B适配器V1.0是必趣创新科技（深圳）有限公司推出
 
 板载2个指示灯。通电时，当Raspberry Pi电源成功启动时，PWR（红色）灯将亮起，当系统运行时，ACT（绿色）灯将闪烁。
 
-<img src=img/PI4B/PI4B_Light.png width="600"/>
+<img src=img/PI4B/PI4B_Light.webp width="600"/>
 
 ## **硬件安装**
 
@@ -49,7 +49,7 @@ BIGTREETECH PI4B适配器V1.0是必趣创新科技（深圳）有限公司推出
 
 CM4到BIGTREETECH PI4B适配器V1.0的安装方向如下：
 
-<img src=img/PI4B/PI4B_CM4.png width="600"/>
+<img src=img/PI4B/PI4B_CM4.webp width="600"/>
 
 ## **软件配置**
 
@@ -79,7 +79,7 @@ https://github.com/raspberrypi/usbboot#building
 
 2.将DIP开关1（USB OTG）和2（RPI BOOT）推至ON（接通），进入BOOT（引导）模式。
 
-<img src=img/PI4B/PI4B_eMMC.png width="600"/>
+<img src=img/PI4B/PI4B_eMMC.webp width="600"/>
 
 3.将Type-C插入计算机的USB端口（为了避免计算机的USB电源不足引起的问题，最好使用带外部电源的USB集线器，或者使用外部电源通过40针插头的5V端口为CM4供电）。运行sudo/rpiboot（Mac/Linux）或Windows上的rpiboot.exe，则CM4的eMMC将被计算机识别为大容量存储设备（如果此时rpiboot报告错误，您可以尝试重新插入USB）。
 

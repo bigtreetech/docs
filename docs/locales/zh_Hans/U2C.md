@@ -1,8 +1,8 @@
 # U2C
 
-<img src=img/U2C/U2C_Title1.png width="600"/>
+<img src=img/U2C/U2C_Title1.webp width="600"/>
 
-<img src=img/U2C/U2C_Title2.png width="600"/>
+<img src=img/U2C/U2C_Title2.webp width="600"/>
 
 ## **产品简介**
 
@@ -20,17 +20,17 @@ BIGTREETECH U2C 是一款 USB 转 CAN 总线的模块，可以通过它将 Raspb
 
 ## **产品尺寸**
 
-<img src=img/U2C/U2C_Dimension.png width="600"/>
+<img src=img/U2C/U2C_Dimension.webp width="600"/>
 
 ## **接口示意图**
 
-<img src=img/U2C/U2C_CAD.png width="600"/>
+<img src=img/U2C/U2C_CAD.webp width="600"/>
 
 CAN_IN: USB 转 CAN 接口，用于连接树莓派。
 
 CAN_OUT*: 用于连接无 CAN 收发器但具备 CAN 功能的接口，比如连接主板的 USB 口，其中，主板 USB 口与主控连接的引脚要具备 CAN 功能。例如：
 
-<img src=img/U2C/U2C_CAD1.png width="600"/>
+<img src=img/U2C/U2C_CAD1.webp width="600"/>
 
 CAN_OUT: 用于连接 BIGTREETECH EBB CAN 或其他具备 CAN 收发器的板子。
 
@@ -38,25 +38,25 @@ Power: 电源.
 
 ## **引出线**
 
-<img src=img/U2C/U2C_Pinout.png width="600"/>
+<img src=img/U2C/U2C_Pinout.webp width="600"/>
 
 ## **产品展示**
 
-<img src=img/U2C/U2C_Display1.png width="600"/>
+<img src=img/U2C/U2C_Display1.webp width="600"/>
 
-<img src=img/U2C/U2C_Display2.png width="600"/>
+<img src=img/U2C/U2C_Display2.webp width="600"/>
 
-<img src=img/U2C/U2C_Display3.png width="600"/>
+<img src=img/U2C/U2C_Display3.webp width="600"/>
 
-<img src=img/U2C/U2C_Display4.png width="600"/>
+<img src=img/U2C/U2C_Display4.webp width="600"/>
 
-<img src=img/U2C/U2C_Display5.png width="600"/>
+<img src=img/U2C/U2C_Display5.webp width="600"/>
 
 ## **硬件配置**
 
 ### **可选择的接线图**
 
-<img src=img/U2C/U2C_Wiring.png width="600"/>
+<img src=img/U2C/U2C_Wiring.webp width="600"/>
 
 ## **软件配置**
 
@@ -78,7 +78,7 @@ MCU 型号为: STM32G0B1C8
 
 模块完全断电，按住 Boot 按钮，插入 Type-C 数据线给模块供电，进入 DFU 模式，使用STM32CubeProgrammer 软件更新固件
 
-<img src=img/U2C/U2C_DFU.png width="600"/>
+<img src=img/U2C/U2C_DFU.webp width="600"/>
 
 ### **Klipper 配置**
 

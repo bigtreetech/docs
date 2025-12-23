@@ -48,7 +48,7 @@ BIGTREETECH-SKR-PRO-1.2是必趣创新科技（深圳）有限公司针对市场
 
 ## **尺寸**
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Dimensions.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Dimensions.webp width="600" />
 
 ## **升级内容**
 
@@ -60,11 +60,11 @@ BIGTREETECH-SKR-PRO-1.2是必趣创新科技（深圳）有限公司针对市场
 
 ### 接口示意图
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pinout_CN.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pinout_CN.webp width="600" />
 
 ### 引脚说明
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pin.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pin.webp width="600" />
 
 ## **接口介绍**
 
@@ -72,7 +72,7 @@ BIGTREETECH-SKR-PRO-1.2是必趣创新科技（深圳）有限公司针对市场
 
 #### 电源跳线帽选择
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Power.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Power.webp width="600" />
 
 1. 如红框所示，当跳线帽连接到in和VCC时，主板选择12V/24V电源；当跳线帽连接到USB和VCC时，主板选择USB电源。
 2. 如果跳线帽已选择USB电源，则5V和3.3V指示灯也将点亮。
@@ -82,7 +82,7 @@ BIGTREETECH-SKR-PRO-1.2是必趣创新科技（深圳）有限公司针对市场
 
 1. 开关电源的三种供电方式。
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Wiring.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Wiring.webp width="600" />
 
 如上所示，主板上需要连接三组电源线，即电机电源、热床电源和主板电源，额外的一组是热床接口。
 
@@ -96,7 +96,7 @@ https://github.com/bigtreetech?tab=repositories 找到相应的主板下载驱�
 
 驱动器安装完成后，打开“设备管理器”以查看如下图所示的端口，这表明系统板已正确连接到计算机。
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_COM.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_COM.webp width="600" />
 
 ### 模式和接口的描述
 
@@ -104,13 +104,13 @@ https://github.com/bigtreetech?tab=repositories 找到相应的主板下载驱�
 
 根据所使用的驱动程序，细分表是对应的，跳线帽用于细分选择。
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_STEP.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_STEP.webp width="600" />
 
 注意：高电平连接到上面两排针，低电平连接到下面两排针。
 
 2、A4988 and 8825 驱动说明
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_A4988.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_A4988.webp width="600" />
 
 如果驱动使用A4988或8825，则有必要用跳线帽短接紫色盒子中的两个引脚（如图所示）。如果不是A4988或8825，则需要拔出接线盒中的跳线帽。
 
@@ -118,15 +118,15 @@ https://github.com/bigtreetech?tab=repositories 找到相应的主板下载驱�
 
 使用UART模式时，需要用跳线帽短接红色框中的针脚。
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART.webp width="600" />
 
 如下图所示，TMC2208 UART模式对应的引脚是红色框选择的引脚，即从上到下的第4个引脚。
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART1.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART1.webp width="600" />
 
 4、SPI 模式
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI.webp width="600" />
 
 使用SPI模式时，需要用跳线帽短接红色框中的针脚
 
@@ -136,17 +136,17 @@ https://github.com/bigtreetech?tab=repositories 找到相应的主板下载驱�
 
 <font  color="red">**注意：目前固件暂时不支持U盘功能。**</font>
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_USB.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_USB.webp width="600" />
 
 6、SPI扩展端口
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI_PORT.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI_PORT.webp width="600" />
 
 SPI扩展端口与驱动程序的SPI模式共享IO，只有在未使用SPI模式驱动程序的情况下才能使用。
 
 7、WIFI接口
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_WIFI.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_WIFI.webp width="600" />
 
 WIFI接口如上图所示。插入WIFI时，右侧紫色框所示的板边缘朝外，垂直插入。
 
@@ -154,23 +154,23 @@ WIFI接口如上图所示。插入WIFI时，右侧紫色框所示的板边缘朝
 
 如下图所示，紫色框是与失速检测相对应的失速插脚。
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_stallguard.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_stallguard.webp width="600" />
 
 以TMC2209为例。当不使用安装保护功能时，需要切断TMC2209的安装保护销，以便机械开关能够正常工作。
 
 操作方法如下所示：
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Operation.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Operation.webp width="600" />
 
 只有在不使用stallguard功能时，才需要裁剪此功能引脚。
 
 9、双Z轴连接说明
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Double.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Double.webp width="600" />
 
 10、限位开关指示灯的说明
 
-<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Description.png width="600" />
+<img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Description.webp width="600" />
 
 状态指示器是常闭限位开关指示器。
 

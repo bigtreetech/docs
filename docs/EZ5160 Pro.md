@@ -1,6 +1,6 @@
 # EZ5160 Pro
 
-<img title="" src="img/EZ5160Pro/EZ5160Pro_Title.png" alt="" width="323">
+<img title="" src="img/EZ5160Pro/EZ5160Pro_Title.webp" alt="" width="323">
 
 ## **Product Profile**
 
@@ -33,17 +33,17 @@ TMC5160 is a high-power stepper motor drive control chip, with an external MOSFE
 
 ## **Dimensions**
 
-<img src=img/EZ5160Pro/EZ5160Pro_Diagram.png width="500"/>
+<img src=img/EZ5160Pro/EZ5160Pro_Diagram.webp width="500"/>
 
 ## **Interface Diagram**
 
-<img src=img/EZ5160Pro/EZ5160Pro_Interface1.png width="500"/>
+<img src=img/EZ5160Pro/EZ5160Pro_Interface1.webp width="500"/>
 
-<img src=img/EZ5160Pro/EZ5160Pro_Interface2.png width="500"/>
+<img src=img/EZ5160Pro/EZ5160Pro_Interface2.webp width="500"/>
 
 The direction of installing the EZ version driver to the new header is shown in the image below:
 
-<img src=img/EZ5160Pro/EZ5160Pro_Interface3.png width="500"/>
+<img src=img/EZ5160Pro/EZ5160Pro_Interface3.webp width="500"/>
 
 <table border="1">
     <tr>

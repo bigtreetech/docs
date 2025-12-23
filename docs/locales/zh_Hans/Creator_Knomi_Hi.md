@@ -33,7 +33,7 @@
 
 ## 尺寸和接口
 
-<img src=img/Creator_Knomi_Hi/size.png width="400"/>
+<img src=img/Creator_Knomi_Hi/size.webp width="400"/>
 <img src=img/Creator_Knomi_Hi/port.jpg width="400"/>
 
 ## 安装指南
@@ -48,7 +48,7 @@
 <br/>
 
 * 第二步：断开线束连接<br/>原装前盖卸下后，按照图中箭头所示，拔下两个接口，卸下线束。<br/>
-<img src=img/Creator_Knomi_Hi/wring.png width="400"/>
+<img src=img/Creator_Knomi_Hi/wring.webp width="400"/>
 <br/>
 
 * 第三步：拿出新的knomi前壳，按照以下步骤连接线缆<br/>
@@ -76,18 +76,18 @@
 ## 打印机设置
 * 获取打印机IP地址
   * ①	点击`设置`<br/>
-    <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/>
+    <img src=img/Creator_Knomi_Hi/hi_1.webp width="600"/>
   * ②点击 `网络` -> ③ `IP`<br/>
-    <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/>
+    <img src=img/Creator_Knomi_Hi/hi_2.webp width="600"/>
 
 * 使电脑连接到与打印机同一个局域网下, Creality Hi 打印机的端口号默认为 4408，我们可以通过 `IP + 端口号` 访问打印机，例如我们打印机的IP为 `192.168.3.81`，我们只需要在浏览器的地址栏输入 `192.168.3.81:4408` 然后访问即可
 * ① -> ② -> ③ `Upload Files`，选择 `Creator_Knomi_Hi_01.00.00.00.cfg` 配置文件，上传到打印机中。<br/>
-  <img src=img/Creator_Knomi_Hi/printer_1.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_1.webp width="600"/>
 * 打开 `printer.cfg` 文件添加
   ```
   [include Creator_Knomi_Hi_01.00.00.00.cfg]
   ```
-  <img src=img/Creator_Knomi_Hi/printer_2.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_2.webp width="600"/>
 * 打开 `sensorless.cfg` 文件，在`_HOME_X`，`_HOME_Y`，`_HOME_Z`三个宏的开头全部都添加：
   ```
   SET_KNOMI_STATUS VALUE=4
@@ -96,7 +96,7 @@
   ```
   RESET_KNOMI_STATUS
   ```
-  <img src=img/Creator_Knomi_Hi/printer_3.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_3.webp width="600"/>
   <br/>注意：图中仅截取了“_HOME_X”部分的内容，“_HOME_Y”，“_HOME_Z”部分也需要像“_HOME_X”这样添加对应的内容。
 * 打开 `gcode_macro.cfg` 文件，在`QUIT_MATERIAL`宏中，如下图中的位置添加：
   ```
@@ -106,7 +106,7 @@
   ```
   RESET_KNOMI_STATUS
   ```
-  <img src=img/Creator_Knomi_Hi/printer_4.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_4.webp width="600"/>
 * 配置完成后，点击“SAVE & RESTART”重启服务即可应用以上配置。
 
 ## 用户界面说明
@@ -128,7 +128,7 @@
       以 `iPhone` 为例：<br/>
         * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
         * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
-        <img src=img/Creator_Knomi_Hi/wlan.png width="300"/>
+        <img src=img/Creator_Knomi_Hi/wlan.webp width="300"/>
         * 轻点名称以 `Creator_Knomi_Hi` 开头的无线局域网，输入默认密码：`987654321`。
         * 连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
 
@@ -161,9 +161,9 @@
 
 * 在打印机上找到 `IP`，并输入到Web UI上对应的输入栏中。
     * ①	`设置`<br/>
-      <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/>
+      <img src=img/Creator_Knomi_Hi/hi_1.webp width="600"/>
     * ② `网络` -> ③ `IP`<br/>
-      <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/>
+      <img src=img/Creator_Knomi_Hi/hi_2.webp width="600"/>
     * 打印机默认的端口号为 `7125`
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着Creator Knomi Hi已经成功连接到打印机了。<br/>
   <img src=img/Creator_Knomi_Hi/zh/bind_ok.jpg width="300"/>
@@ -330,7 +330,7 @@
         * 将设备连接到Creator Knomi Hi的AP热点。以iPhone为例：
             * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
             * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
-            <img src=img/Creator_Knomi_Hi/wlan.png width="300"/> <br/>
+            <img src=img/Creator_Knomi_Hi/wlan.webp width="300"/> <br/>
             * 轻点名称以 `Creator_Knomi_Hi_` 开头的无线局域网，输入默认密码：`987654321`。
             * 连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
         * 连接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入Web UI配置界面。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) 访问Web UI配置界面。
@@ -343,14 +343,14 @@
 
 * 如果电脑上没有 CH340 的驱动，请先下载安装驱动 [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
 * 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)<br/>
-  <img src=img/Creator_Knomi_Hi/zh/download_esp_tool.png width="800"/>
+  <img src=img/Creator_Knomi_Hi/zh/download_esp_tool.webp width="800"/>
 * 下载 [Creator Knomi Hi 的固件](https://github.com/bigtreetech/Creator_Knomi_Hi)
 * 按住 Creator Knomi Hi 上的 `Boot` 按键, 然后通过 `Type-C` 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口<br/>
   <img src=img/Creator_Knomi_Hi/boot_fw.jpg width="300"/>
 * 打开 `flash_download_tool_3.9.8_6.exe`, 在弹窗中按照下图配置<br/>
-  <img src=img/Creator_Knomi_Hi/open_esp_tool.png width="400"/>
+  <img src=img/Creator_Knomi_Hi/open_esp_tool.webp width="400"/>
 * 烧录软件的配置如下图<br/>
-  <img src=img/Creator_Knomi_Hi/set_esp_tool.png width="400"/>
+  <img src=img/Creator_Knomi_Hi/set_esp_tool.webp width="400"/>
     * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
         * `creator_knomi_hi_bootloader.bin` 写入到 `0x1000`
         * `creator_knomi_hi_partitions.bin` 写入到 `0x8000`

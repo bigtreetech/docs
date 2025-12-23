@@ -1,6 +1,6 @@
 # P1/X1
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Title.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Title.webp width="600"/>
 
 ProductLink:
 https://biqu.equipment/products/biqu-panda-claw-extruder-gear-set-gold-nano-coated-steel-aluminum-cnc-support-for-x1-p1-a1-mini?variant=41425356783714
@@ -38,7 +38,7 @@ It's important to carefully handle the filament sensor ribbon cable (marked with
 
 This cable is delicate and prone to damage.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide.webp width="600"/>
 
 Next, proceed to disengage the filament cutter. Keep the lever pressed down while you unscrew the fastener which secures it.
 
@@ -46,17 +46,17 @@ Once the screw is loosened, carefully release the filament cutter.
 
 **Caution:** Ensure that the screwdriver is positioned perpendicular to the surface of the screw head before insertion. Verify that the driver is fully engaged with the screw head before gently turning it to remove the screw. This prevents improper use of the tool and avoids stripping the screw head.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide1.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide1.webp width="600"/>
 
 Once the lever is released, start by removing the first three screws that secure the extruder. Next, lightly loosen screws numbered ‘4’ and ‘5’ to free the filament guide.
 
 Push the filament guide toward the extruder to allow the PTFE tube to be removed.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide2.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide2.webp width="600"/>
 
 The entire extruder assembly can now be detached from the printer.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide3.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide3.webp width="600"/>
 
 ### Step 2: Disassemble the Extruder
 
@@ -64,19 +64,19 @@ Once the extruder is removed from the printer, begin disassembling it.
 
 Start by unscrewing the screws numbered ‘1’ to ‘4’, as indicated in the image below.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide4.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide4.webp width="600"/>
 
 Screw number ‘5’, which secures the idler gear, should be loosened halfway at this stage to relieve the spring tension.
 
 You can then pull the yellow gear towards you to remove it. The idler can be removed in the same manner.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide5.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide5.webp width="600"/>
 
 ### Step 3: Cleaning the Extruder Body and Components
 
 Before replacing with Panda Claw and re-assembling the extruder, it is crucial to clean any debris from the body and components. As shown in the image below, this extruder has accumulated a significant amount of dust. Ensure all dust is removed prior to reassembly. You can use a small brush and compressed air to thoroughly clean the extruder.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide6.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide6.webp width="600"/>
 
 ### Step 4: Lubricating the Extruder
 
@@ -86,41 +86,41 @@ Add a small amount of lubricant on the idler extruder gear, and the sides as sho
 
 <font  color="red">**Notes: Make sure you don’t get any grease on the filament gear teeth (highlighted in blue in the image below). If you do, just wiping it off won’t help. You’ll need to wash the gear with soap to remove the grease and then apply new grease after that.**</font>
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide15.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide15.webp width="600"/>
 
 Next, you can also apply a bit of lubricant on the extruder gear (highlighted in green in the image below).
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide16.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide16.webp width="600"/>
 
 Finally, install the Panda Claw gear onto the extruder body and apply a small amount of lubricant around the designated area, highlighted in green in the image below.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide17.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide17.webp width="600"/>
 
 After applying the lubricant, reinstall the back cover of the extruder and manually rotate the hollow extruder gear a few times to evenly distribute the lubricant and verify that everything is functioning smoothly. 
 
 Be sure to securely tighten the four extruder screws along with the idler tensioner screw to prepare it for installing it onto the printer.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide10.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide10.webp width="600"/>
 
 ### Step 5: Re-installing the Extruder onto the Printer
 
 Now you can re-install the extruder onto the printer. Begin by securing the extruder in place with screws numbered ‘1’, ‘2’, and ‘3’. Next, insert the PTFE tube into the top of the extruder, raise the filament guide, and tighten screws ‘4’ and ‘5’.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide11.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide11.webp width="600"/>
 
 Push down the filament lever as shown in the image and tighten the lever screw.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide12.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide12.webp width="600"/>
 
 Lastly, reconnect all the extruder and hotend wires to the board. Take extra care during this step to ensure proper alignment of the connectors. Pressing down connectors when misaligned or in the incorrect port can lead to device errors.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide13.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide13.webp width="600"/>
 
 ### Step 6: Post-Operation Calibration
 
 We recommend performing a full calibration of the printer after this operation, to ensure smooth functioning.
 
-<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide14.png width="600"/>
+<img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Guide14.webp width="600"/>
 
 ## **Product Purchase Link**
 

@@ -29,13 +29,13 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
 
 ​Note: This step can be skipped if you are using a network cable connection.CB1 cannot directly use the Raspberry Pi Imager to set the WiFi name and 	password like CM4. After the OS image writing is completed, the MicroSD card will have a FAT32 partition recognized by the computer, find"system.cfg"
 
-<img src=img/M4P/M4P_WIFI1.png width="600"/>
+<img src=img/M4P/M4P_WIFI1.webp width="600"/>
 
 
 
 Open it with Notepad, replace WIFI-SSID with your WiFi name, and PASSWORD with your password.
 
-<img src=img/wifi.png width="600" />
+<img src=img/wifi.webp width="600" />
 
 ## **· Configure the motherboard**
 
@@ -49,16 +49,16 @@ Open it with Notepad, replace WIFI-SSID with your WiFi name, and PASSWORD with y
 
 4. Find the device IP address in your router page
 
-<img src=img/Router.png width="600" />
+<img src=img/Router.webp width="600" />
 
 5. Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, findthe IP named Fluidd, Mailsail (CM4) or Hurakan (CB1) like shown below
 
 
-<img src=img/AngryIP.png width="600" />
+<img src=img/AngryIP.webp width="600" />
 
 6. Open Mobaxtermand click “Session”, and click “SSH”，inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
 
-<img src=img/MobaXterm_Login.png width="600" />
+<img src=img/MobaXterm_Login.webp width="600" />
 
 7. Input the login name and password to enter the SSH terminal interface
 CM4:
@@ -68,7 +68,7 @@ CB1:
  login as: biqu
  password: biqu
 
-<img src=img/SSH_Terminal.png width="600" />
+<img src=img/SSH_Terminal.webp width="600" />
 
 ### **· Compile firmware**
 
@@ -91,7 +91,7 @@ CB1:
 * Clock Reference (8 MHz crystal) ---> 
 * Communication interface (USB (on PA11/PA12)) --->
 
-<img src=img/M4P/M4P_Make.png width="600" />
+<img src=img/M4P/M4P_Make.webp width="600" />
 
 3. Run **make** to compile firmware，”klipper.bin” file will be generated in **home/pi/kliper/out** folder when make is finished, download it onto your computer using the ssh application.
 
@@ -107,7 +107,7 @@ CB1:
 ls /dev/serial/by-id/
 ```
 
-<img src=img/M4P/M4P_Update_Using_SD.png width="600" />
+<img src=img/M4P/M4P_Update_Using_SD.webp width="600" />
 
 #### **· Update using DFU**
 
@@ -119,7 +119,7 @@ make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32g0b1xx_190028000D504
 
 ​	to update firmware **(NOTE: Replace /dev/serial/by-id/xxx with the actual ID found in the previous step)**
 
-<img src=img/M4P/M4P_DFU.png width="600" />
+<img src=img/M4P/M4P_DFU.webp width="600" />
 
 ​	There will be an error message “dfu-util: Error during download get_status” after update. Just ignore it.
 
@@ -127,14 +127,14 @@ make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32g0b1xx_190028000D504
 
 1. Enter your device IP address into your browser to open the webUI，find the reference config for motherboard in the directory shown below，if there is no such config available, update your klipper source code to the newest version or download from github: https://github.com/bigtreetech/Manta-M4P
 
-<img src=img/M4P/M4P_Conf_Klipper1.png width="600" />
+<img src=img/M4P/M4P_Conf_Klipper1.webp width="600" />
 
 2. Upload your finished config file into Configuration Files, and rename to “printer.cfg”
 
-<img src=img/M4P/M4P_Conf_Klipper2.png width="600" />
+<img src=img/M4P/M4P_Conf_Klipper2.webp width="600" />
 
 3. Insert the correct motherboad ID
 
-<img src=img/M4P/M4P_Conf_Klipper3.png width="600" />
+<img src=img/M4P/M4P_Conf_Klipper3.webp width="600" />
 
 ​	Refer to https://www.klipper3d.org/Overview.html for detailed configuration guide according to your machine type.

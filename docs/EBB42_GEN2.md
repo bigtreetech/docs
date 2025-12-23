@@ -278,11 +278,11 @@ The I²C port features multi-faceted protection. It is protected against momenta
 
 #### USB
 
-<img src=img/EBB42_GEN2/usb.png width="800"/>
+<img src=img/EBB42_GEN2/usb.webp width="800"/>
 
 #### CAN bus
 
-<img src=img/EBB42_GEN2/canbus.png width="800"/>
+<img src=img/EBB42_GEN2/canbus.webp width="800"/>
 
 ## **Notes**
 

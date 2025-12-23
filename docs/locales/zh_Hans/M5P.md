@@ -5,7 +5,7 @@
 
     [M5P Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/manta-series/manta-m5p)
 
-[<img src=img/M5P/M5P_Title.png width="600" />](https://bigtreetech.github.io/docs/M5P.html)
+[<img src=img/M5P/M5P_Title.webp width="600" />](https://bigtreetech.github.io/docs/M5P.html)
 
 ## **产品简介**
 
@@ -54,17 +54,17 @@ BIGTREETECH MANTA M5P是必趣创新科技（深圳）有限公司3D打印团队
 
 ## **尺寸**
 
-<img src=img/M5P/M5P_Dimension1.png width="600" />
+<img src=img/M5P/M5P_Dimension1.webp width="600" />
 
-<img src=img/M5P/M5P_Dimension2.png width="600" />
+<img src=img/M5P/M5P_Dimension2.webp width="600" />
 
 ## **接口示意图**
 
-<img src=img/M5P/M5P_Pinout_CN.png width="600" />
+<img src=img/M5P/M5P_Pinout_CN.webp width="600" />
 
 ## **引出线**
 
-<img src=img/M5P/M5P_Pinout.png width="600" />
+<img src=img/M5P/M5P_Pinout.webp width="600" />
 
 ## **硬件配置**
 
@@ -72,7 +72,7 @@ BIGTREETECH MANTA M5P是必趣创新科技（深圳）有限公司3D打印团队
 
 BIGTREETECH MANTA M5P通电后，MCU左侧的红灯D22将亮起，表示已通电。当仅使用USB为板供电或通过USB供电时，请将跳线帽插入VUSB。
 
-<img src=img/M5P/M5P_USB_PS.png width="600" />
+<img src=img/M5P/M5P_USB_PS.webp width="600" />
 
 ## **硬件安装**
 
@@ -82,7 +82,7 @@ BIGTREETECH MANTA M5P通电后，MCU左侧的红灯D22将亮起，表示已通�
 
 例如：A4988、DRV8825、LV8729、ST820等，根据微步图连接跳线（MS0-MS2）。
 
-<img src=img/M5P/M5P_STEP_Mode.png width="600" />
+<img src=img/M5P/M5P_STEP_Mode.webp width="600" />
 
 **<font  color="red">注：对于A4988或DRV8825，RST和SLP必须通过跳线短路。</font>**
 
@@ -93,35 +93,35 @@ BIGTREETECH MANTA M5P通电后，MCU左侧的红灯D22将亮起，表示已通�
 
 例如：TMC2208、TMC2209、TMC2225等，根据下图放置跳线，微步和电流可以在固件中配置。
 
-<img src=img/M5P/M5P_UART_Mode.png width="600" />
+<img src=img/M5P/M5P_UART_Mode.webp width="600" />
 
 #### **TMC驱动器的SPI模式** 
 
 例如：TMC2130、TMC5160、TMC2160等，根据下图放置跳线，微步和电流可以在固件中配置。
 
-<img src=img/M5P/M5P_SPI_Mode.png width="600" />
+<img src=img/M5P/M5P_SPI_Mode.webp width="600" />
 
 #### **TMC驱动的DIAG（无传感器归位）** 
 
 当使用无传感器归位时，根据下图放置跳线，不使用时无需切断DIAG引脚。
 
-<img src=img/M5P/M5P_DRI_Diag.png width="600" />
+<img src=img/M5P/M5P_DRI_Diag.webp width="600" />
 
 #### **驱动器电压选择** 
 
-<img src=img/M5P/M5P_DRI_Vol1.png width="600" />
+<img src=img/M5P/M5P_DRI_Vol1.webp width="600" />
 
-<img src=img/M5P/M5P_DRI_Vol2.png width="600" />
+<img src=img/M5P/M5P_DRI_Vol2.webp width="600" />
 
 ### **通过BTB连接安装核心板**
 
 **M5P+CM4：注意方向，如下图所示：**
 
-<img src=img/M5P/M5P_CM4.png width="600" />
+<img src=img/M5P/M5P_CM4.webp width="600" />
 
 **M5P+CB1：注意方向，如下图所示：**
 
-<img src=img/M5P/M5P_CB1.png width="600" />
+<img src=img/M5P/M5P_CB1.webp width="600" />
 
 ### **数控风机的电压选择**
 
@@ -131,47 +131,47 @@ BIGTREETECH MANTA M5P通电后，MCU左侧的红灯D22将亮起，表示已通�
 
 在选择电压之前，请确认风扇支持的电压。
 
-<img src=img/M5P/M5P_Vol_CNC.png width="600" />
+<img src=img/M5P/M5P_Vol_CNC.webp width="600" />
 
 ### **100K NTC或PT1000设置**
 
 当使用100K NTC时，无需连接跳线，TH0-TH3的上拉电阻为4.7K 0.1%。当使用PT1000时，下图所示的引脚需要通过跳线连接，并联4.12K 0.1%电阻器，TH0-TH1的上拉电阻为2.2K。（这种方法在读取温度方面的精度远低于MAX31865。）
 
-<img src=img/M5P/M5P_100K.png width="600" />
+<img src=img/M5P/M5P_100K.webp width="600" />
 
 ### **BLTouch 接线**
 
-<img src=img/M5P/M5P_BLTouch_Wiring.png width="600" />
+<img src=img/M5P/M5P_BLTouch_Wiring.webp width="600" />
 
 ### **LCD屏幕和EXP1+EXP2之间的接线**
 
-<img src=img/M5P/M5P_LCD_E1_E2.png width="600" />
+<img src=img/M5P/M5P_LCD_E1_E2.webp width="600" />
 
 ### **RGB 接线**
 
-<img src=img/M5P/M5P_RGB_Wiring.png width="600" />
+<img src=img/M5P/M5P_RGB_Wiring.webp width="600" />
 
 ### **断料检测 接线**
 
-<img src=img/M5P/M5P_Filament.png width="600" />
+<img src=img/M5P/M5P_Filament.webp width="600" />
 
 ### **40 Pins GPIO**
 
-<img src=img/M5P/M5P_40_Pins.png width="600" />
+<img src=img/M5P/M5P_40_Pins.webp width="600" />
 
 ### **DSI/CSI 接线**
 
-<img src=img/M5P/M5P_DSI.png width="600" />
+<img src=img/M5P/M5P_DSI.webp width="600" />
 
 ### **接近开关 接线**
 
 如下图所示，以24V为例，常开（NPN型），无需通过跳线帽短路：
 
-<img src=img/M5P/M5P_Proximity.png width="600" />
+<img src=img/M5P/M5P_Proximity.webp width="600" />
 
 如下图所示，以24V为例，常闭（PNP型），需要通过跳线帽进行短路。
 
-<img src=img/M5P/M5P_Proximity1.png width="600" />
+<img src=img/M5P/M5P_Proximity1.webp width="600" />
 
 ## **软件配置**
 

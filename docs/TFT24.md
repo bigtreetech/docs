@@ -1,6 +1,6 @@
 # TFT24
 
-<img src=img/TFT24/TFT24_Title.png width="600" />
+<img src=img/TFT24/TFT24_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -28,11 +28,11 @@ card detection indicator. D1 often shines on when SD card is inserted, and the l
 
 ## **Dimensions**
 
-<img src=img/TFT24/TFT24_Diagram.png width="600" />
+<img src=img/TFT24/TFT24_Diagram.webp width="600" />
 
 ## **Interface Diagram**
 
-<img src=img/TFT24/TFT24_Interface.png width="600" />
+<img src=img/TFT24/TFT24_Interface.webp width="600" />
 
 - When using 12864 screen mode, connect the port EXP1 and EXP2 to the motherboard. There is no touch function in this mode.
 - When using serial port screen mode, connect with TFT or aux-2 on the motherboard via RS232. In this mode, there is touch function.

@@ -21,10 +21,10 @@ The BIQU Panda Bifrost V1.0 is designed to work seamlessly with Bambu Lab printe
 * Logic Voltage: 3.3 V
 * Product Dimensions:<br>
 Panda Bifrost:<br>
-<img src=img/PandaBifrost/PCB_size_en.png width="300"/>
+<img src=img/PandaBifrost/PCB_size_en.webp width="300"/>
 
   Printed shell:<br>
-<img src=img/PandaBifrost/case_size_en.png width="300"/>
+<img src=img/PandaBifrost/case_size_en.webp width="300"/>
 
 ## **Interface Diagram**
 
@@ -62,19 +62,19 @@ Press down until you hear a click.
 
 * The device will create a hotspot named **"Panda\_Bifrost\_XXXXXXXXXXXX"**, with the default password **"987654321"**.
 * Connect to this hotspot using your mobile phone or computer. <br>
-    <img src=img/PandaBifrost/ap_select.png width="300"/>
+    <img src=img/PandaBifrost/ap_select.webp width="300"/>
 
 * Open your browser and visit **[http://192.168.254.1/](http://192.168.254.1/)**
 * Select your preferred language.<br>
-    <img src=img/PandaBifrost/language_en.png width="300"/><br>
+    <img src=img/PandaBifrost/language_en.webp width="300"/><br>
 After the device scans for available Wi-Fi networks, select your target network, enter its password, and click **Connect**.<br>
-    <img src=img/PandaBifrost/ap_connect_en.png width="300"/>
+    <img src=img/PandaBifrost/ap_connect_en.webp width="300"/>
 
 ### Binding the Printer
 
 * Click **Scan**.
 * Enter the access code, then click **Connect**. <br>
-    <img src=img/PandaBifrost/bind_printer_en.png width="300"/>
+    <img src=img/PandaBifrost/bind_printer_en.webp width="300"/>
 
 ## **Binding Other Panda Devices**
 
@@ -96,7 +96,7 @@ DevVersion.bambu.com: 01.00.00.00
 * Open the Web UI, click **Scan**, and select **"PandaBifrost"**.
 * Enter the access code from the printer you connected in Step 1.
 * Click **Bind**. <br>
-    <img src=img/PandaBifrost/as_printer_en.png width="400">
+    <img src=img/PandaBifrost/as_printer_en.webp width="400">
 
 ## **Usage Limitations**
 

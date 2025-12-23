@@ -1,6 +1,6 @@
 # Pi2
 
-<img src=img/Pi2/Pi2_Title.png width="600" />
+<img src=img/Pi2/Pi2_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -42,15 +42,15 @@ BIGTREETECH Pi 2 uses the higher performance quad-core A55-RK3566 chipset. It co
 
 ## **Dimensions**
 
-<img src=img/Pi2/Pi2_Dimensions.png width="600" />
+<img src=img/Pi2/Pi2_Dimensions.webp width="600" />
 
 ## **Peripheral Interface**
 
 ### Interface Diagram
 
-<img src=img/Pi2/Pi2_Interface1.png width="600" />
+<img src=img/Pi2/Pi2_Interface1.webp width="600" />
 
-<img src=img/Pi2/Pi2_Interface2.png width="600" />
+<img src=img/Pi2/Pi2_Interface2.webp width="600" />
 
 ## **Interface Introduction**
 
@@ -62,13 +62,13 @@ Input:
 
 ·	Terminal Block: DC 12-24V
 
-<img src=img/Pi2/Pi2_Power1.png width="600" />
+<img src=img/Pi2/Pi2_Power1.webp width="600" />
 
 
 
 ### 40 pin GPIO
 
-<img src=img/Pi2/Pi2_GPIO.png width="1200" />
+<img src=img/Pi2/Pi2_GPIO.webp width="1200" />
 
 The method for calculating GPIO pins is as follows:
 
@@ -78,45 +78,45 @@ GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31
 
 ### UPS POWER
 
-<img src=img/Pi2/Pi2_UPS.png width="600" />
+<img src=img/Pi2/Pi2_UPS.webp width="600" />
 
 Specifications: PH-2.0MM-5Pin horizontal type, compatible with our company's SKSM emergency power supply board.(Need to crimp cables and terminals by oneself)
 
-<img src=img/Pi2/Pi2_SPI.png width="600" />
+<img src=img/Pi2/Pi2_SPI.webp width="600" />
 
 Specification model: W25Q256JWEIQ (NOT included. If needed, please contact us for customization.)
 
 ### SPDIF OUT
 
-<img src=img/Pi2/Pi2_SPDIF.png width="600" />
+<img src=img/Pi2/Pi2_SPDIF.webp width="600" />
 
 ### eMMC-EN
 
 Default position is OFF, which means the eMMC can be used normally. If you do not wish to boot from eMMC, switch the EMMC-EN position to ON. This will short the eMMC signal lines to GND and disable eMMC boot.
 
-<img src=img/Pi2/Pi2_eMMC.png width="600" />
+<img src=img/Pi2/Pi2_eMMC.webp width="600" />
 
 ### OTG
 
 To enable OTG mode, switch the OTG KEY to the ON position. (Note: The black USB 2.0 port will not function properly in this mode.)
 
-<img src=img/Pi2/Pi2_OTG.png width="600" />
+<img src=img/Pi2/Pi2_OTG.webp width="600" />
 
 ### MIC IN
 
-<img src=img/Pi2/Pi2_MIC.png width="600" />
+<img src=img/Pi2/Pi2_MIC.webp width="600" />
 
 ### DSI
 
-<img src=img/Pi2/Pi2_DSI.png width="600" />
+<img src=img/Pi2/Pi2_DSI.webp width="600" />
 
-<img src=img/Pi2/Pi2_DSI1.png width="600" />
+<img src=img/Pi2/Pi2_DSI1.webp width="600" />
 
 ### CSI
 
-<img src=img/Pi2/Pi2_CSI.png width="600" />
+<img src=img/Pi2/Pi2_CSI.webp width="600" />
 
-<img src=img/Pi2/Pi2_CSI1.png width="600" />
+<img src=img/Pi2/Pi2_CSI1.webp width="600" />
 
 ## **Flashing the System**
 
@@ -134,15 +134,15 @@ https://github.com/bigtreetech/CB2/releases
 
 3、Select your downloaded image.
 
-<img src=img/Pi2/Pi2_System35.png width="600" />
+<img src=img/Pi2/Pi2_System35.webp width="600" />
 
 4、Select the MicroSD card and click "Flash" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted). 
 
-<img src=img/Pi2/Pi2_System36.png width="600" />
+<img src=img/Pi2/Pi2_System36.webp width="600" />
 
 5、Wait for the process to complete. 
 
-<img src=img/Pi2/Pi2_System37.png width="600" />
+<img src=img/Pi2/Pi2_System37.webp width="600" />
 
 ### Writing System onto eMMC
 
@@ -152,33 +152,33 @@ Download and unzip RKDevTool from the GitHub repository (https://github.com/bigt
 
 1、As shown in the diagram below, toggle the USB OTG switch to the ON position. At this position, the USB OTG port is connected to a Type-C port. Set the eMMC switch to the OFF position, allowing the RK3566 to access the eMMC normally.
 
-<img src=img/Pi2/Pi2_System1.png width="600" />
+<img src=img/Pi2/Pi2_System1.webp width="600" />
 
 2、Hold down the “Recovery” button, then connect the BIGTREETECH Pi 2 tothe computer using a Type-C cable. Power on and after 3 seconds, release the button.
 
-<img src=img/Pi2/Pi2_System2.png width="600" />
+<img src=img/Pi2/Pi2_System2.webp width="600" />
 
 3、 Install the driver:
 
 ① In “Device Manager”, if you see “Unknown Device”, it indicates that the computer is missing drivers.
 
-<img src=img/Pi2/Pi2_System3.png width="600" />
+<img src=img/Pi2/Pi2_System3.webp width="600" />
 
 ② Open the DriverAssistant tool in the downloaded RKDevTool folder, click “① Uninstall Driver”, then click “② Install Driver” to ensure that the latest version of the driver is installed.
 
-<img src=img/Pi2/Pi2_System4.png width="600" />
+<img src=img/Pi2/Pi2_System4.webp width="600" />
 
 ③ After the installation is complete, hold down the “Recovery” button, replug the Type-C cable. "Device Manager" should now recognize a “Rockusb Device”, indicating that the driver installation is successful.
 
-<img src=img/Pi2/Pi2_System5.png width="600" />
+<img src=img/Pi2/Pi2_System5.webp width="600" />
 
 4、Open the “RKDevTool” software：
 
-<img src=img/Pi2/Pi2_System6.png width="600" />
+<img src=img/Pi2/Pi2_System6.webp width="600" />
 
 **Note:** The parameters in the software are set by default as shown in the image. Normally, you only need to set the “④ actual path of the .img system”. If the parameters in your software do not match those in the image, manually adjust them to match.
 
-<img src=img/Pi2/Pi2_System7.png width="600" />
+<img src=img/Pi2/Pi2_System7.webp width="600" />
 
 ① Find the path where the downloaded RKDevTool is located.
 
@@ -200,7 +200,7 @@ Download and unzip RKDevTool from the GitHub repository (https://github.com/bigt
 
 As shown in the figure, toggle the eMMC switch to the OFF position so that the RK3566 can access the eMMC normally.
 
-<img src=img/Pi2/Pi2_System8.png width="600" />
+<img src=img/Pi2/Pi2_System8.webp width="600" />
 
 First, write the system onto a MicroSD card, then insert the MicroSD card into the board's card slot, and wait for the system to boot. 
 
@@ -212,23 +212,23 @@ password: `biqu`
 
 Execute the command sudo nand-sata-install. In the interface that pops up, select "2 Boot From eMMC - system on eMMC" and then select "OK"
 
-<img src=img/Pi2/Pi2_System9.png width="600" />
+<img src=img/Pi2/Pi2_System9.webp width="600" />
 
 ① Select "Yes" to start erasing and writing the system onto the eMMC.
 
-<img src=img/Pi2/Pi2_System10.png width="600" />
+<img src=img/Pi2/Pi2_System10.webp width="600" />
 
 ② Choose the filesystem "1 ext4" and then select "OK".
 
-<img src=img/Pi2/Pi2_System11.png width="600" />
+<img src=img/Pi2/Pi2_System11.webp width="600" />
 
 ③ Wait for the writing process to complete.
 
-<img src=img/Pi2/Pi2_System12.png width="600" />
+<img src=img/Pi2/Pi2_System12.webp width="600" />
 
 ④ Upon completion, you will be prompted whether to power off. Select “Power off” to shut down the system.
 
-<img src=img/Pi2/Pi2_System13.png width="600" />
+<img src=img/Pi2/Pi2_System13.webp width="600" />
 
 ⑤ After the system has powered down, disconnect the power supply, remove the MicroSD card, and then reconnect power. The system should now boot from the eMMC.
 
@@ -254,7 +254,7 @@ When using a MicroSD card as the system card instead, it's best to erase the dat
 
 2、Open the "RKDevTool".
 
-<img src=img/Pi2/Pi2_System14.png width="600" />
+<img src=img/Pi2/Pi2_System14.webp width="600" />
 
 ① Find the path where the downloaded RKDevTool is located.
 
@@ -274,7 +274,7 @@ When using a MicroSD card as the system card instead, it's best to erase the dat
 
 2、Run the command sudo mkfs /dev/mmcblk1 and then enter "y" to confirm. 
 
-<img src=img/Pi2/Pi2_System15.png width="600" />
+<img src=img/Pi2/Pi2_System15.webp width="600" />
 
 ## **System Configuration**
 
@@ -286,7 +286,7 @@ Ethernet is plug-and-play and requires no additional setup.
 
 After the system image has been written, the MicroSD card will have a FAT32 partition recognized by the computer. In this partition, there is a "system.cfg" file. Open it and replace "Your SSID" with your actual WiFi name and "YourPassword" with the actual password.
 
-<img src=img/Pi2/Pi2_System16.png width="600" />
+<img src=img/Pi2/Pi2_System16.webp width="600" />
 
 ### Configuring Overlays
 
@@ -294,13 +294,13 @@ Open the "armbianEnv.txt" file in the BOOT partition and set the values for over
 
 <font  color="blue">**overlays=dsi mcp2515 i2c1**</font>
 
-<img src=img/Pi2/Pi2_System17.png width="600" />
+<img src=img/Pi2/Pi2_System17.webp width="600" />
 
 ### Configuring the Display
 
 1、Open the "armbianEnv.txt" file in the BOOT partition.
 
-<img src=img/Pi2/Pi2_System18.png width="600" />
+<img src=img/Pi2/Pi2_System18.webp width="600" />
 
 2、The default overlay is set to "hdmi," meaning the system uses an HDMI screen by default. This can be changed to match the actual screen being 
 used, such as:
@@ -319,13 +319,13 @@ For "tft_35", there is also a "tft35_spi_rotate" parameter for system-level scre
 
 3、To configure KlipperScreen, open the `system.cfg` file in the BOOT partition. Set the screen type with the parameter `ks_src`, and the rotation angle with `ks_angle`.
 
-<img src=img/Pi2/Pi2_System19.png width="600" />
+<img src=img/Pi2/Pi2_System19.webp width="600" />
 
 ### Using SPI to CAN
 
 Open the "armbianEnv.txt" file in the BOOT partition and add "mcp2515" to the overlays configuration.
 
-<img src=img/Pi2/Pi2_System20.png width="600" />
+<img src=img/Pi2/Pi2_System20.webp width="600" />
 
 ### Using CSI Camera and Crowsnest Configuration
 
@@ -335,7 +335,7 @@ For both RPi v1.3 ov5647 and RPi v2 imx219 cameras, no specific configuration in
 
 <font  color="blue">**custom_flags: --format=UYVY**</font> # The current system's CSI camera does not support the default YUYV, so it needs to be set to the supported UYVY format.
 
-<img src=img/Pi2/Pi2_System21.png width="600" />
+<img src=img/Pi2/Pi2_System21.webp width="600" />
 
 ### Using Bluetooth
 
@@ -343,21 +343,21 @@ For both RPi v1.3 ov5647 and RPi v2 imx219 cameras, no specific configuration in
 
 <font  color="blue">**bluetoothctl --timeout 15 scan on**</font>
 
-<img src=img/Pi2/Pi2_System22.png width="600" />
+<img src=img/Pi2/Pi2_System22.webp width="600" />
 
 2、Find your Bluetooth device, for example, if your device name is "HONOR xSport PRO", locate the corresponding Bluetooth MAC ID as shown below.
 
-<img src=img/Pi2/Pi2_System23.png width="600" />
+<img src=img/Pi2/Pi2_System23.webp width="600" />
 
 3、To connect to a Bluetooth device, enter the following command, connection success is shown as below 
 
 <font  color="blue">**bluetoothctl connect E0:9D:FA:50:CD:4F**</font>
 
-<img src=img/Pi2/Pi2_System24.png width="600" />
+<img src=img/Pi2/Pi2_System24.webp width="600" />
 
 ① If there's an issue while connecting, as shown below, please restart the Bluetooth device and repeat steps 1 and 2 to connect.
 
-<img src=img/Pi2/Pi2_System25.png width="600" />
+<img src=img/Pi2/Pi2_System25.webp width="600" />
 
 ② If there's an issue while connecting, as shown below, please enter the following commands and then repeat steps 1 and 2:
 
@@ -373,11 +373,11 @@ For both RPi v1.3 ov5647 and RPi v2 imx219 cameras, no specific configuration in
 
 <font  color="blue">**pulseaudio –start**</font>
 
-<img src=img/Pi2/Pi2_System26.png width="600" />
+<img src=img/Pi2/Pi2_System26.webp width="600" />
 
 4、If you exit voice playback during the use of Bluetooth and cannot reuse it, manually delete the corresponding playback process. Use the ps command to view the process number, then use kill -9 process_number to delete the corresponding playback process.
 
-<img src=img/Pi2/Pi2_System27.png width="600" />
+<img src=img/Pi2/Pi2_System27.webp width="600" />
 
 ### Setting up 3.5mm Headphones Port
 
@@ -385,7 +385,7 @@ For both RPi v1.3 ov5647 and RPi v2 imx219 cameras, no specific configuration in
 
 Check for the corresponding sound card, as shown in the image (the sound card for the headphone port shown in the image corresponds to <font  color="blue">**card 0**</font>).
 
-<img src=img/Pi2/Pi2_System28.png width="600" />
+<img src=img/Pi2/Pi2_System28.webp width="600" />
 
 2、Enter the command:
 
@@ -393,7 +393,7 @@ Check for the corresponding sound card, as shown in the image (the sound card fo
 
 Check the settings for playback and recording channels, as shown in the image.
 
-<img src=img/Pi2/Pi2_System29.png width="600" />
+<img src=img/Pi2/Pi2_System29.webp width="600" />
 
 3、Enter the command:
 
@@ -401,7 +401,7 @@ Check the settings for playback and recording channels, as shown in the image.
 
 Set the playback channel, as shown in the image.
 
-<img src=img/Pi2/Pi2_System30.png width="600" />
+<img src=img/Pi2/Pi2_System30.webp width="600" />
 
 4、 Enter the command:
 
@@ -409,7 +409,7 @@ Set the playback channel, as shown in the image.
 
 Set the recording channel, as shown in the image.
 
-<img src=img/Pi2/Pi2_System31.png width="600" />
+<img src=img/Pi2/Pi2_System31.webp width="600" />
 
 5、Enter the following command to play audio, with the audio file directory xxx and the audio file name xxxxx.wav:
 
@@ -435,15 +435,15 @@ https://mobaxterm.mobatek.net/download-home-edition.html
 
 4、Access the router management interface to find the device's IP (it should be BTT-CB2 here).
 
-<img src=img/Pi2/Pi2_System32.png width="600" />
+<img src=img/Pi2/Pi2_System32.webp width="600" />
 
 5、Open Mobaxterm and click "Session", and click "SSH", inset the device IP into Remote host and click "OK" (Note: your computer and the device needs to be in the same network).
 
-<img src=img/Pi2/Pi2_System33.png width="600" />
+<img src=img/Pi2/Pi2_System33.webp width="600" />
 
 6、Login as: `biqu` password: `biqu`
 
-<img src=img/Pi2/Pi2_System34.png width="600" />
+<img src=img/Pi2/Pi2_System34.webp width="600" />
 
 ## **Precautions**
 

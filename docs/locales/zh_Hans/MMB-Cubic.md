@@ -1,6 +1,6 @@
 # MMB Cubic V1.0
 
-<img src=img/MMB_Cubic/MMB_Cubic_Title.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -37,17 +37,17 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 ## **产品尺寸**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Dimension.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Dimension.webp width="600" />
 
 ## **外设接口**
 
 ### **接口示意图**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Interface.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Interface.webp width="600" />
 
 ### **Pin 脚说明**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Pin.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Pin.webp width="600" />
 
 ## **接口介绍**
 
@@ -55,7 +55,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 使用 USB 供电需要短接 USB-5V 排针，供电正常 3.3V 的灯会亮。
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction1.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction1.webp width="600" />
 
 ### **数控风扇的电压选择**
 
@@ -63,39 +63,39 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 <font  color="red">注意：选择电压前请确认清楚风扇支持的电压为哪一档，因为选错导致的风扇烧毁，我司不与承责。</font>
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction2.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction2.webp width="600" />
 
 ### **测温接口**
 
 这 3 个接口默认接 NTC100K。
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction3.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction3.webp width="600" />
 
 ### **RGB 接口**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction4.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction4.webp width="600" />
 
 ### **CAN 接口**
 
 <font  color="red">如果板子作为 CAN 链的末端，应该接上 CAN-120R。</font>
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction5.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction5.webp width="600" />
 
 ### **PROBE 接口**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction6.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction6.webp width="600" />
 
 ### **加热棒接口**
 
 <font  color="red">注意：加热棒接口的电压和输入电压是一样的，输入如果接 36V，那就需要看加热棒是否支持 36V 输入。</font>
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction7.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction7.webp width="600" />
 
 ### 热床接口
 
 <font  color="red">注意：热床接口的电压和输入电压是一样的，输入如果接 36V，那就需要看热床是否支持36V 输入。</font>
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction8.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction8.webp width="600" />
 
 ## **Klipper 固件**
 
@@ -125,17 +125,17 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 ​	并按照下图配置
 
-<img src=img/rp2040_katapult_menuconfig.png width="600"/>
+<img src=img/rp2040_katapult_menuconfig.webp width="600"/>
 
 \3)输入 **make** 编译固件，当 **make** 执行完成后会在 **home/biqu/katapult/out** 文件夹中生成我们所需要的“**katapult.uf2**”固件，在 SSH 软件左侧可以直接下载到电脑中；
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper2.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper2.webp width="600" />
 
 \4) 请按住 **Boot** 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式
 
 \5) 在 SSH 终端命令行中输入 **lsusb** 查询 DFU 设备 ID
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper3.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper3.webp width="600" />
 
 \6) 请输入以下命令以烧录 katapult
 
@@ -155,7 +155,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 ​	使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)；
 
-<img src=img/rp2040_canbus_menuconfig.png width="600" />
+<img src=img/rp2040_canbus_menuconfig.webp width="600" />
 
 ​	**[\*] Enable extra low-level configuration options**
 
@@ -205,7 +205,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 查询 canbus ID （需提前接好 CAN 线并通电），如下图已找到设备的 UUID
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper5.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper5.webp width="600" />
 
 \3. 输入
 
@@ -217,7 +217,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 **menuconfig** 中 **Bootloader offset** 也要为 16**KiB bootloader**，如下图已经烧录成功。
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper6.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper6.webp width="600" />
 
 \4. 再次输入
 
@@ -225,7 +225,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 查询，此时 **Application** 由之前的 **Katapult** 变为 **Klipper**，代表 Klipper 已经正常运行
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper7.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper7.webp width="600" />
 
 ### **通过 DFU 进行固件更新**
 
@@ -235,7 +235,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 \2. 在 SSH 终端命令行中输入**lsusb**查询 DFU 设备 ID
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper8.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper8.webp width="600" />
 
 \3. 输入
 
@@ -263,7 +263,7 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 搭配 BIGTREETECH U2C 模块使用
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper9.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper9.webp width="600" />
 
 (1) 在 SSH 终端中输入
 
@@ -301,11 +301,11 @@ BIGTREETECH MMB Cubic 是针对 MMB 板子做的拓展板，上面集成了一�
 
 https://github.com/bigtreetech/MMB-Cubic
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper10.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper10.webp width="600" />
 
 \2. 将主板的配置文件上传到 Configuration Files 中.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper11.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper11.webp width="600" />
 
 \3. 并在“printer.cfg”文件中添加此主板的配置:
 
@@ -320,4 +320,4 @@ https://github.com/bigtreetech/MMB-Cubic
 - 个风扇接口在接 24V 供电电压的时候单个可以达到 1A；如果接 12V 或 5V 的供电电压的时候，3 个加一起最大只能 1.5A。
 - 测温接口默认只能接 NTC100K，如果想要接 PT1000 的话需要加 4.12K 电阻。（下面红框位置）
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper12.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper12.webp width="600" />

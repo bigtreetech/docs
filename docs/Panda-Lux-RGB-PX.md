@@ -156,7 +156,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - Connect to the Panda_Lux_RGB PX AP hotspot: `Panda_Lux_RGB_XXXXXXXXXX`. The default password is `987654321`.
 
-        <img src=img/PandaLuxRGBPX/ap.png width="300"/>
+        <img src=img/PandaLuxRGBPX/ap.webp width="300"/>
 
 - Accessing the AP Webpage
 
@@ -179,7 +179,7 @@ For Mobile(As an example):
 
     - Once the scan is complete, a pop-up will appear notifying you that the scan is finished.
 
-        <img src=img/PandaLuxRGBPX/en/wifi_scan_ok.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/wifi_scan_ok.webp width="300"/>
 
     - Select the WiFi network you want to connect to.
 
@@ -191,17 +191,17 @@ For Mobile(As an example):
 
     - Tap Connect, and the interface will switch to the WiFi connection page, showing `Connecting to WiFi`.
 
-        <img src=img/PandaLuxRGBPX/en/wifi_connecting.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/wifi_connecting.webp width="300"/>
 
     - Wait a moment, and a WiFi connection status pop-up will appear.
 
         - Connection Failed:
 
-            <img src=img/PandaLuxRGBPX/en/wifi_failed.png width="300"/>
+            <img src=img/PandaLuxRGBPX/en/wifi_failed.webp width="300"/>
 
         - Connection Successful: You can either [bind the printer](#printer-bind) and proceed to the printer interface or tap `Cancel` to stay on the WiFi page.
 
-            <img src=img/PandaLuxRGBPX/en/wifi_ok.png width="300"/>
+            <img src=img/PandaLuxRGBPX/en/wifi_ok.webp width="300"/>
 
 <a id="printer-bind"></a>
 
@@ -233,26 +233,26 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
     - Tap the `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
-        <img src=img/PandaLuxRGBPX/en/printer_scan_ok.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/printer_scan_ok.webp width="300"/>
 
     - Select the printer from the list. The printer's SN code and IP address will automatically fill in.
 
-        <img src=img/PandaLuxRGBPX/en/printer_list.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/printer_list.webp width="300"/>
 
     - Enter the printer's `Access Code`: Find the access code in the printer's settings, enter it in the box, and tap `Bind` to successfully bind the printer. <br> 
 
-       <img src=img/PandaLuxRGBPX/en/p1_1_2_3.png width="600"/> <br> 
+       <img src=img/PandaLuxRGBPX/en/p1_1_2_3.webp width="600"/> <br> 
 
-       <img src=img/PandaLuxRGBPX/en/p1_4_5.png width="600"/> <br> 
+       <img src=img/PandaLuxRGBPX/en/p1_4_5.webp width="600"/> <br> 
 
-      <img src=img/PandaLuxRGBPX/en/printer_bind.png width="300"/> <br> 
+      <img src=img/PandaLuxRGBPX/en/printer_bind.webp width="300"/> <br> 
 
-       <img src=img/PandaLuxRGBPX/en/bind_ok.png width="300"/> <br> 
+       <img src=img/PandaLuxRGBPX/en/bind_ok.webp width="300"/> <br> 
 
 
 ### WiFi Page
 
-<img src=img/PandaLuxRGBPX/en/wifi_ip.png width="300"/>
+<img src=img/PandaLuxRGBPX/en/wifi_ip.webp width="300"/>
 
 - ① WiFi Page Selection: When you tap the icon, it will turn red to indicate that you are on the WiFi page.
 
@@ -270,7 +270,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 ### AP Page
 
-<img src=img/PandaLuxRGBPX/en/wifi_ap.png width="300"/>
+<img src=img/PandaLuxRGBPX/en/wifi_ap.webp width="300"/>
 
 - ① AP Page Selection: When you tap the icon, it will turn red to indicate that you are on the AP page.
 
@@ -286,7 +286,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
 ### Settings Page
 
-<img src=img/PandaLuxRGBPX/en/settings.png width="300"/>
+<img src=img/PandaLuxRGBPX/en/settings.webp width="300"/>
 
 - ① Settings Page Selection: When you tap this icon, it will turn red to indicate that you are on the Settings page.
 
@@ -298,19 +298,19 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
     - Tap the 'Select .bin File' button to choose the bin file that requires OTA.
 
-        <img src=img/PandaLuxRGBPX/ota_bin.png width="300"/>
+        <img src=img/PandaLuxRGBPX/ota_bin.webp width="300"/>
 
     - Wait for the progress to complete. The device will automatically restart once the update is finished. 
 
-        <img src=img/PandaLuxRGBPX/en/ota_progress.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/ota_progress.webp width="300"/>
 
-        <img src=img/PandaLuxRGBPX/en/ota_ok.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/ota_ok.webp width="300"/>
 
 - ⑤ Tap to Confirm [Restore Factory Settings](#first-connection)
 
 ### Control Page
 
-<img src=img/PandaLuxRGBPX/en/panel.png width="300"/>
+<img src=img/PandaLuxRGBPX/en/panel.webp width="300"/>
 
 - ① Control Page Selection: When you tap the icon, it will turn red to indicate that you are on the Control page.
 
@@ -338,11 +338,11 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
     - ⑧ The light color can change based on the printer’s temperature. Additionally, you can choose between two lighting effects — Static or Strobing — under Safety Effect and Danger Effect.
 
-        <img src=img/PandaLuxRGBPX/en/warning_mode.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/warning_mode.webp width="300"/>
 
     - ⑨ After selection, the color of the light can be adjusted according to the printer. You can choose between the Static or Rainbow lighting effects in the printing.
 
-        <img src=img/PandaLuxRGBPX/en/h2d_mode.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/h2d_mode.webp width="300"/>
 
 - Customizing Light Color (using the Static mode as an example):
 
@@ -352,7 +352,7 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
     - Choose the desired color.
 
-        <img src=img/PandaLuxRGBPX/en/color_preset.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/color_preset.webp width="300"/>
 
         - ① Factory default preset color.
 
@@ -362,9 +362,9 @@ The WiFi connection is complete. Below are the elements and functions of each pa
 
     - After selecting a color block, tap `Confirm`. If you tap on the color block in Color Definition, you can set it to your preferred color.
 
-        <img src=img/PandaLuxRGBPX/en/confirm.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/confirm.webp width="300"/>
 
-        <img src=img/PandaLuxRGBPX/en/custom_ok.png width="300"/>
+        <img src=img/PandaLuxRGBPX/en/custom_ok.webp width="300"/>
 
 
 ## Firmware History

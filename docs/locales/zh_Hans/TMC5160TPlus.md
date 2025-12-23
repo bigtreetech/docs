@@ -5,7 +5,7 @@
 
     [TMC5160T Plus Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/tmc-driver/tmc-5160-t-plus/)
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Title.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -51,11 +51,11 @@ TMC5160T Plus是一款大功率步进电机驱动器控制模块，具有8个大
 
 ## **接口示意图**
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Dim.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Dim.webp width="600"/>
 
 ## **引出线/功能**
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Pin.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Pin.webp width="600"/>
 
 ## **接口介绍**
 
@@ -63,11 +63,11 @@ TMC5160T Plus是一款大功率步进电机驱动器控制模块，具有8个大
 
 常见主板（如SKR3）的连接方法，使用提供的TMC驱动适配器和电缆将TMC5160T Plus与SKR3连接，如图所示：
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Ins1.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Ins1.webp width="600"/>
 
 对于EZ系列主板（例如，Octopus MAX EZ），使用提供的EZ驱动适配器和电缆将TMC5160T Plus与Octopus MAX EZ连接，如图所示：
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Ins2.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Ins2.webp width="600"/>
 
 ## **软件配置**
 
@@ -77,31 +77,31 @@ TMC5160T Plus是一款大功率步进电机驱动器控制模块，具有8个大
 
 <p>步骤1:在Marlin 2.0固件中，找到并打开“Configuration.h”文件，然后找到行“#define MOTHERBOARD XXXXXX”。“XXXXXX”代表所使用的板的模型。确认您正在使用的主板</p>
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Software1.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Software1.webp width="600"/>
 
 步骤2：在Marlin\src\pins目录中，找到与您的板对应的“pins_xxxxxx.h”文件（xxxxxx表示板型号），然后在文件中找到“X_CS_PIN”、“Y_CS_PIN“、“Z_CS_PIN”和“EO_CS_PIN“。根据这些变量将端号名称修改为正在使用的端号。
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Software2.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Software2.webp width="600"/>
 
 步骤3：在步骤2的文件中，找到“#define TMC_SW_MOSI XXX”、“#defined TMC_SW_MISO XXX”和“#defin TMC_SW_SCK XXX”。将“XXX”更改为要使用的引脚。
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Software3.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Software3.webp width="600"/>
 
 步骤4：找到并打开“Configuration_adv.h”，然后找到“#define TMC_USE_SW_SPI”并删除注释符号“//”。
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Software4.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Software4.webp width="600"/>
 
 步骤5：在“Configuration_adv.h”文件中，找到“#define X_CURRENT”、“#defin X_MICROSTEPS”和“#define X_RSENSE”，并修改跟随（对于正在使用的每个轴）。每个使用的轴的RSENSE值应更改为“0.022”。
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Software5.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Software5.webp width="600"/>
 
 步骤6：在“Configuration.h”文件中将相应的轴驱动类型设置为“TMC5160”。
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Software6.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Software6.webp width="600"/>
 
 ### **Klipper固件设置**
 
-<img src=img/TMC5160TPlus/TMC5160TPlus_Software7.png width="600"/>
+<img src=img/TMC5160TPlus/TMC5160TPlus_Software7.webp width="600"/>
 
 <font  color="red">**注意：Klipper中的默认sense_resistor为0.075；需要将其设置为0.022。**</font>
 

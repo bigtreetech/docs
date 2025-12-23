@@ -158,11 +158,11 @@ Panda Alarm配件清单
 
         * ①	`设置`-> ② `网络(WLAN)` -> ③ `OK`
 
-            <img src=img/PandaAlarm/zh/p1_1_2_3.png width="600"/>
+            <img src=img/PandaAlarm/zh/p1_1_2_3.webp width="600"/>
 
         * ⑤ `访问码`
 
-            <img src=img/PandaAlarm/zh/p1_4_5.png width="600"/>
+            <img src=img/PandaAlarm/zh/p1_4_5.webp width="600"/>
 
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 Panda Alarm 已经成功连接到打印机了。
 
@@ -182,20 +182,20 @@ Panda Alarm配件清单
         * `SN码`
             * ①	`设置` -> ② `设备(Device)`
 
-                <img src=img/PandaAlarm/zh/p1_1_2.png width="600"/>
+                <img src=img/PandaAlarm/zh/p1_1_2.webp width="600"/>
 
             * ③ `打印机(Printer)` 即为 `SN码`
 
-                <img src=img/PandaAlarm/zh/p1_3.png width="600"/>
+                <img src=img/PandaAlarm/zh/p1_3.webp width="600"/>
 
         * `访问码` 和 `IP`          
             * ①	`设置`-> ② `网络(WLAN)` -> ③
 
-                <img src=img/PandaAlarm/zh/p1_1_2_3.png width="600"/>
+                <img src=img/PandaAlarm/zh/p1_1_2_3.webp width="600"/>
 
             * ④ `IP`, ⑤ `访问码`
 
-                <img src=img/PandaAlarm/zh/p1_4_5.png width="600"/>
+                <img src=img/PandaAlarm/zh/p1_4_5.webp width="600"/>
 
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 Panda Alarm 已经成功连接到打印机了。
 
@@ -455,7 +455,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 * 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)
 
-    <img src=img/PandaAlarm/zh/download_esp_tool.png width="800"/>
+    <img src=img/PandaAlarm/zh/download_esp_tool.webp width="800"/>
 
 * 下载 [Panda Alarm 的固件](https://github.com/bigtreetech/PandaAlarm)
 
@@ -471,11 +471,11 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
     LoadMode: `UART`
 
-    <img src=img/PandaAlarm/open_esp_tool.png width="400"/>
+    <img src=img/PandaAlarm/open_esp_tool.webp width="400"/>
 
 * 烧录软件的配置如下图
 
-    <img src=img/PandaAlarm/set_esp_tool.png width="400"/>
+    <img src=img/PandaAlarm/set_esp_tool.webp width="400"/>
 
     * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
 

@@ -1,6 +1,6 @@
 # SKR 3 EZ
 
-<img src=img/SKR3_EZ/SKR3_EZ_Title.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -64,17 +64,17 @@ Supported Firmware: Marlin, Klipper, RRF.
 
 ## **Dimensions**
 
-<img src=img/SKR3_EZ/SKR3_EZ_Dimension.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Dimension.webp width="600" />
 
 ## **Peripheral Interface**
 
 ### Interface Diagram
 
-<img src=img/SKR3_EZ/SKR3_EZ_Interface.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Interface.webp width="600" />
 
 ### Pin Description
 
-<img src=img/SKR3_EZ/SKR3_EZ_Pin.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Pin.webp width="600" />
 
 ## **Interface Introduction**
 
@@ -84,17 +84,17 @@ After the SKR 3 EZ V1.0 motherboard is powered on, the red light of D7 (Power) i
 
 Only when using USB to supply power to the motherboard or need to supply power through USB, you need to use the jumper to make the VUSB short circuit.
 
-<img src=img/SKR3_EZ/SKR3_EZ_USB.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_USB.webp width="600" />
 
 ### Motor Voltage Selection
 
 #### Motherboard Power Voltage for Motor Voltage Selection
 
-<img src=img/SKR3_EZ/SKR3_EZ_Motor1.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Motor1.webp width="600" />
 
 #### Motor Supply Voltage for Motor Voltage Selection
 
-<img src=img/SKR3_EZ/SKR3_EZ_Motor2.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Motor2.webp width="600" />
 
 ### Step Motor Drivers
 
@@ -112,23 +112,23 @@ The EZ series drivers support the simultaneous use of both UART and SPI drivers.
 
 As shown in the pictures, plug the jumper cap when using the Sensorless Homing function, and leave it unplugged when not in use. There is no need to cut the DIAG pin of the driver.
 
-<img src=img/SKR3_EZ/SKR3_EZ_Motor3.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Motor3.webp width="600" />
 
 ### USB and CAN Mode
 
 As shown in the figure below, the double-pole double-throw switch is in USB mode when it is in the pop-up state, and in CAN FD mode when it is in the pressed state.
 
-<img src=img/SKR3_EZ/SKR3_EZ_Motor4.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Motor4.webp width="600" />
 
 ### Voltage selection for NC fans
 
 If DCIN is used as the power supply of the numerical control fan, a jumper cap should be used to short-circuit the two pins within the VIN range. If you want to use 12V or 5V as the NC fan power supply, you need to make a jumper cap shortcircuit two pins within the VOT range, and insert the SKR 3-DC MODE into the 2*4Pin VOT and VIN headers.
 
-<img src=img/SKR3_EZ/SKR3_EZ_Voltage.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Voltage.webp width="600" />
 
 Set the VOT output voltage to 5V or 12V by setting the jumper cap on the SKR 3-DC MODE.
 
-<img src=img/SKR3_EZ/SKR3_EZ_Voltage1.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Voltage1.webp width="600" />
 
 ### 100K NTC or PT1000 Setup
 
@@ -136,31 +136,31 @@ When using a 100K NTC thermistor, no need to insert a jumper cap. At this time, 
 
 <font  color="red">**Note: the temperature accuracy read out in this way will be much worse than that of MAX31865.**</font>
 
-<img src=img/SKR3_EZ/SKR3_EZ_100K.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_100K.webp width="600" />
 
 ### BLTouch Connection
 
-<img src=img/SKR3_EZ/SKR3_EZ_BLtouch.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_BLtouch.webp width="600" />
 
 ### Completed Shut-down Module(Relay V1.2) Connection
 
-<img src=img/SKR3_EZ/SKR3_EZ_Relay.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Relay.webp width="600" />
 
 ### Resume Printing(UPS 24V V1.0) Connection
 
-<img src=img/SKR3_EZ/SKR3_EZ_UPS.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_UPS.webp width="600" />
 
 ### RGB Connection
 
-<img src=img/SKR3_EZ/SKR3_EZ_RGB.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_RGB.webp width="600" />
 
 ### Break Detection Connection
 
-<img src=img/SKR3_EZ/SKR3_EZ_Break.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Break.webp width="600" />
 
 ### Touch Screen Connection
 
-<img src=img/SKR3_EZ/SKR3_EZ_Touch.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Touch.webp width="600" />
 
 ### Heater cartridge IO
 
@@ -168,7 +168,7 @@ The IO of the SKR 3 heater cartridge is wired to the MOS by the jumper. You can 
 
 <font  color="red">**Note: The IO passes through logic conversion chip, the output high level is 5V, and cannot be used as an input.**</font>
 
-<img src=img/SKR3_EZ/SKR3_EZ_Heater.png width="600" />
+<img src=img/SKR3_EZ/SKR3_EZ_Heater.webp width="600" />
 
 ## **Marlin**
 

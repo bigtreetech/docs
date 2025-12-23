@@ -5,7 +5,7 @@
 
     [Nebula Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/category/nebula)
 
-<img src=img/Nebula/nebula_title.png width="600" />
+<img src=img/Nebula/nebula_title.webp width="600" />
 
 **Github 仓库**： https://github.com/bigtreetech/Nebula
 
@@ -46,7 +46,7 @@ Nebula 是一款智能挤出机，专为提升性价比而设计，内置 RGB �
 
 **XYZ 尺寸: 52.73 x 36.5 x 54.82mm**
 
-<img src=img/Nebula/nebula_dimensions.png width="600" />
+<img src=img/Nebula/nebula_dimensions.webp width="600" />
 
 ## 挤出齿轮的夹紧间距可调，适配不同类型的耗材
 
@@ -54,11 +54,11 @@ Nebula 是一款智能挤出机，专为提升性价比而设计，内置 RGB �
 
 **<font  color="red">注：当调节螺钉停止转动时，请勿用力，以免损坏挤出机结构。</font>**
 
-<img src=img/Nebula/nebula_adjusting.png width="600" />
+<img src=img/Nebula/nebula_adjusting.webp width="600" />
 
 ## 可编程按钮- Pin脚介绍
 
-<img src=img/Nebula/nebula_programmable_zh.png width="600" />
+<img src=img/Nebula/nebula_programmable_zh.webp width="600" />
 
 https://github.com/julianschill/klipper-led_effect/
 
@@ -77,13 +77,13 @@ https://github.com/julianschill/klipper-led_effect/
 | **电机重量**         | **0.1 kg**            |
 | **绝缘等级**         | **Class F**           |
 
-<img src=img/Nebula/nebula_motor.png width="600" />
+<img src=img/Nebula/nebula_motor.webp width="600" />
 
 ## 产品结构图
 
 **视图**
 
-<img src=img/Nebula/nebula_view.png width="600" />
+<img src=img/Nebula/nebula_view.webp width="600" />
 
 | **1. 电机**         | **15. 惰轮**                |
 | ------------------- | --------------------------- |

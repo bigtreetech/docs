@@ -46,25 +46,25 @@ Panda Stack 是专为 **Bambu Lab打印机** 用户打造的堆叠收纳产品�
 
 **配件清单**
 
-<img src=img/PandaStack/zh/1.png width="1000"/>
+<img src=img/PandaStack/zh/1.webp width="1000"/>
 
 - **第一步，将包装内把手拿出，使用CM4×6螺丝固定到底层抽屉正面的挡板上**
 
-    <img src=img/PandaStack/2.png width="600"/>
+    <img src=img/PandaStack/2.webp width="600"/>
 
 - **第二步，拿出配件包中的拉环，使用CM4×10螺丝固定到顶层置物板可抽动方向的螺丝孔中**
 
-    <img src=img/PandaStack/3.png width="600"/>
+    <img src=img/PandaStack/3.webp width="600"/>
 
 - **第三步，按照图示将左右侧板（滑轨向内）分别使用CM4×6螺丝固定至背板上，随后将顶部置物板使用CM4×6螺丝固定到上方（可抽动一侧向后）**
 
-    <img src=img/PandaStack/4.png width="600"/>
+    <img src=img/PandaStack/4.webp width="600"/>
 
 - **第四步，拿出下层抽屉，将抽屉导轨对准主体轨道插入（见下图），推到底即可**
 
     * 注意！抽屉插入时需保持水平，如发现无法插入，请抽出后重新调整位置后在插，不要硬插
 
-    <img src=img/PandaStack/5.png width="600"/>
+    <img src=img/PandaStack/5.webp width="600"/>
 
     <img src=img/PandaStack/10.jpg width="600"/>
 
@@ -76,11 +76,11 @@ Panda Stack 是专为 **Bambu Lab打印机** 用户打造的堆叠收纳产品�
 
 - **第五步，将配件包中的四个脚垫拧在主体四个拐角底部对应螺丝孔**
 
-    <img src=img/PandaStack/6.png width="600"/>
+    <img src=img/PandaStack/6.webp width="600"/>
 
 - **第六步，配件包中包含一个吸盘，配合打印件可实现打开底部AMS时将盖子固定不掉落**
 
-    <img src=img/PandaStack/7.png width="600"/>
+    <img src=img/PandaStack/7.webp width="600"/>
 
 ## RGB选配灯条安装指南
 

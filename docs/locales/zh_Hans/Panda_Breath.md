@@ -49,7 +49,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 - 关闭打印机主电源，确保操作安全。
 - 请使用 3D 打印机自行打印增高支架。增高支架文件可从[此处获取](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model)。
 
-<img src=img/panda_breath/print_file.png width="250"/>
+<img src=img/panda_breath/print_file.webp width="250"/>
 
 **二、P 系列安装步骤**
 
@@ -138,7 +138,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
     - 连接上Panda_Breath 发出来的AP热点: `Panda_Breath_XXXXXXXXXX`. 默认密码是 `987654321`.
 
-        <img src=img/PandaBreath/ap.png width="300"/>
+        <img src=img/PandaBreath/ap.webp width="300"/>
   
 - 访问AP网页
 
@@ -148,7 +148,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
     - 选择语言后可点击下一步
 
-        <img src=img/PandaBreath/zh/language.png width="300"/>
+        <img src=img/PandaBreath/zh/language.webp width="300"/>
 
 <a id="wifi-connect"></a>
 
@@ -156,33 +156,33 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
     - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
 
-        <img src=img/PandaBreath/zh/wifi_scan.png width="300"/>
+        <img src=img/PandaBreath/zh/wifi_scan.webp width="300"/>
 
     - 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示。
 
-        <img src=img/PandaBreath/zh/wifi_scan_ok.png width="300"/>
+        <img src=img/PandaBreath/zh/wifi_scan_ok.webp width="300"/>
 
     - 点击Wi-Fi下方的选项，选择想要连接的WiFi
 
-        <img src=img/PandaBreath/zh/wifi_list.png width="300"/>
+        <img src=img/PandaBreath/zh/wifi_list.webp width="300"/>
 
     - 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
 
-        <img src=img/PandaBreath/zh/wifi_connect.png width="300"/>
+        <img src=img/PandaBreath/zh/wifi_connect.webp width="300"/>
 
     - 点击连接，界面会自动跳转到操作界面中的`WiFi`界面, 并显示WiFi连接中
 
-        <img src=img/PandaBreath/zh/wifi_connecting.png width="300"/>
+        <img src=img/PandaBreath/zh/wifi_connecting.webp width="300"/>
 
     - 等待连接一段时间后，会弹出WiFi连接的状态弹窗
 
         - 连接失败:
 
-            <img src=img/PandaBreath/zh/wifi_failed.png width="300"/>
+            <img src=img/PandaBreath/zh/wifi_failed.webp width="300"/>
 
         - 连接成功，可选择点击[绑定打印机](#printer-bind)跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
 
-            <img src=img/PandaBreath/zh/wifi_ok.png width="300"/>
+            <img src=img/PandaBreath/zh/wifi_ok.webp width="300"/>
 
 <a id="printer-bind"></a>
 
@@ -190,7 +190,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 - 功能介绍
 
-    <img src=img/PandaBreath/zh/printer.png width="300"/>
+    <img src=img/PandaBreath/zh/printer.webp width="300"/>
 
     - ① 选择打印机界面，点击后聚焦为红色图标，跳转至打印机界面
 
@@ -210,32 +210,32 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
     - 点击扫描一段时间后，会出现`扫描成功`的弹窗
 
-        <img src=img/PandaBreath/zh/printer_scan_ok.png width="300"/>
+        <img src=img/PandaBreath/zh/printer_scan_ok.webp width="300"/>
 
     - 选择扫描出的打印机，可以看到选择打印机后，会自动输入打印机的SN码和IP
 
-        <img src=img/PandaBreath/zh/printer_list.png width="300"/>
+        <img src=img/PandaBreath/zh/printer_list.webp width="300"/>
 
     - 输入打印机的`访问码`
 
         * 在打印机上找到`配对码` (这里以 P1 系列打印机为例)
 
-            <img src=img/PandaBreath/zh/p1_1_2_3.png width="600"/>
+            <img src=img/PandaBreath/zh/p1_1_2_3.webp width="600"/>
 
-            <img src=img/PandaBreath/zh/p1_4_5.png width="600"/>
+            <img src=img/PandaBreath/zh/p1_4_5.webp width="600"/>
 
         * 将 `配对码` 输入到 `访问码` 框内,点击绑定即可开始绑定打印机。
 
-            <img src=img/PandaBreath/zh/printer_bind.png width="300"/>
+            <img src=img/PandaBreath/zh/printer_bind.webp width="300"/>
 
-            <img src=img/PandaBreath/zh/bind_ok.png width="300"/>
+            <img src=img/PandaBreath/zh/bind_ok.webp width="300"/>
 
 
 ## 用户界面说明
 
 ### WiFi界面
 
-<img src=img/PandaBreath/zh/wifi_ip.png width="300"/>
+<img src=img/PandaBreath/zh/wifi_ip.webp width="300"/>
 
 - ① WiFi界面选择，点击后聚焦为红色图标，跳转至WiFi界面。
 
@@ -253,7 +253,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 ### AP界面
 
-<img src=img/PandaBreath/zh/wifi_ap.png width="300"/>
+<img src=img/PandaBreath/zh/wifi_ap.webp width="300"/>
 
 - ① AP界面选择，点击后聚焦为红色图标，跳转至WiFi界面
 
@@ -269,7 +269,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 ### 设置界面
 
-<img src=img/PandaBreath/zh/settings.png width="300"/>
+<img src=img/PandaBreath/zh/settings.webp width="300"/>
 
 - ① 设置界面选择，点击后聚焦为红色图标，跳转至设置界面。
 
@@ -281,13 +281,13 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
     - 点击`选择.bin文件`按钮，选择需要ota的bin文件。
 
-        <img src=img/PandaBreath/zh/ota_bin.png width="300"/>
+        <img src=img/PandaBreath/zh/ota_bin.webp width="300"/>
 
     - 等待ota进度，完成后弹窗自动重启。
 
-        <img src=img/PandaBreath/zh/ota_progress.png width="300"/>
+        <img src=img/PandaBreath/zh/ota_progress.webp width="300"/>
 
-        <img src=img/PandaBreath/zh/ota_ok.png width="300"/>
+        <img src=img/PandaBreath/zh/ota_ok.webp width="300"/>
   
 - ⑤ 点击后，按下确定 [恢复出厂设置](#first-connection)
 
@@ -295,7 +295,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 - 功能介绍
 
-    <img src=img/PandaBreath/zh/panel.png width="300"/>
+    <img src=img/PandaBreath/zh/panel.webp width="300"/>
 
     - ① 实时仓温显示。
     - ② 单击“切换”以打开和关闭设备。
@@ -312,13 +312,13 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 - 强制开启模式
 
-    <img src=img/PandaBreath/zh/force_on.png width="300"/>
+    <img src=img/PandaBreath/zh/force_on.webp width="300"/>
 
     -  腔体目标温度（该值和自动模式下的腔体目标温度为同一值）。
 
 - 耗材烘干模式
 
-    <img src=img/PandaBreath/zh/drying.png width="300"/>
+    <img src=img/PandaBreath/zh/drying.webp width="300"/>
 
     - ① 目标腔体温度和烘干倒计时。
     - ② 参数快速设置按键。

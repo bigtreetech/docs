@@ -1,6 +1,6 @@
 # Hermit Crab 2 Series
 
-<img src=img/Hermit_Crab/Hermit_Crab_title.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_title.webp width="600" />
 
 ## **Product Profile**
 
@@ -47,21 +47,21 @@ The Hermit Crab 2 series is made for fast and simple swapping of print heads on 
 
 ## Dimension
 
-<img src=img/Hermit_Crab/Hermit_Crab_Dimension.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Dimension.webp width="600" />
 
-<img src=img/Hermit_Crab/Hermit_Crab_Dimension1.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Dimension1.webp width="600" />
 
 ## Peripheral Interface
 
 ### Pin Description
 
-<img src=img/Hermit_Crab/Hermit_Crab_Pin.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Pin.webp width="600" />
 
 ### Wiring
 
 **BLTouch Wiring**
 
-<img src=img/Hermit_Crab/Hermit_Crab_wiring.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_wiring.webp width="600" />
 
 ### Fan Voltage Selection 
 
@@ -69,21 +69,21 @@ The Hermit Crab 2 series is made for fast and simple swapping of print heads on 
 
 Use jumper to select voltage for VFAN0 between 5V or 12V.
 
-<img src=img/Hermit_Crab/Hermit_Crab_4PinFan.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_4PinFan.webp width="600" />
 
 **2-Pin Fans**
 
 Use jumper to select voltage for VFAN1 (5V or 24V) and VFAN2 (12V or 24V).
 
-<img src=img/Hermit_Crab/Hermit_Crab_2PinFan.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_2PinFan.webp width="600" />
 
 ### RGB Wiring
 
-<img src=img/Hermit_Crab/Hermit_Crab_RGB.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_RGB.webp width="600" />
 
 ### Octopus Pro to Hermit Crab 2 Wiring
 
-<img src=img/Hermit_Crab/Hermit_Crab_Oct.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Oct.webp width="600" />
 
 ## Firmware Setup（Hermit Crab 2 CAN）
 
@@ -123,17 +123,17 @@ make menuconfig
 
 ​	and configure as shown in the image below.
 
-<img src=img/rp2040_katapult_menuconfig_led.png width="600"/>
+<img src=img/rp2040_katapult_menuconfig_led.webp width="600"/>
 
 3、Enter make to compile the firmware. When make is completed, the required katapult.uf2 firmware will be generated in the home/biqu/Katapult/out folder and can be directly downloaded to the computer on the left side of the SSH software.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware2.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Firmware2.webp width="600" />
 
 4、Hold down the Boot button and connect to Raspberry Pi/CB1 with a Type-C cable. This allows the chip to enter DFU mode.
 
 5、In the SSH terminal command line, enter lsusb to query the DFU device ID.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware3.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Firmware3.webp width="600" />
 
 6、Enter the following command to flash Katapult
 
@@ -159,7 +159,7 @@ make menuconfig
 
 ​	Compile the firmware using the configuration below (if these options are not available, update the Klipper firmware source code to the latest version).
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware4.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Firmware4.webp width="600" />
 
 ​	**[*] Enable extra low-level configuration options Micro-controller** 
 
@@ -193,7 +193,7 @@ make menuconfig
 
 3、Enter make to compile the firmware. When **make** is completed, the required **klipper.bin** firmware will be generated in the **home/pi/klipper/out** folder and can be directly downloaded to the computer on the left side of the SSH software.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware5.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Firmware5.webp width="600" />
 
 ### Firmware Update via KATAPULT
 
@@ -211,7 +211,7 @@ python3 flash_can.py -i can0 -q
 
 ​	to query the CAN bus ID (connect the CAN cable and power-on in advance). As shown in the image below, the UUID of the device is found.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware6.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Firmware6.webp width="600" />
 
 2、Enter
 
@@ -221,7 +221,7 @@ python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
 
 replacing the UUID parameter after "-u" with the actual UUID on your board. Note: by this point, you should have already compiled klipper.bin using "make". Additionally, when selecting the bootloader offset in the Klipper menuconfig, use the 16KiB option since Katapult's Application start offset is 16KiB. The image below shows a successful flashing sequence.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware7.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Firmware7.webp width="600" />
 
 3、Re-enter
 
@@ -231,7 +231,7 @@ python3 flash_can.py -i can0 -q
 
 to query. At this stage, the ‘Application’ has changed from Katapult to Klipper, indicating that Klipper is running normally.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware8.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Firmware8.webp width="600" />
 
 ### Firmware Update via DFU
 
@@ -241,7 +241,7 @@ Raspberry Pi or CB1 firmware update through DFU:
 
 2、In the SSH terminal command line, enter lsusb to query the DFU device ID.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware9.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Firmware9.webp width="600" />
 
 3、Enter cd klipper to navigate to the klipper directory, then enter 
 
@@ -273,7 +273,7 @@ to flash the firmware (note: replace /dev/serial/by-id/xxx with the actual ID ob
 
 For use with BIGTREETECH U2C module:
 
-<img src=img/Hermit_Crab/Hermit_Crab_Can1.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Can1.webp width="600" />
 
 1、In the SSH terminal, enter
 
@@ -318,11 +318,11 @@ Found canbus_uuid=0e0d81e4210c
 
 GitHub: https://github.com/bigtreetech/HermitCrab
 
-<img src=img/Hermit_Crab/Hermit_Crab_Klipper1.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Klipper1.webp width="600" />
 
 2、Upload the motherboard configuration file to Configuration Files.
 
-<img src=img/Hermit_Crab/Hermit_Crab_Klipper2.png width="600" />
+<img src=img/Hermit_Crab/Hermit_Crab_Klipper2.webp width="600" />
 
 3、Add the Hermit Crab configuration to the printer.cfg file:
 

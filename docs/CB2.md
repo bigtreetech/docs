@@ -1,6 +1,6 @@
 # CB2
 
-<img src=img/CB2/CB2_Title.png width="500" />
+<img src=img/CB2/CB2_Title.webp width="500" />
 
 ## **Product Profile**
 
@@ -36,7 +36,7 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
 
 ## **Dimensions**
 
-<img src=img/CB2/CB2_Dimensions.png width="600" />
+<img src=img/CB2/CB2_Dimensions.webp width="600" />
 
 ## **Peripheral Interface**
 
@@ -255,13 +255,13 @@ including Micro HDMI, USB, Gigabit Ethernet, DSI, and CSI outputs. Additionally,
 
 Pressing and holding down SW1 will short-circuit the eMMC signal line to GND, prohibiting communication between SoC and eMMC.
 
-<img src=img/CB2/CB2_Interface1.png width="450" />
+<img src=img/CB2/CB2_Interface1.webp width="450" />
 
-<img src=img/CB2/CB2_Interface2.png width="450" />
+<img src=img/CB2/CB2_Interface2.webp width="450" />
 
 ### 40 pin GPIO
 
-<img src=img/Pi2/Pi2_GPIO.png width="1200" />
+<img src=img/Pi2/Pi2_GPIO.webp width="1200" />
 
 The calculation method for GPIO pins is as follows:
 
@@ -283,15 +283,15 @@ Only use the image provided in [bigtreetech/CB2/releases](https://github.com/big
 
 3. Select your downloaded image.
 
-    <img src=img/CB2/CB2_System1.png width="450" />
+    <img src=img/CB2/CB2_System1.webp width="450" />
 
 4. Select the MicroSD card and click "Flash" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted). 
 
-    <img src=img/CB2/CB2_System2.png width="450" />
+    <img src=img/CB2/CB2_System2.webp width="450" />
 
 5. Wait for the process to complete.
 
-    <img src=img/CB2/CB2_System3.png width="450" />
+    <img src=img/CB2/CB2_System3.webp width="450" />
 
 ### Writing System onto eMMC
 
@@ -301,7 +301,7 @@ Download and unzip `RKDevTool.zip` from the GitHub repo [bigtreetech/CB2](https:
 
 1. Turn the DIP switch 4 (USBOTG) and 3 (RPIBOOT) to the ON position to enter BOOT mode.
 
-    <img src=img/CB2/CB2_System4.png width="450" />
+    <img src=img/CB2/CB2_System4.webp width="450" />
 
 2. Then, connect the Type-C cable to the computer.
 
@@ -309,24 +309,24 @@ Download and unzip `RKDevTool.zip` from the GitHub repo [bigtreetech/CB2](https:
 
     1. In “Device Manager”, if you see “Unknown Device”, it indicates that the computer is missing drivers.
 
-        <img src=img/CB2/CB2_System5.png width="450" />
+        <img src=img/CB2/CB2_System5.webp width="450" />
     
     2. Open the DriverAssistant tool in the downloaded RKDevTool folder, click “①Uninstall Driver”, then click “② Install Driver” to ensure that the latest version of the driver is installed.
 
-        <img src=img/CB2/CB2_System6.png width="450" />
+        <img src=img/CB2/CB2_System6.webp width="450" />
 
     3. After the installation is complete, hold down the “Recovery” button, replug the Type-C cable. "Device Manager" should now recognize a “Rockusb Device”, indicating that the driver installation is successful.
 
-        <img src=img/CB2/CB2_System7.png width="450" />
+        <img src=img/CB2/CB2_System7.webp width="450" />
 
 4. Open the “RKDevTool” software:
 
-    <img src=img/CB2/CB2_System8.png width="450" />
+    <img src=img/CB2/CB2_System8.webp width="450" />
     
     !!! note 
         The parameters in the software are set by default as shown in the image. Normally, you only need to set the “4 actual path of the .img system”. If the parameters in your software do not match those in the image, manually adjust them to match.
 
-        <img src=img/CB2/CB2_System9.png width="600" />
+        <img src=img/CB2/CB2_System9.webp width="600" />
 
     1. Find the path where the downloaded RKDevTool is located.
 
@@ -373,23 +373,23 @@ Download and unzip `RKDevTool.zip` from the GitHub repo [bigtreetech/CB2](https:
 
 Execute the command sudo nand-sata-install. In the interface that pops up, select `2 Boot From eMMC - system on eMMC` and then select `OK`
 
-<img src=img/CB2/CB2_System10.png width="500" />
+<img src=img/CB2/CB2_System10.webp width="500" />
 
 1. Select "Yes" to start erasing and writing the system onto the eMMC.
 
-    <img src=img/CB2/CB2_System11.png width="500" />
+    <img src=img/CB2/CB2_System11.webp width="500" />
 
 2. Choose the filesystem "1 ext4" and then select "OK".
 
-    <img src=img/CB2/CB2_System12.png width="500" />
+    <img src=img/CB2/CB2_System12.webp width="500" />
 
 3. Wait for the writing process to complete.
 
-    <img src=img/CB2/CB2_System13.png width="500" />
+    <img src=img/CB2/CB2_System13.webp width="500" />
 
 4. Upon completion, you will be prompted whether to power off. Select “Power off” to shut down the system.
 
-    <img src=img/CB2/CB2_System14.png width="500" />
+    <img src=img/CB2/CB2_System14.webp width="500" />
 
 5. After the system has powered down, disconnect the power supply, remove the MicroSD card, and then reconnect power. The system should now boot from the eMMC.
 
@@ -403,7 +403,7 @@ When using a MicroSD card as the system card instead, it's best to erase the dat
 
 2. Open the `RKDevTool`.
 
-    <img src=img/CB2/CB2_System15.png width="450" />
+    <img src=img/CB2/CB2_System15.webp width="450" />
 
     1. Find the path where the downloaded RKDevTool is located.
 
@@ -423,7 +423,7 @@ When using a MicroSD card as the system card instead, it's best to erase the dat
 
 2. Run the command sudo mkfs /dev/mmcblk1 and then enter `y` to confirm. 
 
-    <img src=img/CB2/CB2_System16.png width="600" />
+    <img src=img/CB2/CB2_System16.webp width="600" />
 
 ## System Configuration
 
@@ -435,7 +435,7 @@ Ethernet is plug-and-play and requires no additional setup.
 
 After the system image has been written, the MicroSD card will have a FAT32 partition recognized by the computer. In this partition, there is a `system.cfg` file. Open it and replace `Your SSID` with your actual WiFi name and `Your Password` with the actual password.
 
-<img src=img/CB2/CB2_System17.png width="500"/>
+<img src=img/CB2/CB2_System17.webp width="500"/>
 
 ### Configuring Overlays
 
@@ -445,13 +445,13 @@ Open the `armbianEnv.txt` file in the BOOT partition and set the values for over
 overlays=dsi mcp2515 i2c1
 ```
 
-<img src=img/CB2/CB2_System18.png width="600" />
+<img src=img/CB2/CB2_System18.webp width="600" />
 
 ### Configuring the Display
 
 1. Open the "armbianEnv.txt" file in the BOOT partition.
 
-    <img src=img/CB2/CB2_System19.png width="600" />
+    <img src=img/CB2/CB2_System19.webp width="600" />
 
 2. The default overlay is set to "hdmi," meaning the system uses an HDMI screen by default. This can be changed to match the actual screen being used, such as: 
 
@@ -468,13 +468,13 @@ For `tft_35`, there is also a `tft35_spi_rotate` parameter for system-level scre
 
 3. To configure KlipperScreen, open the `system.cfg` file in the BOOT partition. Set the screen type with the parameter `ks_src`, and the rotation angle with `ks_angle`.
 
-<img src=img/CB2/CB2_System20.png width="500" />
+<img src=img/CB2/CB2_System20.webp width="500" />
 
 ### Using SPI to CAN
 
 Open the `armbianEnv.txt` file in the BOOT partition and add `mcp2515` to the overlays configuration.
 
-<img src=img/CB2/CB2_System21.png width="500" />
+<img src=img/CB2/CB2_System21.webp width="500" />
 
 ### Using CSI Camera and Crowsnest Configuration
 
@@ -487,7 +487,7 @@ device: /dev/video0
 custom_flags: --format=UYVY
 # The current system's CSI camera does not support the default YUYV, so it needs to be set to the supported UYVY format.
 ```
-<img src=img/CB2/CB2_System22.png width="500" />
+<img src=img/CB2/CB2_System22.webp width="500" />
 
 ### Using Bluetooth
 
@@ -497,11 +497,11 @@ custom_flags: --format=UYVY
     bluetoothctl --timeout 15 scan on
     ```
 
-    <img src=img/CB2/CB2_System23.png width="500" />
+    <img src=img/CB2/CB2_System23.webp width="500" />
 
 2. Find your Bluetooth device, for example, if your device name is "HONOR xSport PRO", locate the corresponding Bluetooth MAC ID as shown below.
 
-    <img src=img/CB2/CB2_System24.png width="500" />
+    <img src=img/CB2/CB2_System24.webp width="500" />
 
 3. To connect to a Bluetooth device, enter the following command, connection success is shown as below
 
@@ -509,11 +509,11 @@ custom_flags: --format=UYVY
     bluetoothctl connect E0:9D:FA:50:CD:4F
     ```
 
-    <img src=img/CB2/CB2_System25.png width="500" />
+    <img src=img/CB2/CB2_System25.webp width="500" />
 
     1. If there's an issue while connecting, as shown below, please restart the Bluetooth device and repeat steps 1 and 2 to connect.
 
-        <img src=img/CB2/CB2_System26.png width="500" />
+        <img src=img/CB2/CB2_System26.webp width="500" />
 
     2. If there's an issue while connecting, as shown below, please enter the following commands and then repeat steps 1 and 2:
 
@@ -526,11 +526,11 @@ custom_flags: --format=UYVY
         pulseaudio –start
         ```
 
-        <img src=img/CB2/CB2_System27.png width="500" />
+        <img src=img/CB2/CB2_System27.webp width="500" />
 
 4. If you exit voice playback during the use of Bluetooth and cannot reuse it, manually delete the corresponding playback process. Use the ps command to view the process number, then use `kill -9 <process_number>` to delete the corresponding playback process.
 
-    <img src=img/CB2/CB2_System28.png width="500" />
+    <img src=img/CB2/CB2_System28.webp width="500" />
 
 ### Setting up 3.5mm Headphones Port
 
@@ -542,7 +542,7 @@ custom_flags: --format=UYVY
 
 Check for the corresponding sound card, as shown in the image (the sound card for the headphone port shown in the image corresponds to `card 0`).
 
-<img src=img/CB2/CB2_System29.png width="500" />
+<img src=img/CB2/CB2_System29.webp width="500" />
 
 2. Enter the command:
 
@@ -552,7 +552,7 @@ Check for the corresponding sound card, as shown in the image (the sound card fo
 
     Check the settings for playback and recording channels, as shown in the image.
 
-    <img src=img/CB2/CB2_System30.png width="500" />
+    <img src=img/CB2/CB2_System30.webp width="500" />
 
 3. Enter the command:
 
@@ -562,7 +562,7 @@ Check for the corresponding sound card, as shown in the image (the sound card fo
 
     Set the playback channel, as shown in the image.
 
-    <img src=img/CB2/CB2_System31.png width="500" />
+    <img src=img/CB2/CB2_System31.webp width="500" />
 
 4. Enter the command:
 
@@ -572,7 +572,7 @@ Check for the corresponding sound card, as shown in the image (the sound card fo
 
     Set the recording channel, as shown in the image.
 
-    <img src=img/CB2/CB2_System32.png width="500" />
+    <img src=img/CB2/CB2_System32.webp width="500" />
 
 5. Enter the following command to play audio, with the audio file directory xxx and the audio file name xxxxx.wav:
 
@@ -603,15 +603,15 @@ aplay -D plughw:0,0 /path/to/file.wav
 
 3. Access the router management interface to find the device's IP (it should be BTT-CB2 here).
 
-    <img src=img/CB2/CB2_System33.png width="500" />
+    <img src=img/CB2/CB2_System33.webp width="500" />
 
 4. Open Mobaxterm and click "Session", and click "SSH", inset the device IP into Remote host and click "OK" (Note: your computer and the device needs to be in the same network).
 
-    <img src=img/CB2/CB2_System34.png width="500" />
+    <img src=img/CB2/CB2_System34.webp width="500" />
 
 5. Login as: `biqu` password: `biqu`
 
-    <img src=img/CB2/CB2_System35.png width="500" />
+    <img src=img/CB2/CB2_System35.webp width="500" />
 
 ## Precautions
 

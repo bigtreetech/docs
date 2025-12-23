@@ -1,6 +1,6 @@
 # Universal Turbo Kit
 
-<img src=img/Turbo_Kit/Turbo_Kit_Title.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Title.webp width="600"/>
 
 **Product Link:**
 
@@ -45,25 +45,25 @@ The BIQU Universal Turbo Kit consists of high-quality, high-performance componen
 
 ## **Motor Specification**
 
-<img src=img/Turbo_Kit/Turbo_Kit_Motor1.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Motor1.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Motor2.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Motor2.webp width="600"/>
 
 ## **Driver Specification**
 
-<img src=img/Turbo_Kit/Turbo_Kit_Driver1.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Driver1.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Driver2.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Driver2.webp width="600"/>
 
 ## **Dimensions**
 
-<img src=img/Turbo_Kit/Turbo_Kit_Dimensions1.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Dimensions1.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Dimensions2.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Dimensions2.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Dimensions3.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Dimensions3.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Dimensions4.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Dimensions4.webp width="600"/>
 
 ## **Wiring Instruction**
 
@@ -82,9 +82,9 @@ The BIQU Universal Turbo Kit consists of high-quality, high-performance componen
 5. Connect the power to 24V DC.
 6. Connect the signal cable to any fan port (3.3-24V full range compatibility).
 
-<img src=img/Turbo_Kit/Turbo_Kit_Wiring1.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Wiring1.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Wiring2.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Wiring2.webp width="600"/>
 
 ## **Firmware Setup**
 

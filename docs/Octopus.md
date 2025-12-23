@@ -1,6 +1,6 @@
 # Octopus
 
-<img src=img/Octopus/Octopus_Title.png width="600"/>
+<img src=img/Octopus/Octopus_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -61,11 +61,11 @@ The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherbo
 
 ## **Dimensions**
 
-**<img src=img/Octopus/Octopus_Dimension.png width="600"/>**
+**<img src=img/Octopus/Octopus_Dimension.webp width="600"/>**
 
 ## **Interface Diagram**
 
-**<img src=img/Octopus/Octopus_CAD.png width="600"/>**
+**<img src=img/Octopus/Octopus_CAD.webp width="600"/>**
 
 ## **Pinout**
 
@@ -83,7 +83,7 @@ The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherbo
 
 **Power wiring is as shown below (look on the underside of your board to identify the purpose of each input). The positive (red) wire from the power supply goes to the terminal marked +. The negative (black) wire from the power supply goes to the terminal marked -. The polarity (+ and -) is also silk screened onto the underside of the board as a convenience to the user.**
 
-**<img src=img/Octopus/Octopus_24V.png width="600"/>**
+**<img src=img/Octopus/Octopus_24V.webp width="600"/>**
 
 
 
@@ -95,7 +95,7 @@ The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherbo
 
 **If you do not connect this jumper then you must provide the board with power via the main input supply if you would like to communicate via USB-C**
 
-**<img src=img/Octopus/Octopus_5V.png width="600"/>**
+**<img src=img/Octopus/Octopus_5V.webp width="600"/>**
 
 ## **Hardware Installation**
 
@@ -103,7 +103,7 @@ The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherbo
 
 **When using the BIGTREETECH Relay V1.2 module, the wiring can be performed as shown in the figure below.** 
 
-**<img src=img/Octopus/Octopus_Auto.png width="600"/>**
+**<img src=img/Octopus/Octopus_Auto.webp width="600"/>**
 
 
 
@@ -113,19 +113,19 @@ The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherbo
 
 **When using a BL Touch, wire it to the motherboard as shown in the figure below. As always, never perform any work on the motherboard with power applied.**
 
-**<img src=img/Octopus/Octopus_BLTouch.png width="600"/>**
+**<img src=img/Octopus/Octopus_BLTouch.webp width="600"/>**
 
 ### **POWER LOSS RECOVERY MODULE WIRING**
 
 **When using the BIGTREETECH mini UPS, wire it to the motherboard as shown in the figure below. As always, never perform any work on the motherboard with power applied.**
 
-**<img src=img/Octopus/Octopus_Power_L.png width="600"/>**
+**<img src=img/Octopus/Octopus_Power_L.webp width="600"/>**
 
 ### **RGB LED WIRING**
 
 **When using the motherboard with RGB LEDs you should wire them as shown in the image below. The exact pinout of the connector can be found on the silkscreen on the underside of the motherboard.**
 
-**<img src=img/Octopus/Octopus_RGB.png width="600"/>**
+**<img src=img/Octopus/Octopus_RGB.webp width="600"/>**
 
 ### **RASPBERRY PI WIRING**
 
@@ -137,7 +137,7 @@ The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherbo
 
 **5V power for the raspberry pi is provided via the dedicated Raspberry pi header. Consult the PINS.pdf document for the exact pinout of this header.**
 
-**<img src=img/Octopus/Octopus_RAS.png width="600"/>**
+**<img src=img/Octopus/Octopus_RAS.webp width="600"/>**
 
 ### **PROBE PORT WIRING**
 
@@ -147,7 +147,7 @@ The BIGTREETECH Octopus V1.0 is a powerful and feature rich, 3D printer motherbo
 
 **Regardless of the kind of probe you are using, you will need to enable the internal pulldown resistor on the probe input pin in order for it to generate an output signal. Please refer to the pin configuration instructions for the specific firmware that you are using to find out how to enable a pull down resistor on the probe input pin.**
 
-**<img src=img/Octopus/Octopus_Probe.png width="600"/>**
+**<img src=img/Octopus/Octopus_Probe.webp width="600"/>**
 
 ### **STEPPER DRIVER OPERATIONAL MODES**
 
@@ -162,11 +162,11 @@ placed the stepper sockets close to each other. This means that drivers will hav
 
 **Nevertheless, below you will see a figure which will help you to identify which jumpers correspond to the pins that your drivers will use to configure microstepping and we have additionally included a section in appendix A1 which contains the microstepping tables for some of the most common drivers. This should be viewed as a convenience to the user and we still recommend that you consult the datasheet of your driver manufacturer.**
 
-**<img src=img/Octopus/Octopus_DRI1.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI1.webp width="600"/>**
 
 **In the above image the red rectangle isolates one group of driver pins. For the purpose of running the drivers in step/dir mode the pinout can be described as per the table below (note that this is not the actual pinout but rather a simplification for step/dir mode).**
 
-**<img src=img/Octopus/Octopus_DRI2.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI2.webp width="600"/>**
 
 **Connecting jumpers between the upper two rows will set the middle pin (MS) to 0V.** 
 **Connecting jumpers between the lower two rows will set the middle pin (MS) to 3.3V except for the jumpers in the first column where it will connect SLP and RST.**
@@ -181,13 +181,13 @@ placed the stepper sockets close to each other. This means that drivers will hav
 
 **When using a driver in UART mode, connect the jumpers beneath that driver as show in the image below.**
 
-**<img src=img/Octopus/Octopus_DRI3.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI3.webp width="600"/>**
 
 #### **SPI MODE**
 
 **When using a driver in SPI mode, connect the jumpers beneath that driver as shown in the image below.**
 
-**<img src=img/Octopus/Octopus_DRI4.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI4.webp width="600"/>**
 
 ### **MOTHERBOARD JUMPER SETTINGS**
 
@@ -198,19 +198,19 @@ placed the stepper sockets close to each other. This means that drivers will hav
 **<font  color="red">*Note: The polarity of the fan ports was erroneously swapped on the silkscreen on the underside of some early boards. To be sure of the correct polarity, 
 please consult the PINS.pdf document or see the images below.*</font>**
 
-**<img src=img/Octopus/Octopus_DRI5.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI5.webp width="600"/>**
 
 **All of the fan outputs and the proximity sensor input can individually have the voltage supplied by their pin header selected by configuring the jumpers associated with each header.**
 
-**<img src=img/Octopus/Octopus_DRI6.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI6.webp width="600"/>**
 
 **Configure the jumpers as below to select 12V.**
 
-**<img src=img/Octopus/Octopus_DRI7.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI7.webp width="600"/>**
 
 **Configure the jumpers as below for 5V.**
 
-**<img src=img/Octopus/Octopus_DRI8.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI8.webp width="600"/>**
 
 
 
@@ -223,7 +223,7 @@ positive output as shown in the images.*</font>**
 
 **The exact diag numbering can be found by looking at the pins file or the silkscreen beneath the board.**
 
-**<img src=img/Octopus/Octopus_DRI9.png width="600"/>**
+**<img src=img/Octopus/Octopus_DRI9.webp width="600"/>**
 
 ### **SPECIAL NOTE ON EXPANSION INTERFACES**
 
@@ -237,7 +237,7 @@ positive output as shown in the images.*</font>**
 
 **If you would like to confirm that the driver has been installed correctly you can access the device manager in windows and look for a virtual com port when the motherboard is plugged in. In the image below the motherboard has been assigned COM7 however your operating system may assign it any available COM port number. Other operating systems will list serial ports in a different manner.**
 
-**<img src=img/Octopus/Octopus_Soft1.png width="600"/>**
+**<img src=img/Octopus/Octopus_Soft1.webp width="600"/>**
 
 ### **MOTHERBOARD FIRMWARE SUPPORT**
 
@@ -257,7 +257,7 @@ positive output as shown in the images.*</font>**
 
 **If you are using Klipper then please ensure that you have the following settings enabled in order to download the firmware to the board while preserving the factory bootloader:**
 
-**<img src=img/Octopus/Octopus_Soft2.png width="600"/>**
+**<img src=img/Octopus/Octopus_Soft2.webp width="600"/>**
 
 ## **PRECAUTIONS**
 
@@ -270,7 +270,7 @@ positive output as shown in the images.*</font>**
 - **It is recommended to update the firmware using SD card. Using DFU (direct programming via the USB port) will overwrite the bootloader meaning that you will no longer have the option to update via SD card.**
 - **The stock Octopus does not come with a INA826AIDR amplifier chip. If you want to use the PT100 interface, you need to purchase a INA826AIDR chip (SOP-8 Package) separately and solder the chip into the correct position as shown below.**
 
-**<img src=img/Octopus/Octopus_Soft3.png width="600"/>**
+**<img src=img/Octopus/Octopus_Soft3.webp width="600"/>**
 
 - **The silkscreen on the first production run of the octopus had incorrectly labeled pins on the connectors listed below. To be sure that you are wiring on the correct pins please use the PINS.pdf document when using any of these connectors. The silkscreen has been corrected and all subsequent Octopus boards will reflect the correct mapping.**
 

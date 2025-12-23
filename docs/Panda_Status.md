@@ -26,7 +26,7 @@
 
 * Step 1: Print the control board PCB casing. Print file download from [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) or [Maker world](https://makerworld.com/en/models/1650182-panda-status-upper-shell#profileId-1744587)
 
-  <img src=img/panda_status/case.png width="600"/>
+  <img src=img/panda_status/case.webp width="600"/>
 
 * Step 2: Install the control board into the printed casing, then securely snap on the rear cover.
 
@@ -42,7 +42,7 @@
 
 * Step 4: Pass the Type-C end of the power cable through the hole and connect it to the control board, which should already have the casing installed.
 
-  <img src=img/panda_status/7.png width="600"/>
+  <img src=img/panda_status/7.webp width="600"/>
 
   <img src=img/panda_status/5.jpg width="600"/>
 
@@ -50,7 +50,7 @@
 
 * Step 5: Install the printed casing into the printer (compress the spring to insert it, then release it to secure the casing in place. Push it to the right until it reaches the  approximate position shown in the image below). Connect the power cable for the Panda Status.
 
-  <img src=img/panda_status/10.png width="600"/>
+  <img src=img/panda_status/10.webp width="600"/>
 
   <img src=img/panda_status/8.jpg width="600"/>
 
@@ -96,51 +96,51 @@
 
 * Step 10: Route the cables beneath the heated bed (as shown in the image).
 
-  <img src=img/panda_status/27.png width="600"/>
+  <img src=img/panda_status/27.webp width="600"/>
 
 ### Bambu Lab A1
 
 * Step 1: Print the controller casing. Print file download from [github](https://github.com/bigtreetech/Panda_Status/tree/master/Print_Files) or [Maker world](https://makerworld.com/en/models/1650182-panda-status-upper-shell#profileId-1744587)
 
-  <img src=img/panda_status/A1_case.png width="600"/>
+  <img src=img/panda_status/A1_case.webp width="600"/>
 
 * Step 2: Install the controller board into the printed casing and securely snap the back cover into place.
 
-  <img src=img/panda_status/A1_1.png width="600"/>
+  <img src=img/panda_status/A1_1.webp width="600"/>
 
-  <img src=img/panda_status/A1_2.png width="600"/>
+  <img src=img/panda_status/A1_2.webp width="600"/>
 
 * Step 3: Mount the printed casing to the back of the printer (use the longer strip of double‑sided tape included in the kit as the backing adhesive for the casing).
 
-  <img src=img/panda_status/A1_3.png width="600"/>
+  <img src=img/panda_status/A1_3.webp width="600"/>
 
-  <img src=img/panda_status/A1_4.png width="600"/>
+  <img src=img/panda_status/A1_4.webp width="600"/>
 
-  <img src=img/panda_status/A1_5.png width="600"/>
+  <img src=img/panda_status/A1_5.webp width="600"/>
 
 * Step 4: Move the heated bed toward the back of the printer (from the printer's perspective) and clean the mounting surface with an alcohol wipe, then a dry cloth.
 
-  <img src=img/panda_status/A1_13.png width="600"/>
+  <img src=img/panda_status/A1_13.webp width="600"/>
 
 * Step 5: Plug in the Panda Status power cable. Peel off the protective film from the double-sided tape and press the Panda Status firmly onto the front of the heated bed. <br> Full bond strength is achieved after 24 hours.
 
-  <img src=img/panda_status/A1_6.png width="600"/>
+  <img src=img/panda_status/A1_6.webp width="600"/>
 
-  <img src=img/panda_status/A1_7.png width="600"/>
+  <img src=img/panda_status/A1_7.webp width="600"/>
 
-  <img src=img/panda_status/A1_8.png width="600"/>
+  <img src=img/panda_status/A1_8.webp width="600"/>
 
 * Step 6: Cut acetate tape to the appropriate length and use it to route and secure the cables along the underside of the heated bed (as shown).
 
-  <img src=img/panda_status/A1_9.png width="600"/>
+  <img src=img/panda_status/A1_9.webp width="600"/>
 
-  <img src=img/panda_status/A1_10.png width="600"/>
+  <img src=img/panda_status/A1_10.webp width="600"/>
 
-  <img src=img/panda_status/A1_11.png width="600"/>
+  <img src=img/panda_status/A1_11.webp width="600"/>
 
 * Step 7: Connect the Panda Status power cable and the controller power cable to the controller board.
 
-  <img src=img/panda_status/A1_12.png width="600"/>
+  <img src=img/panda_status/A1_12.webp width="600"/>
 
 # Installation Guide
 
@@ -152,7 +152,7 @@
 
 * Step 1: Print the Control Board PCB Housing
 
-<img src=img/panda_status/A1pcb.png width="600"/>
+<img src=img/panda_status/A1pcb.webp width="600"/>
 
 * Step 2: Install the control board into the printed housing. Snap the back cover securely into place, then attach the included double-sided tape to the back of the housing as shown.
 
@@ -234,26 +234,26 @@ Some users may notice small gaps or less-than-perfect adhesion during installati
 2. **Heatbed angle differences**: The vertical angle of the A1 heated bed is slightly different from that of the PX series. <br>
    And, on some PX printers, slight differences in the leveling knob positions under the heatbed can affect how well the Status light  bar fits.
 
-<img src=img/panda_status/solve_1.png width="600"/>
+<img src=img/panda_status/solve_1.webp width="600"/>
 
-<img src=img/panda_status/solve_2.png width="600"/>
+<img src=img/panda_status/solve_2.webp width="600"/>
 
 3. The Status light bar has two contact surfaces as shown, and in practice, attaching only one side is usually enough to hold it firmly.
 
-<img src=img/panda_status/solve_3.png width="600"/>
+<img src=img/panda_status/solve_3.webp width="600"/>
 
 * Improving the Fit
 
   1. Apply double-sided tape only to the bottom side. (This provides sufficient strength but may leave a visible gap in front.)
 
-<img src=img/panda_status/solve_4.png width="600"/>
+<img src=img/panda_status/solve_4.webp width="600"/>
 
-<img src=img/panda_status/solve_5.png width="600"/>
+<img src=img/panda_status/solve_5.webp width="600"/>
     
 
   2. For improved appearance, use the spare double-sided tape included in the package (prepared specifically for this issue). Apply tape to both angled contact surfaces of the Status light bar before attaching it to the heated bed.
 
-<img src=img/panda_status/solve_6.png width="600"/>
+<img src=img/panda_status/solve_6.webp width="600"/>
 
 ## First Connection 
 
@@ -269,24 +269,24 @@ When you power up for the first time or restore factory settings, you'll see a b
 
   * Connect to the Panda_Status AP hotspot: `Panda_Status_XXXXXXXXXX`. The default password is `987654321`.
 
-    <img src=img/panda_status/en/pc_wifi_list.png width="300"/>
+    <img src=img/panda_status/en/pc_wifi_list.webp width="300"/>
 
 * Accessing the AP Webpage
 
   * After connecting to the AP, open a browser on your computer and enter the default IP address: `192.168.4.1`. On mobile devices, the Panda_Status Web UI will automatically appear, or you can manually enter the IP address in the browser: `192.168.4.1`.
     For Computer:
 
-    <img src=img/panda_status/en/pc_hello.png width="800"/>
+    <img src=img/panda_status/en/pc_hello.webp width="800"/>
 
     For Mobile:
 
-    <img src=img/panda_status/en/phone_hello.png width="300"/>
+    <img src=img/panda_status/en/phone_hello.webp width="300"/>
 
 * Select Language (Default: English)
 
   * After selecting a language, click `Next`.
 
-    <img src=img/panda_status/en/languge.png width="300"/>
+    <img src=img/panda_status/en/languge.webp width="300"/>
 
 <a id="wifi_connect_section"></a>
 
@@ -330,7 +330,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 * Elements and Functions
 
-  <img src=img/panda_status/en/printer.png width="300"/>
+  <img src=img/panda_status/en/printer.webp width="300"/>
 
   * ① Printer Page Selection: When you click the icon, it will turn red to indicate that you are on the Printer page.
   * ② Scan for Printers on the Same Local Network
@@ -352,9 +352,9 @@ When you power up for the first time or restore factory settings, you'll see a b
 
   Enter the printer's access code: Find the access code in the printer's settings, enter it in the box, and click `Bind` to successfully bind the printer.
 
-  <img src=img/panda_status/en/p1_1_2_3.png width="600"/>
+  <img src=img/panda_status/en/p1_1_2_3.webp width="600"/>
 
-  <img src=img/panda_status/en/p1_4_5.png width="600"/>
+  <img src=img/panda_status/en/p1_4_5.webp width="600"/>
 
   <img src=img/panda_status/en/printer_binding.gif width="300"/>
 
@@ -364,7 +364,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 * Elements and Functions
 
-  <img src=img/panda_status/en/wifi_ip.png width="300"/>
+  <img src=img/panda_status/en/wifi_ip.webp width="300"/>
 
   * ① WiFi Page Selection:  When you click the icon, it will turn red to indicate that you are on the WiFi page.
   * ② Current WiFi Connection Status
@@ -378,7 +378,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 * Elements and Functions
 
-  <img src=img/panda_status/en/ap.png width="300"/>
+  <img src=img/panda_status/en/ap.webp width="300"/>
 
   * ① AP Page Selection:  When you click the icon, it will turn red to indicate that you are on the AP page.
   * ② AP Hotspot Switch
@@ -404,7 +404,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     * Click `Select .bin File` to choose the .bin file for the OTA update.
 
-      <img src=img/panda_status/en/fw_upload.png width="300"/>
+      <img src=img/panda_status/en/fw_upload.webp width="300"/>
 
     * Wait for the progress to complete, and the device will automatically restart once the update is finished.
 
@@ -418,7 +418,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 * Elements and Functions
 
-  <img src=img/panda_status/en/rgb.png width="300"/>
+  <img src=img/panda_status/en/rgb.webp width="300"/>
 
   * ① Control Page Selection: When you click the icon, it will turn red to indicate that you are on the Control page.
   * ② Current Device Name

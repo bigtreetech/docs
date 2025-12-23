@@ -1,6 +1,6 @@
 # EBB SB2209 USB V1.0
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Title.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -40,19 +40,19 @@ The BIGTREETECH EBB SB2209 USB V1.0 is a tool board designed for the Voron Steal
 
 ## **Dimensions**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions1.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions1.webp width="600"/>
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions2.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions2.webp width="600"/>
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions3.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Dimensions3.webp width="600"/>
 
 ## **Peripheral Interface**
 
 ### Pin Description
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Peripheral1.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Peripheral1.webp width="600"/>
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Peripheral2.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Peripheral2.webp width="600"/>
 
 ## **Interface Introduction/Connection**
 
@@ -60,15 +60,15 @@ The BIGTREETECH EBB SB2209 USB V1.0 is a tool board designed for the Voron Steal
 
 When powered normally, the power indicator "P" stays on, and the status indicator "S" lights up when the program starts. 
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface1.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface1.webp width="600"/>
 
 ### **Heater Cartridge** 
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface2.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface2.webp width="600"/>
 
 ### **100K NTC or PT1000**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface3.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface3.webp width="600"/>
 
 <font  color="red">**Note:**</font> 
 
@@ -78,21 +78,21 @@ When powered normally, the power indicator "P" stays on, and the status indicato
 
 ### **Probe**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface4.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface4.webp width="600"/>
 
 ### **Endstop**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface5.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface5.webp width="600"/>
 
 ### **Proximity Switch**
 
 #### **Connecting the NPN Type Proximity Switch**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface6.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface6.webp width="600"/>
 
 #### **Connecting the PNP Type Proximity Switch**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface7.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface7.webp width="600"/>
 
 **Note:** 
 
@@ -102,19 +102,19 @@ If using an NPN type proximity switch, use a jumper to short the two pins at the
 
 #### **Connecting a Fan**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface8.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface8.webp width="600"/>
 
 ### **Stepper Motor**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface9.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface9.webp width="600"/>
 
 ### **I2C**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface10.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface10.webp width="600"/>
 
 ### **USB2.0**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface11.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface11.webp width="600"/>
 
 **Note:** 
 
@@ -126,29 +126,29 @@ It is recommended to use a camera with a resolution of 1080P or lower to maintai
 
 #### **4-pin Fan**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface12.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface12.webp width="600"/>
 
 **Note:** The 4-pin fan interface defaults to 5V output at the factory. You will need to manually solder the fuse to the 24V side if you want to use 24V.
 
 #### **2-pin Fan**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface13.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface13.webp width="600"/>
 
 **Note:** The 2-pin fan interface defaults to 24V output at the factory. You will need to manually solder the fuse to the 5V side if they want to use 5V.
 
 ### **RGB**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface14.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface14.webp width="600"/>
 
 ### **5V-OUT**
 
 KNOMI:
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface15.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface15.webp width="600"/>
 
 KNOMI 2:
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface16.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Interface16.webp width="600"/>
 
 ## **Klipper**
 
@@ -182,7 +182,7 @@ available, update the Klipper firmware source code to the latest version).
  Communication Interface (USBSERIAL)  --->
 ```
 
-<img src=img/rp2040_usb_menuconfig.png width="600"/>
+<img src=img/rp2040_usb_menuconfig.webp width="600"/>
 
 2、After configuring, enter ‘q’ to exit the configuration interface. When asked to 
 
@@ -208,7 +208,7 @@ lsusb
 
 to query the DFU device ID.
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper2.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper2.webp width="600"/>
 
 Enter 
 
@@ -246,20 +246,20 @@ to flash the firmware (note: replace **/dev/serial/by-id/xxx** with the actual I
 
 https://github.com/bigtreetech/EBB
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper3.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper3.webp width="600"/>
 
 2、Upload the motherboard configuration file to **Configuration Files**.
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper4.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper4.webp width="600"/>
 
 3、Add the mainboard configuration in the "printer.cfg" file:
 
 **[include sample-bigtreetech-ebb-sb-usb-v1.0.cfg]**
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper5.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper5.webp width="600"/>
 
 4、Change the USB serial within the configuration file to match the actual ID of the motherboard.
 
-<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper6.png width="600"/>
+<img src=img/EBB_SB2209_USB/EBB_SB2209_USB_Klipper6.webp width="600"/>
 
 5、Configure the specific functions of the module according to the instructions in the following link: https://www.klipper3d.org/Overview.html

@@ -1,6 +1,6 @@
 # Panda Hub
 
-<img src=img/Panda_Hub/Panda_Hub_Title.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -22,15 +22,15 @@ BIGTREETECH Panda Hub是BIGTREETECH 3D打印团队针对USB2.0扩展制作的一
 
 ## **产品尺寸**
 
-<img src=img/Panda_Hub/Panda_Hub_Dimensions.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Dimensions.webp width="600"/>
 
-<img src=img/Panda_Hub/Panda_Hub_Dimensions1.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Dimensions1.webp width="600"/>
 
 ## **接口介绍**
 
 ### 端口说明
 
-<img src=img/Panda_Hub/Panda_Hub_Interface.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Interface.webp width="600"/>
 
 ## **注意事项**
 
@@ -43,7 +43,7 @@ BIGTREETECH Panda Hub是BIGTREETECH 3D打印团队针对USB2.0扩展制作的一
 
 ## **安装指南**
 
-<img src=img/Panda_Hub/Panda_Hub_Installation.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Installation.webp width="600"/>
 
 **Preparation:**
 
@@ -59,7 +59,7 @@ M2.5x8螺丝 x2（配件包内含）
 
 电烙铁（自备）
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation.webp width="600"/>
 
 **安装步骤**
 
@@ -67,67 +67,67 @@ M2.5x8螺丝 x2（配件包内含）
 
 将两颗M2.5x8热熔螺母分别插入外壳正反两面的预留孔中，并用烙铁将其嵌入外壳打印件内，确保螺母与安装面齐平。 （如需如何使用烙铁嵌入热熔螺母的教程，请跳转至本教程末尾查看。）
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation1.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation1.webp width="600"/>
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation2.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation2.webp width="600"/>
 
 2、安装Panda Hub
 
 将Panda Hub放入外壳打印件中。
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation3.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation3.webp width="600"/>
 
 盖上盖子，使用2.0螺丝刀  用M2.5x8螺丝将其固定。
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation4.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation4.webp width="600"/>
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation5.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation5.webp width="600"/>
 
 将组装好的Panda Hub插入打印机USB端口
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation6.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation6.webp width="600"/>
 
 取下屏幕，然后使用2.0六角螺丝刀拆下屏幕下方的螺丝 
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation7.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation7.webp width="600"/>
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation8.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation8.webp width="600"/>
 
 将Panda Hub热熔螺母的螺纹孔与机器上刚取下的螺丝孔对准后，使用2.0六角螺丝刀，用M2.5x8螺丝将Panda Hub固定在机器上。
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation9.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation9.webp width="600"/>
 
 装回屏幕，完成安装。
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation10.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation10.webp width="600"/>
 
 将Panda Touch USB线/USB灯条插入Panda Hub即可使用。
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation11.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation11.webp width="600"/>
 
 **如何使用烙铁嵌入热熔螺母：**
 
 准备好需要嵌入热熔螺母的打印件。
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation12.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation12.webp width="600"/>
 
 将热熔螺母置于打印件的预留孔位。
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation13.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation13.webp width="600"/>
 
 BIGTREETECH Panda Hub 用户手册   13   将热熔螺母置于打印件的预留孔位。  使用已加热的烙铁，垂直向下施加压力，将热熔螺母熔入打印件中； 
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation14.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation14.webp width="600"/>
 
 在此过程中，烙铁会加热螺母，使其缓慢熔入部件中； 请尽量耐心，螺母熔入的速度越慢，金属与塑料之间的结合就越牢固； 待螺母顶部与打印件表面齐平后，即可停止加热并取出烙铁。
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation15.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation15.webp width="600"/>
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation16.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation16.webp width="600"/>
 
 完成！
 
-<img src=img/Panda_Hub/Panda_Hub_Preparation17.png width="600"/>
+<img src=img/Panda_Hub/Panda_Hub_Preparation17.webp width="600"/>
 
 **注意事项：**
 

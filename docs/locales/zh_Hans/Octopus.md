@@ -1,6 +1,6 @@
 # Octopus
 
-<img src=img/Octopus/Octopus_Title.png width="600"/>
+<img src=img/Octopus/Octopus_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -57,11 +57,11 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 ## **尺寸**
 
-<img src=img/Octopus/Octopus_Dimension.png width="600"/>
+<img src=img/Octopus/Octopus_Dimension.webp width="600"/>
 
 ## **接口示意图**
 
-<img src=img/Octopus/Octopus_Pinout_CN.png width="600"/>
+<img src=img/Octopus/Octopus_Pinout_CN.webp width="600"/>
 
 ## **引出线**
 
@@ -79,7 +79,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 电源接线如下所示（查看电路板的下侧，以确定每个输入的用途）。电源的正极（红色）导线连接到标有+的端子。电源的负极（黑色）导线连接到标有-的端子。极性（+和-）也被丝网印刷在板的下侧，以方便用户。
 
-<img src=img/Octopus/Octopus_24V.png width="600"/>
+<img src=img/Octopus/Octopus_24V.webp width="600"/>
 
 
 
@@ -91,7 +91,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 如果您不连接此跳线，那么如果您想通过USB-C进行通信，则必须通过主输入电源为板供电。
 
-<img src=img/Octopus/Octopus_5V.png width="600"/>
+<img src=img/Octopus/Octopus_5V.webp width="600"/>
 
 ## **硬件安装**
 
@@ -99,7 +99,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 当使用BIGTREETECH继电器V1.2模块时，可以按照下图所示进行接线。
 
-<img src=img/Octopus/Octopus_Auto.png width="600"/>
+<img src=img/Octopus/Octopus_Auto.webp width="600"/>
 
 
 
@@ -109,19 +109,19 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 使用BL Touch时，如下图所示将其连接到主板。和往常一样，永远不要在通电的情况下在主板上执行任何工作。
 
-<img src=img/Octopus/Octopus_BLTouch.png width="600"/>
+<img src=img/Octopus/Octopus_BLTouch.webp width="600"/>
 
 ### **功率损耗恢复模块接线**
 
 使用BIGTREETECH小型UPS时，如下图所示将其连接到主板。和往常一样，永远不要在通电的情况下在主板上执行任何工作。
 
-<img src=img/Octopus/Octopus_Power_L.png width="600"/>
+<img src=img/Octopus/Octopus_Power_L.webp width="600"/>
 
 ### **RGB LED 接线**
 
 当使用带有RGB LED的主板时，您应该如下图所示连接它们。连接器的确切引脚可以在主板下侧的丝网上找到。
 
-<img src=img/Octopus/Octopus_RGB.png width="600"/>
+<img src=img/Octopus/Octopus_RGB.webp width="600"/>
 
 ### **RASPBERRY PI 接线**
 
@@ -133,7 +133,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 树莓派的5V电源是通过专用的树莓派头提供的。请参阅PINS.pdf文档以了解此标头的确切引脚。
 
-<img src=img/Octopus/Octopus_RAS.png width="600"/>
+<img src=img/Octopus/Octopus_RAS.webp width="600"/>
 
 ### **PROBE PORT 接线**
 
@@ -145,7 +145,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 无论您使用的是哪种探针，都需要启用探针输入引脚上的内部下拉电阻器，以便其生成输出信号。请参阅引脚配置说明，了解您正在使用的特定固件，以了解如何在探针输入引脚上启用下拉电阻器。
 
-<img src=img/Octopus/Octopus_Probe.png width="600"/>
+<img src=img/Octopus/Octopus_Probe.webp width="600"/>
 
 ### **步进驱动器操作模式**
 
@@ -159,11 +159,11 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 尽管如此，您将在下面看到一个图，该图将帮助您确定哪些跳线对应于您的驱动程序将用于配置微步进的引脚，我们在附录A1中还包括了一节，其中包含一些最常见驱动程序的微步进表。这应该被视为对用户的便利，我们仍然建议您查阅驱动程序制造商的数据表。
 
-<img src=img/Octopus/Octopus_DRI1.png width="600"/>
+<img src=img/Octopus/Octopus_DRI1.webp width="600"/>
 
 在上图中，红色矩形隔离一组驱动器引脚。为了在step/dir模式下运行驱动程序，可以根据下表描述引脚输出（注意，这不是实际的引脚输出，而是step/dir方式的简化）。
 
-<img src=img/Octopus/Octopus_DRI2.png width="600"/>
+<img src=img/Octopus/Octopus_DRI2.webp width="600"/>
 
 连接上两排之间的跳线将中间引脚（MS）设置为0V。
 下面两行之间的连接跳线将中间引脚（MS）设置为3.3V，第一列中的跳线除外，它将连接SLP和RST。
@@ -178,13 +178,13 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 在UART模式下使用驱动程序时，如下图所示，连接该驱动程序下方的跳线。
 
-<img src=img/Octopus/Octopus_DRI3.png width="600"/>
+<img src=img/Octopus/Octopus_DRI3.webp width="600"/>
 
 #### **SPI模式**
 
 在SPI模式下使用驱动程序时，如下图所示，连接该驱动程序下方的跳线。
 
-<img src=img/Octopus/Octopus_DRI4.png width="600"/>
+<img src=img/Octopus/Octopus_DRI4.webp width="600"/>
 
 ### **主板跳线设置**
 
@@ -195,19 +195,19 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 <font  color="red">***注意：在一些早期板下侧的丝网印刷上，风扇端口的极性被错误地交换了。为了确保正确的极性，
 请查阅PINS.pdf文档或查看下面的图片。***</font>
 
-<img src=img/Octopus/Octopus_DRI5.png width="600"/>
+<img src=img/Octopus/Octopus_DRI5.webp width="600"/>
 
 所有风扇输出和接近传感器输入都可以通过配置与每个插头相关的跳线来分别选择由其引脚插头提供的电压。
 
-<img src=img/Octopus/Octopus_DRI6.png width="600"/>
+<img src=img/Octopus/Octopus_DRI6.webp width="600"/>
 
 如下配置跳线以选择12V。
 
-<img src=img/Octopus/Octopus_DRI7.png width="600"/>
+<img src=img/Octopus/Octopus_DRI7.webp width="600"/>
 
 将跳线配置为5V，如下所示。
 
-<img src=img/Octopus/Octopus_DRI8.png width="600"/>
+<img src=img/Octopus/Octopus_DRI8.webp width="600"/>
 
 
 
@@ -219,7 +219,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 确切的diag编号可以通过查看引脚文件或板下的丝印来找到。
 
-<img src=img/Octopus/Octopus_DRI9.png width="600"/>
+<img src=img/Octopus/Octopus_DRI9.webp width="600"/>
 
 ### **关于扩展接口的特别说明**
 
@@ -233,7 +233,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 如果您想确认驱动程序安装正确，您可以在windows中访问设备管理器，并在插入主板时查找虚拟com端口。在下面的图像中，主板已分配COM7，但您的操作系统可以为其分配任何可用的com端口号。其他操作系统将以不同的方式列出串行端口。
 
-<img src=img/Octopus/Octopus_Soft1.png width="600"/>
+<img src=img/Octopus/Octopus_Soft1.webp width="600"/>
 
 ### **主板固件支持**
 
@@ -253,7 +253,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 
 如果您正在使用Klipper，请确保您启用了以下设置，以便在保留出厂引导程序的同时将固件下载到板上：
 
-<img src=img/Octopus/Octopus_Soft2.png width="600"/>
+<img src=img/Octopus/Octopus_Soft2.webp width="600"/>
 
 ## **注意事项**
 
@@ -266,7 +266,7 @@ BIGTREETECH Octopus V1.0 是必趣创新科技（深圳）有限公司3D打印�
 - 建议使用SD卡更新固件。使用DFU（通过USB端口直接编程）将覆盖引导加载程序，这意味着您将不再可以选择通过SD卡进行更新。
 - Octopus没有配备INA826AIDR放大器芯片。如果您想使用PT100接口，您需要单独购买INA826AIDR芯片（SOP-8封装），并将芯片焊接到正确的位置，如下所示。
 
-<img src=img/Octopus/Octopus_Soft3.png width="600"/>
+<img src=img/Octopus/Octopus_Soft3.webp width="600"/>
 
 - Octopus第一次生产时的丝印印刷错误地标记了下面列出的连接器上的引脚。为了确保接线正确，请在使用这些连接器时使用pins.pdf文档。丝印印刷已经被更正，所有后续的Octopus都将反映正确的映射
 

@@ -1,6 +1,6 @@
 # TMC5160T Pro V1.0
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_title.png width="600"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -29,11 +29,11 @@ The TMC5160 is a high-power stepper motor driver control chip that uses external
 
 ### Dimensions
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_dimension.png width="600"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_dimension.webp width="600"/>
 
 ### Pin Description
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_pin.png width="600"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_pin.webp width="600"/>
 
 | J1  | Functions                  | J2  | Functions                 |
 | --- | -------------------------- | --- | ------------------------- |
@@ -46,7 +46,7 @@ The TMC5160 is a high-power stepper motor driver control chip that uses external
 | 7   | (STEP) Pulse Input         | 7   | (VIO) Logic Voltage       |
 | 8   | (DIR) Direction Input      | 8   | (GND) Ground              |
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_pin1.png width="600"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_pin1.webp width="600"/>
 
 ## **Interface Introduction**
 
@@ -54,7 +54,7 @@ The TMC5160 is a high-power stepper motor driver control chip that uses external
 
 The Enable (EN) pin is highlighted in red in the diagram and located inside the marked white box on the driver:
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_interface.png width="450"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_interface.webp width="450"/>
 
 ## **Firmware Settings**
 
@@ -71,7 +71,7 @@ Find `#define MOTHERBOARD XXXXXX`
 
 Check the `XXXXX` value. This is your board.
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin1.png width="450"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_marlin1.webp width="450"/>
 
 Step 2: 
 
@@ -90,7 +90,7 @@ E0_CS_PIN
 
 Change the pin numbers to the ones which you are using.
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin2.png width="500"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_marlin2.webp width="500"/>
 
 Step 3: 
 
@@ -106,7 +106,7 @@ Find these lines:
 
 Replace those `XXX` placeholders with the correct pin numbers for your setup.
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin3.png width="500"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_marlin3.webp width="500"/>
 
 Step 4: 
 
@@ -114,7 +114,7 @@ Open the Configuration_adv.h file. Find the line #define TMC_USE_SW_SPI.
 
 Remove the // at the beginning of the line.
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin4.png width="500"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_marlin4.webp width="500"/>
 
 Step 5: 
 
@@ -122,7 +122,7 @@ In `Configuration_adv.h`, find `#define X_CURRENT`, `#define X_MICROSTEPS`,
 
 `#define X_RSENSE` and modify the parameters (modifications are needed for all axes used), setting `RSENSE` for each axis to `0.075`.
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin5.png width="500"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_marlin5.webp width="500"/>
 
 Step 6:
 
@@ -130,7 +130,7 @@ After completing step 5, open Configuration.h and locate `#define DEFAULT_AXIS_S
 
 For microstepping calculation, "80,80,400,96" represents 16 microsteps, and if changed to 32 microsteps it becomes "80*(32/16), 80*(32/16), 400*(32/16), 96*(32/16)".
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin7.png width="500"/>
+<img src=img/tmc5160t_pro/tmc5160t_pro_marlin7.webp width="500"/>
 
 ### Klipper config example 
 
@@ -153,7 +153,7 @@ driver_SGT: 0
 !!! warning
     The TMC5160T Pro V1.0 uses a 0.075R current sensing resistor, which sets the maximum effective RMS current to 3.1A.
 
-    <img src=img/tmc5160t_pro/tmc5160t_pro_marlin8.png width="450"/>
+    <img src=img/tmc5160t_pro/tmc5160t_pro_marlin8.webp width="450"/>
 
     If you require higher currents, it is possible to replace the current sensing resistor with a new one. Please note that you will need to source and solder it yourself.
 
@@ -163,7 +163,7 @@ driver_SGT: 0
 
     The location for the replacement resistor is indicated by the red box in the diagram below.
 
-    <img src=img/tmc5160t_pro/tmc5160t_pro_marlin9.png width="450"/>
+    <img src=img/tmc5160t_pro/tmc5160t_pro_marlin9.webp width="450"/>
 
 ## **Cautions**
 

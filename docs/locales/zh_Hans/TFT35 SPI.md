@@ -29,15 +29,15 @@ BIGTREETECH TFT35 SPI V2.1是由必趣创新科技（深圳）有限公司3D打�
 
 ## **尺寸**
 
-<img src=img/TFT35_SPI/TFT35_SPI_Dimension.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Dimension.webp width="600" />
 
 ## **接口示意图**
 
-<img src=img/TFT35_SPI/TFT35_SPI_Interface.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Interface.webp width="600" />
 
 ## **引出线**
 
-<img src=img/TFT35_SPI/TFT35_SPI_Pinout.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Pinout.webp width="600" />
 
 ## **软件安装**
 
@@ -45,17 +45,17 @@ BIGTREETECH TFT35 SPI V2.1是由必趣创新科技（深圳）有限公司3D打�
 
 CB1操作系统映像: https://github.com/bigtreetech/CB1/releases
 
-<img src=img/TFT35_SPI/TFT35_SPI_Soft1.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Soft1.webp width="600" />
 
 操作系统写入SD卡后，有一个名为BOOT的FAT32分区，用Notpad、Notpad++或VSCode打开“BoardEnv.txt”文件。
 
-<img src=img/TFT35_SPI/TFT35_SPI_Soft2.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Soft2.webp width="600" />
 
 取消注释覆盖=tft35_spi以启用tft35 spi屏幕（删除行开头的“#”）。
 
 <font  color="red">***注意：如果使用v2.2.1版本的操作系统映像。设置为overlay=tft35_spi25而不是overlay=tft35_spi使用25Mhz的spi速度而不是默认的50Mhz，以避免显示混乱。如果使用V2.2.1之后的操作系统映像，默认情况下操作系统将使用更低、更稳定的速度。***</font>
 
-<img src=img/TFT35_SPI/TFT35_SPI_Soft3.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Soft3.webp width="600" />
 
 
 

@@ -281,11 +281,11 @@ I²C端口配备全方位保护设计。通过高阻抗电阻与肖特基二极�
 
 #### USB
 
-<img src=img/EBB42_GEN2/usb.png width="800"/>
+<img src=img/EBB42_GEN2/usb.webp width="800"/>
 
 #### CAN bus
 
-<img src=img/EBB42_GEN2/canbus.png width="800"/>
+<img src=img/EBB42_GEN2/canbus.webp width="800"/>
 
 ## **注意事项**
 

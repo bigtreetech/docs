@@ -1,6 +1,6 @@
 # **Panda Perch H2D**
 
-<img src=img/PandaPerchH2D/zhutu.png width="600"/>
+<img src=img/PandaPerchH2D/zhutu.webp width="600"/>
 
 - **产品链接**: [点击购买](https://biqu.equipment/products/biqu-panda-perch-aluminum-mount-supports-two-ams-units-with-tool-storage-and-lighting-option-for-bambu-lab-p1-x1-h2d-series?_pos=1&_sid=319492f97&_ss=r&variant=42173363322978)  
 - **打印件下载**: [MakerWorld](https://makerworld.com/zh/models/1802706-panda-perch-printable-collection?from=search#profileId-1922491)or[GitHub](https://github.com/bigtreetech/PandaPerchH2D/tree/master/Print_Files)
@@ -42,7 +42,7 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
     - 适配多色打印系统 - AMS/AMS 2 Pro/AMS HT
  
 
-<img src=img/PandaPerchH2D/chicun.png width="600"/>
+<img src=img/PandaPerchH2D/chicun.webp width="600"/>
 
 ## Panda Perch H2D组装指南
 
@@ -122,7 +122,7 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
 
 * **第一步，在打印件文件中找到RGB灯条安装支撑条与灯条卡扣，将其打印出来（建议使用ABS等耐高温耗材）**
 
-    <img src=img/PandaPerchH2D/RGB1.png width="600"/>
+    <img src=img/PandaPerchH2D/RGB1.webp width="600"/>
 
 * **第二步，使用包装内预留的CM3x4螺丝将灯条支撑条安装于前方横梁**
 

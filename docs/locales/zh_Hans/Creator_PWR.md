@@ -1,5 +1,5 @@
 # Creator PWR
-<img src=img/Creator_PWR/product.png width="600"/>
+<img src=img/Creator_PWR/product.webp width="600"/>
 
 产品链接: [BIGTREETECH Official Website]()
 
@@ -29,7 +29,7 @@
 | 工作温度 | -10°C至 60°C |      
 
 ## 包装清单
-<img src=img/Creator_PWR/packaging_cn.png width="400"/>
+<img src=img/Creator_PWR/packaging_cn.webp width="400"/>
 
  
 ## 操作指南
@@ -47,7 +47,7 @@
 
 #### Bind按键说明
 
-<img src=img/Creator_PWR/key.png width="600"/>
+<img src=img/Creator_PWR/key.webp width="600"/>
 
 * 倒计时控制：<br>长按1s倒计时开启/关闭。
 <br>
@@ -69,33 +69,33 @@
  <br/>出厂默认的AP信息如下：<br/>
     Wi-Fi名称: `Creator_PWR_xxxxxxxxxxxx`<br/>
     Wi-Fi密码: `987654321`<br/>
-<img src=img/Creator_PWR/ap.png width="400"/>
+<img src=img/Creator_PWR/ap.webp width="400"/>
 
 2.通常连接上 AP 后，会自动跳转到网页用户界面（Web UI）。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 可以在浏览器中手动输入 `192.168.254.1` 访问Web UI配置界面。
 
-<img src=img/Creator_PWR/welcome.png width="400"/>
+<img src=img/Creator_PWR/welcome.webp width="400"/>
 
 3.首次配置会自动进入 `选择语言` 界面，设置完语言后，点击 `下一步`。
 
-<img src=img/Creator_PWR/language.png width="400"/>
+<img src=img/Creator_PWR/language.webp width="400"/>
 
 4.自动进入连接 Wi-Fi 界面，扫描环境中的 Wi-Fi网络，请选择打印机所连接的 Wi-Fi 进行连接。如果没有扫描到打印机连接的 Wi-Fi, 可以点击Wi-Fi名称下拉框上面的 “扫描” 按钮重新扫描。
 
-<img src=img/Creator_PWR/config_sta.png width="400"/>
+<img src=img/Creator_PWR/config_sta.webp width="400"/>
 
 5.Wi-Fi连接成功后，会自动弹出 Creator PWR设备的 IP 地址弹框，点击 “确定”按钮。
 <br>
-<img src=img/Creator_PWR/sta_ip.png width="400"/> 
+<img src=img/Creator_PWR/sta_ip.webp width="400"/> 
 
 6.输入一个您喜欢的打印机名，输入您目标连接的打印机IP地址，输入端口：4408，点击“连接”按钮，开始连接打印机, 当出现 `连接成功` 的弹窗意味着 Creator PWR已经成功连接到打印机了，点击“确定”按钮。
 
-<img src=img/Creator_PWR/config_printer.png width="400"/> 
+<img src=img/Creator_PWR/config_printer.webp width="400"/> 
 
 ### WEB UI 操作指南 <a id="web_control"></a>
 
 #### 电源控制
 ##### 基本控制 
-<img src=img/Creator_PWR/control.png width="400"/> 
+<img src=img/Creator_PWR/control.webp width="400"/> 
 
 * 1.可以开启和关闭220V输出。
 * 2.可以开启和关闭打完关机功能。
@@ -109,37 +109,37 @@
 ##### 电源参数
 可以实时显示给外部设备供电的电压、电流、功率
 <br>
-<img src=img/Creator_PWR/real_data.png width="400"/> 
+<img src=img/Creator_PWR/real_data.webp width="400"/> 
 
 ##### 倒计时设置
 点击“修改”按钮，弹出倒计时设置弹窗，设定目标时间后点击 “保存”按钮
 <br>
-<img src=img/Creator_PWR/config_countdown.png width="400"/>  
+<img src=img/Creator_PWR/config_countdown.webp width="400"/>  
 您设定的目标时间会显示出来
 <br>
-<img src=img/Creator_PWR/switch_countdown.png width="400"/>   
+<img src=img/Creator_PWR/switch_countdown.webp width="400"/>   
 
 #### 进入设置页
 在电源控制页点击右上角的设置按钮进入设置页
 <br>
-<img src=img/Creator_PWR/goto_setting.png width="400"/>  
+<img src=img/Creator_PWR/goto_setting.webp width="400"/>  
 
 #### 配置安全功率  
-<img src=img/Creator_PWR/goto_power_safe.png width="400"/>  
+<img src=img/Creator_PWR/goto_power_safe.webp width="400"/>  
 <br>
 输入最大功率和最小功率目标数值，打开对应的开关按钮保存才会生效，当功率大于最大功率或者小于最小功率时电源会自动断开220V供电。
 <br>
-<img src=img/Creator_PWR/config_power_safe.png width="400"/>   
+<img src=img/Creator_PWR/config_power_safe.webp width="400"/>   
 
 #### 查看用电记录 
-<img src=img/Creator_PWR/goto_power_usage.png width="400"/>  
+<img src=img/Creator_PWR/goto_power_usage.webp width="400"/>  
 
 可以查看到当前的用电量和打印总时长，也可以通过下方的按钮清零数据
 <br>
-<img src=img/Creator_PWR/power_usage.png width="400"/>
+<img src=img/Creator_PWR/power_usage.webp width="400"/>
 
 #### 修改Wifi配置 
-<img src=img/Creator_PWR/goto_wifi.png width="400"/>
+<img src=img/Creator_PWR/goto_wifi.webp width="400"/>
 
 <br>
 
@@ -150,29 +150,29 @@
 <br> ④连接
 <br>
 
-<img src=img/Creator_PWR/change_wifi.png width="400"/>
+<img src=img/Creator_PWR/change_wifi.webp width="400"/>
 
 
 #### 修改AP配置 
-<img src=img/Creator_PWR/goto_ap.png width="400"/> 
+<img src=img/Creator_PWR/goto_ap.webp width="400"/> 
 
 可以修改PWR产生的AP信息,更改后的密码如果忘记了，可以通过bind按键将设备恢复重置到出厂模式。
 <br>
-<img src=img/Creator_PWR/change_ap.png width="400"/>  
+<img src=img/Creator_PWR/change_ap.webp width="400"/>  
 
 #### 修改语言 
-<img src=img/Creator_PWR/goto_language.png width="400"/> 
+<img src=img/Creator_PWR/goto_language.webp width="400"/> 
 
 可以修改当前的WEB UI的语言，仅支持中文和英文，选择完点击“确认”才可生效。
 <br>
-<img src=img/Creator_PWR/change_language.png width="400"/> 
+<img src=img/Creator_PWR/change_language.webp width="400"/> 
 
 #### 更新固件
-<img src=img/Creator_PWR/goto_ota.png width="400"/>  
+<img src=img/Creator_PWR/goto_ota.webp width="400"/>  
 
 <br>
 
-<img src=img/Creator_PWR/upload.png width="400"/>   
+<img src=img/Creator_PWR/upload.webp width="400"/>   
 
 * 在设置页跳转到该页面
 <br> ①点击“选择文件”按钮，选择您希望更新的 .bin 文件上传。
@@ -182,24 +182,24 @@
 方法 1:
 在设置页点击对应的按钮。
 <br>
-<img src=img/Creator_PWR/goto_factory.png width="400"/> 
+<img src=img/Creator_PWR/goto_factory.webp width="400"/> 
 <br>
 在恢复出厂弹框中，可以是否选择清除用电记录，再点击“确认”按钮以恢复出厂设置。<br>
 恢复出厂设置会将设备的AP信息更改成出厂默认的一样， Wi-Fi 名称重置为 `Creator_PWR_xxxxxxxxxxxx`，Wi-Fi 登录密码将被重置为 `987654321`。
 <br>
-<img src=img/Creator_PWR/factory.png width="400"/>
+<img src=img/Creator_PWR/factory.webp width="400"/>
 
 方法2：
 长按“Bind”按键约8秒，直至指示灯闪烁红色，表示正在恢复出厂。 
 <br>
-<img src=img/Creator_PWR/bind.png width="600"/>
+<img src=img/Creator_PWR/bind.webp width="600"/>
 
 #### 关于PWR
-<img src=img/Creator_PWR/goto_about.png width="400"/>
+<img src=img/Creator_PWR/goto_about.webp width="400"/>
 
 可以看到设备IP和SN号
 <br>
-<img src=img/Creator_PWR/check_about.png width="400"/>
+<img src=img/Creator_PWR/check_about.webp width="400"/>
 
 ### 通过自定义宏控制USB1和220V电源
 * 下载配置文件 [creator_pwr.cfg](https://github.com/bigtreetech/CreatorPWR/blob/master/creator_pwr.cfg)

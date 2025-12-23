@@ -1,6 +1,6 @@
 # Rodent
 
-<img src=img/rodent/rodent_title.png width="600"/>
+<img src=img/rodent/rodent_title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -25,43 +25,43 @@ RS-485 communication, greatly simplifying the wiring process and providing smoot
 
 ## **Dimensions**
 
-<img src=img/rodent/rodent_dimensions.png width="600"/>
+<img src=img/rodent/rodent_dimensions.webp width="600"/>
 
 ## **Peripheral Interface**
 
 ### Pin Description
 
-<img src=img/rodent/rodent_pins2.png width="600"/>
+<img src=img/rodent/rodent_pins2.webp width="600"/>
 
 ## **Interface Details**
 
 ### Endstop Switch
 
-<img src=img/rodent/rodent_endstop.png width="600"/>
+<img src=img/rodent/rodent_endstop.webp width="600"/>
 
 ### VProbe Switch
 
-<img src=img/rodent/rodent_switch.png width="600"/>
+<img src=img/rodent/rodent_switch.webp width="600"/>
 
 ### **Spindle**
 
-<img src=img/rodent/rodent_spindle.png width="600"/>
+<img src=img/rodent/rodent_spindle.webp width="600"/>
 
 ### V-MOS Output Ports
 
-<img src=img/rodent/rodent_v_mos.png width="600"/>
+<img src=img/rodent/rodent_v_mos.webp width="600"/>
 
 ### OLED Display Interface
 
-<img src=img/rodent/rodent_v_mos.png width="600"/>
+<img src=img/rodent/rodent_v_mos.webp width="600"/>
 
 ### Wi-Fi Antenna Interface
 
-<img src=img/rodent/rodent_wifi.png width="600"/>
+<img src=img/rodent/rodent_wifi.webp width="600"/>
 
 ### LED
 
-<img src=img/rodent/rodent_led.png width="600"/>
+<img src=img/rodent/rodent_led.webp width="600"/>
 
 ## Software Setup
 
@@ -73,34 +73,34 @@ Firmware available at: https://github.com/bdring/FluidNC
 
 1、Connect to the FluidNC hotspot to access the configuration interface.
 
-<img src=img/rodent/rodent_software1.png width="600"/>
+<img src=img/rodent/rodent_software1.webp width="600"/>
 
 2、Navigate to the FluidNC configuration interface.
 
-<img src=img/rodent/rodent_software2.png width="600"/>
+<img src=img/rodent/rodent_software2.webp width="600"/>
 
 3、Modify Sta/SSID (Wi-Fi name) and Sta/Password (Wi-Fi password), then click "Set" to apply changes.
 
-<img src=img/rodent/rodent_software3.png width="600"/>
+<img src=img/rodent/rodent_software3.webp width="600"/>
 
 4、Restart the FluidNC system to finalize the setup.
 
-<img src=img/rodent/rodent_software4.png width="600"/>
+<img src=img/rodent/rodent_software4.webp width="600"/>
 
 ### Configuring the Machine
 
 1、Download rodent.yaml from the file icon. 
 
-<img src=img/rodent/rodent_software5.png width="600"/>
+<img src=img/rodent/rodent_software5.webp width="600"/>
 
 2、Customize your settings by referencing the FluidNC Wiki: http://wiki.fluidnc.com/
 
 3、Click the "Delete icon".
 
-<img src=img/rodent/rodent_software6.png width="600"/>
+<img src=img/rodent/rodent_software6.webp width="600"/>
 
 4、Click "Upload files" to upload rodent.yaml.
 
-<img src=img/rodent/rodent_software7.png width="600"/>
+<img src=img/rodent/rodent_software7.webp width="600"/>
 
 5、Click "Restart Rodent".

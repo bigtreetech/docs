@@ -1,6 +1,6 @@
 # Panda Jetpack
 
-<img src=img/Panda_Jetpack/Panda_Jetpack_title.png width="600"/>
+<img src=img/Panda_Jetpack/Panda_Jetpack_title.webp width="600"/>
 
 **产品链接:** 
 
@@ -31,35 +31,35 @@ BIQU Panda Jetpack 是为 Bambu Lab P1 和 X1 打印机专门设计的高效散�
 
 组装前准备：Panda Jetpack成品，小内六角扳手H1.5和H2.0，如下图所示
 
-<img src=img/Panda_Jetpack/Panda_Jetpack_Installation1.png width="600"/>
+<img src=img/Panda_Jetpack/Panda_Jetpack_Installation1.webp width="600"/>
 
 **P1组装**
 
 1、首先将打印机关闭电源，然后拆下外壳，风扇接口拆开（红圈所示）。
 
-<img src=img/Panda_Jetpack/Panda_Jetpack_Installation2.png width="600"/>
+<img src=img/Panda_Jetpack/Panda_Jetpack_Installation2.webp width="600"/>
 
 2、用H2.0内六角小扳手，将风扇拆出，组装在Panda Jetpack成品里面，将螺丝锁上。
 
-<img src=img/Panda_Jetpack/Panda_Jetpack_Installation3.png width="600"/>
+<img src=img/Panda_Jetpack/Panda_Jetpack_Installation3.webp width="600"/>
 
 3、将风扇接口接上，组装完成。
 
-<img src=img/Panda_Jetpack/Panda_Jetpack_Installation4.png width="600"/>
+<img src=img/Panda_Jetpack/Panda_Jetpack_Installation4.webp width="600"/>
 
 **X1组装**
 
 1、首先将打印机关闭电源，然后拆下外壳，灯板接口拆开（红圈所示）。
 
-<img src=img/Panda_Jetpack/Panda_Jetpack_Installation5.png width="600"/>
+<img src=img/Panda_Jetpack/Panda_Jetpack_Installation5.webp width="600"/>
 
 2、将原装灯板和风扇螺丝锁松，将风扇和灯板放进Panda Jetpack成品里面，将螺丝锁上。
 
-<img src=img/Panda_Jetpack/Panda_Jetpack_Installation6.png width="600"/>
+<img src=img/Panda_Jetpack/Panda_Jetpack_Installation6.webp width="600"/>
 
 3、将灯板接口接上，组装完成。
 
-<img src=img/Panda_Jetpack/Panda_Jetpack_Installation7.png width="600"/>
+<img src=img/Panda_Jetpack/Panda_Jetpack_Installation7.webp width="600"/>
 
 ## **购买链接:**
 

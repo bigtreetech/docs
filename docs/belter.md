@@ -1,6 +1,6 @@
 # Belter
 
-<img src=img/Belter/Belter_title.png width="600"/>
+<img src=img/Belter/Belter_title.webp width="600"/>
 
 **Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/biqu-belter-high-precision-belt-tension-tool)
 
@@ -32,11 +32,11 @@ Power Source: 1x CR2032 3V Button Battery (Included)
 
 ## **Product Structure**
 
-<img src=img/Belter/Belter_Structure.png width="600"/>
+<img src=img/Belter/Belter_Structure.webp width="600"/>
 
 ## **Dimensions**
 
-<img src=img/Belter/Belter_Dimension.png width="600"/>
+<img src=img/Belter/Belter_Dimension.webp width="600"/>
 
 ## **Instructions for Use**
 
@@ -50,23 +50,23 @@ Power Source: 1x CR2032 3V Button Battery (Included)
 
 **Step 1:** Zero measurement.
 
-<img src=img/Belter/Belter_Instruction1.png width="600"/>
+<img src=img/Belter/Belter_Instruction1.webp width="600"/>
 
 Push the plunger part of the printpart to retract the probe pin Clamp onto the belt like shown in the picture.
 
 Record the value displayed.
 
-<img src=img/Belter/Belter_Instruction2.png width="600"/>
+<img src=img/Belter/Belter_Instruction2.webp width="600"/>
 
 **Step 2:** Repeat steps for the second belt.
 
-<img src=img/Belter/Belter_Instruction3.png width="600"/>
+<img src=img/Belter/Belter_Instruction3.webp width="600"/>
 
 **Step 3:** Convert the Belter value to tension (N)
 
 Then using [Calculation Tool](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation%20Tool) to calculate belt tension (N) 
 
-<img src=img/Belter/Belter_Instruction4.png width="600"/>
+<img src=img/Belter/Belter_Instruction4.webp width="600"/>
 
 **Step 4:** Compare Data
 

@@ -1,6 +1,6 @@
 # CB1
 
-[<img src=img/CB1.png width="500" />](https://bigtreetech.github.io/docs/CB1.html)
+[<img src=img/CB1.webp width="500" />](https://bigtreetech.github.io/docs/CB1.html)
 
 ## **Product Profile**
 
@@ -32,7 +32,7 @@ The BIGTREETECH CB1 is launched to provide a great solution to the insane shorta
 
 ## **Dimensions**
 
-<img title="" src="img/CB1_Size.png" alt="" width="450" data-align="center">
+<img title="" src="img/CB1_Size.webp" alt="" width="450" data-align="center">
 
 ## **Schematic**
 
@@ -187,7 +187,7 @@ Plug-and-play with an Ethernet cable, no additional setup required.
 
 After the OS writes to the SD card, there is a FAT32 partition named `BOOT`, open `system.cfg` file with `Notpad`, `Notpad++` or `VSCode`.
 
-<img src=img/system.png width="600">
+<img src=img/system.webp width="600">
 
 !!! tip
     Set `WIFI_SSID` as your actual wifi name and `WIFI_PASSWD` as your actual wifi password, The space character can be parsed normally without additional escape character.
@@ -197,15 +197,15 @@ After the OS writes to the SD card, there is a FAT32 partition named `BOOT`, ope
     WIFI_SSID="CB1 Tester"
     ```
     
-    <img title="" src="img/wifi.png" alt="" width="450" data-align="center">
+    <img title="" src="img/wifi.webp" alt="" width="450" data-align="center">
 
 After the OS writes to the SD card, there is a FAT32 partition named `BOOT`, open `BoardEnv.txt` file with `Notpad`, `Notpad++` or `VSCode`. 
 
-<img src=img/BoardEnv.png width="400" data-align="center">
+<img src=img/BoardEnv.webp width="400" data-align="center">
 
 Set as required as shown in the figure below. 
 
-<img title="" src="img/overlays.png" alt="" width="400" data-align="center">
+<img title="" src="img/overlays.webp" alt="" width="400" data-align="center">
 
 The default value is `console=display`, This means that the `UART0` of CB1 is used as the debugging port by default. We can use `MobaXterm` to connect to CB1 by UART0 and debug. If klipper wants to use `UART0` to control the motherboard, we need to set it to `console=serial`, now klippe can use `UART0` as `/dev/ttyS0`.
 
@@ -258,15 +258,15 @@ The device will automatically be assigned a IP address after successfully connec
 
 Find the device IP address in your router page
 
-<img src=img/Router.png width="500">
+<img src=img/Router.webp width="500">
 
 Or use the https://angryip.org/ tool, scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown below
 
-<img src=img/AngryIP.png width="500"> 
+<img src=img/AngryIP.webp width="500"> 
 
 Open Mobaxtermand click “Session”, and click “SSH”, inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)
 
-<img src=img/MobaXterm_Login.png width="500"> 
+<img src=img/MobaXterm_Login.webp width="500"> 
 
 Input the login name and password to enter the SSH terminal interface. 
 
@@ -306,7 +306,7 @@ password: biqu
    
     Select the image that you downloaded. 
    
-    <img title="" src="img/Etcher_1.png" alt="" width="450" data-align="inline">
+    <img title="" src="img/Etcher_1.webp" alt="" width="450" data-align="inline">
    
     Select the MicroSD card and click `Flash`
    
@@ -314,11 +314,11 @@ password: biqu
    
         `Flash` the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.
    
-    <img title="" src="img/Etcher_2.png" alt="" width="450" data-align="inline">
+    <img title="" src="img/Etcher_2.webp" alt="" width="450" data-align="inline">
    
     Wait for the writing to finish. 
    
-    <img title="" src="img/Etcher_3.png" alt="" width="450" data-align="inline">
+    <img title="" src="img/Etcher_3.webp" alt="" width="450" data-align="inline">
 
 ## Product Purchase Link
 

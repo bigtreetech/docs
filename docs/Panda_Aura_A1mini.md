@@ -80,37 +80,37 @@ Panda Aura A1 Accessories List
 
 * Remove the three screws from the bottom of the A1 printer as shown in the image.
 
-    <img src=img/PandaAura/install_1.png width="600"/>
+    <img src=img/PandaAura/install_1.webp width="600"/>
 
 * Place the A1 printer on the Panda Aura A1 acrylic base.
 
-    <img src=img/PandaAura/install_2.png width="600"/>
+    <img src=img/PandaAura/install_2.webp width="600"/>
 
 * Position the A1 printer so that it is centered and both the left and right columns are flush against the rear limit blocks.
 
-    <img src=img/PandaAura/install_3.png width="600"/>
+    <img src=img/PandaAura/install_3.webp width="600"/>
 
 * For easiest installation, position the device at the edge of your work surface. Then, install the three self-tapping screws from the underside. This method avoids the need to flip the printer over.
 
-    <img src=img/PandaAura/install_4.png width="600"/>
+    <img src=img/PandaAura/install_4.webp width="600"/>
 
 * Connect the acrylic light board's cable to the port on the bottom of the control box, as illustrated.
 
-    <img src=img/PandaAura/install_5.png width="600"/>
+    <img src=img/PandaAura/install_5.webp width="600"/>
 
 * To determine the metal sheet's position, hold the control box in its intended location on the printer. Once positioned, attach the sheet to secure the box.
 
-    <img src=img/PandaAura/install_6.png width="600"/>
+    <img src=img/PandaAura/install_6.webp width="600"/>
 
 * Connect the power cable and the adapter cable, ensuring the clips align.
 
-    <img src=img/PandaAura/en/install_7.png width="400"/>
+    <img src=img/PandaAura/en/install_7.webp width="400"/>
 
     <img src=img/PandaAura/install_7_1.jpg width="600"/>
 
 * Connect the 2-pin plug to the port on the back. When disconnecting, pull from the plug itself, not the cable.
 
-    <img src=img/PandaAura/install_8.png width="400"/>
+    <img src=img/PandaAura/install_8.webp width="400"/>
 
 * Locate an unused 4-pin MX3.0 power port on the back of the A1 printer. Connect the adapter cable's corresponding 4-pin MX3.0 plug to this port.
 
@@ -126,44 +126,44 @@ For an alternative power source, or if the printer's MX3.0 port is occupied, you
 
 Panda Aura A1 mini Accessories List
 
-<img src=img/PandaAura/en/list_a1mini.png width="600"/>
+<img src=img/PandaAura/en/list_a1mini.webp width="600"/>
 
 #### Installation Steps
 
 * Remove the four screws from the bottom of the A1mini printer as shown in the image.
 
-    <img src=img/PandaAura/install_11.png width="600"/>
+    <img src=img/PandaAura/install_11.webp width="600"/>
 
 * Place the A1 mini printer on the acrylic light board, aligning the board’s edges with the printer body.
 
-    <img src=img/PandaAura//install_12.png width="600"/>
+    <img src=img/PandaAura//install_12.webp width="600"/>
 
 * For easiest installation, position the printer at the edge of your work surface. Then, install the four M3x18 self-tapping screws from the underside. This method avoids the need to flip the printer over.
 
-    <img src=img/PandaAura/install_13.png width="600"/>
+    <img src=img/PandaAura/install_13.webp width="600"/>
 
 * Insert the acrylic light board's connecting cable into the control box’s bottom port, as shown.
 
-    <img src=img/PandaAura/install_14.png width="600"/>
+    <img src=img/PandaAura/install_14.webp width="600"/>
 
 * To determine the metal sheet's position, first place the control box in its intended location on the printer. Then, attach the sheet to secure the box.
 
-    <img src=img/PandaAura/install_15.png width="600"/>
+    <img src=img/PandaAura/install_15.webp width="600"/>
 
 * Connect the power cable and the adapter cable, ensuring the clips align.
 
-    <img src=img/PandaAura/en/install_7.png width="400"/>
+    <img src=img/PandaAura/en/install_7.webp width="400"/>
 
     <img src=img/PandaAura/install_7_1.jpg width="600"/>
 
 * Insert the 2-pin plug into the rear port. When disconnecting, pull from the plug itself to avoid damaging the cable.
 
-    <img src=img/PandaAura/install_8.png width="400"/>
+    <img src=img/PandaAura/install_8.webp width="400"/>
 
 * Locate an unused 4-pin MX3.0 power port on the side of the A1mini printer. Connect the adapter cable's corresponding 4-pin plug to this port, as shown in the illustration.
 
 
-    <img src=img/PandaAura/install_16.png width="600"/>
+    <img src=img/PandaAura/install_16.webp width="600"/>
 
 #### Powering through Panda Branch Plus
 
@@ -187,7 +187,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - Connect to the Panda_Aura AP hotspot: `Panda_Aura_XXXXXXXXXX`. The default password is `987654321`.
 
-        <img src=img/PandaAura/ap.png width="300"/>
+        <img src=img/PandaAura/ap.webp width="300"/>
 
 - Accessing the AP Webpage
 
@@ -197,7 +197,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - After selecting a language, click `Next`.
 
-        <img src=img/PandaAura/en/language.png width="300"/>
+        <img src=img/PandaAura/en/language.webp width="300"/>
 
 <a id="wifi-connect"></a>
   
@@ -205,33 +205,33 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - Upon initial setup or after a factory reset, this page will automatically scan for available Wi-Fi networks. You can also manually initiate a scan.
 
-        <img src=img/PandaAura/en/wifi_scan.png width="300"/>
+        <img src=img/PandaAura/en/wifi_scan.webp width="300"/>
 
     - Once the scan is complete, a pop-up will appear notifying you that the scan is finished.
 
-        <img src=img/PandaAura/en/wifi_scan_ok.png width="300"/>
+        <img src=img/PandaAura/en/wifi_scan_ok.webp width="300"/>
 
     - Select the WiFi network you want to connect to.
 
-        <img src=img/PandaAura/en/wifi_list.png width="300"/>
+        <img src=img/PandaAura/en/wifi_list.webp width="300"/>
 
     - Type your password and tap the `eye icon` if you'd like to see the password you've entered.
 
-        <img src=img/PandaAura/en/wifi_connect.png width="300"/>
+        <img src=img/PandaAura/en/wifi_connect.webp width="300"/>
 
     - Click 'Connect' to proceed to the Wi-Fi connection page, where the status will display as `WiFi connecting...`.
 
-        <img src=img/PandaAura/en/wifi_connecting.png width="300"/>
+        <img src=img/PandaAura/en/wifi_connecting.webp width="300"/>
 
     - A pop-up will appear shortly to confirm the Wi-Fi connection status.
 
         - Connection Failed:
 
-            <img src=img/PandaAura/en/wifi_failed.png width="300"/>
+            <img src=img/PandaAura/en/wifi_failed.webp width="300"/>
 
         - Connection Successful: You can either [bind the printer](#printer-bind) and proceed to the printer interface or click `Cancel` to stay on the WiFi page.
 
-            <img src=img/PandaAura/en/wifi_ok.png width="300"/>
+            <img src=img/PandaAura/en/wifi_ok.webp width="300"/>
 
 <a id="printer-bind"></a>
 
@@ -239,7 +239,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - Feature Introduction
 
-    <img src=img/PandaAura/en/printer.png width="300"/>
+    <img src=img/PandaAura/en/printer.webp width="300"/>
 
     - ① Printer Page Selection: When you click the icon, it will turn red to indicate that you are on the Printer page.
 
@@ -259,11 +259,11 @@ When you power up for the first time or restore factory settings, you'll see a b
   
     - Tap `Scan` button. After a short wait, a pop-up will appear confirming that the scan was successful.
 
-        <img src=img/PandaAura/en/printer_scan_ok.png width="300"/>
+        <img src=img/PandaAura/en/printer_scan_ok.webp width="300"/>
     
     - Select the printer from the list. The printer's SN code and IP address will automatically fill in.
 
-        <img src=img/PandaAura/en/printer_list.png width="300"/>
+        <img src=img/PandaAura/en/printer_list.webp width="300"/>
     
     - Enter the printer's `Access Code`
 
@@ -277,16 +277,16 @@ When you power up for the first time or restore factory settings, you'll see a b
 
         * Enter `Access Code` in the input box, and tap `Bind` to bind the printer.
 
-            <img src=img/PandaAura/en/printer_bind.png width="300"/>
+            <img src=img/PandaAura/en/printer_bind.webp width="300"/>
 
-            <img src=img/PandaAura/en/bind_ok.png width="300"/>
+            <img src=img/PandaAura/en/bind_ok.webp width="300"/>
   
 
 ## Webpage Usage Guide
 
 ### WiFi Page
 
-<img src=img/PandaAura/en/wifi_ip.png width="300"/>
+<img src=img/PandaAura/en/wifi_ip.webp width="300"/>
 
 - ① WiFi Page Selection: When you click the icon, it will turn red to indicate that you are on the WiFi page.
 
@@ -304,7 +304,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 ### AP Page
 
-<img src=img/PandaAura/en/wifi_ap.png width="300"/>
+<img src=img/PandaAura/en/wifi_ap.webp width="300"/>
 
 - ① AP Page Selection: When you click on the icon, it will turn red to indicate that you are on the AP page.
 
@@ -320,7 +320,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 ### Settings Page
 
-<img src=img/PandaAura/en/settings.png width="300"/>
+<img src=img/PandaAura/en/settings.webp width="300"/>
 
 - ① Settings Page Selection: When you click the icon, it will turn red to indicate that you are on the Settings page.
 
@@ -338,13 +338,13 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - Click the 'Select .bin File' button to choose the bin file that requires OTA.
 
-        <img src=img/PandaAura/ota_bin.png width="300"/>
+        <img src=img/PandaAura/ota_bin.webp width="300"/>
   
     - Wait for the update to complete; the device will then restart automatically.
 
-        <img src=img/PandaAura/en/ota_progress.png width="300"/>
+        <img src=img/PandaAura/en/ota_progress.webp width="300"/>
 
-        <img src=img/PandaAura/en/ota_ok.png width="300"/>
+        <img src=img/PandaAura/en/ota_ok.webp width="300"/>
 
 - ⑤ Click to Confirm [Restore Factory Settings](#first-connection)
 
@@ -352,7 +352,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - Feature Introduction
 
-    <img src=img/PandaAura/en/panel.png width="300"/>
+    <img src=img/PandaAura/en/panel.webp width="300"/>
 
     - ① Control Page Selection: When you click the icon, it will turn red to indicate that you are on the Control page.
 
@@ -374,43 +374,43 @@ When you power up for the first time or restore factory settings, you'll see a b
 
 - Device Light Effect
 
-    <img src=img/PandaAura/en/mode.png width="300"/>
+    <img src=img/PandaAura/en/mode.webp width="300"/>
 
     - ①-⑥The lighting effect will change in real-time as you make your selection.
 
     - ⑦The color of the light can be adjusted according to the temperature of the printer.You can choose between two lighting effects, Static or Strobing, under Safety Effect and Danger Effect.
 
-        <img src=img/PandaAura/en/warning_mode.png width="300"/>
+        <img src=img/PandaAura/en/warning_mode.webp width="300"/>
 
     - ⑧ After selection,The color of the light can be adjusted according to the printer.
 
-        <img src=img/PandaAura/en/h2d_mode.png width="300"/>
+        <img src=img/PandaAura/en/h2d_mode.webp width="300"/>
 
 - Customizing Light Color (using the Static mode as an example):
 
     - Click the color setting option to open the color selection page.
 
-        <img src=img/PandaAura/en/static_mode.png width="300"/>
+        <img src=img/PandaAura/en/static_mode.webp width="300"/>
 
     - Choose your desired color.
 
-        <img src=img/PandaAura/en/color_preset.png width="300"/>
+        <img src=img/PandaAura/en/color_preset.webp width="300"/>
 
         - ① Factory default preset color.
 
         - ② Select Custom Color to open a color picker and set a specific color value.
 
-            <img src=img/PandaAura/en/picker.png width="300"/>
+            <img src=img/PandaAura/en/picker.webp width="300"/>
 
     - After selecting a `Preset` or `Color Definition`(custom color) color block, click `Confirm`. You can set the RGB lights to your selected color.
 
-        <img src=img/PandaAura/en/confirm.png width="300"/>
+        <img src=img/PandaAura/en/confirm.webp width="300"/>
 
-        <img src=img/PandaAura/en/custom_ok.png width="300"/>
+        <img src=img/PandaAura/en/custom_ok.webp width="300"/>
   
 - Device Sound Effect
 
-    <img src=img/PandaAura/en/sound.png width="300"/>
+    <img src=img/PandaAura/en/sound.webp width="300"/>
 
     - ① Click Switch to turn on and off the device sound effects.
 
@@ -418,7 +418,7 @@ When you power up for the first time or restore factory settings, you'll see a b
 
     - ③ Choose different sound effects.
 
-        <img src=img/PandaAura/en/sound_effect.png width="300"/>
+        <img src=img/PandaAura/en/sound_effect.webp width="300"/>
 
     - ④ Volume level.
 

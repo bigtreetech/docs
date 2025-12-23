@@ -1,6 +1,6 @@
 # PAD7
 
-<img src=img/PAD7/PAD7_Title.png width="600" />
+<img src=img/PAD7/PAD7_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -43,11 +43,11 @@ BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队
 
 ## **尺寸**
 
-<img src=img/PAD7/PAD7_Dimensions.png width="600" />
+<img src=img/PAD7/PAD7_Dimensions.webp width="600" />
 
 ## **接口展示**
 
-<img src=img/PAD7/PAD7_Connectivity.png width="600" />
+<img src=img/PAD7/PAD7_Connectivity.webp width="600" />
 
 - Light-Sensor: 光敏元件位置，检测光照强度，实现自动调节屏幕背光亮度；
 - RGB: 状态指示灯；
@@ -59,7 +59,7 @@ BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队
 - Volume-：自带扬声器音量减；
 - Volume+：自带扬声器音量加；
 
-<img src=img/PAD7/PAD7_Connectivity1.png width="600" />
+<img src=img/PAD7/PAD7_Connectivity1.webp width="600" />
 
 - Power-INDC12V2A：电源输入接口，随机配有12V2A的电源适配器
 - USB2.0*2：USBHost外设接口
@@ -74,7 +74,7 @@ BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队
 
 ### **Pad7、EBB36和ADXL345之间的连接**
 
-<img src=img/PAD7/PAD7_ADXL345.png width="600" />
+<img src=img/PAD7/PAD7_ADXL345.webp width="600" />
 
 ### **CB1更换CM4**
 
@@ -82,33 +82,33 @@ BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队
 
 2.如下图，使用1.5mm六角螺丝刀逆时针旋转卸下两颗M2.5*3的平头螺丝后，取下小盖板；
 
-<img src=img/PAD7/PAD7_CB1_1.png width="600" />
+<img src=img/PAD7/PAD7_CB1_1.webp width="600" />
 
 3.如下图，使用2.0mm六角螺丝刀逆时针旋转卸下四颗M2.5*10的杯头螺丝后，取下散热片；
 
-<img src=img/PAD7/PAD7_CB1_2.png width="600" />
+<img src=img/PAD7/PAD7_CB1_2.webp width="600" />
 
 4.使用镊子将天线接头缓慢水平抬起直至与CB1断开连接，如图1位置；然后将原配的CB1缓慢取下，如图2位置；
 
-<img src=img/PAD7/PAD7_CB1_3.png width="600" />
+<img src=img/PAD7/PAD7_CB1_3.webp width="600" />
 
 5.将CM4按一定方向压进BTB座子中，如图1位置；插上天线端子，如图2位置；
 
-<img src=img/PAD7/PAD7_CB1_4.png width="600" />
+<img src=img/PAD7/PAD7_CB1_4.webp width="600" />
 
 6.盖上散热片，使用2.0mm六角螺丝刀顺时针旋转四颗M2.5*10的杯头螺丝至固定；
 
-<img src=img/PAD7/PAD7_CB1_5.png width="600" />
+<img src=img/PAD7/PAD7_CB1_5.webp width="600" />
 
 7.将底下的滑动开关拨至CM4档位，参考下图红框位置
 
-<img src=img/PAD7/PAD7_CB1_6.png width="600" />
+<img src=img/PAD7/PAD7_CB1_6.webp width="600" />
 
 <font  color="red">**注: 白色色块为按键开关所拨位置。**</font>
 
 8.盖上小盖板，使用1.5mm六角螺丝刀顺时针旋转两颗M2.5*3的平头螺丝至固定；
 
-<img src=img/PAD7/PAD7_CB1_7.png width="600" />
+<img src=img/PAD7/PAD7_CB1_7.webp width="600" />
 
 9.将烧录了树莓派镜像的TF卡插入卡槽，开机即可正常运行，完成更换操作。
 
@@ -118,9 +118,9 @@ BIGTREETECHPad7屏幕是必趣创新科技（深圳）有限公司3D打印团队
 
 2.拿出螺丝取下支架即可，拆卸完毕
 
-<img src=img/PAD7/PAD7_CB1_8.png width="600" />
+<img src=img/PAD7/PAD7_CB1_8.webp width="600" />
 
-<img src=img/PAD7/PAD7_CB1_9.png width="600" />
+<img src=img/PAD7/PAD7_CB1_9.webp width="600" />
 
 ## 软件配置
 
@@ -151,15 +151,15 @@ BalenaEtcher: https://www.balena.io/etcher/
 
 2.选择下载到电脑中的镜像。
 
-<img src=img/PAD7/PAD7_BAL_1.png width="600" />
+<img src=img/PAD7/PAD7_BAL_1.webp width="600" />
 
 3.选择待烧录的MicroSD卡（烧录镜像会将MicroSD卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录”
 
-<img src=img/PAD7/PAD7_BAL_2.png width="600" />
+<img src=img/PAD7/PAD7_BAL_2.webp width="600" />
 
 4.等待烧录完成。
 
-<img src=img/PAD7/PAD7_BAL_3.png width="600" />
+<img src=img/PAD7/PAD7_BAL_3.webp width="600" />
 
 ### **设置系统**
 
@@ -171,7 +171,7 @@ BalenaEtcher: https://www.balena.io/etcher/
 
 hostname="BTT-Pad7" - 系统识别，并且将主机名设置为“BTT-Pad7”。
 
-<img src=img/PAD7/PAD7_SYS_1.png width="600" />
+<img src=img/PAD7/PAD7_SYS_1.webp width="600" />
 
 **设置WIFI**
 
@@ -179,7 +179,7 @@ hostname="BTT-Pad7" - 系统识别，并且将主机名设置为“BTT-Pad7”�
 
 系统镜像烧录完成后，MicroSD卡会有一个被电脑识别的FAT32分区，此分区下有个名为"system.cfg"的配置文件，打开后将WIFI-SSID替换为实际的WIFI名称，PASSWORD替换为实际的密码
 
-<img src=img/PAD7/PAD7_SYS_2.png width="600" />
+<img src=img/PAD7/PAD7_SYS_2.webp width="600" />
 
 Pad7设置
 
@@ -197,7 +197,7 @@ overlays=ws2812 light mcp2515 spidev1_1
 
 **spidev1_1:**	使能spidev1_1到系统用户空间，Pad7的SPI端口接ADXL345加速度计使用
 
-<img src=img/PAD7/PAD7_SYS_3.png width="600" />
+<img src=img/PAD7/PAD7_SYS_3.webp width="600" />
 
 打开“system.cfg”的配置文件，修改配置：
 
@@ -209,7 +209,7 @@ overlays=ws2812 light mcp2515 spidev1_1
 
 **AUTO_BRIGHTNESS="ON"**\# 关闭读取环境亮度自动设置背光，ON：打开自动背光。
 
-<img src=img/PAD7/PAD7_SYS_4.png width="600" />
+<img src=img/PAD7/PAD7_SYS_4.webp width="600" />
 
 <font  color="red">**注意：TOUCH_VIBRATION和TOUCH_SOUND还需要KlipperScreen的支持，如果想使用触摸
 反馈功能，请按照如下步骤设置KlipperScreen。**</font>
@@ -220,7 +220,7 @@ KlipperScreen没有触摸反馈相关的API接口，所以需要将官方的Klip
 
 1.在Mainsail中打开moonraker.conf文件：
 
-<img src=img/PAD7/PAD7_SYS_5.png width="600" />
+<img src=img/PAD7/PAD7_SYS_5.webp width="600" />
 
 2.将KlipperScreen的origin由官方的
 
@@ -228,15 +228,15 @@ https://github.com/jordanruthe/KlipperScreen.git  修改为：  https://github.c
 
 如果您想使用官方而不是BigTreeTech，同样将此链接修改回去即可
 
-<img src=img/PAD7/PAD7_SYS_6.png width="600" />
+<img src=img/PAD7/PAD7_SYS_6.webp width="600" />
 
 3.点击UpdateManager右上角的刷新按钮，然后HardRecoveryKlipperScreen即可
 
-<img src=img/PAD7/PAD7_SYS_7.png width="600" />
+<img src=img/PAD7/PAD7_SYS_7.webp width="600" />
 
 4.等待更新完成。
 
-<img src=img/PAD7/PAD7_SYS_8.png width="600" />
+<img src=img/PAD7/PAD7_SYS_8.webp width="600" />
 
 **SPI转CAN设置**
 
@@ -310,7 +310,7 @@ dtoverlay=mcp2515-can0,oscillator=12000000,interrupt=24,spimaxfrequency=10000000
 
 在ssh终端执行sudonano/etc/network/interfaces.d/can0编辑can0文件，检查文件的内容是否正常，其中bitrate1000000代表canbus的波特率，要与Klipper中的设置一致才行
 
-<img src=img/PAD7/PAD7_SYS_9.png width="600" />
+<img src=img/PAD7/PAD7_SYS_9.webp width="600" />
 
 ```
 allow-hotplug can0
@@ -354,19 +354,19 @@ CB1默认:
 
 1.检查Pad7里面的CS-Choose拨码开关，与CB1搭配使用时要设置到CB1挡位，与CM4搭配使用时要设置到CM4挡位。
 
-<img src=img/PAD7/PAD7_FAQ_1.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_1.webp width="600" />
 
-<img src=img/PAD7/PAD7_FAQ_2.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_2.webp width="600" />
 
 2.按照此手册的硬件接口部分，CANbus接线的H和L是否正确。
 
 3.在ssh终端执行dmesg|grepcan命令，此时应该会有“MCP2515successfully initialized”的应答
 
-<img src=img/PAD7/PAD7_FAQ_3.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_3.webp width="600" />
 
 4.在ssh终端执行sudonano/etc/network/interfaces.d/can0编辑can0文件，检查文件的内容是否正常，其中bitrate1000000代表canbus的波特率，要与Klipper中的设置一致才行。
 
-<img src=img/PAD7/PAD7_FAQ_4.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_4.webp width="600" />
 
 ```
 allow-hotplug can0
@@ -377,15 +377,15 @@ iface can0 can static
 
 5.在ssh终端执行ifconfig查看是否由can0的服务，如下为正常情况。
 
-<img src=img/PAD7/PAD7_FAQ_5.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_5.webp width="600" />
 
 ### ADXL345无法使用
 
 1.检查Pad7里面的CS-Choose拨码开关，与CB1搭配使用时要设置到CB1挡位，与CM4搭配使用时要设置到CM4挡位。
 
-<img src=img/PAD7/PAD7_FAQ_6.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_6.webp width="600" />
 
-<img src=img/PAD7/PAD7_FAQ_7.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_7.webp width="600" />
 
 <font  color="red">**注: 白色色块为按键开关所拨位置。**</font>
 
@@ -393,11 +393,11 @@ iface can0 can static
 
 3.在ssh终端执行ls/dev/spi*命令，正常情况下CB1会有spidev1.1的设备
 
-<img src=img/PAD7/PAD7_FAQ_8.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_8.webp width="600" />
 
 CM4会有spidev0.1的设备
 
-<img src=img/PAD7/PAD7_FAQ_9.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_9.webp width="600" />
 
 
 ## **注意事项**

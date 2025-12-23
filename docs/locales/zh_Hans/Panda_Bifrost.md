@@ -21,10 +21,10 @@ BIQU Panda Bifrost V1.0是深圳必趣科技有限公司推出的一款用于与
 * 逻辑电压：3.3 V
 * 产品尺寸：<br>
 Panda Bifrost:<br>
-    <img src=img/PandaBifrost/PCB_size.png width="300"/>
+    <img src=img/PandaBifrost/PCB_size.webp width="300"/>
 
    外壳打印件：<br> 
-  <img src=img/PandaBifrost/case_size.png width="300"/>
+  <img src=img/PandaBifrost/case_size.webp width="300"/>
 
 
 ## **接口示意图**
@@ -49,20 +49,20 @@ Panda Bifrost:<br>
 
 * 设备会产生一个热点:**"Panda\_Bifrost\_XXXXXXXXXXXX"**, 默认的密码为 **"987654321"**。
 * 使用手机或者电脑连接该热点。 <br>
-    <img src=img/PandaBifrost/ap_select.png width="300"/>
+    <img src=img/PandaBifrost/ap_select.webp width="300"/>
 
 * 打开浏览器输入: **[http://192.168.254.1/](http://192.168.254.1/)**
 * 选择语言 <br>
-    <img src=img/PandaBifrost/language.png width="300"/><br>
+    <img src=img/PandaBifrost/language.webp width="300"/><br>
 
 * 在扫描Wi-Fi后，选择目标网络，输入密码，点击“连接”。<br>
-    <img src=img/PandaBifrost/ap_connect.png width="300"/>
+    <img src=img/PandaBifrost/ap_connect.webp width="300"/>
 
 ### 绑定打印机
 
 * 点击 **扫描**.
 * 输入访问码，然后点击 **连接**. <br>
-    <img src=img/PandaBifrost/bind_printer.png width="300"/>
+    <img src=img/PandaBifrost/bind_printer.webp width="300"/>
 
 ## **绑定其他Panda设备**
 
@@ -84,7 +84,7 @@ DevVersion.bambu.com: 01.00.00.00
 * 打开WEB UI, 点击 **扫描**, 然后选择 **"PandaBifrost"**.
 * 输入访问码，访问与步骤1所输入的相同.
 * 点击 **绑定**. <br>
-    <img src=img/PandaBifrost/as_printer.png width="400">
+    <img src=img/PandaBifrost/as_printer.webp width="400">
 
 ## **使用限制**
 

@@ -8,7 +8,7 @@
 
 Raspberry_Pi_OS
 
-<img src=img/Raspberry_Pi_OS.png width="600"/>
+<img src=img/Raspberry_Pi_OS.webp width="600"/>
 
 ​	Install the official Raspberry Pi Imager: https://www.raspberrypi.com/software/
 
@@ -20,17 +20,17 @@ Raspberry_Pi_OS
 
 2. Select Operating System
 
-<img src=img/Rasp1.png width="600" />
+<img src=img/Rasp1.webp width="600" />
 
 3. Select "Use Custom", then select a custom.img from your computer
 
-<img src=img/Rasp2.png width="600" />
+<img src=img/Rasp2.webp width="600" />
 
 
 
 4. Click the setting icon in the lower right corner
 
-<img src=img/Rasp3.png width="600" />
+<img src=img/Rasp3.webp width="600" />
 
 5. “Enable SSH”and click“SAVE”， There are other features that can be set in this menu. Please modify them according to your own needs. Details are as follows：
 
@@ -40,15 +40,15 @@ Raspberry_Pi_OS
 
    **Configure wireless LAN** // Custom the SSID and password of WLAN
 
-<img src=img/Rasp4.png width="600" />
+<img src=img/Rasp4.webp width="600" />
 
 6. Select the Micro SD card and click "WRITE" (Writing the image will format the Micro SD card. Be careful not to select the wrong storage device, otherwise, the data will be formatted).
 
-<img src=img/Rasp5.png width="600" />
+<img src=img/Rasp5.webp width="600" />
 
 7. Wait for the writing to finish.
 
-<img src=img/Rasp6.png width="600" />
+<img src=img/Rasp6.webp width="600" />
 
 #### **· CM4 eMMC Version**
 
@@ -62,7 +62,7 @@ Raspberry_Pi_OS
 
 2. Push the DIP switch 4 (USB OTG) and 3 (BOOT) to ON to enter BOOT mode.
 
-<img src=img/M4P/M4P_USB.png width="600" />
+<img src=img/M4P/M4P_USB.webp width="600" />
 
 3. Plug the Type-C into the USB port of the computer(in order to avoid problems caused by the insufficient USB power supply of the computer, it is best to use an external 24V power supply to power the motherboard). Run **sudo ./rpiboot**(Mac/Linux) or rpiboot.exe on Windows, then the eMMC of CM4 will be recognized as a mass storage device by the computer (if rpiboot reports an error at this time, you can try to re-plug the USB).
 
@@ -85,16 +85,16 @@ Raspberry_Pi_OS
 1. Plug the Micro SD card into the computer via a card reader.
 2. Select Operating System.
 
-<img src=img/Rasp1.png width="600" />
+<img src=img/Rasp1.webp width="600" />
 
 3. Select "Use Custom", then select a custom.img from your computer.
 
-<img src=img/Rasp2.png width="600" />
+<img src=img/Rasp2.webp width="600" />
 
 4. Select the Micro SD card and click "WRITE" (Writing the image will format the Micro SD card. Be careful not to select the wrong storage device, otherwise, the data will be formatted).
 
-<img src=img/Rasp5.png width="600" />
+<img src=img/Rasp5.webp width="600" />
 
 5. Wait for the writing to finish.
 
-<img src=img/Rasp6.png width="600" />
+<img src=img/Rasp6.webp width="600" />

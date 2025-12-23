@@ -1,6 +1,6 @@
 # ADXL345 V2.0
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -35,27 +35,27 @@ This product currently only supports Klipper firmware.
 
 ## **Dimensions**
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Dimensions.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Dimensions.webp width="600"/>
 
 ## **Peripheral Interface**
 
 ### Pin Description
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Pin.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Pin.webp width="600"/>
 
 ## **Interface Introduction**
 
 Connecting to BTT Pi V1.2 (Type-C)
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Interface.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Interface.webp width="600"/>
 
 Connecting to Manta M8P (Type-C)
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_TypeC.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_TypeC.webp width="600"/>
 
 Connecting to Manta M8P (Soldering Wires)
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Soldering.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Soldering.webp width="600"/>
 
 ## **Klipper Firmware**
 
@@ -70,13 +70,13 @@ make menuconfig
 
 Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).
 
-<img src=img/rp2040_usb_menuconfig.png width="600"/>
+<img src=img/rp2040_usb_menuconfig.webp width="600"/>
 
 2. After configuration, press **q** to exit, and select **Yes** when prompted to save.
 
 3. Enter **make** to compile the firmware. The resulting **klipper.bin** file will be in the **home/pi/klipper/out** folder. This can be directly downloaded to your computer from the SSH software's left panel.
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.webp width="600"/>
 
 ### Firmware Update via DFU
 
@@ -86,7 +86,7 @@ Hold the **Boot** button and connect the board to Raspberry Pi/CB1 via Type-C ca
 
 Enter `lsusb` in the SSH terminal to query the DFU device ID.
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.png width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.webp width="600"/>
 
 
 ​Using command below to navigate to the Klipper directory:
@@ -126,7 +126,7 @@ ls /dev/serial/by-id/*
 
     ​Upload to the **Configuration Files.**
 
-    <img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/>
+    <img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.webp width="600"/>
 
 Add section below into `printer.cfg`
 
@@ -181,10 +181,10 @@ Example using the Voron StealthBurner:
 
 Install on the side bracket with the dual holes (matches official spacing).
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.png width="400"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.webp width="400"/>
 
 **Method 2:**
 
 Use screws through the PCB and rubber ring on the heater block as shown.
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.png width="400"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.webp width="400"/>

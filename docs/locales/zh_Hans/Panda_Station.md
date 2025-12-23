@@ -73,43 +73,43 @@ Panda Station 是专为 **Bambu Lab打印机** 用户打造的堆叠收纳产品
 
     拆开外包装后将主体拿出，将包装内泡棉拿出垫于Station底部防止磕碰，拿出Station箱体内部配件后将Station翻转，底部向上，安装底部滑轮
 
-    <img src=img/PandaStation/install_1.png width="300"/>
+    <img src=img/PandaStation/install_1.webp width="300"/>
 
     使用螺丝刀将16颗M5X6圆头螺丝如图固定福马轮   如图示
 
-    <img src=img/PandaStation/install_2.png width="300"/>
+    <img src=img/PandaStation/install_2.webp width="300"/>
 
     安装完成效果
 
-    <img src=img/PandaStation/install_3.png width="300"/>
+    <img src=img/PandaStation/install_3.webp width="300"/>
 
 * 第二步：安装把手
 
     使用螺丝刀将2颗M4*14圆头螺丝如图固定抽屉把手
 
-    <img src=img/PandaStation/install_4.png width="500"/>
+    <img src=img/PandaStation/install_4.webp width="500"/>
 
     使用螺丝刀将2颗M4*8圆头螺丝如图固定门把手
 
-    <img src=img/PandaStation/zh/install_5.png width="500"/>
+    <img src=img/PandaStation/zh/install_5.webp width="500"/>
 
     完成后效果
 
-    <img src=img/PandaStation/install_6.png width="300"/>
+    <img src=img/PandaStation/install_6.webp width="300"/>
 
 * 第三步：如果适配H2D,可安装快停支架
 
     使用螺丝刀如图示，将2颗沉头螺丝拆除
 
-    <img src=img/PandaStation/install_7.png width="300"/>
+    <img src=img/PandaStation/install_7.webp width="300"/>
 
     使用螺丝刀如图示，将2颗M3*10螺丝固定住快停支架
 
-    <img src=img/PandaStation/install_8.png width="300"/>
+    <img src=img/PandaStation/install_8.webp width="300"/>
 
     完成效果图
 
-    <img src=img/PandaStation/install_9.png width="300"/>
+    <img src=img/PandaStation/install_9.webp width="300"/>
 
 
 ## Naked Panda Station安装指南
@@ -118,35 +118,35 @@ Panda Station 是专为 **Bambu Lab打印机** 用户打造的堆叠收纳产品
 
     拆开外包装后将主体拿出，将包装内泡棉拿出垫于Station底部防止磕碰，拿出Station箱体内部配件后将Station翻转，底部向上，安装福马轮
 
-    <img src=img/PandaStation/install_1.png width="300"/>
+    <img src=img/PandaStation/install_1.webp width="300"/>
 
     使用螺丝刀将16颗M5X6圆头螺丝如图固定福马轮   如图示
 
-    <img src=img/PandaStation/naked_1.png width="500"/>
+    <img src=img/PandaStation/naked_1.webp width="500"/>
 
     安装完成效果
 
-    <img src=img/PandaStation/naked_2.png width="300"/>
+    <img src=img/PandaStation/naked_2.webp width="300"/>
 
 * 第二步：安装把手
 
     使用螺丝刀将2颗M4*14圆头螺丝如图固定抽屉把手
 
-    <img src=img/PandaStation/naked_3.png width="500"/>
+    <img src=img/PandaStation/naked_3.webp width="500"/>
 
     完成后效果
 
-    <img src=img/PandaStation/naked_4.png width="300"/>
+    <img src=img/PandaStation/naked_4.webp width="300"/>
 
 * 第三步：如果适配H2D,可安装急停按钮支架
 
     使用螺丝刀如图示，将2颗M3*10螺丝固定住急停按钮支架
 
-    <img src=img/PandaStation/naked_5.png width="300"/>
+    <img src=img/PandaStation/naked_5.webp width="300"/>
 
     完成效果图
 
-    <img src=img/PandaStation/naked_6.png width="300"/>
+    <img src=img/PandaStation/naked_6.webp width="300"/>
 
 
 ## Panda Station Enclosure Kit安装指南
@@ -155,65 +155,65 @@ Panda Station 是专为 **Bambu Lab打印机** 用户打造的堆叠收纳产品
 
 * 第一步：组装后部上封板
 
-    <img src=img/PandaStation/kit_1.png width="600"/>
+    <img src=img/PandaStation/kit_1.webp width="600"/>
 
 * 第二步：安装后部上封板至框架
 
-    <img src=img/PandaStation/kit_2.png width="600"/>
+    <img src=img/PandaStation/kit_2.webp width="600"/>
 
     安装完成后效果
 
-    <img src=img/PandaStation/kit_3.png width="300"/>
+    <img src=img/PandaStation/kit_3.webp width="300"/>
 
 * 第三步：安装内部照明开门检测霍尔板
 
-    <img src=img/PandaStation/kit_4.png width="600"/>
+    <img src=img/PandaStation/kit_4.webp width="600"/>
 
     安装完成后效果
 
-    <img src=img/PandaStation/kit_5.png width="600"/>
+    <img src=img/PandaStation/kit_5.webp width="600"/>
 
     左右导轨支架上贴上布线扣（数量可根据自身情况增减）
 
-    <img src=img/PandaStation/kit_6.png width="300"/>
+    <img src=img/PandaStation/kit_6.webp width="300"/>
 
     插上3pin的霍尔板连接线
 
 * 第四步：安装内部照明灯条
 
-    <img src=img/PandaStation/kit_7.png width="600"/>
+    <img src=img/PandaStation/kit_7.webp width="600"/>
 
-    <img src=img/PandaStation/kit_8.png width="600"/>
+    <img src=img/PandaStation/kit_8.webp width="600"/>
         
-    <img src=img/PandaStation/kit_9.png width="600"/>   
+    <img src=img/PandaStation/kit_9.webp width="600"/>   
 
-    <img src=img/PandaStation/kit_10.png width="600"/>
+    <img src=img/PandaStation/kit_10.webp width="600"/>
 
-    <img src=img/PandaStation/kit_11.png width="600"/>
+    <img src=img/PandaStation/kit_11.webp width="600"/>
 
-    <img src=img/PandaStation/kit_12.png width="600"/>
+    <img src=img/PandaStation/kit_12.webp width="600"/>
 
-    <img src=img/PandaStation/kit_13.png width="600"/>
+    <img src=img/PandaStation/kit_13.webp width="600"/>
 
 * 第五步：安装前门组件
 
-    <img src=img/PandaStation/kit_14.png width="300"/>
+    <img src=img/PandaStation/kit_14.webp width="300"/>
 
     打开合页
 
-    <img src=img/PandaStation/kit_15.png width="300"/>
+    <img src=img/PandaStation/kit_15.webp width="300"/>
 
-    <img src=img/PandaStation/kit_16.png width="600"/>
+    <img src=img/PandaStation/kit_16.webp width="600"/>
 
-    <img src=img/PandaStation/kit_17.png width="600"/>
+    <img src=img/PandaStation/kit_17.webp width="600"/>
 
 * 第六步：安装左右后三面的封板
 
-    <img src=img/PandaStation/kit_18.png width="400"/>
+    <img src=img/PandaStation/kit_18.webp width="400"/>
 
     安装完成后效果
 
-    <img src=img/PandaStation/kit_19.png width="300"/>
+    <img src=img/PandaStation/kit_19.webp width="300"/>
 
 ## RGB氛围灯安装指南
 
@@ -223,29 +223,29 @@ Panda Station 是专为 **Bambu Lab打印机** 用户打造的堆叠收纳产品
 
 * 第一步：打印固定灯条的打印件
 
-    <img src=img/PandaStation/rgb_3.png width="600"/>
+    <img src=img/PandaStation/rgb_3.webp width="600"/>
 
 * 第二步：去除走线孔上的硅胶塞（封箱版才有）后使用打印件将灯条接线端的一侧固定在靠近走线孔附近的灯条固定孔处，并将接线头塞入孔中，按图示将灯条围绕一圈贴合使用打印件固定
 
-    <img src=img/PandaStation/rgb_1.png width="600"/>
+    <img src=img/PandaStation/rgb_1.webp width="600"/>
 
-    <img src=img/PandaStation/rgb_2.png width="600"/>
+    <img src=img/PandaStation/rgb_2.webp width="600"/>
 
-    <img src=img/PandaStation/rgb_8.png width="600"/>
+    <img src=img/PandaStation/rgb_8.webp width="600"/>
 
-    <img src=img/PandaStation/rgb_9.png width="600"/>
+    <img src=img/PandaStation/rgb_9.webp width="600"/>
 
 * 第三步：Panda Station需先拆除图示红线内的侧板（Naked Panda Station可省略该步骤），然后在立柱侧面贴合适数量的理线夹，随后将盒内较长的4pin排线于灯条对插（注意插头上箭头需相对而插），按照图示走线后插入背板上方转接板（Naked Panda Station无该转接板，需单独购买[Panda Station Enclosure Kit](https://)或[Panda Station Lighting Kit](https://)）,购买Panda Station Lighting Kit需搭配打印的固定板使用
 
-    <img src=img/PandaStation/rgb_7.png width="600"/>
+    <img src=img/PandaStation/rgb_7.webp width="600"/>
 
-    <img src=img/PandaStation/rgb_6.png width="600"/>
+    <img src=img/PandaStation/rgb_6.webp width="600"/>
 
-    <img src=img/PandaStation/rgb_5.png width="600"/>
+    <img src=img/PandaStation/rgb_5.webp width="600"/>
 
-    <img src=img/PandaStation/rgb_4.png width="600"/>
+    <img src=img/PandaStation/rgb_4.webp width="600"/>
 
-    <img src=img/PandaStation/rgb_10.png width="600"/>
+    <img src=img/PandaStation/rgb_10.webp width="600"/>
 
 
 ## **相关导航**

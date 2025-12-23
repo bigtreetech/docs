@@ -127,27 +127,27 @@ The Panda Hue OTG is an all-aluminum alloy handle upgrade designed for the Bambu
 
 * Open Bambu Studio/Maker World (using MakerWorld as an example), go to the homepage and click on MakerLab to select the Lithophane Generator.
 
-    <img src=img/PandaHueOTG/1.png width="800"/>
+    <img src=img/PandaHueOTG/1.webp width="800"/>
 
 * Click to create a new project.
 
-    <img src=img/PandaHueOTG/2.png width="800"/>
+    <img src=img/PandaHueOTG/2.webp width="800"/>
 
 * Click to select the "Colorful Litho without Frame" option.
 
-    <img src=img/PandaHueOTG/3.png width="800"/>
+    <img src=img/PandaHueOTG/3.webp width="800"/>
 
 * After importing the image, select the Attribute and set the Margin to 0.
 
-    <img src=img/PandaHueOTG/4_5.png width="800"/>
+    <img src=img/PandaHueOTG/4_5.webp width="800"/>
 
 * Then, return to the size options, set the width to 35mm, and manually adjust the frame until the height reaches 35mm.
 
-    <img src=img/PandaHueOTG/6_7.png width="800"/>
+    <img src=img/PandaHueOTG/6_7.webp width="800"/>
 
 * Click "Export to Bambu Studio," then select the size options and set the width and height to 35.35mm.
 
-    <img src=img/PandaHueOTG/8_9.png width="800"/>
+    <img src=img/PandaHueOTG/8_9.webp width="800"/>
 
 ## Support
 

@@ -24,7 +24,7 @@ Query the ID of the touchscreen, The name of TFT35_SPI is `ns2009` or `TSC2007`,
 DISPLAY=:0 xinput_calibrator --list
 ```
 
-<img src=img/tft35_spi_id.png width="500"/></br>
+<img src=img/tft35_spi_id.webp width="500"/></br>
 
 ### Start Calibration
 
@@ -34,7 +34,7 @@ Start calibration, Click on the center of the cross that appears one by one on t
 DISPLAY=:0 xinput_calibrator -v --device <id>
 ```
 
-<img src=img/tft35_spi_calibration.png width="600"/>
+<img src=img/tft35_spi_calibration.webp width="600"/>
   
 ## Convert to libinput
 
@@ -146,7 +146,7 @@ sudo ./libinput_calibrator.sh 480 320 61 35 417 281
 ```
 
 The script will automatically convert and write parameters to the configuration file, and then reset KlipperScreen if installed. You can check whether the configuration is effective through the command `DISPLAY=:0 xinput list-props <id>`
-<img src=img/tft35_spi_convert.png width="700"/>
+<img src=img/tft35_spi_convert.webp width="700"/>
 
 ## **FAQ**
 

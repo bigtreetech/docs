@@ -2,7 +2,7 @@
 
 
 
-<img src=img/HDMI7/HDMI7_Title.png width="600"/>
+<img src=img/HDMI7/HDMI7_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -29,13 +29,13 @@ BIGTREETECH HDMI7 V1.0 is a universal 7-inch HDMI display screen developed by th
 
 ## **Dimensions**
 
-<img src=img/HDMI7/HDMI7_Dimension.png width="600"/>
+<img src=img/HDMI7/HDMI7_Dimension.webp width="600"/>
 
 You can read more details here: **BTT HDMI7_V1.0_SIZE**
 
 ## **Interface Diagram**
 
-<img src=img/HDMI7/HDMI7_Interface.png width="600"/>
+<img src=img/HDMI7/HDMI7_Interface.webp width="600"/>
 
 ## **Hardware Configuration**
 
@@ -49,19 +49,19 @@ You can read more details here: **BTT HDMI7_V1.0_SIZE**
 
 Plug the 3.5mm earphone/speaker into the AUDIO interface to realize audio output. 
 
-<img src=img/HDMI7/HDMI7_Audio.png width="600"/>
+<img src=img/HDMI7/HDMI7_Audio.webp width="600"/>
 
 ### **Screen Brightness Adjustment**
 
 <p>BIGTREETECH HDMI7 V1.0 supports brightness adjustment, you can increase the brightness via the Ks1 button, and decrease the brightness via the Ks3 button.<br></p>
 
-<img src=img/HDMI7/HDMI7_Brightness.png width="600"/>
+<img src=img/HDMI7/HDMI7_Brightness.webp width="600"/>
 
 ### **Display Direction Adjustment**
 
 BIGTREETECH HDMI7 V1.0 supports horizontal display direction adjustment via the Ks2 button.
 
-<img src=img/HDMI7/HDMI7_Direction.png width="600"/>
+<img src=img/HDMI7/HDMI7_Direction.webp width="600"/>
 
 ### **Indicator Light**
 
@@ -121,7 +121,7 @@ hdmi_drive=1
 
 2.After entering the system desktop, right-click the audio source icon in the upper right corner, and select HDMI.
 
-<img src=img/HDMI7/HDMI7_Desktop.png width="600"/>
+<img src=img/HDMI7/HDMI7_Desktop.webp width="600"/>
 
 
 

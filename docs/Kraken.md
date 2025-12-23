@@ -1,6 +1,6 @@
 # KRAKEN V1.0/V1.1
 
-<img src=img/Kraken/kraken_title.png width="600" />
+<img src=img/Kraken/kraken_title.webp width="600" />
 
 ## **Product Profile**
 
@@ -51,7 +51,7 @@ BIGTREETECH Kraken V1.0 is a 32-bit motherboard for large printers. It comes wit
 | Supported Kinematics                      | Cartesian, Delta, Kossel, Ultimaker, CoreXY                                                                                                                                       |
 | Recommended Slicer/Console                | Cura, Simplify3D, Pronterface, Repetier-host, Makerware                                                                                                                           |
 | Dimensions                                | 200 x 113mm                                                                                                                                                                       |
-| Mounting Dimensions                       | for details please refer to BIGTREETECH Kraken V1.0-SIZE.png                                                                                                                      |
+| Mounting Dimensions                       | for details please refer to BIGTREETECH Kraken V1.0-SIZE.webp                                                                                                                      |
 
 ## **Firmware Support**
 
@@ -59,17 +59,17 @@ Compatible with Klipper, Marlin, RRF(RepRapFirmware)
 
 ## **Dimensions**
 
-<img src=img/Kraken/kraken_dimension.png width="600" />
+<img src=img/Kraken/kraken_dimension.webp width="600" />
 
 ## Peripheral Interface
 
 ### Interface Diagram
 
-<img src=img/Kraken/kraken_interface.png width="600" />
+<img src=img/Kraken/kraken_interface.webp width="600" />
 
 ### Pin Description
 
-<img src=img/Kraken/kraken_pin.png width="600" />
+<img src=img/Kraken/kraken_pin.webp width="600" />
 
 ## **Interface Introduction**
 
@@ -77,7 +77,7 @@ Compatible with Klipper, Marlin, RRF(RepRapFirmware)
 
 When Kraken is powered on, the power indicator light turns red, indicating normal power supply. VUSB is the power select pin which needs to be shorted with a jumper only when supplying power to the board via USB.
 
-<img src=img/Kraken/kraken_usb.png width="600" />
+<img src=img/Kraken/kraken_usb.webp width="600" />
 
 ### Stepper Motor Drivers
 
@@ -85,7 +85,7 @@ When Kraken is powered on, the power indicator light turns red, indicating norma
 
 No jumper is needed to select the mode; directly use the SPI mode. When using Sensorless Homing, plug in the jumper; if not, leave it unplugged. DIAG connection as follows:
 
-<img src=img/Kraken/kraken_stepper.png width="600" />
+<img src=img/Kraken/kraken_stepper.webp width="600" />
 
 #### PWM Fan Voltage Selection
 
@@ -94,53 +94,53 @@ Set the output voltage to 5V, 12V, or 24V via a jumper. The fan interface output
 !!! warning 
     Be sure to confirm the supported voltage of the fan before selection to avoid damage for which our company is not responsible.
 
-<img src=img/Kraken/kraken_pwm.png width="600" />
+<img src=img/Kraken/kraken_pwm.webp width="600" />
 
 ### MicroProbe V2.0 Wiring
 
-<img src=img/Kraken/kraken_microprobe.png width="600" />
+<img src=img/Kraken/kraken_microprobe.webp width="600" />
 
 ### Auto Power Off (Relay V1.2) Wiring
 
-<img src=img/Kraken/kraken_power_off.png width="600" />
+<img src=img/Kraken/kraken_power_off.webp width="600" />
 
 ### EXP1+EXP2 and MINI12864 V2.0 Display Wiring
 
-<img src=img/Kraken/kraken_display.png width="600" />
+<img src=img/Kraken/kraken_display.webp width="600" />
 
 ### RGB Wiring
 
-<img src=img/Kraken/kraken_rgb.png width="600" />
+<img src=img/Kraken/kraken_rgb.webp width="600" />
 
 ### Servo Wiring
 
-<img src=img/Kraken/kraken_servo.png width="600" />
+<img src=img/Kraken/kraken_servo.webp width="600" />
 
 ### I2C Wiring (Temperature and Humidity Sensor)
 
-<img src=img/Kraken/kraken_i2c.png width="600" />
+<img src=img/Kraken/kraken_i2c.webp width="600" />
 
 ### 2-pin Fan Connection
 
-<img src=img/Kraken/kraken_2pin.png width="600" />
+<img src=img/Kraken/kraken_2pin.webp width="600" />
 
 ### Proximity Switch Connection
 
 Normally open (NPN type), no jumper is required, as shown in the 24V example.
 
-<img src=img/Kraken/kraken_proximity.png width="600" />
+<img src=img/Kraken/kraken_proximity.webp width="600" />
 
 Normally closed (PNP type), a jumper is needed, as shown in the 24V example.
 
-<img src=img/Kraken/kraken_proximity1.png width="600" />
+<img src=img/Kraken/kraken_proximity1.webp width="600" />
 
 ### 4-pin PWM Fan and Water Cooling Connection (12V example)
 
-<img src=img/Kraken/kraken_4pin.png width="600" />
+<img src=img/Kraken/kraken_4pin.webp width="600" />
 
 ### Raspberry Pi Connection
 
-<img src=img/Kraken/kraken_pi.png width="600" />
+<img src=img/Kraken/kraken_pi.webp width="600" />
 
 ## **Marlin**
 
@@ -170,7 +170,7 @@ You can open Marlin in VS Code in one of several ways:
 
 Open **platformio.ini** file and change **default_envs** to **STM32H723ZG_btt**.
 
-<img src=img/Kraken/kraken_marlin1.png width="600" />
+<img src=img/Kraken/kraken_marlin1.webp width="600" />
 
 **Configure Motherboard and Serial Port**
 
@@ -186,19 +186,19 @@ Set **MOTHERBOARD** as **BOARD_BTT_KRAKEN_V1_0**
 
 The above settings can be enabled as needed.
 
-<img src=img/Kraken/kraken_marlin2.png width="600" />
+<img src=img/Kraken/kraken_marlin2.webp width="600" />
 
 **Configure Stepper Driver**
 
 Kraken has 8 TMC2160 drivers onboard
 
-<img src=img/Kraken/kraken_marlin3.png width="600" />
+<img src=img/Kraken/kraken_marlin3.webp width="600" />
 
 We need to enable <font  color="blue">TMC_USE_SW_SPI2</font> in Configuration_adv.h
 
 <font  color="red">#define</font> <font  color="blue">TMC_USE_SW_SPI</font>
 
-<img src=img/Kraken/kraken_marlin4.png width="600" />
+<img src=img/Kraken/kraken_marlin4.webp width="600" />
 
 V1.0：The Rsense of S1-S4 is 22mΩ, so the firmware needs to be set to 0.022.
 
@@ -206,11 +206,11 @@ V1.1：The Rsense of S1-S4 is 50mΩ, so the firmware needs to be set to 0.05.
 
 The Rsense of S5-S8 is 75mΩ, so the firmware needs to be set to 0.075.
 
-<img src=img/Kraken/kraken_marlin5.png width="600" />
+<img src=img/Kraken/kraken_marlin5.webp width="600" />
 
 **Sensorless Homing**
 
-<img src=img/Kraken/kraken_marlin6.png width="600" />
+<img src=img/Kraken/kraken_marlin6.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">SENSORLESS_HOMING</font>    // enable sensorless homing
 
@@ -228,7 +228,7 @@ The standard TH ports only support NTC 100K thermistor,  In Marlin firmware, "1"
 
 <font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_BED</font>    <font  color="green">1</font>
 
-<img src=img/Kraken/kraken_marlin7.png width="600" />
+<img src=img/Kraken/kraken_marlin7.webp width="600" />
 
 **Max31865**
 
@@ -240,31 +240,31 @@ In Marlin (klipper) firmware, "-5" represents max31865, the sensor resistance (r
 
 <font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_1</font>    <font  color="green">-5</font>
 
-<img src=img/Kraken/kraken_marlin8.png width="600" />
+<img src=img/Kraken/kraken_marlin8.webp width="600" />
 
 **BLTouch**
 
-<img src=img/Kraken/kraken_marlin9.png width="600" />
+<img src=img/Kraken/kraken_marlin9.webp width="600" />
 
 <font  color="green">//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN</font>    // Do not remap the Z_PROBE_PIN to the Z_MIN port.
 
-<img src=img/Kraken/kraken_marlin10.png width="600" />
+<img src=img/Kraken/kraken_marlin10.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">BLTOUCH</font>    // Enable BLTouch
 
-<img src=img/Kraken/kraken_marlin11.png width="600" />
+<img src=img/Kraken/kraken_marlin11.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">NOZZLE_TO_PROBE_OFFSET</font>    <font  color="green">{ -40, -10, -2.85 }</font>    // set BLTouch probe offset
 
 <font  color="red">#define</font> <font  color="blue">PROBING_MARGIN</font>    <font  color="green">10</font>    // set distance between probe area and print area perimeter
 
-<img src=img/Kraken/kraken_marlin12.png width="600" />
+<img src=img/Kraken/kraken_marlin12.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">AUTO_BED_LEVELING_BILINEAR</font>    // set probe pattern
 
 <font  color="red">#define</font> <font  color="blue">RESTORE_LEVELING_AFTER_G28</font>    //apply leveling after G28 homing command
 
-<img src=img/Kraken/kraken_marlin13.png width="600" />
+<img src=img/Kraken/kraken_marlin13.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">GRID_MAX_POINTS_X</font>    <font  color="green">5</font>    // set number of probe points for X axis, usually 5 point is sufficient
 
@@ -272,17 +272,17 @@ In Marlin (klipper) firmware, "-5" represents max31865, the sensor resistance (r
 
 If BLTouch also functions as your Z homing sensor, no wiring change is needed, just set it in the firmware.
 
-<img src=img/Kraken/kraken_marlin14.png width="600" />
+<img src=img/Kraken/kraken_marlin14.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">USE_PROBE_FOR_Z_HOMING</font>    // use Z Probe(BLTouch) for Z homing
 
-<img src=img/Kraken/kraken_marlin15.png width="600" />
+<img src=img/Kraken/kraken_marlin15.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">Z_SAFE_HOMING</font>    // home Z at the center of print bed to prevent probing outside of the print bed.
 
 **Auto Power Off (Relay V1.2)**
 
-<img src=img/Kraken/kraken_marlin16.png width="600" />
+<img src=img/Kraken/kraken_marlin16.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">PSU_CONTROL</font>    // enable PSU control to turn on and off using M80 and M81
 
@@ -290,7 +290,7 @@ If BLTouch also functions as your Z homing sensor, no wiring change is needed, j
 
 **RGB**
 
-<img src=img/Kraken/kraken_marlin17.png width="600" />
+<img src=img/Kraken/kraken_marlin17.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">NEOPIXEL_LED</font>    // enable Neopixel
 
@@ -304,7 +304,7 @@ If BLTouch also functions as your Z homing sensor, no wiring change is needed, j
 
 If you are using displays like LCD2004, 12864, mini12864, etc., you can also control RGB from your display directly.
 
-<img src=img/Kraken/kraken_marlin18.png width="600" />
+<img src=img/Kraken/kraken_marlin18.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">LED_CONTROL_MENU</font>    // add LED control to your menu.
 
@@ -312,7 +312,7 @@ If you are using displays like LCD2004, 12864, mini12864, etc., you can also con
 
 Standard filament run out sensors are usually comprised of a microswitch which signals the mainboard of filament status with High or Low level signal. 
 
-<img src=img/Kraken/kraken_marlin19.png width="600" />
+<img src=img/Kraken/kraken_marlin19.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">FILAMENT_RUNOUT_SENSOR</font>    // enable filament run out sensor
 
@@ -326,7 +326,7 @@ Standard filament run out sensors are usually comprised of a microswitch which s
 
 The smart filament sensor works by continuously sending signal to the mainboard to communicate filament status. 
 
-<img src=img/Kraken/kraken_marlin20.png width="600" />
+<img src=img/Kraken/kraken_marlin20.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">FILAMENT_MOTION_SENSOR</font>    // set encoder type
 
@@ -334,15 +334,15 @@ The smart filament sensor works by continuously sending signal to the mainboard 
 
 The settings below also need to be set to instruct the printer to park the nozzle after filament error is detected.
 
-<img src=img/Kraken/kraken_marlin21.png width="600" />
+<img src=img/Kraken/kraken_marlin21.webp width="600" />
 
-<img src=img/Kraken/kraken_marlin22.png width="600" />
+<img src=img/Kraken/kraken_marlin22.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">NOZZLE_PARK_FEATURE</font>    // park nozzle
 
 <font  color="red">#define</font> <font  color="blue">NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 } </font>    // set the X, Y and Z offset coordinate of the nozzle 
 
-<img src=img/Kraken/kraken_marlin23.png width="600" />
+<img src=img/Kraken/kraken_marlin23.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">ADVANCED_PAUSE_FEATURE</font>    // retraction setting of nozzle park movement and filament purge distance after the print is resumed.
 
@@ -350,11 +350,11 @@ The settings below also need to be set to instruct the printer to park the nozzl
 
 1、Click "√" to compile firmware. 
 
-<img src=img/Kraken/kraken_marlin24.png width="600" />
+<img src=img/Kraken/kraken_marlin24.webp width="600" />
 
 2、Copy the compiled "firmware.bin" to SD card and insert to motherboard to update firmware.
 
-<img src=img/Kraken/kraken_marlin25.png width="600" />
+<img src=img/Kraken/kraken_marlin25.webp width="600" />
 
 ## **Klipper**
 
@@ -372,13 +372,13 @@ The settings below also need to be set to instruct the printer to park the nozzl
   CANBUS Interface
 * Communication interface (CAN bus (on PD0/PD1))  --->
 
-<img src=img/Kraken/kraken_klipper1.png width="600" />
+<img src=img/Kraken/kraken_klipper1.webp width="600" />
 
 2、Press **q** to exit, and **Yes** when asked to save the configuration.
 
 3、Run make to compile firmware, "klipper.bin" file will be generated in home/pi/klipper/out folder when make is finished, download it onto your computer using the SSH application.
 
-<img src=img/Kraken/kraken_klipper2.png width="600" />
+<img src=img/Kraken/kraken_klipper2.webp width="600" />
 
 4、Rename klipper.bin to "firmware.bin", copy to SD card to update firmware.
 
@@ -390,7 +390,7 @@ ls /dev/serial/by-id/
 
 in command line to check motherboard ID to confirm whether firmware is updated successfully, as shown below.
 
-<img src=img/Kraken/kraken_klipper3.png width="600" />
+<img src=img/Kraken/kraken_klipper3.webp width="600" />
 
 copy and save this ID, it is needed when modifying klipper config.
 
@@ -400,19 +400,19 @@ copy and save this ID, it is needed when modifying klipper config.
 
 https://github.com/bigtreetech/BIGTREETECH-Kraken
 
-<img src=img/Kraken/kraken_klipper4.png width="600" />
+<img src=img/Kraken/kraken_klipper4.webp width="600" />
 
 2、Upload the motherboard's configuration file to **Configuration Files** and include this configuration file in the **printer.cfg** file.
 
-<img src=img/Kraken/kraken_klipper5.png width="600" />
+<img src=img/Kraken/kraken_klipper5.webp width="600" />
 
 [include generic-bigtreetech-kraken.cfg]
 
-<img src=img/Kraken/kraken_klipper6.png width="600" />
+<img src=img/Kraken/kraken_klipper6.webp width="600" />
 
 3、Insert the correct motherboard ID.
 
-<img src=img/Kraken/kraken_klipper7.png width="600" />
+<img src=img/Kraken/kraken_klipper7.webp width="600" />
 
 4、 Refer to https://www.klipper3d.org/Overview.html for detailed configuration guide according to your machine type.
 
@@ -431,7 +431,7 @@ https://github.com/bigtreetech/BIGTREETECH-Kraken
 
 1、Run ls /dev/serial/by-id/ to get the board ID. If Klipper is running, it will return a klipper ID.
 
-<img src=img/Kraken/kraken_klipper8.png width="600" />
+<img src=img/Kraken/kraken_klipper8.webp width="600" />
 
 2、If ls /dev/serial/by-id/ is able to find the MCU's klipper device ID, you can directly input: 
 
@@ -445,7 +445,7 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h723xx_41003D00175130
 
 to write firmware (Note: Replace/dev/serial/by-id/xxx with the actual ID queried in the previous step)
 
-<img src=img/Kraken/kraken_klipper9.png width="600" />
+<img src=img/Kraken/kraken_klipper9.webp width="600" />
 
 After writing completes, there may be an error message dfu-util: Error during download get_status, just ignore it.
 

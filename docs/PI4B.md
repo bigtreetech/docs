@@ -1,6 +1,6 @@
 # PI4B
 
-<img src=img/PI4B/PI4B_Title.png width="600"/>
+<img src=img/PI4B/PI4B_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -29,11 +29,11 @@ BIGTREETECH PI4B Adapter V1.0 is a Raspberry Pi CM4 carrier board launched by Sh
 
 ## **Dimensions**
 
-<img src=img/PI4B/PI4B_Dimension.png width="600"/>
+<img src=img/PI4B/PI4B_Dimension.webp width="600"/>
 
 ## **Interface Diagram**
 
-<img src=img/PI4B/PI4B_Interface.png width="600"/>
+<img src=img/PI4B/PI4B_Interface.webp width="600"/>
 
 <font  color="red">***Warning: The voltage of the Type-C port is 5V, and 12/24V is not allowed，otherwise, it will cause irreversible damage.***</font>
 
@@ -43,7 +43,7 @@ BIGTREETECH PI4B Adapter V1.0 is a Raspberry Pi CM4 carrier board launched by Sh
 
 Onboard 2 indicator lights. When powering on, the PWR (red) light will be on when the Raspberry Pi power supply is successfully started, and the ACT (green) light will flash when the system is running.
 
-<img src=img/PI4B/PI4B_Light.png width="600"/>
+<img src=img/PI4B/PI4B_Light.webp width="600"/>
 
 ## **Hardware Installation**
 
@@ -51,7 +51,7 @@ Onboard 2 indicator lights. When powering on, the PWR (red) light will be on whe
 
 The installation direction of CM4 to BIGTREETECH PI4B Adapter V1.0 is shown below:
 
-<img src=img/PI4B/PI4B_CM4.png width="600"/>
+<img src=img/PI4B/PI4B_CM4.webp width="600"/>
 
 ## **Software Configuration**
 
@@ -81,7 +81,7 @@ https://github.com/raspberrypi/usbboot#building
 
 2.Push the DIP switch 1 (USB OTG) and 2 (RPI BOOT) to ON to enter BOOT mode.
 
-<img src=img/PI4B/PI4B_eMMC.png width="600"/>
+<img src=img/PI4B/PI4B_eMMC.webp width="600"/>
 
 3.Plug the Type-C into the USB port of the computer (in order to avoid problems caused by the insufficient USB power supply of the computer, it is best to use a USB-Hub with an external power supply, or use an external power supply to power the CM4 via the 5V port of the 40 pin pin header). Run sudo ./rpiboot (Mac/Linux) or rpiboot.exe on Windows, then the eMMC of CM4 will be recognized as a mass storage device by the computer (if rpiboot reports an error at this time, you can try to re-plug the USB).
 

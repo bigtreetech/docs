@@ -1,8 +1,8 @@
 # EBB 42 CAN
 
 <figure class="half">
-  <img src=img/EBB42CAN/072/EBB42_072_Title.png width="550"/>  
-  <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Title.png width="550"/>  
+  <img src=img/EBB42CAN/072/EBB42_072_Title.webp width="550"/>  
+  <img src=img/EBB42CAN/G0B1/EBB42_G0B1_Title.webp width="550"/>  
 </figure> 
 
 ## **产品简介**
@@ -49,21 +49,21 @@ BIGTREETECH EBB42 CAN V1.0/V1.1是必趣创新科技（深圳）有限公司3D�
 
 版本:V1.0
 
-<img src=img/EBB42CAN/072/EBB42_072_Diagram.png width="600"/>  
+<img src=img/EBB42CAN/072/EBB42_072_Diagram.webp width="600"/>  
 
 版本:V1.1
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Diagram.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Diagram.webp width="600"/>
 
 ## **引出线**
 
 版本:V1.0
 
-<img src=img/EBB42CAN/072/EBB42_072_Pinout.png width="600"/>
+<img src=img/EBB42CAN/072/EBB42_072_Pinout.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Pin.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Pin.webp width="600"/>
 
 ## **硬件配置**
 
@@ -73,13 +73,13 @@ BIGTREETECH EBB42 CAN V1.0/V1.1是必趣创新科技（深圳）有限公司3D�
 
 控制板通电时，D1 RGB灯亮，表示正常供电。电路板中间的VUSB是电源的选择端子。只有当USB向板供电时，或者板通过USB供电时，用户才需要通过跳线将VUSB短路。
 
-<img src=img/EBB42CAN/072/EBB42_072_USBP.png width="600"/>
+<img src=img/EBB42CAN/072/EBB42_072_USBP.webp width="600"/>
 
 版本:V1.1
 
 主板通电后，黄绿色LED1指示灯亮起，表示电源正常。电路板中间的VUSB是电源选择部分。只有在使用USB向主板供电或需要通过USB供电时，才需要使用跳线帽连接VUSB。
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_USBP.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_USBP.webp width="600"/>
 
 ## **硬件安装**
 
@@ -89,11 +89,11 @@ BIGTREETECH EBB42 CAN V1.0/V1.1是必趣创新科技（深圳）有限公司3D�
 
 版本:V1.0
 
-<img src=img/EBB42CAN/072/EBB42_072_PT100.png width="600"/>
+<img src=img/EBB42CAN/072/EBB42_072_PT100.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_PT100.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_PT100.webp width="600"/>
 
 2.31865版本：通过DIP开关选择PT100/PT1000，两线或四线。
 
@@ -113,45 +113,45 @@ BIGTREETECH EBB42 CAN V1.0/V1.1是必趣创新科技（深圳）有限公司3D�
 
 版本:V1.0
 
-<img src=img/EBB42CAN/072/EBB42_072_TwoW.png width="600"/>
+<img src=img/EBB42CAN/072/EBB42_072_TwoW.webp width="600"/>
 
-<img src=img/EBB42CAN/072/EBB42_072_FourW.png width="600"/>
+<img src=img/EBB42CAN/072/EBB42_072_FourW.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_TwoW.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_TwoW.webp width="600"/>
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_FourW.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_FourW.webp width="600"/>
 
 ### **BL-Touch**
 
 版本:V1.0
 
-<img src=img/EBB42CAN/072/EBB42_072_BLTouch.png width="600"/>
+<img src=img/EBB42CAN/072/EBB42_072_BLTouch.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_BLTouch.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_BLTouch.webp width="600"/>
 
 ### **耗材断裂检测**
 
 版本:V1.0
 
-<img src=img/EBB42CAN/072/EBB42_072_Broke.png width="600"/>
+<img src=img/EBB42CAN/072/EBB42_072_Broke.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Broke.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_Broke.webp width="600"/>
 
 ###  **RGB**
 
 版本:V1.0
 
-<img src=img/EBB42CAN/072/EBB42_072_RGB.png width="600"/>
+<img src=img/EBB42CAN/072/EBB42_072_RGB.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB42CAN/G0B1/EBB42_G0B1_RGB.png width="600"/>
+<img src=img/EBB42CAN/G0B1/EBB42_G0B1_RGB.webp width="600"/>
 
 ## **软件配置**
 

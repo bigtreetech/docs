@@ -5,7 +5,7 @@
 
     [TFT35 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/TFT35/)
 
-<img src=img/TFT35_V3.0/TFT35_V3.0_Title.png width="600" />
+<img src=img/TFT35_V3.0/TFT35_V3.0_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -40,11 +40,11 @@ TFT35 V3.0是一款中等尺寸、双模、超清晰的3D打印机显示器。�
 
 ## **尺寸**
 
-**<img src=img/TFT35_V3.0/TFT35_V3.0_Diagram.png width="600" />**
+**<img src=img/TFT35_V3.0/TFT35_V3.0_Diagram.webp width="600" />**
 
 ## **接口示意图**
 
-**<img src=img/TFT35_V3.0/TFT35_V3.0_Interface.png width="600" />**
+**<img src=img/TFT35_V3.0/TFT35_V3.0_Interface.webp width="600" />**
 
 **<font  color="red">*注释：*</font>**
 

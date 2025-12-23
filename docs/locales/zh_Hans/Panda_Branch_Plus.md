@@ -1,6 +1,6 @@
 # Panda Branch Plus
 
-<img src=img/PandaBranchPlus/zhuban.png width="800"/>
+<img src=img/PandaBranchPlus/zhuban.webp width="800"/>
 
 - **产品链接**: [点击购买](https://bit.ly/47E0Gog)
 
@@ -55,7 +55,7 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 
 * 将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
 
-    <img src=img/PandaBranchPlus/a1mini1.png width="800"/>
+    <img src=img/PandaBranchPlus/a1mini1.webp width="800"/>
 
 * 将打印好的支架放入如图对应的位置，用M3*15机牙螺丝固定,随后将第一步中装配好上下壳放入打印支架顶端的槽中，再将打印的手拧螺丝拧紧。
 
@@ -87,7 +87,7 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 
     <img src=img/PandaBranchPlus/p12.jpg width="800"/>
 
-    <img src=img/PandaBranchPlus/p13.png width="800"/>
+    <img src=img/PandaBranchPlus/p13.webp width="800"/>
 
     （该方式需要用两个M3*15机牙螺丝固定在机器的右后方或者上后方）
 
@@ -98,17 +98,17 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 
 * 使用手机或者电脑连接该热点
 
-    <img src=img/PandaBranchPlus/ap_select.png width="300"/>  
+    <img src=img/PandaBranchPlus/ap_select.webp width="300"/>  
 
 * 在浏览器输入:http://192.168.254.1/
 
 * 选择语言
 
-    <img src=img/PandaBranchPlus/language.png width="300"/> 
+    <img src=img/PandaBranchPlus/language.webp width="300"/> 
   
 * 扫描WiFi后，选择需要连接的WiFi名称，输入wifi密码后点击连接
 
-    <img src=img/PandaBranchPlus/ap_connect.png width="300"/>   
+    <img src=img/PandaBranchPlus/ap_connect.webp width="300"/>   
 
 ### 绑定打印机
 
@@ -116,14 +116,14 @@ Panda Branch Plus 为您的 3D 打印生态系统提供先进的模块化电源�
 
 * 输入访问码后点击连接
 
-    <img src=img/PandaBranchPlus/bind_printer.png width="300"/>
+    <img src=img/PandaBranchPlus/bind_printer.webp width="300"/>
 
 
 ## 开关控制
 
 支持通过WEB UI控制USB端口和24V端口的开和关
 
-<img src=img/PandaBranchPlus/port_control.png width="300">
+<img src=img/PandaBranchPlus/port_control.webp width="300">
 
 
 ## 其他Panda设备如何绑定该设备
@@ -147,7 +147,7 @@ DevVersion.bambu.com: 01.00.00.00
 * 输入打印机上的访问码，访问码与打印机上的一模一样。
 * 点击 **绑定**。
 
-    <img src=img/PandaBranchPlus/as_printer.png width="500"> 
+    <img src=img/PandaBranchPlus/as_printer.webp width="500"> 
 
 ## 使用限制
 

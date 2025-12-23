@@ -46,7 +46,7 @@
 
 ## Dimensions and Interface
 
-<img src=img/PandaKnomi3D/size.png width="400"/>
+<img src=img/PandaKnomi3D/size.webp width="400"/>
 
 <img src=img/PandaKnomi3D/port.jpg width="400"/>
 
@@ -489,11 +489,11 @@ Please note that the total size may differ slightly from the sum of individual G
 
         * Go to the **IMG** folder and choose your preferred IMG theme.
 
-            <img src=img/PandaKnomi3D/img_github_path.png width="800"/>
+            <img src=img/PandaKnomi3D/img_github_path.webp width="800"/>
 
         * Click **Download** and save the file locally.
 
-            <img src=img/PandaKnomi3D/img_github_download.png width="800"/>
+            <img src=img/PandaKnomi3D/img_github_download.webp width="800"/>
 
 * Go to the Panda Knomi 3D Web UI: ① **Settings** -> ② **Select .img file**, then select the downloaded `.img` file. After updating, Panda Knomi 3D will automatically apply the new IMG file.
 
@@ -525,31 +525,31 @@ Please note that the total size may differ slightly from the sum of individual G
 
     * Click ① **Fork**
 
-        <img src=img/PandaKnomi3D/fork_1.png width="800"/>
+        <img src=img/PandaKnomi3D/fork_1.webp width="800"/>
 
     * Click ② **Create fork**
 
-      <img src=img/PandaKnomi3D/fork_2.png width="800"/>
+      <img src=img/PandaKnomi3D/fork_2.webp width="800"/>
 
     * Wait for the **fork** to complete
 
-      <img src=img/PandaKnomi3D/fork_3.png width="800"/>
+      <img src=img/PandaKnomi3D/fork_3.webp width="800"/>
 
     * After forking is complete, ① go to the **IMG** folder -> ② **Add file** -> ③ **Upload files**
 
-        <img src=img/PandaKnomi3D/img_drag.png width="800"/>
+        <img src=img/PandaKnomi3D/img_drag.webp width="800"/>
 
     * ① Select the `.img` file to upload, ② Enter a custom IMG **title**, ③ Write a **description** for the custom theme, ④ **Commit file**
 
-        <img src=img/PandaKnomi3D/img_pri_commit.png width="800"/>
+        <img src=img/PandaKnomi3D/img_pri_commit.webp width="800"/>
 
     * ① **Contribute** -> ② **Open pull request**
 
-        <img src=img/PandaKnomi3D/img_open_pr.png width="800"/>
+        <img src=img/PandaKnomi3D/img_open_pr.webp width="800"/>
 
     * ① Write a custom IMG **title**, ② Write a **description** for the custom theme, ③ Check **Allow edits by maintainers**, ④ **Create pull request**
 
-        <img src=img/PandaKnomi3D/img_create_pr.png width="800"/>
+        <img src=img/PandaKnomi3D/img_create_pr.webp width="800"/>
 
     * Congratulations, you've completed sharing!
 
@@ -631,7 +631,7 @@ If you’d like to request new features for upcoming Panda Knomi 3D firmware rel
 
 * Download the [Flash Download Tool](https://www.espressif.com/en/support/download/other-tools). <br/>
 
-    <img src=img/PandaKnomi3D/en/download_esp_tool.png width="800"/>
+    <img src=img/PandaKnomi3D/en/download_esp_tool.webp width="800"/>
 
 * Download the [Panda Knomi 3D firmware](https://github.com/bigtreetech/PandaKnomi3D).
 
@@ -641,11 +641,11 @@ If you’d like to request new features for upcoming Panda Knomi 3D firmware rel
 
 * Open `flash_download_tool_3.9.8_6.exe` and configure it as shown:
 
-    <img src=img/PandaKnomi3D/open_esp_tool.png width="400"/>
+    <img src=img/PandaKnomi3D/open_esp_tool.webp width="400"/>
 
 * Configure the flashing tool as follows:
 
-    <img src=img/PandaKnomi3D/set_esp_tool.png width="400"/>
+    <img src=img/PandaKnomi3D/set_esp_tool.webp width="400"/>
 
     * ① Set the flashing addresses for the `.bin` files and enable all checkboxes:
 

@@ -1,6 +1,6 @@
 # TFT35 E3
 
-<img src=img/TFT35_E3/TFT35_E3_Title.png width="600" />
+<img src=img/TFT35_E3/TFT35_E3_Title.webp width="600" />
 
 ## **Introduction**
 
@@ -39,11 +39,11 @@ power supply;**</font>
 
 ## **Dimensions**
 
-<img src=img/TFT35_E3/TFT35_E3_Diagram.png width="600" />
+<img src=img/TFT35_E3/TFT35_E3_Diagram.webp width="600" />
 
 ## **Interface Diagram**
 
-<img src=img/TFT35_E3/TFT35_E3_Interface.png width="600" />
+<img src=img/TFT35_E3/TFT35_E3_Interface.webp width="600" />
 
 <font  color="red">***Notes：***</font>
 

@@ -36,7 +36,7 @@
 
 ## 尺寸和接口
 
-<img src=img/PandaKnomi/size.png width="400"/>
+<img src=img/PandaKnomi/size.webp width="400"/>
 <img src=img/PandaKnomi/port.jpg width="400"/>
 
 ## 安装指南
@@ -50,7 +50,7 @@
 #### 安装到 A1 系列工具头
 
 * 轻轻揭下 Panda Knomi 的保护膜。<br/>
-  <img src=img/PandaKnomi/install_1.png width="300"/>
+  <img src=img/PandaKnomi/install_1.webp width="300"/>
 * 将Panda Knomi 安装到外壳内
     * 塑料外壳
         * 将屏幕放入外壳卡槽中。<br/>
@@ -61,12 +61,12 @@
         * 将Panda Knomi对准并放置于外壳的对应槽位。<br/>
           <img src=img/PandaKnomi/install_2.jpg width="300"/>
         * 确保 `压盖` 与扣位对齐后，轻轻放置并顺时针旋转以固定。<br/>
-          <img src=img/PandaKnomi/install_4.png width="600"/>
+          <img src=img/PandaKnomi/install_4.webp width="600"/>
 * 安装Panda Knomi 到A1系列工具头
     * 从侧面用力按压工具头前盖，解锁并移除前盖。<br/>
-      <img src=img/PandaKnomi/install_5.png width="300"/>
+      <img src=img/PandaKnomi/install_5.webp width="300"/>
     * 卸下旋转轮。<br/>
-      <img src=img/PandaKnomi/install_6.png width="300"/>
+      <img src=img/PandaKnomi/install_6.webp width="300"/>
     * 将电源线穿过指定的孔位。<br/>
       <img src=img/PandaKnomi/install_7.jpg width="300"/>
     * 插入Panda Knomi电源接口。<br/>
@@ -74,21 +74,21 @@
     * 顶部开始扣入Panda Knomi，轻轻按压以固定。<br/>
       > 注意：光固化版本外壳具有易碎特性。安装时，请确保卡位准确，并轻轻卡入，避免错位导致过度用力，以免损坏打印件。
 
-        <img src=img/PandaKnomi/install_9.png height="300"/><img src=img/PandaKnomi/install_10.png height="300"/>
+        <img src=img/PandaKnomi/install_9.webp height="300"/><img src=img/PandaKnomi/install_10.webp height="300"/>
 
 * 最后，为了避免电源线干扰打印以及让打印机看起来更加整洁，我们设计了[可打印的夹线器模型](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cable_Clip%20%E5%A4%B9%E7%BA%BF%E5%99%A8_V1.0.stl)，请下载并打印安装。
 
-    <img src=img/PandaKnomi/en_print_1.png width="600"/>
+    <img src=img/PandaKnomi/en_print_1.webp width="600"/>
 
 * 如果您使用的是 AMS Lite，我们还设计了[可打印的集线器模型](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cable_Organizer%20%E9%9B%86%E7%BA%BF%E5%99%A8_V1.0.stl)，可让您将所有PTFE管、工具头电缆和 Panda Knomi 电源线捆绑在一起。
 
-    <img src=img/PandaKnomi/print_2.png width="600"/>
+    <img src=img/PandaKnomi/print_2.webp width="600"/>
 
 * 我们还建议使用提供的扎带将工具头电缆和 Panda Knomi 电源线轻轻捆绑在一起。扎带不应太紧避免扯到电缆。
 
 * 已成功安装到 A1 系列工具头上
 
-    <img src=img/PandaKnomi/install_11.png width="300"/>
+    <img src=img/PandaKnomi/install_11.webp width="300"/>
 
 > 祝贺您已完成 Panda Knomi 的安装。现在您可以继续阅读如何在 A1 系列打印机上给 Panda Knomi 供电。
 
@@ -98,7 +98,7 @@
 
 * 捏住外壳两端，向上取下外壳即可从工具头上取下 Panda Knomi
 
-    <img src=img/PandaKnomi/uninstall.png width="500"/>
+    <img src=img/PandaKnomi/uninstall.webp width="500"/>
 
 * 使用后盖开盖器顶住图示中蓝色高亮槽口的位置，后盖将自动弹开，便于取下。(您需要先从 [GitHub](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/A1_Series/A1%20Series_Cover%20Opener%20%E5%BC%80%E7%9B%96%E5%99%A8_V1.0.stl) 下载后盖开盖器的文件并自行打印)
 
@@ -112,35 +112,35 @@
 
 * 轻轻揭下 Panda Knomi 表面的保护膜。
 
-    <img src=img/PandaKnomi/install_1.png width="300"/>
+    <img src=img/PandaKnomi/install_1.webp width="300"/>
 
 * 将电源线穿过底座图示的孔位，并插入Panda Knomi的电源接口。
 
-    <img src=img/PandaKnomi/a1_gantry_1.png width="600"/>
+    <img src=img/PandaKnomi/a1_gantry_1.webp width="600"/>
 
 * 将 Panda Knomi 放入底座中，并将电源线沿外壳预留的走线槽妥善布置。
 
-    <img src=img/PandaKnomi/a1_gantry_2.png width="300"/>
+    <img src=img/PandaKnomi/a1_gantry_2.webp width="300"/>
 
-    <img src=img/PandaKnomi/a1_gantry_3.png width="600"/>
+    <img src=img/PandaKnomi/a1_gantry_3.webp width="600"/>
 
-    <img src=img/PandaKnomi/a1_gantry_4.png width="200"/>
+    <img src=img/PandaKnomi/a1_gantry_4.webp width="200"/>
 
 * 对齐上盖与底座，轻轻盖上，双手均匀施压，直至四周卡扣完全啮合。
 
-    <img src=img/PandaKnomi/a1_gantry_5.png width="400"/>
+    <img src=img/PandaKnomi/a1_gantry_5.webp width="400"/>
 
-    <img src=img/PandaKnomi/a1_gantry_6.png width="200"/>
+    <img src=img/PandaKnomi/a1_gantry_6.webp width="200"/>
 
 * 移除 A1 打印机电机安装座上的前盖板。
 
-    <img src=img/PandaKnomi/a1_gantry_7.png width="400"/>
+    <img src=img/PandaKnomi/a1_gantry_7.webp width="400"/>
 
 * 将 Panda Knomi 外壳打印件的走线槽与机器的走线槽对齐，先扣合底部左侧卡扣，再依次固定其余部分，完成安装。
 
-    <img src=img/PandaKnomi/a1_gantry_8.png width="400"/>
+    <img src=img/PandaKnomi/a1_gantry_8.webp width="400"/>
 
-    <img src=img/PandaKnomi/a1_gantry_9.png width="400"/>
+    <img src=img/PandaKnomi/a1_gantry_9.webp width="400"/>
 
 > 祝贺您已完成 Panda Knomi 的安装。现在您可以继续阅读如何在 A1 系列打印机上给 Panda Knomi 供电。
 
@@ -150,37 +150,37 @@
 
 * 轻轻揭下 Panda Knomi 表面的保护膜。
 
-    <img src=img/PandaKnomi/install_1.png width="300"/>
+    <img src=img/PandaKnomi/install_1.webp width="300"/>
 
 * 将电源线插入 Panda Knomi 的电源接口。
 
-    <img src=img/PandaKnomi/a1mini_gantry_1.png width="300"/>
+    <img src=img/PandaKnomi/a1mini_gantry_1.webp width="300"/>
 
 * 将 Panda Knomi 放入底座中。
 
-    <img src=img/PandaKnomi/a1mini_gantry_2.png width="300"/>
+    <img src=img/PandaKnomi/a1mini_gantry_2.webp width="300"/>
 
-    <img src=img/PandaKnomi/a1mini_gantry_3.png width="200"/>
+    <img src=img/PandaKnomi/a1mini_gantry_3.webp width="200"/>
 
 * 翻转至背面，将电源线妥善嵌入外壳预留的走线槽内。
 
-    <img src=img/PandaKnomi/a1mini_gantry_4.png width="600"/>
+    <img src=img/PandaKnomi/a1mini_gantry_4.webp width="600"/>
 
 * 对齐上盖与底座，轻轻盖上，双手均匀施压，直至四周卡扣完全啮合。
 
-    <img src=img/PandaKnomi/a1mini_gantry_5.png width="400"/>
+    <img src=img/PandaKnomi/a1mini_gantry_5.webp width="400"/>
 
-    <img src=img/PandaKnomi/a1mini_gantry_6.png width="200"/>
+    <img src=img/PandaKnomi/a1mini_gantry_6.webp width="200"/>
 
 * 移除 A1 mini 打印机电机安装座上的前盖板。
 
-    <img src=img/PandaKnomi/a1mini_gantry_7.png width="400"/>
+    <img src=img/PandaKnomi/a1mini_gantry_7.webp width="400"/>
 
 * 将 Panda Knomi 外壳打印件的电线槽位与机器的电线线槽对齐，卡入并固定到位。
 
-    <img src=img/PandaKnomi/a1mini_gantry_8.png width="400"/>
+    <img src=img/PandaKnomi/a1mini_gantry_8.webp width="400"/>
 
-    <img src=img/PandaKnomi/a1mini_gantry_9.png width="400"/>
+    <img src=img/PandaKnomi/a1mini_gantry_9.webp width="400"/>
 
 > 祝贺您已完成 Panda Knomi 的安装。现在您可以继续阅读如何在 A1 系列打印机上给 Panda Knomi 供电。
 
@@ -190,7 +190,7 @@
 
 * 在机器后部(A1)或侧面(A1 mini)找到一个未使用的 4pin 电源端口。
 
-    <img src=img/PandaKnomi/power_a1.png width="600"/>
+    <img src=img/PandaKnomi/power_a1.webp width="600"/>
 
 * 如果没有可用的电源端口，您可以使用[Panda Branch](https://biqu.equipment/products/panda-knomi?variant=41781607399522)（单独出售），它将把一个端口分成四个。如果使用[Panda Branch](https://biqu.equipment/products/panda-knomi?variant=41781607399522)，请注意仅在 BIGTREETECH 的建议范围内使用以确保打印机的内部 PSU 不会过载。Panda Knomi 仅消耗 0.65W 的功率，完全符合内部 PSU 的规格。考虑到这一点，请在连接 Panda Knomi 后将 Panda Branch 的 USB 电源开关设置为 2A，以确保任何连接的 USB 外设会被限流在安全的工作范围内。
 
@@ -204,35 +204,35 @@
 
 * 轻轻揭下 Panda Knomi 表面的保护膜。
 
-    <img src=img/PandaKnomi/install_1.png width="300"/>
+    <img src=img/PandaKnomi/install_1.webp width="300"/>
 
 * 将Panda Knomi放入[底座](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Back%20Cover%20%E5%A4%96%E5%A3%B3%E5%B0%81%E6%9D%BF.STL)中。
 
-    <img src=img/PandaKnomi/x1_1.png width="300"/>
+    <img src=img/PandaKnomi/x1_1.webp width="300"/>
 
-    <img src=img/PandaKnomi/x1_2.png width="200"/>
+    <img src=img/PandaKnomi/x1_2.webp width="200"/>
 
 * 对齐[压盖](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Round%20Panel%20%E5%A4%96%E5%A3%B3%E6%89%A3%E7%9B%96.STL)与底座，轻轻盖上，并均匀按压各处，确保固定。
 
-    <img src=img/PandaKnomi/x1_3.png width="300"/>
+    <img src=img/PandaKnomi/x1_3.webp width="300"/>
 
-    <img src=img/PandaKnomi/x1_4.png width="200"/>
+    <img src=img/PandaKnomi/x1_4.webp width="200"/>
 
 * 将组装好的 Panda Knomi 嵌入[面板打印件](https://github.com/bigtreetech/PandaKnomi/blob/master/Print_Files/X1_Series/X1%20Series_Shell_Panel%20%E5%A4%96%E5%A3%B3%E9%9D%A2%E6%9D%BF.STL)预留的孔位中。
 
-    <img src=img/PandaKnomi/x1_5.png width="300"/>
+    <img src=img/PandaKnomi/x1_5.webp width="300"/>
 
 * 将电源线插入 Panda Knomi 的电源接口。
 
-    <img src=img/PandaKnomi/x1_6.png width="600"/>
+    <img src=img/PandaKnomi/x1_6.webp width="600"/>
 
 * 将电源线卡入面板预留的理线槽口
 
-    <img src=img/PandaKnomi/x1_7.png width="400"/>
+    <img src=img/PandaKnomi/x1_7.webp width="400"/>
 
 * 对准面板预留的孔位与 X1 机器屏幕，首先从上方开始卡入屏幕，然后轻轻按压下方以完成安装。
 
-    <img src=img/PandaKnomi/x1_8.png width="600"/>
+    <img src=img/PandaKnomi/x1_8.webp width="600"/>
 
 > 祝贺您已完成 Panda Knomi 的安装。现在您可以继续阅读如何在 X1 系列打印机上给 Panda Knomi 供电。
 
@@ -244,7 +244,7 @@
 
 * 如果您有使用 AMS，则需要使用 Panda Branch 扩展 4pin 的 AMS 端口，然后将 Panda Knomi 连接到其中一个扩展端口。请注意仅在 BIGTREETECH 的建议范围内使用以确保打印机的内部 PSU 不会过载。Panda Knomi 仅消耗 0.65W 的功率，完全符合内部 PSU 的规格。考虑到这一点，请在连接 Panda Knomi 后将 Panda Branch 的 USB 电源开关设置为 2A，以确保任何连接的 USB 外设会被限流在安全的工作范围内。
 
-    <img src=img/PandaKnomi/power_x1.png width="600"/>
+    <img src=img/PandaKnomi/power_x1.webp width="600"/>
 
 > 现在是时候给 Panda Knomi 通电并进行配置了，请前往[首次使用指南](#first-time-use-guide)
 
@@ -256,19 +256,19 @@
 
 * 轻轻揭下 Panda Knomi 表面的保护膜。
 
-    <img src=img/PandaKnomi/install_1.png width="300"/>
+    <img src=img/PandaKnomi/install_1.webp width="300"/>
 
 * 将 Panda Knomi 放入底座中。
 
-    <img src=img/PandaKnomi/p1_1.png width="430"/>
+    <img src=img/PandaKnomi/p1_1.webp width="430"/>
 
-    <img src=img/PandaKnomi/p1_2.png width="300"/>
+    <img src=img/PandaKnomi/p1_2.webp width="300"/>
 
 * 对齐压盖与底座，轻轻盖上并均匀按压各处以固定。
 
-    <img src=img/PandaKnomi/p1_install_3.png width="430"/>
+    <img src=img/PandaKnomi/p1_install_3.webp width="430"/>
 
-    <img src=img/PandaKnomi/p1_4.png width="300"/>
+    <img src=img/PandaKnomi/p1_4.webp width="300"/>
 
 #### P1 系列供电
 
@@ -276,21 +276,21 @@
 
 * 通过机身内置USB端口供电
 
-    <img src=img/PandaKnomi/power_p1.png width="600"/>
+    <img src=img/PandaKnomi/power_p1.webp width="600"/>
 
     * 沿设备顶部通道使用预留卡扣整理走线，将USB线从图示的机器孔位穿出。
 
-        <img src=img/PandaKnomi/p1_5.png width="600"/>
+        <img src=img/PandaKnomi/p1_5.webp width="600"/>
 
     * 将USB线卡入底座的线扣，并插入Panda Knomi背部的USB-C接口。
 
-        <img src=img/PandaKnomi/p1_6.png width="400"/>
+        <img src=img/PandaKnomi/p1_6.webp width="400"/>
 
     * 将底座的线扣卡入机器的孔位以完成安装。
 
-        <img src=img/PandaKnomi/p1_7.png width="400"/>
+        <img src=img/PandaKnomi/p1_7.webp width="400"/>
 
-        <img src=img/PandaKnomi/p1_8.png width="600"/>
+        <img src=img/PandaKnomi/p1_8.webp width="600"/>
 
 * 如果您从机器后部供电，请选择最适合您的走线方式。
 
@@ -317,7 +317,7 @@
         以 `iPhone` 为例：<br/>
         * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
         * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
-          <img src=img/PandaKnomi/wlan.png width="300"/>
+          <img src=img/PandaKnomi/wlan.webp width="300"/>
         * 轻点名称以 `Panda_Knomi_` 开头的无线局域网，输入默认密码：`987654321`。
         * 连接上 Panda Knomi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
 * 连接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入Web UI配置界面。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 当使用 `V1.0.4.1` 及其之后版本的固件, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) (之前的版本请使用 [192.168.4.1](http://192.168.4.1)) 访问Web UI配置界面。
@@ -325,11 +325,11 @@
 #### 将Panda Knomi连接到打印机所在的Wi-Fi下
 
 * 首次配置会自动进入 `选择语言` 界面，设置完语言后，点击 `下一步`。<br/>
-  <img src=img/PandaKnomi/language.png width="300"/>
+  <img src=img/PandaKnomi/language.webp width="300"/>
 * 进入连接 Wi-Fi 界面，Panda Knomi会自动扫描环境中的 Wi-Fi，请选择打印机所连接的 Wi-Fi 进行连接。如果没有扫描到打印机连接的 Wi-Fi, 可以点击 “扫描” 按钮重新扫描。<br/>
-  <img src=img/PandaKnomi/wifi.png width="300"/>
+  <img src=img/PandaKnomi/wifi.webp width="300"/>
 * 等待连接成功，连接成功后会弹出如下图中的弹窗，点击 `绑定打印机` 可以跳转到 `打印机` 界面绑定打印机。<br/>
-  <img src=img/PandaKnomi/goto_printer.png width="300"/>
+  <img src=img/PandaKnomi/goto_printer.webp width="300"/>
 
 #### 绑定打印机
 
@@ -338,7 +338,7 @@
 ##### 自动扫描
 
 * Web UI配置界面进入 `打印机` 界面, 点击 `扫描` 会扫描同一局域网下的拓竹打印机, 一次完整的扫描大概需要30秒左右。每多一台拓竹打印机最多增加20秒的扫描时间。Panda Knomi每次扫描最多支持识别20台打印机，如果您局域网内的拓竹打印机数量较多超出了20台，可能无法扫描到所有的打印机。如果此次扫描未能识别到想要连接的打印机，可以点击 `扫描` 按钮重新扫描，或者 `手动输入` 所有的信息<br/>
-  <img src=img/PandaKnomi/printer.png width="300"/>
+  <img src=img/PandaKnomi/printer.webp width="300"/>
 * 扫描完成后, 选择想要连接的打印机, 选择后打印机的 `SN码` 和 `IP` 会自动填充。然后在打印机上找到 `访问码`, 并手动输入到Web UI上的 `打印机访问码` 栏。
     * A1系列打印机
         * ①	`设置`<br/>
@@ -349,14 +349,14 @@
           <img src=img/PandaKnomi/a1_4_5.jpg width="300"/>
     * P1系列打印机
         * ①	`设置`-> ② `网络(WLAN)` -> ③ `OK`<br/>
-          <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
+          <img src=img/PandaKnomi/p1_1_2_3.webp width="600"/>
         * ⑤ `访问码`<br/>
-          <img src=img/PandaKnomi/p1_4_5.png width="600"/>
+          <img src=img/PandaKnomi/p1_4_5.webp width="600"/>
     * X1系列打印机<br/>
         * ①	`设置` -> ② `通用` -> ③ `访问码`<br/>
           <img src=img/PandaKnomi/x1_1_2_3_4.jpg width="600"/>
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着Panda Knomi已经成功连接到打印机了。<br/>
-  <img src=img/PandaKnomi/bind_ok.png width="300"/>
+  <img src=img/PandaKnomi/bind_ok.webp width="300"/>
 * 恭喜您！现在可以尽情的享用您的 Panda Knomi 了。
 
 ##### 手动输入
@@ -383,14 +383,14 @@
     * P1系列打印机
         * `SN码`
             * ①	`设置` -> ② `设备(Device)`<br/>
-                <img src=img/PandaKnomi/p1_1_2.png width="600"/>
+                <img src=img/PandaKnomi/p1_1_2.webp width="600"/>
             * ③ `打印机(Printer)` 即为 `SN码`<br/>
-                <img src=img/PandaKnomi/p1_3.png width="600"/>
+                <img src=img/PandaKnomi/p1_3.webp width="600"/>
         * `访问码` 和 `IP`          
             * ①	`设置`-> ② `网络(WLAN)` -> ③<br/>
-                <img src=img/PandaKnomi/p1_1_2_3.png width="600"/>
+                <img src=img/PandaKnomi/p1_1_2_3.webp width="600"/>
             * ④ `IP`, ⑤ `访问码`<br/>
-                <img src=img/PandaKnomi/p1_4_5.png width="600"/>
+                <img src=img/PandaKnomi/p1_4_5.webp width="600"/>
     * X1系列打印机
         * `SN码` 和 `访问码`
             * ①	`设置` -> ② `通用` -> ③ `访问码`, ④ `设备信息` 即为 `SN码`<br/>
@@ -399,7 +399,7 @@
             * ①	`设置`-> ② `网络(WLAN)` -> ③ `IP`<br/>
                 <img src=img/PandaKnomi/x1_1_2_3.jpg width="600"/>
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着Panda Knomi已经成功连接到打印机了。<br/>
-  <img src=img/PandaKnomi/bind_ok.png width="300"/>
+  <img src=img/PandaKnomi/bind_ok.webp width="300"/>
 * 恭喜您！现在可以尽情的享用您的 Panda Knomi 了。
 
 ### Wi-Fi & IP 界面
@@ -417,7 +417,7 @@
     * 长度不低于8个字符，不超过32个字符 (在`V1.0.2`及其之前版本的固件上, 请不要超过15个字符, 否则设备会无法启动，需要更新到`V1.0.3`及其之后版本的固件)。
 
     修改完成后，点击 `设置主机名` 将设置的主机名发送给 Panda Knomi，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Panda Knomi 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。<br/>
-    <img src=img/PandaKnomi/hostname.png width="300"/>
+    <img src=img/PandaKnomi/hostname.webp width="300"/>
 
 ### AP 界面
 
@@ -535,9 +535,9 @@
     * 从Panda Knomi的Github上下载
         * 访问[Panda Knomi的Github地址](https://github.com/bigtreetech/PandaKnomi)
         * 到 IMG 文件夹中，挑选自己喜欢的IMG主题<br/>
-          <img src=img/PandaKnomi/img_github_path.png width="800"/>
+          <img src=img/PandaKnomi/img_github_path.webp width="800"/>
         * 点击下载，保存到本地<br/>
-          <img src=img/PandaKnomi/img_github_download.png width="800"/>
+          <img src=img/PandaKnomi/img_github_download.webp width="800"/>
 * 进入Panda Knomi的Web UI，① `设置` -> ② `选择.img文件`，然后选择刚才下载的 `.img` 文件，等待更新完成后，Panda Knomi 会自动应用并显示新的IMG文件。<br/>
   <img src=img/PandaKnomi/img_web_upload.jpg width="300"/>
 
@@ -558,22 +558,22 @@
     * 如果您没有Github账号，请首先[注册一个账号](https://docs.github.com/zh/get-started/start-your-journey/creating-an-account-on-github)。
     * 访问[Panda Knomi的Github地址](https://github.com/bigtreetech/PandaKnomi)
     * 点击 ① `Fork`<br/>
-      <img src=img/PandaKnomi/fork_1.png width="800"/>
+      <img src=img/PandaKnomi/fork_1.webp width="800"/>
     * 点击 ② `Create fork`<br/>
-      <img src=img/PandaKnomi/fork_2.png width="800"/>
+      <img src=img/PandaKnomi/fork_2.webp width="800"/>
     * 等待 `fork` 完成<br/>
-      <img src=img/PandaKnomi/fork_3.png width="800"/>
+      <img src=img/PandaKnomi/fork_3.webp width="800"/>
     * `fork` 完成后，进入IMG文件夹<br/>
-      <img src=img/PandaKnomi/img_pri_path.png width="800"/>
+      <img src=img/PandaKnomi/img_pri_path.webp width="800"/>
     * 将IMG文件拖到浏览器中，然后浏览器会出现 `Drop to upload your files` 的界面。<br/>
-      <img src=img/PandaKnomi/img_drag.png width="800"/><br/>
-      <img src=img/PandaKnomi/img_drop.png width="800"/>
+      <img src=img/PandaKnomi/img_drag.webp width="800"/><br/>
+      <img src=img/PandaKnomi/img_drop.webp width="800"/>
     * ① 写自定义IMG的`标题`，② 写入自定义主题的`详细描述`，③ `提交文件`<br/>
-      <img src=img/PandaKnomi/img_pri_commit.png width="800"/>
+      <img src=img/PandaKnomi/img_pri_commit.webp width="800"/>
     * ① `Contribute` -> ② `Open pull request`<br/>
-      <img src=img/PandaKnomi/img_open_pr.png width="800"/>
+      <img src=img/PandaKnomi/img_open_pr.webp width="800"/>
     * ① 写自定义IMG的`标题`，② 写入自定义主题的`详细描述`，③ 勾选 `Allow edits by maintainers`，④ `Create pull request`<br/>
-      <img src=img/PandaKnomi/img_create_pr.png width="800"/>
+      <img src=img/PandaKnomi/img_create_pr.webp width="800"/>
     * 恭喜你已经完成分享！
 
 ## 恢复出厂设置
@@ -613,7 +613,7 @@
         * 将设备连接到Panda Knomi的AP热点。以iPhone为例：
             * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
             * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
-              <img src=img/PandaKnomi/wlan.png width="300"/> <br/>
+              <img src=img/PandaKnomi/wlan.webp width="300"/> <br/>
             * 轻点名称以 `Panda_Knomi_` 开头的无线局域网，输入默认密码：`987654321`。
             * 连接上 Panda Knomi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
         * 连接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入Web UI配置界面。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 当使用 `V1.0.4.1` 及其之后版本的固件, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) (之前的版本请使用 [192.168.4.1](http://192.168.4.1)) 访问Web UI配置界面。
@@ -626,14 +626,14 @@
 
 * 如果电脑上没有 CH340 的驱动，请先下载安装驱动 [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
 * 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)<br/>
-  <img src=img/PandaKnomi/download_esp_tool.png width="800"/>
+  <img src=img/PandaKnomi/download_esp_tool.webp width="800"/>
 * 下载 [Panda Knomi 的固件](https://github.com/bigtreetech/PandaKnomi)
 * 按住Panda Knomi上的 `Boot` 按键, 然后通过 `Type-C` 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口<br/>
   <img src=img/PandaKnomi/boot_fw.jpg width="300"/>
 * 打开 `flash_download_tool_3.9.8_6.exe`, 在弹窗中按照下图配置<br/>
-  <img src=img/PandaKnomi/open_esp_tool.png width="400"/>
+  <img src=img/PandaKnomi/open_esp_tool.webp width="400"/>
 * 烧录软件的配置如下图<br/>
-  <img src=img/PandaKnomi/set_esp_tool.png width="400"/>
+  <img src=img/PandaKnomi/set_esp_tool.webp width="400"/>
     * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
         * `panda_knomi_bootloader.bin` 写入到 `0x1000`
         * `panda_knomi_partition.bin` 写入到 `0x8000`

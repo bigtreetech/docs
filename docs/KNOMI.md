@@ -1,6 +1,6 @@
 # KNOMI
 
-<img src=img/KNOMI/KNOMI_Title.png width="450">
+<img src=img/KNOMI/KNOMI_Title.webp width="450">
 
 ## **Product Profile**
 
@@ -21,7 +21,7 @@ KNOMI is a mini round screen designed specifically for Klipper running 3D printe
 !!! note
     For information about KNOMI structure, please click [KNOMI USER GUIDE.PDF](https://github.com/bigtreetech/KNOMI/blob/master/KNOMI1/KNOMI%201%20User%20Manual%2020241214.pdf)
 
-    <img src=img/KNOMI/KNOMI_IN.png width="200">
+    <img src=img/KNOMI/KNOMI_IN.webp width="200">
 
 ## Performance Comparison Test
 
@@ -30,9 +30,9 @@ KNOMI is a mini round screen designed specifically for Klipper running 3D printe
 
 We will offer the customized mounting printed part files for you to effortlessly install KNOMI onto your Voron Stealthburner, in which the StealthBurner main body retains the original fan position and incorporates additional vents on the top for enhanced compatibility and optimized heat dissipation.
 
-<img src=img/KNOMI/KNOMI_IN1.png width="300" />
+<img src=img/KNOMI/KNOMI_IN1.webp width="300" />
 
-<img src=img/KNOMI/KNOMI_IN2.png width="300" />
+<img src=img/KNOMI/KNOMI_IN2.webp width="300" />
 
 ## Mounting Plate
 
@@ -40,15 +40,15 @@ Prior to starting the installation procedure, it is advised to have these two pr
 
 We conducted a comparative analysis measuring wind speed and acoustic energy levels between the original StealthBurner and our customized version featuring vents and KNOMI add-on. The results showed that both versions performed similarly, indicating that adding KNOMI will not compromise the performance of the StealthBurner. 
 
-<img src=img/KNOMI/KNOMI_IN3.png width="600" />
+<img src=img/KNOMI/KNOMI_IN3.webp width="600" />
 
 ## Packing List
 
-<img src=img/KNOMI/KNOMI_IN4.png width="600" />
+<img src=img/KNOMI/KNOMI_IN4.webp width="600" />
 
 ## Overview
 
-<img src=img/KNOMI/KNOMI_IN19.png width="600" />
+<img src=img/KNOMI/KNOMI_IN19.webp width="600" />
 
 !!! abstract "Wiring Experience"
     To optimize the user wiring experience, the latest Knomi power connector has been upgraded to a **vertical type**.
@@ -58,7 +58,7 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 ### Configuring Wifi
 
 <div class="div-table">
-    <img src=img/KNOMI/KNOMI_IN6.png width="300" class="right-image">
+    <img src=img/KNOMI/KNOMI_IN6.webp width="300" class="right-image">
     <h4 id="activate-the-hello-interface">Activate The Hello Interface</h4>
     <ol>
         <li>Power KNOMI using either the Type-C or MX1.25 interface.</li>
@@ -69,7 +69,7 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 
 !!! tip
     <div class="div-table">
-        <img class="right-image" src=img/KNOMI/KNOMI_IN7.png width="300">
+        <img class="right-image" src=img/KNOMI/KNOMI_IN7.webp width="300">
         <p>Alternatively, following the installation's completion, the BOOT button may be pressed using a slender tool, such as a hex key.</p>
     </div>
 
@@ -83,7 +83,7 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 
 1. Using a Wi-Fi-enabled device, locate and connect to the “BTT-KNOMI" network.
 
-    <img src=img/KNOMI/KNOMI_IN8.png width="300">
+    <img src=img/KNOMI/KNOMI_IN8.webp width="300">
 
 2. Allow your browser to automatically open the confifiguration page.
 
@@ -98,7 +98,7 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 ### Knomi Disconnected
 
 <div class="div-table">
-    <img src=img/KNOMI/KNOMI_IN9.png width="250" class="right-image">
+    <img src=img/KNOMI/KNOMI_IN9.webp width="250" class="right-image">
     <p>If KNOMI is displaying this interface, it means that KNOMI is disconnected from the printer. 
     This may be caused by the following problems:</p>
     <ol>
@@ -109,21 +109,21 @@ We conducted a comparative analysis measuring wind speed and acoustic energy lev
 
 ## Install Knomi To Stealthburner
 
-<img src=img/KNOMI/KNOMI_IN10.png width="500" />
+<img src=img/KNOMI/KNOMI_IN10.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_IN11.png width="500" />
+<img src=img/KNOMI/KNOMI_IN11.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_IN12.png width="500" />
+<img src=img/KNOMI/KNOMI_IN12.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_IN13.png width="500" />
+<img src=img/KNOMI/KNOMI_IN13.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_IN14.png width="500" />
+<img src=img/KNOMI/KNOMI_IN14.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_IN15.png width="500" />
+<img src=img/KNOMI/KNOMI_IN15.webp width="500" />
 
 ## Adding Relevant Macros
 
-<img src=img/KNOMI/KNOMI_IN16.png width="450" />
+<img src=img/KNOMI/KNOMI_IN16.webp width="450" />
 
 ```
 [gcode_macro BED_MESH_CALIBRATE]
@@ -166,7 +166,7 @@ definitions. Once completed, `save` and `exit`.
 
 1. Please click on the link to download the burning tool  https://www.espressif.com.cn/en/support/download/other-tools
 
-    <img src=img/KNOMI/KNOMI_UPDATE1.png width="500" />
+    <img src=img/KNOMI/KNOMI_UPDATE1.webp width="500" />
 
 2. Please click to download [Firmware](https://github.com/bigtreetech/KNOMI)
 
@@ -174,15 +174,15 @@ definitions. Once completed, `save` and `exit`.
 
 4. Run `flash_download_tool`
 
-    <img src=img/KNOMI/KNOMI_UPDATE2.png width="500" />
+    <img src=img/KNOMI/KNOMI_UPDATE2.webp width="500" />
 
 5. Select esp32
 
-    <img src=img/KNOMI/KNOMI_UPDATE3.png width="400" />
+    <img src=img/KNOMI/KNOMI_UPDATE3.webp width="400" />
 
 6. Unzip downloaded Firmware. Click `...` to add 3 corresponding bin files, and manually enter the corresponding bin file offset address after `@` (note that the bin file name corresponds to the address). Select COM for knomi1. Click `START` to start downloading, wait for the progress bar to end and prompt completion;
 
-    <img src=img/KNOMI/KNOMI_UPDATE4.png width="400" />
+    <img src=img/KNOMI/KNOMI_UPDATE4.webp width="400" />
 
 7. Unplug the USB and plug it back in (re power on), and you can see that the display screen displays the content normally, indicating successful flash firmware.
 
@@ -192,68 +192,68 @@ definitions. Once completed, `save` and `exit`.
 
 1. We have provided seventeen customizable gifs in knomi.
 
-    <img src=img/KNOMI/KNOMI_GIF.png width="400" />
+    <img src=img/KNOMI/KNOMI_GIF.webp width="400" />
 
     Click to download [KNOMI GIF](https://github.com/bigtreetech/KNOMI/tree/master/KNOMI_GIF). You must change your GIF to the same name and pixel as the GIF what you want to replace. You can click on [here (English)](https://www.gifgit.com/gif/resize)or  [here (Chinese)](https://www.gif.cn/) to modify your GIF pixels and right-click to view the GIF's.
 
     For more GIF pixels, please click on [Knomi Picture Pixels](KNOMI.md#picture-pixels)
 
-    <img src=img/KNOMI/KNOMI_Tip.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip.webp width="400" />
 
 2. Click [bigtreetech/KNOMI/firmware](https://github.com/bigtreetech/KNOMI/tree/firmware) to download the KNOMI1 project. Using [Visual Studio Code](https://marlinfw.org/docs/basics/install_platformio_vscode.html) to open the project and enter lvgl_ Gif.cpp file.
 
-    <img src=img/KNOMI/KNOMI_Tip1.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip1.webp width="400" />
 
 3. Right click on the GIF you want to replace and click on Go To Definition.
 
-    <img src=img/KNOMI/KNOMI_Tip2.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip2.webp width="400" />
 
 4. Can see the structure and data type header.cf of GIF
 
-    <img src=img/KNOMI/KNOMI_Tip3.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip3.webp width="400" />
 
 5. Click on the link to enter the GIF conversion tool https://lvgl.io/tools/imageconverter
 
-    <img src=img/KNOMI/KNOMI_Tip4.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip4.webp width="400" />
 
 6. Click on BROWSE and select the new replacement GIF，The Color format selects the same data type as the original GIF
 
-    <img src=img/KNOMI/KNOMI_Tip5.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip5.webp width="400" />
 
 !!! note 
     After selecting `CF_RAW_CHROMA`, it will display as `CF_RAW`, please ignore this issue
 
 7. The Output format select `C array`, and click on Convert.
 
-    <img src=img/KNOMI/KNOMI_Tip6.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip6.webp width="400" />
 
 8. Replace the generated `gif_standby.c` file with the source file with the same name in the knomi project.
 
-    <img src=img/KNOMI/KNOMI_Tip7.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip7.webp width="400" />
 
 9. Click Compile.
 
-    <img src=img/KNOMI/KNOMI_Tip8.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip8.webp width="400" />
 
 10. After the compilation is completed, connect KNOMI to the computer through using the USB Type C connector.  Click on download, and once the download is completed, power on KNOMI again.
 
-    <img src=img/KNOMI/KNOMI_Tip9.png width="400" />
+    <img src=img/KNOMI/KNOMI_Tip9.webp width="400" />
 
 ### Picture Pixels
 
-<img src=img/KNOMI/KNOMI_gif1.png width="500" />
+<img src=img/KNOMI/KNOMI_gif1.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_gif2.png width="500" />
+<img src=img/KNOMI/KNOMI_gif2.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_gif3.png width="500" />
+<img src=img/KNOMI/KNOMI_gif3.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_gif4.png width="500" />
+<img src=img/KNOMI/KNOMI_gif4.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_gif5.png width="500" />
+<img src=img/KNOMI/KNOMI_gif5.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_gif6.png width="500" />
+<img src=img/KNOMI/KNOMI_gif6.webp width="500" />
 
-<img src=img/KNOMI/KNOMI_gif7.png width="500" />
+<img src=img/KNOMI/KNOMI_gif7.webp width="500" />
 
 ## Product Purchase Link
 

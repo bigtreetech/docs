@@ -45,7 +45,7 @@
 
 ## 尺寸和接口
 
-<img src=img/PandaKnomi3D/size.png width="400"/>
+<img src=img/PandaKnomi3D/size.webp width="400"/>
 
 <img src=img/PandaKnomi3D/port.jpg width="400"/>
 
@@ -474,11 +474,11 @@ Panda Knomi 3D安装在A1系列打印机上。
 
         * 到 IMG 文件夹中，挑选自己喜欢的IMG主题
 
-            <img src=img/PandaKnomi3D/img_github_path.png width="800"/>
+            <img src=img/PandaKnomi3D/img_github_path.webp width="800"/>
 
         * 点击下载，保存到本地
 
-            <img src=img/PandaKnomi3D/img_github_download.png width="800"/>
+            <img src=img/PandaKnomi3D/img_github_download.webp width="800"/>
 
 * 进入 Panda Knomi 3D 的Web UI，① `设置` -> ② `选择.img文件`，然后选择刚才下载的 `.img` 文件，等待更新完成后，Panda Knomi 3D 会自动应用并显示新的IMG文件。
 
@@ -508,31 +508,31 @@ Panda Knomi 3D安装在A1系列打印机上。
 
     * 点击 ① `Fork`
 
-        <img src=img/PandaKnomi3D/fork_1.png width="800"/>
+        <img src=img/PandaKnomi3D/fork_1.webp width="800"/>
 
     * 点击 ② `Create fork`
 
-      <img src=img/PandaKnomi3D/fork_2.png width="800"/>
+      <img src=img/PandaKnomi3D/fork_2.webp width="800"/>
 
     * 等待 `fork` 完成
 
-      <img src=img/PandaKnomi3D/fork_3.png width="800"/>
+      <img src=img/PandaKnomi3D/fork_3.webp width="800"/>
 
     * `fork` 完成后，① 进入IMG文件夹 -> ② `Add file` -> ③ `Upload files`
 
-        <img src=img/PandaKnomi3D/img_drag.png width="800"/>
+        <img src=img/PandaKnomi3D/img_drag.webp width="800"/>
 
     * ① 选择要上传的 img 文件，② 写自定义IMG的`标题`，③ 写入自定义主题的`详细描述`，④ `提交文件`
 
-        <img src=img/PandaKnomi3D/img_pri_commit.png width="800"/>
+        <img src=img/PandaKnomi3D/img_pri_commit.webp width="800"/>
 
     * ① `Contribute` -> ② `Open pull request`
 
-        <img src=img/PandaKnomi3D/img_open_pr.png width="800"/>
+        <img src=img/PandaKnomi3D/img_open_pr.webp width="800"/>
 
     * ① 写自定义IMG的`标题`，② 写入自定义主题的`详细描述`，③ 勾选 `Allow edits by maintainers`，④ `Create pull request`
 
-        <img src=img/PandaKnomi3D/img_create_pr.png width="800"/>
+        <img src=img/PandaKnomi3D/img_create_pr.webp width="800"/>
 
     * 恭喜你已经完成分享！
 
@@ -608,7 +608,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)
 
-    <img src=img/PandaKnomi3D/zh/download_esp_tool.png width="800"/>
+    <img src=img/PandaKnomi3D/zh/download_esp_tool.webp width="800"/>
 
 * 下载 [Panda Knomi 3D 的固件](https://github.com/bigtreetech/PandaKnomi3D)
 
@@ -618,11 +618,11 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 打开 `flash_download_tool_3.9.8_6.exe`, 在弹窗中按照下图配置
 
-    <img src=img/PandaKnomi3D/open_esp_tool.png width="400"/>
+    <img src=img/PandaKnomi3D/open_esp_tool.webp width="400"/>
 
 * 烧录软件的配置如下图
 
-    <img src=img/PandaKnomi3D/set_esp_tool.png width="400"/>
+    <img src=img/PandaKnomi3D/set_esp_tool.webp width="400"/>
 
     * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
 

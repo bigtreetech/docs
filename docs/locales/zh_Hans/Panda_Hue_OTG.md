@@ -123,27 +123,27 @@ Panda Hue OTG 是专为 **Bambu Lab A1 mini** 打造的铝合金便携手柄升�
 
 * 打开Bambu Stdio/Maker Wold(此处以Maker World为例)首页点击进入Makerlab选择透光浮雕生成器
 
-    <img src=img/PandaHueOTG/1.png width="800"/>
+    <img src=img/PandaHueOTG/1.webp width="800"/>
 
 * 点击新建文件
 
-    <img src=img/PandaHueOTG/2.png width="800"/>
+    <img src=img/PandaHueOTG/2.webp width="800"/>
 
 * 点击选择仅浮雕选项
 
-    <img src=img/PandaHueOTG/3.png width="800"/>
+    <img src=img/PandaHueOTG/3.webp width="800"/>
 
 * 导入图片后选择相框选项，将边框设置为0
 
-    <img src=img/PandaHueOTG/4_5.png width="800"/>
+    <img src=img/PandaHueOTG/4_5.webp width="800"/>
 
 * 随后返回尺寸选项，将宽度设置为35mm，随后手动调节图框，待高度变为35mm时即可
 
-    <img src=img/PandaHueOTG/6_7.png width="800"/>
+    <img src=img/PandaHueOTG/6_7.webp width="800"/>
 
 * 点击导出至Bambu Studio后选择尺寸选项，将长宽设置为35.35mm即可
 
-    <img src=img/PandaHueOTG/8_9.png width="800"/>
+    <img src=img/PandaHueOTG/8_9.webp width="800"/>
 
 ## 技术支持  
 如遇到问题，请 [提交工单](https://biqu3d.com/pages/submit-a-ticket)。  

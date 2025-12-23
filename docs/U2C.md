@@ -1,8 +1,8 @@
 # U2C
 
-<img src=img/U2C/U2C_Title1.png width="600"/>
+<img src=img/U2C/U2C_Title1.webp width="600"/>
 
-<img src=img/U2C/U2C_Title2.png width="600"/>
+<img src=img/U2C/U2C_Title2.webp width="600"/>
 
 ## **Product Profile**
 
@@ -22,17 +22,17 @@ CAN bus has many advantages in the field of industrial control, so our company h
 
 ## **Dimensions**
 
-<img src=img/U2C/U2C_Dimension.png width="600"/>
+<img src=img/U2C/U2C_Dimension.webp width="600"/>
 
 ## **Interface Diagram**
 
-<img src=img/U2C/U2C_CAD.png width="600"/>
+<img src=img/U2C/U2C_CAD.webp width="600"/>
 
 CAN_IN: USB to CAN interface for connecting to Raspberry Pi.
 
 CAN_OUT*: It is used to connect an interface without CAN transceiver but with CAN function, such as connecting to the USB port of the motherboard, where the pin connecting the USB port of the motherboard to the main controller must have CAN function. E. g.: 
 
-<img src=img/U2C/U2C_CAD1.png width="600"/>
+<img src=img/U2C/U2C_CAD1.webp width="600"/>
 
 CAN_OUT: Used to connect BIGTREETECH EBB CAN or other boards with CAN transceivers.
 
@@ -40,25 +40,25 @@ Power: Power Supply.
 
 ## **Pinout**
 
-<img src=img/U2C/U2C_Pinout.png width="600"/>
+<img src=img/U2C/U2C_Pinout.webp width="600"/>
 
 ## **Product Display**
 
-<img src=img/U2C/U2C_Display1.png width="600"/>
+<img src=img/U2C/U2C_Display1.webp width="600"/>
 
-<img src=img/U2C/U2C_Display2.png width="600"/>
+<img src=img/U2C/U2C_Display2.webp width="600"/>
 
-<img src=img/U2C/U2C_Display3.png width="600"/>
+<img src=img/U2C/U2C_Display3.webp width="600"/>
 
-<img src=img/U2C/U2C_Display4.png width="600"/>
+<img src=img/U2C/U2C_Display4.webp width="600"/>
 
-<img src=img/U2C/U2C_Display5.png width="600"/>
+<img src=img/U2C/U2C_Display5.webp width="600"/>
 
 ## **Hardware Configuration**
 
 ### **Optional Wiring Diagram**
 
-<img src=img/U2C/U2C_Wiring.png width="600"/>
+<img src=img/U2C/U2C_Wiring.webp width="600"/>
 
 ## **Software Configuration**
 
@@ -80,7 +80,7 @@ MCU Model: STM32G0B1C8
 
 After the module is completely powered off, press and hold the Boot button, plug the Type-C data cable to power the module, enter the DFU mode, and use the STM32CubeProgrammer software to update the firmware.
 
-<img src=img/U2C/U2C_DFU.png width="600"/>
+<img src=img/U2C/U2C_DFU.webp width="600"/>
 
 ### **Klipper Configuration**
 

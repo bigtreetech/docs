@@ -1,6 +1,6 @@
 # M8P
 
-[<img src=img/M8P/M8P_Title.png width="600" />](https://bigtreetech.github.io/docs/M8P.html)
+[<img src=img/M8P/M8P_Title.webp width="600" />](https://bigtreetech.github.io/docs/M8P.html)
 
 ## **Product Profile**
 
@@ -54,39 +54,39 @@ BIGTREETECH MANTA M8P is a 32-bit printer motherboard developed by the 3D printi
 
 ## **Dimensions**
 
-<img src=img/M8P/M8P_Dimensions1.png width="600" />
+<img src=img/M8P/M8P_Dimensions1.webp width="600" />
 
-<img src=img/M8P/M8P_Dimensions2.png width="600" />
+<img src=img/M8P/M8P_Dimensions2.webp width="600" />
 
 ## **Pinout**
 
-<img src=img/M8P/M8P_Pin_Out.png width="600" />
+<img src=img/M8P/M8P_Pin_Out.webp width="600" />
 
 **Differences between V1.0 and V1.1**
 
 Changes in V1.1 include：M6，M7，M8，SPI，MCU-Card，RGB1&RGB2，FAN4，CAN，Pi-FAN
 
-<img src=img/M8P/M8P_Pin_Out1.png width="600" />
+<img src=img/M8P/M8P_Pin_Out1.webp width="600" />
 
 ## **Interface Diagram**
 
-<img src=img/M8P/M8P_CAD.png width="600" />
+<img src=img/M8P/M8P_CAD.webp width="600" />
 
 **V1.1 added functions**
 
 CAN interface（2Pin*2 XH2.54），USB port function selection（UART to USB，USB OTG），Pi-FAN（Controlled by GPIO26），FAN4 becomes a 2-wire CNC fan.
 
-<img src=img/M8P/M8P_Add_Func1.png width="600" />
+<img src=img/M8P/M8P_Add_Func1.webp width="600" />
 
 The 5V and 12V power output ports are added with E-FUSE protection, which has short reaction time, strong protection and realizes over-current protection, short circuit protection and spark protection.
 
 **M8P V1.1+CB1：**
 
-<img src=img/M8P/M8P_Add_Func2.png width="600" />
+<img src=img/M8P/M8P_Add_Func2.webp width="600" />
 
 **M8P V1.1-Bot：**
 
-<img src=img/M8P/M8P_Add_Func3.png width="600" />
+<img src=img/M8P/M8P_Add_Func3.webp width="600" />
 
 ## **Hardware Configuration**
 
@@ -94,7 +94,7 @@ The 5V and 12V power output ports are added with E-FUSE protection, which has sh
 
 After the M8P motherboard is powered on, the D32 red light on the left side of the MCU will light up, indicating that the power supply is normal. The 	VUSB in the middle of the board is the power selection terminal. Only when using USB to supply power to the motherboard or need to supply power through USB, do you need to use the jumper to short it.
 
-<img src=img/M8P/M8P_USB_PS.png width="600" />
+<img src=img/M8P/M8P_USB_PS.webp width="600" />
 
 ## **Hardware Installation**
 
@@ -104,7 +104,7 @@ After the M8P motherboard is powered on, the D32 red light on the left side of t
 
 For example, A4988, DRV8825, LV8729, ST820...use the jumper cap to short MS0-MS2 according to the driver subdivision table.
 
-<img src=img/M8P/M8P_Dri_Step.png width="600" />
+<img src=img/M8P/M8P_Dri_Step.webp width="600" />
 
 
 
@@ -115,95 +115,95 @@ For details, please click: https://bigtreetech.github.io/docs/Tutorials.html
 
 For example, TMC2208, TMC2209, TMC2225... Use a jumper cap for each to connect the position of the red box in the figure, and the subdivision and 	driver current is set by firmware.
 
-<img src=img/M8P/M8P_Dri_Uart_Mode.png width="600" />
+<img src=img/M8P/M8P_Dri_Uart_Mode.webp width="600" />
 
 #### **SPI Mode of TMC Driver** 
 
 For example, TMC2130, TMC5160, TMC5161... Use 4 jumper caps for each to connect the position of the red box in the figure, and the subdivision and 	driver current is set by firmware.
 
-<img src=img/M8P/M8P_Dri_SPI_Mode.png width="600" />
+<img src=img/M8P/M8P_Dri_SPI_Mode.webp width="600" />
 
 #### **DIAG(Sensorless Homing) of TMC Driver** 
 
 As shown in the figure, plug the jumper cap when using the Sensorless Homing function, and leave it unplugged when it is not used. 
 
-<img src=img/M8P/M8P_Dri_Diag_Mode.png width="600" />
+<img src=img/M8P/M8P_Dri_Diag_Mode.webp width="600" />
 
 #### **Driver Voltage Selection** 
 
-<img src=img/M8P/M8P_Sel_PS1.png width="600" />
+<img src=img/M8P/M8P_Sel_PS1.webp width="600" />
 
-<img src=img/M8P/M8P_Sel_PS2.png width="600" />
+<img src=img/M8P/M8P_Sel_PS2.webp width="600" />
 
 ### **Install the Core Board via BTB Connection**
 
 **M8P+CM4: Pay attention to the direction, as shown below.**
 
-<img src=img/M8P/M8P_M8P+CM4.png width="600" />
+<img src=img/M8P/M8P_M8P+CM4.webp width="600" />
 
 **M8P+CB1: Pay attention to the direction, as shown below.**
 
-<img src=img/M8P/M8P_M8P+CB1.png width="600" />
+<img src=img/M8P/M8P_M8P+CB1.webp width="600" />
 
 ### **Voltage Selection for CNC Fans**
 
 Set the output voltage to 5V, 12V, or 24V with a jumper cap. Note: Please confirm the fan's operating voltage before choosing a voltage. Our company 	is not responsible for fan burnout caused by wrong selection.
 
-<img src=img/M8P/M8P_CNC_Fans.png width="600" />
+<img src=img/M8P/M8P_CNC_Fans.webp width="600" />
 
 ### **100K NTC or PT1000 Setting**
 
 When using a 100K NTC thermistor, there is no need to insert the jumper cap, and the pull-up resistance of TH0-TH3 is 4.7K 0.1%. When using PT1000, 	you need to use a jumper cap to connect the two pins in the red box in the figure below and connect a 4.12K 0.1% resistor in parallel. At this time, the 	pull-up resistor of TH0-TH1 is 2.2K (Note: The temperature accuracy read out in this way will be far less accurate than that read out by MAX31865).
 
-<img src=img/M8P/M8P_NTC.png width="600" />
+<img src=img/M8P/M8P_NTC.webp width="600" />
 
 ### **BLTouch Wiring**
 
-<img src=img/M8P/M8P_BLTouch.png width="600" />
+<img src=img/M8P/M8P_BLTouch.webp width="600" />
 
 ### **Auto Shutdown Module(Relay V1.2) Wiring**
 
-<img src=img/M8P/M8P_Auto_S.png width="600" />
+<img src=img/M8P/M8P_Auto_S.webp width="600" />
 
 ### **Wiring between LCD Screen and EXP1+EXP2**
 
-<img src=img/M8P/M8P_LCD.png width="600" />
+<img src=img/M8P/M8P_LCD.webp width="600" />
 
 ### **RGB Wiring**
 
-<img src=img/M8P/M8P_RGB.png width="600" />
+<img src=img/M8P/M8P_RGB.webp width="600" />
 
 ### **Filament Sensor Wiring**
 
-<img src=img/M8P/M8P_Filament.png width="600" />
+<img src=img/M8P/M8P_Filament.webp width="600" />
 
 ### **40 Pins GPIO**
 
-<img src=img/M8P/M8P_40_Pin.png width="600" />
+<img src=img/M8P/M8P_40_Pin.webp width="600" />
 
 ### **DSI/CSI Wiring**
 
-<img src=img/M8P/M8P_DSI.png width="600" />
+<img src=img/M8P/M8P_DSI.webp width="600" />
 
 ### **Proximity Switch Wiring**
 
 **Always on (NPN type), no need to short-circuit via a jumper cap, 24V as an example, as shown in the following figure:**
 
-<img src=img/M8P/M8P_Proximity.png width="600" />
+<img src=img/M8P/M8P_Proximity.webp width="600" />
 
 **Always off (PNP type), need to short-circuit via a jumper cap, 24V as an example, as shown in the following figure:**
 
-<img src=img/M8P/M8P_Proximity1.png width="600" />
+<img src=img/M8P/M8P_Proximity1.webp width="600" />
 
 ### **Wiring of the 4-wire CNC Fan**
 
-<img src=img/M8P/M8P_4_Wire.png width="600" />
+<img src=img/M8P/M8P_4_Wire.webp width="600" />
 
 ### **ADXL345 Accelerometer**
 
 Refer to here: https://www.klipper3d.org/Measuring_Resonances.html, We can refer to the following wiring and configuration when connecting to the 	M8P motherboard
 
-<img src=img/M8P/M8P_ADXL345.png width="600" />
+<img src=img/M8P/M8P_ADXL345.webp width="600" />
 
 ```
 [adxl345]

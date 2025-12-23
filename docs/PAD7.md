@@ -1,6 +1,6 @@
 # PAD7
 
-<img src=img/PAD7/PAD7_Title.png width="600" />
+<img src=img/PAD7/PAD7_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -42,11 +42,11 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 
 ## **Dimensions**
 
-<img src=img/PAD7/PAD7_Dimensions.png width="600" />
+<img src=img/PAD7/PAD7_Dimensions.webp width="600" />
 
 ## **Connectivity**
 
-<img src=img/PAD7/PAD7_Connectivity.png width="600" />
+<img src=img/PAD7/PAD7_Connectivity.webp width="600" />
 
 - Light-Sensor: built-in light sensor to automatically adjust the brightness of the backlight based on the intensity of ambient light.
 - RGB: Status light.
@@ -55,7 +55,7 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 - Volume-：built-in speaker volume decrease.
 - Volume+：Built-in speaker volume increase.
 
-<img src=img/PAD7/PAD7_Connectivity1.png width="600" />
+<img src=img/PAD7/PAD7_Connectivity1.webp width="600" />
 
 - Power-IN DC12V 2A: coming with a 12V 2A power adapter. 
 - USB2.0*2: USB host peripheral interface.
@@ -69,7 +69,7 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 
 ### **Connection between Pad7, EBB36, and ADXL345**
 
-<img src=img/PAD7/PAD7_ADXL345.png width="600" />
+<img src=img/PAD7/PAD7_ADXL345.webp width="600" />
 
 ### **To Replace CB1 with CM4**
 
@@ -79,19 +79,19 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 
 <font  color="red">**Slide the bottom cover upwards using your fingers. **</font>
 
-<img src=img/PAD7/PAD7_CB1_1.png width="600" />
+<img src=img/PAD7/PAD7_CB1_1.webp width="600" />
 
 3.Use a 2.0 mm hex key to remove the four M2.5 x 10 socket head cap screws in a counterclockwise direction.
 
 <font  color="red">**Remove the heatsink. **</font>
 
-<img src=img/PAD7/PAD7_CB1_2.png width="600" />
+<img src=img/PAD7/PAD7_CB1_2.webp width="600" />
 
 4.Use tweezers to gently lift the antenna connector highlighted in 1 to disconnect it from CB1.
 
 <font  color="red">**Then remove CB1. **</font>
 
-<img src=img/PAD7/PAD7_CB1_3.png width="600" />
+<img src=img/PAD7/PAD7_CB1_3.webp width="600" />
 
 5.Align the BTB connectors of the Pad 7 and CM4.
 
@@ -99,17 +99,17 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 
 <font  color="red">**Plug the antenna connector into the port highlighted in 2. **</font>
 
-<img src=img/PAD7/PAD7_CB1_4.png width="600" />
+<img src=img/PAD7/PAD7_CB1_4.webp width="600" />
 
 6.Cover the heatsink back onto the CM4.
 
 <font  color="red">**Use a 2.0mm hex key to tighten the four M2.5 x 10 socket head cap screws in a clockwise direction. **</font>
 
-<img src=img/PAD7/PAD7_CB1_5.png width="600" />
+<img src=img/PAD7/PAD7_CB1_5.webp width="600" />
 
 7.Refer to the figure below, and slide the switch of USB-Choose and CS-Choose to the CM4 position.
 
-<img src=img/PAD7/PAD7_CB1_6.png width="600" />
+<img src=img/PAD7/PAD7_CB1_6.webp width="600" />
 
 <font  color="red">**Note:White blocks represent the current positions of the slide switch.**</font>
 
@@ -117,7 +117,7 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 
 <font  color="red">**Use a 1.5 mm hex key to fix the bottom cover in place using the two M2.5 x 3 flat head countersunk screws.**</font>
 
-<img src=img/PAD7/PAD7_CB1_7.png width="600" />
+<img src=img/PAD7/PAD7_CB1_7.webp width="600" />
 
 9.Finally, insert the TF card containing the Raspberry Pi Imager software into the designated card slot, and then power the Pad 7 on.
 
@@ -127,9 +127,9 @@ The BIGTREETECH Pad 7, a product of Shenzhen BIQU Innovation Technology Co., Ltd
 
 2.Once the screws have been removed, gently pull the bracket away from the Pad 7.
 
-<img src=img/PAD7/PAD7_CB1_8.png width="600" />
+<img src=img/PAD7/PAD7_CB1_8.webp width="600" />
 
-<img src=img/PAD7/PAD7_CB1_9.png width="600" />
+<img src=img/PAD7/PAD7_CB1_9.webp width="600" />
 
 ## **Software Configuration**
 
@@ -161,15 +161,15 @@ For details, please click:https://bigtreetech.github.io/docs/Software%20Installa
 
 2.Select the downloaded image.
 
-<img src=img/PAD7/PAD7_BAL_1.png width="600" />
+<img src=img/PAD7/PAD7_BAL_1.webp width="600" />
 
 3.Select the microSD card and click "WRITE" (WRITE the image will format the microSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted).
 
-<img src=img/PAD7/PAD7_BAL_2.png width="600" />
+<img src=img/PAD7/PAD7_BAL_2.webp width="600" />
 
 4.Wait for the writing process to complete.
 
-<img src=img/PAD7/PAD7_BAL_3.png width="600" />
+<img src=img/PAD7/PAD7_BAL_3.webp width="600" />
 
 ### **System Settings**
 
@@ -181,7 +181,7 @@ In the configuration file, the '#' symbol represents a comment, and the system i
 
 hostname="BTT-Pad7" - This line is recognized by the system, and the hostname is set to "BTT-Pad7".
 
-<img src=img/PAD7/PAD7_SYS_1.png width="600" />
+<img src=img/PAD7/PAD7_SYS_1.webp width="600" />
 
 **Setting up WiFi**
 
@@ -189,7 +189,7 @@ hostname="BTT-Pad7" - This line is recognized by the system, and the hostname is
 
 After the OS image has been burned onto the microSD card, a FAT32 partition that is recognized by the computer will be created on the card. Under this partition, there will be a configuration file named "system.cfg". Open this file, and replace WIFI-SSID with the actual name of your WIFI network, and PASSWORD with your actual WIFI password.
 
-<img src=img/PAD7/PAD7_SYS_2.png width="600" />
+<img src=img/PAD7/PAD7_SYS_2.webp width="600" />
 
 **Pad 7 Settings**
 
@@ -207,7 +207,7 @@ overlays=ws2812 light mcp2515 spidev1_1
 
 **spidev1_1:**Enables the spidev1_1 to the system user space, allowing the Pad 7's SPI port to connect to an ADXL345 accelerometer module.
 
-<img src=img/PAD7/PAD7_SYS_3.png width="600" />
+<img src=img/PAD7/PAD7_SYS_3.webp width="600" />
 
 Open the "system.cfg" configuration file and modify the following settings:
 
@@ -219,7 +219,7 @@ Open the "system.cfg" configuration file and modify the following settings:
 
 **AUTO_BRIGHTNESS="ON"**\# OFF Disables automatic backlight adjustment based on ambient light. ON: Enables automatic backlight adjustment based on ambient light.
 
-<img src=img/PAD7/PAD7_SYS_4.png width="600" />
+<img src=img/PAD7/PAD7_SYS_4.webp width="600" />
 
 <font  color="red">**Note: The TOUCH_VIBRATION and TOUCH_SOUND settings require KlipperScreen support. If you want to use the touch feedback function, please follow the steps below to set up KlipperScreen.**</font>
 
@@ -229,7 +229,7 @@ Since KlipperScreen does not provide API interfaces for touch feedback, it is ne
 
 1.Open the moonraker.conf file in Mainsail.
 
-<img src=img/PAD7/PAD7_SYS_5.png width="600" />
+<img src=img/PAD7/PAD7_SYS_5.webp width="600" />
 
 2.Change the origin of KlipperScreen from the official
 
@@ -237,15 +237,15 @@ https://github.com/jordanruthe/KlipperScreen.git  to:  https://github.com/bigtre
 
 If you want to use the official version instead of BigTreeTech's, simply change the link back.
 
-<img src=img/PAD7/PAD7_SYS_6.png width="600" />
+<img src=img/PAD7/PAD7_SYS_6.webp width="600" />
 
 3.Click the refresh button in the upper right corner of the Update Manager, then Hard Recovery KlipperScreen.
 
-<img src=img/PAD7/PAD7_SYS_7.png width="600" />
+<img src=img/PAD7/PAD7_SYS_7.webp width="600" />
 
 4.Wait for the update to complete.
 
-<img src=img/PAD7/PAD7_SYS_8.png width="600" />
+<img src=img/PAD7/PAD7_SYS_8.webp width="600" />
 
 **Setting up SPI to CAN**
 
@@ -318,7 +318,7 @@ dtoverlay=mcp2515-can0,oscillator=12000000,interrupt=24,spimaxfrequency=10000000
 
 Execute sudo nano /etc/network/interfaces.d/can0 in the SSH terminal to edit the can0 file and check if the contents of the file are correct. The bitrate 1000000 represents the baud rate of the CAN bus and should be consistent with the settings in Klipper.
 
-<img src=img/PAD7/PAD7_SYS_9.png width="600" />
+<img src=img/PAD7/PAD7_SYS_9.webp width="600" />
 
 ```
 allow-hotplug can0
@@ -353,9 +353,9 @@ axes_map: z,y,-x  #  Modify according to the actual orientation of the ADXL345 i
 
 1.Check the CS-Choose switch inside Pad 7. When used with CB1, it should be set to the CB1 position, and when used with CM4, it should be set to the CM4 position.
 
-<img src=img/PAD7/PAD7_FAQ_1.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_1.webp width="600" />
 
-<img src=img/PAD7/PAD7_FAQ_2.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_2.webp width="600" />
 
 Note:Whiteblocksrepresentthecurrentpositionsoftheslideswitch.
 
@@ -365,11 +365,11 @@ Note:Whiteblocksrepresentthecurrentpositionsoftheslideswitch.
 
 3.In the SSH terminal, execute the command "dmesg | grep can". The response should be "MCP2515 successfully initialized".
 
-<img src=img/PAD7/PAD7_FAQ_3.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_3.webp width="600" />
 
 4.In the SSH terminal, execute the command "sudo nano /etc/network/interfaces.d/can0" to edit the can0 file and check if the content of the file is normal. The bitrate 1000000 represents the CANbus baud rate, which should be consistent with the setting in Klipper.
 
-<img src=img/PAD7/PAD7_FAQ_4.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_4.webp width="600" />
 
 ```
 allow-hotplug can0
@@ -380,23 +380,23 @@ iface can0 can static
 
 5.In the SSH terminal, execute the command "ifconfig" to check if the can0 service exists. A normal situation is shown in the figure.
 
-<img src=img/PAD7/PAD7_FAQ_5.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_5.webp width="600" />
 
 ### **ADXL345 Not Working**
 
 1.Check the CS-Choose switch inside Pad 7. When used with CB1, it should be set to the CB1 position, and when used with CM4, it should be set to the CM4 position.
 
-<img src=img/PAD7/PAD7_FAQ_6.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_6.webp width="600" />
 
-<img src=img/PAD7/PAD7_FAQ_7.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_7.webp width="600" />
 
 2.Check the wiring sequence of the SPI port according to the “Connection between Pad7, EBB36, and ADXL345” section of this manual.
 
 3.In the SSH terminal, execute the command "ls /dev/spi*" to check if CB1 has a device named "spidev1.1" and if CM4 has a device named "spidev0.1".
 
-<img src=img/PAD7/PAD7_FAQ_8.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_8.webp width="600" />
 
-<img src=img/PAD7/PAD7_FAQ_9.png width="600" />
+<img src=img/PAD7/PAD7_FAQ_9.webp width="600" />
 
 
 ## **Cautions**

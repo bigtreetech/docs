@@ -1,6 +1,6 @@
 # Octopus Pro
 
-<img src=img/Octopus_Pro/Octopus_Pro_Title.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -67,17 +67,17 @@ The BIGTREETECH Octopus-pro V1.0 is a powerful and feature rich, 3D printer moth
 
 ## **Dimensions**
 
-<img src=img/Octopus_Pro/Octopus_Pro_Dimension.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Dimension.webp width="600"/>
 
 ## **Interface Diagram**
 
-<img src=img/Octopus_Pro/Octopus_Pro_CAD.png width="500"/>
+<img src=img/Octopus_Pro/Octopus_Pro_CAD.webp width="500"/>
 
 ## **Pinout**
 
 The image below is a snippet taken from the PINS.pdf document. For better viewability please consult the PINS.pdf document.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Pin.png width="500"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Pin.webp width="500"/>
 
 ## **Hardware Configuration**
 
@@ -94,7 +94,7 @@ The 12V, 5V and 3.3V rails are made available via various pins on the motherboar
 
 Power wiring is as shown below (look on the underside of your board to quickly identify the purpose of each input if the pins file is not on hand). The positive (red) wire from the power supply goes to the terminal marked +. The negative (black) wire from the power supply goes to the terminal marked -. The polarity (+ and -) is also silk screened onto the underside of the board.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Pow.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Pow.webp width="600"/>
 
 <font  color="red">***Note: DO NOT alter the board wiring with the power on and be sure to get the polarity correct otherwise you can damage the motherboard.***</font>
 
@@ -104,7 +104,7 @@ The Octopus can be powered using the USB-C port by inserting the jumper as shown
 
 If you do not connect this jumper then you must provide the board with power via the main input supply if you would like to communicate via USB-C.
 
-<img src=img/Octopus_Pro/Octopus_Pro_5V.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_5V.webp width="600"/>
 
 ## **Hardware Installation**
 
@@ -112,7 +112,7 @@ If you do not connect this jumper then you must provide the board with power via
 
 When using the BIGTREETECH Relay V1.2 module, the wiring can be performed as shown in the figure below.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Auto.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Auto.webp width="600"/>
 
 <font  color="red">***Note: Since power will still be supplied to the Relay 1.2 module after it has cut power to the motherboard, it is extremely dangerous to touch the it while the printer is still connected to mains. Always remove all mains power when working on this wiring.***</font>
 
@@ -120,19 +120,19 @@ When using the BIGTREETECH Relay V1.2 module, the wiring can be performed as sho
 
 When using a BL Touch, wire it to the motherboard as shown in the figure below. As always, never perform any work on the motherboard with power applied.
 
-<img src=img/Octopus_Pro/Octopus_Pro_BLTouch.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_BLTouch.webp width="600"/>
 
 ### **POWER LOSS RECOVERY MODULE WIRING**
 
 When using the BIGTREETECH mini UPS, wire it to the motherboard as shown in the figure below. As always, never perform any work on the motherboard with power applied.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Pow_L.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Pow_L.webp width="600"/>
 
 ### **RGB LED WIRING**
 
 When using the motherboard with RGB LEDs you should wire them as shown in the image below. The exact pinout of the connector can be found on the silkscreen on the underside of the motherboard.
 
-<img src=img/Octopus_Pro/Octopus_Pro_RGB.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_RGB.webp width="600"/>
 
 ### **RASPBERRY PI WIRING**
 
@@ -142,7 +142,7 @@ Dedicated UART and SPI pin headers have been made available on the motherboard f
 
 5V power for the raspberry pi is provided via the dedicated Raspberry pi header (UART2). Consult the PINS.pdf document for the exact pinout of this header.
 
-<img src=img/Octopus_Pro/Octopus_Pro_RAS.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_RAS.webp width="600"/>
 
 ### **PROBE PORT WIRING**
 
@@ -154,7 +154,7 @@ Regardless of the kind of probe you are using, you will need to enable the inter
 
 Refer to Section 4.2 for further information on how to configure the voltage used by the probe port.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Probe.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Probe.webp width="600"/>
 
 ### **STEPPER DRIVER OPERATIONAL MODES**
 
@@ -166,13 +166,13 @@ Each driver will have its own microstepping table so we do not attempt to speak 
 
 Nevertheless, below you will see a figure which will help you to identify which jumpers correspond to the pins that your drivers will use to configure microstepping and we have additionally included a section in appendix A1 which contains the microstepping tables for some of the most common drivers. This should be viewed as a convenience to the user and we still recommend that you consult the datasheet of your driver manufacturer.
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI1.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI1.webp width="600"/>
 
 In the above image the red rectangle isolates the groups of driver pins. For the purpose of running the drivers in step/dir mode the pinout can be described as per the table below.
 
 <font  color="red">***Note that this is not the actual pinout but rather a simplification for step/dir mode.***</font>
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI2.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI2.webp width="600"/>
 
 Connecting jumpers between the lower two rows will set the middle pin (MS) to 5V except for the jumpers in the first column where it will connect SLP and RST. Note that if your stepper driver requires 0V to be present on any of the pins then there is actually no need to connect a jumper to that pin when running in step/dir mode and connecting a jumper in this instance could cause interference since those lines are used for the SPI bus.
 
@@ -184,13 +184,13 @@ For details, please click: https://z1996xm.github.io/BIGTREETECH/Tutorials.html
 
 When using a driver in UART mode, connect the jumpers beneath that driver as show in the image below.
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI3.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI3.webp width="600"/>
 
 #### **SPI MODE**
 
 When using a driver in SPI mode, connect the jumpers beneath that driver as shown in the image below.
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI4.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI4.webp width="600"/>
 
 ### **MOTHERBOARD JUMPER SETTINGS**
 
@@ -203,11 +203,11 @@ driver. Sending a high voltage to a driver that is not rated for it is likely to
 
 Setting the jumper for any given driver to the right, as shown in the image below, will provide the motherboard input voltage for that driver to use. Generally the motherboard uses 24V.
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI5.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI5.webp width="600"/>
 
 Setting the jumper for any given driver to the left, as shown in the image below, will provide the motor input voltage for that driver to use. This can be up to 60V.
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI6.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI6.webp width="600"/>
 
 <font  color="red">***Note: Never remove or insert a jumper when power is applied to either the board input or the motor input.***</font>
 
@@ -219,15 +219,15 @@ All of the fan outputs and the proximity sensor input can individually have the 
 
 Configure the jumpers as below to select 24V (note that all are shown in the same configuration even though they can be individually configured).
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI7.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI7.webp width="600"/>
 
 Configure the jumpers as below to select 12V.
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI8.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI8.webp width="600"/>
 
 Configure the jumpers as below for 5V.
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI9.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI9.webp width="600"/>
 
 <font  color="red">***Note: Since the jumpers carry a voltage rail directly from one of the regulators or from the input, if you short the jumpers in any way other than the shown connections, you will likely cause damage to the motherboard. When connecting the fan, make sure that you connect the positive terminal to the 
 positive output as shown in the images.***</font>
@@ -238,7 +238,7 @@ The “diag” jumpers which are used to connect the diagnostic output pin to th
 
 The exact diag numbering can be found by looking at the pins file or the silkscreen beneath the board.
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI10.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_DRI10.webp width="600"/>
 
 #### **PT100/PT1000 DIP SWITCHES**
 
@@ -246,7 +246,7 @@ The PT100 amplifier supports 2,3 and 4 wire connections to the board. However, t
 
 You can find the DIP switch in the location shown in the image below. Note that the DIP switch has switch numbers and the “on” position printed on it.
 
-<img src=img/Octopus_Pro/Octopus_Pro_PT100.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_PT100.webp width="600"/>
 
 Select the connection arrangement for your thermistor according to the table below. Bear in mind that you will still need to configure your firmware using the correct sense resistor values which will be 430 for the PT100 and 4300 for the PT1000.
 
@@ -266,7 +266,7 @@ Select the connection arrangement for your thermistor according to the table bel
 
 If you are using a three-wire arrangement, then you will also need to make a small adjustment to an SMD resistor on the board. The image below shows the factory default resistor setting in the blue box (2/4 wire arrangement). Using a 3 wire arrangement will require you to move the resistor from the blue box into the red box and then to leave the pads in the blue box unpopulated. These resistors are 0 so if you do not feel comfortable soldering them back in place you can always just create a solder bridge between the pads instead, selecting the pads appropriate to your arrangement.
 
-<img src=img/Octopus_Pro/Octopus_Pro_PT100_1.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_PT100_1.webp width="600"/>
 
 ## Software Installation
 
@@ -276,7 +276,7 @@ After connecting the motherboard to a computer via a USB cable, the driver will 
 
 If you would like to confirm that the driver has been installed correctly you can access the device manager in windows and look for a virtual com port when the motherboard is plugged in. In the image below the motherboard has been assigned COM7 however your operating system may assign it any available COM port number. Other operating systems will list serial ports in a different manner.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Soft1.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Soft1.webp width="600"/>
 
 ### **MOTHERBOARD FIRMWARE SUPPORT**
 
@@ -299,11 +299,11 @@ https://www.sdcard.org/downloads/formatter/
 
 If you are using Klipper then please ensure that you have the following settings enabled for the 446 variant. Take careful note of the crystal oscillator frequency which is 12MHz and differs from the 429 variant.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Soft2.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Soft2.webp width="600"/>
 
 The 429 variant of the board makes use of a different frequency crystal oscillator (8MHz) and therefore the klipper configuration needs to be adjusted slightly as show in in the image below.
 
-<img src=img/Octopus_Pro/Octopus_Pro_Soft3.png width="600"/>
+<img src=img/Octopus_Pro/Octopus_Pro_Soft3.webp width="600"/>
 
 ## **PRECAUTIONS**
 

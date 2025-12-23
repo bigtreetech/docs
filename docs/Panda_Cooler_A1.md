@@ -70,13 +70,13 @@ Please refer to the image below to verify the contents of your product package.
 
     Remove the four original mounting screws.
 
-    <img src=img/PandaCoolerA1/install2.png width="500"/>
+    <img src=img/PandaCoolerA1/install2.webp width="500"/>
 
 * Step 3: Install Nozzle Light
 
     Mount and secure the nozzle light using the included M1.7×8 and M1.7×10 self-tapping screws.
 
-    <img src=img/PandaCoolerA1/install3.png width="500"/>
+    <img src=img/PandaCoolerA1/install3.webp width="500"/>
 
     **Important**: The LED side must face toward the heated bed.
 
@@ -84,7 +84,7 @@ Please refer to the image below to verify the contents of your product package.
 
    Secure the RGB fan module to the bracket on the left side of the printhead by simply clipping it on. Ensure it is firmly and evenly attached.
 
-    <img src=img/PandaCoolerA1/install4.png width="400"/>
+    <img src=img/PandaCoolerA1/install4.webp width="400"/>
 
 * Step 5: Install Controller Module
 
@@ -93,7 +93,7 @@ Please refer to the image below to verify the contents of your product package.
 
     <img src=img/PandaCoolerA1/install5.jpg width="400"/>
 
-    <img src=img/PandaCoolerA1/install6.png width="400"/>
+    <img src=img/PandaCoolerA1/install6.webp width="400"/>
 
 * Step 6: Connect Power Supply
 
@@ -107,7 +107,7 @@ Please refer to the image below to verify the contents of your product package.
 
     Use the included M2.6×8 self-tapping screw to secure the controller module housing to its PCB.
 
-    <img src=img/PandaCoolerA1/install8.png width="400"/>
+    <img src=img/PandaCoolerA1/install8.webp width="400"/>
 
 * Step 8: Secure Type-C Cable
 
@@ -119,13 +119,13 @@ Please refer to the image below to verify the contents of your product package.
 
     Connect the cooling fan’s 2-pin connector to the 2-pin port shown in the diagram.
 
-    <img src=img/PandaCoolerA1/install10.png width="400"/>
+    <img src=img/PandaCoolerA1/install10.webp width="400"/>
 
 * Step 10: Connect RGB Light Connector
 
     Insert the fan RGB light connector into the corresponding 3-pin interface at the rear.
 
-    <img src=img/PandaCoolerA1/install11.png width="400"/>
+    <img src=img/PandaCoolerA1/install11.webp width="400"/>
 
     **⚠️ Warning**: Carefully verify the interface to avoid incorrect connections. Do not connect the bottom nozzle light connector at this time.
 
@@ -133,7 +133,7 @@ Please refer to the image below to verify the contents of your product package.
 
     Route the nozzle light wires into the cable guide slot.
 
-    <img src=img/PandaCoolerA1/install12.png width="400"/>
+    <img src=img/PandaCoolerA1/install12.webp width="400"/>
 
 * Step 12: Complete Installation
 
@@ -141,7 +141,7 @@ Please refer to the image below to verify the contents of your product package.
 
     * Connect the nozzle light connector to complete the installation.
 
-    <img src=img/PandaCoolerA1/install13.png width="300"/>
+    <img src=img/PandaCoolerA1/install13.webp width="300"/>
 
 
 <a id="reset_config"></a>

@@ -1,6 +1,6 @@
 # Octopus MAX EZ
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Title.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Title.webp width="600"/>
 
 ## **Product Profile**
 
@@ -63,17 +63,17 @@ BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octo
 
 ## **Dimensions**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Dimensions.png width="600">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Dimensions.webp width="600">
 
 ## Peripheral Port
 
 **Connector Diagram**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Peripheral.png width="600">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Peripheral.webp width="600">
 
 ## Pinout Diagram
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout.png width="600">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout.webp width="600">
 
 ## **Hardware Configuration**
 
@@ -81,7 +81,7 @@ BIGTREETECH Octopus MAX EZ, a 32 bit motherboard, is an upgraded version of Octo
 
 After the Octopus MAX EZ has been powered, the Red light `D32` on the left side of the MCU will light up, indicating power on. When using only USB to power the board or to supply power via USB, please insert the jumper cap onto the `VUSB`.
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware1.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware1.webp width="450">
 
 ### Stepper Motor Driver
 
@@ -95,19 +95,19 @@ After the Octopus MAX EZ has been powered, the Red light `D32` on the left side 
 
     When using sensorless homing, place jumpers according to the diagram below, there is no need to cut the DIAG pin off when not being used. (Motor1-Motor6).
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware2.png width="450">
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware2.webp width="450">
 
 **Driver Voltage Selection**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware3.png width="600">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware3.webp width="600">
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware4.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware4.webp width="600"/>
 
 ### Voltage Selection for CNC Fan
 
 The output voltage can be set to 5V, 12V or 24V through a jumper cap. `MFAN` and `FAN6` share the power supply `VFAN6`.
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware5.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware5.webp width="450"/>
 
 !!! warning
     we are not responsible for fan burnout caused by incorrect voltage selection. Please confirm the voltage the fan supports before selecting the voltage.
@@ -119,45 +119,45 @@ When using 100K NTC, no jumpers need to be connected, the pull-up resistance of 
 !!! info 
     This method connect PT1000 has a much lower accuracy than the MAX31865 in reading temperature.
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware6.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware6.webp width="450">
 
 ### BLTouch Wiring
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware7.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware7.webp width="450">
 
 ### Auto Power Off (Relay V1.2) Wiring
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware8.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware8.webp width="450">
 
 ### Connecting with MINI12864/TFT Screen
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware9.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware9.webp width="450">
 
 ### RGB Wiring
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware10.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware10.webp width="450">
 
 ### Filament Sensor Wiring
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware11.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware11.webp width="450">
 
 ### Proximity Switch Wiring
 
 === "Normally Open NPN Type"
     As shown in the figure below, 24V as an example, normally open (NPN type), no need for shorting through a jumper cap.
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware12.png width="450">
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware12.webp width="450">
 
 === "Normally Closed PNP Type"
     As shown in the figure below, 24V as an example, normally closed (PNP type), need for shorting through a jumper cap.
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.png width="450">
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.webp width="450">
 
 ### Wiring of 4 pins CNC Fan or Water Cooling System
 
 12V as an example:
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware14.png width="450">
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware14.webp width="450">
 
 ## Software Installation
 
@@ -191,7 +191,7 @@ You can open Marlin in VS Code in one of several ways:
 
 Open **platformio.ini** file and change **default_envs** to **STM32H723Zx_btt**.
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software1.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software1.webp width="600"/>
 
 **Configure Motherboard and Serial Port**
 
@@ -209,11 +209,11 @@ Open **platformio.ini** file and change **default_envs** to **STM32H723Zx_btt**.
 #define SERIAL_PORT_3 7   (enable WIFI serial port) 
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software2.png width="600"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software2.webp width="600"/>
 
 #### Configure Stepper Driver
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software3.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software3.webp width="450"/>
 
 When using SPI mode, you need to enable TMC_USE_SW_SPI in Configuration_adv.h
 
@@ -221,11 +221,11 @@ When using SPI mode, you need to enable TMC_USE_SW_SPI in Configuration_adv.h
 #define TMC_USE_SW_SPI
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software4.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software4.webp width="450"/>
 
 #### Sensorless Homing
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software5.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software5.webp width="450"/>
 
 ``` cpp
 #define SENSORLESS_HOMING  // enable sensorless homing
@@ -248,23 +248,23 @@ When using 100K NTC, no jumpers need to be connected, the pull-up resistance of 
 #define TEMP_SENSOR_BED 1
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software6.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software6.webp width="450"/>
 
 #### BLTouch
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software7.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software7.webp width="450"/>
 
 ``` cpp
 //#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN //
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software8.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software8.webp width="450"/>
 
 ``` cpp
 #define BLTOUCH  // Enable bltouch
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software9.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software9.webp width="450"/>
 
 ``` cpp
 #define NOZZLE_TO_PROBE_OFFSET { -40, -10, -2.85 } // set BLtouch probe offset
@@ -272,7 +272,7 @@ When using 100K NTC, no jumpers need to be connected, the pull-up resistance of 
 #define PROBING_MARGIN 10 // set distance between probe area and print area perimeter
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software10.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software10.webp width="450"/>
 
 ``` cpp
 #define AUTO_BED_LEVELING_BILINEAR // set probe pattern
@@ -280,7 +280,7 @@ When using 100K NTC, no jumpers need to be connected, the pull-up resistance of 
 #define RESTORE_LEVELING_AFTER_G28 // apply leveling after G28 homing command
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software11.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software11.webp width="450"/>
 
 ``` cpp
 #define GRID_MAX_POINTS_X 5 // set number of probe points for x axis, usually 5 point is sufficient
@@ -290,13 +290,13 @@ When using 100K NTC, no jumpers need to be connected, the pull-up resistance of 
 
 If bltouch also functions as your Z homing sensor, no wiring change is needed, just set it in the firmware. 
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software12.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software12.webp width="450"/>
 
 ``` cpp
 #define USE_PROBE_FOR_Z_HOMING // use Z Probe(BLtouch) for Z homing
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software13.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software13.webp width="450"/>
 
 ``` cpp
 #define Z_SAFE_HOMING // home Z at the center of print bed to prevent probing outside of the print bed.
@@ -304,7 +304,7 @@ If bltouch also functions as your Z homing sensor, no wiring change is needed, j
 
 #### Auto Power Off(Relay V1.2)
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software14.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software14.webp width="450"/>
 
 ``` cpp
 #define PSU_CONTROL // enable PSU control to turn on and off using M80 and M81
@@ -318,7 +318,7 @@ There are two methods for power loss recovery
 
 1. No extra module needed, the motherboard will write current print status to the SD card after every layer is printed, which shortens the life of the SD card severely. 
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software15.png width="450"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software15.webp width="450"/>
 
     ``` cpp
     #define POWER_LOSS_RECOVERY // enable power loss recovery
@@ -328,7 +328,7 @@ There are two methods for power loss recovery
 
 2. External UPS 24V V1.0 module, when power is cut, the module will provide power to the board and signal the board to save current print status to SD card. This method has virtually no effect on the life of the SD card. 
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software16.png width="450"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software16.webp width="450"/>
 
     ``` cpp
     #define POWER_LOSS_RECOVERY // enable power loss recovery
@@ -342,7 +342,7 @@ There are two methods for power loss recovery
 
 #### RGB
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software17.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software17.webp width="450"/>
 
 ``` cpp
 #define NEOPIXEL_LED  // enable Neopixel
@@ -358,7 +358,7 @@ There are two methods for power loss recovery
 
 If you are using displays like LCD2004, 12864, mini12864, etc., you can also control RGB from your display directly. 
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software18.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software18.webp width="450"/>
 
 ``` cpp
 #define LED_CONTROL_MENU // add led control to your menu. 
@@ -368,7 +368,7 @@ If you are using displays like LCD2004, 12864, mini12864, etc., you can also con
 
 Standard filament run out sensors are usually comprised of a microswitch which signals the mainboard of filament status with High or Low level signal. 
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software19.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software19.webp width="450"/>
 
 ``` cpp
 #define FILAMENT_RUNOUT_SENSOR // enable filament run out sensor
@@ -384,7 +384,7 @@ Standard filament run out sensors are usually comprised of a microswitch which s
 
 The smart filament sensor works by continuously sending signal to the mainboard to communicate filament status. 
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software20.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software20.webp width="450"/>
 
 ``` cpp
 #define FILAMENT_MOTION_SENSOR // set encoder type
@@ -394,7 +394,7 @@ The smart filament sensor works by continuously sending signal to the mainboard 
 
 The settings below also need to be set to instruct the printer to park the nozzle after filament error is detected.
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software21.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software21.webp width="450"/>
 
 ``` cpp
 #define NOZZLE_PARK_FEATURE // park nozzle
@@ -402,7 +402,7 @@ The settings below also need to be set to instruct the printer to park the nozzl
 #define NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 } // set the X, Y and Z offset coordinate of the nozzle
 ```
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software22.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software22.webp width="450"/>
 
 ``` cpp
 #define ADVANCED_PAUSE_FEATURE // retraction setting of nozzle park movement and filament purge distance after the print is resumed.
@@ -412,7 +412,7 @@ The settings below also need to be set to instruct the printer to park the nozzl
 
 The serial port between ESP8266 and Marlin on the motherboard is UART3.
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software23.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software23.webp width="450"/>
 
 The newest ESP3D firmware can be found at [luc-github/ESP3D](https://github.com/luc-github/ESP3D), compile your own binary file and rename it to `esp3d.bin`, copy it to the root directory of the SD card, insert into the motherboard and press the reset button. The bootloader will update the firmware to ESP8266 automatically. If updated successfully, the file will be renamed to `ESP3D.CUR`.
 
@@ -420,11 +420,11 @@ The newest ESP3D firmware can be found at [luc-github/ESP3D](https://github.com/
 
 1. Click `✔️` to compile firmware. 
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software24.png width="450"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software24.webp width="450"/>
 
 2. Copy the compiled "firmware.bin" to SD card and insert to motherboard to update firmware. 
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software25.png width="450"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software25.webp width="450"/>
 
 ### Klipper
 
@@ -442,19 +442,19 @@ make menuconfig
 
 Compile with the configuration shown below (if the options below are not available, please update your Klipper source code to the newest version).
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software38.png width="450"/>
+<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software38.webp width="450"/>
 
 2. Press **q** to exit, and **Yes** when asked to save the configuration.
 
 3. Run `make` to compile firmware, `klipper.bin` file will be generated in `~/klipper/out` folder when **make** is finished, download it onto your computer using the SSH application.
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software39.png width="450"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software39.webp width="450"/>
 
 4. Rename `klipper.bin` to `firmware.bin`, copy to SD card to update firmware.
 
 5. Enter: `ls /dev/serial/by-id/*` in command line to check motherboard ID to confirm whether firmware is updated successfully, as shown below. 
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software40.png width="450"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software40.webp width="450"/>
 
     copy and save this ID, it is needed when modifying klipper config.
 
@@ -462,15 +462,15 @@ Compile with the configuration shown below (if the options below are not availab
 
 1. Enter your Klipper Host IP address into your browser to open the webUI, find the reference config for motherboard in the directory shown below, if there is no such config available, update your Klipper source code to the newest version or download from GitHub [bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ)
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software41.png width="450">
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software41.webp width="450">
 
 2. Upload your finished config file into Configuration Files, and rename it to "printer.cfg".
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software42.png width="450"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software42.webp width="450"/>
 
 3. Insert the correct motherboard ID.
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software43.png width="500"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software43.webp width="500"/>
 
 4. Refer to [Klipper Config Reference](https://www.klipper3d.org/Config_Reference.html) for detailed configuration guide according to your machine type.
 
@@ -487,7 +487,7 @@ Compile with the configuration shown below (if the options below are not availab
 
 1. Run `ls /dev/serial/by-id/*` to get the board ID. If Klipper is running, it will return a klipper ID.
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software44.png width="500"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software44.webp width="500"/>
 
 2. Flash Firmware
     ``` shell
@@ -499,7 +499,7 @@ Compile with the configuration shown below (if the options below are not availab
     !!! note 
         to flash the firmware replace `/dev/serial/by-id/xxx` with the actual ID found in the previous step.
 
-    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software45.png width="400"/>
+    <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software45.webp width="400"/>
 
     Ignore the dfu-util errors after successful flash.
 

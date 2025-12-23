@@ -1,6 +1,6 @@
 # SKSM
 
-<img src=img/SKSM/SKSM_Title.png width="600" />
+<img src=img/SKSM/SKSM_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -30,7 +30,7 @@ The SKSM is an external module for 3D printers that features the ability to save
 
 ## **Dimensions**
 
-<img src=img/SKSM/SKSM_Dimensions.png width="600" />
+<img src=img/SKSM/SKSM_Dimensions.webp width="600" />
 
 ## **Powering Up**
 
@@ -42,9 +42,9 @@ When the SKSM is powered on, the red LED in the upper left corner (which flashes
 
 The SKSM uses a XH2.54mm 5P cable for communication with the printer’s mainboard. Make sure the "PB0 PB1 PB2" signal lines are correctly connected; otherwise, the power outage save feature won’t work.
 
-<img src=img/SKSM/SKSM_Connection.png width="600" />
+<img src=img/SKSM/SKSM_Connection.webp width="600" />
 
-<img src=img/SKSM/SKSM_Connection1.png width="600" />
+<img src=img/SKSM/SKSM_Connection1.webp width="600" />
 
 **Pin Description**
 
@@ -56,23 +56,23 @@ The SKSM uses a XH2.54mm 5P cable for communication with the printer’s mainboa
 
 ### SKSM + BIGTREETECH Pi V1.2 Wiring
 
-<img src=img/SKSM/SKSM_Wiring.png width="600" />
+<img src=img/SKSM/SKSM_Wiring.webp width="600" />
 
 <font  color="red">**Note: The +5V at the 2.54mm socket is for emergency power output only and should not be used for regular power supply. Please use USB-C for power supply.**</font>
 
 ### SKSM + Raspberry Pi Wiring
 
-<img src=img/SKSM/SKSM_Wiring1.png width="600" />
+<img src=img/SKSM/SKSM_Wiring1.webp width="600" />
 
 <font  color="red">**Note: The +5V at the 2.54mm socket is for emergency power output only and should not be used for regular power supply. Please use USB-C for power supply.**</font>
 
 ### SKSM + BIGTREETECH Pi 2 V1.0.1 Wiring
 
-<img src=img/SKSM/SKSM_Wiring2.png width="600" />
+<img src=img/SKSM/SKSM_Wiring2.webp width="600" />
 
 ### SKSM + Manta Series Board Wiring
 
-<img src=img/SKSM/SKSM_Wiring3.png width="600" />
+<img src=img/SKSM/SKSM_Wiring3.webp width="600" />
 
 ## **System Configuration**
 
@@ -84,7 +84,7 @@ The SKSM uses a XH2.54mm 5P cable for communication with the printer’s mainboa
 
 3、Modify according to the diagram shown.
 
-<img src=img/SKSM/SKSM_System.png width="600" />
+<img src=img/SKSM/SKSM_System.webp width="600" />
 
 4、After making the changes, save with Ctrl + S, exit with Ctrl + X (or directly Ctrl + X to exit, press Y to confirm the changes, and press Enter to save), then type sudo reboot to restart the host machine.
 
@@ -96,7 +96,7 @@ The SKSM uses a XH2.54mm 5P cable for communication with the printer’s mainboa
 
 3、Enable the content shown in the picture.
 
-<img src=img/SKSM/SKSM_System1.png width="600" />
+<img src=img/SKSM/SKSM_System1.webp width="600" />
 
 4、After making the changes, save with Ctrl + S, exit with Ctrl + X (or directly Ctrl + X to exit, press Y to confirm the changes, and press Enter to save), then type sudo reboot to restart the host machine.
 

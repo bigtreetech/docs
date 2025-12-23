@@ -1,6 +1,6 @@
 # Nebula
 
-<img src=img/Nebula/nebula_title.png width="600" />
+<img src=img/Nebula/nebula_title.webp width="600" />
 
 **Github Repository:** [bigtreetech/Nebula](https://github.com/bigtreetech/Nebula)
 
@@ -39,7 +39,7 @@ Nebula, the smart extruder designed for optimal cost-effectiveness, features an 
 
 **XYZ Dimensions: 52.73 x 36.5 x 54.82mm**
 
-<img src=img/Nebula/nebula_dimensions.png width="600" />
+<img src=img/Nebula/nebula_dimensions.webp width="600" />
 
 ## Adjusting the Drive Gear Clamp Distance
 
@@ -48,11 +48,11 @@ The drive gear clamp distance is adjustable to accommodate different types of fi
 !!! warning
     Avoid forcing the screw beyond its stopping point to prevent damage to the extruder.
 
-    <img src=img/Nebula/nebula_adjusting.png width="400" />
+    <img src=img/Nebula/nebula_adjusting.webp width="400" />
 
 ## Programmable Button
 
-<img src=img/Nebula/nebula_programmable.png width="600" />
+<img src=img/Nebula/nebula_programmable.webp width="600" />
 
 https://github.com/julianschill/klipper-led_effect/
 
@@ -71,11 +71,11 @@ https://github.com/julianschill/klipper-led_effect/
 | **Motor Weight**          | **0.1 kg**            |
 | **Insulation Class**      | **Class F**           |
 
-<img src=img/Nebula/nebula_motor.png width="400" />
+<img src=img/Nebula/nebula_motor.webp width="400" />
 
 ## Expanded
 
-<img src=img/Nebula/nebula_view.png width="600" />
+<img src=img/Nebula/nebula_view.webp width="600" />
 
 | **1. Motor**                  | **15. Idler Gear**             |
 | ----------------------------- | ------------------------------ |

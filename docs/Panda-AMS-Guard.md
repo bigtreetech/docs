@@ -1,6 +1,6 @@
 # Panda AMS Guard
 
-<img src=img/Panda_AMS_Guard/panda_ams_guard_title.png width="600"/>
+<img src=img/Panda_AMS_Guard/panda_ams_guard_title.webp width="600"/>
 
 **Product Link**: [Buy Here](https://biqu.equipment/products/biqu-ams-upgrades-multi-material-reliability-upgrades-for-bambu-lab-p1-x1-3d-printers-with-ams-simple-plug-and-play-installation?variant=41897387917410)  
 
@@ -36,7 +36,7 @@ Manufactured using high-performance Selective Laser Sintering (SLS) nylon, the g
 2.	Position the guard over the top of the port.
 3.	Press firmly until an audible click confirms secure installation.
 
-<img src=img/Panda_AMS_Guard/panda_ams_guard_in1.png width="600"/>
+<img src=img/Panda_AMS_Guard/panda_ams_guard_in1.webp width="600"/>
 
 
 **If you have any issues with the product, please submit a support ticket.**  

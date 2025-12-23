@@ -1,6 +1,6 @@
 # Universal Turbo Kit
 
-<img src=img/Turbo_Kit/Turbo_Kit_Title.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Title.webp width="600"/>
 
 **产品链接:**
 
@@ -45,23 +45,23 @@ BIQU无刷涡轮吹料套件，采用医疗设备供应商 Wonsmart 提供的高
 
 ## **电机规格**
 
-<img src=img/Turbo_Kit/Turbo_Kit_Motor1.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Motor1.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Motor2.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Motor2.webp width="600"/>
 
 ## **驱动规范**
 
-<img src=img/Turbo_Kit/Turbo_Kit_Driver.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Driver.webp width="600"/>
 
 ## **尺寸**
 
-<img src=img/Turbo_Kit/Turbo_Kit_Dimensions1.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Dimensions1.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Dimensions2.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Dimensions2.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Dimensions3.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Dimensions3.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Dimensions4.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Dimensions4.webp width="600"/>
 
 ## **接线说明**
 
@@ -80,9 +80,9 @@ BIQU无刷涡轮吹料套件，采用医疗设备供应商 Wonsmart 提供的高
 5. 连接24V直流电源；
 6. 将信号线连接至任意风扇接口(3.3-24V兼容)。
 
-<img src=img/Turbo_Kit/Turbo_Kit_Wiring1.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Wiring1.webp width="600"/>
 
-<img src=img/Turbo_Kit/Turbo_Kit_Wiring2.png width="600"/>
+<img src=img/Turbo_Kit/Turbo_Kit_Wiring2.webp width="600"/>
 
 ## **固件设置**
 

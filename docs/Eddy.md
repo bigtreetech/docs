@@ -1,6 +1,6 @@
 # Eddy
 
-<img src=img/Eddy/eddy_title_1.png width="600" />
+<img src=img/Eddy/eddy_title_1.webp width="600" />
 
 **Product Link:** https://biqu.equipment/products/bigtreetech-eddy
 
@@ -31,15 +31,15 @@
 
 ## **Dimension Diagram**
 
-<img src=img/Eddy/Eddy_Dimensions.png width="600" />
+<img src=img/Eddy/Eddy_Dimensions.webp width="600" />
 
 The coil's center point, used for calculating XY offsets, is as follows:
 
-<img src=img/Eddy/Eddy_Dimensions1.png width="600" />
+<img src=img/Eddy/Eddy_Dimensions1.webp width="600" />
 
 ## Location of the BOOT Button
 
-<img src=img/Eddy/eddy_boot_1.png width="600" />
+<img src=img/Eddy/eddy_boot_1.webp width="600" />
 
 The BOOT button is used when programming Klipper onto the Eddy for the first time; afterward, Klipper can automatically reprogram the RP2040.
 
@@ -61,9 +61,9 @@ Installation replaces the original PL-08N position.
 
 Use two M3*25 screws (included in the package) to secure the Eddy to the X Carriage as shown in the diagram.
 
-<img src=img/Eddy/Eddy_Installation1.png width="600" />
+<img src=img/Eddy/Eddy_Installation1.webp width="600" />
 
-<img src=img/Eddy/Eddy_Installation2.png width="600" />
+<img src=img/Eddy/Eddy_Installation2.webp width="600" />
 
 ### Installation on Other Machines
 
@@ -71,61 +71,61 @@ Brackets for various common machines are available in our GitHub repository and 
 
 ### Eddy + Manta M5P
 
-<img src=img/Eddy/Eddy_Connection.png width="600" />
+<img src=img/Eddy/Eddy_Connection.webp width="600" />
 
 ### Eddy + Manta M8P V2.0
 
-<img src=img/Eddy/Eddy_Connection1.png width="600" />
+<img src=img/Eddy/Eddy_Connection1.webp width="600" />
 
 ### Eddy Coil + EBB36 V1.2
 
-<img src=img/Eddy/Eddy_Connection2.png width="600" />
+<img src=img/Eddy/Eddy_Connection2.webp width="600" />
 
 ### Eddy Coil + EBB42 V1.2
 
-<img src=img/Eddy/Eddy_Connection3.png width="600" />
+<img src=img/Eddy/Eddy_Connection3.webp width="600" />
 
 ### Eddy Duo + MANTA M5P（USB）
 
-<img src=img/Eddy/eddy_connection4.png width="600" />
+<img src=img/Eddy/eddy_connection4.webp width="600" />
 
 ### Eddy Duo + MANTA M8P V2.0（USB）
 
-<img src=img/Eddy/eddy_connection6.png width="600" />
+<img src=img/Eddy/eddy_connection6.webp width="600" />
 
 ### Eddy Duo + MANTA M8P V2.0（CAN）
 
-<img src=img/Eddy/eddy_connection7.png width="600" />
+<img src=img/Eddy/eddy_connection7.webp width="600" />
 
 ### Eddy Duo + EBB36
 
-<img src=img/Eddy/eddy_connection8.png width="600" />
+<img src=img/Eddy/eddy_connection8.webp width="600" />
 
 
 
 ### Eddy Duo + EBB42
 
-<img src=img/Eddy/eddy_connection9.png width="600" />
+<img src=img/Eddy/eddy_connection9.webp width="600" />
 
 ### Eddy Duo + EBB SB
 
-<img src=img/Eddy/eddy_connection10.png width="600" />
+<img src=img/Eddy/eddy_connection10.webp width="600" />
 
 ### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（USB）
 
-<img src=img/Eddy/eddy_connection11.png width="600" />
+<img src=img/Eddy/eddy_connection11.webp width="600" />
 
 ### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（CAN）
 
-<img src=img/Eddy/eddy_connection12.png width="600" />
+<img src=img/Eddy/eddy_connection12.webp width="600" />
 
 ### Octopus Pro V1.1 + Eddy Duo（USB）
 
-<img src=img/Eddy/eddy_connection13.png width="600" />
+<img src=img/Eddy/eddy_connection13.webp width="600" />
 
 ### Octopus Pro V1.1 + Eddy Duo（CAN）
 
-<img src=img/Eddy/eddy_connection14.png width="600" />
+<img src=img/Eddy/eddy_connection14.webp width="600" />
 
 ## **Firmware**
 
@@ -159,7 +159,7 @@ make menuconfig
 
 3.Use these settings to compile the firmware.
 
-<img src=img/rp2040_usb_menuconfig.png width="600"/>
+<img src=img/rp2040_usb_menuconfig.webp width="600"/>
 
 <font  color="blue">**[*] Enable extra low-level configuration options**</font>
 
@@ -184,7 +184,7 @@ CAN-Bus communication
 
 5.Enter <font  color="blue">**make **</font>to compile the firmware. When make is completed, the required <font  color="blue">**klipper.uf2**</font> firmware will be generated in the <font  color="blue">**home/pi/klipper/out folder **</font> and can be directly downloaded to the computer on the left side of the SSH software.
 
-<img src=img/Eddy/Eddy_System2.png width="600" />
+<img src=img/Eddy/Eddy_System2.webp width="600" />
 
 ### Update Firmware
 
@@ -192,11 +192,11 @@ CAN-Bus communication
 
 1.Press and hold the Boot button, then connect Eddy to your computer's USB port using a USB cable (Don't disassemble your Eddy. The button is fully accessible without disassembly. The image is shown in an exploded view to make the button easier to see.)
 
-<img src=img/Eddy/Eddy_System3.png width="600" />
+<img src=img/Eddy/Eddy_System3.webp width="600" />
 
 2.Once recognized as a storage device, copy the downloaded klipper.uf2 into it. Eddy will automatically update its firmware and restart. The update will be complete after the restart.
 
-<img src=img/Eddy/Eddy_System4.png width="600" />
+<img src=img/Eddy/Eddy_System4.webp width="600" />
 
 #### Update Firmware via DFU
 
@@ -205,11 +205,11 @@ your Eddy. The button is fully accessible without disassembly. The image is show
 
 
 
-<img src=img/Eddy/Eddy_System5.png width="600" />
+<img src=img/Eddy/Eddy_System5.webp width="600" />
 
 2.Type <font  color="blue">**lsusb**</font> into the command line. You should see Eddy.
 
-<img src=img/Eddy/Eddy_System6.png width="600" />
+<img src=img/Eddy/Eddy_System6.webp width="600" />
 
 3.Type <font  color="blue">**cd ~/klipper**</font> into command line.
 
@@ -286,7 +286,7 @@ Now that the drive current has been calibrated, the Eddy will be able to obtain 
 4. Start the Manual Z Offset Calibration [**(Paper test)**]([Bed leveling - Klipper documentation (klipper3d.org)](https://www.klipper3d.org/Bed_Level.html#the-paper-test)) by typing <font  color="blue">**PROBE_EDDY_CURRENT_CALIBRATE CHIP=btt_eddy.**</font> You will see an adjustment box that will allow you to lower the nozzle. Lower the nozzle until it sandwiches a piece of paper between it and the bed but be careful not to dig into the bed. The paper should still be able to move with some force applied.
 5. Once completed use <font  color="blue">**SAVE_CONFIG**</font>.
 
-<img src=img/Eddy/Eddy_System8.png width="600" />
+<img src=img/Eddy/Eddy_System8.webp width="600" />
 
 ### Bed Mesh Calibration
 

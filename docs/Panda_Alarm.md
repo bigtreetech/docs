@@ -162,11 +162,11 @@ Panda Alarm is designed for installation on the P1 series printer.
 
         * ①	`Settings`-> ② `WLAN` -> ③ `OK`
 
-            <img src=img/PandaAlarm/en/p1_1_2_3.png width="600"/>
+            <img src=img/PandaAlarm/en/p1_1_2_3.webp width="600"/>
 
         * ⑤ `Access Code`
 
-            <img src=img/PandaAlarm/en/p1_4_5.png width="600"/>
+            <img src=img/PandaAlarm/en/p1_4_5.webp width="600"/>
 
 * Click **Bind** to start the connection. If a **Binding Successful** pop-up appears, Panda Alarm has successfully connected to the printer.
 
@@ -186,20 +186,20 @@ Panda Alarm is designed for installation on the P1 series printer.
         * `SN`
             * ①	`Settings` -> ② `Device`
 
-                <img src=img/PandaAlarm/en/p1_1_2.png width="600"/>
+                <img src=img/PandaAlarm/en/p1_1_2.webp width="600"/>
 
             * ③ `Printer` is the `SN`
 
-                <img src=img/PandaAlarm/en/p1_3.png width="600"/>
+                <img src=img/PandaAlarm/en/p1_3.webp width="600"/>
 
         * `Access Code` and `IP`          
             * ①	`Settings`-> ② `LAN` -> ③
 
-                <img src=img/PandaAlarm/en/p1_1_2_3.png width="600"/>
+                <img src=img/PandaAlarm/en/p1_1_2_3.webp width="600"/>
 
             * ④ `IP`, ⑤ `Access Code`
 
-                <img src=img/PandaAlarm/en/p1_4_5.png width="600"/>
+                <img src=img/PandaAlarm/en/p1_4_5.webp width="600"/>
 
 * Click **Bind** to begin the connection. If a **Binding Successful** pop-up appears, Panda Alarm has successfully connected to the printer.
 
@@ -485,7 +485,7 @@ To request new features for future firmware, please submit them to the Panda Ala
 
 * Download [Flash Download Tool](https://www.espressif.com/en/support/download/other-tools)
 
-    <img src=img/PandaAlarm/en/download_esp_tool.png width="800"/>
+    <img src=img/PandaAlarm/en/download_esp_tool.webp width="800"/>
 
 * Download the [Panda Alarm Firmware](https://github.com/bigtreetech/PandaAlarm)
 
@@ -501,11 +501,11 @@ To request new features for future firmware, please submit them to the Panda Ala
 
     LoadMode: `UART`
 
-    <img src=img/PandaAlarm/open_esp_tool.png width="400"/>
+    <img src=img/PandaAlarm/open_esp_tool.webp width="400"/>
 
 * The flash tool configuration is as follows:
 
-    <img src=img/PandaAlarm/set_esp_tool.png width="400"/>
+    <img src=img/PandaAlarm/set_esp_tool.webp width="400"/>
 
     * ① Set the `.bin` file burn address, and ensure the checkboxes are selected:
 

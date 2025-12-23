@@ -1,6 +1,6 @@
 # SKR MINI E3
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Title.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -40,13 +40,13 @@ BTT SKR MINI E3 V3.0 is a motherboard designed for Ender3, which launched by the
 
 ## **Dimensions**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Dimension.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Dimension.webp width="600" />
 
 ## **Peripheral Interface**
 
 ### Interface Diagram
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_CAD.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_CAD.webp width="600" />
 
 
 
@@ -71,7 +71,7 @@ When the motherboard is powered on:
 
 ### Sensorless homing function
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Sensorless.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Sensorless.webp width="600" />
 
 As shown, connect the corresponding axes with the jump caps to choose Sensorless homing function.
 
@@ -79,17 +79,17 @@ As shown, connect the corresponding axes with the jump caps to choose Sensorless
 
 ### **5V power supply for BLtouch, TFT, RGB interfaces**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Power.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Power.webp width="600" />
 
 1、 To use the onboard 5V PSU, short the pins shown in the above image using a jumper
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Power1.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Power1.webp width="600" />
 
 2、To use an external BIGTREETECH DCDC5V V1.0 module, short the pins shown in the above image using a jumper.
 
 ### Connection of cooling fan
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Fan.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Fan.webp width="600" />
 
 Connect the fan by FAN2 to realize the whole machine cooling.
 
@@ -97,19 +97,19 @@ Connect the fan by FAN2 to realize the whole machine cooling.
 
 ### Connection to BIGTREETECH Relay V1.2
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Relay.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Relay.webp width="600" />
 
 ### Connection to BTT UPS 24V V1.0
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_UPS.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_UPS.webp width="600" />
 
 ### Connection to Neopixel light
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Neopixel.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_Neopixel.webp width="600" />
 
 ### Connection to BL touch
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_BLtouch.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_BLtouch.webp width="600" />
 
 ## **Software Configuration**
 
@@ -119,7 +119,7 @@ The motherboard can communicate with a PC using the USB interface.
 
 The same USB interface can be used to communicate with a Raspberry pi or any other host device.
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_COM.png width="600" />
+<img src=img/SKR_MINI_E3/SKR_MINI_E3_COM.webp width="600" />
 
 ### Firmware of motherboard
 

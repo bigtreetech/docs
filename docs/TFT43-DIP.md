@@ -1,6 +1,6 @@
 # TFT43-DIP
 
-<img src=img/TFT43-DIP/TFT43_DIP_Title.png width="450" />
+<img src=img/TFT43-DIP/TFT43_DIP_Title.webp width="450" />
 
 ## **Product Profile**
 

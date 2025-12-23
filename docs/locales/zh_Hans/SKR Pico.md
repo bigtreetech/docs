@@ -35,11 +35,11 @@ BTT SKR Pico V1.0 是必趣创新科技（深圳）有限公司 3D 打印团队�
 
 ## **尺寸**
 
-<img src=img/SKR_Pico/SKR_Pico_Dimension.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Dimension.webp width="600" />
 
 ## **外围设备接口**
 
-<img src=img/SKR_Pico/SKR_Pico_Pinout_CN.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Pinout_CN.webp width="600" />
 
 ## **接口介绍**
 
@@ -56,7 +56,7 @@ LED7灯为RGB灯，可设置灯亮灭或颜色。
 
 ### Sensorless homing功能选择
 
-<img src=img/SKR_Pico/SKR_Pico_Sensorless.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Sensorless.webp width="600" />
 
 使用跳帽对相应的轴进行如图连接，即可使用Sensorless homing功能;
 
@@ -64,27 +64,27 @@ LED7灯为RGB灯，可设置灯亮灭或颜色。
 
 ### 与RGB彩灯的连接
 
-<img src=img/SKR_Pico/SKR_Pico_RGB.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_RGB.webp width="600" />
 
 ### 与BLtouch的连接
 
-<img src=img/SKR_Pico/SKR_Pico_BLtouch.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_BLtouch.webp width="600" />
 
 ###  与接近开关的连接
 
 与接近开关的连接，可通过跳帽选择接近开关的类型为PNP或者NPN
 
-<img src=img/SKR_Pico/SKR_Pico_Proximity.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Proximity.webp width="600" />
 
 ### 与Raspberry Pi的连接
 
 a. 通过 USB 通信
 
-<img src=img/SKR_Pico/SKR_Pico_Rasp.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Rasp.webp width="600" />
 
 b. 通过 UART 通信
 
-<img src=img/SKR_Pico/SKR_Pico_Rasp3.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Rasp3.webp width="600" />
 
 线序参考BTT SKR Pico V1.0-PIN.pdf。
 
@@ -104,11 +104,11 @@ b. 通过 UART 通信
 
     (1) 在主板的Boot引脚上插上跳帽然后单击Reset按钮，使其进入烧录模式。
 
-    <img src=img/SKR_Pico/SKR_Pico_Firmware.png width="600" />
+    <img src=img/SKR_Pico/SKR_Pico_Firmware.webp width="600" />
 
     (2) 将主板的USB-C插到电脑上，此时电脑上会出现一个名为 RPI-PR2 的U盘，将编译好的 klipper.uf2 文件复制粘贴到此U盘中，主板会自动重启并更新固件，等待电脑重新识别出此U盘后代表固件更新完成，拔掉Boot引脚上的跳帽并单击Reset按钮，进入正常工作模式。
 
-<img src=img/SKR_Pico/SKR_Pico_Firmware1.png width="600" />
+<img src=img/SKR_Pico/SKR_Pico_Firmware1.webp width="600" />
 
 ​		(3) 主板固件 DIY 请参考BTT SKR Pico V1.0-PIN.pdf资料。
 

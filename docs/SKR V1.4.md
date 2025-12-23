@@ -1,6 +1,6 @@
 # SKR V1.4
 
-<img src=img/SKR_V1.4/SKR_V1.4_Title.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -52,13 +52,13 @@ BIGTREETECH SKR V1.4 motherboard is a 32-bit 3D printer motherboard optimized an
 
 ## **Dimensions**
 
-<img src=img/SKR_V1.4/SKR_V1.4_Dimension.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Dimension.webp width="600" />
 
 ## **Peripheral Interface**
 
 ### Interface Diagram
 
-<img src=img/SKR_V1.4/SKR_V1.4_Diagram.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Diagram.webp width="600" />
 
 ## **Interface Introduction**
 
@@ -68,11 +68,11 @@ After the SKR mainboard is powered up, the D5 red light in the lower left corner
 
 1、When using USB to power the motherboard：
 
-<img src=img/SKR_V1.4/SKR_V1.4_USB1.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_USB1.webp width="600" />
 
 2、When using 12v-24v power supply：
 
-<img src=img/SKR_V1.4/SKR_V1.4_USB2.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_USB2.webp width="600" />
 
 ### Connection
 
@@ -82,13 +82,13 @@ tutorial：https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20inst
 
 driver：https://www.dropbox.com/s/a0k5idjmf4fn82f/lpc176x_usb_driver.inf?dl=0
 
-<img src=img/SKR_V1.4/SKR_V1.4_Connect.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Connect.webp width="600" />
 
 ### Drive Mode and Selection Method
 
 1、Common STEP/DIR mode: (for example: A4988, DRV8825, LV8729, ST820, etc.) select the short circuit cap to connect MS0-MS2 according to the driver subdivision table.
 
-<img src=img/SKR_V1.4/SKR_V1.4_STEP.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_STEP.webp width="600" />
 
 <font  color="red">**Note: if you are using A4988 or DRV8825 driver, you must connect RST and SLP with jumper cap.** </font>
 
@@ -96,47 +96,47 @@ For details, please click: https://bigtreetech.github.io/docs/Tutorials.html
 
 2、TMC Driver-UART Mode: (eg: TMC2208, TMC2209, TMC2225, etc.) Each axis uses a shorting cap to connect the red frame in the figure. The subdivision and drive current are set by firmware.
 
-<img src=img/SKR_V1.4/SKR_V1.4_UART.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_UART.webp width="600" />
 
 <font  color="red">**Note: When using the TMC2209, if you don’t use the stallguard function, you need to cut off the DIAG pin on the driver so that the mechanical switch can work normally. The operation method is as shown below:** </font>
 
-<img src=img/SKR_V1.4/SKR_V1.4_Before.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Before.webp width="600" />
 
 <font  color="red">**Note: This function pin needs to be trimmed only when the blocking detection function is not used.** </font>
 
 3、TMC Driver-SPI Mode: (such as: TMC2130, TMC5160, TMC5161, etc.) Each axis uses four shorting caps to connect the red frame position in the figure. The subdivision and drive current are set by firmware.
 
-<img src=img/SKR_V1.4/SKR_V1.4_SPI.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_SPI.webp width="600" />
 
 ### BLTouch
 
 The connection of SKR V1.4 and BL touch：
 
-<img src=img/SKR_V1.4/SKR_V1.4_Bltouch.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Bltouch.webp width="600" />
 
 ### Relay V1.2
 
 The connection of SKR V1.4 and Automatic Shutdown After Printing Module（Relay V1.2）:
 
-<img src=img/SKR_V1.4/SKR_V1.4_Auto.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Auto.webp width="600" />
 
 ### UPS
 
 The connection of SKR V1.4 and Resume Printing While Power Off Module（UPS 24V V1.0）:
 
-<img src=img/SKR_V1.4/SKR_V1.4_Power.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Power.webp width="600" />
 
 ### Raspberry Pi
 
 The connection of SKR V1.4 and Raspberry Pi：
 
-<img src=img/SKR_V1.4/SKR_V1.4_RPI.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_RPI.webp width="600" />
 
 ### Closed loop driver
 
 The connection of SKR V1.4 and closed loop driver:
 
-<img src=img/SKR_V1.4/SKR_V1.4_Loop.png width="600" />
+<img src=img/SKR_V1.4/SKR_V1.4_Loop.webp width="600" />
 
 ## **Marlin**
 

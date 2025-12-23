@@ -33,7 +33,7 @@
 
 ## Dimensions & Interfaces
 
-<img src=img/Creator_Knomi_Hi/size.png width="400"/>
+<img src=img/Creator_Knomi_Hi/size.webp width="400"/>
 <img src=img/Creator_Knomi_Hi/port.jpg width="400"/>
 
 ## Installation Guide
@@ -49,7 +49,7 @@
 
 * Step 2:  Remove the Wiring Harness<br/>
 Unplug the two connectors shown by the arrows to remove the wiring harness. <br/>
-<img src=img/Creator_Knomi_Hi/wring.png width="400"/>
+<img src=img/Creator_Knomi_Hi/wring.webp width="400"/>
 <br/>
 
 * Step 3: Cable Connection<br/>
@@ -75,18 +75,18 @@ Align the Creator Knomi Hi shell in place. Secure it using the screws you remove
 ## Printer Configuration
 * Find your printer's IP address
   * ① Tap `Settings`<br/>
-    <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/>
+    <img src=img/Creator_Knomi_Hi/hi_1.webp width="600"/>
   * ② Tap `Network` -> ③ `IP`<br/>
-    <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/>
+    <img src=img/Creator_Knomi_Hi/hi_2.webp width="600"/>
 
 * Ensure your computer is connected to the same local network as the printer. Open a web browser and enter the printer's IP address followed by `4408` (the default port). Example: If your printer's IP is `192.168.3.81`, enter `192.168.3.81:4408` in your browser.
 * Upload Configuration File:  In the interface:  ① -> ② -> ③ Tap `Upload Files` and select `Creator_Knomi_Hi_01.00.00.00.cfg` to upload. <br/>
-  <img src=img/Creator_Knomi_Hi/printer_1.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_1.webp width="600"/>
 * Edit `printer.cfg` and add this line:
   ```
   [include Creator_Knomi_Hi_01.00.00.00.cfg]
   ```
-  <img src=img/Creator_Knomi_Hi/printer_2.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_2.webp width="600"/>
 * Edit `sensorless.cfg` <br/>
   At the beginning of each of the following macros: `_HOME_X`, `_HOME_Y`, and `_HOME_Z`, add the this line:
   ```
@@ -96,7 +96,7 @@ Align the Creator Knomi Hi shell in place. Secure it using the screws you remove
   ```
   RESET_KNOMI_STATUS
   ```
-  <img src=img/Creator_Knomi_Hi/printer_3.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_3.webp width="600"/>
   <br/>Note: The screenshot only shows “_HOME_X” but “_HOME_Y” and “_HOME_Z” should be updated the same way.<br/>
   <br/>
 * Edit `gcode_macro.cfg`: In the `QUIT_MATERIAL` macro, add the following in the shown location:
@@ -107,7 +107,7 @@ Align the Creator Knomi Hi shell in place. Secure it using the screws you remove
   ```
   RESET_KNOMI_STATUS
   ```
-  <img src=img/Creator_Knomi_Hi/printer_4.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_4.webp width="600"/>
 
 * After making all changes, click `SAVE & RESTART` to apply your configuration.
 
@@ -130,7 +130,7 @@ Align the Creator Knomi Hi shell in place. Secure it using the screws you remove
     * If scanning the QR code doesn't work, you can go to the `settings` menu on the device to connect to the hotspot manually. <br/>Using an iPhone as an example:<br/>
         * On your phone home screen, go to `Settings` → `WLAN`.
         * Turn on `WLAN`. Your device will automatically search for available networks.<br/>
-          <img src=img/Creator_Knomi_Hi/wlan.png width="300"/>
+          <img src=img/Creator_Knomi_Hi/wlan.webp width="300"/>
         * Tap on the network name starting with `Creator_Knomi_Hi` and enter the default password: `987654321`.
         * After successfully connecting to the Creator_Knomi_Hi network, you will see a blue checkmark next to the network, and the Wi-Fi icon indicating a connection will appear in the top-right corner of the screen.
 
@@ -166,9 +166,9 @@ Select the printer’s connected Wi-Fi network, enter the password, and tap `Con
 
 * Find the printer’s IP and enter it in the Web UI:
     * ①	`Settings`<br/>
-      <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/>
+      <img src=img/Creator_Knomi_Hi/hi_1.webp width="600"/>
     * ② `Network` -> ③ `IP`<br/>
-      <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/>
+      <img src=img/Creator_Knomi_Hi/hi_2.webp width="600"/>
     * The default port is `7125`
 * Tap `Bind`. A "Binding successful" popup will confirm that the Creator Knomi Hi has connected to the printer.<br/>
   <img src=img/Creator_Knomi_Hi/en/bind_ok.jpg width="300"/>
@@ -339,7 +339,7 @@ Want a new feature added in the next firmware release? Submit a request on Creat
         * Connect to Creator Knomi Hi’s hotspot on your phone (iPhone Example):
             * Go to `Settings`-> `WLAN`.
             * Enable `WLAN`, your phone will automatically scan for available networks.<br/>
-              <img src=img/Creator_Knomi_Hi/wlan.png width="300"/> <br/>
+              <img src=img/Creator_Knomi_Hi/wlan.webp width="300"/> <br/>
             * Tap the network name that starts with `Creator_Knomi_Hi_` then enter the default password：`987654321`.
             * Once connected: A blue checkmark will appear next to the network name. The Wi-Fi icon will be visible in the top-right corner of your phone screen.
         * After connecting, you should see a message such as `Connected (Login Required)`. Tap this message to launch the Web UI configuration page.<br/>
@@ -354,14 +354,14 @@ Want a new feature added in the next firmware release? Submit a request on Creat
 
 * If your computer does not have the CH340 driver, please download and install [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
 * Download [Flash Download Tools](https://www.espressif.com/zh-hans/support/download/other-tools)<br/>
-  <img src=img/Creator_Knomi_Hi/en/download_esp_tool.png width="800"/>
+  <img src=img/Creator_Knomi_Hi/en/download_esp_tool.webp width="800"/>
 * Download the [Creator Knomi Hi Firmware](https://github.com/bigtreetech/Creator_Knomi_Hi)
 * Hold the Boot button on Creator Knomi Hi, connect it via Type-C to your computer, and a new COM port should appear in the device manager.<br/>
   <img src=img/Creator_Knomi_Hi/boot_fw.jpg width="300"/>
 * Open `flash_download_tool_3.9.8_6.exe` and configure as follows:<br/>
-  <img src=img/Creator_Knomi_Hi/open_esp_tool.png width="400"/>
+  <img src=img/Creator_Knomi_Hi/open_esp_tool.webp width="400"/>
 * As shown in the figure below, configure the burning software:<br/>
-  <img src=img/Creator_Knomi_Hi/set_esp_tool.png width="400"/>
+  <img src=img/Creator_Knomi_Hi/set_esp_tool.webp width="400"/>
     * ①	Set the.bin file's burning address, ensuring all checkboxes are ticked:
         * `creator_knomi_hi_bootloader.bin` to `0x1000`
         * `creator_knomi_hi_partitions.bin` to `0x8000`

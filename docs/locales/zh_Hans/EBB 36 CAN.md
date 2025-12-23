@@ -6,8 +6,8 @@
     [EBB 36 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/ebb-series/ebb-36/)
 
 <figure class="half">
-  <img src=img/EBB36CAN/072/EBB_072_Title.png width="550"/>  
-  <img src=img/EBB36CAN/G0B1/EBB_G0B1_Title.png width="550"/>  
+  <img src=img/EBB36CAN/072/EBB_072_Title.webp width="550"/>  
+  <img src=img/EBB36CAN/G0B1/EBB_G0B1_Title.webp width="550"/>  
 </figure> 
 
 ## **产品简介**
@@ -55,21 +55,21 @@ BIGTREETECH EBB36 CAN V1.0/V1.1是必趣创新科技（深圳）有限公司3D�
 
 版本:V1.0
 
-<img src=img/EBB36CAN/072/EBB_072_Diagram.png width="600"/>  
+<img src=img/EBB36CAN/072/EBB_072_Diagram.webp width="600"/>  
 
 版本:V1.1
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Diagram.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Diagram.webp width="600"/>
 
 ## **引出线**
 
 Version:V1.0
 
-<img src=img/EBB36CAN/072/EBB_072_Pinout.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_Pinout.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Pin.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Pin.webp width="600"/>
 
 ## **硬件配置**
 
@@ -79,13 +79,13 @@ Version:V1.0
 
 控制板通电时，D1 RGB灯亮，表示正常供电。电路板中间的VUSB是电源的选择端子。只有当USB向板供电时，或者板通过USB供电时，用户才需要通过跳线将VUSB短路。
 
-<img src=img/EBB36CAN/072/EBB_072_USB_Power.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_USB_Power.webp width="600"/>
 
 版本:V1.1
 
 主板通电后，黄绿色LED1指示灯亮起，表示电源正常。板右侧的VUSB是电源选择端子。只有在使用USB向主板供电或需要通过USB供电时，才需要使用跳线帽连接VUSB。
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_USB_Power.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_USB_Power.webp width="600"/>
 
 ## **硬件安装**
 
@@ -95,11 +95,11 @@ Version:V1.0
 
 版本:V1.0
 
-<img src=img/EBB36CAN/072/EBB_072_PT100.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_PT100.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_PT100.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_PT100.webp width="600"/>
 
 带31865的版本：通过DIP开关选择PT100/PT1000，双线或四线：
 
@@ -120,45 +120,45 @@ Version:V1.0
 
 版本:V1.0
 
-<img src=img/EBB36CAN/072/EBB_072_TwoW.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_TwoW.webp width="600"/>
 
-<img src=img/EBB36CAN/072/EBB_072_FourW.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_FourW.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_TwoW.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_TwoW.webp width="600"/>
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_FourW.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_FourW.webp width="600"/>
 
 ### **BL-Touch 接线**
 
 版本:V1.0
 
-<img src=img/EBB36CAN/072/EBB_072_BLTouch.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_BLTouch.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_BLTouch.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_BLTouch.webp width="600"/>
 
 ### **耗材断裂检测**
 
 版本:V1.0
 
-<img src=img/EBB36CAN/072/EBB_072_Broke.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_Broke.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_Broke.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_Broke.webp width="600"/>
 
 ### **RGB**
 
 版本:V1.0
 
-<img src=img/EBB36CAN/072/EBB_072_RGB.png width="600"/>
+<img src=img/EBB36CAN/072/EBB_072_RGB.webp width="600"/>
 
 版本:V1.1
 
-<img src=img/EBB36CAN/G0B1/EBB_G0B1_RGB.png width="600"/>
+<img src=img/EBB36CAN/G0B1/EBB_G0B1_RGB.webp width="600"/>
 
 ## **软件配置**
 

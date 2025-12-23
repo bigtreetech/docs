@@ -46,7 +46,7 @@ Panda Den 是专为 **Bambu Lab P/X打印机** 用户打造的仓内碎屑收纳
 
 * 第一步：将包装一端的封盖取掉后将袋子中的产品从包装内取出
 
-    <img src=img/PandaDiaperPX/5.png width="600"/>
+    <img src=img/PandaDiaperPX/5.webp width="600"/>
 
 * 第二步：将Diaper平铺至PX打印机底部，将四周边角及开孔处按压到底，如图所示
 

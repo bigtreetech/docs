@@ -26,15 +26,15 @@ BIGTREETECH TFT35 SPI V2.1 is a medium-size and clear 3D printer display develop
 
 ## **Dimensions**
 
-<img src=img/TFT35_SPI/TFT35_SPI_Dimension.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Dimension.webp width="600" />
 
 ## **Interface Diagram**
 
-<img src=img/TFT35_SPI/TFT35_SPI_Interface.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Interface.webp width="600" />
 
 ## **Pinout**
 
-<img src=img/TFT35_SPI/TFT35_SPI_Pinout.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Pinout.webp width="600" />
 
 ## **Software Installation**
 
@@ -42,17 +42,17 @@ Currently, it only supports CB1. V2.2.0 and earlier OS do not support TFT35 SPI.
 
 CB1 OS Image: https://github.com/bigtreetech/CB1/releases
 
-<img src=img/TFT35_SPI/TFT35_SPI_Soft1.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Soft1.webp width="600" />
 
 After the OS writes to the SD card, there is a FAT32 partition named BOOT, open "BoardEnv.txt" file with Notpad, Notpad++ or VSCode.
 
-<img src=img/TFT35_SPI/TFT35_SPI_Soft2.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Soft2.webp width="600" />
 
 Uncomment overlays=tft35_spi to enable TFT35 SPI screen (Delete '#' at the beginning of the line).
 
 <font  color="red">***NOTE: If the OS image of v2.2.1 version is used. Set to overlays=tft35_spi25 instead of overlays=tft35_spi Use the SPI speed of 25Mhz instead of the default 50Mhz to avoid display confusion. If the OS image after V2.2.1 is used, The OS will use a lower and more stable speed by default.***</font>
 
-<img src=img/TFT35_SPI/TFT35_SPI_Soft3.png width="600" />
+<img src=img/TFT35_SPI/TFT35_SPI_Soft3.webp width="600" />
 
 
 

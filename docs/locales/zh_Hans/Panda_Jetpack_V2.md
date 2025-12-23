@@ -1,6 +1,6 @@
 # **Panda Jetpack V2**
 
-<img src=img/PandaJetpackV2/panda_jetpack.png width="400"/>
+<img src=img/PandaJetpackV2/panda_jetpack.webp width="400"/>
 
 - **产品链接**: [点击购买](https://bit.ly/46pxcrX)
 
@@ -71,7 +71,7 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
     揭开前壳组件，断开连接器，移除前盖。
 
-    <img src=img/PandaJetpackV2/install_1.png width="300"/>
+    <img src=img/PandaJetpackV2/install_1.webp width="300"/>
 
 * 第 2 步 - 拔出料管
 
@@ -83,7 +83,7 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
     拧松切刀刀柄螺丝，使整个切刀刀柄能自然下垂。
 
-    <img src=img/PandaJetpackV2/install_3.png width="300"/>
+    <img src=img/PandaJetpackV2/install_3.webp width="300"/>
 
     <img src=img/PandaJetpackV2/install_4.jpg width="300"/>
 
@@ -113,13 +113,13 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
     如图所示，将 Panda Jetpack Back Shell（后壳升级件）中框 正确安装到位。
 
-    <img src=img/PandaJetpackV2/install_9.png width="300"/>
+    <img src=img/PandaJetpackV2/install_9.webp width="300"/>
 
 * 第 2 步 - 安装工具头后盖
 
     将Panda Jetpack Back Shell（后壳升级件）后盖安装到工具头上，注意对齐上方卡扣。
 
-    <img src=img/PandaJetpackV2/install_10.png width="300"/>
+    <img src=img/PandaJetpackV2/install_10.webp width="300"/>
 
 
 * 第 3 步 - 锁螺丝
@@ -165,15 +165,15 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
 * 拆除控制板两颗螺丝，并移除控制板。
 
-    <img src=img/PandaJetpackV2/install_19.png width="300"/>
+    <img src=img/PandaJetpackV2/install_19.webp width="300"/>
 
-    <img src=img/PandaJetpackV2/install_20.png width="300"/>
+    <img src=img/PandaJetpackV2/install_20.webp width="300"/>
 
 * 使用螺丝刀顶出 logo 盖。
 
     <img src=img/PandaJetpackV2/install_21.jpg width="300"/>
 
-    <img src=img/PandaJetpackV2/install_22.png width="300"/>
+    <img src=img/PandaJetpackV2/install_22.webp width="300"/>
 
 #### 装 logo 盖
 
@@ -198,7 +198,7 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
   
     - 连接上Panda_Jetpack发出来的AP热点: `Panda_Jetpack_XXXXXXXXXX`. 默认密码是 `987654321`.
 
-        <img src=img/PandaJetpackV2/ap.png width="300"/>
+        <img src=img/PandaJetpackV2/ap.webp width="300"/>
   
 - 访问AP网页
 
@@ -208,7 +208,7 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
     - 选择语言后可点击下一步
 
-        <img src=img/PandaJetpackV2/zh/language.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/language.webp width="300"/>
 
   <a id="wifi-connect"></a>
   
@@ -216,33 +216,33 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
     - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi。或者手动点击扫描。
 
-        <img src=img/PandaJetpackV2/zh/wifi_scan.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/wifi_scan.webp width="300"/>
 
     - 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示。
 
-        <img src=img/PandaJetpackV2/zh/wifi_scan_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/wifi_scan_ok.webp width="300"/>
 
     - 点击Wi-Fi下方的选项，选择想要连接的WiFi
 
-        <img src=img/PandaJetpackV2/zh/wifi_list.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/wifi_list.webp width="300"/>
 
     - 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
 
-        <img src=img/PandaJetpackV2/zh/wifi_connect.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/wifi_connect.webp width="300"/>
 
     - 点击连接，界面会自动跳转到操作界面中的`WiFi`界面,并显示WiFi连接中
 
-        <img src=img/PandaJetpackV2/zh/wifi_connecting.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/wifi_connecting.webp width="300"/>
 
     - 等待连接一段时间后，会弹出WiFi连接的状态弹窗
 
         - 连接失败:
 
-            <img src=img/PandaJetpackV2/zh/wifi_failed.png width="300"/>
+            <img src=img/PandaJetpackV2/zh/wifi_failed.webp width="300"/>
 
         - 连接成功，可选择点击[绑定打印机](#printer-bind)跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
 
-            <img src=img/PandaJetpackV2/zh/wifi_ok.png width="300"/>
+            <img src=img/PandaJetpackV2/zh/wifi_ok.webp width="300"/>
 
 <a id="printer-bind"></a>
 
@@ -250,7 +250,7 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
 - 功能介绍
 
-    <img src=img/PandaJetpackV2/zh/printer.png width="300"/>
+    <img src=img/PandaJetpackV2/zh/printer.webp width="300"/>
 
     - ① 选择打印机界面，点击后聚焦为红色图标，跳转至打印机界面
 
@@ -270,32 +270,32 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
     - 点击扫描一段时间后，会出现`扫描成功`的弹窗
 
-        <img src=img/PandaJetpackV2/zh/printer_scan_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/printer_scan_ok.webp width="300"/>
 
     - 选择扫描出的打印机，可以看到选择打印机后，会自动输入打印机的SN码和IP
 
-        <img src=img/PandaJetpackV2/zh/printer_list.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/printer_list.webp width="300"/>
 
     - 输入打印机的`访问码`
 
         * 在打印机上找到`配对码` (这里以 P1 系列打印机为例)
 
-            <img src=img/PandaJetpackV2/zh/p1_1_2_3.png width="600"/>
+            <img src=img/PandaJetpackV2/zh/p1_1_2_3.webp width="600"/>
 
-            <img src=img/PandaJetpackV2/zh/p1_4_5.png width="600"/>
+            <img src=img/PandaJetpackV2/zh/p1_4_5.webp width="600"/>
 
         * 将 `配对码` 输入到 `访问码` 框内,点击绑定即可开始绑定打印机。
 
-            <img src=img/PandaJetpackV2/zh/printer_bind.png width="300"/>
+            <img src=img/PandaJetpackV2/zh/printer_bind.webp width="300"/>
 
-            <img src=img/PandaJetpackV2/zh/bind_ok.png width="300"/>
+            <img src=img/PandaJetpackV2/zh/bind_ok.webp width="300"/>
 
 
 ## 用户界面说明
 
 ### WiFi界面
 
-<img src=img/PandaJetpackV2/zh/wifi_ip.png width="300"/>
+<img src=img/PandaJetpackV2/zh/wifi_ip.webp width="300"/>
 
 - ① WiFi界面选择，点击后聚焦为红色图标，跳转至WiFi界面。
 
@@ -313,7 +313,7 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
 ### AP界面
 
-<img src=img/PandaJetpackV2/zh/wifi_ap.png width="300"/>
+<img src=img/PandaJetpackV2/zh/wifi_ap.webp width="300"/>
 
 - ① AP界面选择，点击后聚焦为红色图标，跳转至WiFi界面
 
@@ -329,7 +329,7 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
 ### 设置界面
 
-<img src=img/PandaJetpackV2/zh/settings.png width="300"/>
+<img src=img/PandaJetpackV2/zh/settings.webp width="300"/>
 
 - ① 设置界面选择，点击后聚焦为红色图标，跳转至设置界面。
 
@@ -341,13 +341,13 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
     - 点击`选择.bin文件`按钮，选择需要ota的bin文件。
 
-        <img src=img/PandaJetpackV2/ota_bin.png width="300"/>
+        <img src=img/PandaJetpackV2/ota_bin.webp width="300"/>
 
     - 等待ota进度，完成后弹窗自动重启。
 
-        <img src=img/PandaJetpackV2/zh/ota_progress.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/ota_progress.webp width="300"/>
 
-        <img src=img/PandaJetpackV2/zh/ota_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/ota_ok.webp width="300"/>
 
 - ⑤ 点击后，按下确定 [恢复出厂设置](#first-connection)
 
@@ -355,7 +355,7 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
 - 功能介绍
 
-    <img src=img/PandaJetpackV2/zh/panel.png width="300"/>
+    <img src=img/PandaJetpackV2/zh/panel.webp width="300"/>
 
     - ① 控制面板界面选择，点击后聚焦为红色图标，跳转至控制面板界面
 
@@ -377,43 +377,43 @@ Panda Jetpack V2 轻量化前盖，专为 Bambu Lab P1/X1 打印机设计，让�
 
 - 设备灯效模式
 
-    <img src=img/PandaJetpackV2/zh/mode.png width="300"/>
+    <img src=img/PandaJetpackV2/zh/mode.webp width="300"/>
 
     - ①-⑦ 选择后，相应的灯光效果将直接显示。
 
     - ⑧ 光线的颜色可以根据打印机的温度进行变化。您还可以在“安全效果”和“高温效果”下选择两种照明效果，静态或闪光。
 
-        <img src=img/PandaJetpackV2/zh/warning_mode.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/warning_mode.webp width="300"/>
 
     - ⑨ 选定后，可以根据风扇调节灯光颜色。
 
-        <img src=img/PandaJetpackV2/zh/fan.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/fan.webp width="300"/>
 
     - ⑩ 选择后，可以根据打印机调整灯光的颜色。您可以在打印中选择静态或彩虹照明效果。
 
-        <img src=img/PandaJetpackV2/zh/h2d_mode.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/h2d_mode.webp width="300"/>
 
 - 自定义灯光颜色（以静态模式为例）
 
     - 点击颜色设置选项，您将被引导到颜色选择页面。
 
-        <img src=img/PandaJetpackV2/zh/static_mode.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/static_mode.webp width="300"/>
 
     - 选择想要的颜色。
 
-        <img src=img/PandaJetpackV2/zh/color_preset.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/color_preset.webp width="300"/>
 
         - ① 出厂默认预设颜色。
 
         - ② 自定义颜色。点击后会出现一个取色盘，可以设置此自定义颜色的颜色值
 
-            <img src=img/PandaJetpackV2/zh/picker.png width="300"/>
+            <img src=img/PandaJetpackV2/zh/picker.webp width="300"/>
 
     - 选择一个`预置`或`颜色定义`(自定义)色块后。单击`确认`，则可以将RGB灯设置为您的所选颜色。
 
-        <img src=img/PandaJetpackV2/zh/confirm.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/confirm.webp width="300"/>
 
-        <img src=img/PandaJetpackV2/zh/custom_ok.png width="300"/>
+        <img src=img/PandaJetpackV2/zh/custom_ok.webp width="300"/>
 
 ## 固件历史记录
 

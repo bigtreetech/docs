@@ -1,6 +1,6 @@
 # MMB Cubic V1.0
 
-<img src=img/MMB_Cubic/MMB_Cubic_Title.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Title.webp width="600" />
 
 ## **Product Profile**
 
@@ -37,17 +37,17 @@ The BIGTREETECH MMB Cubic is the ideal solution for fitting additional interface
 
 ## **Dimension**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Dimension.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Dimension.webp width="600" />
 
 ## **Interface**
 
 ### **Interface Diagram**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Interface.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Interface.webp width="600" />
 
 ### **Pin Description**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Pin.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Pin.webp width="600" />
 
 ## **Interface Introduction**
 
@@ -55,7 +55,7 @@ The BIGTREETECH MMB Cubic is the ideal solution for fitting additional interface
 
 To use USB power supply, short-circuit the USB-5V pin header. The 3.3V indicator will light up under normal power conditions.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction1.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction1.webp width="600" />
 
 ### **PWM Fan Voltage Selection**
 
@@ -63,39 +63,39 @@ Set the output voltage to 5V, 12V, or 24V using a jumper.
 
 <font  color="red">Note: Please ensure that the supported voltage of the fan is confirmed before a selection is made in order to avoid damaging the board. Our company will not be held liable for failure to do so. </font>
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction2.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction2.webp width="600" />
 
 ### **Temperature Measurement Interfaces**
 
 Standard setting for NTC100K thermistors. 
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction3.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction3.webp width="600" />
 
 ### **RGB Interface**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction4.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction4.webp width="600" />
 
 ### **CAN Interface**
 
 <font  color="red">If the MMB Cubic is used as a terminating device (one of the two devices at either end of the bus), ensure that the 120R position has a jumper inserted.</font>
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction5.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction5.webp width="600" />
 
 ### **PROBE Interface**
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction6.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction6.webp width="600" />
 
 ### **Heater Cartridge Interface**
 
 <font  color="red">Note：Ensure the heater cartridge supports the input voltage, which matches the board's input.</font>
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction7.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction7.webp width="600" />
 
 ### **Heated Bed Interface**
 
 <font  color="red">Note: Ensure the heated bed supports the input voltage, which matches the board's input.</font>
 
-<img src=img/MMB_Cubic/MMB_Cubic_Introduction8.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Introduction8.webp width="600" />
 
 ## **Klipper Firmware**
 
@@ -123,17 +123,17 @@ Note: Katapult is for direct firmware updates via CAN bus. Skip this step if usi
 
 ​	and configure as shown in the image below.
 
-<img src=img/rp2040_katapult_menuconfig.png width="600"/>
+<img src=img/rp2040_katapult_menuconfig.webp width="600"/>
 
 \3) Enter **make** to compile the firmware. When **make** is completed, the required **katapult.uf2** firmware will be generated in the **home/biqu/Katapult/out** folder and can be directly downloaded to the computer on the left side of the SSH software.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper2.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper2.webp width="600" />
 
 \4) Hold down the Boot button and connect to Raspberry Pi/CB1 with a Type-C cable. This allows the chip to enter DFU mode.
 
 \5) In the SSH terminal command line, enter **lsusb** to query the DFU device ID.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper3.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper3.webp width="600" />
 
 \6) Enter the following command to flash Katapult
 
@@ -155,7 +155,7 @@ Note: Katapult is for direct firmware updates via CAN bus. Skip this step if usi
 
 ​	Compile the firmware using the configuration below (if these options are not available, update the Klipper firmware source code to the latest version).
 
-<img src=img/rp2040_canbus_menuconfig.png width="600" />
+<img src=img/rp2040_canbus_menuconfig.webp width="600" />
 
 ​	**[\*] Enable extra low-level configuration options**
 
@@ -203,7 +203,7 @@ and then enter
 
 to query the CAN bus ID (connect the CAN cable and power-on in advance). As shown in the image below, the UUID of the device is found.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper5.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper5.webp width="600" />
 
 \2. Enter
 
@@ -211,7 +211,7 @@ to query the CAN bus ID (connect the CAN cable and power-on in advance). As show
 
 **Note:** by this point, you should have already compiled klipper.binusing "make". Additionally, when selecting the bootloader offset in the Klipper menuconfig, use the 16KiB option since Katapult's Application start offset is 16KiB. The image below shows a successful flashing sequence.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper6.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper6.webp width="600" />
 
 \3. Re-enter
 
@@ -219,7 +219,7 @@ to query the CAN bus ID (connect the CAN cable and power-on in advance). As show
 
 to query. At this stage, the ‘Application’ has changed from Katapult to Klipper, indicating that Klipper is running normally.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper7.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper7.webp width="600" />
 
 ### **Firmware Update via DFU**
 
@@ -229,7 +229,7 @@ Raspberry Pi or CB1 firmware update through DFU:
 
 \2. In the SSH terminal command line, enter **lsusb** to query the DFU device ID.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper8.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper8.webp width="600" />
 
 \3. Enter **cd klipper** to navigate to the klipper directory, then enter 
 
@@ -253,7 +253,7 @@ to query the device Serial ID (this ID is only available for USB communication, 
 
 For use with BIGTREETECH U2C module:
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper9.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper9.webp width="600" />
 
 (1) In the SSH terminal, enter
 
@@ -291,11 +291,11 @@ to restart Raspberry Pi.
 
 https://github.com/bigtreetech/MMB-Cubic
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper10.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper10.webp width="600" />
 
 \2. Upload the motherboard configuration file to **Configuration Files**.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper11.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper11.webp width="600" />
 
 \3. Add the MMB Cubic configuration to the **printer.cfg** file:
 
@@ -310,4 +310,4 @@ https://github.com/bigtreetech/MMB-Cubic
 - When using 24V, each of the three fan interfaces can support up to 1A; at 12V or 5V, the combined maximum is 1.5A.
 - The temperature interfaces default to NTC100K thermistors; use a 4.12K resistor for PT1000 sensors.
 
-<img src=img/MMB_Cubic/MMB_Cubic_Klipper12.png width="600" />
+<img src=img/MMB_Cubic/MMB_Cubic_Klipper12.webp width="600" />

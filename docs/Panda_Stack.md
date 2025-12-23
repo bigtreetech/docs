@@ -52,19 +52,19 @@ Optional RGB lighting kits can be added for a customizable and visually appealin
 
 **Packaging List**
 
-<img src=img/PandaStack/en/1.png width="1000"/>
+<img src=img/PandaStack/en/1.webp width="1000"/>
 
 - **Step 1 – Install the Tray Handle**
 
     Attach the handle to the pull-out tray using CM4×6 screws.
 
-    <img src=img/PandaStack/2.png width="600"/>
+    <img src=img/PandaStack/2.webp width="600"/>
 
 - **Step 2 – Attach the Pull-Out Ring**
 
     Mount the pull-out ring on the slide-out top panel using CM4×10 screws.
 
-    <img src=img/PandaStack/3.png width="600"/>
+    <img src=img/PandaStack/3.webp width="600"/>
 
 - **Step 3 – Assemble the Frame**
 
@@ -72,7 +72,7 @@ Optional RGB lighting kits can be added for a customizable and visually appealin
 
     Next, install the reinforcement bar, then secure the top panel, ensuring the slide-out extension panel faces backward.
 
-    <img src=img/PandaStack/4.png width="600"/>
+    <img src=img/PandaStack/4.webp width="600"/>
 
 - **Step 4 – Install the Pull-Out Tray**
 
@@ -81,7 +81,7 @@ Optional RGB lighting kits can be added for a customizable and visually appealin
     ⚠️ *Note*: Keep the tray level during installation.
     If it doesn’t slide smoothly, remove it and realign the tracks before reinserting — **do not force it**.
 
-    <img src=img/PandaStack/5.png width="600"/>
+    <img src=img/PandaStack/5.webp width="600"/>
 
     <img src=img/PandaStack/10.jpg width="600"/>
 
@@ -95,13 +95,13 @@ Optional RGB lighting kits can be added for a customizable and visually appealin
 
     Screw the four foot pads into the designated holes at each bottom corner of the main body.
 
-    <img src=img/PandaStack/6.png width="600"/>
+    <img src=img/PandaStack/6.webp width="600"/>
 
 - **Step 6 – Install the Suction Cup**
  
     The package also includes a suction cup, which can be paired with a printed support part to hold the AMS cover open during filament swaps for easier access and convenience.
 
-    <img src=img/PandaStack/7.png width="600"/>
+    <img src=img/PandaStack/7.webp width="600"/>
 
 ## RGB Strip Installation Guide
 

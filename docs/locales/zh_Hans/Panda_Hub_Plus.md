@@ -63,7 +63,7 @@ Panda Hub Plus 是一款精简的电源解决方案，专为拓竹 P1/X1/A1 系�
 
 * 将打印好的支架放入如图对应的位置，用相应的打印件或者M3*20机牙螺丝固定。
 
-    <img src=img/PandaHubPlus/zh/a12.png width="600"/>
+    <img src=img/PandaHubPlus/zh/a12.webp width="600"/>
 
     （该方式直接用打印件固定到A1的Z轴上）
 

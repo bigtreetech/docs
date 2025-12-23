@@ -5,7 +5,7 @@
 
     [H2 V2X Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/extruder-docs/h2-v2x)
 
-<img src=img/H2V2X/H2V2X_title.png width="600"/>
+<img src=img/H2V2X/H2V2X_title.webp width="600"/>
 
 **产品链接:**
 
@@ -50,9 +50,9 @@ H2 V2X 为一款超轻型（重量仅145克）近程挤出机，选用经阳极�
 
 XYZ尺寸：53.9 x 37.88 x 51.52mm
 
-<img src=img/H2V2X/H2V2X_Dimension1.png width="600"/>
+<img src=img/H2V2X/H2V2X_Dimension1.webp width="600"/>
 
-<img src=img/H2V2X/H2V2X_Dimension2.png width="600"/>
+<img src=img/H2V2X/H2V2X_Dimension2.webp width="600"/>
 
 ### **耗材松紧调节开关/ 耗材加载**
 
@@ -60,13 +60,13 @@ XYZ尺寸：53.9 x 37.88 x 51.52mm
 
 挤出齿轮的松紧可调节，以适应不同的耗材，逆时针方向转动螺杆为夹紧，顺时针方向转动螺杆为松弛(当螺杆停止转动时，请勿用力，以免造成挤出机损坏）
 
-<img src=img/H2V2X/H2V2X_Filament1.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament1.webp width="600"/>
 
 **耗材加载:** 
 
 送进耗材前，请将控制杆向前方②调节。
 
-<img src=img/H2V2X/H2V2X_Filament2.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament2.webp width="600"/>
 
 ## **运行最高温度**
 
@@ -90,11 +90,11 @@ XYZ尺寸：53.9 x 37.88 x 51.52mm
 | 绝缘级别             | Class B           |
 | 转动惯量             | 8g·cm³            |
 
-<img src=img/H2V2X/H2V2X_Filament3.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament3.webp width="600"/>
 
 ## **产品结构图**
 
-<img src=img/H2V2X/H2V2X_Filament5.png width="600"/>
+<img src=img/H2V2X/H2V2X_Filament5.webp width="600"/>
 
 ## 相关链接
 

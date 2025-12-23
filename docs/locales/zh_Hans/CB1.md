@@ -1,6 +1,6 @@
 # CB1
 
-[<img src=img/CB1.png width="600" />](https://bigtreetech.github.io/docs/CB1.html)
+[<img src=img/CB1.webp width="600" />](https://bigtreetech.github.io/docs/CB1.html)
 
 ## **产品简介**
 
@@ -30,7 +30,7 @@ WIFI。<br></p>
 
 ## **产品尺寸**
 
-**<img src=img/CB1_Size.png width="600" />**
+**<img src=img/CB1_Size.webp width="600" />**
 
 ## **原理图**
 
@@ -184,17 +184,17 @@ WIFI。<br></p>
 #### **WiFi Settings**
 
 **系统镜像烧录完成后，Micro SD 卡会有一个被电脑识别的 FAT32 分区，此分区下有个名为"system.cfg" 的配置文件**
-**<img src=img/system.png width="600" /><br/>**
+**<img src=img/system.webp width="600" /><br/>**
 
 **用记事本打开，将 WIFI-SSID 替换为实际的 WIFI 名称，PASSWORD 替换为实际的密码**
 **例如: `WIFI_SSID="CB1 Tester"`**
-**<img src=img/wifi.png width="600" /><br/>**
+**<img src=img/wifi.webp width="600" /><br/>**
 
 ### **Overlays Settings**
 
-**操作系统写入SD卡后，有一个名为“BOOT”的FAT32分区，用“Notpad”、“Notpad++”或“VSCode”打开“BoardEnv.txt”文件。 <br/><img src=img/BoardEnv.png width="600" /><br/>**
+**操作系统写入SD卡后，有一个名为“BOOT”的FAT32分区，用“Notpad”、“Notpad++”或“VSCode”打开“BoardEnv.txt”文件。 <br/><img src=img/BoardEnv.webp width="600" /><br/>**
 
-**根据需要进行设置，如下图所示。 <br/><img src=img/overlays.png width="600" /><br/>**
+**根据需要进行设置，如下图所示。 <br/><img src=img/overlays.webp width="600" /><br/>**
 
 **默认值为“console=display”，这意味着CB1的“UART0”默认用作调试端口。我们可以使用“MobaXterm”通过UART0连接到CB1并进行调试。如果klipper想要使用`UART0`来控制主板，我们需要将其设置为`console=serial`，现在klippe可以将`UART0'用作`/dev/ttyS0`。**
 
@@ -238,13 +238,13 @@ MCP2515_IRQ=PC9
 **设备连上 WIFI 或者插上网线后，会被自动分配一个 IP**
 
 **进入路由器管理界面找到设备的 IP**
-**<img src=img/Router.png width="600" /><br/>** 
+**<img src=img/Router.webp width="600" /><br/>** 
 
 **或者使用https://angryip.org/工具，扫描当前网络中的所有IP地址，按名称组织，找到名为Hurakan、BTT-CB1的IP，如下所示**
-**<img src=img/AngryIP.png width="600" /><br/>** 
+**<img src=img/AngryIP.webp width="600" /><br/>** 
 
 **打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在Remote host 一栏中输入设备的 IP 地址，点击“OK”（注意：电脑和设备必须要在同一个局域网下）**
-**<img src=img/MobaXterm_Login.png width="600" /><br/>** 
+**<img src=img/MobaXterm_Login.webp width="600" /><br/>** 
 
 **输入登录名和登录密码进入 SSH 终端界面**
 
@@ -277,23 +277,23 @@ MCP2515_IRQ=PC9
 
 ​		**选择系统**
 
-**<img src=img/RPI_Imager_1.png width="600"/><br/>**
+**<img src=img/RPI_Imager_1.webp width="600"/><br/>**
 
-**选择“用户自定义”，然后选择下载到电脑中的镜像 <br/><img src=img/RPI_Imager_2.png width="600"/><br/>**
+**选择“用户自定义”，然后选择下载到电脑中的镜像 <br/><img src=img/RPI_Imager_2.webp width="600"/><br/>**
 
-**选择待烧录的 Micro SD 卡（烧录镜像会将 Micro SD 卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录” <br/><img src=img/RPI_Imager_3.png width="600"/><br/>**
+**选择待烧录的 Micro SD 卡（烧录镜像会将 Micro SD 卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录” <br/><img src=img/RPI_Imager_3.webp width="600"/><br/>**
 
-**等待烧录完成 <br/><img src=img/RPI_Imager_4.png width="600"/><br/>**
+**等待烧录完成 <br/><img src=img/RPI_Imager_4.webp width="600"/><br/>**
 
 6. **使用 balenaEtcher**
 
 ​	**将 Micro SD 卡通过读卡器插入到电脑。**
 
-​	**选择下载到电脑中的镜像 <br/><img src=img/Etcher_1.png width="600"/><br/>**
+​	**选择下载到电脑中的镜像 <br/><img src=img/Etcher_1.webp width="600"/><br/>**
 
-**选择待烧录的 Micro SD 卡（烧录镜像会将 Micro SD 卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录” <br/><img src=img/Etcher_2.png width="600"/><br/>**
+**选择待烧录的 Micro SD 卡（烧录镜像会将 Micro SD 卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录” <br/><img src=img/Etcher_2.webp width="600"/><br/>**
 
-​	**等待烧录完成 <br/><img src=img/Etcher_3.png width="600"/><br/>**
+​	**等待烧录完成 <br/><img src=img/Etcher_3.webp width="600"/><br/>**
 
 
 
