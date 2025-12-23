@@ -6408,7 +6408,7 @@
 
 
 <h1 id="ebb-22402209-can">EBB 2240/2209 CAN<a class="headerlink" href="#ebb-22402209-can" title="Permanent link">&para;</a></h1>
-<p><img src=img/EBB2240_2209/EBB2240_2209_Title.png width="600"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_2209_Title.webp width="600"/></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For information about EBB SB2240/2209 CAN V1.0 structure, please click <a href="">EBB SB2240 2209 CAN V1.0.PDF</a></p>
@@ -6510,10 +6510,10 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">EBB SB2240 V1.0</label><label for="__tabbed_1_2">EBB SB2209 V1.0</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><img src=img/EBB2240_2209/EBB2240_Dimensions.png width="450"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Dimensions.webp width="450"/></p>
 </div>
 <div class="tabbed-block">
-<p><img src=img/EBB2240_2209/EBB2209_Dimensions.png width="450"/></p>
+<p><img src=img/EBB2240_2209/EBB2209_Dimensions.webp width="450"/></p>
 </div>
 </div>
 </div>
@@ -6521,24 +6521,24 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">EBB SB2240 V1.0</label><label for="__tabbed_2_2">EBB SB2209 V1.0</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><img src=img/EBB2240_2209/EBB2240_Pin.png width="450"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Pin.webp width="450"/></p>
 </div>
 <div class="tabbed-block">
-<p><img src=img/EBB2240_2209/EBB2209_Pin.png width="450"/></p>
+<p><img src=img/EBB2240_2209/EBB2209_Pin.webp width="450"/></p>
 </div>
 </div>
 </div>
 <h2 id="hardware-configuration">Hardware Configuration<a class="headerlink" href="#hardware-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="usb-power-supply">USB Power Supply<a class="headerlink" href="#usb-power-supply" title="Permanent link">&para;</a></h3>
 <p>After the main board is powered on, the Power red light will light up, indicating that the power supply is normal. The <code>VUSB</code> in the middle of the board is the power selection end. Only when USB is used to power the main board, it is necessary to use the jump cap to short connect the VUSB. Main board does not support external power supply through TYPE C.</p>
-<p><img src=img/EBB2240_2209/EBB2240_USB.png width="450"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_USB.webp width="450"/></p>
 <h3 id="download-firmware-using-dfu">Download firmware using DFU<a class="headerlink" href="#download-firmware-using-dfu" title="Permanent link">&para;</a></h3>
-<p><img src=img/EBB2240_2209/EBB2240_DFU.png width="600"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_DFU.webp width="600"/></p>
 <p>Press and hold the on-board BOOT key to power on the main board, or press the BOOT key and then press the RST key. The chip enters DFU mode. At this time, you can connect TYPE C to the PC and program the main control chip through DFU mode.</p>
 <h2 id="hardware-installation"><strong>Hardware Installation</strong><a class="headerlink" href="#hardware-installation" title="Permanent link">&para;</a></h2>
 <h3 id="heating-rod-connection"><strong>Heating Rod Connection</strong><a class="headerlink" href="#heating-rod-connection" title="Permanent link">&para;</a></h3>
 <p>The heating rod is connected to the main board through the on-board 5569 2PIN connector, supporting the maximum continuous 5A current output</p>
-<p><img src=img/EBB2240_2209/EBB2240_5569.png width="450"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_5569.webp width="450"/></p>
 <h3 id="100k-ntc-or-pt1000-settings"><strong>100K NTC or PT1000 Settings</strong><a class="headerlink" href="#100k-ntc-or-pt1000-settings" title="Permanent link">&para;</a></h3>
 <p>Version without 31865: No need to plug a jumper cap when using a 100K NTC thermistor, and <code>TH0</code> pull-up resistor value is <code>4.7K</code>. When using <code>PT1000</code>, you need to use the jumper cap to short the two pins, as shown below picture. At this time, <code>TH0</code> pull-up resistor value is <code>2.2K</code>.</p>
 <div class="admonition info">
@@ -6546,7 +6546,7 @@
 <p>Temperature accuracy that's read out this way will be less accurate than that of <code>MAX31865</code></p>
 </div>
 <p>PT100/PT1000 2-wire connection diagram PT100/PT1000 4-wire connection diagram</p>
-<p><img src=img/EBB2240_2209/EBB2240_PT1000_Connection.png width="600"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_PT1000_Connection.webp width="600"/></p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Version with 31865: Select PT100/PT1000 by DIP switch, 2 wire or 4 wire:</p>
@@ -6593,74 +6593,74 @@
 </table>
 </div>
 <h3 id="bltouch-wiring"><strong>BLTouch Wiring</strong><a class="headerlink" href="#bltouch-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/EBB2240_2209/EBB2240_BLtouch.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_BLtouch.webp width="500"/></p>
 <h3 id="proximity-switch-connection"><strong>Proximity Switch Connection</strong><a class="headerlink" href="#proximity-switch-connection" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
 <p>The wiring diagram of proximity switch is shown as follows</p>
-<p><img src=img/EBB2240_2209/EBB2240_Proximity.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Proximity.webp width="500"/></p>
 </li>
 <li>
 <p>Wiring switch voltage selection</p>
 <p>The user can select different voltage (VIN/12V/5V) to supply power to the proximity switch through the jumper cap.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Proximity1.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Proximity1.webp width="500"/></p>
 </li>
 <li>
 <p>Use <code>+5V</code> to power the proximity switch</p>
 <p>Use the jump cap to short circuit the horizontal row of 5V voltage selected by the fan voltage.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Proximity2.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Proximity2.webp width="500"/></p>
 </li>
 <li>
 <p>Use <code>12V</code> to power the proximity switch</p>
 <p>Use the jump cap to short circuit the horizontal pin of the 12V voltage selected by the fan voltage.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Proximity3.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Proximity3.webp width="500"/></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Do not to short circuit the voltage of the proximity switch to select any two rows of pins on the right side of the row pin, and only one circuit of power supply voltage is allowed to supply power to the proximity switch at any time. Otherwise, the motherboard will be damaged (as shown below).</p>
-<p><img src=img/EBB2240_2209/EBB2240_Proximity4.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Proximity4.webp width="500"/></p>
 </div>
 </li>
 <li>
 <p>Proximity switch type selection</p>
 <p>The design of the motherboard proximity switch interface supports <code>PNP</code> and <code>NPN</code> proximity switches, which is convenient for users to connect different types of proximity switches to the motherboard. The default connection type is <code>PNP</code>. If <code>NPN</code> type is needed, just use the jumper cap to short the NPN pin on the motherboard.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Proximity5.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Proximity5.webp width="500"/></p>
 </li>
 </ol>
 <h3 id="can-bus-connection">CAN BUS Connection<a class="headerlink" href="#can-bus-connection" title="Permanent link">&para;</a></h3>
 <p>The motherboard has two built-in CAN BUS interfaces, one is located at the power input interface and the other is located at the BIGTREETECH EBB SB0000 CAN board.</p>
-<p><img src=img/EBB2240_2209/EBB2240_CANBUS1.png width="500"/></p>
-<p><img src=img/EBB2240_2209/EBB2240_CANBUS2.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_CANBUS1.webp width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_CANBUS2.webp width="500"/></p>
 <h3 id="fan-voltage-selection">Fan Voltage Selection<a class="headerlink" href="#fan-voltage-selection" title="Permanent link">&para;</a></h3>
 <p>BIGTREETECH EBB SB2240/2209 CAN has built-in 2-way NC fan and 1-way 4-wire fan. Each fan can select different voltage (VIN/12V/5V) through jumper cap to adapt to fans with different working voltage.</p>
 <h4 id="use-5v-to-power-the-fan">Use <code>+5V</code> to power the fan<a class="headerlink" href="#use-5v-to-power-the-fan" title="Permanent link">&para;</a></h4>
 <p>Use the jump cap to short circuit the horizontal row of 5V voltage selected by the fan voltage</p>
-<p><img src=img/EBB2240_2209/EBB2240_FAN1.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_FAN1.webp width="500"/></p>
 <h4 id="use-12v-to-power-the-fan">Use <code>+12V</code> to power the fan<a class="headerlink" href="#use-12v-to-power-the-fan" title="Permanent link">&para;</a></h4>
 <p>Use the jump cap to short circuit the horizontal row of 12V voltage selected by the fan voltage</p>
-<p><img src=img/EBB2240_2209/EBB2240_FAN2.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_FAN2.webp width="500"/></p>
 <h4 id="use-input-voltage-to-power-the-fan">Use input voltage to power the fan<a class="headerlink" href="#use-input-voltage-to-power-the-fan" title="Permanent link">&para;</a></h4>
 <p>Use the jump cap to short the horizontal pin of the VIN voltage selected by the fan voltage</p>
-<p><img src=img/EBB2240_2209/EBB2240_FAN3.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_FAN3.webp width="500"/></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Do not to short circuit the fan voltage to select any two rows of pins on the left side of the row pin, and only one circuit of power supply voltage is allowed to supply power to the fan at any time. Otherwise, the motherboard will be damaged (as shown below)</p>
-<p><img src=img/EBB2240_2209/EBB2240_FAN4.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_FAN4.webp width="500"/></p>
 </div>
 <h3 id="can-connection-with-bigtreetech-ebb-sb0000">CAN connection with BIGTREETECH EBB SB0000<a class="headerlink" href="#can-connection-with-bigtreetech-ebb-sb0000" title="Permanent link">&para;</a></h3>
-<p><img src=img/EBB2240_2209/EBB2240_SB0000.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_SB0000.webp width="500"/></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Pay attention to the installation direction of the main board. Incorrect installation direction will cause irreversible damage to the main board.</p>
 </div>
 <h3 id="rgb-wiring">RGB Wiring<a class="headerlink" href="#rgb-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/EBB2240_2209/EBB2240_RGB.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_RGB.webp width="500"/></p>
 <p>RGB connection port is located on BIGTREETECH EBB SB0000 CAN board</p>
 <h3 id="nc-fan-interface">NC fan Interface<a class="headerlink" href="#nc-fan-interface" title="Permanent link">&para;</a></h3>
 <p>On-board 2-way numerical control fan interface, through the BIGTREETECH EBB SB0000 CAN board FAN1, FAN2 is connected to the fan to realize the controllable connection of the fan.</p>
-<p><img src=img/EBB2240_2209/EBB2240_NCPin.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_NCPin.webp width="500"/></p>
 <h3 id="linear-fan-connection">Linear fan Connection<a class="headerlink" href="#linear-fan-connection" title="Permanent link">&para;</a></h3>
 <p>One 4-wire fan interface on the board can be connected to the 4-wire fan through the 4-wire fan interface on the BIGTREETECH EBB SB0000 CAN board.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Linear.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Linear.webp width="500"/></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>The rated working voltage of the fan used must be consistent with the voltage selected by the fan to prevent the fan from working abnormally or being damaged due to the mismatched working voltage.</p>
@@ -6687,28 +6687,28 @@
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>make<span class="w"> </span>menuconfig
 </code></pre></div>
 <p>and configure according to the following figure</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software12.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software12.webp width="500"/></p>
 </li>
 <li>
 <p>Build Katapult</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>make
 </code></pre></div>
-<p><img src=img/EBB2240_2209/EBB2240_Software13.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software13.webp width="500"/></p>
 </li>
 <li>
 <p>Please use a Type-C cable to connect the EBB SB2240/2209 CAN to the Raspberry Pi/CB1, and ensure that the USB_5V jumper is connected, in order to supply power to the EBB SB2240/2209 CAN via Type-C.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software17.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software17.webp width="500"/></p>
 </li>
 <li>
 <p>Press and hold the Boot button, and then click the Reset button to enter the DFU mode.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software18.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software18.webp width="500"/></p>
 </li>
 <li>
 <p>Enter in the SSH terminal command line</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>lsusb
 </code></pre></div>
 <p>Query DFU device ID</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software19.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software19.webp width="500"/></p>
 </li>
 <li>
 <p>Please enter the following command to flash Katapult: </p>
@@ -6720,7 +6720,7 @@
 </li>
 </ol>
 <h3 id="compile-klipper">Compile Klipper<a class="headerlink" href="#compile-klipper" title="Permanent link">&para;</a></h3>
-<p><img src=img/EBB2240_2209/EBB2240_Software20.png width="600"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software20.webp width="600"/></p>
 <h3 id="firmware-updatevia-katapult">Firmware Update(via Katapult)<a class="headerlink" href="#firmware-updatevia-katapult" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
@@ -6731,34 +6731,34 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nb">cd</span><span class="w"> </span>~/Katapult/scripts
 <a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>python3<span class="w"> </span>flash_can.py<span class="w"> </span>-i<span class="w"> </span>can0<span class="w"> </span>-q
 </code></pre></div>
-<p><img src=img/EBB2240_2209/EBB2240_Software21.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software21.webp width="500"/></p>
 </li>
 <li>
 <p>Use command below to flash klipper via Katapult</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>python3<span class="w"> </span>flash_can.py<span class="w"> </span>-i<span class="w"> </span>can0<span class="w"> </span>-f<span class="w"> </span>~/klipper/out/klipper.bin<span class="w"> </span>-u<span class="w"> </span>be69315a613c
 </code></pre></div>
 <p>The <code>be69315a613c</code> is replaced with the actual UUID. Note: klipper.bin needs to be made in advance, and the application start offset of Katapult is <code>8KiB</code> offset, so Klipper's menuconfig Bootloader offset  should also be <code>8KiB</code> bootloader, as shown in the following figure.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software22.png width="500"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software22.webp width="500"/></p>
 </li>
 <li>
 <p>Use command below to check application running in EBB CAN.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>python3<span class="w"> </span>flash_can.py<span class="w"> </span>-i<span class="w"> </span>can0<span class="w"> </span>-q
 </code></pre></div>
 <p>to query. At this time, the Application changes from Katapult to Klipper, indicating that Klipper has been running normally</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software23.png width="450"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software23.webp width="450"/></p>
 </li>
 </ol>
 <h3 id="firmware-updatevia-dfu">FIRMWARE UPDATE(VIA DFU)<a class="headerlink" href="#firmware-updatevia-dfu" title="Permanent link">&para;</a></h3>
 <p>Raspberry Pi or CB1 update via DFU.</p>
 <p>1、Please use a Type-C cable to connect the EBB SB2240/2209 CAN to the Raspberry Pi/CB1, and ensure that the USB_5V jumper is connected, in order to supply power to theEBB SB2240/2209 CAN via Type-C.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software17.png width="600"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software17.webp width="600"/></p>
 <p>2、Press and hold the Boot button, and then click the Reset button to enter the DFU mode.</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software18.png width="600"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software18.webp width="600"/></p>
 <p>3、Enter in the SSH terminal command line</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>lsusb
 </code></pre></div>
 <p>Query DFU device ID</p>
-<p><img src=img/EBB2240_2209/EBB2240_Software19.png width="600"/></p>
+<p><img src=img/EBB2240_2209/EBB2240_Software19.webp width="600"/></p>
 <p>4、Run:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>cd klipper
 </code></pre></div>

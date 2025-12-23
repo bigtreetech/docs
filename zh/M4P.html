@@ -6281,7 +6281,7 @@
 <p>此界面已迁移到 Bigtreetech WiKi NEO</p>
 <p><a href="https://neo.bttwiki.com/docs/board-docs/manta-series/manta-m4p">M5P Bigtreetech WiKi NEO</a></p>
 </div>
-<p><a href="https://z1996xm.github.io/BIGTREETECH/M4P.html"><img src=img/M4P/M4P_Title.png width="600"/></a></p>
+<p><a href="https://z1996xm.github.io/BIGTREETECH/M4P.html"><img src=img/M4P/M4P_Title.webp width="600"/></a></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH CB1是目前缺货的树莓派CM4的替代品<br>BIGTREETECH M4P是一款使用CM4 BTB头的4轴主板，可以完美地与CB1或CM4配合使用。<br></p>
 
@@ -6366,70 +6366,70 @@
 </tbody>
 </table>
 <h2 id="_4"><strong>尺寸</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p><img src=img/M4P/M4P_Size.png width="600"/></p>
+<p><img src=img/M4P/M4P_Size.webp width="600"/></p>
 <h2 id="_5"><strong>接口示意图</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p><img src=img/M4P/M4P_Pinout.png width="600" /></p>
+<p><img src=img/M4P/M4P_Pinout.webp width="600" /></p>
 <h2 id="_6"><strong>引出线</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
-<p><img src=img/M4P/M4P_Pin_Out.png width="600" /></p>
+<p><img src=img/M4P/M4P_Pin_Out.webp width="600" /></p>
 <h2 id="_7"><strong>硬件配置</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <p><strong>TYPE-C</strong></p>
 <p>M4P开机后，主板右下侧的红色LED1会亮起，表示电源正常。板中间的J8是电源选择端子，只有当type-C USB用于向<br>主板供电或USB用于外部供电时，才需要短路。type-C的信号连接到SoC，仅在写入CM4 eMMC版本的操作系统映像时使用。</p>
 
-<p><img src=img/M4P/M4P_TYPE_C.png width="600" /></p>
+<p><img src=img/M4P/M4P_TYPE_C.webp width="600" /></p>
 <h2 id="_8"><strong>硬件安装</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <h3 id="_9"><strong>步进驱动器</strong><a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
 <h4 id="stepdir"><strong>正常STEP/DIR（单机）模式</strong><a class="headerlink" href="#stepdir" title="Permanent link">&para;</a></h4>
 <p>例如，A4988、DRV8825、LV8729、ST820……根据驱动器细分表，使用跳线帽短接MS0-MS2。</p>
 
-<p><img src=img/M4P/M4P_Stepper_Driver.png width="600" /></p>
+<p><img src=img/M4P/M4P_Stepper_Driver.webp width="600" /></p>
 <p><strong><font  color="red">注意：如果使用A4988或DRV8825，RST和SLP必须用跨接线帽短路才能正常工作。 </font></strong></p>
 <p>详情请点击： https://z1996xm.github.io/BIGTREETECH/Tutorials.html</p>
 <h4 id="tmcuart"><strong>TMC驱动器的UART模式</strong><a class="headerlink" href="#tmcuart" title="Permanent link">&para;</a></h4>
 <p>例如，TMC2208、TMC2209、TMC2225…每个都使用一个跳线帽连接图中红框的位置，细分和驱动器电流由固件设置。</p>
 
-<p><img src=img/M4P/M4P_TMC_UART_Mode.png width="600" /></p>
+<p><img src=img/M4P/M4P_TMC_UART_Mode.webp width="600" /></p>
 <h4 id="tmcspi"><strong>TMC驱动器的SPI模式</strong><a class="headerlink" href="#tmcspi" title="Permanent link">&para;</a></h4>
 <p>例如，TMC2130、TMC5160、TMC2160…每个使用4个跳线帽连接图中红框的位置，细分和驱动器电流由固件设置。</p>
 
-<p><img src=img/M4P/M4P_TMC_SPI_Mode.png width="600" /></p>
+<p><img src=img/M4P/M4P_TMC_SPI_Mode.webp width="600" /></p>
 <h4 id="tmcdiag"><strong>TMC驱动的DIAG（无传感器归位）</strong><a class="headerlink" href="#tmcdiag" title="Permanent link">&para;</a></h4>
 <p>如图所示，使用无传感器归位功能时，请插上跳线帽，不使用时请拔下。无需切割驱动器的DIAG引脚。</p>
 
-<p><img src=img/M4P/M4P_TMC_DIAG_Mode.png width="600" /></p>
+<p><img src=img/M4P/M4P_TMC_DIAG_Mode.webp width="600" /></p>
 <h4 id="_10"><strong>驱动器电压选择</strong><a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
 <p>每个驱动器的电源都可以通过跳线进行设置。当跳线插入左侧时，独立的MOTOR POWER端口用于驱动器电源，支持的电压高达56V。将跳线插入右侧时，主电源端口用于驱动器电源，并支持12/24v电压。</p>
 
 <p><strong>独立于驱动器的电源</strong></p>
 <p>跳线插入左侧，由MOTOR POWER端口供电。支持的电压高达56V。</p>
-<p><img src=img/M4P/M4P_IPS.png width="600" /></p>
+<p><img src=img/M4P/M4P_IPS.webp width="600" /></p>
 <p><strong>主电源</strong></p>
 <p>跳线插入右侧，由主电源端口供电。支持12/24v电压。</p>
-<p><img src=img/M4P/M4P_MPS.png width="600" /></p>
+<p><img src=img/M4P/M4P_MPS.webp width="600" /></p>
 <h3 id="btb"><strong>通过BTB连接安装核心板</strong><a class="headerlink" href="#btb" title="Permanent link">&para;</a></h3>
 <p><strong>M4P+CM4：注意方向，如下所示。</strong></p>
-<p><img src=img/M4P/M4P+CM4.png width="600" /></p>
+<p><img src=img/M4P/M4P+CM4.webp width="600" /></p>
 <p><strong>M4P+CB1：注意方向，如下所示。</strong></p>
-<p><img src=img/M4P/M4P+CB1.png width="600" /></p>
+<p><img src=img/M4P/M4P+CB1.webp width="600" /></p>
 <h3 id="40-pin-gpio"><strong>40 pin GPIO</strong><a class="headerlink" href="#40-pin-gpio" title="Permanent link">&para;</a></h3>
 <p>当使用CM4时，40引脚GPIO的引脚排列与Raspberry Pi的引脚排列完全相同。当使用CB1时，它是一种自定义的IO排列，如下图所示，“_”前面的“GPIO4”是CM4的IO，后面的“PC7”是CB1的IO。</p>
 
-<p><img src=img/M4P/M4P_40_Pin.png width="600" /></p>
+<p><img src=img/M4P/M4P_40_Pin.webp width="600" /></p>
 <h3 id="bltouch"><strong>BLTouch 接线</strong><a class="headerlink" href="#bltouch" title="Permanent link">&para;</a></h3>
 <p>M4P_BLTouch_Wiring</p>
-<p><img src=img/M4P/M4P_BLTouch_Wiring.png width="600" /></p>
+<p><img src=img/M4P/M4P_BLTouch_Wiring.webp width="600" /></p>
 <h3 id="exp1exp2lcd"><strong>EXP1+EXP2和LCD屏幕接线</strong><a class="headerlink" href="#exp1exp2lcd" title="Permanent link">&para;</a></h3>
 <p>M4P_E1_E2_LCD</p>
-<p><img src=img/M4P/M4P_E1_E2_LCD.png width="600" /></p>
+<p><img src=img/M4P/M4P_E1_E2_LCD.webp width="600" /></p>
 <h3 id="rgb"><strong>RGB 接线</strong><a class="headerlink" href="#rgb" title="Permanent link">&para;</a></h3>
-<p><img src=img/M4P/M4P_RGB_Wiring.png width="600" /></p>
+<p><img src=img/M4P/M4P_RGB_Wiring.webp width="600" /></p>
 <h3 id="dsicsi"><strong>DSI/CSI 接线</strong><a class="headerlink" href="#dsicsi" title="Permanent link">&para;</a></h3>
-<p><img src=img/M4P/M4P_DSI_CSI_Wiring.png width="600" /></p>
+<p><img src=img/M4P/M4P_DSI_CSI_Wiring.webp width="600" /></p>
 <h3 id="spi"><strong>SPI 显示接线</strong><a class="headerlink" href="#spi" title="Permanent link">&para;</a></h3>
-<p><img src=img/M4P/M4P_SPI_Display_Wiring.png width="600" /></p>
+<p><img src=img/M4P/M4P_SPI_Display_Wiring.webp width="600" /></p>
 <h3 id="adxl345"><strong>ADXL345 加速度计</strong><a class="headerlink" href="#adxl345" title="Permanent link">&para;</a></h3>
 <p>请参阅此处：https://www.klipper3d.org/Measuring_Resonances.html，连接到M4P主板时，我们可以参考以下接线和配置</p>
 
-<p><img src=img/M4P/M4P_ADXL345.png width="600" /></p>
+<p><img src=img/M4P/M4P_ADXL345.webp width="600" /></p>
 <p>[adxl345]</p>
 <div class="highlight"><pre><span></span><code>```
 cs_pin: PD9

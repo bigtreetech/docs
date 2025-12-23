@@ -6858,7 +6858,7 @@
 
 
 <h1 id="skr-3">SKR 3<a class="headerlink" href="#skr-3" title="Permanent link">&para;</a></h1>
-<p><img src=img/SKR3/SKR3_Title.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Title.webp width="600" /></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>The BIGTREETECH SKR 3 mother board is a brand new 32 bit motherboard developed by Shenzhen BIQU Innovation Technology Co., Ltd. that fixed all the problems of the V1.4/Turbo board with new features and improved functionality.</p>
 <p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-btt-skr-3-control-board-for-3d-printer</p>
@@ -6982,59 +6982,59 @@
 <h2 id="firmware-support"><strong>Firmware Support</strong><a class="headerlink" href="#firmware-support" title="Permanent link">&para;</a></h2>
 <p>Compatible with Klipper, Marlin, RRF(RepRapFirmware) </p>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/SKR3/SKR3_Dimension.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Dimension.webp width="600" /></p>
 <h2 id="peripheral-interface"><strong>Peripheral Interface</strong><a class="headerlink" href="#peripheral-interface" title="Permanent link">&para;</a></h2>
 <h3 id="interface-diagram">Interface Diagram<a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR3/SKR3_Interface.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Interface.webp width="600" /></p>
 <h3 id="pin-description">Pin Description<a class="headerlink" href="#pin-description" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR3/SKR3_Pinout.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Pinout.webp width="600" /></p>
 <h2 id="interface-introduction"><strong>Interface Introduction</strong><a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
 <h3 id="usb-power-supply">USB Power Supply<a class="headerlink" href="#usb-power-supply" title="Permanent link">&para;</a></h3>
 <p>After the SKR 3 board has been powered，the Red led D7(Power) to the upper right of the MCU will light up, indicating power on. When using only USB to power the boar, Please insert the jumper cap onto the VUSB jumper.</p>
-<p><img src=img/SKR3/SKR3_USB.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_USB.webp width="600" /></p>
 <h3 id="stepper-motor-drivers">Stepper Motor Drivers<a class="headerlink" href="#stepper-motor-drivers" title="Permanent link">&para;</a></h3>
 <h4 id="stepdirstandalone-mode">STEP/DIR(STANDALONE) mode<a class="headerlink" href="#stepdirstandalone-mode" title="Permanent link">&para;</a></h4>
 <p>i.e：A4988、DRV8825、LV8729、ST820 etc，connect jumpers(MS0-MS2) according to the microstep chart</p>
-<p><img src=img/SKR3/SKR3_Step.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Step.webp width="600" /></p>
 <p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h4 id="uart-mode-of-tmc-driver">UART mode of TMC driver<a class="headerlink" href="#uart-mode-of-tmc-driver" title="Permanent link">&para;</a></h4>
 <p>i.e：TMC2208、TMC2209、TMC2225 etc. Place jumpers according to the diagram below，microstep and current can be configured in firmware.</p>
-<p><img src=img/SKR3/SKR3_Uart.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Uart.webp width="600" /></p>
 <h4 id="tmc-driver-spi-mode">TMC driver SPI mode<a class="headerlink" href="#tmc-driver-spi-mode" title="Permanent link">&para;</a></h4>
 <p>i.e：TMC2130、TMC5160、TMC5161 et.c，Place jumpers according to the diagram below，microstep and current can be configured in firmware.</p>
-<p><img src=img/SKR3/SKR3_SPI.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_SPI.webp width="600" /></p>
 <h4 id="tmc-driver-diagsensorless-homing">TMC driver DIAG(Sensorless Homing)<a class="headerlink" href="#tmc-driver-diagsensorless-homing" title="Permanent link">&para;</a></h4>
 <p>When using sensorless homing, place jumpers according to the diagram below, there is no need to cut the DIAG pin off when not being used.</p>
-<p><img src=img/SKR3/SKR3_Diag.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Diag.webp width="600" /></p>
 <h3 id="usb-and-can-mode">USB and CAN mode<a class="headerlink" href="#usb-and-can-mode" title="Permanent link">&para;</a></h3>
 <p>When the button shown below is released, the board is in usb mode, when pressed down, the board is in CAN FD mode.</p>
-<p><img src=img/SKR3/SKR3_USB_CAN.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_USB_CAN.webp width="600" /></p>
 <h3 id="voltage-selection-for-cnc-fan">Voltage selection for CNC Fan<a class="headerlink" href="#voltage-selection-for-cnc-fan" title="Permanent link">&para;</a></h3>
 <p>Connect jumper between the two pins of VIN if using DCIN as CNC fan voltage.
 Connect jumper between the two pins of VOT and insert SKR 3-DC MODE on to the 2*4 Pin sockets if 12V or 5V is desired *</p>
 <p><font  color="red"><strong>Note: The voltages of the 3xCNC fans are unified, different voltages cannot be set separately. i.e: the voltage of 3xCNC can be set to 24V, 12V or 5V at the same time, but it cannot be set to the combination of 24V+12V+5V.</strong></font></p>
-<p><img src=img/SKR3/SKR3_CNC.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_CNC.webp width="600" /></p>
 <p>Voltage of the SKR 3-DC MODE is set by connecting jumpers on 5V or 12V on VOTChoose pins.</p>
-<p><img src=img/SKR3/SKR3_CNC1.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_CNC1.webp width="600" /></p>
 <h3 id="100k-ntc-or-pt1000-setting">100K NTC or PT1000 setting<a class="headerlink" href="#100k-ntc-or-pt1000-setting" title="Permanent link">&para;</a></h3>
 <p>When using 100K NTC no jumpers need to be connected，the pull up resistance of TH0 &amp; TH1 is 4.7K. When using PT1000 the jumpers indicated in the picture below needs to be connected, the pull up resistance of TH0 &amp; TH1 is changed to 1K.</p>
-<p><img src=img/SKR3/SKR3_100K.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_100K.webp width="600" /></p>
 <h3 id="bltouch-wiring">BLTouch wiring<a class="headerlink" href="#bltouch-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR3/SKR3_BLtouch.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_BLtouch.webp width="600" /></p>
 <h3 id="auto-power-off-relay-v12-wiring">Auto power off (Relay V1.2) wiring<a class="headerlink" href="#auto-power-off-relay-v12-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR3/SKR3_Auto.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Auto.webp width="600" /></p>
 <h3 id="power-loss-recovery-ups-24v-v10-wiring">Power loss recovery (UPS 24V V1.0) wiring<a class="headerlink" href="#power-loss-recovery-ups-24v-v10-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR3/SKR3_Power.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Power.webp width="600" /></p>
 <h3 id="rgb-wiring">RGB wiring<a class="headerlink" href="#rgb-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR3/SKR3_RGB.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_RGB.webp width="600" /></p>
 <h3 id="filament-sensor-wiring">Filament sensor wiring<a class="headerlink" href="#filament-sensor-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR3/SKR3_Filament.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Filament.webp width="600" /></p>
 <h3 id="display-wiring">Display wiring<a class="headerlink" href="#display-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR3/SKR3_Display.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Display.webp width="600" /></p>
 <h3 id="heater-cartridge-io">Heater cartridge IO<a class="headerlink" href="#heater-cartridge-io" title="Permanent link">&para;</a></h3>
 <p>The IO of the SKR 3 heater cartridge is wired to the MOS by the jumper. You can remove the jumper and connect the IO to device directly if you need to use the laser or other device that need PWM. </p>
 <p><font  color="red"><strong>Note: The IO passes through logic conversion chip, the output high level is 5V, and cannot be used as an input.</strong></font></p>
-<p><img src=img/SKR3/SKR3_Heater.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Heater.webp width="600" /></p>
 <h2 id="marlin"><strong>Marlin</strong><a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h2>
 <h3 id="install-compiling-environment">install compiling environment<a class="headerlink" href="#install-compiling-environment" title="Permanent link">&para;</a></h3>
 <p>https://github.com/bigtreetech/Document/blob/master/How%20to%20install%20VScode%2BPlatformio.md</p>
@@ -7055,7 +7055,7 @@ Connect jumper between the two pins of VOT and insert SKR 3-DC MODE on to the 2*
 </ul>
 <h4 id="compiling-environment">Compiling environment<a class="headerlink" href="#compiling-environment" title="Permanent link">&para;</a></h4>
 <p>Open <strong>platformio.ini</strong> file and change <strong>default_envs</strong> to <strong>STM32H743Vx_btt</strong></p>
-<p><img src=img/SKR3/SKR3_Marlin1.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin1.webp width="600" /></p>
 <h4 id="configure-motherboad-and-serial-port">Configure motherboad and serial port<a class="headerlink" href="#configure-motherboad-and-serial-port" title="Permanent link">&para;</a></h4>
 <p>Set <code>MOTHERBOARD</code> to <code>BOARD_BTT_SKR_3</code></p>
 <p><strong>Enable serial ports according to your needs</strong></p>
@@ -7064,14 +7064,14 @@ Connect jumper between the two pins of VOT and insert SKR 3-DC MODE on to the 2*
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>BAUDRATE</strong></font> <font  color="green"><strong>115200</strong></font> （set baudrate to the same as the communication device）</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>SERIAL_PORT_2 </strong></font> <font  color="green"><strong>-1</strong> </font>（enable USB serial port）</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>SERIAL_PORT_3</strong></font> <font  color="green"><strong>3</strong> </font> （enable WIFI serial port）</p>
-<p><img src=img/SKR3/SKR3_Marlin2.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin2.webp width="600" /></p>
 <h4 id="configure-stepper-driver">Configure stepper driver<a class="headerlink" href="#configure-stepper-driver" title="Permanent link">&para;</a></h4>
-<p><img src=img/SKR3/SKR3_Marlin3.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin3.webp width="600" /></p>
 <p>When using SPI mode，<font  color="blue"><strong>TMC_USE_SW_SPI</strong></font> needs to be Uncommented in Configuration_adv.h</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>TMC_USE_SW_SPI</strong></font></p>
-<p><img src=img/SKR3/SKR3_Marlin4.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin4.webp width="600" /></p>
 <h4 id="sensorless-homing">Sensorless homing<a class="headerlink" href="#sensorless-homing" title="Permanent link">&para;</a></h4>
-<p><img src=img/SKR3/SKR3_Marlin5.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin5.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>SENSORLESS_HOMING</strong></font> // enable sensorless homing</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>xx_STALL_SENSITIVITY </strong></font> <font  color="green"><strong>8</strong></font> // sensitivity setting ,TMC2209 range from 0 to 255，higher number results in more sensitive trigger threshold，sensitivity too high will cause endpoint to trigger before gantry actually move to the end，lower number results in less sensitive trigger threshold,，too low of sensitivity will cause endpoint to not trigger and gantrying continue。Other drivers ranges from 63 to -64，lower numbers results in more sensitive triger threshold </p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>IMPROVE_HOMING_RELIABILITY</strong></font> // can be used to set independent motor current for homing moves(xx_CURRENT_HOME) to improve homing reliability.</p>
@@ -7081,28 +7081,28 @@ Connect jumper between the two pins of VOT and insert SKR 3-DC MODE on to the 2*
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>TEMP_SENSOR_0 </strong></font><font  color="green"><strong>1</strong></font></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>TEMP_SENSOR_1 </strong></font><font  color="green"><strong>1</strong></font></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>TEMP_SENSOR_BED </strong></font><font  color="green"><strong>1</strong></font></p>
-<p><img src=img/SKR3/SKR3_Marlin6.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin6.webp width="600" /></p>
 <h4 id="bltouch">BLTouch<a class="headerlink" href="#bltouch" title="Permanent link">&para;</a></h4>
-<p><img src=img/SKR3/SKR3_Marlin7.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin7.webp width="600" /></p>
 <p><font  color="green"><strong>//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN</strong></font></p>
-<p><img src=img/SKR3/SKR3_Marlin8.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin8.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>BLTOUCH</strong></font>  // Enable bltouch</p>
-<p><img src=img/SKR3/SKR3_Marlin9.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin9.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NOZZLE_TO_PROBE_OFFSET</strong></font>  <font  color="green"><strong>{ -40, -10, -2.85 }</strong></font>  // set BLtouch probe offset</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PROBING_MARGIN</strong></font>  <font  color="green"><strong>10</strong></font> // set distance between probe area and print area perimeter</p>
-<p><img src=img/SKR3/SKR3_Marlin10.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin10.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>AUTO_BED_LEVELING_BILINEAR</strong></font> // set probe pattern</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>RESTORE_LEVELING_AFTER_G28</strong></font> // apply leveling after G28 homing command</p>
-<p><img src=img/SKR3/SKR3_Marlin11.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin11.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>GRID_MAX_POINTS_X </strong></font> <font  color="green"><strong>5</strong></font> // set number of probe points for x axis, usually 5 point is sufficient
 <font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>GRID_MAX_POINTS_Y GRID_MAX_POINTS_X</strong></font> // set number of probe points for Y axis to the same as X axis</p>
 <p>If bltouch also functions as your Z homing sensor，no wiring change is needed,</p>
-<p><img src=img/SKR3/SKR3_Marlin12.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin12.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>USE_PROBE_FOR_Z_HOMING</strong></font> // use Z Probe(BLtouch) for Z homing</p>
-<p><img src=img/SKR3/SKR3_Marlin13.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin13.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>Z_SAFE_HOMING</strong></font> // home Z at the center of print bed to prevent probing outside of the print bed.</p>
 <h4 id="auto-power-offrelay-v12">Auto power off(Relay V1.2)<a class="headerlink" href="#auto-power-offrelay-v12" title="Permanent link">&para;</a></h4>
-<p><img src=img/SKR3/SKR3_Marlin14.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin14.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PSU_CONTROL</strong></font> // enable PSU control to turn on and off using M80 and M81</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PSU_ACTIVE_STATE HIGH </strong></font> // set turn on level， Relay V1.2 is turned on with high level and turned off with low level ,so this setting needs to be 
 HIGH.</p>
@@ -7110,61 +7110,61 @@ HIGH.</p>
 <p>There are two methods for power lost recovery</p>
 <p>1、No extra module needed, the motherboard will write current print status to the SD card after every layer is printed, which shortens the life of the SD 
 card severely.</p>
-<p><img src=img/SKR3/SKR3_Marlin15.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin15.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>POWER_LOSS_RECOVERY</strong></font> // enable power loss recovery#define</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PLR_ENABLED_DEFAULT true</strong></font> // true default to power loss recovery enabled</p>
 <p>2、external UPS 24V V1.0 module，when power is cut, the module will provide power to the board and signal the board to save current print status to SD card. This method has virtually no effect on the life of the SD card.</p>
-<p><img src=img/SKR3/SKR3_Marlin16.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin16.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>POWER_LOSS_RECOVERY</strong></font> // enable power loss recovery</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>PLR_ENABLED_DEFAULT true</strong></font> // true default to power loss recovery enanbled</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>POWER_LOSS_ZRAISE</strong></font> <font  color="green"><strong>10</strong></font> // raise the print head by 10mm after power loss to prevent the nozzle from touching the printed part.</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>POWER_LOSS_STATE HIGH </strong></font> // set signal level， UPS 24V V1.0 returns low level when not triggered and HIGH level when power is cut, thus this setting needs to be HIGH. </p>
 <h4 id="rgb">RGB<a class="headerlink" href="#rgb" title="Permanent link">&para;</a></h4>
-<p><img src=img/SKR3/SKR3_Marlin17.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin17.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NEOPIXEL_LED</strong></font> // enable Neopixel
 <font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NEOPIXEL_TYPE NEO_GRB </strong></font> // set Neopixel type
 <font  color="green"><strong>//#define NEOPIXEL_PIN 4</strong></font> // disable PIN setting，use the correct signal pin in the pin file of the motherboard 
 <font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NEOPIXEL_PIXELS</strong></font> <font  color="green"><strong>30</strong></font> // number of leds
 <font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NEOPIXEL_STARTUP_TEST</strong></font> // the light will show red green and blue sequentially to self-test.</p>
 <p>If you are using displays like LCD2004、12864、mini12864 etc，you can also control RGB from your display directly.</p>
-<p><img src=img/SKR3/SKR3_Marlin18.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin18.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>LED_CONTROL_MENU</strong></font> // And led control to your menu</p>
 <h4 id="filament-sensor">Filament sensor<a class="headerlink" href="#filament-sensor" title="Permanent link">&para;</a></h4>
 <p>Standard filament run out sensors are usually comprised of a microswitch which signals the mainboard of filament status with High or Low level signal.</p>
-<p><img src=img/SKR3/SKR3_Marlin19.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin19.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FILAMENT_RUNOUT_SENSOR</strong></font> // enable filament run out sensor
 <font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FIL_RUNOUT_ENABLED_DEFAULT true</strong></font> // true default to filament run out sensor enanbled 
 <font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NUM_RUNOUT_SENSORS</strong></font> <font  color="green"><strong>1</strong></font> // number of filament run out sensor
 <font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FIL_RUNOUT_STATE LOW </strong></font> // voltage level of the filament runout sensor trigger signal.</p>
 <h4 id="smart-filament-sensorsfs-v10-v20">smart filament sensor(SFS V1.0 / V2.0)<a class="headerlink" href="#smart-filament-sensorsfs-v10-v20" title="Permanent link">&para;</a></h4>
 <p>The Smart filament sensor works by continuously sending signal to the mainboard to communicate filament status</p>
-<p><img src=img/SKR3/SKR3_Marlin20.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin20.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FILAMENT_MOTION_SENSOR</strong></font> // set encoder type
 <font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>FILAMENT_RUNOUT_DISTANCE_MM</strong></font> <font  color="green"><strong>3</strong></font> // set sensitivity，SFS V1.0 nominal setting should be 7mm，which means if no signal of filament movement is detected after 7mm of filament travel command, filament error will be triggered ，SFS V2.0 nominal setting should be 3mm</p>
 <p>The settings below also need to be set to instruct the printer to park the nozzle after filament error is detected.</p>
-<p><img src=img/SKR3/SKR3_Marlin21.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin21.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NOZZLE_PARK_FEATURE </strong></font> // park nozzle</p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 }</strong></font> //set the X,Y,and Z offset coordinate of the nozzle</p>
-<p><img src=img/SKR3/SKR3_Marlin22.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin22.webp width="600" /></p>
 <p><font  color="pink"><strong>#define</strong></font> <font  color="blue"><strong>ADVANCED_PAUSE_FEATURE</strong></font> // retraction setting of nozzle park movement and filament purge distance after print is resumed.</p>
 <h4 id="esp3d">ESP3D<a class="headerlink" href="#esp3d" title="Permanent link">&para;</a></h4>
 <p>The serial port between ESP8266 and Marlin on the motherboard is UART3</p>
-<p><img src=img/SKR3/SKR3_Marlin23.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin23.webp width="600" /></p>
 <p>the newest ESP3D firmware can be found at https://github.com/luc-github/ESP3D ,compile your own binary file and rename to <code>esp3d.bin</code>, copy to 
 the root directory of the sd card, insert into the motherboard and press reset button. The bootloader will update the firmware to ESP8266 automatically. If updated successfully, the file will be renamed to ESP3D.CUR</p>
 <h4 id="compile-firmware">Compile firmware<a class="headerlink" href="#compile-firmware" title="Permanent link">&para;</a></h4>
 <p>1、Click <code>√</code> to compile firmware</p>
-<p><img src=img/SKR3/SKR3_Marlin24.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin24.webp width="600" /></p>
 <p>2、Copy the compiled <code>firmware.bin</code> to SD card and insert to motherboard to update firmware</p>
-<p><img src=img/SKR3/SKR3_Marlin25.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Marlin25.webp width="600" /></p>
 <h2 id="klipper"><strong>Klipper</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h2>
 <h3 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permanent link">&para;</a></h3>
 <h4 id="download-os-image">Download OS image<a class="headerlink" href="#download-os-image" title="Permanent link">&para;</a></h4>
 <p>Download your preferred OS image with build in WebUI，popular choices are Fluidd, Mainsail etc.</p>
 <p>Fluidd：https://github.com/fluidd-core/FluiddPI/releases</p>
-<p><img src=img/SKR3/SKR3_Klipper1.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Klipper1.webp width="600" /></p>
 <p>Mainsail：https://github.com/mainsail-crew/MainsailOS/releases</p>
-<p><img src=img/SKR3/SKR3_Klipper2.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Klipper2.webp width="600" /></p>
 <p>Or refer to <font  color="blue"><strong>Klipper official installation guide</strong></font> using Octoprint</p>
 <h4 id="download-and-install-raspberry-pi-imager">Download and install Raspberry Pi Imager<a class="headerlink" href="#download-and-install-raspberry-pi-imager" title="Permanent link">&para;</a></h4>
 <p>Install the official raspberry pi imager https://www.raspberrypi.com/software/</p>
@@ -7175,23 +7175,23 @@ the root directory of the sd card, insert into the motherboard and press reset b
 <p>1、Reinsert the SD card</p>
 <p>2、Find“fluiddpi-wpa-supplicant.txt”or “mainsail-wpa-supplicant.txt”in the SD card root directory, open it with VSCode (do not open it with windows 
 notepad)</p>
-<p><img src=img/SKR3/SKR3_WIFI1.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_WIFI1.webp width="600" /></p>
 <p>3、delete <code>#</code> ,insert the correct wifi SSID and password then save the file，</p>
-<p><img src=img/SKR3/SKR3_WIFI2.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_WIFI2.webp width="600" /></p>
 <h3 id="ssh-connect-to-raspberry-pi">ssh connect to raspberry pi<a class="headerlink" href="#ssh-connect-to-raspberry-pi" title="Permanent link">&para;</a></h3>
 <p>1、Install the ssh application Mobaxterm：https://mobaxterm.mobatek.net/download-home-edition.html</p>
 <p>2、Insert SD card to raspberry pi，wait for system to load after power one，aprox. 1-2min</p>
 <p>3、The raspberry pi will automatically be assigned a IP address after successfully connected to the network</p>
 <p>4、Find the raspberry pi IP address in your router page</p>
-<p><img src=img/SKR3/SKR3_WIFI3.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_WIFI3.webp width="600" /></p>
 <p>5、Or use the https://angryip.org/ tool，scan all IP address in the current network organize by names, find the IP named Fluidd or Mailsail like shown 
 below</p>
-<p><img src=img/SKR3/SKR3_WIFI4.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_WIFI4.webp width="600" /></p>
 <p>6、Open Mobaxtermand click“Session”，and click“SSH”，inset the raspberry pi IP into Remote host and click“OK”</p>
 <p><font  color="red"><strong>NOTE：your computer and the raspberry pi needs to be in the same network </strong></font></p>
-<p><img src=img/SKR3/SKR3_WIFI5.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_WIFI5.webp width="600" /></p>
 <p>7、login as：pi password：raspberry</p>
-<p><img src=img/SKR3/SKR3_WIFI6.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_WIFI6.webp width="600" /></p>
 <h3 id="compile-firmware_1">Compile firmware<a class="headerlink" href="#compile-firmware_1" title="Permanent link">&para;</a></h3>
 <p>1、After ssh successfully connected to the raspberry pi, enter in terminal:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>cd ~/klipper/
@@ -7206,23 +7206,23 @@ below</p>
 <li>Clock Reference (25 MHz crystal) ---&gt; </li>
 <li>Communication interface (USB (on PA11/PA12)) ---&gt;</li>
 </ul>
-<p><img src=img/SKR3/SKR3_Firmware1.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Firmware1.webp width="600" /></p>
 <p>2、Press <code>q</code> to exit, and <code>Yes</code> when asked to save the configuration</p>
 <p>3、Run make to compile firmware，“klipper.bin”file will be generated in home/pi/kliiper/out folder when make is finished, download it onto your 
 computer using the ssh application.</p>
-<p><img src=img/SKR3/SKR3_Firmware2.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Firmware2.webp width="600" /></p>
 <p>4、Rename klipper.bin to“firmware.bin”，copy to SD card to update firmware</p>
 <p>5、Enter：ls /dev/serial/by-id/in command line to check motherboad ID to confirm whether firmware is updated successfully like showm below.</p>
-<p><img src=img/SKR3/SKR3_Firmware3.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Firmware3.webp width="600" /></p>
 <p>copy and save this ID，it is needed when modifying klipper config</p>
 <h3 id="configure-klipper">Configure Klipper<a class="headerlink" href="#configure-klipper" title="Permanent link">&para;</a></h3>
 <p>1、Enter your raspberry pi IP address into your browser to open the webUI，find the reference config for motherboard in the directory shown below，if 
 there is no such config available, update your klipper source code to the newest version or download from github:https://github.com/bigtreetech/SKR-3</p>
-<p><img src=img/SKR3/SKR3_Klipper1.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Klipper1.webp width="600" /></p>
 <p>2、Upload your finished config file into Configuration Files, and rename to <code>printer.cfg</code></p>
-<p><img src=img/SKR3/SKR3_Klipper2.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Klipper2.webp width="600" /></p>
 <p>3、Insert the correct motherboad ID</p>
-<p><img src=img/SKR3/SKR3_Klipper3.png width="600" /></p>
+<p><img src=img/SKR3/SKR3_Klipper3.webp width="600" /></p>
 <p>4、Refer to https://www.klipper3d.org/Overview.html for detailed configuration guide according to your machine type.</p>
 <h3 id="firmware-update">Firmware update<a class="headerlink" href="#firmware-update" title="Permanent link">&para;</a></h3>
 <ol>

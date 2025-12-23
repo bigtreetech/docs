@@ -6198,7 +6198,7 @@
 
 
 <h1 id="mmb-can-v10">MMB CAN V1.0<a class="headerlink" href="#mmb-can-v10" title="Permanent link">&para;</a></h1>
-<p><img src=img/MMB_CAN/MMB_CAN_Title.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Title.webp width="600" /></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH MMB CAN V1.0 is a control board for multi-material 3D printing system, e.g., ERCF. It simplifies wiring by communicating via USB or CAN.</p>
 <p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/bigtreetech-mmb">BIGTREETECH Official Website</a></p>
@@ -6270,24 +6270,24 @@
 <h2 id="firmware-support"><strong>Firmware Support</strong><a class="headerlink" href="#firmware-support" title="Permanent link">&para;</a></h2>
 <p>Currently, MMB CAN V1.0 only supports Klipper firmware.</p>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/MMB_CAN/MMB_CAN_Dimension.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Dimension.webp width="600" /></p>
 <h2 id="peripheral-interface"><strong>Peripheral Interface</strong><a class="headerlink" href="#peripheral-interface" title="Permanent link">&para;</a></h2>
 <h3 id="pin-description">Pin Description<a class="headerlink" href="#pin-description" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_Pin.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Pin.webp width="600" /></p>
 <h2 id="interface-introduction"><strong>Interface Introduction</strong><a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
 <h3 id="usb-power-supply">USB Power Supply<a class="headerlink" href="#usb-power-supply" title="Permanent link">&para;</a></h3>
 <p>After the board is powered on, the power indicator light will turn on, indicating that the power supply is normal. The VUSB label on the board is the power selection terminal, and a jumper is needed to short VUSB only when using USB to power the board.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_USB.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_USB.webp width="600" /></p>
 <h3 id="servo-wiring">Servo Wiring<a class="headerlink" href="#servo-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_Servo.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Servo.webp width="600" /></p>
 <h3 id="rgb-ws2812-wiring">RGB-WS2812 Wiring<a class="headerlink" href="#rgb-ws2812-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_WS2812.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_WS2812.webp width="600" /></p>
 <h3 id="sensor-eg-crt5000-infrared-sensor-wiring">Sensor (e.g., CRT5000 infrared sensor) Wiring<a class="headerlink" href="#sensor-eg-crt5000-infrared-sensor-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_Sensor.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Sensor.webp width="600" /></p>
 <h3 id="i2c-eg-aht10-temperature-and-humidity-sensor-wiring">I2C (e.g., AHT10 temperature and humidity sensor) Wiring<a class="headerlink" href="#i2c-eg-aht10-temperature-and-humidity-sensor-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_I2C.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_I2C.webp width="600" /></p>
 <h3 id="endstop-eg-hall-sensor-wiring">Endstop (e.g., Hall sensor) Wiring<a class="headerlink" href="#endstop-eg-hall-sensor-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_Endstop.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Endstop.webp width="600" /></p>
 <h2 id="klipper-firmware"><strong>Klipper Firmware</strong><a class="headerlink" href="#klipper-firmware" title="Permanent link">&para;</a></h2>
 <h3 id="flashing-canboot">Flashing CANBOOT<a class="headerlink" href="#flashing-canboot" title="Permanent link">&para;</a></h3>
 <p>Note: CanBoot is for updating MCU firmware directly via CAN bus. If you prefer DFU, skip this step. </p>
@@ -6306,12 +6306,12 @@
 </ol>
 <p><strong>make menuconfig</strong></p>
 <p>configure as shown in the provided image:</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper1.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper1.webp width="600" /></p>
 <p>​   3.Enter <strong>make</strong> to compile the firmware. The resulting <strong>canboot.bin</strong> file will be in the <strong>home/biqu/CanBoot/out</strong> folder. This can be directly downloaded to your computer from the SSH software's left panel.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper2.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper2.webp width="600" /></p>
 <p>​   4.Hold the <strong>Boot</strong> button and connect the board to Raspberry Pi/CB1 via Type-C cable to enter DFU mode.</p>
 <p>​   5.Enter <strong>lsusb</strong> in the SSH terminal to query the DFU device ID.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper3.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper3.webp width="600" /></p>
 <p>​   6.Enter the following command to flash CanBoot</p>
 <p>​     <strong>make flash FLASH_DEVICE=0483:df11</strong></p>
 <p>​     replacing <strong>0483:df11</strong> with the actual device ID found in the previous step.</p>
@@ -6323,7 +6323,7 @@
 <p>​       <strong>make menuconfig</strong></p>
 <p>​       Configure the firmware as shown in the provided image (update Klipper </p>
 <p>​       firmware to the latest version if options are not available).</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper4.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper4.webp width="600" /></p>
 <p><strong>[*] Enable extra low-level configuration options</strong></p>
 <p><strong>Micro-controller Architecture (STMicroelectronics STM32) ---&gt;</strong></p>
 <p><strong>Processor model (STM32G0B1) ---&gt;</strong></p>
@@ -6338,7 +6338,7 @@
 <p><strong>(1000000) CAN bus speed</strong></p>
 <p>2.After configuration, press <strong>q</strong> to exit, and select <strong>Yes</strong> when prompted to save.</p>
 <p>3.Enter <strong>make</strong> to compile the firmware. The resulting <strong>klipper.bin</strong> file will be in the <strong>home/pi/klipper/out</strong> folder. This can be directly downloaded to your computer from the SSH software's left panel.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper5.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper5.webp width="600" /></p>
 <h3 id="firmware-update-via-canboot">Firmware Update via CANBOOT<a class="headerlink" href="#firmware-update-via-canboot" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
@@ -6352,20 +6352,20 @@
 <p>​   then enter</p>
 <p>​   <strong>python3 flash_can.py -i can0 -q</strong></p>
 <p>​   query the canbus ID (make sure the CAN cable is connected and powered on) as shown in the figure below, the UUID of the device has been found:</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper6.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper6.webp width="600" /></p>
 <p>​   3.Enter</p>
 <p>​   <strong>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u</strong> <strong>be69315a613c</strong></p>
 <p>​   The <strong>be69315a613c</strong> is replaced with the actual UUID. Note: <strong>klipper.bin</strong>needs to be generated in advance using the <strong>make</strong> command, and the <strong>application start offset</strong> of CanBoot is <strong>8KiB offset</strong>, so <strong>Klipper's</strong> <strong>menuconfig Bootloader offset</strong> should also be <strong>8KiB bootloader</strong>, as shown in the  following figure.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper7.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper7.webp width="600" /></p>
 <p>​   4.Query again with</p>
 <p>​   <strong>python3 flash_can.py -i can0 -q</strong></p>
 <p>​   The Application should now show Klipper, indicating it is running correctly.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper8.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper8.webp width="600" /></p>
 <h3 id="firmware-update-via-dfu">Firmware Update via DFU<a class="headerlink" href="#firmware-update-via-dfu" title="Permanent link">&para;</a></h3>
 <p>Raspberry Pi or CB1 update via DFU.</p>
 <p>1、Hold the <strong>Boot</strong> button and connect the board to Raspberry Pi/CB1 via Type-C cable to enter DFU mode.</p>
 <p>2、Enter <strong>lsusb</strong> in the SSH terminal to query the DFU device ID.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper9.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper9.webp width="600" /></p>
 <p>3、Enter</p>
 <p><strong>cd klipper</strong></p>
 <p>navigate to the Klipper directory, and enter</p>
@@ -6381,7 +6381,7 @@
 <p>6、For CAN bus communication, disconnect the Type-C cable after flashing.</p>
 <h3 id="can-bus-configuration">CAN bus Configuration<a class="headerlink" href="#can-bus-configuration" title="Permanent link">&para;</a></h3>
 <p>Use with BIGTREETECH U2C module.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper10.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper10.webp width="600" /></p>
 <p>1、Enter the following command in the SSH terminal:</p>
 <p><strong>sudo nano /etc/network/interfaces.d/can0</strong></p>
 <p>Add the following content:</p>
@@ -6398,9 +6398,9 @@
 <h3 id="configuring-klipper">Configuring Klipper<a class="headerlink" href="#configuring-klipper" title="Permanent link">&para;</a></h3>
 <p>1、In your computer's web browser, enter the Raspberry Pi's IP address, and as shown in the path below, download the reference configuration file <strong>sample-bigtreetech-mmb-canbus.cfg</strong>. If the file is not available, update Klipper firmware to the latest version or download from:</p>
 <p>https://github.com/bigtreetech/MMB</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper11.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper11.webp width="600" /></p>
 <p>2、Upload the configuration file to Configuration Files.</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper12.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper12.webp width="600" /></p>
 <p>3、Add the board configuration to the "printer.cfg" file:<strong>[include sample-bigtreetech-mmb-canbus.cfg]</strong></p>
 <p>4、Modify the ID number in the configuration file to match the actual ID of the board (USB serial or canbus).</p>
 <p>5、Configure the module's specific functions according to the instructions at https://www.klipper3d.org/Overview.html</p>

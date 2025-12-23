@@ -5912,7 +5912,7 @@
 
 
 <h1 id="mmb-can-v10">MMB CAN V1.0<a class="headerlink" href="#mmb-can-v10" title="Permanent link">&para;</a></h1>
-<p><img src=img/MMB_CAN/MMB_CAN_Title.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Title.webp width="600" /></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印团队针对多色挤出机制作的挤出控制板，可以通过 USB 或者 CAN 进行通讯，大大简化接线。</p>
 <h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
@@ -5983,24 +5983,24 @@
 <h2 id="_4"><strong>固件支持</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>此产品当前仅支持 Klipper 固件</p>
 <h2 id="_5"><strong>尺寸</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p><img src=img/MMB_CAN/MMB_CAN_Dimension.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Dimension.webp width="600" /></p>
 <h2 id="_6"><strong>外围设备接口</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <h3 id="_7">引脚说明<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_Pin.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Pin.webp width="600" /></p>
 <h2 id="_8"><strong>接口介绍</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <h3 id="usb">USB 供电<a class="headerlink" href="#usb" title="Permanent link">&para;</a></h3>
 <p>主板上电之后， 电源灯会亮起，表示供电正常。板上标识 VUSB 是电源选择端，仅当使用USB 给主板供电时，才需要使用跳帽将 VUSB 短接。</p>
-<p><img src=img/MMB_CAN/MMB_CAN_USB.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_USB.webp width="600" /></p>
 <h3 id="servo">Servo 接线<a class="headerlink" href="#servo" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_Servo.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Servo.webp width="600" /></p>
 <h3 id="rgb-ws2812">RGB-WS2812 接线<a class="headerlink" href="#rgb-ws2812" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_WS2812.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_WS2812.webp width="600" /></p>
 <h3 id="sensor-crt5000">Sensor（如 CRT5000 红外传感器）接线<a class="headerlink" href="#sensor-crt5000" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_Sensor.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Sensor.webp width="600" /></p>
 <h3 id="i2c-aht10">I2C（如 AHT10 温湿度传感器）接线<a class="headerlink" href="#i2c-aht10" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_I2C.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_I2C.webp width="600" /></p>
 <h3 id="endstop">Endstop（如霍尔传感器）接线<a class="headerlink" href="#endstop" title="Permanent link">&para;</a></h3>
-<p><img src=img/MMB_CAN/MMB_CAN_Endstop.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Endstop.webp width="600" /></p>
 <h2 id="klipper"><strong>Klipper 固件</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h2>
 <h3 id="canboot">烧录 CANBOOT<a class="headerlink" href="#canboot" title="Permanent link">&para;</a></h3>
 <p>注意：CanBoot 旨在通过 CAN bus 接口直接更新 MCU 固件，若您更倾向于使用 DFU 更新方法，请跳过此步骤。</p>
@@ -6019,12 +6019,12 @@
 </ol>
 <p><strong>make menuconfig</strong></p>
 <p>并按照下图配置:</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper1.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper1.webp width="600" /></p>
 <p>​   3.输入 <strong>make</strong> 编译固件，当 <strong>make</strong> 执行完成后会在 <strong>home/biqu/CanBoot/out</strong> 文件夹中生成我们所需要的“<strong>canboot.bin</strong>”固件，在 SSH 软件左侧可以直接下载到电脑中</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper2.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper2.webp width="600" /></p>
 <p>​   4.请按住 <strong>Boot</strong> 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式</p>
 <p>​   5.在 SSH 终端命令行中输入 <strong>lsusb</strong> 查询 DFU 设备 ID</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper3.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper3.webp width="600" /></p>
 <p>​   6.请输入以下命令以烧录 CanBoot</p>
 <p>​     <strong>make flash FLASH_DEVICE=0483:df11</strong></p>
 <p>​   其中“<strong>0483:df11</strong>”需替换为上一步中查询到的实际设备 ID</p>
@@ -6034,7 +6034,7 @@
 <p>​       <strong>cd ~/klipper/</strong></p>
 <p>​       <strong>make menuconfig</strong></p>
 <p>​       使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper4.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper4.webp width="600" /></p>
 <p><strong>[*] Enable extra low-level configuration options</strong></p>
 <p><strong>Micro-controller Architecture (STMicroelectronics STM32) ---&gt;</strong></p>
 <p><strong>Processor model (STM32G0B1) ---&gt;</strong></p>
@@ -6049,7 +6049,7 @@
 <p><strong>(1000000) CAN bus speed</strong></p>
 <p>2.配置选择完成后, 输入‘<strong>q</strong>’退出配置界面，当询问是否保存配置时选择“<strong>Yes</strong>”；</p>
 <p>3.输入 <strong>make</strong> 编译固件，当 <strong>make</strong> 执行完成后会在 <strong>home/pi/klipper/out</strong> 文件夹中生成我们所需要的<strong>“klipper.bin”</strong>固件，在 SSH 软件左侧可以直接下载到电脑中</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper5.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper5.webp width="600" /></p>
 <h3 id="canboot_1">通过 CANBOOT 进行固件更新<a class="headerlink" href="#canboot_1" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
@@ -6063,20 +6063,20 @@
 <p>​   然后输入</p>
 <p>​   <strong>python3 flash_can.py -i can0 -q</strong></p>
 <p>​   查询 canbus ID （需提前接好 CAN 线并通电），如下图已找到设备的 UUID</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper6.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper6.webp width="600" /></p>
 <p>​   3.输入</p>
 <p>​   <strong>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u</strong> <strong>be69315a613c</strong></p>
 <p>​   替换为实际的 UUID，注意：<strong>klipper.bin</strong> 需要提前 <strong>make</strong> 生成出来，并且 <strong>CanBoot</strong>的 <strong>Application start offset</strong> 为 <strong>8KiB offset</strong>，所以 <strong>Klipper</strong> 的 <strong>menuconfig</strong> 中 <strong>Bootloader offset</strong> 也要为 <strong>8KiB bootloader</strong>，如下图已经烧录成功。</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper7.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper7.webp width="600" /></p>
 <p>​   4.再次输入</p>
 <p>​   <strong>python3 flash_can.py -i can0 -q</strong></p>
 <p>​   查询，此时 <strong>Application</strong> 由之前的 <strong>CanBoot</strong> 变为 <strong>Klipper</strong>，代表 Klipper 已经正常运行</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper8.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper8.webp width="600" /></p>
 <h3 id="dfu">通过 DFU 进行固件更新<a class="headerlink" href="#dfu" title="Permanent link">&para;</a></h3>
 <p>树莓派或 CB1 通过 DFU 更新</p>
 <p>1、请按住 <strong><code>Boot</code></strong> 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式。</p>
 <p>2、在 SSH 终端命令行中输入 <strong>lsusb</strong> 查询 DFU 设备 ID</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper9.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper9.webp width="600" /></p>
 <p>3、输入</p>
 <p><strong>cd klipper</strong></p>
 <p>跳转到 klipper 目录下，输入</p>
@@ -6091,7 +6091,7 @@
 <p>6、如果使用 CAN bus 通信，烧录完成后，请拔下 Type-C 数据线。</p>
 <h3 id="can-bus">CAN bus 配置<a class="headerlink" href="#can-bus" title="Permanent link">&para;</a></h3>
 <p>搭配 BIGTREETECH U2C 模块使用</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper10.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper10.webp width="600" /></p>
 <p>1、在 SSH 终端中输入:</p>
 <p><strong>sudo nano /etc/network/interfaces.d/can0</strong></p>
 <p>命令,新增以下内容:</p>
@@ -6108,9 +6108,9 @@
 <h3 id="klipper_2"><strong>配置 Klipper</strong><a class="headerlink" href="#klipper_2" title="Permanent link">&para;</a></h3>
 <p>1、在电脑的浏览器中输入树莓派的 IP 访问，如下图所示的路径中下载名为“<strong>sample-bigtreetech-mmb-canbus.cfg</strong>”的参考配置，如果找不到此文件，请更新 Klipepr 固件源码到最新版本，或者到 GitHub 下载</p>
 <p>https://github.com/bigtreetech/MMB</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper11.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper11.webp width="600" /></p>
 <p>2、将主板的配置文件上传到 Configuration Files 中;</p>
-<p><img src=img/MMB_CAN/MMB_CAN_Klipper12.png width="600" /></p>
+<p><img src=img/MMB_CAN/MMB_CAN_Klipper12.webp width="600" /></p>
 <p>3、并在“printer.cfg”文件中添加此主板的配置:<strong>[include sample-bigtreetech-mmb-canbus.cfg]</strong></p>
 <p>4、将配置文件中的 ID 号修改为主板实际的 ID（USB serial 或者 canbus）</p>
 <p>5、按照下方链接的说明配置模块的具体功能： https://www.klipper3d.org/Overview.html</p>

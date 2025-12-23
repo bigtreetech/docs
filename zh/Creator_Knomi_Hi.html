@@ -6516,7 +6516,7 @@
 </tbody>
 </table>
 <h2 id="_3">尺寸和接口<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<p><img src=img/Creator_Knomi_Hi/size.png width="400"/>
+<p><img src=img/Creator_Knomi_Hi/size.webp width="400"/>
 <img src=img/Creator_Knomi_Hi/port.jpg width="400"/></p>
 <h2 id="_4">安装指南<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <blockquote>
@@ -6533,7 +6533,7 @@
 </li>
 <li>
 <p>第二步：断开线束连接<br/>原装前盖卸下后，按照图中箭头所示，拔下两个接口，卸下线束。<br/>
-<img src=img/Creator_Knomi_Hi/wring.png width="400"/>
+<img src=img/Creator_Knomi_Hi/wring.webp width="400"/>
 <br/></p>
 </li>
 <li>
@@ -6564,27 +6564,27 @@
 <ul>
 <li>获取打印机IP地址</li>
 <li>①   点击<code>设置</code><br/>
-    <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/></li>
+    <img src=img/Creator_Knomi_Hi/hi_1.webp width="600"/></li>
 <li>
 <p>②点击 <code>网络</code> -&gt; ③ <code>IP</code><br/>
-    <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/></p>
+    <img src=img/Creator_Knomi_Hi/hi_2.webp width="600"/></p>
 </li>
 <li>
 <p>使电脑连接到与打印机同一个局域网下, Creality Hi 打印机的端口号默认为 4408，我们可以通过 <code>IP + 端口号</code> 访问打印机，例如我们打印机的IP为 <code>192.168.3.81</code>，我们只需要在浏览器的地址栏输入 <code>192.168.3.81:4408</code> 然后访问即可</p>
 </li>
 <li>① -&gt; ② -&gt; ③ <code>Upload Files</code>，选择 <code>Creator_Knomi_Hi_01.00.00.00.cfg</code> 配置文件，上传到打印机中。<br/>
-  <img src=img/Creator_Knomi_Hi/printer_1.png width="600"/></li>
+  <img src=img/Creator_Knomi_Hi/printer_1.webp width="600"/></li>
 <li>打开 <code>printer.cfg</code> 文件添加
   <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[include Creator_Knomi_Hi_01.00.00.00.cfg]
 </code></pre></div>
-  <img src=img/Creator_Knomi_Hi/printer_2.png width="600"/></li>
+  <img src=img/Creator_Knomi_Hi/printer_2.webp width="600"/></li>
 <li>打开 <code>sensorless.cfg</code> 文件，在<code>_HOME_X</code>，<code>_HOME_Y</code>，<code>_HOME_Z</code>三个宏的开头全部都添加：
   <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SET_KNOMI_STATUS VALUE=4
 </code></pre></div>
   在三个宏的末尾全部都添加：
   <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>RESET_KNOMI_STATUS
 </code></pre></div>
-  <img src=img/Creator_Knomi_Hi/printer_3.png width="600"/>
+  <img src=img/Creator_Knomi_Hi/printer_3.webp width="600"/>
   <br/>注意：图中仅截取了“_HOME_X”部分的内容，“_HOME_Y”，“_HOME_Z”部分也需要像“_HOME_X”这样添加对应的内容。</li>
 <li>打开 <code>gcode_macro.cfg</code> 文件，在<code>QUIT_MATERIAL</code>宏中，如下图中的位置添加：
   <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>SET_KNOMI_STATUS VALUE=9
@@ -6592,7 +6592,7 @@
   和
   <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>RESET_KNOMI_STATUS
 </code></pre></div>
-  <img src=img/Creator_Knomi_Hi/printer_4.png width="600"/></li>
+  <img src=img/Creator_Knomi_Hi/printer_4.webp width="600"/></li>
 <li>配置完成后，点击“SAVE &amp; RESTART”重启服务即可应用以上配置。</li>
 </ul>
 <h2 id="_6">用户界面说明<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
@@ -6615,7 +6615,7 @@
   以 <code>iPhone</code> 为例：<br/><ul>
 <li>在你的主屏幕上，前往 <code>设置</code>-&gt; <code>无线局域网</code>。</li>
 <li>打开 <code>无线局域网</code>。你的设备将自动搜索可供使用的无线局域网。<br/>
-<img src=img/Creator_Knomi_Hi/wlan.png width="300"/></li>
+<img src=img/Creator_Knomi_Hi/wlan.webp width="300"/></li>
 <li>轻点名称以 <code>Creator_Knomi_Hi</code> 开头的无线局域网，输入默认密码：<code>987654321</code>。</li>
 <li>连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。</li>
 </ul>
@@ -6655,9 +6655,9 @@
 <ul>
 <li>在打印机上找到 <code>IP</code>，并输入到Web UI上对应的输入栏中。<ul>
 <li>① <code>设置</code><br/>
-  <img src=img/Creator_Knomi_Hi/hi_1.png width="600"/></li>
+  <img src=img/Creator_Knomi_Hi/hi_1.webp width="600"/></li>
 <li>② <code>网络</code> -&gt; ③ <code>IP</code><br/>
-  <img src=img/Creator_Knomi_Hi/hi_2.png width="600"/></li>
+  <img src=img/Creator_Knomi_Hi/hi_2.webp width="600"/></li>
 <li>打印机默认的端口号为 <code>7125</code></li>
 </ul>
 </li>
@@ -6943,7 +6943,7 @@
 <li>将设备连接到Creator Knomi Hi的AP热点。以iPhone为例：<ul>
 <li>在你的主屏幕上，前往 <code>设置</code>-&gt; <code>无线局域网</code>。</li>
 <li>打开 <code>无线局域网</code>。你的设备将自动搜索可供使用的无线局域网。<br/>
-<img src=img/Creator_Knomi_Hi/wlan.png width="300"/> <br/></li>
+<img src=img/Creator_Knomi_Hi/wlan.webp width="300"/> <br/></li>
 <li>轻点名称以 <code>Creator_Knomi_Hi_</code> 开头的无线局域网，输入默认密码：<code>987654321</code>。</li>
 <li>连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。</li>
 </ul>
@@ -6963,14 +6963,14 @@
 <ul>
 <li>如果电脑上没有 CH340 的驱动，请先下载安装驱动 <a href="https://www.wch.cn/downloads/CH341SER_EXE.html">CH341SER.EXE</a></li>
 <li>下载 <a href="https://www.espressif.com/zh-hans/support/download/other-tools">Flash 下载工具</a><br/>
-  <img src=img/Creator_Knomi_Hi/zh/download_esp_tool.png width="800"/></li>
+  <img src=img/Creator_Knomi_Hi/zh/download_esp_tool.webp width="800"/></li>
 <li>下载 <a href="https://github.com/bigtreetech/Creator_Knomi_Hi">Creator Knomi Hi 的固件</a></li>
 <li>按住 Creator Knomi Hi 上的 <code>Boot</code> 按键, 然后通过 <code>Type-C</code> 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口<br/>
   <img src=img/Creator_Knomi_Hi/boot_fw.jpg width="300"/></li>
 <li>打开 <code>flash_download_tool_3.9.8_6.exe</code>, 在弹窗中按照下图配置<br/>
-  <img src=img/Creator_Knomi_Hi/open_esp_tool.png width="400"/></li>
+  <img src=img/Creator_Knomi_Hi/open_esp_tool.webp width="400"/></li>
 <li>烧录软件的配置如下图<br/>
-  <img src=img/Creator_Knomi_Hi/set_esp_tool.png width="400"/><ul>
+  <img src=img/Creator_Knomi_Hi/set_esp_tool.webp width="400"/><ul>
 <li>① 设置.bin文件的烧录地址, 并且前面的复选框都勾选上<ul>
 <li><code>creator_knomi_hi_bootloader.bin</code> 写入到 <code>0x1000</code></li>
 <li><code>creator_knomi_hi_partitions.bin</code> 写入到 <code>0x8000</code></li>

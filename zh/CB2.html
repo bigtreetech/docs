@@ -6346,7 +6346,7 @@
 
 
 <h1 id="cb2">CB2<a class="headerlink" href="#cb2" title="Permanent link">&para;</a></h1>
-<p><img src=img/CB2/CB2_Title.png width="600" /></p>
+<p><img src=img/CB2/CB2_Title.webp width="600" /></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH CB2 是针对树莓派 CM4 缺货问题推出的替代方案,所有输出信号采用 2 个 100PIN微型 BTB 高速连接座与外面扩展底板方便快速连接(包括千兆以太网、HDMI 等)，板载 2.4G、5GWIFI BT5.2。</p>
 <h2 id="_2"><strong>产品特点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
@@ -6396,7 +6396,7 @@
 </tbody>
 </table>
 <h2 id="_4"><strong>尺寸图</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p><img src=img/CB2/CB2_Dimensions.png width="600" /></p>
+<p><img src=img/CB2/CB2_Dimensions.webp width="600" /></p>
 <h2 id="_5"><strong>外设接口</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <h3 id="pin">Pin 脚说明<a class="headerlink" href="#pin" title="Permanent link">&para;</a></h3>
 <table>
@@ -7626,10 +7626,10 @@
 <h2 id="_6"><strong>接口介绍</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <h3 id="sw1">SW1 按键说明<a class="headerlink" href="#sw1" title="Permanent link">&para;</a></h3>
 <p>SW1按住会将eMMC信号线与GND短路，禁止主控与eMMC通信。</p>
-<p><img src=img/CB2/CB2_Interface1.png width="600" /></p>
-<p><img src=img/CB2/CB2_Interface2.png width="600" /></p>
+<p><img src=img/CB2/CB2_Interface1.webp width="600" /></p>
+<p><img src=img/CB2/CB2_Interface2.webp width="600" /></p>
 <h3 id="40-pin-gpio">40 pin GPIO<a class="headerlink" href="#40-pin-gpio" title="Permanent link">&para;</a></h3>
-<p><img src=img/Pi2/Pi2_GPIO.png width="1200" /></p>
+<p><img src=img/Pi2/Pi2_GPIO.webp width="1200" /></p>
 <p>GPIO 引脚的计算方式如下：</p>
 <p>GPIO4_B2 = (‘B’ - ‘A’) * 8 + 2 = 1 * 8 + 2 = gpiochip4/gpio10</p>
 <p>GPIO3_D7 = (‘D’ - ‘A’) * 8 + 7 = 3 * 8 + 7 = gpiochip3/gpio31</p>
@@ -7640,29 +7640,29 @@
 <p>1、下载 balenaEtcher（https://www.balena.io/etcher/）软件，安装并运行。</p>
 <p>2、将 Micro SD 卡通过读卡器插入到电脑。</p>
 <p>3、选择下载到电脑中的镜像。</p>
-<p><img src=img/CB2/CB2_System1.png width="600" /></p>
+<p><img src=img/CB2/CB2_System1.webp width="600" /></p>
 <p>4、选择待烧录的 Micro SD 卡（烧录镜像会将 Micro SD 卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录”</p>
-<p><img src=img/CB2/CB2_System2.png width="600" /></p>
+<p><img src=img/CB2/CB2_System2.webp width="600" /></p>
 <p>5、等待烧录完成</p>
-<p><img src=img/CB2/CB2_System3.png width="600" /></p>
+<p><img src=img/CB2/CB2_System3.webp width="600" /></p>
 <h3 id="emmc">烧录系统到 eMMC<a class="headerlink" href="#emmc" title="Permanent link">&para;</a></h3>
 <p>使用 RKDevTool (Windows) 烧录系统到 eMMC </p>
 <p>下载 RKDevTool 到电脑上并解压。并且注意不要插 MicroSD 卡。</p>
 <p>https://github.com/bigtreetech/CB2</p>
 <p>1、将拨码开关的 4（USBOTG）、3（RPIBOOT）拨到 ON 进入 BOOT 模式</p>
-<p><img src=img/CB2/CB2_System4.png width="600" /></p>
+<p><img src=img/CB2/CB2_System4.webp width="600" /></p>
 <p>2、然后用 Type-C 线插到电脑上。</p>
 <p>3、安装驱动</p>
 <p>​   ①在“设备管理器”中，如果发现“未知设备”意味着电脑缺少驱动</p>
-<p><img src=img/CB2/CB2_System5.png width="600" /></p>
+<p><img src=img/CB2/CB2_System5.webp width="600" /></p>
 <p>​   ② 打开下载的 RKDevTool 中的 DriverAssitant 工具，先点击“①驱动卸载”，再点击“②驱动安装”，这样可以保证安装的驱动为最新版本的。</p>
-<p><img src=img/CB2/CB2_System6.png width="600" /></p>
+<p><img src=img/CB2/CB2_System6.webp width="600" /></p>
 <p>③等待安装完成后，按住“Recovery”键，重新拔插一下 Type-C 线，“设备管理器”会识别出“Rockusb Device”，意味着驱动已经安装成功</p>
-<p><img src=img/CB2/CB2_System7.png width="600" /></p>
+<p><img src=img/CB2/CB2_System7.webp width="600" /></p>
 <p>​   ④打开“RKDevTool”软件</p>
-<p><img src=img/CB2/CB2_System8.png width="600" /></p>
+<p><img src=img/CB2/CB2_System8.webp width="600" /></p>
 <p>注意：软件中的参数默认如图所示，正常情况下仅需要设置④“.img 系统实际的路径”即可。如果您软件中的参数与图中不一致，请手动修改为一致。</p>
-<p><img src=img/CB2/CB2_System9.png width="600" /></p>
+<p><img src=img/CB2/CB2_System9.webp width="600" /></p>
 <p>①找到下载的工具所在的路径</p>
 <p>②打开 RKDevTool 工具</p>
 <p>③软件会识别出一个“LOADER”或者“MASKROOM”的设备</p>
@@ -7678,22 +7678,22 @@
 <p>password: <code>biqu</code></p>
 <p>①运行 sudo nand-sata-install 命令，在弹出的界面中，选择 “2 Boot </p>
 <p>From eMMC - system on eMMC”, 然后选择 “OK”</p>
-<p><img src=img/CB2/CB2_System10.png width="600" /></p>
+<p><img src=img/CB2/CB2_System10.webp width="600" /></p>
 <p>②选择 “Yes”，开始擦除并烧录系统到 eMMC</p>
-<p><img src=img/CB2/CB2_System11.png width="600" /></p>
+<p><img src=img/CB2/CB2_System11.webp width="600" /></p>
 <p>③选择文件系统为 “1 ext4”，然后选择 “OK”</p>
-<p><img src=img/CB2/CB2_System12.png width="600" /></p>
+<p><img src=img/CB2/CB2_System12.webp width="600" /></p>
 <p>④等待烧录完成</p>
-<p><img src=img/CB2/CB2_System13.png width="600" /></p>
+<p><img src=img/CB2/CB2_System13.webp width="600" /></p>
 <p>⑤烧录完成后会弹窗提示是否关机，选择“Power off”关机</p>
-<p><img src=img/CB2/CB2_System14.png width="600" /></p>
+<p><img src=img/CB2/CB2_System14.webp width="600" /></p>
 <p>⑥关机后断电，然后拔出 MicroSD 卡，重新再通电即可从 eMMC 启动</p>
 <h3 id="emmc_1">擦除 eMMC<a class="headerlink" href="#emmc_1" title="Permanent link">&para;</a></h3>
 <p>当不使用 eMMC，而使用 MicroSD 卡作为系统卡时，最好将 eMMC 的数据擦除，以免主板错误的从 eMMC 启动。</p>
 <h4 id="rkdevtool-emmc-windows">使用 RKDevTool 擦除 eMMC (Windows)<a class="headerlink" href="#rkdevtool-emmc-windows" title="Permanent link">&para;</a></h4>
 <p>1、参照“<strong>4.3.1 使用 RKDevTool 烧录系统到 eMMC</strong>”中的步骤，将主板连接到电脑</p>
 <p>2、打开“RKDevTool”软件</p>
-<p><img src=img/CB2/CB2_System15.png width="600" /></p>
+<p><img src=img/CB2/CB2_System15.webp width="600" /></p>
 <p>①找到下载的工具所在的路径</p>
 <p>②打开 RKDevTool 工具</p>
 <p>③软件会识别出一个“LOADER”的设备，如果是“MASKROOM”则说明 eMMC中没有数据，不需要擦除</p>
@@ -7703,20 +7703,20 @@
 <h4 id="microsd-emmc_1">从 MicroSD 卡启动系统后擦除 eMMC<a class="headerlink" href="#microsd-emmc_1" title="Permanent link">&para;</a></h4>
 <p>1、参照“<strong>4.3.2 使用 MicroSD 卡烧录系统到 eMMC</strong>”中的步骤，登录到系统终端</p>
 <p>2、运行 sudo mkfs /dev/mmcblk1 命令，然后输入“y”确认。</p>
-<p><img src=img/CB2/CB2_System16.png width="600" /></p>
+<p><img src=img/CB2/CB2_System16.webp width="600" /></p>
 <h2 id="_9"><strong>系统配置</strong><a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
 <h3 id="_10">使用网线<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
 <p>网线即插即用，不需要额外的设置</p>
 <h3 id="wifi">设置 WiFi<a class="headerlink" href="#wifi" title="Permanent link">&para;</a></h3>
 <p>系统镜像烧录完成后，MicroSD 卡会有一个被电脑识别的 FAT32 分区，此分区下有个名为"system.cfg" 的配置文件，打开后将 Your SSID 替换为实际的 WIFI 名称，Your Password 替换为实际的密码</p>
-<p><img src=img/CB2/CB2_System17.png width="600" /></p>
+<p><img src=img/CB2/CB2_System17.webp width="600" /></p>
 <h3 id="overlays">配置 overlays<a class="headerlink" href="#overlays" title="Permanent link">&para;</a></h3>
 <p>打开 BOOT 分区下的 armbianEnv.txt 文件,设置 overlays 的值。配置文件中同一时间仅支持打开一行 overlays，如果打开了多行 overlays 的配置，只会生效最后一行的配置。如果有打开多个 overlays 配置的需求，可以将多个配置的内容放在同一行overlays 后面，并且多个配置中间用一个空格隔开。例如我们需要同时使用 DSI 屏幕、mcp2515 SPI 转 CAN 模块，和 I2C1：</p>
 <p>overlays=dsi mcp2515 i2c1</p>
-<p><img src=img/CB2/CB2_System18.png width="600" /></p>
+<p><img src=img/CB2/CB2_System18.webp width="600" /></p>
 <h3 id="_11">配置显示屏<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>1、打开 BOOT 分区下的 armbianEnv.txt 文件</p>
-<p><img src=img/CB2/CB2_System19.png width="600" /></p>
+<p><img src=img/CB2/CB2_System19.webp width="600" /></p>
 <p>2、overlays 默认设置为 hdmi，代表系统默认使用 hdmi 屏幕。可以将其修改为实际使用的屏幕，可设置的选项如下：</p>
 <p>· "hdmi": <a href="https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0">HDMI 接口的屏幕</a></p>
 <p>· "dsi": <a href="https://biqu.equipment/collections/lcd/products/bigtreetech-pi-tft43-v2-0-screen-board">DSI接口的屏幕</a></p>
@@ -7725,27 +7725,27 @@
 <p>其中“tft_35”还有一个参数“tft35_spi_rotate”在系统级旋转显示界面，默认的“0”代表不旋转，可使用的参数还有“90”，“180”，“270”。</p>
 <p><strong>注意：</strong>屏幕只能选择使用其中的一个，无法同时使用多个屏幕</p>
 <p>3、设置 KlipperScreen，打开 BOOT 分区下的 system.cfg 文件，设置屏幕的类<code>ks_src</code>，和旋转角度<code>ks_angle</code></p>
-<p><img src=img/CB2/CB2_System20.png width="600" /></p>
+<p><img src=img/CB2/CB2_System20.webp width="600" /></p>
 <h3 id="spi-can">SPI 转 CAN 的使用<a class="headerlink" href="#spi-can" title="Permanent link">&para;</a></h3>
 <p>打开 BOOT 分区下的 armbianEnv.txt 文件，将“mcp2515”添加到 overlays 的配置中</p>
-<p><img src=img/CB2/CB2_System21.png width="600" /></p>
+<p><img src=img/CB2/CB2_System21.webp width="600" /></p>
 <h3 id="csi-crowsnest">CSI 相机使用及 crowsnest 配置<a class="headerlink" href="#csi-crowsnest" title="Permanent link">&para;</a></h3>
 <p>无论是 rpi v1.3 的 ov5647 还是 rpi v2 的 imx219 均不需要在 armbianEnv.txt 文件中配置 overlays，即插即用。</p>
 <p>crowsnest.conf 文件中的配置如下图所示：</p>
 <p><font  color="blue"><strong>device: /dev/video0</strong></font> # CSI 相机的节点固定为 video0</p>
 <p><font  color="blue"><strong>custom_flags: --format=UYVY</strong></font> # 当前系统 CSI 相机不支持默认的 YUYV，需要设置为支持的 UYVY 格式</p>
-<p><img src=img/CB2/CB2_System22.png width="600" /></p>
+<p><img src=img/CB2/CB2_System22.webp width="600" /></p>
 <h3 id="_12">蓝牙的使用<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
 <p>1、扫描蓝牙设备，输入如下命令，出现如下列表的蓝牙设备，如下图</p>
 <p><font  color="blue"><strong>bluetoothctl --timeout 15 scan on</strong></font></p>
-<p><img src=img/CB2/CB2_System23.png width="600" /></p>
+<p><img src=img/CB2/CB2_System23.webp width="600" /></p>
 <p>2、找到自己的蓝牙设备，比如我的蓝牙设备名字是 HONOR xSport PRO，在设备列表中找到对应的蓝牙 MAC ID 如下图</p>
-<p><img src=img/CB2/CB2_System24.png width="600" /></p>
+<p><img src=img/CB2/CB2_System24.webp width="600" /></p>
 <p>3、连接蓝牙设备，输入如下命令，连接成功如下图</p>
 <p><font  color="blue"><strong>bluetoothctl connect E0:9D:FA:50:CD:4F</strong></font></p>
-<p><img src=img/CB2/CB2_System25.png width="600" /></p>
+<p><img src=img/CB2/CB2_System25.webp width="600" /></p>
 <p>①若出现如下图输出，请重新打开蓝牙设备，然后重新按 1 和 2 的步骤连接蓝牙设备</p>
-<p><img src=img/CB2/CB2_System26.png width="600" /></p>
+<p><img src=img/CB2/CB2_System26.webp width="600" /></p>
 <p>②若如下图输出，请输入如下命令，然后重新进行 1 和 2 步骤</p>
 <p><font  color="blue"><strong>bluetoothctl remove E0:9D:FA:50:CD:4F</strong></font> <font  color="red"><strong>(您的蓝牙设备对应的MAC ID)</strong></font></p>
 <p><font  color="blue"><strong>rfkill block bluetooth</strong></font></p>
@@ -7753,25 +7753,25 @@
 <p><font  color="blue"><strong>rfkill unblock bluetooth</strong></font></p>
 <p><font  color="blue"><strong>pulseaudio -k</strong></font></p>
 <p><font  color="blue"><strong>pulseaudio –start</strong></font></p>
-<p><img src=img/CB2/CB2_System27.png width="600" /></p>
+<p><img src=img/CB2/CB2_System27.webp width="600" /></p>
 <p>4、 蓝牙使用中途退出语音播放功能，如果不能再次使用蓝牙，需要手动删除对应的播放进程，用 ps 命令查看播放的进程号，然后用 kill -9 进程号 删除对应的播放进程。如下图所示</p>
-<p><img src=img/CB2/CB2_System28.png width="600" /></p>
+<p><img src=img/CB2/CB2_System28.webp width="600" /></p>
 <h3 id="35mm">3.5mm 圆口耳机设置<a class="headerlink" href="#35mm" title="Permanent link">&para;</a></h3>
 <p>1、输入命令: <font  color="blue"><strong>aplay -l</strong></font></p>
 <p>查看对应的声卡，如下图所示：（由图所示耳机口的声卡对应的是 <font  color="blue"><strong>card 0</strong></font>).</p>
-<p><img src=img/CB2/CB2_System29.png width="600" /></p>
+<p><img src=img/CB2/CB2_System29.webp width="600" /></p>
 <p>2、输入命令:</p>
 <p><font  color="blue"><strong>amixer -c 0 contents </strong></font><strong>(0 表示的上述的 <font  color="blue"></strong>aplay -l<strong></font> 所找到的 card 0)</strong></p>
 <p>查看播放通道和录音通道设置，如下图所示：</p>
-<p><img src=img/CB2/CB2_System30.png width="600" /></p>
+<p><img src=img/CB2/CB2_System30.webp width="600" /></p>
 <p>3、输入命令：</p>
 <p><font  color="blue"><strong>amixer -c 0 cset numid=1 3</strong></font></p>
 <p>设置播放通道，如下图所示：</p>
-<p><img src=img/CB2/CB2_System31.png width="600" /></p>
+<p><img src=img/CB2/CB2_System31.webp width="600" /></p>
 <p>4、输入命令:</p>
 <p><font  color="blue"><strong>amixer -c 0 cset numid=2 1</strong></font></p>
 <p>设置录音通道，如下图所示</p>
-<p><img src=img/CB2/CB2_System32.png width="600" /></p>
+<p><img src=img/CB2/CB2_System32.webp width="600" /></p>
 <p>5、输入如下命令播放音频，音频文件目录 xxx 加音频文件名 xxxxx.wav</p>
 <p><font  color="blue"><strong>aplay -D plughw:0,0 /xxx/xxxxx.wav</strong></font></p>
 <p>6、输入如下命令录音（其中 10 表示录音 10 秒），录音存放的目录是 xxx，文件名 xxxx.wav:</p>
@@ -7783,13 +7783,13 @@
 <p>2、通电后等待系统启动，大概 1~2 分钟</p>
 <p>3、设备连上 WIFI 或者插上网线后，会被自动分配一个 IP</p>
 <p>4、进入路由器管理界面找到设备的 IP（这里应为 BTT-CB2）</p>
-<p><img src=img/CB2/CB2_System33.png width="600" /></p>
+<p><img src=img/CB2/CB2_System33.webp width="600" /></p>
 <p>5、打开已经安装的 Mobaxterm 软件，点击“Session”，在弹出的窗口中点击“SSH”，在 Remote host 一栏中输入设备的 IP 地址，点击“OK”（注意：电脑和设备必须要在同一个局域网下）</p>
-<p><img src=img/CB2/CB2_System34.png width="600" /></p>
+<p><img src=img/CB2/CB2_System34.webp width="600" /></p>
 <p>6、输入登录名和登录密码进入 SSH 终端界面</p>
 <p>登录名 login as：<code>biqu</code></p>
 <p>密码：<code>biqu</code></p>
-<p><img src=img/CB2/CB2_System35.png width="600" /></p>
+<p><img src=img/CB2/CB2_System35.webp width="600" /></p>
 <h2 id="_13"><strong>注意事项</strong><a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
 <p>1、上电后大概 10s 左右，系统进入 kernel 阶段。此时 power 灯常亮，act 灯会不断的闪烁，代表系统在正常运行</p>
 <p>2、root 管理员:</p>

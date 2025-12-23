@@ -5797,7 +5797,7 @@
 <p>此界面已迁移到 Bigtreetech WiKi NEO</p>
 <p><a href="https://neo.bttwiki.com/docs/board-docs/ebb-series/ebb-2209-rp2040">EBB 2209 RP2040 Bigtreetech WiKi NEO</a></p>
 </div>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_title.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_title.webp width="600"/></p>
 <p><font  color="red"><strong>有关EBB SB2209 CAN V1.0（RP2040）结构的信息，请点击</strong></font> :</p>
 <p><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/EBB SB2209 CAN V1.0（RP2040）用户手册_20240626.pdf">EBB SB2209 CAN V1.0 (RP2040).PDF</a></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
@@ -5833,18 +5833,18 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>make menuconfig
 </code></pre></div>
 <p>并按照下图配置</p>
-<p><img src=img/rp2040_katapult_menuconfig_led.png width="600"/></p>
+<p><img src=img/rp2040_katapult_menuconfig_led.webp width="600"/></p>
 <p>3.输入make编译固件，当make执行完成后会在 home/biqu/Katapult/out 文件夹中生成我们所需要的‘canboot.uf2’固件，在SSH软件左侧可以直接下载到电脑中。</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software18.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software18.webp width="600"/></p>
 <p>4.1 请使用Type-C连接线将 EBB SB2209 CAN V1.0(RP2040) 连接至树莓派/CB1，并确保已连接USB_5V跳线帽，以便通过Type-C为EBB SB2209 CAN V1.0 (RP2040) 提供电源。</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software3.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software3.webp width="600"/></p>
 <p>4.2. 按住Boot按钮，然后单击一下Reset按钮进入DFU模式.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software4.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software4.webp width="600"/></p>
 <p>4.3. 在SSH终端命令行中输入</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>lsusb
 </code></pre></div>
 <p>查询 DFU设备ID</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software5.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software5.webp width="600"/></p>
 <p>4.4. 请输入以下命令以烧录Katapult: </p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>make flash FLASH_DEVICE=2e8a:0003
 </code></pre></div>
@@ -5873,7 +5873,7 @@
 <p>(1000000) CAN bus speed</p>
 <p>2.) 配置选择完成后, 输入 ‘q’退出配置界面，当询问是否保存配置时选择 “Yes”.</p>
 <p>3.) 输入make编译固件，当make执行完成后会在home/pi/klipper/out文件夹中生成我们所需要的‘klipper.bin’固件，在SSH软件左侧可以直接下载到电脑中.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software6.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software6.webp width="600"/></p>
 <h3 id="katapult_1"><strong>通过Katapult进行固件更新</strong><a class="headerlink" href="#katapult_1" title="Permanent link">&para;</a></h3>
 <p>1.使用CAN bus需要接好CAN bus线缆以及插上120R终端电阻的跳线帽。</p>
 <p>2.输入:</p>
@@ -5883,28 +5883,28 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
 <p>查询canbus ID （需提前接好CAN线并通电），如下图已找到设备的UUID。</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software7.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software7.webp width="600"/></p>
 <p>3.输入:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
 </code></pre></div>
 <p>替换为实际的UUID，注意：klipper.bin需要提前make生成出来，并且CanBoot的Application start offset 为16KiB offset，所以Klipper的menuconfig中Bootloader offset 也要为16KiB bootloader，如下图已经烧录成功.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software8.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software8.webp width="600"/></p>
 <p>4.输入:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
 <p>查询，此时Application由之前的Katapult变为Klipper，代表Klipper已经正常运行。</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software9.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software9.webp width="600"/></p>
 <h3 id="dfu"><strong>通过DFU进行固件更新</strong><a class="headerlink" href="#dfu" title="Permanent link">&para;</a></h3>
 <p>树莓派或CB1通过DFU更新</p>
 <p>1.请使用Type-C连接线将EBB SB2209 CAN V1.0 (RP2040)连接至树莓派/CB1，并确保已连接USB_5V跳线帽，以便通过Type-C为EBB SB2209 CAN V1.0 (RP2040)提供电源。</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software10.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software10.webp width="600"/></p>
 <p>2.按住Boot按钮，然后单击一下Reset按钮进入DFU模式。</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software11.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software11.webp width="600"/></p>
 <p>3.在SSH终端命令行中输入</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>lsusb
 </code></pre></div>
 <p>查询 DFU设备ID</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software12.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software12.webp width="600"/></p>
 <p>4.输入:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>cd klipper 
 </code></pre></div>
@@ -5924,7 +5924,7 @@
 <p>烧录完成后，请拔下 USB_5V 跳线帽和Type-C数据线。</p>
 <h3 id="can-bus"><strong>CAN BUS配置</strong><a class="headerlink" href="#can-bus" title="Permanent link">&para;</a></h3>
 <p>搭配BIGTREETECH U2C 模块使用</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software13.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software13.webp width="600"/></p>
 <p>1.在SSH终端中输入</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>sudo nano /etc/network/interfaces.d/can0
 </code></pre></div>
@@ -5951,15 +5951,15 @@
 <h3 id="klipper"><strong>配置KLIPPER</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h3>
 <p>1.在电脑的浏览器中输入树莓派的IP访问，如下图所示的路径中下载主板的参考配置，如果找不到此文件，请更新Klipepr固件源码到最新版本，或者到GitHub下载：</p>
 <p>https://github.com/bigtreetech/EBB</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software14.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software14.webp width="600"/></p>
 <p>2.将主板的配置文件上传到Configuration Files中;</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software15.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software15.webp width="600"/></p>
 <p>3.并在“printer.cfg”文件中添加此主板的配置</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>[include sample-bigtreetech-ebb-sb-canbus-v1.0.cfg]
 </code></pre></div>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software16.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software16.webp width="600"/></p>
 <p>4.将配置文件中的ID号修改为主板实际的ID（USB serial 或者 canbus）</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software17.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software17.webp width="600"/></p>
 <p>5.按照下方链接的说明配置模块的具体功能：</p>
 <p>https://www.klipper3d.org/Overview.html</p>
 

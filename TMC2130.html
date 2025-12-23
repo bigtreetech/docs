@@ -6054,7 +6054,7 @@
 
 
 <h1 id="tmc2130">TMC2130<a class="headerlink" href="#tmc2130" title="Permanent link">&para;</a></h1>
-<p><img src=img/TMC2130/TMC2130_Title.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Title.webp width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>TMC2130 is a high-performance two-phase stepper motor driver chip with a standard SPI interface and a simple step/dir interface. Very low noise, high load driver does not lose step.</p>
 <p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/btt-tmc2130-v3-0-stepper-motor-driver">BIGTREETECH Official Website</a></p>
@@ -6101,26 +6101,26 @@
 <li><strong>Full Protection &amp; Diagnostics</strong></li>
 </ul>
 <h2 id="dimensions">Dimensions<a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC2130/TMC2130_Size1.png width="600"/></p>
-<p><img src=img/TMC2130/TMC2130_Size2.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Size1.webp width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Size2.webp width="600"/></p>
 <h2 id="hardware-configuration">Hardware Configuration<a class="headerlink" href="#hardware-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="working-mode">Working mode<a class="headerlink" href="#working-mode" title="Permanent link">&para;</a></h3>
 <h4 id="stepdir-mode">STEP/DIR mode<a class="headerlink" href="#stepdir-mode" title="Permanent link">&para;</a></h4>
-<p><img src=img/TMC2130/TMC2130_Step_mode.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Step_mode.webp width="600"/></p>
 <p>1.SPI position welding 0Ω resistor, making the driver work in STEP/DIR mode.</p>
 <p>2.Working mode selection: SDI (CFG1), SCK (CFG2)</p>
-<p><img src=img/TMC2130/TMC2130_Table.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Table.webp width="600"/></p>
 <h4 id="spi-working-mode-wiring-instructions">SPI working mode wiring instructions<a class="headerlink" href="#spi-working-mode-wiring-instructions" title="Permanent link">&para;</a></h4>
 <p>Before wiring, it is necessary to select the hardware operation mode of the driver module:</p>
 <p>1.Solder CFG4 and CFG5 as shown in the purple area (CFG4 is connected to GND, CFG5 is connected to VCC); (Welding is correct to enable spreadcycle mode) </p>
 
 <p>2.Remove the resistor at the SPI position to put the driver in SPI mode.</p>
 
-<p><img src=img/TMC2130/TMC2130_SPI_mode.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_SPI_mode.webp width="600"/></p>
 <p><strong>Wiring diagram is as follows:</strong></p>
-<p><img src=img/TMC2130/TMC2130_Wiring1.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Wiring1.webp width="600"/></p>
 <p><strong>Wiring diagram:</strong></p>
-<p><img src=img/TMC2130/TMC2130_Wiring2.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Wiring2.webp width="600"/></p>
 <h4 id="potentiometer-adjustment-instructions">Potentiometer adjustment instructions<a class="headerlink" href="#potentiometer-adjustment-instructions" title="Permanent link">&para;</a></h4>
 <p>Rotate the potentiometer clockwise: reduce Vref to reduce the driver current;</p>
 <p>Turn the potentiometer counterclockwise: Increase Vref to increase the driver current.</p>
@@ -6147,13 +6147,13 @@
 <h3 id="marlin-spi-mode-firmware-change-instructions">Marlin SPI mode firmware change instructions<a class="headerlink" href="#marlin-spi-mode-firmware-change-instructions" title="Permanent link">&para;</a></h3>
 <p>For example，(Marlin-2.0)BIGTREETECH SKR V1.3: </p>
 <p><strong>Configuration.h file：</strong></p>
-<p><img src=img/TMC2130/TMC2130_Config_h.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Config_h.webp width="600"/></p>
 <p><strong>Configuration_adv.h file:</strong></p>
-<p><img src=img/TMC2130/TMC2130_Configadv_h.png width="600"/></p>
-<p><img src=img/TMC2130/TMC2130_Configadv_h1.png width="600"/></p>
-<p><img src=img/TMC2130/TMC2130_Configadv_h2.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Configadv_h.webp width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Configadv_h1.webp width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Configadv_h2.webp width="600"/></p>
 <p><strong>pins_BIGTREE_SKR_V1.3.h file:</strong></p>
-<p><img src=img/TMC2130/TMC2130_Pin.png width="600"/></p>
+<p><img src=img/TMC2130/TMC2130_Pin.webp width="600"/></p>
 <p>After firmware debugging, compile and upload to the motherboard, open e pronterface online Print software, connected to the motherboard can view the SPI mode 2130 drive Dynamic running state.</p>
 <h2 id="precautions"><strong>Precautions</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">

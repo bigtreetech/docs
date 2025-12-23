@@ -6690,7 +6690,7 @@
 
 
 <h1 id="m8p-v20">M8P V2.0<a class="headerlink" href="#m8p-v20" title="Permanent link">&para;</a></h1>
-<p><img src=img/m8p-v2_0/m8p_v2_0_title.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_title.webp width="600" /></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH Manta M8P V2.0 is a 32-bit 3D printer control board designed for use with Klipper firmware. It allows direct installation of a core board to run Klipper, greatly simplifying connections to a Raspberry Pi and saving space in the electronics enclosure. The board has a BTB socket for use with a CM4, CB1, or other solutions, providing flexibility beyond the expensive CM4.</p>
 <h2 id="features-highlights"><strong>Features Highlights</strong><a class="headerlink" href="#features-highlights" title="Permanent link">&para;</a></h2>
@@ -6808,71 +6808,71 @@
 </tbody>
 </table>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/m8p-v2_0/m8p_v2_0_dimensions.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_dimensions.webp width="600" /></p>
 <h2 id="peripheral-interfaces"><strong>Peripheral Interfaces</strong><a class="headerlink" href="#peripheral-interfaces" title="Permanent link">&para;</a></h2>
 <h3 id="interface-diagram">Interface Diagram<a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_interface.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_interface.webp width="600" /></p>
 <h3 id="pin-description">Pin Description<a class="headerlink" href="#pin-description" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_pin.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_pin.webp width="600" /></p>
 <h2 id="interface-introduction">Interface Introduction<a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
 <h3 id="usb-power-supply">USB Power Supply<a class="headerlink" href="#usb-power-supply" title="Permanent link">&para;</a></h3>
 <p>After powering on the M8P, the LED on the bottom left corner will light up to indicate normal power supply. The VUSB jumper in the center is for selecting power - it should only be shorted when powering the board via USB or supplying power out via USB.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_usb.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_usb.webp width="600" /></p>
 <h3 id="stepper-motor-drivers">Stepper Motor Drivers<a class="headerlink" href="#stepper-motor-drivers" title="Permanent link">&para;</a></h3>
 <p><strong>Standard STEP/DIR (STANDALONE) Mode</strong></p>
 <p>For drivers like A4988, DRV8825, LV8729, ST820, etc, use a jumper to short MS0-MS2 based on the microstepping table.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_stepper.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_stepper.webp width="600" /></p>
 <p><strong><font  color="red">Note: A4988 and DRV8825 require RST and SLP jumpered for proper operation.</font></strong></p>
 <p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h3 id="tmc-drivers-uart-mode">TMC Drivers - UART Mode<a class="headerlink" href="#tmc-drivers-uart-mode" title="Permanent link">&para;</a></h3>
 <p>For TMC2208, TMC2209, TMC2225, etc, short the jumper for each as shown in the red box. Microsteps and current are configured in firmware.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_tmc1.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_tmc1.webp width="600" /></p>
 <h3 id="tmc-drivers-spi-mode">TMC Drivers - SPI Mode<a class="headerlink" href="#tmc-drivers-spi-mode" title="Permanent link">&para;</a></h3>
 <p>For example, TMC2130, TMC5160, TMC5161, etc. Each uses four jumpers to short the red box positions in the diagram. Micro-stepping and drive current are set through the firmware.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_tmc2.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_tmc2.webp width="600" /></p>
 <h3 id="tmc-drivers-diag-sensorless-homing">TMC Drivers - DIAG (Sensorless Homing)<a class="headerlink" href="#tmc-drivers-diag-sensorless-homing" title="Permanent link">&para;</a></h3>
 <p>For sensorless homing, insert the jumper as shown. Remove when not in use - no need to cut the DIAG pin of the driver.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_tmc3.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_tmc3.webp width="600" /></p>
 <h3 id="driver-voltage-selection">Driver Voltage Selection<a class="headerlink" href="#driver-voltage-selection" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_tmc4.png width="600" /></p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_tmc5.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_tmc4.webp width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_tmc5.webp width="600" /></p>
 <h3 id="installing-a-core-board-on-the-btb-connector">Installing a Core Board on the BTB Connector<a class="headerlink" href="#installing-a-core-board-on-the-btb-connector" title="Permanent link">&para;</a></h3>
 <p><strong>M8P+CM4: Note orientation as shown below.</strong></p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_installing1.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_installing1.webp width="600" /></p>
 <p><strong>M8P+CB1: Note orientation as shown below.</strong></p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_installing2.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_installing2.webp width="600" /></p>
 <h3 id="cnc-fan-voltage-selection">CNC Fan Voltage Selection<a class="headerlink" href="#cnc-fan-voltage-selection" title="Permanent link">&para;</a></h3>
 <p>Set the output voltage to 5V, 12V, or 24V using jumpers. </p>
 <p><strong><font  color="red">Note: Before selecting the voltage, please make sure to confirm the supported voltage of the fan. Our company is not responsible for fan damage caused by incorrect voltage selection.</font></strong></p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_cnc.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_cnc.webp width="600" /></p>
 <h3 id="100k-ntc-or-pt1000-settings">100K NTC or PT1000 Settings<a class="headerlink" href="#100k-ntc-or-pt1000-settings" title="Permanent link">&para;</a></h3>
 <p>For 100K NTC thermistors, no jumper is needed. At this time, the pull-up resistor of TH0-TH3 is 4.7K 0.1%. For PT1000, short the pins in the red box to add 4.12K 0.1% in parallel, at this time, the pull-up resistor of TH0-TH1 is 2.2K.</p>
 <p><strong><font  color="red">Note: The temperature accuracy read using this method will be lower than MAX31865.</font></strong></p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_100k.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_100k.webp width="600" /></p>
 <h3 id="bltouch-wiring">BLTouch Wiring<a class="headerlink" href="#bltouch-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_bltouch.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_bltouch.webp width="600" /></p>
 <h3 id="auto-power-off-relay-v12-wiring">Auto Power Off (Relay V1.2) Wiring<a class="headerlink" href="#auto-power-off-relay-v12-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_auto.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_auto.webp width="600" /></p>
 <h3 id="mini12864-v20-wiring">MINI12864 V2.0 Wiring<a class="headerlink" href="#mini12864-v20-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_mini12864.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_mini12864.webp width="600" /></p>
 <h3 id="rgb-wiring">RGB Wiring<a class="headerlink" href="#rgb-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_rgb.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_rgb.webp width="600" /></p>
 <h3 id="servo-wiring">Servo Wiring<a class="headerlink" href="#servo-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_servo.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_servo.webp width="600" /></p>
 <h3 id="i2c-wiring-temperature-and-humidity-sensor">I2C Wiring (Temperature and Humidity Sensor)<a class="headerlink" href="#i2c-wiring-temperature-and-humidity-sensor" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_i2c.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_i2c.webp width="600" /></p>
 <h3 id="dsi-and-csi-connections">DSI and CSI Connections<a class="headerlink" href="#dsi-and-csi-connections" title="Permanent link">&para;</a></h3>
-<p><img src=img/m8p-v2_0/m8p_v2_0_dsi.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_dsi.webp width="600" /></p>
 <h3 id="proximity-switch-wiring">Proximity Switch Wiring<a class="headerlink" href="#proximity-switch-wiring" title="Permanent link">&para;</a></h3>
 <p>Normally open (NPN), no jumper needed, e.g. 24V:</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_proximity.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_proximity.webp width="600" /></p>
 <p>Normally closed (PNP), short jumper, e.g. 24V:</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_proximity1.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_proximity1.webp width="600" /></p>
 <p>CNC fan function, short jumper, e.g. 24V:</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_proximity2.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_proximity2.webp width="600" /></p>
 <h3 id="4-pin-fan-water-cooling-connection">4-Pin Fan / Water Cooling Connection<a class="headerlink" href="#4-pin-fan-water-cooling-connection" title="Permanent link">&para;</a></h3>
 <p>(24V example below)</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_4pin_fan.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_4pin_fan.webp width="600" /></p>
 <h2 id="using-the-raspberry-pi-cm4">Using the Raspberry Pi CM4<a class="headerlink" href="#using-the-raspberry-pi-cm4" title="Permanent link">&para;</a></h2>
 <h3 id="download-os-image">Download OS Image<a class="headerlink" href="#download-os-image" title="Permanent link">&para;</a></h3>
 <p>When using CM4, download the image of Fluidd, Mainsail directly, also, you can download a pure OS image from the Raspberry Pi official website and and install it yourself.
@@ -6880,28 +6880,28 @@ Fluidd: https://github.com/fluidd-core/FluiddPI/releases
 Mainsail: https://github.com/mainsail-crew/MainsailOS/releases
 Official Raspberry Pi OS Image: https://www.raspberrypi.com/software/operating-systems
 (Note: CM4 has some differences from Pi 3B/4B, refer to the system configuration section to enable USB, DSI etc.)</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_pi1.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_pi1.webp width="600" /></p>
 <h3 id="download-and-install-raspberry-pi-imager">Download and install Raspberry Pi Imager<a class="headerlink" href="#download-and-install-raspberry-pi-imager" title="Permanent link">&para;</a></h3>
 <p>Download and install the official Raspberry Pi burning software: https://www.raspberrypi.com/software/</p>
 <h3 id="write-os">Write OS<a class="headerlink" href="#write-os" title="Permanent link">&para;</a></h3>
 <p>CM4 LITE Version (MicroSD Card)</p>
 <p>1、Insert MicroSD into your computer via a card reader.</p>
 <p>2、Choose OS.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_pi2.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_pi2.webp width="600" /></p>
 <p>3、Select "Use custom", then select the image that you downloaded.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_pi3.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_pi3.webp width="600" /></p>
 <p>4、Click the settings icon in the lower right corner.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_pi4.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_pi4.webp width="600" /></p>
 <p>5、"Enable SSH" and then click "Save", there are other functions that can be set in this interface, please modify them according to your needs. Details are as follows:
 Set hostname: raspberrypi.local  // custom hostname, default is raspberrypi.local
 Enable SSH
 Set username and password // custom username and password, default username: pi, password: raspberry 
 Configure wireless LAN // custom WiFi name and password</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_pi5.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_pi5.webp width="600" /></p>
 <p>6、Select the MicroSD card and click "WRITE" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted).</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_pi6.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_pi6.webp width="600" /></p>
 <p>7、Wait for the process to complete.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_pi7.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_pi7.webp width="600" /></p>
 <h3 id="cm4-emmc-version">CM4 eMMC Version<a class="headerlink" href="#cm4-emmc-version" title="Permanent link">&para;</a></h3>
 <p>Note: eMMC version will not run the system in the Micro SD card.</p>
 <p>1、Install rpiboot </p>
@@ -6910,7 +6910,7 @@ http://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe
 For Mac and Linux:
 <a href="#building">https://github.com/raspberrypi/usbboot#building</a></p>
 <p>2、Toggle switches 4 (USBOTG) and 3 (RPIBOOT) to ON to enter BOOT mode.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_cm4_2.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_cm4_2.webp width="600" /></p>
 <p>3、Connect the Type-C to the computer's USB port (to avoid problems caused by insufficient computer USB power supply, it is recommended to use an external 24V power supply for the motherboard), run sudo ./rpiboot(Mac/Linux) or rpiboot.exe on Windows, and then the CM4 eMMC will be recognized as a large-capacity storage device by the computer (if rpiboot reports an error at this time, you can try unplugging and re-plugging the USB).</p>
 <p>4、Use the Raspberry Pi Imager software to write the OS image. The steps are exactly the same as the LITE version.</p>
 <p>5、After the writing is completed, power off and toggle switches 4 (USBOTG) and 3 (RPIBOOT) back to OFF. After powering on again, it will enter the normal working mode.</p>
@@ -6933,18 +6933,18 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</p>
 <h3 id="write-os_1">Write OS<a class="headerlink" href="#write-os_1" title="Permanent link">&para;</a></h3>
 <p>1、Insert MicroSD into your computer via a card reader.</p>
 <p>2、Choose OS.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_cb1_1.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_cb1_1.webp width="600" /></p>
 <p>3、Select "Use custom", then select the image that you downloaded.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_cb1_2.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_cb1_2.webp width="600" /></p>
 <p>4、Select the MicroSD card and click "WRITE" (WRITE the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted).</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_cb1_3.png width="600" /></p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_cb1_4.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_cb1_3.webp width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_cb1_4.webp width="600" /></p>
 <h3 id="set-up-wifi">Set up WiFi<a class="headerlink" href="#set-up-wifi" title="Permanent link">&para;</a></h3>
 <p>Note: If you are using an Ethernet connection, please skip this step.</p>
 <p>CB1 cannot directly use the Raspberry Pi Imager software to set up Wi-Fi name and password like CM4. After the OS image is burned, there will be a FAT32 partition recognized by the computer on the MicroSD card. In this partition, there is a configuration file named "system.cfg".</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system1.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system1.webp width="600" /></p>
 <p>Edit in Notepad and set WIFI-SSID and PASSWORD.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system2.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system2.webp width="600" /></p>
 <h3 id="configure-the-motherboard">Configure the Motherboard<a class="headerlink" href="#configure-the-motherboard" title="Permanent link">&para;</a></h3>
 <p><strong>Connect to the Device Using SSH Software</strong></p>
 <p>1、Install the SSH software Mobaxterm:</p>
@@ -6952,11 +6952,11 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</p>
 <p>2、Insert the MicroSD card into the MANTA M8P and power it on. Wait for the system to start, which takes about 1-2 minutes.</p>
 <p>3、After the device is connected to Wi-Fi or an Ethernet cable, it will be automatically assigned an IP address.</p>
 <p>4、Enter the router management interface to find the device's IP address.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system3.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system3.webp width="600" /></p>
 <p>5、Alternatively, use the tool https://angryip.org/ to scan all IP addresses in the current local area network and reorder them by hostname. Find the device with the hostname Fluidd, Mainsail, or BTT-CB1, as shown in the image below.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system4.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system4.webp width="600" /></p>
 <p>6、Open the installed Mobaxterm software, click "Session", click "SSH" in the pop-up window, enter the device's IP address in the "Remote host" input box, and click "OK" (Note: The computer and the device must be on the same local area network).</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system5.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system5.webp width="600" /></p>
 <p>7、Enter the login name and password to access the SSH terminal interface.
 CM4:
  Login name: pi
@@ -6964,7 +6964,7 @@ CM4:
 CB1:
  Login name: biqu
  Password: biqu</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system6.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system6.webp width="600" /></p>
 <h3 id="compile-mcu-firmware">Compile MCU Firmware<a class="headerlink" href="#compile-mcu-firmware" title="Permanent link">&para;</a></h3>
 <p>1、After connecting to the device via SSH, enter the following command in the command line:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cd ~/klipper/
@@ -6978,10 +6978,10 @@ CB1:
 * Bootloader offset (128KiB bootloader (SKR SE BX v2.0))  ---&gt;
 * Clock Reference (25 MHz crystal)  ---&gt;
 * Communication interface (USB (on PA11/PA12))  ---&gt;</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system7.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system7.webp width="600" /></p>
 <p>2、After completing the configuration selection, enter <code>q</code> to exit the configuration interface. When asked if you want to save the configuration, select "Yes".</p>
 <p>3、Enter make to compile the firmware. After the make command is executed, the klipper.bin firmware we need will be generated in the device's home/pi/klipper/out folder. You can download it directly to your computer using the SSH software. </p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system8.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system8.webp width="600" /></p>
 <h3 id="update-firmware">Update Firmware<a class="headerlink" href="#update-firmware" title="Permanent link">&para;</a></h3>
 <p><strong>SD Card Update</strong></p>
 <p>1、Rename <code>klipper.bin</code> to "firmware.bin", copy it to the root directory of the SD card, insert the SD card into the MANTA M8P SD card slot, press the reset button or power on again, and the firmware will be automatically updated. After the update is complete, the "firmware.bin" in the SD card will be renamed to "FIRMWARE.CUR".</p>
@@ -6989,21 +6989,21 @@ CB1:
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ls /dev/serial/by-id/ 
 </code></pre></div>
 <p>in the command line to query the mainboard's ID and confirm whether the firmware has been successfully burned. If the burning is successful, a Klipper device ID will be returned, as shown in the image below.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system9.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system9.webp width="600" /></p>
 <p>Copy and save this ID, as it needs to be set in the configuration file.</p>
 <h3 id="dfu-update">DFU Update<a class="headerlink" href="#dfu-update" title="Permanent link">&para;</a></h3>
 <p>If you can find the MCU's Klipper device ID using ls /dev/serial/by-id/, you can directly enter </p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32h712xx_41003D001751303232383230-if00
 </code></pre></div>
 <p>to burn the firmware (Note: Replace /dev/serial/by-id/xxx with the actual ID found in the previous step).</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system10.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system10.webp width="600" /></p>
 <p>After the burning is completed, there will be a dfu-util: Error during download get_status error message, which can be ignored.</p>
 <h3 id="configure-klipper">Configure Klipper<a class="headerlink" href="#configure-klipper" title="Permanent link">&para;</a></h3>
 <p>1、Enter the Raspberry Pi's IP address in the computer's browser to access it. Download the reference configuration named generic-bigtreetech-manta-m8p-V2_0.cfg in the path shown in the image below. If you cannot find this file, please update the Klipper firmware source code to the latest version or download it from GitHub:</p>
 <p>https://github.com/bigtreetech/Manta-M8P</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system11.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system11.webp width="600" /></p>
 <p>2、Upload the mainboard configuration file to Configuration Files.</p>
-<p><img src=img/m8p-v2_0/m8p_v2_0_system12.png width="600" /></p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_system12.webp width="600" /></p>
 <p>3、Add the mainboard configuration in the "printer.cfg" file:</p>
 <p><strong>[include generic-bigtreetech-manta-m8p-V2_0.cfg]</strong></p>
 <p>4、Modify the ID number in the configuration file to the actual ID of the mainboard.</p>

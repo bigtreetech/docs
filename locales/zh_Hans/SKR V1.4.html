@@ -5870,7 +5870,7 @@
 
 
 <h1 id="skr-v14">SKR V1.4<a class="headerlink" href="#skr-v14" title="Permanent link">&para;</a></h1>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Title.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Title.webp width="600" /></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH SKR V1.4主板是必趣创新科技（深圳）有限公司针对V1.3版本的不足进行优化升级的32位3D打印机主板，特别适合中小型打印机。</p>
 <h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
@@ -5967,49 +5967,49 @@
 </tbody>
 </table>
 <h2 id="_4"><strong>尺寸</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Dimension.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Dimension.webp width="600" /></p>
 <h2 id="_5"><strong>外围设备接口</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <h3 id="_6">接口示意图<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Pinout.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Pinout.webp width="600" /></p>
 <h2 id="_7"><strong>接口介绍</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <h3 id="usb">USB电源<a class="headerlink" href="#usb" title="Permanent link">&para;</a></h3>
 <p>SKR主板通电后，左下角的D5红灯亮起，表示电源正常。板中间的5V SEL是电源选择端子；</p>
 <p>1、使用USB为主板供电时：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_USB1.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_USB1.webp width="600" /></p>
 <p>2、使用12v-24v电源时：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_USB2.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_USB2.webp width="600" /></p>
 <h3 id="_8">连接<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
 <p>SKR主板通过USB接口与计算机通信。计算机需要先安装驱动程序，然后将主板插入计算机，以识别数据传输的端口。如果不安装驱动程序，计算机很容易无法识别USB端口。使用Marlin2.0固件，请按照教程进行安装:</p>
 <p>教程：https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.docx?dl=0</p>
 <p>驱动：https://www.dropbox.com/s/a0k5idjmf4fn82f/lpc176x_usb_driver.inf?dl=0</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Connect.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Connect.webp width="600" /></p>
 <h3 id="_9">驱动方式和选择方法<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
 <p>1、常用STEP/DIR模式：（例如：A4988、DRV8825、LV8729、ST820等）根据驱动器细分表选择短路帽连接MS0-MS2。</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_STEP.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_STEP.webp width="600" /></p>
 <p><font  color="red"><strong>注意：如果使用A4988或DRV8825驱动程序，则必须使用跳线帽连接RST和SLP。</strong> </font></p>
 <p>详情请点击: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <p>2、TMC驱动器UART模式：（例如：TMC2208、TMC2209、TMC2225等）每个轴使用短路帽连接图中的红色框架。细分和驱动电流由固件设置。</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_UART.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_UART.webp width="600" /></p>
 <p><font  color="red"><strong>注意：使用TMC2209时，如果不使用安装保护功能，则需要切断驱动器上的DIAG引脚，以便机械开关能够正常工作。操作方法如下所示：</strong> </font></p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Before.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Before.webp width="600" /></p>
 <p><font  color="red"><strong>注意：只有在不使用阻塞检测功能时，才需要裁剪此功能引脚。</strong> </font></p>
 <p>3、TMC驱动器SPI模式：（如：TMC2130、TMC5160、TMC516 1等）每个轴使用四个短路帽连接图中的红框位置。细分和驱动电流由固件设置。</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_SPI.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_SPI.webp width="600" /></p>
 <h3 id="bltouch">BLTouch<a class="headerlink" href="#bltouch" title="Permanent link">&para;</a></h3>
 <p>SKR V1.4与BL touch的连接：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Bltouch.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Bltouch.webp width="600" /></p>
 <h3 id="relay-v12">Relay V1.2<a class="headerlink" href="#relay-v12" title="Permanent link">&para;</a></h3>
 <p>SKR V1.4与打印后自动关机模块（继电器V1.2）的连接：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Auto.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Auto.webp width="600" /></p>
 <h3 id="ups">UPS<a class="headerlink" href="#ups" title="Permanent link">&para;</a></h3>
 <p>SKR V1.4与断电时恢复打印模块（UPS 24V V1.0）的连接：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Power.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Power.webp width="600" /></p>
 <h3 id="_10">树莓派<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
 <p>SKR V1.4和树莓派的连接：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_RPI.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_RPI.webp width="600" /></p>
 <h3 id="_11">闭环驱动器<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>SKR V1.4与闭环驱动器的连接：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Loop.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Loop.webp width="600" /></p>
 <h2 id="marlin"><strong>Marlin</strong><a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h2>
 <p>SKR主板固件说明</p>
 <p><font  color="red">工厂主板安装了用于测试的固件（型号I3），可以直接使用，也可以根据自己的需要进行更改。 </font></p>

@@ -5845,9 +5845,9 @@
 <p>4.4.2 DSI1显示接口中下载的DSI1驱动程序也包括CSI1驱动程序。如果您只想安装CSI1驱动程序，而不是DSI1，请在找到您要使用的驱动程序https://datasheets.raspberrypi.com/licence.html并将其下载到CM4的 <code>/boot/firmware/</code>（注意：<code>2023-10-10</code> 及其之后的系统，路径为 <code>/boot/firmware/</code>， 在此之前的系统，路径为 <code>/boot/</code>）文件夹中，并将其重命名为<code>dt-blob.bin</code>，然后参考此处的设置。https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/</p>
 <h2 id="wifi"><strong>· WIFI设置</strong><a class="headerlink" href="#wifi" title="Permanent link">&para;</a></h2>
 <p>​注意：如果使用网络电缆连接，则可以跳过此步骤。CB1无法像CM4那样直接使用树莓派成像仪设置WiFi名称和密码。操作系统映像写入完成后，MicroSD卡将具有计算机识别的FAT32分区，找到“system.cfg”</p>
-<p><img src=img/M4P/M4P_WIFI1.png width="600"/></p>
+<p><img src=img/M4P/M4P_WIFI1.webp width="600"/></p>
 <p>用记事本打开它，将WIFI-SSID替换为您的WIFI名称，将PASSWORD替换为密码。</p>
-<p><img src=img/wifi.png width="600" /></p>
+<p><img src=img/wifi.webp width="600" /></p>
 <h2 id="_2"><strong>· 配置主板</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <h3 id="ssh"><strong>· ssh连接到设备</strong><a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h3>
 <ol>
@@ -5864,15 +5864,15 @@
 <p>在路由器页面中查找设备IP地址</p>
 </li>
 </ol>
-<p><img src=img/Router.png width="600" /></p>
+<p><img src=img/Router.webp width="600" /></p>
 <ol>
 <li>或者使用https://angryip.org/工具，扫描当前网络中的所有IP地址，按名称组织，找到名为Fluidd、Mailsail（CM4）或Hurakan（CB1）的IP，如下所示</li>
 </ol>
-<p><img src=img/AngryIP.png width="600" /></p>
+<p><img src=img/AngryIP.webp width="600" /></p>
 <ol>
 <li>打开Moaxterm，点击“会话”，点击“SSH”，将设备IP插入远程主机，点击“确定”（注意：您的计算机和设备需要在同一网络中）</li>
 </ol>
-<p><img src=img/MobaXterm_Login.png width="600" /></p>
+<p><img src=img/MobaXterm_Login.webp width="600" /></p>
 <ol>
 <li>输入登录名和密码进入SSH终端界面
 CM4:
@@ -5882,7 +5882,7 @@ CB1:
  login as: biqu
  password: biqu</li>
 </ol>
-<p><img src=img/SSH_Terminal.png width="600" /></p>
+<p><img src=img/SSH_Terminal.webp width="600" /></p>
 <h3 id="_3"><strong>· 编译固件</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
 <ol>
 <li>ssh成功连接到设备后，在终端中输入：</li>
@@ -5899,7 +5899,7 @@ CB1:
 * Bootloader offset (8KiB bootloader) ---&gt; 
 * Clock Reference (8 MHz crystal) ---&gt; 
 * Communication interface (USB (on PA11/PA12)) ---&gt;</p>
-<p><img src=img/M4P/M4P_Make.png width="600" /></p>
+<p><img src=img/M4P/M4P_Make.webp width="600" /></p>
 <ol>
 <li>运行<strong>make</strong>编译固件，当make完成时，“klipper.bin”文件将在<strong>home/pi/kliper/out</strong>文件夹中生成，并使用ssh应用程序将其下载到您的计算机上。</li>
 </ol>
@@ -5915,27 +5915,27 @@ CB1:
 </ol>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>ls /dev/serial/by-id/
 </code></pre></div>
-<p><img src=img/M4P/M4P_Update_Using_SD.png width="600" /></p>
+<p><img src=img/M4P/M4P_Update_Using_SD.webp width="600" /></p>
 <h4 id="dfu"><strong>· 使用DFU更新</strong><a class="headerlink" href="#dfu" title="Permanent link">&para;</a></h4>
 <p>​   如果MCU klipper设备ID可以通过<strong>ls/dev/serial/by-ID/</strong>找到，我们可以输入：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>make flash FLASH_DEVICE= /dev/serial/by-id/usb-Klipper_stm32g0b1xx_190028000D50415833323520-if00
 </code></pre></div>
 <p>​   更新固件 <strong>(NOTE: Replace /dev/serial/by-id/xxx with the actual ID found in the previous step)</strong></p>
-<p><img src=img/M4P/M4P_DFU.png width="600" /></p>
+<p><img src=img/M4P/M4P_DFU.webp width="600" /></p>
 <p>​   更新后将出现一条错误消息“dfu util:error during download get_status”。忽略它。</p>
 <h3 id="klipper"><strong>· 配置Klipper</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h3>
 <ol>
 <li>在浏览器中输入您的设备IP地址以打开webUI，在下面显示的目录中找到主板的参考配置，如果没有这样的配置，请将您的klipper源代码更新到最新版本或从github下载：https://github.com/bigtreetech/Manta-M4P</li>
 </ol>
-<p><img src=img/M4P/M4P_Conf_Klipper1.png width="600" /></p>
+<p><img src=img/M4P/M4P_Conf_Klipper1.webp width="600" /></p>
 <ol>
 <li>将完成的配置文件上载到配置文件中，并重命名为“printer.cfg”</li>
 </ol>
-<p><img src=img/M4P/M4P_Conf_Klipper2.png width="600" /></p>
+<p><img src=img/M4P/M4P_Conf_Klipper2.webp width="600" /></p>
 <ol>
 <li>插入正确的主板ID</li>
 </ol>
-<p><img src=img/M4P/M4P_Conf_Klipper3.png width="600" /></p>
+<p><img src=img/M4P/M4P_Conf_Klipper3.webp width="600" /></p>
 <p>​   提到https://www.klipper3d.org/Overview.html根据您的机器类型获取详细的配置指南。</p>
 
 

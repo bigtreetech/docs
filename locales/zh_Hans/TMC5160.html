@@ -5815,7 +5815,7 @@
 <p>此界面已迁移到 Bigtreetech WiKi NEO</p>
 <p><a href="https://neo.bttwiki.com/docs/module-docs/tmc-driver/tmc-5160/">TMC5160 Bigtreetech WiKi NEO</a></p>
 </div>
-<p><img src=img/TMC5160/TMC5160_Title.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Title.webp width="600"/></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>TMC5160是一款大功率步进电机驱动控制芯片，外扩功率MOS管，最大电流可达20A，工作时发热小。</p>
 
@@ -5881,41 +5881,41 @@
 </tbody>
 </table>
 <h2 id="_4"><strong>接口示意图</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC5160/TMC5160_CAD.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_CAD.webp width="600"/></p>
 <h2 id="_5"><strong>引出线/功能</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC5160/TMC5160_Pin.png width="600"/></p>
-<p><img src=img/TMC5160/TMC5160_PinFunc.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Pin.webp width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_PinFunc.webp width="600"/></p>
 <h2 id="_6"><strong>硬件配置</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <h3 id="_7"><strong>驱动器电流描述</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
 <p>驱动器电流的范围取决于感测电阻器的值。</p>
-<p><img src=img/TMC5160/TMC5160_Cur1.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Cur1.webp width="600"/></p>
 <p>驱动器电流的有效值和最大值与感测电阻器的大小之间的关系，请参见下图：</p>
-<p><img src=img/TMC5160/TMC5160_Cur2.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Cur2.webp width="600"/></p>
 <p>TMC5160-V1.0中使用的感测电阻器为0.075R，因此该驱动器的驱动器电流有效值为3.1A，最大电流为4.4A。</p>
 <p>如果你需要使用更大的电流，你需要自己更换感测电阻器的值（你需要准备好组件并自己焊接）。</p>
 <p>更换不小于0.05R的电阻器（受模块尺寸限制）。</p>
 <p>注意：不建议更换电阻器。如果必须更换，则驾驶员在更换过程中会受到损坏，风险自负。</p>
-<p><img src=img/TMC5160/TMC5160_Cur3.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Cur3.webp width="600"/></p>
 <h2 id="hardware-installation"><strong>Hardware Installation</strong><a class="headerlink" href="#hardware-installation" title="Permanent link">&para;</a></h2>
 <p>驱动器上带有白色方框图的引脚为启用（EN）引脚，如下面的红框所示。</p>
 
-<p><img src=img/TMC5160/TMC5160_Hardware.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Hardware.webp width="600"/></p>
 <h2 id="_8"><strong>软件配置</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <p><strong>特别提示：目前只有Marlin 2.0及以上版本的固件支持TMC5160的SPI模式。</strong></p>
 <p>在Marlin 2.0固件文件中找到并打开“Configuration.h”，然后找到“#define MOTHERBOARD XXXXXX”和“XXXXX”表示使用的板类型。确认您使用的主板。</p>
 
-<p><img src=img/TMC5160/TMC5160_Config.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Config.webp width="600"/></p>
 <p>在Marlin\src\pins目录中找到“pins_xxxxxx.h”文件（xxxx表示板的型号），然后在该文件下找到“X_CS_PIN”、“Y_CS_PIN“、“Z_CS_PIN”、“EO_CS_PIN“。最后，将以下接点名称修改为您使用的接点。</p>
-<p><img src=img/TMC5160/TMC5160_Pins.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Pins.webp width="600"/></p>
 <p>找到 "#define TMC_SW_MOSI XXX", "#define TMC_SW_MISO XXX", "#define TMC_SW_SCK XXX" 在步骤2中的文件下。将“XXX”修改为要使用的引脚.</p>
-<p><img src=img/TMC5160/TMC5160_Pins1.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Pins1.webp width="600"/></p>
 <p>找到并打开“Configuration_adv.h”，然后找到“define TMC_USE_SW_SPI”以移除屏蔽 "//". </p>
-<p><img src=img/TMC5160/TMC5160_Configadv_h.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Configadv_h.webp width="600"/></p>
 <p>在“Configuration_adv.h”文件下，找到“#define X_CURRENT”、“#defin X_MICROSTEPS”、“#define X_RSENSE”。修改参数后（需要修改使用的轴），使用的轴的RSENE应更改为“0.075”</p>
-<p><img src=img/TMC5160/TMC5160_Configadv_h1.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Configadv_h1.webp width="600"/></p>
 <p>步骤5的修改完成后，找到并打开“Configuration.h”，然后找到“#define”DEFAULT_AXIS_STEPS_PER_UNIT”修改以下参数以设置细分，细分必须与步骤5的细分相对应。</p>
 <p>细分计算方法，“80，80，400，96”表示16个细分。如果修改为32个细分，则它将是“80<em>（32/16）、80</em>（16/16）、400<em>（32/2016）、96</em>（32/16.）”。</p>
-<p><img src=img/TMC5160/TMC5160_Config1.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Config1.webp width="600"/></p>
 <h2 id="_9"><strong>注意事项</strong><a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
 <ul>
 <li>

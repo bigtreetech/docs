@@ -6276,7 +6276,7 @@
 
 
 <h1 id="m4p">M4P<a class="headerlink" href="#m4p" title="Permanent link">&para;</a></h1>
-<p><a href="https://z1996xm.github.io/BIGTREETECH/M4P.html"><img src=img/M4P/M4P_Title.png width="600"/></a></p>
+<p><a href="https://z1996xm.github.io/BIGTREETECH/M4P.html"><img src=img/M4P/M4P_Title.webp width="600"/></a></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH CB1 is an alternative to Raspberry Pi CM4, which is currently out of stock. <br>BIGTREETECH M4P is a 4-axis motherboard using a CM4 BTB header, which can work with CB1 or CM4 perfectly.</p>
 <p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/manta-m4p-m8p">BIGTREETECH Official Website</a></p>
@@ -6403,70 +6403,70 @@
 </tbody>
 </table>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/M4P/M4P_Size.png width="600"/></p>
+<p><img src=img/M4P/M4P_Size.webp width="600"/></p>
 <h2 id="interface-diagram"><strong>Interface Diagram</strong><a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h2>
-<p><img src=img/M4P/M4P_Interface_Diagram.png width="600" /></p>
+<p><img src=img/M4P/M4P_Interface_Diagram.webp width="600" /></p>
 <h2 id="pinout"><strong>Pinout</strong><a class="headerlink" href="#pinout" title="Permanent link">&para;</a></h2>
-<p><img src=img/M4P/M4P_Pin_Out.png width="600" /></p>
+<p><img src=img/M4P/M4P_Pin_Out.webp width="600" /></p>
 <h2 id="hardware-configuration"><strong>Hardware Configuration</strong><a class="headerlink" href="#hardware-configuration" title="Permanent link">&para;</a></h2>
 <p><strong>TYPE-C</strong></p>
 <p>After the M4P is powered on, the red LED1 on the lower right side of the motherboard will light up, indicating that the power supply is normal. The J8 on the middle of the board is the power selection terminal, it needs to be short circuited only when the type-C USB is used to supply power to the<br> motherboard or the USB is used to supply power externally. The signal of type-C is connected to the SoC, Only used when writing OS image for CM4 eMMC version.</p>
 
-<p><img src=img/M4P/M4P_TYPE_C.png width="600" /></p>
+<p><img src=img/M4P/M4P_TYPE_C.webp width="600" /></p>
 <h2 id="hardware-installation"><strong>Hardware Installation</strong><a class="headerlink" href="#hardware-installation" title="Permanent link">&para;</a></h2>
 <h3 id="stepper-driver"><strong>Stepper Driver</strong><a class="headerlink" href="#stepper-driver" title="Permanent link">&para;</a></h3>
 <h4 id="normal-stepdirstandalone-mode"><strong>Normal STEP/DIR(STANDALONE) Mode</strong><a class="headerlink" href="#normal-stepdirstandalone-mode" title="Permanent link">&para;</a></h4>
 <p>For example, A4988, DRV8825, LV8729, ST820...use the jumper cap to short MS0-MS2 according to the driver subdivision table.</p>
 
-<p><img src=img/M4P/M4P_Stepper_Driver.png width="600" /></p>
+<p><img src=img/M4P/M4P_Stepper_Driver.webp width="600" /></p>
 <p><strong><font  color="red">Note: If using A4988or DRV8825, RST and SLP must be shorted with jumper caps for normal operation. </font></strong></p>
 <p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <h4 id="uart-mode-of-tmc-driver"><strong>UART Mode of TMC Driver</strong><a class="headerlink" href="#uart-mode-of-tmc-driver" title="Permanent link">&para;</a></h4>
 <p>For example, TMC2208, TMC2209, TMC2225... Use a jumper cap for each to connect the position of the red box in the figure, and the subdivision and driver current is set by firmware.</p>
 
-<p><img src=img/M4P/M4P_TMC_UART_Mode.png width="600" /></p>
+<p><img src=img/M4P/M4P_TMC_UART_Mode.webp width="600" /></p>
 <h4 id="spi-mode-of-tmc-driver"><strong>SPI Mode of TMC Driver</strong><a class="headerlink" href="#spi-mode-of-tmc-driver" title="Permanent link">&para;</a></h4>
 <p>For example, TMC2130, TMC5160, TMC5161... Use 4 jumper caps for each to connect the position of the red box in the figure, and the subdivision and driver current is set by firmware.</p>
 
-<p><img src=img/M4P/M4P_TMC_SPI_Mode.png width="600" /></p>
+<p><img src=img/M4P/M4P_TMC_SPI_Mode.webp width="600" /></p>
 <h4 id="diagsensorless-homing-of-tmc-driver"><strong>DIAG(Sensorless Homing) of TMC Driver</strong><a class="headerlink" href="#diagsensorless-homing-of-tmc-driver" title="Permanent link">&para;</a></h4>
 <p>As shown in the figure, plug the jumper cap when using the Sensorless Homing function, and leave it unplugged when it is not used. There is no need  to cut the DIAG pin of the driver.</p>
 
-<p><img src=img/M4P/M4P_TMC_DIAG_Mode.png width="600" /></p>
+<p><img src=img/M4P/M4P_TMC_DIAG_Mode.webp width="600" /></p>
 <h4 id="driver-voltage-selection"><strong>Driver Voltage Selection</strong><a class="headerlink" href="#driver-voltage-selection" title="Permanent link">&para;</a></h4>
 <p>The power supply of each driver can be set by the jumper. When the jumper is inserted into the left side, the independent MOTOR POWER port is used for driver power, and the supported voltage up to 56V. When the jumper is inserted into the right side, the main POWER port is used for driver power, and the 12/24v voltage is supported.</p>
 
 <p><strong>Driver independent power supply</strong></p>
 <p>The jumper is inserted into the left side and powered by the MOTOR POWER port. the supported voltage up to 56V.</p>
-<p><img src=img/M4P/M4P_IPS.png width="600" /></p>
+<p><img src=img/M4P/M4P_IPS.webp width="600" /></p>
 <p><strong>Main power supply</strong></p>
 <p>The jumper is inserted into the right side and powered by the main POWER port. the 12/24v voltage is supported.</p>
-<p><img src=img/M4P/M4P_MPS.png width="600" /></p>
+<p><img src=img/M4P/M4P_MPS.webp width="600" /></p>
 <h3 id="install-the-core-board-via-btb-connection"><strong>Install the Core Board via BTB Connection</strong><a class="headerlink" href="#install-the-core-board-via-btb-connection" title="Permanent link">&para;</a></h3>
 <p><strong>M4P+CM4：Pay attention to the direction, as shown below.</strong></p>
-<p><img src=img/M4P/M4P+CM4.png width="600" /></p>
+<p><img src=img/M4P/M4P+CM4.webp width="600" /></p>
 <p><strong>M4P+CB1：Pay attention to the direction, as shown below.</strong></p>
-<p><img src=img/M4P/M4P+CB1.png width="600" /></p>
+<p><img src=img/M4P/M4P+CB1.webp width="600" /></p>
 <h3 id="40-pin-gpio"><strong>40 pin GPIO</strong><a class="headerlink" href="#40-pin-gpio" title="Permanent link">&para;</a></h3>
 <p>When working with CM4, the pin arrangement of 40 Pin GPIO is exactly the same as that of Raspberry Pi. When working with CB1, it is a custom IO arrangement, as shown in the figure below, the 'GPIO4' in front of '_' is the IO of CM4, and the latter 'PC7' is the IO of CB1.</p>
 
-<p><img src=img/M4P/M4P_40_Pin.png width="600" /></p>
+<p><img src=img/M4P/M4P_40_Pin.webp width="600" /></p>
 <h3 id="bltouch-wiring"><strong>BLTouch Wiring</strong><a class="headerlink" href="#bltouch-wiring" title="Permanent link">&para;</a></h3>
 <p>M4P_BLTouch_Wiring</p>
-<p><img src=img/M4P/M4P_BLTouch_Wiring.png width="600" /></p>
+<p><img src=img/M4P/M4P_BLTouch_Wiring.webp width="600" /></p>
 <h3 id="exp1exp2-and-lcd-screen-wiring"><strong>EXP1+EXP2 and LCD Screen Wiring</strong><a class="headerlink" href="#exp1exp2-and-lcd-screen-wiring" title="Permanent link">&para;</a></h3>
 <p>M4P_E1_E2_LCD</p>
-<p><img src=img/M4P/M4P_E1_E2_LCD.png width="600" /></p>
+<p><img src=img/M4P/M4P_E1_E2_LCD.webp width="600" /></p>
 <h3 id="rgb-wiring"><strong>RGB Wiring</strong><a class="headerlink" href="#rgb-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/M4P/M4P_RGB_Wiring.png width="600" /></p>
+<p><img src=img/M4P/M4P_RGB_Wiring.webp width="600" /></p>
 <h3 id="dsicsi-wiring"><strong>DSI/CSI Wiring</strong><a class="headerlink" href="#dsicsi-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/M4P/M4P_DSI_CSI_Wiring.png width="600" /></p>
+<p><img src=img/M4P/M4P_DSI_CSI_Wiring.webp width="600" /></p>
 <h3 id="spi-display-wiring"><strong>SPI Display Wiring</strong><a class="headerlink" href="#spi-display-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/M4P/M4P_SPI_Display_Wiring.png width="600" /></p>
+<p><img src=img/M4P/M4P_SPI_Display_Wiring.webp width="600" /></p>
 <h3 id="adxl345-accelerometer"><strong>ADXL345 Accelerometer</strong><a class="headerlink" href="#adxl345-accelerometer" title="Permanent link">&para;</a></h3>
 <p>Refer to here: https://www.klipper3d.org/Measuring_Resonances.html, We can refer to the following wiring and configuration when connecting to the M4P motherboard</p>
 
-<p><img src=img/M4P/M4P_ADXL345.png width="600" /></p>
+<p><img src=img/M4P/M4P_ADXL345.webp width="600" /></p>
 <p>[adxl345]</p>
 <div class="highlight"><pre><span></span><code>```
 cs_pin: PD9

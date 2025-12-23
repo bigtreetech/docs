@@ -5807,7 +5807,7 @@
 
 
 <h1 id="ez31865">EZ31865<a class="headerlink" href="#ez31865" title="Permanent link">&para;</a></h1>
-<p><img src=img/EZ31865/EZ31865_Title.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Title.webp width="600"/></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH HDMI5 V1.0是由必趣创新科技（深圳）有限公司3D打印团队开发的通用5英寸HDMI显示屏。</p>
 
@@ -5835,12 +5835,12 @@
 <li>紧凑型5x5 TQFN32封装或9.7x4.4 TSSOP38</li>
 </ul>
 <h2 id="_3"><strong>尺寸</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<p><img src=img/EZ31865/EZ31865_Dimensions.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Dimensions.webp width="600"/></p>
 <h3 id="_4"><strong>模块安装方法的连接</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <p>安装方法与EZ系列驱动器一致。</p>
 <p>修改主板的程序，选择主板驱动跳线的SPI模式，将BIGTREETECH MAX31865V2.0直接连接到主板的空闲电机驱动器上，然后在接口上将PT100/PT1000热敏电阻连接到相应的原始电机线路上（需要注意线路顺序，以实际主板为准，仅支持SPI模式可插拔驱动器的主板）。</p>
 <h2 id="_5"><strong>接口示意图</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p><img src=img/EZ31865/EZ31865_Diagram.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Diagram.webp width="600"/></p>
 <h3 id="pin"><strong>PIN脚定义</strong><a class="headerlink" href="#pin" title="Permanent link">&para;</a></h3>
 <p>VIO—正电源（3.3V-5V）</p>
 <p>GND—Power 负电源</p>
@@ -5867,14 +5867,14 @@
     <tr>
 </table>
 
-<p><img src=img/EZ31865/EZ31865_Diagram1.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Diagram1.webp width="600"/></p>
 <p>2/4行如左图所示。如果使用3行，则需要将其更改为右图（出厂默认为2/4行）</p>
-<p><img src=img/EZ31865/EZ31865_Diagram2.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Diagram2.webp width="600"/></p>
 <p>3根线也可以使用2根线，但精度略有降低（与2根线相同）。</p>
 <h2 id="_6"><strong>软件配置</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <p>Marlin固件支持最多两个BTT PT1000和PT100模块的连接。通过配置configuration.h和configuration_adv.h文件，默认为两线制和四线制通用。BTT PT1000和PT100模块可以是PT100或PT1000传感器，需要配置不同的参数。</p>
 <p><strong>1.Configuration.h中的配置：</strong></p>
-<p><img src=img/EZ31865/EZ31865_Software1.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software1.webp width="600"/></p>
 <p><font  color="red"><strong>TEMP_SENSOR_0</strong></font> 设置 -5: Use MAX31865 module on heater 0</p>
 <p><font  color="red"><strong>TEMP_SENSOR_1</strong></font> 设置 -5: Use MAX31865 module on heater 1</p>
 <p>目前，只有传感器0和1配置为MAX31865模块，不支持其他模块</p>
@@ -5892,21 +5892,21 @@
 <p><font  color="red"><strong>#define MAX_CONSECUTIVE_LOW_TEMPERATURE_ERROR_ALLOWED    10</strong></font> </p>
 <p><font  color="red"><strong>#define SHOW_TEMP_ADC_VALUES</strong></font></p>
 <p><font  color="red"><strong>#define M115_GEOMETRY_REPORT</strong></font></p>
-<p><img src=img/EZ31865/EZ31865_Software2.png width="600"/></p>
-<p><img src=img/EZ31865/EZ31865_Software3.png width="600"/></p>
-<p><img src=img/EZ31865/EZ31865_Software4.png width="600"/></p>
-<p><img src=img/EZ31865/EZ31865_Software5.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software2.webp width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software3.webp width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software4.webp width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software5.webp width="600"/></p>
 <p><strong>3.使用BTT-SKR主板V1.1 V1.3 V1.4</strong></p>
 <p><font  color="red"><strong>注意：步骤1、2完成后，编译程序，程序将报告错误，如下所示</strong></font></p>
-<p><img src=img/EZ31865/EZ31865_Software6.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software6.webp width="600"/></p>
 <p>在文件Adafuit_MAX31865.h Comment out（ARDUINO&gt;=100）中进行以下修改，以确定</p>
-<p><img src=img/EZ31865/EZ31865_Software7.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software7.webp width="600"/></p>
 <p><strong>BIGTREETECH主板与BIGTREETECH EZ31865 V1.0模块连接配置：</strong></p>
 <p>以下是BTT OCTOPUS V1.0主板上使用模块的教程（marlin固件）</p>
 <p>1.使用4线PT1000传感器和E3驱动器接口。选择驱动器的SPI模式，使用BTT EZ Driver Connector V1.0连接EZ31865。</p>
 <p>2.在端号文件中添加端号。</p>
-<p><img src=img/EZ31865/EZ31865_Software8.png width="600"/></p>
-<p><img src=img/EZ31865/EZ31865_Software9.png width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software8.webp width="600"/></p>
+<p><img src=img/EZ31865/EZ31865_Software9.webp width="600"/></p>
 <p><strong>目前，要在marlin上使用该模块，需要将MAX31865芯片选择定义为MAX6675_SS_PIN，编译bin文件，更新后即可使用</strong></p>
 <h2 id="_7"><strong>注意事项</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <ul>

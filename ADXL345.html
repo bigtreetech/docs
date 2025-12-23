@@ -6040,7 +6040,7 @@
 
 
 <h1 id="adxl345-v20">ADXL345 V2.0<a class="headerlink" href="#adxl345-v20" title="Permanent link">&para;</a></h1>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.webp width="600"/> </p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH ADXL345 V2.0 is a module for printer resonance compensation. It can communicate through USB, greatly simplifying wiring.</p>
 <p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/adxl-345-accelerometer-board-for-36-stepper-motors">BIGTREETECH Official Website</a></p>
@@ -6104,17 +6104,17 @@
 <h2 id="firmware-support"><strong>Firmware Support</strong><a class="headerlink" href="#firmware-support" title="Permanent link">&para;</a></h2>
 <p>This product currently only supports Klipper firmware.</p>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Dimensions.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Dimensions.webp width="600"/></p>
 <h2 id="peripheral-interface"><strong>Peripheral Interface</strong><a class="headerlink" href="#peripheral-interface" title="Permanent link">&para;</a></h2>
 <h3 id="pin-description">Pin Description<a class="headerlink" href="#pin-description" title="Permanent link">&para;</a></h3>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Pin.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Pin.webp width="600"/></p>
 <h2 id="interface-introduction"><strong>Interface Introduction</strong><a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
 <p>Connecting to BTT Pi V1.2 (Type-C)</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Interface.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Interface.webp width="600"/></p>
 <p>Connecting to Manta M8P (Type-C)</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_TypeC.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_TypeC.webp width="600"/></p>
 <p>Connecting to Manta M8P (Soldering Wires)</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Soldering.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Soldering.webp width="600"/></p>
 <h2 id="klipper-firmware"><strong>Klipper Firmware</strong><a class="headerlink" href="#klipper-firmware" title="Permanent link">&para;</a></h2>
 <h3 id="compiling-klipper-firmware">Compiling Klipper Firmware<a class="headerlink" href="#compiling-klipper-firmware" title="Permanent link">&para;</a></h3>
 <ol>
@@ -6124,7 +6124,7 @@
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>make<span class="w"> </span>menuconfig
 </code></pre></div>
 <p>Configure the firmware as shown in the provided image (update Klipper firmware to the latest version if options are not available).</p>
-<p><img src=img/rp2040_usb_menuconfig.png width="600"/></p>
+<p><img src=img/rp2040_usb_menuconfig.webp width="600"/></p>
 <ol>
 <li>
 <p>After configuration, press <strong>q</strong> to exit, and select <strong>Yes</strong> when prompted to save.</p>
@@ -6133,12 +6133,12 @@
 <p>Enter <strong>make</strong> to compile the firmware. The resulting <strong>klipper.bin</strong> file will be in the <strong>home/pi/klipper/out</strong> folder. This can be directly downloaded to your computer from the SSH software's left panel.</p>
 </li>
 </ol>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.webp width="600"/></p>
 <h3 id="firmware-update-via-dfu">Firmware Update via DFU<a class="headerlink" href="#firmware-update-via-dfu" title="Permanent link">&para;</a></h3>
 <p>Raspberry Pi or CB1 update via DFU.</p>
 <p>Hold the <strong>Boot</strong> button and connect the board to Raspberry Pi/CB1 via Type-C cable to enter DFU mode.</p>
 <p>Enter <code>lsusb</code> in the SSH terminal to query the DFU device ID.</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.webp width="600"/></p>
 <p>​Using command below to navigate to the Klipper directory:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">cd</span><span class="w"> </span>~/klipper
 </code></pre></div>
@@ -6164,7 +6164,7 @@
 <p class="admonition-title">Info</p>
 <p>Download the <a href="https://github.com/bigtreetech/ADXL345/blob/master/Firmware/sample-bigtreetech-adxl345-v2.0.cfg">sample-bigtreetech-adxl345-v2.0.cfg</a> config file from <a href="https://github.com/bigtreetech/ADXL345">GitHub ADXL345</a> </p>
 <p>​Upload to the <strong>Configuration Files.</strong></p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.png width="600"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.webp width="600"/></p>
 </div>
 <p>Add section below into <code>printer.cfg</code></p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>​[include sample-bigtreetech-adxl345-v2.0.cfg]
@@ -6201,10 +6201,10 @@
 <p>Example using the Voron StealthBurner:</p>
 <p><strong>Method 1:</strong></p>
 <p>Install on the side bracket with the dual holes (matches official spacing).</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.png width="400"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.webp width="400"/></p>
 <p><strong>Method 2:</strong></p>
 <p>Use screws through the PCB and rubber ring on the heater block as shown.</p>
-<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.png width="400"/></p>
+<p><img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.webp width="400"/></p>
 
 
 

@@ -6024,7 +6024,7 @@
 
 
 <h1 id="tmc5160">TMC5160<a class="headerlink" href="#tmc5160" title="Permanent link">&para;</a></h1>
-<p><img src=img/TMC5160/TMC5160_Title.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Title.webp width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>TMC5160 is a high-power stepper motor driving control chip, which has externally expanded power MOS tube, the maximum current can reach 20A, low heat when working.</p>
 
@@ -6091,25 +6091,25 @@
 </tbody>
 </table>
 <h2 id="interface-diagram"><strong>Interface Diagram</strong><a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC5160/TMC5160_CAD.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_CAD.webp width="600"/></p>
 <h2 id="pinoutfunction"><strong>Pinout/Function</strong><a class="headerlink" href="#pinoutfunction" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC5160/TMC5160_Pin.png width="600"/></p>
-<p><img src=img/TMC5160/TMC5160_PinFunc.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Pin.webp width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_PinFunc.webp width="600"/></p>
 <h2 id="hardware-configuration"><strong>Hardware Configuration</strong><a class="headerlink" href="#hardware-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="driver-current-description"><strong>Driver Current Description</strong><a class="headerlink" href="#driver-current-description" title="Permanent link">&para;</a></h3>
 <p>The range of driver current depends on the value of the sense resistor.</p>
-<p><img src=img/TMC5160/TMC5160_Cur1.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Cur1.webp width="600"/></p>
 <p>The relationship between the effective value and maximum value of the driver current and the magnitude of the sense-resistor, please see the following picture:</p>
-<p><img src=img/TMC5160/TMC5160_Cur2.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Cur2.webp width="600"/></p>
 <p>The sense resistors used in the TMC5160-V1.0 is 0.075R, so the effective value of the driver current of this driver is 3.1A, and the maximum current is 4.4A.</p>
 <p>If you need to use a larger current, you need to replace the value of the sense resistor yourself (you need to prepare the components and soldering yourself). </p>
 <p>Replace the resistor not less than 0.05R (subject to module size limit).</p>
 <p>Note: It is not recommended to replace the resistor. If it must be replaced,the driver will be damaged during the replacement process is at your own risk.</p>
-<p><img src=img/TMC5160/TMC5160_Cur3.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Cur3.webp width="600"/></p>
 <h2 id="hardware-installation"><strong>Hardware Installation</strong><a class="headerlink" href="#hardware-installation" title="Permanent link">&para;</a></h2>
 <p>The pins with white block diagram on the driver are enabled (EN) pins as shown in the red box below.</p>
 
-<p><img src=img/TMC5160/TMC5160_Hardware.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Hardware.webp width="600"/></p>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="klipper-config-example">Klipper Config Example<a class="headerlink" href="#klipper-config-example" title="Permanent link">&para;</a></h3>
 <div class="highlight"><span class="filename">printer.cfg</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[tmc5160 stepper_x]
@@ -6130,18 +6130,18 @@
 <p>Currently only firmware of Marlin 2.0 and above supports the SPI mode of TMC5160.</p>
 </div>
 <p>Find and open <code>Configuration.h</code> in Marlin 2.0 firmware File, and then find <code># define MOTHERBOARD XXXXXX</code> and <code>XXXXX</code> Represents the type of board used. Confirm the motherboard you use.</p>
-<p><img src=img/TMC5160/TMC5160_Config.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Config.webp width="600"/></p>
 <p>Find the <code>pins_xxxxxx.h</code> file (xxxx represents the model of the board) in the Marlin <code>./src/pins</code> directory, and then find <code>X_CS_PIN</code>, <code>Y_CS_PIN</code>, <code>Z_CS_PIN</code>, <code>EO_CS_PIN</code> under the file.Finally modify the following pin name to the pin you use.</p>
-<p><img src=img/TMC5160/TMC5160_Pins.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Pins.webp width="600"/></p>
 <p>Find <code>#define TMC_SW_MOSI XXX</code>, <code>#define TMC_SW_MISO XXX</code>, <code>#define TMC_SW_SCK XXX</code> under the file in Step 2. Modify <code>XXX</code> to the pin you want to use.</p>
-<p><img src=img/TMC5160/TMC5160_Pins1.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Pins1.webp width="600"/></p>
 <p>Find and open <code>Configuration_adv.h</code> and then find <code>#define TMC_USE_SW_SPI</code> to remove the comment <code>//</code> to enable. </p>
-<p><img src=img/TMC5160/TMC5160_Configadv_h.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Configadv_h.webp width="600"/></p>
 <p>Under the <code>Configuration_adv.h</code> file, find <code>#define X_CURRENT</code>, <code>#define X_MICROSTEPS</code>, <code>#define X_RSENSE</code>. After modification of the parameters (the axes used need to be modified), the <code>RSENE</code> of the axes used should be changed to <code>0.075</code></p>
-<p><img src=img/TMC5160/TMC5160_Configadv_h1.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Configadv_h1.webp width="600"/></p>
 <p>After the modification of Step 5 is completed, find and open <code>Configuration.h</code> and then find <code>#define DEFAULT_AXIS_STEPS_PER_UNIT</code> modifies the following parameters to set the subdivision, which must correspond to the subdivision of step 5.</p>
 <p>Subdivision calculation method, <code>80, 80, 400, 96</code> represents 16 subdivisions. If modified to 32 subdivisions, it will be <code>80 * (32/16), 80 * (32/16), 400 * (32/16), 96 * (32/16)</code>.</p>
-<p><img src=img/TMC5160/TMC5160_Config1.png width="600"/></p>
+<p><img src=img/TMC5160/TMC5160_Config1.webp width="600"/></p>
 <h2 id="precautions"><strong>Precautions</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>

@@ -5827,7 +5827,7 @@
 <p>此界面已迁移到 Bigtreetech WiKi NEO</p>
 <p><a href="https://neo.bttwiki.com/docs/module-docs/tmc-driver/tmc-5160-t-pro/">TMC5160T Pro V1.0 Bigtreetech WiKi NEO</a></p>
 </div>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_title.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_title.webp width="600"/></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS 管，最大电压可达56V，支持的步进电机范围更广，适配性更高。</p>
 <h2 id="_2"><strong>产品特点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
@@ -5851,9 +5851,9 @@
 </ul>
 <h2 id="_4"><strong>外设接口</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <h3 id="_5">尺寸图<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_dimension.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_dimension.webp width="600"/></p>
 <h3 id="_6">接口示意图<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_pin.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_pin.webp width="600"/></p>
 <table>
 <thead>
 <tr>
@@ -5914,17 +5914,17 @@
 </tr>
 </tbody>
 </table>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_pin1.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_pin1.webp width="600"/></p>
 <h2 id="_7"><strong>接口介绍</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <h3 id="_8">安装方式及接口<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
 <p>驱动上有白色方框的引脚为使能（EN）引脚如下图红色方框所示：</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_Interface.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_Interface.webp width="600"/></p>
 <h2 id="_9"><strong>固件设置</strong><a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
 <h3 id="marlin">Marlin固件设置<a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h3>
 <p><font  color="red"><strong>特别注意：目前只有 Marlin2.0 及以上的固件支持 TMC5160 的 SPI 模式。</strong></font></p>
 <p><strong>步骤一</strong>: </p>
 <p>在 marlin 2.0 固件里找到并打开“Configuration.h”文件，然后找到“#define MOTHERBOARD XXXXXX”“XXXXX”代表所使用板子的型号。确认自己所使用的主板。</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin1.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin1.webp width="600"/></p>
 <p><strong>步骤二：</strong> </p>
 <p>在 Marlin\src\pins 目录下找到自己板子所对应的“pins_xxxxxx.h”文件（xxxx 代表
 板子型号），然后在该文件下找到</p>
@@ -5935,34 +5935,34 @@
 <li>E0_CS_PIN</li>
 </ul>
 <p>等，修改后面的引脚名为自己所使用的引脚。</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin2.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin2.webp width="600"/></p>
 <p><strong>步骤三：</strong></p>
 <p>在步骤二的文件下找到</p>
 <p><strong>#define TMC_SW_MOSI XXX</strong></p>
 <p><strong>#define TMC_SW_MISO XXX</strong></p>
 <p><strong>#define TMC_SW_SCK XXX</strong></p>
 <p>修改为自己所要使用的引脚。</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin3.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin3.webp width="600"/></p>
 <p><strong>步骤四：</strong></p>
 <p>找到并打开“Configuration_adv.h”,然后找到“#define TMC_USE_SW_SPI” 去掉屏蔽符“//”</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin4.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin4.webp width="600"/></p>
 <p><strong>步骤五：</strong></p>
 <p>在“Configuration_adv.h”文件下，找到“#define X_CURRENT”“#define X_MICROSTEPS”“#define X_RSENSE”修改后面的参数（所使用到的轴都需要修改），<font  color="red"><strong>所使
 用到的轴的 RSENSE 都应改为“0.075”</strong></font></p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin5.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin5.webp width="600"/></p>
 <p><strong>步骤六：</strong></p>
 <p>步骤五的修改完成后，找到并打开“Configuration.h”然后找到“#define DEFAULT_AXIS_STEPS_PER_UNIT”修改后面的参数来设置细分，该地方的细分必须与步骤
 五的细分对应。</p>
 <p>细分计算方法，“80,80,400,96”代表 16 细分，如果修改为 32 细分就为“80<em>（32/16），80</em>（32/16），400<em>（32/16），96</em>（32/16）”</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin7.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin7.webp width="600"/></p>
 <p>本产品使用的采样电阻为 0.075R，因此本产品驱动电流的最大有效值为 3.1A。</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin8.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin8.webp width="600"/></p>
 <p>如果需要使用更大的电流，则需要自行更换采样电阻的大小（需自己准备元件和焊接）。</p>
 <p><font  color="red"><strong>更换的电阻不要小于 0.066R（受模块大小限制）。</strong></font></p>
 <p><font  color="red"><strong>注：不建议更换电阻，如果一定要更换，在更换过程中造成驱动的损坏，需自行承
 担后果。</strong></font></p>
 <p>更换的的元件位置如下图红色方框所示：</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin9.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin9.webp width="600"/></p>
 <h2 id="_10"><strong>注意事项</strong><a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
 <ul>
 <li>

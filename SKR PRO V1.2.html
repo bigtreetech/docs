@@ -6202,7 +6202,7 @@
 </tbody>
 </table>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Dimensions.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Dimensions.webp width="600" /></p>
 <h2 id="content-of-the-upgrade">Content of the upgrade<a class="headerlink" href="#content-of-the-upgrade" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Change the hot bed interface screen printing;</li>
@@ -6211,13 +6211,13 @@
 </ul>
 <h2 id="peripheral-interface"><strong>Peripheral Interface</strong><a class="headerlink" href="#peripheral-interface" title="Permanent link">&para;</a></h2>
 <h3 id="interface-diagram">Interface Diagram<a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Diagram.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Diagram.webp width="600" /></p>
 <h3 id="pin-description">Pin Description<a class="headerlink" href="#pin-description" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pin.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Pin.webp width="600" /></p>
 <h2 id="interface-introduction"><strong>Interface Introduction</strong><a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
 <h3 id="mainboard-power-selection">mainboard power selection<a class="headerlink" href="#mainboard-power-selection" title="Permanent link">&para;</a></h3>
 <h4 id="power-jumper-cap-selection">Power jumper cap selection<a class="headerlink" href="#power-jumper-cap-selection" title="Permanent link">&para;</a></h4>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Power.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Power.webp width="600" /></p>
 <ol>
 <li>As shown in the red box, when the jumper cap is connected to IN and VCC, the motherboard selects 12V/24V power supply; when the jumper cap is connected to USB and VCC, the motherboard selects USB power supply.</li>
 <li>If the jumper cap has USB power selected, the 5V and 3.3V indicators will also light.</li>
@@ -6227,51 +6227,51 @@
 <ol>
 <li>Three Power supply method of switching Power supply</li>
 </ol>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Wiring.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Wiring.webp width="600" /></p>
 <p>As shown above, three sets of power lines need to be connected to the motherboard, namely, motor power supply, hot bed power supply and motherboard power supply, and the extra group is hot bed interface.</p>
 <p><font  color="red"><strong>When connecting, be sure to disconnect the 220V power supply and distinguish the positive and negative electrodes so as not to burn out the motherboard.</strong></font></p>
 <h3 id="communication-between-motherboard-and-computer">Communication between motherboard and computer<a class="headerlink" href="#communication-between-motherboard-and-computer" title="Permanent link">&para;</a></h3>
 <p>After the motherboard is connected to the computer through the USB cable, the computer will automatically install the driver. In this case,the motherboard can be identified for data transmission. If the installation fails, we can go to our open source Web site:</p>
 <p>https://github.com/bigtreetech?tab=repositories to find the corresponding motherboard download driver.</p>
 <p>After the drive installation is completed, open the <code>Device Manager</code> to see the port as shown in the figure below, which indicates that the system board is properly connected to the computer.</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_COM.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_COM.webp width="600" /></p>
 <h3 id="description-of-patterns-and-interfaces">Description of patterns and interfaces<a class="headerlink" href="#description-of-patterns-and-interfaces" title="Permanent link">&para;</a></h3>
 <p>1、STEP/DIR mode</p>
 <p>According to the driver used, the subdivision table is corresponding and the jumper cap is used for subdivision selection.</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_STEP.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_STEP.webp width="600" /></p>
 <p>Note: the high level is connected to the above two row needles, and the low level is connected to the following two rows of needles.</p>
 <p>2、A4988 and 8825 driver instructions</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_A4988.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_A4988.webp width="600" /></p>
 <p>If the drive is using A4988 or 8825, it is necessary to short the two pins in the purple box with the jumper cap (as shown). If it is not A4988 or 8825, the jumper cap in the box needs to be pulled out.</p>
 <p>3、UART mode</p>
 <p>When using UART mode, you need to short the needle in the red box with a jumper cap.</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART.webp width="600" /></p>
 <p>As shown in the figure below, the Pin foot corresponding to the TMC2208 UART mode is the Pin foot selected by the red box, that is, the 4th Pin pin from the top to the bottom.</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART1.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_UART1.webp width="600" /></p>
 <p>4、SPI mode</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI.webp width="600" /></p>
 <p>When using SPI mode, you need to short the needle in the red box with a jumper cap</p>
 <p>5、USB and U disk selection</p>
 <p>As shown in the picture, when the jumper cap is connected to the left, the USB function is turned on while the USB flash drive function is turned off; when the jumper cap is connected to the right, the USB flash drive function is turned on, and the USB function is turned off.</p>
 <p><font  color="red"><strong>Note: at present, the firmware does not support the USB disk function for the time being.</strong></font></p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_USB.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_USB.webp width="600" /></p>
 <p>6、SPI expansion port</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI_PORT.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_SPI_PORT.webp width="600" /></p>
 <p>The SPI expansion port shares IO with the SPI mode of the driver and can only be used if the SPI mode driver is not used.</p>
 <p>7、WIFI interface</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_WIFI.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_WIFI.webp width="600" /></p>
 <p>The WIFI interface is as shown in the picture above. When the WIFI is inserted, the edge of the board shown by the purple box on the right side faces outward and is inserted vertically.</p>
 <p>8、stallguard pin description</p>
 <p>As shown in the picture below, the purple box is the stall pin corresponding to the stall detection.</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_stallguard.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_stallguard.webp width="600" /></p>
 <p>Take the TMC2209 as an example. When the stallguard function is not used, the stallguard pin of the TMC2209 needs to be cut off so that the mechanical switch can work normally.</p>
 <p>The operation method is as shown below:</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Operation.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Operation.webp width="600" /></p>
 <p>This function pin needs to be trimmed only when the stallguard function is not used.</p>
 <p>9、Double Z-axis connection description</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Double.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Double.webp width="600" /></p>
 <p>10、Description of the indicator light for the limit switch</p>
-<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Description.png width="600" /></p>
+<p><img src=img/SKR_PRO_V1.2/SKR_PRO_V1.2_Description.webp width="600" /></p>
 <p>The status indicator is the normally closed limit switch indicator.</p>
 <p>First: The indicator light is always on when the limit switch is not connected</p>
 <p>Second: When the normally closed limit switch is connected,the indicator light is off, and when it is triggered, the indicator light is illuminated.</p>

@@ -6389,7 +6389,7 @@
 <p>此界面已迁移到 Bigtreetech WiKi NEO</p>
 <p><a href="https://neo.bttwiki.com/docs/board-docs/octopus-series/octopus-pro/">Octopus Pro Bigtreetech WiKi NEO</a></p>
 </div>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Title.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Title.webp width="600"/></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH Octopus pro V1.0由必趣创新科技（深圳）有限公司3D打印团队设计制造，是一款功能强大、功能丰富的3D打印机主板，最多支持8个60V步进驱动器，总共9个步进驱动器输出。</p>
 <h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
@@ -6492,94 +6492,94 @@
 </tbody>
 </table>
 <h2 id="_4"><strong>尺寸</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Dimension.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Dimension.webp width="600"/></p>
 <h2 id="_5"><strong>接口示意图</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p><img src=img/Octopus_Pro/Octopus_Pro_CAD.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_CAD.webp width="600"/></p>
 <h2 id="_6"><strong>引出线</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <p>下图是从PINS.pdf文档中截取的片段。要获得更好的可视性，请参阅PINS.pdf文档。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Pin.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Pin.webp width="600"/></p>
 <h2 id="_7"><strong>硬件配置</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <p><font  color="red"><strong><em>注意：octopus-pro包含大量功能，需要许多组件和连接器。考虑到组件和连接器密度，不可能在顶部包括连接器标签的丝网。我们建议您在开始之前先拍一张木板底部的照片安装，以便手头有标签参考。如果您忘记了这样做，那么您可以随时使用我们[github repo]上提供的PINS.pdf文件(https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro).</em></strong></font></p>
 <h3 id="_8"><strong>电源接线</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
 <p>octopus pro提供三种独立的电源输入：主板电源、电机电源和床加热器电源。这允许用户使用具有公共接地的多个电源，以确保它们能够向其系统的每个部分提供所需的电力。主板电源使用多种开关模式和低压差电源进行调节，以提供12V、5V和3.3V的电源轨。</p>
 <p>12V、5V和3.3V导轨通过主板上的各种引脚提供。如果您计划使用这些供应导轨中的一个，请参阅PINS.pdf文档以查找分接头。请注意，12V导轨可提供高达4A、5V高达8A和3.3V高达1A的电源，但是，为了防止导轨过载，不建议将其加载到最大容量，因为主板上已经有各种组件也从中获取电源。</p>
 <p>电源接线如下所示（如果引脚文件不在手上，请查看电路板的下侧，以快速识别每个输入的用途）。电源的正极（红色）导线连接到标有+的端子。电源的负极（黑色）导线连接到标有-的端子。极性（+和-）也被丝印印刷在板的下侧。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Pow.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Pow.webp width="600"/></p>
 <p><font  color="red"><strong><em>注意：不要在通电的情况下更改主板接线，并确保极性正确，否则可能会损坏主板。</em></strong></font></p>
 <h3 id="mcu">MCU电源跳线<a class="headerlink" href="#mcu" title="Permanent link">&para;</a></h3>
 <p>如下图所示，插入跳线即可使用USB-C端口为octopus供电。这可以使使用DFU模式直接编译和下载固件到主板更容易。</p>
 <p>如果您不连接此跳线，那么如果您想通过USB-C进行通信，则必须通过主输入电源为板供电。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_5V.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_5V.webp width="600"/></p>
 <h2 id="_9"><strong>硬件安装</strong><a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
 <h3 id="_10"><strong>自动断电接线</strong><a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
 <p>当使用BIGTREETECH继电器V1.2模块时，可以按照下图所示进行接线。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Auto.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Auto.webp width="600"/></p>
 <p><font  color="red"><strong><em>注意：由于Relay 1.2模块在切断主板电源后仍将供电，因此在打印机仍连接到电源时触摸它是极其危险的。在处理此接线时，请务必断开所有主电源。</em></strong></font></p>
 <h3 id="bl-touch"><strong>BL TOUCH 接线</strong><a class="headerlink" href="#bl-touch" title="Permanent link">&para;</a></h3>
 <p>使用BL Touch时，如下图所示将其连接到主板。和往常一样，永远不要在通电的情况下在主板上执行任何工作。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_BLTouch.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_BLTouch.webp width="600"/></p>
 <h3 id="_11"><strong>功率损耗恢复模块接线</strong><a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>使用BIGTREETECH小型UPS时，如下图所示将其连接到主板。和往常一样，永远不要在通电的情况下在主板上执行任何工作。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Pow_L.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Pow_L.webp width="600"/></p>
 <h3 id="rgb-led"><strong>RGB-LED接线</strong><a class="headerlink" href="#rgb-led" title="Permanent link">&para;</a></h3>
 <p>当使用带有RGB LED的主板时，您应该如下图所示连接它们。连接器的确切引脚可以在主板下侧的丝印上找到。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_RGB.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_RGB.webp width="600"/></p>
 <h3 id="raspberry-pi"><strong>RASPBERRY PI 接线</strong><a class="headerlink" href="#raspberry-pi" title="Permanent link">&para;</a></h3>
 <p>主板支持连接到树莓派进行打印。有几个连接选项可用于连接树莓派。最简单的是将树莓pi直接连接到USB-C端口，该端口将模拟pi上的虚拟串行端口。然而，如果您对USB-C端口有其他需求，您仍然可以通过UART或SPI使用直接串行连接将树莓派连接到主板。</p>
 <p>为此，主板上提供了专用的UART和SPI引脚头，引脚映射方便地打印在板的下侧。详细说明如何将树莓派连接到这两个接头都超出了本手册的范围，但网上有大量材料解释了如何通过这两个串行总线将树莓派连接到外部设备。</p>
 <p>通过专用的raspberry pi头标（UART2）为树莓派提供5V电源。请参阅PINS.pdf文档以了解此标头的确切引脚。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_RAS.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_RAS.webp width="600"/></p>
 <h3 id="probe-port"><strong>PROBE PORT 接线</strong><a class="headerlink" href="#probe-port" title="Permanent link">&para;</a></h3>
 <p>提供探针端口允许用户将床探针直接连接到主板，而不需要BAT85二极管作为高电压保护。探针信号引脚连接到内部光耦，该内部光耦依次触发连接到微控制器的引脚。</p>
 <p>根据您使用的探针类型，您可能需要添加一个跳线来激活探针正电压轨和探针信号引脚之间的内部12k上拉电阻器。如果您使用的是“NPN”型探针，当它处于活动状态时，输出会拉到接地。您可以通过使用万用表检查探针的输出来判断这一点。如果它在未激活时浮动（没有其他连接），然后在激活时接地，则它是NPN型探针。如果它在激活时进入正极轨道，则它是PNP型探针。下图显示了用于激活12k上拉电阻器的跳线的位置。</p>
 <p>无论您使用的是哪种探针，都需要启用探针输入引脚上的内部下拉电阻器，以便其生成输出信号。请参阅引脚配置说明，了解您正在使用的特定固件，以了解如何在探针输入引脚（PC5）上启用下拉电阻器。</p>
 <p>有关如何配置探针端口使用的电压的更多信息，请参阅第4.2节。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Probe.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Probe.webp width="600"/></p>
 <h3 id="_12"><strong>步进驱动器操作模式</strong><a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
 <h4 id="_13"><strong>步进/模式</strong><a class="headerlink" href="#_13" title="Permanent link">&para;</a></h4>
 <p>如果您使用的驱动程序不支持通过串行端口进行配置，则需要在step/dir模式下操作它们，并根据所需的微步进设置步进驱动程序下方的跳线。</p>
 <p>每个驱动程序都有自己的微型步进表，因此我们不会试图在手册中代表驱动程序制造商发言。请参阅驱动程序的数据表，以确定需要将哪些信号应用于微步配置引脚，以实现您想要的微步。</p>
 <p>尽管如此，您将在下面看到一个图，该图将帮助您确定哪些跳线对应于您的驱动程序将用于配置微步进的引脚，我们在附录A1中还包括了一节，其中包含一些最常见驱动程序的微步进表。这应该被视为对用户的便利，我们仍然建议您查阅驱动程序制造商的数据表。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI1.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI1.webp width="600"/></p>
 <p>在上图中，红色矩形隔离驱动器引脚组。为了在step/dir模式下运行驱动程序，引脚输出可以按照下表进行描述。</p>
 <p><font  color="red"><strong><em>请注意，这不是实际的引脚输出，而是对step/dir模式的简化。</em></strong></font></p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI2.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI2.webp width="600"/></p>
 <p>下面两行之间的连接跳线将中间引脚（MS）设置为5V，但第一列中的跳线除外，它将连接SLP和RST。请注意，如果步进驱动器要求任何引脚上都有0V电压，那么在步进/目录模式下运行时实际上不需要将跳线连接到该引脚，在这种情况下连接跳线可能会造成干扰，因为这些线路用于SPI总线。</p>
 <p><font  color="red"><strong><em>请注意，如果使用A4988或DRV8825驱动程序，则必须连接RST和SLP。</em></strong></font></p>
 <p>详情请点击： https://z1996xm.github.io/BIGTREETECH/Tutorials.html</p>
 <h4 id="uart"><strong>UART模式</strong><a class="headerlink" href="#uart" title="Permanent link">&para;</a></h4>
 <p>在UART模式下使用驱动程序时，如下图所示，连接该驱动程序下方的跳线。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI3.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI3.webp width="600"/></p>
 <h4 id="spi"><strong>SPI模式</strong><a class="headerlink" href="#spi" title="Permanent link">&para;</a></h4>
 <p>在SPI模式下使用驱动程序时，如下图所示，连接该驱动程序下方的跳线。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI4.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI4.webp width="600"/></p>
 <h3 id="_14"><strong>主板跳线设置</strong><a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
 <h4 id="_15"><strong>电机功率选择跳线</strong><a class="headerlink" href="#_15" title="Permanent link">&para;</a></h4>
 <p>Octopus_Pro上的每个电机驱动器都可以通过跳线配置其使用的电压。</p>
 <p><font  color="red"><strong><em>注意：在为您的octopus pro供电之前，请务必仔细检查驱动器的电压跳线，以确保每个跳线都有正确的电压，使用者向驱动器发送高电压可能会损坏驱动器，甚至可能对主板造成损坏。</em></strong></font></p>
 <p>如下图所示，将任意给定驱动器的跳线设置在右侧，将为该驱动器提供主板输入电压。主板一般采用24V。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI5.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI5.webp width="600"/></p>
 <p>如下图所示，将任意给定驱动器的跳线设置在左侧，将为该驱动器提供电机输入电压。这可以高达60V。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI6.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI6.webp width="600"/></p>
 <p><font  color="red"><strong><em>注意：当电路板输入或电机输入通电时，切勿取出或插入跳线。</em></strong></font></p>
 <h4 id="_16"><strong>风扇和接近开关电压设置</strong><a class="headerlink" href="#_16" title="Permanent link">&para;</a></h4>
 <p>Octopus_Pro具有6个PWM风扇输出和两个“常开”风扇输出。还有一个用于接近传感器或探针的专用针头。</p>
 <p>所有风扇输出和接近传感器输入都可以通过配置与每个插头相关的跳线来分别选择由其引脚插头提供的电压。</p>
 <p>按以下方式配置跳线以选择24V（注意，所有跳线都显示在相同的配置中，即使它们可以单独配置）。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI7.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI7.webp width="600"/></p>
 <p>如下配置跳线以选择12V。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI8.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI8.webp width="600"/></p>
 <p>将跳线配置为5V，如下所示。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI9.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI9.webp width="600"/></p>
 <p><font  color="red"><strong><em>注意：由于跳线直接从其中一个调节器或输入端携带电压轨，如果您以所示连接以外的任何方式短路跳线，很可能会损坏主板。连接风扇时，确保将正极端子连接到正极输出，如图所示。</em></strong></font></p>
 <h4 id="stallguard"><strong>STALLGUARD跳线设置</strong><a class="headerlink" href="#stallguard" title="Permanent link">&para;</a></h4>
 <p>可在下图所示的位置找到用于将诊断输出引脚连接到支持安装保护功能（TMC2209/TMC2226等）的驱动器端部停止输入的“diag”跳线。</p>
 <p>确切的diag编号可以通过查看引脚文件或板下的丝印来找到。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_DRI10.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_DRI10.webp width="600"/></p>
 <h4 id="pt100pt1000"><strong>PT100/PT1000拨动开关</strong><a class="headerlink" href="#pt100pt1000" title="Permanent link">&para;</a></h4>
 <p>PT100放大器支持2、3和4线连接到板。但是，DIP开关需要针对您正在使用的设置进行配置。</p>
 <p>您可以在下图所示的位置找到DIP开关。请注意，DIP开关上印有开关编号和“打开”位置。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_PT100.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_PT100.webp width="600"/></p>
 <p>根据下表选择热敏电阻的连接安排。请记住，您仍然需要使用正确的感应电阻器值（430）来配置固件 用于PT100和4300 用于PT1000。</p>
 <table border="1">
     <tr>
@@ -6596,12 +6596,12 @@
 </table>
 
 <p>如果您使用三线制布置，则还需要对板上的SMD电阻器进行小的调整。下图显示了蓝色框中的出厂默认电阻器设置（2/4导线排列）。使用3线布置将需要将电阻器从蓝色方框移到红色方框中，然后使蓝色方框中的焊盘未填充。这些电阻器为0 因此，如果你觉得把它们焊回原位不舒服，你总是可以在焊盘之间创建一个焊料桥，选择适合你安排的焊盘。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_PT100_1.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_PT100_1.webp width="600"/></p>
 <h2 id="_17">软件安装<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
 <h3 id="_18">主板通信<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
 <p>通过USB电缆将主板连接到计算机后，驱动程序将自动安装（windows、linux和macos）。安装驱动程序后，主板应自动枚举为可用于数据传输的虚拟串行设备。如果未能做到这一点，您可以访问我们的GitHub网站：https://github.com/bigtreetech?tab=repositories并找到相应的存储库来下载驱动程序。</p>
 <p>如果您想确认驱动程序安装正确，您可以在windows中访问设备管理器，并在插入主板时查找虚拟com端口。在下面的图像中，主板已分配COM7，但您的操作系统可以为其分配任何可用的com端口号。其他操作系统将以不同的方式列出串行端口。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Soft1.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Soft1.webp width="600"/></p>
 <h3 id="_19"><strong>主板固件支持</strong><a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
 <p>Marlin、Klipper和RRF（429变体）都支持Octopus Pro。您可以根据固件开发人员指定的方法编译和配置您选择的固件变体。随着时间的推移，不同固件发行版的配置文件将在[Octopus_Pro]上提供(https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Pro). 介绍如何使用VSCode编译固件超出了本手册的范围，但网上有大量信息解释了如何在您的机器上设置VSCode以及此后如何配置Marlin。以下链接为您提供了方便的起点：</p>
 <p>• https://marlinfw.org/docs/basics/install_platformio_vscode.html</p>
@@ -6616,9 +6616,9 @@ https://www.sdcard.org/downloads/formatter/</li>
 <li>取出SD卡，检查文件名称是否已更改为“FIRMWARE.CUR”。这将确认固件已成功安装。</li>
 </ol>
 <p>如果您正在使用Klipper，请确保为446 variant启用了以下设置。注意晶体振荡器的频率为12MHz，与429 variant不同。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Soft2.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Soft2.webp width="600"/></p>
 <p>该板的429 variant使用了不同频率的晶体振荡器（8MHz），因此需要稍微调整klipper配置，如下图所示。</p>
-<p><img src=img/Octopus_Pro/Octopus_Pro_Soft3.png width="600"/></p>
+<p><img src=img/Octopus_Pro/Octopus_Pro_Soft3.webp width="600"/></p>
 <h2 id="_20"><strong>注意事项</strong><a class="headerlink" href="#_20" title="Permanent link">&para;</a></h2>
 <p>本节中列出的注意事项不容忽视。它们作为提醒被包括在内，以防止损坏您的主板。</p>
 <ul>

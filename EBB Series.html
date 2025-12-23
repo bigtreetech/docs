@@ -5978,10 +5978,10 @@ version).</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">EBB36 EBB 42 V1.1 / v1.2</label><label for="__tabbed_1_2">EBB36 EBB 42 V1.0</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.png width="600"/></p>
+<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Make.webp width="600"/></p>
 </div>
 <div class="tabbed-block">
-<p><img src=img/EBB36CAN/072/EBB_072_Make.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_Make.webp width="600"/></p>
 </div>
 </div>
 </div>
@@ -5991,7 +5991,7 @@ version).</p>
 </div>
 <p>2.When the configuration is completed, type 'q' to exit the configuration interface. Select "Yes" when asked whether to save the configuration</p>
 <p>3.Enter <strong>make</strong> to compile the firmware. The 'klipper.bin' firmware that we need will be generated on the <strong>home/pi/klipper/out</strong> folder of the Raspberry Pi when completed. The firmware is on the left side of SSH software, users can download it directly to the computer.</p>
-<p><img src=img/EBB36CAN/072/EBB_072_Bin.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_Bin.webp width="600"/></p>
 <h2 id="update-firmware"><strong>Update Firmware</strong><a class="headerlink" href="#update-firmware" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
 <p class="admonition-title">EBB36/EBB42 version 1.0</p>
@@ -6002,25 +6002,25 @@ version).</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">EBB36 V1.0</label><label for="__tabbed_2_2">EBB42 V1.0</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><img src=img/EBB36CAN/072/EBB_072_Update1.png width="300"/>  </p>
+<p><img src=img/EBB36CAN/072/EBB_072_Update1.webp width="300"/>  </p>
 </div>
 <div class="tabbed-block">
-<p><img src=img/EBB42CAN/072/EBB42_072_Update1.png width="300"/>  </p>
+<p><img src=img/EBB42CAN/072/EBB42_072_Update1.webp width="300"/>  </p>
 </div>
 </div>
 </div>
 <ol>
 <li>
 <p>Type <code>lsusb</code> in the ssh terminal command line to query the ID of the DFU device.</p>
-<p><img src=img/EBB36CAN/072/EBB_072_Update2.png width="300"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_Update2.webp width="300"/></p>
 </li>
 <li>
 <p>Type <code>make flash FLASH_DEVICE=0483:df11</code> to download the firmware (Notice: Replace 0483:df11 with the actual ID of the DFU device queried in the previous step).</p>
-<p><img src=img/EBB36CAN/072/EBB_072_Update3.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_Update3.webp width="600"/></p>
 </li>
 <li>
 <p>Type <code>ls /dev/serial/by-id/</code>  to query about the serial ID of the device when finished downloading the firmware (The serial ID will only exist when communicating via USB. Ignore this step when communicating via CAN Bus).</p>
-<p><img src=img/EBB36CAN/072/EBB_072_Update4.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_Update4.webp width="600"/></p>
 </li>
 <li>
 <p>After downloading the firmware for the first time, there's no need to press on Boot and Reset button again to enter DFU mode when updating the firmware again. User can type</p>
@@ -6029,31 +6029,31 @@ version).</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>make<span class="w"> </span>flash<span class="w"> </span><span class="nv">FLASH_DEVICE</span><span class="o">=</span><span class="w"> </span>/dev/serial/by-id/usb-Klipper_stm32f072xb_xxx-if00
 </code></pre></div>
 <p>to download the firmware(Notice: Replace <code>/dev/serial/by-id/xxx</code> with actual ID queried in the previous step)</p>
-<p><img src=img/EBB36CAN/072/EBB_072_Update5.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_Update5.webp width="600"/></p>
 <h3 id="note-ebb36ebb42-versionv11"><font  color="red"><strong><em>NOTE: EBB36/EBB42 VersionV1.1</em></strong></font><a class="headerlink" href="#note-ebb36ebb42-versionv11" title="Permanent link">&para;</a></h3>
 <p>Warning：STM32G0B1CB needs to jump to the System memory area to runbootloader (written by STMicroelectronics) when using DFU to update firmware through the Type-C port. Referring to the description in manual AN2606</p>
 <p>(https://www.st.com/content/ccc/resource/technical/document/application_note/b9/9b/16/3a/12/1e/40/0c/CD00167594.pdf/files/CD00167594.pdf/jcr:content/translations/en.CD00167594.pdf), The initialization process of this bootloader is shown in the following figure: </p>
-<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update1.png width="600"/></p>
+<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update1.webp width="600"/></p>
 <p>The IO of USART will be configured before going to the USB DFU mode. </p>
 <p>After going to DFU mode, <strong>PA2</strong> will be configured to output high level by bootloader in <strong>System memory</strong> area refer to the datasheet of STM32G0B1CB </p>
 <p>(https://www.st.com/resource/en/datasheet/stm32g0b1cb.pdf)</p>
-<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update2.png width="600"/></p>
+<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update2.webp width="600"/></p>
 <p><strong>PA2</strong> is used for the hotend MOSFET in <strong>EBB36 CAN V1.1</strong> and <strong>EBB42 CAN V1.1</strong>,The high level in the DFU mode change the hotend into heating state. Therefore, please pay attention to disconnect the main power VIN of the hotend when using the DFU of Type-C port to update the firmware, or ensure that the firmware update is completed soon and goto the normal working mode. Never <font  color="red"><strong><em>keep MCU in DFU mode for a long time</em></strong></font> when the <font  color="red"><strong><em>main power supply and hotend are connected</em></strong></font>.</p>
 <p>Upgrade with STM32CubeProgrammer </p>
 <p>1.Open the installed STM32CubeProgrammer and select the firmware to download (klipper.bin).</p>
-<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update3.png width="600"/></p>
+<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update3.webp width="600"/></p>
 <p>2.Press and hold the Boot button, then click the RST button to enter DFU mode.</p>
 <p><font  color="red"><strong>Verison:EBB36 V1.1</strong></font></p>
-<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update4.png width="600"/></p>
+<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update4.webp width="600"/></p>
 <p><font  color="red"><strong>Verison:EBB42 V1.1</strong></font></p>
-<p><img src=img/EBB42CAN/G0B1/EBB42_G0B1_Update1.png width="600"/></p>
+<p><img src=img/EBB42CAN/G0B1/EBB42_G0B1_Update1.webp width="600"/></p>
 <p>3.Click the "Refresh" button in the STM32CubeProgrammer until the Port changes from "No DFU d..." to "USB1", then click "Connect" to connect the chip.</p>
-<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update5.png width="600"/></p>
+<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update5.webp width="600"/></p>
 <p>4.After the connection is successful, "Connect" will change into "Disconnect", and then click "Download", after the download is completed, a pop-up window of "File download complete" will appear, indicating that the burning is successful.</p>
-<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update6.png width="600"/></p>
+<p><img src=img/EBB36CAN/G0B1/EBB_G0B1_Update6.webp width="600"/></p>
 <h2 id="canbus-configuration"><strong>CANBus Configuration</strong><a class="headerlink" href="#canbus-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="use-with-bigtreetech-u2c-module"><strong>Use with BIGTREETECH U2C Module</strong><a class="headerlink" href="#use-with-bigtreetech-u2c-module" title="Permanent link">&para;</a></h3>
-<p><img src=img/EBB36CAN/072/EBB_072_CANBus1.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_CANBus1.webp width="600"/></p>
 <p>1.Type the following command  <code>sudo nano /etc/network/interfaces.d/can0</code>  in the ssh terminal and execute</p>
 <p><code>auto can0</code></p>
 <p><code>iface can0 can static</code></p>
@@ -6068,7 +6068,7 @@ hardware is powered on and wired correctly, then run the following command:</p>
 <p><code>Found canbus_uuid=0e0d81e4210c</code></p>
 <p>4.If Klipper operates normally and is connected to the device, then it won’t report canbus_uuid, which is also normal.</p>
 <h3 id="use-with-bigtreetech-rpi-can-hat-module"><strong>Use with BIGTREETECH RPI-CAN HAT Module</strong><a class="headerlink" href="#use-with-bigtreetech-rpi-can-hat-module" title="Permanent link">&para;</a></h3>
-<p><img src=img/EBB36CAN/072/EBB_CANBus2.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_CANBus2.webp width="600"/></p>
 <p>1.Type and run the following command  <code>sudo nano /boot/config.txt</code>, and added below contents on file config.txt. </p>
 <p><code>dtparam=spi=on</code></p>
 <p><code>dtoverlay=mcp2515-</code></p>
@@ -6078,7 +6078,7 @@ hardware is powered on and wired correctly, then run the following command:</p>
 <p><code>[ 8.680446] CAN device driver interface</code></p>
 <p><code>[ 8.697558] mcp251x spi0.0 can0: MCP2515 successfully initialized.</code></p>
 <p><code>[ 9.482332] IPv6: ADDRCONF(NETDEV_CHANGE): can0: link becomes ready</code></p>
-<p><img src=img/EBB36CAN/072/EBB_CANBus3.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_CANBus3.webp width="600"/></p>
 <p>3.Type  <code>sudo nano /etc/network/interfaces.d/can0</code> on the ssh terminal and runthe command.</p>
 <p><code>auto can0</code></p>
 <p><code>iface can0 can static</code></p>
@@ -6095,14 +6095,14 @@ hardware is powered on and wired correctly, then run the following command:</p>
 <h2 id="klipper-configuration"><strong>Klipper Configuration</strong><a class="headerlink" href="#klipper-configuration" title="Permanent link">&para;</a></h2>
 <p>1.Enter the IP access of Raspberry Pi in the browser of the computer, and download the reference configuration of the motherboard from the file path 
 shown in the figure below. If you cannot find this file, please update the Klipper firmware source code to the latest version, or download it from GitHub: https://github.com/bigtreetech/EBB</p>
-<p><img src=img/EBB36CAN/072/EBB_072_klipper1.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_klipper1.webp width="600"/></p>
 <p>2.Upload the motherboard's configuration files to the Configuration Files.</p>
-<p><img src=img/EBB36CAN/072/EBB_072_klipper2.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_klipper2.webp width="600"/></p>
 <p>3.Add the motherboard's configuration to the file "printer.cfg".</p>
 <p><code>[include sample-bigtreetech-ebb-canbus-v1.1.cfg]</code></p>
-<p><img src=img/EBB36CAN/072/EBB_072_klipper3.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_klipper3.webp width="600"/></p>
 <p>4.Revise the ID number of the configuration files as the actual ID of the motherboard (USB serial or CANBus).</p>
-<p><img src=img/EBB36CAN/072/EBB_072_klipper4.png width="600"/></p>
+<p><img src=img/EBB36CAN/072/EBB_072_klipper4.webp width="600"/></p>
 <p>5.Configure the specific functions of the module as instructed below: https://www.klipper3d.org/Overview.html</p>
 <h2 id="precautions"><strong>PRECAUTIONS</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
 <ul>

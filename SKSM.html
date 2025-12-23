@@ -6076,7 +6076,7 @@
 
 
 <h1 id="sksm">SKSM<a class="headerlink" href="#sksm" title="Permanent link">&para;</a></h1>
-<p><img src=img/SKSM/SKSM_Title.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_Title.webp width="600" /></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>The SKSM is an external module for 3D printers that features the ability to save data in the event of a power outage. It is suitable for 3D printers that use 12-24V DC power supplies and are equipped with Klipper firmware, such as the Ender 3. </p>
 <p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-sksm-v1-0</p>
@@ -6125,40 +6125,40 @@
 </tbody>
 </table>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/SKSM/SKSM_Dimensions.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_Dimensions.webp width="600" /></p>
 <h2 id="powering-up"><strong>Powering Up</strong><a class="headerlink" href="#powering-up" title="Permanent link">&para;</a></h2>
 <p>When the SKSM is powered on, the red LED in the upper left corner (which flashes for 15 seconds when the capacitors are completely discharged) indicates its status. The red light flashes during charging, and once the BAT+5V begins to discharge normally, the red light stays on continuously.</p>
 <p><font  color="red"><strong>Note: It’s designed for DC12-24V input only. Always check the polarity before connecting, and connect only when the power is off. Incorrect connections are not covered under warranty.</strong></font></p>
 <h2 id="connecting-to-your-printer"><strong>Connecting to Your Printer</strong><a class="headerlink" href="#connecting-to-your-printer" title="Permanent link">&para;</a></h2>
 <p>The SKSM uses a XH2.54mm 5P cable for communication with the printer’s mainboard. Make sure the "PB0 PB1 PB2" signal lines are correctly connected; otherwise, the power outage save feature won’t work.</p>
-<p><img src=img/SKSM/SKSM_Connection.png width="600" /></p>
-<p><img src=img/SKSM/SKSM_Connection1.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_Connection.webp width="600" /></p>
+<p><img src=img/SKSM/SKSM_Connection1.webp width="600" /></p>
 <p><strong>Pin Description</strong></p>
 <p>1、PB0 SKSM (INPUT PIN): Input detection, high level active. Receives a high-level signal from the host.</p>
 <p>2、PB1 (OUTPUT PIN): Outputs a low-level signal when power is lost; when the host detects this signal, data is synchronized and the system will shut down.</p>
 <p>3、PB2 (OUTPUT PIN): Outputs a low-level signal to reset the host if power is restored during a power outage. The host must support this feature (Please refer to Point 3 in the <strong>5. Precautions</strong>).</p>
 <h3 id="sksm-bigtreetech-pi-v12-wiring">SKSM + BIGTREETECH Pi V1.2 Wiring<a class="headerlink" href="#sksm-bigtreetech-pi-v12-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKSM/SKSM_Wiring.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_Wiring.webp width="600" /></p>
 <p><font  color="red"><strong>Note: The +5V at the 2.54mm socket is for emergency power output only and should not be used for regular power supply. Please use USB-C for power supply.</strong></font></p>
 <h3 id="sksm-raspberry-pi-wiring">SKSM + Raspberry Pi Wiring<a class="headerlink" href="#sksm-raspberry-pi-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKSM/SKSM_Wiring1.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_Wiring1.webp width="600" /></p>
 <p><font  color="red"><strong>Note: The +5V at the 2.54mm socket is for emergency power output only and should not be used for regular power supply. Please use USB-C for power supply.</strong></font></p>
 <h3 id="sksm-bigtreetech-pi-2-v101-wiring">SKSM + BIGTREETECH Pi 2 V1.0.1 Wiring<a class="headerlink" href="#sksm-bigtreetech-pi-2-v101-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKSM/SKSM_Wiring2.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_Wiring2.webp width="600" /></p>
 <h3 id="sksm-manta-series-board-wiring">SKSM + Manta Series Board Wiring<a class="headerlink" href="#sksm-manta-series-board-wiring" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKSM/SKSM_Wiring3.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_Wiring3.webp width="600" /></p>
 <h2 id="system-configuration"><strong>System Configuration</strong><a class="headerlink" href="#system-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="usage-for-bigtreetech-pi-v12">Usage for BIGTREETECH Pi V1.2<a class="headerlink" href="#usage-for-bigtreetech-pi-v12" title="Permanent link">&para;</a></h3>
 <p>1、Access BIGTREETECH Pi V1.2 by entering its IP address in remote login software.</p>
 <p>2、Send the command: sudo nano /boot/boardEnv.txt</p>
 <p>3、Modify according to the diagram shown.</p>
-<p><img src=img/SKSM/SKSM_System.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_System.webp width="600" /></p>
 <p>4、After making the changes, save with Ctrl + S, exit with Ctrl + X (or directly Ctrl + X to exit, press Y to confirm the changes, and press Enter to save), then type sudo reboot to restart the host machine.</p>
 <h3 id="usage-for-bigtreetech-pi-2">Usage for BIGTREETECH Pi 2:<a class="headerlink" href="#usage-for-bigtreetech-pi-2" title="Permanent link">&para;</a></h3>
 <p>1、Access BIGTREETECH Pi 2 by entering its IP address in remote login software.</p>
 <p>2、Send the command: sudo nano /boot/armbianEnv.txt</p>
 <p>3、Enable the content shown in the picture.</p>
-<p><img src=img/SKSM/SKSM_System1.png width="600" /></p>
+<p><img src=img/SKSM/SKSM_System1.webp width="600" /></p>
 <p>4、After making the changes, save with Ctrl + S, exit with Ctrl + X (or directly Ctrl + X to exit, press Y to confirm the changes, and press Enter to save), then type sudo reboot to restart the host machine.</p>
 <h3 id="usage-for-raspberry-pi">Usage for Raspberry Pi<a class="headerlink" href="#usage-for-raspberry-pi" title="Permanent link">&para;</a></h3>
 <p>For Raspberry Pi, the procedure is similar. Insert the Micro SD card with the OS image into the computer. Add the following line to the config.txt file: <font  color="blue"><strong>dtoverlay=gpio-shutdown,gpio_pin=21</strong></font>.Then save and exit.</p>

@@ -6114,7 +6114,7 @@
 
 
 <h1 id="skr-v14">SKR V1.4<a class="headerlink" href="#skr-v14" title="Permanent link">&para;</a></h1>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Title.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Title.webp width="600" /></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>BIGTREETECH SKR V1.4 motherboard is a 32-bit 3D printer motherboard optimized and upgraded by the 3D printing team of Shenzhen BIQU Innovation Technology Co., Ltd. for the deficiencies of V1.3 version, especially suitable for small and medium-sized printers.</p>
 <p><strong>Product Link:</strong> https://biqu.equipment/products/bigtreetech-skr-v1-4-skr-v1-4-turbo-control-board-tmc2209-tmc2208-eeprom-v1-0-exp-mot-v1-0-3d-printer-parts-for-ender-3</p>
@@ -6212,49 +6212,49 @@
 </tbody>
 </table>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Dimension.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Dimension.webp width="600" /></p>
 <h2 id="peripheral-interface"><strong>Peripheral Interface</strong><a class="headerlink" href="#peripheral-interface" title="Permanent link">&para;</a></h2>
 <h3 id="interface-diagram">Interface Diagram<a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h3>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Diagram.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Diagram.webp width="600" /></p>
 <h2 id="interface-introduction"><strong>Interface Introduction</strong><a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
 <h3 id="usb-power-supply">USB Power Supply<a class="headerlink" href="#usb-power-supply" title="Permanent link">&para;</a></h3>
 <p>After the SKR mainboard is powered up, the D5 red light in the lower left corner will go on, indicating normal power supply. The 5V SEL in the middle of the board is the power selection terminal；</p>
 <p>1、When using USB to power the motherboard：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_USB1.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_USB1.webp width="600" /></p>
 <p>2、When using 12v-24v power supply：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_USB2.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_USB2.webp width="600" /></p>
 <h3 id="connection">Connection<a class="headerlink" href="#connection" title="Permanent link">&para;</a></h3>
 <p>SKR motherboard communicates with the computer through the [USB] interface. The computer needs to install the driver program first and then insert the motherboard into the computer to identify the port for data transmission. Without installing the driver, it is easy for the computer to fail to recognize the USB port.Using the Marlin2.0 firmware, follow the tutorial for installation:</p>
 <p>tutorial：https://www.dropbox.com/s/ppjfflhf3j5yzh2/MarlinV2.0%20SKRV1.1%20instruction.docx?dl=0</p>
 <p>driver：https://www.dropbox.com/s/a0k5idjmf4fn82f/lpc176x_usb_driver.inf?dl=0</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Connect.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Connect.webp width="600" /></p>
 <h3 id="drive-mode-and-selection-method">Drive Mode and Selection Method<a class="headerlink" href="#drive-mode-and-selection-method" title="Permanent link">&para;</a></h3>
 <p>1、Common STEP/DIR mode: (for example: A4988, DRV8825, LV8729, ST820, etc.) select the short circuit cap to connect MS0-MS2 according to the driver subdivision table.</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_STEP.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_STEP.webp width="600" /></p>
 <p><font  color="red"><strong>Note: if you are using A4988 or DRV8825 driver, you must connect RST and SLP with jumper cap.</strong> </font></p>
 <p>For details, please click: https://bigtreetech.github.io/docs/Tutorials.html</p>
 <p>2、TMC Driver-UART Mode: (eg: TMC2208, TMC2209, TMC2225, etc.) Each axis uses a shorting cap to connect the red frame in the figure. The subdivision and drive current are set by firmware.</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_UART.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_UART.webp width="600" /></p>
 <p><font  color="red"><strong>Note: When using the TMC2209, if you don’t use the stallguard function, you need to cut off the DIAG pin on the driver so that the mechanical switch can work normally. The operation method is as shown below:</strong> </font></p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Before.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Before.webp width="600" /></p>
 <p><font  color="red"><strong>Note: This function pin needs to be trimmed only when the blocking detection function is not used.</strong> </font></p>
 <p>3、TMC Driver-SPI Mode: (such as: TMC2130, TMC5160, TMC5161, etc.) Each axis uses four shorting caps to connect the red frame position in the figure. The subdivision and drive current are set by firmware.</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_SPI.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_SPI.webp width="600" /></p>
 <h3 id="bltouch">BLTouch<a class="headerlink" href="#bltouch" title="Permanent link">&para;</a></h3>
 <p>The connection of SKR V1.4 and BL touch：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Bltouch.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Bltouch.webp width="600" /></p>
 <h3 id="relay-v12">Relay V1.2<a class="headerlink" href="#relay-v12" title="Permanent link">&para;</a></h3>
 <p>The connection of SKR V1.4 and Automatic Shutdown After Printing Module（Relay V1.2）:</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Auto.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Auto.webp width="600" /></p>
 <h3 id="ups">UPS<a class="headerlink" href="#ups" title="Permanent link">&para;</a></h3>
 <p>The connection of SKR V1.4 and Resume Printing While Power Off Module（UPS 24V V1.0）:</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Power.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Power.webp width="600" /></p>
 <h3 id="raspberry-pi">Raspberry Pi<a class="headerlink" href="#raspberry-pi" title="Permanent link">&para;</a></h3>
 <p>The connection of SKR V1.4 and Raspberry Pi：</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_RPI.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_RPI.webp width="600" /></p>
 <h3 id="closed-loop-driver">Closed loop driver<a class="headerlink" href="#closed-loop-driver" title="Permanent link">&para;</a></h3>
 <p>The connection of SKR V1.4 and closed loop driver:</p>
-<p><img src=img/SKR_V1.4/SKR_V1.4_Loop.png width="600" /></p>
+<p><img src=img/SKR_V1.4/SKR_V1.4_Loop.webp width="600" /></p>
 <h2 id="marlin"><strong>Marlin</strong><a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h2>
 <p>The firmware description of SKR motherboard</p>
 <p><font  color="red">The factory motherboard is installed equipped with firmware for testing (model I3), which can be used directly or changed according to your own needs. </font></p>

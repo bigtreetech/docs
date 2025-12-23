@@ -6054,7 +6054,7 @@
 
 
 <h1 id="tmc5160t-pro-v10">TMC5160T Pro V1.0<a class="headerlink" href="#tmc5160t-pro-v10" title="Permanent link">&para;</a></h1>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_title.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_title.webp width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>The TMC5160 is a high-power stepper motor driver control chip that uses external power MOSFETs. It can operate at voltages up to 56V, supporting a wider range of stepper motors and offering higher adaptability.</p>
 <h2 id="feature-highlights"><strong>Feature Highlights</strong><a class="headerlink" href="#feature-highlights" title="Permanent link">&para;</a></h2>
@@ -6078,9 +6078,9 @@
 </ul>
 <h2 id="peripheral-interface"><strong>Peripheral Interface</strong><a class="headerlink" href="#peripheral-interface" title="Permanent link">&para;</a></h2>
 <h3 id="dimensions">Dimensions<a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h3>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_dimension.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_dimension.webp width="600"/></p>
 <h3 id="pin-description">Pin Description<a class="headerlink" href="#pin-description" title="Permanent link">&para;</a></h3>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_pin.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_pin.webp width="600"/></p>
 <table>
 <thead>
 <tr>
@@ -6141,11 +6141,11 @@
 </tr>
 </tbody>
 </table>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_pin1.png width="600"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_pin1.webp width="600"/></p>
 <h2 id="interface-introduction"><strong>Interface Introduction</strong><a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
 <h3 id="installation-and-interface">Installation and Interface<a class="headerlink" href="#installation-and-interface" title="Permanent link">&para;</a></h3>
 <p>The Enable (EN) pin is highlighted in red in the diagram and located inside the marked white box on the driver:</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_interface.png width="450"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_interface.webp width="450"/></p>
 <h2 id="firmware-settings"><strong>Firmware Settings</strong><a class="headerlink" href="#firmware-settings" title="Permanent link">&para;</a></h2>
 <h3 id="marlin">Marlin<a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h3>
 <div class="admonition note">
@@ -6156,7 +6156,7 @@
 <p>Open Configuration.h in your Marlin 2.0 firmware.</p>
 <p>Find <code>#define MOTHERBOARD XXXXXX</code></p>
 <p>Check the <code>XXXXX</code> value. This is your board.</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin1.png width="450"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin1.webp width="450"/></p>
 <p>Step 2: </p>
 <p>Go to the <code>Marlin/src/pins</code> directory. </p>
 <p>Open the <code>pins_xxxxxx.h</code> file that matches your board. (Remember, <code>xxxxxx</code> is your board model from Step 1). </p>
@@ -6167,7 +6167,7 @@
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>E0_CS_PIN
 </code></pre></div>
 <p>Change the pin numbers to the ones which you are using.</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin2.png width="500"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin2.webp width="500"/></p>
 <p>Step 3: </p>
 <p>Stay in that same <code>pins_xxxxxx.h</code> file. (The one from Step 2).</p>
 <p>Find these lines:</p>
@@ -6176,19 +6176,19 @@
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>#define TMC_SW_SCK XXX
 </code></pre></div>
 <p>Replace those <code>XXX</code> placeholders with the correct pin numbers for your setup.</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin3.png width="500"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin3.webp width="500"/></p>
 <p>Step 4: </p>
 <p>Open the Configuration_adv.h file. Find the line #define TMC_USE_SW_SPI. </p>
 <p>Remove the // at the beginning of the line.</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin4.png width="500"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin4.webp width="500"/></p>
 <p>Step 5: </p>
 <p>In <code>Configuration_adv.h</code>, find <code>#define X_CURRENT</code>, <code>#define X_MICROSTEPS</code>, </p>
 <p><code>#define X_RSENSE</code> and modify the parameters (modifications are needed for all axes used), setting <code>RSENSE</code> for each axis to <code>0.075</code>.</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin5.png width="500"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin5.webp width="500"/></p>
 <p>Step 6:</p>
 <p>After completing step 5, open Configuration.h and locate <code>#define DEFAULT_AXIS_STEPS_PER_UNIT</code> and modify the parameters to set microstepping, ensuring it corresponds with the microstepping from step 5.</p>
 <p>For microstepping calculation, "80,80,400,96" represents 16 microsteps, and if changed to 32 microsteps it becomes "80<em>(32/16), 80</em>(32/16), 400<em>(32/16), 96</em>(32/16)".</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin7.png width="500"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin7.webp width="500"/></p>
 <h3 id="klipper-config-example">Klipper config example<a class="headerlink" href="#klipper-config-example" title="Permanent link">&para;</a></h3>
 <div class="highlight"><span class="filename">printer.cfg</span><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>[tmc5160 stepper_x]
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>cs_pin: PD2
@@ -6206,12 +6206,12 @@
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>The TMC5160T Pro V1.0 uses a 0.075R current sensing resistor, which sets the maximum effective RMS current to 3.1A.</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin8.png width="450"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin8.webp width="450"/></p>
 <p>If you require higher currents, it is possible to replace the current sensing resistor with a new one. Please note that you will need to source and solder it yourself.</p>
 <p>Ensure that the replacement resistor is no less than 0.066R due to the size constraints of the module.</p>
 <p>Replacing the resistor is not recommended, but if you decide to go ahead, you'll need to take responsibility for any damage that might happen during the swap.</p>
 <p>The location for the replacement resistor is indicated by the red box in the diagram below.</p>
-<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin9.png width="450"/></p>
+<p><img src=img/tmc5160t_pro/tmc5160t_pro_marlin9.webp width="450"/></p>
 </div>
 <h2 id="cautions"><strong>Cautions</strong><a class="headerlink" href="#cautions" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">

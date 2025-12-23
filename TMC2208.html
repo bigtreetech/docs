@@ -6036,7 +6036,7 @@
 
 
 <h1 id="tmc2208">TMC2208<a class="headerlink" href="#tmc2208" title="Permanent link">&para;</a></h1>
-<p><img src=img/TMC2208/TMC2208_Title.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Title.webp width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>The TMC2208 is ultra-silent motor driver ICs for two phase stepper motors. Its pinning is compatible to a number of legacy drivers. TRINAMICs sophisticated stealthChop2 chopper ensures noiseless operation, maximum efficiency and best motor torque. Its fast current regulation and optional combination with spreadCycle allow for highly dynamic motion. Integrated power-MOSFETs handle motor current up to 1.4A RMS. Protection and diagnostic features support robust and reliable operation. A simple to use UART interface opens up more tuning and control options. Application specific tuning can be stored to OTP memory. Industries’ most advanced STEP/DIR stepper motor driver family upgrades designs to noiseless and most precise operation for cost effective and highly competitive solutions.</p>
 <p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/biqu-bigtreetech-tmc2100-2208-2130-v1-0-stepstick-mks-stepper-motor-driver-ultra-silent">BIGTREETECH Official Website</a></p>
@@ -6053,22 +6053,22 @@
 <li><strong>Integrated Pulse Generator for standalone motion</strong></li>
 </ul>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC2208/TMC2208_Dimension1.png width="600"/></p>
-<p><img src=img/TMC2208/TMC2208_Dimension2.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Dimension1.webp width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Dimension2.webp width="600"/></p>
 <h2 id="hardware-configuration"><strong>Hardware Configuration</strong><a class="headerlink" href="#hardware-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="working-mode-and-potentiometer-description"><strong>Working mode and potentiometer description</strong><a class="headerlink" href="#working-mode-and-potentiometer-description" title="Permanent link">&para;</a></h3>
 <h4 id="stepdir-mode"><strong>STEP/DIR mode</strong><a class="headerlink" href="#stepdir-mode" title="Permanent link">&para;</a></h4>
-<p><img src=img/TMC2208/TMC2208_Pin.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Pin.webp width="600"/></p>
 <p>Choice of working mode: MS1, MS2: </p>
-<p><img src=img/TMC2208/TMC2208_Step1.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Step1.webp width="600"/></p>
 <p>Working Current Reference:</p>
-<p><img src=img/TMC2208/TMC2208_Step2.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Step2.webp width="600"/></p>
 <h4 id="uart-mode"><strong>UART mode</strong><a class="headerlink" href="#uart-mode" title="Permanent link">&para;</a></h4>
 <p>Note: TMC2208 v3.0 has two modes from our factory : step / dir and UART mode.</p>
 <p>Customers can choose according to your own needs.</p>
 <p>The user who purchases the step / dir mode driver shall perform the following hardware operations on the driver module before wiring (the user who purchases the UART mode driver does not need any welding operations): </p>
 <p>Weld J2 as shown in the purple area, and put the driver in UART mode</p>
-<p><img src=img/TMC2208/TMC2208_UART.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_UART.webp width="600"/></p>
 <p><strong>The benefits of UART mode:</strong></p>
 <ol>
 <li>
@@ -6087,12 +6087,12 @@
 <p>When the motor is not moving, the standby current of the motor can be reduced dynamically (through UART).</p>
 </li>
 </ol>
-<p><img src=img/TMC2208/TMC2208_Connection.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Connection.webp width="600"/></p>
 <p><strong>Potentiometer regulation instructions:</strong></p>
 <p>Clockwise Rotating Potentiometer - Reduces Vref, thereby reducing drive current; Counterclockwise rotating potentiometer - Increase Vref, thereby increasing the driving current.</p>
 <p>The accurate voltage of Vref can only be measured when the main board is supplied with 12V or 24V voltage.</p>
 <p>The range of Vref value: default value: 1V (+0.2); MAX: 2V; MIN: 0V;Rotating potentiometer must not use too much force to prevent irreversible damage to the potentiometer; when the counter-clockwise rotation reaches the maximum, if it continues to rotate, it will become the minimum; similarly, when the clockwise rotation reaches the minimum, if it continues to rotate, it will become the maximum.</p>
-<p><img src=img/TMC2208/TMC2208_Range.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Range.webp width="600"/></p>
 <h2 id="software-configuration"><strong>Software Configuration</strong><a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="klipper-uart-config">Klipper UART Config<a class="headerlink" href="#klipper-uart-config" title="Permanent link">&para;</a></h3>
 <div class="highlight"><span class="filename">printer.cfg</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[tmc2208 stepper_x]
@@ -6105,16 +6105,16 @@
 <h3 id="marlin-uart-config">Marlin UART Config<a class="headerlink" href="#marlin-uart-config" title="Permanent link">&para;</a></h3>
 <p>For example, (Marlin-2.0)BIGTREETECH SKR V1.3:</p>
 <p><strong>Configuration.h files</strong> </p>
-<p><img src=img/TMC2208/TMC2208_Config_h.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Config_h.webp width="600"/></p>
 <p>TMC2208 - means you want to control SilentStepStick through UART.</p>
 <p>TMC2208_STANDALONE - does not use UART control but STEP/DIR .</p>
 <p>TMC2208 SilentStepStick, In other words plug and play.</p>
 <p><strong>Configuration_adv.h files</strong> </p>
-<p><img src=img/TMC2208/TMC2208_Configadv_h.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Configadv_h.webp width="600"/></p>
 <p><strong>Pins_BIGTREE_SKR_V1.3.h file</strong></p>
-<p><img src=img/TMC2208/TMC2208_Pins.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Pins.webp width="600"/></p>
 <p>After the firmware is changed, burned the firmware and check whether the driver is correctly installed is detected.</p>
-<p><img src=img/TMC2208/TMC2208_Table.png width="600"/></p>
+<p><img src=img/TMC2208/TMC2208_Table.webp width="600"/></p>
 <h2 id="precautions"><strong>Precautions</strong><a class="headerlink" href="#precautions" title="Permanent link">&para;</a></h2>
 <ul>
 <li>When hardware chooses UART working mode, cautiously use soldering iron to prevent scalding hands. After treatment, carefully observe whether there is residual tin slag in the module. It must be cleaned up to prevent short circuit burning of the module.</li>

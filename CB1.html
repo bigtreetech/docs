@@ -6088,7 +6088,7 @@
 
 
 <h1 id="cb1">CB1<a class="headerlink" href="#cb1" title="Permanent link">&para;</a></h1>
-<p><a href="https://bigtreetech.github.io/docs/CB1.html"><img src=img/CB1.png width="500" /></a></p>
+<p><a href="https://bigtreetech.github.io/docs/CB1.html"><img src=img/CB1.webp width="500" /></a></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>The BIGTREETECH CB1 is launched to provide a great solution to the insane shortage of Raspberry Pi CM4. It outputs signals to the motherboard via the fast and convenient two 100 pins micro BTB connection header. Moreover, it is onboard 2.4G WiFi.</p>
 <p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/manta-m4p-m8p?variant=39847241384034">BIGTREETECH Official Website</a></p>
@@ -6163,7 +6163,7 @@
 </tbody>
 </table>
 <h2 id="dimensions"><strong>Dimensions</strong><a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h2>
-<p><img title="" src="img/CB1_Size.png" alt="" width="450" data-align="center"></p>
+<p><img title="" src="img/CB1_Size.webp" alt="" width="450" data-align="center"></p>
 <h2 id="schematic"><strong>Schematic</strong><a class="headerlink" href="#schematic" title="Permanent link">&para;</a></h2>
 <p><a href="https://raw.githack.com/bigtreetech/docs/master/docs/download/BIGTREETECH_CB1_V22_220812_SCH.pdf">BIGTREETECH_CB1_V22_220812_SCH</a></p>
 <h2 id="pinout"><strong>Pinout</strong><a class="headerlink" href="#pinout" title="Permanent link">&para;</a></h2>
@@ -7178,19 +7178,19 @@
 <p>Plug-and-play with an Ethernet cable, no additional setup required.</p>
 <h4 id="wifi-settings"><strong>WiFi Settings</strong><a class="headerlink" href="#wifi-settings" title="Permanent link">&para;</a></h4>
 <p>After the OS writes to the SD card, there is a FAT32 partition named <code>BOOT</code>, open <code>system.cfg</code> file with <code>Notpad</code>, <code>Notpad++</code> or <code>VSCode</code>.</p>
-<p><img src=img/system.png width="600"></p>
+<p><img src=img/system.webp width="600"></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Set <code>WIFI_SSID</code> as your actual wifi name and <code>WIFI_PASSWD</code> as your actual wifi password, The space character can be parsed normally without additional escape character.
 For example:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="na">WIFI_SSID</span><span class="o">=</span><span class="s">&quot;CB1 Tester&quot;</span>
 </code></pre></div>
-<p><img title="" src="img/wifi.png" alt="" width="450" data-align="center"></p>
+<p><img title="" src="img/wifi.webp" alt="" width="450" data-align="center"></p>
 </div>
 <p>After the OS writes to the SD card, there is a FAT32 partition named <code>BOOT</code>, open <code>BoardEnv.txt</code> file with <code>Notpad</code>, <code>Notpad++</code> or <code>VSCode</code>. </p>
-<p><img src=img/BoardEnv.png width="400" data-align="center"></p>
+<p><img src=img/BoardEnv.webp width="400" data-align="center"></p>
 <p>Set as required as shown in the figure below. </p>
-<p><img title="" src="img/overlays.png" alt="" width="400" data-align="center"></p>
+<p><img title="" src="img/overlays.webp" alt="" width="400" data-align="center"></p>
 <p>The default value is <code>console=display</code>, This means that the <code>UART0</code> of CB1 is used as the debugging port by default. We can use <code>MobaXterm</code> to connect to CB1 by UART0 and debug. If klipper wants to use <code>UART0</code> to control the motherboard, we need to set it to <code>console=serial</code>, now klippe can use <code>UART0</code> as <code>/dev/ttyS0</code>.</p>
 <p>CB1 will automatically identify the HDMI resolution, but if your HDMI screen cannot report the resolution through the EDID normally, we can forcibly specify the resolution of CB1 output by uncomment <code>extraargs=video</code> and set the actual resolution.</p>
 <p>For example:</p>
@@ -7227,11 +7227,11 @@ For example:</p>
 <p>Insert the Micro SD card (installed OS) to motherboard, wait for system to load after power on, aprox. 1-2min. the ACT LED on the motherboard will flash continuously after startup successfully.</p>
 <p>The device will automatically be assigned a IP address after successfully connected to the network</p>
 <p>Find the device IP address in your router page</p>
-<p><img src=img/Router.png width="500"></p>
+<p><img src=img/Router.webp width="500"></p>
 <p>Or use the https://angryip.org/ tool, scan all IP address in the current network organize by names, find the IP named Hurakan, BTT-CB1 like shown below</p>
-<p><img src=img/AngryIP.png width="500"> </p>
+<p><img src=img/AngryIP.webp width="500"> </p>
 <p>Open Mobaxtermand click “Session”, and click “SSH”, inset the device IP into Remote host and click “OK” (note: your computer and the device needs to be in the same network)</p>
-<p><img src=img/MobaXterm_Login.png width="500"> </p>
+<p><img src=img/MobaXterm_Login.webp width="500"> </p>
 <p>Input the login name and password to enter the SSH terminal interface. </p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>login as: biqu
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>password: biqu
@@ -7263,15 +7263,15 @@ For example:</p>
 <p><strong>Write OS</strong></p>
 <p>Insert a MicroSD card to your computer through a card reader.</p>
 <p>Select the image that you downloaded. </p>
-<p><img title="" src="img/Etcher_1.png" alt="" width="450" data-align="inline"></p>
+<p><img title="" src="img/Etcher_1.webp" alt="" width="450" data-align="inline"></p>
 <p>Select the MicroSD card and click <code>Flash</code></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p><code>Flash</code> the image will format the MicroSD card. Be careful not to select the wrong storage device, otherwise the data will be formatted.</p>
 </div>
-<p><img title="" src="img/Etcher_2.png" alt="" width="450" data-align="inline"></p>
+<p><img title="" src="img/Etcher_2.webp" alt="" width="450" data-align="inline"></p>
 <p>Wait for the writing to finish. </p>
-<p><img title="" src="img/Etcher_3.png" alt="" width="450" data-align="inline"></p>
+<p><img title="" src="img/Etcher_3.webp" alt="" width="450" data-align="inline"></p>
 </li>
 </ol>
 <h2 id="product-purchase-link">Product Purchase Link<a class="headerlink" href="#product-purchase-link" title="Permanent link">&para;</a></h2>

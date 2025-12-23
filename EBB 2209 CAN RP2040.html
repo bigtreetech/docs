@@ -5952,7 +5952,7 @@
 
 
 <h1 id="ebb-sb2209-can-rp2040">EBB SB2209 CAN RP2040<a class="headerlink" href="#ebb-sb2209-can-rp2040" title="Permanent link">&para;</a></h1>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_title.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_title.webp width="600"/></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For information about EBB SB2209 CAN V1.0 (RP2040) structure, please click <a href="https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2209%20CAN%20(RP2040)/Build%20Guide/EBB%20SB2209%20CAN%20V1.0%EF%BC%88RP2040%EF%BC%89Build%20Guide_20250508.pdf">EBB SB2209 CAN V1.0 (RP2040).PDF</a></p>
@@ -5991,7 +5991,7 @@
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>make<span class="w"> </span>menuconfig
 </code></pre></div>
 <p>and configure according to the following figure</p>
-<p><img src=img/rp2040_katapult_menuconfig_led.png width="450"/></p>
+<p><img src=img/rp2040_katapult_menuconfig_led.webp width="450"/></p>
 </li>
 <li>
 <p>Build Katapult</p>
@@ -6003,18 +6003,18 @@
 <ol>
 <li>
 <p>Please use a Type-C cable to connect the EBB SB2209 CAN V1.0(RP2040)to the Raspberry Pi/CB1, and ensure that the USB_5V jumper is connected, in order to supply power to the EBB SB2209 CAN V1.0 (RP2040) via Type-C.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software3.png width="500"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software3.webp width="500"/></p>
 </li>
 <li>
 <p>Press and hold the Boot button, and then click the Reset button to enter the DFU mode.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software4.png width="500"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software4.webp width="500"/></p>
 </li>
 <li>
 <p>Enter in the SSH terminal command line</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>lsusb
 </code></pre></div>
 <p>Query DFU device ID</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software5.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software5.webp width="600"/></p>
 </li>
 <li>
 <p>Please enter the following command to flash Katapult::</p>
@@ -6042,7 +6042,7 @@
 </li>
 <li>
 <p>Run make to compile firmware,"klipper. bin" file will be generated in home/pi/klipper/out folder when make is finished, download it onto your computer using the SSH application.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software6.png width="600"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software6.webp width="600"/></p>
 </li>
 </ol>
 <h4 id="firmware-updatevia-katapult">Firmware Update(via Katapult)<a class="headerlink" href="#firmware-updatevia-katapult" title="Permanent link">&para;</a></h4>
@@ -6056,7 +6056,7 @@
 <a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>python3<span class="w"> </span>flash_can.py<span class="w"> </span>-i<span class="w"> </span>can0<span class="w"> </span>-q
 </code></pre></div>
 <p>to query the canbus ID (connect the CAN cable and power it on in advance), as shown in the figure below, the UUID of the device has been found</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software7.png width="450"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software7.webp width="450"/></p>
 </li>
 <li>
 <p>Use command following to flash Klipper via Katapult</p>
@@ -6067,13 +6067,13 @@
 <p>The <code>be69315a613c</code> is replaced with the actual UUID.</p>
 <p>klipper.bin needs to be made in advance, and the application start offset of Katapult is 16KiB offset, so Klipper's menuconfig Bootloader offset should also be 16KiB bootloader, as shown in the following figure.</p>
 </div>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software8.png width="450"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software8.webp width="450"/></p>
 </li>
 <li>
 <p>Use command below to check application running in EBB CAN.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>python3<span class="w"> </span>flash_can.py<span class="w"> </span>-i<span class="w"> </span>can0<span class="w"> </span>-q
 </code></pre></div>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software9.png width="450"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software9.webp width="450"/></p>
 </li>
 </ol>
 <h4 id="firmware-updatevia-dfu">Firmware Update(via DFU)<a class="headerlink" href="#firmware-updatevia-dfu" title="Permanent link">&para;</a></h4>
@@ -6081,17 +6081,17 @@
 <ol>
 <li>
 <p>Please use a Type-C cable to connect the EBB SB2209 CAN V1.0 (RP2040) to the Raspberry Pi/CB1, and ensure that the USB_5V jumper is connected, in order to supply power to the EBB SB2209 CAN V1.0 (RP2040) via Type-C.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software10.png width="450"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software10.webp width="450"/></p>
 </li>
 <li>
 <p>Press and hold the Boot button, and then click the Reset button to enter the DFU mode.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software11.png width="450"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software11.webp width="450"/></p>
 </li>
 <li>
 <p>use <code>lsusb</code> command to confirm that the device is in <code>DFU</code> mode.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>lsusb
 </code></pre></div>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software12.png width="500"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software12.webp width="500"/></p>
 </li>
 <li>
 <p>run following command to enter to the klipper directory, then write the firmware:</p>
@@ -6114,21 +6114,21 @@
 <ol>
 <li>
 <p>Enter Raspberry Pi IP address into your browser, and find the reference config for the motherboard in the directory shown below, if there is no such config available, update your Klipper source code to the newest version or download it from GitHub repo <a href="https://github.com/bigtreetech/EBB">bigtreetech/EBB</a></p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software14.png width="500"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software14.webp width="500"/></p>
 </li>
 <li>
 <p>Upload the configuration file of the motherboard to Configuration Files.</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software15.png width="500"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software15.webp width="500"/></p>
 </li>
 <li>
 <p>Add the configuration of this motherboard in the <code>printer.cfg</code> file:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="o">[</span>include<span class="w"> </span>sample-bigtreetech-ebb-sb-canbus-v1.0.cfg<span class="o">]</span>
 </code></pre></div>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software16.png width="500"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software16.webp width="500"/></p>
 </li>
 <li>
 <p>replace <code>canbus_uuid</code> with the one found in the previous steps</p>
-<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software17.png width="500"/></p>
+<p><img src=img/EBB_SB2240_2209(RP2040)/EBB_SB2240_2209(RP2040)_software17.webp width="500"/></p>
 </li>
 <li>
 <p>Configure the module's specific functions according to <a href="https://www.klipper3d.org/Config_Reference.html">Klipper Config_Reference</a></p>

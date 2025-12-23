@@ -6006,7 +6006,7 @@
 
 
 <h1 id="tmc5160t-plus">TMC5160T Plus<a class="headerlink" href="#tmc5160t-plus" title="Permanent link">&para;</a></h1>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Title.png width="600"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Title.webp width="600"/></p>
 <h2 id="product-profile"><strong>Product Profile</strong><a class="headerlink" href="#product-profile" title="Permanent link">&para;</a></h2>
 <p>TMC5160T Plus is a high-power stepper motor driver control module, featuring 8 high-power MOSFETs separately mounted on the board with a maximum voltage of 60V. This supports a wider range of stepper motors and offers greater adaptability.</p>
 <p><strong>Product Link:</strong> <a href="https://biqu.equipment/products/bigtreetech-tmc5160-v1-0-driver-spi-mode-silent-high-precision-stepstick-stepper-motor-driver-with-heatsink-for-skr-v1-3-gen-v1-4-reprap?variant=40447047860322">BIGTREETECH Official Website</a></p>
@@ -6089,9 +6089,9 @@
 </tbody>
 </table>
 <h2 id="interface-diagram">Interface Diagram<a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Dim.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Dim.webp width="500"/></p>
 <h2 id="pinoutfunction">Pinout/Function<a class="headerlink" href="#pinoutfunction" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Pin.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Pin.webp width="500"/></p>
 <h2 id="interface-introduction">Interface Introduction<a class="headerlink" href="#interface-introduction" title="Permanent link">&para;</a></h2>
 <h3 id="installation-and-interface">Installation and Interface<a class="headerlink" href="#installation-and-interface" title="Permanent link">&para;</a></h3>
 <p>Connection methods for common motherboards (e.g., SKR3), use the supplied TMC Driver Adaptor and cables to connect the TMC5160T Plus with SKR3 as shown in the diagram:</p>
@@ -6099,13 +6099,13 @@
 <p class="admonition-title">Warning</p>
 <p>TMC Driver Adaptor only support 24v!</p>
 </div>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Ins1.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Ins1.webp width="500"/></p>
 <p>For EZ series motherboards (e.g., Octopus MAX EZ), use the supplied EZ Driver Adaptor and cables to connect the TMC5160T Plus with Octopus MAX EZ as shown in the diagram:</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>EZ Driver Adaptor only support 24v!</p>
 </div>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Ins2.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Ins2.webp width="500"/></p>
 <h2 id="software-configuration">Software Configuration<a class="headerlink" href="#software-configuration" title="Permanent link">&para;</a></h2>
 <h3 id="marlin-firmware-settings">Marlin Firmware Settings<a class="headerlink" href="#marlin-firmware-settings" title="Permanent link">&para;</a></h3>
 <div class="admonition note">
@@ -6115,27 +6115,27 @@
 <ol>
 <li>
 <p>In the Marlin 2.0 firmware, locate and open the "Configuration.h" file, then find the line <code>#define MOTHERBOARD XXXXXX</code>. <code>XXXXXX</code> represents the model of the board being used. Confirm the motherboard you are using.</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software1.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software1.webp width="500"/></p>
 </li>
 <li>
 <p>In the <code>Marlin/src/pins</code> directory, find the <code>pins_xxxxxx.h</code> file corresponding to your board (xxxxxx represents the board model), and then locate <code>X_CS_PIN</code>, <code>Y_CS_PIN</code>, <code>Z_CS_PIN</code>, and <code>EO_CS_PIN</code> within the file. Modify the pin names following these variables to the pins you are using.</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software2.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software2.webp width="500"/></p>
 </li>
 <li>
 <p>In the file from Step 2, locate <code>#define TMC_SW_MOSI XXX</code>, <code>#define TMC_SW_MISO XXX</code>, and <code>#define TMC_SW_SCK XXX</code>. Change <code>XXX</code> to the pins you want to use.</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software3.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software3.webp width="500"/></p>
 </li>
 <li>
 <p>Find and open <code>Configuration_adv.h</code>, then locate <code>#define TMC_USE_SW_SPI</code> and remove the comment symbols <code>//</code>.</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software4.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software4.webp width="500"/></p>
 </li>
 <li>
 <p>In the <code>Configuration_adv.h</code> file, find <code>#define X_CURRENT</code>, <code>#define X_MICROSTEPS</code>, and <code>#define X_RSENSE</code> and modify the parameters that follow (for each axis being used). The <code>RSENSE</code> value for each used axis should be changed to <code>0.022</code>.</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software5.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software5.webp width="500"/></p>
 </li>
 <li>
 <p>Set the corresponding axis drive type to <code>TMC5160</code> in the <code>Configuration.h</code> file.</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software6.png width="500"/></p>
+<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software6.webp width="500"/></p>
 </li>
 </ol>
 <h3 id="klipper-firmware-settings">Klipper Firmware Settings<a class="headerlink" href="#klipper-firmware-settings" title="Permanent link">&para;</a></h3>

@@ -5947,12 +5947,12 @@
 <p>Query the ID of the touchscreen, The name of TFT35_SPI is <code>ns2009</code> or <code>TSC2007</code>, as shown in the figure the id is <code>6</code></p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nv">DISPLAY</span><span class="o">=</span>:0<span class="w"> </span>xinput_calibrator<span class="w"> </span>--list
 </code></pre></div>
-<p><img src=img/tft35_spi_id.png width="500"/></br></p>
+<p><img src=img/tft35_spi_id.webp width="500"/></br></p>
 <h3 id="start-calibration">Start Calibration<a class="headerlink" href="#start-calibration" title="Permanent link">&para;</a></h3>
 <p>Start calibration, Click on the center of the cross that appears one by one on the screen. Replace the id with the actual id found in the previous step. Record the parameters of <code>click 0 X</code>, <code>click 0 Y</code>, <code>click 3 X</code>, and <code>click 3 Y</code>, which are required for conversion.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">DISPLAY</span><span class="o">=</span>:0<span class="w"> </span>xinput_calibrator<span class="w"> </span>-v<span class="w"> </span>--device<span class="w"> </span>&lt;id&gt;
 </code></pre></div>
-<p><img src=img/tft35_spi_calibration.png width="600"/></p>
+<p><img src=img/tft35_spi_calibration.webp width="600"/></p>
 <h2 id="convert-to-libinput">Convert to libinput<a class="headerlink" href="#convert-to-libinput" title="Permanent link">&para;</a></h2>
 <p>The parameter of <code>xinput_calibrator</code> cannot be directly used for <code>libinput</code> and needs to be converted. Please refer to <a href="https://wiki.archlinux.org/title/Talk:Calibrating_Touchscreen#Libinput%5Fbreaks%5Fxinput%5Fcalibrator">ArchLinux Wiki</a> for details.</p>
 <h3 id="conversion-script">Conversion Script<a class="headerlink" href="#conversion-script" title="Permanent link">&para;</a></h3>
@@ -6047,7 +6047,7 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sudo<span class="w"> </span>./libinput_calibrator.sh<span class="w"> </span><span class="m">480</span><span class="w"> </span><span class="m">320</span><span class="w"> </span><span class="m">61</span><span class="w"> </span><span class="m">35</span><span class="w"> </span><span class="m">417</span><span class="w"> </span><span class="m">281</span>
 </code></pre></div>
 <p>The script will automatically convert and write parameters to the configuration file, and then reset KlipperScreen if installed. You can check whether the configuration is effective through the command <code>DISPLAY=:0 xinput list-props &lt;id&gt;</code>
-<img src=img/tft35_spi_convert.png width="700"/></p>
+<img src=img/tft35_spi_convert.webp width="700"/></p>
 <h2 id="faq"><strong>FAQ</strong><a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
 <p><strong>Q: How to rotate TFT35_SPI direction</strong></p>
 <p>A: The direction of <code>TFT35_SPI</code> cannot be modified through the configuration in <code>system.cfg</code> currently, it can only be rotated by modifying the <code>.dts</code> file.</p>
