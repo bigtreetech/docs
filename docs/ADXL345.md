@@ -1,6 +1,6 @@
 # ADXL345 V2.0
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.webp width="600"/>
+<img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.webp width="600"/> 
 
 ## **Product Profile**
 
