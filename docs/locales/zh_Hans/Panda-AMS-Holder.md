@@ -2,21 +2,7 @@
 
 ## Panda Perch安装教程
 
-<video width="600" height="480" controls>
-    <source src="img/Panda_Perch/Main_installation_steps_1.mp4" type="video/mp4">
-</video>
-
-
-
-<video width="600" height="480" controls>
-    <source src="img/Panda_Perch/Main_installation_steps_2.mp4" type="video/mp4">
-</video>
-
-
-
-<video width="600" height="480" controls>
-    <source src="img/Panda_Perch/Main_installation_steps_3.mp4" type="video/mp4">
-</video>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115773343342099&bvid=BV1UPBLBJEMP&cid=34950481230&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### 第一步 对齐
 

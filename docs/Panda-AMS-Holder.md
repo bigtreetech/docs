@@ -2,17 +2,7 @@
 
 ## Panda Perch Installation Guide
 
-<video width="600" height="480" controls>
-    <source src="img/Panda_Perch/Main_installation_steps_1.mp4" type="video/mp4">
-</video>
-
-<video width="600" height="480" controls>
-    <source src="img/Panda_Perch/Main_installation_steps_2.mp4" type="video/mp4">
-</video>
-
-<video width="600" height="480" controls>
-    <source src="img/Panda_Perch/Main_installation_steps_3.mp4" type="video/mp4">
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Aataf92iuZw?si=NsNhW7Moe26kjFZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Step 1: Assemble the Side Plates
 

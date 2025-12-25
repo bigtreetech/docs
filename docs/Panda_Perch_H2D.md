@@ -47,13 +47,9 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
 ## Panda Perch H2D Assembly Guide
 
-* **Parts List**
+### Video Tutorial
 
-    <img src=img/PandaPerchH2D/1.jpg width="600"/>
-
-    <video width="600" height="480" controls>
-        <source src="img/PandaPerchH2D/1.mp4" type="video/mp4">
-    </video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YFnMoOV6fd0?si=wb7keyT5gAS_GL2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 * **Step 1: Form the Main Frame**
 
@@ -83,19 +79,6 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
     >You can refer to the following video for a clearer understanding of the installation process.
 
-
-### Assembly Video for Main Body
-
-<video width="600" height="480" controls>
-    <source src="img/PandaPerchH2D/2main body.mp4" type="video/mp4">
-</video>
-
-### AMS Support Bar Installation Video
-
-<video width="600" height="480" controls>
-    <source src="img/PandaPerchH2D/3AMS holder.mp4" type="video/mp4">
-</video>
-
 ## AMS HT Storage Rack Assembly Guide
 
 * **Step 1: Assemble the AMS HT Storage Rack**
@@ -115,12 +98,6 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
     <img src=img/PandaPerchH2D/01.jpg width="600"/>
 
     > You can refer to the following video for a clearer understanding of the installation process.
-
-### **AMS HT Storage Rack Installation Video**
-
-<video width="600" height="480" controls>
-    <source src="img/PandaPerchH2D/4HT.mp4" type="video/mp4">
-</video>
 
 > Note: The AMS HT Storage Rack is an optional accessory. One Panda Perch H2D can be expanded with two sets (two Storage Racks per set, totaling four Storage Racks). If using only one set, we recommend placing one Storage Rack on each side of the Panda Perch H2D (left and right). <br>
 **Important:** Always ensure that the suction cup screws are installed at the contact points between the printer's outer wall and the rod and Storage Rack.

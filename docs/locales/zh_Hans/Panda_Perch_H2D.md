@@ -46,13 +46,13 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
 
 ## Panda Perch H2D组装指南
 
+### 视频组装教程
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115773326496076&bvid=BV1tNBLBUE13&cid=34950417303&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 * **配件清单**
 
     <img src=img/PandaPerchH2D/1.jpg width="600"/>
-
-    <video width="600" height="480" controls>
-        <source src="img/PandaPerchH2D/1.mp4" type="video/mp4">
-    </video>
 
 * **第一步，将包装内左右侧板（有产品名称丝印的一侧为右）、背板与正面底条拿出，使用CM3x4螺丝按孔位固定（不用一次性锁紧，装完顶板后在锁紧）**
 
@@ -70,18 +70,6 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
 
     <img src=img/PandaPerchH2D/6.jpg width="600"/>
 
-### 主体安装视频教程
-
-<video width="600" height="480" controls>
-    <source src="img/PandaPerchH2D/2main body.mp4" type="video/mp4">
-</video>
-
-### AMS支撑条安装视频
-
-<video width="600" height="480" controls>
-    <source src="img/PandaPerchH2D/3AMS holder.mp4" type="video/mp4">
-</video>
-
 ## Panda Perch HT吊篮组装指南
 
 * **第一步，拆开HT吊篮包装盒，将盒内吊篮与连接杆拿出，按图示使用CM4x6螺丝将连接杆固定**
@@ -93,12 +81,6 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
     <img src=img/PandaPerchH2D/8.jpg width="600"/>
 
     <img src=img/PandaPerchH2D/01.jpg width="600"/>
-
-### **HT吊篮组装视频**
-
-<video width="600" height="480" controls>
-    <source src="img/PandaPerchH2D/4HT.mp4" type="video/mp4">
-</video>
 
 * 注意！HT吊篮为选配项，最高可支持安装两套（4个吊篮），当使用一套时推荐左右两侧各一个，吸盘螺丝安装至连接杆与吊篮连接处。
 
