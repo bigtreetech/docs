@@ -2,7 +2,7 @@
 
 ## Panda Perch安装教程
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115773343342099&bvid=BV1UPBLBJEMP&cid=34950481230&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115773343342099&bvid=BV1UPBLBJEMP&cid=34950481230&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="560" height="315"></iframe>
 
 ### 第一步 对齐
 

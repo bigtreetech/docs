@@ -48,7 +48,7 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
 
 ### 视频组装教程
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115773326496076&bvid=BV1tNBLBUE13&cid=34950417303&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115773326496076&bvid=BV1tNBLBUE13&cid=34950417303&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="560" height="315"></iframe>
 
 * **配件清单**
 
