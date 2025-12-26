@@ -1,6 +1,6 @@
 # KNOMI2
 
-<img src=img/KNOMI2/KNOMI2_Title.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -66,9 +66,9 @@ BIGTREETECHNomiV2.0屏幕是由必趣创新科技（深圳）有限公司3D打�
 
 其中，我们的 StealthBurner 前盖打印件不仅保留了原有的风扇位置，还在顶部增加环状开窗通风口，以提高兼容性和优化散热效果。
 
-<img src=img/KNOMI2/KNOMI2_IN0.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_IN0.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_IN.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_IN.webp width="600" />
 
 <font  color="red">**定制打印件下载地址**</font> 
 
@@ -82,39 +82,39 @@ https://github.com/bigtreetech/KNOMI
 
 我们对搭配定制打印件安装了 KNOMI 2 的 StealthBurner 与原始未安装 KNOMI 2 的 StealthBurner 进行了性能比较。结果显示，无论是在风速还是声能级上，两者的表现几乎相同，安装 KNOMI 2 后的 StealthBurner 仍然能够如期地保持其性能表现。
 
-<img src=img/KNOMI2/KNOMI2_IN1.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_IN1.webp width="600" />
 
 ## **包装清单**
 
-<img src=img/KNOMI2/KNOMI2_IN2.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_IN2.webp width="600" />
 
 ## **概览**
 
-<img src=img/KNOMI2/KNOMI2_IN3.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_IN3.webp width="600" />
 
 ## **配置W-FI**
 
-<img src=img/KNOMI2/KNOMI2_CN1.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN1.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN2.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN2.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN3.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN3.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN4.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN4.webp width="600" />
 
 ## **把 KNOMI 2 安装到 STEALTHBURNER 上**
 
-<img src=img/KNOMI2/KNOMI2_CN5.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN5.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN6.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN6.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN7.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN7.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN8.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN8.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN9.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN9.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN10.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN10.webp width="600" />
 
 恭喜您已完成 KNOMI 2 在 StealthBurner 上的安装部分，请继续按照 StealthBurner 的标准安装步骤完成 LED、轴流风扇和其他组件的安装。
 
@@ -122,7 +122,7 @@ https://github.com/bigtreetech/KNOMI
 
 ## **添加相关宏**
 
-<img src=img/KNOMI2/KNOMI2_ADD1.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_ADD1.webp width="600" />
 
 ```
 [gcode_macro _KNOMI_STATUS]
@@ -164,7 +164,7 @@ gcode:
 
 <font  color="red">**如果打印机有 QGL 功能:**</font> 
 
-<img src=img/KNOMI2/KNOMI2_ADD2.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_ADD2.webp width="600" />
 
 ```
 [gcode_macro QUAD_GANTRY_LEVEL]
@@ -177,7 +177,7 @@ gcode:
 
 <font  color="red">**如果没有 QGL 但是有 Z_TILT 功能，可以按照如下设置：**</font> 
 
-<img src=img/KNOMI2/KNOMI2_ADD3.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_ADD3.webp width="600" />
 
 ```
 [gcode_macro QUAD_GANTRY_LEVEL]
@@ -191,25 +191,25 @@ gcode:
 
 在浏览器中输入 **http://knomi.local** ，以访问 KNOMI 2 网络配置页面。滚动至页面底部，点击 “Update FW ”。
 
-<img src=img/KNOMI2/KNOMI2_UPDATE1.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_UPDATE1.webp width="600" />
 
 进入固件更新界面，选择“'Choose File”。
 
-<img src=img/KNOMI2/KNOMI2_UPDATE2.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_UPDATE2.webp width="600" />
 
 选择 xxx.bin 文件。
 
-<img src=img/KNOMI2/KNOMI2_UPDATE3.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_UPDATE3.webp width="600" />
 
 固件将通过 OTA 自动更新。
 
-<img src=img/KNOMI2/KNOMI2_UPDATE4.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_UPDATE4.webp width="600" />
 
 KNOMI 2 重启即表示更新成功。浏览器页面也将显示成功更新的信息。
 
 此时，您可以选择“Back”，返回到 KNOMI 2 网络配置的主界面。
 
-<img src=img/KNOMI2/KNOMI2_UPDATE5.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_UPDATE5.webp width="600" />
 
 ## **KNOMI UI**
 
@@ -219,51 +219,51 @@ KNOMI 2 采用彩色屏幕，支持全屏触摸、上滑、下滑、左滑、右
 
 <font  color="red">**主界面**</font> 
 
-<img src=img/KNOMI2/KNOMI2_CN11.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN11.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN12.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN12.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN13.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN13.webp width="600" />
 
 <font  color="red">**如何挤出和回抽耗材？**</font> 
 
 从待机页面右滑进入 耗材挤出/回抽 界面 。
 
-<img src=img/KNOMI2/KNOMI2_CN14.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN14.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN15.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN15.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN35.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN35.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN16.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN16.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN36.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN36.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN17.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN17.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN18.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN18.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN37.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN37.webp width="600" />
 
 <font  color="red">**如何调整喷嘴/热床温度？**</font> 
 
 从待机页面左滑进入 喷嘴/热床温度设置界面 。
 
-<img src=img/KNOMI2/KNOMI2_CN19.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN19.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN20.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN20.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN21.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN21.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN22.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN22.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN23.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN23.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN24.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN24.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN25.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN25.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN26.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN26.webp width="600" />
 
 **1、此选项为高级设置功能，请在知悉其具体功能后进行操作。**
 
@@ -271,17 +271,17 @@ KNOMI 2 采用彩色屏幕，支持全屏触摸、上滑、下滑、左滑、右
 
 <font  color="red">**如何调整 KNOMI UI 颜色?**</font> 
 
-<img src=img/KNOMI2/KNOMI2_CN27.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN27.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN28.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN28.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN29.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN29.webp width="600" />
 
 
 
 <font  color="red">**如何调节 KNOMI 显示屏幕亮度？**</font> 
 
-<img src=img/KNOMI2/KNOMI2_CN30.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN30.webp width="600" />
 
 
 
@@ -289,11 +289,11 @@ KNOMI 2 采用彩色屏幕，支持全屏触摸、上滑、下滑、左滑、右
 
 KNOMI UI 在打印机操作的不同阶段运用视觉元素向用户提供状态信息：
 
-<img src=img/KNOMI2/KNOMI2_CN31.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN31.webp width="600" />
 
-<img src=img/KNOMI2/KNOMI2_CN32.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN32.webp width="600" />
 
 ## **FAQ**
 
-<img src=img/KNOMI2/KNOMI2_CN33.webp width="600" />
+<img src=/img/KNOMI2/KNOMI2_CN33.webp width="600" />
 

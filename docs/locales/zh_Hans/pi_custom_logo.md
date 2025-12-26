@@ -7,7 +7,7 @@ BIGTREETECH Pix/CBx 系统自定义开机 logo
 
 ## BIGTREETECH Pi1/CB1 OS V3.0.0 及其之后的系统, 以及所有的 Pi2/CB2 系统
 使用标准的 plymouth theme 主题管理.
-<img src=img/custom_logo.webp width="500"/></br>
+<img src=/img/custom_logo.webp width="500"/></br>
 * 替换系统路径 `/usr/share/plymouth/themes/armbian/` 下的 `bgrt-fallback.webp`(推荐的分辨率是: 256*256px) 和 `watermark.webp` 图片文件</br>
   ```
   sudo mv ./bgrt-fallback.webp /usr/share/plymouth/themes/armbian/bgrt-fallback.webp

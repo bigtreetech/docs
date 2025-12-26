@@ -1,6 +1,6 @@
 # **Panda Diaper PX**
 
-<img src=img/PandaDiaperPX/1.jpg width="600"/>
+<img src=/img/PandaDiaperPX/1.jpg width="600"/>
 
 - **产品链接**: [点击购买](https://bit.ly/4n3n8Mq)
 
@@ -39,24 +39,24 @@ Panda Den 是专为 **Bambu Lab P/X打印机** 用户打造的仓内碎屑收纳
 
 - **兼容性：**  适配Bambu Lab P/X机器
 
-<img src=img/PandaDiaperPX/3.jpg width="600"/>
+<img src=/img/PandaDiaperPX/3.jpg width="600"/>
 
 
 ## Panda Diaper PX使用指南
 
 * 第一步：将包装一端的封盖取掉后将袋子中的产品从包装内取出
 
-    <img src=img/PandaDiaperPX/5.webp width="600"/>
+    <img src=/img/PandaDiaperPX/5.webp width="600"/>
 
 * 第二步：将Diaper平铺至PX打印机底部，将四周边角及开孔处按压到底，如图所示
 
-    <img src=img/PandaDiaperPX/6.jpg width="600"/>
+    <img src=/img/PandaDiaperPX/6.jpg width="600"/>
 
 * 第三步：当需要清理碎屑时，将双手掌心向上，用手指卡住提手后向内折叠的完成后在将Diaper拿出，将碎屑倒如垃圾桶即可
 
-    <img src=img/PandaDiaperPX/4.jpg width="600"/>
+    <img src=/img/PandaDiaperPX/4.jpg width="600"/>
 
-    <img src=img/PandaDiaperPX/2.jpg width="600"/>
+    <img src=/img/PandaDiaperPX/2.jpg width="600"/>
 
 
 ## **相关导航**

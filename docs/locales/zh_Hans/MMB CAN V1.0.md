@@ -1,6 +1,6 @@
 # MMB CAN V1.0
 
-<img src=img/MMB_CAN/MMB_CAN_Title.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -38,13 +38,13 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ## **尺寸**
 
-<img src=img/MMB_CAN/MMB_CAN_Dimension.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Dimension.webp width="600" />
 
 ## **外围设备接口**
 
 ### 引脚说明
 
-<img src=img/MMB_CAN/MMB_CAN_Pin.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Pin.webp width="600" />
 
 ## **接口介绍**
 
@@ -52,27 +52,27 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 主板上电之后， 电源灯会亮起，表示供电正常。板上标识 VUSB 是电源选择端，仅当使用USB 给主板供电时，才需要使用跳帽将 VUSB 短接。
 
-<img src=img/MMB_CAN/MMB_CAN_USB.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_USB.webp width="600" />
 
 ### Servo 接线
 
-<img src=img/MMB_CAN/MMB_CAN_Servo.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Servo.webp width="600" />
 
 ### RGB-WS2812 接线
 
-<img src=img/MMB_CAN/MMB_CAN_WS2812.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_WS2812.webp width="600" />
 
 ###  Sensor（如 CRT5000 红外传感器）接线
 
-<img src=img/MMB_CAN/MMB_CAN_Sensor.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Sensor.webp width="600" />
 
 ### I2C（如 AHT10 温湿度传感器）接线
 
-<img src=img/MMB_CAN/MMB_CAN_I2C.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_I2C.webp width="600" />
 
 ### Endstop（如霍尔传感器）接线
 
-<img src=img/MMB_CAN/MMB_CAN_Endstop.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Endstop.webp width="600" />
 
 ## **Klipper 固件**
 
@@ -102,17 +102,17 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
    并按照下图配置:
 
-   <img src=img/MMB_CAN/MMB_CAN_Klipper1.webp width="600" />
+   <img src=/img/MMB_CAN/MMB_CAN_Klipper1.webp width="600" />
 
 ​	3.输入 **make** 编译固件，当 **make** 执行完成后会在 **home/biqu/CanBoot/out** 文件夹中生成我们所需要的“**canboot.bin**”固件，在 SSH 软件左侧可以直接下载到电脑中
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper2.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper2.webp width="600" />
 
 ​	4.请按住 **Boot** 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式
 
 ​	5.在 SSH 终端命令行中输入 **lsusb** 查询 DFU 设备 ID
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper3.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper3.webp width="600" />
 
 ​	6.请输入以下命令以烧录 CanBoot
 
@@ -132,7 +132,7 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ​		使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper4.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper4.webp width="600" />
 
 **[\*] Enable extra low-level configuration options**
 
@@ -162,7 +162,7 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 3.输入 **make** 编译固件，当 **make** 执行完成后会在 **home/pi/klipper/out** 文件夹中生成我们所需要的**“klipper.bin”**固件，在 SSH 软件左侧可以直接下载到电脑中
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper5.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper5.webp width="600" />
 
 ### 通过 CANBOOT 进行固件更新
 
@@ -178,7 +178,7 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ​	查询 canbus ID （需提前接好 CAN 线并通电），如下图已找到设备的 UUID
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper6.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper6.webp width="600" />
 
 ​	3.输入
 
@@ -186,7 +186,7 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ​	替换为实际的 UUID，注意：**klipper.bin** 需要提前 **make** 生成出来，并且 **CanBoot**的 **Application start offset** 为 **8KiB offset**，所以 **Klipper** 的 **menuconfig** 中 **Bootloader offset** 也要为 **8KiB bootloader**，如下图已经烧录成功。
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper7.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper7.webp width="600" />
 
 ​	4.再次输入
 
@@ -194,7 +194,7 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ​	查询，此时 **Application** 由之前的 **CanBoot** 变为 **Klipper**，代表 Klipper 已经正常运行
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper8.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper8.webp width="600" />
 
 ### 通过 DFU 进行固件更新
 
@@ -204,7 +204,7 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 2、在 SSH 终端命令行中输入 **lsusb** 查询 DFU 设备 ID
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper9.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper9.webp width="600" />
 
 3、输入
 
@@ -234,7 +234,7 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 搭配 BIGTREETECH U2C 模块使用
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper10.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper10.webp width="600" />
 
 1、在 SSH 终端中输入:
 
@@ -268,11 +268,11 @@ BIGTREETECH MMB CAN V1.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 https://github.com/bigtreetech/MMB
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper11.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper11.webp width="600" />
 
 2、将主板的配置文件上传到 Configuration Files 中;
 
-<img src=img/MMB_CAN/MMB_CAN_Klipper12.webp width="600" />
+<img src=/img/MMB_CAN/MMB_CAN_Klipper12.webp width="600" />
 
 3、并在“printer.cfg”文件中添加此主板的配置:**[include sample-bigtreetech-mmb-canbus.cfg]**
 

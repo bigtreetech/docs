@@ -5,7 +5,7 @@
 
     [EZ5160 Pro Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/ez-series/ez-5160/ez-5160-intro)
     
-<img src=img/EZ5160Pro/EZ5160Pro_Title.webp width="600"/>  
+<img src=/img/EZ5160Pro/EZ5160Pro_Title.webp width="600"/>  
 
 ## **产品简介**
 
@@ -35,17 +35,17 @@ TMC5160是一款大功率步进电机驱动控制芯片，外接MOSFET，其最�
 
 ## **尺寸**
 
-<img src=img/EZ5160Pro/EZ5160Pro_Diagram.webp width="600"/>
+<img src=/img/EZ5160Pro/EZ5160Pro_Diagram.webp width="600"/>
 
 ## **接口示意图**
 
-<img src=img/EZ5160Pro/EZ5160Pro_Interface1.webp width="600"/>
+<img src=/img/EZ5160Pro/EZ5160Pro_Interface1.webp width="600"/>
 
-<img src=img/EZ5160Pro/EZ5160Pro_Interface2.webp width="600"/>
+<img src=/img/EZ5160Pro/EZ5160Pro_Interface2.webp width="600"/>
 
 将EZ版本驱动程序安装到新标头的方向如下图所示：
 
-<img src=img/EZ5160Pro/EZ5160Pro_Interface3.webp width="600"/>
+<img src=/img/EZ5160Pro/EZ5160Pro_Interface3.webp width="600"/>
 
 <table border="1">
 	<tr>

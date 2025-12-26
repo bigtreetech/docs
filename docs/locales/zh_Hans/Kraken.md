@@ -1,6 +1,6 @@
 # KRAKEN V1.0/V1.1
 
-<img src=img/Kraken/kraken_title.webp width="600" />
+<img src=/img/Kraken/kraken_title.webp width="600" />
 
 ## **产品简介**
 
@@ -58,17 +58,17 @@ BIGTREETECH Kraken V1.0主板是深圳市必趣科技有限公司3D打印团队�
 
 ## **产品尺寸**
 
-<img src=img/Kraken/kraken_dimension.webp width="600" />
+<img src=/img/Kraken/kraken_dimension.webp width="600" />
 
 ## **外设接口**
 
 ### 接口示意图
 
-<img src=img/Kraken/kraken_interface.webp width="600" />
+<img src=/img/Kraken/kraken_interface.webp width="600" />
 
 ### Pin脚说明
 
-<img src=img/Kraken/kraken_pin.webp width="600" />
+<img src=/img/Kraken/kraken_pin.webp width="600" />
 
 ## **接口介绍**
 
@@ -76,7 +76,7 @@ BIGTREETECH Kraken V1.0主板是深圳市必趣科技有限公司3D打印团队�
 
 Kraken主板上电之后，板子上的电源指示灯会亮起红色，表示供电正常。VUSB是电源选择端，仅当使用USB给主板供电时，才需要使用跳线帽短接。
 
-<img src=img/Kraken/kraken_usb.webp width="600" />
+<img src=/img/Kraken/kraken_usb.webp width="600" />
 
 ### 步进电机驱动
 
@@ -84,7 +84,7 @@ Kraken主板上电之后，板子上的电源指示灯会亮起红色，表示�
 
 无需任何跳线帽选择模式，客户直接使用SPI模式；使用Sensorless Homing功能时就插上跳帽，不使用则不插，DIAG的连接如下：
 
-<img src=img/Kraken/kraken_stepper.webp width="600" />
+<img src=/img/Kraken/kraken_stepper.webp width="600" />
 
 #### 数控风扇的电压选择
 
@@ -92,53 +92,53 @@ Kraken主板上电之后，板子上的电源指示灯会亮起红色，表示�
 
 **<font  color="red">注意：选择电压前请确认清楚风扇支持的电压为哪一档，因为选错导致的风扇烧毁，我司不与承责。</font>**
 
-<img src=img/Kraken/kraken_pwm.webp width="600" />
+<img src=/img/Kraken/kraken_pwm.webp width="600" />
 
 ### MicroProbe V2.0接线
 
-<img src=img/Kraken/kraken_microprobe.webp width="600" />
+<img src=/img/Kraken/kraken_microprobe.webp width="600" />
 
 ### 打完关机模块(Relay V1.2)接线
 
-<img src=img/Kraken/kraken_power_off.webp width="600" />
+<img src=/img/Kraken/kraken_power_off.webp width="600" />
 
 ### EXP1+EXP2与MINI12864 V2.0屏的接线
 
-<img src=img/Kraken/kraken_display.webp width="600" />
+<img src=/img/Kraken/kraken_display.webp width="600" />
 
 ### RGB接线
 
-<img src=img/Kraken/kraken_rgb.webp width="600" />
+<img src=/img/Kraken/kraken_rgb.webp width="600" />
 
 ### 舵机接线
 
-<img src=img/Kraken/kraken_servo.webp width="600" />
+<img src=/img/Kraken/kraken_servo.webp width="600" />
 
 ### I2C接线（温湿度传感器）
 
-<img src=img/Kraken/kraken_i2c.webp width="600" />
+<img src=/img/Kraken/kraken_i2c.webp width="600" />
 
 ### 两线风扇连接
 
-<img src=img/Kraken/kraken_2pin.webp width="600" />
+<img src=/img/Kraken/kraken_2pin.webp width="600" />
 
 ### 接近开关的连接
 
 常开（NPN型），不用通过跳线帽短接，如下图24V为例：
 
-<img src=img/Kraken/kraken_proximity.webp width="600" />
+<img src=/img/Kraken/kraken_proximity.webp width="600" />
 
 常闭（PNP型），需要将跳线帽短接，如下图24V为例：
 
-<img src=img/Kraken/kraken_proximity1.webp width="600" />
+<img src=/img/Kraken/kraken_proximity1.webp width="600" />
 
 ### 四线数控风扇及水冷装置的连接（下图以12V为例）
 
-<img src=img/Kraken/kraken_4pin.webp width="600" />
+<img src=/img/Kraken/kraken_4pin.webp width="600" />
 
 ### 与树莓派的连接
 
-<img src=img/Kraken/kraken_pi.webp width="600" />
+<img src=/img/Kraken/kraken_pi.webp width="600" />
 
 ## **Marlin**
 
@@ -170,7 +170,7 @@ https://github.com/bigtreetech/BIGTREETECH-Kraken
 
 打开platformio.ini文件并将default_envs修改为STM32H723ZG_btt
 
-<img src=img/Kraken/kraken_marlin1.webp width="600" />
+<img src=/img/Kraken/kraken_marlin1.webp width="600" />
 
 **配置主板类型、串口号**
 
@@ -186,19 +186,19 @@ https://github.com/bigtreetech/BIGTREETECH-Kraken
 
 以上的设置根据需求自行启用
 
-<img src=img/Kraken/kraken_marlin2.webp width="600" />
+<img src=/img/Kraken/kraken_marlin2.webp width="600" />
 
 **配置电机驱动**
 
 Kraken板载8个TMC2160驱动
 
-<img src=img/Kraken/kraken_marlin3.webp width="600" />
+<img src=/img/Kraken/kraken_marlin3.webp width="600" />
 
 需在Configuration_adv.h文件中使能 <font  color="blue">TMC_USE_SW_SPI2</font>
 
 <font  color="red">#define</font> <font  color="blue">TMC_USE_SW_SPI</font>
 
-<img src=img/Kraken/kraken_marlin4.webp width="600" />
+<img src=/img/Kraken/kraken_marlin4.webp width="600" />
 
 V1.0版本：S1-S4采样电阻是22mΩ，固件需要设置为0.022；
 
@@ -206,11 +206,11 @@ V1.1版本：S1-S4采样电阻是50mΩ，固件需要设置为0.05；
 
 S5-S8采样电阻为75mΩ，固件需要设置为0.075
 
-<img src=img/Kraken/kraken_marlin5.webp width="600" />
+<img src=/img/Kraken/kraken_marlin5.webp width="600" />
 
 **Sensorless Homing**
 
-<img src=img/Kraken/kraken_marlin6.webp width="600" />
+<img src=/img/Kraken/kraken_marlin6.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">SENSORLESS_HOMING</font>	// 打开驱动堵转检测作为Home限位开关的功能
 
@@ -228,7 +228,7 @@ S5-S8采样电阻为75mΩ，固件需要设置为0.075
 
 <font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_BED</font>	<font  color="green">1</font>
 
-<img src=img/Kraken/kraken_marlin7.webp width="600" />
+<img src=/img/Kraken/kraken_marlin7.webp width="600" />
 
 **Max31865**
 
@@ -239,31 +239,31 @@ Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值�
 
 <font  color="red">#define</font> <font  color="blue">TEMP_SENSOR_1</font>	<font  color="green">-5</font>
 
-<img src=img/Kraken/kraken_marlin8.webp width="600" />
+<img src=/img/Kraken/kraken_marlin8.webp width="600" />
 
 **BLTouch**
 
-<img src=img/Kraken/kraken_marlin9.webp width="600" />
+<img src=/img/Kraken/kraken_marlin9.webp width="600" />
 
 <font  color="green">//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN</font>	// 不把Z_PROBE_PIN重映射到Z_MIN端口上
 
-<img src=img/Kraken/kraken_marlin10.webp width="600" />
+<img src=/img/Kraken/kraken_marlin10.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">BLTOUCH</font>	// 使能BLtouch功能
 
-<img src=img/Kraken/kraken_marlin11.webp width="600" />
+<img src=/img/Kraken/kraken_marlin11.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">NOZZLE_TO_PROBE_OFFSET</font>	<font  color="green">{ -40, -10, -2.85 }</font>	// 设置BLTouch探针相对于喷嘴的偏移量
 
 <font  color="red">#define</font> <font  color="blue">PROBING_MARGIN</font>	<font  color="green">10</font>	// 设置调平探测点到最边缘的距离
 
-<img src=img/Kraken/kraken_marlin12.webp width="600" />
+<img src=/img/Kraken/kraken_marlin12.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">AUTO_BED_LEVELING_BILINEAR</font>	// 设置调平策略
 
 <font  color="red">#define</font> <font  color="blue">RESTORE_LEVELING_AFTER_G28</font>	// Home之后自动重新加载调平补偿
 
-<img src=img/Kraken/kraken_marlin13.webp width="600" />
+<img src=/img/Kraken/kraken_marlin13.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">GRID_MAX_POINTS_X</font>	<font  color="green">5</font>	// 设置调平探测的点数，X轴探测5个点
 
@@ -271,17 +271,17 @@ Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值�
 
 如果想用BLTouch作为Z轴限位开关，不需要更改接线，只需要修改固件的设置即可
 
-<img src=img/Kraken/kraken_marlin14.webp width="600" />
+<img src=/img/Kraken/kraken_marlin14.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">USE_PROBE_FOR_Z_HOMING</font>	// 使用Z Probe(BLTouch) 作为Z轴Home限位开关
 
-<img src=img/Kraken/kraken_marlin15.webp width="600" />
+<img src=/img/Kraken/kraken_marlin15.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">Z_SAFE_HOMING</font>	// Z轴Home时，将X、Y移动到指定的坐标(通常是平台中心)，保证Z轴Home时，Z Probe(BLtouch)的探针在平台的范围内。
 
 **打完关机模块 (Relay V1.2)**
 
-<img src=img/Kraken/kraken_marlin16.webp width="600" />
+<img src=/img/Kraken/kraken_marlin16.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">PSU_CONTROL</font>	// 打开控制电源功能，可以通过M80开机、M81关机
 
@@ -289,7 +289,7 @@ Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值�
 
 **RGB彩灯**
 
-<img src=img/Kraken/kraken_marlin17.webp width="600" />
+<img src=/img/Kraken/kraken_marlin17.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">NEOPIXEL_LED</font>	// 使能Neopixel功能
 
@@ -303,7 +303,7 @@ Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值�
 
 如果启用了LCD2004、12864、mini12864之类的显示器，还可以在界面上启用RGB的控制菜单
 
-<img src=img/Kraken/kraken_marlin18.webp width="600" />
+<img src=/img/Kraken/kraken_marlin18.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">LED_CONTROL_MENU</font>	// 在屏幕上添加控制LED颜色的菜单
 
@@ -311,7 +311,7 @@ Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值�
 
 普通的断料检测模块一般是由机械开关设计而成的，模块给主板一个恒定的高低电平代表耗材的状态
 
-<img src=img/Kraken/kraken_marlin19.webp width="600" />
+<img src=/img/Kraken/kraken_marlin19.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">FILAMENT_RUNOUT_SENSOR</font>	// 使能耗材检测的功能
 
@@ -325,7 +325,7 @@ Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值�
 
 智能耗材检测模块在耗材正常通过时会不断的发出跳变的电平信号，当堵料/断料等异常情况出现，耗材无法正常的通过SFS，模块就无法发出跳变的信号给主板，主板从而得知耗材异常。
 
-<img src=img/Kraken/kraken_marlin20.webp width="600" />
+<img src=/img/Kraken/kraken_marlin20.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">FILAMENT_MOTION_SENSOR</font>	// 设置耗材传感器为编码器类型
 
@@ -333,15 +333,15 @@ Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值�
 
 耗材检测还需要通过以下两个地方来设置耗材异常暂停后的动作
 
-<img src=img/Kraken/kraken_marlin21.webp width="600" />
+<img src=/img/Kraken/kraken_marlin21.webp width="600" />
 
-<img src=img/Kraken/kraken_marlin22.webp width="600" />
+<img src=/img/Kraken/kraken_marlin22.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">NOZZLE_PARK_FEATURE</font>	// 喷头暂停功能
 
 <font  color="red">#define</font> <font  color="blue">NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 } </font>	// 设置喷头暂停时的X、Y的坐标以及Z轴抬升的高度
 
-<img src=img/Kraken/kraken_marlin23.webp width="600" />
+<img src=/img/Kraken/kraken_marlin23.webp width="600" />
 
 <font  color="red">#define</font> <font  color="blue">ADVANCED_PAUSE_FEATURE</font>	// 可以设置暂停时耗材回抽的长度及速度，继续打印后耗材挤出的长度和速度等参数
 
@@ -349,11 +349,11 @@ Marlin固件中设置为-5代表使用Max31865，并且PT100的采样电阻值�
 
 1、点击底部状态栏中的“√”编译固件
 
-<img src=img/Kraken/kraken_marlin24.webp width="600" />
+<img src=/img/Kraken/kraken_marlin24.webp width="600" />
 
 2、编译完成后会生成“firmware.bin”文件，复制到SD卡中即可更新固件
 
-<img src=img/Kraken/kraken_marlin25.webp width="600" />
+<img src=/img/Kraken/kraken_marlin25.webp width="600" />
 
 ## **Klipper**
 
@@ -371,19 +371,19 @@ USB接口
 CANBUS接口
 * Communication interface (CAN bus (on PD0/PD1))  --->
 
-<img src=img/Kraken/kraken_klipper1.webp width="600" />
+<img src=/img/Kraken/kraken_klipper1.webp width="600" />
 
 2、2.配置选择完成后, 输入 `q` 退出配置界面，当询问是否保存配置是选择 "Yes"
 
 3、输入make编译固件，当make执行完成后会在树莓派的home/pi/klipper/out文件夹中生成我们所需要的`klipper.bin`固件，在ssh软件左侧可以直接下载到电脑中
 
-<img src=img/Kraken/kraken_klipper2.webp width="600" />
+<img src=/img/Kraken/kraken_klipper2.webp width="600" />
 
 4、4.将klipper.bin重命名为“firmware.bin”，复制到SD卡中即可更新固件
 
 5、在命令行输入：ls /dev/serial/by-id/查询主板的ID来确认固件是否烧录成功，如果烧录成功了会返回一个klipper的设备ID，如下图所示
 
-<img src=img/Kraken/kraken_klipper3.webp width="600" />
+<img src=/img/Kraken/kraken_klipper3.webp width="600" />
 
 复制保存此ID，配置文件中需要设置此ID
 
@@ -393,19 +393,19 @@ CANBUS接口
 
 https://github.com/bigtreetech/BIGTREETECH-Kraken
 
-<img src=img/Kraken/kraken_klipper4.webp width="600" />
+<img src=/img/Kraken/kraken_klipper4.webp width="600" />
 
 2、将主板的配置文件上传到Configuration Files中, 并且在printer.cfg文件中包含此配置文件
 
-<img src=img/Kraken/kraken_klipper5.webp width="600" />
+<img src=/img/Kraken/kraken_klipper5.webp width="600" />
 
 [include generic-bigtreetech-kraken.cfg]
 
-<img src=img/Kraken/kraken_klipper6.webp width="600" />
+<img src=/img/Kraken/kraken_klipper6.webp width="600" />
 
 3、将配置文件中的ID号修改为主板实际的ID
 
-<img src=img/Kraken/kraken_klipper7.webp width="600" />
+<img src=/img/Kraken/kraken_klipper7.webp width="600" />
 
 4、 按照 https://www.klipper3d.org/Overview.html 的说明配置机器的具体功能
 
@@ -424,7 +424,7 @@ https://github.com/bigtreetech/BIGTREETECH-Kraken
 
 1、在命令行输入：ls /dev/serial/by-id/ 查询主板的ID，如果主板正常运行了Klipper则会返回一个klipper的设备ID，如下图所示
 
-<img src=img/Kraken/kraken_klipper8.webp width="600" />
+<img src=/img/Kraken/kraken_klipper8.webp width="600" />
 
 2、如果 ls /dev/serial/by-id/ 能够找到MCU的klipper设备ID，可以直接输入
 
@@ -438,7 +438,7 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h723xx_41003D00175130
 
 烧录固件（注意：将/dev/serial/by-id/xxx更换为上一步中查询到的实际的ID）
 
-<img src=img/Kraken/kraken_klipper9.webp width="600" />
+<img src=/img/Kraken/kraken_klipper9.webp width="600" />
 
 烧录完成后会有dfu-util: Error during download get_status错误信息，忽略即可
 

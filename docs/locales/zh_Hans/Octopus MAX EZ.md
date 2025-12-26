@@ -5,7 +5,7 @@
 
     [Octopus MAX EZ Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/octopus-series/max-ez)
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Title.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -66,17 +66,17 @@ BIGTREETECHOctopusMAXEZ主板是必趣创新科技（深圳）有限公司3D打�
 
 ## **尺寸**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Dimensions.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Dimensions.webp width="600"/>
 
 ## 外设接口
 
 **接口示意图**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout_CN.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout_CN.webp width="600"/>
 
 ## Pin脚说明
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Pinout.webp width="600"/>
 
 ## **硬件配置**
 
@@ -84,7 +84,7 @@ BIGTREETECHOctopusMAXEZ主板是必趣创新科技（深圳）有限公司3D打�
 
 OctopusMAXEZ主板上电之后，MCU左侧的D32红灯会亮起，表示供电正常。板子中部的VUSB是电源选择端，仅当使用USB给主板供电或需通过USB向外供电时，才需要使用跳帽将它短接。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware1.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware1.webp width="600"/>
 
 ### 步进电机驱动
 
@@ -96,13 +96,13 @@ OctopusMAXEZ主板上电之后，MCU左侧的D32红灯会亮起，表示供电�
 
 如图示位置，使用SensorlessHoming功能时就插上跳帽，不使用则不插，无需剪断驱动的DIAG引脚。（Motor1-Motor6）
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware2.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware2.webp width="600"/>
 
 **驱动电压选择**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware3.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware3.webp width="600"/>
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware4.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware4.webp width="600"/>
 
 ### 数控风扇的电压选择
 
@@ -110,7 +110,7 @@ OctopusMAXEZ主板上电之后，MCU左侧的D32红灯会亮起，表示供电�
 
 **<font  color="red">注意：选择电压前请确认风扇支持的电压为哪一档，因选错导致的风扇烧毁，我司不与承责。 </font>**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware5.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware5.webp width="600"/>
 
 ### **100KNTC或PT1000设置**
 
@@ -118,43 +118,43 @@ OctopusMAXEZ主板上电之后，MCU左侧的D32红灯会亮起，表示供电�
 
 **<font  color="red">(注意：此种方式读出的温度精度会比MAX31865差很多。)</font>**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware6.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware6.webp width="600"/>
 
 ### **BLTouch 接线**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware7.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware7.webp width="600"/>
 
 ### 打完关机模块(RelayV1.2)接线
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware8.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware8.webp width="600"/>
 
 ### 与MINI12864屏和TFT屏的接线
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware9.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware9.webp width="600"/>
 
 ### RGB 接线
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware10.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware10.webp width="600"/>
 
 ### 断料检测 接线
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware11.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware11.webp width="600"/>
 
 ### 接近开关的连接
 
 常开（NPN型），不用通过跳线帽短接，如下图24V为例：
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware12.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware12.webp width="600"/>
 
 常闭（PNP型），需要将跳线帽短接，如下图24V为例：
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware13.webp width="600"/>
 
 ### 四线数控风扇及水冷装置的连接
 
 (下图以12V为例:)
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware14.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Hardware14.webp width="600"/>
 
 ## 软件安装
 
@@ -188,7 +188,7 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 打开platformio.ini文件并将default_envs修改为STM32H723Zx_btt
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software1.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software1.webp width="600"/>
 
 **配置主板类型、串口号**
 
@@ -206,21 +206,21 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 以上的设置根据需求自行启用
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software2.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software2.webp width="600"/>
 
 #### 配置电机驱动
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software3.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software3.webp width="600"/>
 
 如果使用的驱动为SPI模式，还需在Configuration_adv.h文件中使能TMC_USE_SW_SPI
 
 \#define TMC_USE_SW_SPI
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software4.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software4.webp width="600"/>
 
 #### Sensorless Homing
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software5.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software5.webp width="600"/>
 
 \#define SENSORLESS_HOMING	//打开驱动堵转检测作为Home限位开关的功能
 
@@ -240,31 +240,31 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 \#define TEMP_SENSOR_BED 1
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software6.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software6.webp width="600"/>
 
 #### BLTouch
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software7.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software7.webp width="600"/>
 
 //#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN	//不把Z_PROBE_PIN重映射到Z_MIN端口上
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software8.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software8.webp width="600"/>
 
 \#define BLTOUCH	// 使能BLtouch功能
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software9.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software9.webp width="600"/>
 
 \#define NOZZLE_TO_PROBE_OFFSET { -40, -10, -2.85 } // 设置BLTouch探针相对于喷嘴的偏移量
 
 \#define PROBING_MARGIN 10	// 设置调平探测点到最边缘的距离
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software10.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software10.webp width="600"/>
 
 \#define AUTO_BED_LEVELING_BILINEAR // 设置调平策略
 
 \#define RESTORE_LEVELING_AFTER_G28 	// Home之后自动重新加载调平补偿
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software11.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software11.webp width="600"/>
 
 \#define GRID_MAX_POINTS_X 5	// 设置调平探测的点数，X轴探测5个点
 
@@ -272,17 +272,17 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 如果想用BLTouch作为Z轴限位开关，不需要更改接线，只需要修改固件的设置即可
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software12.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software12.webp width="600"/>
 
 \#define USE_PROBE_FOR_Z_HOMING	//使用ZProbe(BLTouch)作为Z轴Home限位开关
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software13.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software13.webp width="600"/>
 
 \#define Z_SAFE_HOMING	// Z轴Home时，将X、Y移动到指定的坐标(通常是平台中心)，保证Z轴Home时，ZProbe(BLtouch)的探针在平台的范围内
 
 #### 打完关机模块(RelayV1.2)
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software14.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software14.webp width="600"/>
 
 \#define PSU_CONTROL	// 打开控制电源功能，可以通过M80开机、M81关机
 
@@ -294,7 +294,7 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 1、无需外接模块，固件定期向SD卡中保存打印状态，断电重启后从SD卡中保存的点继续打印，这种方式的缺点就是会向SD卡中频繁的写入数据，非常影响SD卡的使用寿命 。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software15.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software15.webp width="600"/>
 
 \#define POWER_LOSS_RECOVERY	// 使能断电续打功能
 
@@ -302,7 +302,7 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 2、外接UPS24VV1.0模块，断电时给主板提供电源并给主板发送信号，提醒主板保存打印状态，这方式只会在断电时向SD卡写入数据，对SD卡的使用寿命几乎没有影响。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software16.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software16.webp width="600"/>
 
 \#define POWER_LOSS_RECOVERY	// 使能断电续打功能
 
@@ -314,7 +314,7 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 #### **RGB**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software17.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software17.webp width="600"/>
 
 \#define NEOPIXEL_LED	// 使能Neopixel功能
 
@@ -328,7 +328,7 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 如果启用了LCD2004、12864、mini12864之类的显示器，还可以在界面上启用RGB的控制菜单。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software18.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software18.webp width="600"/>
 
 \#define LED_CONTROL_MENU	// 在屏幕上添加控制LED颜色的菜单
 
@@ -336,7 +336,7 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 普通的断料检测模块一般是由机械开关设计而成的，模块给主板一个恒定的高低电平代表耗材的状态
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software19.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software19.webp width="600"/>
 
 \#define FILAMENT_RUNOUT_SENSOR	//使能耗材检测的功能
 
@@ -350,7 +350,7 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 智能耗材检测模块在耗材正常通过时会不断的发出跳变的电平信号，当堵料/断料等异常情况出现，耗材无法正常的通过SFS，模块就无法发出跳变的信号给主板，主板从而得知耗材异常。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software20.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software20.webp width="600"/>
 
 \#define FILAMENT_MOTION_SENSOR	// 设置耗材传感器为编码器类型
 
@@ -358,13 +358,13 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 耗材检测还需要通过以下两个地方来设置耗材异常暂停后的动作。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software21.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software21.webp width="600"/>
 
 \#define NOZZLE_PARK_FEATURE	// 喷头暂停功能
 
 \#define NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 }	// 设置喷头暂停时的X、Y的坐标以及Z轴抬升的高度
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software22.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software22.webp width="600"/>
 
 \#define ADVANCED_PAUSE_FEATURE	// 可以设置暂停时耗材回抽的长度及速度，继续打印后耗材挤出的长度和速度等参数
 
@@ -372,7 +372,7 @@ https://marlinfw.org/docs/basics/install_platformio_vscode.html
 
 Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板上ESP8266与Marlin通信的串口是UART3,所以将SERIAL_PORT设置为3。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software23.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software23.webp width="600"/>
 
 可以在https://github.com/luc-github/ESP3D中获取最新的ESP3D固件，编译出您自己的二进制文件，将其重命名为“esp3d.bin”然后复制到SD卡的根目录中，插到主板上然后Reset，主板中的引导程序会自动将esp3d.bin更新到ESP8266中，更新完成后文件会被重命名为“ESP3D.CUR”
 
@@ -380,11 +380,11 @@ Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板�
 
 1、点击底部状态栏中的“√”编译固件。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software24.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software24.webp width="600"/>
 
 2、编译完成后会生成“firmware.bin”文件，复制到SD卡中即可更新固件。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software25.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software25.webp width="600"/>
 
 ### **Klipper**
 
@@ -396,11 +396,11 @@ Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板�
 
 内置Fluidd的系统: https://github.com/fluidd-core/FluiddPI/releases 
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software26.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software26.webp width="600"/>
 
 内置Mainsail的系统: https://github.com/mainsail-crew/MainsailOS/releases 
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software27.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software27.webp width="600"/>
 
 或者参考Klipper官方的安装说明使用Octoprint
 
@@ -414,19 +414,19 @@ Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板�
 
 2、选择系统。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software28.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software28.webp width="600"/>
 
 3、选择“用户自定义”，然后选择下载到电脑中的镜像。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software29.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software29.webp width="600"/>
 
 4、选择待烧录的microSD卡（烧录镜像会将microSD卡格式化，千万注意不要选错盘符，否则会将其他存储上的数据格式化），点击“烧录”。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software30.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software30.webp width="600"/>
 
 5、等待烧录完成。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software31.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software31.webp width="600"/>
 
 #### 设置WIFI
 
@@ -436,11 +436,11 @@ Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板�
 
 2、在SD卡的boot盘中找到“fluiddpi-wpa-supplicant.txt”或者“mainsail-wpa-supplicant.txt”文件，用VSCode打开（不要用windows自带的记事本打开）
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software32.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software32.webp width="600"/>
 
 3、删除红框中四行行首的‘#’字符，然后设置正确的WIFI名称和密码后保存。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software33.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software33.webp width="600"/>
 
 #### SSH软件连接树莓派
 
@@ -452,19 +452,19 @@ Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板�
 
 4、进入路由器管理界面找到树莓派的IP。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software34.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software34.webp width="600"/>
 
 5、或者使用https://angryip.org/工具，扫描当前局域网下的所有IP地址，并使用主机名重新排序，找到主机名为Fluidd或者Mainsail的设备，如下图所示。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software35.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software35.webp width="600"/>
 
 6、打开已经安装的Mobaxterm软件，点击“Session”，在弹出的窗口中点击“SSH”，在Remotehost一栏中输入树莓派的IP地址，点击“OK”（注意：电脑和树莓派必须要在同一个局域网下）。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software36.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software36.webp width="600"/>
 
 7、输入登录名loginas：pi登录密码：raspberry进入SSH终端界面
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software37.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software37.webp width="600"/>
 
 #### 编译固件
 
@@ -479,19 +479,19 @@ Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板�
 ***** Clock Reference (25 MHz crystal)  --->****
 ***** Communication interface (USB (on PA11/PA12))  --->**
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software38.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software38.webp width="600"/>
 
 2、配置选择完成后,输入`q`退出配置界面，当询问是否保存配置是选择"Yes"
 
 3、输入make编译固件，当make执行完成后会在树莓派的home/pi/klipper/out文件夹中生成我们所需要的`klipper.bin`固件，在ssh软件左侧可以直接下载到电脑中。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software39.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software39.webp width="600"/>
 
 4、将klipper.bin重命名为“firmware.bin”，复制到SD卡中即可更新固件。
 
 5、在命令行输入：ls/dev/serial/by-id/查询主板的ID来确认固件是否烧录成功，如果烧录成功了会返回一个klipper的设备ID，如下图所示。
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software40.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software40.webp width="600"/>
 
 复制保存此ID，配置文件中需要设置此ID。
 
@@ -499,15 +499,15 @@ Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板�
 
 1、在电脑的浏览器中输入树莓派的IP访问，如下图所示的路径中下载主板的参考配置，如果找不到此文件，请更新Klipepr固件源码到最新版本，或者到github下载:https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-Max-EZ
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software41.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software41.webp width="600"/>
 
 2、将主板的配置文件上传到ConfigurationFiles中,并重命名为 "printer.cfg".
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software42.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software42.webp width="600"/>
 
 3、将配置文件中的ID号修改为主板实际的ID
 
-<img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software43.webp width="600"/>
+<img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software43.webp width="600"/>
 
 4、按照https://www.klipper3d.org/Overview.html的说明配置机器的具体功能。
 
@@ -527,14 +527,14 @@ Marlin中只需设置正确的“SERIAL_PORT”和“BAUDRATE”即可。主板�
 
 1. 在命令行输入：ls/dev/serial/by-id/查询主板的ID，如果主板正常运行了Klipper则会返回一个klipper的设备ID，如下图所示
 
-   <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software44.webp width="600"/>
+   <img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software44.webp width="600"/>
 
 2. 如果ls/dev/serial/by-id/能够找到MCU的klipper设备ID，可以直接输入
    cd~klipper
    makeflashFLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h712xx_41003D001751303232383230-if00
    烧录固件（注意：将/dev/serial/by-id/xxx更换为上一步中查询到的实际的ID）
 
-   <img src=img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software45.webp width="600"/>
+   <img src=/img/Octopus_MAX_EZ/Octopus_MAX_EZ_Software45.webp width="600"/>
 
    烧录完成后会有dfu-util:Errorduringdownloadget_status错误信息，忽略即可
 

@@ -1,6 +1,6 @@
 # SKRat
 
-<img src=img/SKRat/SKRat_Title.webp width="600" />
+<img src=/img/SKRat/SKRat_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -49,17 +49,17 @@ BIGTREETECH SKRat V1.0 主板是必趣创新科技（深圳）有限公司联合
 
 ## **尺寸**
 
-<img src=img/SKRat/SKRat_Dimension.webp width="600" />
+<img src=/img/SKRat/SKRat_Dimension.webp width="600" />
 
 ## **外围设备接口**
 
 ### 接口示意图
 
-<img src=img/SKRat/SKRat_Pinout_CN.webp width="600" />
+<img src=/img/SKRat/SKRat_Pinout_CN.webp width="600" />
 
 ### 引脚说明
 
-<img src=img/SKRat/SKRat_Pinout.webp width="600" />
+<img src=/img/SKRat/SKRat_Pinout.webp width="600" />
 
 <font  color="red">**详情请看 BTT SKRat_V1.0_SIZE.**</font>
 
@@ -85,19 +85,19 @@ MFAN 蓝灯为数常开风扇 MFAN 状态指示灯：正常供电时保持常亮
 
 BIGTREETECH SKRat 主板上电之后，板子中间 Power 红灯会亮起，表示供电正常。如需使用 USB 给主板供电时，需使用跳线帽短接 USB_5V。
 
-<img src=img/SKRat/SKRat_USB.webp width="600" />
+<img src=/img/SKRat/SKRat_USB.webp width="600" />
 
 ### 使用 DFU 下载固件
 
 按住板载 BOOT 按键情况下，给主板上电，芯片进入 DFU 模式。此时可以连接 TYPEC 到 PC端，通过 DFU 模式对主控芯片进行程序烧录。
 
-<img src=img/SKRat/SKRat_DFU.webp width="600" />
+<img src=/img/SKRat/SKRat_DFU.webp width="600" />
 
 ### TMC 驱动的工作模式选择方法
 
 普通的 STEP/DIR 模式：（如：A4988、DRV8825、LV8729、ST820 等）根据驱动细分表来选择短路帽短接 MS0-MS2。
 
-<img src=img/SKRat/SKRat_STEP.webp width="600" />
+<img src=/img/SKRat/SKRat_STEP.webp width="600" />
 
 详情请点击: https://bigtreetech.github.io/docs/Tutorials.html
 
@@ -105,19 +105,19 @@ BIGTREETECH SKRat 主板上电之后，板子中间 Power 红灯会亮起，表�
 
 TMC 驱动的 UART 模式：（如：TMC2208、TMC2209、TMC2225 等）每个轴使用一个短路帽短接图中红框位置即可，细分和驱动电流通过固件进行设置。
 
-<img src=img/SKRat/SKRat_UART.webp width="600" />
+<img src=/img/SKRat/SKRat_UART.webp width="600" />
 
 #### TMC 驱动的 SPI 模式选择
 
 TMC 驱动的 SPI 模式：（如：TMC2130、TMC5160、TMC5161 等）每个轴使用四个短路帽短接图中红框位置即可，细分和驱动电流通过固件进行设置。
 
-<img src=img/SKRat/SKRat_SPI.webp width="600" />
+<img src=/img/SKRat/SKRat_SPI.webp width="600" />
 
 #### Sensorless homing 功能选择
 
 使用跳帽对相应的轴进行如图连接，即可使用 Sensorless homing 功能。
 
-<img src=img/SKRat/SKRat_Sensorless.webp width="600" />
+<img src=/img/SKRat/SKRat_Sensorless.webp width="600" />
 
 <font  color="red">**注：选择该功能就不能使用外部 ENDSTOP！！！**</font>
 
@@ -127,35 +127,35 @@ TMC 驱动的 SPI 模式：（如：TMC2130、TMC5160、TMC5161 等）每个轴�
 
 使用跳帽短接风扇电压选择的 5V 电压的横向排针。
 
-<img src=img/SKRat/SKRat_FAN5V.webp width="600" />
+<img src=/img/SKRat/SKRat_FAN5V.webp width="600" />
 
 **使用 12V 为风扇供电**
 
 使用跳帽短接风扇电压选择的 12V 电压的横向排针。
 
-<img src=img/SKRat/SKRat_FAN12V.webp width="600" />
+<img src=/img/SKRat/SKRat_FAN12V.webp width="600" />
 
 **使用电源输入电压为风扇供电**
 
 使用跳线帽短接下图中突出显示的水平引脚。
 
-<img src=img/SKRat/SKRat_FANVIN.webp width="600" />
+<img src=/img/SKRat/SKRat_FANVIN.webp width="600" />
 
 <font  color="red">**备注：禁止短接风扇电压选择排针左侧任意两排针，否则会造成主板损坏（如下图）**</font>
 
-<img src=img/SKRat/SKRat_FANVIN1.webp width="600" />
+<img src=/img/SKRat/SKRat_FANVIN1.webp width="600" />
 
 #### 两线风扇连接
 
 板载 4 路 2 线风扇(FAN0,FAN1,FAN2,FAN3)，和一路常开风扇(MFAN)
 
-<img src=img/SKRat/SKRat_2pinFanWiring.webp width="600" />
+<img src=/img/SKRat/SKRat_2pinFanWiring.webp width="600" />
 
 #### 四线风扇连接
 
 板载 2 路 4 线风扇，通过 Four-Wire FAN0，Four-Wire FAN1 连接
 
-<img src=img/SKRat/SKRat_4pinFanWiring.webp width="600" />
+<img src=/img/SKRat/SKRat_4pinFanWiring.webp width="600" />
 
 <font  color="red">**注：使用风扇的额定工作电压必须与风扇选择的电压保持一致，防止由于工作电压不匹配造成风扇工作不正常或者损坏。**</font>
 
@@ -165,65 +165,65 @@ TMC 驱动的 SPI 模式：（如：TMC2130、TMC5160、TMC5161 等）每个轴�
 
 通过跳帽短接对应的排针，可实现接近开关工作电压选择，可选电压为 VIN,+12V,+5V
 
-<img src=img/SKRat/SKRat_Voltage.webp width="600" />
+<img src=/img/SKRat/SKRat_Voltage.webp width="600" />
 
 #### 接近开关类型选择
 
 通过跳帽选择接近开关类型为 PNP 型或者 NPN 型。PNP 型需要拔出跳帽，NPN 型需要插入跳帽。
 
-<img src=img/SKRat/SKRat_PNP.webp width="600" />
+<img src=/img/SKRat/SKRat_PNP.webp width="600" />
 
 <font  color="red">**备注：禁止短接接近开关电压选择横向排针中的任意两个，否则会造成主板损坏（如下图） **</font>
 
-<img src=img/SKRat/SKRat_PNP1.webp width="600" />
+<img src=/img/SKRat/SKRat_PNP1.webp width="600" />
 
 ### 接近开关接线
 
-<img src=img/SKRat/SKRat_Proximity.webp width="600" />
+<img src=/img/SKRat/SKRat_Proximity.webp width="600" />
 
 ### 打完关机模块(BIGTREETECH Relay V1.2)接线
 
-<img src=img/SKRat/SKRat_Auto.webp width="600" />
+<img src=/img/SKRat/SKRat_Auto.webp width="600" />
 
 ### 断电续打(BTT UPS 24V V1.0)接线
 
-<img src=img/SKRat/SKRat_UPS.webp width="600" />
+<img src=/img/SKRat/SKRat_UPS.webp width="600" />
 
 ### RGB 接线
 
-<img src=img/SKRat/SKRat_RGB.webp width="600" />
+<img src=/img/SKRat/SKRat_RGB.webp width="600" />
 
 ### BLTouch 接线
 
-<img src=img/SKRat/SKRat_Bltouch.webp width="600" />
+<img src=/img/SKRat/SKRat_Bltouch.webp width="600" />
 
 ### 断料检测接线
 
-<img src=img/SKRat/SKRat_Filament.webp width="600" />
+<img src=/img/SKRat/SKRat_Filament.webp width="600" />
 
 ### EXP1+EXP2 与 LCD 屏的接线
 
-<img src=img/SKRat/SKRat_LCD.webp width="600" />
+<img src=/img/SKRat/SKRat_LCD.webp width="600" />
 
 ### SPI,I2C UART 扩展口连接
 
-<img src=img/SKRat/SKRat_I2C.webp width="600" />
+<img src=/img/SKRat/SKRat_I2C.webp width="600" />
 
 ### 100K NTC 热敏电阻
 
 使用 100K NTC 热敏电阻时，NTC 电阻接入 THB，TH0-TH3 即可，此时 TH0-TH3 的上拉电阻为 4.7K 0.1%。
 
-<img src=img/SKRat/SKRat_100K.webp width="600" />
+<img src=/img/SKRat/SKRat_100K.webp width="600" />
 
 通过 MAX31865 的方式使用 PT100/PT1000 如下图:
 
-<img src=img/SKRat/SKRat_PT100.webp width="600" />
+<img src=/img/SKRat/SKRat_PT100.webp width="600" />
 
 ### CAN BUS 连接
 
 CAN BUS 传感器连接到主板 CAN BUS 接口即可
 
-<img src=img/SKRat/SKRat_CAN.webp width="600" />
+<img src=/img/SKRat/SKRat_CAN.webp width="600" />
 
 <font  color="red">**备注：主板 CAN BUS 接口输出电压固定，电压值等于输入电压**</font>
 

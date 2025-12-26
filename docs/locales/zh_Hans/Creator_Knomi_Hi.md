@@ -1,6 +1,6 @@
 # Creator Knomi Hi
 
-<img src=img/Creator_Knomi_Hi/knomi-hi.jpg width="500"/>
+<img src=/img/Creator_Knomi_Hi/knomi-hi.jpg width="500"/>
 
 
 
@@ -33,8 +33,8 @@
 
 ## 尺寸和接口
 
-<img src=img/Creator_Knomi_Hi/size.webp width="400"/>
-<img src=img/Creator_Knomi_Hi/port.jpg width="400"/>
+<img src=/img/Creator_Knomi_Hi/size.webp width="400"/>
+<img src=/img/Creator_Knomi_Hi/port.jpg width="400"/>
 
 ## 安装指南
 
@@ -43,51 +43,51 @@
 * 第一步：卸下原装前盖<br/>
 使用 2.0mm 螺丝刀，卸下前盖两侧的螺丝，将螺丝放置一旁。<br/>
 注意：这些螺丝稍后将用于固定 Creator Knomi Hi 外壳。<br/>
-<img src=img/Creator_Knomi_Hi/screw-left.jpg width="400"/>
-<img src=img/Creator_Knomi_Hi/screw-right.jpg width="400"/>
+<img src=/img/Creator_Knomi_Hi/screw-left.jpg width="400"/>
+<img src=/img/Creator_Knomi_Hi/screw-right.jpg width="400"/>
 <br/>
 
 * 第二步：断开线束连接<br/>原装前盖卸下后，按照图中箭头所示，拔下两个接口，卸下线束。<br/>
-<img src=img/Creator_Knomi_Hi/wring.webp width="400"/>
+<img src=/img/Creator_Knomi_Hi/wring.webp width="400"/>
 <br/>
 
 * 第三步：拿出新的knomi前壳，按照以下步骤连接线缆<br/>
 ①将线缆A的接口插入显示屏接口d位置（详见图示）。<br/>
-<img src=img/Creator_Knomi_Hi/wring_1.jpg width="400"/><br/>
+<img src=/img/Creator_Knomi_Hi/wring_1.jpg width="400"/><br/>
 ②将线缆B的接口插入Creality Hi打印头控制板上的e口。<br/>
-<img src=img/Creator_Knomi_Hi/wring_2.jpg width="400"/><br/>
+<img src=/img/Creator_Knomi_Hi/wring_2.jpg width="400"/><br/>
 ③将线缆C的接口插入打印头上的f口，线缆c从g的位置走线<br/>
-<img src=img/Creator_Knomi_Hi/wring_3.jpg width="400"/>
+<img src=/img/Creator_Knomi_Hi/wring_3.jpg width="400"/>
 <br/>
 请确保所有连接牢固，并合理整理线缆，避免运动过程中出现挤压或干涉。
 
 * 第四步：安装并固定 Creator Knomi Hi 外壳<br/>
 使用之前拆下的螺丝，将 Creator Knomi Hi 外壳固定到位。
 <br/>
-<img src=img/Creator_Knomi_Hi/close_left.jpg width="400"/>
-<img src=img/Creator_Knomi_Hi/close_right.jpg width="400"/>
+<img src=/img/Creator_Knomi_Hi/close_left.jpg width="400"/>
+<img src=/img/Creator_Knomi_Hi/close_right.jpg width="400"/>
 <br/>
 
 * 安装完成<br/>
-<img src=img/Creator_Knomi_Hi/succeed.jpg width="400"/>
+<img src=/img/Creator_Knomi_Hi/succeed.jpg width="400"/>
 
 
 
 ## 打印机设置
 * 获取打印机IP地址
   * ①	点击`设置`<br/>
-    <img src=img/Creator_Knomi_Hi/hi_1.webp width="600"/>
+    <img src=/img/Creator_Knomi_Hi/hi_1.webp width="600"/>
   * ②点击 `网络` -> ③ `IP`<br/>
-    <img src=img/Creator_Knomi_Hi/hi_2.webp width="600"/>
+    <img src=/img/Creator_Knomi_Hi/hi_2.webp width="600"/>
 
 * 使电脑连接到与打印机同一个局域网下, Creality Hi 打印机的端口号默认为 4408，我们可以通过 `IP + 端口号` 访问打印机，例如我们打印机的IP为 `192.168.3.81`，我们只需要在浏览器的地址栏输入 `192.168.3.81:4408` 然后访问即可
 * ① -> ② -> ③ `Upload Files`，选择 `Creator_Knomi_Hi_01.00.00.00.cfg` 配置文件，上传到打印机中。<br/>
-  <img src=img/Creator_Knomi_Hi/printer_1.webp width="600"/>
+  <img src=/img/Creator_Knomi_Hi/printer_1.webp width="600"/>
 * 打开 `printer.cfg` 文件添加
   ```
   [include Creator_Knomi_Hi_01.00.00.00.cfg]
   ```
-  <img src=img/Creator_Knomi_Hi/printer_2.webp width="600"/>
+  <img src=/img/Creator_Knomi_Hi/printer_2.webp width="600"/>
 * 打开 `sensorless.cfg` 文件，在`_HOME_X`，`_HOME_Y`，`_HOME_Z`三个宏的开头全部都添加：
   ```
   SET_KNOMI_STATUS VALUE=4
@@ -96,7 +96,7 @@
   ```
   RESET_KNOMI_STATUS
   ```
-  <img src=img/Creator_Knomi_Hi/printer_3.webp width="600"/>
+  <img src=/img/Creator_Knomi_Hi/printer_3.webp width="600"/>
   <br/>注意：图中仅截取了“_HOME_X”部分的内容，“_HOME_Y”，“_HOME_Z”部分也需要像“_HOME_X”这样添加对应的内容。
 * 打开 `gcode_macro.cfg` 文件，在`QUIT_MATERIAL`宏中，如下图中的位置添加：
   ```
@@ -106,7 +106,7 @@
   ```
   RESET_KNOMI_STATUS
   ```
-  <img src=img/Creator_Knomi_Hi/printer_4.webp width="600"/>
+  <img src=/img/Creator_Knomi_Hi/printer_4.webp width="600"/>
 * 配置完成后，点击“SAVE & RESTART”重启服务即可应用以上配置。
 
 ## 用户界面说明
@@ -117,9 +117,9 @@
 
 * 连接 Creator Knomi Hi 的 AP热点<br/>
   首次启动后或执行 `恢复出厂设置` 命令后，您将看到下面的屏幕。<br/>
-  <img src=img/Creator_Knomi_Hi/ap_qr_code.jpg width="400"/>
+  <img src=/img/Creator_Knomi_Hi/ap_qr_code.jpg width="400"/>
 
-    * 扫描 Creator Knomi Hi 上的二维码(如上图所示), 获取 Creator Knomi Hi 自身开启的 AP 热点的名称和密码, 点击连接。<br/> <img src=img/Creator_Knomi_Hi/password.jpg width="300"/><br/>
+    * 扫描 Creator Knomi Hi 上的二维码(如上图所示), 获取 Creator Knomi Hi 自身开启的 AP 热点的名称和密码, 点击连接。<br/> <img src=/img/Creator_Knomi_Hi/password.jpg width="300"/><br/>
       出厂默认的AP信息如下：<br/>
       Wi-Fi名称: `Creator_Knomi_Hi_xxxxxxxxxxxx`<br/>
       Wi-Fi密码: `987654321`<br/>
@@ -128,7 +128,7 @@
       以 `iPhone` 为例：<br/>
         * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
         * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
-        <img src=img/Creator_Knomi_Hi/wlan.webp width="300"/>
+        <img src=/img/Creator_Knomi_Hi/wlan.webp width="300"/>
         * 轻点名称以 `Creator_Knomi_Hi` 开头的无线局域网，输入默认密码：`987654321`。
         * 连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
 
@@ -137,21 +137,21 @@
 #### 将Creator Knomi Hi连接到打印机所在的Wi-Fi下
 
 * 首次配置会自动进入 `选择语言` 界面，设置完语言后，点击 `下一步`。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/language.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/language.jpg width="300"/>
 * 进入连接 Wi-Fi 界面，Creator Knomi Hi会自动扫描环境中的 Wi-Fi，请选择打印机所连接的 Wi-Fi 进行连接。如果没有扫描到打印机连接的 Wi-Fi, 可以点击 “扫描” 按钮重新扫描。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/wifi.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/wifi.jpg width="300"/>
 * 等待连接成功，连接成功后会弹出如下图中的弹窗，点击 `绑定打印机` 可以跳转到 `打印机` 界面绑定打印机。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/goto_printer.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/goto_printer.jpg width="300"/>
 
 #### 绑定打印机
 
 ##### 自动扫描
 
 * Web UI配置界面进入 `打印机` 界面, 设置 `要扫描的端口`(`Crealiyt Hi` 打印机默认为 `7125`)，点击 `扫描` 会扫描同一局域网下的打印机, 局域网内的活跃设备多扫描的时间就会长，设备少扫描的时间就短。一次完整的扫描最短需要50秒，最长不会超过300秒。如果此次扫描未能识别到想要连接的打印机，可以点击 `扫描` 按钮重新扫描，或者 `手动输入` 所有的信息<br/>
-  <img src=img/Creator_Knomi_Hi/zh/printer.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/printer.jpg width="300"/>
 * 扫描完成后, 选择想要连接的打印机, 选择后 `打印机IP或主机名` 和 `端口号` 会自动填充。
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着Creator Knomi Hi已经成功连接到打印机了。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/bind_ok.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/bind_ok.jpg width="300"/>
 * 恭喜您！现在可以尽情的享用您的 Creator Knomi Hi 了。
 
 ##### 手动输入
@@ -161,12 +161,12 @@
 
 * 在打印机上找到 `IP`，并输入到Web UI上对应的输入栏中。
     * ①	`设置`<br/>
-      <img src=img/Creator_Knomi_Hi/hi_1.webp width="600"/>
+      <img src=/img/Creator_Knomi_Hi/hi_1.webp width="600"/>
     * ② `网络` -> ③ `IP`<br/>
-      <img src=img/Creator_Knomi_Hi/hi_2.webp width="600"/>
+      <img src=/img/Creator_Knomi_Hi/hi_2.webp width="600"/>
     * 打印机默认的端口号为 `7125`
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着Creator Knomi Hi已经成功连接到打印机了。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/bind_ok.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/bind_ok.jpg width="300"/>
 * 恭喜您！现在可以尽情的享用您的 Creator Knomi Hi 了。
 
 ### 各GIF状态说明
@@ -176,26 +176,26 @@
 
 | | Web UI中的文件名称 | GIF效果 | 出现的条件（需已绑定上打印机） | 出厂GIF的大小 | 出厂GIF的分辨率（宽 x 高） |
 | :-----| :-----| :----: | :----: | :----: | :----: |
-| 1 | 待机状态.gif  | <img src=img/Creator_Knomi_Hi/standby.gif /> | 打印机处于空闲状态 | 242.21KB | 240 x 240 |
-| 2 | 喷嘴加热.gif  | <img src=img/Creator_Knomi_Hi/nozzle_heating.gif /> | 喷嘴正在加热 | 146.11KB | 240 x 240 |
-| 3 | 热床加热.gif  | <img src=img/Creator_Knomi_Hi/bed_heating.gif /> | 热床正在加热 | 72.74KB | 240 x 240 |
-| 4 | 调平.gif  | <img src=img/Creator_Knomi_Hi/bed_leveling.gif /> | 正在自动调平 | 133.82KB | 240 x 240 |
-| 5 | 归零.gif  | <img src=img/Creator_Knomi_Hi/homing.gif /> | 正在回原点 | 149.86KB | 240 x 240 |
-| 6 | Z轴对齐.gif  | <img src=img/Creator_Knomi_Hi/z_tilting.gif /> | 正在Z轴对齐 | 172.79KB | 240 x 240 |
-| 7 | 清洁喷嘴.gif  | <img src=img/Creator_Knomi_Hi/nozzle_cleaning.gif /> | 正在清理喷嘴 | 82.4KB | 240 x 240 |
-| 8 | XY轴共振补偿.gif  | <img src=img/Creator_Knomi_Hi/xy_input_shaper.gif /> | 正在校准共振补偿 | 59.44KB | 240 x 240 |
-| 9 | 切割耗材.gif  | <img src=img/Creator_Knomi_Hi/filament_cut.gif /> | 正在切料 | 12.56KB | 240 x 240 |
-| 10 | 回抽耗材.gif  | <img src=img/Creator_Knomi_Hi/filament_pull_back_cur.gif /> | 正在抽回当前的耗材 | 108.79KB | 240 x 240 |
-| 11 | 挤出旧耗材.gif  | <img src=img/Creator_Knomi_Hi/filament_purge_old.gif /> | 正在冲刷旧的耗材 | 17.51KB | 240 x 240 |
-| 12 | 打印成功.gif  | <img src=img/Creator_Knomi_Hi/printing_ok.gif /> | 打印已完成 | 18.4KB | 240 x 240 |
-| 13 | 正在打印.gif  | <img src=img/Creator_Knomi_Hi/printing.gif /> | 正在打印中 | 157.43KB | 240 x 240 |
+| 1 | 待机状态.gif  | <img src=/img/Creator_Knomi_Hi/standby.gif /> | 打印机处于空闲状态 | 242.21KB | 240 x 240 |
+| 2 | 喷嘴加热.gif  | <img src=/img/Creator_Knomi_Hi/nozzle_heating.gif /> | 喷嘴正在加热 | 146.11KB | 240 x 240 |
+| 3 | 热床加热.gif  | <img src=/img/Creator_Knomi_Hi/bed_heating.gif /> | 热床正在加热 | 72.74KB | 240 x 240 |
+| 4 | 调平.gif  | <img src=/img/Creator_Knomi_Hi/bed_leveling.gif /> | 正在自动调平 | 133.82KB | 240 x 240 |
+| 5 | 归零.gif  | <img src=/img/Creator_Knomi_Hi/homing.gif /> | 正在回原点 | 149.86KB | 240 x 240 |
+| 6 | Z轴对齐.gif  | <img src=/img/Creator_Knomi_Hi/z_tilting.gif /> | 正在Z轴对齐 | 172.79KB | 240 x 240 |
+| 7 | 清洁喷嘴.gif  | <img src=/img/Creator_Knomi_Hi/nozzle_cleaning.gif /> | 正在清理喷嘴 | 82.4KB | 240 x 240 |
+| 8 | XY轴共振补偿.gif  | <img src=/img/Creator_Knomi_Hi/xy_input_shaper.gif /> | 正在校准共振补偿 | 59.44KB | 240 x 240 |
+| 9 | 切割耗材.gif  | <img src=/img/Creator_Knomi_Hi/filament_cut.gif /> | 正在切料 | 12.56KB | 240 x 240 |
+| 10 | 回抽耗材.gif  | <img src=/img/Creator_Knomi_Hi/filament_pull_back_cur.gif /> | 正在抽回当前的耗材 | 108.79KB | 240 x 240 |
+| 11 | 挤出旧耗材.gif  | <img src=/img/Creator_Knomi_Hi/filament_purge_old.gif /> | 正在冲刷旧的耗材 | 17.51KB | 240 x 240 |
+| 12 | 打印成功.gif  | <img src=/img/Creator_Knomi_Hi/printing_ok.gif /> | 打印已完成 | 18.4KB | 240 x 240 |
+| 13 | 正在打印.gif  | <img src=/img/Creator_Knomi_Hi/printing.gif /> | 正在打印中 | 157.43KB | 240 x 240 |
 
 ### 屏幕保护
 
 > 为避免屏幕长时间显示同一个静态画面导致的烧屏，Creator Knomi Hi内置了屏幕保护的逻辑，在显示静态画面时，每隔15s显示一次内置的屏保GIF(此GIF不支持自定义)，屏保GIF显示时间为 2s。
 
 * 屏保GIF的效果如下：<br/>
-  <img src=img/Creator_Knomi_Hi/screen_saver.gif />
+  <img src=/img/Creator_Knomi_Hi/screen_saver.gif />
 * 以下静态界面中具有屏保逻辑：
     * 无效的 IMG 界面
     * 出厂时的 Hello 界面
@@ -209,7 +209,7 @@
 
 ### Wi-Fi & IP 界面
 
-<img src=img/Creator_Knomi_Hi/zh/wifi_ip.jpg width="300"/>
+<img src=/img/Creator_Knomi_Hi/zh/wifi_ip.jpg width="300"/>
 
 * ①	进入 `Wi-Fi&IP` 界面
 * ②	如果您想要重新配置 Creator Knomi Hi 要连接的 Wi-Fi，可以点击 `Wi-Fi 网络配置` 按钮再次进入配置 Wi-Fi的界面重新配置要连接的 Wi-Fi。
@@ -220,13 +220,13 @@
     * 长度不低于8个字符，不超过32个字符 (在`V1.0.2`及其之前版本的固件上, 请不要超过15个字符, 否则设备会无法启动，需要更新到`V1.0.3`及其之后版本的固件)。
 
     修改完成后，点击 `设置主机名` 将设置的主机名发送给 Creator Knomi Hi，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Creator Knomi Hi 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。<br/>
-    <img src=img/Creator_Knomi_Hi/zh/hostname.jpg width="300"/>
+    <img src=/img/Creator_Knomi_Hi/zh/hostname.jpg width="300"/>
 
 ### AP 界面
 
 > <font size="2">若设备是连接到 Creator Knomi Hi 的 AP 热点访问的 Web UI，关闭或者修改 Creator Knomi Hi 的 AP 信息都会导致设备与 Creator Knomi Hi 断开通信连接。为避免此类情况，建议将设备连接到与 Creator Knomi Hi 所连接的 Wi-Fi 相同局域网下再修改此配置。</font>
 
-<img src=img/Creator_Knomi_Hi/zh/ap.jpg width="300"/>
+<img src=/img/Creator_Knomi_Hi/zh/ap.jpg width="300"/>
 
 * ①	进入 `AP` 界面
 * ②	打开/关闭 Creator Knomi Hi 的 AP 热点。关闭AP热点后将无法连接到 Creator Knomi Hi 的热点去访问 Web UI，关闭前请务必记录 Creator Knomi Hi 在其所处的 Wi-Fi 的IP，以便使用同一 Wi-Fi 的设备通过 IP 访问 Web UI。
@@ -240,9 +240,9 @@
 
 ### 主题设置 <a id="theme-settings"></a>
 
-<img src=img/Creator_Knomi_Hi/zh/theme_1_2_3_4_5.jpg width="300"/>
-<img src=img/Creator_Knomi_Hi/zh/theme_6.jpg width="290"/>
-<img src=img/Creator_Knomi_Hi/zh/settings_7_8.jpg width="295"/>
+<img src=/img/Creator_Knomi_Hi/zh/theme_1_2_3_4_5.jpg width="300"/>
+<img src=/img/Creator_Knomi_Hi/zh/theme_6.jpg width="290"/>
+<img src=/img/Creator_Knomi_Hi/zh/settings_7_8.jpg width="295"/>
 
 * ①	进入 `主题` 界面
 * ②	打印进度显示选择，有以下3种选项：
@@ -250,7 +250,7 @@
     * `仅显示 GIF`：打印机打印时，屏幕上显示代表打印中的 GIF 图片
     * `百分比和 GIF 交替显示`：打印机打印时，屏幕上交替显示实时的打印进度和 GIF 图片，并且每隔 10s 切换一次显示
 * ③	设置 GIF 的颜色<br/>
-  <img src=img/Creator_Knomi_Hi/zh/picker.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/picker.jpg width="300"/>
     * a) 点击此按钮，弹出设置GIF颜色的界面
     * b) HSL 取色盘（[HSL是什么？](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)）
     * c) HSL的H色相参数，范围值为：0~360°
@@ -286,12 +286,12 @@
 * 下载IMG主题文件
     * 下载社区中其他用户分享的Creator Knomi Hi 的 `.img` 文件
 * 进入Creator Knomi Hi的Web UI，① `设置` -> ② `选择.img文件`，然后选择刚才下载的 `.img` 文件，等待更新完成后，Creator Knomi Hi 会自动应用并显示新的IMG文件。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/img_web_upload.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/img_web_upload.jpg width="300"/>
 
 ### 从Creator Knomi Hi导出IMG分享
 
 * 进入Creator Knomi Hi的Web UI。① `主题` -> ② `导出IMG`，等待IMG文件导出完成<br/>
-  <img src=img/Creator_Knomi_Hi/zh/img_web_download.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/img_web_download.jpg width="300"/>
 
 ## 恢复出厂设置
 
@@ -300,14 +300,14 @@
 ### 通过Web UI 恢复出厂设置
 
 * 进入 ① `设置` 界面，点击 ② `恢复出厂设置` 按钮<br/>
-  <img src=img/Creator_Knomi_Hi/zh/factory_1.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/factory_1.jpg width="300"/>
 * 会出现确认的弹窗，点击 ③ `是` 确认恢复出厂设置，Creator Knomi Hi 会恢复出厂设置并重新启动。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/factory_2.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/factory_2.jpg width="300"/>
 
 ### 通过按键恢复出厂设置
 
 长按 Creator Knomi Hi 上的 Boot 按键5秒后，Creator Knomi Hi 会恢复出厂设置并重新启动。<br/>
-<img src=img/Creator_Knomi_Hi/boot.jpg width="300"/>
+<img src=/img/Creator_Knomi_Hi/boot.jpg width="300"/>
 
 ## 固件
 
@@ -330,12 +330,12 @@
         * 将设备连接到Creator Knomi Hi的AP热点。以iPhone为例：
             * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
             * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。<br/>
-            <img src=img/Creator_Knomi_Hi/wlan.webp width="300"/> <br/>
+            <img src=/img/Creator_Knomi_Hi/wlan.webp width="300"/> <br/>
             * 轻点名称以 `Creator_Knomi_Hi_` 开头的无线局域网，输入默认密码：`987654321`。
             * 连接上 Creator Knomi Hi 的无线局域网后，你会在这个网络旁边看到蓝色勾号，并在显示屏右上方角落看到已连接的无线局域网图标。
         * 连接上 AP 后，理应有 `已连接（需登录/认证）` 的提示，并且点击会进入Web UI配置界面。有时因为网络原因，需要等待10~20秒, 如果等待后仍然无法进入Web UI配置界面, 可以在浏览器中手动输入 [192.168.254.1](http://192.168.254.1) 访问Web UI配置界面。
 * 在Web UI配置界面中，进入 ① `设置` 界面, 点击 ② `选择 .bin 文件`, 然后选择要更新的固件, 更新完成后设备会自动重启。<br/>
-  <img src=img/Creator_Knomi_Hi/zh/firmware.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/zh/firmware.jpg width="300"/>
 
 #### flash_download_tool (Type-C 线刷)
 
@@ -343,14 +343,14 @@
 
 * 如果电脑上没有 CH340 的驱动，请先下载安装驱动 [CH341SER.EXE](https://www.wch.cn/downloads/CH341SER_EXE.html)
 * 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)<br/>
-  <img src=img/Creator_Knomi_Hi/zh/download_esp_tool.webp width="800"/>
+  <img src=/img/Creator_Knomi_Hi/zh/download_esp_tool.webp width="800"/>
 * 下载 [Creator Knomi Hi 的固件](https://github.com/bigtreetech/Creator_Knomi_Hi)
 * 按住 Creator Knomi Hi 上的 `Boot` 按键, 然后通过 `Type-C` 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口<br/>
-  <img src=img/Creator_Knomi_Hi/boot_fw.jpg width="300"/>
+  <img src=/img/Creator_Knomi_Hi/boot_fw.jpg width="300"/>
 * 打开 `flash_download_tool_3.9.8_6.exe`, 在弹窗中按照下图配置<br/>
-  <img src=img/Creator_Knomi_Hi/open_esp_tool.webp width="400"/>
+  <img src=/img/Creator_Knomi_Hi/open_esp_tool.webp width="400"/>
 * 烧录软件的配置如下图<br/>
-  <img src=img/Creator_Knomi_Hi/set_esp_tool.webp width="400"/>
+  <img src=/img/Creator_Knomi_Hi/set_esp_tool.webp width="400"/>
     * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
         * `creator_knomi_hi_bootloader.bin` 写入到 `0x1000`
         * `creator_knomi_hi_partitions.bin` 写入到 `0x8000`

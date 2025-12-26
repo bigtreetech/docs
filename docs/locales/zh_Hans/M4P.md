@@ -5,7 +5,7 @@
 
     [M5P Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/manta-series/manta-m4p)
 
-[<img src=img/M4P/M4P_Title.webp width="600"/>](https://z1996xm.github.io/BIGTREETECH/M4P.html)
+[<img src=/img/M4P/M4P_Title.webp width="600"/>](https://z1996xm.github.io/BIGTREETECH/M4P.html)
 
 ## **产品简介**
 
@@ -48,15 +48,15 @@
 
 ## **尺寸**
 
-<img src=img/M4P/M4P_Size.webp width="600"/>
+<img src=/img/M4P/M4P_Size.webp width="600"/>
 
 ## **接口示意图**
 
-<img src=img/M4P/M4P_Pinout.webp width="600" />
+<img src=/img/M4P/M4P_Pinout.webp width="600" />
 
 ## **引出线**
 
-<img src=img/M4P/M4P_Pin_Out.webp width="600" />
+<img src=/img/M4P/M4P_Pin_Out.webp width="600" />
 
 ## **硬件配置**
 
@@ -64,7 +64,7 @@
 
 <p>M4P开机后，主板右下侧的红色LED1会亮起，表示电源正常。板中间的J8是电源选择端子，只有当type-C USB用于向<br>主板供电或USB用于外部供电时，才需要短路。type-C的信号连接到SoC，仅在写入CM4 eMMC版本的操作系统映像时使用。</p>
 
-<img src=img/M4P/M4P_TYPE_C.webp width="600" />
+<img src=/img/M4P/M4P_TYPE_C.webp width="600" />
 
 ## **硬件安装**
 
@@ -74,7 +74,7 @@
 
 <p>例如，A4988、DRV8825、LV8729、ST820……根据驱动器细分表，使用跳线帽短接MS0-MS2。</p>
 
-<img src=img/M4P/M4P_Stepper_Driver.webp width="600" />
+<img src=/img/M4P/M4P_Stepper_Driver.webp width="600" />
 
 **<font  color="red">注意：如果使用A4988或DRV8825，RST和SLP必须用跨接线帽短路才能正常工作。 </font>**
 
@@ -85,19 +85,19 @@
 
 <p>例如，TMC2208、TMC2209、TMC2225…每个都使用一个跳线帽连接图中红框的位置，细分和驱动器电流由固件设置。</p>
 
-<img src=img/M4P/M4P_TMC_UART_Mode.webp width="600" />
+<img src=/img/M4P/M4P_TMC_UART_Mode.webp width="600" />
 
 #### **TMC驱动器的SPI模式** 
 
 <p>例如，TMC2130、TMC5160、TMC2160…每个使用4个跳线帽连接图中红框的位置，细分和驱动器电流由固件设置。</p>
 
-<img src=img/M4P/M4P_TMC_SPI_Mode.webp width="600" />
+<img src=/img/M4P/M4P_TMC_SPI_Mode.webp width="600" />
 
 #### **TMC驱动的DIAG（无传感器归位）** 
 
 <p>如图所示，使用无传感器归位功能时，请插上跳线帽，不使用时请拔下。无需切割驱动器的DIAG引脚。</p>
 
-<img src=img/M4P/M4P_TMC_DIAG_Mode.webp width="600" />
+<img src=/img/M4P/M4P_TMC_DIAG_Mode.webp width="600" />
 
 #### **驱动器电压选择** 
 
@@ -107,59 +107,59 @@
 
 跳线插入左侧，由MOTOR POWER端口供电。支持的电压高达56V。
 
-<img src=img/M4P/M4P_IPS.webp width="600" />
+<img src=/img/M4P/M4P_IPS.webp width="600" />
 
 **主电源**
 
 跳线插入右侧，由主电源端口供电。支持12/24v电压。
 
-<img src=img/M4P/M4P_MPS.webp width="600" />
+<img src=/img/M4P/M4P_MPS.webp width="600" />
 
 ### **通过BTB连接安装核心板**
 
 **M4P+CM4：注意方向，如下所示。**
 
-<img src=img/M4P/M4P+CM4.webp width="600" />
+<img src=/img/M4P/M4P+CM4.webp width="600" />
 
 **M4P+CB1：注意方向，如下所示。**
 
-<img src=img/M4P/M4P+CB1.webp width="600" />
+<img src=/img/M4P/M4P+CB1.webp width="600" />
 
 ### **40 pin GPIO**
 
 <p>当使用CM4时，40引脚GPIO的引脚排列与Raspberry Pi的引脚排列完全相同。当使用CB1时，它是一种自定义的IO排列，如下图所示，“_”前面的“GPIO4”是CM4的IO，后面的“PC7”是CB1的IO。</p>
 
-<img src=img/M4P/M4P_40_Pin.webp width="600" />
+<img src=/img/M4P/M4P_40_Pin.webp width="600" />
 
 ### **BLTouch 接线**
 
 M4P_BLTouch_Wiring
 
-<img src=img/M4P/M4P_BLTouch_Wiring.webp width="600" />
+<img src=/img/M4P/M4P_BLTouch_Wiring.webp width="600" />
 
 ### **EXP1+EXP2和LCD屏幕接线**
 
 M4P_E1_E2_LCD
 
-<img src=img/M4P/M4P_E1_E2_LCD.webp width="600" />
+<img src=/img/M4P/M4P_E1_E2_LCD.webp width="600" />
 
 ### **RGB 接线**
 
-<img src=img/M4P/M4P_RGB_Wiring.webp width="600" />
+<img src=/img/M4P/M4P_RGB_Wiring.webp width="600" />
 
 ### **DSI/CSI 接线**
 
-<img src=img/M4P/M4P_DSI_CSI_Wiring.webp width="600" />
+<img src=/img/M4P/M4P_DSI_CSI_Wiring.webp width="600" />
 
 ### **SPI 显示接线**
 
-<img src=img/M4P/M4P_SPI_Display_Wiring.webp width="600" />
+<img src=/img/M4P/M4P_SPI_Display_Wiring.webp width="600" />
 
 ### **ADXL345 加速度计**
 
 <p>请参阅此处：https://www.klipper3d.org/Measuring_Resonances.html，连接到M4P主板时，我们可以参考以下接线和配置</p>
 
-<img src=img/M4P/M4P_ADXL345.webp width="600" />
+<img src=/img/M4P/M4P_ADXL345.webp width="600" />
 
 [adxl345]
 

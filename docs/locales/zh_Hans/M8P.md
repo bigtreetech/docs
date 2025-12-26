@@ -5,7 +5,7 @@
 
     [M8P Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/manta-series/manta-m8p-v1/)
 
-[<img src=img/M8P/M8P_Title.webp width="600" />](https://bigtreetech.github.io/docs/M8P.html)
+[<img src=/img/M8P/M8P_Title.webp width="600" />](https://bigtreetech.github.io/docs/M8P.html)
 
 ## **产品简介**
 
@@ -57,39 +57,39 @@
 
 ## **尺寸**
 
-<img src=img/M8P/M8P_Dimensions1.webp width="600" />
+<img src=/img/M8P/M8P_Dimensions1.webp width="600" />
 
-<img src=img/M8P/M8P_Dimensions2.webp width="600" />
+<img src=/img/M8P/M8P_Dimensions2.webp width="600" />
 
 ## **引出线**
 
-<img src=img/M8P/M8P_Pin_Out.webp width="600" />
+<img src=/img/M8P/M8P_Pin_Out.webp width="600" />
 
 **V1.0和V1.1之间的差异**
 
 V1.1中的更改包括：M6、M7、M8、SPI、MCU卡、RGB1和RGB2、FAN4、CAN、Pi FAN
 
-<img src=img/M8P/M8P_Pin_Out1.webp width="600" />
+<img src=/img/M8P/M8P_Pin_Out1.webp width="600" />
 
 ## **接口示意图**
 
-<img src=img/M8P/M8P_2.0_Pinout.webp width="600" />
+<img src=/img/M8P/M8P_2.0_Pinout.webp width="600" />
 
 **V1.1增加了功能**
 
 CAN接口（2引脚*2 XH2.54），USB端口功能选择（UART到USB，USB OTG），Pi FAN（由GPIO26控制），FAN4成为2线CNC风扇。
 
-<img src=img/M8P/M8P_Add_Func1.webp width="600" />
+<img src=/img/M8P/M8P_Add_Func1.webp width="600" />
 
 5V和12V电源输出端口增加E-FUSE保护，反应时间短，保护强，实现过流保护、短路保护和火花保护。
 
 **M8P V1.1+CB1：**
 
-<img src=img/M8P/M8P_Add_Func2.webp width="600" />
+<img src=/img/M8P/M8P_Add_Func2.webp width="600" />
 
 **M8P V1.1-Bot：**
 
-<img src=img/M8P/M8P_Add_Func3.webp width="600" />
+<img src=/img/M8P/M8P_Add_Func3.webp width="600" />
 
 ## **硬件配置**
 
@@ -97,7 +97,7 @@ CAN接口（2引脚*2 XH2.54），USB端口功能选择（UART到USB，USB OTG�
 
 M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路板中间的VUSB是电源选择端子。只有在使用USB向主板供电或需要通过USB供电时，才需要使用跳线将其短路。
 
-<img src=img/M8P/M8P_USB_PS.webp width="600" />
+<img src=/img/M8P/M8P_USB_PS.webp width="600" />
 
 ## **硬件安装**
 
@@ -107,7 +107,7 @@ M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路�
 
 例如，A4988、DRV8825、LV8729、ST820……根据驱动器细分表，使用跳线帽短接MS0-MS2。
 
-<img src=img/M8P/M8P_Dri_Step.webp width="600" />
+<img src=/img/M8P/M8P_Dri_Step.webp width="600" />
 
 
 
@@ -118,95 +118,95 @@ M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路�
 
 例如，TMC2208、TMC2209、TMC2225…每个都使用一个跳线帽连接图中红框的位置，细分和驱动器电流由固件设置。
 
-<img src=img/M8P/M8P_Dri_Uart_Mode.webp width="600" />
+<img src=/img/M8P/M8P_Dri_Uart_Mode.webp width="600" />
 
 #### **TMC驱动器的SPI模式** 
 
 例如，TMC2130、TMC5160、TMC5.161…每个使用4个跳线帽连接图中红框的位置，细分和驱动器电流由固件设置。
 
-<img src=img/M8P/M8P_Dri_SPI_Mode.webp width="600" />
+<img src=/img/M8P/M8P_Dri_SPI_Mode.webp width="600" />
 
 #### **TMC驱动的DIAG（无传感器归位）** 
 
 如图所示，使用无传感器归位功能时，请插上跳线帽，不使用时请拔下。
 
-<img src=img/M8P/M8P_Dri_Diag_Mode.webp width="600" />
+<img src=/img/M8P/M8P_Dri_Diag_Mode.webp width="600" />
 
 #### **驱动器电压选择** 
 
-<img src=img/M8P/M8P_Sel_PS1.webp width="600" />
+<img src=/img/M8P/M8P_Sel_PS1.webp width="600" />
 
-<img src=img/M8P/M8P_Sel_PS2.webp width="600" />
+<img src=/img/M8P/M8P_Sel_PS2.webp width="600" />
 
 ### **通过BTB连接安装核心板**
 
 **M8P+CM4：注意方向，如下所示。**
 
-<img src=img/M8P/M8P_M8P+CM4.webp width="600" />
+<img src=/img/M8P/M8P_M8P+CM4.webp width="600" />
 
 **M8P+CB1：注意方向，如下所示。**
 
-<img src=img/M8P/M8P_M8P+CB1.webp width="600" />
+<img src=/img/M8P/M8P_M8P+CB1.webp width="600" />
 
 ### **数控风机的电压选择**
 
 使用跨接线帽将输出电压设置为5V、12V或24V。注意：在选择电压之前，请确认风扇的工作电压。由于选择错误而导致风扇烧坏，我公司不承担任何责任。
 
-<img src=img/M8P/M8P_CNC_Fans.webp width="600" />
+<img src=/img/M8P/M8P_CNC_Fans.webp width="600" />
 
 ### **100K NTC或PT1000设置**
 
 当使用100K NTC热敏电阻时，无需插入跳线帽，TH0-TH3的上拉电阻为4.7K 0.1%。使用PT1000时，需要使用跳线帽连接下图中红色框中的两个引脚，并并联连接4.12K 0.1%电阻器。此时，TH0-TH1的上拉电阻为2.2K（注意：这样读取的温度精度将远不如MAX31865读取的精度）。
 
-<img src=img/M8P/M8P_NTC.webp width="600" />
+<img src=/img/M8P/M8P_NTC.webp width="600" />
 
 ### **BLTouch 接线**
 
-<img src=img/M8P/M8P_BLTouch.webp width="600" />
+<img src=/img/M8P/M8P_BLTouch.webp width="600" />
 
 ### **自动关闭模块（继电器V1.2） 接线**
 
-<img src=img/M8P/M8P_Auto_S.webp width="600" />
+<img src=/img/M8P/M8P_Auto_S.webp width="600" />
 
 ### **LCD屏幕和EXP1+EXP2之间的接线**
 
-<img src=img/M8P/M8P_LCD.webp width="600" />
+<img src=/img/M8P/M8P_LCD.webp width="600" />
 
 ### **RGB 接线**
 
-<img src=img/M8P/M8P_RGB.webp width="600" />
+<img src=/img/M8P/M8P_RGB.webp width="600" />
 
 ### **断料检测 接线**
 
-<img src=img/M8P/M8P_Filament.webp width="600" />
+<img src=/img/M8P/M8P_Filament.webp width="600" />
 
 ### **40 Pins GPIO**
 
-<img src=img/M8P/M8P_40_Pin.webp width="600" />
+<img src=/img/M8P/M8P_40_Pin.webp width="600" />
 
 ### **DSI/CSI 接线**
 
-<img src=img/M8P/M8P_DSI.webp width="600" />
+<img src=/img/M8P/M8P_DSI.webp width="600" />
 
 ### **接近开关接线**
 
 **常开（NPN型），无需通过跳线帽短路，例如24V，如下图所示：**
 
-<img src=img/M8P/M8P_Proximity.webp width="600" />
+<img src=/img/M8P/M8P_Proximity.webp width="600" />
 
 **始终关闭（PNP型），需要通过跳线帽短路，例如24V，如下图所示：**
 
-<img src=img/M8P/M8P_Proximity1.webp width="600" />
+<img src=/img/M8P/M8P_Proximity1.webp width="600" />
 
 ### **四线CNC风扇的接线**
 
-<img src=img/M8P/M8P_4_Wire.webp width="600" />
+<img src=/img/M8P/M8P_4_Wire.webp width="600" />
 
 ### **ADXL345加速计**
 
 请参阅此处：https://www.klipper3d.org/Measuring_Resonances.html，我们在连接M8P主板时可以参考以下接线和配置
 
-<img src=img/M8P/M8P_ADXL345.webp width="600" />
+<img src=/img/M8P/M8P_ADXL345.webp width="600" />
 
 ```
 [adxl345]

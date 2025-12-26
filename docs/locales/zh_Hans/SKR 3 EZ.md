@@ -1,6 +1,6 @@
 # SKR 3 EZ
 
-<img src=img/SKR3_EZ/SKR3_EZ_Title.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -63,17 +63,17 @@ BIGTREETECH SKR 3 EZ V1.0 主板是必趣创新科技（深圳）有限公司针
 
 ## **尺寸**
 
-<img src=img/SKR3_EZ/SKR3_EZ_Dimension.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Dimension.webp width="600" />
 
 ## **外围设备接口**
 
 ### 接口示意图
 
-<img src=img/SKR3_EZ/SKR3_EZ_Pinout_CN.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Pinout_CN.webp width="600" />
 
 ### 引脚说明
 
-<img src=img/SKR3_EZ/SKR3_EZ_Pin.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Pin.webp width="600" />
 
 ## **接口介绍**
 
@@ -81,17 +81,17 @@ BIGTREETECH SKR 3 EZ V1.0 主板是必趣创新科技（深圳）有限公司针
 
 SKR 3 EZ V1.0 主板上电之后，MCU 右上角的 D7(Power)红灯会亮起，表示供电正常。板子中部的 VUSB 是电源选择端，仅当使用 USB 给主板供电或需通过 USB 向外供电时，才需要使用跳帽将 VUSB 短接。
 
-<img src=img/SKR3_EZ/SKR3_EZ_USB.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_USB.webp width="600" />
 
 ### 电机电压选择
 
 #### 电机电压选择主板电源电压
 
-<img src=img/SKR3_EZ/SKR3_EZ_Motor1.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Motor1.webp width="600" />
 
 #### 电机电压选择电机电源电压
 
-<img src=img/SKR3_EZ/SKR3_EZ_Motor2.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Motor2.webp width="600" />
 
 ### 步进电机驱动
 
@@ -109,23 +109,23 @@ EZ 系列驱动支持同时使用既包括 UART 和 SPI 的驱动。
 
 如图示位置，使用 Sensorless Homing 功能时就插上跳帽，不使用则不插，无需剪断驱动的 DIAG 引脚。
 
-<img src=img/SKR3_EZ/SKR3_EZ_Motor3.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Motor3.webp width="600" />
 
 ### USB 与 CAN 模式
 
 如下图所示双刀双掷开关处于弹起状态时为 USB 模式，处于按下状态时为 CAN FD 模式。
 
-<img src=img/SKR3_EZ/SKR3_EZ_Motor4.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Motor4.webp width="600" />
 
 ### 数控风扇的电压选择
 
 若使用 DCIN 作为数控风扇电源时，需使用跳帽短接 VIN 范围内的两个 Pin。若想使用 12V或 5V 作为数控风扇电源时，则需将跳线帽短接 VOT 范围内的两个 Pin，且在 2*4Pin 的 VOT 和 VIN 排母上插入 SKR 3-DC MODE。
 
-<img src=img/SKR3_EZ/SKR3_EZ_Voltage.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Voltage.webp width="600" />
 
 通过设置 SKR 3-DC MODE 上的跳帽来设置 VOT 输出电压为 5V 或是 12V。
 
-<img src=img/SKR3_EZ/SKR3_EZ_Voltage1.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Voltage1.webp width="600" />
 
 ### 100K NTC 或 PT1000 设置
 
@@ -133,31 +133,31 @@ EZ 系列驱动支持同时使用既包括 UART 和 SPI 的驱动。
 
 <font  color="red">**注意：此种方式读出的温度精度会比 MAX31865 差很多**</font>
 
-<img src=img/SKR3_EZ/SKR3_EZ_100K.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_100K.webp width="600" />
 
 ### BLTouch 接线
 
-<img src=img/SKR3_EZ/SKR3_EZ_BLtouch.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_BLtouch.webp width="600" />
 
 ### 打完关机模块(Relay V1.2)接线
 
-<img src=img/SKR3_EZ/SKR3_EZ_Relay.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Relay.webp width="600" />
 
 ### 断电续打(UPS 24V V1.0)接线
 
-<img src=img/SKR3_EZ/SKR3_EZ_UPS.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_UPS.webp width="600" />
 
 ### RGB 接线
 
-<img src=img/SKR3_EZ/SKR3_EZ_RGB.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_RGB.webp width="600" />
 
 ### 断料检测接线
 
-<img src=img/SKR3_EZ/SKR3_EZ_Break.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Break.webp width="600" />
 
 ### 触摸屏接线
 
-<img src=img/SKR3_EZ/SKR3_EZ_Touch.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Touch.webp width="600" />
 
 ### 加热棒 IO
 
@@ -165,7 +165,7 @@ SKR 3 EZ 加热棒的 IO 是通过跳帽连接到 MOS 管的，如果需要接�
 
 <font  color="red">**注意：此 IO 经过逻辑转换芯片，输出的高电平为 5V，并且无法作为输入使用。**</font>
 
-<img src=img/SKR3_EZ/SKR3_EZ_Heater.webp width="600" />
+<img src=/img/SKR3_EZ/SKR3_EZ_Heater.webp width="600" />
 
 ## **Marlin**
 

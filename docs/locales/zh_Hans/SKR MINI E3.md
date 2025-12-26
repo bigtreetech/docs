@@ -1,6 +1,6 @@
 # SKR MINI E3
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Title.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -37,11 +37,11 @@ BTT SKR MINI E3 V3.0是必趣创新科技（深圳）有限公司3D打印团队�
 </table>
 ## **尺寸**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Dimension.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Dimension.webp width="600" />
 
 ## **外围设备接口**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Pinout_CN.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Pinout_CN.webp width="600" />
 
 ## **接口介绍**
 
@@ -60,7 +60,7 @@ BTT SKR MINI E3 V3.0是必趣创新科技（深圳）有限公司3D打印团队�
 
 ### 无传感器归位功能
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Sensorless.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Sensorless.webp width="600" />
 
 如图所示，将相应的轴与跳跃帽连接，以选择无传感器归位功能。
 
@@ -68,17 +68,17 @@ BTT SKR MINI E3 V3.0是必趣创新科技（深圳）有限公司3D打印团队�
 
 ### **用于BLtouch、TFT、RGB接口的5V电源**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Power.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Power.webp width="600" />
 
 1、 要使用板载5V PSU，请使用跳线短接上图所示的引脚
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Power1.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Power1.webp width="600" />
 
 2、要使用外部BIGTREETECH DCDC5V V1.0模块，请使用跳线短接上图所示的引脚。
 
 ### **冷却风扇的连接**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Fan.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Fan.webp width="600" />
 
 通过FAN2连接风扇，实现整机制冷。
 
@@ -86,19 +86,19 @@ BTT SKR MINI E3 V3.0是必趣创新科技（深圳）有限公司3D打印团队�
 
 ### **连接BIGTREETECH继电器V1.2**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Relay.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Relay.webp width="600" />
 
 ### **连接至BTT UPS 24V V1.0**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_UPS.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_UPS.webp width="600" />
 
 ### **连接到Neopixel灯**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_Neopixel.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_Neopixel.webp width="600" />
 
 ### **连接至BL触摸**
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_BLtouch.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_BLtouch.webp width="600" />
 
 ## **软件配置**
 
@@ -108,7 +108,7 @@ BTT SKR MINI E3 V3.0是必趣创新科技（深圳）有限公司3D打印团队�
 
 相同的USB接口可用于与Raspberry pi或任何其他主机设备进行通信。
 
-<img src=img/SKR_MINI_E3/SKR_MINI_E3_COM.webp width="600" />
+<img src=/img/SKR_MINI_E3/SKR_MINI_E3_COM.webp width="600" />
 
 ### **主板固件**
 

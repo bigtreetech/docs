@@ -1,6 +1,6 @@
 # Panda Alarm
 
-<img src=img/PandaAlarm/panda_alarm.jpg width="800"/>
+<img src=/img/PandaAlarm/panda_alarm.jpg width="800"/>
 
 - **产品链接**: [点击购买](https://bit.ly/4mc0OPq)
 
@@ -57,7 +57,7 @@ Panda Alarm 让您的 3D 打印农场保持完美同步——这款智能无线�
 
 ## 产品外观尺寸
 
-<img src=img/PandaAlarm/size.jpg width="800"/>
+<img src=/img/PandaAlarm/size.jpg width="800"/>
 
 ## 安装指南
 
@@ -67,41 +67,41 @@ Panda Alarm安装在P1系列打印机上。
 
 Panda Alarm配件清单
 
-<img src=img/PandaAlarm/zh/list.jpg width="800"/>
+<img src=/img/PandaAlarm/zh/list.jpg width="800"/>
 
 #### 安装步骤
 
 * 将包装内的透明灯效件拿出，用两颗附赠的M3*8沉头自攻螺丝固定在控制盒上
 
-    <img src=img/PandaAlarm/install_1.jpg width="500"/>
+    <img src=/img/PandaAlarm/install_1.jpg width="500"/>
 
 * 将灯板上的灯带插头接入控制盒的3pin接口中，如下图
 
-    <img src=img/PandaAlarm/install_2.jpg width="500"/>
+    <img src=/img/PandaAlarm/install_2.jpg width="500"/>
 
 * 将USB电源线插入到打印机的USB-A口，USB-A口的位置在P1打印机门板的上方凹槽内，可以把打印机的盖板拿下来进行查看和操作。
 
-    <img src=img/PandaAlarm/install_3.jpg width="500"/>
+    <img src=/img/PandaAlarm/install_3.jpg width="500"/>
 
 * 将USB线的另一端的Type-C端口从打印机右上方的小孔穿出来。
 
-    <img src=img/PandaAlarm/install_4.jpg width="500"/>
+    <img src=/img/PandaAlarm/install_4.jpg width="500"/>
 
 * 将穿出来的Type-C口，插入到控制盒的Typ-C接口中，走线如下所示
 
-    <img src=img/PandaAlarm/install_5.jpg width="500"/>
+    <img src=/img/PandaAlarm/install_5.jpg width="500"/>
 
 * 将Panda Alarm整体放置到P1打印机右上方，使灯板的弧度贴近打印机的弧度，确定控制盒背面磁吸的位置，用附带的磁贴片贴在打印机对应的位置上。
 
-    <img src=img/PandaAlarm/install_6.jpg width="500"/>
+    <img src=/img/PandaAlarm/install_6.jpg width="500"/>
 
 * 将亚克力灯板上的双面胶揭开
 
-    <img src=img/PandaAlarm/install_7.jpg width="500"/>
+    <img src=/img/PandaAlarm/install_7.jpg width="500"/>
 
 * 将Panda Alarm整体沿着打印机右上方的弧度放置并贴好双面胶，按压贴紧顶部双面胶。
 
-    <img src=img/PandaAlarm/install_8.jpg width="500"/>
+    <img src=/img/PandaAlarm/install_8.jpg width="500"/>
 
 > 现在是时候给 Panda Alarm 通电并进行配置了，请前往[首次使用指南](#first-time-use-guide)
 
@@ -120,7 +120,7 @@ Panda Alarm配件清单
     * 在你的主屏幕上，前往 `设置`-> `无线局域网`。
     * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。
 
-        <img src=img/PandaAlarm/zh/wlan.jpg width="300"/>
+        <img src=/img/PandaAlarm/zh/wlan.jpg width="300"/>
 
     * 轻点名称以 `Panda_Alarm` 开头的无线局域网，输入默认密码：`987654321`。
 
@@ -132,15 +132,15 @@ Panda Alarm配件清单
 
 * 首次配置会自动进入 `选择语言` 界面，设置完语言后，点击 `下一步`。
 
-    <img src=img/PandaAlarm/zh/language.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/language.jpg width="300"/>
 
 * 进入连接 Wi-Fi 界面，Panda Alarm 会自动扫描环境中的 Wi-Fi，请选择打印机所连接的 Wi-Fi 进行连接。如果没有扫描到打印机连接的 Wi-Fi, 可以点击 “扫描” 按钮重新扫描。
 
-    <img src=img/PandaAlarm/zh/wifi.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/wifi.jpg width="300"/>
 
 * 等待连接成功，连接成功后会弹出如下图中的弹窗，点击 `绑定打印机` 可以跳转到 `打印机` 界面绑定打印机。
 
-    <img src=img/PandaAlarm/zh/goto_printer.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/goto_printer.jpg width="300"/>
 
 ### 绑定打印机
 
@@ -150,7 +150,7 @@ Panda Alarm配件清单
 
 * Web UI配置界面进入 `打印机` 界面, 点击 `扫描` 会扫描同一局域网下的拓竹打印机, 一次完整的扫描大概需要30秒左右。每多一台拓竹打印机最多增加20秒的扫描时间。Panda Alarm 每次扫描最多支持识别20台打印机，如果您局域网内的拓竹打印机数量较多超出了20台，可能无法扫描到所有的打印机。如果此次扫描未能识别到想要连接的打印机，可以点击 `扫描` 按钮重新扫描，或者 `手动输入` 所有的信息。
 
-    <img src=img/PandaAlarm/zh/printer.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/printer.jpg width="300"/>
 
 * 扫描完成后, 选择想要连接的打印机, 选择后打印机的 `SN码` 和 `IP` 会自动填充。然后在打印机上找到 `访问码`, 并手动输入到Web UI上的 `打印机访问码` 栏。
 
@@ -158,15 +158,15 @@ Panda Alarm配件清单
 
         * ①	`设置`-> ② `网络(WLAN)` -> ③ `OK`
 
-            <img src=img/PandaAlarm/zh/p1_1_2_3.webp width="600"/>
+            <img src=/img/PandaAlarm/zh/p1_1_2_3.webp width="600"/>
 
         * ⑤ `访问码`
 
-            <img src=img/PandaAlarm/zh/p1_4_5.webp width="600"/>
+            <img src=/img/PandaAlarm/zh/p1_4_5.webp width="600"/>
 
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 Panda Alarm 已经成功连接到打印机了。
 
-    <img src=img/PandaAlarm/zh/bind_ok.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/bind_ok.jpg width="300"/>
 
 * 恭喜您！现在可以尽情的享用您的 Panda Alarm 了。
 
@@ -182,24 +182,24 @@ Panda Alarm配件清单
         * `SN码`
             * ①	`设置` -> ② `设备(Device)`
 
-                <img src=img/PandaAlarm/zh/p1_1_2.webp width="600"/>
+                <img src=/img/PandaAlarm/zh/p1_1_2.webp width="600"/>
 
             * ③ `打印机(Printer)` 即为 `SN码`
 
-                <img src=img/PandaAlarm/zh/p1_3.webp width="600"/>
+                <img src=/img/PandaAlarm/zh/p1_3.webp width="600"/>
 
         * `访问码` 和 `IP`          
             * ①	`设置`-> ② `网络(WLAN)` -> ③
 
-                <img src=img/PandaAlarm/zh/p1_1_2_3.webp width="600"/>
+                <img src=/img/PandaAlarm/zh/p1_1_2_3.webp width="600"/>
 
             * ④ `IP`, ⑤ `访问码`
 
-                <img src=img/PandaAlarm/zh/p1_4_5.webp width="600"/>
+                <img src=/img/PandaAlarm/zh/p1_4_5.webp width="600"/>
 
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 Panda Alarm 已经成功连接到打印机了。
 
-    <img src=img/PandaAlarm/zh/bind_ok.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/bind_ok.jpg width="300"/>
 
 * 恭喜您！现在可以尽情的享用您的 Panda Alarm 了。
 
@@ -232,7 +232,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 ### 控制面板
 
-<img src=img/PandaAlarm/zh/panel.jpg width="300"/>
+<img src=/img/PandaAlarm/zh/panel.jpg width="300"/>
 
 * ①	进入 `控制面板` 界面
 
@@ -240,7 +240,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 * ③ `预览模式`：用于预览设备的`灯效`或`音效`。打开此模式并选择要 `模拟的状态`，设备即会按照选择的结果显示对应的`灯效`或`音效`。
 
-    <img src=img/PandaAlarm/zh/preview.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/preview.jpg width="300"/>
 
     * a) "打开/关闭" `预览模式`。注意：如果切换到其他界面，或者所有的 Web UI 都退出了，设备也会自动关闭`预览模式`。这是为了避免用户忘记关闭导致设置一直处于`预览模式`。
 
@@ -260,7 +260,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 * ④ 设置设备的 `灯效`
 
-    <img src=img/PandaAlarm/zh/light.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/light.jpg width="300"/>
 
     * a) "打开/关闭" `灯效`。仅会关闭所有的 `打印机状态` 灯效，但是无法关闭 `系统级状态` 灯效
 
@@ -272,7 +272,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
         点击对应的按钮后会弹出 HSL 取色盘来设置对应状态的颜色。
 
-        <img src=img/PandaAlarm/zh/picker.jpg width="300"/>
+        <img src=/img/PandaAlarm/zh/picker.jpg width="300"/>
 
         * 1). HSL 取色盘（[HSL是什么？](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)）
         * 2). HSL的H色相参数，范围值为：0 ~ 360°
@@ -292,7 +292,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 * ⑤ 设置设备的 `声效`
 
-    <img src=img/PandaAlarm/zh/sound.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/sound.jpg width="300"/>
 
     * a) "打开/关闭" `声效`。会关闭所有的 `打印机状态` 声效，包括 `打印完成` 和 `报错`
 
@@ -322,7 +322,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 > 连接到 Panda Alarm WebUI 中出现的默认界面是 `WiFi&IP` 设置界面。
 
-<img src=img/PandaAlarm/zh/wifi_ip.jpg width="300"/>
+<img src=/img/PandaAlarm/zh/wifi_ip.jpg width="300"/>
 
 * ①	进入 `Wi-Fi&IP` 界面
 
@@ -341,7 +341,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
     修改完成后，点击 `设置主机名` 将设置的主机名发送给 Panda Alarm，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Panda Alarm 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。
     
-    <img src=img/PandaAlarm/zh/hostname.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/hostname.jpg width="300"/>
 
 ### AP 界面
 
@@ -349,7 +349,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 >
 > <font size="2">若设备是连接到 Panda Alarm 的 AP 热点访问的 Web UI，关闭或者修改 Panda Alarm的 AP 信息都会导致设备与 Panda Alarm 断开通信连接。为避免此类情况，建议将设备连接到与 Panda Alarm 所连接的 Wi-Fi 相同局域网下再修改此配置。</font>
 
-<img src=img/PandaAlarm/zh/ap.jpg width="300"/>
+<img src=/img/PandaAlarm/zh/ap.jpg width="300"/>
 
 * ①	进入 `AP` 界面
 
@@ -367,11 +367,11 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
     `热点 IP` 修改后需要重启设备才会生效，若出现如下图中的弹窗，说明 `热点 IP` 已经重新设置成功，直接点击弹窗中的 `OK` 按钮，Panda Alarm 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。
 
-    <img src=img/PandaAlarm/zh/hotspot_ip.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/hotspot_ip.jpg width="300"/>
 
 ### 设置
 
-<img src=img/PandaAlarm/zh/settings.jpg width="300"/>
+<img src=/img/PandaAlarm/zh/settings.jpg width="300"/>
 
 * ①	进入 `设置` 界面
 
@@ -391,17 +391,17 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 * 进入 ① `设置` 界面，点击 ② `恢复出厂设置` 按钮
 
-    <img src=img/PandaAlarm/zh/factory_1.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/factory_1.jpg width="300"/>
 
 * 会出现确认的弹窗，点击 ③ `是` 确认恢复出厂设置，Panda Alarm 会恢复出厂设置并重新启动。
 
-    <img src=img/PandaAlarm/zh/factory_2.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/factory_2.jpg width="300"/>
 
 ### 通过按键恢复出厂设置
 
 使用尖锐物长按 Recovery 按键5秒后，Panda Alarm 会恢复出厂设置并重新启动。
 
-<img src=img/PandaAlarm/recovery.jpg width="300"/>
+<img src=/img/PandaAlarm/recovery.jpg width="300"/>
 
 ## 固件
 
@@ -435,7 +435,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
             * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。
 
-                <img src=img/PandaAlarm/zh/wlan.jpg width="300"/>
+                <img src=/img/PandaAlarm/zh/wlan.jpg width="300"/>
 
             * 轻点名称以 `Panda_Alarm` 开头的无线局域网，输入默认密码：`987654321`。
 
@@ -445,7 +445,7 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 * 在Web UI配置界面中，进入 ① `设置` 界面, 点击 ② `选择 .bin 文件`, 然后选择要更新的固件, 更新完成后设备会自动重启。
 
-    <img src=img/PandaAlarm/zh/firmware.jpg width="300"/>
+    <img src=/img/PandaAlarm/zh/firmware.jpg width="300"/>
 
 #### flash_download_tool (Type-C 线刷)
 
@@ -455,13 +455,13 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
 * 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)
 
-    <img src=img/PandaAlarm/zh/download_esp_tool.webp width="800"/>
+    <img src=/img/PandaAlarm/zh/download_esp_tool.webp width="800"/>
 
 * 下载 [Panda Alarm 的固件](https://github.com/bigtreetech/PandaAlarm)
 
 * 通过 `Type-C` 将 Panda Alarm 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口
 
-    <img src=img/PandaAlarm/type_c.jpg width="300"/>
+    <img src=/img/PandaAlarm/type_c.jpg width="300"/>
 
 * 打开 `flash_download_tool_3.9.8_6.exe`, 在弹窗中按照下图配置
 
@@ -471,11 +471,11 @@ Panda Alarm 有 3 个系统级状态 和 7 个打印机状态，共计 10 个状
 
     LoadMode: `UART`
 
-    <img src=img/PandaAlarm/open_esp_tool.webp width="400"/>
+    <img src=/img/PandaAlarm/open_esp_tool.webp width="400"/>
 
 * 烧录软件的配置如下图
 
-    <img src=img/PandaAlarm/set_esp_tool.webp width="400"/>
+    <img src=/img/PandaAlarm/set_esp_tool.webp width="400"/>
 
     * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
 

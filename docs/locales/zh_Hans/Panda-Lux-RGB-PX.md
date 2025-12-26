@@ -1,6 +1,6 @@
 # **Panda Lux RGB PX**
 
-<img src=img/PandaLuxRGBPX/panda_lux_rgb.jpg width="400"/>
+<img src=/img/PandaLuxRGBPX/panda_lux_rgb.jpg width="400"/>
 
 - **产品链接**: [点击购买](https://bit.ly/3Iejmk0) 
 - **GitHub**: [固件](https://github.com/bigtreetech/Panda-Lux-RGB)  
@@ -86,59 +86,59 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 * 打印好控制板打印件，将控制板放入打印件内，用螺丝固定。
 
-    <img src=img/PandaLuxRGBPX/install_1.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_1.jpg width="300"/>
 
-    <img src=img/PandaLuxRGBPX/install_2.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_2.jpg width="300"/>
 
-    <img src=img/PandaLuxRGBPX/install_3.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_3.jpg width="300"/>
 
-    <img src=img/PandaLuxRGBPX/install_4.jpg width="300"/> 
+    <img src=/img/PandaLuxRGBPX/install_4.jpg width="300"/> 
 
 * 插入附带的USB-A转USB-C线。
 
-    <img src=img/PandaLuxRGBPX/install_5.jpg width="300"/> 
+    <img src=/img/PandaLuxRGBPX/install_5.jpg width="300"/> 
 
 * 将Panda LUX RGB PX磁吸安装在打印机机舱内。
 
-    <img src=img/PandaLuxRGBPX/install_6.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_6.jpg width="300"/>
 
     将控制板的USB-A口插入打印机的USB-A口。
 
-    <img src=img/PandaLuxRGBPX/install_7.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_7.jpg width="300"/>
 
 * 将打印机上的胶带部分取下，按照图示走线，将Panda LUX RGB PX的电源线引卡机器内部。
 
-    <img src=img/PandaLuxRGBPX/install_8.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_8.jpg width="300"/>
 
 * 将Panda LUX RGB PX的电源线插入控制板，并将控制板卡入机器内，完成安装。
 
-    <img src=img/PandaLuxRGBPX/install_9.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_9.jpg width="300"/>
 
 ### 在X1系列打印机上安装
 
 * 打印好控制板打印件，将控制板放入打印件内，用螺丝固定。
 
-    <img src=img/PandaLuxRGBPX/install_1.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_1.jpg width="300"/>
 
-    <img src=img/PandaLuxRGBPX/install_2.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_2.jpg width="300"/>
 
-    <img src=img/PandaLuxRGBPX/install_3.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_3.jpg width="300"/>
 
-    <img src=img/PandaLuxRGBPX/install_4.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_4.jpg width="300"/>
 
 * 插入2m USB-A转USB-C线(需另购)。
 
-    <img src=img/PandaLuxRGBPX/zh/install_10.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/zh/install_10.jpg width="300"/>
 
 * 将Panda Lux RGB PX 磁吸安装在打印机机舱内。 将Panda Lux RGB PX的电源线插入控制板，并将控制板卡入机舱内，如图所示
 
-    <img src=img/PandaLuxRGBPX/install_11.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_11.jpg width="300"/>
 
 * 将USB-A转USB-C线沿着机器框架布线，松开盖板背部螺丝并掀起盖板，穿过出线孔，使用Panda Branch供电，或者另行配置5V USB电源适配器。
 
-    <img src=img/PandaLuxRGBPX/install_12.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/install_12.jpg width="300"/>
 
-    <img src=img/PandaLuxRGBPX/install_13.jpg width="600"/>
+    <img src=/img/PandaLuxRGBPX/install_13.jpg width="600"/>
 
 
 ## 用户首次连接指南
@@ -155,7 +155,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
     - 连接上Panda_Lux_RGB PX 发出来的AP热点: `Panda_Lux_RGB_XXXXXXXXXX`. 默认密码是 `987654321`.
 
-        <img src=img/PandaLuxRGBPX/ap.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/ap.webp width="300"/>
   
 - 访问AP网页
 
@@ -165,7 +165,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
     - 选择语言后可点击下一步
 
-        <img src=img/PandaLuxRGBPX/zh/language.jpg width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/language.jpg width="300"/>
 
 <a id="wifi-connect"></a>
 
@@ -173,33 +173,33 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
     - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
 
-        <img src=img/PandaLuxRGBPX/zh/wifi_scan.jpg width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/wifi_scan.jpg width="300"/>
 
     - 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示。
 
-        <img src=img/PandaLuxRGBPX/zh/wifi_scan_ok.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/wifi_scan_ok.webp width="300"/>
 
     - 点击Wi-Fi下方的选项，选择想要连接的WiFi
 
-        <img src=img/PandaLuxRGBPX/zh/wifi_list.jpg width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/wifi_list.jpg width="300"/>
 
     - 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
 
-        <img src=img/PandaLuxRGBPX/zh/wifi_connect.jpg width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/wifi_connect.jpg width="300"/>
 
     - 点击连接，界面会自动跳转到操作界面中的`WiFi`界面, 并显示WiFi连接中
 
-        <img src=img/PandaLuxRGBPX/zh/wifi_connecting.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/wifi_connecting.webp width="300"/>
 
     - 等待连接一段时间后，会弹出WiFi连接的状态弹窗
 
         - 连接失败:
 
-            <img src=img/PandaLuxRGBPX/zh/wifi_failed.webp width="300"/>
+            <img src=/img/PandaLuxRGBPX/zh/wifi_failed.webp width="300"/>
 
         - 连接成功，可选择点击[绑定打印机](#printer-bind)跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
 
-            <img src=img/PandaLuxRGBPX/zh/wifi_ok.webp width="300"/>
+            <img src=/img/PandaLuxRGBPX/zh/wifi_ok.webp width="300"/>
 
 <a id="printer-bind"></a>
 
@@ -207,7 +207,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 - 功能介绍
 
-    <img src=img/PandaLuxRGBPX/zh/printer.webp width="300"/>
+    <img src=/img/PandaLuxRGBPX/zh/printer.webp width="300"/>
 
     - ① 选择打印机界面，点击后聚焦为红色图标，跳转至打印机界面
 
@@ -227,32 +227,32 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
     - 点击扫描一段时间后，会出现`扫描成功`的弹窗
 
-        <img src=img/PandaLuxRGBPX/zh/printer_scan_ok.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/printer_scan_ok.webp width="300"/>
 
     - 选择扫描出的打印机，可以看到选择打印机后，会自动输入打印机的SN码和IP
 
-        <img src=img/PandaLuxRGBPX/zh/printer_list.jpg width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/printer_list.jpg width="300"/>
 
     - 输入打印机的`访问码`
 
         * 在打印机上找到`配对码` (这里以 P1 系列打印机为例)
 
-            <img src=img/PandaLuxRGBPX/zh/p1_1_2_3.webp width="600"/>
+            <img src=/img/PandaLuxRGBPX/zh/p1_1_2_3.webp width="600"/>
 
-            <img src=img/PandaLuxRGBPX/zh/p1_4_5.webp width="600"/>
+            <img src=/img/PandaLuxRGBPX/zh/p1_4_5.webp width="600"/>
 
         * 将 `配对码` 输入到 `访问码` 框内,点击绑定即可开始绑定打印机。
 
-            <img src=img/PandaLuxRGBPX/zh/printer_bind.webp width="300"/>
+            <img src=/img/PandaLuxRGBPX/zh/printer_bind.webp width="300"/>
 
-            <img src=img/PandaLuxRGBPX/zh/bind_ok.webp width="300"/>
+            <img src=/img/PandaLuxRGBPX/zh/bind_ok.webp width="300"/>
 
 
 ## 用户界面说明
 
 ### WiFi界面
 
-<img src=img/PandaLuxRGBPX/zh/wifi_ip.webp width="300"/>
+<img src=/img/PandaLuxRGBPX/zh/wifi_ip.webp width="300"/>
 
 - ① WiFi界面选择，点击后聚焦为红色图标，跳转至WiFi界面。
 
@@ -270,7 +270,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 ### AP界面
 
-<img src=img/PandaLuxRGBPX/zh/wifi_ap.webp width="300"/>
+<img src=/img/PandaLuxRGBPX/zh/wifi_ap.webp width="300"/>
 
 - ① AP界面选择，点击后聚焦为红色图标，跳转至WiFi界面
 
@@ -286,7 +286,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 ### 设置界面
 
-<img src=img/PandaLuxRGBPX/zh/settings.webp width="300"/>
+<img src=/img/PandaLuxRGBPX/zh/settings.webp width="300"/>
 
 - ① 设置界面选择，点击后聚焦为红色图标，跳转至设置界面。
 
@@ -298,13 +298,13 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
     - 点击`选择.bin文件`按钮，选择需要ota的bin文件。
 
-        <img src=img/PandaLuxRGBPX/ota_bin.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/ota_bin.webp width="300"/>
 
     - 等待ota进度，完成后弹窗自动重启。
 
-        <img src=img/PandaLuxRGBPX/zh/ota_progress.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/ota_progress.webp width="300"/>
 
-        <img src=img/PandaLuxRGBPX/zh/ota_ok.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/ota_ok.webp width="300"/>
   
 - ⑤ 点击后，按下确定 [恢复出厂设置](#first-connection)
 
@@ -312,7 +312,7 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 - 功能介绍
 
-    <img src=img/PandaLuxRGBPX/zh/panel.webp width="300"/>
+    <img src=/img/PandaLuxRGBPX/zh/panel.webp width="300"/>
 
     - ① 控制面板界面选择，点击后聚焦为红色图标，跳转至控制面板界面
 
@@ -334,39 +334,39 @@ Panda Lux RGB PX，专为 Bambu Lab P1/X1 系列设计，集明亮白光 LED 与
 
 - 设备灯效模式
 
-    <img src=img/PandaLuxRGBPX/zh/mode.jpg width="300"/>
+    <img src=/img/PandaLuxRGBPX/zh/mode.jpg width="300"/>
 
     - ①-⑦ 选择后，相应的灯光效果将直接显示。
 
     - ⑧ 光线的颜色可以根据打印机的温度进行调整。您可以在“安全效果”和“危险效果”下选择两种照明效果，静态或闪光。
 
-        <img src=img/PandaLuxRGBPX/zh/warning_mode.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/warning_mode.webp width="300"/>
 
     - ⑨ 选择后，可以根据打印机调整灯光的颜色。您可以在打印中选择静态或彩虹照明效果。
 
-        <img src=img/PandaLuxRGBPX/zh/h2d_mode.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/h2d_mode.webp width="300"/>
 
 - 自定义灯光颜色（以静态模式为例）
 
     - 点击颜色设置选项，您将被引导到颜色选择页面。
 
-        <img src=img/PandaLuxRGBPX/zh/static_mode.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/static_mode.webp width="300"/>
 
     - 选择想要的颜色。
 
-        <img src=img/PandaLuxRGBPX/zh/color_preset.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/color_preset.webp width="300"/>
 
         - ① 出厂默认预设颜色。
 
         - ② 自定义颜色。点击后会出现一个取色盘，可以设置此自定义颜色的颜色值
 
-            <img src=img/PandaLuxRGBPX/zh/picker.jpg width="300"/>
+            <img src=/img/PandaLuxRGBPX/zh/picker.jpg width="300"/>
 
     - 选择一个`预置`或`颜色定义`(自定义)色块后。单击`确认`，则可以将RGB灯设置为您的所选颜色。
 
-        <img src=img/PandaLuxRGBPX/zh/confirm.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/confirm.webp width="300"/>
 
-        <img src=img/PandaLuxRGBPX/zh/custom_ok.webp width="300"/>
+        <img src=/img/PandaLuxRGBPX/zh/custom_ok.webp width="300"/>
 
 ## 固件历史记录
 

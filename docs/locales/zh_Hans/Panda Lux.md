@@ -1,6 +1,6 @@
 # Panda Lux
 
-<img src=img/Panda_Lux/Panda_Lux_Title.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Title.webp width="600"/>
 
 ## **产品链接**
 
@@ -31,13 +31,13 @@ Panda Lux是专为Bambu Lab P1/X1系列打印机设计的高亮度LED灯条。�
 
 ## **尺寸**
 
-<img src=img/Panda_Lux/Panda_Lux_Dimension.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Dimension.webp width="600"/>
 
 ## **包装清单**
 
-<img src=img/Panda_Lux/Panda_Lux_Packaging1.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Packaging1.webp width="600"/>
 
-<img src=img/Panda_Lux/Panda_Lux_Packaging2.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Packaging2.webp width="600"/>
 
 ## **安装说明**
 
@@ -47,7 +47,7 @@ Panda Lux是专为Bambu Lab P1/X1系列打印机设计的高亮度LED灯条。�
 
 *Panda Lux内置磁铁，便于安装。对于额外的加固，包装中包括双面胶带，但不需要双面胶带。
 
-<img src=img/Panda_Lux/Panda_Lux_Installation1.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Installation1.webp width="600"/>
 
 **步骤2:** 如果要在P1打印机（USB端口PCB）上安装，请卸下AP板的保护盖；如果要在X1打印机上安装，则打开机架右侧的塑料盖。
 
@@ -55,25 +55,25 @@ Panda Lux是专为Bambu Lab P1/X1系列打印机设计的高亮度LED灯条。�
 
 *为了增加稳定性以防止电缆移动，请使用包装中提供的电工胶带将电缆牢固地固定在门框上。
 
-<img src=img/Panda_Lux/Panda_Lux_Installation2.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Installation2.webp width="600"/>
 
 **步骤4:** 从AP板上断开库存灯条连接器。
 
-<img src=img/Panda_Lux/Panda_Lux_Installation3.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Installation3.webp width="600"/>
 
 **步骤5:** 连接适配器板上的Panda Lux电缆连接器。
 
-<img src=img/Panda_Lux/Panda_Lux_Installation4.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Installation4.webp width="600"/>
 
 **步骤6:** 剥去转接板底部的双面胶带，粘贴在合适的位置。
 
-<img src=img/Panda_Lux/Panda_Lux_Installation5.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Installation5.webp width="600"/>
 
 **步骤7:** 将连接电缆的一端插入AP板的库存灯条端口，将连接电缆另一端插入适配器板。
 
 注意：X1系列上的库存灯条连接器位置在塑料盖后面的框架左侧。
 
-<img src=img/Panda_Lux/Panda_Lux_Installation6.webp width="600"/>
+<img src=/img/Panda_Lux/Panda_Lux_Installation6.webp width="600"/>
 
 **步骤8:**将保护盖装回AP板（合上X1打印机的塑料盖）。
 

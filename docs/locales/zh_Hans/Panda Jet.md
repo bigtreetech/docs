@@ -1,6 +1,6 @@
 # Panda Jet
 
-<img src=img/Panda_Jet/Panda_Jet_Title.webp width="600"/>
+<img src=/img/Panda_Jet/Panda_Jet_Title.webp width="600"/>
 
 ## **产品链接**
 
@@ -32,7 +32,7 @@ Panda Jet是Bambu Lab X1/P1系列打印机的升级冷却风扇。其特殊的�
 
 ## **包装清单**
 
-<img src=img/Panda_Jet/Panda_Jet_Packaging.webp width="600"/>
+<img src=/img/Panda_Jet/Panda_Jet_Packaging.webp width="600"/>
 
 ## **安装说明**
 
@@ -41,32 +41,32 @@ Panda Jet是Bambu Lab X1/P1系列打印机的升级冷却风扇。其特殊的�
 **步骤1：拆下前壳体**
 完全拆下前壳体总成，然后断开风扇连接器。
 
-<img src=img/Panda_Jet/Panda_Jet_Installation1.webp width="600"/>
+<img src=/img/Panda_Jet/Panda_Jet_Installation1.webp width="600"/>
 
 **步骤2：拆下原来的风扇导管**
 拧下以下两颗固定原始风扇导管的螺钉。保留螺钉，以便以后重新组装。
 
-<img src=img/Panda_Jet/Panda_Jet_Installation2.webp width="600"/>
+<img src=/img/Panda_Jet/Panda_Jet_Installation2.webp width="600"/>
 
 垂直拉出原来的风扇导管，小心地将其拆下。
 
 <font size="5" color="red">重要提示：P1/X1系列打印机的最新版原厂风道已用胶粘附在前盖上，请使用平口钳或笔刀小心刮除胶体，避免损坏前盖。若拆卸过程中前盖卡扣受损，panda jetpack仍可安装牢固；若jetpack与前盖间出现较大缝隙，可酌情使用少量速干胶进行固定。</font>
 
-<img src=img/Panda_Jet/Panda_Jet_Installation3.webp width="600"/>
+<img src=/img/Panda_Jet/Panda_Jet_Installation3.webp width="600"/>
 
 **步骤3：安装Panda Jet**
 将Panda Jet与前壳体上的安装孔对齐。
 
-<img src=img/Panda_Jet/Panda_Jet_Installation4.webp width="600"/>
+<img src=/img/Panda_Jet/Panda_Jet_Installation4.webp width="600"/>
 
 使用您在步骤2中卸下的两个螺钉固定Panda Jet。
 
-<img src=img/Panda_Jet/Panda_Jet_Installation5.webp width="600"/>
+<img src=/img/Panda_Jet/Panda_Jet_Installation5.webp width="600"/>
 
 **步骤4：重新组装前壳体**
 将风扇连接器重新连接到板上（最上面的插槽），然后重新连接前壳体部件。
 
-<img src=img/Panda_Jet/Panda_Jet_Installation6.webp width="600"/>
+<img src=/img/Panda_Jet/Panda_Jet_Installation6.webp width="600"/>
 
 **步骤5：检查风扇**
 打开打印机并启用部件冷却风扇。

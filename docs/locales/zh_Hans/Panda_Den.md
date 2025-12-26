@@ -1,6 +1,6 @@
 # **Panda Den**
 
-<img src=img/PandaDen/panda_den.jpg width="500"/>
+<img src=/img/PandaDen/panda_den.jpg width="500"/>
 
 - **产品链接**: [点击购买](https://bit.ly/4mAb2JP)
 
@@ -49,28 +49,28 @@ Panda Den 是专为 **Bambu Lab A/P/X打印机** 用户打造的堆叠收纳产�
 
 - **兼容性：**  适配Bambu Lab A/P/X机器（Elegoo CC等机型会逐步适配）
 
-<img src=img/PandaDen/detail.jpg width="500"/>
+<img src=/img/PandaDen/detail.jpg width="500"/>
 
-<img src=img/PandaDen/size.jpg width="500"/>
+<img src=/img/PandaDen/size.jpg width="500"/>
 
 
 ## Panda Den Bambu Lab A1系列安装指南
 
 * 第一步：将包装内的耗材架固定件，用两颗附赠的M4*5半圆头螺丝按如图方向固定在主体左上角，可用来固定附带的耗材筒或原装耗材架
 
-    <img src=img/PandaDen/a1_1.webp width="400"/>
+    <img src=/img/PandaDen/a1_1.webp width="400"/>
 
-    <img src=img/PandaDen/a1_2.webp width="400"/>
+    <img src=/img/PandaDen/a1_2.webp width="400"/>
 
 * 第二步：安装废料口，使用附带的2颗M4*8半圆头螺丝将A系列耗材导管固定左侧废料口中，A系列设备放置在底座顶面，使最左端刚好在废料口上方，推入安装废料挡板
 
-    <img src=img/PandaDen/a1_3.webp width="400"/>
+    <img src=/img/PandaDen/a1_3.webp width="400"/>
 
-    <img src=img/PandaDen/a1_4.webp width="400"/>
+    <img src=/img/PandaDen/a1_4.webp width="400"/>
 
 * 第三步：安装钢板支架
 
-    <img src=img/PandaDen/a1_5.webp width="400"/>
+    <img src=/img/PandaDen/a1_5.webp width="400"/>
 
 
 ## Panda Den Bambu Lab PX系列安装指南
@@ -79,17 +79,17 @@ Panda Den 是专为 **Bambu Lab A/P/X打印机** 用户打造的堆叠收纳产�
 
     将包装内的耗材架固定件，用两颗附赠的M4*5半圆头螺丝按如图方向固定在主体靠后的孔位，可用来固定附带的耗材筒或原装耗材架
 
-    <img src=img/PandaDen/px_1.webp width="400"/>
+    <img src=/img/PandaDen/px_1.webp width="400"/>
 
 * 第二步：组装废料导管
 
     * 将配件包中的磁铁使用6颗配沉头M3*6螺丝固定在P系列废料管上
 
-        <img src=img/PandaDen/px_2.webp width="400"/>
+        <img src=/img/PandaDen/px_2.webp width="400"/>
 
     * 将打印机放置在Den上后把废料导管对准废料孔位吸附至背部即可
 
-        <img src=img/PandaDen/px_3.webp width="400"/>
+        <img src=/img/PandaDen/px_3.webp width="400"/>
 
 
 ## Panda Den RGB灯条安装指南
@@ -98,17 +98,17 @@ Panda Den 是专为 **Bambu Lab A/P/X打印机** 用户打造的堆叠收纳产�
 
 * 将底座翻转过来，将灯带从底部小缺口处开始粘贴在钣金内侧。
 
-    <img src=img/PandaDen/rgb_1.webp width="600"/>
+    <img src=/img/PandaDen/rgb_1.webp width="600"/>
 
 * 灯带环绕一周后再回到缺口处确定长度后按照灯条虚线处剪断即可。
 
-    <img src=img/PandaDen/rgb_2.webp width="600"/>
+    <img src=/img/PandaDen/rgb_2.webp width="600"/>
 
 ## Panda Den废料部分使用指南
 
 清理废料时，拿起抽屉底部盖板，将废料从底部出口处刮出即可。
 
-<img src=img/PandaDen/clean.webp width="500"/>
+<img src=/img/PandaDen/clean.webp width="500"/>
 
 
 ## **相关导航**

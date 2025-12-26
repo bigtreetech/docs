@@ -5,7 +5,7 @@
 
     [HDMI7 V1.2 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/HDMI7-v1_2-display/)
 
-<img src=img/HDMI7V1.2/HDMI7V1.2_Title.webp width="600"/>
+<img src=/img/HDMI7V1.2/HDMI7V1.2_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -32,13 +32,13 @@
 
 ## **尺寸**
 
-<img src=img/HDMI7V1.2/HDMI7V1.2_Dimension.webp width="600"/>
+<img src=/img/HDMI7V1.2/HDMI7V1.2_Dimension.webp width="600"/>
 
 您可以在此处阅读更多详细信息： **BTT HDMI7_V1.2**
 
 ## **接口示意图**
 
-<img src=img/HDMI7V1.2/HDMI7V1.2_Interface.webp width="600"/>
+<img src=/img/HDMI7V1.2/HDMI7V1.2_Interface.webp width="600"/>
 
 ## **硬件配置**
 
@@ -52,19 +52,19 @@
 
 将3.5毫米耳机/扬声器插入AUDIO接口，实现音频输出。
 
-<img src=img/HDMI7V1.2/HDMI7V1.2_Audio.webp width="600"/>
+<img src=/img/HDMI7V1.2/HDMI7V1.2_Audio.webp width="600"/>
 
 ### **屏幕亮度调整**
 
 <p>BIGTREETECH HDMI7 V1.2 支持显示亮度调节，可以通过屏幕又上角的KS1键调高亮度，KS3键调低亮度。<br></p>
 
-<img src=img/HDMI7V1.2/HDMI7V1.2_Screen.webp width="600"/>
+<img src=/img/HDMI7V1.2/HDMI7V1.2_Screen.webp width="600"/>
 
 ### **屏幕显示方向调节**
 
 <p>BIGTREETECH HDMI7 V1.2 支持水平方向显示方向调节，可通过按下KS2键实现水平方向显示方向调节。<br></p>
 
-<img src=img/HDMI7V1.2/HDMI7V1.2_Display.webp width="600"/>
+<img src=/img/HDMI7V1.2/HDMI7V1.2_Display.webp width="600"/>
 
 ### **指示灯**
 
@@ -124,4 +124,4 @@ hdmi_drive=1
 
 2.进入系统桌面后，右键单击右上角的音频源图标，然后选择HDMI。
 
-<img src=img/HDMI7/HDMI7_Desktop.webp width="600"/>
+<img src=/img/HDMI7/HDMI7_Desktop.webp width="600"/>

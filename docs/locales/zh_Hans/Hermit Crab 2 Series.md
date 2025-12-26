@@ -1,6 +1,6 @@
 # Hermit Crab 2 Series
 
-<img src=img/Hermit_Crab/Hermit_Crab_title.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_title.webp width="600" />
 
 ## **产品简介**
 
@@ -47,21 +47,21 @@ HermitCrab2系列专为快速更换工具头而设计。该系列配备了一个
 
 ## 尺寸
 
-<img src=img/Hermit_Crab/Hermit_Crab_Dimension.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Dimension.webp width="600" />
 
-<img src=img/Hermit_Crab/Hermit_Crab_Dimension1.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Dimension1.webp width="600" />
 
 ## 外设接口
 
 ### Pin脚说明
 
-<img src=img/Hermit_Crab/Hermit_Crab_Pin.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Pin.webp width="600" />
 
 ### 接线
 
 **BLTouch 接线**
 
-<img src=img/Hermit_Crab/Hermit_Crab_wiring.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_wiring.webp width="600" />
 
 ### 风扇电压选择
 
@@ -69,21 +69,21 @@ HermitCrab2系列专为快速更换工具头而设计。该系列配备了一个
 
 Use jumper to select voltage for VFAN0 between 5V or 12V.
 
-<img src=img/Hermit_Crab/Hermit_Crab_4PinFan.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_4PinFan.webp width="600" />
 
 **两线风扇**
 
 使用跳线帽短接排针，进行风扇电压选择：其中VFAN1支持5V或24V选择，VFAN2支持12V或24V选择。
 
-<img src=img/Hermit_Crab/Hermit_Crab_2PinFan.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_2PinFan.webp width="600" />
 
 ### RGB 接线
 
-<img src=img/Hermit_Crab/Hermit_Crab_RGB.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_RGB.webp width="600" />
 
 ### OctopusPro与HermitCrab2接线
 
-<img src=img/Hermit_Crab/Hermit_Crab_Oct.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Oct.webp width="600" />
 
 ## 固件设置（Hermit Crab 2 CAN）
 
@@ -115,18 +115,18 @@ https://github.com/Arksine/Katapult
 
 ​	并按照下图配置
 
-<img src=img/rp2040_katapult_menuconfig_led.webp width="600"/>
+<img src=/img/rp2040_katapult_menuconfig_led.webp width="600"/>
 
 3、输入make编译固件，当make执行完成后会在home/biqu/Katapult/out文件夹中生成我们所需要的‘katapult.uf2’固件，在SSH软件左侧可以直接下载到电
 脑中；
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware2.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Firmware2.webp width="600" />
 
 4、请按住Boot按钮，然后使用Type-C线连接至树莓派/CB1，此时芯片进入DFU模式
 
 5、在SSH终端命令行中输入 lsusb 查询DFU设备ID
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware3.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Firmware3.webp width="600" />
 
 6、请输入以下命令以烧录Katapult
 
@@ -146,7 +146,7 @@ https://github.com/Arksine/Katapult
 
 ​	使用下面的配置编译固件(如果没有下列选项，请更新Klipper固件源码到最新版本)；	
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware4.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Firmware4.webp width="600" />
 
 ​	**[*] Enable extra low-level configuration options Micro-controller** 
 
@@ -180,7 +180,7 @@ https://github.com/Arksine/Katapult
 
 3、输入make编译固件，当make执行完成后会在home/pi/klipper/out文件夹中生成我们所需要的‘klipper.bin’固件，在SSH软件左侧可以直接下载到电脑中
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware5.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Firmware5.webp width="600" />
 
 ### 通过KATAPULT进行固件更新
 
@@ -200,7 +200,7 @@ python3 flash_can.py -i can0 -q
 
 ​	查询canbusID（需提前接好CAN线并通电），如下图已找到设备的UUID
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware6.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Firmware6.webp width="600" />
 
 3、输入
 
@@ -210,7 +210,7 @@ python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
 
 替换为实际的UUID，注意：klipper.bin需要提前make生成出来，并且Katapult的Applicationstartoffset为16KiBoffset，所以Klipper的menuconfig中Bootloaderoffset也要为16KiBbootloader，如下图已经烧录成功。
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware7.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Firmware7.webp width="600" />
 
 4、再次输入
 
@@ -220,7 +220,7 @@ python3 flash_can.py -i can0 -q
 
 查询，此时Application由之前的Katapult变为Klipper，代表Klipper已经正常运行
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware8.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Firmware8.webp width="600" />
 
 ### 通过DFU进行固件更新
 
@@ -230,7 +230,7 @@ python3 flash_can.py -i can0 -q
 
 2、在SSH终端命令行中输入 lsusb 查询DFU设备ID
 
-<img src=img/Hermit_Crab/Hermit_Crab_Firmware9.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Firmware9.webp width="600" />
 
 3、输入 cdklipper 跳转到klipper目录下，输入
 
@@ -262,7 +262,7 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if
 
 搭配BIGTREETECHU2C模块使用：
 
-<img src=img/Hermit_Crab/Hermit_Crab_Can1.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Can1.webp width="600" />
 
 1、在SSH终端中输入
 
@@ -308,11 +308,11 @@ Found canbus_uuid=0e0d81e4210c
 
 GitHub: https://github.com/bigtreetech/HermitCrab
 
-<img src=img/Hermit_Crab/Hermit_Crab_Klipper1.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Klipper1.webp width="600" />
 
 2、将主板的配置文件上传到ConfigurationFiles中：
 
-<img src=img/Hermit_Crab/Hermit_Crab_Klipper2.webp width="600" />
+<img src=/img/Hermit_Crab/Hermit_Crab_Klipper2.webp width="600" />
 
 3、并在“printer.cfg”文件中添加此主板的配置:
 

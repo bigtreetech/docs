@@ -5,7 +5,7 @@
 
     [TMC5160T Pro V1.0 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/tmc-driver/tmc-5160-t-pro/)
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_title.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_title.webp width="600"/>
 
 ## **产品简介**
 
@@ -34,11 +34,11 @@ TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS �
 
 ### 尺寸图
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_dimension.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_dimension.webp width="600"/>
 
 ### 接口示意图
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_pin.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_pin.webp width="600"/>
 
 | J1   | 功能               | J2   | 功能              |
 | ---- | ------------------ | ---- | ----------------- |
@@ -51,7 +51,7 @@ TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS �
 | 7    | (STEP) 脉冲输入    | 7    | (VIO) 逻辑电压    |
 | 8    | (DIR) 方向输入     | 8    | (GND) 接地        |
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_pin1.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_pin1.webp width="600"/>
 
 ## **接口介绍**
 
@@ -59,7 +59,7 @@ TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS �
 
 驱动上有白色方框的引脚为使能（EN）引脚如下图红色方框所示：
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_Interface.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_Interface.webp width="600"/>
 
 ## **固件设置**
 
@@ -71,7 +71,7 @@ TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS �
 
 在 marlin 2.0 固件里找到并打开“Configuration.h”文件，然后找到“#define MOTHERBOARD XXXXXX”“XXXXX”代表所使用板子的型号。确认自己所使用的主板。
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin1.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_marlin1.webp width="600"/>
 
 **步骤二：** 
 
@@ -85,7 +85,7 @@ TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS �
 
 等，修改后面的引脚名为自己所使用的引脚。
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin2.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_marlin2.webp width="600"/>
 
 **步骤三：**
 
@@ -99,20 +99,20 @@ TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS �
 
 修改为自己所要使用的引脚。
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin3.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_marlin3.webp width="600"/>
 
 **步骤四：**
 
 找到并打开“Configuration_adv.h”,然后找到“#define TMC_USE_SW_SPI” 去掉屏蔽符“//”
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin4.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_marlin4.webp width="600"/>
 
 **步骤五：**
 
 在“Configuration_adv.h”文件下，找到“#define X_CURRENT”“#define X_MICROSTEPS”“#define X_RSENSE”修改后面的参数（所使用到的轴都需要修改），<font  color="red">**所使
 用到的轴的 RSENSE 都应改为“0.075”**</font>
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin5.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_marlin5.webp width="600"/>
 
 **步骤六：**
 
@@ -121,11 +121,11 @@ TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS �
 
 细分计算方法，“80,80,400,96”代表 16 细分，如果修改为 32 细分就为“80*（32/16），80*（32/16），400*（32/16），96*（32/16）”
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin7.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_marlin7.webp width="600"/>
 
 本产品使用的采样电阻为 0.075R，因此本产品驱动电流的最大有效值为 3.1A。
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin8.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_marlin8.webp width="600"/>
 
 如果需要使用更大的电流，则需要自行更换采样电阻的大小（需自己准备元件和焊接）。
 
@@ -136,7 +136,7 @@ TMC5160 是一款大功率的步进电机驱动控制芯片，外扩功率 MOS �
 
 更换的的元件位置如下图红色方框所示：
 
-<img src=img/tmc5160t_pro/tmc5160t_pro_marlin9.webp width="600"/>
+<img src=/img/tmc5160t_pro/tmc5160t_pro_marlin9.webp width="600"/>
 
 ## **注意事项**
 

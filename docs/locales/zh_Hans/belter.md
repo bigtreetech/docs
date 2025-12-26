@@ -1,6 +1,6 @@
 # Belter
 
-<img src=img/Belter/Belter_title.webp width="600"/>
+<img src=/img/Belter/Belter_title.webp width="600"/>
 
 **产品链接:**
 
@@ -30,11 +30,11 @@ Belter是一种高精度皮带张力工具，旨在精确测量皮带张力。�
 
 ## **产品结构**
 
-<img src=img/Belter/Belter_Structure.webp width="600"/>
+<img src=/img/Belter/Belter_Structure.webp width="600"/>
 
 ## **尺寸**
 
-<img src=img/Belter/Belter_Dimension.webp width="600"/>
+<img src=/img/Belter/Belter_Dimension.webp width="600"/>
 
 ## **使用说明**
 
@@ -45,17 +45,17 @@ Belter是一种高精度皮带张力工具，旨在精确测量皮带张力。�
 
 **步骤1:**零测量。
 
-<img src=img/Belter/Belter_Instruction1.webp width="600"/>
+<img src=/img/Belter/Belter_Instruction1.webp width="600"/>
 
 如图所示，推动打印部件的柱塞部件，将探针卡箍缩到皮带上。
 
 记录显示的值。
 
-<img src=img/Belter/Belter_Instruction2.webp width="600"/>
+<img src=/img/Belter/Belter_Instruction2.webp width="600"/>
 
 **步骤2:**对第二条皮带重复步骤。
 
-<img src=img/Belter/Belter_Instruction3.webp width="600"/>
+<img src=/img/Belter/Belter_Instruction3.webp width="600"/>
 
 **步骤3:**将Belter值转换为张力（N）
 
@@ -63,7 +63,7 @@ Belter是一种高精度皮带张力工具，旨在精确测量皮带张力。�
 
 [https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation%20Tool](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation Tool)
 
-<img src=img/Belter/Belter_Instruction4.webp width="600"/>
+<img src=/img/Belter/Belter_Instruction4.webp width="600"/>
 
 **步骤4:**比较数据
 比较测量结果，并相应地调整皮带张力。

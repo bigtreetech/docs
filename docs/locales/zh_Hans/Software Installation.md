@@ -8,7 +8,7 @@
 
 Raspberry_Pi_OS
 
-<img src=img/Raspberry_Pi_OS.webp width="600"/>
+<img src=/img/Raspberry_Pi_OS.webp width="600"/>
 
 ​	安装官方Raspberry Pi Imager：https://www.raspberrypi.com/software/
 
@@ -20,17 +20,17 @@ Raspberry_Pi_OS
 
 2. 选择操作系统
 
-<img src=img/Rasp1.webp width="600" />
+<img src=/img/Rasp1.webp width="600" />
 
 3. 选择“使用自定义”，然后从计算机中选择一个自定义.img
 
-<img src=img/Rasp2.webp width="600" />
+<img src=/img/Rasp2.webp width="600" />
 
 
 
 4. 单击右下角的设置图标
 
-<img src=img/Rasp3.webp width="600" />
+<img src=/img/Rasp3.webp width="600" />
 
 5. “启用SSH”并单击“保存”，此菜单中还可以设置其他功能。请根据自己的需要进行修改。详情如下：
 
@@ -40,15 +40,15 @@ Raspberry_Pi_OS
 
    **配置无线局域网** // 自定义WLAN的SSID和密码
 
-<img src=img/Rasp4.webp width="600" />
+<img src=/img/Rasp4.webp width="600" />
 
 6. 选择Micro SD卡并单击“写入”（写入图像将格式化Micro SD卡。注意不要选择错误的存储设备，否则，数据将被格式化）。
 
-<img src=img/Rasp5.webp width="600" />
+<img src=/img/Rasp5.webp width="600" />
 
 7. 等待写入完成。
 
-<img src=img/Rasp6.webp width="600" />
+<img src=/img/Rasp6.webp width="600" />
 
 #### **· CM4 eMMC版本**
 
@@ -62,7 +62,7 @@ Raspberry_Pi_OS
 
 2. 将DIP开关4（USB OTG）和3（BOOT）推至ON（接通），进入BOOT（引导）模式。
 
-<img src=img/M4P/M4P_USB.webp width="600" />
+<img src=/img/M4P/M4P_USB.webp width="600" />
 
 3. 将Type-C插入电脑的USB端口（为了避免电脑USB电源不足造成的问题，最好使用外部24V电源为主板供电）。运行**sudo/rpiboot**（Mac/Linux）或rpiboot.exe，则CM4的eMMC将被计算机识别为大容量存储设备（如果此时rpiboot报告错误，您可以尝试重新插入USB）。
 
@@ -85,16 +85,16 @@ Raspberry_Pi_OS
 1. 通过读卡器将Micro SD卡插入计算机。
 2. 选择操作系统。
 
-<img src=img/Rasp1.webp width="600" />
+<img src=/img/Rasp1.webp width="600" />
 
 3. 选择“使用自定义”，然后从计算机中选择一个自定义.img。
 
-<img src=img/Rasp2.webp width="600" />
+<img src=/img/Rasp2.webp width="600" />
 
 4. 选择Micro SD卡并单击“写入”（写入图像将格式化Micro SD卡。注意不要选择错误的存储设备，否则，数据将被格式化）。
 
-<img src=img/Rasp5.webp width="600" />
+<img src=/img/Rasp5.webp width="600" />
 
 5. 等待写入完成。
 
-<img src=img/Rasp6.webp width="600" />
+<img src=/img/Rasp6.webp width="600" />

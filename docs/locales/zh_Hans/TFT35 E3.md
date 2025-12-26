@@ -5,7 +5,7 @@
 
     [TFT35 E3 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/display/TFT35-E3/)
 
-<img src=img/TFT35_E3/TFT35_E3_Title.webp width="600" />
+<img src=/img/TFT35_E3/TFT35_E3_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -41,11 +41,11 @@ BIGTREETECH TFT35-E3 V3.0是必趣创新科技（深圳）有限公司3D打印�
 
 ## **尺寸**
 
-<img src=img/TFT35_E3/TFT35_E3_Diagram.webp width="600" />
+<img src=/img/TFT35_E3/TFT35_E3_Diagram.webp width="600" />
 
 ## **接口示意图**
 
-<img src=img/TFT35_E3/TFT35_E3_Interface.webp width="600" />
+<img src=/img/TFT35_E3/TFT35_E3_Interface.webp width="600" />
 
 <font  color="red">***注释：***</font>
 

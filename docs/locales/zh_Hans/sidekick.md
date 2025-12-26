@@ -1,6 +1,6 @@
 # **Sidekick Tool Kit**
 
-<img src=img/SidekickToolKit/01.png width="600"/>
+<img src=/img/SidekickToolKit/01.png width="600"/>
 
 - **产品链接**: [点击购买](https://biqu.equipment/products/biqu-sidekick-tool-kit-essential-5-in-1-set-with-edge-spatula-and-precision-cutter-for-3d-printing?_pos=1&_sid=f39858032&_ss=r)  
   
@@ -37,13 +37,13 @@ Sidekick Tool Kit 是专为 **FDM3D打印用户** 打造的AMS工具套装产品
 
     ⚠️使用结束后请使用保护套将刃口保护起来，防止磕碰造成损伤
 
-    <img src=img/SidekickToolKit/zh/2.png width="600"/>
+    <img src=/img/SidekickToolKit/zh/2.png width="600"/>
 
 - **五合一螺丝刀**
 
     螺丝刀手柄尾部封盖可拔出，尾盖使用磁吸收纳了H1.5、H2.0、H2.5、H3.0 四个规格的可更换批头，取下手柄初始十字批头后可进行更换使用
 
-    <img src=img/SidekickToolKit/zh/1.png width="600"/>
+    <img src=/img/SidekickToolKit/zh/1.png width="600"/>
 
 ## 相关导航
 - [BIQU 官方网站](http://biqu3d.com)  

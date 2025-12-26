@@ -5,7 +5,7 @@
 
     [ADXL345 V2.0 Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/sensor/adxl345/)
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Title.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -38,27 +38,27 @@ BIGTREETECH ADXL345 V2.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ## **产品尺寸**
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Dimensions.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Dimensions.webp width="600"/>
 
 ## **外设接口**
 
 ### **Pin 脚说明**
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Pin.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Pin.webp width="600"/>
 
 ## **接口介绍**
 
 与 BTT Pi V1.2 的连接（Type-C）
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Interface.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Interface.webp width="600"/>
 
 与 MANTA M8P 的连接（Type-C）
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_TypeC.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_TypeC.webp width="600"/>
 
 与 MANTA M8P 的连接（焊接线）
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Soldering.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Soldering.webp width="600"/>
 
 ## **Klipper 固件**
 
@@ -72,7 +72,7 @@ BIGTREETECH ADXL345 V2.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 ​	使用下面的配置编译固件(如果没有下列选项，请更新 Klipper 固件源码到最新版本)；
 
-<img src=img/rp2040_usb_menuconfig.webp width="600"/>
+<img src=/img/rp2040_usb_menuconfig.webp width="600"/>
 
 **[\*] Enable extra low-level configuration options**
 
@@ -90,7 +90,7 @@ BIGTREETECH ADXL345 V2.0 是必趣创新科技（深圳）有限公司 3D 打印
 
 3.输入 make 编译固件，当 make 执行完成后会在 home/pi/klipper/out 文件夹中生成我们所需要的‘klipper.bin’固件，在 SSH 软件左侧可以直接下载到电脑中
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Klipper2.webp width="600"/>
 
 ### 通过 DFU 进行固件更新
 
@@ -99,7 +99,7 @@ BIGTREETECH ADXL345 V2.0 是必趣创新科技（深圳）有限公司 3D 打印
 1. 请按住 Boot 按钮，然后使用 Type-C 线连接至树莓派/CB1，此时芯片进入 DFU 模式
 2. 在 SSH 终端命令行中输入 lsusb  查询 DFU 设备 ID
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Klipper3.webp width="600"/>
 
 ​	3.输入
 
@@ -139,7 +139,7 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_rp2040_4550357128922FC8-if
 
 ​	2.将主板的配置文件上传到 Configuration Files 中; 
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Klipper4.webp width="600"/>
 
 ​	3.并在“printer.cfg”文件中添加此主板的配置
 
@@ -181,10 +181,10 @@ SHAPER_CALIBRATE AXIS=Y
 
 双孔位所在 voron 头侧边支架（与官方孔距相匹配）
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method1.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Method1.webp width="600"/>
 
 **安装方式二：**
 
 使用螺丝，如图示穿过 pcba 与垫片所在加热块上
 
-<img src=img/ADXL345_V2.0/ADXL345_V2.0_Method2.webp width="600"/>
+<img src=/img/ADXL345_V2.0/ADXL345_V2.0_Method2.webp width="600"/>

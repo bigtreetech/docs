@@ -1,6 +1,6 @@
 # **Panda Perch H2D**
 
-<img src=img/PandaPerchH2D/zhutu.webp width="600"/>
+<img src=/img/PandaPerchH2D/zhutu.webp width="600"/>
 
 - **产品链接**: [点击购买](https://biqu.equipment/products/biqu-panda-perch-aluminum-mount-supports-two-ams-units-with-tool-storage-and-lighting-option-for-bambu-lab-p1-x1-h2d-series?_pos=1&_sid=319492f97&_ss=r&variant=42173363322978)  
 - **打印件下载**: [MakerWorld](https://makerworld.com/zh/models/1802706-panda-perch-printable-collection?from=search#profileId-1922491)or[GitHub](https://github.com/bigtreetech/PandaPerchH2D/tree/master/Print_Files)
@@ -42,7 +42,7 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
     - 适配多色打印系统 - AMS/AMS 2 Pro/AMS HT
  
 
-<img src=img/PandaPerchH2D/chicun.webp width="600"/>
+<img src=/img/PandaPerchH2D/chicun.webp width="600"/>
 
 ## Panda Perch H2D组装指南
 
@@ -52,35 +52,35 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
 
 * **配件清单**
 
-    <img src=img/PandaPerchH2D/1.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/1.jpg width="600"/>
 
 * **第一步，将包装内左右侧板（有产品名称丝印的一侧为右）、背板与正面底条拿出，使用CM3x4螺丝按孔位固定（不用一次性锁紧，装完顶板后在锁紧）**
 
-    <img src=img/PandaPerchH2D/3.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/3.jpg width="600"/>
 
 * **第二步，将包装内顶板拿出，使用CM3x4螺丝，固定至主体框架上（有凸起一面向上）**
 
-    <img src=img/PandaPerchH2D/4.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/4.jpg width="600"/>
 
 * **第三步，安装底部固定条，将包装内三根固定条拿出，较长的一根为背部，其余两个相同的为左右，将固定条有折边的一面向上向内（如图）固定至主体上，随后将主体所有螺丝二次紧固一遍**
 
-    <img src=img/PandaPerchH2D/5.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/5.jpg width="600"/>
 
 * **第四步，使用CM3x4将顶部AMS支撑条固定至顶板凸起的横条上，随后使用KM3x15将支撑条竖向与顶板固定，最后使用CN3x4螺丝将两端加强条与AMS支撑条锁紧**
 
-    <img src=img/PandaPerchH2D/6.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/6.jpg width="600"/>
 
 ## Panda Perch HT吊篮组装指南
 
 * **第一步，拆开HT吊篮包装盒，将盒内吊篮与连接杆拿出，按图示使用CM4x6螺丝将连接杆固定**
 
-    <img src=img/PandaPerchH2D/7.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/7.jpg width="600"/>
 
 * **第二步，使用CM4x6螺丝将吊篮安装到主体两侧
 
-    <img src=img/PandaPerchH2D/8.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/8.jpg width="600"/>
 
-    <img src=img/PandaPerchH2D/01.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/01.jpg width="600"/>
 
 * 注意！HT吊篮为选配项，最高可支持安装两套（4个吊篮），当使用一套时推荐左右两侧各一个，吸盘螺丝安装至连接杆与吊篮连接处。
 
@@ -88,37 +88,37 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
 
 * **第一步，吊篮先与主体连接后，将机器顶盖拿下，将Perch放置在上面**
 
-    <img src=img/PandaPerchH2D/05.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/05.jpg width="600"/>
 
 * **第二步，使用HT包装中的圆形引磁片，撕去背胶与表面保护膜后，将其贴至HT吊篮的吸盘螺丝与机器接触位置**（如果吸盘螺丝有处于打印机侧面可视窗时，则不用贴改部件）
 
-    <img src=img/PandaPerchH2D/03.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/03.jpg width="600"/>
 
-    <img src=img/PandaPerchH2D/02.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/02.jpg width="600"/>
 
 * **第三步，安装顶盖板开门检测，将包装内的两个R6x4的磁铁吸至顶盖开门检测处**（激光雕刻版本的H2D顶盖有两处开盖检测，前后各一个，需都安装磁铁）
 
-    <img src=img/PandaPerchH2D/04.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/04.jpg width="600"/>
 
 ## RGB灯条安装教程
 
 * **第一步，在打印件文件中找到RGB灯条安装支撑条与灯条卡扣，将其打印出来（建议使用ABS等耐高温耗材）**
 
-    <img src=img/PandaPerchH2D/RGB1.webp width="600"/>
+    <img src=/img/PandaPerchH2D/RGB1.webp width="600"/>
 
 * **第二步，使用包装内预留的CM3x4螺丝将灯条支撑条安装于前方横梁**
 
-<img src=img/PandaPerchH2D/RGB1.jpg width="600"/>
+<img src=/img/PandaPerchH2D/RGB1.jpg width="600"/>
 
 * **第三步，将灯条供电头从背部预留孔位穿出，随后将灯条沿着底部安装边缘贴好，剪去多余长度，并使用卡扣将灯条分段固定**
 
-    <img src=img/PandaPerchH2D/RGB2.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/RGB2.jpg width="600"/>
 
-    <img src=img/PandaPerchH2D/RGB3.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/RGB3.jpg width="600"/>
 
-    <img src=img/PandaPerchH2D/RGB4.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/RGB4.jpg width="600"/>
 
-    <img src=img/PandaPerchH2D/RGB5.jpg width="600"/>
+    <img src=/img/PandaPerchH2D/RGB5.jpg width="600"/>
 
 * **第四步，连接RGB Controller控制器[点击查看](https://bttwiki.com/zh/Panda_RGB_Controller.html)**
 

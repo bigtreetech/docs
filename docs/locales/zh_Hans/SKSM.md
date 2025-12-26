@@ -1,6 +1,6 @@
 # SKSM
 
-<img src=img/SKSM/SKSM_Title.webp width="600" />
+<img src=/img/SKSM/SKSM_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -28,7 +28,7 @@ SKSM 是 BIGTREETECH 推出的一款具有实现断电数据保存功能的 3D �
 
 ## **产品尺寸**
 
-<img src=img/SKSM/SKSM_Dimensions.webp width="600" />
+<img src=/img/SKSM/SKSM_Dimensions.webp width="600" />
 
 ## **模块通电**
 
@@ -40,9 +40,9 @@ SKSM 上电之后，左上角的红灯，（电容完全没有电时，LED 灯�
 
 SKSM 与主板通过 XH2.54mm 5P 插线进行通信，接线时请认准信号线“PB0 PB1 PB2”的位置，只有信号线与主板信号线接口正确连接方可实现断电保存功能。
 
-<img src=img/SKSM/SKSM_Connection.webp width="600" />
+<img src=/img/SKSM/SKSM_Connection.webp width="600" />
 
-<img src=img/SKSM/SKSM_Connection1.webp width="600" />
+<img src=/img/SKSM/SKSM_Connection1.webp width="600" />
 
 **引脚说明：**
 
@@ -54,23 +54,23 @@ SKSM 与主板通过 XH2.54mm 5P 插线进行通信，接线时请认准信号�
 
 ### SKSM + BIGTREETECH Pi V1.2 接线图
 
-<img src=img/SKSM/SKSM_Wiring.webp width="600" />
+<img src=/img/SKSM/SKSM_Wiring.webp width="600" />
 
 <font  color="red">**注意：2.54MM 插座处+5V 为应急电源输出，不做常用供电输出，请使用 USB-C供电。**</font>
 
 ### 树莓派接线图
 
-<img src=img/SKSM/SKSM_Wiring1.webp width="600" />
+<img src=/img/SKSM/SKSM_Wiring1.webp width="600" />
 
 <font  color="red">**注意：2.54MM 插座处+5V 为应急电源输出，不做常用供电输出，请使用 USB-C供电。**</font>
 
 ### SKSM + BIGTREETECH Pi 2 V1.0.1 接线图
 
-<img src=img/SKSM/SKSM_Wiring2.webp width="600" />
+<img src=/img/SKSM/SKSM_Wiring2.webp width="600" />
 
 ### SKSM+Manta 接线图
 
-<img src=img/SKSM/SKSM_Wiring3.webp width="600" />
+<img src=/img/SKSM/SKSM_Wiring3.webp width="600" />
 
 ## **系统配置**
 
@@ -82,7 +82,7 @@ SKSM 与主板通过 XH2.54mm 5P 插线进行通信，接线时请认准信号�
 
 3、按照图片进行修改
 
-<img src=img/SKSM/SKSM_System.webp width="600" />
+<img src=/img/SKSM/SKSM_System.webp width="600" />
 
 4、修改后保存 Ctrl + S 并退出 Ctrl + X（或者直接 Ctrl + X 退出，按 Y 确认更改并回车保存），输入 sudo reboot 重启上位机。
 
@@ -94,7 +94,7 @@ SKSM 与主板通过 XH2.54mm 5P 插线进行通信，接线时请认准信号�
 
 3、启用图片上的内容。
 
-<img src=img/SKSM/SKSM_System1.webp width="600" />
+<img src=/img/SKSM/SKSM_System1.webp width="600" />
 
 4、修改后保存 Ctrl + S 并退出 Ctrl + X（或者直接 Ctrl + X 退出，按 Y 确认更改并回车保存），输入 sudo reboot 重启上位机。
 

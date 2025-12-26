@@ -1,6 +1,6 @@
 # **Panda Hue OTG**
 
-<img src=img/PandaHueOTG/panda_hue_otg.jpg width="600"/>
+<img src=/img/PandaHueOTG/panda_hue_otg.jpg width="600"/>
 
 - **产品链接**: [点击购买](https://bit.ly/4mY7Loi)
 
@@ -49,15 +49,15 @@ Panda Hue OTG 是专为 **Bambu Lab A1 mini** 打造的铝合金便携手柄升�
 
     - 使用 **H2.0 螺丝刀** 拆下原装螺丝。
 
-        <img src=img/PandaHueOTG/install_1.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_1.jpg width="500"/>
 
     - 小心取下顶盖。
 
-        <img src=img/PandaHueOTG/install_2.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_2.jpg width="500"/>
 
     - 保留该螺丝，稍后安装 Panda HUE OTG 时会用到。
 
-        <img src=img/PandaHueOTG/install_3.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_3.jpg width="500"/>
 
 * 步骤 2：拆卸白色盖板
 
@@ -65,33 +65,33 @@ Panda Hue OTG 是专为 **Bambu Lab A1 mini** 打造的铝合金便携手柄升�
 
     - 取下白色盖板。
 
-        <img src=img/PandaHueOTG/install_4.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_4.jpg width="500"/>
 
     - 保留这些螺丝，后续安装会用到。
 
-        <img src=img/PandaHueOTG/install_5.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_5.jpg width="500"/>
 
 * 步骤 3：安装 Panda HUE OTG
 
     - 将 **Panda HUE OTG** 放置在 A1 mini 打印机的 **Z 轴顶部**（如图）。
 
-        <img src=img/PandaHueOTG/install_6.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_6.jpg width="500"/>
 
     - 使用前面拆下的原装螺丝固定。
 
-        <img src=img/PandaHueOTG/install_7.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_7.jpg width="500"/>
 
-        <img src=img/PandaHueOTG/install_8.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_8.jpg width="500"/>
 
 * 步骤 4：安装CMYK透光浮雕、边框和手柄
 
     - 将 **BIQU CMYK透光浮雕、边框和手柄** 组装好。
 
-        <img src=img/PandaHueOTG/install_9.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_9.jpg width="500"/>
 
     - 使用 **随附的螺丝** 固定。
 
-        <img src=img/PandaHueOTG/install_10.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_10.jpg width="500"/>
 
     > 💡 提示：更换 CMYK透光浮雕（可选）
     > 如需更换自定义：
@@ -105,11 +105,11 @@ Panda Hue OTG 是专为 **Bambu Lab A1 mini** 打造的铝合金便携手柄升�
 
     - 先将电源线插入 **Panda HUE OTG**。
 
-        <img src=img/PandaHueOTG/install_11.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_11.jpg width="500"/>
 
     - 再连接到打印机 AMS 供电口。
 
-        <img src=img/PandaHueOTG/install_12.jpg width="500"/>
+        <img src=/img/PandaHueOTG/install_12.jpg width="500"/>
 
 * 🎉 安装完成
 
@@ -123,27 +123,27 @@ Panda Hue OTG 是专为 **Bambu Lab A1 mini** 打造的铝合金便携手柄升�
 
 * 打开Bambu Stdio/Maker Wold(此处以Maker World为例)首页点击进入Makerlab选择透光浮雕生成器
 
-    <img src=img/PandaHueOTG/1.webp width="800"/>
+    <img src=/img/PandaHueOTG/1.webp width="800"/>
 
 * 点击新建文件
 
-    <img src=img/PandaHueOTG/2.webp width="800"/>
+    <img src=/img/PandaHueOTG/2.webp width="800"/>
 
 * 点击选择仅浮雕选项
 
-    <img src=img/PandaHueOTG/3.webp width="800"/>
+    <img src=/img/PandaHueOTG/3.webp width="800"/>
 
 * 导入图片后选择相框选项，将边框设置为0
 
-    <img src=img/PandaHueOTG/4_5.webp width="800"/>
+    <img src=/img/PandaHueOTG/4_5.webp width="800"/>
 
 * 随后返回尺寸选项，将宽度设置为35mm，随后手动调节图框，待高度变为35mm时即可
 
-    <img src=img/PandaHueOTG/6_7.webp width="800"/>
+    <img src=/img/PandaHueOTG/6_7.webp width="800"/>
 
 * 点击导出至Bambu Studio后选择尺寸选项，将长宽设置为35.35mm即可
 
-    <img src=img/PandaHueOTG/8_9.webp width="800"/>
+    <img src=/img/PandaHueOTG/8_9.webp width="800"/>
 
 ## 技术支持  
 如遇到问题，请 [提交工单](https://biqu3d.com/pages/submit-a-ticket)。  

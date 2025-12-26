@@ -1,6 +1,6 @@
 # Panda Knomi 3D
 
-<img src=img/PandaKnomi3D/panda_knomi_3d.jpg width="400"/>
+<img src=/img/PandaKnomi3D/panda_knomi_3d.jpg width="400"/>
 
 - **产品链接**: [点击购买](https://bit.ly/3K3rIM3)
 
@@ -45,9 +45,9 @@
 
 ## 尺寸和接口
 
-<img src=img/PandaKnomi3D/size.webp width="400"/>
+<img src=/img/PandaKnomi3D/size.webp width="400"/>
 
-<img src=img/PandaKnomi3D/port.jpg width="400"/>
+<img src=/img/PandaKnomi3D/port.jpg width="400"/>
 
 
 ## 安装指南
@@ -58,51 +58,51 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 装入透镜
 
-    <img src=img/PandaKnomi3D/install_1.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/install_1.jpg width="300"/>
 
 * 轻轻揭下 Panda Knomi 3D屏幕的保护膜
 
-    <img src=img/PandaKnomi3D/install_2.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/install_2.jpg width="300"/>
 
 * 把屏幕安装到外壳里面，在此之前务必检查透镜及屏幕上是否有灰尘碎削等杂物，如有，请及时清理避免压碎屏幕
 
-    <img src=img/PandaKnomi3D/install_3.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/install_3.jpg width="300"/>
 
 * 将后盖与箭头A所指示的卡扣对准，沿箭头B方向轻轻按下直到听到“咔哒”一声，表示安装到位。
 
-    <img src=img/PandaKnomi3D/install_4.jpg width="400"/>
+    <img src=/img/PandaKnomi3D/install_4.jpg width="400"/>
 
 * 在A1系列打印机工具头上，从侧面用力按压工具头前盖，解锁并移除前盖。
 
-    <img src=img/PandaKnomi3D/install_5.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/install_5.jpg width="300"/>
 
 * 取下旋转轮。
 
-    <img src=img/PandaKnomi3D/zh/install_6.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/install_6.jpg width="300"/>
 
 * 将电源线穿过如下孔位，并插入Panda Knomi 3D的屏幕背面电源接口。
 
-    <img src=img/PandaKnomi3D/install_7.jpg width="600"/>
+    <img src=/img/PandaKnomi3D/install_7.jpg width="600"/>
 
 * 从顶部扣入Panda Knomi 3D，并按压以固定
 
-    <img src=img/PandaKnomi3D/install_8.jpg width="400"/>
+    <img src=/img/PandaKnomi3D/install_8.jpg width="400"/>
 
-    <img src=img/PandaKnomi3D/install_9.jpg width="350"/>
+    <img src=/img/PandaKnomi3D/install_9.jpg width="350"/>
 
 * 最后，为了避免电源线干扰打印以及让打印机看起来更加整洁，我们设计了[可打印的夹线器模型](https://github.com/bigtreetech/PandaKnomi3D/blob/master/Print_Files/A1_Series/A1%20Series_Cable_Clip%20%E5%A4%B9%E7%BA%BF%E5%99%A8_V1.0.stl)，请下载并打印安装。
 
-    <img src=img/PandaKnomi3D/install_10.jpg width="400"/>
+    <img src=/img/PandaKnomi3D/install_10.jpg width="400"/>
 
     如果您使用的是 AMS Lite，我们还设计了[可打印的集线器模型](https://github.com/bigtreetech/PandaKnomi3D/blob/master/Print_Files/A1_Series/A1%20Series_Cable_Organizer%20%E9%9B%86%E7%BA%BF%E5%99%A8_V1.0.stl)，可让您将所有PTFE管、工具头电缆和 Panda Knomi 3D电源线捆绑在一起。
 
-    <img src=img/PandaKnomi3D/install_11.jpg width="600"/>
+    <img src=/img/PandaKnomi3D/install_11.jpg width="600"/>
 
     我们还建议使用提供的扎带将工具头电缆和 Panda Knomi 3D电源线轻轻捆绑在一起。扎带不应太紧避免扯到电缆。
 
 * 成功安装到 A1 系列工具头上
 
-    <img src=img/PandaKnomi3D/install_12.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/install_12.jpg width="300"/>
 
 > 祝贺您已完成 Panda Knomi 3D 的安装。现在您可以继续阅读如何在 A1 系列打印机上给 Panda Knomi 3D 供电。
 
@@ -112,11 +112,11 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 捏住外壳两端，向上取下外壳即可从工具头上取下 Panda Knomi 3D
 
-    <img src=img/PandaKnomi3D/uninstall_1.jpg width="400"/>
+    <img src=/img/PandaKnomi3D/uninstall_1.jpg width="400"/>
 
 * 使用后盖开盖器顶住图示中蓝色高亮槽口的位置，后盖将自动弹开，便于取下。(您需要先从 [GitHub](https://github.com/bigtreetech/PandaKnomi3D/blob/master/Print_Files/A1_Series/A1%20Series_Cover%20Opener%20%E5%BC%80%E7%9B%96%E5%99%A8_V1.0.stl) 下载后盖开盖器的文件并自行打印)
 
-    <img src=img/PandaKnomi3D/zh/uninstall_2.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/uninstall_2.jpg width="300"/>
 
 ### A1 系列供电
 
@@ -126,17 +126,17 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 把Panda Knomi 3D电源线的MX3.0 2pin公头与转接线的MX3.0 2pin母头连接好，注意对准扣位连接，**不能反接**。
 
-    <img src=img/PandaKnomi3D/zh/install_13.jpg width="400"/>
+    <img src=/img/PandaKnomi3D/zh/install_13.jpg width="400"/>
 
 * 在机器后部(A1)或侧面(A1 mini)找到一个未使用的 4pin 电源端口。再把转接线另一头的MX3.0 4pin接口插入到打印机的MX3.0 4pin接口。
 
-    <img src=img/PandaKnomi3D/zh/install_14.jpg width="400"/>
+    <img src=/img/PandaKnomi3D/zh/install_14.jpg width="400"/>
 
 #### 通过Panda Branch Plus供电
 
 如果不想通过打印机接电，或者打印机的MX3.0接口已被占用，则可以选择购买Panda Branch Plus（单独出售），直接把Panda Knomi 3D的MX3.0 2pin接口插入Panda Branch Plus的MX3.0接口，也可以实现供电。
 
-<img src=img/PandaKnomi3D/install_15.jpg width="600"/>
+<img src=/img/PandaKnomi3D/install_15.jpg width="600"/>
 
 > 现在是时候给 Panda Knomi 3D 通电并进行配置了，请前往[首次使用指南](#first-time-use-guide)
 
@@ -153,7 +153,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
     首次启动后或执行 `恢复出厂设置` 命令后，您将看到下面的屏幕。
     
-    <img src=img/PandaKnomi3D/zh/ap_qr_code.jpg width="400"/>
+    <img src=/img/PandaKnomi3D/zh/ap_qr_code.jpg width="400"/>
 
     * 扫描 Panda Knomi 3D 上的二维码(如上图所示), 获取 Panda Knomi 3D 自身开启的 AP 热点的名称和密码, 点击连接。出厂默认的AP信息如下：
 
@@ -171,7 +171,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
         * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。
 
-            <img src=img/PandaKnomi3D/zh/wlan.jpg width="300"/>
+            <img src=/img/PandaKnomi3D/zh/wlan.jpg width="300"/>
 
         * 轻点名称以 `Panda_Knomi_3D` 开头的无线局域网，输入默认密码：`987654321`。
 
@@ -183,15 +183,15 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 首次配置会自动进入 `选择语言` 界面，设置完语言后，点击 `下一步`。
 
-    <img src=img/PandaKnomi3D/zh/language.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/language.jpg width="300"/>
 
 * 进入连接 Wi-Fi 界面，Panda Knomi 3D 会自动扫描环境中的 Wi-Fi，请选择打印机所连接的 Wi-Fi 进行连接。如果没有扫描到打印机连接的 Wi-Fi, 可以点击 “扫描” 按钮重新扫描。
 
-    <img src=img/PandaKnomi3D/zh/wifi.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/wifi.jpg width="300"/>
 
 * 等待连接成功，连接成功后会弹出如下图中的弹窗，点击 `绑定打印机` 可以跳转到 `打印机` 界面绑定打印机。
 
-    <img src=img/PandaKnomi3D/zh/goto_printer.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/goto_printer.jpg width="300"/>
 
 #### 绑定打印机
 
@@ -201,7 +201,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * Web UI配置界面进入 `打印机` 界面, 点击 `扫描` 会扫描同一局域网下的拓竹打印机, 一次完整的扫描大概需要30秒左右。每多一台拓竹打印机最多增加20秒的扫描时间。Panda Knomi 3D 每次扫描最多支持识别20台打印机，如果您局域网内的拓竹打印机数量较多超出了20台，可能无法扫描到所有的打印机。如果此次扫描未能识别到想要连接的打印机，可以点击 `扫描` 按钮重新扫描，或者 `手动输入` 所有的信息
 
-    <img src=img/PandaKnomi3D/zh/printer.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/printer.jpg width="300"/>
 
 * 扫描完成后, 选择想要连接的打印机, 选择后打印机的 `SN码` 和 `IP` 会自动填充。然后在打印机上找到 `访问码`, 并手动输入到Web UI上的 `打印机访问码` 栏。
 
@@ -209,19 +209,19 @@ Panda Knomi 3D安装在A1系列打印机上。
 
         * ①	`设置`
 
-            <img src=img/PandaKnomi3D/zh/a1_1.jpg width="300"/>
+            <img src=/img/PandaKnomi3D/zh/a1_1.jpg width="300"/>
 
         * ② -> ③ `局域网模式`
 
-            <img src=img/PandaKnomi3D/zh/a1_2_3.jpg width="300"/>
+            <img src=/img/PandaKnomi3D/zh/a1_2_3.jpg width="300"/>
 
         * ④ `访问码`
 
-            <img src=img/PandaKnomi3D/zh/a1_4_5.jpg width="300"/>
+            <img src=/img/PandaKnomi3D/zh/a1_4_5.jpg width="300"/>
 
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 Panda Knomi 3D 已经成功连接到打印机了。
 
-    <img src=img/PandaKnomi3D/zh/bind_ok.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/bind_ok.jpg width="300"/>
 
 * 恭喜您！现在可以尽情的享用您的 Panda Knomi 3D 了。
 
@@ -238,39 +238,39 @@ Panda Knomi 3D安装在A1系列打印机上。
 
             * ①	`设置`
 
-                <img src=img/PandaKnomi3D/zh/a1_1.jpg width="300"/>
+                <img src=/img/PandaKnomi3D/zh/a1_1.jpg width="300"/>
 
             * ② `设备`
 
-                <img src=img/PandaKnomi3D/zh/a1_2.jpg width="300"/>
+                <img src=/img/PandaKnomi3D/zh/a1_2.jpg width="300"/>
 
             * ③ `打印机序列号` 即为 `SN码`
 
-                <img src=img/PandaKnomi3D/zh/a1_3.jpg width="300"/>
+                <img src=/img/PandaKnomi3D/zh/a1_3.jpg width="300"/>
 
         * `访问码` 和 `IP`
 
             * ①	`设置`
 
-                <img src=img/PandaKnomi3D/zh/a1_1.jpg width="300"/>
+                <img src=/img/PandaKnomi3D/zh/a1_1.jpg width="300"/>
 
             * ② -> ③ `局域网模式`
 
-                <img src=img/PandaKnomi3D/zh/a1_2_3.jpg width="300"/>
+                <img src=/img/PandaKnomi3D/zh/a1_2_3.jpg width="300"/>
 
             * ④ `访问码`, ⑤ `IP`
 
-                <img src=img/PandaKnomi3D/zh/a1_4_5.jpg width="300"/>
+                <img src=/img/PandaKnomi3D/zh/a1_4_5.jpg width="300"/>
 
 * 点击 `绑定`, 开始连接打印机, 出现 `绑定成功` 的弹窗意味着 Panda Knomi 3D 已经成功连接到打印机了。<br/>
-  <img src=img/PandaKnomi3D/zh/bind_ok.jpg width="300"/>
+  <img src=/img/PandaKnomi3D/zh/bind_ok.jpg width="300"/>
 * 恭喜您！现在可以尽情的享用您的 Panda Knomi 3D 了。
 
 ### Wi-Fi & IP 界面
 
 > 连接到 Panda Knomi 3D WebUI 中出现的第一个界面是 WiFi&IP 设置界面。
 
-<img src=img/PandaKnomi3D/zh/wifi_ip.jpg width="300"/>
+<img src=/img/PandaKnomi3D/zh/wifi_ip.jpg width="300"/>
 
 * ①	进入 `Wi-Fi&IP` 界面
 
@@ -289,7 +289,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
     修改完成后，点击 `设置主机名` 将设置的主机名发送给 Panda Knomi 3D，若出现如下图中的弹窗，说明主机名已经重新设置成功，主机名修改后需要重新启动才可以生效，直接点击弹窗中的 `OK` 按钮，Panda Knomi 3D 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。
 
-    <img src=img/PandaKnomi3D/zh/hostname.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/hostname.jpg width="300"/>
 
 ### AP 界面
 
@@ -297,7 +297,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 >
 > <font size="2">若设备是连接到 Panda Knomi 3D 的 AP 热点访问的 Web UI，关闭或者修改 Panda Knomi 3D 的 AP 信息都会导致设备与 Panda Knomi 3D 断开通信连接。为避免此类情况，建议将设备连接到与 Panda Knomi 3D 所连接的 Wi-Fi 相同局域网下再修改此配置。</font>
 
-<img src=img/PandaKnomi3D/zh/ap.jpg width="300"/>
+<img src=/img/PandaKnomi3D/zh/ap.jpg width="300"/>
 
 * ①	进入 `AP` 界面
 
@@ -315,7 +315,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
     `热点 IP` 修改后需要重启设备才会生效，若出现如下图中的弹窗，说明 `热点 IP` 已经重新设置成功，直接点击弹窗中的 `OK` 按钮，Panda Knomi 3D 会 `立刻重启`，若我们不想立刻重启，可以点击弹窗右上角的 `x` 按钮关闭弹窗。
 
-    <img src=img/PandaKnomi3D/zh/hotspot_ip.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/hotspot_ip.jpg width="300"/>
 
 
 ## 主题设置和IMG分享
@@ -329,22 +329,22 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 | | Web UI中的文件名称 | GIF效果 | 出现的条件（需已绑定上打印机） | 出厂GIF的大小 | 出厂GIF的分辨率（宽 x 高） |
 | :-----| :-----| :----: | :----: | :----: | :----: |
-| 1 | 待机状态.gif  | <img src=img/PandaKnomi3D/gif/standby.gif /> | 打印机处于空闲状态 | 284.94KB | 240 x 240 |
-| 2 | 喷嘴加热.gif  | <img src=img/PandaKnomi3D/gif/nozzle_heating.gif /> | 喷嘴正在加热 | 109.63KB | 240 x 240 |
-| 3 | 热床加热.gif  | <img src=img/PandaKnomi3D/gif/bed_heating.gif /> | 热床正在加热 | 123.96KB | 240 x 240 |
-| 4 | 调平.gif  | <img src=img/PandaKnomi3D/gif/bed_leveling.gif /> | 正在自动调平 | 77.73KB | 240 x 240 |
-| 5 | 归零.gif  | <img src=img/PandaKnomi3D/gif/homing.gif /> | 正在回原点 | 112.69KB | 240 x 240 |
-| 6 | 清洁喷嘴.gif  | <img src=img/PandaKnomi3D/gif/nozzle_cleaning.gif /> | 正在清理喷嘴 | 88.91KB | 240 x 240 |
-| 7 | 流量校准.gif  | <img src=img/PandaKnomi3D/gif/calibrating_flow.gif /> | 正在校准挤出流量 | 149.74KB | 240 x 240 |
-| 8 | XY轴共振补偿.gif  | <img src=img/PandaKnomi3D/gif/xy_mesh_mode_sweep.gif /> | 正在校准共振补偿 | 62.93KB | 240 x 240 |
-| 9 | 耗材位置检查.gif  | <img src=img/PandaKnomi3D/gif/filament_check_location.gif /> | 正在检查耗材的位置 | 146.63KB | 240 x 240 |
-| 10 | 切割耗材.gif  | <img src=img/PandaKnomi3D/gif/filament_cut.gif /> | 正在切料 | 46.78KB | 240 x 240 |
-| 11 | 回抽耗材.gif  | <img src=img/PandaKnomi3D/gif/filament_pull_back_cur.gif /> | 正在抽回当前的耗材 | 112.66KB | 240 x 240 |
-| 12 | 推入新耗材.gif  | <img src=img/PandaKnomi3D/gif/filament_push_new.gif /> | 正在加载新的耗材 | 121.32KB | 240 x 240 |
-| 13 | 挤出旧耗材.gif  | <img src=img/PandaKnomi3D/gif/filament_purge_old.gif /> | 正在冲刷旧的耗材 | 29.46KB | 240 x 240 |
-| 14 | 打印成功.gif  | <img src=img/PandaKnomi3D/gif/printing_ok.gif /> | 打印已完成 | 355KB | 240 x 240 |
-| 15 | 正在打印.gif  | <img src=img/PandaKnomi3D/gif/printing.gif /> | 正在打印中 | 563.88KB | 240 x 240 |
-| 16 | 打印机报错.gif  | <img src=img/PandaKnomi3D/gif/printer_error.gif /> | 正在打印中 | 517.01KB | 240 x 240 |
+| 1 | 待机状态.gif  | <img src=/img/PandaKnomi3D/gif/standby.gif /> | 打印机处于空闲状态 | 284.94KB | 240 x 240 |
+| 2 | 喷嘴加热.gif  | <img src=/img/PandaKnomi3D/gif/nozzle_heating.gif /> | 喷嘴正在加热 | 109.63KB | 240 x 240 |
+| 3 | 热床加热.gif  | <img src=/img/PandaKnomi3D/gif/bed_heating.gif /> | 热床正在加热 | 123.96KB | 240 x 240 |
+| 4 | 调平.gif  | <img src=/img/PandaKnomi3D/gif/bed_leveling.gif /> | 正在自动调平 | 77.73KB | 240 x 240 |
+| 5 | 归零.gif  | <img src=/img/PandaKnomi3D/gif/homing.gif /> | 正在回原点 | 112.69KB | 240 x 240 |
+| 6 | 清洁喷嘴.gif  | <img src=/img/PandaKnomi3D/gif/nozzle_cleaning.gif /> | 正在清理喷嘴 | 88.91KB | 240 x 240 |
+| 7 | 流量校准.gif  | <img src=/img/PandaKnomi3D/gif/calibrating_flow.gif /> | 正在校准挤出流量 | 149.74KB | 240 x 240 |
+| 8 | XY轴共振补偿.gif  | <img src=/img/PandaKnomi3D/gif/xy_mesh_mode_sweep.gif /> | 正在校准共振补偿 | 62.93KB | 240 x 240 |
+| 9 | 耗材位置检查.gif  | <img src=/img/PandaKnomi3D/gif/filament_check_location.gif /> | 正在检查耗材的位置 | 146.63KB | 240 x 240 |
+| 10 | 切割耗材.gif  | <img src=/img/PandaKnomi3D/gif/filament_cut.gif /> | 正在切料 | 46.78KB | 240 x 240 |
+| 11 | 回抽耗材.gif  | <img src=/img/PandaKnomi3D/gif/filament_pull_back_cur.gif /> | 正在抽回当前的耗材 | 112.66KB | 240 x 240 |
+| 12 | 推入新耗材.gif  | <img src=/img/PandaKnomi3D/gif/filament_push_new.gif /> | 正在加载新的耗材 | 121.32KB | 240 x 240 |
+| 13 | 挤出旧耗材.gif  | <img src=/img/PandaKnomi3D/gif/filament_purge_old.gif /> | 正在冲刷旧的耗材 | 29.46KB | 240 x 240 |
+| 14 | 打印成功.gif  | <img src=/img/PandaKnomi3D/gif/printing_ok.gif /> | 打印已完成 | 355KB | 240 x 240 |
+| 15 | 正在打印.gif  | <img src=/img/PandaKnomi3D/gif/printing.gif /> | 正在打印中 | 563.88KB | 240 x 240 |
+| 16 | 打印机报错.gif  | <img src=/img/PandaKnomi3D/gif/printer_error.gif /> | 正在打印中 | 517.01KB | 240 x 240 |
 
 ### 屏幕保护
 
@@ -352,7 +352,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 屏保GIF的效果如下：
 
-    <img src=img/PandaKnomi3D/gif/screen_saver.gif />
+    <img src=/img/PandaKnomi3D/gif/screen_saver.gif />
 
 * 以下静态界面中具有屏保逻辑：
 
@@ -378,11 +378,11 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 ### 主题设置
 
-<img src=img/PandaKnomi3D/zh/theme_1_2_3_4_5.jpg width="300"/>
+<img src=/img/PandaKnomi3D/zh/theme_1_2_3_4_5.jpg width="300"/>
 
-<img src=img/PandaKnomi3D/zh/theme_6.jpg width="300"/>
+<img src=/img/PandaKnomi3D/zh/theme_6.jpg width="300"/>
 
-<img src=img/PandaKnomi3D/zh/settings_7_8.jpg width="300"/>
+<img src=/img/PandaKnomi3D/zh/settings_7_8.jpg width="300"/>
 
 * ①	进入 `主题` 界面
 
@@ -398,7 +398,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * ③	设置 GIF 的颜色
 
-    <img src=img/PandaKnomi3D/zh/picker.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/picker.jpg width="300"/>
 
     * a) 点击此按钮，弹出设置GIF颜色的界面
 
@@ -474,21 +474,21 @@ Panda Knomi 3D安装在A1系列打印机上。
 
         * 到 IMG 文件夹中，挑选自己喜欢的IMG主题
 
-            <img src=img/PandaKnomi3D/img_github_path.webp width="800"/>
+            <img src=/img/PandaKnomi3D/img_github_path.webp width="800"/>
 
         * 点击下载，保存到本地
 
-            <img src=img/PandaKnomi3D/img_github_download.webp width="800"/>
+            <img src=/img/PandaKnomi3D/img_github_download.webp width="800"/>
 
 * 进入 Panda Knomi 3D 的Web UI，① `设置` -> ② `选择.img文件`，然后选择刚才下载的 `.img` 文件，等待更新完成后，Panda Knomi 3D 会自动应用并显示新的IMG文件。
 
-    <img src=img/PandaKnomi3D/zh/img_web_upload.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/img_web_upload.jpg width="300"/>
 
 ### 从 Panda Knomi 3D 导出IMG分享
 
 * 进入Panda Knomi 3D 的Web UI。① `主题` -> ② `导出IMG`，等待IMG文件导出完成
 
-    <img src=img/PandaKnomi3D/zh/img_web_download.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/img_web_download.jpg width="300"/>
 
 * 将导出的IMG文件重命名，命名规则为：
 
@@ -508,31 +508,31 @@ Panda Knomi 3D安装在A1系列打印机上。
 
     * 点击 ① `Fork`
 
-        <img src=img/PandaKnomi3D/fork_1.webp width="800"/>
+        <img src=/img/PandaKnomi3D/fork_1.webp width="800"/>
 
     * 点击 ② `Create fork`
 
-      <img src=img/PandaKnomi3D/fork_2.webp width="800"/>
+      <img src=/img/PandaKnomi3D/fork_2.webp width="800"/>
 
     * 等待 `fork` 完成
 
-      <img src=img/PandaKnomi3D/fork_3.webp width="800"/>
+      <img src=/img/PandaKnomi3D/fork_3.webp width="800"/>
 
     * `fork` 完成后，① 进入IMG文件夹 -> ② `Add file` -> ③ `Upload files`
 
-        <img src=img/PandaKnomi3D/img_drag.webp width="800"/>
+        <img src=/img/PandaKnomi3D/img_drag.webp width="800"/>
 
     * ① 选择要上传的 img 文件，② 写自定义IMG的`标题`，③ 写入自定义主题的`详细描述`，④ `提交文件`
 
-        <img src=img/PandaKnomi3D/img_pri_commit.webp width="800"/>
+        <img src=/img/PandaKnomi3D/img_pri_commit.webp width="800"/>
 
     * ① `Contribute` -> ② `Open pull request`
 
-        <img src=img/PandaKnomi3D/img_open_pr.webp width="800"/>
+        <img src=/img/PandaKnomi3D/img_open_pr.webp width="800"/>
 
     * ① 写自定义IMG的`标题`，② 写入自定义主题的`详细描述`，③ 勾选 `Allow edits by maintainers`，④ `Create pull request`
 
-        <img src=img/PandaKnomi3D/img_create_pr.webp width="800"/>
+        <img src=/img/PandaKnomi3D/img_create_pr.webp width="800"/>
 
     * 恭喜你已经完成分享！
 
@@ -545,17 +545,17 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 进入 ① `设置` 界面，点击 ② `恢复出厂设置` 按钮
 
-    <img src=img/PandaKnomi3D/zh/factory_1.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/factory_1.jpg width="300"/>
 
 * 会出现确认的弹窗，点击 ③ `是` 确认恢复出厂设置，Panda Knomi 3D 会恢复出厂设置并重新启动。
 
-    <img src=img/PandaKnomi3D/zh/factory_2.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/factory_2.jpg width="300"/>
 
 ### 通过按键恢复出厂设置
 
 长按 Panda Knomi 3D 上的 Boot 按键5秒后，Panda Knomi 3D 会恢复出厂设置并重新启动。
 
-<img src=img/PandaKnomi3D/boot.jpg width="300"/>
+<img src=/img/PandaKnomi3D/boot.jpg width="300"/>
 
 
 ## 固件
@@ -588,7 +588,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
             * 打开 `无线局域网`。你的设备将自动搜索可供使用的无线局域网。
 
-                <img src=img/PandaKnomi3D/zh/wlan.jpg width="300"/>
+                <img src=/img/PandaKnomi3D/zh/wlan.jpg width="300"/>
 
             * 轻点名称以 `Panda_Knomi_3D_` 开头的无线局域网，输入默认密码：`987654321`。
 
@@ -598,7 +598,7 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 在Web UI配置界面中，进入 ① `设置` 界面, 点击 ② `选择 .bin 文件`, 然后选择要更新的固件, 更新完成后设备会自动重启。
 
-    <img src=img/PandaKnomi3D/zh/firmware.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/zh/firmware.jpg width="300"/>
 
 #### flash_download_tool (Type-C 线刷)
 
@@ -608,21 +608,21 @@ Panda Knomi 3D安装在A1系列打印机上。
 
 * 下载 [Flash 下载工具](https://www.espressif.com/zh-hans/support/download/other-tools)
 
-    <img src=img/PandaKnomi3D/zh/download_esp_tool.webp width="800"/>
+    <img src=/img/PandaKnomi3D/zh/download_esp_tool.webp width="800"/>
 
 * 下载 [Panda Knomi 3D 的固件](https://github.com/bigtreetech/PandaKnomi3D)
 
 * 按住 Panda Knomi 3D 上的 `Boot` 按键, 然后通过 `Type-C` 插到电脑上，电脑的设备管理器中理应识别出一个新的 COM 端口
 
-    <img src=img/PandaKnomi3D/boot_fw.jpg width="300"/>
+    <img src=/img/PandaKnomi3D/boot_fw.jpg width="300"/>
 
 * 打开 `flash_download_tool_3.9.8_6.exe`, 在弹窗中按照下图配置
 
-    <img src=img/PandaKnomi3D/open_esp_tool.webp width="400"/>
+    <img src=/img/PandaKnomi3D/open_esp_tool.webp width="400"/>
 
 * 烧录软件的配置如下图
 
-    <img src=img/PandaKnomi3D/set_esp_tool.webp width="400"/>
+    <img src=/img/PandaKnomi3D/set_esp_tool.webp width="400"/>
 
     * ①	设置.bin文件的烧录地址, 并且前面的复选框都勾选上
 

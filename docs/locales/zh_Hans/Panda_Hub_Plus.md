@@ -1,6 +1,6 @@
 # Panda Hub Plus
 
-<img src=img/PandaHubPlus/board.jpg width="800"/>
+<img src=/img/PandaHubPlus/board.jpg width="800"/>
 
 - **产品链接**: [点击购买](https://bit.ly/3K0r8Pa)
 
@@ -38,7 +38,7 @@ Panda Hub Plus 是一款精简的电源解决方案，专为拓竹 P1/X1/A1 系�
 
 ## 接口图
 
-<img src=img/PandaHubPlus/zh/port.jpg width="800"/>
+<img src=/img/PandaHubPlus/zh/port.jpg width="800"/>
 
 
 ## 安装说明
@@ -49,25 +49,25 @@ Panda Hub Plus 是一款精简的电源解决方案，专为拓竹 P1/X1/A1 系�
 
 * 将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
 
-    <img src=img/PandaHubPlus/zh/a1mini1.jpg width="800"/>
+    <img src=/img/PandaHubPlus/zh/a1mini1.jpg width="800"/>
 
 * 将打印好的支架放入如图对应的位置，用M3*20机牙螺丝固定。
 
-    <img src=img/PandaHubPlus/zh/a1mini2.jpg width="800"/>
+    <img src=/img/PandaHubPlus/zh/a1mini2.jpg width="800"/>
 
 ### A1机型
 
 * 将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
 
-    <img src=img/PandaHubPlus/zh/a11.jpg width="800"/>
+    <img src=/img/PandaHubPlus/zh/a11.jpg width="800"/>
 
 * 将打印好的支架放入如图对应的位置，用相应的打印件或者M3*20机牙螺丝固定。
 
-    <img src=img/PandaHubPlus/zh/a12.webp width="600"/>
+    <img src=/img/PandaHubPlus/zh/a12.webp width="600"/>
 
     （该方式直接用打印件固定到A1的Z轴上）
 
-    <img src=img/PandaHubPlus/zh/a13.jpg width="600"/>
+    <img src=/img/PandaHubPlus/zh/a13.jpg width="600"/>
 
     （该方式需要用两个KM3*20机牙螺丝固定在A1的Z轴上）
 
@@ -75,11 +75,11 @@ Panda Hub Plus 是一款精简的电源解决方案，专为拓竹 P1/X1/A1 系�
 
 * 将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
 
-    <img src=img/PandaHubPlus/zh/x11.jpg width="600"/>
+    <img src=/img/PandaHubPlus/zh/x11.jpg width="600"/>
 
 * 将打印好的支架放入如图对应的位置，用M3*20机牙螺丝固定。
 
-    <img src=img/PandaHubPlus/zh/x12.jpg width="600"/>
+    <img src=/img/PandaHubPlus/zh/x12.jpg width="600"/>
 
     （该方式需要用两个M3*20机牙螺丝固定在X1的右后方）
 
@@ -87,14 +87,14 @@ Panda Hub Plus 是一款精简的电源解决方案，专为拓竹 P1/X1/A1 系�
 
 * 将PCB板放入打印好的上下壳内，用KM3*14自攻螺丝固定好。
 
-    <img src=img/PandaHubPlus/zh/p11.jpg width="800"/>
+    <img src=/img/PandaHubPlus/zh/p11.jpg width="800"/>
 
     注意：打印件下壳底部红色区域所示需要拆掉支撑。
 
-    <img src=img/PandaHubPlus/p13.jpg width="800"/>
+    <img src=/img/PandaHubPlus/p13.jpg width="800"/>
 
 * 将打印好的支架放入如图对应的位置，用M3*20机牙螺丝固定。
 
-    <img src=img/PandaHubPlus/zh/p12.jpg width="600"/>
+    <img src=/img/PandaHubPlus/zh/p12.jpg width="600"/>
 
     （该方式需要用1颗个M3*20机牙螺丝固定在如图位置上）

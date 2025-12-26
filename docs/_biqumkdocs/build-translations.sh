@@ -88,7 +88,13 @@ while IFS="," read dirname langsite langdesc langsearch; do
 
   # use rsync to avoid mp4 file 
   rsync -av --exclude='*.mp4' docs/assets "${new_docs_dir}"
-  rsync -av --exclude='*.mp4' cp -r docs/img "${new_docs_dir}"
+  # rsync -av --exclude='*.mp4' cp -r docs/img "${new_docs_dir}"
+
+  # move only used image to local dir 
+  mkdir "${new_docs_dir}"img
+  cp docs/img/favicon.ico "${new_docs_dir}"img/
+  cp docs/img/BQ-BIQU.svg "${new_docs_dir}"img/
+  cp docs/img/BQ-LOGO.svg "${new_docs_dir}"img/
   
   # manually replace index.md if a manual-index.md exist
   manual_index="${new_docs_dir}manual-index.md"
@@ -149,7 +155,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   # Build site
   echo "building site for ${langsite}"
   mkdir -p "${PWD}/site/${langsite}/"
-  ln -sf "${PWD}/site/${langsite}/" "${WORK_DIR}lang/${langsite}/site"
+  # ln -sf "${PWD}/site/${langsite}/" "${WORK_DIR}lang/${langsite}/site"
   mkdocs build -f "${new_mkdocs_file}"
 done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
 

@@ -1,6 +1,6 @@
 # **Panda Under Armor H2D**
 
-<img src=img/PandaUnderArmorH2D/panda_under_armor_h2d.jpg width="600"/> 
+<img src=/img/PandaUnderArmorH2D/panda_under_armor_h2d.jpg width="600"/> 
 
 - **产品链接**: [点击购买](https://bit.ly/3IlDdOn)  
 - **Makerworld**：[福马轮调节工具](https://makerworld.com/en/models/1646712-panda-castor-wheel-adjustment-tool#profileId-1740562)
@@ -35,7 +35,7 @@ BIQU Panda Under Armor H2D 专为 H2D 3D 打印机设计，提供底部全方位
 
     如图所示，使用 M10×10 螺丝将安装支架固定到万向轮上。
 
-    <img src=img/PandaUnderArmorH2D/zh/install_1.webp width="300"/>  
+    <img src=/img/PandaUnderArmorH2D/zh/install_1.webp width="300"/>  
 
 - **步骤 2：组装主面板**
 
@@ -45,7 +45,7 @@ BIQU Panda Under Armor H2D 专为 H2D 3D 打印机设计，提供底部全方位
 
     * 使用 4 颗 M3×6 螺丝将急停开关支架固定到底板上。
 
-    <img src=img/PandaUnderArmorH2D/zh/install_2.webp width="600"/>  
+    <img src=/img/PandaUnderArmorH2D/zh/install_2.webp width="600"/>  
 
 - **步骤 3：加强连接稳定性**
 
@@ -53,7 +53,7 @@ BIQU Panda Under Armor H2D 专为 H2D 3D 打印机设计，提供底部全方位
 
     * 最后在每个角落使用 4 颗 M3×16 螺丝将轮子完全安装到 Panda Under Armor H2D 上。 然后在同伴的帮助下，将打印机对准底板，放置于 Panda Under Armor H2D上
 
-    <img src=img/PandaUnderArmorH2D/zh/install_3.webp width="600"/>  
+    <img src=/img/PandaUnderArmorH2D/zh/install_3.webp width="600"/>  
 
 ### **如何放下减震脚垫，使机器稳固放置不移动**
 
@@ -65,4 +65,4 @@ BIQU Panda Under Armor H2D 专为 H2D 3D 打印机设计，提供底部全方位
 
 - 顺畅移动打印机： 沿工具上圆形图标方向拉动调节轮，使脚垫升起，便于平稳移动打印机。
 
-   <img src=img/PandaUnderArmorH2D/install_4.jpg width="600"/>  
+   <img src=/img/PandaUnderArmorH2D/install_4.jpg width="600"/>  

@@ -5,7 +5,7 @@
 
     [Eddy Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/module-docs/eddy/eddy-intro)
 
-<img src=img/Eddy/Eddy_Title.webp width="600" />
+<img src=/img/Eddy/Eddy_Title.webp width="600" />
 
 ***Eddy 安装视频***
 
@@ -34,15 +34,15 @@
 
 ## **产品尺寸及接口**
 
-<img src=img/Eddy/Eddy_Dimensions.webp width="600" />
+<img src=/img/Eddy/Eddy_Dimensions.webp width="600" />
 
 用于计算 XY 偏移的线圈中心点如下：
 
-<img src=img/Eddy/Eddy_Dimensions1.webp width="600" />
+<img src=/img/Eddy/Eddy_Dimensions1.webp width="600" />
 
 ## **BOOT 按键位置**
 
-<img src=img/Eddy/eddy_boot_1.webp width="600" />
+<img src=/img/Eddy/eddy_boot_1.webp width="600" />
 
 BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可以自动进入BOOT 模式并重新烧录固件。
 
@@ -62,9 +62,9 @@ BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可
 安装位置，完全替代原有 PL-08N 安装位
 使用两颗 M3*25 螺丝（包装内附）将模块固定再 X Carriage 打印件上，如视图
 
-<img src=img/Eddy/Eddy_Installation1.webp width="600" />
+<img src=/img/Eddy/Eddy_Installation1.webp width="600" />
 
-<img src=img/Eddy/Eddy_Installation2.webp width="600" />
+<img src=/img/Eddy/Eddy_Installation2.webp width="600" />
 
 ### 在其他机器上的安装
 
@@ -72,59 +72,59 @@ BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可
 
 ### Eddy + Manta M5P
 
-<img src=img/Eddy/Eddy_Connection.webp width="600" />
+<img src=/img/Eddy/Eddy_Connection.webp width="600" />
 
 ### Eddy + Manta M8P V2.0
 
-<img src=img/Eddy/Eddy_Connection1.webp width="600" />
+<img src=/img/Eddy/Eddy_Connection1.webp width="600" />
 
 ### Eddy Coil + EBB36 V1.2
 
-<img src=img/Eddy/Eddy_Connection2.webp width="600" />
+<img src=/img/Eddy/Eddy_Connection2.webp width="600" />
 
 ### Eddy Coil + EBB42 V1.2
 
-<img src=img/Eddy/Eddy_Connection3.webp width="600" />
+<img src=/img/Eddy/Eddy_Connection3.webp width="600" />
 
 ### Eddy Duo + MANTA M5P（USB）
 
-<img src=img/Eddy/eddy_connection4.webp width="600" />
+<img src=/img/Eddy/eddy_connection4.webp width="600" />
 
 ### Eddy Duo + MANTA M8P V2.0（USB）
 
-<img src=img/Eddy/eddy_connection6.webp width="600" />
+<img src=/img/Eddy/eddy_connection6.webp width="600" />
 
 ### Eddy Duo + MANTA M8P V2.0（CAN）
 
-<img src=img/Eddy/eddy_connection7.webp width="600" />
+<img src=/img/Eddy/eddy_connection7.webp width="600" />
 
 ### Eddy Duo + EBB36
 
-<img src=img/Eddy/eddy_connection8.webp width="600" />
+<img src=/img/Eddy/eddy_connection8.webp width="600" />
 
 ### Eddy Duo + EBB42
 
-<img src=img/Eddy/eddy_connection9.webp width="600" />
+<img src=/img/Eddy/eddy_connection9.webp width="600" />
 
 ### Eddy Duo + EBB SB
 
-<img src=img/Eddy/eddy_connection10.webp width="600" />
+<img src=/img/Eddy/eddy_connection10.webp width="600" />
 
 ### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（USB）
 
-<img src=img/Eddy/eddy_connection11.webp width="600" />
+<img src=/img/Eddy/eddy_connection11.webp width="600" />
 
 ### Octopus V1.1/Pro V1.0/Pro V1.0.1 + Eddy Duo（CAN）
 
-<img src=img/Eddy/eddy_connection12.webp width="600" />
+<img src=/img/Eddy/eddy_connection12.webp width="600" />
 
 ### Octopus Pro V1.1 + Eddy Duo（USB）
 
-<img src=img/Eddy/eddy_connection13.webp width="600" />
+<img src=/img/Eddy/eddy_connection13.webp width="600" />
 
 ### Octopus Pro V1.1 + Eddy Duo（CAN）
 
-<img src=img/Eddy/eddy_connection14.webp width="600" />
+<img src=/img/Eddy/eddy_connection14.webp width="600" />
 
 ## **固件**
 
@@ -150,7 +150,7 @@ BOOT 按钮在首次对 Eddy 烧录 Klipper 固件时使用；之后 Klipper 可
 
 3.使用下面的配置编译固件
 
-<img src=img/rp2040_usb_menuconfig.webp width="600"/>
+<img src=/img/rp2040_usb_menuconfig.webp width="600"/>
 
 <font  color="blue">**[*] Enable extra low-level configuration options**</font>
 
@@ -175,7 +175,7 @@ CAN-Bus communication
 
 5.输入 <font  color="blue">**make**</font> 编译固件，当 make 执行完成后会在 home/pi/klipper/out 文件夹中生成我们所需要的‘klipper.uf2’固件，在 SSH 软件左侧可以直接下载到电脑中。
 
-<img src=img/Eddy/Eddy_System2.webp width="600" />
+<img src=/img/Eddy/Eddy_System2.webp width="600" />
 
 ### 更新固件
 
@@ -183,21 +183,21 @@ CAN-Bus communication
 
 1.按住 Boot 按钮，用 USB 线将 Eddy 接到电脑的 USB 端口。（无需拆开 Eddy，Boot 按钮位于如图所示的位置，可直接操作。）
 
-<img src=img/Eddy/Eddy_System3.webp width="600" />
+<img src=/img/Eddy/Eddy_System3.webp width="600" />
 
 2.电脑会识别出一个存储设备，将上面步骤下载下来的 klipper.uf2 文件拷贝到这个存储设备，设备会自动更新固件并重启，重启后即完成了更新固件。
 
-<img src=img/Eddy/Eddy_System4.webp width="600" />
+<img src=/img/Eddy/Eddy_System4.webp width="600" />
 
 #### 通过 DFU 更新固件
 
 1.按住 Boot 按钮，用 USB 线将 Eddy 接到树莓派/BIGTREETECH Pi 的 USB 端口。（无需拆开 Eddy，Boot 按钮位于如图所示的位置，可直接操作。）
 
-<img src=img/Eddy/Eddy_System5.webp width="600" />
+<img src=/img/Eddy/Eddy_System5.webp width="600" />
 
 2.在 SSH 终端命令行中运行 lsusb 查询 DFU 设备 ID
 
-<img src=img/Eddy/Eddy_System6.webp width="600" />
+<img src=/img/Eddy/Eddy_System6.webp width="600" />
 
 3.运行
 
@@ -272,7 +272,7 @@ c. 根据您的设备特定需求编辑配置文件的相关部分。可能需�
 
 5. 完成后使用 <font  color="blue">SAVE_CONFIG</font> 保存配置。
 
-<img src=img/Eddy/Eddy_System8.webp width="600" />
+<img src=/img/Eddy/Eddy_System8.webp width="600" />
 
 ### 床面网格校准
 

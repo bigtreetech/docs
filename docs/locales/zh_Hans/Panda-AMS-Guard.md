@@ -1,6 +1,6 @@
 # Panda AMS Guard
 
-<img src=img/Panda_AMS_Guard/panda_ams_guard_title.webp width="600"/>
+<img src=/img/Panda_AMS_Guard/panda_ams_guard_title.webp width="600"/>
 
 **产品链接:** 
 https://biqu.equipment/products/biqu-ams-upgrades-multi-material-reliability-upgrades-for-bambu-lab-p1-x1-3d-printers-with-ams-simple-plug-and-play-installation?variant=41897387917410
@@ -30,7 +30,7 @@ Panda AMS Guard 是一款专为 AMS 进料口设计的升级配件，可有效�
 
 将 Panda AMS Guard 对准 AMS 进料口，盖住上面的位置，然后按压到“咔哒”一声即安装完成。
 
-<img src=img/Panda_AMS_Guard/panda_ams_guard_in1.webp width="600"/>
+<img src=/img/Panda_AMS_Guard/panda_ams_guard_in1.webp width="600"/>
 
 
 

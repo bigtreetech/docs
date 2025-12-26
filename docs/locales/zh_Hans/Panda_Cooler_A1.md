@@ -1,6 +1,6 @@
 # **Panda Cooler A1**
 
-<img src=img/PandaCoolerA1/panda_cooler_a1.jpg width="400"/>
+<img src=/img/PandaCoolerA1/panda_cooler_a1.jpg width="400"/>
 
 * **Product Link**: [Click to Buy](https://bit.ly/4pkQhnK)
 * [https://github.com/bigtreetech/PandaCoolerA1](https://github.com/bigtreetech/PandaCoolerA1)
@@ -54,7 +54,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
 请参照下图确认您收到的产品包装内容。
 
-<img src=img/PandaCoolerA1/zh/list.jpg width="600"/>
+<img src=/img/PandaCoolerA1/zh/list.jpg width="600"/>
 
 ### 安装步骤
 
@@ -62,7 +62,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     将带背胶垫片粘贴到底部喷嘴照明灯主板后方两个孔位上。
 
-    <img src=img/PandaCoolerA1/install1.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/install1.jpg width="300"/>
 
     **⚠️ 注意**：请确保粘贴在没有灯珠的一面。
 
@@ -70,13 +70,13 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     拆除打印头下方风扇的四颗原装固定螺丝。
 
-    <img src=img/PandaCoolerA1/install2.webp width="500"/>
+    <img src=/img/PandaCoolerA1/install2.webp width="500"/>
 
 * 步骤 3：安装喷嘴照明灯
 
     使用随附的 M1.7×8 和 M1.7×10 自攻螺丝将喷嘴照明灯安装固定。
 
-    <img src=img/PandaCoolerA1/install3.webp width="500"/>
+    <img src=/img/PandaCoolerA1/install3.webp width="500"/>
 
     **重要提醒**：灯珠面必须朝向热床方向。
 
@@ -84,7 +84,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     将RGB风扇模块扣合在挤出头左侧的支架上，确保固定稳定。
 
-    <img src=img/PandaCoolerA1/install4.webp width="400"/>
+    <img src=/img/PandaCoolerA1/install4.webp width="400"/>
 
 * 步骤 5：安装控制模块
 
@@ -92,15 +92,15 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     * 将控制板扣入打印头上方的两个凹槽中
 
-    <img src=img/PandaCoolerA1/install5.jpg width="400"/>
+    <img src=/img/PandaCoolerA1/install5.jpg width="400"/>
 
-    <img src=img/PandaCoolerA1/install6.webp width="400"/>
+    <img src=/img/PandaCoolerA1/install6.webp width="400"/>
 
 * 步骤 6：连接电源
 
     将电源取电接口插入USB口中。
 
-    <img src=img/PandaCoolerA1/install7.jpg width="400"/>
+    <img src=/img/PandaCoolerA1/install7.jpg width="400"/>
 
     **操作要点**：确保4个针脚完全插入到位。
 
@@ -108,25 +108,25 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     使用随附的 M2.6×8 自攻螺丝将控制模块外壳固定到底座上。
 
-    <img src=img/PandaCoolerA1/install8.webp width="400"/>
+    <img src=/img/PandaCoolerA1/install8.webp width="400"/>
 
 * 步骤 8：固定Type-C线缆
 
     使用随附的 M2×25 自攻螺丝将拓竹原装Type-C线固定。
 
-    <img src=img/PandaCoolerA1/install9.jpg width="400"/>
+    <img src=/img/PandaCoolerA1/install9.jpg width="400"/>
 
 * 步骤 9：连接风扇电源
 
     将风扇的2PIN插头接入图示的任一2PIN插口。
 
-    <img src=img/PandaCoolerA1/install10.webp width="400"/>
+    <img src=/img/PandaCoolerA1/install10.webp width="400"/>
 
 * 步骤 10：连接RGB灯插头
 
     将风扇RGB灯插头插入后方对应的3PIN接口。
 
-    <img src=img/PandaCoolerA1/install11.webp width="400"/>
+    <img src=/img/PandaCoolerA1/install11.webp width="400"/>
 
     **⚠️ 警告**：请仔细核对接口，避免接错。底部喷嘴照明灯的插头暂时不要接入。
 
@@ -134,7 +134,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     将底部喷嘴照明灯的线束整理并放入走线盖板的槽中。
 
-    <img src=img/PandaCoolerA1/install12.webp width="300"/>
+    <img src=/img/PandaCoolerA1/install12.webp width="300"/>
 
 * 步骤 12：完成安装
 
@@ -142,7 +142,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     * 连接喷嘴照明灯的插头，完成全部安装
 
-    <img src=img/PandaCoolerA1/install13.webp width="300"/>
+    <img src=/img/PandaCoolerA1/install13.webp width="300"/>
 
 
 <a id="reset_config"></a>
@@ -161,7 +161,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     找到对应热点，输入密码:
 
-    <img src=img/PandaCoolerA1/ap.jpg width="200"/>
+    <img src=/img/PandaCoolerA1/ap.jpg width="200"/>
 
 * 访问 WebUI
 
@@ -171,7 +171,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     选择语言后可点击下一步
 
-    <img src=img/PandaCoolerA1/zh/language.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/language.jpg width="300"/>
 
 <a id="wifi_connect_section"></a>
 
@@ -181,41 +181,41 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
         首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi
 
-        <img src=img/PandaCoolerA1/zh/wifi_scan.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/wifi_scan.jpg width="300"/>
 
         扫描完成后会弹出`扫描完成`弹窗提示
 
-        <img src=img/PandaCoolerA1/zh/wifi_scan_ok.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/wifi_scan_ok.jpg width="300"/>
 
         选择想要连接的WiFi
 
-        <img src=img/PandaCoolerA1/zh/wifi_list.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/wifi_list.jpg width="300"/>
 
     * 连接WiFi
 
         输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
 
-        <img src=img/PandaCoolerA1/zh/wifi_connect.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/wifi_connect.jpg width="300"/>
 
         点击连接，界面会自动跳转到操作界面中的`WiFi`界面,并显示WiFi连接中
 
-        <img src=img/PandaCoolerA1/zh/wifi_connecting.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/wifi_connecting.jpg width="300"/>
 
         等待连接一段时间后，会弹出WiFi连接的状态弹窗
 
         连接失败：
 
-        <img src=img/PandaCoolerA1/zh/wifi_failed.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/wifi_failed.jpg width="300"/>
 
         连接成功，可选择`绑定打印机`跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
 
-        <img src=img/PandaCoolerA1/zh/wifi_ok.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/wifi_ok.jpg width="300"/>
 
 ### 绑定打印机界面
 
 * 功能介绍
 
-    <img src=img/PandaCoolerA1/zh/printer.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/printer.jpg width="300"/>
 
     * ① ：打印机界面选择，点击后聚焦为红色图标，跳转至打印机界面
 
@@ -235,11 +235,11 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     * 点击扫描一段时间后，会出现`扫描成功`的弹窗
 
-        <img src=img/PandaCoolerA1/zh/printer_scan_ok.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/printer_scan_ok.jpg width="300"/>
 
     - 选择扫描出的打印机，可以看到选择打印机后，会自动输入打印机的SN码和IP
 
-        <img src=img/PandaCoolerA1/zh/printer_list.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/printer_list.jpg width="300"/>
 
     - 输入打印机的`访问码`
 
@@ -247,27 +247,27 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
             * ①	`设置`
 
-                <img src=img/PandaCoolerA1/zh/a1_1.jpg width="300"/>
+                <img src=/img/PandaCoolerA1/zh/a1_1.jpg width="300"/>
 
             * ② -> ③ `局域网模式`
 
-                <img src=img/PandaCoolerA1/zh/a1_2_3.jpg width="300"/>
+                <img src=/img/PandaCoolerA1/zh/a1_2_3.jpg width="300"/>
 
             * ④ `访问码`
 
-                <img src=img/PandaCoolerA1/zh/a1_4_5.jpg width="300"/>
+                <img src=/img/PandaCoolerA1/zh/a1_4_5.jpg width="300"/>
 
         * 将 `访问码` 输入到 `访问码` 框内,点击绑定即可开始绑定打印机。
 
-            <img src=img/PandaCoolerA1/zh/printer_bind.jpg width="300"/>
+            <img src=/img/PandaCoolerA1/zh/printer_bind.jpg width="300"/>
 
-            <img src=img/PandaCoolerA1/zh/bind_ok.jpg width="300"/>
+            <img src=/img/PandaCoolerA1/zh/bind_ok.jpg width="300"/>
 
 ## 用户界面说明
 
 ### WiFi界面
 
-<img src=img/PandaCoolerA1/zh/wifi_ip.jpg width="300"/>
+<img src=/img/PandaCoolerA1/zh/wifi_ip.jpg width="300"/>
 
 * ① ：WiFi界面选择，点击后聚焦为红色图标，跳转至WiFi界面
 
@@ -285,7 +285,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
 ### AP界面
 
-<img src=img/PandaCoolerA1/zh/wifi_ap.jpg width="300"/>
+<img src=/img/PandaCoolerA1/zh/wifi_ap.jpg width="300"/>
 
 * ① ：AP界面选择，点击后聚焦为红色图标，跳转至WiFi界面
 
@@ -302,7 +302,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
 ### 设置界面
 
-<img src=img/PandaCoolerA1/zh/settings.jpg width="300"/>
+<img src=/img/PandaCoolerA1/zh/settings.jpg width="300"/>
 
 * ① ：设置界面选择，点击后聚焦为红色图标，跳转至设置界面
 
@@ -316,13 +316,13 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
     * 等待ota更新，更新完成后设备会自动重启
 
-        <img src=img/PandaCoolerA1/zh/ota_progress.jpg width="300"/>
+        <img src=/img/PandaCoolerA1/zh/ota_progress.jpg width="300"/>
 
 * ⑤ ：点击后，按下确定([恢复出厂设置](#reset_config))
 
 ### 控制面板界面
 
-<img src=img/PandaCoolerA1/zh/panel.jpg width="300"/>
+<img src=/img/PandaCoolerA1/zh/panel.jpg width="300"/>
 
 * ① ：当前设备名称
 
@@ -354,11 +354,11 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
 * Panda_Cooler_A1 灯效分为 9 中模式，分别为下图所示中的：恒亮、呼吸、闪烁、流水、跑马灯、七彩循环、幻彩、高温警告、H2D风格。`其中七彩循环和幻彩模式不支持自定义颜色，恒亮不可调节速度`
 
-    <img src=img/PandaCoolerA1/zh/7-1.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/7-1.jpg width="300"/>
 
 ##### 高温警告
 
-<img src=img/PandaCoolerA1/zh/7-2.jpg width="300"/>
+<img src=/img/PandaCoolerA1/zh/7-2.jpg width="300"/>
 
 * ①：表示打印机安全和高温的情况下，Panda_Cooler_A1的颜色
 
@@ -368,7 +368,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
 ##### H2D风格
 
-<img src=img/PandaCoolerA1/zh/7-3.jpg width="300"/>
+<img src=/img/PandaCoolerA1/zh/7-3.jpg width="300"/>
 
 * ①：表示打印机在特定模式下的灯效颜色，详情可点击颜色旁的提示按钮查看
 
@@ -379,7 +379,7 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
 
 * 点击喷嘴灯效可出现两个选项(跟随风扇灯光以及白灯常亮)
 
-    <img src=img/PandaCoolerA1/zh/7-4.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/7-4.jpg width="300"/>
 
 
 <a id="rgb_set_color"></a>
@@ -390,23 +390,23 @@ Panda Cooler A1 是专为 Bambu Lab A1/A1 mini 打印头研发的升级组件。
   
     在控制界面下选择恒亮模式，点击Color下的框
 
-    <img src=img/PandaCoolerA1/zh/7-5.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/7-5.jpg width="300"/>
 
     跳转到颜色设置界面，可选上方预设好的色块，也可自定义。下面简单介绍下自定义，点击下方白色色块。
 
-    <img src=img/PandaCoolerA1/zh/7-6.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/7-6.jpg width="300"/>
 
     来到色盘选择界面，选择自己想要的颜色(这里以天蓝色为例)
 
-    <img src=img/PandaCoolerA1/zh/7-7.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/7-7.jpg width="300"/>
 
     点击确认
 
-    <img src=img/PandaCoolerA1/zh/7-8.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/7-8.jpg width="300"/>
 
     设置成功
 
-    <img src=img/PandaCoolerA1/zh/7-9.jpg width="300"/>
+    <img src=/img/PandaCoolerA1/zh/7-9.jpg width="300"/>
 
 
 * 出厂默认亮度速度均为50%(个别模式不支持调整颜色、速度)

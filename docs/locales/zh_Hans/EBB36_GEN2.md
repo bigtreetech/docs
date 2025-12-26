@@ -1,6 +1,6 @@
 # **EBB36 GEN2 V1.0**
 
-<img src=img/EBB36_GEN2/EBB36_GEN2.jpg width="300"/>
+<img src=/img/EBB36_GEN2/EBB36_GEN2.jpg width="300"/>
 
 - **产品链接**: [点此购买](https://biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-bigtreetech-ebb-36-42-can-bus-u2c-v2-1-for-connecting-klipper-expansion-device-support-pt1000connecting-klipper-expansion-device?variant=42238091821154)  
 
@@ -62,23 +62,23 @@
 
 ### **产品尺寸**
 
-<img src=img/EBB36_GEN2/size.jpg width="500"/>
+<img src=/img/EBB36_GEN2/size.jpg width="500"/>
 
 ## **外设接口**
 
 ### **主板接口示意图**
 
-<img src=img/EBB36_GEN2/zh/interface.jpg width="1000"/>
+<img src=/img/EBB36_GEN2/zh/interface.jpg width="1000"/>
 
 ### **转接板接口示意图**
 
-<img src=img/EBB36_GEN2/zh/interface_adapter.jpg width="1000"/>
+<img src=/img/EBB36_GEN2/zh/interface_adapter.jpg width="1000"/>
 
 ## **接口介绍**
 
 ### **供电接口**
 
-<img src=img/EBB36_GEN2/zh/power_supply.jpg width="300"/>
+<img src=/img/EBB36_GEN2/zh/power_supply.jpg width="300"/>
 
 * **关于转接板的重要说明**
 
@@ -103,11 +103,11 @@
 
 * FAN0，FAN2输出接口
 
-    <img src=img/EBB36_GEN2/fan0.jpg width="500"/>
+    <img src=/img/EBB36_GEN2/fan0.jpg width="500"/>
 
 * FAN1 输出接口
 
-    <img src=img/EBB36_GEN2/fan1.jpg width="500"/>
+    <img src=/img/EBB36_GEN2/fan1.jpg width="500"/>
 
 
 本产品配备三个风扇接口：FAN0、FAN1和FAN2。其中FAN0和FAN1为2线接口，FAN2为3线接口。三个风扇接口的输出电压（5V或24V）均通过跳线帽设置。
@@ -121,7 +121,7 @@ FAN2接口采用了巧妙的设计：由于热端风扇通常以100% PWM占空�
 
 ### **测温接口**
 
-<img src=img/EBB36_GEN2/thermistor.jpg width="300"/>
+<img src=/img/EBB36_GEN2/thermistor.jpg width="300"/>
 
 该接口兼容PT1000和NTC传感器，配备2.2k上拉电阻以及完善的保护电路。
 
@@ -130,7 +130,7 @@ FAN2接口采用了巧妙的设计：由于热端风扇通常以100% PWM占空�
 
 ### **RGB接口**
 
-<img src=img/EBB36_GEN2/rgb.jpg width="300"/>
+<img src=/img/EBB36_GEN2/rgb.jpg width="300"/>
 
 板载一个三针RGB接口。该接口通过电平转换芯片进行信号缓冲，确保输出驱动信号达到5V电平。
 
@@ -154,21 +154,21 @@ FAN2接口采用了巧妙的设计：由于热端风扇通常以100% PWM占空�
 **多重保护**
 通信总线配备全方位保护设计。首先，USB和CAN总线接口均具备静电防护功能。其次，两种接口的通信引脚都能承受与24V直接短路的故障情况。不过我们不建议人为制造这种故障，因为USB的保护电路并非设计用于承受频繁的短路切换。
 
-<img src=img/EBB36_GEN2/zh/communication.jpg width="500"/>
+<img src=/img/EBB36_GEN2/zh/communication.jpg width="500"/>
 
 该板子的USB通信还需要转接板的配合。转接板如下图所示，通过TYPE-C接口与上位机连接，然后使用双头艾迈斯线连接到EBB36 GEN2 V1.0。
 
 > 注意：TYPE-C接口供电是无法给EBB36 GEN2 V1.0供电，需要另外接上24V供电。
 
-<img src=img/EBB36_GEN2/zh/interface_adapter.jpg width="1000"/>
+<img src=/img/EBB36_GEN2/zh/interface_adapter.jpg width="1000"/>
 
 输出接口的位置见下图。
 
-<img src=img/EBB36_GEN2/passthrough-port.jpg width="500"/>
+<img src=/img/EBB36_GEN2/passthrough-port.jpg width="500"/>
 
 ### **PROBE接口**
 
-<img src=img/EBB36_GEN2/probe.jpg width="300"/>
+<img src=/img/EBB36_GEN2/probe.jpg width="300"/>
 
 Probe接口通过复用技术提升了工具板的功能密度，单个端口即可支持以下类型：
 
@@ -189,7 +189,7 @@ Probe接口通过复用技术提升了工具板的功能密度，单个端口即
 
 ### **加热棒接口**
 
-<img src=img/EBB36_GEN2/heater.jpg width="300"/>
+<img src=/img/EBB36_GEN2/heater.jpg width="300"/>
 
 加热棒输出采用立柱压接螺丝端子。请勿使用焊锡固化的线头连接，因为焊锡会随时间松动，可能导致接触不良。
 
@@ -201,7 +201,7 @@ Probe接口通过复用技术提升了工具板的功能密度，单个端口即
 
 电机接口采用TMC2209驱动器，配备弯插JST-XH连接器，线圈引脚定义如下图所示。
 
-<img src=img/EBB36_GEN2/zh/motor.jpg width="300"/>
+<img src=/img/EBB36_GEN2/zh/motor.jpg width="300"/>
 
 电机接口通过在每个线圈输出端配置TVS二极管阵列，实现反接保护和静电防护。
 
@@ -209,7 +209,7 @@ Probe接口通过复用技术提升了工具板的功能密度，单个端口即
 
 ### **限位开关接口**
 
-<img src=img/EBB36_GEN2/switch.jpg width="300"/>
+<img src=/img/EBB36_GEN2/switch.jpg width="300"/>
 
 本产品提供两个开关接口,分别标记为断料检测(filament)和限位(endstop),用户可根据实际需求使用。
 
@@ -223,7 +223,7 @@ Probe接口通过复用技术提升了工具板的功能密度，单个端口即
 
 ### **I²C接口**
 
-<img src=img/EBB36_GEN2/i2c.jpg width="300"/>
+<img src=/img/EBB36_GEN2/i2c.jpg width="300"/>
 
 I²C接口可连接环境传感器和Eddy等设备。该端口集成了3.3V上拉电阻。
 
@@ -272,11 +272,11 @@ I²C端口配备全方位保护设计。通过高阻抗电阻与肖特基二极�
 
 #### USB
 
-<img src=img/EBB36_GEN2/usb.webp width="800"/>
+<img src=/img/EBB36_GEN2/usb.webp width="800"/>
 
 #### CAN bus
 
-<img src=img/EBB36_GEN2/canbus.webp width="800"/>
+<img src=/img/EBB36_GEN2/canbus.webp width="800"/>
 
 ## **注意事项**
 

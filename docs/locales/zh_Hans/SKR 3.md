@@ -1,6 +1,6 @@
 # SKR 3
 
-<img src=img/SKR3/SKR3_Title.webp width="600" />
+<img src=/img/SKR3/SKR3_Title.webp width="600" />
 
 ## **产品简介**
 
@@ -58,17 +58,17 @@ BIGTREETECH SKR 3 主板是必趣创新科技（深圳）有限公司针对 SKR 
 
 ## **尺寸**
 
-<img src=img/SKR3/SKR3_Dimension.webp width="600" />
+<img src=/img/SKR3/SKR3_Dimension.webp width="600" />
 
 ## **外围设备接口**
 
 ### 接口示意图
 
-<img src=img/SKR3/SKR3_Pinout_CN.webp width="600" />
+<img src=/img/SKR3/SKR3_Pinout_CN.webp width="600" />
 
 ### 引脚说明
 
-<img src=img/SKR3/SKR3_Pinout.webp width="600" />
+<img src=/img/SKR3/SKR3_Pinout.webp width="600" />
 
 ## **接口介绍**
 
@@ -76,7 +76,7 @@ BIGTREETECH SKR 3 主板是必趣创新科技（深圳）有限公司针对 SKR 
 
 SKR 3 主板上电之后，MCU 右上角的 D7(Power)红灯会亮起，表示供电正常。板子中部的VUSB 是电源选择端，仅当使用 USB 给主板供电或需通过 USB 向外供电时，才需要使用跳帽将 VUSB 短接。
 
-<img src=img/SKR3/SKR3_USB.webp width="600" />
+<img src=/img/SKR3/SKR3_USB.webp width="600" />
 
 ### 步进电机驱动
 
@@ -84,7 +84,7 @@ SKR 3 主板上电之后，MCU 右上角的 D7(Power)红灯会亮起，表示供
 
 例如：A4988、DRV8825、LV8729、ST820 等，根据驱动细分表来选择跳帽短接 MS0-MS2。
 
-<img src=img/SKR3/SKR3_Step.webp width="600" />
+<img src=/img/SKR3/SKR3_Step.webp width="600" />
 
 详情请点击: https://bigtreetech.github.io/docs/Tutorials.html
 
@@ -92,25 +92,25 @@ SKR 3 主板上电之后，MCU 右上角的 D7(Power)红灯会亮起，表示供
 
 例如：TMC2208、TMC2209、TMC2225 等，每个轴使用一个跳帽短接图中红框位置即可，细分和驱动电流通过固件进行设置
 
-<img src=img/SKR3/SKR3_Uart.webp width="600" />
+<img src=/img/SKR3/SKR3_Uart.webp width="600" />
 
 ####  TMC 驱动的 SPI 模式
 
 例如：TMC2130、TMC5160、TMC5161 等，每个轴使用四个跳帽短接图中红框位置即可，细分和驱动电流通过固件进行设置。
 
-<img src=img/SKR3/SKR3_SPI.webp width="600" />
+<img src=/img/SKR3/SKR3_SPI.webp width="600" />
 
 #### TMC 驱动的 DIAG(Sensorless Homing)
 
 如图示位置，使用 Sensorless Homing 功能时就插上跳帽，不使用则不插，无需剪断驱动的 DIAG 引脚。
 
-<img src=img/SKR3/SKR3_Diag.webp width="600" />
+<img src=/img/SKR3/SKR3_Diag.webp width="600" />
 
 ### USB 与 CAN 模式
 
 如下图所示双刀双掷开关处于弹起状态时为 USB 模式，处于按下状态时为 CAN FD 模式。
 
-<img src=img/SKR3/SKR3_USB_CAN.webp width="600" />
+<img src=/img/SKR3/SKR3_USB_CAN.webp width="600" />
 
 ### 数控风扇的电压选择
 
@@ -120,41 +120,41 @@ SKR 3 主板上电之后，MCU 右上角的 D7(Power)红灯会亮起，表示供
 
 <font  color="red">**注意：3 个数控风扇的电压是统一的，无法为不同的端口单独设置不同的电压。例如 3 个端口的电压可以同时设置为 24V、 12V 或 5V， 但无法设置为 24V+12V+5V 的组合**</font>
 
-<img src=img/SKR3/SKR3_CNC.webp width="600" />
+<img src=/img/SKR3/SKR3_CNC.webp width="600" />
 
 通过设置 SKR 3-DC MODE 上的跳帽来设置 VOT 输出电压为 5V 或是 12V。
 
-<img src=img/SKR3/SKR3_CNC1.webp width="600" />
+<img src=/img/SKR3/SKR3_CNC1.webp width="600" />
 
 ### 100K NTC 或 PT1000 设置
 
 使用 100K NTC 热敏电阻时，无需插入跳线帽，此时 TH0、TH1 的上拉电阻为 4.7K。使用PT1000 时，需使用跳帽短接下图红框中的两 Pin，此时 TH0、TH1 的上拉电阻为 1K。<font  color="red">**注意：此种方式读出的温度精度会比 MAX31865 差很多。**</font>
 
-<img src=img/SKR3/SKR3_100K.webp width="600" />
+<img src=/img/SKR3/SKR3_100K.webp width="600" />
 
 ### BLTouch 接线
 
-<img src=img/SKR3/SKR3_BLtouch.webp width="600" />
+<img src=/img/SKR3/SKR3_BLtouch.webp width="600" />
 
 ### 打完关机模块(Relay V1.2)接线
 
-<img src=img/SKR3/SKR3_Auto.webp width="600" />
+<img src=/img/SKR3/SKR3_Auto.webp width="600" />
 
 ### 断电续打(UPS 24V V1.0)接线
 
-<img src=img/SKR3/SKR3_Power.webp width="600" />
+<img src=/img/SKR3/SKR3_Power.webp width="600" />
 
 ### RGB 接线
 
-<img src=img/SKR3/SKR3_RGB.webp width="600" />
+<img src=/img/SKR3/SKR3_RGB.webp width="600" />
 
 ### 断料检测接线
 
-<img src=img/SKR3/SKR3_Filament.webp width="600" />
+<img src=/img/SKR3/SKR3_Filament.webp width="600" />
 
 ### 触摸屏接线
 
-<img src=img/SKR3/SKR3_Display.webp width="600" />
+<img src=/img/SKR3/SKR3_Display.webp width="600" />
 
 ### 加热棒 IO
 
@@ -162,7 +162,7 @@ SKR 3 加热棒的 IO 是通过跳帽连接到 MOS 管的，如果需要接激�
 
 <font  color="red">**注意：此 IO 经过逻辑转换芯片，输出的高电平为 5V，并且无法作为输入使用**</font>
 
-<img src=img/SKR3/SKR3_Heater.webp width="600" />
+<img src=/img/SKR3/SKR3_Heater.webp width="600" />
 
 ## **Marlin**
 
@@ -198,7 +198,7 @@ https://github.com/bigtreetech/SKR-3
 
 打开 **platformio.ini** 文件并将 **default_envs** 修改为 **STM32H743Vx_btt**
 
-<img src=img/SKR3/SKR3_Marlin1.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin1.webp width="600" />
 
 #### 配置主板类型、串口号
 
@@ -216,21 +216,21 @@ https://github.com/bigtreetech/SKR-3
 
 以上的设置根据需求自行启用
 
-<img src=img/SKR3/SKR3_Marlin2.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin2.webp width="600" />
 
 #### 配置电机驱动
 
-<img src=img/SKR3/SKR3_Marlin3.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin3.webp width="600" />
 
 如果使用的驱动为 SPI 模式，还需在 Configuration_adv.h 文件中使能 <font  color="blue">**TMC_USE_SW_SPI**</font>
 
 <font  color="pink">**#define**</font> <font  color="blue">**TMC_USE_SW_SPI**</font>
 
-<img src=img/SKR3/SKR3_Marlin4.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin4.webp width="600" />
 
 #### Sensorless homing
 
-<img src=img/SKR3/SKR3_Marlin5.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin5.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**SENSORLESS_HOMING**</font> // 打开驱动堵转检测作为 Home 限位开关的功能
 
@@ -248,46 +248,46 @@ https://github.com/bigtreetech/SKR-3
 
 <font  color="pink">**#define**</font> <font  color="blue">**TEMP_SENSOR_BED **</font><font  color="green">**1**</font>
 
-<img src=img/SKR3/SKR3_Marlin6.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin6.webp width="600" />
 
 #### BLTouch
 
-<img src=img/SKR3/SKR3_Marlin7.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin7.webp width="600" />
 
 <font  color="green">**//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN**</font>	// 不把 Z_PROBE_PIN 重映射到Z_MIN 端口上
 
-<img src=img/SKR3/SKR3_Marlin8.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin8.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**BLTOUCH**</font>  // 使能 BLtouch 功能
 
-<img src=img/SKR3/SKR3_Marlin9.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin9.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**NOZZLE_TO_PROBE_OFFSET**</font>  <font  color="green">**{ -40, -10, -2.85 }**</font>  // 设置 BLtouch 探针相对于喷嘴的偏移量
 
 <font  color="pink">**#define**</font> <font  color="blue">**PROBING_MARGIN**</font>  <font  color="green">**10**</font> // 设置调平探测点到最边缘的距离
 
-<img src=img/SKR3/SKR3_Marlin10.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin10.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**AUTO_BED_LEVELING_BILINEAR**</font> // 设置调平策略
 
 <font  color="pink">**#define**</font> <font  color="blue">**RESTORE_LEVELING_AFTER_G28**</font> // Home 之后自动重新加载调平补偿
 
-<img src=img/SKR3/SKR3_Marlin11.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin11.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**GRID_MAX_POINTS_X **</font> <font  color="green">**5**</font> // 设置调平探测的点数，X 轴探测 5 个点
 <font  color="pink">**#define**</font> <font  color="blue">**GRID_MAX_POINTS_Y GRID_MAX_POINTS_X**</font> // Y 轴探测 5 个点如果想用 BLtouch 作为 Z 轴限位开关，不需要更改接线，只需要修改固件的设置即可
 
-<img src=img/SKR3/SKR3_Marlin12.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin12.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**USE_PROBE_FOR_Z_HOMING**</font> // 使用 Z Probe(BLtouch) 作为 Z 轴 Home 限位开关
 
-<img src=img/SKR3/SKR3_Marlin13.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin13.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**Z_SAFE_HOMING**</font> // Z 轴 Home 时，将 X、Y 移动到指定的坐标(通常是平台中心)，保证 Z 轴 Home 时，Z Probe(BLtouch)的探针在平台的范围内。
 
 #### 打完关机模块(Relay V1.2)
 
-<img src=img/SKR3/SKR3_Marlin14.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin14.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**PSU_CONTROL**</font> // 打开控制电源功能，可以通过 M80 开机、M81 关机
 
@@ -299,7 +299,7 @@ https://github.com/bigtreetech/SKR-3
 
 1、无需外接模块，固件定期向 SD 卡中保存打印状态，断电重启后从 SD 卡中保存的点继续打印，这种方式的缺点就是会向 SD 卡中频繁的写入数据，非常影响 SD 卡的使用寿命。
 
-<img src=img/SKR3/SKR3_Marlin15.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin15.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**POWER_LOSS_RECOVERY**</font> // 使能断电续打功能
 
@@ -307,7 +307,7 @@ https://github.com/bigtreetech/SKR-3
 
 2、外接 UPS 24V V1.0 模块，断电时给主板提供电源并给主板发送信号，提醒主板保存打印状态，这方式只会在断电时向 SD 卡写入数据，对 SD 卡的使用寿命几乎没有影响。
 
-<img src=img/SKR3/SKR3_Marlin16.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin16.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**POWER_LOSS_RECOVERY**</font> // 使能断电续打功能
 
@@ -319,7 +319,7 @@ https://github.com/bigtreetech/SKR-3
 
 #### RGB彩灯
 
-<img src=img/SKR3/SKR3_Marlin17.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin17.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**NEOPIXEL_LED**</font> // 使能 Neopixel 功能
 <font  color="pink">**#define**</font> <font  color="blue">**NEOPIXEL_TYPE NEO_GRB **</font> // 设置彩灯的类型
@@ -329,7 +329,7 @@ https://github.com/bigtreetech/SKR-3
 
 如果启用了 LCD2004、12864、mini12864 之类的显示器，还可以在界面上启用 RGB 的控制菜单
 
-<img src=img/SKR3/SKR3_Marlin18.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin18.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**LED_CONTROL_MENU**</font> // 在屏幕上添加控制 LED 颜色的菜单
 
@@ -337,7 +337,7 @@ https://github.com/bigtreetech/SKR-3
 
 普通的断料检测模块一般是由机械开关设计而成的，模块给主板一个恒定的高低电平代表耗材的状态
 
-<img src=img/SKR3/SKR3_Marlin19.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin19.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**FILAMENT_RUNOUT_SENSOR**</font> // 使能耗材检测的功能
 <font  color="pink">**#define**</font> <font  color="blue">**FIL_RUNOUT_ENABLED_DEFAULT true**</font> // true 默认是打开的状态
@@ -348,20 +348,20 @@ https://github.com/bigtreetech/SKR-3
 
 智能耗材检测模块在耗材正常通过时会不断的发出跳变的电平信号，当堵料/断料等异常情况出现，耗材无法正常的通过 SFS，模块就无法发出跳变的信号给主板，主板从而得知耗材异常。
 
-<img src=img/SKR3/SKR3_Marlin20.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin20.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**FILAMENT_MOTION_SENSOR**</font> // 设置耗材传感器为编码器类型
 <font  color="pink">**#define**</font> <font  color="blue">**FILAMENT_RUNOUT_DISTANCE_MM**</font> <font  color="green">**7**</font> // 设置检测灵敏度，SFS V1.0 推荐设置为 7mm，耗材 7mm 内如果没有电平跳变就意味着耗材异常。SFS V1.0 推荐设置为3mm。
 
 耗材检测还需要通过以下两个地方来设置耗材异常暂停后的动作。
 
-<img src=img/SKR3/SKR3_Marlin21.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin21.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**NOZZLE_PARK_FEATURE **</font> // 喷头暂停功能
 
 <font  color="pink">**#define**</font> <font  color="blue">**NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 }**</font> //设置喷头暂停时的 X、Y 的坐标以及 Z 轴抬升的高度
 
-<img src=img/SKR3/SKR3_Marlin22.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin22.webp width="600" />
 
 <font  color="pink">**#define**</font> <font  color="blue">**ADVANCED_PAUSE_FEATURE**</font> // 可以设置暂停时耗材回抽的长度及速度，继续打印后耗材挤出的长度和速度等参数。
 
@@ -369,7 +369,7 @@ https://github.com/bigtreetech/SKR-3
 
 Marlin 中只需设置正确的 “SERIAL_PORT” 和 “BAUDRATE” 即可。主板上 ESP8266 与Marlin 通信的串口是 UART3, 所以将 SERIAL_PORT 设置为 3。
 
-<img src=img/SKR3/SKR3_Marlin23.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin23.webp width="600" />
 
 可以在 https://github.com/luc-github/ESP3D 中获取最新的 ESP3D 固件，编译出您自己的二进制文件，将其重命名为 “esp3d.bin” 然后复制到 SD 卡的根目录中，插到主板上然后 Reset，主板中的引导程序会自动将 esp3d.bin 更新到 ESP8266 中，更新完成后文件会被重命名为 “ESP3D.CUR”
 
@@ -377,11 +377,11 @@ Marlin 中只需设置正确的 “SERIAL_PORT” 和 “BAUDRATE” 即可。�
 
 1、点击底部状态栏中的`√`编译固件
 
-<img src=img/SKR3/SKR3_Marlin24.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin24.webp width="600" />
 
 2、编译完成后会生成`firmware.bin`文件，复制到 SD 卡中即可更新固件
 
-<img src=img/SKR3/SKR3_Marlin25.webp width="600" />
+<img src=/img/SKR3/SKR3_Marlin25.webp width="600" />
 
 ## **Klipper**
 
@@ -393,11 +393,11 @@ Marlin 中只需设置正确的 “SERIAL_PORT” 和 “BAUDRATE” 即可。�
 
 内置 Fluidd 的系统：https://github.com/fluidd-core/FluiddPI/releases
 
-<img src=img/SKR3/SKR3_Klipper1.webp width="600" />
+<img src=/img/SKR3/SKR3_Klipper1.webp width="600" />
 
 内置 Mainsail 的系统：https://github.com/mainsail-crew/MainsailOS/releases
 
-<img src=img/SKR3/SKR3_Klipper2.webp width="600" />
+<img src=/img/SKR3/SKR3_Klipper2.webp width="600" />
 
 或者参考官方的安装说明: https://www.klipper3d.org/Installation.htmlKlipper  使用 Octoprint
 
@@ -417,11 +417,11 @@ Marlin 中只需设置正确的 “SERIAL_PORT” 和 “BAUDRATE” 即可。�
 
 2、在 SD 卡的 boot 盘中找到“fluiddpi-wpa-supplicant.txt”或者“mainsail-wpa-supplicant.txt”文件，用 VSCode 打开（不要用 windows 自带的记事本打开）
 
-<img src=img/SKR3/SKR3_WIFI1.webp width="600" />
+<img src=/img/SKR3/SKR3_WIFI1.webp width="600" />
 
 3、删除红框中四行行首的‘#’字符，然后设置正确的 WIFI 名称和密码后保存
 
-<img src=img/SKR3/SKR3_WIFI2.webp width="600" />
+<img src=/img/SKR3/SKR3_WIFI2.webp width="600" />
 
 ### ssh 软件连接树莓派
 
@@ -433,21 +433,21 @@ Marlin 中只需设置正确的 “SERIAL_PORT” 和 “BAUDRATE” 即可。�
 
 4、进入路由器管理界面找到树莓派的 IP
 
-<img src=img/SKR3/SKR3_WIFI3.webp width="600" />
+<img src=/img/SKR3/SKR3_WIFI3.webp width="600" />
 
 5、或者使用 https://angryip.org/ 工具，扫描当前局域网下的所有 IP 地址，并使用主机名重新排序，找到主机名为 Fluidd 或者 Mainsail 的设备，如下图所示
 
-<img src=img/SKR3/SKR3_WIFI4.webp width="600" />
+<img src=/img/SKR3/SKR3_WIFI4.webp width="600" />
 
 6、打开已经安装的 Mobaxterm 软件，点击`Session`，在弹出的窗口中点击`SSH`，在 Remote host 一栏中输入树莓派的 IP 地址，点击`OK`
 
 <font  color="red">**注意：电脑和树莓派必须要在同一个局域网下**</font>
 
-<img src=img/SKR3/SKR3_WIFI5.webp width="600" />
+<img src=/img/SKR3/SKR3_WIFI5.webp width="600" />
 
 7、输入登录名 login as：pi 登录密码：raspberry 进入 SSH 终端界面
 
-<img src=img/SKR3/SKR3_WIFI6.webp width="600" />
+<img src=/img/SKR3/SKR3_WIFI6.webp width="600" />
 
 ### 编译固件
 
@@ -467,19 +467,19 @@ make menuconfig
 * Clock Reference (25 MHz crystal) ---> 
 * Communication interface (USB (on PA11/PA12)) --->
 
-<img src=img/SKR3/SKR3_Firmware1.webp width="600" />
+<img src=/img/SKR3/SKR3_Firmware1.webp width="600" />
 
 2、配置选择完成后, 输入 `q` 退出配置界面，当询问是否保存配置是选择 `Yes`
 
 3、输入 **make** 编译固件，当 **make** 执行完成后会在树莓派的 **home/pi/kliiper/out** 文件夹中生成我们所需要的`klipper.bin`固件，在 ssh 软件左侧可以直接下载到电脑中
 
-<img src=img/SKR3/SKR3_Firmware2.webp width="600" />
+<img src=/img/SKR3/SKR3_Firmware2.webp width="600" />
 
 4、将 klipper.bin 重命名为`firmware.bin`，复制到 SD 卡中即可更新固件
 
 5、在命令行输入：**ls /dev/serial/by-id/**查询主板的 ID 来确认固件是否烧录成功，如果烧录成功了会返回一个 klipper 的设备 ID，如下图所示
 
-<img src=img/SKR3/SKR3_Firmware3.webp width="600" />
+<img src=/img/SKR3/SKR3_Firmware3.webp width="600" />
 
 复制保存此 ID，配置文件中需要设置此 ID
 
@@ -487,15 +487,15 @@ make menuconfig
 
 1、在电脑的浏览器中输入树莓派的 IP 访问，如下图所示的路径中下载主板的参考配置，如果找不到此文件，请更新 Klipepr 固件源码到最新版本，或者到 github 下载:https://github.com/bigtreetech/SKR-3
 
-<img src=img/SKR3/SKR3_Klipper1.webp width="600" />
+<img src=/img/SKR3/SKR3_Klipper1.webp width="600" />
 
 2、将主板的配置文件上传到 Configuration Files 中, 并重命名为`printer.cfg`
 
-<img src=img/SKR3/SKR3_Klipper2.webp width="600" />
+<img src=/img/SKR3/SKR3_Klipper2.webp width="600" />
 
 3、将配置文件中的 ID 号修改为主板实际的 ID
 
-<img src=img/SKR3/SKR3_Klipper3.webp width="600" />
+<img src=/img/SKR3/SKR3_Klipper3.webp width="600" />
 
 4、按照 https://www.klipper3d.org/Overview.html 的说明配置机器的具体功能
 

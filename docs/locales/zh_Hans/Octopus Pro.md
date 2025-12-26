@@ -5,7 +5,7 @@
 
     [Octopus Pro Bigtreetech WiKi NEO](https://neo.bttwiki.com/docs/board-docs/octopus-series/octopus-pro/)
 
-<img src=img/Octopus_Pro/Octopus_Pro_Title.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Title.webp width="600"/>
 
 ## **产品简介**
 
@@ -67,17 +67,17 @@ BIGTREETECH Octopus pro V1.0由必趣创新科技（深圳）有限公司3D打�
 
 ## **尺寸**
 
-<img src=img/Octopus_Pro/Octopus_Pro_Dimension.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Dimension.webp width="600"/>
 
 ## **接口示意图**
 
-<img src=img/Octopus_Pro/Octopus_Pro_CAD.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_CAD.webp width="600"/>
 
 ## **引出线**
 
 下图是从PINS.pdf文档中截取的片段。要获得更好的可视性，请参阅PINS.pdf文档。
 
-<img src=img/Octopus_Pro/Octopus_Pro_Pin.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Pin.webp width="600"/>
 
 ## **硬件配置**
 
@@ -91,7 +91,7 @@ octopus pro提供三种独立的电源输入：主板电源、电机电源和床
 
 电源接线如下所示（如果引脚文件不在手上，请查看电路板的下侧，以快速识别每个输入的用途）。电源的正极（红色）导线连接到标有+的端子。电源的负极（黑色）导线连接到标有-的端子。极性（+和-）也被丝印印刷在板的下侧。
 
-<img src=img/Octopus_Pro/Octopus_Pro_Pow.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Pow.webp width="600"/>
 
 <font  color="red">***注意：不要在通电的情况下更改主板接线，并确保极性正确，否则可能会损坏主板。***</font>
 
@@ -101,7 +101,7 @@ octopus pro提供三种独立的电源输入：主板电源、电机电源和床
 
 如果您不连接此跳线，那么如果您想通过USB-C进行通信，则必须通过主输入电源为板供电。
 
-<img src=img/Octopus_Pro/Octopus_Pro_5V.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_5V.webp width="600"/>
 
 ## **硬件安装**
 
@@ -109,7 +109,7 @@ octopus pro提供三种独立的电源输入：主板电源、电机电源和床
 
 当使用BIGTREETECH继电器V1.2模块时，可以按照下图所示进行接线。
 
-<img src=img/Octopus_Pro/Octopus_Pro_Auto.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Auto.webp width="600"/>
 
 <font  color="red">***注意：由于Relay 1.2模块在切断主板电源后仍将供电，因此在打印机仍连接到电源时触摸它是极其危险的。在处理此接线时，请务必断开所有主电源。***</font>
 
@@ -117,19 +117,19 @@ octopus pro提供三种独立的电源输入：主板电源、电机电源和床
 
 使用BL Touch时，如下图所示将其连接到主板。和往常一样，永远不要在通电的情况下在主板上执行任何工作。
 
-<img src=img/Octopus_Pro/Octopus_Pro_BLTouch.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_BLTouch.webp width="600"/>
 
 ### **功率损耗恢复模块接线**
 
 使用BIGTREETECH小型UPS时，如下图所示将其连接到主板。和往常一样，永远不要在通电的情况下在主板上执行任何工作。
 
-<img src=img/Octopus_Pro/Octopus_Pro_Pow_L.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Pow_L.webp width="600"/>
 
 ### **RGB-LED接线**
 
 当使用带有RGB LED的主板时，您应该如下图所示连接它们。连接器的确切引脚可以在主板下侧的丝印上找到。
 
-<img src=img/Octopus_Pro/Octopus_Pro_RGB.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_RGB.webp width="600"/>
 
 ### **RASPBERRY PI 接线**
 
@@ -139,7 +139,7 @@ octopus pro提供三种独立的电源输入：主板电源、电机电源和床
 
 通过专用的raspberry pi头标（UART2）为树莓派提供5V电源。请参阅PINS.pdf文档以了解此标头的确切引脚。
 
-<img src=img/Octopus_Pro/Octopus_Pro_RAS.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_RAS.webp width="600"/>
 
 ### **PROBE PORT 接线**
 
@@ -151,7 +151,7 @@ octopus pro提供三种独立的电源输入：主板电源、电机电源和床
 
 有关如何配置探针端口使用的电压的更多信息，请参阅第4.2节。
 
-<img src=img/Octopus_Pro/Octopus_Pro_Probe.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Probe.webp width="600"/>
 
 ### **步进驱动器操作模式**
 
@@ -163,13 +163,13 @@ octopus pro提供三种独立的电源输入：主板电源、电机电源和床
 
 尽管如此，您将在下面看到一个图，该图将帮助您确定哪些跳线对应于您的驱动程序将用于配置微步进的引脚，我们在附录A1中还包括了一节，其中包含一些最常见驱动程序的微步进表。这应该被视为对用户的便利，我们仍然建议您查阅驱动程序制造商的数据表。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI1.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI1.webp width="600"/>
 
 在上图中，红色矩形隔离驱动器引脚组。为了在step/dir模式下运行驱动程序，引脚输出可以按照下表进行描述。
 
 <font  color="red">***请注意，这不是实际的引脚输出，而是对step/dir模式的简化。***</font>
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI2.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI2.webp width="600"/>
 
 下面两行之间的连接跳线将中间引脚（MS）设置为5V，但第一列中的跳线除外，它将连接SLP和RST。请注意，如果步进驱动器要求任何引脚上都有0V电压，那么在步进/目录模式下运行时实际上不需要将跳线连接到该引脚，在这种情况下连接跳线可能会造成干扰，因为这些线路用于SPI总线。
 
@@ -181,13 +181,13 @@ octopus pro提供三种独立的电源输入：主板电源、电机电源和床
 
 在UART模式下使用驱动程序时，如下图所示，连接该驱动程序下方的跳线。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI3.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI3.webp width="600"/>
 
 #### **SPI模式**
 
 在SPI模式下使用驱动程序时，如下图所示，连接该驱动程序下方的跳线。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI4.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI4.webp width="600"/>
 
 ### **主板跳线设置**
 
@@ -199,11 +199,11 @@ Octopus_Pro上的每个电机驱动器都可以通过跳线配置其使用的电
 
 如下图所示，将任意给定驱动器的跳线设置在右侧，将为该驱动器提供主板输入电压。主板一般采用24V。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI5.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI5.webp width="600"/>
 
 如下图所示，将任意给定驱动器的跳线设置在左侧，将为该驱动器提供电机输入电压。这可以高达60V。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI6.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI6.webp width="600"/>
 
 <font  color="red">***注意：当电路板输入或电机输入通电时，切勿取出或插入跳线。***</font>
 
@@ -215,15 +215,15 @@ Octopus_Pro具有6个PWM风扇输出和两个“常开”风扇输出。还有�
 
 按以下方式配置跳线以选择24V（注意，所有跳线都显示在相同的配置中，即使它们可以单独配置）。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI7.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI7.webp width="600"/>
 
 如下配置跳线以选择12V。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI8.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI8.webp width="600"/>
 
 将跳线配置为5V，如下所示。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI9.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI9.webp width="600"/>
 
 <font  color="red">***注意：由于跳线直接从其中一个调节器或输入端携带电压轨，如果您以所示连接以外的任何方式短路跳线，很可能会损坏主板。连接风扇时，确保将正极端子连接到正极输出，如图所示。***</font>
 
@@ -233,7 +233,7 @@ Octopus_Pro具有6个PWM风扇输出和两个“常开”风扇输出。还有�
 
 确切的diag编号可以通过查看引脚文件或板下的丝印来找到。
 
-<img src=img/Octopus_Pro/Octopus_Pro_DRI10.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_DRI10.webp width="600"/>
 
 #### **PT100/PT1000拨动开关**
 
@@ -241,7 +241,7 @@ PT100放大器支持2、3和4线连接到板。但是，DIP开关需要针对您
 
 您可以在下图所示的位置找到DIP开关。请注意，DIP开关上印有开关编号和“打开”位置。
 
-<img src=img/Octopus_Pro/Octopus_Pro_PT100.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_PT100.webp width="600"/>
 
 根据下表选择热敏电阻的连接安排。请记住，您仍然需要使用正确的感应电阻器值（430）来配置固件 用于PT100和4300 用于PT1000。
 
@@ -261,7 +261,7 @@ PT100放大器支持2、3和4线连接到板。但是，DIP开关需要针对您
 
 如果您使用三线制布置，则还需要对板上的SMD电阻器进行小的调整。下图显示了蓝色框中的出厂默认电阻器设置（2/4导线排列）。使用3线布置将需要将电阻器从蓝色方框移到红色方框中，然后使蓝色方框中的焊盘未填充。这些电阻器为0 因此，如果你觉得把它们焊回原位不舒服，你总是可以在焊盘之间创建一个焊料桥，选择适合你安排的焊盘。
 
-<img src=img/Octopus_Pro/Octopus_Pro_PT100_1.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_PT100_1.webp width="600"/>
 
 ## 软件安装
 
@@ -271,7 +271,7 @@ PT100放大器支持2、3和4线连接到板。但是，DIP开关需要针对您
 
 如果您想确认驱动程序安装正确，您可以在windows中访问设备管理器，并在插入主板时查找虚拟com端口。在下面的图像中，主板已分配COM7，但您的操作系统可以为其分配任何可用的com端口号。其他操作系统将以不同的方式列出串行端口。
 
-<img src=img/Octopus_Pro/Octopus_Pro_Soft1.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Soft1.webp width="600"/>
 
 ### **主板固件支持**
 
@@ -292,11 +292,11 @@ https://www.sdcard.org/downloads/formatter/
 
 如果您正在使用Klipper，请确保为446 variant启用了以下设置。注意晶体振荡器的频率为12MHz，与429 variant不同。
 
-<img src=img/Octopus_Pro/Octopus_Pro_Soft2.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Soft2.webp width="600"/>
 
 该板的429 variant使用了不同频率的晶体振荡器（8MHz），因此需要稍微调整klipper配置，如下图所示。
 
-<img src=img/Octopus_Pro/Octopus_Pro_Soft3.webp width="600"/>
+<img src=/img/Octopus_Pro/Octopus_Pro_Soft3.webp width="600"/>
 
 ## **注意事项**
 
