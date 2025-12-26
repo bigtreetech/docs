@@ -155,7 +155,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   # Build site
   echo "building site for ${langsite}"
   mkdir -p "${PWD}/site/${langsite}/"
-  # ln -sf "${PWD}/site/${langsite}/" "${WORK_DIR}lang/${langsite}/site"
+  ln -sf "${PWD}/site/${langsite}/" "${WORK_DIR}lang/${langsite}/site"
   mkdocs build -f "${new_mkdocs_file}"
 done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
 
