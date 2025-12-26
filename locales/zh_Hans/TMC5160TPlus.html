@@ -5846,7 +5846,7 @@
 <p>此界面已迁移到 Bigtreetech WiKi NEO</p>
 <p><a href="https://neo.bttwiki.com/docs/module-docs/tmc-driver/tmc-5160-t-plus/">TMC5160T Plus Bigtreetech WiKi NEO</a></p>
 </div>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Title.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Title.webp width="600"/></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>TMC5160T Plus是一款大功率步进电机驱动器控制模块，具有8个大功率MOSFET，分别安装在板上，最大电压为60V。这支持更广泛的步进电机，并提供更大的适应性。</p>
 <h2 id="_2"><strong>功能亮点</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
@@ -5928,33 +5928,33 @@
 </tbody>
 </table>
 <h2 id="_4"><strong>接口示意图</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Dim.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Dim.webp width="600"/></p>
 <h2 id="_5"><strong>引出线/功能</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Pin.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Pin.webp width="600"/></p>
 <h2 id="_6"><strong>接口介绍</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <h3 id="_7"><strong>安装和接口</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
 <p>常见主板（如SKR3）的连接方法，使用提供的TMC驱动适配器和电缆将TMC5160T Plus与SKR3连接，如图所示：</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Ins1.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Ins1.webp width="600"/></p>
 <p>对于EZ系列主板（例如，Octopus MAX EZ），使用提供的EZ驱动适配器和电缆将TMC5160T Plus与Octopus MAX EZ连接，如图所示：</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Ins2.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Ins2.webp width="600"/></p>
 <h2 id="_8"><strong>软件配置</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <h3 id="marlin"><strong>Marlin固件设置</strong><a class="headerlink" href="#marlin" title="Permanent link">&para;</a></h3>
 <p><font  color="red"><strong>重要提示：目前，只有Marlin 2.0及更高版本的固件支持TMC5160的SPI模式。</strong></font></p>
 <p>步骤1:在Marlin 2.0固件中，找到并打开“Configuration.h”文件，然后找到行“#define MOTHERBOARD XXXXXX”。“XXXXXX”代表所使用的板的模型。确认您正在使用的主板</p>
 
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software1.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Software1.webp width="600"/></p>
 <p>步骤2：在Marlin\src\pins目录中，找到与您的板对应的“pins_xxxxxx.h”文件（xxxxxx表示板型号），然后在文件中找到“X_CS_PIN”、“Y_CS_PIN“、“Z_CS_PIN”和“EO_CS_PIN“。根据这些变量将端号名称修改为正在使用的端号。</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software2.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Software2.webp width="600"/></p>
 <p>步骤3：在步骤2的文件中，找到“#define TMC_SW_MOSI XXX”、“#defined TMC_SW_MISO XXX”和“#defin TMC_SW_SCK XXX”。将“XXX”更改为要使用的引脚。</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software3.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Software3.webp width="600"/></p>
 <p>步骤4：找到并打开“Configuration_adv.h”，然后找到“#define TMC_USE_SW_SPI”并删除注释符号“//”。</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software4.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Software4.webp width="600"/></p>
 <p>步骤5：在“Configuration_adv.h”文件中，找到“#define X_CURRENT”、“#defin X_MICROSTEPS”和“#define X_RSENSE”，并修改跟随（对于正在使用的每个轴）。每个使用的轴的RSENSE值应更改为“0.022”。</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software5.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Software5.webp width="600"/></p>
 <p>步骤6：在“Configuration.h”文件中将相应的轴驱动类型设置为“TMC5160”。</p>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software6.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Software6.webp width="600"/></p>
 <h3 id="klipper"><strong>Klipper固件设置</strong><a class="headerlink" href="#klipper" title="Permanent link">&para;</a></h3>
-<p><img src=img/TMC5160TPlus/TMC5160TPlus_Software7.webp width="600"/></p>
+<p><img src=/img/TMC5160TPlus/TMC5160TPlus_Software7.webp width="600"/></p>
 <p><font  color="red"><strong>注意：Klipper中的默认sense_resistor为0.075；需要将其设置为0.022。</strong></font></p>
 <h2 id="_9"><strong>注意事项</strong><a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
 <ul>

@@ -5913,7 +5913,7 @@
 
 
 <h1 id="hermit-crab-2-series">Hermit Crab 2 Series<a class="headerlink" href="#hermit-crab-2-series" title="Permanent link">&para;</a></h1>
-<p><img src=img/Hermit_Crab/Hermit_Crab_title.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_title.webp width="600" /></p>
 <h2 id="_1"><strong>产品简介</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>HermitCrab2系列专为快速更换工具头而设计。该系列配备了一个固定板和多个工具板，使用户能够根据不同需求迅速切换不同的打印头。2系列更为轻便、更为紧凑，同时具备更强的稳固性。</p>
 <h2 id="hermit-crab-2-can"><strong>功能亮点</strong>（Hermit Crab 2 CAN）<a class="headerlink" href="#hermit-crab-2-can" title="Permanent link">&para;</a></h2>
@@ -6035,25 +6035,25 @@
 </tbody>
 </table>
 <h2 id="_3">尺寸<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Dimension.webp width="600" /></p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Dimension1.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Dimension.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Dimension1.webp width="600" /></p>
 <h2 id="_4">外设接口<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <h3 id="pin">Pin脚说明<a class="headerlink" href="#pin" title="Permanent link">&para;</a></h3>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Pin.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Pin.webp width="600" /></p>
 <h3 id="_5">接线<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <p><strong>BLTouch 接线</strong></p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_wiring.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_wiring.webp width="600" /></p>
 <h3 id="_6">风扇电压选择<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <p><strong>四线风扇</strong></p>
 <p>Use jumper to select voltage for VFAN0 between 5V or 12V.</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_4PinFan.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_4PinFan.webp width="600" /></p>
 <p><strong>两线风扇</strong></p>
 <p>使用跳线帽短接排针，进行风扇电压选择：其中VFAN1支持5V或24V选择，VFAN2支持12V或24V选择。</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_2PinFan.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_2PinFan.webp width="600" /></p>
 <h3 id="rgb">RGB 接线<a class="headerlink" href="#rgb" title="Permanent link">&para;</a></h3>
-<p><img src=img/Hermit_Crab/Hermit_Crab_RGB.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_RGB.webp width="600" /></p>
 <h3 id="octopusprohermitcrab2">OctopusPro与HermitCrab2接线<a class="headerlink" href="#octopusprohermitcrab2" title="Permanent link">&para;</a></h3>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Oct.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Oct.webp width="600" /></p>
 <h2 id="hermit-crab-2-can_1">固件设置（Hermit Crab 2 CAN）<a class="headerlink" href="#hermit-crab-2-can_1" title="Permanent link">&para;</a></h2>
 <h3 id="katapult">烧录KATAPULT<a class="headerlink" href="#katapult" title="Permanent link">&para;</a></h3>
 <p>注意：Katapult旨在通过CANbus接口直接更新MCU固件，若您更倾向于使用DFU更新方法，请跳过此步骤。</p>
@@ -6069,13 +6069,13 @@
 <p>2、输入</p>
 <p>​   make menuconfig</p>
 <p>​   并按照下图配置</p>
-<p><img src=img/rp2040_katapult_menuconfig_led.webp width="600"/></p>
+<p><img src=/img/rp2040_katapult_menuconfig_led.webp width="600"/></p>
 <p>3、输入make编译固件，当make执行完成后会在home/biqu/Katapult/out文件夹中生成我们所需要的‘katapult.uf2’固件，在SSH软件左侧可以直接下载到电
 脑中；</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Firmware2.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Firmware2.webp width="600" /></p>
 <p>4、请按住Boot按钮，然后使用Type-C线连接至树莓派/CB1，此时芯片进入DFU模式</p>
 <p>5、在SSH终端命令行中输入 lsusb 查询DFU设备ID</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Firmware3.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Firmware3.webp width="600" /></p>
 <p>6、请输入以下命令以烧录Katapult</p>
 <p>​   <strong>make flash FLASH_DEVICE=2e8a:0003</strong></p>
 <p>​   其中“2e8a:0003”需替换为上一步中查询到的实际设备ID</p>
@@ -6085,7 +6085,7 @@
 <p>​   <strong>cd ~/klipper/</strong></p>
 <p>​   <strong>make menuconfig</strong></p>
 <p>​   使用下面的配置编译固件(如果没有下列选项，请更新Klipper固件源码到最新版本)；  </p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Firmware4.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Firmware4.webp width="600" /></p>
 <p>​   <strong>[*] Enable extra low-level configuration options Micro-controller</strong> </p>
 <p>​   <strong>Architecture (Raspberry Pi RP2040) ---&gt;</strong></p>
 <p>​   如果不使用Katapult:</p>
@@ -6102,7 +6102,7 @@
 <p>​       <strong>(1000000) CAN bus speed</strong></p>
 <p>2、配置选择完成后,输入‘q’退出配置界面，当询问是否保存配置时选择“Yes”；</p>
 <p>3、输入make编译固件，当make执行完成后会在home/pi/klipper/out文件夹中生成我们所需要的‘klipper.bin’固件，在SSH软件左侧可以直接下载到电脑中</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Firmware5.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Firmware5.webp width="600" /></p>
 <h3 id="katapult_1">通过KATAPULT进行固件更新<a class="headerlink" href="#katapult_1" title="Permanent link">&para;</a></h3>
 <p>1、使用CANbus需要接好CANbus线缆以及插上120R终端电阻的跳线帽。</p>
 <p>2、输入</p>
@@ -6112,22 +6112,22 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
 <p>​   查询canbusID（需提前接好CAN线并通电），如下图已找到设备的UUID</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Firmware6.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Firmware6.webp width="600" /></p>
 <p>3、输入</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u be69315a613c
 </code></pre></div>
 <p>替换为实际的UUID，注意：klipper.bin需要提前make生成出来，并且Katapult的Applicationstartoffset为16KiBoffset，所以Klipper的menuconfig中Bootloaderoffset也要为16KiBbootloader，如下图已经烧录成功。</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Firmware7.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Firmware7.webp width="600" /></p>
 <p>4、再次输入</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>python3 flash_can.py -i can0 -q
 </code></pre></div>
 <p>查询，此时Application由之前的Katapult变为Klipper，代表Klipper已经正常运行</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Firmware8.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Firmware8.webp width="600" /></p>
 <h3 id="dfu">通过DFU进行固件更新<a class="headerlink" href="#dfu" title="Permanent link">&para;</a></h3>
 <p>树莓派或CB1通过DFU更新：</p>
 <p>1、请按住Boot按钮，然后使用Type-C线连接至树莓派/CB1，此时芯片进入DFU模式。</p>
 <p>2、在SSH终端命令行中输入 lsusb 查询DFU设备ID</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Firmware9.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Firmware9.webp width="600" /></p>
 <p>3、输入 cdklipper 跳转到klipper目录下，输入</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>make flash FLASH_DEVICE=2e8a:0003
 </code></pre></div>
@@ -6143,7 +6143,7 @@
 <p>6、如果使用CANbus通信，烧录完成后，请拔下Type-C数据线。</p>
 <h3 id="canbus">CANbus配置<a class="headerlink" href="#canbus" title="Permanent link">&para;</a></h3>
 <p>搭配BIGTREETECHU2C模块使用：</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Can1.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Can1.webp width="600" /></p>
 <p>1、在SSH终端中输入</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>sudo nano /etc/network/interfaces.d/can0
 </code></pre></div>
@@ -6168,9 +6168,9 @@
 <p>1、在电脑的浏览器中输入树莓派的IP访问，如下图所示的路径中下载名为“sample-bigtreetech-hermit-crab-2-canbus.cfg”的参考配置，如果找不到此
 文件，请更新Klipepr固件源码到最新版本，或者到GitHub下载：</p>
 <p>GitHub: https://github.com/bigtreetech/HermitCrab</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Klipper1.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Klipper1.webp width="600" /></p>
 <p>2、将主板的配置文件上传到ConfigurationFiles中：</p>
-<p><img src=img/Hermit_Crab/Hermit_Crab_Klipper2.webp width="600" /></p>
+<p><img src=/img/Hermit_Crab/Hermit_Crab_Klipper2.webp width="600" /></p>
 <p>3、并在“printer.cfg”文件中添加此主板的配置:</p>
 <p><strong>[include sample-bigtreetech-hermit-crab-2-canbus.cfg]</strong></p>
 <p>4、将配置文件中的ID号修改为主板实际的ID（USBserial或者canbus）</p>
