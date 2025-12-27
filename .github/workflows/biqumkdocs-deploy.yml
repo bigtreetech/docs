@@ -10,6 +10,7 @@ on:
       - .github/workflows/biqumkdocs-deploy.yaml
 jobs:
   deploy:
+    if: github.repository == 'bigtreetech/docs'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
