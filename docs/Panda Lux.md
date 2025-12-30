@@ -1,5 +1,10 @@
 # Panda Lux
 
+!!! info "BIQU WiKi NEO"
+    This page has been migrated to the BIQU WiKi NEO
+
+    [Panda Lux BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/module/panda-lux)
+
 <img src=img/Panda_Lux/Panda_Lux_Title.webp width="600"/>
 
 ## **Product Link**

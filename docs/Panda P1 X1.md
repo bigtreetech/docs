@@ -1,5 +1,10 @@
 # P1/X1
 
+!!! info "BIQU WiKi NEO"
+    This page has been migrated to the BIQU WiKi NEO
+
+    [Panda Claw P1/X1 BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/extruder/panda-claw-px)
+
 <img src=img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Title.webp width="600"/>
 
 ProductLink:

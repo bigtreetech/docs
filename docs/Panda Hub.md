@@ -1,5 +1,10 @@
 # Panda Hub
 
+!!! info "BIQU WiKi NEO"
+    This page has been migrated to the BIQU WiKi NEO
+
+    [Panda Hub BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/module/panda-hub)
+
 <img src=img/Panda_Hub/Panda_Hub_Title.webp width="450"/>
 
 ## Product Profile

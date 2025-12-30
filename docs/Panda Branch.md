@@ -1,5 +1,10 @@
 # Panda Branch
 
+!!! info "BIQU WiKi NEO"
+    This page has been migrated to the BIQU WiKi NEO
+
+    [Panda Branch BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/module/panda-branch)
+
 <img src=img/PandaBranch/PandaBranch_Title.webp width="600"/>
 
 ## **Product Profile**

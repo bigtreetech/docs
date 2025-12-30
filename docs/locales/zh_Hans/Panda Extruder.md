@@ -1,5 +1,10 @@
 # Panda Extruder
 
+!!! info "BIQU WiKi NEO"
+    此界面已迁移到 BIQU WiKi NEO
+
+    [Panda Extruder BIQU WiKi NEO](https://global.biquwiki.com/zh/docs/panda-series/extruder/panda-extruder)
+
 <img src=/img/panda_extruder/panda_extruder_title.webp width="600"/>
 
 **产品链接:** https://biqu.equipment/products/biqu-panda-extruder 

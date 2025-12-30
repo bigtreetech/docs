@@ -1,5 +1,10 @@
 # A1/Mini
 
+!!! info "BIQU WiKi NEO"
+    This page has been migrated to the BIQU WiKi NEO
+
+    [Panda Claw A1/A1 Mini BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/extruder/panda-claw-a1mini)
+    
 <img src=img/Panda_Claw_A1mini/Panda_Claw_A1mini_Title.webp width="600"/>
 
 Product Link: 
