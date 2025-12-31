@@ -110,7 +110,7 @@ Installation Complete!
 
 2. Prepare the Mounting Insert
 
-Print the mounting insert (*please contact customer service to receive the print files*), remove the factory screw from the center of the right-side crossbar, and insert the printed part into the crossbar channel.
+Remove the factory screw from the center of the right-side crossbar, and insert the printed part into the crossbar channel.
 
 <img src=img/PandaBreath/Xinstall01.jpg width="300"/>
 
@@ -120,7 +120,7 @@ Print the mounting insert (*please contact customer service to receive the print
 
 >**Early Production Units**: If your X1 has factory-installed threaded posts on the right side (early batches), use the included M3×8 machine screws directly—no printed insert needed.
 
-3. Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
+1. Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
 
 <img src=img/PandaBreath/Pinstall03.jpg width="500"/>
 
