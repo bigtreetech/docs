@@ -116,6 +116,39 @@ Print the mounting insert (*please contact customer service to receive the print
 
 **Remaining Steps: Follow P Series Steps 5–8 for cable management and power connection.**
 
+**Installation Steps for Snapmaker U1**
+
+The completed installation should look like this:
+
+<img src=img/PandaBreath/U1install02.jpg width="500"/>
+
+1. Take the 2 pre-printed clamp blocks, insert M3×14 self-tapping screws into the left mounting bracket.
+
+   *Do not fully tighten yet—leave them loose for adjustment.*
+
+<img src=img/PandaBreath/en/U1install03.jpg width="500"/>
+
+2. Slide the left and right mounting brackets onto both sides of the Panda Breath.
+
+<img src=img/PandaBreath/U1install04.jpg width="500"/>
+
+3. Guide the Panda Breath cable toward the left side, thread it through the cable channel on the left mounting bracket, and pull it upward and out through the top exit.
+
+<img src=img/PandaBreath/U1install05.jpg width="500"/>
+
+4. Place the Panda Breath at the very back of the Snapmaker U1 chamber, pressing it slightly against the transparent rear panel.
+>Important: Ensure the bottom of the Panda Breath is suspended—do not let it press on the cable.
+
+<img src=img/PandaBreath/U1install06.jpg width="500"/>
+
+<img src=img/PandaBreath/U1install07.jpg width="500"/>
+
+Once position is confirmed, fully tighten all 4 screws on the left mounting bracket. 
+
+<img src=img/PandaBreath/U1install08.jpg width="500"/>
+
+Installation Complete!
+
 ## Interface and Button Functions
 
 <img src=img/PandaBreath/BUTTON.jpg width="600"/>

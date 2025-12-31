@@ -46,10 +46,22 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 ## 安装指南
 **一、准备工作**
-- 关闭打印机主电源，确保操作安全。
-- 请使用 3D 打印机自行打印增高支架。增高支架文件可从[此处获取](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model)。
 
-<img src=/img/PandaBreath/print_file.png width="250"/>
+- P, X 系列机型：<br>
+请使用 3D 打印机自行打印增高支架。增高支架文件可从[此处获取](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model)。
+
+  <img src=img/PandaBreath/print_file.png width="250"/>
+
+  X 系列机型还需打印好螺丝固定件，螺丝固定件文件可从 [此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。
+
+  <img src=img/PandaBreath/Xinstall01.jpg width="250"/>
+
+- Snapmaker U1:<br>
+请使用 3D 打印机自行打印夹持支架。夹持支架文件可从[此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。
+
+  <img src=img/PandaBreath/U1install01.PNG width="250"/>
+
+>关闭打印机主电源，确保操作安全。<br>
 
 **二、P 系列安装步骤**
 
@@ -98,7 +110,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 2. 准备固定件
 
-需先打印配套的螺丝固定件（*联系客服获取*），拆除设备右侧横梁中间的固定螺丝后，并将固定件塞入右侧横梁中。
+拆除设备右侧横梁中间的固定螺丝后，并将固定件塞入右侧横梁中。
 
 <img src=/img/PandaBreath/Xinstall01.jpg width="300"/>
 
@@ -108,7 +120,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 >**早期批次说明**： 如您的X1设备右侧自带螺纹柱（早期批次），可直接使用附带的M3×8机牙螺丝固定，无需打印固定件。
 
-3. 安装并固定
+1. 安装并固定
 
 将Panda Breath底部对准凸台平稳放置，使用附带的自攻螺丝固定。注意不要过度拧紧。
 
@@ -123,6 +135,39 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 <img src=/img/PandaBreath/BUTTON.jpg width="600"/>
 
 <img src=/img/PandaBreath/BUTTON02.jpg width="1200"/>
+
+**四、Snapmaker U1 安装步骤**
+
+安装效果预览
+
+<img src=img/PandaBreath/U1install02.jpg width="500"/>
+
+1. 取出预先打印好的2个压块，使用M3×14自攻螺丝预先旋入左夹持支架
+
+   *注意：此时无需完全锁紧，保持松动状态以便后续调整*
+
+<img src=img/PandaBreath/zh/U1install03.jpg width="500"/>
+
+2. 将左右夹持支架分别套入Panda Breath两侧
+
+<img src=img/PandaBreath/U1install04.jpg width="500"/>
+
+1. 将Panda Breath线材拉向左侧，沿左夹持支架的线槽向上引出
+
+<img src=img/PandaBreath/U1install05.jpg width="500"/>
+
+1. 将Panda Breath放置于Snapmaker U1打印仓内最后方位置，使加其背面紧贴机仓透明背板。
+>提示：确保Panda Breath底部悬空，避免压到线材
+
+<img src=img/PandaBreath/U1install06.jpg width="500"/>
+
+<img src=img/PandaBreath/U1install07.jpg width="500"/>
+
+确认位置无误后，将左侧夹持支架的4颗螺丝完全锁紧。 
+
+<img src=img/PandaBreath/U1install08.jpg width="500"/>
+
+安装完成！
 
 ## 用户首次连接指南
 
