@@ -59,7 +59,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 - Snapmaker U1:<br>
 请使用 3D 打印机自行打印夹持支架。夹持支架文件可从[此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。
 
-  <img src=img/PandaBreath/U1install01.PNG width="250"/>
+  <img src=img/PandaBreath/U1install01.png width="250"/>
 
 >关闭打印机主电源，确保操作安全。<br>
 

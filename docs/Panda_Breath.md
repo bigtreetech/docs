@@ -44,12 +44,24 @@ The BIQU Panda Breath is a chamber heater and filter for Bambu Lab printers. It 
 
 <img src=img/PandaBreath/size.jpg width="400"/>
 
-## Installation Guide
-**Preparation**
-- Safety First: Power off and unplug the printer completely
-- Print the Riser: Use your 3D printer to print the Riser. [Download print files here](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model).
+## 安装指南
+**一、准备工作**
 
-<img src=img/PandaBreath/print_file.png width="250"/>
+- P, X Series：<br>
+Print the Riser: Use your 3D printer to print the Riser. [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution/P1S/Riser).
+
+  <img src=img/PandaBreath/print_file.png width="250"/>
+
+  X Series models also require the Mounting Insert [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution/X1C).
+
+  <img src=img/PandaBreath/Xinstall01.jpg width="250"/>
+
+- Snapmaker U1:<br>
+Print the Left and Right Mounting Brackets using your 3D printer. [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution/SnapMaker%20U1).
+
+  <img src=img/PandaBreath/U1install01.png width="250"/>
+
+>Safety First: Power off and unplug the printer completely<br>
 
 **Installation Steps for P Series**
 
