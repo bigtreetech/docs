@@ -31,6 +31,10 @@ Panda Belt 是专为 **Bambu Lab P1/X1打印机** 用户生产的XYZ三轴同步
 
 ## XY安装指南
 
+### 视频组装教程
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115801545773481&bvid=BV1bXvHBFEur&cid=35051733649&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 * 第一步：将热床下降到底部，完成后，关闭打印机电源。
 
     <img src=/img/PandaBeltKitXP/1.jpg width="600"/>
