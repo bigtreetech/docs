@@ -27,6 +27,13 @@ The Panda Belt is a timing belt replacement kit designed specifically for Bambu 
 - **Material:** Rubber + Fiber Glass 
 - **Compatibility:**  Designed for Bambu Lab P1/X1 printers     
 
+## Panda Belt Assembly Guide
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zRYVLbr3-2w?si=Rdy7K_30QJz3YXVh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## **Replace the XY Timing Belt**
 
 *  Step 1: Lower the Heated Bed, Then Power Off the Printer
