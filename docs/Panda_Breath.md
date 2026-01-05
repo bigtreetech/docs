@@ -130,36 +130,48 @@ Remove the factory screw from the center of the right-side crossbar, and insert 
 
 **Installation Steps for Snapmaker U1**
 
-The completed installation should look like this:
+## Final Installation View
+When correctly installed, your setup should match the following illustration:
 
 <img src=img/PandaBreath/U1install02.jpg width="500"/>
 
-1. Take the 2 pre-printed clamp blocks, insert M3×14 self-tapping screws into the left mounting bracket.
+## Step-by-Step Instructions
 
-   *Do not fully tighten yet—leave them loose for adjustment.*
+### 1. Prepare the Mounting Brackets
+- Take the two pre-printed clamp blocks.
+- Insert an **M3×14 self-tapping screw** into each hole on the **left mounting bracket**.
+
+- *Do not tighten the screws completely at this stage; leave them loose for adjustment.*
 
 <img src=img/PandaBreath/en/U1install03.jpg width="500"/>
 
-2. Slide the left and right mounting brackets onto both sides of the Panda Breath.
+
+### 2. Mount the Panda Breath Module
+- Slide the **left** and **right mounting brackets** onto the corresponding sides of the **Panda Breath module**.
 
 <img src=img/PandaBreath/U1install04.jpg width="500"/>
 
-3. Guide the Panda Breath cable toward the left side, thread it through the cable channel on the left mounting bracket, and pull it upward and out through the top exit.
+### 3. Route the Cable
+- Guide the Panda Breath cable toward the left side of the chamber.
+- Thread the cable through the dedicated channel on the left mounting bracket.
+- Gently pull the cable upward and out through the top exit of the channel.
 
 <img src=img/PandaBreath/U1install05.jpg width="500"/>
 
-4. Place the Panda Breath at the very back of the Snapmaker U1 chamber, pressing it slightly against the transparent rear panel.
+### 4. Position the Module
+- Place the Panda Breath at the very back of the Snapmaker U1 chamber, gently pressing it against the transparent rear panel.
 >Important: Ensure the bottom of the Panda Breath is suspended—do not let it press on the cable.
 
 <img src=img/PandaBreath/U1install06.jpg width="500"/>
 
 <img src=img/PandaBreath/U1install07.jpg width="500"/>
 
-Once position is confirmed, fully tighten all 4 screws on the left mounting bracket. 
+### 5. Secure the Installation
+- Once the module is correctly positioned, **fully tighten all four screws** on the left mounting bracket to secure it in place.
 
 <img src=img/PandaBreath/U1install08.jpg width="500"/>
 
-Installation Complete!
+**Installation is now complete.**
 
 ## Interface and Button Functions
 
