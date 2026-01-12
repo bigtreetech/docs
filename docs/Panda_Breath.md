@@ -65,38 +65,38 @@ Print the Riser: Use your 3D printer to print the Riser. [Download print files h
 
 **Installation Steps for P Series**
 
-1.Remove the top glass panel and place the printed riser on the top of the printer.
+1. Remove the top glass panel and place the printed riser on the top of the printer.
 
 <img src=img/PandaBreath/Pinstall01.jpg width="500"/>
 
-2.Locate and remove the mounting screw at the center of the right-side crossbar using a screwdriver.
+2. Locate and remove the mounting screw at the center of the right-side crossbar using a screwdriver.
 
 <img src=img/PandaBreath/Pinstall02.jpg width="500"/>
 
-3.Align the bottom mounting tabs of Panda Breath with the printer's alignment posts. 
+3. Align the bottom mounting tabs of Panda Breath with the printer's alignment posts. 
 
 <img src=img/PandaBreath/Pinstall03.jpg width="500"/>
 
-4.Fasten Panda Breath using the included M3×8 self-tapping screws.
+4. Fasten Panda Breath using the included M3×8 self-tapping screws.
 
 >**Important**<br>
  Tighten all screws securely, but avoid using excessive force. Over-tightening can strip the threads or crack the housing.
 
 <img src=img/PandaBreath/Pinstall04.jpg width="500"/>
 
-5.Route and secure the power cable using the included cable clips, following the reference diagram.
+5. Route and secure the power cable using the included cable clips, following the reference diagram.
 
 <img src=img/PandaBreath/Pinstall05.jpg width="500"/>
 
-6.Pass the cable through the rear opening in the printed riser.
+6. Pass the cable through the rear opening in the printed riser.
 
 <img src=img/PandaBreath/Pinstall06.jpg width="500"/>
 
-7.Unplug the printer's original power cable and connect the included Y-cable as shown in the diagram.
+7. Unplug the printer's original power cable and connect the included Y-cable as shown in the diagram.
 
 <img src=img/PandaBreath/Pinstall07.jpg width="500"/>
 
-8.Remove the backing from the 2 included aluminum foil insulation pads and stick them to the bottom and right side of the left fan inside the printer to prevent the exterior from getting too hot during prolonged use.
+8. Remove the backing from the 2 included aluminum foil insulation pads and stick them to the bottom and right side of the left fan inside the printer to prevent the exterior from getting too hot during prolonged use.
 
 <img src=img/PandaBreath/Aluminum_Foil.jpg width="500"/>
 
@@ -104,11 +104,11 @@ Installation Complete!
 
 **Installation Steps for X Series** 
 
-1.Remove the top glass panel and place the printed riser on the top of the printer.
+1. Remove the top glass panel and place the printed riser on the top of the printer.
 
 <img src=img/PandaBreath/Pinstall01.jpg width="500"/>
 
-2.Prepare the Mounting Insert
+2. Prepare the Mounting Insert
 
 Remove the factory screw from the center of the right-side crossbar, and insert the printed part into the crossbar channel.
 
@@ -120,7 +120,7 @@ Remove the factory screw from the center of the right-side crossbar, and insert 
 
 >**Early Production Units**: If your X1 has factory-installed threaded posts on the right side (early batches), use the included M3×8 machine screws directly—no printed insert needed.
 
-1.Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
+1. Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
 
 <img src=img/PandaBreath/Pinstall03.jpg width="500"/>
 
@@ -134,21 +134,21 @@ The completed installation should look like this:
 
 <img src=img/PandaBreath/U1install02.jpg width="500"/>
 
-1.Take the 2 pre-printed clamp blocks, insert M3×14 self-tapping screws into the left mounting bracket.
+1. Take the 2 pre-printed clamp blocks, insert M3×14 self-tapping screws into the left mounting bracket.
 
 *Do not fully tighten yet—leave them loose for adjustment.*
 
 <img src=img/PandaBreath/en/U1install03.jpg width="500"/>
 
-2.Slide the left and right mounting brackets onto both sides of the Panda Breath.
+2. Slide the left and right mounting brackets onto both sides of the Panda Breath.
 
 <img src=img/PandaBreath/U1install04.jpg width="500"/>
 
-3.Guide the Panda Breath cable toward the left side, thread it through the cable channel on the left mounting bracket, and pull it upward and out through the top exit.
+3. Guide the Panda Breath cable toward the left side, thread it through the cable channel on the left mounting bracket, and pull it upward and out through the top exit.
 
 <img src=img/PandaBreath/U1install05.jpg width="500"/>
 
-4.Place the Panda Breath at the very back of the Snapmaker U1 chamber, pressing it slightly against the transparent rear panel.
+4. Place the Panda Breath at the very back of the Snapmaker U1 chamber, pressing it slightly against the transparent rear panel.
 
 >Important: Ensure the bottom of the Panda Breath is suspended—do not let it press on the cable.
 
@@ -156,7 +156,7 @@ The completed installation should look like this:
 
 <img src=img/PandaBreath/U1install07.jpg width="500"/>
 
-Once position is confirmed, fully tighten all 4 screws on the left mounting bracket. 
+5. Once position is confirmed, fully tighten all 4 screws on the left mounting bracket. 
 
 <img src=img/PandaBreath/U1install08.jpg width="500"/>
 

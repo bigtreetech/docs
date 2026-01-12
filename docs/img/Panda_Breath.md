@@ -47,49 +47,49 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 ## 安装指南
 **一、准备工作**
 
-- P, X 系列机型：<br>请使用 3D 打印机自行打印增高支架。增高支架文件可从[此处获取](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model)。<br><img src=/img/PandaBreath/Xinstall01.jpg width="250"/>
+- P, X 系列机型：<br>请使用 3D 打印机自行打印增高支架。增高支架文件可从[此处获取](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model)。<br><img src=img/PandaBreath/Xinstall01.jpg width="250"/>
 
-  X 系列机型还需打印好螺丝固定件，螺丝固定件文件可从 [此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。<br><img src=/img/PandaBreath/Xinstall01.jpg width="250"/>
+  X 系列机型还需打印好螺丝固定件，螺丝固定件文件可从 [此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。<br><img src=img/PandaBreath/Xinstall01.jpg width="250"/>
 
 - Snapmaker U1:<br>
-  请使用 3D 打印机自行打印夹持支架。夹持支架文件可从[此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。<br><img src=/img/PandaBreath/U1install01.png width="250"/>
+  请使用 3D 打印机自行打印夹持支架。夹持支架文件可从[此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。<br><img src=img/PandaBreath/U1install01.png width="250"/>
 
 >关闭打印机主电源，确保操作安全。<br>
 
 **二、P 系列安装步骤**
 
-1. 取下打印机顶部的玻璃盖板，将增高架稳固地安置在设备顶部
+1.取下打印机顶部的玻璃盖板，将增高架稳固地安置在设备顶部
 
 <img src=/img/PandaBreath/Pinstall01.jpg width="500"/>
 
-2. 找到设备右侧横梁中间位置的固定螺丝，使用螺丝刀将其移除
+2.找到设备右侧横梁中间位置的固定螺丝，使用螺丝刀将其移除
 
 <img src=/img/PandaBreath/Pinstall02.jpg width="500"/>
 
-3. 将 Panda Breath 底部与打印机底部的凸台对准，对齐后贴合并平稳放置
+3.将 Panda Breath 底部与打印机底部的凸台对准，对齐后贴合并平稳放置
 
 <img src=/img/PandaBreath/Pinstall03.jpg width="500"/>
 
-4. 使用附带的M3×8自攻螺丝将Panda Breath固定在横梁上
+4.使用附带的M3×8自攻螺丝将Panda Breath固定在横梁上
 
 >**提示**<br>
 螺丝拧紧至固定牢靠、不松动即可，切勿过度紧固，以免损坏Panda Breath 外壳或导致螺纹滑丝
 
 <img src=/img/PandaBreath/Pinstall04.jpg width="500"/>
 
-5. 使用附带的理线扣，按照如下参考图的走线方式将电源线固定
+5.使用附带的理线扣，按照如下参考图的走线方式将电源线固定
 
 <img src=/img/PandaBreath/Pinstall05.jpg width="500"/>
 
-6. 将线材从增高架后方预留孔中穿出
+6.将线材从增高架后方预留孔中穿出
 
 <img src=/img/PandaBreath/Pinstall06.jpg width="500"/>
 
-7. 拔下打印机原装电源线后，接上转接线，如图所示
+7.拔下打印机原装电源线后，接上转接线，如图所示
 
 <img src=/img/PandaBreath/Pinstall07.jpg width="500"/>
 
-8. 撕掉包装内附带的 2 块铝箔保温隔热棉背胶，分别粘贴在机箱内左侧风扇底部和右侧位置，用于防止 Panda Breath 在长时间加热工作后外壳温度过高。
+8.撕掉包装内附带的 2 块铝箔保温隔热棉背胶，分别粘贴在机箱内左侧风扇底部和右侧位置，用于防止 Panda Breath 在长时间加热工作后外壳温度过高。
 
 <img src=/img/PandaBreath/Aluminum_Foil.jpg width="500"/>
 
@@ -97,11 +97,11 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 **三、X 系列安装步骤** 
 
-1. 取下打印机顶部的玻璃盖板，将增高架稳固地安置在设备顶部
+1.取下打印机顶部的玻璃盖板，将增高架稳固地安置在设备顶部
 
 <img src=/img/PandaBreath/Pinstall01.jpg width="500"/>
 
-2. 准备固定件
+2.准备固定件
 
 拆除设备右侧横梁中间的固定螺丝后，并将固定件塞入右侧横梁中。
 
@@ -113,7 +113,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 >**早期批次说明**： 如您的X1设备右侧自带螺纹柱（早期批次），可直接使用附带的M3×8机牙螺丝固定，无需打印固定件。
 
-3. 安装并固定
+3.安装并固定
 
 将Panda Breath底部对准凸台平稳放置，使用附带的自攻螺丝固定。注意不要过度拧紧。
 
@@ -133,33 +133,33 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 安装效果预览
 
-<img src=/img/PandaBreath/U1install02.jpg width="500"/>
+<img src=img/PandaBreath/U1install02.jpg width="500"/>
 
-1. 取出预先打印好的2个压块，使用M3×14自攻螺丝预先旋入左夹持支架
+1.取出预先打印好的2个压块，使用M3×14自攻螺丝预先旋入左夹持支架
 
 *注意：此时无需完全锁紧，保持松动状态以便后续调整*
 
-<img src=/img/PandaBreath/zh/U1install03.jpg width="500"/>
+<img src=img/PandaBreath/zh/U1install03.jpg width="500"/>
 
-2. 将左右夹持支架分别套入Panda Breath两侧
+2.将左右夹持支架分别套入Panda Breath两侧
 
-<img src=/img/PandaBreath/U1install04.jpg width="500"/>
+<img src=img/PandaBreath/U1install04.jpg width="500"/>
 
-3. 将Panda Breath线材拉向左侧，沿左夹持支架的线槽向上引出
+3.将Panda Breath线材拉向左侧，沿左夹持支架的线槽向上引出
 
-<img src=/img/PandaBreath/U1install05.jpg width="500"/>
+<img src=img/PandaBreath/U1install05.jpg width="500"/>
 
-4. 将Panda Breath放置于Snapmaker U1打印仓内最后方位置，使加其背面紧贴机仓透明背板。
+4.将Panda Breath放置于Snapmaker U1打印仓内最后方位置，使加其背面紧贴机仓透明背板。
 
 >提示：确保Panda Breath底部悬空，避免压到线材<br>
 
-<img src=/img/PandaBreath/U1install06.jpg width="500"/>
+<img src=img/PandaBreath/U1install06.jpg width="500"/>
 
-<img src=/img/PandaBreath/U1install07.jpg width="500"/>
+<img src=img/PandaBreath/U1install07.jpg width="500"/>
 
-5. 确认位置无误后，将左侧夹持支架的4颗螺丝完全锁紧。 
+5.确认位置无误后，将左侧夹持支架的4颗螺丝完全锁紧。 
 
-<img src=/img/PandaBreath/U1install08.jpg width="500"/>
+<img src=img/PandaBreath/U1install08.jpg width="500"/>
 
 安装完成！
 
