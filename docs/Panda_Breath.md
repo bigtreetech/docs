@@ -92,7 +92,7 @@ Print the Riser: Use your 3D printer to print the Riser. [Download print files h
 
 <img src=img/PandaBreath/Pinstall06.jpg width="500"/>
 
-7. Unplug the printer's original power cable and connect the included Y-cable as shown in the diagram.
+7.Unplug the printer's original power cable and connect the included Y-cable as shown in the diagram.
 
 <img src=img/PandaBreath/Pinstall07.jpg width="500"/>
 
@@ -120,7 +120,7 @@ Remove the factory screw from the center of the right-side crossbar, and insert 
 
 >**Early Production Units**: If your X1 has factory-installed threaded posts on the right side (early batches), use the included M3×8 machine screws directly—no printed insert needed.
 
-1. Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
+1.Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
 
 <img src=img/PandaBreath/Pinstall03.jpg width="500"/>
 

@@ -47,18 +47,12 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 ## 安装指南
 **一、准备工作**
 
-- P, X 系列机型：<br>请使用 3D 打印机自行打印增高支架。增高支架文件可从[此处获取](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model)。
+- P, X 系列机型：<br>请使用 3D 打印机自行打印增高支架。增高支架文件可从[此处获取](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model)。<br><img src=img/PandaBreath/Xinstall01.jpg width="250"/>
 
-  <img src=img/PandaBreath/print_file_zh.png width="250"/>
-
-  X 系列机型还需打印好螺丝固定件，螺丝固定件文件可从 [此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。
-
-  <img src=img/PandaBreath/Xinstall01_zh.jpg width="250"/>
+  X 系列机型还需打印好螺丝固定件，螺丝固定件文件可从 [此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。<br><img src=img/PandaBreath/Xinstall01.jpg width="250"/>
 
 - Snapmaker U1:<br>
-  请使用 3D 打印机自行打印夹持支架。夹持支架文件可从[此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。
-
-  <img src=img/PandaBreath/U1install01_zh.png width="250"/>
+  请使用 3D 打印机自行打印夹持支架。夹持支架文件可从[此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。<br><img src=img/PandaBreath/U1install01.png width="250"/>
 
 >关闭打印机主电源，确保操作安全。<br>
 
