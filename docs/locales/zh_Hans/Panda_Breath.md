@@ -57,7 +57,7 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
   <img src=img/PandaBreath/Xinstall01.jpg width="250"/>
 
 - Snapmaker U1:<br>
-请使用 3D 打印机自行打印夹持支架。夹持支架文件可从[此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。
+  请使用 3D 打印机自行打印夹持支架。夹持支架文件可从[此处获取](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)。
 
   <img src=img/PandaBreath/U1install01.png width="250"/>
 
@@ -146,17 +146,18 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
    *注意：此时无需完全锁紧，保持松动状态以便后续调整*
 
-<img src=img/PandaBreath/zh/U1install03.jpg width="500"/>
+   <img src=img/PandaBreath/zh/U1install03.jpg width="500"/>
 
 2. 将左右夹持支架分别套入Panda Breath两侧
 
-<img src=img/PandaBreath/U1install04.jpg width="500"/>
+   <img src=img/PandaBreath/U1install04.jpg width="500"/>
 
-1. 将Panda Breath线材拉向左侧，沿左夹持支架的线槽向上引出
+3. 将Panda Breath线材拉向左侧，沿左夹持支架的线槽向上引出
 
-<img src=img/PandaBreath/U1install05.jpg width="500"/>
+   <img src=img/PandaBreath/U1install05.jpg width="500"/>
 
-1. 将Panda Breath放置于Snapmaker U1打印仓内最后方位置，使加其背面紧贴机仓透明背板。
+4. 将Panda Breath放置于Snapmaker U1打印仓内最后方位置，使加其背面紧贴机仓透明背板。
+
 >提示：确保Panda Breath底部悬空，避免压到线材
 
 <img src=img/PandaBreath/U1install06.jpg width="500"/>
