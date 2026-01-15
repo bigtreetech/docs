@@ -3,7 +3,7 @@
 <img src=img/PandaBreath/image.jpg width="600"/>
 
 - **Product Link**: [Buy Here](https://biqu.equipment/products/biqu-panda-breath-smart-air-filtration-and-heating-system-with-precise-temperature-regulation?_pos=1&_sid=3a4ce2d06&_ss=r&variant=42353406279778) 
-- **Print files are available on**: [GitHub](https://github.com/bigtreetech/Panda-Turbo-Kit/tree/master/3D%20Model)
+- **Print files are available on**: [GitHub bigtreetech/Panda_Breath](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution)
 - **Github**： https://github.com/bigtreetech/Panda_Breath
 
 ## Revision Log
