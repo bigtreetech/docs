@@ -11,6 +11,13 @@
 |:----------|:---------------|:----------------|
 | v1.00     | December 12th, 2025 | Initial Version |
 
+## Important firmware update
+
+Before you use the Panda Breath please ensure that you have updated to the firmware located [here](#v101) (ignore if your unit shipped with later firmware)
+
+This firmware adds some important new features as well as bug fixes. Without installing it, there is the possibility that your Panda Breath may turn off after 30s of heating each time you try to use it as a result of the integrated software safety monitor being overly sensitive on one of the thermistor inputs. This firmware adds a small self-calibration feature on the very first startup which helps to identify the specific characteristics of your Panda Breath.
+
+
 ## Introduction
 The BIQU Panda Breath is a chamber heater and filter for Bambu Lab printers. It uses a 300W PTC heater to warm the chamber, which helps prevent warping, strengthens layer adhesion in engineering materials (ABS, ASA, PC, PA...), and improves first-layer adhesion for all filaments.
 <br>Its dual HEPA and carbon filters remove fine particles and VOCs from the air during printing, reducing odors and improving air quality.
@@ -380,9 +387,9 @@ Note: Auto Mode requires the Panda Breath to be paired with a printer.
 
 ## Firmware History
 
-### [V1.0.0](https://github.com/bigtreetech/Panda-Breath/tree/master/Firmware/v1.0.0)
+### [V1.0.1](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.1)
 
-- First-release factory firmware.
+- Add a small self-calibration feature on the first heating(After restoring factory settings) to fix the issue of heating stopping due to mistakenly entering thermal protection mode
 
 ## Feature Requests
 
