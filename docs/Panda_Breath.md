@@ -1,5 +1,11 @@
 # **Panda Breath**
 
+## Important firmware update
+
+**Before you use the Panda Breath please ensure that you have updated to the firmware located [here](#v101) (ignore if your unit shipped with later firmware)**
+
+**This firmware adds some important new features as well as bug fixes. Without installing it, there is the possibility that your Panda Breath may turn off after 30s of heating each time you try to use it as a result of the integrated software safety monitor being overly sensitive on one of the thermistor inputs. This firmware adds a small self-calibration feature on the very first startup which helps to identify the specific characteristics of your Panda Breath.**
+
 <img src=img/PandaBreath/image.jpg width="600"/>
 
 - **Product Link**: [Buy Here](https://biqu.equipment/products/biqu-panda-breath-smart-air-filtration-and-heating-system-with-precise-temperature-regulation?_pos=1&_sid=3a4ce2d06&_ss=r&variant=42353406279778) 
@@ -10,13 +16,6 @@
 | Version   | Date           | Revision      |
 |:----------|:---------------|:----------------|
 | v1.00     | December 12th, 2025 | Initial Version |
-
-## Important firmware update
-
-Before you use the Panda Breath please ensure that you have updated to the firmware located [here](#v101) (ignore if your unit shipped with later firmware)
-
-This firmware adds some important new features as well as bug fixes. Without installing it, there is the possibility that your Panda Breath may turn off after 30s of heating each time you try to use it as a result of the integrated software safety monitor being overly sensitive on one of the thermistor inputs. This firmware adds a small self-calibration feature on the very first startup which helps to identify the specific characteristics of your Panda Breath.
-
 
 ## Introduction
 The BIQU Panda Breath is a chamber heater and filter for Bambu Lab printers. It uses a 300W PTC heater to warm the chamber, which helps prevent warping, strengthens layer adhesion in engineering materials (ABS, ASA, PC, PA...), and improves first-layer adhesion for all filaments.

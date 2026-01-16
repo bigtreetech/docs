@@ -1,5 +1,11 @@
 # **Panda Breath**
 
+## 固件重要更新
+
+**在使用 Panda Breath 之前，请确保您的设备已更新到[V1.0.1 及其以上版本的固件](#v101)**
+
+**此固件添加了一些重要的新功能和 bug 修复。如果不更新，由于固件中的热保护逻辑对其中一个热敏电阻过于敏感，所以每次加热 30s 后设备可能会关闭加热。新固件在首次加热时添加了一个自校准逻辑，有助于 Panda Breath 补偿控制逻辑。**
+
 <img src=/img/PandaBreath/image.jpg width="600"/>
 
 - **产品链接**: [点击购买](https://biqu.equipment/products/biqu-panda-breath-smart-air-filtration-and-heating-system-with-precise-temperature-regulation?_pos=1&_sid=3a4ce2d06&_ss=r&variant=42353406279778) 
@@ -10,12 +16,6 @@
 | 版本号   | 日期              | 更新内容   |
 |:---------|:------------------|:-----------|
 | v1.00    | 2025年12月12日      | 初始版本   |
-
-## 固件重要更新
-
-在使用 Panda Breath 之前，请确保您的设备已更新到[V1.0.1 及其以上版本的固件](#v101)
-
-此固件添加了一些重要的新功能和 bug 修复。如果不更新，由于固件中的热保护逻辑对其中一个热敏电阻过于敏感，所以每次加热 30s 后设备可能会关闭加热。新固件在首次加热时添加了一个自校准逻辑，有助于 Panda Breath 补偿控制逻辑。
 
 
 ## 产品简介
