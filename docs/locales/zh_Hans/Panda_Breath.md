@@ -19,7 +19,8 @@
 
 
 ## 产品简介
-BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与拓竹打印机联动的产品，可通过按键或者无线操控打印机仓温温度，为特殊耗材的打印提供良好的环境，提高打印质量。
+BIQU Panda Breath 是一款适用于 Bambu Lab 打印机的腔体加热与空气过滤模块。产品采用 300W PTC 加热元件，可快速提升腔体温度，帮助减少翘边现象，增强 ABS、ASA、PC、PA 等工程材料的层间结合力，并提升各类耗材的首层附着效果。<br>
+内置 HEPA + 活性炭双重过滤系统，能够过滤打印过程中产生的细微颗粒物与 VOCs，有助于降低异味并改善打印环境空气质量。
 
 ## 产品特点
 - 预留快速烧录接口，方便客户DIY烧录固件，以及后续固件升级；
@@ -130,12 +131,6 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 
 **其余步骤与P系列（5-8）完全相同**。
 
-## 接口及按键功能描述
-
-<img src=/img/PandaBreath/BUTTON.jpg width="600"/>
-
-<img src=/img/PandaBreath/BUTTON02.jpg width="1200"/>
-
 **四、Snapmaker U1 安装步骤**
 
 安装效果预览
@@ -169,6 +164,12 @@ BIQU Panda Breath是深圳必趣创新科技有限公司推出的一款用于与
 <img src=/img/PandaBreath/U1install08.jpg width="500"/>
 
 安装完成！
+
+## 接口及按键功能描述
+
+<img src=/img/PandaBreath/BUTTON.jpg width="600"/>
+
+<img src=/img/PandaBreath/BUTTON02.jpg width="1200"/>
 
 ## 用户首次连接指南
 
