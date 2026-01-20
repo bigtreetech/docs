@@ -51,14 +51,12 @@ The BIQU Panda Breath is a chamber heater and filter for Bambu Lab printers. It 
 <img src=img/PandaBreath/size.jpg width="400"/>
 
 ## Installation Guide
-**一、Preparation Before Assembly**
+**Preparation Before Assembly**
 
 - P, X Series：<br>
 Print the Riser: Use your 3D printer to print the Riser. [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution/P1S/Riser).
 
-  <img src=img/PandaBreath/print_file.png width="250"/>
-
-  X Series models also require the Mounting Insert [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution/X1C).
+  <img src=img/PandaBreath/print_file.png width="250"/><br>X Series models also require the Mounting Insert [Download print files here](https://github.com/bigtreetech/Panda_Breath/tree/master/3D%20Model/Mounting%20solution/X1C).
 
   <img src=img/PandaBreath/Xinstall01.jpg width="250"/>
 
@@ -126,47 +124,44 @@ Remove the factory screw from the center of the right-side crossbar, and insert 
 
 >**Early Production Units**: If your X1 has factory-installed threaded posts on the right side (early batches), use the included M3×8 machine screws directly—no printed insert needed.
 
-1. Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
+3. Align Panda Breath's bottom tabs with the alignment posts and fasten using the included self-tapping screws. Avoid over-tightening, as previously mentioned.
 
 <img src=img/PandaBreath/Pinstall03.jpg width="500"/>
 
 <img src=img/PandaBreath/Pinstall04.jpg width="500"/>
 
-**Remaining Steps: Follow P Series Steps 5–8 for cable management and power connection.**
+*Remaining Steps: Follow P Series Steps 5–8 for cable management and power connection.*
 
 **Installation Steps for Snapmaker U1**
 
-The completed installation should look like this:
+Final Installation View: When correctly installed, your setup should match the following illustration:
 
 <img src=img/PandaBreath/U1install02.jpg width="500"/>
 
-1. Take the 2 pre-printed clamp blocks, insert M3×14 self-tapping screws into the left mounting bracket.
-
-*Do not fully tighten yet—leave them loose for adjustment.*
+1. Prepare the Mounting Brackets<br>Take the two pre-printed clamp blocks.<br>Insert an M3×14 self-tapping screw into each hole on the left mounting bracket.<br>*Do not tighten the screws completely at this stage; leave them loose for adjustment.*
 
 <img src=img/PandaBreath/en/U1install03.jpg width="500"/>
 
-2. Slide the left and right mounting brackets onto both sides of the Panda Breath.
+2. Mount the Panda Breath Module<br>Slide the left and right mounting brackets onto the corresponding sides of the Panda Breath module.
 
 <img src=img/PandaBreath/U1install04.jpg width="500"/>
 
-3. Guide the Panda Breath cable toward the left side, thread it through the cable channel on the left mounting bracket, and pull it upward and out through the top exit.
+3. Route the Cable<br>Guide the Panda Breath cable toward the left side of the module.<br>Thread the cable through the dedicated channel on the left mounting bracket.<br>Gently pull the cable upward and out through the top exit of the channel.
 
 <img src=img/PandaBreath/U1install05.jpg width="500"/>
 
-4. Place the Panda Breath at the very back of the Snapmaker U1 chamber, pressing it slightly against the transparent rear panel.
-
->Important: Ensure the bottom of the Panda Breath is suspended—do not let it press on the cable.
+4.  Position the Module<br>Place the Panda Breath at the very back of the Snapmaker U1 chamber, gently pressing it against the transparent rear panel.<br>
+> Important: Ensure the bottom of the Panda Breath is suspended—do not let it press on the cable.
 
 <img src=img/PandaBreath/U1install06.jpg width="500"/>
 
 <img src=img/PandaBreath/U1install07.jpg width="500"/>
 
-5. Once position is confirmed, fully tighten all 4 screws on the left mounting bracket. 
+5. Secure the Installation<br>Once the module is correctly positioned, fully tighten all four screws on the left mounting bracket to secure it in place.
 
 <img src=img/PandaBreath/U1install08.jpg width="500"/>
 
-Installation Complete!
+Installation is now complete.
 
 ## Interface and Button Functions
 
