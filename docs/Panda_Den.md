@@ -50,11 +50,9 @@ Panda Den is a stackable storage product designed for **Bambu Lab A/P/X series p
 
 ## Panda Den Bambu Lab A1 Series Installation Guide
 
-* Step 1: To install the filament spool holder, attach the provided steel bracket to the designated mounting holes (silk marking: **filament spool holder mounting holes**). Note that there are four holes, allowing two possible mounting positions—choose whichever you prefer. Secure the bracket with the two included M4×5 screws. Once installed, the bracket can hold either the included filament spool holder or the printer’s original holder.
+* Step 1: To install the filament spool holder, attach the provided steel bracket to the designated mounting holes (silk marking: **filament spool holder mounting holes**). Note that there are four holes, allowing two possible mounting positions—choose whichever you prefer. Secure the bracket with the two included M4×5 screws. Once installed, This bracket can be used to install original printer consumables brackets.
 
     <img src=img/PandaDen/a1_1.webp width="400"/>
-
-    <img src=img/PandaDen/a1_2.webp width="400"/>
 
 * Step 2: Install the A1 Waste Collection (printed in advance) onto its designated mounting hole, identified by the silk mark **A1/A1 mini Waste Chute Extension mounting hole**.  Secure it with the two included M4×8 screws. Next, position the A-series printer on top of the Panda Den, ensuring the leftmost side is aligned directly above the Waste Collection opening. Finally, insert the printed A1 Waste Stopper to complete the installation.
 
