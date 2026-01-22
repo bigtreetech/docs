@@ -1,4 +1,4 @@
-# **Panda Perch H2D**
+# **Panda Perch H2**
 
 <img src=/img/PandaPerchH2D/zhutu.webp width="600"/>
 
@@ -11,7 +11,7 @@
 | v1.00    | 2025年11月10日      | 初始版本   |
 
 ## **产品简介**
-Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS收纳产品。  
+Panda Perch H2 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS收纳产品。  
 它顶部主体支持放置最多**2台AMS/AMS 2 Pro**或**6台AMS HT**,两侧选配吊篮可在拓展最多**4台AMS HT**吊装位置。
 同时支持拓展安装**RGB灯光套件**，既能展现个性化风格，又兼顾实用场景。
 两侧六边形孔位可适配打印件，实现收纳、置物等功能。 
@@ -35,7 +35,7 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
   多色打印系统适配AMS/AMS 2 Pro/AMS HT
 
 ## **产品参数**
-- **产品名称：** BIQU Panda Perch H2D  
+- **产品名称：** BIQU Panda Perch H2  
 - **材质：** 铝合金、钢  
 - **兼容性：** 
     - 适配3D打印机 - H2D/H2S/H2C
@@ -44,7 +44,7 @@ Panda Perch H2D 是专为 **Bambu Lab H2D/H2S/H2C打印机** 用户打造的AMS�
 
 <img src=/img/PandaPerchH2D/chicun.webp width="600"/>
 
-## Panda Perch H2D组装指南
+## Panda Perch H2组装指南
 
 ### 视频组装教程
 
