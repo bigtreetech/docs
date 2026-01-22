@@ -1,4 +1,4 @@
-# **Panda Perch H2D**
+# **Panda Perch H2**
 
 <img src=img/PandaPerchH2D/zhutu.webp width="600"/>
 
@@ -11,7 +11,7 @@
 | v1.00     | November 10th, 2025 | Initial Version |
 
 ## **Introduction**
-The Panda Perch H2D is a dedicated storage rack for Bambu Lab H2D, H2S, and H2C 3D printers. Its primary top platform securely holds either 2 standard AMS/AMS 2 Pro units or 6 AMS HT units. For expanded capacity, optional side baskets can accommodate up to 4 additional AMS HT units. The design also features versatile hexagonal side holes for mounting 3D-printed organizers, and offers an optional RGB lighting kit to personalize your workspace, combining efficient organization with customizable style.
+The Panda Perch H2 is a dedicated storage rack for Bambu Lab H2D, H2S, and H2C 3D printers. Its primary top platform securely holds either 2 standard AMS/AMS 2 Pro units or 6 AMS HT units. For expanded capacity, optional side baskets can accommodate up to 4 additional AMS HT units. The design also features versatile hexagonal side holes for mounting 3D-printed organizers, and offers an optional RGB lighting kit to personalize your workspace, combining efficient organization with customizable style.
 
 ## **Key Features**
 
@@ -37,7 +37,7 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
   - Multi-material Systems: AMS/AMS 2 Pro/AMS HT
 
 ## **Specifications**
-- **Product Name:** BIQU Panda Perch H2D  
+- **Product Name:** BIQU Panda Perch H2  
 - **Material:** Aluminum Alloy + Iron 
 - **Compatibility:** 
     - For 3D Printer - H2D/H2S/H2C
@@ -45,7 +45,7 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
 <img src=img/PandaPerchH2D/chicun.webp width="600"/>
 
-## Panda Perch H2D Assembly Guide
+## Panda Perch H2 Assembly Guide
 
 ### Video Tutorial
 
@@ -89,7 +89,7 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
     <img src=img/PandaPerchH2D/7.jpg width="600"/>
 
-* **Step 2: Attatch on the Panda Perch H2D**
+* **Step 2: Attatch on the Panda Perch H2**
 
     Use the CM4x6 screws to attach the Storage Rack to both sides of the Panda Perch H2D main body.
 
@@ -99,14 +99,14 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
     > You can refer to the following video for a clearer understanding of the installation process.
 
-> Note: The AMS HT Storage Rack is an optional accessory. One Panda Perch H2D can be expanded with two sets (two Storage Racks per set, totaling four Storage Racks). If using only one set, we recommend placing one Storage Rack on each side of the Panda Perch H2D (left and right). <br>
+> Note: The AMS HT Storage Rack is an optional accessory. One Panda Perch H2 can be expanded with two sets (two Storage Racks per set, totaling four Storage Racks). If using only one set, we recommend placing one Storage Rack on each side of the Panda Perch H2 (left and right). <br>
 **Important:** Always ensure that the suction cup screws are installed at the contact points between the printer's outer wall and the rod and Storage Rack.
 
-## Installing the Panda Perch H2D on the Printer
+## Installing the Panda Perch H2 on the Printer
 
-* **Step 1: Position the Panda Perch H2D**
+* **Step 1: Position the Panda Perch H2**
 
-    After assembling the Panda Perch H2D main body with the AMS HT Storage Rack, we can now install the entire assembly onto the printer. Start by removing the printer’s top cover and positioning the Perch on top.
+    After assembling the Panda Perch H2 main body with the AMS HT Storage Rack, we can now install the entire assembly onto the printer. Start by removing the printer’s top cover and positioning the Perch on top.
 
     <img src=img/PandaPerchH2D/05.jpg width="600"/>
 
@@ -134,17 +134,17 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
 * **Step 2: Attach the Light Strip Support Bar**
 
-    Mount the light strip support bar to the front bottom bar of the Panda Perch H2D frame using the provided CM3x4 screws.
+    Mount the light strip support bar to the front bottom bar of the Panda Perch H2 frame using the provided CM3x4 screws.
 
     <img src=img/PandaPerchH2D/RGB1.jpg width="600"/>
 
 * **Step 3: Install the Light Strip and Secure with Clips**
 
-    1. Pass the Power Cable: Route the light strip's power cable by threading it through the reserved cable hole at the back of the Panda Perch H2D.
+    1. Pass the Power Cable: Route the light strip's power cable by threading it through the reserved cable hole at the back of the Panda Perch H2.
 
     <img src=img/PandaPerchH2D/RGB2.jpg width="600"/>
 
-    2. Align and Stick the Light Strip: Carefully align the light strip along the bottom edge of the Panda Perch H2D frame. Before sticking, ensure the alignment is correct. Then, peel the protective film from the adhesive backing and press the strip down firmly, applying pressure along its entire length to activate the adhesive for a permanent, secure fit.
+    2. Align and Stick the Light Strip: Carefully align the light strip along the bottom edge of the Panda Perch H2 frame. Before sticking, ensure the alignment is correct. Then, peel the protective film from the adhesive backing and press the strip down firmly, applying pressure along its entire length to activate the adhesive for a permanent, secure fit.
 
     3. Trim and Secure the Light Strip: First, trim the light strip to your required length by cutting only at the clearly marked cut points. This ensures proper function and a clean finish. Next, use the included 3D-printed retention clips to snap the light strip securely into place along the bottom edge of the Panda Perch.
     
