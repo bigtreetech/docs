@@ -45,6 +45,7 @@ The BIQU Panda Breath is a chamber heater and filter for Bambu Lab printers. It 
 | Power Cable Length      | 1.1m                                        |
 | PTC Temperature Limit    | 105℃                                        |
 | Maximum Chamber Temperature    | 60℃                                         |
+| Minimum Operating Ambient Temperature    | 15℃                                         |
 
 **Dimensions**
 
