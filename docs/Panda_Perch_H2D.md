@@ -91,7 +91,7 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
 * **Step 2: Attatch on the Panda Perch H2**
 
-    Use the CM4x6 screws to attach the Storage Rack to both sides of the Panda Perch H2D main body.
+    Use the CM4x6 screws to attach the Storage Rack to both sides of the Panda Perch H2 main body.
 
     <img src=img/PandaPerchH2D/8.jpg width="600"/>
 
@@ -120,7 +120,7 @@ Personalize your workspace with integrated, customizable RGB lighting. Control d
 
 * **Step 3: Ensure Proper Function of the Top Cover Open-Door Detection**
 
-    Attach the two R6x4 magnets (from the Panda Perch H2D package) to the designated detection areas on the printer's top cover. <br> *Note for H2D Laser Edition Users: The H2D Laser Edition top cover has two open-door detection points—one at the front and one at the back. A magnet must be installed at both locations.*
+    Attach the two R6x4 magnets (from the Panda Perch H2 package) to the designated detection areas on the printer's top cover. <br> *Note for H2D Laser Edition Users: The H2D Laser Edition top cover has two open-door detection points—one at the front and one at the back. A magnet must be installed at both locations.*
 
     <img src=img/PandaPerchH2D/04.jpg width="600"/>
 
