@@ -9,8 +9,6 @@ title: Welcome
 !!! tip "Wiki Migration Announcement"
     The wiki address has been migrated from `bttwiki.com` to `global.bttwiki.com`. All requests to `bttwiki.com` will be redirected to `global.bttwiki.com`. 
 
-    BIQU Product start move from global.bttwiki.com to [global.biquwiki.com](https://global.biquwiki.com) for better experience. 
-
 <p>We appreciate all of your support to BIGTREETECH! To offer an excellent experience<br> of creation to every makers,We’re devoted to design and produce high-quality <br>and durable accessories!</p>
 
 ## How to contact
