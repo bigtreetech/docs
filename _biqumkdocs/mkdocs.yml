@@ -154,6 +154,7 @@ extra:
 # Navigation hierarchy (this should mimic the layout of Overview.md)
 nav:
   - BIGTREETECH:
+    - BIGTREETECH_ViViD.md
     - Motherboards:
       - SKR Series:
         - SKR MINI E3.md
