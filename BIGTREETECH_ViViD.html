@@ -7035,7 +7035,7 @@
 <p>After completing the tube connections, ensure the locking clip at the Buffer outlet is securely installed. Without this clip, repeated filament tension may cause the PTFE tube to detach.</p>
 <h3 id="power-connection">Power Connection<a class="headerlink" href="#power-connection" title="Permanent link">&para;</a></h3>
 <p>Two wiring methods are provided, which are functionally identical. Please choose based on your setup preference.</p>
-<p><img src=img/ViViD/en/Power_Connection1.webp width="100"/></p>
+<p><img src=img/ViViD/en/Power_Connection1.webp width="60%"/></p>
 <p><img src=img/ViViD/en/Power_Connection2.webp width="60%"/></p>
 <ul>
 <li>
@@ -7214,17 +7214,32 @@ Once the update is complete, the message <strong>ViViD update is complete</stron
 </li>
 <li>
 <p><strong>Configuration Instructions:</strong></p>
+<p>After homing, manually move the toolhead in KlipperScreen or web UI like Mainsail to determine the wipe coordinates (wipe-point).</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>enable</td>
+<td>Enable/disable this feature (1/0)</td>
+</tr>
+<tr>
+<td>wipe-point</td>
+<td>Set wipe position coordinates</td>
+</tr>
+<tr>
+<td>wipe_times</td>
+<td>Set number of wipes</td>
+</tr>
+</tbody>
+</table>
+<p><img src=img/ViViD/Brush.webp width="80%"/> </p>
 </li>
 </ul>
-<p>After homing, manually move the toolhead in KlipperScreen or web UI like Mainsail to determine the wipe coordinates (wipe-point).</p>
-<div class="highlight"><pre><span></span><code>| Variable   | Description                       |
-| ---------- | --------------------------------- |
-| enable     | Enable/disable this feature (1/0) |
-| wipe-point | Set wipe position coordinates     |
-| wipe_times | Set number of wipes               |
-
-&lt;img src=img/ViViD/Brush.webp width=&quot;80%&quot;/&gt;
-</code></pre></div>
 <h4 id="motion-parameter-configuration">Motion Parameter Configuration<a class="headerlink" href="#motion-parameter-configuration" title="Permanent link">&para;</a></h4>
 <p>Configuration file: <code>config/bigtreetech-mms/base/mms-motion.cfg</code></p>
 <p>If the filament moves smoothly during testing but you observe that the Drive Gear is severely grinding or chewing into the filament, this usually indicates that the extrusion force is too high or that the drive acceleration is set excessively. Please adjust the "mms-delivery.cfg file": reduce <code>speed_drive</code> and reduce <code>accel_drive</code>.</p>
