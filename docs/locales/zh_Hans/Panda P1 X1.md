@@ -3,7 +3,7 @@
 !!! info "BIQU WiKi NEO"
     此界面已迁移到 BIQU WiKi NEO
 
-    [Panda Claw P1/X1 BIQU WiKi NEO](https://global.biquwiki.com/zh/docs/panda-series/extruder/panda-claw-px)
+    [Panda Claw P1/X1 BIQU WiKi NEO](https://neo.bttwiki.com/zh/docs/panda-series/extruder/panda-claw-px)
 
 <img src=/img/Panda_Claw_P1_X1/Panda_Claw_P1_X1_Title.webp width="600"/>
 

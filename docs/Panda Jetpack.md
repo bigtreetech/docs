@@ -3,7 +3,7 @@
 !!! info "BIQU WiKi NEO"
     This page has been migrated to the BIQU WiKi NEO
 
-    [Panda Jetpack BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/module/panda-jetpack)
+    [Panda Jetpack BIQU WiKi NEO](https://neo.bttwiki.com/en/docs/panda-series/module/panda-jetpack)
 
 <img src=img/Panda_Jetpack/Panda_Jetpack_title.webp width="600"/>
 

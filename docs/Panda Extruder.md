@@ -3,7 +3,7 @@
 !!! info "BIQU WiKi NEO"
     This page has been migrated to the BIQU WiKi NEO
 
-    [Panda Extruder BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/extruder/panda-extruder)
+    [Panda Extruder BIQU WiKi NEO](https://neo.bttwiki.com/en/docs/panda-series/extruder/panda-extruder)
 
 <img src=img/panda_extruder/panda_extruder_title.webp width="600"/>
 

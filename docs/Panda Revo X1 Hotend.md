@@ -3,7 +3,7 @@
 !!! info "BIQU WiKi NEO"
     This page has been migrated to the BIQU WiKi NEO
 
-    [Panda Revo X1 Hotend BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/hotend/panda-revo/panda-revo-x1)
+    [Panda Revo X1 Hotend BIQU WiKi NEO](https://neo.bttwiki.com/en/docs/panda-series/hotend/panda-revo/panda-revo-x1)
 
 <img src=img/Panda_Revo_X1_Hotend/Panda_Revo_X1_Hotend_Title.webp width="600"/>
 

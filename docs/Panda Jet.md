@@ -3,7 +3,7 @@
 !!! info "BIQU WiKi NEO"
     This page has been migrated to the BIQU WiKi NEO
 
-    [Panda Jet BIQU WiKi NEO](https://global.biquwiki.com/en/docs/panda-series/module/panda-jet)
+    [Panda Jet BIQU WiKi NEO](https://neo.bttwiki.com/en/docs/panda-series/module/panda-jet)
 
 <img src=img/Panda_Jet/Panda_Jet_Title.webp width="600"/>
 
