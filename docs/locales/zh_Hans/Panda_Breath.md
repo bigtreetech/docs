@@ -2,7 +2,7 @@
 
 ## 固件重要更新
 
-**在使用 Panda Breath 之前，请确保您的设备已更新到[V1.0.1 及其以上版本的固件](#v101)**
+**在使用 Panda Breath 之前，请确保您的设备已更新到[V1.0.2 及其以上版本的固件](#v102)**
 
 **此固件添加了一些重要的新功能和 bug 修复。如果不更新，由于固件中的热保护逻辑对其中一个热敏电阻过于敏感，所以每次加热 30s 后设备可能会关闭加热。新固件在首次加热时添加了一个自校准逻辑，有助于 Panda Breath 补偿控制逻辑。**
 
@@ -376,6 +376,10 @@ BIQU Panda Breath 是一款适用于 Bambu Lab 打印机的腔体加热与空气
     - ③ 开始/关闭烘干加热。
 
 ## 固件历史记录
+
+### [V1.0.2](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.2)
+
+- 修正设备在某些温度下，自检结果错误的问题。修正设备在低温环境下加热ptc被异常关闭的问题。
 
 ### [V1.0.1](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.1)
 

@@ -2,7 +2,7 @@
 
 ## Important firmware update
 
-**Before you use the Panda Breath please ensure that you have updated to the firmware located [here](#v101) (ignore if your unit shipped with later firmware)**
+**Before you use the Panda Breath please ensure that you have updated to the firmware located [here](#v102) (ignore if your unit shipped with later firmware)**
 
 **This firmware adds some important new features as well as bug fixes. Without installing it, there is the possibility that your Panda Breath may turn off after 30s of heating each time you try to use it as a result of the integrated software safety monitor being overly sensitive on one of the thermistor inputs. This firmware adds a small self-calibration feature on the very first startup which helps to identify the specific characteristics of your Panda Breath.**
 
@@ -381,6 +381,10 @@ Note: Auto Mode requires the Panda Breath to be paired with a printer.
     - ③ Start/Stop drying.
 
 ## Firmware History
+
+### [V1.0.2](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.2)
+
+- Fix the issue of incorrect self-test results of the device at certain temperatures. Fix the issue of abnormal shutdown of PTC heating device in low-temperature environment
 
 ### [V1.0.1](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.1)
 
