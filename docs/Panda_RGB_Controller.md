@@ -379,7 +379,7 @@ When you power on the device for the first time or after a factory reset, a flow
 
 ### [V1.0.1](https://github.com/bigtreetech/PandaRGBController/tree/master/Firmware/v1.0.1)
 
-- Add P2S binding function.
+- Added P2S binding support.
 
 
 ## Feature Requests
