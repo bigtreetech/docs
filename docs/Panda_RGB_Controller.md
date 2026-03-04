@@ -249,7 +249,7 @@ When you power on the device for the first time or after a factory reset, a flow
             <img src=img/PandaRGBController/en/printer_bind.webp width="300"/>
 
             <img src=img/PandaRGBController/en/bind_ok.webp width="300"/>
-  
+
 
 ## Webpage Usage Guide
 
@@ -308,7 +308,7 @@ When you power on the device for the first time or after a factory reset, a flow
         <img src=img/PandaRGBController/en/ota_progress.webp width="300"/>
 
         <img src=img/PandaRGBController/en/ota_ok.webp width="300"/>
-  
+    
   - ⑤ Click to Confirm [Restore Factory Settings](#first-connection)
 
 ### Control Page
@@ -376,6 +376,10 @@ When you power on the device for the first time or after a factory reset, a flow
 ### [V1.0.0](https://github.com/bigtreetech/PandaRGBController/tree/master/Firmware/v1.0.0)
 
 - First released factory firmware.
+
+### [V1.0.1](https://github.com/bigtreetech/PandaRGBController/tree/master/Firmware/v1.0.1)
+
+- Add P2S binding function.
 
 
 ## Feature Requests

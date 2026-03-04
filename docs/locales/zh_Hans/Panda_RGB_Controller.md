@@ -172,7 +172,7 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
         <img src=/img/PandaRGBController/zh/language.webp width="300"/>
 
 <a id="wifi-connect"></a>
-  
+
 - WiFi连接界面
 
     - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
@@ -379,6 +379,10 @@ Panda RGB Controller是一款用于无线控制RGB灯带的产品，搭配外接
 ### [V1.0.0](https://github.com/bigtreetech/PandaRGBController/tree/master/Firmware/v1.0.0)
 
 - 首次发布的出厂固件。
+
+### [V1.0.1](https://github.com/bigtreetech/PandaRGBController/tree/master/Firmware/v1.0.1)
+
+- 增加绑定P2S功能。
 
 
 ## 功能请求
