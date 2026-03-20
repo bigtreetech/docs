@@ -1,5 +1,10 @@
 # Panda Jetpack
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [Panda Jetpack Bigtreetech WiKi NEO](https://neo.bttwiki.com/zh/docs/panda-series/module/panda-jetpack/)
+
 <img src=/img/Panda_Jetpack/Panda_Jetpack_title.webp width="600"/>
 
 **产品链接:** 

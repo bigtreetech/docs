@@ -1,5 +1,10 @@
 # Panda Jet
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [Panda Jet Bigtreetech WiKi NEO](https://neo.bttwiki.com/zh/docs/panda-series/module/panda-jet/)
+
 <img src=/img/Panda_Jet/Panda_Jet_Title.webp width="600"/>
 
 ## **产品链接**

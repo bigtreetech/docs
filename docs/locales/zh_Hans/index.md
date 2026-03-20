@@ -9,6 +9,8 @@ title: Welcome
 !!! tip "Wiki Migration Announcement"
     wiki 地址 从`bttwiki.com` 迁移到 `global.bttwiki.com`. 所有访问 `bttwiki.com` 的请求会被重定向到 `global.bttwiki.com`. 
 
+    Bigtreetech Wiki NEO 试运行中... [Bigtreetech Wiki NEO](https://neo.bttwiki.com/zh/)
+
 我们感谢您对BIGTREETECH的支持！为了给每一位制造商提供卓越的创作体验，我们致力于设计和生产高质量、耐用的配件
 
 ## 如何联系

@@ -1,5 +1,10 @@
 # Panda Lux
 
+!!! info "Bigtreetech WiKi NEO"
+    此界面已迁移到 Bigtreetech WiKi NEO
+
+    [Panda Lux Bigtreetech WiKi NEO](https://neo.bttwiki.com/zh/docs/panda-series/module/panda-lux/)
+
 <img src=/img/Panda_Lux/Panda_Lux_Title.webp width="600"/>
 
 ## **产品链接**
