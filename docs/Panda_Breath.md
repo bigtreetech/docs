@@ -375,8 +375,8 @@ Note: Auto Mode requires the Panda Breath to be paired with a printer.
 
     - ① Target chamber temperature and drying countdown timer.
     - ② Quick parameter setting buttons:
-        - PLA : Target temperature 60°C, drying time 12 hours.
-        - PETG: Target temperature 55°C, drying time 12 hours.
+        - PLA : Target temperature 55°C, drying time 12 hours.
+        - PETG: Target temperature 60°C, drying time 12 hours.
         - Custom: Manually adjusted values will be saved as custom settings.
     - ③ Start/Stop drying.
 
