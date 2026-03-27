@@ -382,6 +382,10 @@ Note: Auto Mode requires the Panda Breath to be paired with a printer.
 
 ## Firmware History
 
+### [V1.0.3](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.3)
+
+- Added the ability to bind P2S and Klipper printers.
+
 ### [V1.0.2](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.2)
 
 - Fix the issue of incorrect self-test results of the device at certain temperatures. Fix the issue of abnormal shutdown of PTC heating device in low-temperature environment

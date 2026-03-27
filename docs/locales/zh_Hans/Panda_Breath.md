@@ -377,6 +377,10 @@ BIQU Panda Breath 是一款适用于 Bambu Lab 打印机的腔体加热与空气
 
 ## 固件历史记录
 
+### [V1.0.3](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.3)
+
+- 新增绑定P2S和Klipper打印机功能。
+
 ### [V1.0.2](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.2)
 
 - 修正设备在某些温度下，自检结果错误的问题。修正设备在低温环境下加热ptc被异常关闭的问题。
