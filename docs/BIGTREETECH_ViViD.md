@@ -270,8 +270,19 @@ If the filament moves smoothly during testing but you observe that the Drive Gea
 
 <img src=img/ViViD/Motion.webp width="80%"/> 
 
-After completing the above file configurations, ViViD is ready for operation. For further installation or debugging, please refer to **Section 6**: Tuning Guide in this manual.
-For more parameter descriptions, please view the [documentation.](https://github.com/bigtreetech/BIGTREETECH_MMS/blob/master/docs/zh/mms_config.md)
+#### Bowden Length Calibration Before Printing
+
+**Command:** `MMS_BOWDEN_CALIBRATION`
+
+After all four filaments have entered ViViD, enter MMS_BOWDEN_CALIBRATION in the Console. The filament in each slot will calibrate the Bowden tube length in sequence.
+
+<img src=img/ViViD/bowden_cal.webp width="80%"/>
+
+The calibrated length is saved in real time. If an abnormality occurs during calibration and results in incorrect parameters, please run the calibration again.
+
+!!! info
+    After completing the above file configurations, ViViD is ready for operation. For further installation or debugging, please refer to **Section 6**: Tuning Guide in this manual.
+    For more parameter descriptions, please view the [documentation.](https://github.com/bigtreetech/BIGTREETECH_MMS/blob/master/docs/zh/mms_config.md)
 
 ## ViViD Operation Logic and Debug Commands
 
@@ -554,19 +565,9 @@ To allow a complete heating cycle, it is recommended to set the value to 14400 s
 
 ### Automatic Filament Loading
 
-Once the user has gained sufficient familiarity with the operating principles of the ViViD system, they may enable automatic filament loading for greater convenience.
+After enabling this configuration, straighten the filament and place it into the corresponding SLOT. The filament selector motor will rotate quickly for alignment. Insert the filament only after the extruder starts moving. Be sure to wait until the motor has reached its position before inserting the filament, otherwise the filament may scrape out from the side.
 
-<img src=img/ViViD/Automatic.webp width="80%"/>
-
-* Enable the Autoload module in the configuration file.
-
-* Straighten the filament and place it into the corresponding slot.
-
-* The selector motor will rotate rapidly to align the slot.
-
-* Once the extruder begins moving, insert the filament.
-
-**Important:** Always wait for the selector motor to complete its rotation and reach the designated position before inserting the filament. Inserting the filament prematurely may cause it to slip out from the side of the feed path.
+<img src=img/ViViD/autoload.webp width="80%"/>
 
 ### Filament Runout Detection
 
