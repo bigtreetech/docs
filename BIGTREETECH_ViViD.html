@@ -707,6 +707,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#bowden-length-calibration-before-printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bowden Length Calibration Before Printing
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6565,6 +6574,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#bowden-length-calibration-before-printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bowden Length Calibration Before Printing
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -7244,8 +7262,16 @@ Once the update is complete, the message <strong>ViViD update is complete</stron
 <p>Configuration file: <code>config/bigtreetech-mms/base/mms-motion.cfg</code></p>
 <p>If the filament moves smoothly during testing but you observe that the Drive Gear is severely grinding or chewing into the filament, this usually indicates that the extrusion force is too high or that the drive acceleration is set excessively. Please adjust the "mms-delivery.cfg file": reduce <code>speed_drive</code> and reduce <code>accel_drive</code>.</p>
 <p><img src=img/ViViD/Motion.webp width="80%"/> </p>
+<h4 id="bowden-length-calibration-before-printing">Bowden Length Calibration Before Printing<a class="headerlink" href="#bowden-length-calibration-before-printing" title="Permanent link">&para;</a></h4>
+<p><strong>Command:</strong> <code>MMS_BOWDEN_CALIBRATION</code></p>
+<p>After all four filaments have entered ViViD, enter MMS_BOWDEN_CALIBRATION in the Console. The filament in each slot will calibrate the Bowden tube length in sequence.</p>
+<p><img src=img/ViViD/bowden_cal.webp width="80%"/></p>
+<p>The calibrated length is saved in real time. If an abnormality occurs during calibration and results in incorrect parameters, please run the calibration again.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
 <p>After completing the above file configurations, ViViD is ready for operation. For further installation or debugging, please refer to <strong>Section 6</strong>: Tuning Guide in this manual.
 For more parameter descriptions, please view the <a href="https://github.com/bigtreetech/BIGTREETECH_MMS/blob/master/docs/zh/mms_config.md">documentation.</a></p>
+</div>
 <h2 id="vivid-operation-logic-and-debug-commands">ViViD Operation Logic and Debug Commands<a class="headerlink" href="#vivid-operation-logic-and-debug-commands" title="Permanent link">&para;</a></h2>
 <p><img src=img/ViViD/Operation_Logic.webp width="100%"/>  </p>
 <p>It is strongly recommended to install the Entry Sensor before using ViViD.<br />
@@ -7625,23 +7651,8 @@ Closed: When heating is disabled, closing the vents helps maintain internal humi
 To allow a complete heating cycle, it is recommended to set the value to 14400 seconds (4 hours).</p>
 <p><img src=img/ViViD/14400.webp width="80%"/></p>
 <h3 id="automatic-filament-loading">Automatic Filament Loading<a class="headerlink" href="#automatic-filament-loading" title="Permanent link">&para;</a></h3>
-<p>Once the user has gained sufficient familiarity with the operating principles of the ViViD system, they may enable automatic filament loading for greater convenience.</p>
-<p><img src=img/ViViD/Automatic.webp width="80%"/></p>
-<ul>
-<li>
-<p>Enable the Autoload module in the configuration file.</p>
-</li>
-<li>
-<p>Straighten the filament and place it into the corresponding slot.</p>
-</li>
-<li>
-<p>The selector motor will rotate rapidly to align the slot.</p>
-</li>
-<li>
-<p>Once the extruder begins moving, insert the filament.</p>
-</li>
-</ul>
-<p><strong>Important:</strong> Always wait for the selector motor to complete its rotation and reach the designated position before inserting the filament. Inserting the filament prematurely may cause it to slip out from the side of the feed path.</p>
+<p>After enabling this configuration, straighten the filament and place it into the corresponding SLOT. The filament selector motor will rotate quickly for alignment. Insert the filament only after the extruder starts moving. Be sure to wait until the motor has reached its position before inserting the filament, otherwise the filament may scrape out from the side.</p>
+<p><img src=img/ViViD/autoload.webp width="80%"/></p>
 <h3 id="filament-runout-detection">Filament Runout Detection<a class="headerlink" href="#filament-runout-detection" title="Permanent link">&para;</a></h3>
 <p><img src=img/ViViD/Runout_Detection.webp width="80%"/></p>
 <p>Filament runout detection is enabled by default. If the filament breaks or runs out during printing, the printer automatically pauses the print.</p>

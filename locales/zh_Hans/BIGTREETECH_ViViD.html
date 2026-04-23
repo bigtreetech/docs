@@ -5908,6 +5908,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#bowden" class="md-nav__link">
+    <span class="md-ellipsis">
+      打印前Bowden长度校准
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6553,8 +6562,16 @@
 <p><strong>配置文件：</strong> <code>config/bigtreetech-mms/base/mms-motion.cfg</code></p>
 <p>若在测试中发现进退料通道顺畅，但驱动轮（Drive Gear）磨损耗材严重，说明挤压力过大或加速度过高。请在 <code>mms-delivery.cfg</code> 中适当降低 <code>speed_drive</code>（速度）和 <code>accel_drive</code>（加速度）的值。</p>
 <p><img src=/img/ViViD/Motion.webp width="80%"/></p>
+<h4 id="bowden">打印前Bowden长度校准<a class="headerlink" href="#bowden" title="Permanent link">&para;</a></h4>
+<p><strong>命令：</strong> <code>MMS_BOWDEN_CALIBRATION</code></p>
+<p>在四个耗材进入ViViD之后，在控制台（Console）中输入 <code>MMS_BOWDEN_CALIBRATION</code> 仓位中的耗材将依次进行Bowden管的校准</p>
+<p><img src=/img/ViViD/bowden_cal.webp width="80%"/></p>
+<p>校准后的长度实时保存，若校准过程中出现异常，导致参数异常，请重新校准</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
 <p>完成以上文件配置后，ViViD 即可开始工作。如需进一步安装/调试，请查阅本手册中的<strong>调优指南</strong>。</p>
 <p>更多参数说明请查看文档：<a href="https://github.com/bigtreetech/BIGTREETECH_MMS/blob/master/docs/zh/mms_config.md">https://github.com/bigtreetech/BIGTREETECH_MMS/blob/master/docs/zh/mms_config.md</a></p>
+</div>
 <h2 id="vivid">ViViD运行逻辑说明及调试命令<a class="headerlink" href="#vivid" title="Permanent link">&para;</a></h2>
 <p><img src=/img/ViViD/Operation_Logic.webp width="100%"/></p>
 <p>强烈推荐安装进料传感器（Entry Sensor）后进行使用ViViD。</p>
@@ -6877,9 +6894,8 @@
 <p>待机状态加热时，需修改<code>idle_timeout</code>中的timeout时间，若需要持续一个完整的加热周期，建议配置为 14400，即 4 小时</p>
 <p><img src=/img/ViViD/14400.webp width="80%"/></p>
 <h3 id="_19">自动进料<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
-<p>当对ViViD的工作原理有一定的了解之后，可以开启自动进料模式，可以更方便的让耗材进入ViViD，先在配置文件中打开自动进料的配置。</p>
-<p><img src=/img/ViViD/Automatic.webp width="80%"/></p>
 <p>开启配置之后，请将耗材捋直，放入对应的SLOT中，选料电机将快速旋转对齐，待挤出机运动后，插入耗材，请务必等电机旋转到位之后再插入耗材，否则耗材容易从侧边划出。</p>
+<p><img src=/img/ViViD/autoload.webp width="80%"/></p>
 <h3 id="_20">断料检测<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
 <p><img src=/img/ViViD/Runout_Detection.webp width="80%"/></p>
 <p>默认开启断料检测，当打印过程中耗材断开，打印将会暂停，需要清理完铁氟龙管中残留的耗材之后，重新更换新的耗材，方可重新打印。</p>
