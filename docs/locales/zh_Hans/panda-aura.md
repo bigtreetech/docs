@@ -29,7 +29,7 @@ Panda Aura A1系列 — 智能声光氛围系统：
 
 ## 产品型号对比
 
-<img src=img/panda-aura/case/duibi.webp width="85%"/>
+<img src=/img/panda-aura/case/duibi.webp width="85%"/>
 
 ## 基本参数
 
@@ -52,9 +52,9 @@ Panda Aura A1系列 — 智能声光氛围系统：
 
 ## 产品外观尺寸
 
-<img src=img/panda-aura/case/chicun1.webp width="80%"/>
+<img src=/img/panda-aura/case/chicun1.webp width="80%"/>
 
-<img src=img/panda-aura/case/chicun2.webp width="80%"/>
+<img src=/img/panda-aura/case/chicun2.webp width="80%"/>
 
 ## 安装指南
 
@@ -64,105 +64,105 @@ Panda Aura A1和Panda Aura A1 Plus带有灯板
 
 Panda Aura A1配件清单
 
-<img src=img/panda-aura/case/bza1.webp width="80%"/>
+<img src=/img/panda-aura/case/bza1.webp width="80%"/>
 
 Panda Aura A1 Plus配件清单
 
-<img src=img/panda-aura/case/bza1plus.webp width="80%"/>
+<img src=/img/panda-aura/case/bza1plus.webp width="80%"/>
 
 #### 安装步骤
 
 1. 将A1打印机下方三颗螺丝拆卸下来，如下图所示。
 
-<img src=img/panda-aura/case/1.webp width="80%"/>
+<img src=/img/panda-aura/case/1.webp width="80%"/>
 
 2. 将A1打印机放置在Panda Aura A1亚克力底座上。
 
-<img src=img/panda-aura/case/2.webp width="80%"/>
+<img src=/img/panda-aura/case/2.webp width="80%"/>
 
 3. 调整A1打印机，使其左右居中，并且使左右两端的立柱向后顶住限位块。
 
-<img src=img/panda-aura/case/3.webp width="80%"/>
+<img src=/img/panda-aura/case/3.webp width="80%"/>
 
 4. 从底部安装附带的3颗自攻螺丝（无需翻转设备，将设备移至桌边从下向上安装更方便）
 
-<img src=img/panda-aura/case/4.webp width="80%"/>
+<img src=/img/panda-aura/case/4.webp width="80%"/>
 
 5. 将亚克力灯板的连接线插入控制盒底部的接口，如下图所示。
 
-<img src=img/panda-aura/case/5.webp width="80%"/>
+<img src=/img/panda-aura/case/5.webp width="80%"/>
 
 6. 将接好线的控制盒比对好合适的磁吸位置，并粘贴磁吸片，将控制盒吸附固定。
 
-<img src=img/panda-aura/case/6.webp width="80%"/>
+<img src=/img/panda-aura/case/6.webp width="80%"/>
 
 7. 将电源线和转接线连接起来，注意卡扣要对准。
 
-<img src=img/panda-aura/case/7-2.webp width="50%"/>
+<img src=/img/panda-aura/case/7-2.webp width="50%"/>
 
-<img src=img/panda-aura/case/71.webp width="80%"/>
+<img src=/img/panda-aura/case/71.webp width="80%"/>
 
 8. 将2pin插头接入背面的插口中。（需要拔出时请从端子处施力，请勿直接扯线材拔出）
 
-<img src=img/panda-aura/case/8.webp width="50%"/>
+<img src=/img/panda-aura/case/8.webp width="50%"/>
 
 9. 在A1打印机后部找到一个未使用的 4pin 电源端口。再把转接线另一头的MX3.0 4pin接口插入到打印机的MX3.0 4pin接口。
 
-<img src=img/panda-aura/case/9.webp width="80%"/>
+<img src=/img/panda-aura/case/9.webp width="80%"/>
 
 #### 通过Panda Branch Plus供电
 
 如果不想通过打印机接电，或者打印机的MX3.0接口已被占用，则可以选择购买Panda Branch Plus（单独出售），直接把Panda Aura A1的MX3.0 2pin接口插入Panda Branch Plus的MX3.0接口，也可以实现供电。
 
-<img src=img/panda-aura/case/branchplus.webp width="80%"/>
+<img src=/img/panda-aura/case/branchplus.webp width="80%"/>
 
 ### 安装A1mini灯板到A1mini打印机
 
 Panda Aura A1mini配件清单
 
-<img src=img/panda-aura/case/baozhuang2.webp width="80%"/>
+<img src=/img/panda-aura/case/baozhuang2.webp width="80%"/>
 
 #### 安装步骤
 
 1. 将A1mini打印机下方四颗螺丝拆卸下来，如下图所示。
 
-<img src=img/panda-aura/case/11.webp width="80%"/>
+<img src=/img/panda-aura/case/11.webp width="80%"/>
 
 2. 将A1mini打印机放置在亚克力灯板上，使亚克力灯板四周边缘对齐打印机机身。
 
-<img src=img/panda-aura/case/12.webp width="80%"/>
+<img src=/img/panda-aura/case/12.webp width="80%"/>
 
 3. 从底部安装附带的4颗M3*18自攻螺丝（无需翻转设备，将打印机移至桌边从下向上安装更方便）
 
-<img src=img/panda-aura/case/13.webp width="80%"/>
+<img src=/img/panda-aura/case/13.webp width="80%"/>
 
 4. 将亚克力灯板的连接线插入控制盒底部的接口，如下图所示。
 
-<img src=img/panda-aura/case/14.webp width="80%"/>
+<img src=/img/panda-aura/case/14.webp width="80%"/>
 
 5. 将接好线的控制盒比对好合适的磁吸位置，并粘贴磁吸片，将控制盒吸附固定。
 
-<img src=img/panda-aura/case/15.webp width="80%"/>
+<img src=/img/panda-aura/case/15.webp width="80%"/>
 
 6. 将电源线和转接线连接起来，注意卡扣要对准。
 
-<img src=img/panda-aura/case/7-2.webp width="50%"/>
+<img src=/img/panda-aura/case/7-2.webp width="50%"/>
 
-<img src=img/panda-aura/case/71.webp width="80%"/>
+<img src=/img/panda-aura/case/71.webp width="80%"/>
 
 7. 将2pin插头接入背面的插口中。（需要拔出时请从端子处施力，请勿直接扯线材拔出）
 
-<img src=img/panda-aura/case/8.webp width="50%"/>
+<img src=/img/panda-aura/case/8.webp width="50%"/>
 
 8. 在A1mini打印机侧面找到一个未使用的 4pin 电源端口。再把转接线另一头的MX3.0 4pin接口插入到打印机的MX3.0 4pin接口，如下图所示。
 
-<img src=img/panda-aura/case/18.webp width="80%"/>
+<img src=/img/panda-aura/case/18.webp width="80%"/>
 
 #### 通过Panda Branch Plus供电
 
 如果不想通过打印机接电，或者打印机的MX3.0接口已被占用，则可以选择购买Panda Branch Plus（单独出售），直接把Panda Aura A1mini的MX3.0 2pin接口插入Panda Branch Plus的MX3.0接口，也可以实现供电。
 
-<img src=img/panda-aura/case/branchplus.webp width="80%"/>
+<img src=/img/panda-aura/case/branchplus.webp width="80%"/>
 
 ### 安装灯带到A1打印机
 
@@ -170,29 +170,29 @@ Panda Aura A1 RGBW和Panda Aura A1 Plus带有灯带
 
 Panda Aura A1 RGBW配件清单
 
-<img src=img/panda-aura/case/bza1rgbw.webp width="80%"/>
+<img src=/img/panda-aura/case/bza1rgbw.webp width="80%"/>
 
 Panda Aura A1 Plus配件清单
 
-<img src=img/panda-aura/case/bza1plus.webp width="80%"/>
+<img src=/img/panda-aura/case/bza1plus.webp width="80%"/>
 
 #### 安装步骤
 
 1. 将灯带去除背胶，粘贴至A1设备X轴下贴紧。出线方向向右。
 
-<img src=img/panda-aura/case/ddaz11.webp width="80%"/>
+<img src=/img/panda-aura/case/ddaz11.webp width="80%"/>
 
 2. 将线扣粘贴至灯带尾端，固定线材。
 
-<img src=img/panda-aura/case/ddaz22.webp width="80%"/>
+<img src=/img/panda-aura/case/ddaz22.webp width="80%"/>
 
 3. 将另一个线扣粘贴于X框架后方。
 
-<img src=img/panda-aura/case/ddaz33.webp width="80%"/>
+<img src=/img/panda-aura/case/ddaz33.webp width="80%"/>
 
 4. 将灯带插头插入控制盒后方接口中
 
-<img src=img/panda-aura/case/ddaz44.webp width="80%"/>
+<img src=/img/panda-aura/case/ddaz44.webp width="80%"/>
 
 ## 用户首次连接指南 {#first-connection}
 
@@ -205,7 +205,7 @@ Panda Aura A1 Plus配件清单
   
   - 连接上Panda_Aura_A1发出来的AP热点: `Panda_Aura_A1_XXXXXXXXXX`. 默认密码是 `987654321`.
 
-    <img src=img/panda-aura/zh/panda_aura_a1_step0.webp width="60%"/>
+    <img src=/img/panda-aura/zh/panda_aura_a1_step0.webp width="60%"/>
 
 - 访问AP网页
 
@@ -215,47 +215,47 @@ Panda Aura A1 Plus配件清单
 
     - 选择语言后可点击下一步
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step1.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step1.webp width="60%"/>
 
 - WiFi连接界面
 
     - 首次出厂或恢复出厂设置后，进入此页面会自动扫描周围WiFi，或者手动点击扫描。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step2.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step2.webp width="60%"/>
 
     - 扫描完成后会弹出`扫描完成`弹窗提示，点击OK关闭提示。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step3.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step3.webp width="60%"/>
 
     - 点击Wi-Fi下方的选项，选择想要连接的WiFi
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step4.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step4.webp width="60%"/>
 
     - 输入密码，可点击密码框内右侧的`眼睛`图标来显示输入的密码
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step5.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step5.webp width="60%"/>
 
     - 点击连接，界面会自动跳转到操作界面中的`WiFi`界面,并显示WiFi连接中
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step6.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step6.webp width="60%"/>
 
     - 等待连接一段时间后，会弹出WiFi连接的状态弹窗
 
         - 连接失败:
 
-            <img src=img/panda-aura/zh/panda_aura_a1_step7.webp width="60%"/>
+            <img src=/img/panda-aura/zh/panda_aura_a1_step7.webp width="60%"/>
 
             
 
         - 连接成功，可选择点击[绑定打印机](#printer-bind)跳转到`打印机界面`，也可点击`取消`，继续待在`WiFi界面`
         
-            <img src=img/panda-aura/zh/panda_aura_a1_step8.webp width="60%"/>
+            <img src=/img/panda-aura/zh/panda_aura_a1_step8.webp width="60%"/>
 
 ### 绑定打印机 {#printer-bind}
 
 - 功能介绍
 
-    <img src=img/panda-aura/zh/panda_aura_a1_step9.webp width="60%"/>
+    <img src=/img/panda-aura/zh/panda_aura_a1_step9.webp width="60%"/>
 
     - 1.选择打印机界面，点击后聚焦为红色图标，跳转至打印机界面
 
@@ -275,27 +275,27 @@ Panda Aura A1 Plus配件清单
 
     - 点击扫描一段时间后，会出现`扫描成功`的弹窗
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step10.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step10.webp width="60%"/>
 
     - 选择扫描出的打印机，可以看到选择打印机后，会自动输入打印机的SN码和IP
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step11.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step11.webp width="60%"/>
 
         输入打印机的`访问码`
 
         * 在打印机上找到`访问码` (这里以 A1 系列打印机为例)
 
-            <img src=img/panda-aura/zh/panda_aura_a1_step12.webp width="60%"/>
+            <img src=/img/panda-aura/zh/panda_aura_a1_step12.webp width="60%"/>
 
-            <img src=img/panda-aura/zh/panda_aura_a1_step13.webp width="60%"/>
+            <img src=/img/panda-aura/zh/panda_aura_a1_step13.webp width="60%"/>
 
-            <img src=img/panda-aura/zh/panda_aura_a1_step14.webp width="60%"/>
+            <img src=/img/panda-aura/zh/panda_aura_a1_step14.webp width="60%"/>
 
         * 将 `访问码` 输入到 `访问码` 框内,点击绑定即可开始绑定打印机。
 
-            <img src=img/panda-aura/zh/panda_aura_a1_step15.webp width="60%"/>
+            <img src=/img/panda-aura/zh/panda_aura_a1_step15.webp width="60%"/>
 
-            <img src=img/panda-aura/zh/panda_aura_a1_step16.webp width="60%"/>
+            <img src=/img/panda-aura/zh/panda_aura_a1_step16.webp width="60%"/>
     
 
 
@@ -303,7 +303,7 @@ Panda Aura A1 Plus配件清单
 
 ### WiFi界面
 
-<img src=img/panda-aura/zh/panda_aura_a1_step17.webp width="60%"/>
+<img src=/img/panda-aura/zh/panda_aura_a1_step17.webp width="60%"/>
 
 - 1.WiFi界面选择，点击后聚焦为红色图标，跳转至WiFi界面。
 
@@ -321,7 +321,7 @@ Panda Aura A1 Plus配件清单
 
 ### AP界面
 
-<img src=img/panda-aura/zh/panda_aura_a1_step18.webp width="60%"/>
+<img src=/img/panda-aura/zh/panda_aura_a1_step18.webp width="60%"/>
 
 - 1.AP界面选择，点击后聚焦为红色图标，跳转至WiFi界面
 
@@ -337,7 +337,7 @@ Panda Aura A1 Plus配件清单
 
 ### 设置界面
 
-<img src=img/panda-aura/zh/panda_aura_a1_step19.webp width="60%"/>
+<img src=/img/panda-aura/zh/panda_aura_a1_step19.webp width="60%"/>
 
 - 1.设置界面选择，点击后聚焦为红色图标，跳转至设置界面。
 
@@ -355,13 +355,13 @@ Panda Aura A1 Plus配件清单
 
     - 点击`选择.bin文件`按钮，选择需要ota的bin文件。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step20.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step20.webp width="60%"/>
 
     - 等待ota进度，完成后弹窗自动重启。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step21.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step21.webp width="60%"/>
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step22.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step22.webp width="60%"/>
 
 - 8.点击后，按下确定 [恢复出厂设置](#first-connection)
 
@@ -369,7 +369,7 @@ Panda Aura A1 Plus配件清单
 
 - 功能介绍
 
-    <img src=img/panda-aura/zh/panda_aura_a1_step23.webp width="60%"/>
+    <img src=/img/panda-aura/zh/panda_aura_a1_step23.webp width="60%"/>
 
     - 1.控制面板界面选择，点击后聚焦为红色图标，跳转至控制面板界面
 
@@ -391,7 +391,7 @@ Panda Aura A1 Plus配件清单
 
 - 设备灯效模式
 
-    <img src=img/panda-aura/zh/panda_aura_a1_step24.webp width="60%"/>
+    <img src=/img/panda-aura/zh/panda_aura_a1_step24.webp width="60%"/>
 
     
 
@@ -399,21 +399,21 @@ Panda Aura A1 Plus配件清单
 
     - 7.光线的颜色可以根据打印机的温度进行调整。您可以在"安全效果"和"危险效果"下选择两种照明效果，静态或闪光。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step25.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step25.webp width="60%"/>
 
     - 8.选择后，可以根据打印机调整灯光的颜色。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step26.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step26.webp width="60%"/>
 
 - 自定义灯光颜色（以静态模式为例）
 
     - 点击颜色设置选项，您将被引导到颜色选择页面。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step27.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step27.webp width="60%"/>
 
     - 选择想要的颜色。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step28.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step28.webp width="60%"/>
 
         
 
@@ -421,17 +421,17 @@ Panda Aura A1 Plus配件清单
 
         - 2.自定义颜色。点击后会出现一个取色盘，可以设置此自定义颜色的颜色值
 
-            <img src=img/panda-aura/zh/panda_aura_a1_step29.webp width="60%"/>
+            <img src=/img/panda-aura/zh/panda_aura_a1_step29.webp width="60%"/>
 
     - 选择一个`预置`或`颜色定义`(自定义)色块后。单击`确认`，则可以将RGB灯设置为您的所选颜色。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step30.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step30.webp width="60%"/>
     
-        <img src=img/panda-aura/zh/panda_aura_a1_step31.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step31.webp width="60%"/>
     
 - 设备音效
 
-    <img src=img/panda-aura/zh/panda_aura_a1_step32.webp width="60%"/>
+    <img src=/img/panda-aura/zh/panda_aura_a1_step32.webp width="60%"/>
 
     - 1.单击"切换"以打开和关闭设备音效。
 
@@ -439,13 +439,13 @@ Panda Aura A1 Plus配件清单
 
     - 3.选择不同的音效。
 
-        <img src=img/panda-aura/zh/panda_aura_a1_step33.webp width="60%"/>
+        <img src=/img/panda-aura/zh/panda_aura_a1_step33.webp width="60%"/>
 
     - 4.音量大小。
 
 ### 设备差异
 
-<img src=img/panda-aura/zh/panda_aura_a1_step34.webp width="60%"/>
+<img src=/img/panda-aura/zh/panda_aura_a1_step34.webp width="60%"/>
 
 Panda Aura A1 RGBW 和 Panda Aura A1 Plus 相对于 Panda Aura A1 和 Panda Aura A1mini 多了此功能选项。通过此选项可以配置灯板和灯条的模式以及颜色等。
 
