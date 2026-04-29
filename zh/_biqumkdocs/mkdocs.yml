@@ -245,6 +245,7 @@ nav:
   - BIQU:
     - Panda series:
       - Panda_Alarm.md
+      - panda-aura.md
       - Panda-AMS-Guard.md
       - Panda Aura:
           - Panda_Aura_A1mini.md
