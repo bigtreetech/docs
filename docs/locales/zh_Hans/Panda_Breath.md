@@ -375,7 +375,21 @@ BIQU Panda Breath 是一款适用于 Bambu Lab 打印机的腔体加热与空气
         - 自定义：①手动修改的值将保存为自定义值。
     - ③ 开始/关闭烘干加热。
 
+### Home Assistant界面
+
+- 1、MQTT 代理 IP.
+- 2、默认端口号 1883.
+- 3、MQTT 代理用户名.
+- 4、MQTT 代理密码.
+- 5、绑定Home Assistant按键.
+
+*如果代理没有设置用户名和密码，则不填写用户名和密码也可以正常绑定
+
 ## 固件历史记录
+
+### [V1.0.4](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.4)
+
+- 增加Home Assistant的适配。
 
 ### [V1.0.3](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.3)
 

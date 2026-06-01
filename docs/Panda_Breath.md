@@ -380,7 +380,23 @@ Note: Auto Mode requires the Panda Breath to be paired with a printer.
         - Custom: Manually adjusted values will be saved as custom settings.
     - ③ Start/Stop drying.
 
+### Home Assistant Page
+
+<img src=img/PandaBreath/en/ha.png width="300"/>
+
+- 1、MQTT Broker IP.
+- 2、Default port number 1883.
+- 3、MQTT Broker user name.
+- 4、MQTT Broker Password.
+- 5、Bind Home Assistant button.
+
+*If the broker has not set a username and password, it can still bind normally without filling in the username and password
+
 ## Firmware History
+
+### [V1.0.4](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.4)
+
+- Add compatibility with Home Assistant.
 
 ### [V1.0.3](https://github.com/bigtreetech/Panda_Breath/tree/master/Firmware/1.0.3)
 
