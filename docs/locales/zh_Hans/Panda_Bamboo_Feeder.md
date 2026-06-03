@@ -1,4 +1,4 @@
-# Panda_Bamboo_Feeder
+# Panda Bamboo Feeder
 
 !!! info "Bigtreetech WiKi NEO"
     此界面已迁移到 Bigtreetech WiKi NEO
