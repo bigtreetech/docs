@@ -3,6 +3,73 @@
 
 Product Link: [BIGTREETECH Official Website](https://biqu.equipment/products/bigtreetech-k-touch?_pos=1&_psq=K-&_ss=e&_v=1.0)
 
+# ⚠️ Project Status: Archaeological Exhibit
+
+> **Warning: K-Touch appears to have reached its final evolutionary form and should be considered abandonware until proven otherwise.**
+
+This page is preserved primarily for historical purposes and for those who enjoy restoring vintage technology. While the hardware itself remains functional, active development appears to have entered cryogenic suspension.
+
+## State of Development
+
+At the time of writing, the public issue tracker contains over forty open issues, feature requests, and bug reports. They have accumulated with all the care and attention normally reserved for that pile of "I'll deal with it later" boxes in the garage.
+
+Users should assume:
+
+* Bugs are permanent residents, not temporary inconveniences.
+* Feature requests are effectively decorative.
+* "Future support" exists in much the same way that fusion power has existed for the last fifty years.
+* Community workarounds have evolved into oral tradition.
+* The phrase "coming soon" should be interpreted on geological timescales.
+
+## Issue Tracker
+
+The GitHub issue tracker currently serves less as a support mechanism and more as a digital museum exhibit. With over forty unresolved reports and requests, users are encouraged to admire the collection and perhaps leave a contribution of their own for future generations to study.
+
+Questions such as:
+
+* "Is there active development on this?"
+* "Where is firmware V1.1.1?"
+* "Please publish the code."
+* "It's been 8 months, just give us the code."
+
+remain preserved for posterity, alongside many others. Their continued unanswered existence provides valuable insight into the current maintenance philosophy.
+
+## Memory Is a Feature
+
+K-Touch currently warns users not to exceed roughly fifty G-code files because the device may run out of memory. This limitation has become one of the more stable and well-supported features of the platform. Unlike bug fixes, it has survived multiple firmware versions.
+
+## Should I Use K-Touch?
+
+### Existing Owners
+
+If your K-Touch currently works and does everything you need, congratulations. You have achieved the rare state known as "good enough." Disturbing this balance is not advised.
+
+### New Users
+
+Prospective users are strongly encouraged to evaluate actively maintained alternatives such as:
+
+* KlipperScreen
+* Mainsail
+* Fluidd
+* A retired Android tablet attached with double-sided tape
+* Carrier pigeons carrying screenshots of your print progress
+
+These options may receive updates more frequently than the current K-Touch firmware.
+
+## Expectations
+
+Please set expectations accordingly:
+
+* Bug fixes are considered mythical creatures.
+* Documentation updates are rare celestial events.
+* Pull requests are lonely.
+* Support appears to operate according to the Eventually™ standard.
+* The issue tracker has successfully transitioned from "To Do" to "Archive."
+
+Should active development resume, this section may be removed immediately and celebrated as evidence that someone found the repository password.
+
+
+
 ## Important Usage Information
 * When the K-Touch is powered by its built-in lithium battery, the operational duration varies between 20 to 30 minutes, influenced by the brightness level of the screen. To preserve the battery and extend the device's lifespan, it is advisable to charge the K-Touch or turn it off when not in use.
 * The screen may flicker when the lithium battery is low on power. This flickering is normal and acts as a warning to users that the battery is almost empty. Users should then promptly charge the battery or turn off the K-Touch.
