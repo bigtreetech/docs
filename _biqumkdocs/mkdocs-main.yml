@@ -120,8 +120,6 @@ theme:
     - toc.follow
     # - toc.integrate
   language: en
-  announcement: |
-    "test"
 extra_css:
   - assets/css/extra.css
   - assets/css/katex.min.css
