@@ -6,8 +6,12 @@ title: Welcome
 
 ## Here’s BIGTREETECH! For Makers, by makers!
 
-!!! tip "Wiki Migration Announcement"
-    The wiki address has been migrated from `bttwiki.com` to `global.bttwiki.com`. All requests to `bttwiki.com` will be redirected to `global.bttwiki.com`. 
+!!! tip "NEO Wiki Migration Announcement"
+    The BTT Wiki is gradually migrating to **[neo.bttwiki.com](https://neo.bttwiki.com)**.
+
+    Documentation for **new products** will be published exclusively on `neo.bttwiki.com`, while documentation for **existing products** will remain on the current Wiki and be migrated gradually over time.
+
+    During the transition, both Wikis will remain available to ensure uninterrupted access to all documentation.
 
 <p>We appreciate all of your support to BIGTREETECH! To offer an excellent experience<br> of creation to every makers,We’re devoted to design and produce high-quality <br>and durable accessories!</p>
 
