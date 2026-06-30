@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+        <title>404 Not Found - Bigtreetech Wiki</title>
+        <style>
+            /* ----------- css color ----------- */
+            :root {
+                --color-bg-dark: #0d0d0d;
+                --color-bg-card: #1a1a1a;
+                --color-text-light: #e4e4e4;
+                --color-text-muted: #cfcfcf;
+                --color-primary: #4b6cff;
+                --color-error: #ff6b6b;
+                --shadow-card: 0 8px 25px rgba(0, 0, 0, 0.5);
+                --shadow-btn: 0 4px 12px rgba(75, 108, 255, 0.25);
+                --shadow-btn-hover: 0 6px 18px rgba(75, 108, 255, 0.35);
+            }
+
+            /* ----------- global base ----------- */
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: "HarmonyOS Sans", sans-serif;
+                background: var(--color-bg-dark);
+                color: var(--color-text-light);
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* ----------- Product card ----------- */
+            #product {
+                width: 100%;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+
+            .product-card {
+                background: var(--color-bg-card);
+                border-radius: 14px;
+                box-shadow: var(--shadow-card);
+                padding: 32px;
+                max-width: 600px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                animation: fadeIn 0.4s ease;
+                word-break: break-word;
+            }
+
+            /* ----------- Logo css config ----------- */
+            .logo {
+                width: 150px;
+                max-width: 60%;
+                margin-bottom: 24px;
+                height: auto;
+            }
+
+            /* ----------- Animation ----------- */
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(12px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            /* ----------- title h2 ----------- */
+            .product-card h2 {
+                font-size: 2rem;
+                font-weight: 600;
+                margin: 0 0 24px 0;
+                text-align: center;
+            }
+
+            /* ----------- link button ----------- */
+            .btn-link {
+                background: var(--color-primary);
+                color: #fff;
+                border-radius: 8px;
+                text-decoration: none;
+                font-size: 1rem;
+                padding: 14px 24px;
+                display: block;
+                transition: 0.25s;
+                box-shadow: var(--shadow-btn);
+                width: 100%;
+                max-width: 280px;
+                text-align: center;
+                box-sizing: border-box;
+                font-weight: 600;
+            }
+
+            .btn-link:hover {
+                background: #7590ff;
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-btn-hover);
+            }
+
+            /* ----------- error ----------- */
+            .error-text {
+                color: var(--color-error);
+                font-size: 1.1rem;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            /* ----------- for 768px ----------- */
+            @media (max-width: 768px) {
+                .product-card {
+                    padding: 24px;
+                }
+                .product-card h2 {
+                    font-size: 1.8rem;
+                }
+            }
+
+            /* ----------- for 480px ----------- */
+            @media (max-width: 480px) {
+                #product {
+                    padding: 10px;
+                }
+                .product-card {
+                    padding: 20px;
+                    border-radius: 10px;
+                }
+                .product-card h2 {
+                    font-size: 1.5rem;
+                }
+                .btn-link {
+                    padding: 12px 18px;
+                    font-size: 0.95rem;
+                    max-width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="product"></div>
+
+        <script>
+            const div = document.getElementById("product");
+
+            try {
+                const pathname = window.location.pathname;
+
+                const filename = pathname.substring(
+                    pathname.lastIndexOf("/") + 1,
+                );
+
+                let queryTerm = filename.replace(/\.[^/.]+$/, "");
+
+                if (!queryTerm) {
+                    queryTerm = "404";
+                }
+
+                const queryForUrl = queryTerm.replace(/[-_]/g, "+");
+                let searchUrl = `https://neo.bttwiki.com/en/search/?q=${encodeURIComponent(queryForUrl)}`;
+
+                const queryForShow = queryTerm.replace(/[-_]/g, " ");
+
+                const browserLang = (
+                    navigator.language ||
+                    navigator.userLanguage ||
+                    ""
+                ).toLowerCase();
+
+                let name = `Search "${queryForShow}" in Bigtreetech Wiki NEO`;
+                let notfound_info = "This Page is not found in here..."
+                let btnText = `Search "${queryForShow}"`;
+                let go_wiki_home = "Back to Home"
+
+                if (browserLang.startsWith("zh")) {
+                    name = `在 Bigtreetech Wiki NEO 中搜索 "${queryForShow}"`;
+                    notfound_info = "页面在这里没有找到..."
+                    btnText = `搜索 "${queryForShow}"`;
+                    go_wiki_home = "返回主页"
+                    searchUrl = `https://neo.bttwiki.com/zh/search/?q=${encodeURIComponent(queryForUrl)}`;
+                }
+
+                div.innerHTML = `
+                    <div class="product-card">
+                        <img src="img/BQ-LOGO.svg" class="logo" alt="logo">
+                        <h2>Page ${queryForShow} Not Found</h2>
+                        <p>${notfound_info}</p>
+                        <p>${name}</p>
+                        </br>
+                        <a class="btn-link" href="${searchUrl}" target="_blank">
+                            ${btnText}
+                        </a>
+                        <br>
+                        <a class="btn-link" href="/" target="">
+                            ${go_wiki_home}
+                        </a>
+                    </div>
+                `;
+            } catch (error) {
+                div.innerHTML = `<p class="error-text">Error: ${error.message}</p>`;
+            }
+        </script>
+    </body>
+</html>

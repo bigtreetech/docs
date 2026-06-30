@@ -59,6 +59,7 @@ plugins:
 # Website layout configuration (using mkdocs-material theme)
 theme:
   name: material
+  custom_dir: overrides
   palette:   
     - scheme: default # 日间模式
       primary: blue grey # 上方的
@@ -104,7 +105,7 @@ theme:
     # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
@@ -119,6 +120,8 @@ theme:
     - toc.follow
     # - toc.integrate
   language: zh
+  announcement: |
+    "test"
 extra_css:
   - assets/css/extra.css
   - assets/css/katex.min.css
@@ -332,5 +335,5 @@ nav:
     - 冷却液:
       - Universal Turbo Kit.md 
       - Eco Turbo Kit.md 
-
-copyright: <a href="https://beian.miit.gov.cn/" target="_blank">© 2025 必趣创新科技(深圳)有限公司 版权所有 | 粤ICP备2024178516号</a>
+  
+copyright: © 2025 必趣创新科技(深圳)有限公司 版权所有 | <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
