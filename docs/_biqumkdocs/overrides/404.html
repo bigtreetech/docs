@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -153,49 +153,74 @@
 
             try {
                 const pathname = window.location.pathname;
-
-                const filename = pathname.substring(
-                    pathname.lastIndexOf("/") + 1,
-                );
-
-                let queryTerm = filename.replace(/\.[^/.]+$/, "");
-
-                if (!queryTerm) {
-                    queryTerm = "404";
-                }
-
-                const queryForUrl = queryTerm.replace(/[-_]/g, "+");
-                let searchUrl = `https://neo.bttwiki.com/en/search/?q=${encodeURIComponent(queryForUrl)}`;
-
-                const queryForShow = queryTerm.replace(/[-_]/g, " ");
-
+                const pathParts = pathname.split("/").filter(Boolean);
+                const filename = pathParts[pathParts.length - 1] || "";
                 const browserLang = (
                     navigator.language ||
                     navigator.userLanguage ||
                     ""
                 ).toLowerCase();
+                const isZh =
+                    pathParts[0] === "zh" ||
+                    pathParts[0] === "zh_Hans" ||
+                    browserLang.startsWith("zh");
 
-                let name = `Search "${queryForShow}" in Bigtreetech Wiki NEO`;
-                let notfound_info = "This Page is not found in here..."
-                let btnText = `Search "${queryForShow}"`;
-                let go_wiki_home = "Back to Home"
+                document.documentElement.lang = isZh ? "zh-CN" : "en";
 
-                if (browserLang.startsWith("zh")) {
-                    name = `在 Bigtreetech Wiki NEO 中搜索 "${queryForShow}"`;
-                    notfound_info = "页面在这里没有找到..."
-                    btnText = `搜索 "${queryForShow}"`;
-                    go_wiki_home = "返回主页"
-                    searchUrl = `https://neo.bttwiki.com/zh/search/?q=${encodeURIComponent(queryForUrl)}`;
+                function decodePathSegment(segment) {
+                    try {
+                        return decodeURIComponent(segment);
+                    } catch (error) {
+                        return segment;
+                    }
+                }
+
+                function escapeHtml(text) {
+                    return text
+                        .replace(/&/g, "&amp;")
+                        .replace(/</g, "&lt;")
+                        .replace(/>/g, "&gt;")
+                        .replace(/"/g, "&quot;")
+                        .replace(/'/g, "&#39;");
+                }
+
+                const pageName = decodePathSegment(filename).replace(
+                    /\.[^/.]+$/,
+                    "",
+                );
+                const searchTerm = pageName.replace(/[-_]+/g, " ").trim() || "404";
+                const searchTermHtml = escapeHtml(searchTerm);
+
+                const baseUrl = isZh
+                    ? "https://neo.bttwiki.com/zh/search"
+                    : "https://neo.bttwiki.com/en/search";
+
+                const url = new URL(baseUrl);
+                url.searchParams.set("q", searchTerm);
+                const searchUrl = url.toString();
+
+                let title = `Page ${searchTermHtml} Not Found`;
+                let name = `Search "${searchTermHtml}" in Bigtreetech Wiki NEO`;
+                let notfound_info = "This Page is not found in here...";
+                let btnText = `Search "${searchTermHtml}"`;
+                let go_wiki_home = "Back to Home";
+
+                if (isZh) {
+                    title = `页面 ${searchTermHtml} 未找到`;
+                    name = `在 Bigtreetech Wiki NEO 中搜索 "${searchTermHtml}"`;
+                    notfound_info = "页面在这里没有找到...";
+                    btnText = `搜索 "${searchTermHtml}"`;
+                    go_wiki_home = "返回主页";
                 }
 
                 div.innerHTML = `
                     <div class="product-card">
-                        <img src="img/BQ-LOGO.svg" class="logo" alt="logo">
-                        <h2>Page ${queryForShow} Not Found</h2>
+                        <img src="/img/BQ-LOGO.svg" class="logo" alt="logo">
+                        <h2>${title}</h2>
                         <p>${notfound_info}</p>
                         <p>${name}</p>
                         </br>
-                        <a class="btn-link" href="${searchUrl}" target="_blank">
+                        <a class="btn-link" href="${searchUrl}" target="_blank" rel="noopener noreferrer">
                             ${btnText}
                         </a>
                         <br>
