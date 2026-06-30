@@ -6,10 +6,12 @@ title: Welcome
 
 ## 这是BIGTREETECH! For Makers, by makers!
 
-!!! tip "Wiki Migration Announcement"
-    wiki 地址 从`bttwiki.com` 迁移到 `global.bttwiki.com`. 所有访问 `bttwiki.com` 的请求会被重定向到 `global.bttwiki.com`. 
+!!! tip "NEO Wiki 迁移公告"
+    BTT Wiki 正在逐步迁移至 **[neo.bttwiki.com](https://neo.bttwiki.com)**。
 
-    Bigtreetech Wiki NEO 试运行中... [Bigtreetech Wiki NEO](https://neo.bttwiki.com/zh/)
+    **新产品**的文档将仅发布在 `neo.bttwiki.com`，而**现有产品**的文档仍将保留在当前 Wiki，并将在后续逐步迁移至新站点。
+
+    在迁移期间，新旧两个 Wiki 将同时提供服务，以确保所有文档均可正常访问。
 
 我们感谢您对BIGTREETECH的支持！为了给每一位制造商提供卓越的创作体验，我们致力于设计和生产高质量、耐用的配件
 
