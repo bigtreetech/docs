@@ -1,5 +1,11 @@
 # CB1
 
+!!! info "Bigtreetech WiKi NEO"
+    This page has been migrated to the Bigtreetech WiKi NEO
+
+    [Bigtreetech WiKi NEO](https://neo.bttwiki.com/en/docs/board-docs/iot-series/iot-cb1/)
+
+
 [<img src=img/CB1.webp width="500" />](https://bigtreetech.github.io/docs/CB1.html)
 
 ## **Product Profile**

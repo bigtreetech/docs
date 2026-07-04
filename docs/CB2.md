@@ -1,5 +1,10 @@
 # CB2
 
+!!! info "Bigtreetech WiKi NEO"
+    This page has been migrated to the Bigtreetech WiKi NEO
+
+    [Bigtreetech WiKi NEO](https://neo.bttwiki.com/en/docs/board-docs/iot-series/iot-cb2/)
+
 <img src=img/CB2/CB2_Title.webp width="500" />
 
 ## **Product Profile**

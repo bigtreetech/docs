@@ -1,5 +1,11 @@
 # EBB 36 CAN
 
+!!! info "Bigtreetech WiKi NEO"
+    This page has been migrated to the Bigtreetech WiKi NEO
+
+    [Bigtreetech WiKi NEO](https://neo.bttwiki.com/en/docs/board-docs/ebb-series/ebb-36/)
+
+
 <img src=img/EBB36CAN/EBB_36_Title.webp width="550">  
 
 ## Product Profile
