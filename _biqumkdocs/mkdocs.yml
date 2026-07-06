@@ -330,5 +330,41 @@ nav:
     - Cooling solution:
       - Universal Turbo Kit.md 
       - Eco Turbo Kit.md 
+  - Product in wiki NEO:
+    - page_move.md
+    - build palte: https://neo.bttwiki.com/docs/category/build-plate
+    - Board and IOT:
+      - MMB CAN V1.0: https://neo.bttwiki.com/docs/board-docs/mmb-series/mmb-1/
+      - MMB CAN V2.0: https://neo.bttwiki.com/docs/board-docs/mmb-series/mmb-2/
+      - CB1: https://neo.bttwiki.com/docs/board-docs/iot-series/iot-cb1/
+      - CB2: https://neo.bttwiki.com/docs/board-docs/iot-series/iot-cb2/
+      - K HUB: https://neo.bttwiki.com/docs/board-docs/iot-series/iot-khub-v1/
+      - BIGTREETECH Pad5 V2: https://neo.bttwiki.com/docs/board-docs/iot-series/iot-pad5-v2/
+    - Panda series:
+      - Panda Claw A1/A1 Mini: https://neo.bttwiki.com/docs/panda-series/extruder/panda-claw-a1mini/
+      - Panda Claw P1/X1: https://neo.bttwiki.com/docs/panda-series/extruder/panda-claw-px/
+      - Panda Extruder: https://neo.bttwiki.com/docs/panda-series/extruder/panda-extruder/
+      - Panda Revo: https://neo.bttwiki.com/docs/category/panda-revo
+      - Panda Den Air: https://neo.bttwiki.com/docs/panda-series/module/panda-den-air/
+      - Panda Den H2: https://neo.bttwiki.com/docs/panda-series/module/panda-den-h2/
+      - Panda Hotend Wizard: https://neo.bttwiki.com/docs/panda-series/module/panda-hotend-wizard/
+      - Panda Status P2: https://neo.bttwiki.com/docs/panda-series/module/panda-status-p2/
+      - Panda Tap: https://neo.bttwiki.com/docs/panda-series/module/panda-tap/
+      - Panda Vent: https://neo.bttwiki.com/docs/panda-series/module/panda-vent/
+      - BMCU-370: https://neo.bttwiki.com/docs/panda-series/module/bmcu370/
+      - Panda Alarm: https://neo.bttwiki.com/docs/panda-series/module/panda-alarm/
+      - Panda Bamboo Feeder: https://neo.bttwiki.com/docs/panda-series/module/panda-bamboo-feeder/
+      - Panda Branch: https://neo.bttwiki.com/docs/panda-series/module/panda-branch/
+      - Panda Breeze: https://neo.bttwiki.com/docs/panda-series/module/panda-breeze/
+      - Panda Hub: https://neo.bttwiki.com/docs/panda-series/module/panda-hub/
+      - Panda Jet: https://neo.bttwiki.com/docs/panda-series/module/panda-jet/
+      - Panda Jetpack: https://neo.bttwiki.com/docs/panda-series/module/panda-jetpack/
+      - Panda Lux: https://neo.bttwiki.com/docs/panda-series/module/panda-lux/
+      - Panda Treat: https://neo.bttwiki.com/docs/panda-series/module/panda-treat/
+      - Panda Touch: https://neo.bttwiki.com/docs/panda-series/panda-touch/
+    - Pop Series:
+      - PopCap: https://neo.bttwiki.com/docs/more-series/pop-module/pop-cap/
+      - PopStatus: https://neo.bttwiki.com/docs/more-series/pop-module/popstatus/
+    - filament: https://neo.bttwiki.com/docs/filament
   
 copyright: © 2025 必趣创新科技(深圳)有限公司 版权所有 | <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024178516号</a>
