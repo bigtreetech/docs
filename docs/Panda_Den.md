@@ -54,13 +54,9 @@ Panda Den is a stackable storage product designed for **Bambu Lab A/P/X series p
 
     <img src=img/PandaDen/a1_1.webp width="400"/>
 
-    * The following installation parts are 3D-printed parts. We recommend printing them in advance before following the assembly guide. Print files: [Panda_Den_Printout](https://makerworld.com/zh/models/1832235-panda-den-printout#profileId-2213499)
+    The following installation parts are 3D-printed parts. We recommend printing them in advance before following the assembly guide. Print files: [Panda_Den_Printout](https://makerworld.com/zh/models/1832235-panda-den-printout#profileId-2213499)
 
-        <img src=img/PandaDen/print_1.webp width="800"/>
-
-    * The following installation parts are 3D-printed parts. We recommend printing them in advance before following the assembly guide. Make sure to select the correct print files for P/X series and X2D printers. Print files: [Panda_Den_Printout](https://makerworld.com/zh/models/1832235-panda-den-printout#profileId-2213499)
-
-        <img src=img/PandaDen/print_2.webp width="800"/>
+    <img src=img/PandaDen/print_1.webp width="800"/>
 
 
 * Step 2: Install the A1 Waste Collection (printed in advance) onto its designated mounting hole, identified by the silk mark **A1/A1 mini Waste Chute Extension mounting hole**.  Secure it with the two included M4×8 screws. Next, position the A-series printer on top of the Panda Den, ensuring the leftmost side is aligned directly above the Waste Collection opening. Finally, insert the printed A1 Waste Stopper to complete the installation.
@@ -81,6 +77,10 @@ Panda Den is a stackable storage product designed for **Bambu Lab A/P/X series p
     Attach the provided steel bracket to the designated mounting holes (silk marking: filament spool holder mounting holes). There are four holes, allowing two possible mounting positions—choose whichever you prefer. Secure the bracket with the two included M4×5 screws. Once installed, the bracket can hold either the included filament spool holder or the printer’s original holder.
 
     <img src=img/PandaDen/px_1.webp width="400"/>
+
+    The following installation parts are 3D-printed parts. We recommend printing them in advance before following the assembly guide. Make sure to select the correct print files for P/X series and X2D printers. Print files: [Panda_Den_Printout](https://makerworld.com/zh/models/1832235-panda-den-printout#profileId-2213499)
+
+    <img src=img/PandaDen/print_2.webp width="800"/>
 
 * Step 2: Assemble the P1/X1 Waste Chute Extension.
 
