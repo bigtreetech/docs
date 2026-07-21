@@ -60,6 +60,14 @@ Panda Den 是专为 **Bambu Lab A/P/X打印机** 用户打造的堆叠收纳产�
 
     <img src=/img/PandaDen/a1_1.webp width="400"/>
 
+    * 以下安装配件为3D打印件，建议提前完成打印后再按指引完成组装。打印件链接：[Panda_Den_Printout](https://makerworld.com/zh/models/1832235-panda-den-printout#profileId-2213499)
+
+        <img src=/img/PandaDen/print_1.webp width="800"/>
+
+    * 以下安装配件为3D打印件，建议提前完成打印后再按指引完成组装。请注意区分P/X系列与X2D打印件配件。打印件链接：[Panda_Den_Printout](https://makerworld.com/zh/models/1832235-panda-den-printout#profileId-2213499)
+
+        <img src=/img/PandaDen/print_2.webp width="800"/>
+
 * 第二步：安装废料口，使用附带的2颗M4*8半圆头螺丝将A系列耗材导管固定左侧废料口中，A系列设备放置在底座顶面，使最左端刚好在废料口上方，推入安装废料挡板
 
     <img src=/img/PandaDen/a1_3.webp width="400"/>
