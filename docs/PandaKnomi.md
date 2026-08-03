@@ -644,6 +644,16 @@ If there is something you would like to see in a future release of the Panda Kno
 
 ### Firmware History <a id="firmware_history"></a>
 
+#### [V1.1.0](https://github.com/bigtreetech/PandaKnomi/releases/tag/V1.1.0)
+* Fixed WebUI connect wifi, hyperlink redirection, download/export img failed, etc.
+* Added 18 bytes SN code compatible with A2L
+* `printing_ok.gif` change from playing for only 2.5 seconds to playing continuously for 30 minutes unless there is a new change in printing status
+* Added 4 new status GIFs
+    * `plate_type.gif` for identify the type of plate for the printer.
+    * `calibration_lines.gif` for print calibration line
+    * `chamber_cooling.gif` for waiting for the chamber temperature to cool down
+
+
 #### [V1.0.5](https://github.com/bigtreetech/PandaKnomi/releases/download/V1.0.5/panda_knomi_V1.0.5.zip)
 * Fixed bad HMS errors and improved web interface stability.
 * Added new theme options, progress colors, and screensaver toggle.

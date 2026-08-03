@@ -645,6 +645,20 @@
 
 ### 固件历史记录 <a id="firmware_history"></a>
 
+#### [V1.1.0](https://github.com/bigtreetech/PandaKnomi/releases/tag/V1.1.0)
+* 修复了 WebUI 中连接 wifi、超链接重定向、下载/导出 img 失败等问题。
+* 添加了兼容 A2L 的 18 字节 SN 码
+* `printing_ok.gif` 将从仅播放 2.5 秒变为连续播放 30 分钟(除非打印状态有新的变化)
+* 新增4个状态GIF
+    * `plate_type.gif` 用于识别打印板类型。
+    * `calibration_lines.gif` 用于打印校准标定线
+    * `chamber_colling.gif` 用于等待腔室温度冷却
+
+#### [V1.0.5](https://github.com/bigtreetech/PandaKnomi/releases/download/V1.0.5/panda_knomi_V1.0.5.zip)
+* 修复 HMS 错误，提高了 WebUI 的稳定性。
+* 添加了新的主题选项、进度颜色和屏保切换。
+* 有关详细的发布信息，请访问[发布页面](https://github.com/bigtreetech/PandaKnomi/releases).
+
 #### [V1.0.4.1](https://github.com/bigtreetech/PandaKnomi/tree/master/Firmware/v1.0.4.1)
 * 优化: 默认的 AP IP 由 `192.168.4.1` 修改为 `192.168.254.1`，尽可能的减小与路由器 IP 号段冲突的可能性
 
