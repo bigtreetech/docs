@@ -1,4 +1,5 @@
 # Belter
+
 <img src="img/Belter/Belter_title.webp" width="600" />
 
 **Product Link:** [BIGTREETECH Official Website](https://biqu.equipment/products/biqu-belter-belt-tension-tool)
@@ -42,47 +43,47 @@ Find all printed parts models here: [PrintParts](https://github.com/bigtreetech/
 
 1. Open the [Belter Calculation Tool](https://belter.bttwiki.com/).
 
-<img src="img/Belter/Belter_Calculation_Tool.webp" width="600" />
+    <img src="img/Belter/Belter_Calculation_Tool.webp" width="600" />
 
 2. Push the bracket assembly against the depth gauge to make sure it is properly seated. Check that all bracket screws are tight and that the bracket is not loose.
 
-<img src="img/Belter/Belter_Structure.webp" width="600" />
+    <img src="img/Belter/Belter_Structure.webp" width="600" />
 
 3. Zero the reading on the depth gauge.
 
-<img src="img/Belter/Belter_zero.webp" width="600" />
+    <img src="img/Belter/Belter_zero.webp" width="600" />
 
 4. Install the zeroing tool.
 
-<img src="img/Belter/Belter_Zero_Tool.webp" width="600" />
+    <img src="img/Belter/Belter_Zero_Tool.webp" width="600" />
 
 5. Record the Belter reading and enter it into the calculation tool under **Belter Calibration Reading**.
 
-<img src="img/Belter/Belter_Calibration_Reading.webp" width="600" />
+    <img src="img/Belter/Belter_Calibration_Reading.webp" width="600" />
 
 6. Measure the thickness of your belt with a caliper.
 
-<img src="img/Belter/Belt_thickness.webp" width="600" />
+    <img src="img/Belter/Belt_thickness.webp" width="600" />
 
 7. Enter the belt thickness value into the calibration tool under **Belt Thickness**.
 
-<img src="img/Belter/Belt_Thickness_Reading.webp" width="600" />
+    <img src="img/Belter/Belt_Thickness_Reading.webp" width="600" />
 
 8. Select the correct belt spec for tension range check.
 
-<img src="img/Belter/Tension Range.webp" width="600" />
+    <img src="img/Belter/Tension Range.webp" width="600" />
 
-For Custom belts, select "Custom Range" to put in your own Min and Max tension to be checked against.
+    For Custom belts, select "Custom Range" to put in your own Min and Max tension to be checked against.
 
-<img src="img/Belter/Custom Range.webp" width="600" />
+    <img src="img/Belter/Custom Range.webp" width="600" />
 
 Congratulations, you have now finished the calibration process!
 
-## Belt Tension Measurement 
+## Belt Tension Measurement
 
 1. Measure the belt tension as shown in the picture and enter the reading into the calculation tool.
 
-<img src="img/Belter/Belter_measure.webp" width="600" />
+    <img src="img/Belter/Belter_measure.webp" width="600" />
 
 ## Calculation Tool Instructions
 
@@ -139,70 +140,70 @@ The calculated tension is an estimated reference value for adjusting 3D printer 
 
 1. Make sure the **Belter Calibration Reading**, **Belt Thickness**, and **Belt Width** entered in the Belter Calculation Tool are the same values used during the calibration process.
 
-<img src="img/Belter/Belter_Calculation_Tool1.webp" width="600" />
+    <img src="img/Belter/Belter_Calculation_Tool1.webp" width="600" />
 
 2. Prepare test loads from **500 g to 2000 g**, in **100 g increments**.
 
-The cheapest and easiest test-load option is to use a container larger than 2 L and a digital scale. Add water until the target load is reached, confirm the weight on the scale, and then perform the Belter measurement.
+    The cheapest and easiest test-load option is to use a container larger than 2 L and a digital scale. Add water until the target load is reached, confirm the weight on the scale, and then perform the Belter measurement.
 
-<img src="img/Belter/Water_Load.webp" width="600" />
+    <img src="img/Belter/Water_Load.webp" width="600" />
 
-The complete test range is:
+    The complete test range is:
 
-`500 g, 600 g, 700 g, 800 g, 900 g, 1000 g, 1100 g, 1200 g, 1300 g, 1400 g, 1500 g, 1600 g, 1700 g, 1800 g, 1900 g, 2000 g`
+    `500 g, 600 g, 700 g, 800 g, 900 g, 1000 g, 1100 g, 1200 g, 1300 g, 1400 g, 1500 g, 1600 g, 1700 g, 1800 g, 1900 g, 2000 g`
 
 3. Hang the **500 g** test load on a length of belt and allow the belt and test setup to settle before taking a measurement.
 
-<img src="img/Belter/Belter_Weight_Test.webp" width="600" />
+    <img src="img/Belter/Belter_Weight_Test.webp" width="600" />
 
 4. Install the Belter and record the reading in the provided [calibration spreadsheet](https://github.com/bigtreetech/Belter-belt-tension-Tool/tree/master/Calculation%20Tool/).
 
-For best repeatability, completely remove and reinstall the Belter between each measurement.
+    For best repeatability, completely remove and reinstall the Belter between each measurement.
 
 5. Measure the same test load **12 times**.
 
-After each measurement:
+    After each measurement:
 
-`Measure → Record the reading → Remove the Belter → Reinstall the Belter → Measure again`
+    `Measure → Record the reading → Remove the Belter → Reinstall the Belter → Measure again`
 
 6. Repeat the same process for each test load from **500 g to 2000 g**.
 
-The spreadsheet will automatically calculate the measurement results for each test load.
+    The spreadsheet will automatically calculate the measurement results for each test load.
 
-<img src="img/Belter/Belter_Calibration_Data.webp" width="600" />
+    <img src="img/Belter/Belter_Calibration_Data.webp" width="600" />
 
 7. For every group of 12 measurements, the spreadsheet automatically removes:
 
-- The highest reading
-- The lowest reading
+    - The highest reading
+    - The lowest reading
 
-The remaining **10 readings** are used to calculate **Average (trimmed 10)**.
+    The remaining **10 readings** are used to calculate **Average (trimmed 10)**.
 
-The spreadsheet also displays **StDev** to help evaluate measurement repeatability.
+    The spreadsheet also displays **StDev** to help evaluate measurement repeatability.
 
 8. After all test loads have been measured, select and copy the complete **Average (trimmed 10)** row from **500 g to 2000 g**.
 
-You can also include the **Average (trimmed 10)** label cell when copying. The Belter Calculation Tool will ignore the label automatically.
+    You can also include the **Average (trimmed 10)** label cell when copying. The Belter Calculation Tool will ignore the label automatically.
 
-<img src="img/Belter/Belter_Copy_Average.webp" width="600" />
+    <img src="img/Belter/Belter_Copy_Average.webp" width="600" />
 
 9. Open the **Fit Parameters from Test Data** section in the Belter Calculation Tool.
 
-<img src="img/Belter/Belter_Fit_Parameters.webp" width="600" />
+    <img src="img/Belter/Belter_Fit_Parameters.webp" width="600" />
 
 10. Click any test-data input field and paste the copied **Average (trimmed 10)** row.
 
-The Belter Calculation Tool will automatically recognize the values and assign them in order from:
+    The Belter Calculation Tool will automatically recognize the values and assign them in order from:
 
-`500 g → 600 g → 700 g → ... → 2000 g`
+    `500 g → 600 g → 700 g → ... → 2000 g`
 
 11. The Belter Calculation Tool will automatically fit the measurement data and calculate a custom **Coefficient A** and **Exponent p** for the tension model:
 
-`Tension = A / (dmax - d)^p`
+    `Tension = A / (dmax - d)^p`
 
-The fitted parameters are automatically applied to both **Compare Belts** and **Single Belt** modes.
+    The fitted parameters are automatically applied to both **Compare Belts** and **Single Belt** modes.
 
-<img src="img/Belter/Belter_Auto_Fit_Result.webp" width="600" />
+    <img src="img/Belter/Belter_Auto_Fit_Result.webp" width="600" />
 
 Congratulations, you have now finished the optional calculation model calibration!
 
@@ -228,9 +229,3 @@ If you experience any issues with this product, please contact us and submit a s
 - [BIGTREETECH Official Website](http://bigtree-tech.com/)
 - [Online Store](https://biqu.equipment/)
 - [Community](https://community.biqu3d.com/)
-.equipment/)
-
-Community: [https://community.biqu3d.com](https://community.biqu3d.com/)
-qu.equipment/)
-
-Community: [https://community.biqu3d.com](https://community.biqu3d.com/)
