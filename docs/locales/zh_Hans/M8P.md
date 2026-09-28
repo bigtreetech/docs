@@ -67,7 +67,7 @@
 
 **V1.0和V1.1之间的差异**
 
-V1.1中的更改包括：M6、M7、M8、SPI、MCU卡、RGB1和RGB2、FAN4、CAN、Pi FAN
+V1.1中的更改包括：M6、M7、M8、SPI、MCU-Card 相关电路、RGB1和RGB2、FAN4、CAN、Pi FAN。V1.0 和 V1.1 均设有 MCU 固件卡槽。
 
 <img src=/img/M8P/M8P_Pin_Out1.webp width="600" />
 
@@ -147,6 +147,20 @@ M8P主板通电后，MCU左侧的D32红灯亮起，表示电源正常。电路�
 **M8P+CB1：注意方向，如下所示。**
 
 <img src=/img/M8P/M8P_M8P+CB1.webp width="600" />
+
+### SD 卡接口
+
+M8P V1.0 与 V1.1 均设有两个用途不同的 microSD 卡槽，且卡槽位置相同。下图使用 V1.1 的商品背面图，卡槽位置说明同样适用于 V1.0；勿将系统卡与 MCU 固件卡混用。
+
+<img src=/img/M8P/M8P_V1_SD_Cards.webp width="600" />
+
+| 卡槽 | 用途 |
+| --- | --- |
+| SOC-Card | 供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。 |
+| MCU-Card | 用于更新主板 MCU 固件，不是核心板的系统卡槽。 |
+
+!!! warning "MCU-Card 使用条件"
+    通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
 
 ### **数控风机的电压选择**
 

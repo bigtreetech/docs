@@ -155,6 +155,20 @@ The jumper is inserted into the right side and powered by the main POWER port. t
 
 <img src=img/M4P/M4P+CB1.webp width="600" />
 
+### SD Card Slots
+
+The M4P has two SD card slots with different purposes. The image below marks their locations on the back of the motherboard: SOC-Card is next to MCU-Card. Check the markings on your board for differences between hardware revisions.
+
+<img src=img/M4P/M4P_SD_Cards.webp width="600" />
+
+| Slot | Purpose |
+| --- | --- |
+| SOC-Card | Holds the OS image for a core board that uses a microSD card; it does not update the motherboard MCU firmware. |
+| MCU-Card | Updates the motherboard MCU firmware; it is not the core board's system card slot. |
+
+!!! warning "MCU-Card requirement"
+    Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
 ### **40 pin GPIO**
 
 <p>When working with CM4, the pin arrangement of 40 Pin GPIO is exactly the same as that of Raspberry Pi. When working with CB1, it is a custom IO arrangement, as shown in the figure below, the 'GPIO4' in front of '_' is the IO of CM4, and the latter 'PC7' is the IO of CB1.</p>

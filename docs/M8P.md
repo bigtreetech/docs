@@ -64,7 +64,7 @@ BIGTREETECH MANTA M8P is a 32-bit printer motherboard developed by the 3D printi
 
 **Differences between V1.0 and V1.1**
 
-Changes in V1.1 include：M6，M7，M8，SPI，MCU-Card，RGB1&RGB2，FAN4，CAN，Pi-FAN
+Changes in V1.1 include: M6, M7, M8, SPI, MCU-Card-related circuitry, RGB1 and RGB2, FAN4, CAN, and Pi-FAN. Both V1.0 and V1.1 have an MCU firmware card slot.
 
 <img src=img/M8P/M8P_Pin_Out1.webp width="600" />
 
@@ -144,6 +144,20 @@ As shown in the figure, plug the jumper cap when using the Sensorless Homing fun
 **M8P+CB1: Pay attention to the direction, as shown below.**
 
 <img src=img/M8P/M8P_M8P+CB1.webp width="600" />
+
+### SD Card Slots
+
+Both M8P V1.0 and V1.1 have two microSD card slots with different purposes, in the same locations. The V1.1 back product image below also illustrates the slot locations on V1.0. Do not confuse the system card slot with the MCU firmware card slot.
+
+<img src=img/M8P/M8P_V1_SD_Cards.webp width="600" />
+
+| Slot | Purpose |
+| --- | --- |
+| SOC-Card | Holds the OS image for a core board that uses a microSD card; it does not update the motherboard MCU firmware. |
+| MCU-Card | Updates the motherboard MCU firmware; it is not the core board's system card slot. |
+
+!!! warning "MCU-Card requirement"
+    Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
 
 ### **Voltage Selection for CNC Fans**
 

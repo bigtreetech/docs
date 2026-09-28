@@ -131,6 +131,22 @@ When using sensorless homing, place jumpers according to the diagram below, ther
 
 <img src=img/M5P/M5P_CB1.webp width="600" />
 
+### SD Card Slots
+
+The M5P has two SD card slots with different purposes: SOC-Card is on the front, and MCU-Card is on the back. The straight-on front and back product images of M5P V1.0 below mark the respective slot locations.
+
+<img src=img/M5P/M5P_SD_Cards.webp width="600" />
+
+<img src=img/M5P/M5P_MCU_Card.webp width="600" />
+
+| Slot | Purpose |
+| --- | --- |
+| SOC-Card | Holds the OS image for a core board that uses a microSD card; it does not update the motherboard MCU firmware. |
+| MCU-Card | Updates the motherboard MCU firmware; it is not the core board's system card slot. |
+
+!!! warning "MCU-Card requirement"
+    Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.
+
 ### **Voltage Selection for CNC Fans**
 
 Through the jumper cap, you can set the output voltage to 5V, 12V, or 24V.

@@ -125,6 +125,20 @@
 
 <img src=/img/M4P/M4P+CB1.webp width="600" />
 
+### SD 卡接口
+
+M4P 主板设有两个用途不同的 SD 卡槽。下图标注主板背面的卡槽位置，SOC-Card 与 MCU-Card 相邻；不同硬件版本请以实物丝印为准。
+
+<img src=/img/M4P/M4P_SD_Cards.webp width="600" />
+
+| 卡槽 | 用途 |
+| --- | --- |
+| SOC-Card | 供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。 |
+| MCU-Card | 用于更新主板 MCU 固件，不是核心板的系统卡槽。 |
+
+!!! warning "MCU-Card 使用条件"
+    通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。
+
 ### **40 pin GPIO**
 
 <p>当使用CM4时，40引脚GPIO的引脚排列与Raspberry Pi的引脚排列完全相同。当使用CB1时，它是一种自定义的IO排列，如下图所示，“_”前面的“GPIO4”是CM4的IO，后面的“PC7”是CB1的IO。</p>
