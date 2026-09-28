@@ -1245,6 +1245,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD 卡接口
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       数控风机的电压选择
@@ -7339,6 +7348,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD 卡接口
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       数控风机的电压选择
@@ -7646,6 +7664,32 @@
 <p><img src=/img/M5P/M5P_CM4.webp width="600" /></p>
 <p><strong>M5P+CB1：注意方向，如下图所示：</strong></p>
 <p><img src=/img/M5P/M5P_CB1.webp width="600" /></p>
+<h3 id="sd">SD 卡接口<a class="headerlink" href="#sd" title="Permanent link">&para;</a></h3>
+<p>M5P 主板设有两个用途不同的 SD 卡槽：SOC-Card 位于正面，MCU-Card 位于背面。下方分别使用 M5P V1.0 的正面和背面正视商品图标注卡槽位置。</p>
+<p><img src=/img/M5P/M5P_SD_Cards.webp width="600" /></p>
+<p><img src=/img/M5P/M5P_MCU_Card.webp width="600" /></p>
+<table>
+<thead>
+<tr>
+<th>卡槽</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SOC-Card</td>
+<td>供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。</td>
+</tr>
+<tr>
+<td>MCU-Card</td>
+<td>用于更新主板 MCU 固件，不是核心板的系统卡槽。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">MCU-Card 使用条件</p>
+<p>通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。</p>
+</div>
 <h3 id="_11"><strong>数控风机的电压选择</strong><a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>通过跳线帽，您可以将输出电压设置为5V、12V或24V。</p>
 <p><strong><font  color="red">注：我们不对因电压选择错误而导致的风扇烧坏负责。</font></strong></p>

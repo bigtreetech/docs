@@ -1245,6 +1245,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd-card-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD Card Slots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#voltage-selection-for-cnc-fans" class="md-nav__link">
     <span class="md-ellipsis">
       Voltage Selection for CNC Fans
@@ -7339,6 +7348,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd-card-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD Card Slots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#voltage-selection-for-cnc-fans" class="md-nav__link">
     <span class="md-ellipsis">
       Voltage Selection for CNC Fans
@@ -7666,6 +7684,32 @@
 <p><img src=img/M5P/M5P_CM4.webp width="600" /></p>
 <p><strong>M5P+CB1: Note the direction, as shown in the figure below:</strong></p>
 <p><img src=img/M5P/M5P_CB1.webp width="600" /></p>
+<h3 id="sd-card-slots">SD Card Slots<a class="headerlink" href="#sd-card-slots" title="Permanent link">&para;</a></h3>
+<p>The M5P has two SD card slots with different purposes: SOC-Card is on the front, and MCU-Card is on the back. The straight-on front and back product images of M5P V1.0 below mark the respective slot locations.</p>
+<p><img src=img/M5P/M5P_SD_Cards.webp width="600" /></p>
+<p><img src=img/M5P/M5P_MCU_Card.webp width="600" /></p>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SOC-Card</td>
+<td>Holds the OS image for a core board that uses a microSD card; it does not update the motherboard MCU firmware.</td>
+</tr>
+<tr>
+<td>MCU-Card</td>
+<td>Updates the motherboard MCU firmware; it is not the core board's system card slot.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">MCU-Card requirement</p>
+<p>Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.</p>
+</div>
 <h3 id="voltage-selection-for-cnc-fans"><strong>Voltage Selection for CNC Fans</strong><a class="headerlink" href="#voltage-selection-for-cnc-fans" title="Permanent link">&para;</a></h3>
 <p>Through the jumper cap, you can set the output voltage to 5V, 12V, or 24V.</p>
 <p><strong><font  color="red">Note: We are not responsible for fan burnout caused by incorrect voltage selection. </font></strong></p>

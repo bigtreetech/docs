@@ -1259,6 +1259,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd-card-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD Card Slots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#voltage-selection-for-cnc-fans" class="md-nav__link">
     <span class="md-ellipsis">
       Voltage Selection for CNC Fans
@@ -7348,6 +7357,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd-card-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD Card Slots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#voltage-selection-for-cnc-fans" class="md-nav__link">
     <span class="md-ellipsis">
       Voltage Selection for CNC Fans
@@ -7652,7 +7670,7 @@
 <h2 id="pinout"><strong>Pinout</strong><a class="headerlink" href="#pinout" title="Permanent link">&para;</a></h2>
 <p><img src=img/M8P/M8P_Pin_Out.webp width="600" /></p>
 <p><strong>Differences between V1.0 and V1.1</strong></p>
-<p>Changes in V1.1 include：M6，M7，M8，SPI，MCU-Card，RGB1&amp;RGB2，FAN4，CAN，Pi-FAN</p>
+<p>Changes in V1.1 include: M6, M7, M8, SPI, MCU-Card-related circuitry, RGB1 and RGB2, FAN4, CAN, and Pi-FAN. Both V1.0 and V1.1 have an MCU firmware card slot.</p>
 <p><img src=img/M8P/M8P_Pin_Out1.webp width="600" /></p>
 <h2 id="interface-diagram"><strong>Interface Diagram</strong><a class="headerlink" href="#interface-diagram" title="Permanent link">&para;</a></h2>
 <p><img src=img/M8P/M8P_CAD.webp width="600" /></p>
@@ -7691,6 +7709,31 @@
 <p><img src=img/M8P/M8P_M8P+CM4.webp width="600" /></p>
 <p><strong>M8P+CB1: Pay attention to the direction, as shown below.</strong></p>
 <p><img src=img/M8P/M8P_M8P+CB1.webp width="600" /></p>
+<h3 id="sd-card-slots">SD Card Slots<a class="headerlink" href="#sd-card-slots" title="Permanent link">&para;</a></h3>
+<p>Both M8P V1.0 and V1.1 have two microSD card slots with different purposes, in the same locations. The V1.1 back product image below also illustrates the slot locations on V1.0. Do not confuse the system card slot with the MCU firmware card slot.</p>
+<p><img src=img/M8P/M8P_V1_SD_Cards.webp width="600" /></p>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SOC-Card</td>
+<td>Holds the OS image for a core board that uses a microSD card; it does not update the motherboard MCU firmware.</td>
+</tr>
+<tr>
+<td>MCU-Card</td>
+<td>Updates the motherboard MCU firmware; it is not the core board's system card slot.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">MCU-Card requirement</p>
+<p>Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.</p>
+</div>
 <h3 id="voltage-selection-for-cnc-fans"><strong>Voltage Selection for CNC Fans</strong><a class="headerlink" href="#voltage-selection-for-cnc-fans" title="Permanent link">&para;</a></h3>
 <p>Set the output voltage to 5V, 12V, or 24V with a jumper cap. Note: Please confirm the fan's operating voltage before choosing a voltage. Our company    is not responsible for fan burnout caused by wrong selection.</p>
 <p><img src=img/M8P/M8P_CNC_Fans.webp width="600" /></p>

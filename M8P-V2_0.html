@@ -1291,6 +1291,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd-card-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD Card Slots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#cnc-fan-voltage-selection" class="md-nav__link">
     <span class="md-ellipsis">
       CNC Fan Voltage Selection
@@ -7528,6 +7537,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd-card-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD Card Slots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#cnc-fan-voltage-selection" class="md-nav__link">
     <span class="md-ellipsis">
       CNC Fan Voltage Selection
@@ -8022,6 +8040,31 @@
 <p><img src=img/m8p-v2_0/m8p_v2_0_installing1.webp width="600" /></p>
 <p><strong>M8P+CB1: Note orientation as shown below.</strong></p>
 <p><img src=img/m8p-v2_0/m8p_v2_0_installing2.webp width="600" /></p>
+<h3 id="sd-card-slots">SD Card Slots<a class="headerlink" href="#sd-card-slots" title="Permanent link">&para;</a></h3>
+<p>The M8P V2.0 has two microSD card slots with different purposes. The V2.0 back product image below marks the SOC-Card and MCU-Card slot locations. Do not confuse the system card slot with the MCU firmware card slot.</p>
+<p><img src=img/m8p-v2_0/m8p_v2_0_sd_cards.webp width="600" /></p>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SOC-Card</td>
+<td>Holds the OS image for a core board that uses a microSD card; it does not update the motherboard MCU firmware.</td>
+</tr>
+<tr>
+<td>MCU-Card</td>
+<td>Updates the motherboard MCU firmware; it is not the core board's system card slot.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">MCU-Card requirement</p>
+<p>Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.</p>
+</div>
 <h3 id="cnc-fan-voltage-selection">CNC Fan Voltage Selection<a class="headerlink" href="#cnc-fan-voltage-selection" title="Permanent link">&para;</a></h3>
 <p>Set the output voltage to 5V, 12V, or 24V using jumpers. </p>
 <p><strong><font  color="red">Note: Before selecting the voltage, please make sure to confirm the supported voltage of the fan. Our company is not responsible for fan damage caused by incorrect voltage selection.</font></strong></p>
@@ -8165,7 +8208,7 @@ CB1:
 <p><img src=img/m8p-v2_0/m8p_v2_0_system8.webp width="600" /></p>
 <h3 id="update-firmware">Update Firmware<a class="headerlink" href="#update-firmware" title="Permanent link">&para;</a></h3>
 <p><strong>SD Card Update</strong></p>
-<p>1、Rename <code>klipper.bin</code> to "firmware.bin", copy it to the root directory of the SD card, insert the SD card into the MANTA M8P SD card slot, press the reset button or power on again, and the firmware will be automatically updated. After the update is complete, the "firmware.bin" in the SD card will be renamed to "FIRMWARE.CUR".</p>
+<p>1、Rename <code>klipper.bin</code> to <code>firmware.bin</code> and copy it to the root directory of a microSD card. Insert the card into the motherboard's MCU-Card slot (not the SOC-Card slot), then press RESET or power the board on again. The update runs only if the factory bootloader is still present. After a successful update, <code>firmware.bin</code> on the card is renamed to <code>FIRMWARE.CUR</code>.</p>
 <p>2、Enter </p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ls /dev/serial/by-id/ 
 </code></pre></div>

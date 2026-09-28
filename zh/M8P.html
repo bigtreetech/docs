@@ -1259,6 +1259,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD 卡接口
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       数控风机的电压选择
@@ -7348,6 +7357,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD 卡接口
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       数控风机的电压选择
@@ -7657,7 +7675,7 @@
 <h2 id="_5"><strong>引出线</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <p><img src=/img/M8P/M8P_Pin_Out.webp width="600" /></p>
 <p><strong>V1.0和V1.1之间的差异</strong></p>
-<p>V1.1中的更改包括：M6、M7、M8、SPI、MCU卡、RGB1和RGB2、FAN4、CAN、Pi FAN</p>
+<p>V1.1中的更改包括：M6、M7、M8、SPI、MCU-Card 相关电路、RGB1和RGB2、FAN4、CAN、Pi FAN。V1.0 和 V1.1 均设有 MCU 固件卡槽。</p>
 <p><img src=/img/M8P/M8P_Pin_Out1.webp width="600" /></p>
 <h2 id="_6"><strong>接口示意图</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <p><img src=/img/M8P/M8P_2.0_Pinout.webp width="600" /></p>
@@ -7696,6 +7714,31 @@
 <p><img src=/img/M8P/M8P_M8P+CM4.webp width="600" /></p>
 <p><strong>M8P+CB1：注意方向，如下所示。</strong></p>
 <p><img src=/img/M8P/M8P_M8P+CB1.webp width="600" /></p>
+<h3 id="sd">SD 卡接口<a class="headerlink" href="#sd" title="Permanent link">&para;</a></h3>
+<p>M8P V1.0 与 V1.1 均设有两个用途不同的 microSD 卡槽，且卡槽位置相同。下图使用 V1.1 的商品背面图，卡槽位置说明同样适用于 V1.0；勿将系统卡与 MCU 固件卡混用。</p>
+<p><img src=/img/M8P/M8P_V1_SD_Cards.webp width="600" /></p>
+<table>
+<thead>
+<tr>
+<th>卡槽</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SOC-Card</td>
+<td>供使用 microSD 卡的核心板存放系统镜像，不用于更新主板 MCU 固件。</td>
+</tr>
+<tr>
+<td>MCU-Card</td>
+<td>用于更新主板 MCU 固件，不是核心板的系统卡槽。</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">MCU-Card 使用条件</p>
+<p>通过 MCU-Card 更新固件，要求主板保留出厂自带的 Bootloader。若 Bootloader 被擦除或覆盖，该卡槽便无法执行固件更新；须先通过其他烧录方式恢复适用于此型号及硬件版本的出厂 Bootloader。</p>
+</div>
 <h3 id="_11"><strong>数控风机的电压选择</strong><a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>使用跨接线帽将输出电压设置为5V、12V或24V。注意：在选择电压之前，请确认风扇的工作电压。由于选择错误而导致风扇烧坏，我公司不承担任何责任。</p>
 <p><img src=/img/M8P/M8P_CNC_Fans.webp width="600" /></p>

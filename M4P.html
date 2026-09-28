@@ -1222,6 +1222,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd-card-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD Card Slots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#40-pin-gpio" class="md-nav__link">
     <span class="md-ellipsis">
       40 pin GPIO
@@ -7321,6 +7330,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#sd-card-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      SD Card Slots
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#40-pin-gpio" class="md-nav__link">
     <span class="md-ellipsis">
       40 pin GPIO
@@ -7628,6 +7646,31 @@
 <p><img src=img/M4P/M4P+CM4.webp width="600" /></p>
 <p><strong>M4P+CB1：Pay attention to the direction, as shown below.</strong></p>
 <p><img src=img/M4P/M4P+CB1.webp width="600" /></p>
+<h3 id="sd-card-slots">SD Card Slots<a class="headerlink" href="#sd-card-slots" title="Permanent link">&para;</a></h3>
+<p>The M4P has two SD card slots with different purposes. The image below marks their locations on the back of the motherboard: SOC-Card is next to MCU-Card. Check the markings on your board for differences between hardware revisions.</p>
+<p><img src=img/M4P/M4P_SD_Cards.webp width="600" /></p>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SOC-Card</td>
+<td>Holds the OS image for a core board that uses a microSD card; it does not update the motherboard MCU firmware.</td>
+</tr>
+<tr>
+<td>MCU-Card</td>
+<td>Updates the motherboard MCU firmware; it is not the core board's system card slot.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">MCU-Card requirement</p>
+<p>Updating firmware through the MCU-Card requires the factory-installed bootloader to remain on the motherboard. If the bootloader is erased or overwritten, this slot cannot perform firmware updates. First restore the factory bootloader for this board model and hardware revision by another flashing method.</p>
+</div>
 <h3 id="40-pin-gpio"><strong>40 pin GPIO</strong><a class="headerlink" href="#40-pin-gpio" title="Permanent link">&para;</a></h3>
 <p>When working with CM4, the pin arrangement of 40 Pin GPIO is exactly the same as that of Raspberry Pi. When working with CB1, it is a custom IO arrangement, as shown in the figure below, the 'GPIO4' in front of '_' is the IO of CM4, and the latter 'PC7' is the IO of CB1.</p>
 
